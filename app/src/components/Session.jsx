@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { buildSessionPool, pickNext, recordAnswer, bumpDailyStats, SESSION_DONE_STREAK } from '../engine/session.js';
+import { saveSettings } from '../db.js';
+import { buildSessionPool, buildMistakesPool, pickNext, recordAnswer, bumpDailyStats, SESSION_DONE_STREAK } from '../engine/session.js';
 import { checkAnswer, splitArticle } from '../engine/answer.js';
 import { buildKeyboard } from '../engine/keyboard.js';
 import { buildMcqOptions } from '../engine/mcq.js';
@@ -19,8 +20,9 @@ function speak(text, enabled) {
   }
 }
 
-export default function Session({ settings, maxLesson, onExit, onFinished }) {
+export default function Session({ settings, maxLesson, mode = 'normal', onExit, onFinished, onSettingsChange }) {
   const [pool, setPool] = useState(null);
+  const [tts, setTts] = useState(settings.tts);
   const [task, setTask] = useState(null);
   const [typed, setTyped] = useState('');
   const [article, setArticle] = useState('');
@@ -33,7 +35,8 @@ export default function Session({ settings, maxLesson, onExit, onFinished }) {
 
   useEffect(() => {
     let cancelled = false;
-    buildSessionPool(maxLesson).then(async (p) => {
+    const build = mode === 'mistakes' ? buildMistakesPool : buildSessionPool;
+    build(maxLesson).then(async (p) => {
       if (cancelled) return;
       setPool(p);
       await makeTask(p);
@@ -65,11 +68,11 @@ export default function Session({ settings, maxLesson, onExit, onFinished }) {
     const expected = parsed.answer || entry.word.es;
     const isNoun = entry.word.type === 'noun';
 
-    let mode = 'type';
+    let answerMode = 'type';
     let mcqOptions = null;
     if (entry.word.type === 'verb_form' && entry.progress.level <= settings.mcqMaxLevel) {
       mcqOptions = await buildMcqOptions(entry.word);
-      if (mcqOptions) mode = 'mcq';
+      if (mcqOptions) answerMode = 'mcq';
     }
 
     setTask({
@@ -77,9 +80,9 @@ export default function Session({ settings, maxLesson, onExit, onFinished }) {
       parsed,
       expected,
       isNoun,
-      mode,
+      mode: answerMode,
       mcqOptions,
-      keyboard: mode === 'type' ? buildKeyboard(expected, { isNoun }) : null,
+      keyboard: answerMode === 'type' ? buildKeyboard(expected, { isNoun }) : null,
     });
     setTyped('');
     setArticle('');
@@ -101,8 +104,25 @@ export default function Session({ settings, maxLesson, onExit, onFinished }) {
       done: newPool.filter((e) => e.sessionStreak >= SESSION_DONE_STREAK).length,
     }));
     await bumpDailyStats({ correct: correct ? 1 : 0, wrong: correct ? 0 : 1 });
-    speak(task.expected, settings.tts);
+    if (!correct) navigator.vibrate?.(150);
+    speak(task.expected, tts);
     setPhase('feedback');
+  }
+
+  // Odsłuch zdania przykładowego; przed oceną luka jest pomijana (nie zdradza odpowiedzi).
+  function speakSentence() {
+    const { before, answer, after } = task.parsed;
+    const gap = phase === 'feedback' ? ` ${answer} ` : ' ';
+    speak((before + gap + after).replace(/\s+/g, ' ').trim(), true);
+  }
+
+  function toggleTts() {
+    const next = !tts;
+    setTts(next);
+    if (!next && 'speechSynthesis' in window) window.speechSynthesis.cancel();
+    const updated = { ...settings, tts: next };
+    saveSettings(updated);
+    onSettingsChange?.(updated);
   }
 
   async function finish(currentPool) {
@@ -135,6 +155,13 @@ export default function Session({ settings, maxLesson, onExit, onFinished }) {
         <button className="btn ghost" onClick={() => finish(pool)}>✕</button>
         <span className="timer">{mins}:{secs}</span>
         <span className="score">✅ {counts.correct} ❌ {counts.wrong}</span>
+        <button
+          className="btn ghost"
+          title={tts ? 'Wycisz czytanie na głos' : 'Włącz czytanie na głos'}
+          onClick={toggleTts}
+        >
+          {tts ? '🔊' : '🔇'}
+        </button>
       </div>
 
       <div className="prompt">
@@ -145,7 +172,12 @@ export default function Session({ settings, maxLesson, onExit, onFinished }) {
           )}
           <span className="level-tag">poz. {task.entry.progress.level}</span>
         </div>
-        <Cloze parsed={task.parsed} revealed={phase === 'feedback'} userText={display} />
+        <div className="cloze-row">
+          <Cloze parsed={task.parsed} revealed={phase === 'feedback'} userText={display} />
+          <button className="btn ghost speak-btn" title="Odsłuchaj zdanie" onClick={speakSentence}>
+            🔊
+          </button>
+        </div>
       </div>
 
       {phase === 'answer' && task.mode === 'mcq' && (

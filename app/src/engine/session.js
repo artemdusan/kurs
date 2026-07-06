@@ -73,6 +73,7 @@ export async function recordAnswer(entry, correct) {
     }
   } else {
     p.wrongTotal++;
+    p.lastWrongAt = now;
     sessionStreak = 0;
     if (p.level > 1 && now - p.lastLevelChangeAt >= LEVEL_COOLDOWN_MS) {
       p.level--;
@@ -107,6 +108,36 @@ export async function buildSessionPool(maxLesson, poolSize = 25) {
       a.progress.level - b.progress.level || a.progress.lastSeenAt - b.progress.lastSeenAt
   );
   return entries.slice(0, poolSize);
+}
+
+export const MISTAKES_WINDOW_MS = 7 * 24 * 60 * 60 * 1000;
+
+/**
+ * Pula trybu „powtórka błędów”: słowa z błędną odpowiedzią w ostatnich 7 dniach,
+ * najświeższe błędy najpierw.
+ */
+export async function buildMistakesPool(maxLesson, poolSize = 25) {
+  const words = await db.words
+    .where('lesson')
+    .belowOrEqual(maxLesson)
+    .filter((w) => !w.deleted)
+    .toArray();
+  const progressMap = await getProgressMap(words.map((w) => w.id));
+  const cutoff = Date.now() - MISTAKES_WINDOW_MS;
+  const entries = words
+    .map((word) => ({
+      word,
+      progress: progressMap.get(word.id) || newProgress(word.id),
+      sessionStreak: 0,
+    }))
+    .filter((e) => (e.progress.lastWrongAt || 0) >= cutoff);
+  entries.sort((a, b) => b.progress.lastWrongAt - a.progress.lastWrongAt);
+  return entries.slice(0, poolSize);
+}
+
+/** Liczba słów kwalifikujących się do powtórki błędów (do przycisku na ekranie głównym). */
+export async function countRecentMistakes(maxLesson) {
+  return (await buildMistakesPool(maxLesson, Infinity)).length;
 }
 
 /** Sprawdza „floor”: czy wszystkie słowa z lekcji 1..lesson mają poziom >= floorLevel. */

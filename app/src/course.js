@@ -28,10 +28,14 @@ function uuid() {
       });
 }
 
+// Podbij, gdy zmienia się sposób budowania rekordów z plików lekcji —
+// zaimportowane lekcje zostaną wtedy zaktualizowane (bez utraty postępów).
+const CONTENT_VERSION = 2;
+
 /** Importuje słowa lekcji do bazy (idempotentnie). Zwraca liczbę nowych słów. */
 export async function ensureLessonImported(lessonNumber) {
-  const imported = new Set(await getMeta('importedLessons', []));
-  if (imported.has(lessonNumber)) return 0;
+  const versions = await getMeta('lessonContentVersions', {});
+  if (versions[lessonNumber] === CONTENT_VERSION) return 0;
 
   const index = await loadIndex();
   const entry = index.lekcje.find((l) => l.numer === lessonNumber);
@@ -66,7 +70,8 @@ export async function ensureLessonImported(lessonNumber) {
         lesson: lessonNumber,
         type: 'verb_form',
         es: form.es_word,
-        pl: `${item.pl_word} — ${describeGrammar(form.grammar)}`,
+        // polskie tłumaczenie konkretnej formy (np. "jestem (ser)"); fallback na opis gramatyczny
+        pl: form.pl_word || `${item.pl_word} — ${describeGrammar(form.grammar)}`,
         parentId,
         parentKey,
         grammar: form.grammar,
@@ -90,17 +95,32 @@ export async function ensureLessonImported(lessonNumber) {
       idByKey.set(row.naturalKey, row.id);
     }
     for (const row of rows) {
-      const existing = await db.words.where('naturalKey').equals(row.naturalKey).first();
-      if (existing) continue;
       if (row.parentKey) row.parentId = idByKey.get(row.parentKey) || row.parentId;
       delete row.parentKey;
+      const existing = await db.words.where('naturalKey').equals(row.naturalKey).first();
+      if (existing) {
+        // aktualizuj treść (id i postępy zostają); updated_at rośnie tylko przy realnej zmianie
+        const changed =
+          existing.es !== row.es ||
+          existing.pl !== row.pl ||
+          JSON.stringify(existing.examples) !== JSON.stringify(row.examples);
+        if (changed) {
+          await db.words.update(existing.id, {
+            es: row.es,
+            pl: row.pl,
+            examples: row.examples,
+            updated_at: now,
+          });
+        }
+        continue;
+      }
       await db.words.add(row);
       added++;
     }
-    const m = await db.meta.get('importedLessons');
-    const list = new Set(m ? m.value : []);
-    list.add(lessonNumber);
-    await db.meta.put({ key: 'importedLessons', value: [...list] });
+    const m = await db.meta.get('lessonContentVersions');
+    const map = m ? { ...m.value } : {};
+    map[lessonNumber] = CONTENT_VERSION;
+    await db.meta.put({ key: 'lessonContentVersions', value: map });
   });
   return added;
 }

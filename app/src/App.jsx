@@ -1,13 +1,16 @@
 import React, { useEffect, useState } from 'react';
 import { db, getMeta, setMeta, getSettings } from './db.js';
 import { loadIndex, ensureLessonImported } from './course.js';
-import { lessonFloorReached, getProgressMap } from './engine/session.js';
+import { lessonFloorReached, getProgressMap, countRecentMistakes } from './engine/session.js';
+import { syncNow, resolveSyncUrl } from './sync.js';
 import SkillTree from './components/SkillTree.jsx';
 import Session from './components/Session.jsx';
 import Settings from './components/Settings.jsx';
+import Stats from './components/Stats.jsx';
 
 export default function App() {
-  const [view, setView] = useState('loading'); // loading | tree | session | settings
+  const [view, setView] = useState('loading'); // loading | tree | session | mistakes | settings | stats
+  const [mistakeCount, setMistakeCount] = useState(0);
   const [index, setIndex] = useState(null);
   const [settings, setSettings] = useState(null);
   const [unlockedLesson, setUnlockedLesson] = useState(1);
@@ -44,6 +47,7 @@ export default function App() {
       if (level >= (settings?.floorLevel || 2)) s.mastered++;
     }
     setLessonStats(stats);
+    setMistakeCount(await countRecentMistakes(unlocked));
     setStreak(await getMeta('streak', { count: 0 }));
     const daily = await getMeta('dailyStats', {});
     const today = daily[new Date().toISOString().slice(0, 10)] || { correct: 0, wrong: 0 };
@@ -68,21 +72,35 @@ export default function App() {
       }
     }
     await refreshStats(index, unlocked);
+
+    // automatyczna synchronizacja po sesji, jeśli skonfigurowana
+    if (resolveSyncUrl(s) && s.syncLogin) {
+      syncNow()
+        .then(() => setToast((t) => t || '🔄 Zsynchronizowano'))
+        .catch((e) => setToast((t) => t || `⚠️ Synchronizacja: ${e.message}`))
+        .finally(() => setTimeout(() => setToast(''), 5000));
+    }
   }
 
   if (view === 'loading' || !settings) {
     return <div className="screen center">Wczytywanie kursu…</div>;
   }
 
-  if (view === 'session') {
+  if (view === 'session' || view === 'mistakes') {
     return (
       <Session
         settings={settings}
         maxLesson={unlockedLesson}
+        mode={view === 'mistakes' ? 'mistakes' : 'normal'}
         onExit={() => setView('tree')}
         onFinished={handleSessionFinished}
+        onSettingsChange={setSettings}
       />
     );
+  }
+
+  if (view === 'stats') {
+    return <Stats maxLesson={unlockedLesson} onBack={() => setView('tree')} />;
   }
 
   if (view === 'settings') {
@@ -106,7 +124,10 @@ export default function App() {
             Lekcja {unlockedLesson}: {current?.temat} · {current?.poziom}
           </p>
         </div>
-        <button className="btn ghost" onClick={() => setView('settings')}>⚙️</button>
+        <div>
+          <button className="btn ghost" title="Statystyki" onClick={() => setView('stats')}>📊</button>
+          <button className="btn ghost" title="Ustawienia" onClick={() => setView('settings')}>⚙️</button>
+        </div>
       </header>
 
       <div className="stats-bar">
@@ -117,6 +138,12 @@ export default function App() {
       <button className="btn primary big" onClick={() => setView('session')}>
         ▶ Rozpocznij sesję ({settings.sessionMinutes} min)
       </button>
+
+      {mistakeCount > 0 && (
+        <button className="btn mistakes-btn" onClick={() => setView('mistakes')}>
+          🔁 Powtórka błędów ({mistakeCount})
+        </button>
+      )}
 
       {toast && <div className="toast">{toast}</div>}
 

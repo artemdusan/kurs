@@ -44,6 +44,15 @@ npx wrangler deploy
 - UUID słów są generowane na urządzeniu i niezmienne.
 - `GET /dashboard` — panel administratora (tworzenie/usuwanie użytkowników, token ADMIN_TOKEN).
 - W aplikacji: Ustawienia → adres Workera + login/hasło → „Synchronizuj teraz”.
+- Adres Workera można też wstrzyknąć przy buildzie zmienną `VITE_SYNC_URL` —
+  wtedy pole w ustawieniach może zostać puste (ręczny wpis ma pierwszeństwo).
+
+## Hosting aplikacji (Cloudflare Pages)
+
+1. Cloudflare Dashboard → Workers & Pages → Create → Pages → połącz repo.
+2. Build command: `cd app && npm install && npm run build`, output directory: `app/dist`.
+3. W ustawieniach projektu Pages dodaj zmienną środowiskową buildu
+   `VITE_SYNC_URL = https://twoj-worker.workers.dev` (adres z `wrangler deploy`).
 
 ## Format lekcji
 

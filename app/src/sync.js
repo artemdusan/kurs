@@ -6,9 +6,18 @@ import { db, getMeta, setMeta, getSettings } from './db.js';
 // - konflikty: last-writer-wins po updated_at,
 // - soft delete przez pole `deleted`.
 
+// Domyślny adres Workera wstrzykiwany przy buildzie (Cloudflare Pages: zmienna VITE_SYNC_URL).
+// Ręcznie wpisany adres w ustawieniach ma pierwszeństwo.
+export const DEFAULT_SYNC_URL = import.meta.env.VITE_SYNC_URL || '';
+
+export function resolveSyncUrl(settings) {
+  return (settings.syncUrl || DEFAULT_SYNC_URL).trim().replace(/\/$/, '');
+}
+
 export async function syncNow() {
   const settings = await getSettings();
-  if (!settings.syncUrl || !settings.syncLogin) {
+  const syncUrl = resolveSyncUrl(settings);
+  if (!syncUrl || !settings.syncLogin) {
     throw new Error('Uzupełnij adres serwera i login w ustawieniach');
   }
   const lastSync = await getMeta('lastSync', 0);
@@ -16,7 +25,7 @@ export async function syncNow() {
   const changedWords = await db.words.where('updated_at').above(lastSync).toArray();
   const changedProgress = await db.progress.where('updated_at').above(lastSync).toArray();
 
-  const res = await fetch(settings.syncUrl.replace(/\/$/, '') + '/sync', {
+  const res = await fetch(syncUrl + '/sync', {
     method: 'POST',
     headers: {
       'Content-Type': 'application/json',

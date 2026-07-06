@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { saveSettings } from '../db.js';
-import { syncNow } from '../sync.js';
+import { syncNow, DEFAULT_SYNC_URL, resolveSyncUrl } from '../sync.js';
 
 export default function Settings({ settings, onChange, onBack }) {
   const [form, setForm] = useState(settings);
@@ -71,9 +71,13 @@ export default function Settings({ settings, onChange, onBack }) {
       <label className="field">
         Adres serwera (Cloudflare Worker)
         <input
-          type="url" placeholder="https://kurs.example.workers.dev"
+          type="url"
+          placeholder={DEFAULT_SYNC_URL || 'https://kurs.example.workers.dev'}
           value={form.syncUrl} onChange={(e) => set('syncUrl', e.target.value)}
         />
+        {DEFAULT_SYNC_URL && !form.syncUrl && (
+          <small className="hint">Używany domyślny adres z konfiguracji: {DEFAULT_SYNC_URL}</small>
+        )}
       </label>
       <label className="field">
         Login
@@ -90,10 +94,10 @@ export default function Settings({ settings, onChange, onBack }) {
         <button className="btn primary" disabled={syncing} onClick={doSync}>
           {syncing ? 'Synchronizuję…' : 'Synchronizuj teraz'}
         </button>
-        {form.syncUrl && (
+        {resolveSyncUrl(form) && (
           <a
             className="btn"
-            href={form.syncUrl.replace(/\/$/, '') + '/dashboard'}
+            href={resolveSyncUrl(form) + '/dashboard'}
             target="_blank" rel="noreferrer"
           >
             Dashboard
