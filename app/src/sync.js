@@ -11,7 +11,10 @@ import { db, getMeta, setMeta, getSettings } from './db.js';
 export const DEFAULT_SYNC_URL = import.meta.env.VITE_SYNC_URL || '';
 
 export function resolveSyncUrl(settings) {
-  return (settings.syncUrl || DEFAULT_SYNC_URL).trim().replace(/\/$/, '');
+  let url = (settings.syncUrl || DEFAULT_SYNC_URL).trim().replace(/\/$/, '');
+  // bez schematu przeglądarka potraktowałaby adres jako ścieżkę względną
+  if (url && !/^https?:\/\//i.test(url)) url = 'https://' + url;
+  return url;
 }
 
 export async function syncNow() {
