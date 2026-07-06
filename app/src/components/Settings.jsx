@@ -71,17 +71,18 @@ export default function Settings({ settings, onChange, onBack }) {
       </label>
 
       <h3>Synchronizacja (opcjonalna)</h3>
-      <label className="field">
-        Adres serwera (Cloudflare Worker)
-        <input
-          type="url"
-          placeholder={DEFAULT_SYNC_URL || 'https://kurs.example.workers.dev'}
-          value={form.syncUrl} onChange={(e) => set('syncUrl', e.target.value)}
-        />
-        {DEFAULT_SYNC_URL && !form.syncUrl && (
-          <small className="hint">Używany domyślny adres z konfiguracji: {DEFAULT_SYNC_URL}</small>
-        )}
-      </label>
+      {/* Adres serwera jest wstrzykiwany przy buildzie (VITE_SYNC_URL) — pole
+          pokazujemy tylko, gdy build nie ma skonfigurowanego adresu. */}
+      {!DEFAULT_SYNC_URL && (
+        <label className="field">
+          Adres serwera (Cloudflare Worker)
+          <input
+            type="url"
+            placeholder="https://kurs.example.workers.dev"
+            value={form.syncUrl} onChange={(e) => set('syncUrl', e.target.value)}
+          />
+        </label>
+      )}
       <label className="field">
         Login
         <input value={form.syncLogin} onChange={(e) => set('syncLogin', e.target.value)} />
