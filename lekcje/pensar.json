@@ -233,22 +233,18 @@
     "pl_word": "myśleć",
     "examples": [
       {
-        "es_form": "Voy a [pensar::myśleć] mañana.",
-        "pl_translation": "Będę myśleć jutro."
+        "es_form": "Quiero [pensar::myśleć] en el futuro.",
+        "pl_translation": "Chcę myśleć o przyszłości."
       },
       {
-        "es_form": "Quiero [pensar::myśleć] ahora.",
-        "pl_translation": "Chcę myśleć teraz."
-      },
-      {
-        "es_form": "Hay que [pensar::myśleć] con cuidado.",
-        "pl_translation": "Trzeba myśleć ostrożnie."
+        "es_form": "No puedo [pensar::myśleć] en el futuro hoy.",
+        "pl_translation": "Nie mogę dziś myśleć o przyszłości."
       }
     ],
     "forms": [
       {
         "es_word": "pienso",
-        "pl_word": "myślę",
+        "pl_word": "myślę (pensar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[pienso::myślę] los fines de semana?",
-            "pl_translation": "Czy myślę w weekendy?"
-          },
-          {
-            "es_form": "Normalmente [pienso::myślę] por la mañana.",
-            "pl_translation": "Zazwyczaj myślę rano."
-          },
-          {
-            "es_form": "[pienso::myślę] todos los días.",
-            "pl_translation": "Myślę codziennie."
+            "es_form": "Yo [pienso::myślę] en el futuro.",
+            "pl_translation": "Myślę o przyszłości."
           }
         ]
       },
       {
         "es_word": "piensas",
-        "pl_word": "myślisz",
+        "pl_word": "myślisz (pensar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[piensas::myślisz] los fines de semana?",
-            "pl_translation": "Czy myślisz w weekendy?"
-          },
-          {
-            "es_form": "Siempre [piensas::myślisz] con atencion.",
-            "pl_translation": "Zawsze myślisz z uwagą."
-          },
-          {
-            "es_form": "[piensas::myślisz] todos los días.",
-            "pl_translation": "Myślisz codziennie."
+            "es_form": "Tú [piensas::myślisz] en el futuro.",
+            "pl_translation": "Myślisz o przyszłości."
           }
         ]
       },
       {
         "es_word": "piensa",
-        "pl_word": "myśli",
+        "pl_word": "myśli (pensar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "[piensa::myśli] como me enseñaste.",
-            "pl_translation": "Myśli tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "¿[piensa::myśli] los fines de semana?",
-            "pl_translation": "Czy myśli w weekendy?"
-          },
-          {
-            "es_form": "Normalmente [piensa::myśli] por la mañana.",
-            "pl_translation": "Zazwyczaj myśli rano."
+            "es_form": "Él [piensa::myśli] en el futuro.",
+            "pl_translation": "Myśli o przyszłości."
           }
         ]
       },
       {
         "es_word": "pensamos",
-        "pl_word": "myślimy",
+        "pl_word": "myślimy (pensar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "No [pensamos::myślimy] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie myślimy zbyt dobrze."
-          },
-          {
-            "es_form": "[pensamos::myślimy] todos los días.",
-            "pl_translation": "Myślimy codziennie."
-          },
-          {
-            "es_form": "Siempre [pensamos::myślimy] con atencion.",
-            "pl_translation": "Zawsze myślimy z uwagą."
+            "es_form": "Nosotros [pensamos::myślimy] en el futuro.",
+            "pl_translation": "Myślimy o przyszłości."
           }
         ]
       },
       {
         "es_word": "pensáis",
-        "pl_word": "myślicie",
+        "pl_word": "myślicie (pensar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "[pensáis::myślicie] como me enseñaste.",
-            "pl_translation": "Myślicie tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Normalmente [pensáis::myślicie] por la mañana.",
-            "pl_translation": "Zazwyczaj myślicie rano."
-          },
-          {
-            "es_form": "[pensáis::myślicie] todos los días.",
-            "pl_translation": "Myślicie codziennie."
+            "es_form": "Vosotros [pensáis::myślicie] en el futuro.",
+            "pl_translation": "Myślicie o przyszłości."
           }
         ]
       },
       {
         "es_word": "piensan",
-        "pl_word": "myślą",
+        "pl_word": "myślą (pensar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [piensan::myślą] con atencion.",
-            "pl_translation": "Zawsze myślą z uwagą."
-          },
-          {
-            "es_form": "[piensan::myślą] todos los días.",
-            "pl_translation": "Myślą codziennie."
-          },
-          {
-            "es_form": "[piensan::myślą] como me enseñaste.",
-            "pl_translation": "Myślą tak jak mnie nauczyłeś"
+            "es_form": "Ellos [piensan::myślą] en el futuro.",
+            "pl_translation": "Myślą o przyszłości."
           }
         ]
       },
       {
         "es_word": "pensé",
-        "pl_word": "myślałem",
+        "pl_word": "pomyślałem (pensar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [pensé::myślałem] todo el día.",
-            "pl_translation": "Wczoraj myślałem"
-          },
-          {
-            "es_form": "Nunca [pensé::myślałem] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie myślałem"
-          },
-          {
-            "es_form": "El mes pasado no [pensé::myślałem] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie myślałem"
+            "es_form": "Yo [pensé::pomyślałem] en el futuro.",
+            "pl_translation": "Pomyślałem o przyszłości."
           }
         ]
       },
       {
         "es_word": "pensaste",
-        "pl_word": "myślałeś",
+        "pl_word": "pomyślałeś (pensar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[pensaste::myślałeś] bien el examen?",
-            "pl_translation": "Czy myślałeś"
-          },
-          {
-            "es_form": "Ayer [pensaste::myślałeś] todo el día.",
-            "pl_translation": "Wczoraj myślałeś"
-          },
-          {
-            "es_form": "El mes pasado no [pensaste::myślałeś] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie myślałeś"
+            "es_form": "Tú [pensaste::pomyślałeś] en el futuro.",
+            "pl_translation": "Pomyślałeś o przyszłości."
           }
         ]
       },
       {
         "es_word": "pensó",
-        "pl_word": "myślał",
+        "pl_word": "pomyślał (pensar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "[pensó::myślał] la semana pasada.",
-            "pl_translation": "myślał"
-          },
-          {
-            "es_form": "Nunca [pensó::myślał] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie myślał"
-          },
-          {
-            "es_form": "Ayer [pensó::myślał] todo el día.",
-            "pl_translation": "Wczoraj myślał"
+            "es_form": "Él [pensó::pomyślał] en el futuro.",
+            "pl_translation": "Pomyślał o przyszłości."
           }
         ]
       },
       {
         "es_word": "pensamos",
-        "pl_word": "myśleliśmy",
+        "pl_word": "pomyśleliśmy (pensar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [pensamos::myśleliśmy] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie myśleliśmy"
-          },
-          {
-            "es_form": "Ayer [pensamos::myśleliśmy] todo el día.",
-            "pl_translation": "Wczoraj myśleliśmy"
-          },
-          {
-            "es_form": "Nunca [pensamos::myśleliśmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie myśleliśmy"
+            "es_form": "Nosotros [pensamos::pomyśleliśmy] en el futuro.",
+            "pl_translation": "Pomyśleliśmy o przyszłości."
           }
         ]
       },
       {
         "es_word": "pensasteis",
-        "pl_word": "myśleliście",
+        "pl_word": "pomyśleliście (pensar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [pensasteis::myśleliście] todo el día.",
-            "pl_translation": "Wczoraj myśleliście"
-          },
-          {
-            "es_form": "¿[pensasteis::myśleliście] bien el examen?",
-            "pl_translation": "Czy myśleliście"
-          },
-          {
-            "es_form": "Nunca [pensasteis::myśleliście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie myśleliście"
+            "es_form": "Vosotros [pensasteis::pomyśleliście] en el futuro.",
+            "pl_translation": "Pomyśleliście o przyszłości."
           }
         ]
       },
       {
         "es_word": "pensaron",
-        "pl_word": "myśleli",
+        "pl_word": "pomyśleli (pensar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[pensaron::myśleli] bien el examen?",
-            "pl_translation": "Czy myśleli"
-          },
-          {
-            "es_form": "[pensaron::myśleli] la semana pasada.",
-            "pl_translation": "myśleli"
-          },
-          {
-            "es_form": "El mes pasado no [pensaron::myśleli] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie myśleli"
+            "es_form": "Ellos [pensaron::pomyśleli] en el futuro.",
+            "pl_translation": "Pomyśleli o przyszłości."
           }
         ]
       },
       {
         "es_word": "pensaré",
-        "pl_word": "będę myśleć",
+        "pl_word": "będę myśleć (pensar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[pensaré::będę myśleć] con nosotros mañana?",
-            "pl_translation": "Czy będę myśleć z nami jutro?"
-          },
-          {
-            "es_form": "Creo que [pensaré::będę myśleć] bien.",
-            "pl_translation": "Myślę, że będę myśleć dobrze."
-          },
-          {
-            "es_form": "Mañana [pensaré::będę myśleć] más temprano.",
-            "pl_translation": "Jutro będę myśleć wcześniej."
+            "es_form": "Yo [pensaré::będę myśleć] en el futuro.",
+            "pl_translation": "Będę myśleć o przyszłości."
           }
         ]
       },
       {
         "es_word": "pensarás",
-        "pl_word": "będziesz myśleć",
+        "pl_word": "będziesz myśleć (pensar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [pensarás::będziesz myśleć] bien.",
-            "pl_translation": "Myślę, że będziesz myśleć dobrze."
-          },
-          {
-            "es_form": "¿[pensarás::będziesz myśleć] con nosotros mañana?",
-            "pl_translation": "Czy będziesz myśleć z nami jutro?"
-          },
-          {
-            "es_form": "Te prometo que [pensarás::będziesz myśleć] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziesz myśleć na czas."
+            "es_form": "Tú [pensarás::będziesz myśleć] en el futuro.",
+            "pl_translation": "Będziesz myśleć o przyszłości."
           }
         ]
       },
       {
         "es_word": "pensará",
-        "pl_word": "będzie myśleć",
+        "pl_word": "będzie myśleć (pensar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [pensará::będzie myśleć] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będzie myśleć na czas."
-          },
-          {
-            "es_form": "[pensará::będzie myśleć] la proxima semana.",
-            "pl_translation": "Będzie myśleć w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Creo que [pensará::będzie myśleć] bien.",
-            "pl_translation": "Myślę, że będzie myśleć dobrze."
+            "es_form": "Él [pensará::będzie myśleć] en el futuro.",
+            "pl_translation": "Będzie myśleć o przyszłości."
           }
         ]
       },
       {
         "es_word": "pensaremos",
-        "pl_word": "będziemy myśleć",
+        "pl_word": "będziemy myśleć (pensar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [pensaremos::będziemy myśleć] más temprano.",
-            "pl_translation": "Jutro będziemy myśleć wcześniej."
-          },
-          {
-            "es_form": "El año que viene [pensaremos::będziemy myśleć] en España.",
-            "pl_translation": "W przyszłym roku będziemy myśleć w Hiszpanii."
-          },
-          {
-            "es_form": "[pensaremos::będziemy myśleć] la proxima semana.",
-            "pl_translation": "Będziemy myśleć w przyszłym tygodniu."
+            "es_form": "Nosotros [pensaremos::będziemy myśleć] en el futuro.",
+            "pl_translation": "Będziemy myśleć o przyszłości."
           }
         ]
       },
       {
         "es_word": "pensaréis",
-        "pl_word": "będziecie myśleć",
+        "pl_word": "będziecie myśleć (pensar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [pensaréis::będziecie myśleć] bien.",
-            "pl_translation": "Myślę, że będziecie myśleć dobrze."
-          },
-          {
-            "es_form": "[pensaréis::będziecie myśleć] la proxima semana.",
-            "pl_translation": "Będziecie myśleć w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Te prometo que [pensaréis::będziecie myśleć] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziecie myśleć na czas."
+            "es_form": "Vosotros [pensaréis::będziecie myśleć] en el futuro.",
+            "pl_translation": "Będziecie myśleć o przyszłości."
           }
         ]
       },
       {
         "es_word": "pensarán",
-        "pl_word": "będą myśleć",
+        "pl_word": "będą myśleć (pensar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [pensarán::będą myśleć] más temprano.",
-            "pl_translation": "Jutro będą myśleć wcześniej."
-          },
-          {
-            "es_form": "¿[pensarán::będą myśleć] con nosotros mañana?",
-            "pl_translation": "Czy będą myśleć z nami jutro?"
-          },
-          {
-            "es_form": "El año que viene [pensarán::będą myśleć] en España.",
-            "pl_translation": "W przyszłym roku będą myśleć w Hiszpanii."
+            "es_form": "Ellos [pensarán::będą myśleć] en el futuro.",
+            "pl_translation": "Będą myśleć o przyszłości."
           }
         ]
       }

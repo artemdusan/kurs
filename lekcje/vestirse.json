@@ -233,22 +233,18 @@
     "pl_word": "ubierać się",
     "examples": [
       {
-        "es_form": "¿Puedes [vestirse::ubierać się] más rápido?",
-        "pl_translation": "Możesz ubierać się szybciej?"
+        "es_form": "Es importante [vestirse::ubierać] rápido.",
+        "pl_translation": "Ważne jest ubierać się szybko."
       },
       {
-        "es_form": "No puedo [vestirse::ubierać się] sin tu ayuda.",
-        "pl_translation": "Nie mogę ubierać się bez twojej pomocy."
-      },
-      {
-        "es_form": "Hay que [vestirse::ubierać się] con cuidado.",
-        "pl_translation": "Trzeba ubierać się ostrożnie."
+        "es_form": "Hay que [vestirse::ubierać] rápido.",
+        "pl_translation": "Trzeba ubierać się szybko."
       }
     ],
     "forms": [
       {
-        "es_word": "me vesto",
-        "pl_word": "ubieram się",
+        "es_word": "me visto",
+        "pl_word": "ubieram (vestirse)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [me vesto::ubieram się] con atencion.",
-            "pl_translation": "Zawsze ubieram się z uwagą."
-          },
-          {
-            "es_form": "[me vesto::ubieram się] todos los días.",
-            "pl_translation": "Ubieram się codziennie."
-          },
-          {
-            "es_form": "Normalmente [me vesto::ubieram się] por la mañana.",
-            "pl_translation": "Zazwyczaj ubieram się rano."
+            "es_form": "Yo [me visto::ubieram] rápido.",
+            "pl_translation": "Ubieram się szybko."
           }
         ]
       },
       {
-        "es_word": "te vestes",
-        "pl_word": "ubierasz się",
+        "es_word": "te vistes",
+        "pl_word": "ubierasz (vestirse)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[te vestes::ubierasz się] los fines de semana?",
-            "pl_translation": "Czy ubierasz się w weekendy?"
-          },
-          {
-            "es_form": "No [te vestes::ubierasz się] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie ubierasz się zbyt dobrze."
-          },
-          {
-            "es_form": "[te vestes::ubierasz się] todos los días.",
-            "pl_translation": "Ubierasz się codziennie."
+            "es_form": "Tú [te vistes::ubierasz] rápido.",
+            "pl_translation": "Ubierasz się szybko."
           }
         ]
       },
       {
-        "es_word": "se veste",
-        "pl_word": "ubiera się",
+        "es_word": "se viste",
+        "pl_word": "ubiera (vestirse)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "[se veste::ubiera się] como me enseñaste.",
-            "pl_translation": "Ubiera się tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "No [se veste::ubiera się] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie ubiera się zbyt dobrze."
-          },
-          {
-            "es_form": "Siempre [se veste::ubiera się] con atencion.",
-            "pl_translation": "Zawsze ubiera się z uwagą."
+            "es_form": "Él [se viste::ubiera] rápido.",
+            "pl_translation": "Ubiera się szybko."
           }
         ]
       },
       {
         "es_word": "nos vestimos",
-        "pl_word": "ubieramy się",
+        "pl_word": "ubieramy (vestirse)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "[nos vestimos::ubieramy się] todos los días.",
-            "pl_translation": "Ubieramy się codziennie."
-          },
-          {
-            "es_form": "Normalmente [nos vestimos::ubieramy się] por la mañana.",
-            "pl_translation": "Zazwyczaj ubieramy się rano."
-          },
-          {
-            "es_form": "[nos vestimos::ubieramy się] como me enseñaste.",
-            "pl_translation": "Ubieramy się tak jak mnie nauczyłeś"
+            "es_form": "Nosotros [nos vestimos::ubieramy] rápido.",
+            "pl_translation": "Ubieramy się szybko."
           }
         ]
       },
       {
         "es_word": "os vestís",
-        "pl_word": "ubieracie się",
+        "pl_word": "ubieracie (vestirse)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [os vestís::ubieracie się] por la mañana.",
-            "pl_translation": "Zazwyczaj ubieracie się rano."
-          },
-          {
-            "es_form": "¿[os vestís::ubieracie się] los fines de semana?",
-            "pl_translation": "Czy ubieracie się w weekendy?"
-          },
-          {
-            "es_form": "[os vestís::ubieracie się] como me enseñaste.",
-            "pl_translation": "Ubieracie się tak jak mnie nauczyłeś"
+            "es_form": "Vosotros [os vestís::ubieracie] rápido.",
+            "pl_translation": "Ubieracie się szybko."
           }
         ]
       },
       {
-        "es_word": "se vesten",
-        "pl_word": "ubierają się",
+        "es_word": "se visten",
+        "pl_word": "ubierają (vestirse)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "No [se vesten::ubierają się] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie ubierają się zbyt dobrze."
-          },
-          {
-            "es_form": "[se vesten::ubierają się] todos los días.",
-            "pl_translation": "Ubierają się codziennie."
-          },
-          {
-            "es_form": "Normalmente [se vesten::ubierają się] por la mañana.",
-            "pl_translation": "Zazwyczaj ubierają się rano."
+            "es_form": "Ellos [se visten::ubierają] rápido.",
+            "pl_translation": "Ubierają się szybko."
           }
         ]
       },
       {
         "es_word": "me vestí",
-        "pl_word": "ubierałem się",
+        "pl_word": "ubrałem (vestirse)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "[me vestí::ubierałem się] sin parar durante horas.",
-            "pl_translation": "Ubierałem się bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "Ayer [me vestí::ubierałem się] todo el día.",
-            "pl_translation": "Wczoraj ubierałem się cały dzień."
-          },
-          {
-            "es_form": "Nunca [me vestí::ubierałem się] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie ubierałem się czegoś takiego."
+            "es_form": "Yo [me vestí::ubrałem] rápido.",
+            "pl_translation": "Ubrałem się szybko."
           }
         ]
       },
       {
         "es_word": "te vestiste",
-        "pl_word": "ubierałeś się",
+        "pl_word": "ubrałeś (vestirse)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [te vestiste::ubierałeś się] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie ubierałeś się czegoś takiego."
-          },
-          {
-            "es_form": "Ayer [te vestiste::ubierałeś się] todo el día.",
-            "pl_translation": "Wczoraj ubierałeś się cały dzień."
-          },
-          {
-            "es_form": "El mes pasado no [te vestiste::ubierałeś się] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie ubierałeś się."
+            "es_form": "Tú [te vestiste::ubrałeś] rápido.",
+            "pl_translation": "Ubrałeś się szybko."
           }
         ]
       },
       {
-        "es_word": "se vestió",
-        "pl_word": "ubierał się",
+        "es_word": "se vistió",
+        "pl_word": "ubrał (vestirse)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [se vestió::ubierał się] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie ubierał się czegoś takiego."
-          },
-          {
-            "es_form": "[se vestió::ubierał się] la semana pasada.",
-            "pl_translation": "Ubierał się w zeszłym tygodniu."
-          },
-          {
-            "es_form": "¿[se vestió::ubierał się] bien el examen?",
-            "pl_translation": "Czy ubierał się dobrze egzamin?"
+            "es_form": "Él [se vistió::ubrał] rápido.",
+            "pl_translation": "Ubrał się szybko."
           }
         ]
       },
       {
         "es_word": "nos vestimos",
-        "pl_word": "ubieraliśmy się",
+        "pl_word": "ubraliśmy (vestirse)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [nos vestimos::ubieraliśmy się] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie ubieraliśmy się."
-          },
-          {
-            "es_form": "¿[nos vestimos::ubieraliśmy się] bien el examen?",
-            "pl_translation": "Czy ubieraliśmy się dobrze egzamin?"
-          },
-          {
-            "es_form": "Ayer [nos vestimos::ubieraliśmy się] todo el día.",
-            "pl_translation": "Wczoraj ubieraliśmy się cały dzień."
+            "es_form": "Nosotros [nos vestimos::ubraliśmy] rápido.",
+            "pl_translation": "Ubraliśmy się szybko."
           }
         ]
       },
       {
         "es_word": "os vestisteis",
-        "pl_word": "ubieraliście się",
+        "pl_word": "ubraliście (vestirse)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [os vestisteis::ubieraliście się] todo el día.",
-            "pl_translation": "Wczoraj ubieraliście się cały dzień."
-          },
-          {
-            "es_form": "[os vestisteis::ubieraliście się] la semana pasada.",
-            "pl_translation": "Ubieraliście się w zeszłym tygodniu."
-          },
-          {
-            "es_form": "El mes pasado no [os vestisteis::ubieraliście się] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie ubieraliście się."
+            "es_form": "Vosotros [os vestisteis::ubraliście] rápido.",
+            "pl_translation": "Ubraliście się szybko."
           }
         ]
       },
       {
-        "es_word": "se vestieron",
-        "pl_word": "ubierali się",
+        "es_word": "se vistieron",
+        "pl_word": "ubrali (vestirse)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [se vestieron::ubierali się] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie ubierali się."
-          },
-          {
-            "es_form": "Nunca [se vestieron::ubierali się] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie ubierali się czegoś takiego."
-          },
-          {
-            "es_form": "¿[se vestieron::ubierali się] bien el examen?",
-            "pl_translation": "Czy ubierali się dobrze egzamin?"
+            "es_form": "Ellos [se vistieron::ubrali] rápido.",
+            "pl_translation": "Ubrali się szybko."
           }
         ]
       },
       {
-        "es_word": "me vesté",
-        "pl_word": "będę się ubierać",
+        "es_word": "me vestiré",
+        "pl_word": "będę ubierać (vestirse)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [me vesté::będę się ubierać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będę się ubierać na czas."
-          },
-          {
-            "es_form": "Mañana [me vesté::będę się ubierać] más temprano.",
-            "pl_translation": "Jutro będę się ubierać wcześniej."
-          },
-          {
-            "es_form": "[me vesté::będę się ubierać] la proxima semana.",
-            "pl_translation": "Będę się ubierać w przyszłym tygodniu."
+            "es_form": "Yo [me vestiré::będę ubierać] rápido.",
+            "pl_translation": "Będę ubierać się szybko."
           }
         ]
       },
       {
-        "es_word": "te vestás",
-        "pl_word": "będziesz się ubierać",
+        "es_word": "te vestirás",
+        "pl_word": "będziesz ubierać (vestirse)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [te vestás::będziesz się ubierać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziesz się ubierać na czas."
-          },
-          {
-            "es_form": "[te vestás::będziesz się ubierać] la proxima semana.",
-            "pl_translation": "Będziesz się ubierać w przyszłym tygodniu."
-          },
-          {
-            "es_form": "El año que viene [te vestás::będziesz się ubierać] en España.",
-            "pl_translation": "W przyszłym roku będziesz się ubierać w Hiszpanii."
+            "es_form": "Tú [te vestirás::będziesz ubierać] rápido.",
+            "pl_translation": "Będziesz ubierać się szybko."
           }
         ]
       },
       {
-        "es_word": "se vestá",
-        "pl_word": "będzie się ubierać",
+        "es_word": "se vestirá",
+        "pl_word": "będzie ubierać (vestirse)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [se vestá::będzie się ubierać] en España.",
-            "pl_translation": "W przyszłym roku będzie się ubierać w Hiszpanii."
-          },
-          {
-            "es_form": "Creo que [se vestá::będzie się ubierać] bien.",
-            "pl_translation": "Myślę, że będzie się ubierać dobrze."
-          },
-          {
-            "es_form": "¿[se vestá::będzie się ubierać] con nosotros mañana?",
-            "pl_translation": "Czy będzie się ubierać z nami jutro?"
+            "es_form": "Él [se vestirá::będzie ubierać] rápido.",
+            "pl_translation": "Będzie ubierać się szybko."
           }
         ]
       },
       {
-        "es_word": "nos vestemos",
-        "pl_word": "będziemy się ubierać",
+        "es_word": "nos vestiremos",
+        "pl_word": "będziemy ubierać (vestirse)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [nos vestemos::będziemy się ubierać] en España.",
-            "pl_translation": "W przyszłym roku będziemy się ubierać w Hiszpanii."
-          },
-          {
-            "es_form": "Te prometo que [nos vestemos::będziemy się ubierać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziemy się ubierać na czas."
-          },
-          {
-            "es_form": "Mañana [nos vestemos::będziemy się ubierać] más temprano.",
-            "pl_translation": "Jutro będziemy się ubierać wcześniej."
+            "es_form": "Nosotros [nos vestiremos::będziemy ubierać] rápido.",
+            "pl_translation": "Będziemy ubierać się szybko."
           }
         ]
       },
       {
-        "es_word": "os vestéis",
-        "pl_word": "będziecie się ubierać",
+        "es_word": "os vestiréis",
+        "pl_word": "będziecie ubierać (vestirse)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [os vestéis::będziecie się ubierać] en España.",
-            "pl_translation": "W przyszłym roku będziecie się ubierać w Hiszpanii."
-          },
-          {
-            "es_form": "[os vestéis::będziecie się ubierać] la proxima semana.",
-            "pl_translation": "Będziecie się ubierać w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Mañana [os vestéis::będziecie się ubierać] más temprano.",
-            "pl_translation": "Jutro będziecie się ubierać wcześniej."
+            "es_form": "Vosotros [os vestiréis::będziecie ubierać] rápido.",
+            "pl_translation": "Będziecie ubierać się szybko."
           }
         ]
       },
       {
-        "es_word": "se vestán",
-        "pl_word": "będą się ubierać",
+        "es_word": "se vestirán",
+        "pl_word": "będą ubierać (vestirse)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [se vestán::będą się ubierać] bien.",
-            "pl_translation": "Myślę, że będą się ubierać dobrze."
-          },
-          {
-            "es_form": "El año que viene [se vestán::będą się ubierać] en España.",
-            "pl_translation": "W przyszłym roku będą się ubierać w Hiszpanii."
-          },
-          {
-            "es_form": "Te prometo que [se vestán::będą się ubierać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będą się ubierać na czas."
+            "es_form": "Ellos [se vestirán::będą ubierać] rápido.",
+            "pl_translation": "Będą ubierać się szybko."
           }
         ]
       }

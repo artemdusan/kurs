@@ -233,22 +233,18 @@
     "pl_word": "projektować",
     "examples": [
       {
-        "es_form": "Es importante [diseñar::projektować] todos los días.",
-        "pl_translation": "Ważne jest projektować codziennie."
+        "es_form": "Quiero [diseñar::projektować] ropa.",
+        "pl_translation": "Chcę projektować ubrania."
       },
       {
-        "es_form": "Prefiero [diseñar::projektować] en casa.",
-        "pl_translation": "Wolę projektować w domu."
-      },
-      {
-        "es_form": "Me gusta [diseñar::projektować] por la mañana.",
-        "pl_translation": "Lubię projektować rano."
+        "es_form": "No puedo [diseñar::projektować] ropa hoy.",
+        "pl_translation": "Nie mogę dziś projektować ubrania."
       }
     ],
     "forms": [
       {
         "es_word": "diseño",
-        "pl_word": "projektuję",
+        "pl_word": "projektuję (diseñar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "No [diseño::projektuję] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie projektuję zbyt dobrze."
-          },
-          {
-            "es_form": "¿[diseño::projektuję] los fines de semana?",
-            "pl_translation": "Czy projektuję w weekendy?"
-          },
-          {
-            "es_form": "Siempre [diseño::projektuję] con atención.",
-            "pl_translation": "Zawsze projektuję z uwagą."
+            "es_form": "Yo [diseño::projektuję] ropa.",
+            "pl_translation": "Projektuję ubrania."
           }
         ]
       },
       {
         "es_word": "diseñas",
-        "pl_word": "projektujesz",
+        "pl_word": "projektujesz (diseñar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "[diseñas::projektujesz] como me enseñaste.",
-            "pl_translation": "Projektujesz tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Normalmente [diseñas::projektujesz] por la mañana.",
-            "pl_translation": "Zazwyczaj projektujesz rano."
-          },
-          {
-            "es_form": "[diseñas::projektujesz] todos los días.",
-            "pl_translation": "Projektujesz codziennie."
+            "es_form": "Tú [diseñas::projektujesz] ropa.",
+            "pl_translation": "Projektujesz ubrania."
           }
         ]
       },
       {
         "es_word": "diseña",
-        "pl_word": "projektuje",
+        "pl_word": "projektuje (diseñar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "No [diseña::projektuje] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie projektuje zbyt dobrze."
-          },
-          {
-            "es_form": "Normalmente [diseña::projektuje] por la mañana.",
-            "pl_translation": "Zazwyczaj projektuje rano."
-          },
-          {
-            "es_form": "[diseña::projektuje] todos los días.",
-            "pl_translation": "Projektuje codziennie."
+            "es_form": "Él [diseña::projektuje] ropa.",
+            "pl_translation": "Projektuje ubrania."
           }
         ]
       },
       {
         "es_word": "diseñamos",
-        "pl_word": "projektujemy",
+        "pl_word": "projektujemy (diseñar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [diseñamos::projektujemy] con atención.",
-            "pl_translation": "Zawsze projektujemy z uwagą."
-          },
-          {
-            "es_form": "Normalmente [diseñamos::projektujemy] por la mañana.",
-            "pl_translation": "Zazwyczaj projektujemy rano."
-          },
-          {
-            "es_form": "[diseñamos::projektujemy] todos los días.",
-            "pl_translation": "Projektujemy codziennie."
+            "es_form": "Nosotros [diseñamos::projektujemy] ropa.",
+            "pl_translation": "Projektujemy ubrania."
           }
         ]
       },
       {
         "es_word": "diseñáis",
-        "pl_word": "projektujecie",
+        "pl_word": "projektujecie (diseñar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [diseñáis::projektujecie] con atención.",
-            "pl_translation": "Zawsze projektujecie z uwagą."
-          },
-          {
-            "es_form": "Normalmente [diseñáis::projektujecie] por la mañana.",
-            "pl_translation": "Zazwyczaj projektujecie rano."
-          },
-          {
-            "es_form": "[diseñáis::projektujecie] como me enseñaste.",
-            "pl_translation": "Projektujecie tak jak mnie nauczyłeś"
+            "es_form": "Vosotros [diseñáis::projektujecie] ropa.",
+            "pl_translation": "Projektujecie ubrania."
           }
         ]
       },
       {
         "es_word": "diseñan",
-        "pl_word": "projektują",
+        "pl_word": "projektują (diseñar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "[diseñan::projektują] todos los días.",
-            "pl_translation": "Projektują codziennie."
-          },
-          {
-            "es_form": "No [diseñan::projektują] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie projektują zbyt dobrze."
-          },
-          {
-            "es_form": "¿[diseñan::projektują] los fines de semana?",
-            "pl_translation": "Czy projektują w weekendy?"
+            "es_form": "Ellos [diseñan::projektują] ropa.",
+            "pl_translation": "Projektują ubrania."
           }
         ]
       },
       {
         "es_word": "diseñé",
-        "pl_word": "projektowałem",
+        "pl_word": "zaprojektowałem (diseñar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [diseñé::projektowałem] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie projektowałem"
-          },
-          {
-            "es_form": "Ayer [diseñé::projektowałem] todo el día.",
-            "pl_translation": "Wczoraj projektowałem"
-          },
-          {
-            "es_form": "El mes pasado no [diseñé::projektowałem] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie projektowałem"
+            "es_form": "Yo [diseñé::zaprojektowałem] ropa.",
+            "pl_translation": "Zaprojektowałem ubrania."
           }
         ]
       },
       {
         "es_word": "diseñaste",
-        "pl_word": "projektowałeś",
+        "pl_word": "zaprojektowałeś (diseñar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[diseñaste::projektowałeś] bien el cartel?",
-            "pl_translation": "Czy zaprojektowałeś"
-          },
-          {
-            "es_form": "Nunca [diseñaste::projektowałeś] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie projektowałeś"
-          },
-          {
-            "es_form": "[diseñaste::projektowałeś] sin parar durante horas.",
-            "pl_translation": "Projektowałeś"
+            "es_form": "Tú [diseñaste::zaprojektowałeś] ropa.",
+            "pl_translation": "Zaprojektowałeś ubrania."
           }
         ]
       },
       {
         "es_word": "diseñó",
-        "pl_word": "projektował",
+        "pl_word": "zaprojektował (diseñar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "[diseñó::projektował] la semana pasada.",
-            "pl_translation": "Projektował"
-          },
-          {
-            "es_form": "¿[diseñó::projektował] bien el logotipo?",
-            "pl_translation": "Czy zaprojektował"
-          },
-          {
-            "es_form": "El mes pasado no [diseñó::projektował] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie projektował"
+            "es_form": "Él [diseñó::zaprojektował] ropa.",
+            "pl_translation": "Zaprojektował ubrania."
           }
         ]
       },
       {
         "es_word": "diseñamos",
-        "pl_word": "projektowaliśmy",
+        "pl_word": "zaprojektowaliśmy (diseñar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[diseñamos::projektowaliśmy] bien la página web?",
-            "pl_translation": "Czy zaprojektowaliśmy"
-          },
-          {
-            "es_form": "Nunca [diseñamos::projektowaliśmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie projektowaliśmy"
-          },
-          {
-            "es_form": "Ayer [diseñamos::projektowaliśmy] todo el día.",
-            "pl_translation": "Wczoraj projektowaliśmy"
+            "es_form": "Nosotros [diseñamos::zaprojektowaliśmy] ropa.",
+            "pl_translation": "Zaprojektowaliśmy ubrania."
           }
         ]
       },
       {
         "es_word": "diseñasteis",
-        "pl_word": "projektowaliście",
+        "pl_word": "zaprojektowaliście (diseñar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [diseñasteis::projektowaliście] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie projektowaliście"
-          },
-          {
-            "es_form": "[diseñasteis::projektowaliście] la semana pasada.",
-            "pl_translation": "Projektowaliście"
-          },
-          {
-            "es_form": "Ayer [diseñasteis::projektowaliście] todo el día.",
-            "pl_translation": "Wczoraj projektowaliście"
+            "es_form": "Vosotros [diseñasteis::zaprojektowaliście] ropa.",
+            "pl_translation": "Zaprojektowaliście ubrania."
           }
         ]
       },
       {
         "es_word": "diseñaron",
-        "pl_word": "projektowali",
+        "pl_word": "zaprojektowali (diseñar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [diseñaron::projektowali] todo el día.",
-            "pl_translation": "Wczoraj projektowali"
-          },
-          {
-            "es_form": "[diseñaron::projektowali] la semana pasada.",
-            "pl_translation": "Projektowali"
-          },
-          {
-            "es_form": "[diseñaron::projektowali] sin parar durante horas.",
-            "pl_translation": "Projektowali"
+            "es_form": "Ellos [diseñaron::zaprojektowali] ropa.",
+            "pl_translation": "Zaprojektowali ubrania."
           }
         ]
       },
       {
-        "es_word": "diseñé",
-        "pl_word": "będę projektował",
+        "es_word": "diseñaré",
+        "pl_word": "będę projektować (diseñar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [diseñé::będę projektował] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będę projektował"
-          },
-          {
-            "es_form": "El año que viene [diseñé::będę projektował] en España.",
-            "pl_translation": "W przyszłym roku będę projektował"
-          },
-          {
-            "es_form": "Creo que [diseñé::będę projektował] bien.",
-            "pl_translation": "Myślę, że będę projektował"
+            "es_form": "Yo [diseñaré::będę projektować] ropa.",
+            "pl_translation": "Będę projektować ubrania."
           }
         ]
       },
       {
-        "es_word": "diseñás",
-        "pl_word": "będziesz projektował",
+        "es_word": "diseñarás",
+        "pl_word": "będziesz projektować (diseñar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[diseñás::będziesz projektował] con nosotros mañana?",
-            "pl_translation": "Czy będziesz projektował"
-          },
-          {
-            "es_form": "El año que viene [diseñás::będziesz projektował] en España.",
-            "pl_translation": "W przyszłym roku będziesz projektował"
-          },
-          {
-            "es_form": "Te prometo que [diseñás::będziesz projektował] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziesz projektował"
+            "es_form": "Tú [diseñarás::będziesz projektować] ropa.",
+            "pl_translation": "Będziesz projektować ubrania."
           }
         ]
       },
       {
-        "es_word": "diseñá",
-        "pl_word": "będzie projektował",
+        "es_word": "diseñará",
+        "pl_word": "będzie projektować (diseñar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [diseñá::będzie projektował] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będzie projektował"
-          },
-          {
-            "es_form": "El año que viene [diseñá::będzie projektował] en España.",
-            "pl_translation": "W przyszłym roku będzie projektował"
-          },
-          {
-            "es_form": "Creo que [diseñá::będzie projektował] bien.",
-            "pl_translation": "Myślę, że będzie projektował"
+            "es_form": "Él [diseñará::będzie projektować] ropa.",
+            "pl_translation": "Będzie projektować ubrania."
           }
         ]
       },
       {
-        "es_word": "diseñemos",
-        "pl_word": "będziemy projektowali",
+        "es_word": "diseñaremos",
+        "pl_word": "będziemy projektować (diseñar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[diseñemos::będziemy projektowali] con nosotros mañana?",
-            "pl_translation": "Czy będziemy projektowali"
-          },
-          {
-            "es_form": "Te prometo que [diseñemos::będziemy projektowali] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziemy projektowali"
-          },
-          {
-            "es_form": "Creo que [diseñemos::będziemy projektowali] bien.",
-            "pl_translation": "Myślę, że będziemy projektowali"
+            "es_form": "Nosotros [diseñaremos::będziemy projektować] ropa.",
+            "pl_translation": "Będziemy projektować ubrania."
           }
         ]
       },
       {
-        "es_word": "diseñéis",
-        "pl_word": "będziecie projektowali",
+        "es_word": "diseñaréis",
+        "pl_word": "będziecie projektować (diseñar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [diseñéis::będziecie projektowali] bien.",
-            "pl_translation": "Myślę, że będziecie projektowali"
-          },
-          {
-            "es_form": "El año que viene [diseñéis::będziecie projektowali] en España.",
-            "pl_translation": "W przyszłym roku będziecie projektowali"
-          },
-          {
-            "es_form": "¿[diseñéis::będziecie projektowali] con nosotros mañana?",
-            "pl_translation": "Czy będziecie projektowali"
+            "es_form": "Vosotros [diseñaréis::będziecie projektować] ropa.",
+            "pl_translation": "Będziecie projektować ubrania."
           }
         ]
       },
       {
-        "es_word": "diseñán",
-        "pl_word": "będą projektowali",
+        "es_word": "diseñarán",
+        "pl_word": "będą projektować (diseñar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "[diseñán::będą projektowali] la próxima semana.",
-            "pl_translation": "Będą projektowali"
-          },
-          {
-            "es_form": "El año que viene [diseñán::będą projektowali] en España.",
-            "pl_translation": "W przyszłym roku będą projektowali"
-          },
-          {
-            "es_form": "Creo que [diseñán::będą projektowali] bien.",
-            "pl_translation": "Myślę, że będą projektowali"
+            "es_form": "Ellos [diseñarán::będą projektować] ropa.",
+            "pl_translation": "Będą projektować ubrania."
           }
         ]
       }

@@ -233,22 +233,18 @@
     "pl_word": "martwić się",
     "examples": [
       {
-        "es_form": "Es importante [preocuparse::martwić się] todos los días.",
-        "pl_translation": "Ważne jest martwić się codziennie."
+        "es_form": "Es importante [preocuparse::martwić] por todo.",
+        "pl_translation": "Ważne jest martwić się o wszystko."
       },
       {
-        "es_form": "¿Puedes [preocuparse::martwić się] más rápido?",
-        "pl_translation": "Możesz martwić się szybciej?"
-      },
-      {
-        "es_form": "No puedo [preocuparse::martwić się] sin tu ayuda.",
-        "pl_translation": "Nie mogę martwić się bez twojej pomocy."
+        "es_form": "Hay que [preocuparse::martwić] por todo.",
+        "pl_translation": "Trzeba martwić się o wszystko."
       }
     ],
     "forms": [
       {
         "es_word": "me preocupo",
-        "pl_word": "martwię się",
+        "pl_word": "martwię (preocuparse)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[me preocupo::martwię się] los fines de semana?",
-            "pl_translation": "Czy martwię się w weekendy?"
-          },
-          {
-            "es_form": "Siempre [me preocupo::martwię się] con atencion.",
-            "pl_translation": "Zawsze martwię się z uwagą."
-          },
-          {
-            "es_form": "[me preocupo::martwię się] todos los días.",
-            "pl_translation": "Martwię się codziennie."
+            "es_form": "Yo [me preocupo::martwię] por todo.",
+            "pl_translation": "Martwię się o wszystko."
           }
         ]
       },
       {
         "es_word": "te preocupas",
-        "pl_word": "martwisz się",
+        "pl_word": "martwisz (preocuparse)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "[te preocupas::martwisz się] como me enseñaste.",
-            "pl_translation": "Martwisz się tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Siempre [te preocupas::martwisz się] con atencion.",
-            "pl_translation": "Zawsze martwisz się z uwagą."
-          },
-          {
-            "es_form": "¿[te preocupas::martwisz się] los fines de semana?",
-            "pl_translation": "Czy martwisz się w weekendy?"
+            "es_form": "Tú [te preocupas::martwisz] por todo.",
+            "pl_translation": "Martwisz się o wszystko."
           }
         ]
       },
       {
         "es_word": "se preocupa",
-        "pl_word": "martwi się",
+        "pl_word": "martwi (preocuparse)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "[se preocupa::martwi się] todos los días.",
-            "pl_translation": "Martwi się codziennie."
-          },
-          {
-            "es_form": "Normalmente [se preocupa::martwi się] por la mañana.",
-            "pl_translation": "Zazwyczaj martwi się rano."
-          },
-          {
-            "es_form": "Siempre [se preocupa::martwi się] con atencion.",
-            "pl_translation": "Zawsze martwi się z uwagą."
+            "es_form": "Él [se preocupa::martwi] por todo.",
+            "pl_translation": "Martwi się o wszystko."
           }
         ]
       },
       {
         "es_word": "nos preocupamos",
-        "pl_word": "martwimy się",
+        "pl_word": "martwimy (preocuparse)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[nos preocupamos::martwimy się] los fines de semana?",
-            "pl_translation": "Czy martwimy się w weekendy?"
-          },
-          {
-            "es_form": "Siempre [nos preocupamos::martwimy się] con atencion.",
-            "pl_translation": "Zawsze martwimy się z uwagą."
-          },
-          {
-            "es_form": "No [nos preocupamos::martwimy się] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie martwimy się zbyt dobrze."
+            "es_form": "Nosotros [nos preocupamos::martwimy] por todo.",
+            "pl_translation": "Martwimy się o wszystko."
           }
         ]
       },
       {
         "es_word": "os preocupáis",
-        "pl_word": "martwicie się",
+        "pl_word": "martwicie (preocuparse)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [os preocupáis::martwicie się] por la mañana.",
-            "pl_translation": "Zazwyczaj martwicie się rano."
-          },
-          {
-            "es_form": "[os preocupáis::martwicie się] todos los días.",
-            "pl_translation": "Martwicie się codziennie."
-          },
-          {
-            "es_form": "No [os preocupáis::martwicie się] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie martwicie się zbyt dobrze."
+            "es_form": "Vosotros [os preocupáis::martwicie] por todo.",
+            "pl_translation": "Martwicie się o wszystko."
           }
         ]
       },
       {
         "es_word": "se preocupan",
-        "pl_word": "martwią się",
+        "pl_word": "martwią (preocuparse)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "[se preocupan::martwią się] como me enseñaste.",
-            "pl_translation": "Martwią się tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Normalmente [se preocupan::martwią się] por la mañana.",
-            "pl_translation": "Zazwyczaj martwią się rano."
-          },
-          {
-            "es_form": "No [se preocupan::martwią się] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie martwią się zbyt dobrze."
+            "es_form": "Ellos [se preocupan::martwią] por todo.",
+            "pl_translation": "Martwią się o wszystko."
           }
         ]
       },
       {
         "es_word": "me preocupé",
-        "pl_word": "martwiłem się",
+        "pl_word": "martwiłem (preocuparse)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [me preocupé::martwiłem się] todo el día.",
-            "pl_translation": "Wczoraj martwiłem się cały dzień."
-          },
-          {
-            "es_form": "¿[me preocupé::martwiłem się] bien el examen?",
-            "pl_translation": "Czy martwiłem się dobrze egzamin?"
-          },
-          {
-            "es_form": "[me preocupé::martwiłem się] la semana pasada.",
-            "pl_translation": "Martwiłem się w zeszłym tygodniu."
+            "es_form": "Yo [me preocupé::martwiłem] por todo.",
+            "pl_translation": "Martwiłem się o wszystko."
           }
         ]
       },
       {
         "es_word": "te preocupaste",
-        "pl_word": "martwiłeś się",
+        "pl_word": "martwiłeś (preocuparse)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [te preocupaste::martwiłeś się] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie martwiłeś się czegoś takiego."
-          },
-          {
-            "es_form": "[te preocupaste::martwiłeś się] sin parar durante horas.",
-            "pl_translation": "Martwiłeś się bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "¿[te preocupaste::martwiłeś się] bien el examen?",
-            "pl_translation": "Czy martwiłeś się dobrze egzamin?"
+            "es_form": "Tú [te preocupaste::martwiłeś] por todo.",
+            "pl_translation": "Martwiłeś się o wszystko."
           }
         ]
       },
       {
         "es_word": "se preocupó",
-        "pl_word": "martwił się",
+        "pl_word": "martwił (preocuparse)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "[se preocupó::martwił się] sin parar durante horas.",
-            "pl_translation": "Martwił się bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "El mes pasado no [se preocupó::martwił się] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie martwił się."
-          },
-          {
-            "es_form": "[se preocupó::martwił się] la semana pasada.",
-            "pl_translation": "Martwił się w zeszłym tygodniu."
+            "es_form": "Él [se preocupó::martwił] por todo.",
+            "pl_translation": "Martwił się o wszystko."
           }
         ]
       },
       {
         "es_word": "nos preocupamos",
-        "pl_word": "martwiliśmy się",
+        "pl_word": "martwiliśmy (preocuparse)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [nos preocupamos::martwiliśmy się] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie martwiliśmy się czegoś takiego."
-          },
-          {
-            "es_form": "[nos preocupamos::martwiliśmy się] sin parar durante horas.",
-            "pl_translation": "Martwiliśmy się bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "Ayer [nos preocupamos::martwiliśmy się] todo el día.",
-            "pl_translation": "Wczoraj martwiliśmy się cały dzień."
+            "es_form": "Nosotros [nos preocupamos::martwiliśmy] por todo.",
+            "pl_translation": "Martwiliśmy się o wszystko."
           }
         ]
       },
       {
         "es_word": "os preocupasteis",
-        "pl_word": "martwiliście się",
+        "pl_word": "martwiliście (preocuparse)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[os preocupasteis::martwiliście się] bien el examen?",
-            "pl_translation": "Czy martwiliście się dobrze egzamin?"
-          },
-          {
-            "es_form": "[os preocupasteis::martwiliście się] sin parar durante horas.",
-            "pl_translation": "Martwiliście się bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "[os preocupasteis::martwiliście się] la semana pasada.",
-            "pl_translation": "Martwiliście się w zeszłym tygodniu."
+            "es_form": "Vosotros [os preocupasteis::martwiliście] por todo.",
+            "pl_translation": "Martwiliście się o wszystko."
           }
         ]
       },
       {
         "es_word": "se preocuparon",
-        "pl_word": "martwili się",
+        "pl_word": "martwili (preocuparse)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [se preocuparon::martwili się] todo el día.",
-            "pl_translation": "Wczoraj martwili się cały dzień."
-          },
-          {
-            "es_form": "Nunca [se preocuparon::martwili się] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie martwili się czegoś takiego."
-          },
-          {
-            "es_form": "¿[se preocuparon::martwili się] bien el examen?",
-            "pl_translation": "Czy martwili się dobrze egzamin?"
+            "es_form": "Ellos [se preocuparon::martwili] por todo.",
+            "pl_translation": "Martwili się o wszystko."
           }
         ]
       },
       {
         "es_word": "me preocuparé",
-        "pl_word": "będę się martwić",
+        "pl_word": "będę martwić (preocuparse)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [me preocuparé::będę się martwić] más temprano.",
-            "pl_translation": "Jutro będę się martwić wcześniej."
-          },
-          {
-            "es_form": "Creo que [me preocuparé::będę się martwić] bien.",
-            "pl_translation": "Myślę, że będę się martwić dobrze."
-          },
-          {
-            "es_form": "El año que viene [me preocuparé::będę się martwić] en España.",
-            "pl_translation": "W przyszłym roku będę się martwić w Hiszpanii."
+            "es_form": "Yo [me preocuparé::będę martwić] por todo.",
+            "pl_translation": "Będę martwić się o wszystko."
           }
         ]
       },
       {
         "es_word": "te preocuparás",
-        "pl_word": "będziesz się martwić",
+        "pl_word": "będziesz martwić (preocuparse)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [te preocuparás::będziesz się martwić] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziesz się martwić na czas."
-          },
-          {
-            "es_form": "Creo que [te preocuparás::będziesz się martwić] bien.",
-            "pl_translation": "Myślę, że będziesz się martwić dobrze."
-          },
-          {
-            "es_form": "[te preocuparás::będziesz się martwić] la proxima semana.",
-            "pl_translation": "Będziesz się martwić w przyszłym tygodniu."
+            "es_form": "Tú [te preocuparás::będziesz martwić] por todo.",
+            "pl_translation": "Będziesz martwić się o wszystko."
           }
         ]
       },
       {
         "es_word": "se preocupará",
-        "pl_word": "będzie się martwić",
+        "pl_word": "będzie martwić (preocuparse)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "[se preocupará::będzie się martwić] la proxima semana.",
-            "pl_translation": "Będzie się martwić w przyszłym tygodniu."
-          },
-          {
-            "es_form": "¿[se preocupará::będzie się martwić] con nosotros mañana?",
-            "pl_translation": "Czy będzie się martwić z nami jutro?"
-          },
-          {
-            "es_form": "El año que viene [se preocupará::będzie się martwić] en España.",
-            "pl_translation": "W przyszłym roku będzie się martwić w Hiszpanii."
+            "es_form": "Él [se preocupará::będzie martwić] por todo.",
+            "pl_translation": "Będzie martwić się o wszystko."
           }
         ]
       },
       {
         "es_word": "nos preocuparemos",
-        "pl_word": "będziemy się martwić",
+        "pl_word": "będziemy martwić (preocuparse)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [nos preocuparemos::będziemy się martwić] en España.",
-            "pl_translation": "W przyszłym roku będziemy się martwić w Hiszpanii."
-          },
-          {
-            "es_form": "Creo que [nos preocuparemos::będziemy się martwić] bien.",
-            "pl_translation": "Myślę, że będziemy się martwić dobrze."
-          },
-          {
-            "es_form": "[nos preocuparemos::będziemy się martwić] la proxima semana.",
-            "pl_translation": "Będziemy się martwić w przyszłym tygodniu."
+            "es_form": "Nosotros [nos preocuparemos::będziemy martwić] por todo.",
+            "pl_translation": "Będziemy martwić się o wszystko."
           }
         ]
       },
       {
         "es_word": "os preocuparéis",
-        "pl_word": "będziecie się martwić",
+        "pl_word": "będziecie martwić (preocuparse)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [os preocuparéis::będziecie się martwić] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziecie się martwić na czas."
-          },
-          {
-            "es_form": "El año que viene [os preocuparéis::będziecie się martwić] en España.",
-            "pl_translation": "W przyszłym roku będziecie się martwić w Hiszpanii."
-          },
-          {
-            "es_form": "Creo que [os preocuparéis::będziecie się martwić] bien.",
-            "pl_translation": "Myślę, że będziecie się martwić dobrze."
+            "es_form": "Vosotros [os preocuparéis::będziecie martwić] por todo.",
+            "pl_translation": "Będziecie martwić się o wszystko."
           }
         ]
       },
       {
         "es_word": "se preocuparán",
-        "pl_word": "będą się martwić",
+        "pl_word": "będą martwić (preocuparse)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [se preocuparán::będą się martwić] bien.",
-            "pl_translation": "Myślę, że będą się martwić dobrze."
-          },
-          {
-            "es_form": "Mañana [se preocuparán::będą się martwić] más temprano.",
-            "pl_translation": "Jutro będą się martwić wcześniej."
-          },
-          {
-            "es_form": "El año que viene [se preocuparán::będą się martwić] en España.",
-            "pl_translation": "W przyszłym roku będą się martwić w Hiszpanii."
+            "es_form": "Ellos [se preocuparán::będą martwić] por todo.",
+            "pl_translation": "Będą martwić się o wszystko."
           }
         ]
       }

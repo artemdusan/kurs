@@ -233,22 +233,18 @@
     "pl_word": "iść, jechać",
     "examples": [
       {
-        "es_form": "Me gusta [ir::iść, jechać] por la mañana.",
-        "pl_translation": "Lubię iść, jechać rano."
+        "es_form": "Quiero [ir::iść] al trabajo.",
+        "pl_translation": "Chcę iść do pracy."
       },
       {
-        "es_form": "Quiero [ir::iść, jechać] ahora.",
-        "pl_translation": "Chcę iść, jechać teraz."
-      },
-      {
-        "es_form": "Hay que [ir::iść, jechać] con cuidado.",
-        "pl_translation": "Trzeba iść, jechać ostrożnie."
+        "es_form": "No puedo [ir::iść] al trabajo hoy.",
+        "pl_translation": "Nie mogę dziś iść do pracy."
       }
     ],
     "forms": [
       {
         "es_word": "voy",
-        "pl_word": "idę",
+        "pl_word": "idę (ir)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [voy::idę] por la mañana.",
-            "pl_translation": "Zazwyczaj idę"
-          },
-          {
-            "es_form": "[voy::idę] todos los días.",
-            "pl_translation": "Idę"
-          },
-          {
-            "es_form": "No [voy::idę] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie idę"
+            "es_form": "Yo [voy::idę] al trabajo.",
+            "pl_translation": "Idę do pracy."
           }
         ]
       },
       {
         "es_word": "vas",
-        "pl_word": "idziesz",
+        "pl_word": "idziesz (ir)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [vas::idziesz] por la mañana.",
-            "pl_translation": "Zazwyczaj idziesz"
-          },
-          {
-            "es_form": "[vas::idziesz] como me enseñaste.",
-            "pl_translation": "Idziesz"
-          },
-          {
-            "es_form": "[vas::idziesz] todos los días.",
-            "pl_translation": "Idziesz"
+            "es_form": "Tú [vas::idziesz] al trabajo.",
+            "pl_translation": "Idziesz do pracy."
           }
         ]
       },
       {
         "es_word": "va",
-        "pl_word": "idzie",
+        "pl_word": "idzie (ir)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "No [va::idzie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie idzie"
-          },
-          {
-            "es_form": "[va::idzie] como me enseñaste.",
-            "pl_translation": "Idzie"
-          },
-          {
-            "es_form": "Siempre [va::idzie] con atencion.",
-            "pl_translation": "Zawsze idzie"
+            "es_form": "Él [va::idzie] al trabajo.",
+            "pl_translation": "Idzie do pracy."
           }
         ]
       },
       {
         "es_word": "vamos",
-        "pl_word": "idziemy",
+        "pl_word": "idziemy (ir)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[vamos::idziemy] los fines de semana?",
-            "pl_translation": "Czy idziemy"
-          },
-          {
-            "es_form": "[vamos::idziemy] como me enseñaste.",
-            "pl_translation": "Idziemy"
-          },
-          {
-            "es_form": "Siempre [vamos::idziemy] con atencion.",
-            "pl_translation": "Zawsze idziemy"
+            "es_form": "Nosotros [vamos::idziemy] al trabajo.",
+            "pl_translation": "Idziemy do pracy."
           }
         ]
       },
       {
         "es_word": "vais",
-        "pl_word": "idziecie",
+        "pl_word": "idziecie (ir)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "No [vais::idziecie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie idziecie"
-          },
-          {
-            "es_form": "[vais::idziecie] todos los días.",
-            "pl_translation": "Idziecie"
-          },
-          {
-            "es_form": "¿[vais::idziecie] los fines de semana?",
-            "pl_translation": "Czy idziecie"
+            "es_form": "Vosotros [vais::idziecie] al trabajo.",
+            "pl_translation": "Idziecie do pracy."
           }
         ]
       },
       {
         "es_word": "van",
-        "pl_word": "idą",
+        "pl_word": "idą (ir)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "[van::idą] todos los días.",
-            "pl_translation": "Idą"
-          },
-          {
-            "es_form": "No [van::idą] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie idą"
-          },
-          {
-            "es_form": "¿[van::idą] los fines de semana?",
-            "pl_translation": "Czy idą"
+            "es_form": "Ellos [van::idą] al trabajo.",
+            "pl_translation": "Idą do pracy."
           }
         ]
       },
       {
         "es_word": "fui",
-        "pl_word": "poszedłem",
+        "pl_word": "poszedłem (ir)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "[fui::poszedłem] sin parar durante horas.",
-            "pl_translation": "Poszedłem"
-          },
-          {
-            "es_form": "Nunca [fui::poszedłem] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie poszedłem"
-          },
-          {
-            "es_form": "[fui::poszedłem] la semana pasada.",
-            "pl_translation": "Poszedłem"
+            "es_form": "Yo [fui::poszedłem] al trabajo.",
+            "pl_translation": "Poszedłem do pracy."
           }
         ]
       },
       {
         "es_word": "fuiste",
-        "pl_word": "poszedłeś",
+        "pl_word": "poszedłeś (ir)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [fuiste::poszedłeś] todo el día.",
-            "pl_translation": "Wczoraj poszedłeś"
-          },
-          {
-            "es_form": "El mes pasado no [fuiste::poszedłeś] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie poszedłeś"
-          },
-          {
-            "es_form": "¿[fuiste::poszedłeś] bien el examen?",
-            "pl_translation": "Czy poszedłeś"
+            "es_form": "Tú [fuiste::poszedłeś] al trabajo.",
+            "pl_translation": "Poszedłeś do pracy."
           }
         ]
       },
       {
         "es_word": "fue",
-        "pl_word": "poszedł",
+        "pl_word": "poszedł (ir)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [fue::poszedł] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie poszedł"
-          },
-          {
-            "es_form": "[fue::poszedł] sin parar durante horas.",
-            "pl_translation": "Poszedł"
-          },
-          {
-            "es_form": "Ayer [fue::poszedł] todo el día.",
-            "pl_translation": "Wczoraj poszedł"
+            "es_form": "Él [fue::poszedł] al trabajo.",
+            "pl_translation": "Poszedł do pracy."
           }
         ]
       },
       {
         "es_word": "fuimos",
-        "pl_word": "poszliśmy",
+        "pl_word": "poszliśmy (ir)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [fuimos::poszliśmy] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie poszliśmy"
-          },
-          {
-            "es_form": "Nunca [fuimos::poszliśmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie poszliśmy"
-          },
-          {
-            "es_form": "[fuimos::poszliśmy] sin parar durante horas.",
-            "pl_translation": "Poszliśmy"
+            "es_form": "Nosotros [fuimos::poszliśmy] al trabajo.",
+            "pl_translation": "Poszliśmy do pracy."
           }
         ]
       },
       {
         "es_word": "fuisteis",
-        "pl_word": "poszliście",
+        "pl_word": "poszliście (ir)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "[fuisteis::poszliście] sin parar durante horas.",
-            "pl_translation": "Poszliście"
-          },
-          {
-            "es_form": "Nunca [fuisteis::poszliście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie poszliście"
-          },
-          {
-            "es_form": "¿[fuisteis::poszliście] bien el examen?",
-            "pl_translation": "Czy poszliście"
+            "es_form": "Vosotros [fuisteis::poszliście] al trabajo.",
+            "pl_translation": "Poszliście do pracy."
           }
         ]
       },
       {
         "es_word": "fueron",
-        "pl_word": "poszli",
+        "pl_word": "poszli (ir)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "[fueron::poszli] la semana pasada.",
-            "pl_translation": "Poszli"
-          },
-          {
-            "es_form": "¿[fueron::poszli] bien el examen?",
-            "pl_translation": "Czy poszli"
-          },
-          {
-            "es_form": "[fueron::poszli] sin parar durante horas.",
-            "pl_translation": "Poszli"
+            "es_form": "Ellos [fueron::poszli] al trabajo.",
+            "pl_translation": "Poszli do pracy."
           }
         ]
       },
       {
         "es_word": "iré",
-        "pl_word": "pójdę",
+        "pl_word": "będę iść (ir)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [iré::pójdę] bien.",
-            "pl_translation": "Myślę, że pójdę"
-          },
-          {
-            "es_form": "El año que viene [iré::pójdę] en España.",
-            "pl_translation": "W przyszłym roku pójdę"
-          },
-          {
-            "es_form": "¿[iré::pójdę] con nosotros mañana?",
-            "pl_translation": "Czy pójdę"
+            "es_form": "Yo [iré::będę iść] al trabajo.",
+            "pl_translation": "Będę iść do pracy."
           }
         ]
       },
       {
         "es_word": "irás",
-        "pl_word": "pójdziesz",
+        "pl_word": "będziesz iść (ir)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[irás::pójdziesz] con nosotros mañana?",
-            "pl_translation": "Czy pójdziesz"
-          },
-          {
-            "es_form": "Creo que [irás::pójdziesz] bien.",
-            "pl_translation": "Myślę, że pójdziesz"
-          },
-          {
-            "es_form": "El año que viene [irás::pójdziesz] en España.",
-            "pl_translation": "W przyszłym roku pójdziesz"
+            "es_form": "Tú [irás::będziesz iść] al trabajo.",
+            "pl_translation": "Będziesz iść do pracy."
           }
         ]
       },
       {
         "es_word": "irá",
-        "pl_word": "pójdzie",
+        "pl_word": "będzie iść (ir)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "[irá::pójdzie] la proxima semana.",
-            "pl_translation": "Pójdzie"
-          },
-          {
-            "es_form": "Te prometo que [irá::pójdzie] a tiempo.",
-            "pl_translation": "Obiecuję ci, że pójdzie"
-          },
-          {
-            "es_form": "¿[irá::pójdzie] con nosotros mañana?",
-            "pl_translation": "Czy pójdzie"
+            "es_form": "Él [irá::będzie iść] al trabajo.",
+            "pl_translation": "Będzie iść do pracy."
           }
         ]
       },
       {
         "es_word": "iremos",
-        "pl_word": "pójdziemy",
+        "pl_word": "będziemy iść (ir)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [iremos::pójdziemy] bien.",
-            "pl_translation": "Myślę, że pójdziemy"
-          },
-          {
-            "es_form": "[iremos::pójdziemy] la proxima semana.",
-            "pl_translation": "Pójdziemy"
-          },
-          {
-            "es_form": "Mañana [iremos::pójdziemy] más temprano.",
-            "pl_translation": "Jutro pójdziemy"
+            "es_form": "Nosotros [iremos::będziemy iść] al trabajo.",
+            "pl_translation": "Będziemy iść do pracy."
           }
         ]
       },
       {
         "es_word": "iréis",
-        "pl_word": "pójdziecie",
+        "pl_word": "będziecie iść (ir)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [iréis::pójdziecie] en España.",
-            "pl_translation": "W przyszłym roku pójdziecie"
-          },
-          {
-            "es_form": "Te prometo que [iréis::pójdziecie] a tiempo.",
-            "pl_translation": "Obiecuję ci, że pójdziecie"
-          },
-          {
-            "es_form": "Creo que [iréis::pójdziecie] bien.",
-            "pl_translation": "Myślę, że pójdziecie"
+            "es_form": "Vosotros [iréis::będziecie iść] al trabajo.",
+            "pl_translation": "Będziecie iść do pracy."
           }
         ]
       },
       {
         "es_word": "irán",
-        "pl_word": "pójdą",
+        "pl_word": "będą iść (ir)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [irán::pójdą] a tiempo.",
-            "pl_translation": "Obiecuję ci, że pójdą"
-          },
-          {
-            "es_form": "Creo que [irán::pójdą] bien.",
-            "pl_translation": "Myślę, że pójdą"
-          },
-          {
-            "es_form": "[irán::pójdą] la proxima semana.",
-            "pl_translation": "Pójdą"
+            "es_form": "Ellos [irán::będą iść] al trabajo.",
+            "pl_translation": "Będą iść do pracy."
           }
         ]
       }

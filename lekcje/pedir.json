@@ -233,22 +233,18 @@
     "pl_word": "prosić, zamawiać",
     "examples": [
       {
-        "es_form": "Voy a [pedir::prosić, zamawiać] mañana.",
-        "pl_translation": "Będę prosić, zamawiać jutro."
+        "es_form": "Quiero [pedir::prosić] ayuda.",
+        "pl_translation": "Chcę prosić o pomoc."
       },
       {
-        "es_form": "Es importante [pedir::prosić, zamawiać] todos los días.",
-        "pl_translation": "Ważne jest prosić, zamawiać codziennie."
-      },
-      {
-        "es_form": "Hay que [pedir::prosić, zamawiać] con cuidado.",
-        "pl_translation": "Trzeba prosić, zamawiać ostrożnie."
+        "es_form": "No puedo [pedir::prosić] ayuda hoy.",
+        "pl_translation": "Nie mogę dziś prosić o pomoc."
       }
     ],
     "forms": [
       {
         "es_word": "pido",
-        "pl_word": "proszę",
+        "pl_word": "proszę (pedir)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "[pido::proszę] como me enseñaste.",
-            "pl_translation": "proszę tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "¿[pido::proszę] los fines de semana?",
-            "pl_translation": "Czy proszę w weekendy?"
-          },
-          {
-            "es_form": "Siempre [pido::proszę] con atencion.",
-            "pl_translation": "Zawsze proszę z uwagą."
+            "es_form": "Yo [pido::proszę] ayuda.",
+            "pl_translation": "Proszę o pomoc."
           }
         ]
       },
       {
         "es_word": "pides",
-        "pl_word": "prosisz",
+        "pl_word": "prosisz (pedir)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[pides::prosisz] los fines de semana?",
-            "pl_translation": "Czy prosisz w weekendy?"
-          },
-          {
-            "es_form": "No [pides::prosisz] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie prosisz zbyt dobrze."
-          },
-          {
-            "es_form": "[pides::prosisz] como me enseñaste.",
-            "pl_translation": "prosisz tak jak mnie nauczyłeś"
+            "es_form": "Tú [pides::prosisz] ayuda.",
+            "pl_translation": "Prosisz o pomoc."
           }
         ]
       },
       {
         "es_word": "pide",
-        "pl_word": "prosi",
+        "pl_word": "prosi (pedir)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "[pide::prosi] todos los días.",
-            "pl_translation": "prosi codziennie."
-          },
-          {
-            "es_form": "Siempre [pide::prosi] con atencion.",
-            "pl_translation": "Zawsze prosi z uwagą."
-          },
-          {
-            "es_form": "No [pide::prosi] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie prosi zbyt dobrze."
+            "es_form": "Él [pide::prosi] ayuda.",
+            "pl_translation": "Prosi o pomoc."
           }
         ]
       },
       {
         "es_word": "pedimos",
-        "pl_word": "prosimy",
+        "pl_word": "prosimy (pedir)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [pedimos::prosimy] con atencion.",
-            "pl_translation": "Zawsze prosimy z uwagą."
-          },
-          {
-            "es_form": "No [pedimos::prosimy] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie prosimy zbyt dobrze."
-          },
-          {
-            "es_form": "[pedimos::prosimy] todos los días.",
-            "pl_translation": "prosimy codziennie."
+            "es_form": "Nosotros [pedimos::prosimy] ayuda.",
+            "pl_translation": "Prosimy o pomoc."
           }
         ]
       },
       {
         "es_word": "pedís",
-        "pl_word": "prosicie",
+        "pl_word": "prosicie (pedir)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "[pedís::prosicie] todos los días.",
-            "pl_translation": "prosicie codziennie."
-          },
-          {
-            "es_form": "No [pedís::prosicie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie prosicie zbyt dobrze."
-          },
-          {
-            "es_form": "¿[pedís::prosicie] los fines de semana?",
-            "pl_translation": "Czy prosicie w weekendy?"
+            "es_form": "Vosotros [pedís::prosicie] ayuda.",
+            "pl_translation": "Prosicie o pomoc."
           }
         ]
       },
       {
         "es_word": "piden",
-        "pl_word": "proszą",
+        "pl_word": "proszą (pedir)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "[piden::proszą] como me enseñaste.",
-            "pl_translation": "proszą tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "¿[piden::proszą] los fines de semana?",
-            "pl_translation": "Czy proszą w weekendy?"
-          },
-          {
-            "es_form": "Siempre [piden::proszą] con atencion.",
-            "pl_translation": "Zawsze proszą z uwagą."
+            "es_form": "Ellos [piden::proszą] ayuda.",
+            "pl_translation": "Proszą o pomoc."
           }
         ]
       },
       {
         "es_word": "pedí",
-        "pl_word": "prosiłem",
+        "pl_word": "poprosiłem (pedir)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [pedí::prosiłem] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie prosiłem czegoś takiego."
-          },
-          {
-            "es_form": "[pedí::prosiłem] sin parar durante horas.",
-            "pl_translation": "prosiłem bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "El mes pasado no [pedí::prosiłem] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie prosiłem."
+            "es_form": "Yo [pedí::poprosiłem] ayuda.",
+            "pl_translation": "Poprosiłem o pomoc."
           }
         ]
       },
       {
         "es_word": "pediste",
-        "pl_word": "prosiłeś",
+        "pl_word": "poprosiłeś (pedir)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [pediste::prosiłeś] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie prosiłeś czegoś takiego."
-          },
-          {
-            "es_form": "[pediste::prosiłeś] sin parar durante horas.",
-            "pl_translation": "prosiłeś bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "[pediste::prosiłeś] la semana pasada.",
-            "pl_translation": "prosiłeś w zeszłym tygodniu."
+            "es_form": "Tú [pediste::poprosiłeś] ayuda.",
+            "pl_translation": "Poprosiłeś o pomoc."
           }
         ]
       },
       {
         "es_word": "pidió",
-        "pl_word": "prosił",
+        "pl_word": "poprosił (pedir)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "[pidió::prosił] la semana pasada.",
-            "pl_translation": "prosił w zeszłym tygodniu."
-          },
-          {
-            "es_form": "[pidió::prosił] sin parar durante horas.",
-            "pl_translation": "prosił bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "Nunca [pidió::prosił] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie prosił czegoś takiego."
+            "es_form": "Él [pidió::poprosił] ayuda.",
+            "pl_translation": "Poprosił o pomoc."
           }
         ]
       },
       {
         "es_word": "pedimos",
-        "pl_word": "prosiliśmy",
+        "pl_word": "poprosiliśmy (pedir)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [pedimos::prosiliśmy] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie prosiliśmy."
-          },
-          {
-            "es_form": "Nunca [pedimos::prosiliśmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie prosiliśmy czegoś takiego."
-          },
-          {
-            "es_form": "[pedimos::prosiliśmy] la semana pasada.",
-            "pl_translation": "prosiliśmy w zeszłym tygodniu."
+            "es_form": "Nosotros [pedimos::poprosiliśmy] ayuda.",
+            "pl_translation": "Poprosiliśmy o pomoc."
           }
         ]
       },
       {
         "es_word": "pedisteis",
-        "pl_word": "prosiliście",
+        "pl_word": "poprosiliście (pedir)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [pedisteis::prosiliście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie prosiliście czegoś takiego."
-          },
-          {
-            "es_form": "[pedisteis::prosiliście] la semana pasada.",
-            "pl_translation": "prosiliście w zeszłym tygodniu."
-          },
-          {
-            "es_form": "[pedisteis::prosiliście] sin parar durante horas.",
-            "pl_translation": "prosiliście bez przerwy przez wiele godzin."
+            "es_form": "Vosotros [pedisteis::poprosiliście] ayuda.",
+            "pl_translation": "Poprosiliście o pomoc."
           }
         ]
       },
       {
         "es_word": "pidieron",
-        "pl_word": "prosili",
+        "pl_word": "poprosili (pedir)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "[pidieron::prosili] sin parar durante horas.",
-            "pl_translation": "prosili bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "Nunca [pidieron::prosili] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie prosili czegoś takiego."
-          },
-          {
-            "es_form": "El mes pasado no [pidieron::prosili] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie prosili."
+            "es_form": "Ellos [pidieron::poprosili] ayuda.",
+            "pl_translation": "Poprosili o pomoc."
           }
         ]
       },
       {
         "es_word": "pediré",
-        "pl_word": "będę prosić",
+        "pl_word": "będę prosić (pedir)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [pediré::będę prosić] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będę będę będę prosić na czas."
-          },
-          {
-            "es_form": "Mañana [pediré::będę prosić] más temprano.",
-            "pl_translation": "Jutro będę będę będę będę będę prosić wcześniej."
-          },
-          {
-            "es_form": "El año que viene [pediré::będę prosić] en España.",
-            "pl_translation": "W przyszłym roku będę będę będę będę będę prosić w Hiszpanii."
+            "es_form": "Yo [pediré::będę prosić] ayuda.",
+            "pl_translation": "Będę prosić o pomoc."
           }
         ]
       },
       {
         "es_word": "pedirás",
-        "pl_word": "będziesz prosić",
+        "pl_word": "będziesz prosić (pedir)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[pedirás::będziesz prosić] con nosotros mañana?",
-            "pl_translation": "Czy będziesz będziesz będziesz będziesz będziesz prosić z nami jutro?"
-          },
-          {
-            "es_form": "Creo que [pedirás::będziesz prosić] bien.",
-            "pl_translation": "Myślę, że będziesz będziesz będziesz prosić dobrze."
-          },
-          {
-            "es_form": "Te prometo que [pedirás::będziesz prosić] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziesz będziesz będziesz prosić na czas."
+            "es_form": "Tú [pedirás::będziesz prosić] ayuda.",
+            "pl_translation": "Będziesz prosić o pomoc."
           }
         ]
       },
       {
         "es_word": "pedirá",
-        "pl_word": "będzie prosić",
+        "pl_word": "będzie prosić (pedir)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [pedirá::będzie prosić] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będzie będzie będzie prosić na czas."
-          },
-          {
-            "es_form": "Creo que [pedirá::będzie prosić] bien.",
-            "pl_translation": "Myślę, że będzie będzie będzie prosić dobrze."
-          },
-          {
-            "es_form": "¿[pedirá::będzie prosić] con nosotros mañana?",
-            "pl_translation": "Czy będzie będzie będzie będzie będzie prosić z nami jutro?"
+            "es_form": "Él [pedirá::będzie prosić] ayuda.",
+            "pl_translation": "Będzie prosić o pomoc."
           }
         ]
       },
       {
         "es_word": "pediremos",
-        "pl_word": "będziemy prosić",
+        "pl_word": "będziemy prosić (pedir)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [pediremos::będziemy prosić] en España.",
-            "pl_translation": "W przyszłym roku będziemy będziemy będziemy będziemy będziemy prosić w Hiszpanii."
-          },
-          {
-            "es_form": "Creo que [pediremos::będziemy prosić] bien.",
-            "pl_translation": "Myślę, że będziemy będziemy będziemy prosić dobrze."
-          },
-          {
-            "es_form": "Mañana [pediremos::będziemy prosić] más temprano.",
-            "pl_translation": "Jutro będziemy będziemy będziemy będziemy będziemy prosić wcześniej."
+            "es_form": "Nosotros [pediremos::będziemy prosić] ayuda.",
+            "pl_translation": "Będziemy prosić o pomoc."
           }
         ]
       },
       {
         "es_word": "pediréis",
-        "pl_word": "będziecie prosić",
+        "pl_word": "będziecie prosić (pedir)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[pediréis::będziecie prosić] con nosotros mañana?",
-            "pl_translation": "Czy będziecie będziecie będziecie będziecie będziecie prosić z nami jutro?"
-          },
-          {
-            "es_form": "Mañana [pediréis::będziecie prosić] más temprano.",
-            "pl_translation": "Jutro będziecie będziecie będziecie będziecie będziecie prosić wcześniej."
-          },
-          {
-            "es_form": "Creo que [pediréis::będziecie prosić] bien.",
-            "pl_translation": "Myślę, że będziecie będziecie będziecie prosić dobrze."
+            "es_form": "Vosotros [pediréis::będziecie prosić] ayuda.",
+            "pl_translation": "Będziecie prosić o pomoc."
           }
         ]
       },
       {
         "es_word": "pedirán",
-        "pl_word": "będą prosić",
+        "pl_word": "będą prosić (pedir)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "[pedirán::będą prosić] la proxima semana.",
-            "pl_translation": "będą będą prosić w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Mañana [pedirán::będą prosić] más temprano.",
-            "pl_translation": "Jutro będą będą będą będą będą prosić wcześniej."
-          },
-          {
-            "es_form": "Te prometo que [pedirán::będą prosić] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będą będą będą prosić na czas."
+            "es_form": "Ellos [pedirán::będą prosić] ayuda.",
+            "pl_translation": "Będą prosić o pomoc."
           }
         ]
       }

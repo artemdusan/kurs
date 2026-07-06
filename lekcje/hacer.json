@@ -233,22 +233,18 @@
     "pl_word": "robić",
     "examples": [
       {
-        "es_form": "Es importante [hacer::robić] todos los días.",
-        "pl_translation": "Ważne jest robić codziennie."
+        "es_form": "Quiero [hacer::robić] la tarea.",
+        "pl_translation": "Chcę robić zadanie."
       },
       {
-        "es_form": "¿Puedes [hacer::robić] más rápido?",
-        "pl_translation": "Możesz robić szybciej?"
-      },
-      {
-        "es_form": "Voy a [hacer::robić] mañana.",
-        "pl_translation": "Będę robić jutro."
+        "es_form": "No puedo [hacer::robić] la tarea hoy.",
+        "pl_translation": "Nie mogę dziś robić zadanie."
       }
     ],
     "forms": [
       {
         "es_word": "hago",
-        "pl_word": "robię",
+        "pl_word": "robię (hacer)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [hago::robię] con atencion.",
-            "pl_translation": "Zawsze robię z uwagą."
-          },
-          {
-            "es_form": "[hago::robię] todos los días.",
-            "pl_translation": "Robię codziennie."
-          },
-          {
-            "es_form": "Normalmente [hago::robię] por la mañana.",
-            "pl_translation": "Zazwyczaj robię rano."
+            "es_form": "Yo [hago::robię] la tarea.",
+            "pl_translation": "Robię zadanie."
           }
         ]
       },
       {
         "es_word": "haces",
-        "pl_word": "robisz",
+        "pl_word": "robisz (hacer)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [haces::robisz] por la mañana.",
-            "pl_translation": "Zazwyczaj robisz rano."
-          },
-          {
-            "es_form": "[haces::robisz] todos los días.",
-            "pl_translation": "Robisz codziennie."
-          },
-          {
-            "es_form": "Siempre [haces::robisz] con atencion.",
-            "pl_translation": "Zawsze robisz z uwagą."
+            "es_form": "Tú [haces::robisz] la tarea.",
+            "pl_translation": "Robisz zadanie."
           }
         ]
       },
       {
         "es_word": "hace",
-        "pl_word": "robi",
+        "pl_word": "robi (hacer)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[hace::robi] los fines de semana?",
-            "pl_translation": "Czy robi w weekendy?"
-          },
-          {
-            "es_form": "[hace::robi] como me enseñaste.",
-            "pl_translation": "Robi tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Siempre [hace::robi] con atencion.",
-            "pl_translation": "Zawsze robi z uwagą."
+            "es_form": "Él [hace::robi] la tarea.",
+            "pl_translation": "Robi zadanie."
           }
         ]
       },
       {
         "es_word": "hacemos",
-        "pl_word": "robimy",
+        "pl_word": "robimy (hacer)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "No [hacemos::robimy] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie robimy zbyt dobrze."
-          },
-          {
-            "es_form": "Normalmente [hacemos::robimy] por la mañana.",
-            "pl_translation": "Zazwyczaj robimy rano."
-          },
-          {
-            "es_form": "[hacemos::robimy] como me enseñaste.",
-            "pl_translation": "Robimy tak jak mnie nauczyłeś"
+            "es_form": "Nosotros [hacemos::robimy] la tarea.",
+            "pl_translation": "Robimy zadanie."
           }
         ]
       },
       {
         "es_word": "hacéis",
-        "pl_word": "robicie",
+        "pl_word": "robicie (hacer)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [hacéis::robicie] con atencion.",
-            "pl_translation": "Zawsze robicie z uwagą."
-          },
-          {
-            "es_form": "[hacéis::robicie] como me enseñaste.",
-            "pl_translation": "Robicie tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "No [hacéis::robicie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie robicie zbyt dobrze."
+            "es_form": "Vosotros [hacéis::robicie] la tarea.",
+            "pl_translation": "Robicie zadanie."
           }
         ]
       },
       {
         "es_word": "hacen",
-        "pl_word": "robią",
+        "pl_word": "robią (hacer)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [hacen::robią] con atencion.",
-            "pl_translation": "Zawsze robią z uwagą."
-          },
-          {
-            "es_form": "¿[hacen::robią] los fines de semana?",
-            "pl_translation": "Czy robią w weekendy?"
-          },
-          {
-            "es_form": "No [hacen::robią] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie robią zbyt dobrze."
+            "es_form": "Ellos [hacen::robią] la tarea.",
+            "pl_translation": "Robią zadanie."
           }
         ]
       },
       {
         "es_word": "hice",
-        "pl_word": "robiłem",
+        "pl_word": "zrobiłem (hacer)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[hice::robiłem] bien el examen?",
-            "pl_translation": "Czy robiłem"
-          },
-          {
-            "es_form": "Ayer [hice::robiłem] todo el día.",
-            "pl_translation": "Wczoraj robiłem"
-          },
-          {
-            "es_form": "[hice::robiłem] sin parar durante horas.",
-            "pl_translation": "Robiłem"
+            "es_form": "Yo [hice::zrobiłem] la tarea.",
+            "pl_translation": "Zrobiłem zadanie."
           }
         ]
       },
       {
         "es_word": "hiciste",
-        "pl_word": "robiłeś",
+        "pl_word": "zrobiłeś (hacer)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [hiciste::robiłeś] todo el día.",
-            "pl_translation": "Wczoraj robiłeś"
-          },
-          {
-            "es_form": "¿[hiciste::robiłeś] bien el examen?",
-            "pl_translation": "Czy robiłeś"
-          },
-          {
-            "es_form": "Nunca [hiciste::robiłeś] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie robiłeś"
+            "es_form": "Tú [hiciste::zrobiłeś] la tarea.",
+            "pl_translation": "Zrobiłeś zadanie."
           }
         ]
       },
       {
         "es_word": "hizo",
-        "pl_word": "robił",
+        "pl_word": "zrobił (hacer)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [hizo::robił] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie robił"
-          },
-          {
-            "es_form": "[hizo::robił] sin parar durante horas.",
-            "pl_translation": "Robił"
-          },
-          {
-            "es_form": "Ayer [hizo::robił] todo el día.",
-            "pl_translation": "Wczoraj robił"
+            "es_form": "Él [hizo::zrobił] la tarea.",
+            "pl_translation": "Zrobił zadanie."
           }
         ]
       },
       {
         "es_word": "hicimos",
-        "pl_word": "robiliśmy",
+        "pl_word": "zrobiliśmy (hacer)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [hicimos::robiliśmy] todo el día.",
-            "pl_translation": "Wczoraj robiliśmy"
-          },
-          {
-            "es_form": "[hicimos::robiliśmy] la semana pasada.",
-            "pl_translation": "Robiłismy"
-          },
-          {
-            "es_form": "Nunca [hicimos::robiliśmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie robiliśmy"
+            "es_form": "Nosotros [hicimos::zrobiliśmy] la tarea.",
+            "pl_translation": "Zrobiliśmy zadanie."
           }
         ]
       },
       {
         "es_word": "hicisteis",
-        "pl_word": "robiliście",
+        "pl_word": "zrobiliście (hacer)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "[hicisteis::robiliście] sin parar durante horas.",
-            "pl_translation": "Robiłiscie"
-          },
-          {
-            "es_form": "Ayer [hicisteis::robiliście] todo el día.",
-            "pl_translation": "Wczoraj robiliście"
-          },
-          {
-            "es_form": "Nunca [hicisteis::robiliście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie robiliście"
+            "es_form": "Vosotros [hicisteis::zrobiliście] la tarea.",
+            "pl_translation": "Zrobiliście zadanie."
           }
         ]
       },
       {
         "es_word": "hicieron",
-        "pl_word": "robili",
+        "pl_word": "zrobili (hacer)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [hicieron::robili] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie robili"
-          },
-          {
-            "es_form": "[hicieron::robili] sin parar durante horas.",
-            "pl_translation": "Robiłi"
-          },
-          {
-            "es_form": "Ayer [hicieron::robili] todo el día.",
-            "pl_translation": "Wczoraj robili"
+            "es_form": "Ellos [hicieron::zrobili] la tarea.",
+            "pl_translation": "Zrobili zadanie."
           }
         ]
       },
       {
         "es_word": "haré",
-        "pl_word": "zrobię",
+        "pl_word": "będę robić (hacer)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "[haré::zrobię] la proxima semana.",
-            "pl_translation": "Zrobię w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Creo que [haré::zrobię] bien.",
-            "pl_translation": "Myślę, że zrobię dobrze."
-          },
-          {
-            "es_form": "¿[haré::zrobię] con nosotros mañana?",
-            "pl_translation": "Czy zrobię z nami jutro?"
+            "es_form": "Yo [haré::będę robić] la tarea.",
+            "pl_translation": "Będę robić zadanie."
           }
         ]
       },
       {
         "es_word": "harás",
-        "pl_word": "zrobisz",
+        "pl_word": "będziesz robić (hacer)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [harás::zrobisz] a tiempo.",
-            "pl_translation": "Obiecuję ci, że zrobisz na czas."
-          },
-          {
-            "es_form": "Creo que [harás::zrobisz] bien.",
-            "pl_translation": "Myślę, że zrobisz dobrze."
-          },
-          {
-            "es_form": "El año que viene [harás::zrobisz] en España.",
-            "pl_translation": "W przyszłym roku zrobisz w Hiszpanii."
+            "es_form": "Tú [harás::będziesz robić] la tarea.",
+            "pl_translation": "Będziesz robić zadanie."
           }
         ]
       },
       {
         "es_word": "hará",
-        "pl_word": "zrobi",
+        "pl_word": "będzie robić (hacer)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "[hará::zrobi] la proxima semana.",
-            "pl_translation": "Zrobi w przyszłym tygodniu."
-          },
-          {
-            "es_form": "¿[hará::zrobi] con nosotros mañana?",
-            "pl_translation": "Czy zrobi z nami jutro?"
-          },
-          {
-            "es_form": "Creo que [hará::zrobi] bien.",
-            "pl_translation": "Myślę, że zrobi dobrze."
+            "es_form": "Él [hará::będzie robić] la tarea.",
+            "pl_translation": "Będzie robić zadanie."
           }
         ]
       },
       {
         "es_word": "haremos",
-        "pl_word": "zrobimy",
+        "pl_word": "będziemy robić (hacer)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [haremos::zrobimy] a tiempo.",
-            "pl_translation": "Obiecuję ci, że zrobimy na czas."
-          },
-          {
-            "es_form": "Creo que [haremos::zrobimy] bien.",
-            "pl_translation": "Myślę, że zrobimy dobrze."
-          },
-          {
-            "es_form": "Mañana [haremos::zrobimy] más temprano.",
-            "pl_translation": "Jutro zrobimy wcześniej."
+            "es_form": "Nosotros [haremos::będziemy robić] la tarea.",
+            "pl_translation": "Będziemy robić zadanie."
           }
         ]
       },
       {
         "es_word": "haréis",
-        "pl_word": "zrobicie",
+        "pl_word": "będziecie robić (hacer)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [haréis::zrobicie] bien.",
-            "pl_translation": "Myślę, że zrobicie dobrze."
-          },
-          {
-            "es_form": "El año que viene [haréis::zrobicie] en España.",
-            "pl_translation": "W przyszłym roku zrobicie w Hiszpanii."
-          },
-          {
-            "es_form": "Te prometo que [haréis::zrobicie] a tiempo.",
-            "pl_translation": "Obiecuję ci, że zrobicie na czas."
+            "es_form": "Vosotros [haréis::będziecie robić] la tarea.",
+            "pl_translation": "Będziecie robić zadanie."
           }
         ]
       },
       {
         "es_word": "harán",
-        "pl_word": "zrobią",
+        "pl_word": "będą robić (hacer)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [harán::zrobią] más temprano.",
-            "pl_translation": "Jutro zrobią wcześniej."
-          },
-          {
-            "es_form": "[harán::zrobią] la proxima semana.",
-            "pl_translation": "Zrobią w przyszłym tygodniu."
-          },
-          {
-            "es_form": "El año que viene [harán::zrobią] en España.",
-            "pl_translation": "W przyszłym roku zrobią w Hiszpanii."
+            "es_form": "Ellos [harán::będą robić] la tarea.",
+            "pl_translation": "Będą robić zadanie."
           }
         ]
       }

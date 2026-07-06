@@ -233,22 +233,18 @@
     "pl_word": "padać (o deszczu)",
     "examples": [
       {
-        "es_form": "Va a [llover::padać] mañana.",
+        "es_form": "Va a [llover] mañana.",
         "pl_translation": "Jutro będzie padać."
       },
       {
-        "es_form": "Parece que va a [llover::padać].",
-        "pl_translation": "Wygląda na to, że będzie padać."
-      },
-      {
-        "es_form": "No deja de [llover::padać].",
-        "pl_translation": "Nie przestaje padać."
+        "es_form": "Empieza a [llover].",
+        "pl_translation": "Zaczyna padać."
       }
     ],
     "forms": [
       {
         "es_word": "llueve",
-        "pl_word": "pada",
+        "pl_word": "pada (llover)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[llueve::pada] los fines de semana?",
-            "pl_translation": "Czy pada w weekendy?"
-          },
-          {
             "es_form": "Hoy [llueve::pada] mucho.",
-            "pl_translation": "Dzisiaj bardzo pada."
-          },
-          {
-            "es_form": "Normalmente [llueve::pada] por la mañana.",
-            "pl_translation": "Zazwyczaj pada rano."
+            "pl_translation": "Dziś mocno pada."
           }
         ]
       },
       {
         "es_word": "llovió",
-        "pl_word": "padało",
+        "pl_word": "padało (llover)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [llovió::padało] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie padało."
-          },
-          {
-            "es_form": "[llovió::padało] la semana pasada.",
-            "pl_translation": "Padało w zeszłym tygodniu."
-          },
-          {
-            "es_form": "Ayer [llovió::padało] todo el día.",
-            "pl_translation": "Wczoraj padało cały dzień."
+            "es_form": "Ayer [llovió::padało] mucho.",
+            "pl_translation": "Wczoraj mocno padało."
           }
         ]
       },
       {
         "es_word": "lloverá",
-        "pl_word": "będzie padać",
+        "pl_word": "będzie padać (llover)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -302,16 +282,8 @@
         },
         "examples": [
           {
-            "es_form": "[lloverá::będzie padać] la próxima semana.",
-            "pl_translation": "Będzie padać w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Mañana [lloverá::będzie padać].",
-            "pl_translation": "Jutro będzie padać."
-          },
-          {
-            "es_form": "El año que viene [lloverá::będzie padać] en España.",
-            "pl_translation": "W przyszłym roku będzie padać w Hiszpanii."
+            "es_form": "Mañana [lloverá::będzie padać] mucho.",
+            "pl_translation": "Jutro będzie mocno padać."
           }
         ]
       }

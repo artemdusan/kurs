@@ -233,22 +233,18 @@
     "pl_word": "mieć",
     "examples": [
       {
-        "es_form": "Prefiero [tener::mieć] en casa.",
-        "pl_translation": "Wolę mieć w domu."
+        "es_form": "Quiero [tener::mieć] tiempo.",
+        "pl_translation": "Chcę mieć czas."
       },
       {
-        "es_form": "¿Puedes [tener::mieć] más rápido?",
-        "pl_translation": "Możesz mieć szybciej?"
-      },
-      {
-        "es_form": "Es importante [tener::mieć] todos los días.",
-        "pl_translation": "Ważne jest mieć codziennie."
+        "es_form": "No puedo [tener::mieć] tiempo hoy.",
+        "pl_translation": "Nie mogę dziś mieć czas."
       }
     ],
     "forms": [
       {
         "es_word": "tengo",
-        "pl_word": "mam",
+        "pl_word": "mam (tener)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "No [tengo::mam] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie mam zbyt dobrze."
-          },
-          {
-            "es_form": "¿[tengo::mam] los fines de semana?",
-            "pl_translation": "Czy mam w weekendy?"
-          },
-          {
-            "es_form": "Normalmente [tengo::mam] por la mañana.",
-            "pl_translation": "Zazwyczaj mam rano."
+            "es_form": "Yo [tengo::mam] tiempo.",
+            "pl_translation": "Mam czas."
           }
         ]
       },
       {
         "es_word": "tienes",
-        "pl_word": "masz",
+        "pl_word": "masz (tener)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [tienes::masz] por la mañana.",
-            "pl_translation": "Zazwyczaj masz rano."
-          },
-          {
-            "es_form": "[tienes::masz] como me enseñaste.",
-            "pl_translation": "Masz tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "¿[tienes::masz] los fines de semana?",
-            "pl_translation": "Czy masz w weekendy?"
+            "es_form": "Tú [tienes::masz] tiempo.",
+            "pl_translation": "Masz czas."
           }
         ]
       },
       {
         "es_word": "tiene",
-        "pl_word": "ma",
+        "pl_word": "ma (tener)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [tiene::ma] por la mañana.",
-            "pl_translation": "Zazwyczaj ma rano."
-          },
-          {
-            "es_form": "[tiene::ma] todos los días.",
-            "pl_translation": "Ma codziennie."
-          },
-          {
-            "es_form": "No [tiene::ma] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie ma zbyt dobrze."
+            "es_form": "Él [tiene::ma] tiempo.",
+            "pl_translation": "Ma czas."
           }
         ]
       },
       {
         "es_word": "tenemos",
-        "pl_word": "mamy",
+        "pl_word": "mamy (tener)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "No [tenemos::mamy] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie mamy zbyt dobrze."
-          },
-          {
-            "es_form": "[tenemos::mamy] todos los días.",
-            "pl_translation": "Mamy codziennie."
-          },
-          {
-            "es_form": "Normalmente [tenemos::mamy] por la mañana.",
-            "pl_translation": "Zazwyczaj mamy rano."
+            "es_form": "Nosotros [tenemos::mamy] tiempo.",
+            "pl_translation": "Mamy czas."
           }
         ]
       },
       {
         "es_word": "tenéis",
-        "pl_word": "macie",
+        "pl_word": "macie (tener)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "[tenéis::macie] todos los días.",
-            "pl_translation": "Macie codziennie."
-          },
-          {
-            "es_form": "No [tenéis::macie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie macie zbyt dobrze."
-          },
-          {
-            "es_form": "Normalmente [tenéis::macie] por la mañana.",
-            "pl_translation": "Zazwyczaj macie rano."
+            "es_form": "Vosotros [tenéis::macie] tiempo.",
+            "pl_translation": "Macie czas."
           }
         ]
       },
       {
         "es_word": "tienen",
-        "pl_word": "mają",
+        "pl_word": "mają (tener)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "No [tienen::mają] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie mają zbyt dobrze."
-          },
-          {
-            "es_form": "Siempre [tienen::mają] con atencion.",
-            "pl_translation": "Zawsze mają z uwagą."
-          },
-          {
-            "es_form": "[tienen::mają] como me enseñaste.",
-            "pl_translation": "Mają tak jak mnie nauczyłeś"
+            "es_form": "Ellos [tienen::mają] tiempo.",
+            "pl_translation": "Mają czas."
           }
         ]
       },
       {
         "es_word": "tuve",
-        "pl_word": "miałem",
+        "pl_word": "miałem (tener)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [tuve::miałem] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie miałem"
-          },
-          {
-            "es_form": "[tuve::miałem] sin parar durante horas.",
-            "pl_translation": "Miałem"
-          },
-          {
-            "es_form": "¿[tuve::miałem] bien el examen?",
-            "pl_translation": "Czy miałem"
+            "es_form": "Yo [tuve::miałem] tiempo.",
+            "pl_translation": "Miałem czas."
           }
         ]
       },
       {
         "es_word": "tuviste",
-        "pl_word": "miałeś",
+        "pl_word": "miałeś (tener)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "[tuviste::miałeś] la semana pasada.",
-            "pl_translation": "Miałeś"
-          },
-          {
-            "es_form": "El mes pasado no [tuviste::miałeś] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie miałeś"
-          },
-          {
-            "es_form": "Ayer [tuviste::miałeś] todo el día.",
-            "pl_translation": "Wczoraj miałeś"
+            "es_form": "Tú [tuviste::miałeś] tiempo.",
+            "pl_translation": "Miałeś czas."
           }
         ]
       },
       {
         "es_word": "tuvo",
-        "pl_word": "miał",
+        "pl_word": "miał (tener)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "[tuvo::miał] sin parar durante horas.",
-            "pl_translation": "Miał"
-          },
-          {
-            "es_form": "Nunca [tuvo::miał] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie miał"
-          },
-          {
-            "es_form": "Ayer [tuvo::miał] todo el día.",
-            "pl_translation": "Wczoraj miał"
+            "es_form": "Él [tuvo::miał] tiempo.",
+            "pl_translation": "Miał czas."
           }
         ]
       },
       {
         "es_word": "tuvimos",
-        "pl_word": "mieliśmy",
+        "pl_word": "mieliśmy (tener)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [tuvimos::mieliśmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie mieliśmy"
-          },
-          {
-            "es_form": "El mes pasado no [tuvimos::mieliśmy] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie mieliśmy"
-          },
-          {
-            "es_form": "Ayer [tuvimos::mieliśmy] todo el día.",
-            "pl_translation": "Wczoraj mieliśmy"
+            "es_form": "Nosotros [tuvimos::mieliśmy] tiempo.",
+            "pl_translation": "Mieliśmy czas."
           }
         ]
       },
       {
         "es_word": "tuvisteis",
-        "pl_word": "mieliście",
+        "pl_word": "mieliście (tener)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [tuvisteis::mieliście] todo el día.",
-            "pl_translation": "Wczoraj mieliście"
-          },
-          {
-            "es_form": "[tuvisteis::mieliście] sin parar durante horas.",
-            "pl_translation": "Mieliście"
-          },
-          {
-            "es_form": "¿[tuvisteis::mieliście] bien el examen?",
-            "pl_translation": "Czy mieliście"
+            "es_form": "Vosotros [tuvisteis::mieliście] tiempo.",
+            "pl_translation": "Mieliście czas."
           }
         ]
       },
       {
         "es_word": "tuvieron",
-        "pl_word": "mieli",
+        "pl_word": "mieli (tener)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "[tuvieron::mieli] sin parar durante horas.",
-            "pl_translation": "Mieli"
-          },
-          {
-            "es_form": "[tuvieron::mieli] la semana pasada.",
-            "pl_translation": "Mieli"
-          },
-          {
-            "es_form": "Ayer [tuvieron::mieli] todo el día.",
-            "pl_translation": "Wczoraj mieli"
+            "es_form": "Ellos [tuvieron::mieli] tiempo.",
+            "pl_translation": "Mieli czas."
           }
         ]
       },
       {
         "es_word": "tendré",
-        "pl_word": "będę mieć",
+        "pl_word": "będę mieć (tener)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[tendré::będę mieć] con nosotros mañana?",
-            "pl_translation": "Czy będę mieć z nami jutro?"
-          },
-          {
-            "es_form": "Mañana [tendré::będę mieć] más temprano.",
-            "pl_translation": "Jutro będę mieć wcześniej."
-          },
-          {
-            "es_form": "[tendré::będę mieć] la proxima semana.",
-            "pl_translation": "Będę mieć w przyszłym tygodniu."
+            "es_form": "Yo [tendré::będę mieć] tiempo.",
+            "pl_translation": "Będę mieć czas."
           }
         ]
       },
       {
         "es_word": "tendrás",
-        "pl_word": "będziesz mieć",
+        "pl_word": "będziesz mieć (tener)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [tendrás::będziesz mieć] más temprano.",
-            "pl_translation": "Jutro będziesz mieć wcześniej."
-          },
-          {
-            "es_form": "¿[tendrás::będziesz mieć] con nosotros mañana?",
-            "pl_translation": "Czy będziesz mieć z nami jutro?"
-          },
-          {
-            "es_form": "Te prometo que [tendrás::będziesz mieć] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziesz mieć na czas."
+            "es_form": "Tú [tendrás::będziesz mieć] tiempo.",
+            "pl_translation": "Będziesz mieć czas."
           }
         ]
       },
       {
         "es_word": "tendrá",
-        "pl_word": "będzie mieć",
+        "pl_word": "będzie mieć (tener)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "[tendrá::będzie mieć] la proxima semana.",
-            "pl_translation": "Będzie mieć w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Creo que [tendrá::będzie mieć] bien.",
-            "pl_translation": "Myślę, że będzie mieć dobrze."
-          },
-          {
-            "es_form": "Mañana [tendrá::będzie mieć] más temprano.",
-            "pl_translation": "Jutro będzie mieć wcześniej."
+            "es_form": "Él [tendrá::będzie mieć] tiempo.",
+            "pl_translation": "Będzie mieć czas."
           }
         ]
       },
       {
         "es_word": "tendremos",
-        "pl_word": "będziemy mieć",
+        "pl_word": "będziemy mieć (tener)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[tendremos::będziemy mieć] con nosotros mañana?",
-            "pl_translation": "Czy będziemy mieć z nami jutro?"
-          },
-          {
-            "es_form": "[tendremos::będziemy mieć] la proxima semana.",
-            "pl_translation": "Będziemy mieć w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Mañana [tendremos::będziemy mieć] más temprano.",
-            "pl_translation": "Jutro będziemy mieć wcześniej."
+            "es_form": "Nosotros [tendremos::będziemy mieć] tiempo.",
+            "pl_translation": "Będziemy mieć czas."
           }
         ]
       },
       {
         "es_word": "tendréis",
-        "pl_word": "będziecie mieć",
+        "pl_word": "będziecie mieć (tener)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[tendréis::będziecie mieć] con nosotros mañana?",
-            "pl_translation": "Czy będziecie mieć z nami jutro?"
-          },
-          {
-            "es_form": "Mañana [tendréis::będziecie mieć] más temprano.",
-            "pl_translation": "Jutro będziecie mieć wcześniej."
-          },
-          {
-            "es_form": "Creo que [tendréis::będziecie mieć] bien.",
-            "pl_translation": "Myślę, że będziecie mieć dobrze."
+            "es_form": "Vosotros [tendréis::będziecie mieć] tiempo.",
+            "pl_translation": "Będziecie mieć czas."
           }
         ]
       },
       {
         "es_word": "tendrán",
-        "pl_word": "będą mieć",
+        "pl_word": "będą mieć (tener)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [tendrán::będą mieć] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będą mieć na czas."
-          },
-          {
-            "es_form": "¿[tendrán::będą mieć] con nosotros mañana?",
-            "pl_translation": "Czy będą mieć z nami jutro?"
-          },
-          {
-            "es_form": "El año que viene [tendrán::będą mieć] en España.",
-            "pl_translation": "W przyszłym roku będą mieć w Hiszpanii."
+            "es_form": "Ellos [tendrán::będą mieć] tiempo.",
+            "pl_translation": "Będą mieć czas."
           }
         ]
       }

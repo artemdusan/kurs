@@ -233,22 +233,18 @@
     "pl_word": "wstawać",
     "examples": [
       {
-        "es_form": "Hay que [levantarse::wstawać] con cuidado.",
-        "pl_translation": "Trzeba wstawać ostrożnie."
+        "es_form": "Es importante [levantarse::wstawać] temprano.",
+        "pl_translation": "Ważne jest wstawać wcześnie."
       },
       {
-        "es_form": "Voy a [levantarse::wstawać] mañana.",
-        "pl_translation": "Będę wstawać jutro."
-      },
-      {
-        "es_form": "¿Puedes [levantarse::wstawać] más rápido?",
-        "pl_translation": "Możesz wstawać szybciej?"
+        "es_form": "Hay que [levantarse::wstawać] temprano.",
+        "pl_translation": "Trzeba wstawać wcześnie."
       }
     ],
     "forms": [
       {
         "es_word": "me levanto",
-        "pl_word": "wstaję",
+        "pl_word": "wstaję (levantarse)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [me levanto::wstaję] por la mañana.",
-            "pl_translation": "Zazwyczaj wstaję rano."
-          },
-          {
-            "es_form": "Siempre [me levanto::wstaję] con atencion.",
-            "pl_translation": "Zawsze wstaję z uwagą."
-          },
-          {
-            "es_form": "No [me levanto::wstaję] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie wstaję zbyt dobrze."
+            "es_form": "Yo [me levanto::wstaję] temprano.",
+            "pl_translation": "Wstaję wcześnie."
           }
         ]
       },
       {
         "es_word": "te levantas",
-        "pl_word": "wstajesz",
+        "pl_word": "wstajesz (levantarse)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "[te levantas::wstajesz] como me enseñaste.",
-            "pl_translation": "Wstajesz tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "¿[te levantas::wstajesz] los fines de semana?",
-            "pl_translation": "Czy wstajesz w weekendy?"
-          },
-          {
-            "es_form": "No [te levantas::wstajesz] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie wstajesz zbyt dobrze."
+            "es_form": "Tú [te levantas::wstajesz] temprano.",
+            "pl_translation": "Wstajesz wcześnie."
           }
         ]
       },
       {
         "es_word": "se levanta",
-        "pl_word": "wstaje",
+        "pl_word": "wstaje (levantarse)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[se levanta::wstaje] los fines de semana?",
-            "pl_translation": "Czy wstaje w weekendy?"
-          },
-          {
-            "es_form": "No [se levanta::wstaje] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie wstaje zbyt dobrze."
-          },
-          {
-            "es_form": "[se levanta::wstaje] todos los días.",
-            "pl_translation": "Wstaje codziennie."
+            "es_form": "Él [se levanta::wstaje] temprano.",
+            "pl_translation": "Wstaje wcześnie."
           }
         ]
       },
       {
         "es_word": "nos levantamos",
-        "pl_word": "wstajemy",
+        "pl_word": "wstajemy (levantarse)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "[nos levantamos::wstajemy] todos los días.",
-            "pl_translation": "Wstajemy codziennie."
-          },
-          {
-            "es_form": "No [nos levantamos::wstajemy] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie wstajemy zbyt dobrze."
-          },
-          {
-            "es_form": "Siempre [nos levantamos::wstajemy] con atencion.",
-            "pl_translation": "Zawsze wstajemy z uwagą."
+            "es_form": "Nosotros [nos levantamos::wstajemy] temprano.",
+            "pl_translation": "Wstajemy wcześnie."
           }
         ]
       },
       {
         "es_word": "os levantáis",
-        "pl_word": "wstajecie",
+        "pl_word": "wstajecie (levantarse)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "[os levantáis::wstajecie] todos los días.",
-            "pl_translation": "Wstajecie codziennie."
-          },
-          {
-            "es_form": "Siempre [os levantáis::wstajecie] con atencion.",
-            "pl_translation": "Zawsze wstajecie z uwagą."
-          },
-          {
-            "es_form": "[os levantáis::wstajecie] como me enseñaste.",
-            "pl_translation": "Wstajecie tak jak mnie nauczyłeś"
+            "es_form": "Vosotros [os levantáis::wstajecie] temprano.",
+            "pl_translation": "Wstajecie wcześnie."
           }
         ]
       },
       {
         "es_word": "se levantan",
-        "pl_word": "wstają",
+        "pl_word": "wstają (levantarse)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [se levantan::wstają] por la mañana.",
-            "pl_translation": "Zazwyczaj wstają rano."
-          },
-          {
-            "es_form": "[se levantan::wstają] como me enseñaste.",
-            "pl_translation": "Wstają tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "No [se levantan::wstają] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie wstają zbyt dobrze."
+            "es_form": "Ellos [se levantan::wstają] temprano.",
+            "pl_translation": "Wstają wcześnie."
           }
         ]
       },
       {
         "es_word": "me levanté",
-        "pl_word": "wstawałem",
+        "pl_word": "wstałem (levantarse)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "[me levanté::wstawałem] sin parar durante horas.",
-            "pl_translation": "Wstawałem bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "Ayer [me levanté::wstawałem] todo el día.",
-            "pl_translation": "Wczoraj wstawałem cały dzień."
-          },
-          {
-            "es_form": "[me levanté::wstawałem] la semana pasada.",
-            "pl_translation": "Wstawałem w zeszłym tygodniu."
+            "es_form": "Yo [me levanté::wstałem] temprano.",
+            "pl_translation": "Wstałem wcześnie."
           }
         ]
       },
       {
         "es_word": "te levantaste",
-        "pl_word": "wstawałeś",
+        "pl_word": "wstałeś (levantarse)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "[te levantaste::wstawałeś] la semana pasada.",
-            "pl_translation": "Wstawałeś w zeszłym tygodniu."
-          },
-          {
-            "es_form": "Ayer [te levantaste::wstawałeś] todo el día.",
-            "pl_translation": "Wczoraj wstawałeś cały dzień."
-          },
-          {
-            "es_form": "[te levantaste::wstawałeś] sin parar durante horas.",
-            "pl_translation": "Wstawałeś bez przerwy przez wiele godzin."
+            "es_form": "Tú [te levantaste::wstałeś] temprano.",
+            "pl_translation": "Wstałeś wcześnie."
           }
         ]
       },
       {
         "es_word": "se levantó",
-        "pl_word": "wstawał",
+        "pl_word": "wstał (levantarse)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [se levantó::wstawał] todo el día.",
-            "pl_translation": "Wczoraj wstawał cały dzień."
-          },
-          {
-            "es_form": "¿[se levantó::wstawał] bien el examen?",
-            "pl_translation": "Czy wstawał dobrze egzamin?"
-          },
-          {
-            "es_form": "[se levantó::wstawał] sin parar durante horas.",
-            "pl_translation": "Wstawał bez przerwy przez wiele godzin."
+            "es_form": "Él [se levantó::wstał] temprano.",
+            "pl_translation": "Wstał wcześnie."
           }
         ]
       },
       {
         "es_word": "nos levantamos",
-        "pl_word": "wstawaliśmy",
+        "pl_word": "wstaliśmy (levantarse)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [nos levantamos::wstawaliśmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie wstawaliśmy czegoś takiego."
-          },
-          {
-            "es_form": "Ayer [nos levantamos::wstawaliśmy] todo el día.",
-            "pl_translation": "Wczoraj wstawaliśmy cały dzień."
-          },
-          {
-            "es_form": "[nos levantamos::wstawaliśmy] la semana pasada.",
-            "pl_translation": "Wstawaliśmy w zeszłym tygodniu."
+            "es_form": "Nosotros [nos levantamos::wstaliśmy] temprano.",
+            "pl_translation": "Wstaliśmy wcześnie."
           }
         ]
       },
       {
         "es_word": "os levantasteis",
-        "pl_word": "wstawaliście",
+        "pl_word": "wstaliście (levantarse)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [os levantasteis::wstawaliście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie wstawaliście czegoś takiego."
-          },
-          {
-            "es_form": "Ayer [os levantasteis::wstawaliście] todo el día.",
-            "pl_translation": "Wczoraj wstawaliście cały dzień."
-          },
-          {
-            "es_form": "¿[os levantasteis::wstawaliście] bien el examen?",
-            "pl_translation": "Czy wstawaliście dobrze egzamin?"
+            "es_form": "Vosotros [os levantasteis::wstaliście] temprano.",
+            "pl_translation": "Wstaliście wcześnie."
           }
         ]
       },
       {
         "es_word": "se levantaron",
-        "pl_word": "wstawali",
+        "pl_word": "wstali (levantarse)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[se levantaron::wstawali] bien el examen?",
-            "pl_translation": "Czy wstawali dobrze egzamin?"
-          },
-          {
-            "es_form": "[se levantaron::wstawali] la semana pasada.",
-            "pl_translation": "Wstawali w zeszłym tygodniu."
-          },
-          {
-            "es_form": "[se levantaron::wstawali] sin parar durante horas.",
-            "pl_translation": "Wstawali bez przerwy przez wiele godzin."
+            "es_form": "Ellos [se levantaron::wstali] temprano.",
+            "pl_translation": "Wstali wcześnie."
           }
         ]
       },
       {
-        "es_word": "me levanté",
-        "pl_word": "będę wstawać",
+        "es_word": "me levantaré",
+        "pl_word": "będę wstawać (levantarse)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "[me levanté::będę wstawać] la proxima semana.",
-            "pl_translation": "Będę wstawać w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Mañana [me levanté::będę wstawać] más temprano.",
-            "pl_translation": "Jutro będę wstawać wcześniej."
-          },
-          {
-            "es_form": "¿[me levanté::będę wstawać] con nosotros mañana?",
-            "pl_translation": "Czy będę wstawać z nami jutro?"
+            "es_form": "Yo [me levantaré::będę wstawać] temprano.",
+            "pl_translation": "Będę wstawać wcześnie."
           }
         ]
       },
       {
-        "es_word": "te levantás",
-        "pl_word": "będziesz wstawać",
+        "es_word": "te levantarás",
+        "pl_word": "będziesz wstawać (levantarse)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [te levantás::będziesz wstawać] en España.",
-            "pl_translation": "W przyszłym roku będziesz wstawać w Hiszpanii."
-          },
-          {
-            "es_form": "[te levantás::będziesz wstawać] la proxima semana.",
-            "pl_translation": "Będziesz wstawać w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Te prometo que [te levantás::będziesz wstawać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziesz wstawać na czas."
+            "es_form": "Tú [te levantarás::będziesz wstawać] temprano.",
+            "pl_translation": "Będziesz wstawać wcześnie."
           }
         ]
       },
       {
-        "es_word": "se levantá",
-        "pl_word": "będzie wstawać",
+        "es_word": "se levantará",
+        "pl_word": "będzie wstawać (levantarse)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[se levantá::będzie wstawać] con nosotros mañana?",
-            "pl_translation": "Czy będzie wstawać z nami jutro?"
-          },
-          {
-            "es_form": "El año que viene [se levantá::będzie wstawać] en España.",
-            "pl_translation": "W przyszłym roku będzie wstawać w Hiszpanii."
-          },
-          {
-            "es_form": "Te prometo que [se levantá::będzie wstawać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będzie wstawać na czas."
+            "es_form": "Él [se levantará::będzie wstawać] temprano.",
+            "pl_translation": "Będzie wstawać wcześnie."
           }
         ]
       },
       {
-        "es_word": "nos levantemos",
-        "pl_word": "będziemy wstawać",
+        "es_word": "nos levantaremos",
+        "pl_word": "będziemy wstawać (levantarse)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [nos levantemos::będziemy wstawać] en España.",
-            "pl_translation": "W przyszłym roku będziemy wstawać w Hiszpanii."
-          },
-          {
-            "es_form": "[nos levantemos::będziemy wstawać] la proxima semana.",
-            "pl_translation": "Będziemy wstawać w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Te prometo que [nos levantemos::będziemy wstawać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziemy wstawać na czas."
+            "es_form": "Nosotros [nos levantaremos::będziemy wstawać] temprano.",
+            "pl_translation": "Będziemy wstawać wcześnie."
           }
         ]
       },
       {
-        "es_word": "os levantéis",
-        "pl_word": "będziecie wstawać",
+        "es_word": "os levantaréis",
+        "pl_word": "będziecie wstawać (levantarse)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[os levantéis::będziecie wstawać] con nosotros mañana?",
-            "pl_translation": "Czy będziecie wstawać z nami jutro?"
-          },
-          {
-            "es_form": "[os levantéis::będziecie wstawać] la proxima semana.",
-            "pl_translation": "Będziecie wstawać w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Creo que [os levantéis::będziecie wstawać] bien.",
-            "pl_translation": "Myślę, że będziecie wstawać dobrze."
+            "es_form": "Vosotros [os levantaréis::będziecie wstawać] temprano.",
+            "pl_translation": "Będziecie wstawać wcześnie."
           }
         ]
       },
       {
-        "es_word": "se levantán",
-        "pl_word": "będą wstawać",
+        "es_word": "se levantarán",
+        "pl_word": "będą wstawać (levantarse)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [se levantán::będą wstawać] en España.",
-            "pl_translation": "W przyszłym roku będą wstawać w Hiszpanii."
-          },
-          {
-            "es_form": "Mañana [se levantán::będą wstawać] más temprano.",
-            "pl_translation": "Jutro będą wstawać wcześniej."
-          },
-          {
-            "es_form": "¿[se levantán::będą wstawać] con nosotros mañana?",
-            "pl_translation": "Czy będą wstawać z nami jutro?"
+            "es_form": "Ellos [se levantarán::będą wstawać] temprano.",
+            "pl_translation": "Będą wstawać wcześnie."
           }
         ]
       }

@@ -233,22 +233,18 @@
     "pl_word": "negocjować",
     "examples": [
       {
-        "es_form": "Es importante [negociar::negocjować] todos los días.",
-        "pl_translation": "Ważne jest negocjować codziennie."
+        "es_form": "Quiero [negociar::negocjować] el precio.",
+        "pl_translation": "Chcę negocjować cenę."
       },
       {
-        "es_form": "Prefiero [negociar::negocjować] en casa.",
-        "pl_translation": "Wolę negocjować w domu."
-      },
-      {
-        "es_form": "Quiero [negociar::negocjować] ahora.",
-        "pl_translation": "Chcę negocjować teraz."
+        "es_form": "No puedo [negociar::negocjować] el precio hoy.",
+        "pl_translation": "Nie mogę dziś negocjować cenę."
       }
     ],
     "forms": [
       {
         "es_word": "negocio",
-        "pl_word": "negocjuję",
+        "pl_word": "negocjuję (negociar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "No [negocio::negocjuję] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie negocjuję zbyt dobrze."
-          },
-          {
-            "es_form": "[negocio::negocjuję] todos los días.",
-            "pl_translation": "Negocjuję codziennie."
-          },
-          {
-            "es_form": "Normalmente [negocio::negocjuję] por la mañana.",
-            "pl_translation": "Zazwyczaj negocjuję rano."
+            "es_form": "Yo [negocio::negocjuję] el precio.",
+            "pl_translation": "Negocjuję cenę."
           }
         ]
       },
       {
         "es_word": "negocias",
-        "pl_word": "negocjujesz",
+        "pl_word": "negocjujesz (negociar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "[negocias::negocjujesz] como me enseñaste.",
-            "pl_translation": "Negocjujesz tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "[negocias::negocjujesz] todos los días.",
-            "pl_translation": "Negocjujesz codziennie."
-          },
-          {
-            "es_form": "No [negocias::negocjujesz] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie negocjujesz zbyt dobrze."
+            "es_form": "Tú [negocias::negocjujesz] el precio.",
+            "pl_translation": "Negocjujesz cenę."
           }
         ]
       },
       {
         "es_word": "negocia",
-        "pl_word": "negocjuje",
+        "pl_word": "negocjuje (negociar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[negocia::negocjuje] los fines de semana?",
-            "pl_translation": "Czy negocjuje w weekendy?"
-          },
-          {
-            "es_form": "[negocia::negocjuje] todos los días.",
-            "pl_translation": "Negocjuje codziennie."
-          },
-          {
-            "es_form": "No [negocia::negocjuje] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie negocjuje zbyt dobrze."
+            "es_form": "Él [negocia::negocjuje] el precio.",
+            "pl_translation": "Negocjuje cenę."
           }
         ]
       },
       {
         "es_word": "negociamos",
-        "pl_word": "negocjujemy",
+        "pl_word": "negocjujemy (negociar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "[negociamos::negocjujemy] como me enseñaste.",
-            "pl_translation": "Negocjujemy tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Siempre [negociamos::negocjujemy] con atencion.",
-            "pl_translation": "Zawsze negocjujemy z uwagą."
-          },
-          {
-            "es_form": "No [negociamos::negocjujemy] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie negocjujemy zbyt dobrze."
+            "es_form": "Nosotros [negociamos::negocjujemy] el precio.",
+            "pl_translation": "Negocjujemy cenę."
           }
         ]
       },
       {
         "es_word": "negociáis",
-        "pl_word": "negocjujecie",
+        "pl_word": "negocjujecie (negociar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "[negociáis::negocjujecie] todos los días.",
-            "pl_translation": "Negocjujecie codziennie."
-          },
-          {
-            "es_form": "No [negociáis::negocjujecie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie negocjujecie zbyt dobrze."
-          },
-          {
-            "es_form": "Normalmente [negociáis::negocjujecie] por la mañana.",
-            "pl_translation": "Zazwyczaj negocjujecie rano."
+            "es_form": "Vosotros [negociáis::negocjujecie] el precio.",
+            "pl_translation": "Negocjujecie cenę."
           }
         ]
       },
       {
         "es_word": "negocian",
-        "pl_word": "negocjują",
+        "pl_word": "negocjują (negociar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [negocian::negocjują] con atencion.",
-            "pl_translation": "Zawsze negocjują z uwagą."
-          },
-          {
-            "es_form": "Normalmente [negocian::negocjują] por la mañana.",
-            "pl_translation": "Zazwyczaj negocjują rano."
-          },
-          {
-            "es_form": "¿[negocian::negocjują] los fines de semana?",
-            "pl_translation": "Czy negocjują w weekendy?"
+            "es_form": "Ellos [negocian::negocjują] el precio.",
+            "pl_translation": "Negocjują cenę."
           }
         ]
       },
       {
         "es_word": "negocié",
-        "pl_word": "negocjowałem",
+        "pl_word": "negocjowałem (negociar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [negocié::negocjowałem] todo el día.",
-            "pl_translation": "Wczoraj negocjowałem cały dzień."
-          },
-          {
-            "es_form": "[negocié::negocjowałem] la semana pasada.",
-            "pl_translation": "Negocjowałem w zeszłym tygodniu."
-          },
-          {
-            "es_form": "El mes pasado no [negocié::negocjowałem] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie negocjowałem."
+            "es_form": "Yo [negocié::negocjowałem] el precio.",
+            "pl_translation": "Negocjowałem cenę."
           }
         ]
       },
       {
         "es_word": "negociaste",
-        "pl_word": "negocjowałeś",
+        "pl_word": "negocjowałeś (negociar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[negociaste::negocjowałeś] bien el examen?",
-            "pl_translation": "Czy negocjowałeś dobrze egzamin?"
-          },
-          {
-            "es_form": "[negociaste::negocjowałeś] la semana pasada.",
-            "pl_translation": "Negocjowałeś w zeszłym tygodniu."
-          },
-          {
-            "es_form": "Nunca [negociaste::negocjowałeś] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie negocjowałeś czegoś takiego."
+            "es_form": "Tú [negociaste::negocjowałeś] el precio.",
+            "pl_translation": "Negocjowałeś cenę."
           }
         ]
       },
       {
         "es_word": "negoció",
-        "pl_word": "negocjował",
+        "pl_word": "negocjował (negociar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "[negoció::negocjował] sin parar durante horas.",
-            "pl_translation": "Negocjował bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "El mes pasado no [negoció::negocjował] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie negocjował."
-          },
-          {
-            "es_form": "Ayer [negoció::negocjował] todo el día.",
-            "pl_translation": "Wczoraj negocjował cały dzień."
+            "es_form": "Él [negoció::negocjował] el precio.",
+            "pl_translation": "Negocjował cenę."
           }
         ]
       },
       {
         "es_word": "negociamos",
-        "pl_word": "negocjowaliśmy",
+        "pl_word": "negocjowaliśmy (negociar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [negociamos::negocjowaliśmy] todo el día.",
-            "pl_translation": "Wczoraj negocjowaliśmy cały dzień."
-          },
-          {
-            "es_form": "[negociamos::negocjowaliśmy] la semana pasada.",
-            "pl_translation": "Negocjowaliśmy w zeszłym tygodniu."
-          },
-          {
-            "es_form": "El mes pasado no [negociamos::negocjowaliśmy] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie negocjowaliśmy."
+            "es_form": "Nosotros [negociamos::negocjowaliśmy] el precio.",
+            "pl_translation": "Negocjowaliśmy cenę."
           }
         ]
       },
       {
         "es_word": "negociasteis",
-        "pl_word": "negocjowaliście",
+        "pl_word": "negocjowaliście (negociar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "[negociasteis::negocjowaliście] la semana pasada.",
-            "pl_translation": "Negocjowaliście w zeszłym tygodniu."
-          },
-          {
-            "es_form": "El mes pasado no [negociasteis::negocjowaliście] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie negocjowaliście."
-          },
-          {
-            "es_form": "Nunca [negociasteis::negocjowaliście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie negocjowaliście czegoś takiego."
+            "es_form": "Vosotros [negociasteis::negocjowaliście] el precio.",
+            "pl_translation": "Negocjowaliście cenę."
           }
         ]
       },
       {
         "es_word": "negociaron",
-        "pl_word": "negocjowali",
+        "pl_word": "negocjowali (negociar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "[negociaron::negocjowali] la semana pasada.",
-            "pl_translation": "Negocjowali w zeszłym tygodniu."
-          },
-          {
-            "es_form": "El mes pasado no [negociaron::negocjowali] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie negocjowali."
-          },
-          {
-            "es_form": "[negociaron::negocjowali] sin parar durante horas.",
-            "pl_translation": "Negocjowali bez przerwy przez wiele godzin."
+            "es_form": "Ellos [negociaron::negocjowali] el precio.",
+            "pl_translation": "Negocjowali cenę."
           }
         ]
       },
       {
-        "es_word": "negocié",
-        "pl_word": "będę negocjować",
+        "es_word": "negociaré",
+        "pl_word": "będę negocjować (negociar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "[negocié::będę negocjować] la proxima semana.",
-            "pl_translation": "Będę negocjować w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Mañana [negocié::będę negocjować] más temprano.",
-            "pl_translation": "Jutro będę negocjować wcześniej."
-          },
-          {
-            "es_form": "El año que viene [negocié::będę negocjować] en España.",
-            "pl_translation": "W przyszłym roku będę negocjować w Hiszpanii."
+            "es_form": "Yo [negociaré::będę negocjować] el precio.",
+            "pl_translation": "Będę negocjować cenę."
           }
         ]
       },
       {
-        "es_word": "negociás",
-        "pl_word": "będziesz negocjować",
+        "es_word": "negociarás",
+        "pl_word": "będziesz negocjować (negociar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [negociás::będziesz negocjować] más temprano.",
-            "pl_translation": "Jutro będziesz negocjować wcześniej."
-          },
-          {
-            "es_form": "Te prometo que [negociás::będziesz negocjować] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziesz negocjować na czas."
-          },
-          {
-            "es_form": "[negociás::będziesz negocjować] la proxima semana.",
-            "pl_translation": "Będziesz negocjować w przyszłym tygodniu."
+            "es_form": "Tú [negociarás::będziesz negocjować] el precio.",
+            "pl_translation": "Będziesz negocjować cenę."
           }
         ]
       },
       {
-        "es_word": "negociá",
-        "pl_word": "będzie negocjować",
+        "es_word": "negociará",
+        "pl_word": "będzie negocjować (negociar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [negociá::będzie negocjować] bien.",
-            "pl_translation": "Myślę, że będzie negocjować dobrze."
-          },
-          {
-            "es_form": "Te prometo que [negociá::będzie negocjować] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będzie negocjować na czas."
-          },
-          {
-            "es_form": "Mañana [negociá::będzie negocjować] más temprano.",
-            "pl_translation": "Jutro będzie negocjować wcześniej."
+            "es_form": "Él [negociará::będzie negocjować] el precio.",
+            "pl_translation": "Będzie negocjować cenę."
           }
         ]
       },
       {
-        "es_word": "negociemos",
-        "pl_word": "będziemy negocjować",
+        "es_word": "negociaremos",
+        "pl_word": "będziemy negocjować (negociar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [negociemos::będziemy negocjować] en España.",
-            "pl_translation": "W przyszłym roku będziemy negocjować w Hiszpanii."
-          },
-          {
-            "es_form": "[negociemos::będziemy negocjować] la proxima semana.",
-            "pl_translation": "Będziemy negocjować w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Creo que [negociemos::będziemy negocjować] bien.",
-            "pl_translation": "Myślę, że będziemy negocjować dobrze."
+            "es_form": "Nosotros [negociaremos::będziemy negocjować] el precio.",
+            "pl_translation": "Będziemy negocjować cenę."
           }
         ]
       },
       {
-        "es_word": "negociéis",
-        "pl_word": "będziecie negocjować",
+        "es_word": "negociaréis",
+        "pl_word": "będziecie negocjować (negociar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "[negociéis::będziecie negocjować] la proxima semana.",
-            "pl_translation": "Będziecie negocjować w przyszłym tygodniu."
-          },
-          {
-            "es_form": "El año que viene [negociéis::będziecie negocjować] en España.",
-            "pl_translation": "W przyszłym roku będziecie negocjować w Hiszpanii."
-          },
-          {
-            "es_form": "Te prometo que [negociéis::będziecie negocjować] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziecie negocjować na czas."
+            "es_form": "Vosotros [negociaréis::będziecie negocjować] el precio.",
+            "pl_translation": "Będziecie negocjować cenę."
           }
         ]
       },
       {
-        "es_word": "negocián",
-        "pl_word": "będą negocjować",
+        "es_word": "negociarán",
+        "pl_word": "będą negocjować (negociar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "[negocián::będą negocjować] la proxima semana.",
-            "pl_translation": "Będą negocjować w przyszłym tygodniu."
-          },
-          {
-            "es_form": "¿[negocián::będą negocjować] con nosotros mañana?",
-            "pl_translation": "Czy będą negocjować z nami jutro?"
-          },
-          {
-            "es_form": "Creo que [negocián::będą negocjować] bien.",
-            "pl_translation": "Myślę, że będą negocjować dobrze."
+            "es_form": "Ellos [negociarán::będą negocjować] el precio.",
+            "pl_translation": "Będą negocjować cenę."
           }
         ]
       }

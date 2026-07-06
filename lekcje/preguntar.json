@@ -233,22 +233,18 @@
     "pl_word": "pytać (zadawać pytanie)",
     "examples": [
       {
-        "es_form": "Hay que [preguntar::pytać (zadawać pytanie)] con cuidado.",
-        "pl_translation": "Trzeba pytać ostrożnie."
+        "es_form": "Quiero [preguntar::pytać] al profesor.",
+        "pl_translation": "Chcę pytać nauczyciela."
       },
       {
-        "es_form": "Quiero [preguntar::pytać (zadawać pytanie)] ahora.",
-        "pl_translation": "Chcę pytać teraz."
-      },
-      {
-        "es_form": "Me gusta [preguntar::pytać (zadawać pytanie)] por la mañana.",
-        "pl_translation": "Lubię pytać rano."
+        "es_form": "No puedo [preguntar::pytać] al profesor hoy.",
+        "pl_translation": "Nie mogę dziś pytać nauczyciela."
       }
     ],
     "forms": [
       {
         "es_word": "pregunto",
-        "pl_word": "pytam",
+        "pl_word": "pytam (preguntar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[pregunto::pytam] los fines de semana?",
-            "pl_translation": "Czy pytam w weekendy?"
-          },
-          {
-            "es_form": "Siempre [pregunto::pytam] con atencion.",
-            "pl_translation": "Zawsze pytam z uwagą."
-          },
-          {
-            "es_form": "[pregunto::pytam] todos los días.",
-            "pl_translation": "Pytam codziennie."
+            "es_form": "Yo [pregunto::pytam] al profesor.",
+            "pl_translation": "Pytam nauczyciela."
           }
         ]
       },
       {
         "es_word": "preguntas",
-        "pl_word": "pytasz",
+        "pl_word": "pytasz (preguntar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "[preguntas::pytasz] todos los días.",
-            "pl_translation": "Pytasz codziennie."
-          },
-          {
-            "es_form": "¿[preguntas::pytasz] los fines de semana?",
-            "pl_translation": "Czy pytasz w weekendy?"
-          },
-          {
-            "es_form": "Siempre [preguntas::pytasz] con atencion.",
-            "pl_translation": "Zawsze pytasz z uwagą."
+            "es_form": "Tú [preguntas::pytasz] al profesor.",
+            "pl_translation": "Pytasz nauczyciela."
           }
         ]
       },
       {
         "es_word": "pregunta",
-        "pl_word": "pyta",
+        "pl_word": "pyta (preguntar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [pregunta::pyta] por la mañana.",
-            "pl_translation": "Zazwyczaj pytać rano."
-          },
-          {
-            "es_form": "Siempre [pregunta::pyta] con atencion.",
-            "pl_translation": "Zawsze pytać z uwagą."
-          },
-          {
-            "es_form": "No [pregunta::pyta] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie pytać zbyt dobrze."
+            "es_form": "Él [pregunta::pyta] al profesor.",
+            "pl_translation": "Pyta nauczyciela."
           }
         ]
       },
       {
         "es_word": "preguntamos",
-        "pl_word": "pytamy",
+        "pl_word": "pytamy (preguntar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "[preguntamos::pytamy] como me enseñaste.",
-            "pl_translation": "Pytamy tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "[preguntamos::pytamy] todos los días.",
-            "pl_translation": "Pytamy codziennie."
-          },
-          {
-            "es_form": "Normalmente [preguntamos::pytamy] por la mañana.",
-            "pl_translation": "Zazwyczaj pytamy rano."
+            "es_form": "Nosotros [preguntamos::pytamy] al profesor.",
+            "pl_translation": "Pytamy nauczyciela."
           }
         ]
       },
       {
         "es_word": "preguntáis",
-        "pl_word": "pytacie",
+        "pl_word": "pytacie (preguntar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "[preguntáis::pytacie] todos los días.",
-            "pl_translation": "Pytacie codziennie."
-          },
-          {
-            "es_form": "Siempre [preguntáis::pytacie] con atencion.",
-            "pl_translation": "Zawsze pytacie z uwagą."
-          },
-          {
-            "es_form": "¿[preguntáis::pytacie] los fines de semana?",
-            "pl_translation": "Czy pytacie w weekendy?"
+            "es_form": "Vosotros [preguntáis::pytacie] al profesor.",
+            "pl_translation": "Pytacie nauczyciela."
           }
         ]
       },
       {
         "es_word": "preguntan",
-        "pl_word": "pytają",
+        "pl_word": "pytają (preguntar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [preguntan::pytają] por la mañana.",
-            "pl_translation": "Zazwyczaj pytają rano."
-          },
-          {
-            "es_form": "[preguntan::pytają] como me enseñaste.",
-            "pl_translation": "Pytają tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "¿[preguntan::pytają] los fines de semana?",
-            "pl_translation": "Czy pytają w weekendy?"
+            "es_form": "Ellos [preguntan::pytają] al profesor.",
+            "pl_translation": "Pytają nauczyciela."
           }
         ]
       },
       {
         "es_word": "pregunté",
-        "pl_word": "pytałem",
+        "pl_word": "zapytałem (preguntar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [pregunté::pytałem] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie pytałem czegoś takiego."
-          },
-          {
-            "es_form": "El mes pasado no [pregunté::pytałem] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie pytałem."
-          },
-          {
-            "es_form": "¿[pregunté::pytałem] bien el examen?",
-            "pl_translation": "Czy pytałem dobrze egzamin?"
+            "es_form": "Yo [pregunté::zapytałem] al profesor.",
+            "pl_translation": "Zapytałem nauczyciela."
           }
         ]
       },
       {
         "es_word": "preguntaste",
-        "pl_word": "pytałeś",
+        "pl_word": "zapytałeś (preguntar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "[preguntaste::pytałeś] sin parar durante horas.",
-            "pl_translation": "Pytałeś bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "El mes pasado no [preguntaste::pytałeś] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie pytałeś."
-          },
-          {
-            "es_form": "Ayer [preguntaste::pytałeś] todo el día.",
-            "pl_translation": "Wczoraj pytałeś cały dzień."
+            "es_form": "Tú [preguntaste::zapytałeś] al profesor.",
+            "pl_translation": "Zapytałeś nauczyciela."
           }
         ]
       },
       {
         "es_word": "preguntó",
-        "pl_word": "pytał",
+        "pl_word": "zapytał (preguntar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [preguntó::pytał] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie pytał czegoś takiego."
-          },
-          {
-            "es_form": "El mes pasado no [preguntó::pytał] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie pytał."
-          },
-          {
-            "es_form": "[preguntó::pytał] sin parar durante horas.",
-            "pl_translation": "Pytał bez przerwy przez wiele godzin."
+            "es_form": "Él [preguntó::zapytał] al profesor.",
+            "pl_translation": "Zapytał nauczyciela."
           }
         ]
       },
       {
         "es_word": "preguntamos",
-        "pl_word": "pytaliśmy",
+        "pl_word": "zapytaliśmy (preguntar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "[preguntamos::pytaliśmy] la semana pasada.",
-            "pl_translation": "Pytaliśmy w zeszłym tygodniu."
-          },
-          {
-            "es_form": "[preguntamos::pytaliśmy] sin parar durante horas.",
-            "pl_translation": "Pytaliśmy bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "Ayer [preguntamos::pytaliśmy] todo el día.",
-            "pl_translation": "Wczoraj pytaliśmy cały dzień."
+            "es_form": "Nosotros [preguntamos::zapytaliśmy] al profesor.",
+            "pl_translation": "Zapytaliśmy nauczyciela."
           }
         ]
       },
       {
         "es_word": "preguntasteis",
-        "pl_word": "pytaliście",
+        "pl_word": "zapytaliście (preguntar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "[preguntasteis::pytaliście] sin parar durante horas.",
-            "pl_translation": "Pytaliście bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "[preguntasteis::pytaliście] la semana pasada.",
-            "pl_translation": "Pytaliście w zeszłym tygodniu."
-          },
-          {
-            "es_form": "¿[preguntasteis::pytaliście] bien el examen?",
-            "pl_translation": "Czy pytaliście dobrze egzamin?"
+            "es_form": "Vosotros [preguntasteis::zapytaliście] al profesor.",
+            "pl_translation": "Zapytaliście nauczyciela."
           }
         ]
       },
       {
         "es_word": "preguntaron",
-        "pl_word": "pytali",
+        "pl_word": "zapytali (preguntar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "[preguntaron::pytali] sin parar durante horas.",
-            "pl_translation": "Pytali bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "¿[preguntaron::pytali] bien el examen?",
-            "pl_translation": "Czy pytali dobrze egzamin?"
-          },
-          {
-            "es_form": "Ayer [preguntaron::pytali] todo el día.",
-            "pl_translation": "Wczoraj pytali cały dzień."
+            "es_form": "Ellos [preguntaron::zapytali] al profesor.",
+            "pl_translation": "Zapytali nauczyciela."
           }
         ]
       },
       {
-        "es_word": "pregunté",
-        "pl_word": "będę pytać",
+        "es_word": "preguntaré",
+        "pl_word": "będę pytać (preguntar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [pregunté::będę pytać] en España.",
-            "pl_translation": "W przyszłym roku będę pytać w Hiszpanii."
-          },
-          {
-            "es_form": "[pregunté::będę pytać] la proxima semana.",
-            "pl_translation": "Będę pytać w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Te prometo que [pregunté::będę pytać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będę pytać na czas."
+            "es_form": "Yo [preguntaré::będę pytać] al profesor.",
+            "pl_translation": "Będę pytać nauczyciela."
           }
         ]
       },
       {
-        "es_word": "preguntás",
-        "pl_word": "będziesz pytać",
+        "es_word": "preguntarás",
+        "pl_word": "będziesz pytać (preguntar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [preguntás::będziesz pytać] en España.",
-            "pl_translation": "W przyszłym roku będziesz pytać w Hiszpanii."
-          },
-          {
-            "es_form": "[preguntás::będziesz pytać] la proxima semana.",
-            "pl_translation": "Będziesz pytać w przyszłym tygodniu."
-          },
-          {
-            "es_form": "¿[preguntás::będziesz pytać] con nosotros mañana?",
-            "pl_translation": "Czy będziesz pytać z nami jutro?"
+            "es_form": "Tú [preguntarás::będziesz pytać] al profesor.",
+            "pl_translation": "Będziesz pytać nauczyciela."
           }
         ]
       },
       {
-        "es_word": "preguntá",
-        "pl_word": "będzie pytać",
+        "es_word": "preguntará",
+        "pl_word": "będzie pytać (preguntar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[preguntá::będzie pytać] con nosotros mañana?",
-            "pl_translation": "Czy będzie pytać z nami jutro?"
-          },
-          {
-            "es_form": "Creo que [preguntá::będzie pytać] bien.",
-            "pl_translation": "Myślę, że będzie pytać dobrze."
-          },
-          {
-            "es_form": "Te prometo que [preguntá::będzie pytać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będzie pytać na czas."
+            "es_form": "Él [preguntará::będzie pytać] al profesor.",
+            "pl_translation": "Będzie pytać nauczyciela."
           }
         ]
       },
       {
-        "es_word": "preguntemos",
-        "pl_word": "będziemy pytać",
+        "es_word": "preguntaremos",
+        "pl_word": "będziemy pytać (preguntar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [preguntemos::będziemy pytać] más temprano.",
-            "pl_translation": "Jutro będziemy pytać wcześniej."
-          },
-          {
-            "es_form": "Te prometo que [preguntemos::będziemy pytać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziemy pytać na czas."
-          },
-          {
-            "es_form": "El año que viene [preguntemos::będziemy pytać] en España.",
-            "pl_translation": "W przyszłym roku będziemy pytać w Hiszpanii."
+            "es_form": "Nosotros [preguntaremos::będziemy pytać] al profesor.",
+            "pl_translation": "Będziemy pytać nauczyciela."
           }
         ]
       },
       {
-        "es_word": "preguntéis",
-        "pl_word": "będziecie pytać",
+        "es_word": "preguntaréis",
+        "pl_word": "będziecie pytać (preguntar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [preguntéis::będziecie pytać] bien.",
-            "pl_translation": "Myślę, że będziecie pytać dobrze."
-          },
-          {
-            "es_form": "[preguntéis::będziecie pytać] la proxima semana.",
-            "pl_translation": "Będziecie pytać w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Te prometo que [preguntéis::będziecie pytać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziecie pytać na czas."
+            "es_form": "Vosotros [preguntaréis::będziecie pytać] al profesor.",
+            "pl_translation": "Będziecie pytać nauczyciela."
           }
         ]
       },
       {
-        "es_word": "preguntán",
-        "pl_word": "będą pytać",
+        "es_word": "preguntarán",
+        "pl_word": "będą pytać (preguntar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "¿[preguntán::będą pytać] con nosotros mañana?",
-            "pl_translation": "Czy będą pytać z nami jutro?"
-          },
-          {
-            "es_form": "[preguntán::będą pytać] la proxima semana.",
-            "pl_translation": "Będą pytać w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Mañana [preguntán::będą pytać] más temprano.",
-            "pl_translation": "Jutro będą pytać wcześniej."
+            "es_form": "Ellos [preguntarán::będą pytać] al profesor.",
+            "pl_translation": "Będą pytać nauczyciela."
           }
         ]
       }

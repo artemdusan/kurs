@@ -233,22 +233,18 @@
     "pl_word": "nabywać, kupować (nieruchomość)",
     "examples": [
       {
-        "es_form": "Es importante [adquirir::nabywać, kupować (nieruchomość)] todos los días.",
-        "pl_translation": "Ważne jest nabywać codziennie."
+        "es_form": "Quiero [adquirir::nabywać] una casa nueva.",
+        "pl_translation": "Chcę nabywać nowy dom."
       },
       {
-        "es_form": "Prefiero [adquirir::nabywać, kupować (nieruchomość)] en casa.",
-        "pl_translation": "Wolę nabywać w domu."
-      },
-      {
-        "es_form": "¿Puedes [adquirir::nabywać, kupować (nieruchomość)] más rápido?",
-        "pl_translation": "Możesz nabywać szybciej?"
+        "es_form": "No puedo [adquirir::nabywać] una casa nueva hoy.",
+        "pl_translation": "Nie mogę dziś nabywać nowy dom."
       }
     ],
     "forms": [
       {
         "es_word": "adquiero",
-        "pl_word": "nabywam",
+        "pl_word": "nabywam (adquirir)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "[adquiero::nabywam] todos los días.",
-            "pl_translation": "Nabywam codziennie."
-          },
-          {
-            "es_form": "Normalmente [adquiero::nabywam] por la mañana.",
-            "pl_translation": "Zazwyczaj nabywam rano."
-          },
-          {
-            "es_form": "[adquiero::nabywam] como me enseñaste.",
-            "pl_translation": "Nabywam tak jak mnie nauczyłeś"
+            "es_form": "Yo [adquiero::nabywam] una casa nueva.",
+            "pl_translation": "Nabywam nowy dom."
           }
         ]
       },
       {
         "es_word": "adquieres",
-        "pl_word": "nabywasz",
+        "pl_word": "nabywasz (adquirir)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "[adquieres::nabywasz] todos los días.",
-            "pl_translation": "Nabywasz codziennie."
-          },
-          {
-            "es_form": "Siempre [adquieres::nabywasz] con atencion.",
-            "pl_translation": "Zawsze nabywasz z uwagą."
-          },
-          {
-            "es_form": "No [adquieres::nabywasz] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie nabywasz zbyt dobrze."
+            "es_form": "Tú [adquieres::nabywasz] una casa nueva.",
+            "pl_translation": "Nabywasz nowy dom."
           }
         ]
       },
       {
         "es_word": "adquiere",
-        "pl_word": "nabywa",
+        "pl_word": "nabywa (adquirir)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "No [adquiere::nabywa] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie nabywa zbyt dobrze."
-          },
-          {
-            "es_form": "[adquiere::nabywa] como me enseñaste.",
-            "pl_translation": "Nabywa tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "¿[adquiere::nabywa] los fines de semana?",
-            "pl_translation": "Czy nabywa w weekendy?"
+            "es_form": "Él [adquiere::nabywa] una casa nueva.",
+            "pl_translation": "Nabywa nowy dom."
           }
         ]
       },
       {
         "es_word": "adquirimos",
-        "pl_word": "nabywamy",
+        "pl_word": "nabywamy (adquirir)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [adquirimos::nabywamy] por la mañana.",
-            "pl_translation": "Zazwyczaj nabywamy rano."
-          },
-          {
-            "es_form": "[adquirimos::nabywamy] como me enseñaste.",
-            "pl_translation": "Nabywamy tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "[adquirimos::nabywamy] todos los días.",
-            "pl_translation": "Nabywamy codziennie."
+            "es_form": "Nosotros [adquirimos::nabywamy] una casa nueva.",
+            "pl_translation": "Nabywamy nowy dom."
           }
         ]
       },
       {
         "es_word": "adquirís",
-        "pl_word": "nabywacie",
+        "pl_word": "nabywacie (adquirir)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [adquirís::nabywacie] por la mañana.",
-            "pl_translation": "Zazwyczaj nabywacie rano."
-          },
-          {
-            "es_form": "Siempre [adquirís::nabywacie] con atencion.",
-            "pl_translation": "Zawsze nabywacie z uwagą."
-          },
-          {
-            "es_form": "No [adquirís::nabywacie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie nabywacie zbyt dobrze."
+            "es_form": "Vosotros [adquirís::nabywacie] una casa nueva.",
+            "pl_translation": "Nabywacie nowy dom."
           }
         ]
       },
       {
         "es_word": "adquieren",
-        "pl_word": "nabywają",
+        "pl_word": "nabywają (adquirir)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [adquieren::nabywają] por la mañana.",
-            "pl_translation": "Zazwyczaj nabywają rano."
-          },
-          {
-            "es_form": "Siempre [adquieren::nabywają] con atencion.",
-            "pl_translation": "Zawsze nabywają z uwagą."
-          },
-          {
-            "es_form": "¿[adquieren::nabywają] los fines de semana?",
-            "pl_translation": "Czy nabywają w weekendy?"
+            "es_form": "Ellos [adquieren::nabywają] una casa nueva.",
+            "pl_translation": "Nabywają nowy dom."
           }
         ]
       },
       {
         "es_word": "adquirí",
-        "pl_word": "nabywałem",
+        "pl_word": "nabyłem (adquirir)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "[adquirí::nabywałem] la semana pasada.",
-            "pl_translation": "Nabywałem w zeszłym tygodniu."
-          },
-          {
-            "es_form": "¿[adquirí::nabywałem] bien el examen?",
-            "pl_translation": "Czy nabywałem dobrze egzamin?"
-          },
-          {
-            "es_form": "Nunca [adquirí::nabywałem] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie nabywałem czegoś takiego."
+            "es_form": "Yo [adquirí::nabyłem] una casa nueva.",
+            "pl_translation": "Nabyłem nowy dom."
           }
         ]
       },
       {
         "es_word": "adquiriste",
-        "pl_word": "nabywałeś",
+        "pl_word": "nabyłeś (adquirir)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [adquiriste::nabywałeś] todo el día.",
-            "pl_translation": "Wczoraj nabywałeś cały dzień."
-          },
-          {
-            "es_form": "El mes pasado no [adquiriste::nabywałeś] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie nabywałeś."
-          },
-          {
-            "es_form": "Nunca [adquiriste::nabywałeś] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie nabywałeś czegoś takiego."
+            "es_form": "Tú [adquiriste::nabyłeś] una casa nueva.",
+            "pl_translation": "Nabyłeś nowy dom."
           }
         ]
       },
       {
         "es_word": "adquirió",
-        "pl_word": "nabywał",
+        "pl_word": "nabył (adquirir)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "[adquirió::nabywał] sin parar durante horas.",
-            "pl_translation": "Nabywał bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "Ayer [adquirió::nabywał] todo el día.",
-            "pl_translation": "Wczoraj nabywał cały dzień."
-          },
-          {
-            "es_form": "[adquirió::nabywał] la semana pasada.",
-            "pl_translation": "Nabywał w zeszłym tygodniu."
+            "es_form": "Él [adquirió::nabył] una casa nueva.",
+            "pl_translation": "Nabył nowy dom."
           }
         ]
       },
       {
         "es_word": "adquirimos",
-        "pl_word": "nabywaliśmy",
+        "pl_word": "nabyliśmy (adquirir)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "[adquirimos::nabywaliśmy] sin parar durante horas.",
-            "pl_translation": "Nabywaliśmy bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "Ayer [adquirimos::nabywaliśmy] todo el día.",
-            "pl_translation": "Wczoraj nabywaliśmy cały dzień."
-          },
-          {
-            "es_form": "¿[adquirimos::nabywaliśmy] bien el examen?",
-            "pl_translation": "Czy nabywaliśmy dobrze egzamin?"
+            "es_form": "Nosotros [adquirimos::nabyliśmy] una casa nueva.",
+            "pl_translation": "Nabyliśmy nowy dom."
           }
         ]
       },
       {
         "es_word": "adquiristeis",
-        "pl_word": "nabywaliście",
+        "pl_word": "nabyliście (adquirir)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "[adquiristeis::nabywaliście] sin parar durante horas.",
-            "pl_translation": "Nabywaliście bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "El mes pasado no [adquiristeis::nabywaliście] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie nabywaliście."
-          },
-          {
-            "es_form": "¿[adquiristeis::nabywaliście] bien el examen?",
-            "pl_translation": "Czy nabywaliście dobrze egzamin?"
+            "es_form": "Vosotros [adquiristeis::nabyliście] una casa nueva.",
+            "pl_translation": "Nabyliście nowy dom."
           }
         ]
       },
       {
         "es_word": "adquirieron",
-        "pl_word": "nabywali",
+        "pl_word": "nabyli (adquirir)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[adquirieron::nabywali] bien el examen?",
-            "pl_translation": "Czy nabywali dobrze egzamin?"
-          },
-          {
-            "es_form": "El mes pasado no [adquirieron::nabywali] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie nabywali."
-          },
-          {
-            "es_form": "[adquirieron::nabywali] sin parar durante horas.",
-            "pl_translation": "Nabywali bez przerwy przez wiele godzin."
+            "es_form": "Ellos [adquirieron::nabyli] una casa nueva.",
+            "pl_translation": "Nabyli nowy dom."
           }
         ]
       },
       {
         "es_word": "adquiriré",
-        "pl_word": "będę nabywać",
+        "pl_word": "będę nabywać (adquirir)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [adquiriré::będę nabywać] bien.",
-            "pl_translation": "Myślę, że będę nabywać dobrze."
-          },
-          {
-            "es_form": "El año que viene [adquiriré::będę nabywać] en España.",
-            "pl_translation": "W przyszłym roku będę nabywać w Hiszpanii."
-          },
-          {
-            "es_form": "Te prometo que [adquiriré::będę nabywać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będę nabywać na czas."
+            "es_form": "Yo [adquiriré::będę nabywać] una casa nueva.",
+            "pl_translation": "Będę nabywać nowy dom."
           }
         ]
       },
       {
         "es_word": "adquirirás",
-        "pl_word": "będziesz nabywać",
+        "pl_word": "będziesz nabywać (adquirir)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [adquirirás::będziesz nabywać] en España.",
-            "pl_translation": "W przyszłym roku będziesz nabywać w Hiszpanii."
-          },
-          {
-            "es_form": "[adquirirás::będziesz nabywać] la proxima semana.",
-            "pl_translation": "Będziesz nabywać w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Te prometo que [adquirirás::będziesz nabywać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziesz nabywać na czas."
+            "es_form": "Tú [adquirirás::będziesz nabywać] una casa nueva.",
+            "pl_translation": "Będziesz nabywać nowy dom."
           }
         ]
       },
       {
         "es_word": "adquirirá",
-        "pl_word": "będzie nabywać",
+        "pl_word": "będzie nabywać (adquirir)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [adquirirá::będzie nabywać] bien.",
-            "pl_translation": "Myślę, że będzie nabywać dobrze."
-          },
-          {
-            "es_form": "¿[adquirirá::będzie nabywać] con nosotros mañana?",
-            "pl_translation": "Czy będzie nabywać z nami jutro?"
-          },
-          {
-            "es_form": "Mañana [adquirirá::będzie nabywać] más temprano.",
-            "pl_translation": "Jutro będzie nabywać wcześniej."
+            "es_form": "Él [adquirirá::będzie nabywać] una casa nueva.",
+            "pl_translation": "Będzie nabywać nowy dom."
           }
         ]
       },
       {
         "es_word": "adquiriremos",
-        "pl_word": "będziemy nabywać",
+        "pl_word": "będziemy nabywać (adquirir)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [adquiriremos::będziemy nabywać] en España.",
-            "pl_translation": "W przyszłym roku będziemy nabywać w Hiszpanii."
-          },
-          {
-            "es_form": "Mañana [adquiriremos::będziemy nabywać] más temprano.",
-            "pl_translation": "Jutro będziemy nabywać wcześniej."
-          },
-          {
-            "es_form": "Creo que [adquiriremos::będziemy nabywać] bien.",
-            "pl_translation": "Myślę, że będziemy nabywać dobrze."
+            "es_form": "Nosotros [adquiriremos::będziemy nabywać] una casa nueva.",
+            "pl_translation": "Będziemy nabywać nowy dom."
           }
         ]
       },
       {
         "es_word": "adquiriréis",
-        "pl_word": "będziecie nabywać",
+        "pl_word": "będziecie nabywać (adquirir)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [adquiriréis::będziecie nabywać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziecie nabywać na czas."
-          },
-          {
-            "es_form": "Creo que [adquiriréis::będziecie nabywać] bien.",
-            "pl_translation": "Myślę, że będziecie nabywać dobrze."
-          },
-          {
-            "es_form": "[adquiriréis::będziecie nabywać] la proxima semana.",
-            "pl_translation": "Będziecie nabywać w przyszłym tygodniu."
+            "es_form": "Vosotros [adquiriréis::będziecie nabywać] una casa nueva.",
+            "pl_translation": "Będziecie nabywać nowy dom."
           }
         ]
       },
       {
         "es_word": "adquirirán",
-        "pl_word": "będą nabywać",
+        "pl_word": "będą nabywać (adquirir)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [adquirirán::będą nabywać] más temprano.",
-            "pl_translation": "Jutro będą nabywać wcześniej."
-          },
-          {
-            "es_form": "¿[adquirirán::będą nabywać] con nosotros mañana?",
-            "pl_translation": "Czy będą nabywać z nami jutro?"
-          },
-          {
-            "es_form": "El año que viene [adquirirán::będą nabywać] en España.",
-            "pl_translation": "W przyszłym roku będą nabywać w Hiszpanii."
+            "es_form": "Ellos [adquirirán::będą nabywać] una casa nueva.",
+            "pl_translation": "Będą nabywać nowy dom."
           }
         ]
       }

@@ -233,22 +233,18 @@
     "pl_word": "podobać się",
     "examples": [
       {
-        "es_form": "Me va a [gustar::podobać się] el resultado.",
-        "pl_translation": "Spodoba mi się wynik."
+        "es_form": "Quiero [gustar::podobać] a la gente.",
+        "pl_translation": "Chcę podobać się ludziom."
       },
       {
-        "es_form": "Te puede [gustar::podobać się] esta idea.",
-        "pl_translation": "Może spodobać ci się ten pomysł."
-      },
-      {
-        "es_form": "Le empieza a [gustar::podobać się] la música.",
-        "pl_translation": "Zaczyna podobać mu/jej się muzyka."
+        "es_form": "No puedo [gustar::podobać] a la gente hoy.",
+        "pl_translation": "Nie mogę dziś podobać się ludziom."
       }
     ],
     "forms": [
       {
-        "es_word": "me gusta",
-        "pl_word": "lubię",
+        "es_word": "gusto",
+        "pl_word": "podobam (gustar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "A mí [me gusta::lubię] leer por la mañana.",
-            "pl_translation": "Lubię czytać rano."
-          },
-          {
-            "es_form": "No [me gusta::lubię] nada el frío.",
-            "pl_translation": "W ogóle nie lubię zimna."
-          },
-          {
-            "es_form": "[Me gusta::lubię] como me enseñaste.",
-            "pl_translation": "Lubię to, jak mnie nauczyłeś"
+            "es_form": "Yo [gusto::podobam] a la gente.",
+            "pl_translation": "Podobam się ludziom."
           }
         ]
       },
       {
-        "es_word": "te gusta",
-        "pl_word": "lubisz",
+        "es_word": "gustas",
+        "pl_word": "podobasz (gustar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "¿A ti [te gusta::lubisz] el café?",
-            "pl_translation": "Czy lubisz kawę?"
-          },
-          {
-            "es_form": "[Te gusta::lubisz] como te enseñé.",
-            "pl_translation": "Lubisz to, jak cię nauczyłem"
-          },
-          {
-            "es_form": "No [te gusta::lubisz] nada el pescado.",
-            "pl_translation": "W ogóle nie lubisz ryb."
+            "es_form": "Tú [gustas::podobasz] a la gente.",
+            "pl_translation": "Podobasz się ludziom."
           }
         ]
       },
       {
-        "es_word": "le gusta",
-        "pl_word": "lubi",
+        "es_word": "gusta",
+        "pl_word": "podoba (gustar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "A Juan [le gusta::lubi] el chocolate.",
-            "pl_translation": "Juan lubi czekoladę."
-          },
-          {
-            "es_form": "Ya no [le gusta::lubi] salir de casa.",
-            "pl_translation": "Już nie lubi wychodzić z domu."
-          },
-          {
-            "es_form": "[Le gusta::lubi] como le enseñaste.",
-            "pl_translation": "Lubi to, jak go"
+            "es_form": "Él [gusta::podoba] a la gente.",
+            "pl_translation": "Podoba się ludziom."
           }
         ]
       },
       {
-        "es_word": "nos gusta",
-        "pl_word": "lubimy",
+        "es_word": "gustamos",
+        "pl_word": "podobamy (gustar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "A nosotros [nos gusta::lubimy] viajar.",
-            "pl_translation": "Lubimy podróżować."
-          },
-          {
-            "es_form": "Siempre [nos gusta::lubimy] comer juntos.",
-            "pl_translation": "Zawsze lubimy jeść razem."
-          },
-          {
-            "es_form": "[Nos gusta::lubimy] como nos enseñaste.",
-            "pl_translation": "Lubimy to, jak nas nauczyłeś"
+            "es_form": "Nosotros [gustamos::podobamy] a la gente.",
+            "pl_translation": "Podobamy się ludziom."
           }
         ]
       },
       {
-        "es_word": "os gusta",
-        "pl_word": "lubicie",
+        "es_word": "gustáis",
+        "pl_word": "podobacie (gustar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "¿A vosotros [os gusta::lubicie] el deporte?",
-            "pl_translation": "Czy lubicie sport?"
-          },
-          {
-            "es_form": "Normalmente [os gusta::lubicie] salir los viernes.",
-            "pl_translation": "Zazwyczaj lubicie wychodzić w piątki."
-          },
-          {
-            "es_form": "[Os gusta::lubicie] como os enseñé.",
-            "pl_translation": "Lubicie to, jak was nauczyłem"
+            "es_form": "Vosotros [gustáis::podobacie] a la gente.",
+            "pl_translation": "Podobacie się ludziom."
           }
         ]
       },
       {
-        "es_word": "les gusta",
-        "pl_word": "lubią",
+        "es_word": "gustan",
+        "pl_word": "podobają (gustar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "A ellos [les gusta::lubią] el cine.",
-            "pl_translation": "Oni lubią kino."
-          },
-          {
-            "es_form": "Siempre [les gusta::lubią] jugar al fútbol.",
-            "pl_translation": "Zawsze lubią grać w piłkę nożną."
-          },
-          {
-            "es_form": "[Les gusta::lubią] como les enseñaste.",
-            "pl_translation": "Lubią to, jak ich nauczyłeś"
+            "es_form": "Ellos [gustan::podobają] a la gente.",
+            "pl_translation": "Podobają się ludziom."
           }
         ]
       },
       {
-        "es_word": "me gustó",
-        "pl_word": "lubiłem",
+        "es_word": "gusté",
+        "pl_word": "spodobałem (gustar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "[Me gustó::lubiłem] la película que vimos.",
-            "pl_translation": "Spodobał mi się film, który obejrzeliśmy."
-          },
-          {
-            "es_form": "Nunca [me gustó::lubiłem] ese lugar.",
-            "pl_translation": "Nigdy nie lubiłem"
-          },
-          {
-            "es_form": "[Me gustó::lubiłem] mucho tu regalo.",
-            "pl_translation": "Bardzo mi się spodobał twój prezent."
+            "es_form": "Yo [gusté::spodobałem] a la gente.",
+            "pl_translation": "Spodobałem się ludziom."
           }
         ]
       },
       {
-        "es_word": "te gustó",
-        "pl_word": "lubiłeś",
+        "es_word": "gustaste",
+        "pl_word": "spodobałeś (gustar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[Te gustó::lubiłeś] el concierto de ayer?",
-            "pl_translation": "Podobał ci się wczorajszy koncert?"
-          },
-          {
-            "es_form": "Nunca [te gustó::lubiłeś] la comida picante.",
-            "pl_translation": "Nigdy nie lubiłeś"
-          },
-          {
-            "es_form": "[Te gustó::lubiłeś] el libro que te presté.",
-            "pl_translation": "Spodobała ci się książka, którą ci pożyczyłem"
+            "es_form": "Tú [gustaste::spodobałeś] a la gente.",
+            "pl_translation": "Spodobałeś się ludziom."
           }
         ]
       },
       {
-        "es_word": "le gustó",
-        "pl_word": "lubił",
+        "es_word": "gustó",
+        "pl_word": "spodobał (gustar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "A María [le gustó::lubił] el regalo.",
-            "pl_translation": "Marii spodobał się prezent."
-          },
-          {
-            "es_form": "Nunca [le gustó::lubił] madrugar.",
-            "pl_translation": "Nigdy nie lubił"
-          },
-          {
-            "es_form": "[Le gustó::lubił] la ciudad desde el primer día.",
-            "pl_translation": "Spodobało mu"
+            "es_form": "Él [gustó::spodobał] a la gente.",
+            "pl_translation": "Spodobał się ludziom."
           }
         ]
       },
       {
-        "es_word": "nos gustó",
-        "pl_word": "lubiliśmy",
+        "es_word": "gustamos",
+        "pl_word": "spodobaliśmy (gustar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "[Nos gustó::lubiliśmy] mucho la obra de teatro.",
-            "pl_translation": "Bardzo spodobało nam się przedstawienie teatralne."
-          },
-          {
-            "es_form": "Nunca [nos gustó::lubiliśmy] ese barrio.",
-            "pl_translation": "Nigdy nie lubiliśmy"
-          },
-          {
-            "es_form": "[Nos gustó::lubiliśmy] viajar juntos.",
-            "pl_translation": "Lubiliśmy"
+            "es_form": "Nosotros [gustamos::spodobaliśmy] a la gente.",
+            "pl_translation": "Spodobaliśmy się ludziom."
           }
         ]
       },
       {
-        "es_word": "os gustó",
-        "pl_word": "lubiliście",
+        "es_word": "gustasteis",
+        "pl_word": "spodobaliście (gustar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[Os gustó::lubiliście] la cena de ayer?",
-            "pl_translation": "Smakowała wam wczorajsza kolacja?"
-          },
-          {
-            "es_form": "Nunca [os gustó::lubiliście] estudiar los sábados.",
-            "pl_translation": "Nigdy nie lubiliście"
-          },
-          {
-            "es_form": "[Os gustó::lubiliście] el paseo por el parque.",
-            "pl_translation": "Spodobał wam się spacer po parku."
+            "es_form": "Vosotros [gustasteis::spodobaliście] a la gente.",
+            "pl_translation": "Spodobaliście się ludziom."
           }
         ]
       },
       {
-        "es_word": "les gustó",
-        "pl_word": "lubili",
+        "es_word": "gustaron",
+        "pl_word": "spodobali (gustar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "A ellos [les gustó::lubili] la fiesta de anoche.",
-            "pl_translation": "Spodobało im się wczorajsze przyjęcie."
-          },
-          {
-            "es_form": "Nunca [les gustó::lubili] vivir en la ciudad.",
-            "pl_translation": "Nigdy nie lubili"
-          },
-          {
-            "es_form": "[Les gustó::lubili] mucho el museo.",
-            "pl_translation": "Bardzo spodobało im się muzeum."
+            "es_form": "Ellos [gustaron::spodobali] a la gente.",
+            "pl_translation": "Spodobali się ludziom."
           }
         ]
       },
       {
         "es_word": "gustaré",
-        "pl_word": "będę lubił",
+        "pl_word": "będę podobać (gustar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [gustaré::będę lubił] de la música clásica.",
-            "pl_translation": "Myślę, że będę lubił"
-          },
-          {
-            "es_form": "Seguro que [gustaré::będę lubił] de este lugar.",
-            "pl_translation": "Na pewno będę lubił"
-          },
-          {
-            "es_form": "[Gustaré::będę lubił] de la lectura con el tiempo.",
-            "pl_translation": "Z czasem będę lubił"
+            "es_form": "Yo [gustaré::będę podobać] a la gente.",
+            "pl_translation": "Będę podobać się ludziom."
           }
         ]
       },
       {
         "es_word": "gustarás",
-        "pl_word": "będziesz lubił",
+        "pl_word": "będziesz podobać (gustar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "Estoy seguro de que [gustarás::będziesz lubił] de la película.",
-            "pl_translation": "Jestem pewien"
-          },
-          {
-            "es_form": "¿Crees que [gustarás::będziesz lubił] del nuevo trabajo?",
-            "pl_translation": "Myślisz, że będziesz lubił"
-          },
-          {
-            "es_form": "[Gustarás::będziesz lubił] de conocer a mi familia.",
-            "pl_translation": "Będziesz lubił"
+            "es_form": "Tú [gustarás::będziesz podobać] a la gente.",
+            "pl_translation": "Będziesz podobać się ludziom."
           }
         ]
       },
       {
         "es_word": "gustará",
-        "pl_word": "będzie lubił",
+        "pl_word": "będzie podobać (gustar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "A Ana le [gustará::będzie lubił] este libro.",
-            "pl_translation": "Ani spodoba się ta książka."
-          },
-          {
-            "es_form": "Seguro que le [gustará::będzie lubił] el restaurante nuevo.",
-            "pl_translation": "Na pewno spodoba mu"
-          },
-          {
-            "es_form": "Le [gustará::będzie lubił] levantarse temprano.",
-            "pl_translation": "Będzie lubił"
+            "es_form": "Él [gustará::będzie podobać] a la gente.",
+            "pl_translation": "Będzie podobać się ludziom."
           }
         ]
       },
       {
         "es_word": "gustaremos",
-        "pl_word": "będziemy lubili",
+        "pl_word": "będziemy podobać (gustar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "Estoy seguro de que [gustaremos::będziemy lubili] de la excursión.",
-            "pl_translation": "Jestem pewien"
-          },
-          {
-            "es_form": "¿Crees que [gustaremos::będziemy lubili] de la nueva casa?",
-            "pl_translation": "Myślisz, że będziemy lubili"
-          },
-          {
-            "es_form": "Seguro que [gustaremos::będziemy lubili] del concierto.",
-            "pl_translation": "Na pewno będziemy lubili"
+            "es_form": "Nosotros [gustaremos::będziemy podobać] a la gente.",
+            "pl_translation": "Będziemy podobać się ludziom."
           }
         ]
       },
       {
         "es_word": "gustaréis",
-        "pl_word": "będziecie lubili",
+        "pl_word": "będziecie podobać (gustar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Estoy seguro de que [gustaréis::będziecie lubili] de este sitio.",
-            "pl_translation": "Jestem pewien"
-          },
-          {
-            "es_form": "¿Creéis que [gustaréis::będziecie lubili] de la universidad?",
-            "pl_translation": "Myślicie, że będziecie lubili"
-          },
-          {
-            "es_form": "Seguro que [gustaréis::będziecie lubili] de la sorpresa.",
-            "pl_translation": "Na pewno będziecie lubili"
+            "es_form": "Vosotros [gustaréis::będziecie podobać] a la gente.",
+            "pl_translation": "Będziecie podobać się ludziom."
           }
         ]
       },
       {
         "es_word": "gustarán",
-        "pl_word": "będą lubili",
+        "pl_word": "będą podobać (gustar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Creo que les [gustarán::będą lubili] las nuevas canciones.",
-            "pl_translation": "Myślę, że spodobają im się nowe piosenki."
-          },
-          {
-            "es_form": "Seguro que les [gustarán::będą lubili] los nuevos profesores.",
-            "pl_translation": "Na pewno spodobają im się nowi nauczyciele."
-          },
-          {
-            "es_form": "No sé si les [gustarán::będą lubili] los cambios.",
-            "pl_translation": "Nie wiem, czy spodobają im się te zmiany."
+            "es_form": "Ellos [gustarán::będą podobać] a la gente.",
+            "pl_translation": "Będą podobać się ludziom."
           }
         ]
       }

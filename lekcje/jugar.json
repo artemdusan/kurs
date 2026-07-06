@@ -233,22 +233,18 @@
     "pl_word": "grać",
     "examples": [
       {
-        "es_form": "Es importante [jugar::grać] todos los días.",
-        "pl_translation": "Ważne jest grać codziennie."
+        "es_form": "Quiero [jugar::grać] al fútbol.",
+        "pl_translation": "Chcę grać w piłkę nożną."
       },
       {
-        "es_form": "Me gusta [jugar::grać] por la mañana.",
-        "pl_translation": "Lubię grać rano."
-      },
-      {
-        "es_form": "Prefiero [jugar::grać] en casa.",
-        "pl_translation": "Wolę grać w domu."
+        "es_form": "No puedo [jugar::grać] al fútbol hoy.",
+        "pl_translation": "Nie mogę dziś grać w piłkę nożną."
       }
     ],
     "forms": [
       {
         "es_word": "juego",
-        "pl_word": "gram",
+        "pl_word": "gram (jugar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "[juego::gram] todos los días.",
-            "pl_translation": "Gram codziennie."
-          },
-          {
-            "es_form": "¿[juego::gram] los fines de semana?",
-            "pl_translation": "Czy gram w weekendy?"
-          },
-          {
-            "es_form": "Siempre [juego::gram] con atención.",
-            "pl_translation": "Zawsze gram z uwagą."
+            "es_form": "Yo [juego::gram] al fútbol.",
+            "pl_translation": "Gram w piłkę nożną."
           }
         ]
       },
       {
         "es_word": "juegas",
-        "pl_word": "grasz",
+        "pl_word": "grasz (jugar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "[juegas::grasz] como me enseñaste.",
-            "pl_translation": "Grasz tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "No [juegas::grasz] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie grasz zbyt dobrze."
-          },
-          {
-            "es_form": "[juegas::grasz] todos los días.",
-            "pl_translation": "Grasz codziennie."
+            "es_form": "Tú [juegas::grasz] al fútbol.",
+            "pl_translation": "Grasz w piłkę nożną."
           }
         ]
       },
       {
         "es_word": "juega",
-        "pl_word": "gra",
+        "pl_word": "gra (jugar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [juega::gra] por la mañana.",
-            "pl_translation": "Zazwyczaj gra rano."
-          },
-          {
-            "es_form": "[juega::gra] todos los días.",
-            "pl_translation": "Gra codziennie."
-          },
-          {
-            "es_form": "No [juega::gra] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie gra zbyt dobrze."
+            "es_form": "Él [juega::gra] al fútbol.",
+            "pl_translation": "Gra w piłkę nożną."
           }
         ]
       },
       {
         "es_word": "jugamos",
-        "pl_word": "gramy",
+        "pl_word": "gramy (jugar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "[jugamos::gramy] todos los días.",
-            "pl_translation": "Gramy codziennie."
-          },
-          {
-            "es_form": "[jugamos::gramy] como me enseñaste.",
-            "pl_translation": "Gramy tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "No [jugamos::gramy] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie gramy zbyt dobrze."
+            "es_form": "Nosotros [jugamos::gramy] al fútbol.",
+            "pl_translation": "Gramy w piłkę nożną."
           }
         ]
       },
       {
         "es_word": "jugáis",
-        "pl_word": "gracie",
+        "pl_word": "gracie (jugar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [jugáis::gracie] por la mañana.",
-            "pl_translation": "Zazwyczaj gracie rano."
-          },
-          {
-            "es_form": "[jugáis::gracie] como me enseñaste.",
-            "pl_translation": "Gracie tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Siempre [jugáis::gracie] con atención.",
-            "pl_translation": "Zawsze gracie z uwagą."
+            "es_form": "Vosotros [jugáis::gracie] al fútbol.",
+            "pl_translation": "Gracie w piłkę nożną."
           }
         ]
       },
       {
         "es_word": "juegan",
-        "pl_word": "grają",
+        "pl_word": "grają (jugar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "[juegan::grają] como me enseñaste.",
-            "pl_translation": "Grają tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Siempre [juegan::grają] con atención.",
-            "pl_translation": "Zawsze grają z uwagą."
-          },
-          {
-            "es_form": "Normalmente [juegan::grają] por la mañana.",
-            "pl_translation": "Zazwyczaj grają rano."
+            "es_form": "Ellos [juegan::grają] al fútbol.",
+            "pl_translation": "Grają w piłkę nożną."
           }
         ]
       },
       {
         "es_word": "jugué",
-        "pl_word": "grałem",
+        "pl_word": "grałem (jugar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "[jugué::grałem] sin parar durante horas.",
-            "pl_translation": "Grałem bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "El mes pasado no [jugué::grałem] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie grałem."
-          },
-          {
-            "es_form": "[jugué::grałem] la semana pasada.",
-            "pl_translation": "Grałem w zeszłym tygodniu."
+            "es_form": "Yo [jugué::grałem] al fútbol.",
+            "pl_translation": "Grałem w piłkę nożną."
           }
         ]
       },
       {
         "es_word": "jugaste",
-        "pl_word": "grałeś",
+        "pl_word": "grałeś (jugar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [jugaste::grałeś] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie grałeś w coś takiego."
-          },
-          {
-            "es_form": "[jugaste::grałeś] la semana pasada.",
-            "pl_translation": "Grałeś w zeszłym tygodniu."
-          },
-          {
-            "es_form": "El mes pasado no [jugaste::grałeś] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie grałeś."
+            "es_form": "Tú [jugaste::grałeś] al fútbol.",
+            "pl_translation": "Grałeś w piłkę nożną."
           }
         ]
       },
       {
         "es_word": "jugó",
-        "pl_word": "grał",
+        "pl_word": "grał (jugar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "[jugó::grał] sin parar durante horas.",
-            "pl_translation": "Grał bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "[jugó::grał] la semana pasada.",
-            "pl_translation": "Grał w zeszłym tygodniu."
-          },
-          {
-            "es_form": "Ayer [jugó::grał] todo el día.",
-            "pl_translation": "Wczoraj grał cały dzień."
+            "es_form": "Él [jugó::grał] al fútbol.",
+            "pl_translation": "Grał w piłkę nożną."
           }
         ]
       },
       {
         "es_word": "jugamos",
-        "pl_word": "graliśmy",
+        "pl_word": "graliśmy (jugar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "[jugamos::graliśmy] la semana pasada.",
-            "pl_translation": "Graliśmy w zeszłym tygodniu."
-          },
-          {
-            "es_form": "¿[jugamos::graliśmy] bien el partido?",
-            "pl_translation": "Czy graliśmy dobrze w meczu?"
-          },
-          {
-            "es_form": "Ayer [jugamos::graliśmy] todo el día.",
-            "pl_translation": "Wczoraj graliśmy cały dzień."
+            "es_form": "Nosotros [jugamos::graliśmy] al fútbol.",
+            "pl_translation": "Graliśmy w piłkę nożną."
           }
         ]
       },
       {
         "es_word": "jugasteis",
-        "pl_word": "graliście",
+        "pl_word": "graliście (jugar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [jugasteis::graliście] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie graliście."
-          },
-          {
-            "es_form": "[jugasteis::graliście] sin parar durante horas.",
-            "pl_translation": "Graliście bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "¿[jugasteis::graliście] bien el partido?",
-            "pl_translation": "Czy graliście dobrze w meczu?"
+            "es_form": "Vosotros [jugasteis::graliście] al fútbol.",
+            "pl_translation": "Graliście w piłkę nożną."
           }
         ]
       },
       {
         "es_word": "jugaron",
-        "pl_word": "grali",
+        "pl_word": "grali (jugar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "[jugaron::grali] sin parar durante horas.",
-            "pl_translation": "Grali bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "[jugaron::grali] la semana pasada.",
-            "pl_translation": "Grali w zeszłym tygodniu."
-          },
-          {
-            "es_form": "Ayer [jugaron::grali] todo el día.",
-            "pl_translation": "Wczoraj grali cały dzień."
+            "es_form": "Ellos [jugaron::grali] al fútbol.",
+            "pl_translation": "Grali w piłkę nożną."
           }
         ]
       },
       {
         "es_word": "jugaré",
-        "pl_word": "będę grać",
+        "pl_word": "będę grać (jugar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [jugaré::będę grać] más temprano.",
-            "pl_translation": "Jutro będę grać wcześniej."
-          },
-          {
-            "es_form": "El año que viene [jugaré::będę grać] en España.",
-            "pl_translation": "W przyszłym roku będę grać w Hiszpanii."
-          },
-          {
-            "es_form": "Creo que [jugaré::będę grać] bien.",
-            "pl_translation": "Myślę, że będę grać dobrze."
+            "es_form": "Yo [jugaré::będę grać] al fútbol.",
+            "pl_translation": "Będę grać w piłkę nożną."
           }
         ]
       },
       {
         "es_word": "jugarás",
-        "pl_word": "będziesz grać",
+        "pl_word": "będziesz grać (jugar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [jugarás::będziesz grać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziesz grać na czas."
-          },
-          {
-            "es_form": "Creo que [jugarás::będziesz grać] bien.",
-            "pl_translation": "Myślę, że będziesz grać dobrze."
-          },
-          {
-            "es_form": "¿[jugarás::będziesz grać] con nosotros mañana?",
-            "pl_translation": "Czy będziesz grać z nami jutro?"
+            "es_form": "Tú [jugarás::będziesz grać] al fútbol.",
+            "pl_translation": "Będziesz grać w piłkę nożną."
           }
         ]
       },
       {
         "es_word": "jugará",
-        "pl_word": "będzie grać",
+        "pl_word": "będzie grać (jugar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [jugará::będzie grać] bien.",
-            "pl_translation": "Myślę, że będzie grać dobrze."
-          },
-          {
-            "es_form": "¿[jugará::będzie grać] con nosotros mañana?",
-            "pl_translation": "Czy będzie grać z nami jutro?"
-          },
-          {
-            "es_form": "Mañana [jugará::będzie grać] más temprano.",
-            "pl_translation": "Jutro będzie grać wcześniej."
+            "es_form": "Él [jugará::będzie grać] al fútbol.",
+            "pl_translation": "Będzie grać w piłkę nożną."
           }
         ]
       },
       {
         "es_word": "jugaremos",
-        "pl_word": "będziemy grać",
+        "pl_word": "będziemy grać (jugar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "[jugaremos::będziemy grać] la próxima semana.",
-            "pl_translation": "Będziemy grać w przyszłym tygodniu."
-          },
-          {
-            "es_form": "El año que viene [jugaremos::będziemy grać] en España.",
-            "pl_translation": "W przyszłym roku będziemy grać w Hiszpanii."
-          },
-          {
-            "es_form": "Te prometo que [jugaremos::będziemy grać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziemy grać na czas."
+            "es_form": "Nosotros [jugaremos::będziemy grać] al fútbol.",
+            "pl_translation": "Będziemy grać w piłkę nożną."
           }
         ]
       },
       {
         "es_word": "jugaréis",
-        "pl_word": "będziecie grać",
+        "pl_word": "będziecie grać (jugar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [jugaréis::będziecie grać] más temprano.",
-            "pl_translation": "Jutro będziecie grać wcześniej."
-          },
-          {
-            "es_form": "Creo que [jugaréis::będziecie grać] bien.",
-            "pl_translation": "Myślę, że będziecie grać dobrze."
-          },
-          {
-            "es_form": "Te prometo que [jugaréis::będziecie grać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziecie grać na czas."
+            "es_form": "Vosotros [jugaréis::będziecie grać] al fútbol.",
+            "pl_translation": "Będziecie grać w piłkę nożną."
           }
         ]
       },
       {
         "es_word": "jugarán",
-        "pl_word": "będą grać",
+        "pl_word": "będą grać (jugar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "¿[jugarán::będą grać] con nosotros mañana?",
-            "pl_translation": "Czy będą grać z nami jutro?"
-          },
-          {
-            "es_form": "El año que viene [jugarán::będą grać] en España.",
-            "pl_translation": "W przyszłym roku będą grać w Hiszpanii."
-          },
-          {
-            "es_form": "[jugarán::będą grać] la próxima semana.",
-            "pl_translation": "Będą grać w przyszłym tygodniu."
+            "es_form": "Ellos [jugarán::będą grać] al fútbol.",
+            "pl_translation": "Będą grać w piłkę nożną."
           }
         ]
       }

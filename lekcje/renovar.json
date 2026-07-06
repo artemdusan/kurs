@@ -233,22 +233,18 @@
     "pl_word": "remontować, odnawiać",
     "examples": [
       {
-        "es_form": "Prefiero [renovar::remontować, odnawiać] en casa.",
-        "pl_translation": "Wolę remontować, odnawiać w domu."
+        "es_form": "Quiero [renovar::remontować] la cocina.",
+        "pl_translation": "Chcę remontować kuchnię."
       },
       {
-        "es_form": "¿Puedes [renovar::remontować, odnawiać] más rápido?",
-        "pl_translation": "Możesz remontować, odnawiać szybciej?"
-      },
-      {
-        "es_form": "Me gusta [renovar::remontować, odnawiać] por la mañana.",
-        "pl_translation": "Lubię remontować, odnawiać rano."
+        "es_form": "No puedo [renovar::remontować] la cocina hoy.",
+        "pl_translation": "Nie mogę dziś remontować kuchnię."
       }
     ],
     "forms": [
       {
         "es_word": "renuevo",
-        "pl_word": "remontuję",
+        "pl_word": "remontuję (renovar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "[renuevo::remontuję] como me enseñaste.",
-            "pl_translation": "Remontuję tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "¿[renuevo::remontuję] los fines de semana?",
-            "pl_translation": "Czy remontuję w weekendy?"
-          },
-          {
-            "es_form": "No [renuevo::remontuję] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie remontuję zbyt dobrze."
+            "es_form": "Yo [renuevo::remontuję] la cocina.",
+            "pl_translation": "Remontuję kuchnię."
           }
         ]
       },
       {
         "es_word": "renuevas",
-        "pl_word": "remontujesz",
+        "pl_word": "remontujesz (renovar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[renuevas::remontujesz] los fines de semana?",
-            "pl_translation": "Czy remontujesz w weekendy?"
-          },
-          {
-            "es_form": "[renuevas::remontujesz] como me enseñaste.",
-            "pl_translation": "Remontujesz tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Normalmente [renuevas::remontujesz] por la mañana.",
-            "pl_translation": "Zazwyczaj remontujesz rano."
+            "es_form": "Tú [renuevas::remontujesz] la cocina.",
+            "pl_translation": "Remontujesz kuchnię."
           }
         ]
       },
       {
         "es_word": "renueva",
-        "pl_word": "remontuje",
+        "pl_word": "remontuje (renovar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[renueva::remontuje] los fines de semana?",
-            "pl_translation": "Czy remontuje w weekendy?"
-          },
-          {
-            "es_form": "[renueva::remontuje] todos los días.",
-            "pl_translation": "Remontuje codziennie."
-          },
-          {
-            "es_form": "Siempre [renueva::remontuje] con atencion.",
-            "pl_translation": "Zawsze remontuje z uwagą."
+            "es_form": "Él [renueva::remontuje] la cocina.",
+            "pl_translation": "Remontuje kuchnię."
           }
         ]
       },
       {
         "es_word": "renovamos",
-        "pl_word": "remontujemy",
+        "pl_word": "remontujemy (renovar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "No [renovamos::remontujemy] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie remontujemy zbyt dobrze."
-          },
-          {
-            "es_form": "[renovamos::remontujemy] todos los días.",
-            "pl_translation": "Remontujemy codziennie."
-          },
-          {
-            "es_form": "[renovamos::remontujemy] como me enseñaste.",
-            "pl_translation": "Remontujemy tak jak mnie nauczyłeś"
+            "es_form": "Nosotros [renovamos::remontujemy] la cocina.",
+            "pl_translation": "Remontujemy kuchnię."
           }
         ]
       },
       {
         "es_word": "renováis",
-        "pl_word": "remontujecie",
+        "pl_word": "remontujecie (renovar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "[renováis::remontujecie] como me enseñaste.",
-            "pl_translation": "Remontujecie tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Siempre [renováis::remontujecie] con atencion.",
-            "pl_translation": "Zawsze remontujecie z uwagą."
-          },
-          {
-            "es_form": "No [renováis::remontujecie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie remontujecie zbyt dobrze."
+            "es_form": "Vosotros [renováis::remontujecie] la cocina.",
+            "pl_translation": "Remontujecie kuchnię."
           }
         ]
       },
       {
         "es_word": "renuevan",
-        "pl_word": "remontują",
+        "pl_word": "remontują (renovar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "No [renuevan::remontują] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie remontują zbyt dobrze."
-          },
-          {
-            "es_form": "Siempre [renuevan::remontują] con atencion.",
-            "pl_translation": "Zawsze remontują z uwagą."
-          },
-          {
-            "es_form": "Normalmente [renuevan::remontują] por la mañana.",
-            "pl_translation": "Zazwyczaj remontują rano."
+            "es_form": "Ellos [renuevan::remontują] la cocina.",
+            "pl_translation": "Remontują kuchnię."
           }
         ]
       },
       {
         "es_word": "renové",
-        "pl_word": "remontowałem",
+        "pl_word": "wyremontowałem (renovar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [renové::remontowałem] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie remontowałem czegoś takiego."
-          },
-          {
-            "es_form": "[renové::remontowałem] la semana pasada.",
-            "pl_translation": "Remontowałem w zeszłym tygodniu."
-          },
-          {
-            "es_form": "¿[renové::remontowałem] bien el examen?",
-            "pl_translation": "Czy remontowałem dobrze egzamin?"
+            "es_form": "Yo [renové::wyremontowałem] la cocina.",
+            "pl_translation": "Wyremontowałem kuchnię."
           }
         ]
       },
       {
         "es_word": "renovaste",
-        "pl_word": "remontowałeś",
+        "pl_word": "wyremontowałeś (renovar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [renovaste::remontowałeś] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie remontowałeś."
-          },
-          {
-            "es_form": "Nunca [renovaste::remontowałeś] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie remontowałeś czegoś takiego."
-          },
-          {
-            "es_form": "[renovaste::remontowałeś] la semana pasada.",
-            "pl_translation": "Remontowałeś w zeszłym tygodniu."
+            "es_form": "Tú [renovaste::wyremontowałeś] la cocina.",
+            "pl_translation": "Wyremontowałeś kuchnię."
           }
         ]
       },
       {
         "es_word": "renovó",
-        "pl_word": "remontował",
+        "pl_word": "wyremontował (renovar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [renovó::remontował] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie remontował."
-          },
-          {
-            "es_form": "Nunca [renovó::remontował] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie remontował czegoś takiego."
-          },
-          {
-            "es_form": "[renovó::remontował] sin parar durante horas.",
-            "pl_translation": "Remontował bez przerwy przez wiele godzin."
+            "es_form": "Él [renovó::wyremontował] la cocina.",
+            "pl_translation": "Wyremontował kuchnię."
           }
         ]
       },
       {
         "es_word": "renovamos",
-        "pl_word": "remontowaliśmy",
+        "pl_word": "wyremontowaliśmy (renovar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "[renovamos::remontowaliśmy] la semana pasada.",
-            "pl_translation": "Remontowaliśmy w zeszłym tygodniu."
-          },
-          {
-            "es_form": "¿[renovamos::remontowaliśmy] bien el examen?",
-            "pl_translation": "Czy remontowaliśmy dobrze egzamin?"
-          },
-          {
-            "es_form": "Ayer [renovamos::remontowaliśmy] todo el día.",
-            "pl_translation": "Wczoraj remontowaliśmy cały dzień."
+            "es_form": "Nosotros [renovamos::wyremontowaliśmy] la cocina.",
+            "pl_translation": "Wyremontowaliśmy kuchnię."
           }
         ]
       },
       {
         "es_word": "renovasteis",
-        "pl_word": "remontowaliście",
+        "pl_word": "wyremontowaliście (renovar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "[renovasteis::remontowaliście] la semana pasada.",
-            "pl_translation": "Remontowaliście w zeszłym tygodniu."
-          },
-          {
-            "es_form": "Ayer [renovasteis::remontowaliście] todo el día.",
-            "pl_translation": "Wczoraj remontowaliście cały dzień."
-          },
-          {
-            "es_form": "El mes pasado no [renovasteis::remontowaliście] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie remontowaliście."
+            "es_form": "Vosotros [renovasteis::wyremontowaliście] la cocina.",
+            "pl_translation": "Wyremontowaliście kuchnię."
           }
         ]
       },
       {
         "es_word": "renovaron",
-        "pl_word": "remontowali",
+        "pl_word": "wyremontowali (renovar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[renovaron::remontowali] bien el examen?",
-            "pl_translation": "Czy remontowali dobrze egzamin?"
-          },
-          {
-            "es_form": "[renovaron::remontowali] sin parar durante horas.",
-            "pl_translation": "Remontowali bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "Nunca [renovaron::remontowali] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie remontowali czegoś takiego."
+            "es_form": "Ellos [renovaron::wyremontowali] la cocina.",
+            "pl_translation": "Wyremontowali kuchnię."
           }
         ]
       },
       {
         "es_word": "renovaré",
-        "pl_word": "będę remontować",
+        "pl_word": "będę remontować (renovar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [renovaré::będę remontować] más temprano.",
-            "pl_translation": "Jutro będę remontować wcześniej."
-          },
-          {
-            "es_form": "[renovaré::będę remontować] la proxima semana.",
-            "pl_translation": "Będę remontować w przyszłym tygodniu."
-          },
-          {
-            "es_form": "El año que viene [renovaré::będę remontować] en España.",
-            "pl_translation": "W przyszłym roku będę remontować w Hiszpanii."
+            "es_form": "Yo [renovaré::będę remontować] la cocina.",
+            "pl_translation": "Będę remontować kuchnię."
           }
         ]
       },
       {
         "es_word": "renovarás",
-        "pl_word": "będziesz remontować",
+        "pl_word": "będziesz remontować (renovar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "[renovarás::będziesz remontować] la proxima semana.",
-            "pl_translation": "Będziesz remontować w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Mañana [renovarás::będziesz remontować] más temprano.",
-            "pl_translation": "Jutro będziesz remontować wcześniej."
-          },
-          {
-            "es_form": "El año que viene [renovarás::będziesz remontować] en España.",
-            "pl_translation": "W przyszłym roku będziesz remontować w Hiszpanii."
+            "es_form": "Tú [renovarás::będziesz remontować] la cocina.",
+            "pl_translation": "Będziesz remontować kuchnię."
           }
         ]
       },
       {
         "es_word": "renovará",
-        "pl_word": "będzie remontować",
+        "pl_word": "będzie remontować (renovar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [renovará::będzie remontować] en España.",
-            "pl_translation": "W przyszłym roku będzie remontować w Hiszpanii."
-          },
-          {
-            "es_form": "Te prometo que [renovará::będzie remontować] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będzie remontować na czas."
-          },
-          {
-            "es_form": "¿[renovará::będzie remontować] con nosotros mañana?",
-            "pl_translation": "Czy będzie remontować z nami jutro?"
+            "es_form": "Él [renovará::będzie remontować] la cocina.",
+            "pl_translation": "Będzie remontować kuchnię."
           }
         ]
       },
       {
         "es_word": "renovaremos",
-        "pl_word": "będziemy remontować",
+        "pl_word": "będziemy remontować (renovar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "[renovaremos::będziemy remontować] la proxima semana.",
-            "pl_translation": "Będziemy remontować w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Te prometo que [renovaremos::będziemy remontować] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziemy remontować na czas."
-          },
-          {
-            "es_form": "Mañana [renovaremos::będziemy remontować] más temprano.",
-            "pl_translation": "Jutro będziemy remontować wcześniej."
+            "es_form": "Nosotros [renovaremos::będziemy remontować] la cocina.",
+            "pl_translation": "Będziemy remontować kuchnię."
           }
         ]
       },
       {
         "es_word": "renovaréis",
-        "pl_word": "będziecie remontować",
+        "pl_word": "będziecie remontować (renovar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [renovaréis::będziecie remontować] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziecie remontować na czas."
-          },
-          {
-            "es_form": "Creo que [renovaréis::będziecie remontować] bien.",
-            "pl_translation": "Myślę, że będziecie remontować dobrze."
-          },
-          {
-            "es_form": "Mañana [renovaréis::będziecie remontować] más temprano.",
-            "pl_translation": "Jutro będziecie remontować wcześniej."
+            "es_form": "Vosotros [renovaréis::będziecie remontować] la cocina.",
+            "pl_translation": "Będziecie remontować kuchnię."
           }
         ]
       },
       {
         "es_word": "renovarán",
-        "pl_word": "będą remontować",
+        "pl_word": "będą remontować (renovar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [renovarán::będą remontować] más temprano.",
-            "pl_translation": "Jutro będą remontować wcześniej."
-          },
-          {
-            "es_form": "El año que viene [renovarán::będą remontować] en España.",
-            "pl_translation": "W przyszłym roku będą remontować w Hiszpanii."
-          },
-          {
-            "es_form": "¿[renovarán::będą remontować] con nosotros mañana?",
-            "pl_translation": "Czy będą remontować z nami jutro?"
+            "es_form": "Ellos [renovarán::będą remontować] la cocina.",
+            "pl_translation": "Będą remontować kuchnię."
           }
         ]
       }

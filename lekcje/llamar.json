@@ -233,22 +233,18 @@
     "pl_word": "dzwonić, wołać, nazywać",
     "examples": [
       {
-        "es_form": "¿Puedes [llamar::dzwonić, wołać, nazywać] más rápido?",
-        "pl_translation": "Możesz dzwonić, wołać, nazywać szybciej?"
+        "es_form": "Quiero [llamar::dzwonić] a mi madre.",
+        "pl_translation": "Chcę dzwonić do mamy."
       },
       {
-        "es_form": "Quiero [llamar::dzwonić, wołać, nazywać] ahora.",
-        "pl_translation": "Chcę dzwonić, wołać, nazywać teraz."
-      },
-      {
-        "es_form": "Es importante [llamar::dzwonić, wołać, nazywać] todos los días.",
-        "pl_translation": "Ważne jest dzwonić, wołać, nazywać codziennie."
+        "es_form": "No puedo [llamar::dzwonić] a mi madre hoy.",
+        "pl_translation": "Nie mogę dziś dzwonić do mamy."
       }
     ],
     "forms": [
       {
         "es_word": "llamo",
-        "pl_word": "dzwonię",
+        "pl_word": "dzwonię (llamar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [llamo::dzwonię] por la mañana.",
-            "pl_translation": "Zazwyczaj dzwonię rano."
-          },
-          {
-            "es_form": "¿[llamo::dzwonię] los fines de semana?",
-            "pl_translation": "Czy dzwonię w weekendy?"
-          },
-          {
-            "es_form": "Siempre [llamo::dzwonię] con atencion.",
-            "pl_translation": "Zawsze dzwonię z uwagą."
+            "es_form": "Yo [llamo::dzwonię] a mi madre.",
+            "pl_translation": "Dzwonię do mamy."
           }
         ]
       },
       {
         "es_word": "llamas",
-        "pl_word": "dzwonisz",
+        "pl_word": "dzwonisz (llamar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "[llamas::dzwonisz] como me enseñaste.",
-            "pl_translation": "Dzwonisz tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "¿[llamas::dzwonisz] los fines de semana?",
-            "pl_translation": "Czy dzwonisz w weekendy?"
-          },
-          {
-            "es_form": "Siempre [llamas::dzwonisz] con atencion.",
-            "pl_translation": "Zawsze dzwonisz z uwagą."
+            "es_form": "Tú [llamas::dzwonisz] a mi madre.",
+            "pl_translation": "Dzwonisz do mamy."
           }
         ]
       },
       {
         "es_word": "llama",
-        "pl_word": "dzwoni",
+        "pl_word": "dzwoni (llamar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [llama::dzwoni] con atencion.",
-            "pl_translation": "Zawsze dzwonić z uwagą."
-          },
-          {
-            "es_form": "[llama::dzwoni] todos los días.",
-            "pl_translation": "Dzwonić codziennie."
-          },
-          {
-            "es_form": "¿[llama::dzwoni] los fines de semana?",
-            "pl_translation": "Czy dzwonić w weekendy?"
+            "es_form": "Él [llama::dzwoni] a mi madre.",
+            "pl_translation": "Dzwoni do mamy."
           }
         ]
       },
       {
         "es_word": "llamamos",
-        "pl_word": "dzwonimy",
+        "pl_word": "dzwonimy (llamar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "[llamamos::dzwonimy] todos los días.",
-            "pl_translation": "Dzwonimy codziennie."
-          },
-          {
-            "es_form": "No [llamamos::dzwonimy] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie dzwonimy zbyt dobrze."
-          },
-          {
-            "es_form": "¿[llamamos::dzwonimy] los fines de semana?",
-            "pl_translation": "Czy dzwonimy w weekendy?"
+            "es_form": "Nosotros [llamamos::dzwonimy] a mi madre.",
+            "pl_translation": "Dzwonimy do mamy."
           }
         ]
       },
       {
         "es_word": "llamáis",
-        "pl_word": "dzwonicie",
+        "pl_word": "dzwonicie (llamar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [llamáis::dzwonicie] por la mañana.",
-            "pl_translation": "Zazwyczaj dzwonicie rano."
-          },
-          {
-            "es_form": "Siempre [llamáis::dzwonicie] con atencion.",
-            "pl_translation": "Zawsze dzwonicie z uwagą."
-          },
-          {
-            "es_form": "[llamáis::dzwonicie] todos los días.",
-            "pl_translation": "Dzwonicie codziennie."
+            "es_form": "Vosotros [llamáis::dzwonicie] a mi madre.",
+            "pl_translation": "Dzwonicie do mamy."
           }
         ]
       },
       {
         "es_word": "llaman",
-        "pl_word": "dzwonią",
+        "pl_word": "dzwonią (llamar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "No [llaman::dzwonią] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie dzwonią zbyt dobrze."
-          },
-          {
-            "es_form": "¿[llaman::dzwonią] los fines de semana?",
-            "pl_translation": "Czy dzwonią w weekendy?"
-          },
-          {
-            "es_form": "Normalmente [llaman::dzwonią] por la mañana.",
-            "pl_translation": "Zazwyczaj dzwonią rano."
+            "es_form": "Ellos [llaman::dzwonią] a mi madre.",
+            "pl_translation": "Dzwonią do mamy."
           }
         ]
       },
       {
         "es_word": "llamé",
-        "pl_word": "dzwoniłem",
+        "pl_word": "zadzwoniłem (llamar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "[llamé::dzwoniłem] sin parar durante horas.",
-            "pl_translation": "Dzwoniłem bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "Ayer [llamé::dzwoniłem] todo el día.",
-            "pl_translation": "Wczoraj dzwoniłem cały dzień."
-          },
-          {
-            "es_form": "El mes pasado no [llamé::dzwoniłem] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie dzwoniłem."
+            "es_form": "Yo [llamé::zadzwoniłem] a mi madre.",
+            "pl_translation": "Zadzwoniłem do mamy."
           }
         ]
       },
       {
         "es_word": "llamaste",
-        "pl_word": "dzwoniłeś",
+        "pl_word": "zadzwoniłeś (llamar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [llamaste::dzwoniłeś] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie dzwoniłeś."
-          },
-          {
-            "es_form": "Ayer [llamaste::dzwoniłeś] todo el día.",
-            "pl_translation": "Wczoraj dzwoniłeś cały dzień."
-          },
-          {
-            "es_form": "[llamaste::dzwoniłeś] sin parar durante horas.",
-            "pl_translation": "Dzwoniłeś bez przerwy przez wiele godzin."
+            "es_form": "Tú [llamaste::zadzwoniłeś] a mi madre.",
+            "pl_translation": "Zadzwoniłeś do mamy."
           }
         ]
       },
       {
         "es_word": "llamó",
-        "pl_word": "dzwonił",
+        "pl_word": "zadzwonił (llamar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [llamó::dzwonił] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie dzwonił."
-          },
-          {
-            "es_form": "[llamó::dzwonił] sin parar durante horas.",
-            "pl_translation": "Dzwonił bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "Nunca [llamó::dzwonił] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie dzwonił czegoś takiego."
+            "es_form": "Él [llamó::zadzwonił] a mi madre.",
+            "pl_translation": "Zadzwonił do mamy."
           }
         ]
       },
       {
         "es_word": "llamamos",
-        "pl_word": "dzwoniliśmy",
+        "pl_word": "zadzwoniliśmy (llamar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[llamamos::dzwoniliśmy] bien el examen?",
-            "pl_translation": "Czy dzwoniliśmy dobrze egzamin?"
-          },
-          {
-            "es_form": "[llamamos::dzwoniliśmy] sin parar durante horas.",
-            "pl_translation": "Dzwoniliśmy bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "[llamamos::dzwoniliśmy] la semana pasada.",
-            "pl_translation": "Dzwoniliśmy w zeszłym tygodniu."
+            "es_form": "Nosotros [llamamos::zadzwoniliśmy] a mi madre.",
+            "pl_translation": "Zadzwoniliśmy do mamy."
           }
         ]
       },
       {
         "es_word": "llamasteis",
-        "pl_word": "dzwoniliście",
+        "pl_word": "zadzwoniliście (llamar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [llamasteis::dzwoniliście] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie dzwoniliście."
-          },
-          {
-            "es_form": "¿[llamasteis::dzwoniliście] bien el examen?",
-            "pl_translation": "Czy dzwoniliście dobrze egzamin?"
-          },
-          {
-            "es_form": "Nunca [llamasteis::dzwoniliście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie dzwoniliście czegoś takiego."
+            "es_form": "Vosotros [llamasteis::zadzwoniliście] a mi madre.",
+            "pl_translation": "Zadzwoniliście do mamy."
           }
         ]
       },
       {
         "es_word": "llamaron",
-        "pl_word": "dzwonili",
+        "pl_word": "zadzwonili (llamar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[llamaron::dzwonili] bien el examen?",
-            "pl_translation": "Czy dzwonili dobrze egzamin?"
-          },
-          {
-            "es_form": "[llamaron::dzwonili] sin parar durante horas.",
-            "pl_translation": "Dzwonili bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "Ayer [llamaron::dzwonili] todo el día.",
-            "pl_translation": "Wczoraj dzwonili cały dzień."
+            "es_form": "Ellos [llamaron::zadzwonili] a mi madre.",
+            "pl_translation": "Zadzwonili do mamy."
           }
         ]
       },
       {
-        "es_word": "llamé",
-        "pl_word": "będę dzwonić",
+        "es_word": "llamaré",
+        "pl_word": "będę dzwonić (llamar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [llamé::będę dzwonić] bien.",
-            "pl_translation": "Myślę, że będę dzwonić dobrze."
-          },
-          {
-            "es_form": "Mañana [llamé::będę dzwonić] más temprano.",
-            "pl_translation": "Jutro będę dzwonić wcześniej."
-          },
-          {
-            "es_form": "El año que viene [llamé::będę dzwonić] en España.",
-            "pl_translation": "W przyszłym roku będę dzwonić w Hiszpanii."
+            "es_form": "Yo [llamaré::będę dzwonić] a mi madre.",
+            "pl_translation": "Będę dzwonić do mamy."
           }
         ]
       },
       {
-        "es_word": "llamás",
-        "pl_word": "będziesz dzwonić",
+        "es_word": "llamarás",
+        "pl_word": "będziesz dzwonić (llamar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [llamás::będziesz dzwonić] más temprano.",
-            "pl_translation": "Jutro będziesz dzwonić wcześniej."
-          },
-          {
-            "es_form": "Creo que [llamás::będziesz dzwonić] bien.",
-            "pl_translation": "Myślę, że będziesz dzwonić dobrze."
-          },
-          {
-            "es_form": "Te prometo que [llamás::będziesz dzwonić] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziesz dzwonić na czas."
+            "es_form": "Tú [llamarás::będziesz dzwonić] a mi madre.",
+            "pl_translation": "Będziesz dzwonić do mamy."
           }
         ]
       },
       {
-        "es_word": "llamá",
-        "pl_word": "będzie dzwonić",
+        "es_word": "llamará",
+        "pl_word": "będzie dzwonić (llamar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "[llamá::będzie dzwonić] la proxima semana.",
-            "pl_translation": "Będzie dzwonić w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Te prometo que [llamá::będzie dzwonić] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będzie dzwonić na czas."
-          },
-          {
-            "es_form": "El año que viene [llamá::będzie dzwonić] en España.",
-            "pl_translation": "W przyszłym roku będzie dzwonić w Hiszpanii."
+            "es_form": "Él [llamará::będzie dzwonić] a mi madre.",
+            "pl_translation": "Będzie dzwonić do mamy."
           }
         ]
       },
       {
-        "es_word": "llamemos",
-        "pl_word": "będziemy dzwonić",
+        "es_word": "llamaremos",
+        "pl_word": "będziemy dzwonić (llamar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [llamemos::będziemy dzwonić] bien.",
-            "pl_translation": "Myślę, że będziemy dzwonić dobrze."
-          },
-          {
-            "es_form": "El año que viene [llamemos::będziemy dzwonić] en España.",
-            "pl_translation": "W przyszłym roku będziemy dzwonić w Hiszpanii."
-          },
-          {
-            "es_form": "¿[llamemos::będziemy dzwonić] con nosotros mañana?",
-            "pl_translation": "Czy będziemy dzwonić z nami jutro?"
+            "es_form": "Nosotros [llamaremos::będziemy dzwonić] a mi madre.",
+            "pl_translation": "Będziemy dzwonić do mamy."
           }
         ]
       },
       {
-        "es_word": "llaméis",
-        "pl_word": "będziecie dzwonić",
+        "es_word": "llamaréis",
+        "pl_word": "będziecie dzwonić (llamar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[llaméis::będziecie dzwonić] con nosotros mañana?",
-            "pl_translation": "Czy będziecie dzwonić z nami jutro?"
-          },
-          {
-            "es_form": "Mañana [llaméis::będziecie dzwonić] más temprano.",
-            "pl_translation": "Jutro będziecie dzwonić wcześniej."
-          },
-          {
-            "es_form": "Te prometo que [llaméis::będziecie dzwonić] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziecie dzwonić na czas."
+            "es_form": "Vosotros [llamaréis::będziecie dzwonić] a mi madre.",
+            "pl_translation": "Będziecie dzwonić do mamy."
           }
         ]
       },
       {
-        "es_word": "llamán",
-        "pl_word": "będą dzwonić",
+        "es_word": "llamarán",
+        "pl_word": "będą dzwonić (llamar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [llamán::będą dzwonić] en España.",
-            "pl_translation": "W przyszłym roku będą dzwonić w Hiszpanii."
-          },
-          {
-            "es_form": "[llamán::będą dzwonić] la proxima semana.",
-            "pl_translation": "Będą dzwonić w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Mañana [llamán::będą dzwonić] más temprano.",
-            "pl_translation": "Jutro będą dzwonić wcześniej."
+            "es_form": "Ellos [llamarán::będą dzwonić] a mi madre.",
+            "pl_translation": "Będą dzwonić do mamy."
           }
         ]
       }

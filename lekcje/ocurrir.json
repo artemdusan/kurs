@@ -233,22 +233,18 @@
     "pl_word": "wydarzyć się, zdarzać się",
     "examples": [
       {
-        "es_form": "¿Puedes [ocurrir::wydarzyć się, zdarzać się] más rápido?",
-        "pl_translation": "Możesz wydarzyć się, zdarzać się szybciej?"
+        "es_form": "Puede [ocurrir] otra vez.",
+        "pl_translation": "To może zdarzyć się znowu."
       },
       {
-        "es_form": "Quiero [ocurrir::wydarzyć się, zdarzać się] ahora.",
-        "pl_translation": "Chcę wydarzyć się, zdarzać się teraz."
-      },
-      {
-        "es_form": "Es importante [ocurrir::wydarzyć się, zdarzać się] todos los días.",
-        "pl_translation": "Ważne jest wydarzyć się, zdarzać się codziennie."
+        "es_form": "Algo va a [ocurrir].",
+        "pl_translation": "Coś się wydarzy."
       }
     ],
     "forms": [
       {
         "es_word": "ocurro",
-        "pl_word": "zdarza mi się",
+        "pl_word": "zdarzam (ocurrir)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "No [ocurro::zdarza mi się] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie zdarza mi się zbyt dobrze."
-          },
-          {
-            "es_form": "[ocurro::zdarza mi się] todos los días.",
-            "pl_translation": "zdarza mi się codziennie."
-          },
-          {
-            "es_form": "Siempre [ocurro::zdarza mi się] con atencion.",
-            "pl_translation": "Zawsze zdarza mi się z uwagą."
+            "es_form": "Yo [ocurro::zdarzam] a veces.",
+            "pl_translation": "Zdarzam się czasami."
           }
         ]
       },
       {
         "es_word": "ocurres",
-        "pl_word": "zdarza ci się",
+        "pl_word": "zdarzasz (ocurrir)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "[ocurres::zdarza ci się] como me enseñaste.",
-            "pl_translation": "zdarza ci się tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "[ocurres::zdarza ci się] todos los días.",
-            "pl_translation": "zdarza ci się codziennie."
-          },
-          {
-            "es_form": "Normalmente [ocurres::zdarza ci się] por la mañana.",
-            "pl_translation": "Zazwyczaj zdarza ci się rano."
+            "es_form": "Tú [ocurres::zdarzasz] a veces.",
+            "pl_translation": "Zdarzasz się czasami."
           }
         ]
       },
       {
         "es_word": "ocurre",
-        "pl_word": "zdarza mu",
+        "pl_word": "zdarza (ocurrir)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "No [ocurre::zdarza mu] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie zdarza mu"
-          },
-          {
-            "es_form": "¿[ocurre::zdarza mu] los fines de semana?",
-            "pl_translation": "Czy zdarza mu"
-          },
-          {
-            "es_form": "Siempre [ocurre::zdarza mu] con atencion.",
-            "pl_translation": "Zawsze zdarza mu"
+            "es_form": "Él [ocurre::zdarza] a veces.",
+            "pl_translation": "Zdarza się czasami."
           }
         ]
       },
       {
         "es_word": "ocurrimos",
-        "pl_word": "zdarza nam się",
+        "pl_word": "zdarzamy (ocurrir)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "[ocurrimos::zdarza nam się] todos los días.",
-            "pl_translation": "zdarza nam się codziennie."
-          },
-          {
-            "es_form": "Normalmente [ocurrimos::zdarza nam się] por la mañana.",
-            "pl_translation": "Zazwyczaj zdarza nam się rano."
-          },
-          {
-            "es_form": "Siempre [ocurrimos::zdarza nam się] con atencion.",
-            "pl_translation": "Zawsze zdarza nam się z uwagą."
+            "es_form": "Nosotros [ocurrimos::zdarzamy] a veces.",
+            "pl_translation": "Zdarzamy się czasami."
           }
         ]
       },
       {
         "es_word": "ocurrís",
-        "pl_word": "zdarza wam się",
+        "pl_word": "zdarzacie (ocurrir)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "[ocurrís::zdarza wam się] todos los días.",
-            "pl_translation": "zdarza wam się codziennie."
-          },
-          {
-            "es_form": "¿[ocurrís::zdarza wam się] los fines de semana?",
-            "pl_translation": "Czy zdarza wam się w weekendy?"
-          },
-          {
-            "es_form": "Normalmente [ocurrís::zdarza wam się] por la mañana.",
-            "pl_translation": "Zazwyczaj zdarza wam się rano."
+            "es_form": "Vosotros [ocurrís::zdarzacie] a veces.",
+            "pl_translation": "Zdarzacie się czasami."
           }
         ]
       },
       {
         "es_word": "ocurren",
-        "pl_word": "zdarza im się",
+        "pl_word": "zdarzają (ocurrir)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [ocurren::zdarza im się] por la mañana.",
-            "pl_translation": "Zazwyczaj zdarza im się rano."
-          },
-          {
-            "es_form": "[ocurren::zdarza im się] como me enseñaste.",
-            "pl_translation": "zdarza im się tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "¿[ocurren::zdarza im się] los fines de semana?",
-            "pl_translation": "Czy zdarza im się w weekendy?"
+            "es_form": "Ellos [ocurren::zdarzają] a veces.",
+            "pl_translation": "Zdarzają się czasami."
           }
         ]
       },
       {
         "es_word": "ocurrí",
-        "pl_word": "zdarzyło mi się",
+        "pl_word": "zdarzyłem (ocurrir)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[ocurrí::zdarzyło mi się] bien el examen?",
-            "pl_translation": "Czy zdarzyło mi się dobrze egzamin?"
-          },
-          {
-            "es_form": "Nunca [ocurrí::zdarzyło mi się] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie zdarzyło mi się czegoś takiego."
-          },
-          {
-            "es_form": "Ayer [ocurrí::zdarzyło mi się] todo el día.",
-            "pl_translation": "Wczoraj zdarzyło mi się cały dzień."
+            "es_form": "Yo [ocurrí::zdarzyłem] a veces.",
+            "pl_translation": "Zdarzyłem się czasami."
           }
         ]
       },
       {
         "es_word": "ocurriste",
-        "pl_word": "zdarzyło ci się",
+        "pl_word": "zdarzyłeś (ocurrir)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "[ocurriste::zdarzyło ci się] la semana pasada.",
-            "pl_translation": "zdarzyło ci się w zeszłym tygodniu."
-          },
-          {
-            "es_form": "Nunca [ocurriste::zdarzyło ci się] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie zdarzyło ci się czegoś takiego."
-          },
-          {
-            "es_form": "El mes pasado no [ocurriste::zdarzyło ci się] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie zdarzyło ci się."
+            "es_form": "Tú [ocurriste::zdarzyłeś] a veces.",
+            "pl_translation": "Zdarzyłeś się czasami."
           }
         ]
       },
       {
         "es_word": "ocurrió",
-        "pl_word": "zdarzyło mu",
+        "pl_word": "zdarzył (ocurrir)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [ocurrió::zdarzyło mu] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie zdarzyło mu"
-          },
-          {
-            "es_form": "Nunca [ocurrió::zdarzyło mu] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie zdarzyło mu"
-          },
-          {
-            "es_form": "¿[ocurrió::zdarzyło mu] bien el examen?",
-            "pl_translation": "Czy zdarzyło mu"
+            "es_form": "Él [ocurrió::zdarzył] a veces.",
+            "pl_translation": "Zdarzył się czasami."
           }
         ]
       },
       {
         "es_word": "ocurrimos",
-        "pl_word": "zdarzyło nam się",
+        "pl_word": "zdarzyliśmy (ocurrir)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[ocurrimos::zdarzyło nam się] bien el examen?",
-            "pl_translation": "Czy zdarzyło nam się dobrze egzamin?"
-          },
-          {
-            "es_form": "[ocurrimos::zdarzyło nam się] la semana pasada.",
-            "pl_translation": "zdarzyło nam się w zeszłym tygodniu."
-          },
-          {
-            "es_form": "[ocurrimos::zdarzyło nam się] sin parar durante horas.",
-            "pl_translation": "zdarzyło nam się bez przerwy przez wiele godzin."
+            "es_form": "Nosotros [ocurrimos::zdarzyliśmy] a veces.",
+            "pl_translation": "Zdarzyliśmy się czasami."
           }
         ]
       },
       {
         "es_word": "ocurristeis",
-        "pl_word": "zdarzyło wam się",
+        "pl_word": "zdarzyliście (ocurrir)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "[ocurristeis::zdarzyło wam się] la semana pasada.",
-            "pl_translation": "zdarzyło wam się w zeszłym tygodniu."
-          },
-          {
-            "es_form": "El mes pasado no [ocurristeis::zdarzyło wam się] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie zdarzyło wam się."
-          },
-          {
-            "es_form": "Nunca [ocurristeis::zdarzyło wam się] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie zdarzyło wam się czegoś takiego."
+            "es_form": "Vosotros [ocurristeis::zdarzyliście] a veces.",
+            "pl_translation": "Zdarzyliście się czasami."
           }
         ]
       },
       {
         "es_word": "ocurrieron",
-        "pl_word": "zdarzyło im się",
+        "pl_word": "zdarzyli (ocurrir)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [ocurrieron::zdarzyło im się] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie zdarzyło im się czegoś takiego."
-          },
-          {
-            "es_form": "[ocurrieron::zdarzyło im się] la semana pasada.",
-            "pl_translation": "zdarzyło im się w zeszłym tygodniu."
-          },
-          {
-            "es_form": "¿[ocurrieron::zdarzyło im się] bien el examen?",
-            "pl_translation": "Czy zdarzyło im się dobrze egzamin?"
+            "es_form": "Ellos [ocurrieron::zdarzyli] a veces.",
+            "pl_translation": "Zdarzyli się czasami."
           }
         ]
       },
       {
         "es_word": "ocurriré",
-        "pl_word": "zdarzy mi się",
+        "pl_word": "będę zdarzać (ocurrir)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "[ocurriré::zdarzy mi się] la proxima semana.",
-            "pl_translation": "zdarzy mi się w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Creo que [ocurriré::zdarzy mi się] bien.",
-            "pl_translation": "Myślę, że zdarzy mi się dobrze."
-          },
-          {
-            "es_form": "Mañana [ocurriré::zdarzy mi się] más temprano.",
-            "pl_translation": "Jutro zdarzy mi się wcześniej."
+            "es_form": "Yo [ocurriré::będę zdarzać] a veces.",
+            "pl_translation": "Będę zdarzać się czasami."
           }
         ]
       },
       {
         "es_word": "ocurrirás",
-        "pl_word": "zdarzy ci się",
+        "pl_word": "będziesz zdarzać (ocurrir)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [ocurrirás::zdarzy ci się] en España.",
-            "pl_translation": "W przyszłym roku zdarzy ci się w Hiszpanii."
-          },
-          {
-            "es_form": "[ocurrirás::zdarzy ci się] la proxima semana.",
-            "pl_translation": "zdarzy ci się w przyszłym tygodniu."
-          },
-          {
-            "es_form": "¿[ocurrirás::zdarzy ci się] con nosotros mañana?",
-            "pl_translation": "Czy zdarzy ci się z nami jutro?"
+            "es_form": "Tú [ocurrirás::będziesz zdarzać] a veces.",
+            "pl_translation": "Będziesz zdarzać się czasami."
           }
         ]
       },
       {
         "es_word": "ocurrirá",
-        "pl_word": "zdarzy mu",
+        "pl_word": "będzie zdarzać (ocurrir)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [ocurrirá::zdarzy mu] bien.",
-            "pl_translation": "Myślę, że zdarzy mu"
-          },
-          {
-            "es_form": "[ocurrirá::zdarzy mu] la proxima semana.",
-            "pl_translation": "zdarzy mu"
-          },
-          {
-            "es_form": "El año que viene [ocurrirá::zdarzy mu] en España.",
-            "pl_translation": "W przyszłym roku zdarzy mu"
+            "es_form": "Él [ocurrirá::będzie zdarzać] a veces.",
+            "pl_translation": "Będzie zdarzać się czasami."
           }
         ]
       },
       {
         "es_word": "ocurriremos",
-        "pl_word": "zdarzy nam się",
+        "pl_word": "będziemy zdarzać (ocurrir)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[ocurriremos::zdarzy nam się] con nosotros mañana?",
-            "pl_translation": "Czy zdarzy nam się z nami jutro?"
-          },
-          {
-            "es_form": "Te prometo que [ocurriremos::zdarzy nam się] a tiempo.",
-            "pl_translation": "Obiecuję ci, że zdarzy nam się na czas."
-          },
-          {
-            "es_form": "Creo que [ocurriremos::zdarzy nam się] bien.",
-            "pl_translation": "Myślę, że zdarzy nam się dobrze."
+            "es_form": "Nosotros [ocurriremos::będziemy zdarzać] a veces.",
+            "pl_translation": "Będziemy zdarzać się czasami."
           }
         ]
       },
       {
         "es_word": "ocurriréis",
-        "pl_word": "zdarzy wam się",
+        "pl_word": "będziecie zdarzać (ocurrir)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [ocurriréis::zdarzy wam się] más temprano.",
-            "pl_translation": "Jutro zdarzy wam się wcześniej."
-          },
-          {
-            "es_form": "Creo que [ocurriréis::zdarzy wam się] bien.",
-            "pl_translation": "Myślę, że zdarzy wam się dobrze."
-          },
-          {
-            "es_form": "[ocurriréis::zdarzy wam się] la proxima semana.",
-            "pl_translation": "zdarzy wam się w przyszłym tygodniu."
+            "es_form": "Vosotros [ocurriréis::będziecie zdarzać] a veces.",
+            "pl_translation": "Będziecie zdarzać się czasami."
           }
         ]
       },
       {
         "es_word": "ocurrirán",
-        "pl_word": "zdarzy im się",
+        "pl_word": "będą zdarzać (ocurrir)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [ocurrirán::zdarzy im się] en España.",
-            "pl_translation": "W przyszłym roku zdarzy im się w Hiszpanii."
-          },
-          {
-            "es_form": "Te prometo que [ocurrirán::zdarzy im się] a tiempo.",
-            "pl_translation": "Obiecuję ci, że zdarzy im się na czas."
-          },
-          {
-            "es_form": "Creo que [ocurrirán::zdarzy im się] bien.",
-            "pl_translation": "Myślę, że zdarzy im się dobrze."
+            "es_form": "Ellos [ocurrirán::będą zdarzać] a veces.",
+            "pl_translation": "Będą zdarzać się czasami."
           }
         ]
       }

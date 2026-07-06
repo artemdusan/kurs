@@ -233,22 +233,18 @@
     "pl_word": "wynajmować",
     "examples": [
       {
-        "es_form": "No puedo [alquilar::wynajmować] sin tu ayuda.",
-        "pl_translation": "Nie mogę wynajmować bez twojej pomocy."
+        "es_form": "Quiero [alquilar::wynajmować] un piso.",
+        "pl_translation": "Chcę wynajmować mieszkanie."
       },
       {
-        "es_form": "Prefiero [alquilar::wynajmować] en casa.",
-        "pl_translation": "Wolę wynajmować w domu."
-      },
-      {
-        "es_form": "Voy a [alquilar::wynajmować] mañana.",
-        "pl_translation": "Będę wynajmować jutro."
+        "es_form": "No puedo [alquilar::wynajmować] un piso hoy.",
+        "pl_translation": "Nie mogę dziś wynajmować mieszkanie."
       }
     ],
     "forms": [
       {
         "es_word": "alquilo",
-        "pl_word": "wynajmuję",
+        "pl_word": "wynajmuję (alquilar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "No [alquilo::wynajmuję] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie wynajmuję zbyt dobrze."
-          },
-          {
-            "es_form": "Normalmente [alquilo::wynajmuję] por la mañana.",
-            "pl_translation": "Zazwyczaj wynajmuję rano."
-          },
-          {
-            "es_form": "[alquilo::wynajmuję] todos los días.",
-            "pl_translation": "Wynajmuję codziennie."
+            "es_form": "Yo [alquilo::wynajmuję] un piso.",
+            "pl_translation": "Wynajmuję mieszkanie."
           }
         ]
       },
       {
         "es_word": "alquilas",
-        "pl_word": "wynajmujesz",
+        "pl_word": "wynajmujesz (alquilar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "[alquilas::wynajmujesz] todos los días.",
-            "pl_translation": "Wynajmujesz codziennie."
-          },
-          {
-            "es_form": "[alquilas::wynajmujesz] como me enseñaste.",
-            "pl_translation": "Wynajmujesz tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Siempre [alquilas::wynajmujesz] con atencion.",
-            "pl_translation": "Zawsze wynajmujesz z uwagą."
+            "es_form": "Tú [alquilas::wynajmujesz] un piso.",
+            "pl_translation": "Wynajmujesz mieszkanie."
           }
         ]
       },
       {
         "es_word": "alquila",
-        "pl_word": "wynajmuje",
+        "pl_word": "wynajmuje (alquilar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "[alquila::wynajmuje] todos los días.",
-            "pl_translation": "Wynajmuje codziennie."
-          },
-          {
-            "es_form": "[alquila::wynajmuje] como me enseñaste.",
-            "pl_translation": "Wynajmuje tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Normalmente [alquila::wynajmuje] por la mañana.",
-            "pl_translation": "Zazwyczaj wynajmuje rano."
+            "es_form": "Él [alquila::wynajmuje] un piso.",
+            "pl_translation": "Wynajmuje mieszkanie."
           }
         ]
       },
       {
         "es_word": "alquilamos",
-        "pl_word": "wynajmujemy",
+        "pl_word": "wynajmujemy (alquilar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [alquilamos::wynajmujemy] por la mañana.",
-            "pl_translation": "Zazwyczaj wynajmujemy rano."
-          },
-          {
-            "es_form": "[alquilamos::wynajmujemy] como me enseñaste.",
-            "pl_translation": "Wynajmujemy tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "[alquilamos::wynajmujemy] todos los días.",
-            "pl_translation": "Wynajmujemy codziennie."
+            "es_form": "Nosotros [alquilamos::wynajmujemy] un piso.",
+            "pl_translation": "Wynajmujemy mieszkanie."
           }
         ]
       },
       {
         "es_word": "alquiláis",
-        "pl_word": "wynajmujecie",
+        "pl_word": "wynajmujecie (alquilar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[alquiláis::wynajmujecie] los fines de semana?",
-            "pl_translation": "Czy wynajmujecie w weekendy?"
-          },
-          {
-            "es_form": "[alquiláis::wynajmujecie] todos los días.",
-            "pl_translation": "Wynajmujecie codziennie."
-          },
-          {
-            "es_form": "Siempre [alquiláis::wynajmujecie] con atencion.",
-            "pl_translation": "Zawsze wynajmujecie z uwagą."
+            "es_form": "Vosotros [alquiláis::wynajmujecie] un piso.",
+            "pl_translation": "Wynajmujecie mieszkanie."
           }
         ]
       },
       {
         "es_word": "alquilan",
-        "pl_word": "wynajmują",
+        "pl_word": "wynajmują (alquilar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [alquilan::wynajmują] por la mañana.",
-            "pl_translation": "Zazwyczaj wynajmują rano."
-          },
-          {
-            "es_form": "Siempre [alquilan::wynajmują] con atencion.",
-            "pl_translation": "Zawsze wynajmują z uwagą."
-          },
-          {
-            "es_form": "[alquilan::wynajmują] como me enseñaste.",
-            "pl_translation": "Wynajmują tak jak mnie nauczyłeś"
+            "es_form": "Ellos [alquilan::wynajmują] un piso.",
+            "pl_translation": "Wynajmują mieszkanie."
           }
         ]
       },
       {
         "es_word": "alquilé",
-        "pl_word": "wynajmowałem",
+        "pl_word": "wynająłem (alquilar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [alquilé::wynajmowałem] todo el día.",
-            "pl_translation": "Wczoraj wynajmowałem"
-          },
-          {
-            "es_form": "El mes pasado no [alquilé::wynajmowałem] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie wynajmowałem"
-          },
-          {
-            "es_form": "¿[alquilé::wynajmowałem] bien el examen?",
-            "pl_translation": "Czy wynajmowałem"
+            "es_form": "Yo [alquilé::wynająłem] un piso.",
+            "pl_translation": "Wynająłem mieszkanie."
           }
         ]
       },
       {
         "es_word": "alquilaste",
-        "pl_word": "wynajmowałeś",
+        "pl_word": "wynająłeś (alquilar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[alquilaste::wynajmowałeś] bien el examen?",
-            "pl_translation": "Czy wynajmowałeś"
-          },
-          {
-            "es_form": "Ayer [alquilaste::wynajmowałeś] todo el día.",
-            "pl_translation": "Wczoraj wynajmowałeś"
-          },
-          {
-            "es_form": "El mes pasado no [alquilaste::wynajmowałeś] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie wynajmowałeś"
+            "es_form": "Tú [alquilaste::wynająłeś] un piso.",
+            "pl_translation": "Wynająłeś mieszkanie."
           }
         ]
       },
       {
         "es_word": "alquiló",
-        "pl_word": "wynajmował",
+        "pl_word": "wynajął (alquilar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "[alquiló::wynajmował] la semana pasada.",
-            "pl_translation": "Wynajmował"
-          },
-          {
-            "es_form": "Nunca [alquiló::wynajmował] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie wynajmował"
-          },
-          {
-            "es_form": "[alquiló::wynajmował] sin parar durante horas.",
-            "pl_translation": "Wynajmował"
+            "es_form": "Él [alquiló::wynajął] un piso.",
+            "pl_translation": "Wynajął mieszkanie."
           }
         ]
       },
       {
         "es_word": "alquilamos",
-        "pl_word": "wynajmowaliśmy",
+        "pl_word": "wynajęliśmy (alquilar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "[alquilamos::wynajmowaliśmy] la semana pasada.",
-            "pl_translation": "Wynajmowaliśmy"
-          },
-          {
-            "es_form": "[alquilamos::wynajmowaliśmy] sin parar durante horas.",
-            "pl_translation": "Wynajmowaliśmy"
-          },
-          {
-            "es_form": "El mes pasado no [alquilamos::wynajmowaliśmy] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie wynajmowaliśmy"
+            "es_form": "Nosotros [alquilamos::wynajęliśmy] un piso.",
+            "pl_translation": "Wynajęliśmy mieszkanie."
           }
         ]
       },
       {
         "es_word": "alquilasteis",
-        "pl_word": "wynajmowaliście",
+        "pl_word": "wynajęliście (alquilar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "[alquilasteis::wynajmowaliście] sin parar durante horas.",
-            "pl_translation": "Wynajmowaliście"
-          },
-          {
-            "es_form": "¿[alquilasteis::wynajmowaliście] bien el examen?",
-            "pl_translation": "Czy wynajmowaliście"
-          },
-          {
-            "es_form": "Nunca [alquilasteis::wynajmowaliście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie wynajmowaliście"
+            "es_form": "Vosotros [alquilasteis::wynajęliście] un piso.",
+            "pl_translation": "Wynajęliście mieszkanie."
           }
         ]
       },
       {
         "es_word": "alquilaron",
-        "pl_word": "wynajmowali",
+        "pl_word": "wynajęli (alquilar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "[alquilaron::wynajmowali] la semana pasada.",
-            "pl_translation": "Wynajmowali"
-          },
-          {
-            "es_form": "Nunca [alquilaron::wynajmowali] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie wynajmowali"
-          },
-          {
-            "es_form": "Ayer [alquilaron::wynajmowali] todo el día.",
-            "pl_translation": "Wczoraj wynajmowali"
+            "es_form": "Ellos [alquilaron::wynajęli] un piso.",
+            "pl_translation": "Wynajęli mieszkanie."
           }
         ]
       },
       {
-        "es_word": "alquilé",
-        "pl_word": "będę wynajmować",
+        "es_word": "alquilaré",
+        "pl_word": "będę wynajmować (alquilar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [alquilé::będę wynajmować] bien.",
-            "pl_translation": "Myślę, że będę wynajmować dobrze."
-          },
-          {
-            "es_form": "¿[alquilé::będę wynajmować] con nosotros mañana?",
-            "pl_translation": "Czy będę wynajmować z nami jutro?"
-          },
-          {
-            "es_form": "Te prometo que [alquilé::będę wynajmować] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będę wynajmować na czas."
+            "es_form": "Yo [alquilaré::będę wynajmować] un piso.",
+            "pl_translation": "Będę wynajmować mieszkanie."
           }
         ]
       },
       {
-        "es_word": "alquilás",
-        "pl_word": "będziesz wynajmować",
+        "es_word": "alquilarás",
+        "pl_word": "będziesz wynajmować (alquilar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[alquilás::będziesz wynajmować] con nosotros mañana?",
-            "pl_translation": "Czy będziesz wynajmować z nami jutro?"
-          },
-          {
-            "es_form": "Mañana [alquilás::będziesz wynajmować] más temprano.",
-            "pl_translation": "Jutro będziesz wynajmować wcześniej."
-          },
-          {
-            "es_form": "El año que viene [alquilás::będziesz wynajmować] en España.",
-            "pl_translation": "W przyszłym roku będziesz wynajmować w Hiszpanii."
+            "es_form": "Tú [alquilarás::będziesz wynajmować] un piso.",
+            "pl_translation": "Będziesz wynajmować mieszkanie."
           }
         ]
       },
       {
-        "es_word": "alquilá",
-        "pl_word": "będzie wynajmować",
+        "es_word": "alquilará",
+        "pl_word": "będzie wynajmować (alquilar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "[alquilá::będzie wynajmować] la proxima semana.",
-            "pl_translation": "Będzie wynajmować w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Mañana [alquilá::będzie wynajmować] más temprano.",
-            "pl_translation": "Jutro będzie wynajmować wcześniej."
-          },
-          {
-            "es_form": "El año que viene [alquilá::będzie wynajmować] en España.",
-            "pl_translation": "W przyszłym roku będzie wynajmować w Hiszpanii."
+            "es_form": "Él [alquilará::będzie wynajmować] un piso.",
+            "pl_translation": "Będzie wynajmować mieszkanie."
           }
         ]
       },
       {
-        "es_word": "alquilemos",
-        "pl_word": "będziemy wynajmować",
+        "es_word": "alquilaremos",
+        "pl_word": "będziemy wynajmować (alquilar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "[alquilemos::będziemy wynajmować] la proxima semana.",
-            "pl_translation": "Będziemy wynajmować w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Te prometo que [alquilemos::będziemy wynajmować] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziemy wynajmować na czas."
-          },
-          {
-            "es_form": "¿[alquilemos::będziemy wynajmować] con nosotros mañana?",
-            "pl_translation": "Czy będziemy wynajmować z nami jutro?"
+            "es_form": "Nosotros [alquilaremos::będziemy wynajmować] un piso.",
+            "pl_translation": "Będziemy wynajmować mieszkanie."
           }
         ]
       },
       {
-        "es_word": "alquiléis",
-        "pl_word": "będziecie wynajmować",
+        "es_word": "alquilaréis",
+        "pl_word": "będziecie wynajmować (alquilar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [alquiléis::będziecie wynajmować] en España.",
-            "pl_translation": "W przyszłym roku będziecie wynajmować w Hiszpanii."
-          },
-          {
-            "es_form": "Mañana [alquiléis::będziecie wynajmować] más temprano.",
-            "pl_translation": "Jutro będziecie wynajmować wcześniej."
-          },
-          {
-            "es_form": "Creo que [alquiléis::będziecie wynajmować] bien.",
-            "pl_translation": "Myślę, że będziecie wynajmować dobrze."
+            "es_form": "Vosotros [alquilaréis::będziecie wynajmować] un piso.",
+            "pl_translation": "Będziecie wynajmować mieszkanie."
           }
         ]
       },
       {
-        "es_word": "alquilán",
-        "pl_word": "będą wynajmować",
+        "es_word": "alquilarán",
+        "pl_word": "będą wynajmować (alquilar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [alquilán::będą wynajmować] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będą wynajmować na czas."
-          },
-          {
-            "es_form": "Mañana [alquilán::będą wynajmować] más temprano.",
-            "pl_translation": "Jutro będą wynajmować wcześniej."
-          },
-          {
-            "es_form": "Creo que [alquilán::będą wynajmować] bien.",
-            "pl_translation": "Myślę, że będą wynajmować dobrze."
+            "es_form": "Ellos [alquilarán::będą wynajmować] un piso.",
+            "pl_translation": "Będą wynajmować mieszkanie."
           }
         ]
       }

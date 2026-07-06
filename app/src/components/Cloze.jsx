@@ -16,7 +16,9 @@ export function parseExample(example) {
   };
 }
 
-/** Zdanie z luką (lub z odsłoniętą odpowiedzią po ocenie). */
+/** Zdanie z luką (lub z odsłoniętą odpowiedzią po ocenie).
+ *  Polskie tłumaczenie zdania pokazujemy dopiero po odpowiedzi — wcześniej
+ *  zdradzałoby rozwiązanie i rozpraszało. */
 export default function Cloze({ parsed, revealed, userText }) {
   return (
     <div className="cloze">
@@ -27,7 +29,7 @@ export default function Cloze({ parsed, revealed, userText }) {
         </span>
         {parsed.after}
       </p>
-      <p className="cloze-pl">{parsed.pl}</p>
+      {revealed && <p className="cloze-pl">{parsed.pl}</p>}
     </div>
   );
 }

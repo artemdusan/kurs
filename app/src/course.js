@@ -14,9 +14,15 @@ export async function loadIndex() {
   return indexCache;
 }
 
+// Klucz naturalny formy opiera się na gramatyce (nie na samej formie),
+// żeby korekta literówki w odmianie nie tworzyła nowego rekordu.
 function naturalKeyOf(lesson, type, es, grammar) {
   const g = grammar ? `${grammar.tense}.${grammar.person}.${grammar.number}` : '';
   return `${lesson}|${type}|${es.toLowerCase()}|${g}`;
+}
+
+function formKeyOf(lesson, parentEs, grammar) {
+  return `${lesson}|verb_form|${parentEs.toLowerCase()}|${grammar.tense}.${grammar.person}.${grammar.number}`;
 }
 
 function uuid() {
@@ -30,7 +36,7 @@ function uuid() {
 
 // Podbij, gdy zmienia się sposób budowania rekordów z plików lekcji —
 // zaimportowane lekcje zostaną wtedy zaktualizowane (bez utraty postępów).
-const CONTENT_VERSION = 2;
+const CONTENT_VERSION = 3;
 
 /** Importuje słowa lekcji do bazy (idempotentnie). Zwraca liczbę nowych słów. */
 export async function ensureLessonImported(lessonNumber) {
@@ -66,7 +72,7 @@ export async function ensureLessonImported(lessonNumber) {
     for (const form of item.forms || []) {
       rows.push({
         id: uuid(),
-        naturalKey: naturalKeyOf(lessonNumber, 'verb_form', form.es_word, form.grammar),
+        naturalKey: formKeyOf(lessonNumber, item.es_word, form.grammar),
         lesson: lessonNumber,
         type: 'verb_form',
         es: form.es_word,
@@ -87,25 +93,40 @@ export async function ensureLessonImported(lessonNumber) {
     // mapowanie parentKey -> rzeczywisty id (istniejący lub nowy)
     const idByKey = new Map();
     for (const row of rows) {
+      if (row.parentKey) continue;
       const existing = await db.words.where('naturalKey').equals(row.naturalKey).first();
-      if (existing) {
-        idByKey.set(row.naturalKey, existing.id);
-        continue;
-      }
-      idByKey.set(row.naturalKey, row.id);
+      idByKey.set(row.naturalKey, existing ? existing.id : row.id);
     }
+
+    // znajdź istniejący rekord: po kluczu, a dla form także po (parentId, gramatyka) —
+    // starszy format klucza zawierał odmienioną formę, więc korekta odmiany go zmienia
+    async function findExisting(row) {
+      const byKey = await db.words.where('naturalKey').equals(row.naturalKey).first();
+      if (byKey || !row.grammar) return byKey;
+      const siblings = await db.words.where('parentId').equals(row.parentId).toArray();
+      return siblings.find(
+        (w) =>
+          w.grammar &&
+          w.grammar.tense === row.grammar.tense &&
+          w.grammar.person === row.grammar.person &&
+          w.grammar.number === row.grammar.number
+      );
+    }
+
     for (const row of rows) {
       if (row.parentKey) row.parentId = idByKey.get(row.parentKey) || row.parentId;
       delete row.parentKey;
-      const existing = await db.words.where('naturalKey').equals(row.naturalKey).first();
+      const existing = await findExisting(row);
       if (existing) {
         // aktualizuj treść (id i postępy zostają); updated_at rośnie tylko przy realnej zmianie
         const changed =
           existing.es !== row.es ||
           existing.pl !== row.pl ||
+          existing.naturalKey !== row.naturalKey ||
           JSON.stringify(existing.examples) !== JSON.stringify(row.examples);
         if (changed) {
           await db.words.update(existing.id, {
+            naturalKey: row.naturalKey,
             es: row.es,
             pl: row.pl,
             examples: row.examples,
@@ -127,8 +148,8 @@ export async function ensureLessonImported(lessonNumber) {
 
 const TENSE_PL = { present: 'cz. teraźniejszy', preterite: 'cz. przeszły', future: 'cz. przyszły' };
 const PERSON_PL = {
-  'singular-1': 'ja', 'singular-2': 'ty', 'singular-3': 'on/ona',
-  'plural-1': 'my', 'plural-2': 'wy', 'plural-3': 'oni/one',
+  'singular-1': 'ja', 'singular-2': 'ty', 'singular-3': 'on',
+  'plural-1': 'my', 'plural-2': 'wy', 'plural-3': 'oni',
 };
 
 export function describeGrammar(grammar) {

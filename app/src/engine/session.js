@@ -78,6 +78,7 @@ export async function recordAnswer(entry, correct) {
     if (p.level > 1 && now - p.lastLevelChangeAt >= LEVEL_COOLDOWN_MS) {
       p.level--;
       p.lastLevelChangeAt = now;
+      p.lastLevelDropAt = now;
     }
   }
 
@@ -110,11 +111,9 @@ export async function buildSessionPool(maxLesson, poolSize = 25) {
   return entries.slice(0, poolSize);
 }
 
-export const MISTAKES_WINDOW_MS = 7 * 24 * 60 * 60 * 1000;
-
 /**
- * Pula trybu „powtórka błędów”: słowa z błędną odpowiedzią w ostatnich 7 dniach,
- * najświeższe błędy najpierw.
+ * Pula trybu „powtórka błędów”: słowa, którym DZISIAJ spadł poziom,
+ * najświeższe spadki najpierw.
  */
 export async function buildMistakesPool(maxLesson, poolSize = 25) {
   const words = await db.words
@@ -123,21 +122,34 @@ export async function buildMistakesPool(maxLesson, poolSize = 25) {
     .filter((w) => !w.deleted)
     .toArray();
   const progressMap = await getProgressMap(words.map((w) => w.id));
-  const cutoff = Date.now() - MISTAKES_WINDOW_MS;
+  const startOfToday = new Date().setHours(0, 0, 0, 0);
   const entries = words
     .map((word) => ({
       word,
       progress: progressMap.get(word.id) || newProgress(word.id),
       sessionStreak: 0,
     }))
-    .filter((e) => (e.progress.lastWrongAt || 0) >= cutoff);
-  entries.sort((a, b) => b.progress.lastWrongAt - a.progress.lastWrongAt);
+    .filter((e) => (e.progress.lastLevelDropAt || 0) >= startOfToday);
+  entries.sort((a, b) => b.progress.lastLevelDropAt - a.progress.lastLevelDropAt);
   return entries.slice(0, poolSize);
 }
 
-/** Liczba słów kwalifikujących się do powtórki błędów (do przycisku na ekranie głównym). */
+/** Liczba słów kwalifikujących się do powtórki (dzisiejsze spadki poziomu). */
 export async function countRecentMistakes(maxLesson) {
   return (await buildMistakesPool(maxLesson, Infinity)).length;
+}
+
+/** Rozkład poziomów słów z lekcji 1..maxLesson (indeks 0 = poziom 1). */
+export async function levelDistribution(maxLesson) {
+  const words = await db.words
+    .where('lesson')
+    .belowOrEqual(maxLesson)
+    .filter((w) => !w.deleted)
+    .toArray();
+  const progressMap = await getProgressMap(words.map((w) => w.id));
+  const levels = Array.from({ length: MAX_LEVEL }, () => 0);
+  for (const w of words) levels[(progressMap.get(w.id)?.level || 1) - 1]++;
+  return levels;
 }
 
 /** Sprawdza „floor”: czy wszystkie słowa z lekcji 1..lesson mają poziom >= floorLevel. */

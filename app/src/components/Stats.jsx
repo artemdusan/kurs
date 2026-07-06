@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import { db, getMeta } from '../db.js';
 import { getProgressMap, MAX_LEVEL } from '../engine/session.js';
+import LevelBars from './LevelBars.jsx';
+import Icon from './Icon.jsx';
 
 // Ekran statystyk: rozkład poziomów słów + historia ostatnich 14 dni.
 
@@ -41,38 +43,28 @@ export default function Stats({ maxLesson, onBack }) {
 
   if (!data) return <div className="screen center">Liczenie statystyk…</div>;
 
-  const maxLevelCount = Math.max(1, ...data.levels);
   const maxDayCount = Math.max(1, ...data.days.map((d) => d.correct + d.wrong));
 
   return (
     <div className="screen stats">
       <div className="session-top">
-        <button className="btn ghost" onClick={onBack}>←</button>
+        <button className="btn ghost" onClick={onBack} aria-label="Wróć">
+          <Icon name="back" />
+        </button>
         <h2>Statystyki</h2>
         <span />
       </div>
 
       <div className="stats-summary">
-        <span>🔥 streak: <strong>{data.streak.count || 0}</strong></span>
-        <span>📚 słów: <strong>{data.wordCount}</strong></span>
-        <span>✅ {data.correctTotal} ❌ {data.wrongTotal}</span>
+        <span><Icon name="fire" size={14} /> {data.streak.count || 0}</span>
+        <span>słów: <strong>{data.wordCount}</strong></span>
+        <span>
+          <span className="num-ok">{data.correctTotal}</span> <span className="num-bad">{data.wrongTotal}</span>
+        </span>
       </div>
 
       <h3>Poziomy słów</h3>
-      <div className="level-bars">
-        {data.levels.map((count, i) => (
-          <div key={i} className="level-bar-row">
-            <span className="level-bar-label">poz. {i + 1}</span>
-            <div className="level-bar-track">
-              <div
-                className={'level-bar-fill lvl-' + (i + 1)}
-                style={{ width: (count / maxLevelCount) * 100 + '%' }}
-              />
-            </div>
-            <span className="level-bar-count">{count}</span>
-          </div>
-        ))}
-      </div>
+      <LevelBars levels={data.levels} />
 
       <h3>Ostatnie 14 dni</h3>
       <div className="day-bars">

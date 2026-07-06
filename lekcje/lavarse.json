@@ -233,22 +233,18 @@
     "pl_word": "myć się",
     "examples": [
       {
-        "es_form": "Hay que [lavarse::myć się] con cuidado.",
-        "pl_translation": "Trzeba się myć ostrożnie."
+        "es_form": "Es importante [lavarse::myć] por la mañana.",
+        "pl_translation": "Ważne jest myć się rano."
       },
       {
-        "es_form": "Es importante [lavarse::myć się] todos los días.",
-        "pl_translation": "Ważne jest myć się codziennie."
-      },
-      {
-        "es_form": "Quiero [lavarse::myć się] ahora.",
-        "pl_translation": "Chcę się myć teraz."
+        "es_form": "Hay que [lavarse::myć] por la mañana.",
+        "pl_translation": "Trzeba myć się rano."
       }
     ],
     "forms": [
       {
         "es_word": "me lavo",
-        "pl_word": "myję się",
+        "pl_word": "myję (lavarse)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "[me lavo::myję się] todos los días.",
-            "pl_translation": "Myję się codziennie."
-          },
-          {
-            "es_form": "No [me lavo::myję się] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie myję się zbyt dobrze."
-          },
-          {
-            "es_form": "Normalmente [me lavo::myję się] por la mañana.",
-            "pl_translation": "Zazwyczaj myję się rano."
+            "es_form": "Yo [me lavo::myję] por la mañana.",
+            "pl_translation": "Myję się rano."
           }
         ]
       },
       {
         "es_word": "te lavas",
-        "pl_word": "myjesz się",
+        "pl_word": "myjesz (lavarse)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "[te lavas::myjesz się] todos los días.",
-            "pl_translation": "Myjesz się codziennie."
-          },
-          {
-            "es_form": "¿[te lavas::myjesz się] los fines de semana?",
-            "pl_translation": "Czy myjesz się w weekendy?"
-          },
-          {
-            "es_form": "[te lavas::myjesz się] como me enseñaste.",
-            "pl_translation": "Myjesz się tak jak mnie nauczyłeś"
+            "es_form": "Tú [te lavas::myjesz] por la mañana.",
+            "pl_translation": "Myjesz się rano."
           }
         ]
       },
       {
         "es_word": "se lava",
-        "pl_word": "myje się",
+        "pl_word": "myje (lavarse)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "No [se lava::myje się] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie myje się zbyt dobrze."
-          },
-          {
-            "es_form": "Normalmente [se lava::myje się] por la mañana.",
-            "pl_translation": "Zazwyczaj myje się rano."
-          },
-          {
-            "es_form": "[se lava::myje się] como me enseñaste.",
-            "pl_translation": "Myje się tak jak mnie nauczyłeś"
+            "es_form": "Él [se lava::myje] por la mañana.",
+            "pl_translation": "Myje się rano."
           }
         ]
       },
       {
         "es_word": "nos lavamos",
-        "pl_word": "myjemy się",
+        "pl_word": "myjemy (lavarse)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [nos lavamos::myjemy się] con atención.",
-            "pl_translation": "Zawsze myjemy się z uwagą."
-          },
-          {
-            "es_form": "Normalmente [nos lavamos::myjemy się] por la mañana.",
-            "pl_translation": "Zazwyczaj myjemy się rano."
-          },
-          {
-            "es_form": "No [nos lavamos::myjemy się] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie myjemy się zbyt dobrze."
+            "es_form": "Nosotros [nos lavamos::myjemy] por la mañana.",
+            "pl_translation": "Myjemy się rano."
           }
         ]
       },
       {
         "es_word": "os laváis",
-        "pl_word": "myjecie się",
+        "pl_word": "myjecie (lavarse)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "[os laváis::myjecie się] como me enseñaste.",
-            "pl_translation": "Myjecie się tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "[os laváis::myjecie się] todos los días.",
-            "pl_translation": "Myjecie się codziennie."
-          },
-          {
-            "es_form": "No [os laváis::myjecie się] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie myjecie się zbyt dobrze."
+            "es_form": "Vosotros [os laváis::myjecie] por la mañana.",
+            "pl_translation": "Myjecie się rano."
           }
         ]
       },
       {
         "es_word": "se lavan",
-        "pl_word": "myją się",
+        "pl_word": "myją (lavarse)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [se lavan::myją się] por la mañana.",
-            "pl_translation": "Zazwyczaj myją się rano."
-          },
-          {
-            "es_form": "[se lavan::myją się] todos los días.",
-            "pl_translation": "Myją się codziennie."
-          },
-          {
-            "es_form": "No [se lavan::myją się] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie myją się zbyt dobrze."
+            "es_form": "Ellos [se lavan::myją] por la mañana.",
+            "pl_translation": "Myją się rano."
           }
         ]
       },
       {
         "es_word": "me lavé",
-        "pl_word": "myłem się",
+        "pl_word": "umyłem (lavarse)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [me lavé::myłem się] todo el día.",
-            "pl_translation": "Wczoraj myłem się cały dzień."
-          },
-          {
-            "es_form": "Nunca [me lavé::myłem się] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie myłem się w ten sposób."
-          },
-          {
-            "es_form": "El mes pasado no [me lavé::myłem się] nada.",
-            "pl_translation": "W zeszłym miesiącu nic się nie myłem."
+            "es_form": "Yo [me lavé::umyłem] por la mañana.",
+            "pl_translation": "Umyłem się rano."
           }
         ]
       },
       {
         "es_word": "te lavaste",
-        "pl_word": "myłeś się",
+        "pl_word": "umyłeś (lavarse)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [te lavaste::myłeś się] nada.",
-            "pl_translation": "W zeszłym miesiącu nic się nie myłeś."
-          },
-          {
-            "es_form": "[te lavaste::myłeś się] la semana pasada.",
-            "pl_translation": "Myłeś się w zeszłym tygodniu."
-          },
-          {
-            "es_form": "¿[te lavaste::myłeś się] bien las manos?",
-            "pl_translation": "Czy myłeś się dobrze ręce?"
+            "es_form": "Tú [te lavaste::umyłeś] por la mañana.",
+            "pl_translation": "Umyłeś się rano."
           }
         ]
       },
       {
         "es_word": "se lavó",
-        "pl_word": "mył się",
+        "pl_word": "umył (lavarse)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "[se lavó::mył się] la semana pasada.",
-            "pl_translation": "Mył się w zeszłym tygodniu."
-          },
-          {
-            "es_form": "Nunca [se lavó::mył się] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie mył się w ten sposób."
-          },
-          {
-            "es_form": "Ayer [se lavó::mył się] todo el día.",
-            "pl_translation": "Wczoraj mył się cały dzień."
+            "es_form": "Él [se lavó::umył] por la mañana.",
+            "pl_translation": "Umył się rano."
           }
         ]
       },
       {
         "es_word": "nos lavamos",
-        "pl_word": "myliśmy się",
+        "pl_word": "umyliśmy (lavarse)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "[nos lavamos::myliśmy się] sin parar durante horas.",
-            "pl_translation": "Myliśmy się bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "Ayer [nos lavamos::myliśmy się] todo el día.",
-            "pl_translation": "Wczoraj myliśmy się cały dzień."
-          },
-          {
-            "es_form": "Nunca [nos lavamos::myliśmy się] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie myliśmy się w ten sposób."
+            "es_form": "Nosotros [nos lavamos::umyliśmy] por la mañana.",
+            "pl_translation": "Umyliśmy się rano."
           }
         ]
       },
       {
         "es_word": "os lavasteis",
-        "pl_word": "myliście się",
+        "pl_word": "umyliście (lavarse)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "[os lavasteis::myliście się] la semana pasada.",
-            "pl_translation": "Myliście się w zeszłym tygodniu."
-          },
-          {
-            "es_form": "¿[os lavasteis::myliście się] bien las manos?",
-            "pl_translation": "Czy myliście się dobrze ręce?"
-          },
-          {
-            "es_form": "El mes pasado no [os lavasteis::myliście się] nada.",
-            "pl_translation": "W zeszłym miesiącu nic się nie myliście."
+            "es_form": "Vosotros [os lavasteis::umyliście] por la mañana.",
+            "pl_translation": "Umyliście się rano."
           }
         ]
       },
       {
         "es_word": "se lavaron",
-        "pl_word": "myli się",
+        "pl_word": "umyli (lavarse)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [se lavaron::myli się] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie myli się w ten sposób."
-          },
-          {
-            "es_form": "[se lavaron::myli się] la semana pasada.",
-            "pl_translation": "Myli się w zeszłym tygodniu."
-          },
-          {
-            "es_form": "¿[se lavaron::myli się] bien las manos?",
-            "pl_translation": "Czy myli się dobrze ręce?"
+            "es_form": "Ellos [se lavaron::umyli] por la mañana.",
+            "pl_translation": "Umyli się rano."
           }
         ]
       },
       {
         "es_word": "me lavaré",
-        "pl_word": "będę się myć",
+        "pl_word": "będę myć (lavarse)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[me lavaré::będę się myć] con vosotros mañana?",
-            "pl_translation": "Czy będę się myć z wami jutro?"
-          },
-          {
-            "es_form": "Te prometo que [me lavaré::będę się myć] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będę się myć na czas."
-          },
-          {
-            "es_form": "Creo que [me lavaré::będę się myć] bien.",
-            "pl_translation": "Myślę, że będę się myć dobrze."
+            "es_form": "Yo [me lavaré::będę myć] por la mañana.",
+            "pl_translation": "Będę myć się rano."
           }
         ]
       },
       {
         "es_word": "te lavarás",
-        "pl_word": "będziesz się myć",
+        "pl_word": "będziesz myć (lavarse)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "[te lavarás::będziesz się myć] la próxima semana.",
-            "pl_translation": "Będziesz się myć w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Mañana [te lavarás::będziesz się myć] más temprano.",
-            "pl_translation": "Jutro będziesz się myć wcześniej."
-          },
-          {
-            "es_form": "¿[te lavarás::będziesz się myć] con nosotros mañana?",
-            "pl_translation": "Czy będziesz się myć z nami jutro?"
+            "es_form": "Tú [te lavarás::będziesz myć] por la mañana.",
+            "pl_translation": "Będziesz myć się rano."
           }
         ]
       },
       {
         "es_word": "se lavará",
-        "pl_word": "będzie się myć",
+        "pl_word": "będzie myć (lavarse)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [se lavará::będzie się myć] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będzie się myć na czas."
-          },
-          {
-            "es_form": "Creo que [se lavará::będzie się myć] bien.",
-            "pl_translation": "Myślę, że będzie się myć dobrze."
-          },
-          {
-            "es_form": "El año que viene [se lavará::będzie się myć] en España.",
-            "pl_translation": "W przyszłym roku będzie się myć w Hiszpanii."
+            "es_form": "Él [se lavará::będzie myć] por la mañana.",
+            "pl_translation": "Będzie myć się rano."
           }
         ]
       },
       {
         "es_word": "nos lavaremos",
-        "pl_word": "będziemy się myć",
+        "pl_word": "będziemy myć (lavarse)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [nos lavaremos::będziemy się myć] bien.",
-            "pl_translation": "Myślę, że będziemy się myć dobrze."
-          },
-          {
-            "es_form": "El año que viene [nos lavaremos::będziemy się myć] en España.",
-            "pl_translation": "W przyszłym roku będziemy się myć w Hiszpanii."
-          },
-          {
-            "es_form": "[nos lavaremos::będziemy się myć] la próxima semana.",
-            "pl_translation": "Będziemy się myć w przyszłym tygodniu."
+            "es_form": "Nosotros [nos lavaremos::będziemy myć] por la mañana.",
+            "pl_translation": "Będziemy myć się rano."
           }
         ]
       },
       {
         "es_word": "os lavaréis",
-        "pl_word": "będziecie się myć",
+        "pl_word": "będziecie myć (lavarse)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "[os lavaréis::będziecie się myć] la próxima semana.",
-            "pl_translation": "Będziecie się myć w przyszłym tygodniu."
-          },
-          {
-            "es_form": "El año que viene [os lavaréis::będziecie się myć] en España.",
-            "pl_translation": "W przyszłym roku będziecie się myć w Hiszpanii."
-          },
-          {
-            "es_form": "Te prometo que [os lavaréis::będziecie się myć] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziecie się myć na czas."
+            "es_form": "Vosotros [os lavaréis::będziecie myć] por la mañana.",
+            "pl_translation": "Będziecie myć się rano."
           }
         ]
       },
       {
         "es_word": "se lavarán",
-        "pl_word": "będą się myć",
+        "pl_word": "będą myć (lavarse)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [se lavarán::będą się myć] más temprano.",
-            "pl_translation": "Jutro będą się myć wcześniej."
-          },
-          {
-            "es_form": "[se lavarán::będą się myć] la próxima semana.",
-            "pl_translation": "Będą się myć w przyszłym tygodniu."
-          },
-          {
-            "es_form": "¿[se lavarán::będą się myć] con nosotros mañana?",
-            "pl_translation": "Czy będą się myć z nami jutro?"
+            "es_form": "Ellos [se lavarán::będą myć] por la mañana.",
+            "pl_translation": "Będą myć się rano."
           }
         ]
       }

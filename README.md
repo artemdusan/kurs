@@ -56,7 +56,8 @@ npx wrangler deploy
 
 ## Format lekcji
 
-Każda lekcja (`lekcje/lekcja-*.json`): 1 czasownik (z 18 formami: present/preterite/future ×
-6 osób), 10 rzeczowników, 2 przymiotniki. Każde słowo ma 3 zdania przykładowe w notacji cloze
-`[słowo_hiszpańskie::tłumaczenie_polskie]` + pełne tłumaczenie. Słowa wieloznaczne to osobne
-rekordy z hintem w nawiasie.
+Każda lekcja (`lekcje/*.json`): 1 czasownik (z 18 formami: present/preterite/future ×
+6 osób; czasowniki bezosobowe jak *llover* mają tylko 3), 10 rzeczowników, 2 przymiotniki.
+Zdania przykładowe w notacji cloze `[słowo_hiszpańskie::tłumaczenie_polskie]` + pełne
+tłumaczenie (rzeczowniki/przymiotniki po 3, formy czasowników po 1). Polskie tłumaczenia
+zawsze w formie męskiej. Słowa wieloznaczne to osobne rekordy z hintem w nawiasie.

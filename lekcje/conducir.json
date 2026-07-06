@@ -233,22 +233,18 @@
     "pl_word": "prowadzić (auto)",
     "examples": [
       {
-        "es_form": "No puedo [conducir::prowadzić (auto)] sin tu ayuda.",
-        "pl_translation": "Nie mogę prowadzić bez twojej pomocy."
+        "es_form": "Quiero [conducir::prowadzić] el coche.",
+        "pl_translation": "Chcę prowadzić samochód."
       },
       {
-        "es_form": "Me gusta [conducir::prowadzić (auto)] por la mañana.",
-        "pl_translation": "Lubię prowadzić rano."
-      },
-      {
-        "es_form": "Prefiero [conducir::prowadzić (auto)] en casa.",
-        "pl_translation": "Wolę prowadzić w domu."
+        "es_form": "No puedo [conducir::prowadzić] el coche hoy.",
+        "pl_translation": "Nie mogę dziś prowadzić samochód."
       }
     ],
     "forms": [
       {
         "es_word": "conduzco",
-        "pl_word": "prowadzę",
+        "pl_word": "prowadzę (conducir)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [conduzco::prowadzę] con atencion.",
-            "pl_translation": "Zawsze prowadzę z uwagą."
-          },
-          {
-            "es_form": "¿[conduzco::prowadzę] los fines de semana?",
-            "pl_translation": "Czy prowadzę w weekendy?"
-          },
-          {
-            "es_form": "[conduzco::prowadzę] como me enseñaste.",
-            "pl_translation": "Prowadzę tak jak mnie nauczyłeś"
+            "es_form": "Yo [conduzco::prowadzę] el coche.",
+            "pl_translation": "Prowadzę samochód."
           }
         ]
       },
       {
         "es_word": "conduces",
-        "pl_word": "prowadzisz",
+        "pl_word": "prowadzisz (conducir)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "[conduces::prowadzisz] todos los días.",
-            "pl_translation": "Prowadzisz codziennie."
-          },
-          {
-            "es_form": "¿[conduces::prowadzisz] los fines de semana?",
-            "pl_translation": "Czy prowadzisz w weekendy?"
-          },
-          {
-            "es_form": "[conduces::prowadzisz] como me enseñaste.",
-            "pl_translation": "Prowadzisz tak jak mnie nauczyłeś"
+            "es_form": "Tú [conduces::prowadzisz] el coche.",
+            "pl_translation": "Prowadzisz samochód."
           }
         ]
       },
       {
         "es_word": "conduce",
-        "pl_word": "prowadzi",
+        "pl_word": "prowadzi (conducir)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "No [conduce::prowadzi] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie prowadzi zbyt dobrze."
-          },
-          {
-            "es_form": "Siempre [conduce::prowadzi] con atencion.",
-            "pl_translation": "Zawsze prowadzi z uwagą."
-          },
-          {
-            "es_form": "[conduce::prowadzi] como me enseñaste.",
-            "pl_translation": "Prowadzi tak jak mnie nauczyłeś"
+            "es_form": "Él [conduce::prowadzi] el coche.",
+            "pl_translation": "Prowadzi samochód."
           }
         ]
       },
       {
         "es_word": "conducimos",
-        "pl_word": "prowadzimy",
+        "pl_word": "prowadzimy (conducir)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [conducimos::prowadzimy] por la mañana.",
-            "pl_translation": "Zazwyczaj prowadzimy rano."
-          },
-          {
-            "es_form": "[conducimos::prowadzimy] como me enseñaste.",
-            "pl_translation": "Prowadzimy tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "No [conducimos::prowadzimy] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie prowadzimy zbyt dobrze."
+            "es_form": "Nosotros [conducimos::prowadzimy] el coche.",
+            "pl_translation": "Prowadzimy samochód."
           }
         ]
       },
       {
         "es_word": "conducís",
-        "pl_word": "prowadzicie",
+        "pl_word": "prowadzicie (conducir)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [conducís::prowadzicie] por la mañana.",
-            "pl_translation": "Zazwyczaj prowadzicie rano."
-          },
-          {
-            "es_form": "[conducís::prowadzicie] todos los días.",
-            "pl_translation": "Prowadzicie codziennie."
-          },
-          {
-            "es_form": "[conducís::prowadzicie] como me enseñaste.",
-            "pl_translation": "Prowadzicie tak jak mnie nauczyłeś"
+            "es_form": "Vosotros [conducís::prowadzicie] el coche.",
+            "pl_translation": "Prowadzicie samochód."
           }
         ]
       },
       {
         "es_word": "conducen",
-        "pl_word": "prowadzą",
+        "pl_word": "prowadzą (conducir)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[conducen::prowadzą] los fines de semana?",
-            "pl_translation": "Czy prowadzą w weekendy?"
-          },
-          {
-            "es_form": "Normalmente [conducen::prowadzą] por la mañana.",
-            "pl_translation": "Zazwyczaj prowadzą rano."
-          },
-          {
-            "es_form": "Siempre [conducen::prowadzą] con atencion.",
-            "pl_translation": "Zawsze prowadzą z uwagą."
+            "es_form": "Ellos [conducen::prowadzą] el coche.",
+            "pl_translation": "Prowadzą samochód."
           }
         ]
       },
       {
         "es_word": "conduje",
-        "pl_word": "prowadziłem",
+        "pl_word": "prowadziłem (conducir)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [conduje::prowadziłem] todo el día.",
-            "pl_translation": "Wczoraj prowadziłem"
-          },
-          {
-            "es_form": "¿[conduje::prowadziłem] bien el examen?",
-            "pl_translation": "Czy prowadziłem"
-          },
-          {
-            "es_form": "[conduje::prowadziłem] sin parar durante horas.",
-            "pl_translation": "Prowadziłem"
+            "es_form": "Yo [conduje::prowadziłem] el coche.",
+            "pl_translation": "Prowadziłem samochód."
           }
         ]
       },
       {
         "es_word": "condujiste",
-        "pl_word": "prowadziłeś",
+        "pl_word": "prowadziłeś (conducir)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "[condujiste::prowadziłeś] la semana pasada.",
-            "pl_translation": "Prowadziłeś"
-          },
-          {
-            "es_form": "¿[condujiste::prowadziłeś] bien el examen?",
-            "pl_translation": "Czy prowadziłeś"
-          },
-          {
-            "es_form": "El mes pasado no [condujiste::prowadziłeś] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie prowadziłeś"
+            "es_form": "Tú [condujiste::prowadziłeś] el coche.",
+            "pl_translation": "Prowadziłeś samochód."
           }
         ]
       },
       {
         "es_word": "condujo",
-        "pl_word": "prowadził",
+        "pl_word": "prowadził (conducir)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [condujo::prowadził] todo el día.",
-            "pl_translation": "Wczoraj prowadził"
-          },
-          {
-            "es_form": "El mes pasado no [condujo::prowadził] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie prowadził"
-          },
-          {
-            "es_form": "[condujo::prowadził] sin parar durante horas.",
-            "pl_translation": "Prowadził"
+            "es_form": "Él [condujo::prowadził] el coche.",
+            "pl_translation": "Prowadził samochód."
           }
         ]
       },
       {
         "es_word": "condujimos",
-        "pl_word": "prowadziliśmy",
+        "pl_word": "prowadziliśmy (conducir)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [condujimos::prowadziliśmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie prowadziliśmy"
-          },
-          {
-            "es_form": "[condujimos::prowadziliśmy] la semana pasada.",
-            "pl_translation": "Prowadziliśmy"
-          },
-          {
-            "es_form": "[condujimos::prowadziliśmy] sin parar durante horas.",
-            "pl_translation": "Prowadziliśmy"
+            "es_form": "Nosotros [condujimos::prowadziliśmy] el coche.",
+            "pl_translation": "Prowadziliśmy samochód."
           }
         ]
       },
       {
         "es_word": "condujisteis",
-        "pl_word": "prowadziliście",
+        "pl_word": "prowadziliście (conducir)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "[condujisteis::prowadziliście] sin parar durante horas.",
-            "pl_translation": "Prowadziliście"
-          },
-          {
-            "es_form": "[condujisteis::prowadziliście] la semana pasada.",
-            "pl_translation": "Prowadziliście"
-          },
-          {
-            "es_form": "El mes pasado no [condujisteis::prowadziliście] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie prowadziliście"
+            "es_form": "Vosotros [condujisteis::prowadziliście] el coche.",
+            "pl_translation": "Prowadziliście samochód."
           }
         ]
       },
       {
         "es_word": "condujeron",
-        "pl_word": "prowadzili",
+        "pl_word": "prowadzili (conducir)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "[condujeron::prowadzili] la semana pasada.",
-            "pl_translation": "Prowadzili"
-          },
-          {
-            "es_form": "Ayer [condujeron::prowadzili] todo el día.",
-            "pl_translation": "Wczoraj prowadzili"
-          },
-          {
-            "es_form": "[condujeron::prowadzili] sin parar durante horas.",
-            "pl_translation": "Prowadzili"
+            "es_form": "Ellos [condujeron::prowadzili] el coche.",
+            "pl_translation": "Prowadzili samochód."
           }
         ]
       },
       {
         "es_word": "conduciré",
-        "pl_word": "będę prowadził",
+        "pl_word": "będę prowadzić (conducir)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [conduciré::będę prowadził] bien.",
-            "pl_translation": "Myślę, że będę prowadził"
-          },
-          {
-            "es_form": "Te prometo que [conduciré::będę prowadził] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będę prowadził"
-          },
-          {
-            "es_form": "Mañana [conduciré::będę prowadził] más temprano.",
-            "pl_translation": "Jutro będę prowadził"
+            "es_form": "Yo [conduciré::będę prowadzić] el coche.",
+            "pl_translation": "Będę prowadzić samochód."
           }
         ]
       },
       {
         "es_word": "conducirás",
-        "pl_word": "będziesz prowadził",
+        "pl_word": "będziesz prowadzić (conducir)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[conducirás::będziesz prowadził] con nosotros mañana?",
-            "pl_translation": "Czy będziesz prowadził"
-          },
-          {
-            "es_form": "Creo que [conducirás::będziesz prowadził] bien.",
-            "pl_translation": "Myślę, że będziesz prowadził"
-          },
-          {
-            "es_form": "[conducirás::będziesz prowadził] la proxima semana.",
-            "pl_translation": "Będziesz prowadził"
+            "es_form": "Tú [conducirás::będziesz prowadzić] el coche.",
+            "pl_translation": "Będziesz prowadzić samochód."
           }
         ]
       },
       {
         "es_word": "conducirá",
-        "pl_word": "będzie prowadził",
+        "pl_word": "będzie prowadzić (conducir)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [conducirá::będzie prowadził] bien.",
-            "pl_translation": "Myślę, że będzie prowadził"
-          },
-          {
-            "es_form": "El año que viene [conducirá::będzie prowadził] en España.",
-            "pl_translation": "W przyszłym roku będzie prowadził"
-          },
-          {
-            "es_form": "¿[conducirá::będzie prowadził] con nosotros mañana?",
-            "pl_translation": "Czy będzie prowadził"
+            "es_form": "Él [conducirá::będzie prowadzić] el coche.",
+            "pl_translation": "Będzie prowadzić samochód."
           }
         ]
       },
       {
         "es_word": "conduciremos",
-        "pl_word": "będziemy prowadzili",
+        "pl_word": "będziemy prowadzić (conducir)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[conduciremos::będziemy prowadzili] con nosotros mañana?",
-            "pl_translation": "Czy będziemy prowadzili"
-          },
-          {
-            "es_form": "Mañana [conduciremos::będziemy prowadzili] más temprano.",
-            "pl_translation": "Jutro będziemy prowadzili"
-          },
-          {
-            "es_form": "Te prometo que [conduciremos::będziemy prowadzili] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziemy prowadzili"
+            "es_form": "Nosotros [conduciremos::będziemy prowadzić] el coche.",
+            "pl_translation": "Będziemy prowadzić samochód."
           }
         ]
       },
       {
         "es_word": "conduciréis",
-        "pl_word": "będziecie prowadzili",
+        "pl_word": "będziecie prowadzić (conducir)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [conduciréis::będziecie prowadzili] en España.",
-            "pl_translation": "W przyszłym roku będziecie prowadzili"
-          },
-          {
-            "es_form": "Creo que [conduciréis::będziecie prowadzili] bien.",
-            "pl_translation": "Myślę, że będziecie prowadzili"
-          },
-          {
-            "es_form": "[conduciréis::będziecie prowadzili] la proxima semana.",
-            "pl_translation": "Będziecie prowadzili"
+            "es_form": "Vosotros [conduciréis::będziecie prowadzić] el coche.",
+            "pl_translation": "Będziecie prowadzić samochód."
           }
         ]
       },
       {
         "es_word": "conducirán",
-        "pl_word": "będą prowadzili",
+        "pl_word": "będą prowadzić (conducir)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [conducirán::będą prowadzili] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będą prowadzili"
-          },
-          {
-            "es_form": "Creo que [conducirán::będą prowadzili] bien.",
-            "pl_translation": "Myślę, że będą prowadzili"
-          },
-          {
-            "es_form": "El año que viene [conducirán::będą prowadzili] en España.",
-            "pl_translation": "W przyszłym roku będą prowadzili"
+            "es_form": "Ellos [conducirán::będą prowadzić] el coche.",
+            "pl_translation": "Będą prowadzić samochód."
           }
         ]
       }

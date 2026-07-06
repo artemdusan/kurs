@@ -233,22 +233,18 @@
     "pl_word": "podróżować",
     "examples": [
       {
-        "es_form": "No puedo [viajar::podróżować] sin tu ayuda.",
-        "pl_translation": "Nie mogę podróżować bez twojej pomocy."
+        "es_form": "Quiero [viajar::podróżować] por Europa.",
+        "pl_translation": "Chcę podróżować po Europie."
       },
       {
-        "es_form": "Prefiero [viajar::podróżować] en casa.",
-        "pl_translation": "Wolę podróżować w domu."
-      },
-      {
-        "es_form": "Me gusta [viajar::podróżować] por la mañana.",
-        "pl_translation": "Lubię podróżować rano."
+        "es_form": "No puedo [viajar::podróżować] por Europa hoy.",
+        "pl_translation": "Nie mogę dziś podróżować po Europie."
       }
     ],
     "forms": [
       {
         "es_word": "viajo",
-        "pl_word": "podróżuję",
+        "pl_word": "podróżuję (viajar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "No [viajo::podróżuję] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie podróżuję zbyt dobrze."
-          },
-          {
-            "es_form": "Normalmente [viajo::podróżuję] por la mañana.",
-            "pl_translation": "Zazwyczaj podróżuję rano."
-          },
-          {
-            "es_form": "Siempre [viajo::podróżuję] con atencion.",
-            "pl_translation": "Zawsze podróżuję z uwagą."
+            "es_form": "Yo [viajo::podróżuję] por Europa.",
+            "pl_translation": "Podróżuję po Europie."
           }
         ]
       },
       {
         "es_word": "viajas",
-        "pl_word": "podróżujesz",
+        "pl_word": "podróżujesz (viajar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [viajas::podróżujesz] con atencion.",
-            "pl_translation": "Zawsze podróżujesz z uwagą."
-          },
-          {
-            "es_form": "[viajas::podróżujesz] como me enseñaste.",
-            "pl_translation": "Podróżujesz tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Normalmente [viajas::podróżujesz] por la mañana.",
-            "pl_translation": "Zazwyczaj podróżujesz rano."
+            "es_form": "Tú [viajas::podróżujesz] por Europa.",
+            "pl_translation": "Podróżujesz po Europie."
           }
         ]
       },
       {
         "es_word": "viaja",
-        "pl_word": "podróżuje",
+        "pl_word": "podróżuje (viajar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "No [viaja::podróżuje] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie podróżuje zbyt dobrze."
-          },
-          {
-            "es_form": "¿[viaja::podróżuje] los fines de semana?",
-            "pl_translation": "Czy podróżuje w weekendy?"
-          },
-          {
-            "es_form": "Siempre [viaja::podróżuje] con atencion.",
-            "pl_translation": "Zawsze podróżuje z uwagą."
+            "es_form": "Él [viaja::podróżuje] por Europa.",
+            "pl_translation": "Podróżuje po Europie."
           }
         ]
       },
       {
         "es_word": "viajamos",
-        "pl_word": "podróżujemy",
+        "pl_word": "podróżujemy (viajar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "[viajamos::podróżujemy] como me enseñaste.",
-            "pl_translation": "Podróżujemy tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Normalmente [viajamos::podróżujemy] por la mañana.",
-            "pl_translation": "Zazwyczaj podróżujemy rano."
-          },
-          {
-            "es_form": "¿[viajamos::podróżujemy] los fines de semana?",
-            "pl_translation": "Czy podróżujemy w weekendy?"
+            "es_form": "Nosotros [viajamos::podróżujemy] por Europa.",
+            "pl_translation": "Podróżujemy po Europie."
           }
         ]
       },
       {
         "es_word": "viajáis",
-        "pl_word": "podróżujecie",
+        "pl_word": "podróżujecie (viajar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "No [viajáis::podróżujecie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie podróżujecie zbyt dobrze."
-          },
-          {
-            "es_form": "Siempre [viajáis::podróżujecie] con atencion.",
-            "pl_translation": "Zawsze podróżujecie z uwagą."
-          },
-          {
-            "es_form": "[viajáis::podróżujecie] como me enseñaste.",
-            "pl_translation": "Podróżujecie tak jak mnie nauczyłeś"
+            "es_form": "Vosotros [viajáis::podróżujecie] por Europa.",
+            "pl_translation": "Podróżujecie po Europie."
           }
         ]
       },
       {
         "es_word": "viajan",
-        "pl_word": "podróżują",
+        "pl_word": "podróżują (viajar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[viajan::podróżują] los fines de semana?",
-            "pl_translation": "Czy podróżują w weekendy?"
-          },
-          {
-            "es_form": "[viajan::podróżują] todos los días.",
-            "pl_translation": "Podróżują codziennie."
-          },
-          {
-            "es_form": "[viajan::podróżują] como me enseñaste.",
-            "pl_translation": "Podróżują tak jak mnie nauczyłeś"
+            "es_form": "Ellos [viajan::podróżują] por Europa.",
+            "pl_translation": "Podróżują po Europie."
           }
         ]
       },
       {
         "es_word": "viajé",
-        "pl_word": "podróżowałem",
+        "pl_word": "podróżowałem (viajar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [viajé::podróżowałem] todo el día.",
-            "pl_translation": "Wczoraj podróżowałem"
-          },
-          {
-            "es_form": "[viajé::podróżowałem] sin parar durante horas.",
-            "pl_translation": "Podróżowałem"
-          },
-          {
-            "es_form": "¿[viajé::podróżowałem] bien el examen?",
-            "pl_translation": "Czy podróżowałem"
+            "es_form": "Yo [viajé::podróżowałem] por Europa.",
+            "pl_translation": "Podróżowałem po Europie."
           }
         ]
       },
       {
         "es_word": "viajaste",
-        "pl_word": "podróżowałeś",
+        "pl_word": "podróżowałeś (viajar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "[viajaste::podróżowałeś] la semana pasada.",
-            "pl_translation": "Podróżowałeś"
-          },
-          {
-            "es_form": "[viajaste::podróżowałeś] sin parar durante horas.",
-            "pl_translation": "Podróżowałeś"
-          },
-          {
-            "es_form": "Nunca [viajaste::podróżowałeś] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie podróżowałeś"
+            "es_form": "Tú [viajaste::podróżowałeś] por Europa.",
+            "pl_translation": "Podróżowałeś po Europie."
           }
         ]
       },
       {
         "es_word": "viajó",
-        "pl_word": "podróżował",
+        "pl_word": "podróżował (viajar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [viajó::podróżował] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie podróżował"
-          },
-          {
-            "es_form": "[viajó::podróżował] sin parar durante horas.",
-            "pl_translation": "Podróżował"
-          },
-          {
-            "es_form": "¿[viajó::podróżował] bien el examen?",
-            "pl_translation": "Czy podróżował"
+            "es_form": "Él [viajó::podróżował] por Europa.",
+            "pl_translation": "Podróżował po Europie."
           }
         ]
       },
       {
         "es_word": "viajamos",
-        "pl_word": "podróżowaliśmy",
+        "pl_word": "podróżowaliśmy (viajar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "[viajamos::podróżowaliśmy] la semana pasada.",
-            "pl_translation": "Podróżowaliśmy"
-          },
-          {
-            "es_form": "Nunca [viajamos::podróżowaliśmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie podróżowaliśmy"
-          },
-          {
-            "es_form": "Ayer [viajamos::podróżowaliśmy] todo el día.",
-            "pl_translation": "Wczoraj podróżowaliśmy"
+            "es_form": "Nosotros [viajamos::podróżowaliśmy] por Europa.",
+            "pl_translation": "Podróżowaliśmy po Europie."
           }
         ]
       },
       {
         "es_word": "viajasteis",
-        "pl_word": "podróżowaliście",
+        "pl_word": "podróżowaliście (viajar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "[viajasteis::podróżowaliście] sin parar durante horas.",
-            "pl_translation": "Podróżowaliście"
-          },
-          {
-            "es_form": "Nunca [viajasteis::podróżowaliście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie podróżowaliście"
-          },
-          {
-            "es_form": "Ayer [viajasteis::podróżowaliście] todo el día.",
-            "pl_translation": "Wczoraj podróżowaliście"
+            "es_form": "Vosotros [viajasteis::podróżowaliście] por Europa.",
+            "pl_translation": "Podróżowaliście po Europie."
           }
         ]
       },
       {
         "es_word": "viajaron",
-        "pl_word": "podróżowali",
+        "pl_word": "podróżowali (viajar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "[viajaron::podróżowali] la semana pasada.",
-            "pl_translation": "Podróżowali"
-          },
-          {
-            "es_form": "Ayer [viajaron::podróżowali] todo el día.",
-            "pl_translation": "Wczoraj podróżowali"
-          },
-          {
-            "es_form": "¿[viajaron::podróżowali] bien el examen?",
-            "pl_translation": "Czy podróżowali"
+            "es_form": "Ellos [viajaron::podróżowali] por Europa.",
+            "pl_translation": "Podróżowali po Europie."
           }
         ]
       },
       {
-        "es_word": "viajé",
-        "pl_word": "będę podróżować",
+        "es_word": "viajaré",
+        "pl_word": "będę podróżować (viajar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [viajé::będę podróżować] en España.",
-            "pl_translation": "W przyszłym roku będę podróżować w Hiszpanii."
-          },
-          {
-            "es_form": "Creo que [viajé::będę podróżować] bien.",
-            "pl_translation": "Myślę, że będę podróżować dobrze."
-          },
-          {
-            "es_form": "[viajé::będę podróżować] la proxima semana.",
-            "pl_translation": "Będę podróżować w przyszłym tygodniu."
+            "es_form": "Yo [viajaré::będę podróżować] por Europa.",
+            "pl_translation": "Będę podróżować po Europie."
           }
         ]
       },
       {
-        "es_word": "viajás",
-        "pl_word": "będziesz podróżować",
+        "es_word": "viajarás",
+        "pl_word": "będziesz podróżować (viajar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [viajás::będziesz podróżować] bien.",
-            "pl_translation": "Myślę, że będziesz podróżować dobrze."
-          },
-          {
-            "es_form": "Te prometo que [viajás::będziesz podróżować] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziesz podróżować na czas."
-          },
-          {
-            "es_form": "[viajás::będziesz podróżować] la proxima semana.",
-            "pl_translation": "Będziesz podróżować w przyszłym tygodniu."
+            "es_form": "Tú [viajarás::będziesz podróżować] por Europa.",
+            "pl_translation": "Będziesz podróżować po Europie."
           }
         ]
       },
       {
-        "es_word": "viajá",
-        "pl_word": "będzie podróżować",
+        "es_word": "viajará",
+        "pl_word": "będzie podróżować (viajar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [viajá::będzie podróżować] bien.",
-            "pl_translation": "Myślę, że będzie podróżować dobrze."
-          },
-          {
-            "es_form": "¿[viajá::będzie podróżować] con nosotros mañana?",
-            "pl_translation": "Czy będzie podróżować z nami jutro?"
-          },
-          {
-            "es_form": "Te prometo que [viajá::będzie podróżować] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będzie podróżować na czas."
+            "es_form": "Él [viajará::będzie podróżować] por Europa.",
+            "pl_translation": "Będzie podróżować po Europie."
           }
         ]
       },
       {
-        "es_word": "viajemos",
-        "pl_word": "będziemy podróżować",
+        "es_word": "viajaremos",
+        "pl_word": "będziemy podróżować (viajar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [viajemos::będziemy podróżować] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziemy podróżować na czas."
-          },
-          {
-            "es_form": "Mañana [viajemos::będziemy podróżować] más temprano.",
-            "pl_translation": "Jutro będziemy podróżować wcześniej."
-          },
-          {
-            "es_form": "[viajemos::będziemy podróżować] la proxima semana.",
-            "pl_translation": "Będziemy podróżować w przyszłym tygodniu."
+            "es_form": "Nosotros [viajaremos::będziemy podróżować] por Europa.",
+            "pl_translation": "Będziemy podróżować po Europie."
           }
         ]
       },
       {
-        "es_word": "viajéis",
-        "pl_word": "będziecie podróżować",
+        "es_word": "viajaréis",
+        "pl_word": "będziecie podróżować (viajar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[viajéis::będziecie podróżować] con nosotros mañana?",
-            "pl_translation": "Czy będziecie podróżować z nami jutro?"
-          },
-          {
-            "es_form": "[viajéis::będziecie podróżować] la proxima semana.",
-            "pl_translation": "Będziecie podróżować w przyszłym tygodniu."
-          },
-          {
-            "es_form": "El año que viene [viajéis::będziecie podróżować] en España.",
-            "pl_translation": "W przyszłym roku będziecie podróżować w Hiszpanii."
+            "es_form": "Vosotros [viajaréis::będziecie podróżować] por Europa.",
+            "pl_translation": "Będziecie podróżować po Europie."
           }
         ]
       },
       {
-        "es_word": "viaján",
-        "pl_word": "będą podróżować",
+        "es_word": "viajarán",
+        "pl_word": "będą podróżować (viajar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [viaján::będą podróżować] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będą podróżować na czas."
-          },
-          {
-            "es_form": "Creo que [viaján::będą podróżować] bien.",
-            "pl_translation": "Myślę, że będą podróżować dobrze."
-          },
-          {
-            "es_form": "¿[viaján::będą podróżować] con nosotros mañana?",
-            "pl_translation": "Czy będą podróżować z nami jutro?"
+            "es_form": "Ellos [viajarán::będą podróżować] por Europa.",
+            "pl_translation": "Będą podróżować po Europie."
           }
         ]
       }

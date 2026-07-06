@@ -1,16 +1,18 @@
 import React, { useEffect, useState } from 'react';
 import { db, getMeta, setMeta, getSettings } from './db.js';
 import { loadIndex, ensureLessonImported } from './course.js';
-import { lessonFloorReached, getProgressMap, countRecentMistakes } from './engine/session.js';
+import { lessonFloorReached, getProgressMap, countRecentMistakes, levelDistribution } from './engine/session.js';
 import { syncNow, resolveSyncUrl } from './sync.js';
-import SkillTree from './components/SkillTree.jsx';
 import Session from './components/Session.jsx';
 import Settings from './components/Settings.jsx';
 import Stats from './components/Stats.jsx';
+import LevelBars from './components/LevelBars.jsx';
+import Icon from './components/Icon.jsx';
 
 export default function App() {
   const [view, setView] = useState('loading'); // loading | tree | session | mistakes | settings | stats
   const [mistakeCount, setMistakeCount] = useState(0);
+  const [levels, setLevels] = useState(null);
   const [index, setIndex] = useState(null);
   const [settings, setSettings] = useState(null);
   const [unlockedLesson, setUnlockedLesson] = useState(1);
@@ -48,6 +50,7 @@ export default function App() {
     }
     setLessonStats(stats);
     setMistakeCount(await countRecentMistakes(unlocked));
+    setLevels(await levelDistribution(unlocked));
     setStreak(await getMeta('streak', { count: 0 }));
     const daily = await getMeta('dailyStats', {});
     const today = daily[new Date().toISOString().slice(0, 10)] || { correct: 0, wrong: 0 };
@@ -114,42 +117,53 @@ export default function App() {
   }
 
   const current = index.lekcje.find((l) => l.numer === unlockedLesson);
+  const stat = lessonStats[unlockedLesson];
+  const pct = stat ? Math.round((stat.mastered / stat.total) * 100) : 0;
+  const totalWords = levels ? levels.reduce((s, n) => s + n, 0) : 0;
 
   return (
     <div className="screen home">
       <header className="home-header">
-        <p className="subtitle">
-          Lekcja {unlockedLesson}: {current?.temat} · {current?.poziom}
-        </p>
+        <div className="stats-bar">
+          <span title="Streak dni nauki"><Icon name="fire" size={16} /> {streak.count || 0}</span>
+          <span title="Dzisiejsze odpowiedzi: poprawne / błędne">
+            <span className="num-ok">{todayStats.correct}</span> <span className="num-bad">{todayStats.wrong}</span>
+          </span>
+        </div>
         <div>
-          <button className="btn ghost" title="Statystyki" onClick={() => setView('stats')}>📊</button>
-          <button className="btn ghost" title="Ustawienia" onClick={() => setView('settings')}>⚙️</button>
+          <button className="btn ghost" title="Statystyki" onClick={() => setView('stats')}>
+            <Icon name="chart" />
+          </button>
+          <button className="btn ghost" title="Ustawienia" onClick={() => setView('settings')}>
+            <Icon name="gear" />
+          </button>
         </div>
       </header>
 
-      <div className="stats-bar">
-        <span title="Streak dni nauki">🔥 {streak.count || 0}</span>
-        <span title="Dzisiejsze odpowiedzi">✅ {todayStats.correct} ❌ {todayStats.wrong}</span>
+      <div className="lesson-card">
+        <span className="lesson-card-label">Lekcja {unlockedLesson} · {current?.poziom}</span>
+        <span className="lesson-card-title">{current?.temat}</span>
+        <span className="lesson-card-sub">{current?.czasownik} · opanowane {pct}%</span>
+        <div className="lesson-card-track">
+          <div className="lesson-card-fill" style={{ width: pct + '%' }} />
+        </div>
       </div>
 
-      <button className="btn primary big" onClick={() => setView('session')}>
-        ▶ Rozpocznij sesję ({settings.sessionMinutes} min)
-      </button>
-
-      {mistakeCount > 0 && (
-        <button className="btn mistakes-btn" onClick={() => setView('mistakes')}>
-          🔁 Powtórka błędów ({mistakeCount})
-        </button>
-      )}
+      <h3>Słowa według poziomu ({totalWords})</h3>
+      {levels && <LevelBars levels={levels} />}
 
       {toast && <div className="toast">{toast}</div>}
 
-      <SkillTree
-        index={index}
-        unlockedLesson={unlockedLesson}
-        lessonStats={lessonStats}
-        onStart={() => setView('session')}
-      />
+      <div className="home-bottom">
+        {mistakeCount > 0 && (
+          <button className="btn mistakes-btn" onClick={() => setView('mistakes')}>
+            <Icon name="repeat" size={14} /> Powtórka ({mistakeCount})
+          </button>
+        )}
+        <button className="btn primary big" onClick={() => setView('session')}>
+          <Icon name="play" size={14} /> Rozpocznij sesję
+        </button>
+      </div>
     </div>
   );
 }

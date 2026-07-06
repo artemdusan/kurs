@@ -233,22 +233,18 @@
     "pl_word": "oglądać, patrzeć",
     "examples": [
       {
-        "es_form": "No puedo [mirar::oglądać, patrzeć] sin tu ayuda.",
-        "pl_translation": "Nie mogę oglądać, patrzeć bez twojej pomocy."
+        "es_form": "Quiero [mirar::oglądać] la televisión.",
+        "pl_translation": "Chcę oglądać telewizję."
       },
       {
-        "es_form": "Quiero [mirar::oglądać, patrzeć] ahora.",
-        "pl_translation": "Chcę oglądać, patrzeć teraz."
-      },
-      {
-        "es_form": "Me gusta [mirar::oglądać, patrzeć] por la mañana.",
-        "pl_translation": "Lubię oglądać, patrzeć rano."
+        "es_form": "No puedo [mirar::oglądać] la televisión hoy.",
+        "pl_translation": "Nie mogę dziś oglądać telewizję."
       }
     ],
     "forms": [
       {
         "es_word": "miro",
-        "pl_word": "oglądam",
+        "pl_word": "oglądam (mirar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [miro::oglądam] por la mañana.",
-            "pl_translation": "Zazwyczaj oglądam rano."
-          },
-          {
-            "es_form": "[miro::oglądam] todos los días.",
-            "pl_translation": "Oglądam codziennie."
-          },
-          {
-            "es_form": "No [miro::oglądam] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie oglądam zbyt dobrze."
+            "es_form": "Yo [miro::oglądam] la televisión.",
+            "pl_translation": "Oglądam telewizję."
           }
         ]
       },
       {
         "es_word": "miras",
-        "pl_word": "oglądasz",
+        "pl_word": "oglądasz (mirar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "No [miras::oglądasz] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie oglądasz zbyt dobrze."
-          },
-          {
-            "es_form": "Siempre [miras::oglądasz] con atencion.",
-            "pl_translation": "Zawsze oglądasz z uwagą."
-          },
-          {
-            "es_form": "[miras::oglądasz] como me enseñaste.",
-            "pl_translation": "Oglądasz tak jak mnie nauczyłeś"
+            "es_form": "Tú [miras::oglądasz] la televisión.",
+            "pl_translation": "Oglądasz telewizję."
           }
         ]
       },
       {
         "es_word": "mira",
-        "pl_word": "ogląda",
+        "pl_word": "ogląda (mirar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[mira::ogląda] los fines de semana?",
-            "pl_translation": "Czy oglądać w weekendy?"
-          },
-          {
-            "es_form": "[mira::ogląda] todos los días.",
-            "pl_translation": "Oglądać codziennie."
-          },
-          {
-            "es_form": "No [mira::ogląda] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie oglądać zbyt dobrze."
+            "es_form": "Él [mira::ogląda] la televisión.",
+            "pl_translation": "Ogląda telewizję."
           }
         ]
       },
       {
         "es_word": "miramos",
-        "pl_word": "oglądamy",
+        "pl_word": "oglądamy (mirar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "[miramos::oglądamy] como me enseñaste.",
-            "pl_translation": "Oglądamy tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "No [miramos::oglądamy] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie oglądamy zbyt dobrze."
-          },
-          {
-            "es_form": "Siempre [miramos::oglądamy] con atencion.",
-            "pl_translation": "Zawsze oglądamy z uwagą."
+            "es_form": "Nosotros [miramos::oglądamy] la televisión.",
+            "pl_translation": "Oglądamy telewizję."
           }
         ]
       },
       {
         "es_word": "miráis",
-        "pl_word": "oglądacie",
+        "pl_word": "oglądacie (mirar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "[miráis::oglądacie] todos los días.",
-            "pl_translation": "Oglądacie codziennie."
-          },
-          {
-            "es_form": "¿[miráis::oglądacie] los fines de semana?",
-            "pl_translation": "Czy oglądacie w weekendy?"
-          },
-          {
-            "es_form": "No [miráis::oglądacie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie oglądacie zbyt dobrze."
+            "es_form": "Vosotros [miráis::oglądacie] la televisión.",
+            "pl_translation": "Oglądacie telewizję."
           }
         ]
       },
       {
         "es_word": "miran",
-        "pl_word": "oglądają",
+        "pl_word": "oglądają (mirar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [miran::oglądają] por la mañana.",
-            "pl_translation": "Zazwyczaj oglądają rano."
-          },
-          {
-            "es_form": "Siempre [miran::oglądają] con atencion.",
-            "pl_translation": "Zawsze oglądają z uwagą."
-          },
-          {
-            "es_form": "No [miran::oglądają] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie oglądają zbyt dobrze."
+            "es_form": "Ellos [miran::oglądają] la televisión.",
+            "pl_translation": "Oglądają telewizję."
           }
         ]
       },
       {
         "es_word": "miré",
-        "pl_word": "oglądałem",
+        "pl_word": "obejrzałem (mirar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[miré::oglądałem] bien el examen?",
-            "pl_translation": "Czy oglądałem dobrze egzamin?"
-          },
-          {
-            "es_form": "Nunca [miré::oglądałem] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie oglądałem czegoś takiego."
-          },
-          {
-            "es_form": "El mes pasado no [miré::oglądałem] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie oglądałem."
+            "es_form": "Yo [miré::obejrzałem] la televisión.",
+            "pl_translation": "Obejrzałem telewizję."
           }
         ]
       },
       {
         "es_word": "miraste",
-        "pl_word": "oglądałeś",
+        "pl_word": "obejrzałeś (mirar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "[miraste::oglądałeś] sin parar durante horas.",
-            "pl_translation": "Oglądałeś bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "Nunca [miraste::oglądałeś] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie oglądałeś czegoś takiego."
-          },
-          {
-            "es_form": "Ayer [miraste::oglądałeś] todo el día.",
-            "pl_translation": "Wczoraj oglądałeś cały dzień."
+            "es_form": "Tú [miraste::obejrzałeś] la televisión.",
+            "pl_translation": "Obejrzałeś telewizję."
           }
         ]
       },
       {
         "es_word": "miró",
-        "pl_word": "oglądał",
+        "pl_word": "obejrzał (mirar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [miró::oglądał] todo el día.",
-            "pl_translation": "Wczoraj oglądał cały dzień."
-          },
-          {
-            "es_form": "[miró::oglądał] sin parar durante horas.",
-            "pl_translation": "Oglądał bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "Nunca [miró::oglądał] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie oglądał czegoś takiego."
+            "es_form": "Él [miró::obejrzał] la televisión.",
+            "pl_translation": "Obejrzał telewizję."
           }
         ]
       },
       {
         "es_word": "miramos",
-        "pl_word": "oglądaliśmy",
+        "pl_word": "obejrzeliśmy (mirar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [miramos::oglądaliśmy] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie oglądaliśmy."
-          },
-          {
-            "es_form": "¿[miramos::oglądaliśmy] bien el examen?",
-            "pl_translation": "Czy oglądaliśmy dobrze egzamin?"
-          },
-          {
-            "es_form": "[miramos::oglądaliśmy] sin parar durante horas.",
-            "pl_translation": "Oglądaliśmy bez przerwy przez wiele godzin."
+            "es_form": "Nosotros [miramos::obejrzeliśmy] la televisión.",
+            "pl_translation": "Obejrzeliśmy telewizję."
           }
         ]
       },
       {
         "es_word": "mirasteis",
-        "pl_word": "oglądaliście",
+        "pl_word": "obejrzeliście (mirar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [mirasteis::oglądaliście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie oglądaliście czegoś takiego."
-          },
-          {
-            "es_form": "El mes pasado no [mirasteis::oglądaliście] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie oglądaliście."
-          },
-          {
-            "es_form": "Ayer [mirasteis::oglądaliście] todo el día.",
-            "pl_translation": "Wczoraj oglądaliście cały dzień."
+            "es_form": "Vosotros [mirasteis::obejrzeliście] la televisión.",
+            "pl_translation": "Obejrzeliście telewizję."
           }
         ]
       },
       {
         "es_word": "miraron",
-        "pl_word": "oglądali",
+        "pl_word": "obejrzeli (mirar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [miraron::oglądali] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie oglądali."
-          },
-          {
-            "es_form": "Nunca [miraron::oglądali] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie oglądali czegoś takiego."
-          },
-          {
-            "es_form": "[miraron::oglądali] sin parar durante horas.",
-            "pl_translation": "Oglądali bez przerwy przez wiele godzin."
+            "es_form": "Ellos [miraron::obejrzeli] la televisión.",
+            "pl_translation": "Obejrzeli telewizję."
           }
         ]
       },
       {
-        "es_word": "miré",
-        "pl_word": "będę oglądać",
+        "es_word": "miraré",
+        "pl_word": "będę oglądać (mirar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [miré::będę oglądać] bien.",
-            "pl_translation": "Myślę, że będę oglądać dobrze."
-          },
-          {
-            "es_form": "Te prometo que [miré::będę oglądać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będę oglądać na czas."
-          },
-          {
-            "es_form": "[miré::będę oglądać] la proxima semana.",
-            "pl_translation": "Będę oglądać w przyszłym tygodniu."
+            "es_form": "Yo [miraré::będę oglądać] la televisión.",
+            "pl_translation": "Będę oglądać telewizję."
           }
         ]
       },
       {
-        "es_word": "mirás",
-        "pl_word": "będziesz oglądać",
+        "es_word": "mirarás",
+        "pl_word": "będziesz oglądać (mirar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [mirás::będziesz oglądać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziesz oglądać na czas."
-          },
-          {
-            "es_form": "¿[mirás::będziesz oglądać] con nosotros mañana?",
-            "pl_translation": "Czy będziesz oglądać z nami jutro?"
-          },
-          {
-            "es_form": "[mirás::będziesz oglądać] la proxima semana.",
-            "pl_translation": "Będziesz oglądać w przyszłym tygodniu."
+            "es_form": "Tú [mirarás::będziesz oglądać] la televisión.",
+            "pl_translation": "Będziesz oglądać telewizję."
           }
         ]
       },
       {
-        "es_word": "mirá",
-        "pl_word": "będzie oglądać",
+        "es_word": "mirará",
+        "pl_word": "będzie oglądać (mirar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[mirá::będzie oglądać] con nosotros mañana?",
-            "pl_translation": "Czy będzie oglądać z nami jutro?"
-          },
-          {
-            "es_form": "El año que viene [mirá::będzie oglądać] en España.",
-            "pl_translation": "W przyszłym roku będzie oglądać w Hiszpanii."
-          },
-          {
-            "es_form": "Te prometo que [mirá::będzie oglądać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będzie oglądać na czas."
+            "es_form": "Él [mirará::będzie oglądać] la televisión.",
+            "pl_translation": "Będzie oglądać telewizję."
           }
         ]
       },
       {
-        "es_word": "miremos",
-        "pl_word": "będziemy oglądać",
+        "es_word": "miraremos",
+        "pl_word": "będziemy oglądać (mirar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [miremos::będziemy oglądać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziemy oglądać na czas."
-          },
-          {
-            "es_form": "[miremos::będziemy oglądać] la proxima semana.",
-            "pl_translation": "Będziemy oglądać w przyszłym tygodniu."
-          },
-          {
-            "es_form": "El año que viene [miremos::będziemy oglądać] en España.",
-            "pl_translation": "W przyszłym roku będziemy oglądać w Hiszpanii."
+            "es_form": "Nosotros [miraremos::będziemy oglądać] la televisión.",
+            "pl_translation": "Będziemy oglądać telewizję."
           }
         ]
       },
       {
-        "es_word": "miréis",
-        "pl_word": "będziecie oglądać",
+        "es_word": "miraréis",
+        "pl_word": "będziecie oglądać (mirar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[miréis::będziecie oglądać] con nosotros mañana?",
-            "pl_translation": "Czy będziecie oglądać z nami jutro?"
-          },
-          {
-            "es_form": "Mañana [miréis::będziecie oglądać] más temprano.",
-            "pl_translation": "Jutro będziecie oglądać wcześniej."
-          },
-          {
-            "es_form": "Te prometo que [miréis::będziecie oglądać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziecie oglądać na czas."
+            "es_form": "Vosotros [miraréis::będziecie oglądać] la televisión.",
+            "pl_translation": "Będziecie oglądać telewizję."
           }
         ]
       },
       {
-        "es_word": "mirán",
-        "pl_word": "będą oglądać",
+        "es_word": "mirarán",
+        "pl_word": "będą oglądać (mirar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [mirán::będą oglądać] más temprano.",
-            "pl_translation": "Jutro będą oglądać wcześniej."
-          },
-          {
-            "es_form": "Creo que [mirán::będą oglądać] bien.",
-            "pl_translation": "Myślę, że będą oglądać dobrze."
-          },
-          {
-            "es_form": "¿[mirán::będą oglądać] con nosotros mañana?",
-            "pl_translation": "Czy będą oglądać z nami jutro?"
+            "es_form": "Ellos [mirarán::będą oglądać] la televisión.",
+            "pl_translation": "Będą oglądać telewizję."
           }
         ]
       }

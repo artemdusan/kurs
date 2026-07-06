@@ -233,22 +233,18 @@
     "pl_word": "czytać",
     "examples": [
       {
-        "es_form": "Prefiero [leer::czytać] en casa.",
-        "pl_translation": "Wolę czytać w domu."
+        "es_form": "Quiero [leer::czytać] un libro.",
+        "pl_translation": "Chcę czytać książkę."
       },
       {
-        "es_form": "Hay que [leer::czytać] con cuidado.",
-        "pl_translation": "Trzeba czytać ostrożnie."
-      },
-      {
-        "es_form": "¿Puedes [leer::czytać] más rápido?",
-        "pl_translation": "Możesz czytać szybciej?"
+        "es_form": "No puedo [leer::czytać] un libro hoy.",
+        "pl_translation": "Nie mogę dziś czytać książkę."
       }
     ],
     "forms": [
       {
         "es_word": "leo",
-        "pl_word": "czytam",
+        "pl_word": "czytam (leer)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [leo::czytam] con atencion.",
-            "pl_translation": "Zawsze czytam z uwagą."
-          },
-          {
-            "es_form": "¿[leo::czytam] los fines de semana?",
-            "pl_translation": "Czy czytam w weekendy?"
-          },
-          {
-            "es_form": "[leo::czytam] todos los días.",
-            "pl_translation": "Czytam codziennie."
+            "es_form": "Yo [leo::czytam] un libro.",
+            "pl_translation": "Czytam książkę."
           }
         ]
       },
       {
         "es_word": "lees",
-        "pl_word": "czytasz",
+        "pl_word": "czytasz (leer)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [lees::czytasz] con atencion.",
-            "pl_translation": "Zawsze czytasz z uwagą."
-          },
-          {
-            "es_form": "[lees::czytasz] como me enseñaste.",
-            "pl_translation": "Czytasz tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "No [lees::czytasz] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie czytasz zbyt dobrze."
+            "es_form": "Tú [lees::czytasz] un libro.",
+            "pl_translation": "Czytasz książkę."
           }
         ]
       },
       {
         "es_word": "lee",
-        "pl_word": "czyta",
+        "pl_word": "czyta (leer)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "[lee::czyta] todos los días.",
-            "pl_translation": "Czyta codziennie."
-          },
-          {
-            "es_form": "Siempre [lee::czyta] con atencion.",
-            "pl_translation": "Zawsze czyta z uwagą."
-          },
-          {
-            "es_form": "¿[lee::czyta] los fines de semana?",
-            "pl_translation": "Czy czyta w weekendy?"
+            "es_form": "Él [lee::czyta] un libro.",
+            "pl_translation": "Czyta książkę."
           }
         ]
       },
       {
         "es_word": "leemos",
-        "pl_word": "czytamy",
+        "pl_word": "czytamy (leer)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[leemos::czytamy] los fines de semana?",
-            "pl_translation": "Czy czytamy w weekendy?"
-          },
-          {
-            "es_form": "Normalmente [leemos::czytamy] por la mañana.",
-            "pl_translation": "Zazwyczaj czytamy rano."
-          },
-          {
-            "es_form": "Siempre [leemos::czytamy] con atencion.",
-            "pl_translation": "Zawsze czytamy z uwagą."
+            "es_form": "Nosotros [leemos::czytamy] un libro.",
+            "pl_translation": "Czytamy książkę."
           }
         ]
       },
       {
         "es_word": "leéis",
-        "pl_word": "czytaÄ‡ie",
+        "pl_word": "czytacie (leer)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "[leéis::czytaÄ‡ie] todos los días.",
-            "pl_translation": "Czytacie codziennie."
-          },
-          {
-            "es_form": "No [leéis::czytaÄ‡ie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie czytaÄ‡ie zbyt dobrze."
-          },
-          {
-            "es_form": "Normalmente [leéis::czytaÄ‡ie] por la mañana.",
-            "pl_translation": "Zazwyczaj czytaÄ‡ie rano."
+            "es_form": "Vosotros [leéis::czytacie] un libro.",
+            "pl_translation": "Czytacie książkę."
           }
         ]
       },
       {
         "es_word": "leen",
-        "pl_word": "czytają",
+        "pl_word": "czytają (leer)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [leen::czytają] con atencion.",
-            "pl_translation": "Zawsze czytają z uwagą."
-          },
-          {
-            "es_form": "No [leen::czytają] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie czytają zbyt dobrze."
-          },
-          {
-            "es_form": "[leen::czytają] todos los días.",
-            "pl_translation": "Czytają codziennie."
+            "es_form": "Ellos [leen::czytają] un libro.",
+            "pl_translation": "Czytają książkę."
           }
         ]
       },
       {
         "es_word": "leí",
-        "pl_word": "czytaĹ‚em",
+        "pl_word": "przeczytałem (leer)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "[leí::czytaĹ‚em] la semana pasada.",
-            "pl_translation": "Czytalem"
-          },
-          {
-            "es_form": "Ayer [leí::czytaĹ‚em] todo el día.",
-            "pl_translation": "Wczoraj czytaĹ‚em"
-          },
-          {
-            "es_form": "El mes pasado no [leí::czytaĹ‚em] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie czytaĹ‚em"
+            "es_form": "Yo [leí::przeczytałem] un libro.",
+            "pl_translation": "Przeczytałem książkę."
           }
         ]
       },
       {
         "es_word": "leíste",
-        "pl_word": "czytaĹ‚eĹ›",
+        "pl_word": "przeczytałeś (leer)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[leíste::czytaĹ‚eĹ›] bien el examen?",
-            "pl_translation": "Czy czytaĹ‚eĹ›"
-          },
-          {
-            "es_form": "[leíste::czytaĹ‚eĹ›] sin parar durante horas.",
-            "pl_translation": "Czytales"
-          },
-          {
-            "es_form": "[leíste::czytaĹ‚eĹ›] la semana pasada.",
-            "pl_translation": "Czytales"
+            "es_form": "Tú [leíste::przeczytałeś] un libro.",
+            "pl_translation": "Przeczytałeś książkę."
           }
         ]
       },
       {
         "es_word": "leyó",
-        "pl_word": "czytaĹ‚",
+        "pl_word": "przeczytał (leer)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "[leyó::czytaĹ‚] la semana pasada.",
-            "pl_translation": "Czytal"
-          },
-          {
-            "es_form": "El mes pasado no [leyó::czytaĹ‚] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie czytaĹ‚"
-          },
-          {
-            "es_form": "[leyó::czytaĹ‚] sin parar durante horas.",
-            "pl_translation": "Czytal"
+            "es_form": "Él [leyó::przeczytał] un libro.",
+            "pl_translation": "Przeczytał książkę."
           }
         ]
       },
       {
         "es_word": "leímos",
-        "pl_word": "czytaliĹ›my",
+        "pl_word": "przeczytaliśmy (leer)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [leímos::czytaliĹ›my] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie czytaliĹ›my"
-          },
-          {
-            "es_form": "El mes pasado no [leímos::czytaliĹ›my] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie czytaliĹ›my"
-          },
-          {
-            "es_form": "[leímos::czytaliĹ›my] la semana pasada.",
-            "pl_translation": "Czytalismy"
+            "es_form": "Nosotros [leímos::przeczytaliśmy] un libro.",
+            "pl_translation": "Przeczytaliśmy książkę."
           }
         ]
       },
       {
         "es_word": "leísteis",
-        "pl_word": "czytaliĹ›cie",
+        "pl_word": "przeczytaliście (leer)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "[leísteis::czytaliĹ›cie] la semana pasada.",
-            "pl_translation": "Czytaliscie"
-          },
-          {
-            "es_form": "¿[leísteis::czytaliĹ›cie] bien el examen?",
-            "pl_translation": "Czy czytaliĹ›cie"
-          },
-          {
-            "es_form": "[leísteis::czytaliĹ›cie] sin parar durante horas.",
-            "pl_translation": "Czytaliscie"
+            "es_form": "Vosotros [leísteis::przeczytaliście] un libro.",
+            "pl_translation": "Przeczytaliście książkę."
           }
         ]
       },
       {
         "es_word": "leyeron",
-        "pl_word": "czytali",
+        "pl_word": "przeczytali (leer)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[leyeron::czytali] bien el examen?",
-            "pl_translation": "Czy czytali"
-          },
-          {
-            "es_form": "El mes pasado no [leyeron::czytali] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie czytali"
-          },
-          {
-            "es_form": "Ayer [leyeron::czytali] todo el día.",
-            "pl_translation": "Wczoraj czytali"
+            "es_form": "Ellos [leyeron::przeczytali] un libro.",
+            "pl_translation": "Przeczytali książkę."
           }
         ]
       },
       {
         "es_word": "leeré",
-        "pl_word": "będę czytaÄ‡",
+        "pl_word": "będę czytać (leer)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [leeré::będę czytaÄ‡] más temprano.",
-            "pl_translation": "Jutro będę czytaÄ‡ wcześniej."
-          },
-          {
-            "es_form": "Creo que [leeré::będę czytaÄ‡] bien.",
-            "pl_translation": "Myślę, że będę czytaÄ‡ dobrze."
-          },
-          {
-            "es_form": "¿[leeré::będę czytaÄ‡] con nosotros mañana?",
-            "pl_translation": "Czy będę czytaÄ‡ z nami jutro?"
+            "es_form": "Yo [leeré::będę czytać] un libro.",
+            "pl_translation": "Będę czytać książkę."
           }
         ]
       },
       {
         "es_word": "leerás",
-        "pl_word": "będziesz czytaÄ‡",
+        "pl_word": "będziesz czytać (leer)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [leerás::będziesz czytaÄ‡] bien.",
-            "pl_translation": "Myślę, że będziesz czytaÄ‡ dobrze."
-          },
-          {
-            "es_form": "[leerás::będziesz czytaÄ‡] la proxima semana.",
-            "pl_translation": "Będziesz czytaÄ‡ w przyszłym tygodniu."
-          },
-          {
-            "es_form": "¿[leerás::będziesz czytaÄ‡] con nosotros mañana?",
-            "pl_translation": "Czy będziesz czytaÄ‡ z nami jutro?"
+            "es_form": "Tú [leerás::będziesz czytać] un libro.",
+            "pl_translation": "Będziesz czytać książkę."
           }
         ]
       },
       {
         "es_word": "leerá",
-        "pl_word": "będzie czytaÄ‡",
+        "pl_word": "będzie czytać (leer)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [leerá::będzie czytaÄ‡] en España.",
-            "pl_translation": "W przyszłym roku będzie czytaÄ‡ w Hiszpanii."
-          },
-          {
-            "es_form": "Mañana [leerá::będzie czytaÄ‡] más temprano.",
-            "pl_translation": "Jutro będzie czytaÄ‡ wcześniej."
-          },
-          {
-            "es_form": "Creo que [leerá::będzie czytaÄ‡] bien.",
-            "pl_translation": "Myślę, że będzie czytaÄ‡ dobrze."
+            "es_form": "Él [leerá::będzie czytać] un libro.",
+            "pl_translation": "Będzie czytać książkę."
           }
         ]
       },
       {
         "es_word": "leeremos",
-        "pl_word": "będziemy czytaÄ‡",
+        "pl_word": "będziemy czytać (leer)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[leeremos::będziemy czytaÄ‡] con nosotros mañana?",
-            "pl_translation": "Czy będziemy czytaÄ‡ z nami jutro?"
-          },
-          {
-            "es_form": "Te prometo que [leeremos::będziemy czytaÄ‡] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziemy czytaÄ‡ na czas."
-          },
-          {
-            "es_form": "Creo que [leeremos::będziemy czytaÄ‡] bien.",
-            "pl_translation": "Myślę, że będziemy czytaÄ‡ dobrze."
+            "es_form": "Nosotros [leeremos::będziemy czytać] un libro.",
+            "pl_translation": "Będziemy czytać książkę."
           }
         ]
       },
       {
         "es_word": "leeréis",
-        "pl_word": "będziecie czytaÄ‡",
+        "pl_word": "będziecie czytać (leer)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [leeréis::będziecie czytaÄ‡] en España.",
-            "pl_translation": "W przyszłym roku będziecie czytaÄ‡ w Hiszpanii."
-          },
-          {
-            "es_form": "¿[leeréis::będziecie czytaÄ‡] con nosotros mañana?",
-            "pl_translation": "Czy będziecie czytaÄ‡ z nami jutro?"
-          },
-          {
-            "es_form": "Mañana [leeréis::będziecie czytaÄ‡] más temprano.",
-            "pl_translation": "Jutro będziecie czytaÄ‡ wcześniej."
+            "es_form": "Vosotros [leeréis::będziecie czytać] un libro.",
+            "pl_translation": "Będziecie czytać książkę."
           }
         ]
       },
       {
         "es_word": "leerán",
-        "pl_word": "będą czytaÄ‡",
+        "pl_word": "będą czytać (leer)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [leerán::będą czytaÄ‡] más temprano.",
-            "pl_translation": "Jutro będą czytaÄ‡ wcześniej."
-          },
-          {
-            "es_form": "Creo que [leerán::będą czytaÄ‡] bien.",
-            "pl_translation": "Myślę, że będą czytaÄ‡ dobrze."
-          },
-          {
-            "es_form": "[leerán::będą czytaÄ‡] la proxima semana.",
-            "pl_translation": "Będą czytaÄ‡ w przyszłym tygodniu."
+            "es_form": "Ellos [leerán::będą czytać] un libro.",
+            "pl_translation": "Będą czytać książkę."
           }
         ]
       }
