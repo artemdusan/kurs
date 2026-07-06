@@ -164,19 +164,21 @@ export default function Session({ settings, maxLesson, mode = 'normal', onExit, 
         </button>
       </div>
 
-      <div className="prompt">
-        <div className="prompt-word">
-          <span className="pl-word">{w.pl}</span>
-          {w.type === 'verb_form' && w.grammar && (
-            <span className="grammar-tag">{describeGrammar(w.grammar)}</span>
-          )}
-          <span className="level-tag">poz. {task.entry.progress.level}</span>
-        </div>
-        <div className="cloze-row">
-          <Cloze parsed={task.parsed} revealed={phase === 'feedback'} userText={display} />
-          <button className="btn ghost speak-btn" title="Odsłuchaj zdanie" onClick={speakSentence}>
-            🔊
-          </button>
+      <div className="prompt-wrap">
+        <div className="prompt">
+          <div className="prompt-word">
+            <span className="pl-word">{w.pl}</span>
+            {w.type === 'verb_form' && w.grammar && (
+              <span className="grammar-tag">{describeGrammar(w.grammar)}</span>
+            )}
+            <span className="level-tag">poz. {task.entry.progress.level}</span>
+          </div>
+          <div className="cloze-row">
+            <Cloze parsed={task.parsed} revealed={phase === 'feedback'} userText={display} />
+            <button className="btn ghost speak-btn" title="Odsłuchaj zdanie" onClick={speakSentence}>
+              🔊
+            </button>
+          </div>
         </div>
       </div>
 
