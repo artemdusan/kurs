@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "El evento",
+    "pl_word": "wydarzenie",
+    "examples": [
+      {
+        "es_form": "Compré [el evento::wydarzenie] ayer.",
+        "pl_translation": "Kupiłem/am wydarzenie wczoraj."
+      },
+      {
+        "es_form": "[El evento::wydarzenie] está sobre la mesa.",
+        "pl_translation": "wydarzenie jest na stole."
+      },
+      {
+        "es_form": "¿Has visto [el evento::wydarzenie]?",
+        "pl_translation": "Widziałeś/aś wydarzenie?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El situación",
+    "pl_word": "sytuacja",
+    "examples": [
+      {
+        "es_form": "[El situación::sytuacja] es la clave del éxito.",
+        "pl_translation": "sytuacja jest kluczem do sukcesu."
+      },
+      {
+        "es_form": "[El situación::sytuacja] cambió mi vida.",
+        "pl_translation": "sytuacja zmienił/a moje życie."
+      },
+      {
+        "es_form": "No entiendo [el situación::sytuacja].",
+        "pl_translation": "Nie rozumiem sytuacja."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La oportunidad",
+    "pl_word": "szansa, okazja",
+    "examples": [
+      {
+        "es_form": "[La oportunidad::szansa, okazja] es muy importante.",
+        "pl_translation": "szansa, okazja jest bardzo ważny/a."
+      },
+      {
+        "es_form": "[La oportunidad::szansa, okazja] cambió mi vida.",
+        "pl_translation": "szansa, okazja zmienił/a moje życie."
+      },
+      {
+        "es_form": "No entiendo [la oportunidad::szansa, okazja].",
+        "pl_translation": "Nie rozumiem szansa, okazja."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El riesgo",
+    "pl_word": "ryzyko",
+    "examples": [
+      {
+        "es_form": "[El riesgo::ryzyko] es la clave del éxito.",
+        "pl_translation": "ryzyko jest kluczem do sukcesu."
+      },
+      {
+        "es_form": "Hablamos sobre [el riesgo::ryzyko].",
+        "pl_translation": "Rozmawialiśmy o ryzyko."
+      },
+      {
+        "es_form": "Tienes que aceptar [el riesgo::ryzyko].",
+        "pl_translation": "Musisz zaakceptować ryzyko."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La casualidad",
+    "pl_word": "przypadek",
+    "examples": [
+      {
+        "es_form": "Necesito [la casualidad::przypadek] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową przypadek."
+      },
+      {
+        "es_form": "¿Has visto [la casualidad::przypadek]?",
+        "pl_translation": "Widziałeś/aś przypadek?"
+      },
+      {
+        "es_form": "[La casualidad::przypadek] cuesta diez euros.",
+        "pl_translation": "przypadek kosztuje dziesięć euro."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El ocasión",
+    "pl_word": "okazja",
+    "examples": [
+      {
+        "es_form": "Tienes que aceptar [el ocasión::okazja].",
+        "pl_translation": "Musisz zaakceptować okazja."
+      },
+      {
+        "es_form": "[El ocasión::okazja] es la clave del éxito.",
+        "pl_translation": "okazja jest kluczem do sukcesu."
+      },
+      {
+        "es_form": "No entiendo [el ocasión::okazja].",
+        "pl_translation": "Nie rozumiem okazja."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La causa",
+    "pl_word": "przyczyna",
+    "examples": [
+      {
+        "es_form": "Tienes que aceptar [la causa::przyczyna].",
+        "pl_translation": "Musisz zaakceptować przyczyna."
+      },
+      {
+        "es_form": "[La causa::przyczyna] es la clave del éxito.",
+        "pl_translation": "przyczyna jest kluczem do sukcesu."
+      },
+      {
+        "es_form": "[La causa::przyczyna] cambió mi vida.",
+        "pl_translation": "przyczyna zmienił/a moje życie."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La consecuencia",
+    "pl_word": "skutek",
+    "examples": [
+      {
+        "es_form": "Hablamos sobre [la consecuencia::skutek].",
+        "pl_translation": "Rozmawialiśmy o skutek."
+      },
+      {
+        "es_form": "[La consecuencia::skutek] cambió mi vida.",
+        "pl_translation": "skutek zmienił/a moje życie."
+      },
+      {
+        "es_form": "[La consecuencia::skutek] es la clave del éxito.",
+        "pl_translation": "skutek jest kluczem do sukcesu."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El cambio",
+    "pl_word": "zmiana",
+    "examples": [
+      {
+        "es_form": "No entiendo [el cambio::zmiana].",
+        "pl_translation": "Nie rozumiem zmiana."
+      },
+      {
+        "es_form": "Hablamos sobre [el cambio::zmiana].",
+        "pl_translation": "Rozmawialiśmy o zmiana."
+      },
+      {
+        "es_form": "[El cambio::zmiana] es la clave del éxito.",
+        "pl_translation": "zmiana jest kluczem do sukcesu."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El plan",
+    "pl_word": "plan",
+    "examples": [
+      {
+        "es_form": "Tienes que aceptar [el plan::plan].",
+        "pl_translation": "Musisz zaakceptować plan."
+      },
+      {
+        "es_form": "Hablamos sobre [el plan::plan].",
+        "pl_translation": "Rozmawialiśmy o plan."
+      },
+      {
+        "es_form": "No entiendo [el plan::plan].",
+        "pl_translation": "Nie rozumiem plan."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "inesperado",
+    "pl_word": "niespodziewany",
+    "examples": [
+      {
+        "es_form": "Este coche es [inesperado::niespodziewany].",
+        "pl_translation": "Ten samochód jest niespodziewany."
+      },
+      {
+        "es_form": "Tengo una casa [inesperada::niespodziewany].",
+        "pl_translation": "Mam niespodziewany dom."
+      },
+      {
+        "es_form": "El examen fue [inesperado::niespodziewany].",
+        "pl_translation": "Egzamin był niespodziewany."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "planeado",
+    "pl_word": "planowy",
+    "examples": [
+      {
+        "es_form": "La comida está [planeada::planowy].",
+        "pl_translation": "Jedzenie jest planowy."
+      },
+      {
+        "es_form": "Tengo una casa [planeada::planowy].",
+        "pl_translation": "Mam planowy dom."
+      },
+      {
+        "es_form": "Es un lugar [planeado::planowy] para vivir.",
+        "pl_translation": "To jest planowy miejsce do życia."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "ocurrir",
+    "pl_word": "wydarzyć się, zdarzać się",
+    "examples": [
+      {
+        "es_form": "¿Puedes [ocurrir::wydarzyć się, zdarzać się] más rápido?",
+        "pl_translation": "Możesz wydarzyć się, zdarzać się szybciej?"
+      },
+      {
+        "es_form": "Quiero [ocurrir::wydarzyć się, zdarzać się] ahora.",
+        "pl_translation": "Chcę wydarzyć się, zdarzać się teraz."
+      },
+      {
+        "es_form": "Es importante [ocurrir::wydarzyć się, zdarzać się] todos los días.",
+        "pl_translation": "Ważne jest wydarzyć się, zdarzać się codziennie."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "ocurro",
+        "pl_word": "ocurro",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "No [ocurro::ocurro] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie ocurro zbyt dobrze."
+          },
+          {
+            "es_form": "[ocurro::ocurro] todos los días.",
+            "pl_translation": "ocurro codziennie."
+          },
+          {
+            "es_form": "Siempre [ocurro::ocurro] con atención.",
+            "pl_translation": "Zawsze ocurro z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "ocurres",
+        "pl_word": "ocurres",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[ocurres::ocurres] como me enseñaste.",
+            "pl_translation": "ocurres tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "[ocurres::ocurres] todos los días.",
+            "pl_translation": "ocurres codziennie."
+          },
+          {
+            "es_form": "Normalmente [ocurres::ocurres] por la mañana.",
+            "pl_translation": "Zazwyczaj ocurres rano."
+          }
+        ]
+      },
+      {
+        "es_word": "ocurre",
+        "pl_word": "ocurre",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "No [ocurre::ocurre] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie ocurre zbyt dobrze."
+          },
+          {
+            "es_form": "¿[ocurre::ocurre] los fines de semana?",
+            "pl_translation": "Czy ocurre w weekendy?"
+          },
+          {
+            "es_form": "Siempre [ocurre::ocurre] con atención.",
+            "pl_translation": "Zawsze ocurre z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "ocurrimos",
+        "pl_word": "ocurrimos",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[ocurrimos::ocurrimos] todos los días.",
+            "pl_translation": "ocurrimos codziennie."
+          },
+          {
+            "es_form": "Normalmente [ocurrimos::ocurrimos] por la mañana.",
+            "pl_translation": "Zazwyczaj ocurrimos rano."
+          },
+          {
+            "es_form": "Siempre [ocurrimos::ocurrimos] con atención.",
+            "pl_translation": "Zawsze ocurrimos z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "ocurrís",
+        "pl_word": "ocurrís",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[ocurrís::ocurrís] todos los días.",
+            "pl_translation": "ocurrís codziennie."
+          },
+          {
+            "es_form": "¿[ocurrís::ocurrís] los fines de semana?",
+            "pl_translation": "Czy ocurrís w weekendy?"
+          },
+          {
+            "es_form": "Normalmente [ocurrís::ocurrís] por la mañana.",
+            "pl_translation": "Zazwyczaj ocurrís rano."
+          }
+        ]
+      },
+      {
+        "es_word": "ocurren",
+        "pl_word": "ocurren",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [ocurren::ocurren] por la mañana.",
+            "pl_translation": "Zazwyczaj ocurren rano."
+          },
+          {
+            "es_form": "[ocurren::ocurren] como me enseñaste.",
+            "pl_translation": "ocurren tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "¿[ocurren::ocurren] los fines de semana?",
+            "pl_translation": "Czy ocurren w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "ocurrí",
+        "pl_word": "ocurrí",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[ocurrí::ocurrí] bien el examen?",
+            "pl_translation": "Czy ocurrí dobrze egzamin?"
+          },
+          {
+            "es_form": "Nunca [ocurrí::ocurrí] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie ocurrí czegoś takiego."
+          },
+          {
+            "es_form": "Ayer [ocurrí::ocurrí] todo el día.",
+            "pl_translation": "Wczoraj ocurrí cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "ocurriste",
+        "pl_word": "ocurriste",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[ocurriste::ocurriste] la semana pasada.",
+            "pl_translation": "ocurriste w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Nunca [ocurriste::ocurriste] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie ocurriste czegoś takiego."
+          },
+          {
+            "es_form": "El mes pasado no [ocurriste::ocurriste] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie ocurriste."
+          }
+        ]
+      },
+      {
+        "es_word": "ocurrió",
+        "pl_word": "ocurrió",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [ocurrió::ocurrió] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie ocurrió."
+          },
+          {
+            "es_form": "Nunca [ocurrió::ocurrió] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie ocurrió czegoś takiego."
+          },
+          {
+            "es_form": "¿[ocurrió::ocurrió] bien el examen?",
+            "pl_translation": "Czy ocurrió dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "ocurrimos",
+        "pl_word": "ocurrimos",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[ocurrimos::ocurrimos] bien el examen?",
+            "pl_translation": "Czy ocurrimos dobrze egzamin?"
+          },
+          {
+            "es_form": "[ocurrimos::ocurrimos] la semana pasada.",
+            "pl_translation": "ocurrimos w zeszłym tygodniu."
+          },
+          {
+            "es_form": "[ocurrimos::ocurrimos] sin parar durante horas.",
+            "pl_translation": "ocurrimos bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "ocurristeis",
+        "pl_word": "ocurristeis",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[ocurristeis::ocurristeis] la semana pasada.",
+            "pl_translation": "ocurristeis w zeszłym tygodniu."
+          },
+          {
+            "es_form": "El mes pasado no [ocurristeis::ocurristeis] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie ocurristeis."
+          },
+          {
+            "es_form": "Nunca [ocurristeis::ocurristeis] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie ocurristeis czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "ocurrieron",
+        "pl_word": "ocurrieron",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [ocurrieron::ocurrieron] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie ocurrieron czegoś takiego."
+          },
+          {
+            "es_form": "[ocurrieron::ocurrieron] la semana pasada.",
+            "pl_translation": "ocurrieron w zeszłym tygodniu."
+          },
+          {
+            "es_form": "¿[ocurrieron::ocurrieron] bien el examen?",
+            "pl_translation": "Czy ocurrieron dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "ocurré",
+        "pl_word": "ocurré",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[ocurré::ocurré] la próxima semana.",
+            "pl_translation": "ocurré w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Creo que [ocurré::ocurré] bien.",
+            "pl_translation": "Myślę, że ocurré dobrze."
+          },
+          {
+            "es_form": "Mañana [ocurré::ocurré] más temprano.",
+            "pl_translation": "Jutro ocurré wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "ocurrás",
+        "pl_word": "ocurrás",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [ocurrás::ocurrás] en España.",
+            "pl_translation": "W przyszłym roku ocurrás w Hiszpanii."
+          },
+          {
+            "es_form": "[ocurrás::ocurrás] la próxima semana.",
+            "pl_translation": "ocurrás w przyszłym tygodniu."
+          },
+          {
+            "es_form": "¿[ocurrás::ocurrás] con nosotros mañana?",
+            "pl_translation": "Czy ocurrás z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "ocurrá",
+        "pl_word": "ocurrá",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [ocurrá::ocurrá] bien.",
+            "pl_translation": "Myślę, że ocurrá dobrze."
+          },
+          {
+            "es_form": "[ocurrá::ocurrá] la próxima semana.",
+            "pl_translation": "ocurrá w przyszłym tygodniu."
+          },
+          {
+            "es_form": "El año que viene [ocurrá::ocurrá] en España.",
+            "pl_translation": "W przyszłym roku ocurrá w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "ocurremos",
+        "pl_word": "ocurremos",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[ocurremos::ocurremos] con nosotros mañana?",
+            "pl_translation": "Czy ocurremos z nami jutro?"
+          },
+          {
+            "es_form": "Te prometo que [ocurremos::ocurremos] a tiempo.",
+            "pl_translation": "Obiecuję ci, że ocurremos na czas."
+          },
+          {
+            "es_form": "Creo que [ocurremos::ocurremos] bien.",
+            "pl_translation": "Myślę, że ocurremos dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "ocurréis",
+        "pl_word": "ocurréis",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [ocurréis::ocurréis] más temprano.",
+            "pl_translation": "Jutro ocurréis wcześniej."
+          },
+          {
+            "es_form": "Creo que [ocurréis::ocurréis] bien.",
+            "pl_translation": "Myślę, że ocurréis dobrze."
+          },
+          {
+            "es_form": "[ocurréis::ocurréis] la próxima semana.",
+            "pl_translation": "ocurréis w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "ocurrán",
+        "pl_word": "ocurrán",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [ocurrán::ocurrán] en España.",
+            "pl_translation": "W przyszłym roku ocurrán w Hiszpanii."
+          },
+          {
+            "es_form": "Te prometo que [ocurrán::ocurrán] a tiempo.",
+            "pl_translation": "Obiecuję ci, że ocurrán na czas."
+          },
+          {
+            "es_form": "Creo que [ocurrán::ocurrán] bien.",
+            "pl_translation": "Myślę, że ocurrán dobrze."
+          }
+        ]
+      }
+    ]
+  }
+]

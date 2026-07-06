@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "La amistad",
+    "pl_word": "przyjaźń",
+    "examples": [
+      {
+        "es_form": "No entiendo [la amistad::przyjaźń].",
+        "pl_translation": "Nie rozumiem przyjaźń."
+      },
+      {
+        "es_form": "[La amistad::przyjaźń] es muy importante.",
+        "pl_translation": "przyjaźń jest bardzo ważny/a."
+      },
+      {
+        "es_form": "[La amistad::przyjaźń] cambió mi vida.",
+        "pl_translation": "przyjaźń zmienił/a moje życie."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La cita",
+    "pl_word": "randka, spotkanie",
+    "examples": [
+      {
+        "es_form": "[La cita::randka, spotkanie] es una parte importante del cuerpo.",
+        "pl_translation": "randka, spotkanie jest ważną częścią ciała."
+      },
+      {
+        "es_form": "El médico me revisó [la cita::randka, spotkanie].",
+        "pl_translation": "Lekarz zbadał mi randka, spotkanie."
+      },
+      {
+        "es_form": "Tienes [la cita::randka, spotkanie] muy fuerte.",
+        "pl_translation": "Masz bardzo silny/a randka, spotkanie."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El discusión",
+    "pl_word": "kłótnia, dyskusja",
+    "examples": [
+      {
+        "es_form": "Se me rompió [el discusión::kłótnia, dyskusja].",
+        "pl_translation": "Zepsuł mi się kłótnia, dyskusja."
+      },
+      {
+        "es_form": "Compré [el discusión::kłótnia, dyskusja] ayer.",
+        "pl_translation": "Kupiłem/am kłótnia, dyskusja wczoraj."
+      },
+      {
+        "es_form": "Guarda [el discusión::kłótnia, dyskusja] en el armario.",
+        "pl_translation": "Schowaj kłótnia, dyskusja do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El acuerdo",
+    "pl_word": "zgoda, porozumienie",
+    "examples": [
+      {
+        "es_form": "Compré [el acuerdo::zgoda, porozumienie] ayer.",
+        "pl_translation": "Kupiłem/am zgoda, porozumienie wczoraj."
+      },
+      {
+        "es_form": "[El acuerdo::zgoda, porozumienie] está sobre la mesa.",
+        "pl_translation": "zgoda, porozumienie jest na stole."
+      },
+      {
+        "es_form": "Guarda [el acuerdo::zgoda, porozumienie] en el armario.",
+        "pl_translation": "Schowaj zgoda, porozumienie do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La promesa",
+    "pl_word": "obietnica",
+    "examples": [
+      {
+        "es_form": "Necesito [la promesa::obietnica] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową obietnica."
+      },
+      {
+        "es_form": "¿Has visto [la promesa::obietnica]?",
+        "pl_translation": "Widziałeś/aś obietnica?"
+      },
+      {
+        "es_form": "[La promesa::obietnica] está sobre la mesa.",
+        "pl_translation": "obietnica jest na stole."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La confianza",
+    "pl_word": "zaufanie",
+    "examples": [
+      {
+        "es_form": "Hablamos sobre [la confianza::zaufanie].",
+        "pl_translation": "Rozmawialiśmy o zaufanie."
+      },
+      {
+        "es_form": "[La confianza::zaufanie] cambió mi vida.",
+        "pl_translation": "zaufanie zmienił/a moje życie."
+      },
+      {
+        "es_form": "[La confianza::zaufanie] es muy importante.",
+        "pl_translation": "zaufanie jest bardzo ważny/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El abrazo",
+    "pl_word": "uścisk, przytulenie",
+    "examples": [
+      {
+        "es_form": "Compré [el abrazo::uścisk, przytulenie] ayer.",
+        "pl_translation": "Kupiłem/am uścisk, przytulenie wczoraj."
+      },
+      {
+        "es_form": "¿Has visto [el abrazo::uścisk, przytulenie]?",
+        "pl_translation": "Widziałeś/aś uścisk, przytulenie?"
+      },
+      {
+        "es_form": "[El abrazo::uścisk, przytulenie] cuesta diez euros.",
+        "pl_translation": "uścisk, przytulenie kosztuje dziesięć euro."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El beso",
+    "pl_word": "pocałunek",
+    "examples": [
+      {
+        "es_form": "Se me rompió [el beso::pocałunek].",
+        "pl_translation": "Zepsuł mi się pocałunek."
+      },
+      {
+        "es_form": "[El beso::pocałunek] es de madera.",
+        "pl_translation": "pocałunek jest z drewna."
+      },
+      {
+        "es_form": "[El beso::pocałunek] está sobre la mesa.",
+        "pl_translation": "pocałunek jest na stole."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La despedida",
+    "pl_word": "pożegnanie",
+    "examples": [
+      {
+        "es_form": "Necesito [la despedida::pożegnanie] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową pożegnanie."
+      },
+      {
+        "es_form": "[La despedida::pożegnanie] cuesta diez euros.",
+        "pl_translation": "pożegnanie kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "[La despedida::pożegnanie] es de madera.",
+        "pl_translation": "pożegnanie jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El saludo",
+    "pl_word": "powitanie",
+    "examples": [
+      {
+        "es_form": "Compré [el saludo::powitanie] ayer.",
+        "pl_translation": "Kupiłem/am powitanie wczoraj."
+      },
+      {
+        "es_form": "[El saludo::powitanie] cuesta diez euros.",
+        "pl_translation": "powitanie kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "[El saludo::powitanie] está sobre la mesa.",
+        "pl_translation": "powitanie jest na stole."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "cercano",
+    "pl_word": "bliski",
+    "examples": [
+      {
+        "es_form": "Mi amigo es [cercano::bliski] y simpático.",
+        "pl_translation": "Mój przyjaciel jest bliski i sympatyczny."
+      },
+      {
+        "es_form": "Nada es más [cercano::bliski] que la familia.",
+        "pl_translation": "Nic nie jest bliski od rodziny."
+      },
+      {
+        "es_form": "Este coche es [cercano::bliski].",
+        "pl_translation": "Ten samochód jest bliski."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "sincero",
+    "pl_word": "szczery",
+    "examples": [
+      {
+        "es_form": "Se compró un vestido [sincero::szczery].",
+        "pl_translation": "Kupiła sobie szczery sukienkę."
+      },
+      {
+        "es_form": "Mi amigo es [sincero::szczery] y simpático.",
+        "pl_translation": "Mój przyjaciel jest szczery i sympatyczny."
+      },
+      {
+        "es_form": "Nada es más [sincero::szczery] que la familia.",
+        "pl_translation": "Nic nie jest szczery od rodziny."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "encontrarse",
+    "pl_word": "spotykać się",
+    "examples": [
+      {
+        "es_form": "Hay que [encontrarse::spotykać się] con cuidado.",
+        "pl_translation": "Trzeba spotykać się ostrożnie."
+      },
+      {
+        "es_form": "Me gusta [encontrarse::spotykać się] por la mañana.",
+        "pl_translation": "Lubię spotykać się rano."
+      },
+      {
+        "es_form": "No puedo [encontrarse::spotykać się] sin tu ayuda.",
+        "pl_translation": "Nie mogę spotykać się bez twojej pomocy."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "me encontro",
+        "pl_word": "me encontro",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[me encontro::me encontro] todos los días.",
+            "pl_translation": "me encontro codziennie."
+          },
+          {
+            "es_form": "[me encontro::me encontro] como me enseñaste.",
+            "pl_translation": "me encontro tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [me encontro::me encontro] por la mañana.",
+            "pl_translation": "Zazwyczaj me encontro rano."
+          }
+        ]
+      },
+      {
+        "es_word": "te encontras",
+        "pl_word": "te encontras",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[te encontras::te encontras] como me enseñaste.",
+            "pl_translation": "te encontras tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "¿[te encontras::te encontras] los fines de semana?",
+            "pl_translation": "Czy te encontras w weekendy?"
+          },
+          {
+            "es_form": "Normalmente [te encontras::te encontras] por la mañana.",
+            "pl_translation": "Zazwyczaj te encontras rano."
+          }
+        ]
+      },
+      {
+        "es_word": "se encontra",
+        "pl_word": "se encontra",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [se encontra::se encontra] con atención.",
+            "pl_translation": "Zawsze se encontra z uwagą."
+          },
+          {
+            "es_form": "No [se encontra::se encontra] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie se encontra zbyt dobrze."
+          },
+          {
+            "es_form": "[se encontra::se encontra] como me enseñaste.",
+            "pl_translation": "se encontra tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "nos encontramos",
+        "pl_word": "nos encontramos",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [nos encontramos::nos encontramos] con atención.",
+            "pl_translation": "Zawsze nos encontramos z uwagą."
+          },
+          {
+            "es_form": "[nos encontramos::nos encontramos] todos los días.",
+            "pl_translation": "nos encontramos codziennie."
+          },
+          {
+            "es_form": "Normalmente [nos encontramos::nos encontramos] por la mañana.",
+            "pl_translation": "Zazwyczaj nos encontramos rano."
+          }
+        ]
+      },
+      {
+        "es_word": "os encontráis",
+        "pl_word": "os encontráis",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[os encontráis::os encontráis] como me enseñaste.",
+            "pl_translation": "os encontráis tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "[os encontráis::os encontráis] todos los días.",
+            "pl_translation": "os encontráis codziennie."
+          },
+          {
+            "es_form": "Normalmente [os encontráis::os encontráis] por la mañana.",
+            "pl_translation": "Zazwyczaj os encontráis rano."
+          }
+        ]
+      },
+      {
+        "es_word": "se encontran",
+        "pl_word": "se encontran",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[se encontran::se encontran] todos los días.",
+            "pl_translation": "se encontran codziennie."
+          },
+          {
+            "es_form": "[se encontran::se encontran] como me enseñaste.",
+            "pl_translation": "se encontran tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "No [se encontran::se encontran] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie se encontran zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "me encontré",
+        "pl_word": "me encontré",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [me encontré::me encontré] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie me encontré."
+          },
+          {
+            "es_form": "Ayer [me encontré::me encontré] todo el día.",
+            "pl_translation": "Wczoraj me encontré cały dzień."
+          },
+          {
+            "es_form": "[me encontré::me encontré] la semana pasada.",
+            "pl_translation": "me encontré w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "te encontraste",
+        "pl_word": "te encontraste",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [te encontraste::te encontraste] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie te encontraste."
+          },
+          {
+            "es_form": "[te encontraste::te encontraste] sin parar durante horas.",
+            "pl_translation": "te encontraste bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Ayer [te encontraste::te encontraste] todo el día.",
+            "pl_translation": "Wczoraj te encontraste cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "se encontró",
+        "pl_word": "se encontró",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[se encontró::se encontró] bien el examen?",
+            "pl_translation": "Czy se encontró dobrze egzamin?"
+          },
+          {
+            "es_form": "[se encontró::se encontró] la semana pasada.",
+            "pl_translation": "se encontró w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Ayer [se encontró::se encontró] todo el día.",
+            "pl_translation": "Wczoraj se encontró cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "nos encontramos",
+        "pl_word": "nos encontramos",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [nos encontramos::nos encontramos] todo el día.",
+            "pl_translation": "Wczoraj nos encontramos cały dzień."
+          },
+          {
+            "es_form": "[nos encontramos::nos encontramos] sin parar durante horas.",
+            "pl_translation": "nos encontramos bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [nos encontramos::nos encontramos] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie nos encontramos czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "os encontrasteis",
+        "pl_word": "os encontrasteis",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[os encontrasteis::os encontrasteis] bien el examen?",
+            "pl_translation": "Czy os encontrasteis dobrze egzamin?"
+          },
+          {
+            "es_form": "Nunca [os encontrasteis::os encontrasteis] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie os encontrasteis czegoś takiego."
+          },
+          {
+            "es_form": "[os encontrasteis::os encontrasteis] sin parar durante horas.",
+            "pl_translation": "os encontrasteis bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "se encontraron",
+        "pl_word": "se encontraron",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[se encontraron::se encontraron] la semana pasada.",
+            "pl_translation": "se encontraron w zeszłym tygodniu."
+          },
+          {
+            "es_form": "El mes pasado no [se encontraron::se encontraron] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie se encontraron."
+          },
+          {
+            "es_form": "Ayer [se encontraron::se encontraron] todo el día.",
+            "pl_translation": "Wczoraj se encontraron cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "me encontré",
+        "pl_word": "me encontré",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[me encontré::me encontré] la próxima semana.",
+            "pl_translation": "me encontré w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Creo que [me encontré::me encontré] bien.",
+            "pl_translation": "Myślę, że me encontré dobrze."
+          },
+          {
+            "es_form": "Mañana [me encontré::me encontré] más temprano.",
+            "pl_translation": "Jutro me encontré wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "te encontrás",
+        "pl_word": "te encontrás",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [te encontrás::te encontrás] a tiempo.",
+            "pl_translation": "Obiecuję ci, że te encontrás na czas."
+          },
+          {
+            "es_form": "¿[te encontrás::te encontrás] con nosotros mañana?",
+            "pl_translation": "Czy te encontrás z nami jutro?"
+          },
+          {
+            "es_form": "El año que viene [te encontrás::te encontrás] en España.",
+            "pl_translation": "W przyszłym roku te encontrás w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "se encontrá",
+        "pl_word": "se encontrá",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [se encontrá::se encontrá] a tiempo.",
+            "pl_translation": "Obiecuję ci, że se encontrá na czas."
+          },
+          {
+            "es_form": "Mañana [se encontrá::se encontrá] más temprano.",
+            "pl_translation": "Jutro se encontrá wcześniej."
+          },
+          {
+            "es_form": "El año que viene [se encontrá::se encontrá] en España.",
+            "pl_translation": "W przyszłym roku se encontrá w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "nos encontremos",
+        "pl_word": "nos encontremos",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [nos encontremos::nos encontremos] a tiempo.",
+            "pl_translation": "Obiecuję ci, że nos encontremos na czas."
+          },
+          {
+            "es_form": "[nos encontremos::nos encontremos] la próxima semana.",
+            "pl_translation": "nos encontremos w przyszłym tygodniu."
+          },
+          {
+            "es_form": "¿[nos encontremos::nos encontremos] con nosotros mañana?",
+            "pl_translation": "Czy nos encontremos z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "os encontréis",
+        "pl_word": "os encontréis",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [os encontréis::os encontréis] más temprano.",
+            "pl_translation": "Jutro os encontréis wcześniej."
+          },
+          {
+            "es_form": "[os encontréis::os encontréis] la próxima semana.",
+            "pl_translation": "os encontréis w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Creo que [os encontréis::os encontréis] bien.",
+            "pl_translation": "Myślę, że os encontréis dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "se encontrán",
+        "pl_word": "se encontrán",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[se encontrán::se encontrán] la próxima semana.",
+            "pl_translation": "se encontrán w przyszłym tygodniu."
+          },
+          {
+            "es_form": "El año que viene [se encontrán::se encontrán] en España.",
+            "pl_translation": "W przyszłym roku se encontrán w Hiszpanii."
+          },
+          {
+            "es_form": "¿[se encontrán::se encontrán] con nosotros mañana?",
+            "pl_translation": "Czy se encontrán z nami jutro?"
+          }
+        ]
+      }
+    ]
+  }
+]

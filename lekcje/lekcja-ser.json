@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "La persona",
+    "pl_word": "osoba",
+    "examples": [
+      {
+        "es_form": "[La persona::osoba] trabaja aquí.",
+        "pl_translation": "osoba tu pracuje."
+      },
+      {
+        "es_form": "[La persona::osoba] es muy amable.",
+        "pl_translation": "osoba jest bardzo miły/a."
+      },
+      {
+        "es_form": "Hablé con [la persona::osoba] ayer.",
+        "pl_translation": "Rozmawiałem/am wczoraj z osoba."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El hombre",
+    "pl_word": "mężczyzna",
+    "examples": [
+      {
+        "es_form": "[El hombre::mężczyzna] me ayudó mucho.",
+        "pl_translation": "mężczyzna bardzo mi pomógł/pomogła."
+      },
+      {
+        "es_form": "Conozco a [el hombre::mężczyzna].",
+        "pl_translation": "Znam mężczyzna."
+      },
+      {
+        "es_form": "[El hombre::mężczyzna] trabaja aquí.",
+        "pl_translation": "mężczyzna tu pracuje."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El mujer",
+    "pl_word": "kobieta",
+    "examples": [
+      {
+        "es_form": "[El mujer::kobieta] trabaja aquí.",
+        "pl_translation": "kobieta tu pracuje."
+      },
+      {
+        "es_form": "Esta es [el mujer::kobieta] de la que hablé.",
+        "pl_translation": "To jest kobieta, o której mówiłem/am."
+      },
+      {
+        "es_form": "[El mujer::kobieta] es muy amable.",
+        "pl_translation": "kobieta jest bardzo miły/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El niño",
+    "pl_word": "chłopiec, dziecko",
+    "examples": [
+      {
+        "es_form": "[El niño::chłopiec, dziecko] es muy amable.",
+        "pl_translation": "chłopiec, dziecko jest bardzo miły/a."
+      },
+      {
+        "es_form": "[El niño::chłopiec, dziecko] trabaja aquí.",
+        "pl_translation": "chłopiec, dziecko tu pracuje."
+      },
+      {
+        "es_form": "[El niño::chłopiec, dziecko] me ayudó mucho.",
+        "pl_translation": "chłopiec, dziecko bardzo mi pomógł/pomogła."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La niña",
+    "pl_word": "dziewczynka",
+    "examples": [
+      {
+        "es_form": "[La niña::dziewczynka] me ayudó mucho.",
+        "pl_translation": "dziewczynka bardzo mi pomógł/pomogła."
+      },
+      {
+        "es_form": "[La niña::dziewczynka] es muy amable.",
+        "pl_translation": "dziewczynka jest bardzo miły/a."
+      },
+      {
+        "es_form": "Esta es [la niña::dziewczynka] de la que hablé.",
+        "pl_translation": "To jest dziewczynka, o której mówiłem/am."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El nombre",
+    "pl_word": "imię",
+    "examples": [
+      {
+        "es_form": "[El nombre::imię] cuesta diez euros.",
+        "pl_translation": "imię kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Compré [el nombre::imię] ayer.",
+        "pl_translation": "Kupiłem/am imię wczoraj."
+      },
+      {
+        "es_form": "Se me rompió [el nombre::imię].",
+        "pl_translation": "Zepsuł mi się imię."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El apellido",
+    "pl_word": "nazwisko",
+    "examples": [
+      {
+        "es_form": "[El apellido::nazwisko] está sobre la mesa.",
+        "pl_translation": "nazwisko jest na stole."
+      },
+      {
+        "es_form": "¿Has visto [el apellido::nazwisko]?",
+        "pl_translation": "Widziałeś/aś nazwisko?"
+      },
+      {
+        "es_form": "[El apellido::nazwisko] es de madera.",
+        "pl_translation": "nazwisko jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La familia",
+    "pl_word": "rodzina",
+    "examples": [
+      {
+        "es_form": "Guarda [la familia::rodzina] en el armario.",
+        "pl_translation": "Schowaj rodzina do szafy."
+      },
+      {
+        "es_form": "Se me rompió [la familia::rodzina].",
+        "pl_translation": "Zepsuł mi się rodzina."
+      },
+      {
+        "es_form": "¿Has visto [la familia::rodzina]?",
+        "pl_translation": "Widziałeś/aś rodzina?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El amigo",
+    "pl_word": "przyjaciel",
+    "examples": [
+      {
+        "es_form": "[El amigo::przyjaciel] me ayudó mucho.",
+        "pl_translation": "przyjaciel bardzo mi pomógł/pomogła."
+      },
+      {
+        "es_form": "[El amigo::przyjaciel] vive en mi calle.",
+        "pl_translation": "przyjaciel mieszka na mojej ulicy."
+      },
+      {
+        "es_form": "[El amigo::przyjaciel] trabaja aquí.",
+        "pl_translation": "przyjaciel tu pracuje."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La amiga",
+    "pl_word": "przyjaciółka",
+    "examples": [
+      {
+        "es_form": "[La amiga::przyjaciółka] trabaja aquí.",
+        "pl_translation": "przyjaciółka tu pracuje."
+      },
+      {
+        "es_form": "Esta es [la amiga::przyjaciółka] de la que hablé.",
+        "pl_translation": "To jest przyjaciółka, o której mówiłem/am."
+      },
+      {
+        "es_form": "[La amiga::przyjaciółka] vive en mi calle.",
+        "pl_translation": "przyjaciółka mieszka na mojej ulicy."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "bueno",
+    "pl_word": "dobry",
+    "examples": [
+      {
+        "es_form": "El examen fue [bueno::dobry].",
+        "pl_translation": "Egzamin był dobry."
+      },
+      {
+        "es_form": "Es un lugar [bueno::dobry] para vivir.",
+        "pl_translation": "To jest dobry miejsce do życia."
+      },
+      {
+        "es_form": "Hace un día [bueno::dobry].",
+        "pl_translation": "Jest dobry dzień."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "nuevo",
+    "pl_word": "nowy",
+    "examples": [
+      {
+        "es_form": "Es una persona muy [nuevo::nowy].",
+        "pl_translation": "To jest bardzo nowy osoba."
+      },
+      {
+        "es_form": "Nada es más [nuevo::nowy] que la familia.",
+        "pl_translation": "Nic nie jest nowy od rodziny."
+      },
+      {
+        "es_form": "Se compró un vestido [nuevo::nowy].",
+        "pl_translation": "Kupiła sobie nowy sukienkę."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "ser",
+    "pl_word": "być (cechy stałe, tożsamość)",
+    "examples": [
+      {
+        "es_form": "Es importante [ser::być (cechy stałe, tożsamość)] todos los días.",
+        "pl_translation": "Ważne jest być (cechy stałe, tożsamość) codziennie."
+      },
+      {
+        "es_form": "Hay que [ser::być (cechy stałe, tożsamość)] con cuidado.",
+        "pl_translation": "Trzeba być (cechy stałe, tożsamość) ostrożnie."
+      },
+      {
+        "es_form": "Me gusta [ser::być (cechy stałe, tożsamość)] por la mañana.",
+        "pl_translation": "Lubię być (cechy stałe, tożsamość) rano."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "soy",
+        "pl_word": "soy (ser)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[soy::soy (ser)] como me enseñaste.",
+            "pl_translation": "soy (ser) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "¿[soy::soy (ser)] los fines de semana?",
+            "pl_translation": "Czy soy (ser) w weekendy?"
+          },
+          {
+            "es_form": "Siempre [soy::soy (ser)] con atención.",
+            "pl_translation": "Zawsze soy (ser) z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "eres",
+        "pl_word": "eres (ser)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[eres::eres (ser)] los fines de semana?",
+            "pl_translation": "Czy eres (ser) w weekendy?"
+          },
+          {
+            "es_form": "[eres::eres (ser)] todos los días.",
+            "pl_translation": "eres (ser) codziennie."
+          },
+          {
+            "es_form": "[eres::eres (ser)] como me enseñaste.",
+            "pl_translation": "eres (ser) tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "es",
+        "pl_word": "es (ser)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [es::es (ser)] por la mañana.",
+            "pl_translation": "Zazwyczaj es (ser) rano."
+          },
+          {
+            "es_form": "[es::es (ser)] como me enseñaste.",
+            "pl_translation": "es (ser) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "[es::es (ser)] todos los días.",
+            "pl_translation": "es (ser) codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "somos",
+        "pl_word": "somos (ser)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [somos::somos (ser)] con atención.",
+            "pl_translation": "Zawsze somos (ser) z uwagą."
+          },
+          {
+            "es_form": "Normalmente [somos::somos (ser)] por la mañana.",
+            "pl_translation": "Zazwyczaj somos (ser) rano."
+          },
+          {
+            "es_form": "[somos::somos (ser)] todos los días.",
+            "pl_translation": "somos (ser) codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "sois",
+        "pl_word": "sois (ser)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [sois::sois (ser)] por la mañana.",
+            "pl_translation": "Zazwyczaj sois (ser) rano."
+          },
+          {
+            "es_form": "No [sois::sois (ser)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie sois (ser) zbyt dobrze."
+          },
+          {
+            "es_form": "Siempre [sois::sois (ser)] con atención.",
+            "pl_translation": "Zawsze sois (ser) z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "son",
+        "pl_word": "son (ser)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "No [son::son (ser)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie son (ser) zbyt dobrze."
+          },
+          {
+            "es_form": "[son::son (ser)] como me enseñaste.",
+            "pl_translation": "son (ser) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Siempre [son::son (ser)] con atención.",
+            "pl_translation": "Zawsze son (ser) z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "fui",
+        "pl_word": "fui (ser)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[fui::fui (ser)] la semana pasada.",
+            "pl_translation": "fui (ser) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "El mes pasado no [fui::fui (ser)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie fui (ser)."
+          },
+          {
+            "es_form": "Nunca [fui::fui (ser)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie fui (ser) czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "fuiste",
+        "pl_word": "fuiste (ser)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [fuiste::fuiste (ser)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie fuiste (ser)."
+          },
+          {
+            "es_form": "Nunca [fuiste::fuiste (ser)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie fuiste (ser) czegoś takiego."
+          },
+          {
+            "es_form": "Ayer [fuiste::fuiste (ser)] todo el día.",
+            "pl_translation": "Wczoraj fuiste (ser) cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "fue",
+        "pl_word": "fue (ser)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[fue::fue (ser)] sin parar durante horas.",
+            "pl_translation": "fue (ser) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [fue::fue (ser)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie fue (ser) czegoś takiego."
+          },
+          {
+            "es_form": "[fue::fue (ser)] la semana pasada.",
+            "pl_translation": "fue (ser) w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "fuimos",
+        "pl_word": "fuimos (ser)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[fuimos::fuimos (ser)] sin parar durante horas.",
+            "pl_translation": "fuimos (ser) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [fuimos::fuimos (ser)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie fuimos (ser) czegoś takiego."
+          },
+          {
+            "es_form": "[fuimos::fuimos (ser)] la semana pasada.",
+            "pl_translation": "fuimos (ser) w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "fuisteis",
+        "pl_word": "fuisteis (ser)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[fuisteis::fuisteis (ser)] la semana pasada.",
+            "pl_translation": "fuisteis (ser) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "¿[fuisteis::fuisteis (ser)] bien el examen?",
+            "pl_translation": "Czy fuisteis (ser) dobrze egzamin?"
+          },
+          {
+            "es_form": "El mes pasado no [fuisteis::fuisteis (ser)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie fuisteis (ser)."
+          }
+        ]
+      },
+      {
+        "es_word": "fueron",
+        "pl_word": "fueron (ser)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [fueron::fueron (ser)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie fueron (ser) czegoś takiego."
+          },
+          {
+            "es_form": "[fueron::fueron (ser)] sin parar durante horas.",
+            "pl_translation": "fueron (ser) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "[fueron::fueron (ser)] la semana pasada.",
+            "pl_translation": "fueron (ser) w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "seré",
+        "pl_word": "seré (ser)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [seré::seré (ser)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że seré (ser) na czas."
+          },
+          {
+            "es_form": "El año que viene [seré::seré (ser)] en España.",
+            "pl_translation": "W przyszłym roku seré (ser) w Hiszpanii."
+          },
+          {
+            "es_form": "Mañana [seré::seré (ser)] más temprano.",
+            "pl_translation": "Jutro seré (ser) wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "serás",
+        "pl_word": "serás (ser)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[serás::serás (ser)] la próxima semana.",
+            "pl_translation": "serás (ser) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Mañana [serás::serás (ser)] más temprano.",
+            "pl_translation": "Jutro serás (ser) wcześniej."
+          },
+          {
+            "es_form": "El año que viene [serás::serás (ser)] en España.",
+            "pl_translation": "W przyszłym roku serás (ser) w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "será",
+        "pl_word": "será (ser)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [será::será (ser)] bien.",
+            "pl_translation": "Myślę, że será (ser) dobrze."
+          },
+          {
+            "es_form": "El año que viene [será::será (ser)] en España.",
+            "pl_translation": "W przyszłym roku será (ser) w Hiszpanii."
+          },
+          {
+            "es_form": "Mañana [será::será (ser)] más temprano.",
+            "pl_translation": "Jutro será (ser) wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "seremos",
+        "pl_word": "seremos (ser)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[seremos::seremos (ser)] la próxima semana.",
+            "pl_translation": "seremos (ser) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "¿[seremos::seremos (ser)] con nosotros mañana?",
+            "pl_translation": "Czy seremos (ser) z nami jutro?"
+          },
+          {
+            "es_form": "Te prometo que [seremos::seremos (ser)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że seremos (ser) na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "seréis",
+        "pl_word": "seréis (ser)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [seréis::seréis (ser)] en España.",
+            "pl_translation": "W przyszłym roku seréis (ser) w Hiszpanii."
+          },
+          {
+            "es_form": "[seréis::seréis (ser)] la próxima semana.",
+            "pl_translation": "seréis (ser) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Te prometo que [seréis::seréis (ser)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że seréis (ser) na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "serán",
+        "pl_word": "serán (ser)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [serán::serán (ser)] bien.",
+            "pl_translation": "Myślę, że serán (ser) dobrze."
+          },
+          {
+            "es_form": "Te prometo que [serán::serán (ser)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że serán (ser) na czas."
+          },
+          {
+            "es_form": "[serán::serán (ser)] la próxima semana.",
+            "pl_translation": "serán (ser) w przyszłym tygodniu."
+          }
+        ]
+      }
+    ]
+  }
+]

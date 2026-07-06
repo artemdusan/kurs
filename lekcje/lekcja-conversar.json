@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "El diálogo",
+    "pl_word": "dialog, rozmowa",
+    "examples": [
+      {
+        "es_form": "Se me rompió [el diálogo::dialog, rozmowa].",
+        "pl_translation": "Zepsuł mi się dialog, rozmowa."
+      },
+      {
+        "es_form": "Necesito [el diálogo::dialog, rozmowa] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową dialog, rozmowa."
+      },
+      {
+        "es_form": "[El diálogo::dialog, rozmowa] es de madera.",
+        "pl_translation": "dialog, rozmowa jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El discusión",
+    "pl_word": "dyskusja",
+    "examples": [
+      {
+        "es_form": "Guarda [el discusión::dyskusja] en el armario.",
+        "pl_translation": "Schowaj dyskusja do szafy."
+      },
+      {
+        "es_form": "Necesito [el discusión::dyskusja] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową dyskusja."
+      },
+      {
+        "es_form": "[El discusión::dyskusja] es de madera.",
+        "pl_translation": "dyskusja jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El conflicto",
+    "pl_word": "konflikt",
+    "examples": [
+      {
+        "es_form": "¿Has visto [el conflicto::konflikt]?",
+        "pl_translation": "Widziałeś/aś konflikt?"
+      },
+      {
+        "es_form": "[El conflicto::konflikt] cuesta diez euros.",
+        "pl_translation": "konflikt kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Necesito [el conflicto::konflikt] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową konflikt."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El compromiso",
+    "pl_word": "kompromis",
+    "examples": [
+      {
+        "es_form": "Necesito [el compromiso::kompromis] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową kompromis."
+      },
+      {
+        "es_form": "Se me rompió [el compromiso::kompromis].",
+        "pl_translation": "Zepsuł mi się kompromis."
+      },
+      {
+        "es_form": "Compré [el compromiso::kompromis] ayer.",
+        "pl_translation": "Kupiłem/am kompromis wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La disculpa",
+    "pl_word": "przeprosiny",
+    "examples": [
+      {
+        "es_form": "Necesito [la disculpa::przeprosiny] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową przeprosiny."
+      },
+      {
+        "es_form": "[La disculpa::przeprosiny] cuesta diez euros.",
+        "pl_translation": "przeprosiny kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Guarda [la disculpa::przeprosiny] en el armario.",
+        "pl_translation": "Schowaj przeprosiny do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La promesa",
+    "pl_word": "obietnica",
+    "examples": [
+      {
+        "es_form": "Guarda [la promesa::obietnica] en el armario.",
+        "pl_translation": "Schowaj obietnica do szafy."
+      },
+      {
+        "es_form": "[La promesa::obietnica] es de madera.",
+        "pl_translation": "obietnica jest z drewna."
+      },
+      {
+        "es_form": "[La promesa::obietnica] cuesta diez euros.",
+        "pl_translation": "obietnica kosztuje dziesięć euro."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El consejo",
+    "pl_word": "rada (porada)",
+    "examples": [
+      {
+        "es_form": "Llegó [el consejo::rada (porada)] de la boda.",
+        "pl_translation": "Nadszedł rada (porada) ślubu."
+      },
+      {
+        "es_form": "No tengo [el consejo::rada (porada)] suficiente.",
+        "pl_translation": "Nie mam wystarczająco rada (porada)."
+      },
+      {
+        "es_form": "[El consejo::rada (porada)] pasa muy rápido.",
+        "pl_translation": "rada (porada) mija bardzo szybko."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El rumor",
+    "pl_word": "plotka",
+    "examples": [
+      {
+        "es_form": "¿Has visto [el rumor::plotka]?",
+        "pl_translation": "Widziałeś/aś plotka?"
+      },
+      {
+        "es_form": "[El rumor::plotka] cuesta diez euros.",
+        "pl_translation": "plotka kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Se me rompió [el rumor::plotka].",
+        "pl_translation": "Zepsuł mi się plotka."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El cumplido",
+    "pl_word": "komplement",
+    "examples": [
+      {
+        "es_form": "Compré [el cumplido::komplement] ayer.",
+        "pl_translation": "Kupiłem/am komplement wczoraj."
+      },
+      {
+        "es_form": "[El cumplido::komplement] es de madera.",
+        "pl_translation": "komplement jest z drewna."
+      },
+      {
+        "es_form": "Se me rompió [el cumplido::komplement].",
+        "pl_translation": "Zepsuł mi się komplement."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La crítica",
+    "pl_word": "krytyka",
+    "examples": [
+      {
+        "es_form": "[La crítica::krytyka] está sobre la mesa.",
+        "pl_translation": "krytyka jest na stole."
+      },
+      {
+        "es_form": "Compré [la crítica::krytyka] ayer.",
+        "pl_translation": "Kupiłem/am krytyka wczoraj."
+      },
+      {
+        "es_form": "Guarda [la crítica::krytyka] en el armario.",
+        "pl_translation": "Schowaj krytyka do szafy."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "abierto",
+    "pl_word": "otwarty (osoba)",
+    "examples": [
+      {
+        "es_form": "Este coche es [abierto::otwarty (osoba)].",
+        "pl_translation": "Ten samochód jest otwarty (osoba)."
+      },
+      {
+        "es_form": "El examen fue [abierto::otwarty (osoba)].",
+        "pl_translation": "Egzamin był otwarty (osoba)."
+      },
+      {
+        "es_form": "Se compró un vestido [abierto::otwarty (osoba)].",
+        "pl_translation": "Kupiła sobie otwarty (osoba) sukienkę."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "cerrado",
+    "pl_word": "zamknięty (osoba)",
+    "examples": [
+      {
+        "es_form": "Tengo una casa [cerrada::zamknięty (osoba)].",
+        "pl_translation": "Mam zamknięty (osoba) dom."
+      },
+      {
+        "es_form": "Nada es más [cerrado::zamknięty (osoba)] que la familia.",
+        "pl_translation": "Nic nie jest zamknięty (osoba) od rodziny."
+      },
+      {
+        "es_form": "Mi amigo es [cerrado::zamknięty (osoba)] y simpático.",
+        "pl_translation": "Mój przyjaciel jest zamknięty (osoba) i sympatyczny."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "conversar",
+    "pl_word": "rozmawiać, konwersować",
+    "examples": [
+      {
+        "es_form": "Me gusta [conversar::rozmawiać, konwersować] por la mañana.",
+        "pl_translation": "Lubię rozmawiać, konwersować rano."
+      },
+      {
+        "es_form": "Voy a [conversar::rozmawiać, konwersować] mañana.",
+        "pl_translation": "Będę rozmawiać, konwersować jutro."
+      },
+      {
+        "es_form": "No puedo [conversar::rozmawiać, konwersować] sin tu ayuda.",
+        "pl_translation": "Nie mogę rozmawiać, konwersować bez twojej pomocy."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "converso",
+        "pl_word": "converso",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "No [converso::converso] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie converso zbyt dobrze."
+          },
+          {
+            "es_form": "[converso::converso] como me enseñaste.",
+            "pl_translation": "converso tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Siempre [converso::converso] con atención.",
+            "pl_translation": "Zawsze converso z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "conversas",
+        "pl_word": "conversas",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [conversas::conversas] con atención.",
+            "pl_translation": "Zawsze conversas z uwagą."
+          },
+          {
+            "es_form": "Normalmente [conversas::conversas] por la mañana.",
+            "pl_translation": "Zazwyczaj conversas rano."
+          },
+          {
+            "es_form": "[conversas::conversas] como me enseñaste.",
+            "pl_translation": "conversas tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "conversa",
+        "pl_word": "conversa",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[conversa::conversa] los fines de semana?",
+            "pl_translation": "Czy conversa w weekendy?"
+          },
+          {
+            "es_form": "Normalmente [conversa::conversa] por la mañana.",
+            "pl_translation": "Zazwyczaj conversa rano."
+          },
+          {
+            "es_form": "[conversa::conversa] como me enseñaste.",
+            "pl_translation": "conversa tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "conversamos",
+        "pl_word": "conversamos",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[conversamos::conversamos] como me enseñaste.",
+            "pl_translation": "conversamos tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [conversamos::conversamos] por la mañana.",
+            "pl_translation": "Zazwyczaj conversamos rano."
+          },
+          {
+            "es_form": "[conversamos::conversamos] todos los días.",
+            "pl_translation": "conversamos codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "conversáis",
+        "pl_word": "conversáis",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [conversáis::conversáis] con atención.",
+            "pl_translation": "Zawsze conversáis z uwagą."
+          },
+          {
+            "es_form": "¿[conversáis::conversáis] los fines de semana?",
+            "pl_translation": "Czy conversáis w weekendy?"
+          },
+          {
+            "es_form": "No [conversáis::conversáis] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie conversáis zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "conversan",
+        "pl_word": "conversan",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [conversan::conversan] con atención.",
+            "pl_translation": "Zawsze conversan z uwagą."
+          },
+          {
+            "es_form": "[conversan::conversan] como me enseñaste.",
+            "pl_translation": "conversan tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [conversan::conversan] por la mañana.",
+            "pl_translation": "Zazwyczaj conversan rano."
+          }
+        ]
+      },
+      {
+        "es_word": "conversé",
+        "pl_word": "conversé",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[conversé::conversé] sin parar durante horas.",
+            "pl_translation": "conversé bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "[conversé::conversé] la semana pasada.",
+            "pl_translation": "conversé w zeszłym tygodniu."
+          },
+          {
+            "es_form": "¿[conversé::conversé] bien el examen?",
+            "pl_translation": "Czy conversé dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "conversaste",
+        "pl_word": "conversaste",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[conversaste::conversaste] bien el examen?",
+            "pl_translation": "Czy conversaste dobrze egzamin?"
+          },
+          {
+            "es_form": "Ayer [conversaste::conversaste] todo el día.",
+            "pl_translation": "Wczoraj conversaste cały dzień."
+          },
+          {
+            "es_form": "El mes pasado no [conversaste::conversaste] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie conversaste."
+          }
+        ]
+      },
+      {
+        "es_word": "conversó",
+        "pl_word": "conversó",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [conversó::conversó] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie conversó."
+          },
+          {
+            "es_form": "Ayer [conversó::conversó] todo el día.",
+            "pl_translation": "Wczoraj conversó cały dzień."
+          },
+          {
+            "es_form": "[conversó::conversó] la semana pasada.",
+            "pl_translation": "conversó w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "conversamos",
+        "pl_word": "conversamos",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [conversamos::conversamos] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie conversamos."
+          },
+          {
+            "es_form": "[conversamos::conversamos] la semana pasada.",
+            "pl_translation": "conversamos w zeszłym tygodniu."
+          },
+          {
+            "es_form": "¿[conversamos::conversamos] bien el examen?",
+            "pl_translation": "Czy conversamos dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "conversasteis",
+        "pl_word": "conversasteis",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [conversasteis::conversasteis] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie conversasteis czegoś takiego."
+          },
+          {
+            "es_form": "El mes pasado no [conversasteis::conversasteis] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie conversasteis."
+          },
+          {
+            "es_form": "¿[conversasteis::conversasteis] bien el examen?",
+            "pl_translation": "Czy conversasteis dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "conversaron",
+        "pl_word": "conversaron",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [conversaron::conversaron] todo el día.",
+            "pl_translation": "Wczoraj conversaron cały dzień."
+          },
+          {
+            "es_form": "El mes pasado no [conversaron::conversaron] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie conversaron."
+          },
+          {
+            "es_form": "¿[conversaron::conversaron] bien el examen?",
+            "pl_translation": "Czy conversaron dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "conversé",
+        "pl_word": "conversé",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [conversé::conversé] bien.",
+            "pl_translation": "Myślę, że conversé dobrze."
+          },
+          {
+            "es_form": "Te prometo que [conversé::conversé] a tiempo.",
+            "pl_translation": "Obiecuję ci, że conversé na czas."
+          },
+          {
+            "es_form": "El año que viene [conversé::conversé] en España.",
+            "pl_translation": "W przyszłym roku conversé w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "conversás",
+        "pl_word": "conversás",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [conversás::conversás] a tiempo.",
+            "pl_translation": "Obiecuję ci, że conversás na czas."
+          },
+          {
+            "es_form": "Creo que [conversás::conversás] bien.",
+            "pl_translation": "Myślę, że conversás dobrze."
+          },
+          {
+            "es_form": "Mañana [conversás::conversás] más temprano.",
+            "pl_translation": "Jutro conversás wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "conversá",
+        "pl_word": "conversá",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[conversá::conversá] la próxima semana.",
+            "pl_translation": "conversá w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Te prometo que [conversá::conversá] a tiempo.",
+            "pl_translation": "Obiecuję ci, że conversá na czas."
+          },
+          {
+            "es_form": "El año que viene [conversá::conversá] en España.",
+            "pl_translation": "W przyszłym roku conversá w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "conversemos",
+        "pl_word": "conversemos",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[conversemos::conversemos] con nosotros mañana?",
+            "pl_translation": "Czy conversemos z nami jutro?"
+          },
+          {
+            "es_form": "Mañana [conversemos::conversemos] más temprano.",
+            "pl_translation": "Jutro conversemos wcześniej."
+          },
+          {
+            "es_form": "El año que viene [conversemos::conversemos] en España.",
+            "pl_translation": "W przyszłym roku conversemos w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "converséis",
+        "pl_word": "converséis",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [converséis::converséis] bien.",
+            "pl_translation": "Myślę, że converséis dobrze."
+          },
+          {
+            "es_form": "¿[converséis::converséis] con nosotros mañana?",
+            "pl_translation": "Czy converséis z nami jutro?"
+          },
+          {
+            "es_form": "Te prometo que [converséis::converséis] a tiempo.",
+            "pl_translation": "Obiecuję ci, że converséis na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "conversán",
+        "pl_word": "conversán",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[conversán::conversán] con nosotros mañana?",
+            "pl_translation": "Czy conversán z nami jutro?"
+          },
+          {
+            "es_form": "Te prometo que [conversán::conversán] a tiempo.",
+            "pl_translation": "Obiecuję ci, że conversán na czas."
+          },
+          {
+            "es_form": "El año que viene [conversán::conversán] en España.",
+            "pl_translation": "W przyszłym roku conversán w Hiszpanii."
+          }
+        ]
+      }
+    ]
+  }
+]

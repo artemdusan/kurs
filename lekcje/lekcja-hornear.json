@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "La receta",
+    "pl_word": "przepis",
+    "examples": [
+      {
+        "es_form": "[La receta::przepis] es típico de España.",
+        "pl_translation": "przepis jest typowy/a dla Hiszpanii."
+      },
+      {
+        "es_form": "Me gusta mucho [la receta::przepis].",
+        "pl_translation": "Bardzo lubię przepis."
+      },
+      {
+        "es_form": "¿Quieres [la receta::przepis]?",
+        "pl_translation": "Chcesz przepis?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El ingrediente",
+    "pl_word": "składnik",
+    "examples": [
+      {
+        "es_form": "¿Has visto [el ingrediente::składnik]?",
+        "pl_translation": "Widziałeś/aś składnik?"
+      },
+      {
+        "es_form": "Compré [el ingrediente::składnik] ayer.",
+        "pl_translation": "Kupiłem/am składnik wczoraj."
+      },
+      {
+        "es_form": "[El ingrediente::składnik] cuesta diez euros.",
+        "pl_translation": "składnik kosztuje dziesięć euro."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El sabor",
+    "pl_word": "smak",
+    "examples": [
+      {
+        "es_form": "Guarda [el sabor::smak] en el armario.",
+        "pl_translation": "Schowaj smak do szafy."
+      },
+      {
+        "es_form": "Se me rompió [el sabor::smak].",
+        "pl_translation": "Zepsuł mi się smak."
+      },
+      {
+        "es_form": "[El sabor::smak] cuesta diez euros.",
+        "pl_translation": "smak kosztuje dziesięć euro."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El olor",
+    "pl_word": "zapach",
+    "examples": [
+      {
+        "es_form": "Guarda [el olor::zapach] en el armario.",
+        "pl_translation": "Schowaj zapach do szafy."
+      },
+      {
+        "es_form": "¿Has visto [el olor::zapach]?",
+        "pl_translation": "Widziałeś/aś zapach?"
+      },
+      {
+        "es_form": "[El olor::zapach] está sobre la mesa.",
+        "pl_translation": "zapach jest na stole."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La especia",
+    "pl_word": "przyprawa",
+    "examples": [
+      {
+        "es_form": "[La especia::przyprawa] se hace con leche.",
+        "pl_translation": "przyprawa robi się z mleka."
+      },
+      {
+        "es_form": "Compramos [la especia::przyprawa] en el mercado.",
+        "pl_translation": "Kupiliśmy przyprawa na targu."
+      },
+      {
+        "es_form": "[La especia::przyprawa] está muy rico.",
+        "pl_translation": "przyprawa jest bardzo smaczny/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La pimienta",
+    "pl_word": "pieprz",
+    "examples": [
+      {
+        "es_form": "¿Quieres [la pimienta::pieprz]?",
+        "pl_translation": "Chcesz pieprz?"
+      },
+      {
+        "es_form": "Me gusta mucho [la pimienta::pieprz].",
+        "pl_translation": "Bardzo lubię pieprz."
+      },
+      {
+        "es_form": "[La pimienta::pieprz] está muy rico.",
+        "pl_translation": "pieprz jest bardzo smaczny/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El caldo",
+    "pl_word": "bulion, rosół",
+    "examples": [
+      {
+        "es_form": "[El caldo::bulion, rosół] es típico de España.",
+        "pl_translation": "bulion, rosół jest typowy/a dla Hiszpanii."
+      },
+      {
+        "es_form": "Me gusta mucho [el caldo::bulion, rosół].",
+        "pl_translation": "Bardzo lubię bulion, rosół."
+      },
+      {
+        "es_form": "¿Quieres [el caldo::bulion, rosół]?",
+        "pl_translation": "Chcesz bulion, rosół?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La ensalada",
+    "pl_word": "sałatka",
+    "examples": [
+      {
+        "es_form": "Me gusta mucho [la ensalada::sałatka].",
+        "pl_translation": "Bardzo lubię sałatka."
+      },
+      {
+        "es_form": "¿Quieres [la ensalada::sałatka]?",
+        "pl_translation": "Chcesz sałatka?"
+      },
+      {
+        "es_form": "Compramos [la ensalada::sałatka] en el mercado.",
+        "pl_translation": "Kupiliśmy sałatka na targu."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El bocadillo",
+    "pl_word": "kanapka",
+    "examples": [
+      {
+        "es_form": "Me gusta mucho [el bocadillo::kanapka].",
+        "pl_translation": "Bardzo lubię kanapka."
+      },
+      {
+        "es_form": "[El bocadillo::kanapka] se hace con leche.",
+        "pl_translation": "kanapka robi się z mleka."
+      },
+      {
+        "es_form": "Compramos [el bocadillo::kanapka] en el mercado.",
+        "pl_translation": "Kupiliśmy kanapka na targu."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La tortilla",
+    "pl_word": "omlet, tortilla",
+    "examples": [
+      {
+        "es_form": "¿Has visto [la tortilla::omlet, tortilla]?",
+        "pl_translation": "Widziałeś/aś omlet, tortilla?"
+      },
+      {
+        "es_form": "[La tortilla::omlet, tortilla] cuesta diez euros.",
+        "pl_translation": "omlet, tortilla kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Necesito [la tortilla::omlet, tortilla] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową omlet, tortilla."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "ácido",
+    "pl_word": "kwaśny",
+    "examples": [
+      {
+        "es_form": "Tengo una casa [ácida::kwaśny].",
+        "pl_translation": "Mam kwaśny dom."
+      },
+      {
+        "es_form": "Se compró un vestido [ácido::kwaśny].",
+        "pl_translation": "Kupiła sobie kwaśny sukienkę."
+      },
+      {
+        "es_form": "Nada es más [ácido::kwaśny] que la familia.",
+        "pl_translation": "Nic nie jest kwaśny od rodziny."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "amargo",
+    "pl_word": "gorzki",
+    "examples": [
+      {
+        "es_form": "Mi amigo es [amargo::gorzki] y simpático.",
+        "pl_translation": "Mój przyjaciel jest gorzki i sympatyczny."
+      },
+      {
+        "es_form": "Es un lugar [amargo::gorzki] para vivir.",
+        "pl_translation": "To jest gorzki miejsce do życia."
+      },
+      {
+        "es_form": "Nada es más [amargo::gorzki] que la familia.",
+        "pl_translation": "Nic nie jest gorzki od rodziny."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "hornear",
+    "pl_word": "piec (w piekarniku)",
+    "examples": [
+      {
+        "es_form": "Prefiero [hornear::piec (w piekarniku)] en casa.",
+        "pl_translation": "Wolę piec (w piekarniku) w domu."
+      },
+      {
+        "es_form": "Me gusta [hornear::piec (w piekarniku)] por la mañana.",
+        "pl_translation": "Lubię piec (w piekarniku) rano."
+      },
+      {
+        "es_form": "Quiero [hornear::piec (w piekarniku)] ahora.",
+        "pl_translation": "Chcę piec (w piekarniku) teraz."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "horneo",
+        "pl_word": "horneo",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[horneo::horneo] como me enseñaste.",
+            "pl_translation": "horneo tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "No [horneo::horneo] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie horneo zbyt dobrze."
+          },
+          {
+            "es_form": "[horneo::horneo] todos los días.",
+            "pl_translation": "horneo codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "horneas",
+        "pl_word": "horneas",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[horneas::horneas] todos los días.",
+            "pl_translation": "horneas codziennie."
+          },
+          {
+            "es_form": "Siempre [horneas::horneas] con atención.",
+            "pl_translation": "Zawsze horneas z uwagą."
+          },
+          {
+            "es_form": "No [horneas::horneas] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie horneas zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "hornea",
+        "pl_word": "hornea",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[hornea::hornea] los fines de semana?",
+            "pl_translation": "Czy hornea w weekendy?"
+          },
+          {
+            "es_form": "[hornea::hornea] todos los días.",
+            "pl_translation": "hornea codziennie."
+          },
+          {
+            "es_form": "Normalmente [hornea::hornea] por la mañana.",
+            "pl_translation": "Zazwyczaj hornea rano."
+          }
+        ]
+      },
+      {
+        "es_word": "horneamos",
+        "pl_word": "horneamos",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "No [horneamos::horneamos] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie horneamos zbyt dobrze."
+          },
+          {
+            "es_form": "Normalmente [horneamos::horneamos] por la mañana.",
+            "pl_translation": "Zazwyczaj horneamos rano."
+          },
+          {
+            "es_form": "[horneamos::horneamos] como me enseñaste.",
+            "pl_translation": "horneamos tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "horneáis",
+        "pl_word": "horneáis",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[horneáis::horneáis] los fines de semana?",
+            "pl_translation": "Czy horneáis w weekendy?"
+          },
+          {
+            "es_form": "Normalmente [horneáis::horneáis] por la mañana.",
+            "pl_translation": "Zazwyczaj horneáis rano."
+          },
+          {
+            "es_form": "No [horneáis::horneáis] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie horneáis zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "hornean",
+        "pl_word": "hornean",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[hornean::hornean] los fines de semana?",
+            "pl_translation": "Czy hornean w weekendy?"
+          },
+          {
+            "es_form": "No [hornean::hornean] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie hornean zbyt dobrze."
+          },
+          {
+            "es_form": "[hornean::hornean] como me enseñaste.",
+            "pl_translation": "hornean tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "horneé",
+        "pl_word": "horneé",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [horneé::horneé] todo el día.",
+            "pl_translation": "Wczoraj horneé cały dzień."
+          },
+          {
+            "es_form": "¿[horneé::horneé] bien el examen?",
+            "pl_translation": "Czy horneé dobrze egzamin?"
+          },
+          {
+            "es_form": "[horneé::horneé] la semana pasada.",
+            "pl_translation": "horneé w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "horneaste",
+        "pl_word": "horneaste",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [horneaste::horneaste] todo el día.",
+            "pl_translation": "Wczoraj horneaste cały dzień."
+          },
+          {
+            "es_form": "[horneaste::horneaste] sin parar durante horas.",
+            "pl_translation": "horneaste bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [horneaste::horneaste] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie horneaste czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "horneó",
+        "pl_word": "horneó",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [horneó::horneó] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie horneó czegoś takiego."
+          },
+          {
+            "es_form": "¿[horneó::horneó] bien el examen?",
+            "pl_translation": "Czy horneó dobrze egzamin?"
+          },
+          {
+            "es_form": "[horneó::horneó] la semana pasada.",
+            "pl_translation": "horneó w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "horneamos",
+        "pl_word": "horneamos",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[horneamos::horneamos] la semana pasada.",
+            "pl_translation": "horneamos w zeszłym tygodniu."
+          },
+          {
+            "es_form": "El mes pasado no [horneamos::horneamos] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie horneamos."
+          },
+          {
+            "es_form": "Nunca [horneamos::horneamos] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie horneamos czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "horneasteis",
+        "pl_word": "horneasteis",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [horneasteis::horneasteis] todo el día.",
+            "pl_translation": "Wczoraj horneasteis cały dzień."
+          },
+          {
+            "es_form": "¿[horneasteis::horneasteis] bien el examen?",
+            "pl_translation": "Czy horneasteis dobrze egzamin?"
+          },
+          {
+            "es_form": "Nunca [horneasteis::horneasteis] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie horneasteis czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "hornearon",
+        "pl_word": "hornearon",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [hornearon::hornearon] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie hornearon."
+          },
+          {
+            "es_form": "[hornearon::hornearon] la semana pasada.",
+            "pl_translation": "hornearon w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Nunca [hornearon::hornearon] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie hornearon czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "horneé",
+        "pl_word": "horneé",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [horneé::horneé] bien.",
+            "pl_translation": "Myślę, że horneé dobrze."
+          },
+          {
+            "es_form": "¿[horneé::horneé] con nosotros mañana?",
+            "pl_translation": "Czy horneé z nami jutro?"
+          },
+          {
+            "es_form": "Te prometo que [horneé::horneé] a tiempo.",
+            "pl_translation": "Obiecuję ci, że horneé na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "horneás",
+        "pl_word": "horneás",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[horneás::horneás] con nosotros mañana?",
+            "pl_translation": "Czy horneás z nami jutro?"
+          },
+          {
+            "es_form": "Mañana [horneás::horneás] más temprano.",
+            "pl_translation": "Jutro horneás wcześniej."
+          },
+          {
+            "es_form": "Creo que [horneás::horneás] bien.",
+            "pl_translation": "Myślę, że horneás dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "horneá",
+        "pl_word": "horneá",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [horneá::horneá] bien.",
+            "pl_translation": "Myślę, że horneá dobrze."
+          },
+          {
+            "es_form": "[horneá::horneá] la próxima semana.",
+            "pl_translation": "horneá w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Te prometo que [horneá::horneá] a tiempo.",
+            "pl_translation": "Obiecuję ci, że horneá na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "horneemos",
+        "pl_word": "horneemos",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [horneemos::horneemos] bien.",
+            "pl_translation": "Myślę, że horneemos dobrze."
+          },
+          {
+            "es_form": "[horneemos::horneemos] la próxima semana.",
+            "pl_translation": "horneemos w przyszłym tygodniu."
+          },
+          {
+            "es_form": "El año que viene [horneemos::horneemos] en España.",
+            "pl_translation": "W przyszłym roku horneemos w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "horneéis",
+        "pl_word": "horneéis",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [horneéis::horneéis] a tiempo.",
+            "pl_translation": "Obiecuję ci, że horneéis na czas."
+          },
+          {
+            "es_form": "Creo que [horneéis::horneéis] bien.",
+            "pl_translation": "Myślę, że horneéis dobrze."
+          },
+          {
+            "es_form": "Mañana [horneéis::horneéis] más temprano.",
+            "pl_translation": "Jutro horneéis wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "horneán",
+        "pl_word": "horneán",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [horneán::horneán] a tiempo.",
+            "pl_translation": "Obiecuję ci, że horneán na czas."
+          },
+          {
+            "es_form": "Mañana [horneán::horneán] más temprano.",
+            "pl_translation": "Jutro horneán wcześniej."
+          },
+          {
+            "es_form": "Creo que [horneán::horneán] bien.",
+            "pl_translation": "Myślę, że horneán dobrze."
+          }
+        ]
+      }
+    ]
+  }
+]

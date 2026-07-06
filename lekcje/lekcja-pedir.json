@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "El camarero",
+    "pl_word": "kelner",
+    "examples": [
+      {
+        "es_form": "Hablé con [el camarero::kelner] ayer.",
+        "pl_translation": "Rozmawiałem/am wczoraj z kelner."
+      },
+      {
+        "es_form": "[El camarero::kelner] vive en mi calle.",
+        "pl_translation": "kelner mieszka na mojej ulicy."
+      },
+      {
+        "es_form": "[El camarero::kelner] trabaja aquí.",
+        "pl_translation": "kelner tu pracuje."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El menú",
+    "pl_word": "menu",
+    "examples": [
+      {
+        "es_form": "[El menú::menu] está sobre la mesa.",
+        "pl_translation": "menu jest na stole."
+      },
+      {
+        "es_form": "¿Has visto [el menú::menu]?",
+        "pl_translation": "Widziałeś/aś menu?"
+      },
+      {
+        "es_form": "Compré [el menú::menu] ayer.",
+        "pl_translation": "Kupiłem/am menu wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El plato",
+    "pl_word": "danie",
+    "examples": [
+      {
+        "es_form": "Me gusta mucho [el plato::danie].",
+        "pl_translation": "Bardzo lubię danie."
+      },
+      {
+        "es_form": "[El plato::danie] se hace con leche.",
+        "pl_translation": "danie robi się z mleka."
+      },
+      {
+        "es_form": "[El plato::danie] es típico de España.",
+        "pl_translation": "danie jest typowy/a dla Hiszpanii."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La entrada",
+    "pl_word": "przystawka",
+    "examples": [
+      {
+        "es_form": "[La entrada::przystawka] está muy rico.",
+        "pl_translation": "przystawka jest bardzo smaczny/a."
+      },
+      {
+        "es_form": "¿Quieres [la entrada::przystawka]?",
+        "pl_translation": "Chcesz przystawka?"
+      },
+      {
+        "es_form": "Compramos [la entrada::przystawka] en el mercado.",
+        "pl_translation": "Kupiliśmy przystawka na targu."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El postre",
+    "pl_word": "deser",
+    "examples": [
+      {
+        "es_form": "Me gusta mucho [el postre::deser].",
+        "pl_translation": "Bardzo lubię deser."
+      },
+      {
+        "es_form": "[El postre::deser] está muy rico.",
+        "pl_translation": "deser jest bardzo smaczny/a."
+      },
+      {
+        "es_form": "[El postre::deser] es típico de España.",
+        "pl_translation": "deser jest typowy/a dla Hiszpanii."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La propina",
+    "pl_word": "napiwek",
+    "examples": [
+      {
+        "es_form": "[La propina::napiwek] cuesta diez euros.",
+        "pl_translation": "napiwek kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Compré [la propina::napiwek] ayer.",
+        "pl_translation": "Kupiłem/am napiwek wczoraj."
+      },
+      {
+        "es_form": "Guarda [la propina::napiwek] en el armario.",
+        "pl_translation": "Schowaj napiwek do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La cuenta",
+    "pl_word": "rachunek",
+    "examples": [
+      {
+        "es_form": "Necesito [la cuenta::rachunek] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową rachunek."
+      },
+      {
+        "es_form": "[La cuenta::rachunek] es de madera.",
+        "pl_translation": "rachunek jest z drewna."
+      },
+      {
+        "es_form": "[La cuenta::rachunek] está sobre la mesa.",
+        "pl_translation": "rachunek jest na stole."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La reserva",
+    "pl_word": "rezerwacja",
+    "examples": [
+      {
+        "es_form": "Necesito [la reserva::rezerwacja] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową rezerwacja."
+      },
+      {
+        "es_form": "Compré [la reserva::rezerwacja] ayer.",
+        "pl_translation": "Kupiłem/am rezerwacja wczoraj."
+      },
+      {
+        "es_form": "¿Has visto [la reserva::rezerwacja]?",
+        "pl_translation": "Widziałeś/aś rezerwacja?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El bar",
+    "pl_word": "bar",
+    "examples": [
+      {
+        "es_form": "¿Dónde está [el bar::bar]?",
+        "pl_translation": "Gdzie jest bar?"
+      },
+      {
+        "es_form": "[El bar::bar] está cerca de aquí.",
+        "pl_translation": "bar jest niedaleko stąd."
+      },
+      {
+        "es_form": "[El bar::bar] abre a las ocho.",
+        "pl_translation": "bar otwiera się o ósmej."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La cafetería",
+    "pl_word": "kawiarnia",
+    "examples": [
+      {
+        "es_form": "Trabajo en [la cafetería::kawiarnia].",
+        "pl_translation": "Pracuję w kawiarnia."
+      },
+      {
+        "es_form": "[La cafetería::kawiarnia] está cerca de aquí.",
+        "pl_translation": "kawiarnia jest niedaleko stąd."
+      },
+      {
+        "es_form": "[La cafetería::kawiarnia] abre a las ocho.",
+        "pl_translation": "kawiarnia otwiera się o ósmej."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "frito",
+    "pl_word": "smażony",
+    "examples": [
+      {
+        "es_form": "Tengo una casa [frita::smażony].",
+        "pl_translation": "Mam smażony dom."
+      },
+      {
+        "es_form": "Es un lugar [frito::smażony] para vivir.",
+        "pl_translation": "To jest smażony miejsce do życia."
+      },
+      {
+        "es_form": "Nada es más [frito::smażony] que la familia.",
+        "pl_translation": "Nic nie jest smażony od rodziny."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "hervido",
+    "pl_word": "gotowany",
+    "examples": [
+      {
+        "es_form": "Se compró un vestido [hervido::gotowany].",
+        "pl_translation": "Kupiła sobie gotowany sukienkę."
+      },
+      {
+        "es_form": "La comida está [hervida::gotowany].",
+        "pl_translation": "Jedzenie jest gotowany."
+      },
+      {
+        "es_form": "Es un lugar [hervido::gotowany] para vivir.",
+        "pl_translation": "To jest gotowany miejsce do życia."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "pedir",
+    "pl_word": "prosić, zamawiać",
+    "examples": [
+      {
+        "es_form": "Voy a [pedir::prosić, zamawiać] mañana.",
+        "pl_translation": "Będę prosić, zamawiać jutro."
+      },
+      {
+        "es_form": "Es importante [pedir::prosić, zamawiać] todos los días.",
+        "pl_translation": "Ważne jest prosić, zamawiać codziennie."
+      },
+      {
+        "es_form": "Hay que [pedir::prosić, zamawiać] con cuidado.",
+        "pl_translation": "Trzeba prosić, zamawiać ostrożnie."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "pido",
+        "pl_word": "pido",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[pido::pido] como me enseñaste.",
+            "pl_translation": "pido tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "¿[pido::pido] los fines de semana?",
+            "pl_translation": "Czy pido w weekendy?"
+          },
+          {
+            "es_form": "Siempre [pido::pido] con atención.",
+            "pl_translation": "Zawsze pido z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "pides",
+        "pl_word": "pides",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[pides::pides] los fines de semana?",
+            "pl_translation": "Czy pides w weekendy?"
+          },
+          {
+            "es_form": "No [pides::pides] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie pides zbyt dobrze."
+          },
+          {
+            "es_form": "[pides::pides] como me enseñaste.",
+            "pl_translation": "pides tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "pide",
+        "pl_word": "pide",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[pide::pide] todos los días.",
+            "pl_translation": "pide codziennie."
+          },
+          {
+            "es_form": "Siempre [pide::pide] con atención.",
+            "pl_translation": "Zawsze pide z uwagą."
+          },
+          {
+            "es_form": "No [pide::pide] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie pide zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "pedimos",
+        "pl_word": "pedimos",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [pedimos::pedimos] con atención.",
+            "pl_translation": "Zawsze pedimos z uwagą."
+          },
+          {
+            "es_form": "No [pedimos::pedimos] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie pedimos zbyt dobrze."
+          },
+          {
+            "es_form": "[pedimos::pedimos] todos los días.",
+            "pl_translation": "pedimos codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "pedís",
+        "pl_word": "pedís",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[pedís::pedís] todos los días.",
+            "pl_translation": "pedís codziennie."
+          },
+          {
+            "es_form": "No [pedís::pedís] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie pedís zbyt dobrze."
+          },
+          {
+            "es_form": "¿[pedís::pedís] los fines de semana?",
+            "pl_translation": "Czy pedís w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "piden",
+        "pl_word": "piden",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[piden::piden] como me enseñaste.",
+            "pl_translation": "piden tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "¿[piden::piden] los fines de semana?",
+            "pl_translation": "Czy piden w weekendy?"
+          },
+          {
+            "es_form": "Siempre [piden::piden] con atención.",
+            "pl_translation": "Zawsze piden z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "pedí",
+        "pl_word": "pedí",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [pedí::pedí] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie pedí czegoś takiego."
+          },
+          {
+            "es_form": "[pedí::pedí] sin parar durante horas.",
+            "pl_translation": "pedí bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "El mes pasado no [pedí::pedí] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie pedí."
+          }
+        ]
+      },
+      {
+        "es_word": "pediste",
+        "pl_word": "pediste",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [pediste::pediste] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie pediste czegoś takiego."
+          },
+          {
+            "es_form": "[pediste::pediste] sin parar durante horas.",
+            "pl_translation": "pediste bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "[pediste::pediste] la semana pasada.",
+            "pl_translation": "pediste w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "pidió",
+        "pl_word": "pidió",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[pidió::pidió] la semana pasada.",
+            "pl_translation": "pidió w zeszłym tygodniu."
+          },
+          {
+            "es_form": "[pidió::pidió] sin parar durante horas.",
+            "pl_translation": "pidió bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [pidió::pidió] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie pidió czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "pedimos",
+        "pl_word": "pedimos",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [pedimos::pedimos] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie pedimos."
+          },
+          {
+            "es_form": "Nunca [pedimos::pedimos] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie pedimos czegoś takiego."
+          },
+          {
+            "es_form": "[pedimos::pedimos] la semana pasada.",
+            "pl_translation": "pedimos w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "pedisteis",
+        "pl_word": "pedisteis",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [pedisteis::pedisteis] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie pedisteis czegoś takiego."
+          },
+          {
+            "es_form": "[pedisteis::pedisteis] la semana pasada.",
+            "pl_translation": "pedisteis w zeszłym tygodniu."
+          },
+          {
+            "es_form": "[pedisteis::pedisteis] sin parar durante horas.",
+            "pl_translation": "pedisteis bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "pidieron",
+        "pl_word": "pidieron",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[pidieron::pidieron] sin parar durante horas.",
+            "pl_translation": "pidieron bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [pidieron::pidieron] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie pidieron czegoś takiego."
+          },
+          {
+            "es_form": "El mes pasado no [pidieron::pidieron] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie pidieron."
+          }
+        ]
+      },
+      {
+        "es_word": "pediré",
+        "pl_word": "pediré",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [pediré::pediré] a tiempo.",
+            "pl_translation": "Obiecuję ci, że pediré na czas."
+          },
+          {
+            "es_form": "Mañana [pediré::pediré] más temprano.",
+            "pl_translation": "Jutro pediré wcześniej."
+          },
+          {
+            "es_form": "El año que viene [pediré::pediré] en España.",
+            "pl_translation": "W przyszłym roku pediré w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "pedirás",
+        "pl_word": "pedirás",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[pedirás::pedirás] con nosotros mañana?",
+            "pl_translation": "Czy pedirás z nami jutro?"
+          },
+          {
+            "es_form": "Creo que [pedirás::pedirás] bien.",
+            "pl_translation": "Myślę, że pedirás dobrze."
+          },
+          {
+            "es_form": "Te prometo que [pedirás::pedirás] a tiempo.",
+            "pl_translation": "Obiecuję ci, że pedirás na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "pedirá",
+        "pl_word": "pedirá",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [pedirá::pedirá] a tiempo.",
+            "pl_translation": "Obiecuję ci, że pedirá na czas."
+          },
+          {
+            "es_form": "Creo que [pedirá::pedirá] bien.",
+            "pl_translation": "Myślę, że pedirá dobrze."
+          },
+          {
+            "es_form": "¿[pedirá::pedirá] con nosotros mañana?",
+            "pl_translation": "Czy pedirá z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "pediremos",
+        "pl_word": "pediremos",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [pediremos::pediremos] en España.",
+            "pl_translation": "W przyszłym roku pediremos w Hiszpanii."
+          },
+          {
+            "es_form": "Creo que [pediremos::pediremos] bien.",
+            "pl_translation": "Myślę, że pediremos dobrze."
+          },
+          {
+            "es_form": "Mañana [pediremos::pediremos] más temprano.",
+            "pl_translation": "Jutro pediremos wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "pediréis",
+        "pl_word": "pediréis",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[pediréis::pediréis] con nosotros mañana?",
+            "pl_translation": "Czy pediréis z nami jutro?"
+          },
+          {
+            "es_form": "Mañana [pediréis::pediréis] más temprano.",
+            "pl_translation": "Jutro pediréis wcześniej."
+          },
+          {
+            "es_form": "Creo que [pediréis::pediréis] bien.",
+            "pl_translation": "Myślę, że pediréis dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "pedirán",
+        "pl_word": "pedirán",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[pedirán::pedirán] la próxima semana.",
+            "pl_translation": "pedirán w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Mañana [pedirán::pedirán] más temprano.",
+            "pl_translation": "Jutro pedirán wcześniej."
+          },
+          {
+            "es_form": "Te prometo que [pedirán::pedirán] a tiempo.",
+            "pl_translation": "Obiecuję ci, że pedirán na czas."
+          }
+        ]
+      }
+    ]
+  }
+]

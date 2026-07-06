@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "La puerta",
+    "pl_word": "drzwi",
+    "examples": [
+      {
+        "es_form": "Se me rompió [la puerta::drzwi].",
+        "pl_translation": "Zepsuł mi się drzwi."
+      },
+      {
+        "es_form": "Guarda [la puerta::drzwi] en el armario.",
+        "pl_translation": "Schowaj drzwi do szafy."
+      },
+      {
+        "es_form": "Necesito [la puerta::drzwi] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową drzwi."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La ventana",
+    "pl_word": "okno",
+    "examples": [
+      {
+        "es_form": "[La ventana::okno] cuesta diez euros.",
+        "pl_translation": "okno kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Se me rompió [la ventana::okno].",
+        "pl_translation": "Zepsuł mi się okno."
+      },
+      {
+        "es_form": "¿Has visto [la ventana::okno]?",
+        "pl_translation": "Widziałeś/aś okno?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La mesa",
+    "pl_word": "stół",
+    "examples": [
+      {
+        "es_form": "[La mesa::stół] está sobre la mesa.",
+        "pl_translation": "stół jest na stole."
+      },
+      {
+        "es_form": "[La mesa::stół] cuesta diez euros.",
+        "pl_translation": "stół kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Compré [la mesa::stół] ayer.",
+        "pl_translation": "Kupiłem/am stół wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La silla",
+    "pl_word": "krzesło",
+    "examples": [
+      {
+        "es_form": "Necesito [la silla::krzesło] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową krzesło."
+      },
+      {
+        "es_form": "Compré [la silla::krzesło] ayer.",
+        "pl_translation": "Kupiłem/am krzesło wczoraj."
+      },
+      {
+        "es_form": "[La silla::krzesło] es de madera.",
+        "pl_translation": "krzesło jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La cama",
+    "pl_word": "łóżko",
+    "examples": [
+      {
+        "es_form": "[La cama::łóżko] cuesta diez euros.",
+        "pl_translation": "łóżko kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "[La cama::łóżko] es de madera.",
+        "pl_translation": "łóżko jest z drewna."
+      },
+      {
+        "es_form": "Compré [la cama::łóżko] ayer.",
+        "pl_translation": "Kupiłem/am łóżko wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El baño",
+    "pl_word": "łazienka",
+    "examples": [
+      {
+        "es_form": "¿Dónde está [el baño::łazienka]?",
+        "pl_translation": "Gdzie jest łazienka?"
+      },
+      {
+        "es_form": "Voy a [el baño::łazienka] cada día.",
+        "pl_translation": "Chodzę do łazienka codziennie."
+      },
+      {
+        "es_form": "Trabajo en [el baño::łazienka].",
+        "pl_translation": "Pracuję w łazienka."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La llave",
+    "pl_word": "klucz",
+    "examples": [
+      {
+        "es_form": "[La llave::klucz] está sobre la mesa.",
+        "pl_translation": "klucz jest na stole."
+      },
+      {
+        "es_form": "Necesito [la llave::klucz] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową klucz."
+      },
+      {
+        "es_form": "[La llave::klucz] es de madera.",
+        "pl_translation": "klucz jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La pared",
+    "pl_word": "ściana",
+    "examples": [
+      {
+        "es_form": "[La pared::ściana] cuesta diez euros.",
+        "pl_translation": "ściana kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "¿Has visto [la pared::ściana]?",
+        "pl_translation": "Widziałeś/aś ściana?"
+      },
+      {
+        "es_form": "Compré [la pared::ściana] ayer.",
+        "pl_translation": "Kupiłem/am ściana wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El techo",
+    "pl_word": "dach, sufit",
+    "examples": [
+      {
+        "es_form": "[El techo::dach, sufit] está sobre la mesa.",
+        "pl_translation": "dach, sufit jest na stole."
+      },
+      {
+        "es_form": "[El techo::dach, sufit] cuesta diez euros.",
+        "pl_translation": "dach, sufit kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Necesito [el techo::dach, sufit] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową dach, sufit."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El suelo",
+    "pl_word": "podłoga, ziemia",
+    "examples": [
+      {
+        "es_form": "Compré [el suelo::podłoga, ziemia] ayer.",
+        "pl_translation": "Kupiłem/am podłoga, ziemia wczoraj."
+      },
+      {
+        "es_form": "¿Has visto [el suelo::podłoga, ziemia]?",
+        "pl_translation": "Widziałeś/aś podłoga, ziemia?"
+      },
+      {
+        "es_form": "Guarda [el suelo::podłoga, ziemia] en el armario.",
+        "pl_translation": "Schowaj podłoga, ziemia do szafy."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "cálido",
+    "pl_word": "ciepły",
+    "examples": [
+      {
+        "es_form": "Nada es más [cálido::ciepły] que la familia.",
+        "pl_translation": "Nic nie jest ciepły od rodziny."
+      },
+      {
+        "es_form": "Es un lugar [cálido::ciepły] para vivir.",
+        "pl_translation": "To jest ciepły miejsce do życia."
+      },
+      {
+        "es_form": "Se compró un vestido [cálido::ciepły].",
+        "pl_translation": "Kupiła sobie ciepły sukienkę."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "frío",
+    "pl_word": "zimny",
+    "examples": [
+      {
+        "es_form": "Tengo una casa [fría::zimny].",
+        "pl_translation": "Mam zimny dom."
+      },
+      {
+        "es_form": "Se compró un vestido [frío::zimny].",
+        "pl_translation": "Kupiła sobie zimny sukienkę."
+      },
+      {
+        "es_form": "Nada es más [frío::zimny] que la familia.",
+        "pl_translation": "Nic nie jest zimny od rodziny."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "vivir",
+    "pl_word": "mieszkać, żyć",
+    "examples": [
+      {
+        "es_form": "Voy a [vivir::mieszkać, żyć] mañana.",
+        "pl_translation": "Będę mieszkać, żyć jutro."
+      },
+      {
+        "es_form": "Prefiero [vivir::mieszkać, żyć] en casa.",
+        "pl_translation": "Wolę mieszkać, żyć w domu."
+      },
+      {
+        "es_form": "Me gusta [vivir::mieszkać, żyć] por la mañana.",
+        "pl_translation": "Lubię mieszkać, żyć rano."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "vivo",
+        "pl_word": "vivo",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[vivo::vivo] todos los días.",
+            "pl_translation": "vivo codziennie."
+          },
+          {
+            "es_form": "[vivo::vivo] como me enseñaste.",
+            "pl_translation": "vivo tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Siempre [vivo::vivo] con atención.",
+            "pl_translation": "Zawsze vivo z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "vives",
+        "pl_word": "vives",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[vives::vives] los fines de semana?",
+            "pl_translation": "Czy vives w weekendy?"
+          },
+          {
+            "es_form": "No [vives::vives] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie vives zbyt dobrze."
+          },
+          {
+            "es_form": "[vives::vives] como me enseñaste.",
+            "pl_translation": "vives tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "vive",
+        "pl_word": "vive",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[vive::vive] todos los días.",
+            "pl_translation": "vive codziennie."
+          },
+          {
+            "es_form": "Siempre [vive::vive] con atención.",
+            "pl_translation": "Zawsze vive z uwagą."
+          },
+          {
+            "es_form": "No [vive::vive] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie vive zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "vivimos",
+        "pl_word": "vivimos",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [vivimos::vivimos] por la mañana.",
+            "pl_translation": "Zazwyczaj vivimos rano."
+          },
+          {
+            "es_form": "[vivimos::vivimos] como me enseñaste.",
+            "pl_translation": "vivimos tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Siempre [vivimos::vivimos] con atención.",
+            "pl_translation": "Zawsze vivimos z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "vivís",
+        "pl_word": "vivís",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[vivís::vivís] todos los días.",
+            "pl_translation": "vivís codziennie."
+          },
+          {
+            "es_form": "Siempre [vivís::vivís] con atención.",
+            "pl_translation": "Zawsze vivís z uwagą."
+          },
+          {
+            "es_form": "¿[vivís::vivís] los fines de semana?",
+            "pl_translation": "Czy vivís w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "viven",
+        "pl_word": "viven",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [viven::viven] por la mañana.",
+            "pl_translation": "Zazwyczaj viven rano."
+          },
+          {
+            "es_form": "[viven::viven] todos los días.",
+            "pl_translation": "viven codziennie."
+          },
+          {
+            "es_form": "No [viven::viven] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie viven zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "viví",
+        "pl_word": "viví",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [viví::viví] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie viví czegoś takiego."
+          },
+          {
+            "es_form": "[viví::viví] la semana pasada.",
+            "pl_translation": "viví w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Ayer [viví::viví] todo el día.",
+            "pl_translation": "Wczoraj viví cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "viviste",
+        "pl_word": "viviste",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[viviste::viviste] bien el examen?",
+            "pl_translation": "Czy viviste dobrze egzamin?"
+          },
+          {
+            "es_form": "El mes pasado no [viviste::viviste] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie viviste."
+          },
+          {
+            "es_form": "[viviste::viviste] sin parar durante horas.",
+            "pl_translation": "viviste bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "vivió",
+        "pl_word": "vivió",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[vivió::vivió] bien el examen?",
+            "pl_translation": "Czy vivió dobrze egzamin?"
+          },
+          {
+            "es_form": "Ayer [vivió::vivió] todo el día.",
+            "pl_translation": "Wczoraj vivió cały dzień."
+          },
+          {
+            "es_form": "[vivió::vivió] la semana pasada.",
+            "pl_translation": "vivió w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "vivimos",
+        "pl_word": "vivimos",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[vivimos::vivimos] bien el examen?",
+            "pl_translation": "Czy vivimos dobrze egzamin?"
+          },
+          {
+            "es_form": "[vivimos::vivimos] sin parar durante horas.",
+            "pl_translation": "vivimos bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [vivimos::vivimos] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie vivimos czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "vivisteis",
+        "pl_word": "vivisteis",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [vivisteis::vivisteis] todo el día.",
+            "pl_translation": "Wczoraj vivisteis cały dzień."
+          },
+          {
+            "es_form": "[vivisteis::vivisteis] sin parar durante horas.",
+            "pl_translation": "vivisteis bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "¿[vivisteis::vivisteis] bien el examen?",
+            "pl_translation": "Czy vivisteis dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "vivieron",
+        "pl_word": "vivieron",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[vivieron::vivieron] bien el examen?",
+            "pl_translation": "Czy vivieron dobrze egzamin?"
+          },
+          {
+            "es_form": "Ayer [vivieron::vivieron] todo el día.",
+            "pl_translation": "Wczoraj vivieron cały dzień."
+          },
+          {
+            "es_form": "El mes pasado no [vivieron::vivieron] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie vivieron."
+          }
+        ]
+      },
+      {
+        "es_word": "vivé",
+        "pl_word": "vivé",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [vivé::vivé] en España.",
+            "pl_translation": "W przyszłym roku vivé w Hiszpanii."
+          },
+          {
+            "es_form": "Creo que [vivé::vivé] bien.",
+            "pl_translation": "Myślę, że vivé dobrze."
+          },
+          {
+            "es_form": "¿[vivé::vivé] con nosotros mañana?",
+            "pl_translation": "Czy vivé z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "vivás",
+        "pl_word": "vivás",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [vivás::vivás] a tiempo.",
+            "pl_translation": "Obiecuję ci, że vivás na czas."
+          },
+          {
+            "es_form": "¿[vivás::vivás] con nosotros mañana?",
+            "pl_translation": "Czy vivás z nami jutro?"
+          },
+          {
+            "es_form": "[vivás::vivás] la próxima semana.",
+            "pl_translation": "vivás w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "vivá",
+        "pl_word": "vivá",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [vivá::vivá] bien.",
+            "pl_translation": "Myślę, że vivá dobrze."
+          },
+          {
+            "es_form": "[vivá::vivá] la próxima semana.",
+            "pl_translation": "vivá w przyszłym tygodniu."
+          },
+          {
+            "es_form": "El año que viene [vivá::vivá] en España.",
+            "pl_translation": "W przyszłym roku vivá w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "vivemos",
+        "pl_word": "vivemos",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [vivemos::vivemos] bien.",
+            "pl_translation": "Myślę, że vivemos dobrze."
+          },
+          {
+            "es_form": "Mañana [vivemos::vivemos] más temprano.",
+            "pl_translation": "Jutro vivemos wcześniej."
+          },
+          {
+            "es_form": "El año que viene [vivemos::vivemos] en España.",
+            "pl_translation": "W przyszłym roku vivemos w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "vivéis",
+        "pl_word": "vivéis",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [vivéis::vivéis] a tiempo.",
+            "pl_translation": "Obiecuję ci, że vivéis na czas."
+          },
+          {
+            "es_form": "Creo que [vivéis::vivéis] bien.",
+            "pl_translation": "Myślę, że vivéis dobrze."
+          },
+          {
+            "es_form": "[vivéis::vivéis] la próxima semana.",
+            "pl_translation": "vivéis w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "viván",
+        "pl_word": "viván",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [viván::viván] bien.",
+            "pl_translation": "Myślę, że viván dobrze."
+          },
+          {
+            "es_form": "[viván::viván] la próxima semana.",
+            "pl_translation": "viván w przyszłym tygodniu."
+          },
+          {
+            "es_form": "¿[viván::viván] con nosotros mañana?",
+            "pl_translation": "Czy viván z nami jutro?"
+          }
+        ]
+      }
+    ]
+  }
+]

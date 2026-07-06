@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "El desayuno",
+    "pl_word": "śniadanie",
+    "examples": [
+      {
+        "es_form": "Compramos [el desayuno::śniadanie] en el mercado.",
+        "pl_translation": "Kupiliśmy śniadanie na targu."
+      },
+      {
+        "es_form": "¿Quieres [el desayuno::śniadanie]?",
+        "pl_translation": "Chcesz śniadanie?"
+      },
+      {
+        "es_form": "Me gusta mucho [el desayuno::śniadanie].",
+        "pl_translation": "Bardzo lubię śniadanie."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El almuerzo",
+    "pl_word": "obiad",
+    "examples": [
+      {
+        "es_form": "Necesito [el almuerzo::obiad] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową obiad."
+      },
+      {
+        "es_form": "Se me rompió [el almuerzo::obiad].",
+        "pl_translation": "Zepsuł mi się obiad."
+      },
+      {
+        "es_form": "Compré [el almuerzo::obiad] ayer.",
+        "pl_translation": "Kupiłem/am obiad wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La cena",
+    "pl_word": "kolacja",
+    "examples": [
+      {
+        "es_form": "[La cena::kolacja] cuesta diez euros.",
+        "pl_translation": "kolacja kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Compré [la cena::kolacja] ayer.",
+        "pl_translation": "Kupiłem/am kolacja wczoraj."
+      },
+      {
+        "es_form": "[La cena::kolacja] es de madera.",
+        "pl_translation": "kolacja jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El café",
+    "pl_word": "kawa",
+    "examples": [
+      {
+        "es_form": "¿Quieres [el café::kawa]?",
+        "pl_translation": "Chcesz kawa?"
+      },
+      {
+        "es_form": "[El café::kawa] está muy rico.",
+        "pl_translation": "kawa jest bardzo smaczny/a."
+      },
+      {
+        "es_form": "[El café::kawa] es típico de España.",
+        "pl_translation": "kawa jest typowy/a dla Hiszpanii."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El té",
+    "pl_word": "herbata",
+    "examples": [
+      {
+        "es_form": "¿Quieres [el té::herbata]?",
+        "pl_translation": "Chcesz herbata?"
+      },
+      {
+        "es_form": "Me gusta mucho [el té::herbata].",
+        "pl_translation": "Bardzo lubię herbata."
+      },
+      {
+        "es_form": "[El té::herbata] es típico de España.",
+        "pl_translation": "herbata jest typowy/a dla Hiszpanii."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La cerveza",
+    "pl_word": "piwo",
+    "examples": [
+      {
+        "es_form": "Me gusta mucho [la cerveza::piwo].",
+        "pl_translation": "Bardzo lubię piwo."
+      },
+      {
+        "es_form": "¿Quieres [la cerveza::piwo]?",
+        "pl_translation": "Chcesz piwo?"
+      },
+      {
+        "es_form": "Compramos [la cerveza::piwo] en el mercado.",
+        "pl_translation": "Kupiliśmy piwo na targu."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El vino",
+    "pl_word": "wino",
+    "examples": [
+      {
+        "es_form": "[El vino::wino] se hace con leche.",
+        "pl_translation": "wino robi się z mleka."
+      },
+      {
+        "es_form": "¿Quieres [el vino::wino]?",
+        "pl_translation": "Chcesz wino?"
+      },
+      {
+        "es_form": "Compramos [el vino::wino] en el mercado.",
+        "pl_translation": "Kupiliśmy wino na targu."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El azúcar",
+    "pl_word": "cukier",
+    "examples": [
+      {
+        "es_form": "[El azúcar::cukier] está muy rico.",
+        "pl_translation": "cukier jest bardzo smaczny/a."
+      },
+      {
+        "es_form": "Compramos [el azúcar::cukier] en el mercado.",
+        "pl_translation": "Kupiliśmy cukier na targu."
+      },
+      {
+        "es_form": "Me gusta mucho [el azúcar::cukier].",
+        "pl_translation": "Bardzo lubię cukier."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La sal",
+    "pl_word": "sól",
+    "examples": [
+      {
+        "es_form": "[La sal::sól] está muy rico.",
+        "pl_translation": "sól jest bardzo smaczny/a."
+      },
+      {
+        "es_form": "Me gusta mucho [la sal::sól].",
+        "pl_translation": "Bardzo lubię sól."
+      },
+      {
+        "es_form": "[La sal::sól] se hace con leche.",
+        "pl_translation": "sól robi się z mleka."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La sopa",
+    "pl_word": "zupa",
+    "examples": [
+      {
+        "es_form": "[La sopa::zupa] es típico de España.",
+        "pl_translation": "zupa jest typowy/a dla Hiszpanii."
+      },
+      {
+        "es_form": "Compramos [la sopa::zupa] en el mercado.",
+        "pl_translation": "Kupiliśmy zupa na targu."
+      },
+      {
+        "es_form": "Me gusta mucho [la sopa::zupa].",
+        "pl_translation": "Bardzo lubię zupa."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "dulce",
+    "pl_word": "słodki",
+    "examples": [
+      {
+        "es_form": "Nada es más [dulce::słodki] que la familia.",
+        "pl_translation": "Nic nie jest słodki od rodziny."
+      },
+      {
+        "es_form": "Es una persona muy [dulce::słodki].",
+        "pl_translation": "To jest bardzo słodki osoba."
+      },
+      {
+        "es_form": "Este coche es [dulce::słodki].",
+        "pl_translation": "Ten samochód jest słodki."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "salado",
+    "pl_word": "słony",
+    "examples": [
+      {
+        "es_form": "Hace un día [salado::słony].",
+        "pl_translation": "Jest słony dzień."
+      },
+      {
+        "es_form": "Mi amigo es [salado::słony] y simpático.",
+        "pl_translation": "Mój przyjaciel jest słony i sympatyczny."
+      },
+      {
+        "es_form": "Tengo una casa [salada::słony].",
+        "pl_translation": "Mam słony dom."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "beber",
+    "pl_word": "pić",
+    "examples": [
+      {
+        "es_form": "¿Puedes [beber::pić] más rápido?",
+        "pl_translation": "Możesz pić szybciej?"
+      },
+      {
+        "es_form": "Me gusta [beber::pić] por la mañana.",
+        "pl_translation": "Lubię pić rano."
+      },
+      {
+        "es_form": "No puedo [beber::pić] sin tu ayuda.",
+        "pl_translation": "Nie mogę pić bez twojej pomocy."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "bebo",
+        "pl_word": "bebo",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "No [bebo::bebo] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie bebo zbyt dobrze."
+          },
+          {
+            "es_form": "¿[bebo::bebo] los fines de semana?",
+            "pl_translation": "Czy bebo w weekendy?"
+          },
+          {
+            "es_form": "Siempre [bebo::bebo] con atención.",
+            "pl_translation": "Zawsze bebo z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "bebes",
+        "pl_word": "bebes",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "No [bebes::bebes] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie bebes zbyt dobrze."
+          },
+          {
+            "es_form": "[bebes::bebes] como me enseñaste.",
+            "pl_translation": "bebes tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "¿[bebes::bebes] los fines de semana?",
+            "pl_translation": "Czy bebes w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "bebe",
+        "pl_word": "bebe",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [bebe::bebe] con atención.",
+            "pl_translation": "Zawsze bebe z uwagą."
+          },
+          {
+            "es_form": "[bebe::bebe] como me enseñaste.",
+            "pl_translation": "bebe tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "No [bebe::bebe] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie bebe zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "bebemos",
+        "pl_word": "bebemos",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [bebemos::bebemos] con atención.",
+            "pl_translation": "Zawsze bebemos z uwagą."
+          },
+          {
+            "es_form": "[bebemos::bebemos] todos los días.",
+            "pl_translation": "bebemos codziennie."
+          },
+          {
+            "es_form": "Normalmente [bebemos::bebemos] por la mañana.",
+            "pl_translation": "Zazwyczaj bebemos rano."
+          }
+        ]
+      },
+      {
+        "es_word": "bebéis",
+        "pl_word": "bebéis",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[bebéis::bebéis] como me enseñaste.",
+            "pl_translation": "bebéis tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "[bebéis::bebéis] todos los días.",
+            "pl_translation": "bebéis codziennie."
+          },
+          {
+            "es_form": "Siempre [bebéis::bebéis] con atención.",
+            "pl_translation": "Zawsze bebéis z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "beben",
+        "pl_word": "beben",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [beben::beben] por la mañana.",
+            "pl_translation": "Zazwyczaj beben rano."
+          },
+          {
+            "es_form": "[beben::beben] como me enseñaste.",
+            "pl_translation": "beben tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "¿[beben::beben] los fines de semana?",
+            "pl_translation": "Czy beben w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "bebí",
+        "pl_word": "bebí",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [bebí::bebí] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie bebí czegoś takiego."
+          },
+          {
+            "es_form": "[bebí::bebí] la semana pasada.",
+            "pl_translation": "bebí w zeszłym tygodniu."
+          },
+          {
+            "es_form": "¿[bebí::bebí] bien el examen?",
+            "pl_translation": "Czy bebí dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "bebiste",
+        "pl_word": "bebiste",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [bebiste::bebiste] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie bebiste."
+          },
+          {
+            "es_form": "Nunca [bebiste::bebiste] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie bebiste czegoś takiego."
+          },
+          {
+            "es_form": "[bebiste::bebiste] sin parar durante horas.",
+            "pl_translation": "bebiste bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "bebió",
+        "pl_word": "bebió",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[bebió::bebió] sin parar durante horas.",
+            "pl_translation": "bebió bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "El mes pasado no [bebió::bebió] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie bebió."
+          },
+          {
+            "es_form": "Ayer [bebió::bebió] todo el día.",
+            "pl_translation": "Wczoraj bebió cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "bebimos",
+        "pl_word": "bebimos",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[bebimos::bebimos] la semana pasada.",
+            "pl_translation": "bebimos w zeszłym tygodniu."
+          },
+          {
+            "es_form": "El mes pasado no [bebimos::bebimos] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie bebimos."
+          },
+          {
+            "es_form": "Ayer [bebimos::bebimos] todo el día.",
+            "pl_translation": "Wczoraj bebimos cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "bebisteis",
+        "pl_word": "bebisteis",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [bebisteis::bebisteis] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie bebisteis czegoś takiego."
+          },
+          {
+            "es_form": "[bebisteis::bebisteis] sin parar durante horas.",
+            "pl_translation": "bebisteis bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "[bebisteis::bebisteis] la semana pasada.",
+            "pl_translation": "bebisteis w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "bebieron",
+        "pl_word": "bebieron",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [bebieron::bebieron] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie bebieron."
+          },
+          {
+            "es_form": "Ayer [bebieron::bebieron] todo el día.",
+            "pl_translation": "Wczoraj bebieron cały dzień."
+          },
+          {
+            "es_form": "[bebieron::bebieron] sin parar durante horas.",
+            "pl_translation": "bebieron bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "bebé",
+        "pl_word": "bebé",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [bebé::bebé] en España.",
+            "pl_translation": "W przyszłym roku bebé w Hiszpanii."
+          },
+          {
+            "es_form": "Te prometo que [bebé::bebé] a tiempo.",
+            "pl_translation": "Obiecuję ci, że bebé na czas."
+          },
+          {
+            "es_form": "[bebé::bebé] la próxima semana.",
+            "pl_translation": "bebé w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "bebás",
+        "pl_word": "bebás",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [bebás::bebás] a tiempo.",
+            "pl_translation": "Obiecuję ci, że bebás na czas."
+          },
+          {
+            "es_form": "Creo que [bebás::bebás] bien.",
+            "pl_translation": "Myślę, że bebás dobrze."
+          },
+          {
+            "es_form": "Mañana [bebás::bebás] más temprano.",
+            "pl_translation": "Jutro bebás wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "bebá",
+        "pl_word": "bebá",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [bebá::bebá] más temprano.",
+            "pl_translation": "Jutro bebá wcześniej."
+          },
+          {
+            "es_form": "¿[bebá::bebá] con nosotros mañana?",
+            "pl_translation": "Czy bebá z nami jutro?"
+          },
+          {
+            "es_form": "El año que viene [bebá::bebá] en España.",
+            "pl_translation": "W przyszłym roku bebá w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "bebemos",
+        "pl_word": "bebemos",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [bebemos::bebemos] bien.",
+            "pl_translation": "Myślę, że bebemos dobrze."
+          },
+          {
+            "es_form": "El año que viene [bebemos::bebemos] en España.",
+            "pl_translation": "W przyszłym roku bebemos w Hiszpanii."
+          },
+          {
+            "es_form": "[bebemos::bebemos] la próxima semana.",
+            "pl_translation": "bebemos w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "bebéis",
+        "pl_word": "bebéis",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [bebéis::bebéis] más temprano.",
+            "pl_translation": "Jutro bebéis wcześniej."
+          },
+          {
+            "es_form": "El año que viene [bebéis::bebéis] en España.",
+            "pl_translation": "W przyszłym roku bebéis w Hiszpanii."
+          },
+          {
+            "es_form": "Creo que [bebéis::bebéis] bien.",
+            "pl_translation": "Myślę, że bebéis dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "bebán",
+        "pl_word": "bebán",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [bebán::bebán] más temprano.",
+            "pl_translation": "Jutro bebán wcześniej."
+          },
+          {
+            "es_form": "Creo que [bebán::bebán] bien.",
+            "pl_translation": "Myślę, że bebán dobrze."
+          },
+          {
+            "es_form": "¿[bebán::bebán] con nosotros mañana?",
+            "pl_translation": "Czy bebán z nami jutro?"
+          }
+        ]
+      }
+    ]
+  }
+]

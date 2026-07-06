@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "El estado",
+    "pl_word": "państwo",
+    "examples": [
+      {
+        "es_form": "Guarda [el estado::państwo] en el armario.",
+        "pl_translation": "Schowaj państwo do szafy."
+      },
+      {
+        "es_form": "Necesito [el estado::państwo] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową państwo."
+      },
+      {
+        "es_form": "Compré [el estado::państwo] ayer.",
+        "pl_translation": "Kupiłem/am państwo wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El gobierno",
+    "pl_word": "rząd",
+    "examples": [
+      {
+        "es_form": "Se me rompió [el gobierno::rząd].",
+        "pl_translation": "Zepsuł mi się rząd."
+      },
+      {
+        "es_form": "[El gobierno::rząd] cuesta diez euros.",
+        "pl_translation": "rząd kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "¿Has visto [el gobierno::rząd]?",
+        "pl_translation": "Widziałeś/aś rząd?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La ley",
+    "pl_word": "prawo",
+    "examples": [
+      {
+        "es_form": "[La ley::prawo] está sobre la mesa.",
+        "pl_translation": "prawo jest na stole."
+      },
+      {
+        "es_form": "[La ley::prawo] es de madera.",
+        "pl_translation": "prawo jest z drewna."
+      },
+      {
+        "es_form": "[La ley::prawo] cuesta diez euros.",
+        "pl_translation": "prawo kosztuje dziesięć euro."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El ciudadano",
+    "pl_word": "obywatel",
+    "examples": [
+      {
+        "es_form": "Hablé con [el ciudadano::obywatel] ayer.",
+        "pl_translation": "Rozmawiałem/am wczoraj z obywatel."
+      },
+      {
+        "es_form": "Esta es [el ciudadano::obywatel] de la que hablé.",
+        "pl_translation": "To jest obywatel, o której mówiłem/am."
+      },
+      {
+        "es_form": "[El ciudadano::obywatel] trabaja aquí.",
+        "pl_translation": "obywatel tu pracuje."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La sociedad",
+    "pl_word": "społeczeństwo",
+    "examples": [
+      {
+        "es_form": "Guarda [la sociedad::społeczeństwo] en el armario.",
+        "pl_translation": "Schowaj społeczeństwo do szafy."
+      },
+      {
+        "es_form": "Compré [la sociedad::społeczeństwo] ayer.",
+        "pl_translation": "Kupiłem/am społeczeństwo wczoraj."
+      },
+      {
+        "es_form": "Necesito [la sociedad::społeczeństwo] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową społeczeństwo."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El poder",
+    "pl_word": "władza",
+    "examples": [
+      {
+        "es_form": "Compré [el poder::władza] ayer.",
+        "pl_translation": "Kupiłem/am władza wczoraj."
+      },
+      {
+        "es_form": "[El poder::władza] cuesta diez euros.",
+        "pl_translation": "władza kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "¿Has visto [el poder::władza]?",
+        "pl_translation": "Widziałeś/aś władza?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El presidente",
+    "pl_word": "prezydent",
+    "examples": [
+      {
+        "es_form": "[El presidente::prezydent] es muy amable.",
+        "pl_translation": "prezydent jest bardzo miły/a."
+      },
+      {
+        "es_form": "[El presidente::prezydent] me ayudó mucho.",
+        "pl_translation": "prezydent bardzo mi pomógł/pomogła."
+      },
+      {
+        "es_form": "Mi [hermano::brat] es [el presidente::prezydent].",
+        "pl_translation": "Mój brat jest prezydent."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El elecciones",
+    "pl_word": "wybory",
+    "examples": [
+      {
+        "es_form": "[El elecciones::wybory] es de madera.",
+        "pl_translation": "wybory jest z drewna."
+      },
+      {
+        "es_form": "Necesito [el elecciones::wybory] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową wybory."
+      },
+      {
+        "es_form": "Se me rompió [el elecciones::wybory].",
+        "pl_translation": "Zepsuł mi się wybory."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El constitución",
+    "pl_word": "konstytucja",
+    "examples": [
+      {
+        "es_form": "Compré [el constitución::konstytucja] ayer.",
+        "pl_translation": "Kupiłem/am konstytucja wczoraj."
+      },
+      {
+        "es_form": "[El constitución::konstytucja] está sobre la mesa.",
+        "pl_translation": "konstytucja jest na stole."
+      },
+      {
+        "es_form": "Guarda [el constitución::konstytucja] en el armario.",
+        "pl_translation": "Schowaj konstytucja do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La libertad",
+    "pl_word": "wolność",
+    "examples": [
+      {
+        "es_form": "[La libertad::wolność] es muy importante.",
+        "pl_translation": "wolność jest bardzo ważny/a."
+      },
+      {
+        "es_form": "Hablamos sobre [la libertad::wolność].",
+        "pl_translation": "Rozmawialiśmy o wolność."
+      },
+      {
+        "es_form": "[La libertad::wolność] es la clave del éxito.",
+        "pl_translation": "wolność jest kluczem do sukcesu."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "público",
+    "pl_word": "publiczny",
+    "examples": [
+      {
+        "es_form": "Es una persona muy [público::publiczny].",
+        "pl_translation": "To jest bardzo publiczny osoba."
+      },
+      {
+        "es_form": "Tengo una casa [pública::publiczny].",
+        "pl_translation": "Mam publiczny dom."
+      },
+      {
+        "es_form": "Este coche es [público::publiczny].",
+        "pl_translation": "Ten samochód jest publiczny."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "privado",
+    "pl_word": "prywatny",
+    "examples": [
+      {
+        "es_form": "Mi amigo es [privado::prywatny] y simpático.",
+        "pl_translation": "Mój przyjaciel jest prywatny i sympatyczny."
+      },
+      {
+        "es_form": "Se compró un vestido [privado::prywatny].",
+        "pl_translation": "Kupiła sobie prywatny sukienkę."
+      },
+      {
+        "es_form": "Nada es más [privado::prywatny] que la familia.",
+        "pl_translation": "Nic nie jest prywatny od rodziny."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "gobernar",
+    "pl_word": "rządzić",
+    "examples": [
+      {
+        "es_form": "Voy a [gobernar::rządzić] mañana.",
+        "pl_translation": "Będę rządzić jutro."
+      },
+      {
+        "es_form": "¿Puedes [gobernar::rządzić] más rápido?",
+        "pl_translation": "Możesz rządzić szybciej?"
+      },
+      {
+        "es_form": "Es importante [gobernar::rządzić] todos los días.",
+        "pl_translation": "Ważne jest rządzić codziennie."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "gobierno",
+        "pl_word": "gobierno",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [gobierno::gobierno] por la mañana.",
+            "pl_translation": "Zazwyczaj gobierno rano."
+          },
+          {
+            "es_form": "[gobierno::gobierno] como me enseñaste.",
+            "pl_translation": "gobierno tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "[gobierno::gobierno] todos los días.",
+            "pl_translation": "gobierno codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "gobiernas",
+        "pl_word": "gobiernas",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "No [gobiernas::gobiernas] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie gobiernas zbyt dobrze."
+          },
+          {
+            "es_form": "[gobiernas::gobiernas] como me enseñaste.",
+            "pl_translation": "gobiernas tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [gobiernas::gobiernas] por la mañana.",
+            "pl_translation": "Zazwyczaj gobiernas rano."
+          }
+        ]
+      },
+      {
+        "es_word": "gobierna",
+        "pl_word": "gobierna",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "No [gobierna::gobierna] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie gobierna zbyt dobrze."
+          },
+          {
+            "es_form": "¿[gobierna::gobierna] los fines de semana?",
+            "pl_translation": "Czy gobierna w weekendy?"
+          },
+          {
+            "es_form": "Normalmente [gobierna::gobierna] por la mañana.",
+            "pl_translation": "Zazwyczaj gobierna rano."
+          }
+        ]
+      },
+      {
+        "es_word": "gobernamos",
+        "pl_word": "gobernamos",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[gobernamos::gobernamos] todos los días.",
+            "pl_translation": "gobernamos codziennie."
+          },
+          {
+            "es_form": "[gobernamos::gobernamos] como me enseñaste.",
+            "pl_translation": "gobernamos tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [gobernamos::gobernamos] por la mañana.",
+            "pl_translation": "Zazwyczaj gobernamos rano."
+          }
+        ]
+      },
+      {
+        "es_word": "gobernáis",
+        "pl_word": "gobernáis",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[gobernáis::gobernáis] todos los días.",
+            "pl_translation": "gobernáis codziennie."
+          },
+          {
+            "es_form": "[gobernáis::gobernáis] como me enseñaste.",
+            "pl_translation": "gobernáis tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [gobernáis::gobernáis] por la mañana.",
+            "pl_translation": "Zazwyczaj gobernáis rano."
+          }
+        ]
+      },
+      {
+        "es_word": "gobiernan",
+        "pl_word": "gobiernan",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [gobiernan::gobiernan] con atención.",
+            "pl_translation": "Zawsze gobiernan z uwagą."
+          },
+          {
+            "es_form": "Normalmente [gobiernan::gobiernan] por la mañana.",
+            "pl_translation": "Zazwyczaj gobiernan rano."
+          },
+          {
+            "es_form": "No [gobiernan::gobiernan] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie gobiernan zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "goberné",
+        "pl_word": "goberné",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[goberné::goberné] sin parar durante horas.",
+            "pl_translation": "goberné bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "[goberné::goberné] la semana pasada.",
+            "pl_translation": "goberné w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Ayer [goberné::goberné] todo el día.",
+            "pl_translation": "Wczoraj goberné cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "gobernaste",
+        "pl_word": "gobernaste",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [gobernaste::gobernaste] todo el día.",
+            "pl_translation": "Wczoraj gobernaste cały dzień."
+          },
+          {
+            "es_form": "¿[gobernaste::gobernaste] bien el examen?",
+            "pl_translation": "Czy gobernaste dobrze egzamin?"
+          },
+          {
+            "es_form": "[gobernaste::gobernaste] sin parar durante horas.",
+            "pl_translation": "gobernaste bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "gobernó",
+        "pl_word": "gobernó",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[gobernó::gobernó] sin parar durante horas.",
+            "pl_translation": "gobernó bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "[gobernó::gobernó] la semana pasada.",
+            "pl_translation": "gobernó w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Ayer [gobernó::gobernó] todo el día.",
+            "pl_translation": "Wczoraj gobernó cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "gobernamos",
+        "pl_word": "gobernamos",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[gobernamos::gobernamos] la semana pasada.",
+            "pl_translation": "gobernamos w zeszłym tygodniu."
+          },
+          {
+            "es_form": "¿[gobernamos::gobernamos] bien el examen?",
+            "pl_translation": "Czy gobernamos dobrze egzamin?"
+          },
+          {
+            "es_form": "El mes pasado no [gobernamos::gobernamos] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie gobernamos."
+          }
+        ]
+      },
+      {
+        "es_word": "gobernasteis",
+        "pl_word": "gobernasteis",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [gobernasteis::gobernasteis] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie gobernasteis czegoś takiego."
+          },
+          {
+            "es_form": "¿[gobernasteis::gobernasteis] bien el examen?",
+            "pl_translation": "Czy gobernasteis dobrze egzamin?"
+          },
+          {
+            "es_form": "El mes pasado no [gobernasteis::gobernasteis] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie gobernasteis."
+          }
+        ]
+      },
+      {
+        "es_word": "gobernaron",
+        "pl_word": "gobernaron",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [gobernaron::gobernaron] todo el día.",
+            "pl_translation": "Wczoraj gobernaron cały dzień."
+          },
+          {
+            "es_form": "Nunca [gobernaron::gobernaron] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie gobernaron czegoś takiego."
+          },
+          {
+            "es_form": "[gobernaron::gobernaron] sin parar durante horas.",
+            "pl_translation": "gobernaron bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "gobernaré",
+        "pl_word": "gobernaré",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[gobernaré::gobernaré] con nosotros mañana?",
+            "pl_translation": "Czy gobernaré z nami jutro?"
+          },
+          {
+            "es_form": "[gobernaré::gobernaré] la próxima semana.",
+            "pl_translation": "gobernaré w przyszłym tygodniu."
+          },
+          {
+            "es_form": "El año que viene [gobernaré::gobernaré] en España.",
+            "pl_translation": "W przyszłym roku gobernaré w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "gobernarás",
+        "pl_word": "gobernarás",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[gobernarás::gobernarás] la próxima semana.",
+            "pl_translation": "gobernarás w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Mañana [gobernarás::gobernarás] más temprano.",
+            "pl_translation": "Jutro gobernarás wcześniej."
+          },
+          {
+            "es_form": "¿[gobernarás::gobernarás] con nosotros mañana?",
+            "pl_translation": "Czy gobernarás z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "gobernará",
+        "pl_word": "gobernará",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[gobernará::gobernará] la próxima semana.",
+            "pl_translation": "gobernará w przyszłym tygodniu."
+          },
+          {
+            "es_form": "El año que viene [gobernará::gobernará] en España.",
+            "pl_translation": "W przyszłym roku gobernará w Hiszpanii."
+          },
+          {
+            "es_form": "Mañana [gobernará::gobernará] más temprano.",
+            "pl_translation": "Jutro gobernará wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "gobernaremos",
+        "pl_word": "gobernaremos",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [gobernaremos::gobernaremos] más temprano.",
+            "pl_translation": "Jutro gobernaremos wcześniej."
+          },
+          {
+            "es_form": "El año que viene [gobernaremos::gobernaremos] en España.",
+            "pl_translation": "W przyszłym roku gobernaremos w Hiszpanii."
+          },
+          {
+            "es_form": "[gobernaremos::gobernaremos] la próxima semana.",
+            "pl_translation": "gobernaremos w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "gobernaréis",
+        "pl_word": "gobernaréis",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [gobernaréis::gobernaréis] bien.",
+            "pl_translation": "Myślę, że gobernaréis dobrze."
+          },
+          {
+            "es_form": "[gobernaréis::gobernaréis] la próxima semana.",
+            "pl_translation": "gobernaréis w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Te prometo que [gobernaréis::gobernaréis] a tiempo.",
+            "pl_translation": "Obiecuję ci, że gobernaréis na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "gobernarán",
+        "pl_word": "gobernarán",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [gobernarán::gobernarán] en España.",
+            "pl_translation": "W przyszłym roku gobernarán w Hiszpanii."
+          },
+          {
+            "es_form": "¿[gobernarán::gobernarán] con nosotros mañana?",
+            "pl_translation": "Czy gobernarán z nami jutro?"
+          },
+          {
+            "es_form": "[gobernarán::gobernarán] la próxima semana.",
+            "pl_translation": "gobernarán w przyszłym tygodniu."
+          }
+        ]
+      }
+    ]
+  }
+]

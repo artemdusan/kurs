@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "La olla",
+    "pl_word": "garnek",
+    "examples": [
+      {
+        "es_form": "Necesito [la olla::garnek] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową garnek."
+      },
+      {
+        "es_form": "Guarda [la olla::garnek] en el armario.",
+        "pl_translation": "Schowaj garnek do szafy."
+      },
+      {
+        "es_form": "[La olla::garnek] está sobre la mesa.",
+        "pl_translation": "garnek jest na stole."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El sartén",
+    "pl_word": "patelnia",
+    "examples": [
+      {
+        "es_form": "Necesito [el sartén::patelnia] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową patelnia."
+      },
+      {
+        "es_form": "[El sartén::patelnia] es de madera.",
+        "pl_translation": "patelnia jest z drewna."
+      },
+      {
+        "es_form": "[El sartén::patelnia] cuesta diez euros.",
+        "pl_translation": "patelnia kosztuje dziesięć euro."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El plato",
+    "pl_word": "talerz",
+    "examples": [
+      {
+        "es_form": "Necesito [el plato::talerz] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową talerz."
+      },
+      {
+        "es_form": "Guarda [el plato::talerz] en el armario.",
+        "pl_translation": "Schowaj talerz do szafy."
+      },
+      {
+        "es_form": "[El plato::talerz] es de madera.",
+        "pl_translation": "talerz jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El vaso",
+    "pl_word": "szklanka",
+    "examples": [
+      {
+        "es_form": "Guarda [el vaso::szklanka] en el armario.",
+        "pl_translation": "Schowaj szklanka do szafy."
+      },
+      {
+        "es_form": "[El vaso::szklanka] está sobre la mesa.",
+        "pl_translation": "szklanka jest na stole."
+      },
+      {
+        "es_form": "Se me rompió [el vaso::szklanka].",
+        "pl_translation": "Zepsuł mi się szklanka."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La taza",
+    "pl_word": "kubek",
+    "examples": [
+      {
+        "es_form": "Compré [la taza::kubek] ayer.",
+        "pl_translation": "Kupiłem/am kubek wczoraj."
+      },
+      {
+        "es_form": "[La taza::kubek] cuesta diez euros.",
+        "pl_translation": "kubek kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Guarda [la taza::kubek] en el armario.",
+        "pl_translation": "Schowaj kubek do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El cubiertos",
+    "pl_word": "sztućce",
+    "examples": [
+      {
+        "es_form": "[El cubiertos::sztućce] es de madera.",
+        "pl_translation": "sztućce jest z drewna."
+      },
+      {
+        "es_form": "¿Has visto [el cubiertos::sztućce]?",
+        "pl_translation": "Widziałeś/aś sztućce?"
+      },
+      {
+        "es_form": "Necesito [el cubiertos::sztućce] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową sztućce."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El cuchillo",
+    "pl_word": "nóż",
+    "examples": [
+      {
+        "es_form": "Se me rompió [el cuchillo::nóż].",
+        "pl_translation": "Zepsuł mi się nóż."
+      },
+      {
+        "es_form": "[El cuchillo::nóż] cuesta diez euros.",
+        "pl_translation": "nóż kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Necesito [el cuchillo::nóż] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową nóż."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El tenedor",
+    "pl_word": "widelec",
+    "examples": [
+      {
+        "es_form": "Necesito [el tenedor::widelec] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową widelec."
+      },
+      {
+        "es_form": "Se me rompió [el tenedor::widelec].",
+        "pl_translation": "Zepsuł mi się widelec."
+      },
+      {
+        "es_form": "¿Has visto [el tenedor::widelec]?",
+        "pl_translation": "Widziałeś/aś widelec?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La cuchara",
+    "pl_word": "łyżka",
+    "examples": [
+      {
+        "es_form": "[La cuchara::łyżka] es de madera.",
+        "pl_translation": "łyżka jest z drewna."
+      },
+      {
+        "es_form": "¿Has visto [la cuchara::łyżka]?",
+        "pl_translation": "Widziałeś/aś łyżka?"
+      },
+      {
+        "es_form": "Guarda [la cuchara::łyżka] en el armario.",
+        "pl_translation": "Schowaj łyżka do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El horno",
+    "pl_word": "piekarnik",
+    "examples": [
+      {
+        "es_form": "Guarda [el horno::piekarnik] en el armario.",
+        "pl_translation": "Schowaj piekarnik do szafy."
+      },
+      {
+        "es_form": "Necesito [el horno::piekarnik] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową piekarnik."
+      },
+      {
+        "es_form": "[El horno::piekarnik] está sobre la mesa.",
+        "pl_translation": "piekarnik jest na stole."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "afilado",
+    "pl_word": "ostry",
+    "examples": [
+      {
+        "es_form": "Hace un día [afilado::ostry].",
+        "pl_translation": "Jest ostry dzień."
+      },
+      {
+        "es_form": "Nada es más [afilado::ostry] que la familia.",
+        "pl_translation": "Nic nie jest ostry od rodziny."
+      },
+      {
+        "es_form": "El examen fue [afilado::ostry].",
+        "pl_translation": "Egzamin był ostry."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "caliente",
+    "pl_word": "gorący",
+    "examples": [
+      {
+        "es_form": "Hace un día [caliente::gorący].",
+        "pl_translation": "Jest gorący dzień."
+      },
+      {
+        "es_form": "Este coche es [caliente::gorący].",
+        "pl_translation": "Ten samochód jest gorący."
+      },
+      {
+        "es_form": "La comida está [caliente::gorący].",
+        "pl_translation": "Jedzenie jest gorący."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "cocinar",
+    "pl_word": "gotować",
+    "examples": [
+      {
+        "es_form": "Es importante [cocinar::gotować] todos los días.",
+        "pl_translation": "Ważne jest gotować codziennie."
+      },
+      {
+        "es_form": "Voy a [cocinar::gotować] mañana.",
+        "pl_translation": "Będę gotować jutro."
+      },
+      {
+        "es_form": "Hay que [cocinar::gotować] con cuidado.",
+        "pl_translation": "Trzeba gotować ostrożnie."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "cocino",
+        "pl_word": "cocino",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "No [cocino::cocino] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie cocino zbyt dobrze."
+          },
+          {
+            "es_form": "¿[cocino::cocino] los fines de semana?",
+            "pl_translation": "Czy cocino w weekendy?"
+          },
+          {
+            "es_form": "Normalmente [cocino::cocino] por la mañana.",
+            "pl_translation": "Zazwyczaj cocino rano."
+          }
+        ]
+      },
+      {
+        "es_word": "cocinas",
+        "pl_word": "cocinas",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [cocinas::cocinas] por la mañana.",
+            "pl_translation": "Zazwyczaj cocinas rano."
+          },
+          {
+            "es_form": "Siempre [cocinas::cocinas] con atención.",
+            "pl_translation": "Zawsze cocinas z uwagą."
+          },
+          {
+            "es_form": "¿[cocinas::cocinas] los fines de semana?",
+            "pl_translation": "Czy cocinas w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "cocina",
+        "pl_word": "cocina",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [cocina::cocina] por la mañana.",
+            "pl_translation": "Zazwyczaj cocina rano."
+          },
+          {
+            "es_form": "¿[cocina::cocina] los fines de semana?",
+            "pl_translation": "Czy cocina w weekendy?"
+          },
+          {
+            "es_form": "Siempre [cocina::cocina] con atención.",
+            "pl_translation": "Zawsze cocina z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "cocinamos",
+        "pl_word": "cocinamos",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "No [cocinamos::cocinamos] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie cocinamos zbyt dobrze."
+          },
+          {
+            "es_form": "Normalmente [cocinamos::cocinamos] por la mañana.",
+            "pl_translation": "Zazwyczaj cocinamos rano."
+          },
+          {
+            "es_form": "Siempre [cocinamos::cocinamos] con atención.",
+            "pl_translation": "Zawsze cocinamos z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "cocináis",
+        "pl_word": "cocináis",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "No [cocináis::cocináis] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie cocináis zbyt dobrze."
+          },
+          {
+            "es_form": "Normalmente [cocináis::cocináis] por la mañana.",
+            "pl_translation": "Zazwyczaj cocináis rano."
+          },
+          {
+            "es_form": "[cocináis::cocináis] como me enseñaste.",
+            "pl_translation": "cocináis tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "cocinan",
+        "pl_word": "cocinan",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[cocinan::cocinan] los fines de semana?",
+            "pl_translation": "Czy cocinan w weekendy?"
+          },
+          {
+            "es_form": "[cocinan::cocinan] todos los días.",
+            "pl_translation": "cocinan codziennie."
+          },
+          {
+            "es_form": "[cocinan::cocinan] como me enseñaste.",
+            "pl_translation": "cocinan tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "cociné",
+        "pl_word": "cociné",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[cociné::cociné] bien el examen?",
+            "pl_translation": "Czy cociné dobrze egzamin?"
+          },
+          {
+            "es_form": "[cociné::cociné] la semana pasada.",
+            "pl_translation": "cociné w zeszłym tygodniu."
+          },
+          {
+            "es_form": "El mes pasado no [cociné::cociné] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie cociné."
+          }
+        ]
+      },
+      {
+        "es_word": "cocinaste",
+        "pl_word": "cocinaste",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [cocinaste::cocinaste] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie cocinaste."
+          },
+          {
+            "es_form": "¿[cocinaste::cocinaste] bien el examen?",
+            "pl_translation": "Czy cocinaste dobrze egzamin?"
+          },
+          {
+            "es_form": "[cocinaste::cocinaste] la semana pasada.",
+            "pl_translation": "cocinaste w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "cocinó",
+        "pl_word": "cocinó",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [cocinó::cocinó] todo el día.",
+            "pl_translation": "Wczoraj cocinó cały dzień."
+          },
+          {
+            "es_form": "[cocinó::cocinó] la semana pasada.",
+            "pl_translation": "cocinó w zeszłym tygodniu."
+          },
+          {
+            "es_form": "¿[cocinó::cocinó] bien el examen?",
+            "pl_translation": "Czy cocinó dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "cocinamos",
+        "pl_word": "cocinamos",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [cocinamos::cocinamos] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie cocinamos."
+          },
+          {
+            "es_form": "¿[cocinamos::cocinamos] bien el examen?",
+            "pl_translation": "Czy cocinamos dobrze egzamin?"
+          },
+          {
+            "es_form": "Ayer [cocinamos::cocinamos] todo el día.",
+            "pl_translation": "Wczoraj cocinamos cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "cocinasteis",
+        "pl_word": "cocinasteis",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [cocinasteis::cocinasteis] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie cocinasteis."
+          },
+          {
+            "es_form": "[cocinasteis::cocinasteis] la semana pasada.",
+            "pl_translation": "cocinasteis w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Nunca [cocinasteis::cocinasteis] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie cocinasteis czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "cocinaron",
+        "pl_word": "cocinaron",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [cocinaron::cocinaron] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie cocinaron czegoś takiego."
+          },
+          {
+            "es_form": "¿[cocinaron::cocinaron] bien el examen?",
+            "pl_translation": "Czy cocinaron dobrze egzamin?"
+          },
+          {
+            "es_form": "[cocinaron::cocinaron] sin parar durante horas.",
+            "pl_translation": "cocinaron bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "cociné",
+        "pl_word": "cociné",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[cociné::cociné] con nosotros mañana?",
+            "pl_translation": "Czy cociné z nami jutro?"
+          },
+          {
+            "es_form": "[cociné::cociné] la próxima semana.",
+            "pl_translation": "cociné w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Creo que [cociné::cociné] bien.",
+            "pl_translation": "Myślę, że cociné dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "cocinás",
+        "pl_word": "cocinás",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [cocinás::cocinás] más temprano.",
+            "pl_translation": "Jutro cocinás wcześniej."
+          },
+          {
+            "es_form": "[cocinás::cocinás] la próxima semana.",
+            "pl_translation": "cocinás w przyszłym tygodniu."
+          },
+          {
+            "es_form": "El año que viene [cocinás::cocinás] en España.",
+            "pl_translation": "W przyszłym roku cocinás w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "cociná",
+        "pl_word": "cociná",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [cociná::cociná] más temprano.",
+            "pl_translation": "Jutro cociná wcześniej."
+          },
+          {
+            "es_form": "Creo que [cociná::cociná] bien.",
+            "pl_translation": "Myślę, że cociná dobrze."
+          },
+          {
+            "es_form": "El año que viene [cociná::cociná] en España.",
+            "pl_translation": "W przyszłym roku cociná w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "cocinemos",
+        "pl_word": "cocinemos",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[cocinemos::cocinemos] con nosotros mañana?",
+            "pl_translation": "Czy cocinemos z nami jutro?"
+          },
+          {
+            "es_form": "Creo que [cocinemos::cocinemos] bien.",
+            "pl_translation": "Myślę, że cocinemos dobrze."
+          },
+          {
+            "es_form": "El año que viene [cocinemos::cocinemos] en España.",
+            "pl_translation": "W przyszłym roku cocinemos w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "cocinéis",
+        "pl_word": "cocinéis",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [cocinéis::cocinéis] bien.",
+            "pl_translation": "Myślę, że cocinéis dobrze."
+          },
+          {
+            "es_form": "El año que viene [cocinéis::cocinéis] en España.",
+            "pl_translation": "W przyszłym roku cocinéis w Hiszpanii."
+          },
+          {
+            "es_form": "Te prometo que [cocinéis::cocinéis] a tiempo.",
+            "pl_translation": "Obiecuję ci, że cocinéis na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "cocinán",
+        "pl_word": "cocinán",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[cocinán::cocinán] con nosotros mañana?",
+            "pl_translation": "Czy cocinán z nami jutro?"
+          },
+          {
+            "es_form": "[cocinán::cocinán] la próxima semana.",
+            "pl_translation": "cocinán w przyszłym tygodniu."
+          },
+          {
+            "es_form": "El año que viene [cocinán::cocinán] en España.",
+            "pl_translation": "W przyszłym roku cocinán w Hiszpanii."
+          }
+        ]
+      }
+    ]
+  }
+]

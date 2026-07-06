@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "El enfermero",
+    "pl_word": "pielęgniarz",
+    "examples": [
+      {
+        "es_form": "Esta es [el enfermero::pielęgniarz] de la que hablé.",
+        "pl_translation": "To jest pielęgniarz, o której mówiłem/am."
+      },
+      {
+        "es_form": "[El enfermero::pielęgniarz] vive en mi calle.",
+        "pl_translation": "pielęgniarz mieszka na mojej ulicy."
+      },
+      {
+        "es_form": "[El enfermero::pielęgniarz] trabaja aquí.",
+        "pl_translation": "pielęgniarz tu pracuje."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La enfermera",
+    "pl_word": "pielęgniarka",
+    "examples": [
+      {
+        "es_form": "Conozco a [la enfermera::pielęgniarka].",
+        "pl_translation": "Znam pielęgniarka."
+      },
+      {
+        "es_form": "Mi [hermano::brat] es [la enfermera::pielęgniarka].",
+        "pl_translation": "Mój brat jest pielęgniarka."
+      },
+      {
+        "es_form": "[La enfermera::pielęgniarka] vive en mi calle.",
+        "pl_translation": "pielęgniarka mieszka na mojej ulicy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La clínica",
+    "pl_word": "przychodnia",
+    "examples": [
+      {
+        "es_form": "[La clínica::przychodnia] es muy grande.",
+        "pl_translation": "przychodnia jest bardzo duży/a."
+      },
+      {
+        "es_form": "Voy a [la clínica::przychodnia] cada día.",
+        "pl_translation": "Chodzę do przychodnia codziennie."
+      },
+      {
+        "es_form": "[La clínica::przychodnia] abre a las ocho.",
+        "pl_translation": "przychodnia otwiera się o ósmej."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La análisis",
+    "pl_word": "badanie",
+    "examples": [
+      {
+        "es_form": "¿Quieres [la análisis::badanie]?",
+        "pl_translation": "Chcesz badanie?"
+      },
+      {
+        "es_form": "Me gusta mucho [la análisis::badanie].",
+        "pl_translation": "Bardzo lubię badanie."
+      },
+      {
+        "es_form": "[La análisis::badanie] se hace con leche.",
+        "pl_translation": "badanie robi się z mleka."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La síntoma",
+    "pl_word": "objaw",
+    "examples": [
+      {
+        "es_form": "[La síntoma::objaw] cuesta diez euros.",
+        "pl_translation": "objaw kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Compré [la síntoma::objaw] ayer.",
+        "pl_translation": "Kupiłem/am objaw wczoraj."
+      },
+      {
+        "es_form": "Se me rompió [la síntoma::objaw].",
+        "pl_translation": "Zepsuł mi się objaw."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El tos",
+    "pl_word": "kaszel",
+    "examples": [
+      {
+        "es_form": "[El tos::kaszel] cuesta diez euros.",
+        "pl_translation": "kaszel kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Guarda [el tos::kaszel] en el armario.",
+        "pl_translation": "Schowaj kaszel do szafy."
+      },
+      {
+        "es_form": "¿Has visto [el tos::kaszel]?",
+        "pl_translation": "Widziałeś/aś kaszel?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El resfriado",
+    "pl_word": "katar, przeziębienie",
+    "examples": [
+      {
+        "es_form": "Necesito [el resfriado::katar, przeziębienie] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową katar, przeziębienie."
+      },
+      {
+        "es_form": "Compré [el resfriado::katar, przeziębienie] ayer.",
+        "pl_translation": "Kupiłem/am katar, przeziębienie wczoraj."
+      },
+      {
+        "es_form": "[El resfriado::katar, przeziębienie] está sobre la mesa.",
+        "pl_translation": "katar, przeziębienie jest na stole."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El gripe",
+    "pl_word": "grypa",
+    "examples": [
+      {
+        "es_form": "Tienes que aceptar [el gripe::grypa].",
+        "pl_translation": "Musisz zaakceptować grypa."
+      },
+      {
+        "es_form": "[El gripe::grypa] es muy importante.",
+        "pl_translation": "grypa jest bardzo ważny/a."
+      },
+      {
+        "es_form": "[El gripe::grypa] cambió mi vida.",
+        "pl_translation": "grypa zmienił/a moje życie."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La alergia",
+    "pl_word": "alergia",
+    "examples": [
+      {
+        "es_form": "Hablamos sobre [la alergia::alergia].",
+        "pl_translation": "Rozmawialiśmy o alergia."
+      },
+      {
+        "es_form": "Tienes que aceptar [la alergia::alergia].",
+        "pl_translation": "Musisz zaakceptować alergia."
+      },
+      {
+        "es_form": "[La alergia::alergia] cambió mi vida.",
+        "pl_translation": "alergia zmienił/a moje życie."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El inyección",
+    "pl_word": "zastrzyk",
+    "examples": [
+      {
+        "es_form": "Se me rompió [el inyección::zastrzyk].",
+        "pl_translation": "Zepsuł mi się zastrzyk."
+      },
+      {
+        "es_form": "Compré [el inyección::zastrzyk] ayer.",
+        "pl_translation": "Kupiłem/am zastrzyk wczoraj."
+      },
+      {
+        "es_form": "¿Has visto [el inyección::zastrzyk]?",
+        "pl_translation": "Widziałeś/aś zastrzyk?"
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "resistente",
+    "pl_word": "odporny",
+    "examples": [
+      {
+        "es_form": "Se compró un vestido [resistente::odporny].",
+        "pl_translation": "Kupiła sobie odporny sukienkę."
+      },
+      {
+        "es_form": "Hace un día [resistente::odporny].",
+        "pl_translation": "Jest odporny dzień."
+      },
+      {
+        "es_form": "Tengo una casa [resistente::odporny].",
+        "pl_translation": "Mam odporny dom."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "sensible",
+    "pl_word": "wrażliwy",
+    "examples": [
+      {
+        "es_form": "Mi amigo es [sensible::wrażliwy] y simpático.",
+        "pl_translation": "Mój przyjaciel jest wrażliwy i sympatyczny."
+      },
+      {
+        "es_form": "Es un lugar [sensible::wrażliwy] para vivir.",
+        "pl_translation": "To jest wrażliwy miejsce do życia."
+      },
+      {
+        "es_form": "La comida está [sensible::wrażliwy].",
+        "pl_translation": "Jedzenie jest wrażliwy."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "curar",
+    "pl_word": "leczyć",
+    "examples": [
+      {
+        "es_form": "Quiero [curar::leczyć] ahora.",
+        "pl_translation": "Chcę leczyć teraz."
+      },
+      {
+        "es_form": "Hay que [curar::leczyć] con cuidado.",
+        "pl_translation": "Trzeba leczyć ostrożnie."
+      },
+      {
+        "es_form": "Prefiero [curar::leczyć] en casa.",
+        "pl_translation": "Wolę leczyć w domu."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "curo",
+        "pl_word": "curo",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[curo::curo] los fines de semana?",
+            "pl_translation": "Czy curo w weekendy?"
+          },
+          {
+            "es_form": "Normalmente [curo::curo] por la mañana.",
+            "pl_translation": "Zazwyczaj curo rano."
+          },
+          {
+            "es_form": "Siempre [curo::curo] con atención.",
+            "pl_translation": "Zawsze curo z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "curas",
+        "pl_word": "curas",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "No [curas::curas] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie curas zbyt dobrze."
+          },
+          {
+            "es_form": "[curas::curas] como me enseñaste.",
+            "pl_translation": "curas tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "[curas::curas] todos los días.",
+            "pl_translation": "curas codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "cura",
+        "pl_word": "cura",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "No [cura::cura] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie cura zbyt dobrze."
+          },
+          {
+            "es_form": "Normalmente [cura::cura] por la mañana.",
+            "pl_translation": "Zazwyczaj cura rano."
+          },
+          {
+            "es_form": "[cura::cura] como me enseñaste.",
+            "pl_translation": "cura tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "curamos",
+        "pl_word": "curamos",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[curamos::curamos] los fines de semana?",
+            "pl_translation": "Czy curamos w weekendy?"
+          },
+          {
+            "es_form": "No [curamos::curamos] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie curamos zbyt dobrze."
+          },
+          {
+            "es_form": "Siempre [curamos::curamos] con atención.",
+            "pl_translation": "Zawsze curamos z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "curáis",
+        "pl_word": "curáis",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[curáis::curáis] como me enseñaste.",
+            "pl_translation": "curáis tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [curáis::curáis] por la mañana.",
+            "pl_translation": "Zazwyczaj curáis rano."
+          },
+          {
+            "es_form": "[curáis::curáis] todos los días.",
+            "pl_translation": "curáis codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "curan",
+        "pl_word": "curan",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "No [curan::curan] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie curan zbyt dobrze."
+          },
+          {
+            "es_form": "¿[curan::curan] los fines de semana?",
+            "pl_translation": "Czy curan w weekendy?"
+          },
+          {
+            "es_form": "Normalmente [curan::curan] por la mañana.",
+            "pl_translation": "Zazwyczaj curan rano."
+          }
+        ]
+      },
+      {
+        "es_word": "curé",
+        "pl_word": "curé",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [curé::curé] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie curé."
+          },
+          {
+            "es_form": "[curé::curé] sin parar durante horas.",
+            "pl_translation": "curé bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "[curé::curé] la semana pasada.",
+            "pl_translation": "curé w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "curaste",
+        "pl_word": "curaste",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[curaste::curaste] sin parar durante horas.",
+            "pl_translation": "curaste bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "El mes pasado no [curaste::curaste] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie curaste."
+          },
+          {
+            "es_form": "[curaste::curaste] la semana pasada.",
+            "pl_translation": "curaste w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "curó",
+        "pl_word": "curó",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [curó::curó] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie curó."
+          },
+          {
+            "es_form": "¿[curó::curó] bien el examen?",
+            "pl_translation": "Czy curó dobrze egzamin?"
+          },
+          {
+            "es_form": "[curó::curó] sin parar durante horas.",
+            "pl_translation": "curó bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "curamos",
+        "pl_word": "curamos",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [curamos::curamos] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie curamos."
+          },
+          {
+            "es_form": "[curamos::curamos] la semana pasada.",
+            "pl_translation": "curamos w zeszłym tygodniu."
+          },
+          {
+            "es_form": "¿[curamos::curamos] bien el examen?",
+            "pl_translation": "Czy curamos dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "curasteis",
+        "pl_word": "curasteis",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[curasteis::curasteis] bien el examen?",
+            "pl_translation": "Czy curasteis dobrze egzamin?"
+          },
+          {
+            "es_form": "[curasteis::curasteis] la semana pasada.",
+            "pl_translation": "curasteis w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Nunca [curasteis::curasteis] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie curasteis czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "curaron",
+        "pl_word": "curaron",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [curaron::curaron] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie curaron."
+          },
+          {
+            "es_form": "¿[curaron::curaron] bien el examen?",
+            "pl_translation": "Czy curaron dobrze egzamin?"
+          },
+          {
+            "es_form": "[curaron::curaron] la semana pasada.",
+            "pl_translation": "curaron w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "curé",
+        "pl_word": "curé",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[curé::curé] con nosotros mañana?",
+            "pl_translation": "Czy curé z nami jutro?"
+          },
+          {
+            "es_form": "[curé::curé] la próxima semana.",
+            "pl_translation": "curé w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Te prometo que [curé::curé] a tiempo.",
+            "pl_translation": "Obiecuję ci, że curé na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "curás",
+        "pl_word": "curás",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[curás::curás] la próxima semana.",
+            "pl_translation": "curás w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Mañana [curás::curás] más temprano.",
+            "pl_translation": "Jutro curás wcześniej."
+          },
+          {
+            "es_form": "Te prometo que [curás::curás] a tiempo.",
+            "pl_translation": "Obiecuję ci, że curás na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "curá",
+        "pl_word": "curá",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [curá::curá] en España.",
+            "pl_translation": "W przyszłym roku curá w Hiszpanii."
+          },
+          {
+            "es_form": "[curá::curá] la próxima semana.",
+            "pl_translation": "curá w przyszłym tygodniu."
+          },
+          {
+            "es_form": "¿[curá::curá] con nosotros mañana?",
+            "pl_translation": "Czy curá z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "curemos",
+        "pl_word": "curemos",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [curemos::curemos] bien.",
+            "pl_translation": "Myślę, że curemos dobrze."
+          },
+          {
+            "es_form": "[curemos::curemos] la próxima semana.",
+            "pl_translation": "curemos w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Te prometo que [curemos::curemos] a tiempo.",
+            "pl_translation": "Obiecuję ci, że curemos na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "curéis",
+        "pl_word": "curéis",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[curéis::curéis] la próxima semana.",
+            "pl_translation": "curéis w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Creo que [curéis::curéis] bien.",
+            "pl_translation": "Myślę, że curéis dobrze."
+          },
+          {
+            "es_form": "Mañana [curéis::curéis] más temprano.",
+            "pl_translation": "Jutro curéis wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "curán",
+        "pl_word": "curán",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[curán::curán] la próxima semana.",
+            "pl_translation": "curán w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Creo que [curán::curán] bien.",
+            "pl_translation": "Myślę, że curán dobrze."
+          },
+          {
+            "es_form": "Te prometo que [curán::curán] a tiempo.",
+            "pl_translation": "Obiecuję ci, że curán na czas."
+          }
+        ]
+      }
+    ]
+  }
+]

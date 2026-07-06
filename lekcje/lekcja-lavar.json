@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "La manzana",
+    "pl_word": "jabłko",
+    "examples": [
+      {
+        "es_form": "¿Quieres [la manzana::jabłko]?",
+        "pl_translation": "Chcesz jabłko?"
+      },
+      {
+        "es_form": "Compramos [la manzana::jabłko] en el mercado.",
+        "pl_translation": "Kupiliśmy jabłko na targu."
+      },
+      {
+        "es_form": "[La manzana::jabłko] se hace con leche.",
+        "pl_translation": "jabłko robi się z mleka."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El plátano",
+    "pl_word": "banan",
+    "examples": [
+      {
+        "es_form": "Me gusta mucho [el plátano::banan].",
+        "pl_translation": "Bardzo lubię banan."
+      },
+      {
+        "es_form": "[El plátano::banan] es típico de España.",
+        "pl_translation": "banan jest typowy/a dla Hiszpanii."
+      },
+      {
+        "es_form": "¿Quieres [el plátano::banan]?",
+        "pl_translation": "Chcesz banan?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La naranja",
+    "pl_word": "pomarańcza",
+    "examples": [
+      {
+        "es_form": "Me gusta mucho [la naranja::pomarańcza].",
+        "pl_translation": "Bardzo lubię pomarańcza."
+      },
+      {
+        "es_form": "[La naranja::pomarańcza] es típico de España.",
+        "pl_translation": "pomarańcza jest typowy/a dla Hiszpanii."
+      },
+      {
+        "es_form": "¿Quieres [la naranja::pomarańcza]?",
+        "pl_translation": "Chcesz pomarańcza?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El limón",
+    "pl_word": "cytryna",
+    "examples": [
+      {
+        "es_form": "¿Quieres [el limón::cytryna]?",
+        "pl_translation": "Chcesz cytryna?"
+      },
+      {
+        "es_form": "[El limón::cytryna] se hace con leche.",
+        "pl_translation": "cytryna robi się z mleka."
+      },
+      {
+        "es_form": "[El limón::cytryna] es típico de España.",
+        "pl_translation": "cytryna jest typowy/a dla Hiszpanii."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La fresa",
+    "pl_word": "truskawka",
+    "examples": [
+      {
+        "es_form": "Compramos [la fresa::truskawka] en el mercado.",
+        "pl_translation": "Kupiliśmy truskawka na targu."
+      },
+      {
+        "es_form": "Me gusta mucho [la fresa::truskawka].",
+        "pl_translation": "Bardzo lubię truskawka."
+      },
+      {
+        "es_form": "¿Quieres [la fresa::truskawka]?",
+        "pl_translation": "Chcesz truskawka?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La patata",
+    "pl_word": "ziemniak",
+    "examples": [
+      {
+        "es_form": "[La patata::ziemniak] es típico de España.",
+        "pl_translation": "ziemniak jest typowy/a dla Hiszpanii."
+      },
+      {
+        "es_form": "¿Quieres [la patata::ziemniak]?",
+        "pl_translation": "Chcesz ziemniak?"
+      },
+      {
+        "es_form": "[La patata::ziemniak] está muy rico.",
+        "pl_translation": "ziemniak jest bardzo smaczny/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La zanahoria",
+    "pl_word": "marchewka",
+    "examples": [
+      {
+        "es_form": "Compramos [la zanahoria::marchewka] en el mercado.",
+        "pl_translation": "Kupiliśmy marchewka na targu."
+      },
+      {
+        "es_form": "Me gusta mucho [la zanahoria::marchewka].",
+        "pl_translation": "Bardzo lubię marchewka."
+      },
+      {
+        "es_form": "[La zanahoria::marchewka] se hace con leche.",
+        "pl_translation": "marchewka robi się z mleka."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La cebolla",
+    "pl_word": "cebula",
+    "examples": [
+      {
+        "es_form": "Compramos [la cebolla::cebula] en el mercado.",
+        "pl_translation": "Kupiliśmy cebula na targu."
+      },
+      {
+        "es_form": "[La cebolla::cebula] está muy rico.",
+        "pl_translation": "cebula jest bardzo smaczny/a."
+      },
+      {
+        "es_form": "[La cebolla::cebula] se hace con leche.",
+        "pl_translation": "cebula robi się z mleka."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El tomate",
+    "pl_word": "pomidor",
+    "examples": [
+      {
+        "es_form": "[El tomate::pomidor] es típico de España.",
+        "pl_translation": "pomidor jest typowy/a dla Hiszpanii."
+      },
+      {
+        "es_form": "[El tomate::pomidor] se hace con leche.",
+        "pl_translation": "pomidor robi się z mleka."
+      },
+      {
+        "es_form": "Me gusta mucho [el tomate::pomidor].",
+        "pl_translation": "Bardzo lubię pomidor."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El pepino",
+    "pl_word": "ogórek",
+    "examples": [
+      {
+        "es_form": "[El pepino::ogórek] es típico de España.",
+        "pl_translation": "ogórek jest typowy/a dla Hiszpanii."
+      },
+      {
+        "es_form": "¿Quieres [el pepino::ogórek]?",
+        "pl_translation": "Chcesz ogórek?"
+      },
+      {
+        "es_form": "[El pepino::ogórek] se hace con leche.",
+        "pl_translation": "ogórek robi się z mleka."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "fresco",
+    "pl_word": "świeży",
+    "examples": [
+      {
+        "es_form": "Este coche es [fresco::świeży].",
+        "pl_translation": "Ten samochód jest świeży."
+      },
+      {
+        "es_form": "Tengo una casa [fresca::świeży].",
+        "pl_translation": "Mam świeży dom."
+      },
+      {
+        "es_form": "Nada es más [fresco::świeży] que la familia.",
+        "pl_translation": "Nic nie jest świeży od rodziny."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "maduro",
+    "pl_word": "dojrzały",
+    "examples": [
+      {
+        "es_form": "La comida está [madura::dojrzały].",
+        "pl_translation": "Jedzenie jest dojrzały."
+      },
+      {
+        "es_form": "Hace un día [maduro::dojrzały].",
+        "pl_translation": "Jest dojrzały dzień."
+      },
+      {
+        "es_form": "Mi amigo es [maduro::dojrzały] y simpático.",
+        "pl_translation": "Mój przyjaciel jest dojrzały i sympatyczny."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "lavar",
+    "pl_word": "myć",
+    "examples": [
+      {
+        "es_form": "Me gusta [lavar::myć] por la mañana.",
+        "pl_translation": "Lubię myć rano."
+      },
+      {
+        "es_form": "Voy a [lavar::myć] mañana.",
+        "pl_translation": "Będę myć jutro."
+      },
+      {
+        "es_form": "Hay que [lavar::myć] con cuidado.",
+        "pl_translation": "Trzeba myć ostrożnie."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "lavo",
+        "pl_word": "lavo",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "No [lavo::lavo] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie lavo zbyt dobrze."
+          },
+          {
+            "es_form": "Normalmente [lavo::lavo] por la mañana.",
+            "pl_translation": "Zazwyczaj lavo rano."
+          },
+          {
+            "es_form": "¿[lavo::lavo] los fines de semana?",
+            "pl_translation": "Czy lavo w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "lavas",
+        "pl_word": "lavas",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "No [lavas::lavas] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie lavas zbyt dobrze."
+          },
+          {
+            "es_form": "¿[lavas::lavas] los fines de semana?",
+            "pl_translation": "Czy lavas w weekendy?"
+          },
+          {
+            "es_form": "[lavas::lavas] como me enseñaste.",
+            "pl_translation": "lavas tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "lava",
+        "pl_word": "lava",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "No [lava::lava] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie lava zbyt dobrze."
+          },
+          {
+            "es_form": "¿[lava::lava] los fines de semana?",
+            "pl_translation": "Czy lava w weekendy?"
+          },
+          {
+            "es_form": "Normalmente [lava::lava] por la mañana.",
+            "pl_translation": "Zazwyczaj lava rano."
+          }
+        ]
+      },
+      {
+        "es_word": "lavamos",
+        "pl_word": "lavamos",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [lavamos::lavamos] con atención.",
+            "pl_translation": "Zawsze lavamos z uwagą."
+          },
+          {
+            "es_form": "[lavamos::lavamos] como me enseñaste.",
+            "pl_translation": "lavamos tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "¿[lavamos::lavamos] los fines de semana?",
+            "pl_translation": "Czy lavamos w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "laváis",
+        "pl_word": "laváis",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[laváis::laváis] los fines de semana?",
+            "pl_translation": "Czy laváis w weekendy?"
+          },
+          {
+            "es_form": "[laváis::laváis] como me enseñaste.",
+            "pl_translation": "laváis tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [laváis::laváis] por la mañana.",
+            "pl_translation": "Zazwyczaj laváis rano."
+          }
+        ]
+      },
+      {
+        "es_word": "lavan",
+        "pl_word": "lavan",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [lavan::lavan] por la mañana.",
+            "pl_translation": "Zazwyczaj lavan rano."
+          },
+          {
+            "es_form": "[lavan::lavan] todos los días.",
+            "pl_translation": "lavan codziennie."
+          },
+          {
+            "es_form": "[lavan::lavan] como me enseñaste.",
+            "pl_translation": "lavan tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "lavé",
+        "pl_word": "lavé",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [lavé::lavé] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie lavé czegoś takiego."
+          },
+          {
+            "es_form": "El mes pasado no [lavé::lavé] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie lavé."
+          },
+          {
+            "es_form": "[lavé::lavé] la semana pasada.",
+            "pl_translation": "lavé w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "lavaste",
+        "pl_word": "lavaste",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [lavaste::lavaste] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie lavaste czegoś takiego."
+          },
+          {
+            "es_form": "[lavaste::lavaste] sin parar durante horas.",
+            "pl_translation": "lavaste bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Ayer [lavaste::lavaste] todo el día.",
+            "pl_translation": "Wczoraj lavaste cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "lavó",
+        "pl_word": "lavó",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[lavó::lavó] sin parar durante horas.",
+            "pl_translation": "lavó bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [lavó::lavó] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie lavó czegoś takiego."
+          },
+          {
+            "es_form": "¿[lavó::lavó] bien el examen?",
+            "pl_translation": "Czy lavó dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "lavamos",
+        "pl_word": "lavamos",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [lavamos::lavamos] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie lavamos."
+          },
+          {
+            "es_form": "¿[lavamos::lavamos] bien el examen?",
+            "pl_translation": "Czy lavamos dobrze egzamin?"
+          },
+          {
+            "es_form": "Ayer [lavamos::lavamos] todo el día.",
+            "pl_translation": "Wczoraj lavamos cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "lavasteis",
+        "pl_word": "lavasteis",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [lavasteis::lavasteis] todo el día.",
+            "pl_translation": "Wczoraj lavasteis cały dzień."
+          },
+          {
+            "es_form": "El mes pasado no [lavasteis::lavasteis] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie lavasteis."
+          },
+          {
+            "es_form": "[lavasteis::lavasteis] la semana pasada.",
+            "pl_translation": "lavasteis w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "lavaron",
+        "pl_word": "lavaron",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[lavaron::lavaron] sin parar durante horas.",
+            "pl_translation": "lavaron bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [lavaron::lavaron] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie lavaron czegoś takiego."
+          },
+          {
+            "es_form": "[lavaron::lavaron] la semana pasada.",
+            "pl_translation": "lavaron w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "lavé",
+        "pl_word": "lavé",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [lavé::lavé] bien.",
+            "pl_translation": "Myślę, że lavé dobrze."
+          },
+          {
+            "es_form": "El año que viene [lavé::lavé] en España.",
+            "pl_translation": "W przyszłym roku lavé w Hiszpanii."
+          },
+          {
+            "es_form": "Te prometo que [lavé::lavé] a tiempo.",
+            "pl_translation": "Obiecuję ci, że lavé na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "lavás",
+        "pl_word": "lavás",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[lavás::lavás] con nosotros mañana?",
+            "pl_translation": "Czy lavás z nami jutro?"
+          },
+          {
+            "es_form": "Te prometo que [lavás::lavás] a tiempo.",
+            "pl_translation": "Obiecuję ci, że lavás na czas."
+          },
+          {
+            "es_form": "[lavás::lavás] la próxima semana.",
+            "pl_translation": "lavás w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "lavá",
+        "pl_word": "lavá",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [lavá::lavá] en España.",
+            "pl_translation": "W przyszłym roku lavá w Hiszpanii."
+          },
+          {
+            "es_form": "Mañana [lavá::lavá] más temprano.",
+            "pl_translation": "Jutro lavá wcześniej."
+          },
+          {
+            "es_form": "Creo que [lavá::lavá] bien.",
+            "pl_translation": "Myślę, że lavá dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "lavemos",
+        "pl_word": "lavemos",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [lavemos::lavemos] más temprano.",
+            "pl_translation": "Jutro lavemos wcześniej."
+          },
+          {
+            "es_form": "El año que viene [lavemos::lavemos] en España.",
+            "pl_translation": "W przyszłym roku lavemos w Hiszpanii."
+          },
+          {
+            "es_form": "Creo que [lavemos::lavemos] bien.",
+            "pl_translation": "Myślę, że lavemos dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "lavéis",
+        "pl_word": "lavéis",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [lavéis::lavéis] más temprano.",
+            "pl_translation": "Jutro lavéis wcześniej."
+          },
+          {
+            "es_form": "Te prometo que [lavéis::lavéis] a tiempo.",
+            "pl_translation": "Obiecuję ci, że lavéis na czas."
+          },
+          {
+            "es_form": "[lavéis::lavéis] la próxima semana.",
+            "pl_translation": "lavéis w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "laván",
+        "pl_word": "laván",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [laván::laván] en España.",
+            "pl_translation": "W przyszłym roku laván w Hiszpanii."
+          },
+          {
+            "es_form": "Creo que [laván::laván] bien.",
+            "pl_translation": "Myślę, że laván dobrze."
+          },
+          {
+            "es_form": "[laván::laván] la próxima semana.",
+            "pl_translation": "laván w przyszłym tygodniu."
+          }
+        ]
+      }
+    ]
+  }
+]

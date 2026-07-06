@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "La camisa",
+    "pl_word": "koszula",
+    "examples": [
+      {
+        "es_form": "[La camisa::koszula] cuesta diez euros.",
+        "pl_translation": "koszula kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Compré [la camisa::koszula] ayer.",
+        "pl_translation": "Kupiłem/am koszula wczoraj."
+      },
+      {
+        "es_form": "Guarda [la camisa::koszula] en el armario.",
+        "pl_translation": "Schowaj koszula do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La camiseta",
+    "pl_word": "koszulka (t-shirt)",
+    "examples": [
+      {
+        "es_form": "Necesito [la camiseta::koszulka (t-shirt)] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową koszulka (t-shirt)."
+      },
+      {
+        "es_form": "Guarda [la camiseta::koszulka (t-shirt)] en el armario.",
+        "pl_translation": "Schowaj koszulka (t-shirt) do szafy."
+      },
+      {
+        "es_form": "[La camiseta::koszulka (t-shirt)] está sobre la mesa.",
+        "pl_translation": "koszulka (t-shirt) jest na stole."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El pantalones",
+    "pl_word": "spodnie",
+    "examples": [
+      {
+        "es_form": "[El pantalones::spodnie] es de madera.",
+        "pl_translation": "spodnie jest z drewna."
+      },
+      {
+        "es_form": "Se me rompió [el pantalones::spodnie].",
+        "pl_translation": "Zepsuł mi się spodnie."
+      },
+      {
+        "es_form": "[El pantalones::spodnie] cuesta diez euros.",
+        "pl_translation": "spodnie kosztuje dziesięć euro."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El zapatos",
+    "pl_word": "buty",
+    "examples": [
+      {
+        "es_form": "Necesito [el zapatos::buty] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową buty."
+      },
+      {
+        "es_form": "Compré [el zapatos::buty] ayer.",
+        "pl_translation": "Kupiłem/am buty wczoraj."
+      },
+      {
+        "es_form": "[El zapatos::buty] cuesta diez euros.",
+        "pl_translation": "buty kosztuje dziesięć euro."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El vestido",
+    "pl_word": "sukienka",
+    "examples": [
+      {
+        "es_form": "[El vestido::sukienka] está sobre la mesa.",
+        "pl_translation": "sukienka jest na stole."
+      },
+      {
+        "es_form": "Guarda [el vestido::sukienka] en el armario.",
+        "pl_translation": "Schowaj sukienka do szafy."
+      },
+      {
+        "es_form": "[El vestido::sukienka] cuesta diez euros.",
+        "pl_translation": "sukienka kosztuje dziesięć euro."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La chaqueta",
+    "pl_word": "kurtka",
+    "examples": [
+      {
+        "es_form": "¿Has visto [la chaqueta::kurtka]?",
+        "pl_translation": "Widziałeś/aś kurtka?"
+      },
+      {
+        "es_form": "[La chaqueta::kurtka] cuesta diez euros.",
+        "pl_translation": "kurtka kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Necesito [la chaqueta::kurtka] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową kurtka."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La gorra",
+    "pl_word": "czapka (z daszkiem)",
+    "examples": [
+      {
+        "es_form": "[La gorra::czapka (z daszkiem)] cuesta diez euros.",
+        "pl_translation": "czapka (z daszkiem) kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Guarda [la gorra::czapka (z daszkiem)] en el armario.",
+        "pl_translation": "Schowaj czapka (z daszkiem) do szafy."
+      },
+      {
+        "es_form": "¿Has visto [la gorra::czapka (z daszkiem)]?",
+        "pl_translation": "Widziałeś/aś czapka (z daszkiem)?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El calcetines",
+    "pl_word": "skarpetki",
+    "examples": [
+      {
+        "es_form": "[El calcetines::skarpetki] está sobre la mesa.",
+        "pl_translation": "skarpetki jest na stole."
+      },
+      {
+        "es_form": "Se me rompió [el calcetines::skarpetki].",
+        "pl_translation": "Zepsuł mi się skarpetki."
+      },
+      {
+        "es_form": "¿Has visto [el calcetines::skarpetki]?",
+        "pl_translation": "Widziałeś/aś skarpetki?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La ropa",
+    "pl_word": "ubranie",
+    "examples": [
+      {
+        "es_form": "¿Has visto [la ropa::ubranie]?",
+        "pl_translation": "Widziałeś/aś ubranie?"
+      },
+      {
+        "es_form": "Se me rompió [la ropa::ubranie].",
+        "pl_translation": "Zepsuł mi się ubranie."
+      },
+      {
+        "es_form": "Necesito [la ropa::ubranie] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową ubranie."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El abrigo",
+    "pl_word": "płaszcz",
+    "examples": [
+      {
+        "es_form": "[El abrigo::płaszcz] está sobre la mesa.",
+        "pl_translation": "płaszcz jest na stole."
+      },
+      {
+        "es_form": "¿Has visto [el abrigo::płaszcz]?",
+        "pl_translation": "Widziałeś/aś płaszcz?"
+      },
+      {
+        "es_form": "Guarda [el abrigo::płaszcz] en el armario.",
+        "pl_translation": "Schowaj płaszcz do szafy."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "cómodo",
+    "pl_word": "wygodny",
+    "examples": [
+      {
+        "es_form": "Mi amigo es [cómodo::wygodny] y simpático.",
+        "pl_translation": "Mój przyjaciel jest wygodny i sympatyczny."
+      },
+      {
+        "es_form": "Es un lugar [cómodo::wygodny] para vivir.",
+        "pl_translation": "To jest wygodny miejsce do życia."
+      },
+      {
+        "es_form": "El examen fue [cómodo::wygodny].",
+        "pl_translation": "Egzamin był wygodny."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "elegante",
+    "pl_word": "elegancki",
+    "examples": [
+      {
+        "es_form": "Es una persona muy [elegante::elegancki].",
+        "pl_translation": "To jest bardzo elegancki osoba."
+      },
+      {
+        "es_form": "La comida está [elegante::elegancki].",
+        "pl_translation": "Jedzenie jest elegancki."
+      },
+      {
+        "es_form": "Hace un día [elegante::elegancki].",
+        "pl_translation": "Jest elegancki dzień."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "llevar",
+    "pl_word": "nosić (ubranie), zabierać",
+    "examples": [
+      {
+        "es_form": "Quiero [llevar::nosić (ubranie), zabierać] ahora.",
+        "pl_translation": "Chcę nosić (ubranie), zabierać teraz."
+      },
+      {
+        "es_form": "Voy a [llevar::nosić (ubranie), zabierać] mañana.",
+        "pl_translation": "Będę nosić (ubranie), zabierać jutro."
+      },
+      {
+        "es_form": "Hay que [llevar::nosić (ubranie), zabierać] con cuidado.",
+        "pl_translation": "Trzeba nosić (ubranie), zabierać ostrożnie."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "llevo",
+        "pl_word": "llevo",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[llevo::llevo] los fines de semana?",
+            "pl_translation": "Czy llevo w weekendy?"
+          },
+          {
+            "es_form": "Normalmente [llevo::llevo] por la mañana.",
+            "pl_translation": "Zazwyczaj llevo rano."
+          },
+          {
+            "es_form": "[llevo::llevo] como me enseñaste.",
+            "pl_translation": "llevo tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "llevas",
+        "pl_word": "llevas",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [llevas::llevas] por la mañana.",
+            "pl_translation": "Zazwyczaj llevas rano."
+          },
+          {
+            "es_form": "No [llevas::llevas] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie llevas zbyt dobrze."
+          },
+          {
+            "es_form": "Siempre [llevas::llevas] con atención.",
+            "pl_translation": "Zawsze llevas z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "lleva",
+        "pl_word": "lleva",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[lleva::lleva] los fines de semana?",
+            "pl_translation": "Czy lleva w weekendy?"
+          },
+          {
+            "es_form": "Normalmente [lleva::lleva] por la mañana.",
+            "pl_translation": "Zazwyczaj lleva rano."
+          },
+          {
+            "es_form": "No [lleva::lleva] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie lleva zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "llevamos",
+        "pl_word": "llevamos",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[llevamos::llevamos] los fines de semana?",
+            "pl_translation": "Czy llevamos w weekendy?"
+          },
+          {
+            "es_form": "[llevamos::llevamos] todos los días.",
+            "pl_translation": "llevamos codziennie."
+          },
+          {
+            "es_form": "Normalmente [llevamos::llevamos] por la mañana.",
+            "pl_translation": "Zazwyczaj llevamos rano."
+          }
+        ]
+      },
+      {
+        "es_word": "lleváis",
+        "pl_word": "lleváis",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[lleváis::lleváis] como me enseñaste.",
+            "pl_translation": "lleváis tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "¿[lleváis::lleváis] los fines de semana?",
+            "pl_translation": "Czy lleváis w weekendy?"
+          },
+          {
+            "es_form": "Siempre [lleváis::lleváis] con atención.",
+            "pl_translation": "Zawsze lleváis z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "llevan",
+        "pl_word": "llevan",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "No [llevan::llevan] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie llevan zbyt dobrze."
+          },
+          {
+            "es_form": "[llevan::llevan] como me enseñaste.",
+            "pl_translation": "llevan tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [llevan::llevan] por la mañana.",
+            "pl_translation": "Zazwyczaj llevan rano."
+          }
+        ]
+      },
+      {
+        "es_word": "llevé",
+        "pl_word": "llevé",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [llevé::llevé] todo el día.",
+            "pl_translation": "Wczoraj llevé cały dzień."
+          },
+          {
+            "es_form": "¿[llevé::llevé] bien el examen?",
+            "pl_translation": "Czy llevé dobrze egzamin?"
+          },
+          {
+            "es_form": "Nunca [llevé::llevé] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie llevé czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "llevaste",
+        "pl_word": "llevaste",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [llevaste::llevaste] todo el día.",
+            "pl_translation": "Wczoraj llevaste cały dzień."
+          },
+          {
+            "es_form": "¿[llevaste::llevaste] bien el examen?",
+            "pl_translation": "Czy llevaste dobrze egzamin?"
+          },
+          {
+            "es_form": "Nunca [llevaste::llevaste] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie llevaste czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "llevó",
+        "pl_word": "llevó",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[llevó::llevó] bien el examen?",
+            "pl_translation": "Czy llevó dobrze egzamin?"
+          },
+          {
+            "es_form": "Ayer [llevó::llevó] todo el día.",
+            "pl_translation": "Wczoraj llevó cały dzień."
+          },
+          {
+            "es_form": "El mes pasado no [llevó::llevó] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie llevó."
+          }
+        ]
+      },
+      {
+        "es_word": "llevamos",
+        "pl_word": "llevamos",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[llevamos::llevamos] sin parar durante horas.",
+            "pl_translation": "llevamos bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "[llevamos::llevamos] la semana pasada.",
+            "pl_translation": "llevamos w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Ayer [llevamos::llevamos] todo el día.",
+            "pl_translation": "Wczoraj llevamos cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "llevasteis",
+        "pl_word": "llevasteis",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[llevasteis::llevasteis] la semana pasada.",
+            "pl_translation": "llevasteis w zeszłym tygodniu."
+          },
+          {
+            "es_form": "El mes pasado no [llevasteis::llevasteis] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie llevasteis."
+          },
+          {
+            "es_form": "[llevasteis::llevasteis] sin parar durante horas.",
+            "pl_translation": "llevasteis bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "llevaron",
+        "pl_word": "llevaron",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [llevaron::llevaron] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie llevaron czegoś takiego."
+          },
+          {
+            "es_form": "[llevaron::llevaron] sin parar durante horas.",
+            "pl_translation": "llevaron bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "El mes pasado no [llevaron::llevaron] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie llevaron."
+          }
+        ]
+      },
+      {
+        "es_word": "llevé",
+        "pl_word": "llevé",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [llevé::llevé] bien.",
+            "pl_translation": "Myślę, że llevé dobrze."
+          },
+          {
+            "es_form": "¿[llevé::llevé] con nosotros mañana?",
+            "pl_translation": "Czy llevé z nami jutro?"
+          },
+          {
+            "es_form": "El año que viene [llevé::llevé] en España.",
+            "pl_translation": "W przyszłym roku llevé w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "llevás",
+        "pl_word": "llevás",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [llevás::llevás] bien.",
+            "pl_translation": "Myślę, że llevás dobrze."
+          },
+          {
+            "es_form": "¿[llevás::llevás] con nosotros mañana?",
+            "pl_translation": "Czy llevás z nami jutro?"
+          },
+          {
+            "es_form": "Mañana [llevás::llevás] más temprano.",
+            "pl_translation": "Jutro llevás wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "llevá",
+        "pl_word": "llevá",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [llevá::llevá] a tiempo.",
+            "pl_translation": "Obiecuję ci, że llevá na czas."
+          },
+          {
+            "es_form": "Mañana [llevá::llevá] más temprano.",
+            "pl_translation": "Jutro llevá wcześniej."
+          },
+          {
+            "es_form": "¿[llevá::llevá] con nosotros mañana?",
+            "pl_translation": "Czy llevá z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "llevemos",
+        "pl_word": "llevemos",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [llevemos::llevemos] a tiempo.",
+            "pl_translation": "Obiecuję ci, że llevemos na czas."
+          },
+          {
+            "es_form": "[llevemos::llevemos] la próxima semana.",
+            "pl_translation": "llevemos w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Creo que [llevemos::llevemos] bien.",
+            "pl_translation": "Myślę, że llevemos dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "llevéis",
+        "pl_word": "llevéis",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [llevéis::llevéis] bien.",
+            "pl_translation": "Myślę, że llevéis dobrze."
+          },
+          {
+            "es_form": "[llevéis::llevéis] la próxima semana.",
+            "pl_translation": "llevéis w przyszłym tygodniu."
+          },
+          {
+            "es_form": "El año que viene [llevéis::llevéis] en España.",
+            "pl_translation": "W przyszłym roku llevéis w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "lleván",
+        "pl_word": "lleván",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [lleván::lleván] bien.",
+            "pl_translation": "Myślę, że lleván dobrze."
+          },
+          {
+            "es_form": "Te prometo que [lleván::lleván] a tiempo.",
+            "pl_translation": "Obiecuję ci, że lleván na czas."
+          },
+          {
+            "es_form": "Mañana [lleván::lleván] más temprano.",
+            "pl_translation": "Jutro lleván wcześniej."
+          }
+        ]
+      }
+    ]
+  }
+]

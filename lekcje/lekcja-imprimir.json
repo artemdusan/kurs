@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "El documento",
+    "pl_word": "dokument",
+    "examples": [
+      {
+        "es_form": "Necesito [el documento::dokument] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową dokument."
+      },
+      {
+        "es_form": "[El documento::dokument] cuesta diez euros.",
+        "pl_translation": "dokument kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "[El documento::dokument] es de madera.",
+        "pl_translation": "dokument jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El impreso",
+    "pl_word": "druk, formularz",
+    "examples": [
+      {
+        "es_form": "[El impreso::druk, formularz] es de madera.",
+        "pl_translation": "druk, formularz jest z drewna."
+      },
+      {
+        "es_form": "[El impreso::druk, formularz] está sobre la mesa.",
+        "pl_translation": "druk, formularz jest na stole."
+      },
+      {
+        "es_form": "Guarda [el impreso::druk, formularz] en el armario.",
+        "pl_translation": "Schowaj druk, formularz do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El sobre",
+    "pl_word": "koperta",
+    "examples": [
+      {
+        "es_form": "Guarda [el sobre::koperta] en el armario.",
+        "pl_translation": "Schowaj koperta do szafy."
+      },
+      {
+        "es_form": "[El sobre::koperta] cuesta diez euros.",
+        "pl_translation": "koperta kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "[El sobre::koperta] está sobre la mesa.",
+        "pl_translation": "koperta jest na stole."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El sello",
+    "pl_word": "pieczątka, znaczek",
+    "examples": [
+      {
+        "es_form": "[El sello::pieczątka, znaczek] cuesta diez euros.",
+        "pl_translation": "pieczątka, znaczek kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Se me rompió [el sello::pieczątka, znaczek].",
+        "pl_translation": "Zepsuł mi się pieczątka, znaczek."
+      },
+      {
+        "es_form": "Necesito [el sello::pieczątka, znaczek] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową pieczątka, znaczek."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La firma",
+    "pl_word": "podpis",
+    "examples": [
+      {
+        "es_form": "Se me rompió [la firma::podpis].",
+        "pl_translation": "Zepsuł mi się podpis."
+      },
+      {
+        "es_form": "Guarda [la firma::podpis] en el armario.",
+        "pl_translation": "Schowaj podpis do szafy."
+      },
+      {
+        "es_form": "[La firma::podpis] está sobre la mesa.",
+        "pl_translation": "podpis jest na stole."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La solicitud",
+    "pl_word": "wniosek",
+    "examples": [
+      {
+        "es_form": "Necesito [la solicitud::wniosek] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową wniosek."
+      },
+      {
+        "es_form": "Guarda [la solicitud::wniosek] en el armario.",
+        "pl_translation": "Schowaj wniosek do szafy."
+      },
+      {
+        "es_form": "[La solicitud::wniosek] es de madera.",
+        "pl_translation": "wniosek jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El certificado",
+    "pl_word": "zaświadczenie",
+    "examples": [
+      {
+        "es_form": "[El certificado::zaświadczenie] está sobre la mesa.",
+        "pl_translation": "zaświadczenie jest na stole."
+      },
+      {
+        "es_form": "¿Has visto [el certificado::zaświadczenie]?",
+        "pl_translation": "Widziałeś/aś zaświadczenie?"
+      },
+      {
+        "es_form": "[El certificado::zaświadczenie] cuesta diez euros.",
+        "pl_translation": "zaświadczenie kosztuje dziesięć euro."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El contrato",
+    "pl_word": "umowa",
+    "examples": [
+      {
+        "es_form": "Guarda [el contrato::umowa] en el armario.",
+        "pl_translation": "Schowaj umowa do szafy."
+      },
+      {
+        "es_form": "Compré [el contrato::umowa] ayer.",
+        "pl_translation": "Kupiłem/am umowa wczoraj."
+      },
+      {
+        "es_form": "[El contrato::umowa] está sobre la mesa.",
+        "pl_translation": "umowa jest na stole."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La factura",
+    "pl_word": "faktura",
+    "examples": [
+      {
+        "es_form": "[La factura::faktura] es la clave del éxito.",
+        "pl_translation": "faktura jest kluczem do sukcesu."
+      },
+      {
+        "es_form": "No entiendo [la factura::faktura].",
+        "pl_translation": "Nie rozumiem faktura."
+      },
+      {
+        "es_form": "[La factura::faktura] cambió mi vida.",
+        "pl_translation": "faktura zmienił/a moje życie."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La carpeta",
+    "pl_word": "segregator, folder",
+    "examples": [
+      {
+        "es_form": "¿Has visto [la carpeta::segregator, folder]?",
+        "pl_translation": "Widziałeś/aś segregator, folder?"
+      },
+      {
+        "es_form": "Compré [la carpeta::segregator, folder] ayer.",
+        "pl_translation": "Kupiłem/am segregator, folder wczoraj."
+      },
+      {
+        "es_form": "Guarda [la carpeta::segregator, folder] en el armario.",
+        "pl_translation": "Schowaj segregator, folder do szafy."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "oficial",
+    "pl_word": "oficjalny",
+    "examples": [
+      {
+        "es_form": "Nada es más [oficial::oficjalny] que la familia.",
+        "pl_translation": "Nic nie jest oficjalny od rodziny."
+      },
+      {
+        "es_form": "Tengo una casa [oficial::oficjalny].",
+        "pl_translation": "Mam oficjalny dom."
+      },
+      {
+        "es_form": "Es una persona muy [oficial::oficjalny].",
+        "pl_translation": "To jest bardzo oficjalny osoba."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "válido",
+    "pl_word": "ważny",
+    "examples": [
+      {
+        "es_form": "Se compró un vestido [válido::ważny].",
+        "pl_translation": "Kupiła sobie ważny sukienkę."
+      },
+      {
+        "es_form": "Hace un día [válido::ważny].",
+        "pl_translation": "Jest ważny dzień."
+      },
+      {
+        "es_form": "Es un lugar [válido::ważny] para vivir.",
+        "pl_translation": "To jest ważny miejsce do życia."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "imprimir",
+    "pl_word": "drukować",
+    "examples": [
+      {
+        "es_form": "No puedo [imprimir::drukować] sin tu ayuda.",
+        "pl_translation": "Nie mogę drukować bez twojej pomocy."
+      },
+      {
+        "es_form": "Quiero [imprimir::drukować] ahora.",
+        "pl_translation": "Chcę drukować teraz."
+      },
+      {
+        "es_form": "¿Puedes [imprimir::drukować] más rápido?",
+        "pl_translation": "Możesz drukować szybciej?"
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "imprimo",
+        "pl_word": "imprimo",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[imprimo::imprimo] los fines de semana?",
+            "pl_translation": "Czy imprimo w weekendy?"
+          },
+          {
+            "es_form": "[imprimo::imprimo] como me enseñaste.",
+            "pl_translation": "imprimo tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Siempre [imprimo::imprimo] con atención.",
+            "pl_translation": "Zawsze imprimo z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "imprimes",
+        "pl_word": "imprimes",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [imprimes::imprimes] con atención.",
+            "pl_translation": "Zawsze imprimes z uwagą."
+          },
+          {
+            "es_form": "Normalmente [imprimes::imprimes] por la mañana.",
+            "pl_translation": "Zazwyczaj imprimes rano."
+          },
+          {
+            "es_form": "[imprimes::imprimes] todos los días.",
+            "pl_translation": "imprimes codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "imprime",
+        "pl_word": "imprime",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [imprime::imprime] con atención.",
+            "pl_translation": "Zawsze imprime z uwagą."
+          },
+          {
+            "es_form": "Normalmente [imprime::imprime] por la mañana.",
+            "pl_translation": "Zazwyczaj imprime rano."
+          },
+          {
+            "es_form": "No [imprime::imprime] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie imprime zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "imprimimos",
+        "pl_word": "imprimimos",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[imprimimos::imprimimos] como me enseñaste.",
+            "pl_translation": "imprimimos tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "¿[imprimimos::imprimimos] los fines de semana?",
+            "pl_translation": "Czy imprimimos w weekendy?"
+          },
+          {
+            "es_form": "[imprimimos::imprimimos] todos los días.",
+            "pl_translation": "imprimimos codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "imprimís",
+        "pl_word": "imprimís",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[imprimís::imprimís] los fines de semana?",
+            "pl_translation": "Czy imprimís w weekendy?"
+          },
+          {
+            "es_form": "No [imprimís::imprimís] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie imprimís zbyt dobrze."
+          },
+          {
+            "es_form": "[imprimís::imprimís] todos los días.",
+            "pl_translation": "imprimís codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "imprimen",
+        "pl_word": "imprimen",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[imprimen::imprimen] los fines de semana?",
+            "pl_translation": "Czy imprimen w weekendy?"
+          },
+          {
+            "es_form": "Normalmente [imprimen::imprimen] por la mañana.",
+            "pl_translation": "Zazwyczaj imprimen rano."
+          },
+          {
+            "es_form": "Siempre [imprimen::imprimen] con atención.",
+            "pl_translation": "Zawsze imprimen z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "imprimí",
+        "pl_word": "imprimí",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [imprimí::imprimí] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie imprimí czegoś takiego."
+          },
+          {
+            "es_form": "El mes pasado no [imprimí::imprimí] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie imprimí."
+          },
+          {
+            "es_form": "Ayer [imprimí::imprimí] todo el día.",
+            "pl_translation": "Wczoraj imprimí cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "imprimiste",
+        "pl_word": "imprimiste",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [imprimiste::imprimiste] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie imprimiste."
+          },
+          {
+            "es_form": "¿[imprimiste::imprimiste] bien el examen?",
+            "pl_translation": "Czy imprimiste dobrze egzamin?"
+          },
+          {
+            "es_form": "Ayer [imprimiste::imprimiste] todo el día.",
+            "pl_translation": "Wczoraj imprimiste cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "imprimió",
+        "pl_word": "imprimió",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[imprimió::imprimió] bien el examen?",
+            "pl_translation": "Czy imprimió dobrze egzamin?"
+          },
+          {
+            "es_form": "[imprimió::imprimió] la semana pasada.",
+            "pl_translation": "imprimió w zeszłym tygodniu."
+          },
+          {
+            "es_form": "El mes pasado no [imprimió::imprimió] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie imprimió."
+          }
+        ]
+      },
+      {
+        "es_word": "imprimimos",
+        "pl_word": "imprimimos",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[imprimimos::imprimimos] bien el examen?",
+            "pl_translation": "Czy imprimimos dobrze egzamin?"
+          },
+          {
+            "es_form": "El mes pasado no [imprimimos::imprimimos] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie imprimimos."
+          },
+          {
+            "es_form": "[imprimimos::imprimimos] la semana pasada.",
+            "pl_translation": "imprimimos w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "imprimisteis",
+        "pl_word": "imprimisteis",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[imprimisteis::imprimisteis] sin parar durante horas.",
+            "pl_translation": "imprimisteis bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "El mes pasado no [imprimisteis::imprimisteis] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie imprimisteis."
+          },
+          {
+            "es_form": "[imprimisteis::imprimisteis] la semana pasada.",
+            "pl_translation": "imprimisteis w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "imprimieron",
+        "pl_word": "imprimieron",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [imprimieron::imprimieron] todo el día.",
+            "pl_translation": "Wczoraj imprimieron cały dzień."
+          },
+          {
+            "es_form": "El mes pasado no [imprimieron::imprimieron] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie imprimieron."
+          },
+          {
+            "es_form": "[imprimieron::imprimieron] la semana pasada.",
+            "pl_translation": "imprimieron w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "imprimé",
+        "pl_word": "imprimé",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [imprimé::imprimé] más temprano.",
+            "pl_translation": "Jutro imprimé wcześniej."
+          },
+          {
+            "es_form": "Creo que [imprimé::imprimé] bien.",
+            "pl_translation": "Myślę, że imprimé dobrze."
+          },
+          {
+            "es_form": "¿[imprimé::imprimé] con nosotros mañana?",
+            "pl_translation": "Czy imprimé z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "imprimás",
+        "pl_word": "imprimás",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [imprimás::imprimás] más temprano.",
+            "pl_translation": "Jutro imprimás wcześniej."
+          },
+          {
+            "es_form": "Creo que [imprimás::imprimás] bien.",
+            "pl_translation": "Myślę, że imprimás dobrze."
+          },
+          {
+            "es_form": "¿[imprimás::imprimás] con nosotros mañana?",
+            "pl_translation": "Czy imprimás z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "imprimá",
+        "pl_word": "imprimá",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[imprimá::imprimá] la próxima semana.",
+            "pl_translation": "imprimá w przyszłym tygodniu."
+          },
+          {
+            "es_form": "El año que viene [imprimá::imprimá] en España.",
+            "pl_translation": "W przyszłym roku imprimá w Hiszpanii."
+          },
+          {
+            "es_form": "Creo que [imprimá::imprimá] bien.",
+            "pl_translation": "Myślę, że imprimá dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "imprimemos",
+        "pl_word": "imprimemos",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [imprimemos::imprimemos] a tiempo.",
+            "pl_translation": "Obiecuję ci, że imprimemos na czas."
+          },
+          {
+            "es_form": "¿[imprimemos::imprimemos] con nosotros mañana?",
+            "pl_translation": "Czy imprimemos z nami jutro?"
+          },
+          {
+            "es_form": "El año que viene [imprimemos::imprimemos] en España.",
+            "pl_translation": "W przyszłym roku imprimemos w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "impriméis",
+        "pl_word": "impriméis",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [impriméis::impriméis] en España.",
+            "pl_translation": "W przyszłym roku impriméis w Hiszpanii."
+          },
+          {
+            "es_form": "[impriméis::impriméis] la próxima semana.",
+            "pl_translation": "impriméis w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Mañana [impriméis::impriméis] más temprano.",
+            "pl_translation": "Jutro impriméis wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "imprimán",
+        "pl_word": "imprimán",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[imprimán::imprimán] con nosotros mañana?",
+            "pl_translation": "Czy imprimán z nami jutro?"
+          },
+          {
+            "es_form": "Te prometo que [imprimán::imprimán] a tiempo.",
+            "pl_translation": "Obiecuję ci, że imprimán na czas."
+          },
+          {
+            "es_form": "[imprimán::imprimán] la próxima semana.",
+            "pl_translation": "imprimán w przyszłym tygodniu."
+          }
+        ]
+      }
+    ]
+  }
+]

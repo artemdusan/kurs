@@ -1,0 +1,713 @@
+{
+  "kurs": "Język hiszpański - od podstaw do A2+",
+  "opis": "100 lekcji, każda zawiera 1 czasownik, 10 rzeczowników i 2 przymiotniki. Słowa od najczęstszych (A0) do zaawansowanych (A2/B1). Układ tematyczno-częstotliwościowy. Czasowniki 'być' rozdzielone na SER (lekcja 1 - cechy stałe) i ESTAR (lekcja 2 - stany tymczasowe). Czasowniki 'wiedzieć/znać' rozdzielone na SABER (lekcja 37 - znać fakty) i CONOCER (lekcja 38 - znać osoby/miejsca). Czasowniki 'prosić/pytać' rozdzielone na PEDIR (lekcja 43 - prosić, zamawiać) i PREGUNTAR (lekcja 44 - pytać). Czasowniki 'grać' rozdzielone na JUGAR (lekcja 19 - grać w gry/sporty) i TOCAR (lekcja 92 - grać na instrumencie).",
+  "poziomy": {
+    "A0": "Lekcje 1-25 (podstawy, najczęstsze słowa)",
+    "A1": "Lekcje 26-55 (elementarny, codzienne słownictwo)",
+    "A2": "Lekcje 56-85 (średniozaawansowany, szersze tematy)",
+    "B1": "Lekcje 86-100 (najważniejsze słowa dla doskonałego A2)"
+  },
+  "wersja": "1.0.0",
+  "lekcje": [
+    {
+      "numer": 1,
+      "poziom": "A0",
+      "temat": "Podstawowe pojęcia – tożsamość",
+      "czasownik": "ser",
+      "plik": "lekcje/lekcja-ser.json"
+    },
+    {
+      "numer": 2,
+      "poziom": "A0",
+      "temat": "Podstawowe pojęcia – stany i miejsca",
+      "czasownik": "estar",
+      "plik": "lekcje/lekcja-estar.json"
+    },
+    {
+      "numer": 3,
+      "poziom": "A0",
+      "temat": "Posiadanie i cechy",
+      "czasownik": "tener",
+      "plik": "lekcje/lekcja-tener.json"
+    },
+    {
+      "numer": 4,
+      "poziom": "A0",
+      "temat": "Komunikacja",
+      "czasownik": "hablar",
+      "plik": "lekcje/lekcja-hablar.json"
+    },
+    {
+      "numer": 5,
+      "poziom": "A0",
+      "temat": "Zmysły – wzrok",
+      "czasownik": "ver",
+      "plik": "lekcje/lekcja-ver.json"
+    },
+    {
+      "numer": 6,
+      "poziom": "A0",
+      "temat": "Dom i życie",
+      "czasownik": "vivir",
+      "plik": "lekcje/lekcja-vivir.json"
+    },
+    {
+      "numer": 7,
+      "poziom": "A0",
+      "temat": "Jedzenie I",
+      "czasownik": "comer",
+      "plik": "lekcje/lekcja-comer.json"
+    },
+    {
+      "numer": 8,
+      "poziom": "A0",
+      "temat": "Napoje i posiłki",
+      "czasownik": "beber",
+      "plik": "lekcje/lekcja-beber.json"
+    },
+    {
+      "numer": 9,
+      "poziom": "A0",
+      "temat": "Czynności codzienne",
+      "czasownik": "hacer",
+      "plik": "lekcje/lekcja-hacer.json"
+    },
+    {
+      "numer": 10,
+      "poziom": "A0",
+      "temat": "Transport",
+      "czasownik": "ir",
+      "plik": "lekcje/lekcja-ir.json"
+    },
+    {
+      "numer": 11,
+      "poziom": "A0",
+      "temat": "Szkoła i nauka",
+      "czasownik": "aprender",
+      "plik": "lekcje/lekcja-aprender.json"
+    },
+    {
+      "numer": 12,
+      "poziom": "A0",
+      "temat": "Pieniądze i zakupy",
+      "czasownik": "comprar",
+      "plik": "lekcje/lekcja-comprar.json"
+    },
+    {
+      "numer": 13,
+      "poziom": "A0",
+      "temat": "Ubrania",
+      "czasownik": "llevar",
+      "plik": "lekcje/lekcja-llevar.json"
+    },
+    {
+      "numer": 14,
+      "poziom": "A0",
+      "temat": "Rodzina i uczucia",
+      "czasownik": "querer",
+      "plik": "lekcje/lekcja-querer.json"
+    },
+    {
+      "numer": 15,
+      "poziom": "A0",
+      "temat": "Zwierzęta i upodobania",
+      "czasownik": "gustar",
+      "plik": "lekcje/lekcja-gustar.json"
+    },
+    {
+      "numer": 16,
+      "poziom": "A0",
+      "temat": "Pogoda i natura",
+      "czasownik": "llover",
+      "plik": "lekcje/lekcja-llover.json"
+    },
+    {
+      "numer": 17,
+      "poziom": "A0",
+      "temat": "Kolory i wygląd",
+      "czasownik": "parecer",
+      "plik": "lekcje/lekcja-parecer.json"
+    },
+    {
+      "numer": 18,
+      "poziom": "A0",
+      "temat": "Zdrowie i samopoczucie",
+      "czasownik": "sentirse",
+      "plik": "lekcje/lekcja-sentirse.json"
+    },
+    {
+      "numer": 19,
+      "poziom": "A0",
+      "temat": "Sport i gry",
+      "czasownik": "jugar",
+      "plik": "lekcje/lekcja-jugar.json"
+    },
+    {
+      "numer": 20,
+      "poziom": "A0",
+      "temat": "Czas wolny",
+      "czasownik": "leer",
+      "plik": "lekcje/lekcja-leer.json"
+    },
+    {
+      "numer": 21,
+      "poziom": "A0",
+      "temat": "Podróżowanie",
+      "czasownik": "viajar",
+      "plik": "lekcje/lekcja-viajar.json"
+    },
+    {
+      "numer": 22,
+      "poziom": "A0",
+      "temat": "Liczby i miary",
+      "czasownik": "contar",
+      "plik": "lekcje/lekcja-contar.json"
+    },
+    {
+      "numer": 23,
+      "poziom": "A0",
+      "temat": "Dni tygodnia i miesiące",
+      "czasownik": "esperar",
+      "plik": "lekcje/lekcja-esperar.json"
+    },
+    {
+      "numer": 24,
+      "poziom": "A0",
+      "temat": "Pory dnia i roku",
+      "czasownik": "levantarse",
+      "plik": "lekcje/lekcja-levantarse.json"
+    },
+    {
+      "numer": 25,
+      "poziom": "A0",
+      "temat": "Zawody i praca",
+      "czasownik": "trabajar",
+      "plik": "lekcje/lekcja-trabajar.json"
+    },
+    {
+      "numer": 26,
+      "poziom": "A1",
+      "temat": "Poruszanie się pieszo – ANDAR / CAMINAR (chodzić, iść pieszo)",
+      "czasownik": "andar",
+      "plik": "lekcje/lekcja-andar.json"
+    },
+    {
+      "numer": 27,
+      "poziom": "A1",
+      "temat": "Kuchnia i gotowanie",
+      "czasownik": "cocinar",
+      "plik": "lekcje/lekcja-cocinar.json"
+    },
+    {
+      "numer": 28,
+      "poziom": "A1",
+      "temat": "Owoce i warzywa",
+      "czasownik": "lavar",
+      "plik": "lekcje/lekcja-lavar.json"
+    },
+    {
+      "numer": 29,
+      "poziom": "A1",
+      "temat": "Produkty spożywcze",
+      "czasownik": "freír",
+      "plik": "lekcje/lekcja-freir.json"
+    },
+    {
+      "numer": 30,
+      "poziom": "A1",
+      "temat": "Zmysły – słuch",
+      "czasownik": "oír",
+      "plik": "lekcje/lekcja-oir.json"
+    },
+    {
+      "numer": 31,
+      "poziom": "A1",
+      "temat": "Higiena i kosmetyki",
+      "czasownik": "lavarse",
+      "plik": "lekcje/lekcja-lavarse.json"
+    },
+    {
+      "numer": 32,
+      "poziom": "A1",
+      "temat": "Miasto i miejsca",
+      "czasownik": "visitar",
+      "plik": "lekcje/lekcja-visitar.json"
+    },
+    {
+      "numer": 33,
+      "poziom": "A1",
+      "temat": "Dom – wyposażenie",
+      "czasownik": "limpiar",
+      "plik": "lekcje/lekcja-limpiar.json"
+    },
+    {
+      "numer": 34,
+      "poziom": "A1",
+      "temat": "Elektronika i sprzęty",
+      "czasownik": "encender",
+      "plik": "lekcje/lekcja-encender.json"
+    },
+    {
+      "numer": 35,
+      "poziom": "A1",
+      "temat": "Szkoła i edukacja",
+      "czasownik": "escribir",
+      "plik": "lekcje/lekcja-escribir.json"
+    },
+    {
+      "numer": 36,
+      "poziom": "A1",
+      "temat": "Charakter i osobowość",
+      "czasownik": "pensar",
+      "plik": "lekcje/lekcja-pensar.json"
+    },
+    {
+      "numer": 37,
+      "poziom": "A1",
+      "temat": "Wiedza",
+      "czasownik": "saber",
+      "plik": "lekcje/lekcja-saber.json"
+    },
+    {
+      "numer": 38,
+      "poziom": "A1",
+      "temat": "Znajomości",
+      "czasownik": "conocer",
+      "plik": "lekcje/lekcja-conocer.json"
+    },
+    {
+      "numer": 39,
+      "poziom": "A1",
+      "temat": "Rośliny i ogród",
+      "czasownik": "crecer",
+      "plik": "lekcje/lekcja-crecer.json"
+    },
+    {
+      "numer": 40,
+      "poziom": "A1",
+      "temat": "Geografia i środowisko",
+      "czasownik": "proteger",
+      "plik": "lekcje/lekcja-proteger.json"
+    },
+    {
+      "numer": 41,
+      "poziom": "A1",
+      "temat": "Moda i ubiór",
+      "czasownik": "vestirse",
+      "plik": "lekcje/lekcja-vestirse.json"
+    },
+    {
+      "numer": 42,
+      "poziom": "A1",
+      "temat": "Święta i uroczystości",
+      "czasownik": "celebrar",
+      "plik": "lekcje/lekcja-celebrar.json"
+    },
+    {
+      "numer": 43,
+      "poziom": "A1",
+      "temat": "Restauracja i jedzenie",
+      "czasownik": "pedir",
+      "plik": "lekcje/lekcja-pedir.json"
+    },
+    {
+      "numer": 44,
+      "poziom": "A1",
+      "temat": "Pytania",
+      "czasownik": "preguntar",
+      "plik": "lekcje/lekcja-preguntar.json"
+    },
+    {
+      "numer": 45,
+      "poziom": "A1",
+      "temat": "Sporty i aktywności",
+      "czasownik": "entrenar",
+      "plik": "lekcje/lekcja-entrenar.json"
+    },
+    {
+      "numer": 46,
+      "poziom": "A1",
+      "temat": "Zakupy w sklepie",
+      "czasownik": "pagar",
+      "plik": "lekcje/lekcja-pagar.json"
+    },
+    {
+      "numer": 47,
+      "poziom": "A1",
+      "temat": "Usługi i naprawy",
+      "czasownik": "reparar",
+      "plik": "lekcje/lekcja-reparar.json"
+    },
+    {
+      "numer": 48,
+      "poziom": "A1",
+      "temat": "Sztuka i kultura",
+      "czasownik": "pintar",
+      "plik": "lekcje/lekcja-pintar.json"
+    },
+    {
+      "numer": 49,
+      "poziom": "A1",
+      "temat": "Komunikacja i media",
+      "czasownik": "llamar",
+      "plik": "lekcje/lekcja-llamar.json"
+    },
+    {
+      "numer": 50,
+      "poziom": "A1",
+      "temat": "Zdrowie – wizyta u lekarza",
+      "czasownik": "curar",
+      "plik": "lekcje/lekcja-curar.json"
+    },
+    {
+      "numer": 51,
+      "poziom": "A1",
+      "temat": "Lotnictwo",
+      "czasownik": "volar",
+      "plik": "lekcje/lekcja-volar.json"
+    },
+    {
+      "numer": 52,
+      "poziom": "A1",
+      "temat": "Pieniądze i finanse",
+      "czasownik": "ahorrar",
+      "plik": "lekcje/lekcja-ahorrar.json"
+    },
+    {
+      "numer": 53,
+      "poziom": "A1",
+      "temat": "Relacje międzyludzkie",
+      "czasownik": "encontrarse",
+      "plik": "lekcje/lekcja-encontrarse.json"
+    },
+    {
+      "numer": 54,
+      "poziom": "A1",
+      "temat": "Materiały i substancje",
+      "czasownik": "construir",
+      "plik": "lekcje/lekcja-construir.json"
+    },
+    {
+      "numer": 55,
+      "poziom": "A1",
+      "temat": "Pogoda – zjawiska",
+      "czasownik": "soplar",
+      "plik": "lekcje/lekcja-soplar.json"
+    },
+    {
+      "numer": 56,
+      "poziom": "A2",
+      "temat": "Dom – pomieszczenia",
+      "czasownik": "alquilar",
+      "plik": "lekcje/lekcja-alquilar.json"
+    },
+    {
+      "numer": 57,
+      "poziom": "A2",
+      "temat": "Praca – więcej zawodów",
+      "czasownik": "ganar",
+      "plik": "lekcje/lekcja-ganar.json"
+    },
+    {
+      "numer": 58,
+      "poziom": "A2",
+      "temat": "Formy i struktury",
+      "czasownik": "crear",
+      "plik": "lekcje/lekcja-crear.json"
+    },
+    {
+      "numer": 59,
+      "poziom": "A2",
+      "temat": "Technologia i internet",
+      "czasownik": "enviar",
+      "plik": "lekcje/lekcja-enviar.json"
+    },
+    {
+      "numer": 60,
+      "poziom": "A2",
+      "temat": "Biuro i dokumenty",
+      "czasownik": "imprimir",
+      "plik": "lekcje/lekcja-imprimir.json"
+    },
+    {
+      "numer": 61,
+      "poziom": "A2",
+      "temat": "Uczucia i emocje",
+      "czasownik": "preocuparse",
+      "plik": "lekcje/lekcja-preocuparse.json"
+    },
+    {
+      "numer": 62,
+      "poziom": "A2",
+      "temat": "Zdrowie i styl życia",
+      "czasownik": "cuidar",
+      "plik": "lekcje/lekcja-cuidar.json"
+    },
+    {
+      "numer": 63,
+      "poziom": "A2",
+      "temat": "Nauka i wiedza",
+      "czasownik": "entender",
+      "plik": "lekcje/lekcja-entender.json"
+    },
+    {
+      "numer": 64,
+      "poziom": "A2",
+      "temat": "Kultura i rozrywka",
+      "czasownik": "mirar",
+      "plik": "lekcje/lekcja-mirar.json"
+    },
+    {
+      "numer": 65,
+      "poziom": "A2",
+      "temat": "Literatura",
+      "czasownik": "narrar",
+      "plik": "lekcje/lekcja-narrar.json"
+    },
+    {
+      "numer": 66,
+      "poziom": "A2",
+      "temat": "Państwo i społeczeństwo",
+      "czasownik": "gobernar",
+      "plik": "lekcje/lekcja-gobernar.json"
+    },
+    {
+      "numer": 67,
+      "poziom": "A2",
+      "temat": "Ekonomia i biznes",
+      "czasownik": "invertir",
+      "plik": "lekcje/lekcja-invertir.json"
+    },
+    {
+      "numer": 68,
+      "poziom": "A2",
+      "temat": "Jedzenie – bardziej szczegółowo",
+      "czasownik": "hornear",
+      "plik": "lekcje/lekcja-hornear.json"
+    },
+    {
+      "numer": 69,
+      "poziom": "A2",
+      "temat": "Budynki i architektura",
+      "czasownik": "diseñar",
+      "plik": "lekcje/lekcja-disenar.json"
+    },
+    {
+      "numer": 70,
+      "poziom": "A2",
+      "temat": "Motoryzacja",
+      "czasownik": "conducir",
+      "plik": "lekcje/lekcja-conducir.json"
+    },
+    {
+      "numer": 71,
+      "poziom": "A2",
+      "temat": "Edukacja zaawansowana",
+      "czasownik": "aprobar",
+      "plik": "lekcje/lekcja-aprobar.json"
+    },
+    {
+      "numer": 72,
+      "poziom": "A2",
+      "temat": "Zawody zaawansowane",
+      "czasownik": "dirigir",
+      "plik": "lekcje/lekcja-dirigir.json"
+    },
+    {
+      "numer": 73,
+      "poziom": "A2",
+      "temat": "Środowisko i ekologia",
+      "czasownik": "reciclar",
+      "plik": "lekcje/lekcja-reciclar.json"
+    },
+    {
+      "numer": 74,
+      "poziom": "A2",
+      "temat": "Ciało człowieka – zaawansowane",
+      "czasownik": "respirar",
+      "plik": "lekcje/lekcja-respirar.json"
+    },
+    {
+      "numer": 75,
+      "poziom": "A2",
+      "temat": "Dom – zaawansowane wyposażenie",
+      "czasownik": "renovar",
+      "plik": "lekcje/lekcja-renovar.json"
+    },
+    {
+      "numer": 76,
+      "poziom": "A2",
+      "temat": "Komunikacja i związki",
+      "czasownik": "conversar",
+      "plik": "lekcje/lekcja-conversar.json"
+    },
+    {
+      "numer": 77,
+      "poziom": "A2",
+      "temat": "Wydarzenia i sytuacje",
+      "czasownik": "ocurrir",
+      "plik": "lekcje/lekcja-ocurrir.json"
+    },
+    {
+      "numer": 78,
+      "poziom": "A2",
+      "temat": "Zakupy i konsumpcja",
+      "czasownik": "elegir",
+      "plik": "lekcje/lekcja-elegir.json"
+    },
+    {
+      "numer": 79,
+      "poziom": "A2",
+      "temat": "Prawo i przepisy",
+      "czasownik": "obedecer",
+      "plik": "lekcje/lekcja-obedecer.json"
+    },
+    {
+      "numer": 80,
+      "poziom": "A2",
+      "temat": "Religia i wiara",
+      "czasownik": "creer",
+      "plik": "lekcje/lekcja-creer.json"
+    },
+    {
+      "numer": 81,
+      "poziom": "A2",
+      "temat": "Historia i przeszłość",
+      "czasownik": "recordar",
+      "plik": "lekcje/lekcja-recordar.json"
+    },
+    {
+      "numer": 82,
+      "poziom": "A2",
+      "temat": "Media i rozrywka cyfrowa",
+      "czasownik": "grabar",
+      "plik": "lekcje/lekcja-grabar.json"
+    },
+    {
+      "numer": 83,
+      "poziom": "A2",
+      "temat": "Hobby i czas wolny",
+      "czasownik": "coleccionar",
+      "plik": "lekcje/lekcja-coleccionar.json"
+    },
+    {
+      "numer": 84,
+      "poziom": "A2",
+      "temat": "Natura – szczegółowo",
+      "czasownik": "florecer",
+      "plik": "lekcje/lekcja-florecer.json"
+    },
+    {
+      "numer": 85,
+      "poziom": "A2",
+      "temat": "Gotowanie zaawansowane",
+      "czasownik": "guisar",
+      "plik": "lekcje/lekcja-guisar.json"
+    },
+    {
+      "numer": 86,
+      "poziom": "B1",
+      "temat": "Zdrowie – choroby i leczenie",
+      "czasownik": "enfermar",
+      "plik": "lekcje/lekcja-enfermar.json"
+    },
+    {
+      "numer": 87,
+      "poziom": "B1",
+      "temat": "Transport i logistyka",
+      "czasownik": "transportar",
+      "plik": "lekcje/lekcja-transportar.json"
+    },
+    {
+      "numer": 88,
+      "poziom": "B1",
+      "temat": "Praca – zaawansowane pojęcia",
+      "czasownik": "negociar",
+      "plik": "lekcje/lekcja-negociar.json"
+    },
+    {
+      "numer": 89,
+      "poziom": "B1",
+      "temat": "Psychologia i osobowość",
+      "czasownik": "afrontar",
+      "plik": "lekcje/lekcja-afrontar.json"
+    },
+    {
+      "numer": 90,
+      "poziom": "B1",
+      "temat": "Społeczeństwo i problemy społeczne",
+      "czasownik": "ayudar",
+      "plik": "lekcje/lekcja-ayudar.json"
+    },
+    {
+      "numer": 91,
+      "poziom": "B1",
+      "temat": "Nauka i technika",
+      "czasownik": "investigar",
+      "plik": "lekcje/lekcja-investigar.json"
+    },
+    {
+      "numer": 92,
+      "poziom": "B1",
+      "temat": "Muzyka i instrumenty",
+      "czasownik": "tocar",
+      "plik": "lekcje/lekcja-tocar.json"
+    },
+    {
+      "numer": 93,
+      "poziom": "B1",
+      "temat": "Polityka i ustrój",
+      "czasownik": "votar",
+      "plik": "lekcje/lekcja-votar.json"
+    },
+    {
+      "numer": 94,
+      "poziom": "B1",
+      "temat": "Gospodarka i finanse",
+      "czasownik": "comerciar",
+      "plik": "lekcje/lekcja-comerciar.json"
+    },
+    {
+      "numer": 95,
+      "poziom": "B1",
+      "temat": "Mieszkanie i nieruchomości",
+      "czasownik": "adquirir",
+      "plik": "lekcje/lekcja-adquirir.json"
+    },
+    {
+      "numer": 96,
+      "poziom": "B1",
+      "temat": "Edukacja na poziomie zaawansowanym",
+      "czasownik": "estudiar",
+      "plik": "lekcje/lekcja-estudiar.json"
+    },
+    {
+      "numer": 97,
+      "poziom": "B1",
+      "temat": "Zdrowie psychiczne",
+      "czasownik": "descansar",
+      "plik": "lekcje/lekcja-descansar.json"
+    },
+    {
+      "numer": 98,
+      "poziom": "B1",
+      "temat": "Fitness i zdrowy styl życia",
+      "czasownik": "ejercitar",
+      "plik": "lekcje/lekcja-ejercitar.json"
+    },
+    {
+      "numer": 99,
+      "poziom": "B1",
+      "temat": "Kultura hiszpańskojęzyczna",
+      "czasownik": "festejar",
+      "plik": "lekcje/lekcja-festejar.json"
+    },
+    {
+      "numer": 100,
+      "poziom": "B1",
+      "temat": "Podsumowanie – trudniejsze pojęcia abstrakcyjne",
+      "czasownik": "lograr",
+      "plik": "lekcje/lekcja-lograr.json"
+    }
+  ]
+}

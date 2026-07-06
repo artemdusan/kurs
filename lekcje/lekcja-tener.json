@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "El tiempo",
+    "pl_word": "czas",
+    "examples": [
+      {
+        "es_form": "[El tiempo::czas] pasa muy rápido.",
+        "pl_translation": "czas mija bardzo szybko."
+      },
+      {
+        "es_form": "[El tiempo::czas] es oro.",
+        "pl_translation": "czas jest na wagę złota."
+      },
+      {
+        "es_form": "Esperé [el tiempo::czas] entero.",
+        "pl_translation": "Czekałem/am cały/całą czas."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El día",
+    "pl_word": "dzień",
+    "examples": [
+      {
+        "es_form": "No tengo [el día::dzień] suficiente.",
+        "pl_translation": "Nie mam wystarczająco dzień."
+      },
+      {
+        "es_form": "[El día::dzień] es oro.",
+        "pl_translation": "dzień jest na wagę złota."
+      },
+      {
+        "es_form": "[El día::dzień] se me hizo eterno.",
+        "pl_translation": "dzień mi się dłużył/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El año",
+    "pl_word": "rok",
+    "examples": [
+      {
+        "es_form": "Llegó [el año::rok] de la boda.",
+        "pl_translation": "Nadszedł rok ślubu."
+      },
+      {
+        "es_form": "No tengo [el año::rok] suficiente.",
+        "pl_translation": "Nie mam wystarczająco rok."
+      },
+      {
+        "es_form": "Esperé [el año::rok] entero.",
+        "pl_translation": "Czekałem/am cały/całą rok."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La hora",
+    "pl_word": "godzina",
+    "examples": [
+      {
+        "es_form": "No tengo [la hora::godzina] suficiente.",
+        "pl_translation": "Nie mam wystarczająco godzina."
+      },
+      {
+        "es_form": "[La hora::godzina] se me hizo eterno.",
+        "pl_translation": "godzina mi się dłużył/a."
+      },
+      {
+        "es_form": "Esperé [la hora::godzina] entero.",
+        "pl_translation": "Czekałem/am cały/całą godzina."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La edad",
+    "pl_word": "wiek",
+    "examples": [
+      {
+        "es_form": "Esperé [la edad::wiek] entero.",
+        "pl_translation": "Czekałem/am cały/całą wiek."
+      },
+      {
+        "es_form": "Llegó [la edad::wiek] de la boda.",
+        "pl_translation": "Nadszedł wiek ślubu."
+      },
+      {
+        "es_form": "No tengo [la edad::wiek] suficiente.",
+        "pl_translation": "Nie mam wystarczająco wiek."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El hambre",
+    "pl_word": "głód",
+    "examples": [
+      {
+        "es_form": "Compré [el hambre::głód] ayer.",
+        "pl_translation": "Kupiłem/am głód wczoraj."
+      },
+      {
+        "es_form": "[El hambre::głód] es de madera.",
+        "pl_translation": "głód jest z drewna."
+      },
+      {
+        "es_form": "[El hambre::głód] cuesta diez euros.",
+        "pl_translation": "głód kosztuje dziesięć euro."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La sed",
+    "pl_word": "pragnienie",
+    "examples": [
+      {
+        "es_form": "Necesito [la sed::pragnienie] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową pragnienie."
+      },
+      {
+        "es_form": "[La sed::pragnienie] es de madera.",
+        "pl_translation": "pragnienie jest z drewna."
+      },
+      {
+        "es_form": "Guarda [la sed::pragnienie] en el armario.",
+        "pl_translation": "Schowaj pragnienie do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El sueño",
+    "pl_word": "sen, senność",
+    "examples": [
+      {
+        "es_form": "[El sueño::sen, senność] es de madera.",
+        "pl_translation": "sen, senność jest z drewna."
+      },
+      {
+        "es_form": "Compré [el sueño::sen, senność] ayer.",
+        "pl_translation": "Kupiłem/am sen, senność wczoraj."
+      },
+      {
+        "es_form": "[El sueño::sen, senność] está sobre la mesa.",
+        "pl_translation": "sen, senność jest na stole."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La suerte",
+    "pl_word": "szczęście (fart)",
+    "examples": [
+      {
+        "es_form": "[La suerte::szczęście (fart)] es la clave del éxito.",
+        "pl_translation": "szczęście (fart) jest kluczem do sukcesu."
+      },
+      {
+        "es_form": "[La suerte::szczęście (fart)] es muy importante.",
+        "pl_translation": "szczęście (fart) jest bardzo ważny/a."
+      },
+      {
+        "es_form": "[La suerte::szczęście (fart)] cambió mi vida.",
+        "pl_translation": "szczęście (fart) zmienił/a moje życie."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El razón",
+    "pl_word": "racja, powód",
+    "examples": [
+      {
+        "es_form": "Guarda [el razón::racja, powód] en el armario.",
+        "pl_translation": "Schowaj racja, powód do szafy."
+      },
+      {
+        "es_form": "Necesito [el razón::racja, powód] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową racja, powód."
+      },
+      {
+        "es_form": "[El razón::racja, powód] cuesta diez euros.",
+        "pl_translation": "racja, powód kosztuje dziesięć euro."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "caliente",
+    "pl_word": "gorący",
+    "examples": [
+      {
+        "es_form": "Mi amigo es [caliente::gorący] y simpático.",
+        "pl_translation": "Mój przyjaciel jest gorący i sympatyczny."
+      },
+      {
+        "es_form": "Se compró un vestido [caliente::gorący].",
+        "pl_translation": "Kupiła sobie gorący sukienkę."
+      },
+      {
+        "es_form": "Nada es más [caliente::gorący] que la familia.",
+        "pl_translation": "Nic nie jest gorący od rodziny."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "frío",
+    "pl_word": "zimny",
+    "examples": [
+      {
+        "es_form": "La comida está [fría::zimny].",
+        "pl_translation": "Jedzenie jest zimny."
+      },
+      {
+        "es_form": "Tengo una casa [fría::zimny].",
+        "pl_translation": "Mam zimny dom."
+      },
+      {
+        "es_form": "Hace un día [frío::zimny].",
+        "pl_translation": "Jest zimny dzień."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "tener",
+    "pl_word": "mieć",
+    "examples": [
+      {
+        "es_form": "Prefiero [tener::mieć] en casa.",
+        "pl_translation": "Wolę mieć w domu."
+      },
+      {
+        "es_form": "¿Puedes [tener::mieć] más rápido?",
+        "pl_translation": "Możesz mieć szybciej?"
+      },
+      {
+        "es_form": "Es importante [tener::mieć] todos los días.",
+        "pl_translation": "Ważne jest mieć codziennie."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "tengo",
+        "pl_word": "tengo",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "No [tengo::tengo] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie tengo zbyt dobrze."
+          },
+          {
+            "es_form": "¿[tengo::tengo] los fines de semana?",
+            "pl_translation": "Czy tengo w weekendy?"
+          },
+          {
+            "es_form": "Normalmente [tengo::tengo] por la mañana.",
+            "pl_translation": "Zazwyczaj tengo rano."
+          }
+        ]
+      },
+      {
+        "es_word": "tienes",
+        "pl_word": "tienes",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [tienes::tienes] por la mañana.",
+            "pl_translation": "Zazwyczaj tienes rano."
+          },
+          {
+            "es_form": "[tienes::tienes] como me enseñaste.",
+            "pl_translation": "tienes tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "¿[tienes::tienes] los fines de semana?",
+            "pl_translation": "Czy tienes w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "tiene",
+        "pl_word": "tiene",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [tiene::tiene] por la mañana.",
+            "pl_translation": "Zazwyczaj tiene rano."
+          },
+          {
+            "es_form": "[tiene::tiene] todos los días.",
+            "pl_translation": "tiene codziennie."
+          },
+          {
+            "es_form": "No [tiene::tiene] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie tiene zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "tenemos",
+        "pl_word": "tenemos",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "No [tenemos::tenemos] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie tenemos zbyt dobrze."
+          },
+          {
+            "es_form": "[tenemos::tenemos] todos los días.",
+            "pl_translation": "tenemos codziennie."
+          },
+          {
+            "es_form": "Normalmente [tenemos::tenemos] por la mañana.",
+            "pl_translation": "Zazwyczaj tenemos rano."
+          }
+        ]
+      },
+      {
+        "es_word": "tenéis",
+        "pl_word": "tenéis",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[tenéis::tenéis] todos los días.",
+            "pl_translation": "tenéis codziennie."
+          },
+          {
+            "es_form": "No [tenéis::tenéis] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie tenéis zbyt dobrze."
+          },
+          {
+            "es_form": "Normalmente [tenéis::tenéis] por la mañana.",
+            "pl_translation": "Zazwyczaj tenéis rano."
+          }
+        ]
+      },
+      {
+        "es_word": "tienen",
+        "pl_word": "tienen",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "No [tienen::tienen] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie tienen zbyt dobrze."
+          },
+          {
+            "es_form": "Siempre [tienen::tienen] con atención.",
+            "pl_translation": "Zawsze tienen z uwagą."
+          },
+          {
+            "es_form": "[tienen::tienen] como me enseñaste.",
+            "pl_translation": "tienen tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "tuve",
+        "pl_word": "tuve",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [tuve::tuve] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie tuve czegoś takiego."
+          },
+          {
+            "es_form": "[tuve::tuve] sin parar durante horas.",
+            "pl_translation": "tuve bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "¿[tuve::tuve] bien el examen?",
+            "pl_translation": "Czy tuve dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "tuviste",
+        "pl_word": "tuviste",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[tuviste::tuviste] la semana pasada.",
+            "pl_translation": "tuviste w zeszłym tygodniu."
+          },
+          {
+            "es_form": "El mes pasado no [tuviste::tuviste] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie tuviste."
+          },
+          {
+            "es_form": "Ayer [tuviste::tuviste] todo el día.",
+            "pl_translation": "Wczoraj tuviste cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "tuvo",
+        "pl_word": "tuvo",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[tuvo::tuvo] sin parar durante horas.",
+            "pl_translation": "tuvo bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [tuvo::tuvo] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie tuvo czegoś takiego."
+          },
+          {
+            "es_form": "Ayer [tuvo::tuvo] todo el día.",
+            "pl_translation": "Wczoraj tuvo cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "tuvimos",
+        "pl_word": "tuvimos",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [tuvimos::tuvimos] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie tuvimos czegoś takiego."
+          },
+          {
+            "es_form": "El mes pasado no [tuvimos::tuvimos] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie tuvimos."
+          },
+          {
+            "es_form": "Ayer [tuvimos::tuvimos] todo el día.",
+            "pl_translation": "Wczoraj tuvimos cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "tuvisteis",
+        "pl_word": "tuvisteis",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [tuvisteis::tuvisteis] todo el día.",
+            "pl_translation": "Wczoraj tuvisteis cały dzień."
+          },
+          {
+            "es_form": "[tuvisteis::tuvisteis] sin parar durante horas.",
+            "pl_translation": "tuvisteis bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "¿[tuvisteis::tuvisteis] bien el examen?",
+            "pl_translation": "Czy tuvisteis dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "tuvieron",
+        "pl_word": "tuvieron",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[tuvieron::tuvieron] sin parar durante horas.",
+            "pl_translation": "tuvieron bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "[tuvieron::tuvieron] la semana pasada.",
+            "pl_translation": "tuvieron w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Ayer [tuvieron::tuvieron] todo el día.",
+            "pl_translation": "Wczoraj tuvieron cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "tendré",
+        "pl_word": "tendré",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[tendré::tendré] con nosotros mañana?",
+            "pl_translation": "Czy tendré z nami jutro?"
+          },
+          {
+            "es_form": "Mañana [tendré::tendré] más temprano.",
+            "pl_translation": "Jutro tendré wcześniej."
+          },
+          {
+            "es_form": "[tendré::tendré] la próxima semana.",
+            "pl_translation": "tendré w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "tendrás",
+        "pl_word": "tendrás",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [tendrás::tendrás] más temprano.",
+            "pl_translation": "Jutro tendrás wcześniej."
+          },
+          {
+            "es_form": "¿[tendrás::tendrás] con nosotros mañana?",
+            "pl_translation": "Czy tendrás z nami jutro?"
+          },
+          {
+            "es_form": "Te prometo que [tendrás::tendrás] a tiempo.",
+            "pl_translation": "Obiecuję ci, że tendrás na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "tendrá",
+        "pl_word": "tendrá",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[tendrá::tendrá] la próxima semana.",
+            "pl_translation": "tendrá w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Creo que [tendrá::tendrá] bien.",
+            "pl_translation": "Myślę, że tendrá dobrze."
+          },
+          {
+            "es_form": "Mañana [tendrá::tendrá] más temprano.",
+            "pl_translation": "Jutro tendrá wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "tendremos",
+        "pl_word": "tendremos",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[tendremos::tendremos] con nosotros mañana?",
+            "pl_translation": "Czy tendremos z nami jutro?"
+          },
+          {
+            "es_form": "[tendremos::tendremos] la próxima semana.",
+            "pl_translation": "tendremos w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Mañana [tendremos::tendremos] más temprano.",
+            "pl_translation": "Jutro tendremos wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "tendréis",
+        "pl_word": "tendréis",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[tendréis::tendréis] con nosotros mañana?",
+            "pl_translation": "Czy tendréis z nami jutro?"
+          },
+          {
+            "es_form": "Mañana [tendréis::tendréis] más temprano.",
+            "pl_translation": "Jutro tendréis wcześniej."
+          },
+          {
+            "es_form": "Creo que [tendréis::tendréis] bien.",
+            "pl_translation": "Myślę, że tendréis dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "tendrán",
+        "pl_word": "tendrán",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [tendrán::tendrán] a tiempo.",
+            "pl_translation": "Obiecuję ci, że tendrán na czas."
+          },
+          {
+            "es_form": "¿[tendrán::tendrán] con nosotros mañana?",
+            "pl_translation": "Czy tendrán z nami jutro?"
+          },
+          {
+            "es_form": "El año que viene [tendrán::tendrán] en España.",
+            "pl_translation": "W przyszłym roku tendrán w Hiszpanii."
+          }
+        ]
+      }
+    ]
+  }
+]

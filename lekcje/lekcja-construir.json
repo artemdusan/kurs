@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "La madera",
+    "pl_word": "drewno",
+    "examples": [
+      {
+        "es_form": "Guarda [la madera::drewno] en el armario.",
+        "pl_translation": "Schowaj drewno do szafy."
+      },
+      {
+        "es_form": "Compré [la madera::drewno] ayer.",
+        "pl_translation": "Kupiłem/am drewno wczoraj."
+      },
+      {
+        "es_form": "[La madera::drewno] cuesta diez euros.",
+        "pl_translation": "drewno kosztuje dziesięć euro."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El metal",
+    "pl_word": "metal",
+    "examples": [
+      {
+        "es_form": "[El metal::metal] está sobre la mesa.",
+        "pl_translation": "metal jest na stole."
+      },
+      {
+        "es_form": "[El metal::metal] es de madera.",
+        "pl_translation": "metal jest z drewna."
+      },
+      {
+        "es_form": "Guarda [el metal::metal] en el armario.",
+        "pl_translation": "Schowaj metal do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El vidrio",
+    "pl_word": "szkło",
+    "examples": [
+      {
+        "es_form": "¿Has visto [el vidrio::szkło]?",
+        "pl_translation": "Widziałeś/aś szkło?"
+      },
+      {
+        "es_form": "Se me rompió [el vidrio::szkło].",
+        "pl_translation": "Zepsuł mi się szkło."
+      },
+      {
+        "es_form": "[El vidrio::szkło] está sobre la mesa.",
+        "pl_translation": "szkło jest na stole."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El papel",
+    "pl_word": "papier",
+    "examples": [
+      {
+        "es_form": "Compré [el papel::papier] ayer.",
+        "pl_translation": "Kupiłem/am papier wczoraj."
+      },
+      {
+        "es_form": "Se me rompió [el papel::papier].",
+        "pl_translation": "Zepsuł mi się papier."
+      },
+      {
+        "es_form": "[El papel::papier] cuesta diez euros.",
+        "pl_translation": "papier kosztuje dziesięć euro."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El plástico",
+    "pl_word": "plastik",
+    "examples": [
+      {
+        "es_form": "[El plástico::plastik] abre a las ocho.",
+        "pl_translation": "plastik otwiera się o ósmej."
+      },
+      {
+        "es_form": "Voy a [el plástico::plastik] cada día.",
+        "pl_translation": "Chodzę do plastik codziennie."
+      },
+      {
+        "es_form": "[El plástico::plastik] es muy grande.",
+        "pl_translation": "plastik jest bardzo duży/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El oro",
+    "pl_word": "złoto",
+    "examples": [
+      {
+        "es_form": "Guarda [el oro::złoto] en el armario.",
+        "pl_translation": "Schowaj złoto do szafy."
+      },
+      {
+        "es_form": "Compré [el oro::złoto] ayer.",
+        "pl_translation": "Kupiłem/am złoto wczoraj."
+      },
+      {
+        "es_form": "Se me rompió [el oro::złoto].",
+        "pl_translation": "Zepsuł mi się złoto."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La plata",
+    "pl_word": "srebro",
+    "examples": [
+      {
+        "es_form": "¿Has visto [la plata::srebro]?",
+        "pl_translation": "Widziałeś/aś srebro?"
+      },
+      {
+        "es_form": "Necesito [la plata::srebro] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową srebro."
+      },
+      {
+        "es_form": "Compré [la plata::srebro] ayer.",
+        "pl_translation": "Kupiłem/am srebro wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El hierro",
+    "pl_word": "żelazo",
+    "examples": [
+      {
+        "es_form": "Se me rompió [el hierro::żelazo].",
+        "pl_translation": "Zepsuł mi się żelazo."
+      },
+      {
+        "es_form": "Guarda [el hierro::żelazo] en el armario.",
+        "pl_translation": "Schowaj żelazo do szafy."
+      },
+      {
+        "es_form": "Compré [el hierro::żelazo] ayer.",
+        "pl_translation": "Kupiłem/am żelazo wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La piedra",
+    "pl_word": "kamień",
+    "examples": [
+      {
+        "es_form": "[La piedra::kamień] está sobre la mesa.",
+        "pl_translation": "kamień jest na stole."
+      },
+      {
+        "es_form": "[La piedra::kamień] es de madera.",
+        "pl_translation": "kamień jest z drewna."
+      },
+      {
+        "es_form": "¿Has visto [la piedra::kamień]?",
+        "pl_translation": "Widziałeś/aś kamień?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El ladrillo",
+    "pl_word": "cegła",
+    "examples": [
+      {
+        "es_form": "[El ladrillo::cegła] está sobre la mesa.",
+        "pl_translation": "cegła jest na stole."
+      },
+      {
+        "es_form": "Guarda [el ladrillo::cegła] en el armario.",
+        "pl_translation": "Schowaj cegła do szafy."
+      },
+      {
+        "es_form": "[El ladrillo::cegła] cuesta diez euros.",
+        "pl_translation": "cegła kosztuje dziesięć euro."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "ligero",
+    "pl_word": "lekki",
+    "examples": [
+      {
+        "es_form": "El examen fue [ligero::lekki].",
+        "pl_translation": "Egzamin był lekki."
+      },
+      {
+        "es_form": "Este coche es [ligero::lekki].",
+        "pl_translation": "Ten samochód jest lekki."
+      },
+      {
+        "es_form": "Se compró un vestido [ligero::lekki].",
+        "pl_translation": "Kupiła sobie lekki sukienkę."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "pesado",
+    "pl_word": "ciężki",
+    "examples": [
+      {
+        "es_form": "Tengo una casa [pesada::ciężki].",
+        "pl_translation": "Mam ciężki dom."
+      },
+      {
+        "es_form": "Mi amigo es [pesado::ciężki] y simpático.",
+        "pl_translation": "Mój przyjaciel jest ciężki i sympatyczny."
+      },
+      {
+        "es_form": "Se compró un vestido [pesado::ciężki].",
+        "pl_translation": "Kupiła sobie ciężki sukienkę."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "construir",
+    "pl_word": "budować",
+    "examples": [
+      {
+        "es_form": "Prefiero [construir::budować] en casa.",
+        "pl_translation": "Wolę budować w domu."
+      },
+      {
+        "es_form": "Voy a [construir::budować] mañana.",
+        "pl_translation": "Będę budować jutro."
+      },
+      {
+        "es_form": "Me gusta [construir::budować] por la mañana.",
+        "pl_translation": "Lubię budować rano."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "construyo",
+        "pl_word": "construyo",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [construyo::construyo] con atención.",
+            "pl_translation": "Zawsze construyo z uwagą."
+          },
+          {
+            "es_form": "No [construyo::construyo] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie construyo zbyt dobrze."
+          },
+          {
+            "es_form": "[construyo::construyo] como me enseñaste.",
+            "pl_translation": "construyo tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "construyes",
+        "pl_word": "construyes",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [construyes::construyes] con atención.",
+            "pl_translation": "Zawsze construyes z uwagą."
+          },
+          {
+            "es_form": "Normalmente [construyes::construyes] por la mañana.",
+            "pl_translation": "Zazwyczaj construyes rano."
+          },
+          {
+            "es_form": "¿[construyes::construyes] los fines de semana?",
+            "pl_translation": "Czy construyes w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "construye",
+        "pl_word": "construye",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[construye::construye] como me enseñaste.",
+            "pl_translation": "construye tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [construye::construye] por la mañana.",
+            "pl_translation": "Zazwyczaj construye rano."
+          },
+          {
+            "es_form": "[construye::construye] todos los días.",
+            "pl_translation": "construye codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "construimos",
+        "pl_word": "construimos",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[construimos::construimos] todos los días.",
+            "pl_translation": "construimos codziennie."
+          },
+          {
+            "es_form": "Normalmente [construimos::construimos] por la mañana.",
+            "pl_translation": "Zazwyczaj construimos rano."
+          },
+          {
+            "es_form": "No [construimos::construimos] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie construimos zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "construís",
+        "pl_word": "construís",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[construís::construís] todos los días.",
+            "pl_translation": "construís codziennie."
+          },
+          {
+            "es_form": "Normalmente [construís::construís] por la mañana.",
+            "pl_translation": "Zazwyczaj construís rano."
+          },
+          {
+            "es_form": "¿[construís::construís] los fines de semana?",
+            "pl_translation": "Czy construís w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "construyen",
+        "pl_word": "construyen",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[construyen::construyen] como me enseñaste.",
+            "pl_translation": "construyen tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "No [construyen::construyen] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie construyen zbyt dobrze."
+          },
+          {
+            "es_form": "¿[construyen::construyen] los fines de semana?",
+            "pl_translation": "Czy construyen w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "construí",
+        "pl_word": "construí",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[construí::construí] sin parar durante horas.",
+            "pl_translation": "construí bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [construí::construí] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie construí czegoś takiego."
+          },
+          {
+            "es_form": "El mes pasado no [construí::construí] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie construí."
+          }
+        ]
+      },
+      {
+        "es_word": "construiste",
+        "pl_word": "construiste",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [construiste::construiste] todo el día.",
+            "pl_translation": "Wczoraj construiste cały dzień."
+          },
+          {
+            "es_form": "El mes pasado no [construiste::construiste] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie construiste."
+          },
+          {
+            "es_form": "[construiste::construiste] la semana pasada.",
+            "pl_translation": "construiste w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "construyó",
+        "pl_word": "construyó",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[construyó::construyó] sin parar durante horas.",
+            "pl_translation": "construyó bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [construyó::construyó] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie construyó czegoś takiego."
+          },
+          {
+            "es_form": "Ayer [construyó::construyó] todo el día.",
+            "pl_translation": "Wczoraj construyó cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "construimos",
+        "pl_word": "construimos",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [construimos::construimos] todo el día.",
+            "pl_translation": "Wczoraj construimos cały dzień."
+          },
+          {
+            "es_form": "[construimos::construimos] la semana pasada.",
+            "pl_translation": "construimos w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Nunca [construimos::construimos] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie construimos czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "construisteis",
+        "pl_word": "construisteis",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[construisteis::construisteis] bien el examen?",
+            "pl_translation": "Czy construisteis dobrze egzamin?"
+          },
+          {
+            "es_form": "Ayer [construisteis::construisteis] todo el día.",
+            "pl_translation": "Wczoraj construisteis cały dzień."
+          },
+          {
+            "es_form": "Nunca [construisteis::construisteis] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie construisteis czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "construyeron",
+        "pl_word": "construyeron",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [construyeron::construyeron] todo el día.",
+            "pl_translation": "Wczoraj construyeron cały dzień."
+          },
+          {
+            "es_form": "El mes pasado no [construyeron::construyeron] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie construyeron."
+          },
+          {
+            "es_form": "[construyeron::construyeron] sin parar durante horas.",
+            "pl_translation": "construyeron bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "construiré",
+        "pl_word": "construiré",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [construiré::construiré] a tiempo.",
+            "pl_translation": "Obiecuję ci, że construiré na czas."
+          },
+          {
+            "es_form": "Creo que [construiré::construiré] bien.",
+            "pl_translation": "Myślę, że construiré dobrze."
+          },
+          {
+            "es_form": "El año que viene [construiré::construiré] en España.",
+            "pl_translation": "W przyszłym roku construiré w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "construirás",
+        "pl_word": "construirás",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [construirás::construirás] a tiempo.",
+            "pl_translation": "Obiecuję ci, że construirás na czas."
+          },
+          {
+            "es_form": "Mañana [construirás::construirás] más temprano.",
+            "pl_translation": "Jutro construirás wcześniej."
+          },
+          {
+            "es_form": "¿[construirás::construirás] con nosotros mañana?",
+            "pl_translation": "Czy construirás z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "construirá",
+        "pl_word": "construirá",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [construirá::construirá] en España.",
+            "pl_translation": "W przyszłym roku construirá w Hiszpanii."
+          },
+          {
+            "es_form": "¿[construirá::construirá] con nosotros mañana?",
+            "pl_translation": "Czy construirá z nami jutro?"
+          },
+          {
+            "es_form": "Mañana [construirá::construirá] más temprano.",
+            "pl_translation": "Jutro construirá wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "construiremos",
+        "pl_word": "construiremos",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [construiremos::construiremos] a tiempo.",
+            "pl_translation": "Obiecuję ci, że construiremos na czas."
+          },
+          {
+            "es_form": "Mañana [construiremos::construiremos] más temprano.",
+            "pl_translation": "Jutro construiremos wcześniej."
+          },
+          {
+            "es_form": "El año que viene [construiremos::construiremos] en España.",
+            "pl_translation": "W przyszłym roku construiremos w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "construiréis",
+        "pl_word": "construiréis",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [construiréis::construiréis] más temprano.",
+            "pl_translation": "Jutro construiréis wcześniej."
+          },
+          {
+            "es_form": "[construiréis::construiréis] la próxima semana.",
+            "pl_translation": "construiréis w przyszłym tygodniu."
+          },
+          {
+            "es_form": "¿[construiréis::construiréis] con nosotros mañana?",
+            "pl_translation": "Czy construiréis z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "construirán",
+        "pl_word": "construirán",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [construirán::construirán] más temprano.",
+            "pl_translation": "Jutro construirán wcześniej."
+          },
+          {
+            "es_form": "Te prometo que [construirán::construirán] a tiempo.",
+            "pl_translation": "Obiecuję ci, że construirán na czas."
+          },
+          {
+            "es_form": "[construirán::construirán] la próxima semana.",
+            "pl_translation": "construirán w przyszłym tygodniu."
+          }
+        ]
+      }
+    ]
+  }
+]

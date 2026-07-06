@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "El centro",
+    "pl_word": "centrum (miasta)",
+    "examples": [
+      {
+        "es_form": "[El centro::centrum (miasta)] abre a las ocho.",
+        "pl_translation": "centrum (miasta) otwiera się o ósmej."
+      },
+      {
+        "es_form": "Trabajo en [el centro::centrum (miasta)].",
+        "pl_translation": "Pracuję w centrum (miasta)."
+      },
+      {
+        "es_form": "[El centro::centrum (miasta)] es muy grande.",
+        "pl_translation": "centrum (miasta) jest bardzo duży/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El parque",
+    "pl_word": "park",
+    "examples": [
+      {
+        "es_form": "Visitamos [el parque::park] la semana pasada.",
+        "pl_translation": "Odwiedziliśmy park w zeszłym tygodniu."
+      },
+      {
+        "es_form": "Trabajo en [el parque::park].",
+        "pl_translation": "Pracuję w park."
+      },
+      {
+        "es_form": "[El parque::park] está cerca de aquí.",
+        "pl_translation": "park jest niedaleko stąd."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La iglesia",
+    "pl_word": "kościół",
+    "examples": [
+      {
+        "es_form": "Visitamos [la iglesia::kościół] la semana pasada.",
+        "pl_translation": "Odwiedziliśmy kościół w zeszłym tygodniu."
+      },
+      {
+        "es_form": "Trabajo en [la iglesia::kościół].",
+        "pl_translation": "Pracuję w kościół."
+      },
+      {
+        "es_form": "[La iglesia::kościół] es muy grande.",
+        "pl_translation": "kościół jest bardzo duży/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El restaurante",
+    "pl_word": "restauracja",
+    "examples": [
+      {
+        "es_form": "Voy a [el restaurante::restauracja] cada día.",
+        "pl_translation": "Chodzę do restauracja codziennie."
+      },
+      {
+        "es_form": "[El restaurante::restauracja] abre a las ocho.",
+        "pl_translation": "restauracja otwiera się o ósmej."
+      },
+      {
+        "es_form": "Trabajo en [el restaurante::restauracja].",
+        "pl_translation": "Pracuję w restauracja."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El cine",
+    "pl_word": "kino",
+    "examples": [
+      {
+        "es_form": "¿Dónde está [el cine::kino]?",
+        "pl_translation": "Gdzie jest kino?"
+      },
+      {
+        "es_form": "[El cine::kino] es muy grande.",
+        "pl_translation": "kino jest bardzo duży/a."
+      },
+      {
+        "es_form": "Trabajo en [el cine::kino].",
+        "pl_translation": "Pracuję w kino."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El teatro",
+    "pl_word": "teatr",
+    "examples": [
+      {
+        "es_form": "[El teatro::teatr] está cerca de aquí.",
+        "pl_translation": "teatr jest niedaleko stąd."
+      },
+      {
+        "es_form": "Visitamos [el teatro::teatr] la semana pasada.",
+        "pl_translation": "Odwiedziliśmy teatr w zeszłym tygodniu."
+      },
+      {
+        "es_form": "Voy a [el teatro::teatr] cada día.",
+        "pl_translation": "Chodzę do teatr codziennie."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El museo",
+    "pl_word": "muzeum",
+    "examples": [
+      {
+        "es_form": "¿Dónde está [el museo::muzeum]?",
+        "pl_translation": "Gdzie jest muzeum?"
+      },
+      {
+        "es_form": "[El museo::muzeum] está cerca de aquí.",
+        "pl_translation": "muzeum jest niedaleko stąd."
+      },
+      {
+        "es_form": "Voy a [el museo::muzeum] cada día.",
+        "pl_translation": "Chodzę do muzeum codziennie."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La biblioteca",
+    "pl_word": "biblioteka",
+    "examples": [
+      {
+        "es_form": "¿Dónde está [la biblioteca::biblioteka]?",
+        "pl_translation": "Gdzie jest biblioteka?"
+      },
+      {
+        "es_form": "Trabajo en [la biblioteca::biblioteka].",
+        "pl_translation": "Pracuję w biblioteka."
+      },
+      {
+        "es_form": "[La biblioteca::biblioteka] abre a las ocho.",
+        "pl_translation": "biblioteka otwiera się o ósmej."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El correos",
+    "pl_word": "poczta",
+    "examples": [
+      {
+        "es_form": "[El correos::poczta] está cerca de aquí.",
+        "pl_translation": "poczta jest niedaleko stąd."
+      },
+      {
+        "es_form": "[El correos::poczta] abre a las ocho.",
+        "pl_translation": "poczta otwiera się o ósmej."
+      },
+      {
+        "es_form": "[El correos::poczta] es muy grande.",
+        "pl_translation": "poczta jest bardzo duży/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El banco",
+    "pl_word": "bank",
+    "examples": [
+      {
+        "es_form": "[El banco::bank] es muy grande.",
+        "pl_translation": "bank jest bardzo duży/a."
+      },
+      {
+        "es_form": "Voy a [el banco::bank] cada día.",
+        "pl_translation": "Chodzę do bank codziennie."
+      },
+      {
+        "es_form": "¿Dónde está [el banco::bank]?",
+        "pl_translation": "Gdzie jest bank?"
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "ruidoso",
+    "pl_word": "głośny",
+    "examples": [
+      {
+        "es_form": "Es un lugar [ruidoso::głośny] para vivir.",
+        "pl_translation": "To jest głośny miejsce do życia."
+      },
+      {
+        "es_form": "Tengo una casa [ruidosa::głośny].",
+        "pl_translation": "Mam głośny dom."
+      },
+      {
+        "es_form": "El examen fue [ruidoso::głośny].",
+        "pl_translation": "Egzamin był głośny."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "tranquilo",
+    "pl_word": "cichy, spokojny",
+    "examples": [
+      {
+        "es_form": "Se compró un vestido [tranquilo::cichy, spokojny].",
+        "pl_translation": "Kupiła sobie cichy, spokojny sukienkę."
+      },
+      {
+        "es_form": "La comida está [tranquila::cichy, spokojny].",
+        "pl_translation": "Jedzenie jest cichy, spokojny."
+      },
+      {
+        "es_form": "Nada es más [tranquilo::cichy, spokojny] que la familia.",
+        "pl_translation": "Nic nie jest cichy, spokojny od rodziny."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "visitar",
+    "pl_word": "zwiedzać, odwiedzać",
+    "examples": [
+      {
+        "es_form": "Es importante [visitar::zwiedzać, odwiedzać] todos los días.",
+        "pl_translation": "Ważne jest zwiedzać, odwiedzać codziennie."
+      },
+      {
+        "es_form": "Quiero [visitar::zwiedzać, odwiedzać] ahora.",
+        "pl_translation": "Chcę zwiedzać, odwiedzać teraz."
+      },
+      {
+        "es_form": "Me gusta [visitar::zwiedzać, odwiedzać] por la mañana.",
+        "pl_translation": "Lubię zwiedzać, odwiedzać rano."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "visito",
+        "pl_word": "visito",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[visito::visito] todos los días.",
+            "pl_translation": "visito codziennie."
+          },
+          {
+            "es_form": "Normalmente [visito::visito] por la mañana.",
+            "pl_translation": "Zazwyczaj visito rano."
+          },
+          {
+            "es_form": "No [visito::visito] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie visito zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "visitas",
+        "pl_word": "visitas",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[visitas::visitas] los fines de semana?",
+            "pl_translation": "Czy visitas w weekendy?"
+          },
+          {
+            "es_form": "Siempre [visitas::visitas] con atención.",
+            "pl_translation": "Zawsze visitas z uwagą."
+          },
+          {
+            "es_form": "[visitas::visitas] como me enseñaste.",
+            "pl_translation": "visitas tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "visita",
+        "pl_word": "visita",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[visita::visita] como me enseñaste.",
+            "pl_translation": "visita tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "¿[visita::visita] los fines de semana?",
+            "pl_translation": "Czy visita w weekendy?"
+          },
+          {
+            "es_form": "No [visita::visita] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie visita zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "visitamos",
+        "pl_word": "visitamos",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "No [visitamos::visitamos] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie visitamos zbyt dobrze."
+          },
+          {
+            "es_form": "[visitamos::visitamos] como me enseñaste.",
+            "pl_translation": "visitamos tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [visitamos::visitamos] por la mañana.",
+            "pl_translation": "Zazwyczaj visitamos rano."
+          }
+        ]
+      },
+      {
+        "es_word": "visitáis",
+        "pl_word": "visitáis",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[visitáis::visitáis] como me enseñaste.",
+            "pl_translation": "visitáis tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "¿[visitáis::visitáis] los fines de semana?",
+            "pl_translation": "Czy visitáis w weekendy?"
+          },
+          {
+            "es_form": "[visitáis::visitáis] todos los días.",
+            "pl_translation": "visitáis codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "visitan",
+        "pl_word": "visitan",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [visitan::visitan] con atención.",
+            "pl_translation": "Zawsze visitan z uwagą."
+          },
+          {
+            "es_form": "Normalmente [visitan::visitan] por la mañana.",
+            "pl_translation": "Zazwyczaj visitan rano."
+          },
+          {
+            "es_form": "¿[visitan::visitan] los fines de semana?",
+            "pl_translation": "Czy visitan w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "visité",
+        "pl_word": "visité",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[visité::visité] la semana pasada.",
+            "pl_translation": "visité w zeszłym tygodniu."
+          },
+          {
+            "es_form": "[visité::visité] sin parar durante horas.",
+            "pl_translation": "visité bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "El mes pasado no [visité::visité] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie visité."
+          }
+        ]
+      },
+      {
+        "es_word": "visitaste",
+        "pl_word": "visitaste",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[visitaste::visitaste] bien el examen?",
+            "pl_translation": "Czy visitaste dobrze egzamin?"
+          },
+          {
+            "es_form": "[visitaste::visitaste] sin parar durante horas.",
+            "pl_translation": "visitaste bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [visitaste::visitaste] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie visitaste czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "visitó",
+        "pl_word": "visitó",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [visitó::visitó] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie visitó czegoś takiego."
+          },
+          {
+            "es_form": "Ayer [visitó::visitó] todo el día.",
+            "pl_translation": "Wczoraj visitó cały dzień."
+          },
+          {
+            "es_form": "El mes pasado no [visitó::visitó] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie visitó."
+          }
+        ]
+      },
+      {
+        "es_word": "visitamos",
+        "pl_word": "visitamos",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [visitamos::visitamos] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie visitamos czegoś takiego."
+          },
+          {
+            "es_form": "¿[visitamos::visitamos] bien el examen?",
+            "pl_translation": "Czy visitamos dobrze egzamin?"
+          },
+          {
+            "es_form": "[visitamos::visitamos] la semana pasada.",
+            "pl_translation": "visitamos w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "visitasteis",
+        "pl_word": "visitasteis",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [visitasteis::visitasteis] todo el día.",
+            "pl_translation": "Wczoraj visitasteis cały dzień."
+          },
+          {
+            "es_form": "[visitasteis::visitasteis] la semana pasada.",
+            "pl_translation": "visitasteis w zeszłym tygodniu."
+          },
+          {
+            "es_form": "¿[visitasteis::visitasteis] bien el examen?",
+            "pl_translation": "Czy visitasteis dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "visitaron",
+        "pl_word": "visitaron",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [visitaron::visitaron] todo el día.",
+            "pl_translation": "Wczoraj visitaron cały dzień."
+          },
+          {
+            "es_form": "¿[visitaron::visitaron] bien el examen?",
+            "pl_translation": "Czy visitaron dobrze egzamin?"
+          },
+          {
+            "es_form": "[visitaron::visitaron] sin parar durante horas.",
+            "pl_translation": "visitaron bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "visité",
+        "pl_word": "visité",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[visité::visité] con nosotros mañana?",
+            "pl_translation": "Czy visité z nami jutro?"
+          },
+          {
+            "es_form": "Mañana [visité::visité] más temprano.",
+            "pl_translation": "Jutro visité wcześniej."
+          },
+          {
+            "es_form": "El año que viene [visité::visité] en España.",
+            "pl_translation": "W przyszłym roku visité w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "visitás",
+        "pl_word": "visitás",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [visitás::visitás] a tiempo.",
+            "pl_translation": "Obiecuję ci, że visitás na czas."
+          },
+          {
+            "es_form": "[visitás::visitás] la próxima semana.",
+            "pl_translation": "visitás w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Mañana [visitás::visitás] más temprano.",
+            "pl_translation": "Jutro visitás wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "visitá",
+        "pl_word": "visitá",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [visitá::visitá] más temprano.",
+            "pl_translation": "Jutro visitá wcześniej."
+          },
+          {
+            "es_form": "Te prometo que [visitá::visitá] a tiempo.",
+            "pl_translation": "Obiecuję ci, że visitá na czas."
+          },
+          {
+            "es_form": "[visitá::visitá] la próxima semana.",
+            "pl_translation": "visitá w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "visitemos",
+        "pl_word": "visitemos",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [visitemos::visitemos] a tiempo.",
+            "pl_translation": "Obiecuję ci, że visitemos na czas."
+          },
+          {
+            "es_form": "Mañana [visitemos::visitemos] más temprano.",
+            "pl_translation": "Jutro visitemos wcześniej."
+          },
+          {
+            "es_form": "[visitemos::visitemos] la próxima semana.",
+            "pl_translation": "visitemos w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "visitéis",
+        "pl_word": "visitéis",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [visitéis::visitéis] bien.",
+            "pl_translation": "Myślę, że visitéis dobrze."
+          },
+          {
+            "es_form": "El año que viene [visitéis::visitéis] en España.",
+            "pl_translation": "W przyszłym roku visitéis w Hiszpanii."
+          },
+          {
+            "es_form": "¿[visitéis::visitéis] con nosotros mañana?",
+            "pl_translation": "Czy visitéis z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "visitán",
+        "pl_word": "visitán",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[visitán::visitán] con nosotros mañana?",
+            "pl_translation": "Czy visitán z nami jutro?"
+          },
+          {
+            "es_form": "Te prometo que [visitán::visitán] a tiempo.",
+            "pl_translation": "Obiecuję ci, że visitán na czas."
+          },
+          {
+            "es_form": "El año que viene [visitán::visitán] en España.",
+            "pl_translation": "W przyszłym roku visitán w Hiszpanii."
+          }
+        ]
+      }
+    ]
+  }
+]

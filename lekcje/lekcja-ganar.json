@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "La policía",
+    "pl_word": "policjant",
+    "examples": [
+      {
+        "es_form": "Hablé con [la policía::policjant] ayer.",
+        "pl_translation": "Rozmawiałem/am wczoraj z policjant."
+      },
+      {
+        "es_form": "[La policía::policjant] vive en mi calle.",
+        "pl_translation": "policjant mieszka na mojej ulicy."
+      },
+      {
+        "es_form": "[La policía::policjant] trabaja aquí.",
+        "pl_translation": "policjant tu pracuje."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El bombero",
+    "pl_word": "strażak",
+    "examples": [
+      {
+        "es_form": "[El bombero::strażak] es muy amable.",
+        "pl_translation": "strażak jest bardzo miły/a."
+      },
+      {
+        "es_form": "Hablé con [el bombero::strażak] ayer.",
+        "pl_translation": "Rozmawiałem/am wczoraj z strażak."
+      },
+      {
+        "es_form": "Esta es [el bombero::strażak] de la que hablé.",
+        "pl_translation": "To jest strażak, o której mówiłem/am."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El conductor de autobús",
+    "pl_word": "kierowca autobusu",
+    "examples": [
+      {
+        "es_form": "[El conductor de autobús::kierowca autobusu] me ayudó mucho.",
+        "pl_translation": "kierowca autobusu bardzo mi pomógł/pomogła."
+      },
+      {
+        "es_form": "Esta es [El conductor de autobús::kierowca autobusu] de la que hablé.",
+        "pl_translation": "To jest kierowca autobusu, o której mówiłem/am."
+      },
+      {
+        "es_form": "[El conductor de autobús::kierowca autobusu] trabaja aquí.",
+        "pl_translation": "kierowca autobusu tu pracuje."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El vendedor",
+    "pl_word": "sprzedawca",
+    "examples": [
+      {
+        "es_form": "[El vendedor::sprzedawca] vive en mi calle.",
+        "pl_translation": "sprzedawca mieszka na mojej ulicy."
+      },
+      {
+        "es_form": "Mi [hermano::brat] es [el vendedor::sprzedawca].",
+        "pl_translation": "Mój brat jest sprzedawca."
+      },
+      {
+        "es_form": "[El vendedor::sprzedawca] trabaja aquí.",
+        "pl_translation": "sprzedawca tu pracuje."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El cocinero",
+    "pl_word": "kucharz",
+    "examples": [
+      {
+        "es_form": "Conozco a [el cocinero::kucharz].",
+        "pl_translation": "Znam kucharz."
+      },
+      {
+        "es_form": "[El cocinero::kucharz] me ayudó mucho.",
+        "pl_translation": "kucharz bardzo mi pomógł/pomogła."
+      },
+      {
+        "es_form": "Mi [hermano::brat] es [el cocinero::kucharz].",
+        "pl_translation": "Mój brat jest kucharz."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El ingeniero",
+    "pl_word": "inżynier",
+    "examples": [
+      {
+        "es_form": "[El ingeniero::inżynier] es muy amable.",
+        "pl_translation": "inżynier jest bardzo miły/a."
+      },
+      {
+        "es_form": "[El ingeniero::inżynier] me ayudó mucho.",
+        "pl_translation": "inżynier bardzo mi pomógł/pomogła."
+      },
+      {
+        "es_form": "Hablé con [el ingeniero::inżynier] ayer.",
+        "pl_translation": "Rozmawiałem/am wczoraj z inżynier."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El abogado",
+    "pl_word": "prawnik",
+    "examples": [
+      {
+        "es_form": "[El abogado::prawnik] vive en mi calle.",
+        "pl_translation": "prawnik mieszka na mojej ulicy."
+      },
+      {
+        "es_form": "Mi [hermano::brat] es [el abogado::prawnik].",
+        "pl_translation": "Mój brat jest prawnik."
+      },
+      {
+        "es_form": "Esta es [el abogado::prawnik] de la que hablé.",
+        "pl_translation": "To jest prawnik, o której mówiłem/am."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El informático",
+    "pl_word": "informatyk",
+    "examples": [
+      {
+        "es_form": "¿Has visto [el informático::informatyk]?",
+        "pl_translation": "Widziałeś/aś informatyk?"
+      },
+      {
+        "es_form": "[El informático::informatyk] está sobre la mesa.",
+        "pl_translation": "informatyk jest na stole."
+      },
+      {
+        "es_form": "Guarda [el informático::informatyk] en el armario.",
+        "pl_translation": "Schowaj informatyk do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El secretario",
+    "pl_word": "sekretarz",
+    "examples": [
+      {
+        "es_form": "[El secretario::sekretarz] vive en mi calle.",
+        "pl_translation": "sekretarz mieszka na mojej ulicy."
+      },
+      {
+        "es_form": "Hablé con [el secretario::sekretarz] ayer.",
+        "pl_translation": "Rozmawiałem/am wczoraj z sekretarz."
+      },
+      {
+        "es_form": "[El secretario::sekretarz] me ayudó mucho.",
+        "pl_translation": "sekretarz bardzo mi pomógł/pomogła."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El jubilado",
+    "pl_word": "emeryt",
+    "examples": [
+      {
+        "es_form": "Hablé con [el jubilado::emeryt] ayer.",
+        "pl_translation": "Rozmawiałem/am wczoraj z emeryt."
+      },
+      {
+        "es_form": "[El jubilado::emeryt] es muy amable.",
+        "pl_translation": "emeryt jest bardzo miły/a."
+      },
+      {
+        "es_form": "Esta es [el jubilado::emeryt] de la que hablé.",
+        "pl_translation": "To jest emeryt, o której mówiłem/am."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "responsable",
+    "pl_word": "odpowiedzialny",
+    "examples": [
+      {
+        "es_form": "Es una persona muy [responsable::odpowiedzialny].",
+        "pl_translation": "To jest bardzo odpowiedzialny osoba."
+      },
+      {
+        "es_form": "Se compró un vestido [responsable::odpowiedzialny].",
+        "pl_translation": "Kupiła sobie odpowiedzialny sukienkę."
+      },
+      {
+        "es_form": "Hace un día [responsable::odpowiedzialny].",
+        "pl_translation": "Jest odpowiedzialny dzień."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "perezoso",
+    "pl_word": "leniwy",
+    "examples": [
+      {
+        "es_form": "Mi amigo es [perezoso::leniwy] y simpático.",
+        "pl_translation": "Mój przyjaciel jest leniwy i sympatyczny."
+      },
+      {
+        "es_form": "La comida está [perezosa::leniwy].",
+        "pl_translation": "Jedzenie jest leniwy."
+      },
+      {
+        "es_form": "El examen fue [perezoso::leniwy].",
+        "pl_translation": "Egzamin był leniwy."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "ganar",
+    "pl_word": "zarabiać, wygrywać",
+    "examples": [
+      {
+        "es_form": "Hay que [ganar::zarabiać, wygrywać] con cuidado.",
+        "pl_translation": "Trzeba zarabiać, wygrywać ostrożnie."
+      },
+      {
+        "es_form": "Voy a [ganar::zarabiać, wygrywać] mañana.",
+        "pl_translation": "Będę zarabiać, wygrywać jutro."
+      },
+      {
+        "es_form": "Es importante [ganar::zarabiać, wygrywać] todos los días.",
+        "pl_translation": "Ważne jest zarabiać, wygrywać codziennie."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "gano",
+        "pl_word": "gano",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[gano::gano] como me enseñaste.",
+            "pl_translation": "gano tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "No [gano::gano] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie gano zbyt dobrze."
+          },
+          {
+            "es_form": "¿[gano::gano] los fines de semana?",
+            "pl_translation": "Czy gano w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "ganas",
+        "pl_word": "ganas",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[ganas::ganas] como me enseñaste.",
+            "pl_translation": "ganas tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "¿[ganas::ganas] los fines de semana?",
+            "pl_translation": "Czy ganas w weekendy?"
+          },
+          {
+            "es_form": "[ganas::ganas] todos los días.",
+            "pl_translation": "ganas codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "gana",
+        "pl_word": "gana",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "No [gana::gana] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie gana zbyt dobrze."
+          },
+          {
+            "es_form": "[gana::gana] todos los días.",
+            "pl_translation": "gana codziennie."
+          },
+          {
+            "es_form": "¿[gana::gana] los fines de semana?",
+            "pl_translation": "Czy gana w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "ganamos",
+        "pl_word": "ganamos",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[ganamos::ganamos] todos los días.",
+            "pl_translation": "ganamos codziennie."
+          },
+          {
+            "es_form": "No [ganamos::ganamos] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie ganamos zbyt dobrze."
+          },
+          {
+            "es_form": "Siempre [ganamos::ganamos] con atención.",
+            "pl_translation": "Zawsze ganamos z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "ganáis",
+        "pl_word": "ganáis",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[ganáis::ganáis] los fines de semana?",
+            "pl_translation": "Czy ganáis w weekendy?"
+          },
+          {
+            "es_form": "Siempre [ganáis::ganáis] con atención.",
+            "pl_translation": "Zawsze ganáis z uwagą."
+          },
+          {
+            "es_form": "No [ganáis::ganáis] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie ganáis zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "ganan",
+        "pl_word": "ganan",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[ganan::ganan] los fines de semana?",
+            "pl_translation": "Czy ganan w weekendy?"
+          },
+          {
+            "es_form": "[ganan::ganan] todos los días.",
+            "pl_translation": "ganan codziennie."
+          },
+          {
+            "es_form": "[ganan::ganan] como me enseñaste.",
+            "pl_translation": "ganan tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "gané",
+        "pl_word": "gané",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[gané::gané] la semana pasada.",
+            "pl_translation": "gané w zeszłym tygodniu."
+          },
+          {
+            "es_form": "[gané::gané] sin parar durante horas.",
+            "pl_translation": "gané bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [gané::gané] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie gané czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "ganaste",
+        "pl_word": "ganaste",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[ganaste::ganaste] la semana pasada.",
+            "pl_translation": "ganaste w zeszłym tygodniu."
+          },
+          {
+            "es_form": "El mes pasado no [ganaste::ganaste] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie ganaste."
+          },
+          {
+            "es_form": "Nunca [ganaste::ganaste] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie ganaste czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "ganó",
+        "pl_word": "ganó",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [ganó::ganó] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie ganó czegoś takiego."
+          },
+          {
+            "es_form": "[ganó::ganó] sin parar durante horas.",
+            "pl_translation": "ganó bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "[ganó::ganó] la semana pasada.",
+            "pl_translation": "ganó w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "ganamos",
+        "pl_word": "ganamos",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[ganamos::ganamos] bien el examen?",
+            "pl_translation": "Czy ganamos dobrze egzamin?"
+          },
+          {
+            "es_form": "[ganamos::ganamos] la semana pasada.",
+            "pl_translation": "ganamos w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Nunca [ganamos::ganamos] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie ganamos czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "ganasteis",
+        "pl_word": "ganasteis",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[ganasteis::ganasteis] sin parar durante horas.",
+            "pl_translation": "ganasteis bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "[ganasteis::ganasteis] la semana pasada.",
+            "pl_translation": "ganasteis w zeszłym tygodniu."
+          },
+          {
+            "es_form": "El mes pasado no [ganasteis::ganasteis] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie ganasteis."
+          }
+        ]
+      },
+      {
+        "es_word": "ganaron",
+        "pl_word": "ganaron",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [ganaron::ganaron] todo el día.",
+            "pl_translation": "Wczoraj ganaron cały dzień."
+          },
+          {
+            "es_form": "[ganaron::ganaron] sin parar durante horas.",
+            "pl_translation": "ganaron bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [ganaron::ganaron] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie ganaron czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "gané",
+        "pl_word": "gané",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [gané::gané] más temprano.",
+            "pl_translation": "Jutro gané wcześniej."
+          },
+          {
+            "es_form": "[gané::gané] la próxima semana.",
+            "pl_translation": "gané w przyszłym tygodniu."
+          },
+          {
+            "es_form": "El año que viene [gané::gané] en España.",
+            "pl_translation": "W przyszłym roku gané w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "ganás",
+        "pl_word": "ganás",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[ganás::ganás] la próxima semana.",
+            "pl_translation": "ganás w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Te prometo que [ganás::ganás] a tiempo.",
+            "pl_translation": "Obiecuję ci, że ganás na czas."
+          },
+          {
+            "es_form": "Mañana [ganás::ganás] más temprano.",
+            "pl_translation": "Jutro ganás wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "ganá",
+        "pl_word": "ganá",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [ganá::ganá] en España.",
+            "pl_translation": "W przyszłym roku ganá w Hiszpanii."
+          },
+          {
+            "es_form": "Creo que [ganá::ganá] bien.",
+            "pl_translation": "Myślę, że ganá dobrze."
+          },
+          {
+            "es_form": "Te prometo que [ganá::ganá] a tiempo.",
+            "pl_translation": "Obiecuję ci, że ganá na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "ganemos",
+        "pl_word": "ganemos",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [ganemos::ganemos] a tiempo.",
+            "pl_translation": "Obiecuję ci, że ganemos na czas."
+          },
+          {
+            "es_form": "El año que viene [ganemos::ganemos] en España.",
+            "pl_translation": "W przyszłym roku ganemos w Hiszpanii."
+          },
+          {
+            "es_form": "[ganemos::ganemos] la próxima semana.",
+            "pl_translation": "ganemos w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "ganéis",
+        "pl_word": "ganéis",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[ganéis::ganéis] la próxima semana.",
+            "pl_translation": "ganéis w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Mañana [ganéis::ganéis] más temprano.",
+            "pl_translation": "Jutro ganéis wcześniej."
+          },
+          {
+            "es_form": "¿[ganéis::ganéis] con nosotros mañana?",
+            "pl_translation": "Czy ganéis z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "ganán",
+        "pl_word": "ganán",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[ganán::ganán] con nosotros mañana?",
+            "pl_translation": "Czy ganán z nami jutro?"
+          },
+          {
+            "es_form": "El año que viene [ganán::ganán] en España.",
+            "pl_translation": "W przyszłym roku ganán w Hiszpanii."
+          },
+          {
+            "es_form": "[ganán::ganán] la próxima semana.",
+            "pl_translation": "ganán w przyszłym tygodniu."
+          }
+        ]
+      }
+    ]
+  }
+]

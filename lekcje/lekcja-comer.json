@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "La comida",
+    "pl_word": "jedzenie",
+    "examples": [
+      {
+        "es_form": "Compramos [la comida::jedzenie] en el mercado.",
+        "pl_translation": "Kupiliśmy jedzenie na targu."
+      },
+      {
+        "es_form": "[La comida::jedzenie] está muy rico.",
+        "pl_translation": "jedzenie jest bardzo smaczny/a."
+      },
+      {
+        "es_form": "[La comida::jedzenie] es típico de España.",
+        "pl_translation": "jedzenie jest typowy/a dla Hiszpanii."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El pan",
+    "pl_word": "chleb",
+    "examples": [
+      {
+        "es_form": "Compramos [el pan::chleb] en el mercado.",
+        "pl_translation": "Kupiliśmy chleb na targu."
+      },
+      {
+        "es_form": "[El pan::chleb] se hace con leche.",
+        "pl_translation": "chleb robi się z mleka."
+      },
+      {
+        "es_form": "[El pan::chleb] está muy rico.",
+        "pl_translation": "chleb jest bardzo smaczny/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La mantequilla",
+    "pl_word": "masło",
+    "examples": [
+      {
+        "es_form": "[La mantequilla::masło] está muy rico.",
+        "pl_translation": "masło jest bardzo smaczny/a."
+      },
+      {
+        "es_form": "[La mantequilla::masło] se hace con leche.",
+        "pl_translation": "masło robi się z mleka."
+      },
+      {
+        "es_form": "[La mantequilla::masło] es típico de España.",
+        "pl_translation": "masło jest typowy/a dla Hiszpanii."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El queso",
+    "pl_word": "ser",
+    "examples": [
+      {
+        "es_form": "Me gusta mucho [el queso::ser].",
+        "pl_translation": "Bardzo lubię ser."
+      },
+      {
+        "es_form": "[El queso::ser] es típico de España.",
+        "pl_translation": "ser jest typowy/a dla Hiszpanii."
+      },
+      {
+        "es_form": "[El queso::ser] está muy rico.",
+        "pl_translation": "ser jest bardzo smaczny/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La leche",
+    "pl_word": "mleko",
+    "examples": [
+      {
+        "es_form": "¿Quieres [la leche::mleko]?",
+        "pl_translation": "Chcesz mleko?"
+      },
+      {
+        "es_form": "[La leche::mleko] es típico de España.",
+        "pl_translation": "mleko jest typowy/a dla Hiszpanii."
+      },
+      {
+        "es_form": "Me gusta mucho [la leche::mleko].",
+        "pl_translation": "Bardzo lubię mleko."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El huevo",
+    "pl_word": "jajko",
+    "examples": [
+      {
+        "es_form": "[El huevo::jajko] es típico de España.",
+        "pl_translation": "jajko jest typowy/a dla Hiszpanii."
+      },
+      {
+        "es_form": "¿Quieres [el huevo::jajko]?",
+        "pl_translation": "Chcesz jajko?"
+      },
+      {
+        "es_form": "[El huevo::jajko] está muy rico.",
+        "pl_translation": "jajko jest bardzo smaczny/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La carne",
+    "pl_word": "mięso",
+    "examples": [
+      {
+        "es_form": "[La carne::mięso] es típico de España.",
+        "pl_translation": "mięso jest typowy/a dla Hiszpanii."
+      },
+      {
+        "es_form": "[La carne::mięso] está muy rico.",
+        "pl_translation": "mięso jest bardzo smaczny/a."
+      },
+      {
+        "es_form": "[La carne::mięso] se hace con leche.",
+        "pl_translation": "mięso robi się z mleka."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El pescado",
+    "pl_word": "ryba (jedzenie)",
+    "examples": [
+      {
+        "es_form": "Compramos [el pescado::ryba (jedzenie)] en el mercado.",
+        "pl_translation": "Kupiliśmy ryba (jedzenie) na targu."
+      },
+      {
+        "es_form": "[El pescado::ryba (jedzenie)] está muy rico.",
+        "pl_translation": "ryba (jedzenie) jest bardzo smaczny/a."
+      },
+      {
+        "es_form": "¿Quieres [el pescado::ryba (jedzenie)]?",
+        "pl_translation": "Chcesz ryba (jedzenie)?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El agua",
+    "pl_word": "woda",
+    "examples": [
+      {
+        "es_form": "Me gusta mucho [el agua::woda].",
+        "pl_translation": "Bardzo lubię woda."
+      },
+      {
+        "es_form": "[El agua::woda] se hace con leche.",
+        "pl_translation": "woda robi się z mleka."
+      },
+      {
+        "es_form": "[El agua::woda] está muy rico.",
+        "pl_translation": "woda jest bardzo smaczny/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El zumo",
+    "pl_word": "sok",
+    "examples": [
+      {
+        "es_form": "[El zumo::sok] se hace con leche.",
+        "pl_translation": "sok robi się z mleka."
+      },
+      {
+        "es_form": "[El zumo::sok] está muy rico.",
+        "pl_translation": "sok jest bardzo smaczny/a."
+      },
+      {
+        "es_form": "Me gusta mucho [el zumo::sok].",
+        "pl_translation": "Bardzo lubię sok."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "sabroso",
+    "pl_word": "smaczny",
+    "examples": [
+      {
+        "es_form": "Mi amigo es [sabroso::smaczny] y simpático.",
+        "pl_translation": "Mój przyjaciel jest smaczny i sympatyczny."
+      },
+      {
+        "es_form": "Es una persona muy [sabroso::smaczny].",
+        "pl_translation": "To jest bardzo smaczny osoba."
+      },
+      {
+        "es_form": "Es un lugar [sabroso::smaczny] para vivir.",
+        "pl_translation": "To jest smaczny miejsce do życia."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "hambriento",
+    "pl_word": "głodny",
+    "examples": [
+      {
+        "es_form": "La comida está [hambrienta::głodny].",
+        "pl_translation": "Jedzenie jest głodny."
+      },
+      {
+        "es_form": "Mi amigo es [hambriento::głodny] y simpático.",
+        "pl_translation": "Mój przyjaciel jest głodny i sympatyczny."
+      },
+      {
+        "es_form": "Nada es más [hambriento::głodny] que la familia.",
+        "pl_translation": "Nic nie jest głodny od rodziny."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "comer",
+    "pl_word": "jeść",
+    "examples": [
+      {
+        "es_form": "Es importante [comer::jeść] todos los días.",
+        "pl_translation": "Ważne jest jeść codziennie."
+      },
+      {
+        "es_form": "¿Puedes [comer::jeść] más rápido?",
+        "pl_translation": "Możesz jeść szybciej?"
+      },
+      {
+        "es_form": "Prefiero [comer::jeść] en casa.",
+        "pl_translation": "Wolę jeść w domu."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "como",
+        "pl_word": "como",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[como::como] como me enseñaste.",
+            "pl_translation": "como tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Siempre [como::como] con atención.",
+            "pl_translation": "Zawsze como z uwagą."
+          },
+          {
+            "es_form": "[como::como] todos los días.",
+            "pl_translation": "como codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "comes",
+        "pl_word": "comes",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[comes::comes] los fines de semana?",
+            "pl_translation": "Czy comes w weekendy?"
+          },
+          {
+            "es_form": "[comes::comes] como me enseñaste.",
+            "pl_translation": "comes tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [comes::comes] por la mañana.",
+            "pl_translation": "Zazwyczaj comes rano."
+          }
+        ]
+      },
+      {
+        "es_word": "come",
+        "pl_word": "come",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[come::come] todos los días.",
+            "pl_translation": "come codziennie."
+          },
+          {
+            "es_form": "Siempre [come::come] con atención.",
+            "pl_translation": "Zawsze come z uwagą."
+          },
+          {
+            "es_form": "Normalmente [come::come] por la mañana.",
+            "pl_translation": "Zazwyczaj come rano."
+          }
+        ]
+      },
+      {
+        "es_word": "comemos",
+        "pl_word": "comemos",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[comemos::comemos] los fines de semana?",
+            "pl_translation": "Czy comemos w weekendy?"
+          },
+          {
+            "es_form": "Normalmente [comemos::comemos] por la mañana.",
+            "pl_translation": "Zazwyczaj comemos rano."
+          },
+          {
+            "es_form": "Siempre [comemos::comemos] con atención.",
+            "pl_translation": "Zawsze comemos z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "coméis",
+        "pl_word": "coméis",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[coméis::coméis] los fines de semana?",
+            "pl_translation": "Czy coméis w weekendy?"
+          },
+          {
+            "es_form": "[coméis::coméis] como me enseñaste.",
+            "pl_translation": "coméis tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "No [coméis::coméis] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie coméis zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "comen",
+        "pl_word": "comen",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "No [comen::comen] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie comen zbyt dobrze."
+          },
+          {
+            "es_form": "[comen::comen] como me enseñaste.",
+            "pl_translation": "comen tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "[comen::comen] todos los días.",
+            "pl_translation": "comen codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "comí",
+        "pl_word": "comí",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [comí::comí] todo el día.",
+            "pl_translation": "Wczoraj comí cały dzień."
+          },
+          {
+            "es_form": "[comí::comí] sin parar durante horas.",
+            "pl_translation": "comí bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [comí::comí] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie comí czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "comiste",
+        "pl_word": "comiste",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [comiste::comiste] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie comiste czegoś takiego."
+          },
+          {
+            "es_form": "[comiste::comiste] la semana pasada.",
+            "pl_translation": "comiste w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Ayer [comiste::comiste] todo el día.",
+            "pl_translation": "Wczoraj comiste cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "comió",
+        "pl_word": "comió",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [comió::comió] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie comió czegoś takiego."
+          },
+          {
+            "es_form": "El mes pasado no [comió::comió] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie comió."
+          },
+          {
+            "es_form": "[comió::comió] sin parar durante horas.",
+            "pl_translation": "comió bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "comimos",
+        "pl_word": "comimos",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [comimos::comimos] todo el día.",
+            "pl_translation": "Wczoraj comimos cały dzień."
+          },
+          {
+            "es_form": "[comimos::comimos] sin parar durante horas.",
+            "pl_translation": "comimos bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "El mes pasado no [comimos::comimos] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie comimos."
+          }
+        ]
+      },
+      {
+        "es_word": "comisteis",
+        "pl_word": "comisteis",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[comisteis::comisteis] sin parar durante horas.",
+            "pl_translation": "comisteis bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "¿[comisteis::comisteis] bien el examen?",
+            "pl_translation": "Czy comisteis dobrze egzamin?"
+          },
+          {
+            "es_form": "Nunca [comisteis::comisteis] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie comisteis czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "comieron",
+        "pl_word": "comieron",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [comieron::comieron] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie comieron."
+          },
+          {
+            "es_form": "Ayer [comieron::comieron] todo el día.",
+            "pl_translation": "Wczoraj comieron cały dzień."
+          },
+          {
+            "es_form": "[comieron::comieron] sin parar durante horas.",
+            "pl_translation": "comieron bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "comé",
+        "pl_word": "comé",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [comé::comé] a tiempo.",
+            "pl_translation": "Obiecuję ci, że comé na czas."
+          },
+          {
+            "es_form": "El año que viene [comé::comé] en España.",
+            "pl_translation": "W przyszłym roku comé w Hiszpanii."
+          },
+          {
+            "es_form": "Mañana [comé::comé] más temprano.",
+            "pl_translation": "Jutro comé wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "comás",
+        "pl_word": "comás",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [comás::comás] bien.",
+            "pl_translation": "Myślę, że comás dobrze."
+          },
+          {
+            "es_form": "Mañana [comás::comás] más temprano.",
+            "pl_translation": "Jutro comás wcześniej."
+          },
+          {
+            "es_form": "El año que viene [comás::comás] en España.",
+            "pl_translation": "W przyszłym roku comás w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "comá",
+        "pl_word": "comá",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [comá::comá] a tiempo.",
+            "pl_translation": "Obiecuję ci, że comá na czas."
+          },
+          {
+            "es_form": "Creo que [comá::comá] bien.",
+            "pl_translation": "Myślę, że comá dobrze."
+          },
+          {
+            "es_form": "[comá::comá] la próxima semana.",
+            "pl_translation": "comá w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "comemos",
+        "pl_word": "comemos",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [comemos::comemos] bien.",
+            "pl_translation": "Myślę, że comemos dobrze."
+          },
+          {
+            "es_form": "[comemos::comemos] la próxima semana.",
+            "pl_translation": "comemos w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Te prometo que [comemos::comemos] a tiempo.",
+            "pl_translation": "Obiecuję ci, że comemos na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "coméis",
+        "pl_word": "coméis",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[coméis::coméis] con nosotros mañana?",
+            "pl_translation": "Czy coméis z nami jutro?"
+          },
+          {
+            "es_form": "Te prometo que [coméis::coméis] a tiempo.",
+            "pl_translation": "Obiecuję ci, że coméis na czas."
+          },
+          {
+            "es_form": "El año que viene [coméis::coméis] en España.",
+            "pl_translation": "W przyszłym roku coméis w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "comán",
+        "pl_word": "comán",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[comán::comán] con nosotros mañana?",
+            "pl_translation": "Czy comán z nami jutro?"
+          },
+          {
+            "es_form": "Creo que [comán::comán] bien.",
+            "pl_translation": "Myślę, że comán dobrze."
+          },
+          {
+            "es_form": "Te prometo que [comán::comán] a tiempo.",
+            "pl_translation": "Obiecuję ci, że comán na czas."
+          }
+        ]
+      }
+    ]
+  }
+]

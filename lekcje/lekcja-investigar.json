@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "El experimento",
+    "pl_word": "eksperyment",
+    "examples": [
+      {
+        "es_form": "¿Has visto [el experimento::eksperyment]?",
+        "pl_translation": "Widziałeś/aś eksperyment?"
+      },
+      {
+        "es_form": "[El experimento::eksperyment] cuesta diez euros.",
+        "pl_translation": "eksperyment kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Necesito [el experimento::eksperyment] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową eksperyment."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El laboratorio",
+    "pl_word": "laboratorium",
+    "examples": [
+      {
+        "es_form": "¿Dónde está [el laboratorio::laboratorium]?",
+        "pl_translation": "Gdzie jest laboratorium?"
+      },
+      {
+        "es_form": "[El laboratorio::laboratorium] es muy grande.",
+        "pl_translation": "laboratorium jest bardzo duży/a."
+      },
+      {
+        "es_form": "Voy a [el laboratorio::laboratorium] cada día.",
+        "pl_translation": "Chodzę do laboratorium codziennie."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El invento",
+    "pl_word": "wynalazek",
+    "examples": [
+      {
+        "es_form": "[El invento::wynalazek] cuesta diez euros.",
+        "pl_translation": "wynalazek kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Se me rompió [el invento::wynalazek].",
+        "pl_translation": "Zepsuł mi się wynalazek."
+      },
+      {
+        "es_form": "Necesito [el invento::wynalazek] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową wynalazek."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La tecnología",
+    "pl_word": "technologia",
+    "examples": [
+      {
+        "es_form": "[La tecnología::technologia] cambió mi vida.",
+        "pl_translation": "technologia zmienił/a moje życie."
+      },
+      {
+        "es_form": "[La tecnología::technologia] es muy importante.",
+        "pl_translation": "technologia jest bardzo ważny/a."
+      },
+      {
+        "es_form": "Hablamos sobre [la tecnología::technologia].",
+        "pl_translation": "Rozmawialiśmy o technologia."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El robot",
+    "pl_word": "robot",
+    "examples": [
+      {
+        "es_form": "[El robot::robot] está sobre la mesa.",
+        "pl_translation": "robot jest na stole."
+      },
+      {
+        "es_form": "¿Has visto [el robot::robot]?",
+        "pl_translation": "Widziałeś/aś robot?"
+      },
+      {
+        "es_form": "Guarda [el robot::robot] en el armario.",
+        "pl_translation": "Schowaj robot do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La inteligencia artificial",
+    "pl_word": "sztuczna inteligencja",
+    "examples": [
+      {
+        "es_form": "[La inteligencia artificial::sztuczna inteligencja] cambió mi vida.",
+        "pl_translation": "sztuczna inteligencja zmienił/a moje życie."
+      },
+      {
+        "es_form": "No entiendo [La inteligencia artificial::sztuczna inteligencja].",
+        "pl_translation": "Nie rozumiem sztuczna inteligencja."
+      },
+      {
+        "es_form": "[La inteligencia artificial::sztuczna inteligencja] es muy importante.",
+        "pl_translation": "sztuczna inteligencja jest bardzo ważny/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El espacio",
+    "pl_word": "kosmos",
+    "examples": [
+      {
+        "es_form": "¿Has visto [el espacio::kosmos]?",
+        "pl_translation": "Widziałeś/aś kosmos?"
+      },
+      {
+        "es_form": "[El espacio::kosmos] es de madera.",
+        "pl_translation": "kosmos jest z drewna."
+      },
+      {
+        "es_form": "Compré [el espacio::kosmos] ayer.",
+        "pl_translation": "Kupiłem/am kosmos wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El planeta",
+    "pl_word": "planeta",
+    "examples": [
+      {
+        "es_form": "[El planeta::planeta] es la clave del éxito.",
+        "pl_translation": "planeta jest kluczem do sukcesu."
+      },
+      {
+        "es_form": "[El planeta::planeta] es muy importante.",
+        "pl_translation": "planeta jest bardzo ważny/a."
+      },
+      {
+        "es_form": "[El planeta::planeta] cambió mi vida.",
+        "pl_translation": "planeta zmienił/a moje życie."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La estrella",
+    "pl_word": "gwiazda",
+    "examples": [
+      {
+        "es_form": "[La estrella::gwiazda] cuesta diez euros.",
+        "pl_translation": "gwiazda kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "¿Has visto [la estrella::gwiazda]?",
+        "pl_translation": "Widziałeś/aś gwiazda?"
+      },
+      {
+        "es_form": "Se me rompió [la estrella::gwiazda].",
+        "pl_translation": "Zepsuł mi się gwiazda."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El universo",
+    "pl_word": "wszechświat",
+    "examples": [
+      {
+        "es_form": "¿Dónde está [el universo::wszechświat]?",
+        "pl_translation": "Gdzie jest wszechświat?"
+      },
+      {
+        "es_form": "Visitamos [el universo::wszechświat] la semana pasada.",
+        "pl_translation": "Odwiedziliśmy wszechświat w zeszłym tygodniu."
+      },
+      {
+        "es_form": "Trabajo en [el universo::wszechświat].",
+        "pl_translation": "Pracuję w wszechświat."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "científico",
+    "pl_word": "naukowy",
+    "examples": [
+      {
+        "es_form": "Nada es más [científico::naukowy] que la familia.",
+        "pl_translation": "Nic nie jest naukowy od rodziny."
+      },
+      {
+        "es_form": "La comida está [científica::naukowy].",
+        "pl_translation": "Jedzenie jest naukowy."
+      },
+      {
+        "es_form": "Es un lugar [científico::naukowy] para vivir.",
+        "pl_translation": "To jest naukowy miejsce do życia."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "técnico",
+    "pl_word": "techniczny",
+    "examples": [
+      {
+        "es_form": "Es un lugar [técnico::techniczny] para vivir.",
+        "pl_translation": "To jest techniczny miejsce do życia."
+      },
+      {
+        "es_form": "Hace un día [técnico::techniczny].",
+        "pl_translation": "Jest techniczny dzień."
+      },
+      {
+        "es_form": "Mi amigo es [técnico::techniczny] y simpático.",
+        "pl_translation": "Mój przyjaciel jest techniczny i sympatyczny."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "investigar",
+    "pl_word": "badać, prowadzić badania",
+    "examples": [
+      {
+        "es_form": "Prefiero [investigar::badać, prowadzić badania] en casa.",
+        "pl_translation": "Wolę badać, prowadzić badania w domu."
+      },
+      {
+        "es_form": "Me gusta [investigar::badać, prowadzić badania] por la mañana.",
+        "pl_translation": "Lubię badać, prowadzić badania rano."
+      },
+      {
+        "es_form": "¿Puedes [investigar::badać, prowadzić badania] más rápido?",
+        "pl_translation": "Możesz badać, prowadzić badania szybciej?"
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "investigo",
+        "pl_word": "investigo",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [investigo::investigo] por la mañana.",
+            "pl_translation": "Zazwyczaj investigo rano."
+          },
+          {
+            "es_form": "[investigo::investigo] todos los días.",
+            "pl_translation": "investigo codziennie."
+          },
+          {
+            "es_form": "No [investigo::investigo] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie investigo zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "investigas",
+        "pl_word": "investigas",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [investigas::investigas] por la mañana.",
+            "pl_translation": "Zazwyczaj investigas rano."
+          },
+          {
+            "es_form": "No [investigas::investigas] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie investigas zbyt dobrze."
+          },
+          {
+            "es_form": "¿[investigas::investigas] los fines de semana?",
+            "pl_translation": "Czy investigas w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "investiga",
+        "pl_word": "investiga",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[investiga::investiga] todos los días.",
+            "pl_translation": "investiga codziennie."
+          },
+          {
+            "es_form": "¿[investiga::investiga] los fines de semana?",
+            "pl_translation": "Czy investiga w weekendy?"
+          },
+          {
+            "es_form": "Siempre [investiga::investiga] con atención.",
+            "pl_translation": "Zawsze investiga z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "investigamos",
+        "pl_word": "investigamos",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[investigamos::investigamos] los fines de semana?",
+            "pl_translation": "Czy investigamos w weekendy?"
+          },
+          {
+            "es_form": "No [investigamos::investigamos] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie investigamos zbyt dobrze."
+          },
+          {
+            "es_form": "Normalmente [investigamos::investigamos] por la mañana.",
+            "pl_translation": "Zazwyczaj investigamos rano."
+          }
+        ]
+      },
+      {
+        "es_word": "investigáis",
+        "pl_word": "investigáis",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[investigáis::investigáis] como me enseñaste.",
+            "pl_translation": "investigáis tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [investigáis::investigáis] por la mañana.",
+            "pl_translation": "Zazwyczaj investigáis rano."
+          },
+          {
+            "es_form": "Siempre [investigáis::investigáis] con atención.",
+            "pl_translation": "Zawsze investigáis z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "investigan",
+        "pl_word": "investigan",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[investigan::investigan] como me enseñaste.",
+            "pl_translation": "investigan tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "No [investigan::investigan] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie investigan zbyt dobrze."
+          },
+          {
+            "es_form": "Siempre [investigan::investigan] con atención.",
+            "pl_translation": "Zawsze investigan z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "investigé",
+        "pl_word": "investigé",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [investigé::investigé] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie investigé czegoś takiego."
+          },
+          {
+            "es_form": "El mes pasado no [investigé::investigé] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie investigé."
+          },
+          {
+            "es_form": "¿[investigé::investigé] bien el examen?",
+            "pl_translation": "Czy investigé dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "investigaste",
+        "pl_word": "investigaste",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[investigaste::investigaste] sin parar durante horas.",
+            "pl_translation": "investigaste bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "[investigaste::investigaste] la semana pasada.",
+            "pl_translation": "investigaste w zeszłym tygodniu."
+          },
+          {
+            "es_form": "¿[investigaste::investigaste] bien el examen?",
+            "pl_translation": "Czy investigaste dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "investigó",
+        "pl_word": "investigó",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[investigó::investigó] la semana pasada.",
+            "pl_translation": "investigó w zeszłym tygodniu."
+          },
+          {
+            "es_form": "[investigó::investigó] sin parar durante horas.",
+            "pl_translation": "investigó bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [investigó::investigó] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie investigó czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "investigamos",
+        "pl_word": "investigamos",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[investigamos::investigamos] bien el examen?",
+            "pl_translation": "Czy investigamos dobrze egzamin?"
+          },
+          {
+            "es_form": "Nunca [investigamos::investigamos] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie investigamos czegoś takiego."
+          },
+          {
+            "es_form": "[investigamos::investigamos] la semana pasada.",
+            "pl_translation": "investigamos w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "investigasteis",
+        "pl_word": "investigasteis",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [investigasteis::investigasteis] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie investigasteis czegoś takiego."
+          },
+          {
+            "es_form": "[investigasteis::investigasteis] sin parar durante horas.",
+            "pl_translation": "investigasteis bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Ayer [investigasteis::investigasteis] todo el día.",
+            "pl_translation": "Wczoraj investigasteis cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "investigaron",
+        "pl_word": "investigaron",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[investigaron::investigaron] bien el examen?",
+            "pl_translation": "Czy investigaron dobrze egzamin?"
+          },
+          {
+            "es_form": "Nunca [investigaron::investigaron] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie investigaron czegoś takiego."
+          },
+          {
+            "es_form": "Ayer [investigaron::investigaron] todo el día.",
+            "pl_translation": "Wczoraj investigaron cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "investigé",
+        "pl_word": "investigé",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[investigé::investigé] la próxima semana.",
+            "pl_translation": "investigé w przyszłym tygodniu."
+          },
+          {
+            "es_form": "El año que viene [investigé::investigé] en España.",
+            "pl_translation": "W przyszłym roku investigé w Hiszpanii."
+          },
+          {
+            "es_form": "Te prometo que [investigé::investigé] a tiempo.",
+            "pl_translation": "Obiecuję ci, że investigé na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "investigás",
+        "pl_word": "investigás",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[investigás::investigás] con nosotros mañana?",
+            "pl_translation": "Czy investigás z nami jutro?"
+          },
+          {
+            "es_form": "El año que viene [investigás::investigás] en España.",
+            "pl_translation": "W przyszłym roku investigás w Hiszpanii."
+          },
+          {
+            "es_form": "Te prometo que [investigás::investigás] a tiempo.",
+            "pl_translation": "Obiecuję ci, że investigás na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "investigá",
+        "pl_word": "investigá",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [investigá::investigá] más temprano.",
+            "pl_translation": "Jutro investigá wcześniej."
+          },
+          {
+            "es_form": "Te prometo que [investigá::investigá] a tiempo.",
+            "pl_translation": "Obiecuję ci, że investigá na czas."
+          },
+          {
+            "es_form": "[investigá::investigá] la próxima semana.",
+            "pl_translation": "investigá w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "investigemos",
+        "pl_word": "investigemos",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [investigemos::investigemos] bien.",
+            "pl_translation": "Myślę, że investigemos dobrze."
+          },
+          {
+            "es_form": "¿[investigemos::investigemos] con nosotros mañana?",
+            "pl_translation": "Czy investigemos z nami jutro?"
+          },
+          {
+            "es_form": "Mañana [investigemos::investigemos] más temprano.",
+            "pl_translation": "Jutro investigemos wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "investigéis",
+        "pl_word": "investigéis",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [investigéis::investigéis] en España.",
+            "pl_translation": "W przyszłym roku investigéis w Hiszpanii."
+          },
+          {
+            "es_form": "Mañana [investigéis::investigéis] más temprano.",
+            "pl_translation": "Jutro investigéis wcześniej."
+          },
+          {
+            "es_form": "¿[investigéis::investigéis] con nosotros mañana?",
+            "pl_translation": "Czy investigéis z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "investigán",
+        "pl_word": "investigán",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [investigán::investigán] en España.",
+            "pl_translation": "W przyszłym roku investigán w Hiszpanii."
+          },
+          {
+            "es_form": "Creo que [investigán::investigán] bien.",
+            "pl_translation": "Myślę, że investigán dobrze."
+          },
+          {
+            "es_form": "[investigán::investigán] la próxima semana.",
+            "pl_translation": "investigán w przyszłym tygodniu."
+          }
+        ]
+      }
+    ]
+  }
+]
