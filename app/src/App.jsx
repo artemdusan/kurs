@@ -118,12 +118,9 @@ export default function App() {
   return (
     <div className="screen home">
       <header className="home-header">
-        <div>
-          <h1>🇪🇸 Hiszpański</h1>
-          <p className="subtitle">
-            Lekcja {unlockedLesson}: {current?.temat} · {current?.poziom}
-          </p>
-        </div>
+        <p className="subtitle">
+          Lekcja {unlockedLesson}: {current?.temat} · {current?.poziom}
+        </p>
         <div>
           <button className="btn ghost" title="Statystyki" onClick={() => setView('stats')}>📊</button>
           <button className="btn ghost" title="Ustawienia" onClick={() => setView('settings')}>⚙️</button>
