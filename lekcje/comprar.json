@@ -9,12 +9,12 @@
         "pl_translation": "Pieniądze są na stole."
       },
       {
-        "es_form": "Gasté [el dinero::pieniądze] ayer.",
-        "pl_translation": "Wydałem"
+        "es_form": "Este es [el dinero::pieniądze].",
+        "pl_translation": "To jest pieniądze."
       },
       {
-        "es_form": "Se me acabó [el dinero::pieniądze].",
-        "pl_translation": "Skończyły mi się pieniądze."
+        "es_form": "¿Dónde está [el dinero::pieniądze]?",
+        "pl_translation": "Gdzie jest pieniądze?"
       }
     ]
   },
@@ -24,8 +24,8 @@
     "pl_word": "sklep",
     "examples": [
       {
-        "es_form": "Visitamos [la tienda::sklep] la semana pasada.",
-        "pl_translation": "Odwiedziliśmy sklep w zeszłym tygodniu."
+        "es_form": "Esta es [la tienda::sklep].",
+        "pl_translation": "To jest sklep."
       },
       {
         "es_form": "Voy a [la tienda::sklep] cada día.",
@@ -51,8 +51,8 @@
         "pl_translation": "Cena to dziesięć euro."
       },
       {
-        "es_form": "Se me rompió [el precio::cena].",
-        "pl_translation": "Zapamiętaj cenę."
+        "es_form": "Este es [el precio::cena].",
+        "pl_translation": "To jest cena."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "karta (płatnicza)",
     "examples": [
       {
-        "es_form": "¿Has visto [la tarjeta::karta (płatnicza)]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Esta es [la tarjeta::karta].",
+        "pl_translation": "To jest karta."
       },
       {
         "es_form": "Necesito [la tarjeta::karta (płatnicza)] nueva.",
         "pl_translation": "Potrzebuję nową kartę."
       },
       {
-        "es_form": "[La tarjeta::karta (płatnicza)] está sobre la mesa.",
-        "pl_translation": "Karta jest na stole."
+        "es_form": "No es [la tarjeta::karta].",
+        "pl_translation": "To nie jest karta."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "gotówka",
     "examples": [
       {
-        "es_form": "Se me rompió [el efectivo::gotówka].",
-        "pl_translation": "Skończyła mi się gotówka."
+        "es_form": "Este es [el efectivo::gotówka].",
+        "pl_translation": "To jest gotówka."
       },
       {
-        "es_form": "Saqué [el efectivo::gotówka] ayer.",
-        "pl_translation": "Wypłaciłem"
+        "es_form": "¿Dónde está [el efectivo::gotówka]?",
+        "pl_translation": "Gdzie jest gotówka?"
       },
       {
-        "es_form": "[El efectivo::gotówka] está sobre la mesa.",
-        "pl_translation": "Gotówka jest na stole."
+        "es_form": "No es [el efectivo::gotówka].",
+        "pl_translation": "To nie jest gotówka."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "portfel",
     "examples": [
       {
-        "es_form": "Guarda [la cartera::portfel] en el armario.",
-        "pl_translation": "Schowaj portfel do szafy."
+        "es_form": "¿Dónde está [la cartera::portfel]?",
+        "pl_translation": "Gdzie jest portfel?"
       },
       {
-        "es_form": "¿Has visto [la cartera::portfel]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "[La cartera::portfel] está aquí.",
+        "pl_translation": "Portfel jest tutaj."
       },
       {
-        "es_form": "Necesito [la cartera::portfel] nueva.",
-        "pl_translation": "Potrzebuję nowy portfel."
+        "es_form": "No es [la cartera::portfel].",
+        "pl_translation": "To nie jest portfel."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "torba",
     "examples": [
       {
-        "es_form": "Se me rompió [la bolsa::torba].",
-        "pl_translation": "Zepsuła mi się torba."
+        "es_form": "¿Dónde está [la bolsa::torba]?",
+        "pl_translation": "Gdzie jest torba?"
       },
       {
-        "es_form": "Guardá [la bolsa::torba] en el armario.",
-        "pl_translation": "Schowaj torbę do szafy."
+        "es_form": "[La bolsa::torba] está aquí.",
+        "pl_translation": "Torba jest tutaj."
       },
       {
-        "es_form": "[La bolsa::torba] es de madera.",
-        "pl_translation": "Torba jest z drewna."
+        "es_form": "No es [la bolsa::torba].",
+        "pl_translation": "To nie jest torba."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "lista",
     "examples": [
       {
-        "es_form": "¿Has visto [la lista::lista]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Esta es [la lista::lista].",
+        "pl_translation": "To jest lista."
       },
       {
-        "es_form": "[La lista::lista] cuesta diez euros.",
-        "pl_translation": "Lista kosztuje dziesięć euro."
+        "es_form": "No es [la lista::lista].",
+        "pl_translation": "To nie jest lista."
       },
       {
-        "es_form": "Guarda [la lista::lista] en el armario.",
-        "pl_translation": "Schowaj listę do szafy."
+        "es_form": "[La lista::lista] está aquí.",
+        "pl_translation": "Lista jest tutaj."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "paragon",
     "examples": [
       {
-        "es_form": "Se me rompió [el recibo::paragon].",
-        "pl_translation": "Zepsuł mi się paragon."
+        "es_form": "¿Dónde está [el recibo::paragon]?",
+        "pl_translation": "Gdzie jest paragon?"
       },
       {
-        "es_form": "¿Has visto [el recibo::paragon]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "[El recibo::paragon] está aquí.",
+        "pl_translation": "Paragon jest tutaj."
       },
       {
-        "es_form": "Compré [el recibo::paragon] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "No es [el recibo::paragon].",
+        "pl_translation": "To nie jest paragon."
       }
     ]
   },
@@ -176,8 +176,8 @@
     "pl_word": "kasa",
     "examples": [
       {
-        "es_form": "Se me rompió [la caja::kasa].",
-        "pl_translation": "Zepsuł mi się kasa."
+        "es_form": "Esta es [la caja::kasa].",
+        "pl_translation": "To jest kasa."
       },
       {
         "es_form": "Poné [la caja::kasa] en la mesa.",
@@ -195,16 +195,16 @@
     "pl_word": "tani",
     "examples": [
       {
-        "es_form": "Nada es más [barato::tani] que la familia.",
-        "pl_translation": "Nic nie jest tańsze niż rodzina."
+        "es_form": "Es muy [barato::tani].",
+        "pl_translation": "Jest bardzo tani."
       },
       {
-        "es_form": "Este coche es [barato::tani].",
-        "pl_translation": "Ten samochód jest tani."
+        "es_form": "Parece [barato::tani].",
+        "pl_translation": "Wydaje się tani."
       },
       {
-        "es_form": "La comida está [barata::tani].",
-        "pl_translation": "Jedzenie jest tanie."
+        "es_form": "Es demasiado [barato::tani].",
+        "pl_translation": "Jest zbyt tani."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "drogi",
     "examples": [
       {
-        "es_form": "Mi amigo es [caro::drogi] y simpático.",
-        "pl_translation": "Mój przyjaciel jest drogi i sympatyczny."
+        "es_form": "Es muy [caro::drogi].",
+        "pl_translation": "Jest bardzo drogi."
       },
       {
-        "es_form": "Tengo una casa [cara::drogi].",
-        "pl_translation": "Mam drogi dom."
+        "es_form": "Parece [caro::drogi].",
+        "pl_translation": "Wydaje się drogi."
       },
       {
-        "es_form": "Se compro un vestido [caro::drogi].",
-        "pl_translation": "Kupiła sobie drogą sukienkę."
+        "es_form": "Es demasiado [caro::drogi].",
+        "pl_translation": "Jest zbyt drogi."
       }
     ]
   },

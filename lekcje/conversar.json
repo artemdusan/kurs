@@ -5,8 +5,8 @@
     "pl_word": "dialog",
     "examples": [
       {
-        "es_form": "Se me rompió [el diálogo::dialog].",
-        "pl_translation": "Przerwał mi się dialog."
+        "es_form": "Este es [el diálogo::dialog].",
+        "pl_translation": "To jest dialog."
       },
       {
         "es_form": "Necesito [el diálogo::dialog] nuevo.",
@@ -24,8 +24,8 @@
     "pl_word": "dyskusja",
     "examples": [
       {
-        "es_form": "Seguí [la discusión::dyskusja].",
-        "pl_translation": "Prowadź dyskusję."
+        "es_form": "¿Dónde está [la discusión::dyskusja]?",
+        "pl_translation": "Gdzie jest dyskusja?"
       },
       {
         "es_form": "Necesito [la discusión::dyskusja] nuevo.",
@@ -43,16 +43,16 @@
     "pl_word": "konflikt",
     "examples": [
       {
-        "es_form": "¿Has visto [el conflicto::konflikt]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Este es [el conflicto::konflikt].",
+        "pl_translation": "To jest konflikt."
       },
       {
-        "es_form": "[El conflicto::konflikt] cuesta diez euros.",
-        "pl_translation": "Konflikt kosztuje dziesięć euro."
+        "es_form": "No es [el conflicto::konflikt].",
+        "pl_translation": "To nie jest konflikt."
       },
       {
-        "es_form": "Necesito resolver [el conflicto::konflikt].",
-        "pl_translation": "Potrzebuję rozwiązać konflikt."
+        "es_form": "¿Dónde está [el conflicto::konflikt]?",
+        "pl_translation": "Gdzie jest konflikt?"
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "kompromis",
     "examples": [
       {
-        "es_form": "Necesito [el compromiso::kompromis] nuevo.",
-        "pl_translation": "Potrzebuję kompromisu."
+        "es_form": "Este es [el compromiso::kompromis].",
+        "pl_translation": "To jest kompromis."
       },
       {
-        "es_form": "Se me rompió [el compromiso::kompromis].",
-        "pl_translation": "Zerwał mi się kompromis."
+        "es_form": "[El compromiso::kompromis] está aquí.",
+        "pl_translation": "Kompromis jest tutaj."
       },
       {
-        "es_form": "Logré [el compromiso::kompromis] ayer.",
-        "pl_translation": "Osiągnąłem"
+        "es_form": "No es [el compromiso::kompromis].",
+        "pl_translation": "To nie jest kompromis."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "przeprosiny",
     "examples": [
       {
-        "es_form": "Necesito [la disculpa::przeprosiny] nuevo.",
-        "pl_translation": "Potrzebuję przeprosin."
+        "es_form": "Esta es [la disculpa::przeprosiny].",
+        "pl_translation": "To jest przeprosiny."
       },
       {
         "es_form": "[La disculpa::przeprosiny] es necesaria.",
         "pl_translation": "Przeprosiny nic nie kosztują."
       },
       {
-        "es_form": "Aceptá [la disculpa::przeprosiny].",
-        "pl_translation": "Przyjmij przeprosiny."
+        "es_form": "[La disculpa::przeprosiny] está aquí.",
+        "pl_translation": "Przeprosiny jest tutaj."
       }
     ]
   },
@@ -100,8 +100,8 @@
     "pl_word": "obietnica",
     "examples": [
       {
-        "es_form": "Cumplí [la promesa::obietnica].",
-        "pl_translation": "Dotrzymaj obietnicy."
+        "es_form": "¿Dónde está [la promesa::obietnica]?",
+        "pl_translation": "Gdzie jest obietnica?"
       },
       {
         "es_form": "[La promesa::obietnica] es importante.",
@@ -119,8 +119,8 @@
     "pl_word": "rada",
     "examples": [
       {
-        "es_form": "Recibí [el consejo::rada] bueno.",
-        "pl_translation": "Dostałem"
+        "es_form": "Este es [el consejo::rada].",
+        "pl_translation": "To jest rada."
       },
       {
         "es_form": "No tengo [el consejo::rada] suficiente.",
@@ -138,16 +138,16 @@
     "pl_word": "plotka",
     "examples": [
       {
-        "es_form": "¿Oíste [el rumor::plotka]?",
-        "pl_translation": "Słyszałeś"
+        "es_form": "Este es [el rumor::plotka].",
+        "pl_translation": "To jest plotka."
       },
       {
-        "es_form": "[El rumor::plotka] cuesta diez euros.",
-        "pl_translation": "Plotka kosztuje dziesięć euro."
+        "es_form": "No es [el rumor::plotka].",
+        "pl_translation": "To nie jest plotka."
       },
       {
-        "es_form": "Se me rompió [el rumor::plotka].",
-        "pl_translation": "Doszła do mnie plotka."
+        "es_form": "[El rumor::plotka] está aquí.",
+        "pl_translation": "Plotka jest tutaj."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "komplement",
     "examples": [
       {
-        "es_form": "Recibí [el cumplido::komplement] ayer.",
-        "pl_translation": "Dostałem"
+        "es_form": "Este es [el cumplido::komplement].",
+        "pl_translation": "To jest komplement."
       },
       {
         "es_form": "[El cumplido::komplement] fue agradable.",
         "pl_translation": "Komplement był miły."
       },
       {
-        "es_form": "Se me rompió [el cumplido::komplement].",
-        "pl_translation": "Spodobał mi się komplement."
+        "es_form": "¿Dónde está [el cumplido::komplement]?",
+        "pl_translation": "Gdzie jest komplement?"
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "krytyka",
     "examples": [
       {
-        "es_form": "[La crítica::krytyka] está sobre la mesa.",
-        "pl_translation": "Krytyka jest na stole."
+        "es_form": "Esta es [la crítica::krytyka].",
+        "pl_translation": "To jest krytyka."
       },
       {
-        "es_form": "Compré [la crítica::krytyka] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "¿Dónde está [la crítica::krytyka]?",
+        "pl_translation": "Gdzie jest krytyka?"
       },
       {
-        "es_form": "Aceptá [la crítica::krytyka].",
-        "pl_translation": "Przyjmij krytykę."
+        "es_form": "[La crítica::krytyka] está aquí.",
+        "pl_translation": "Krytyka jest tutaj."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "otwarty (osoba)",
     "examples": [
       {
-        "es_form": "Este coche es [abierto::otwarty (osoba)].",
-        "pl_translation": "Ten samochód jest otwarty."
+        "es_form": "Es muy [abierto::otwarty].",
+        "pl_translation": "Jest bardzo otwarty."
       },
       {
-        "es_form": "El examen fue [abierto::otwarty (osoba)].",
-        "pl_translation": "Egzamin był otwarty."
+        "es_form": "No es [abierto::otwarty].",
+        "pl_translation": "Nie jest otwarty."
       },
       {
-        "es_form": "Se compro un vestido [abierto::otwarty (osoba)].",
-        "pl_translation": "Kupiła sobie odkrytą sukienkę."
+        "es_form": "Parece [abierto::otwarty].",
+        "pl_translation": "Wydaje się otwarty."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "zamknięty (osoba)",
     "examples": [
       {
-        "es_form": "Tengo una casa [cerrada::zamknięty (osoba)].",
-        "pl_translation": "Mam zamknięty dom."
+        "es_form": "Es muy [cerrado::zamknięty].",
+        "pl_translation": "Jest bardzo zamknięty."
       },
       {
-        "es_form": "Nada es más [cerrado::zamknięty (osoba)] que la familia.",
-        "pl_translation": "Nic nie jest bardziej zamknięte niż rodzina."
+        "es_form": "No es [cerrado::zamknięty].",
+        "pl_translation": "Nie jest zamknięty."
       },
       {
-        "es_form": "Mi amigo es [cerrado::zamknięty (osoba)] y simpático.",
-        "pl_translation": "Mój przyjaciel jest zamknięty w sobie, ale sympatyczny."
+        "es_form": "Parece [cerrado::zamknięty].",
+        "pl_translation": "Wydaje się zamknięty."
       }
     ]
   },

@@ -5,16 +5,16 @@
     "pl_word": "praca",
     "examples": [
       {
-        "es_form": "¿Has visto [el trabajo::praca]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Este es [el trabajo::praca].",
+        "pl_translation": "To jest praca."
       },
       {
-        "es_form": "[El trabajo::praca] es de madera.",
-        "pl_translation": "Praca jest z drewna."
+        "es_form": "¿Dónde está [el trabajo::praca]?",
+        "pl_translation": "Gdzie jest praca?"
       },
       {
-        "es_form": "Compré [el trabajo::praca] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "[El trabajo::praca] está aquí.",
+        "pl_translation": "Praca jest tutaj."
       }
     ]
   },
@@ -25,7 +25,7 @@
     "examples": [
       {
         "es_form": "[El jefe::szef] es muy amable.",
-        "pl_translation": "Szef jest bardzo miły"
+        "pl_translation": "Szef jest bardzo miły."
       },
       {
         "es_form": "[El jefe::szef] vive en mi calle.",
@@ -33,7 +33,7 @@
       },
       {
         "es_form": "Esta es [el jefe::szef] de la que hablé.",
-        "pl_translation": "To jest szef, o której mówiłem"
+        "pl_translation": "To jest szef, o której mówiłem."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "firma",
     "examples": [
       {
-        "es_form": "Guarda [la empresa::firma] en el armario.",
-        "pl_translation": "Schowaj firma do szafy."
+        "es_form": "¿Dónde está [la empresa::firma]?",
+        "pl_translation": "Gdzie jest firma?"
       },
       {
-        "es_form": "[La empresa::firma] es de madera.",
-        "pl_translation": "Firma jest z drewna."
+        "es_form": "[La empresa::firma] está aquí.",
+        "pl_translation": "Firma jest tutaj."
       },
       {
-        "es_form": "¿Has visto [la empresa::firma]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "No es [la empresa::firma].",
+        "pl_translation": "To nie jest firma."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "biuro",
     "examples": [
       {
-        "es_form": "[La oficina::biuro] es muy grande.",
-        "pl_translation": "Biuro jest bardzo duży"
+        "es_form": "Esta es [la oficina::biuro].",
+        "pl_translation": "To jest biuro."
       },
       {
         "es_form": "¿Donde está [la oficina::biuro]?",
         "pl_translation": "Gdzie jest biuro?"
       },
       {
-        "es_form": "Voy a [la oficina::biuro] cada día.",
-        "pl_translation": "Chodzę do biuro codziennie."
+        "es_form": "[La oficina::biuro] está aquí.",
+        "pl_translation": "Biuro jest tutaj."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "pensja",
     "examples": [
       {
-        "es_form": "Compré [el sueldo::pensja] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Este es [el sueldo::pensja].",
+        "pl_translation": "To jest pensja."
       },
       {
-        "es_form": "[El sueldo::pensja] cuesta diez euros.",
-        "pl_translation": "Pensja kosztuje dziesięć euro."
+        "es_form": "No es [el sueldo::pensja].",
+        "pl_translation": "To nie jest pensja."
       },
       {
-        "es_form": "Se me rompio [el sueldo::pensja].",
-        "pl_translation": "Zepsuł mi się pensja."
+        "es_form": "¿Dónde está [el sueldo::pensja]?",
+        "pl_translation": "Gdzie jest pensja?"
       }
     ]
   },
@@ -100,73 +100,73 @@
     "pl_word": "kolega (z pracy)",
     "examples": [
       {
-        "es_form": "Conozco a [el compañero::kolega (z pracy)].",
-        "pl_translation": "Znam kolega."
+        "es_form": "Este es [el compañero::kolega].",
+        "pl_translation": "To jest kolega."
       },
       {
         "es_form": "Mi [hermano::brat] es [el compañero::kolega (z pracy)].",
         "pl_translation": "Mój brat jest kolega."
       },
       {
-        "es_form": "[El compañero::kolega (z pracy)] es muy amable.",
-        "pl_translation": "Kolega jest bardzo miły"
+        "es_form": "¿Dónde está [el compañero::kolega]?",
+        "pl_translation": "Gdzie jest kolega?"
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El reunión",
+    "es_word": "La reunión",
     "pl_word": "spotkanie",
     "examples": [
       {
-        "es_form": "Tienes [el reunión::spotkanie] muy fuerte.",
-        "pl_translation": "Masz bardzo silny"
+        "es_form": "Esta es [la reunión::spotkanie].",
+        "pl_translation": "To jest spotkanie."
       },
       {
-        "es_form": "[El reunión::spotkanie] es una parte importante del cuerpo.",
-        "pl_translation": "Spotkanie jest ważną częścią ciała."
+        "es_form": "¿Dónde está [la reunión::spotkanie]?",
+        "pl_translation": "Gdzie jest spotkanie?"
       },
       {
-        "es_form": "El médico me reviso [el reunión::spotkanie].",
-        "pl_translation": "Lekarz zbadał mi spotkanie."
+        "es_form": "No es [la reunión::spotkanie].",
+        "pl_translation": "To nie jest spotkanie."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El vacaciones",
+    "es_word": "Las vacaciones",
     "pl_word": "urlop",
     "examples": [
       {
-        "es_form": "[El vacaciones::urlop] cuesta diez euros.",
-        "pl_translation": "Urlop kosztuje dziesięć euro."
+        "es_form": "Estas son [las vacaciones::urlop].",
+        "pl_translation": "To są urlop."
       },
       {
-        "es_form": "Guarda [el vacaciones::urlop] en el armario.",
-        "pl_translation": "Schowaj urlop do szafy."
+        "es_form": "¿Dónde están [las vacaciones::urlop]?",
+        "pl_translation": "Gdzie są urlop?"
       },
       {
-        "es_form": "Necesito [el vacaciones::urlop] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "[Las vacaciones::urlop] están aquí.",
+        "pl_translation": "Urlop są tutaj."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El profesión",
+    "es_word": "La profesión",
     "pl_word": "zawód",
     "examples": [
       {
-        "es_form": "Compré [el profesión::zawód] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Esta es [la profesión::zawód].",
+        "pl_translation": "To jest zawód."
       },
       {
-        "es_form": "Guarda [el profesión::zawód] en el armario.",
-        "pl_translation": "Schowaj zawód do szafy."
+        "es_form": "[La profesión::zawód] está aquí.",
+        "pl_translation": "Zawód jest tutaj."
       },
       {
-        "es_form": "Necesito [el profesión::zawód] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "No es [la profesión::zawód].",
+        "pl_translation": "To nie jest zawód."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "doświadczenie",
     "examples": [
       {
-        "es_form": "Tienes que aceptar [la experiencia::doświadczenie].",
-        "pl_translation": "Musisz zaakceptować doświadczenie."
+        "es_form": "Esta es [la experiencia::doświadczenie].",
+        "pl_translation": "To jest doświadczenie."
       },
       {
-        "es_form": "[La experiencia::doświadczenie] es la clave del éxito.",
-        "pl_translation": "Doświadczenie jest kluczem do sukcesu."
+        "es_form": "Hablamos sobre [la experiencia::doświadczenie].",
+        "pl_translation": "Rozmawiamy o tym, czym jest doświadczenie."
       },
       {
-        "es_form": "No entiendo [la experiencia::doświadczenie].",
-        "pl_translation": "Nie rozumiem doświadczenie."
+        "es_form": "No es [la experiencia::doświadczenie].",
+        "pl_translation": "To nie jest doświadczenie."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "ważny",
     "examples": [
       {
-        "es_form": "Es una persona muy [importante::ważny].",
-        "pl_translation": "To jest bardzo ważny osoba."
+        "es_form": "Es muy [importante::ważny].",
+        "pl_translation": "Jest bardzo ważny."
       },
       {
-        "es_form": "Hace un día [importante::ważny].",
-        "pl_translation": "Jest ważny dzień."
+        "es_form": "No es [importante::ważny].",
+        "pl_translation": "Nie jest ważny."
       },
       {
-        "es_form": "Tengo una casa [importante::ważny].",
-        "pl_translation": "Mam ważny dom."
+        "es_form": "Es demasiado [importante::ważny].",
+        "pl_translation": "Jest zbyt ważny."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "pracowity",
     "examples": [
       {
-        "es_form": "Es un lugar [trabajador::pracowity] para vivir.",
-        "pl_translation": "To jest pracowity miejsce do życia."
+        "es_form": "Es muy [trabajador::pracowity].",
+        "pl_translation": "Jest bardzo pracowity."
       },
       {
-        "es_form": "Es una persona muy [trabajador::pracowity].",
-        "pl_translation": "To jest bardzo pracowity osoba."
+        "es_form": "No es [trabajador::pracowity].",
+        "pl_translation": "Nie jest pracowity."
       },
       {
-        "es_form": "Este coche es [trabajador::pracowity].",
-        "pl_translation": "Ten samochód jest pracowity."
+        "es_form": "Es demasiado [trabajador::pracowity].",
+        "pl_translation": "Jest zbyt pracowity."
       }
     ]
   },

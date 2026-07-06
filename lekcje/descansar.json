@@ -5,16 +5,16 @@
     "pl_word": "psycholog",
     "examples": [
       {
-        "es_form": "¿Has visto [el psicólogo::psycholog]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Este es [el psicólogo::psycholog].",
+        "pl_translation": "To jest psycholog."
       },
       {
-        "es_form": "[El psicólogo::psycholog] cuesta diez euros.",
-        "pl_translation": "Psycholog kosztuje dziesięć euro."
+        "es_form": "No es [el psicólogo::psycholog].",
+        "pl_translation": "To nie jest psycholog."
       },
       {
-        "es_form": "Necesito [el psicólogo::psycholog] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "¿Dónde está [el psicólogo::psycholog]?",
+        "pl_translation": "Gdzie jest psycholog?"
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "terapia",
     "examples": [
       {
-        "es_form": "[La terapia::terapia] es de madera.",
-        "pl_translation": "Terapia jest z drewna."
+        "es_form": "Esta es [la terapia::terapia].",
+        "pl_translation": "To jest terapia."
       },
       {
-        "es_form": "[La terapia::terapia] está sobre la mesa.",
-        "pl_translation": "Terapia jest na stole."
+        "es_form": "No es [la terapia::terapia].",
+        "pl_translation": "To nie jest terapia."
       },
       {
-        "es_form": "Compré [la terapia::terapia] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "¿Dónde está [la terapia::terapia]?",
+        "pl_translation": "Gdzie jest terapia?"
       }
     ]
   },
@@ -47,12 +47,12 @@
         "pl_translation": "Wypalenie to poważny problem."
       },
       {
-        "es_form": "Sufro de [agotamiento::wypalenie].",
-        "pl_translation": "Cierpię na wypalenie."
+        "es_form": "Este es [el agotamiento::wypalenie].",
+        "pl_translation": "To jest wypalenie."
       },
       {
-        "es_form": "El médico me diagnosticó [agotamiento::wypalenie].",
-        "pl_translation": "Lekarz zdiagnozował u mnie wypalenie."
+        "es_form": "No es [el agotamiento::wypalenie].",
+        "pl_translation": "To nie jest wypalenie."
       }
     ]
   },
@@ -70,8 +70,8 @@
         "pl_translation": "Równowaga zmieniła moje życie."
       },
       {
-        "es_form": "[El equilibrio::równowaga] es la clave del éxito.",
-        "pl_translation": "Równowaga jest kluczem do sukcesu."
+        "es_form": "Este es [el equilibrio::równowaga].",
+        "pl_translation": "To jest równowaga."
       }
     ]
   },
@@ -89,8 +89,8 @@
         "pl_translation": "Nie rozumiem stresu."
       },
       {
-        "es_form": "Tienes que aceptar [el estrés::stres].",
-        "pl_translation": "Musisz zaakceptować stres."
+        "es_form": "Este es [el estrés::stres].",
+        "pl_translation": "To jest stres."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "relaks",
     "examples": [
       {
-        "es_form": "Se me rompió [la relajación::relaks].",
-        "pl_translation": "Zepsuł mi się relaks."
+        "es_form": "Esta es [la relajación::relaks].",
+        "pl_translation": "To jest relaks."
       },
       {
-        "es_form": "¿Has visto [la relajación::relaks]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "¿Dónde está [la relajación::relaks]?",
+        "pl_translation": "Gdzie jest relaks?"
       },
       {
-        "es_form": "[La relajación::relaks] está sobre la mesa.",
-        "pl_translation": "Relaks jest na stole."
+        "es_form": "No es [la relajación::relaks].",
+        "pl_translation": "To nie jest relaks."
       }
     ]
   },
@@ -142,12 +142,12 @@
         "pl_translation": "Rozmawialiśmy o samotności."
       },
       {
-        "es_form": "[La soledad::samotność] es la clave del éxito.",
-        "pl_translation": "Samotność jest kluczem do sukcesu."
+        "es_form": "No es [la soledad::samotność].",
+        "pl_translation": "To nie jest samotność."
       },
       {
-        "es_form": "Tienes que aceptar [la soledad::samotność].",
-        "pl_translation": "Musisz zaakceptować samotność."
+        "es_form": "Esta es [la soledad::samotność].",
+        "pl_translation": "To jest samotność."
       }
     ]
   },
@@ -161,8 +161,8 @@
         "pl_translation": "Szczęście zmieniło moje życie."
       },
       {
-        "es_form": "[La felicidad::szczęście] es la clave del éxito.",
-        "pl_translation": "Szczęście jest kluczem do sukcesu."
+        "es_form": "Esta es [la felicidad::szczęście].",
+        "pl_translation": "To jest szczęście."
       },
       {
         "es_form": "No entiendo [la felicidad::szczęście].",
@@ -184,8 +184,8 @@
         "pl_translation": "Rozmawialiśmy o spełnieniu."
       },
       {
-        "es_form": "[La realización::spełnienie] es la clave del éxito.",
-        "pl_translation": "Spełnienie jest kluczem do sukcesu."
+        "es_form": "Esta es [la realización::spełnienie].",
+        "pl_translation": "To jest spełnienie."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "zrelaksowany",
     "examples": [
       {
-        "es_form": "Tengo una casa [relajada::zrelaksowany].",
-        "pl_translation": "Mam zrelaksowany dom."
+        "es_form": "No es [relajado::zrelaksowany].",
+        "pl_translation": "Nie jest zrelaksowany."
       },
       {
-        "es_form": "Es una persona muy [relajada::zrelaksowany].",
-        "pl_translation": "To jest bardzo zrelaksowana osoba."
+        "es_form": "Parece [relajado::zrelaksowany].",
+        "pl_translation": "Wydaje się zrelaksowany."
       },
       {
-        "es_form": "El examen fue [relajado::zrelaksowany].",
-        "pl_translation": "Egzamin był zrelaksowany."
+        "es_form": "Es demasiado [relajado::zrelaksowany].",
+        "pl_translation": "Jest zbyt zrelaksowany."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "wypoczęty",
     "examples": [
       {
-        "es_form": "La comida está [descansada::wypoczęty].",
-        "pl_translation": "Jedzenie jest wypoczęte."
+        "es_form": "No es [descansado::wypoczęty].",
+        "pl_translation": "Nie jest wypoczęty."
       },
       {
-        "es_form": "Mi amigo es [descansado::wypoczęty] y simpático.",
-        "pl_translation": "Mój przyjaciel jest wypoczęty i sympatyczny."
+        "es_form": "Parece [descansado::wypoczęty].",
+        "pl_translation": "Wydaje się wypoczęty."
       },
       {
-        "es_form": "Es una persona muy [descansada::wypoczęty].",
-        "pl_translation": "To jest bardzo wypoczęta osoba."
+        "es_form": "Es demasiado [descansado::wypoczęty].",
+        "pl_translation": "Jest zbyt wypoczęty."
       }
     ]
   },

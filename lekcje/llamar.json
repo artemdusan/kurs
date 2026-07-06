@@ -5,16 +5,16 @@
     "pl_word": "gazeta",
     "examples": [
       {
-        "es_form": "[El periódico::gazeta] está sobre la mesa.",
-        "pl_translation": "Gazeta jest na stole."
+        "es_form": "No es [el periódico::gazeta].",
+        "pl_translation": "To nie jest gazeta."
       },
       {
-        "es_form": "¿Has visto [el periódico::gazeta]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Este es [el periódico::gazeta].",
+        "pl_translation": "To jest gazeta."
       },
       {
-        "es_form": "[El periódico::gazeta] es de madera.",
-        "pl_translation": "Gazeta jest z drewna."
+        "es_form": "[El periódico::gazeta] está aquí.",
+        "pl_translation": "Gazeta jest tutaj."
       }
     ]
   },
@@ -24,35 +24,35 @@
     "pl_word": "czasopismo",
     "examples": [
       {
-        "es_form": "[La revista::czasopismo] se me hizo eterno.",
-        "pl_translation": "Czasopismo mi się dłużył"
+        "es_form": "Esta es [la revista::czasopismo].",
+        "pl_translation": "To jest czasopismo."
       },
       {
         "es_form": "[La revista::czasopismo] pasa muy rápido.",
         "pl_translation": "Czasopismo mija bardzo szybko."
       },
       {
-        "es_form": "No tengo [la revista::czasopismo] suficiente.",
-        "pl_translation": "Nie mam wystarczająco czasopismo."
+        "es_form": "¿Dónde está [la revista::czasopismo]?",
+        "pl_translation": "Gdzie jest czasopismo?"
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El noticias",
+    "es_word": "Las noticias",
     "pl_word": "wiadomości (aktualności)",
     "examples": [
       {
-        "es_form": "¿Donde está [el noticias::wiadomości (aktualności)]?",
-        "pl_translation": "Gdzie jest wiadomości?"
+        "es_form": "Estas son [las noticias::wiadomości].",
+        "pl_translation": "To są wiadomości."
       },
       {
-        "es_form": "[El noticias::wiadomości (aktualności)] abre a las ocho.",
-        "pl_translation": "Wiadomości otwiera się o ósmej."
+        "es_form": "[Las noticias::wiadomości] están aquí.",
+        "pl_translation": "Wiadomości są tutaj."
       },
       {
-        "es_form": "[El noticias::wiadomości (aktualności)] está cerca de aquí.",
-        "pl_translation": "Wiadomości jest niedaleko stąd."
+        "es_form": "No son [las noticias::wiadomości].",
+        "pl_translation": "To nie są wiadomości."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "reklama",
     "examples": [
       {
-        "es_form": "Necesito [el anuncio::reklama] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "Este es [el anuncio::reklama].",
+        "pl_translation": "To jest reklama."
       },
       {
-        "es_form": "Se me rompio [el anuncio::reklama].",
-        "pl_translation": "Zepsuł mi się reklama."
+        "es_form": "¿Dónde está [el anuncio::reklama]?",
+        "pl_translation": "Gdzie jest reklama?"
       },
       {
-        "es_form": "[El anuncio::reklama] cuesta diez euros.",
-        "pl_translation": "Reklama kosztuje dziesięć euro."
+        "es_form": "No es [el anuncio::reklama].",
+        "pl_translation": "To nie jest reklama."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "strona internetowa",
     "examples": [
       {
-        "es_form": "Guarda [La página web::strona internetowa] en el armario.",
-        "pl_translation": "Schowaj strona internetowa do szafy."
+        "es_form": "Esta es [la página web::strona internetowa].",
+        "pl_translation": "To jest strona internetowa."
       },
       {
-        "es_form": "Necesito [La página web::strona internetowa] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "¿Dónde está [la página web::strona internetowa]?",
+        "pl_translation": "Gdzie jest strona internetowa?"
       },
       {
-        "es_form": "[La página web::strona internetowa] está sobre la mesa.",
-        "pl_translation": "Strona internetowa jest na stole."
+        "es_form": "No es [la página web::strona internetowa].",
+        "pl_translation": "To nie jest strona internetowa."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "e-mail",
     "examples": [
       {
-        "es_form": "[El correo electrónico::e-mail] es de madera.",
-        "pl_translation": "E-mail jest z drewna."
+        "es_form": "Este es [el correo electrónico::e-mail].",
+        "pl_translation": "To jest e-mail."
       },
       {
-        "es_form": "Se me rompio [El correo electrónico::e-mail].",
-        "pl_translation": "Zepsuł mi się e-mail."
+        "es_form": "¿Dónde está [el correo electrónico::e-mail]?",
+        "pl_translation": "Gdzie jest e-mail?"
       },
       {
-        "es_form": "[El correo electrónico::e-mail] está sobre la mesa.",
-        "pl_translation": "E-mail jest na stole."
+        "es_form": "No es [el correo electrónico::e-mail].",
+        "pl_translation": "To nie jest e-mail."
       }
     ]
   },
@@ -119,35 +119,35 @@
     "pl_word": "SMS",
     "examples": [
       {
-        "es_form": "¿Has visto [El mensaje de texto::SMS]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Este es [el mensaje de texto::SMS].",
+        "pl_translation": "To jest SMS."
       },
       {
-        "es_form": "Compré [El mensaje de texto::SMS] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "¿Dónde está [el mensaje de texto::SMS]?",
+        "pl_translation": "Gdzie jest SMS?"
       },
       {
-        "es_form": "[El mensaje de texto::SMS] está sobre la mesa.",
-        "pl_translation": "SMS jest na stole."
+        "es_form": "No es [el mensaje de texto::SMS].",
+        "pl_translation": "To nie jest SMS."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El conversación",
+    "es_word": "La conversación",
     "pl_word": "rozmowa",
     "examples": [
       {
-        "es_form": "[El conversación::rozmowa] cuesta diez euros.",
-        "pl_translation": "Rozmowa kosztuje dziesięć euro."
+        "es_form": "¿Dónde está [la conversación::rozmowa]?",
+        "pl_translation": "Gdzie jest rozmowa?"
       },
       {
-        "es_form": "Se me rompio [el conversación::rozmowa].",
-        "pl_translation": "Zepsuł mi się rozmowa."
+        "es_form": "[La conversación::rozmowa] está aquí.",
+        "pl_translation": "Rozmowa jest tutaj."
       },
       {
-        "es_form": "[El conversación::rozmowa] está sobre la mesa.",
-        "pl_translation": "Rozmowa jest na stole."
+        "es_form": "No es [la conversación::rozmowa].",
+        "pl_translation": "To nie jest rozmowa."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "dziennikarz",
     "examples": [
       {
-        "es_form": "[La periodista::dziennikarz] me ayudo mucho.",
-        "pl_translation": "Dziennikarz bardzo mi pomógł"
+        "es_form": "[La periodista::dziennikarz] me ayudó mucho.",
+        "pl_translation": "Dziennikarz bardzo mi pomógł."
       },
       {
-        "es_form": "Conozco a [la periodista::dziennikarz].",
-        "pl_translation": "Znam dziennikarz."
+        "es_form": "Esta es [la periodista::dziennikarz].",
+        "pl_translation": "To jest dziennikarz."
       },
       {
         "es_form": "[La periodista::dziennikarz] es muy amable.",
-        "pl_translation": "Dziennikarz jest bardzo miły"
+        "pl_translation": "Dziennikarz jest bardzo miły."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "media społecznościowe",
     "examples": [
       {
-        "es_form": "Guarda [La red social::media społecznościowe] en el armario.",
-        "pl_translation": "Schowaj media społecznościowe do szafy."
+        "es_form": "Esta es [la red social::media społecznościowe].",
+        "pl_translation": "To jest media społecznościowe."
       },
       {
-        "es_form": "[La red social::media społecznościowe] cuesta diez euros.",
-        "pl_translation": "Media społecznościowe kosztuje dziesięć euro."
+        "es_form": "No es [la red social::media społecznościowe].",
+        "pl_translation": "To nie jest media społecznościowe."
       },
       {
-        "es_form": "[La red social::media społecznościowe] está sobre la mesa.",
-        "pl_translation": "Media społecznościowe jest na stole."
+        "es_form": "¿Dónde está [la red social::media społecznościowe]?",
+        "pl_translation": "Gdzie jest media społecznościowe?"
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "społeczny",
     "examples": [
       {
-        "es_form": "La comida está [social::społeczny].",
-        "pl_translation": "Jedzenie jest społeczny."
+        "es_form": "Es muy [social::społeczny].",
+        "pl_translation": "Jest bardzo społeczny."
       },
       {
-        "es_form": "Este coche es [social::społeczny].",
-        "pl_translation": "Ten samochód jest społeczny."
+        "es_form": "No es [social::społeczny].",
+        "pl_translation": "Nie jest społeczny."
       },
       {
-        "es_form": "Hace un día [social::społeczny].",
-        "pl_translation": "Jest społeczny dzień."
+        "es_form": "Es demasiado [social::społeczny].",
+        "pl_translation": "Jest zbyt społeczny."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "popularny",
     "examples": [
       {
-        "es_form": "Tengo una casa [popular::popularny].",
-        "pl_translation": "Mam popularny dom."
+        "es_form": "No es [popular::popularny].",
+        "pl_translation": "Nie jest popularny."
       },
       {
-        "es_form": "El examen fue [popular::popularny].",
-        "pl_translation": "Egzamin był popularny."
+        "es_form": "Parece [popular::popularny].",
+        "pl_translation": "Wydaje się popularny."
       },
       {
-        "es_form": "Es un lugar [popular::popularny] para vivir.",
-        "pl_translation": "To jest popularny miejsce do życia."
+        "es_form": "Es demasiado [popular::popularny].",
+        "pl_translation": "Jest zbyt popularny."
       }
     ]
   },

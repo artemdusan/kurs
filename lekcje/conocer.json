@@ -13,8 +13,8 @@
         "pl_translation": "Mój brat jest znajomym."
       },
       {
-        "es_form": "Conozco a [el conocido::znajomy].",
-        "pl_translation": "Znam znajomego."
+        "es_form": "Este es [el conocido::znajomy].",
+        "pl_translation": "To jest znajomy."
       }
     ]
   },
@@ -24,11 +24,11 @@
     "pl_word": "sąsiad",
     "examples": [
       {
-        "es_form": "Conozco a [el vecino::sąsiad].",
-        "pl_translation": "Znam sąsiada."
+        "es_form": "Este es [el vecino::sąsiad].",
+        "pl_translation": "To jest sąsiad."
       },
       {
-        "es_form": "[El vecino::sąsiad] me ayudo mucho.",
+        "es_form": "[El vecino::sąsiad] me ayudó mucho.",
         "pl_translation": "Sąsiad bardzo mi pomógł."
       },
       {
@@ -47,8 +47,8 @@
         "pl_translation": "Para siedzi w parku."
       },
       {
-        "es_form": "Necesito [la pareja::para] nueva.",
-        "pl_translation": "Potrzebuję partnera."
+        "es_form": "Esta es [la pareja::para].",
+        "pl_translation": "To jest para."
       },
       {
         "es_form": "[La pareja::para] parece feliz.",
@@ -62,12 +62,12 @@
     "pl_word": "kolega",
     "examples": [
       {
-        "es_form": "Conozco a [la colega::kolega].",
-        "pl_translation": "Znam kolegę."
+        "es_form": "Esta es [la colega::kolega].",
+        "pl_translation": "To jest kolega."
       },
       {
-        "es_form": "Hablé con [la colega::kolega] ayer.",
-        "pl_translation": "Rozmawiałem"
+        "es_form": "¿Dónde está [la colega::kolega]?",
+        "pl_translation": "Gdzie jest kolega?"
       },
       {
         "es_form": "[La colega::kolega] vive en mi calle.",
@@ -89,8 +89,8 @@
         "pl_translation": "Kontakt jest ważny."
       },
       {
-        "es_form": "Guarda [el contacto::kontakt] en el teléfono.",
-        "pl_translation": "Zapisz kontakt w telefonie."
+        "es_form": "Este es [el contacto::kontakt].",
+        "pl_translation": "To jest kontakt."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "spotkanie",
     "examples": [
       {
-        "es_form": "El jefe programó [el encuentro::spotkanie].",
-        "pl_translation": "Szef zaplanował spotkanie."
+        "es_form": "Este es [el encuentro::spotkanie].",
+        "pl_translation": "To jest spotkanie."
       },
       {
-        "es_form": "Tienes [el encuentro::spotkanie] muy importante.",
-        "pl_translation": "Masz bardzo ważne spotkanie."
+        "es_form": "No es [el encuentro::spotkanie].",
+        "pl_translation": "To nie jest spotkanie."
       },
       {
-        "es_form": "Me gusta [el encuentro::spotkanie].",
-        "pl_translation": "Podoba mi się spotkanie."
+        "es_form": "Hablamos sobre [el encuentro::spotkanie].",
+        "pl_translation": "Rozmawiamy o tym, czym jest spotkanie."
       }
     ]
   },
@@ -119,12 +119,12 @@
     "pl_word": "przedstawienie (kogoś)",
     "examples": [
       {
-        "es_form": "Tienes [La presentación::przedstawienie] muy interesante.",
-        "pl_translation": "Masz bardzo ciekawe przedstawienie."
+        "es_form": "Esta es [la presentación::przedstawienie].",
+        "pl_translation": "To jest przedstawienie."
       },
       {
-        "es_form": "Me gusta [La presentación::przedstawienie].",
-        "pl_translation": "Czeka mnie przedstawienie."
+        "es_form": "No es [la presentación::przedstawienie].",
+        "pl_translation": "To nie jest przedstawienie."
       },
       {
         "es_form": "[La presentación::przedstawienie] es una parte importante de la ceremonia.",
@@ -138,16 +138,16 @@
     "pl_word": "relacja",
     "examples": [
       {
-        "es_form": "¿Has visto [el relación::relacja]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Esta es [la relación::relacja].",
+        "pl_translation": "To jest relacja."
       },
       {
         "es_form": "Necesito [el relación::relacja] nuevo.",
         "pl_translation": "Potrzebuję nowej relacji."
       },
       {
-        "es_form": "Se me rompió [el relación::relacja].",
-        "pl_translation": "Zepsuła mi się relacja."
+        "es_form": "No es [la relación::relacja].",
+        "pl_translation": "To nie jest relacja."
       }
     ]
   },
@@ -162,11 +162,11 @@
       },
       {
         "es_form": "Esta es [el extranjero::cudzoziemiec] de la que hablé.",
-        "pl_translation": "To jest cudzoziemiec, o którym mówiłem"
+        "pl_translation": "To jest cudzoziemiec, o którym mówiłem."
       },
       {
-        "es_form": "Hablé con [el extranjero::cudzoziemiec] ayer.",
-        "pl_translation": "Rozmawiałem"
+        "es_form": "Este es [el extranjero::cudzoziemiec].",
+        "pl_translation": "To jest cudzoziemiec."
       }
     ]
   },
@@ -177,15 +177,15 @@
     "examples": [
       {
         "es_form": "Esta es [la turista::turysta] de la que hablé.",
-        "pl_translation": "To jest turysta, o której mówiłem"
+        "pl_translation": "To jest turysta, o której mówiłem."
       },
       {
         "es_form": "Mi [hermano::brat] es [la turista::turysta].",
         "pl_translation": "Mój brat jest turysta."
       },
       {
-        "es_form": "[La turista::turysta] es muy amable.",
-        "pl_translation": "Turysta jest bardzo miły"
+        "es_form": "Esta es [la turista::turysta].",
+        "pl_translation": "To jest turysta."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "sławny",
     "examples": [
       {
-        "es_form": "La comida está [famosa::sławny].",
-        "pl_translation": "Jedzenie jest sławne."
+        "es_form": "No es [famoso::sławny].",
+        "pl_translation": "Nie jest sławny."
       },
       {
-        "es_form": "Hace un día [famoso::sławny].",
-        "pl_translation": "Jest sławny dzień."
+        "es_form": "Parece [famoso::sławny].",
+        "pl_translation": "Wydaje się sławny."
       },
       {
-        "es_form": "Tengo una casa [famosa::sławny].",
-        "pl_translation": "Mam sławny dom."
+        "es_form": "Es demasiado [famoso::sławny].",
+        "pl_translation": "Jest zbyt sławny."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "nieznany",
     "examples": [
       {
-        "es_form": "La comida está [desconocida::nieznany].",
-        "pl_translation": "Jedzenie jest nieznane."
+        "es_form": "No es [desconocido::nieznany].",
+        "pl_translation": "Nie jest nieznany."
       },
       {
-        "es_form": "Es un lugar [desconocido::nieznany] para vivir.",
-        "pl_translation": "To jest nieznane miejsce do życia."
+        "es_form": "Parece [desconocido::nieznany].",
+        "pl_translation": "Wydaje się nieznany."
       },
       {
-        "es_form": "Tengo una casa [desconocida::nieznany].",
-        "pl_translation": "Mam nieznany dom."
+        "es_form": "Es demasiado [desconocido::nieznany].",
+        "pl_translation": "Jest zbyt nieznany."
       }
     ]
   },

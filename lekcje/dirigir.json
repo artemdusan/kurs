@@ -10,11 +10,11 @@
       },
       {
         "es_form": "[El director::dyrektor] me ayudó mucho.",
-        "pl_translation": "Dyrektor bardzo mi pomógł"
+        "pl_translation": "Dyrektor bardzo mi pomógł."
       },
       {
-        "es_form": "Conozco a [el director::dyrektor].",
-        "pl_translation": "Znam dyrektora."
+        "es_form": "Este es [el director::dyrektor].",
+        "pl_translation": "To jest dyrektor."
       }
     ]
   },
@@ -28,8 +28,8 @@
         "pl_translation": "Menedżer tu pracuje."
       },
       {
-        "es_form": "Conozco a [el gerente::menedżer].",
-        "pl_translation": "Znam menedżera."
+        "es_form": "Este es [el gerente::menedżer].",
+        "pl_translation": "To jest menedżer."
       },
       {
         "es_form": "[El gerente::menedżer] vive en mi calle.",
@@ -47,8 +47,8 @@
         "pl_translation": "Pracownik mieszka na mojej ulicy."
       },
       {
-        "es_form": "Hablé con [el empleado::pracownik] ayer.",
-        "pl_translation": "Rozmawiałem"
+        "es_form": "Este es [el empleado::pracownik].",
+        "pl_translation": "To jest pracownik."
       },
       {
         "es_form": "[El empleado::pracownik] trabaja aquí.",
@@ -66,8 +66,8 @@
         "pl_translation": "Pracodawca zatrudnił mnie wczoraj."
       },
       {
-        "es_form": "Hablé con [el empleador::pracodawca] sobre el salario.",
-        "pl_translation": "Rozmawiałem"
+        "es_form": "¿Dónde está [el empleador::pracodawca]?",
+        "pl_translation": "Gdzie jest pracodawca?"
       },
       {
         "es_form": "[El empleador::pracodawca] es muy exigente.",
@@ -104,8 +104,8 @@
         "pl_translation": "Staż trwa trzy miesiące."
       },
       {
-        "es_form": "Conseguí [las prácticas::staż] en una empresa grande.",
-        "pl_translation": "Dostałem"
+        "es_form": "Esta es [las prácticas::staż].",
+        "pl_translation": "To jest staż."
       },
       {
         "es_form": "[Las prácticas::staż] son una buena oportunidad.",
@@ -157,12 +157,12 @@
     "pl_word": "CV",
     "examples": [
       {
-        "es_form": "Envié [el currículum::CV] a varias empresas.",
-        "pl_translation": "Wysłałem"
+        "es_form": "¿Dónde está [el currículum::CV]?",
+        "pl_translation": "Gdzie jest CV?"
       },
       {
-        "es_form": "Actualicé [el currículum::CV] ayer.",
-        "pl_translation": "Zaktualizowałem"
+        "es_form": "[El currículum::CV] está aquí.",
+        "pl_translation": "CV jest tutaj."
       },
       {
         "es_form": "[El currículum::CV] debe ser claro y breve.",
@@ -176,16 +176,16 @@
     "pl_word": "rozmowa o pracę",
     "examples": [
       {
-        "es_form": "Tuve [la entrevista de trabajo::rozmowa o pracę] ayer.",
-        "pl_translation": "Miałem"
+        "es_form": "Esta es [la entrevista de trabajo::rozmowa o pracę].",
+        "pl_translation": "To jest rozmowa o pracę."
       },
       {
         "es_form": "[La entrevista de trabajo::rozmowa o pracę] fue bien.",
         "pl_translation": "Rozmowa o pracę poszła dobrze."
       },
       {
-        "es_form": "Me preparé para [la entrevista de trabajo::rozmowa o pracę].",
-        "pl_translation": "Przygotowałem"
+        "es_form": "[La entrevista de trabajo::rozmowa o pracę] está aquí.",
+        "pl_translation": "Rozmowa o pracę jest tutaj."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "doświadczony",
     "examples": [
       {
-        "es_form": "Es un médico muy [experimentado::doświadczony].",
-        "pl_translation": "To bardzo doświadczony lekarz."
+        "es_form": "Es muy [experimentado::doświadczony].",
+        "pl_translation": "Jest bardzo doświadczony."
       },
       {
-        "es_form": "Buscan a alguien [experimentado::doświadczony] para el puesto.",
-        "pl_translation": "Szukają kogoś doświadczonego na to stanowisko."
+        "es_form": "No es [experimentado::doświadczony].",
+        "pl_translation": "Nie jest doświadczony."
       },
       {
-        "es_form": "Mi padre es el más [experimentado::doświadczony] del equipo.",
-        "pl_translation": "Mój ojciec jest najbardziej doświadczony w zespole."
+        "es_form": "Es demasiado [experimentado::doświadczony].",
+        "pl_translation": "Jest zbyt doświadczony."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "wykwalifikowany",
     "examples": [
       {
-        "es_form": "Es un candidato muy [cualificado::wykwalifikowany].",
-        "pl_translation": "To bardzo wykwalifikowany kandydat."
+        "es_form": "Es muy [cualificado::wykwalifikowany].",
+        "pl_translation": "Jest bardzo wykwalifikowany."
       },
       {
-        "es_form": "No estoy [cualificado::wykwalifikowany] para este trabajo.",
-        "pl_translation": "Nie jestem wykwalifikowany do tej pracy."
+        "es_form": "Parece [cualificado::wykwalifikowany].",
+        "pl_translation": "Wydaje się wykwalifikowany."
       },
       {
-        "es_form": "Buscan personal [cualificado::wykwalifikowany].",
-        "pl_translation": "Szukają wykwalifikowanego personelu."
+        "es_form": "Es demasiado [cualificado::wykwalifikowany].",
+        "pl_translation": "Jest zbyt wykwalifikowany."
       }
     ]
   },

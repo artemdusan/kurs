@@ -5,16 +5,16 @@
     "pl_word": "garnek",
     "examples": [
       {
-        "es_form": "Necesito [la olla::garnek] nuevo.",
-        "pl_translation": "Potrzebuję nowy garnek."
+        "es_form": "¿Dónde está [la olla::garnek]?",
+        "pl_translation": "Gdzie jest garnek?"
       },
       {
-        "es_form": "Guarda [la olla::garnek] en el armario.",
-        "pl_translation": "Schowaj garnek do szafy."
+        "es_form": "[La olla::garnek] está aquí.",
+        "pl_translation": "Garnek jest tutaj."
       },
       {
-        "es_form": "[La olla::garnek] está sobre la mesa.",
-        "pl_translation": "Garnek jest na stole."
+        "es_form": "Esta es [la olla::garnek].",
+        "pl_translation": "To jest garnek."
       }
     ]
   },
@@ -28,12 +28,12 @@
         "pl_translation": "Potrzebuję nową patelnię."
       },
       {
-        "es_form": "[La sartén::patelnia] es de madera.",
-        "pl_translation": "Patelnia jest z drewna."
+        "es_form": "Esta es [la sartén::patelnia].",
+        "pl_translation": "To jest patelnia."
       },
       {
-        "es_form": "[La sartén::patelnia] cuesta diez euros.",
-        "pl_translation": "Patelnia kosztuje dziesięć euro."
+        "es_form": "No es [la sartén::patelnia].",
+        "pl_translation": "To nie jest patelnia."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "talerz",
     "examples": [
       {
-        "es_form": "Necesito [el plato::talerz] nuevo.",
-        "pl_translation": "Potrzebuję nowy talerz."
+        "es_form": "Este es [el plato::talerz].",
+        "pl_translation": "To jest talerz."
       },
       {
-        "es_form": "Guarda [el plato::talerz] en el armario.",
-        "pl_translation": "Schowaj talerz do szafy."
+        "es_form": "[El plato::talerz] está aquí.",
+        "pl_translation": "Talerz jest tutaj."
       },
       {
-        "es_form": "[El plato::talerz] es de madera.",
-        "pl_translation": "Talerz jest z drewna."
+        "es_form": "No es [el plato::talerz].",
+        "pl_translation": "To nie jest talerz."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "szklanka",
     "examples": [
       {
-        "es_form": "Guarda [el vaso::szklanka] en el armario.",
-        "pl_translation": "Schowaj szklankę do szafy."
+        "es_form": "Este es [el vaso::szklanka].",
+        "pl_translation": "To jest szklanka."
       },
       {
-        "es_form": "[El vaso::szklanka] está sobre la mesa.",
-        "pl_translation": "Szklanka jest na stole."
+        "es_form": "No es [el vaso::szklanka].",
+        "pl_translation": "To nie jest szklanka."
       },
       {
-        "es_form": "Se me rompio [el vaso::szklanka].",
-        "pl_translation": "Zepsuła mi się szklanka."
+        "es_form": "[El vaso::szklanka] está aquí.",
+        "pl_translation": "Szklanka jest tutaj."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "kubek",
     "examples": [
       {
-        "es_form": "Compré [la taza::kubek] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Esta es [la taza::kubek].",
+        "pl_translation": "To jest kubek."
       },
       {
-        "es_form": "[La taza::kubek] cuesta diez euros.",
-        "pl_translation": "Kubek kosztuje dziesięć euro."
+        "es_form": "No es [la taza::kubek].",
+        "pl_translation": "To nie jest kubek."
       },
       {
-        "es_form": "Guarda [la taza::kubek] en el armario.",
-        "pl_translation": "Schowaj kubek do szafy."
+        "es_form": "[La taza::kubek] está aquí.",
+        "pl_translation": "Kubek jest tutaj."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "sztućce",
     "examples": [
       {
-        "es_form": "[Los cubiertos::sztućce] es de madera.",
-        "pl_translation": "Sztućce są z drewna."
+        "es_form": "Esta es [los cubiertos::sztućce].",
+        "pl_translation": "To jest sztućce."
       },
       {
-        "es_form": "¿Has visto [los cubiertos::sztućce]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "¿Dónde está [los cubiertos::sztućce]?",
+        "pl_translation": "Gdzie jest sztućce?"
       },
       {
-        "es_form": "Necesito [los cubiertos::sztućce] nuevo.",
-        "pl_translation": "Potrzebuję nowe sztućce."
+        "es_form": "No es [los cubiertos::sztućce].",
+        "pl_translation": "To nie jest sztućce."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "nóż",
     "examples": [
       {
-        "es_form": "Se me rompio [el cuchillo::nóż].",
-        "pl_translation": "Zepsuł mi się nóż."
+        "es_form": "Este es [el cuchillo::nóż].",
+        "pl_translation": "To jest nóż."
       },
       {
-        "es_form": "[El cuchillo::nóż] cuesta diez euros.",
-        "pl_translation": "Nóż kosztuje dziesięć euro."
+        "es_form": "No es [el cuchillo::nóż].",
+        "pl_translation": "To nie jest nóż."
       },
       {
-        "es_form": "Necesito [el cuchillo::nóż] nuevo.",
-        "pl_translation": "Potrzebuję nowy nóż."
+        "es_form": "¿Dónde está [el cuchillo::nóż]?",
+        "pl_translation": "Gdzie jest nóż?"
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "widelec",
     "examples": [
       {
-        "es_form": "Necesito [el tenedor::widelec] nuevo.",
-        "pl_translation": "Potrzebuję nowy widelec."
+        "es_form": "¿Dónde está [el tenedor::widelec]?",
+        "pl_translation": "Gdzie jest widelec?"
       },
       {
-        "es_form": "Se me rompio [el tenedor::widelec].",
-        "pl_translation": "Zepsuł mi się widelec."
+        "es_form": "[El tenedor::widelec] está aquí.",
+        "pl_translation": "Widelec jest tutaj."
       },
       {
-        "es_form": "¿Has visto [el tenedor::widelec]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "No es [el tenedor::widelec].",
+        "pl_translation": "To nie jest widelec."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "łyżka",
     "examples": [
       {
-        "es_form": "[La cuchara::łyżka] es de madera.",
-        "pl_translation": "Łyżka jest z drewna."
+        "es_form": "Esta es [la cuchara::łyżka].",
+        "pl_translation": "To jest łyżka."
       },
       {
-        "es_form": "¿Has visto [la cuchara::łyżka]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "[La cuchara::łyżka] está aquí.",
+        "pl_translation": "Łyżka jest tutaj."
       },
       {
-        "es_form": "Guarda [la cuchara::łyżka] en el armario.",
-        "pl_translation": "Schowaj łyżkę do szafy."
+        "es_form": "No es [la cuchara::łyżka].",
+        "pl_translation": "To nie jest łyżka."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "piekarnik",
     "examples": [
       {
-        "es_form": "Guarda [el horno::piekarnik] en el armario.",
-        "pl_translation": "Schowaj piekarnik do szafy."
+        "es_form": "¿Dónde está [el horno::piekarnik]?",
+        "pl_translation": "Gdzie jest piekarnik?"
       },
       {
-        "es_form": "Necesito [el horno::piekarnik] nuevo.",
-        "pl_translation": "Potrzebuję nowy piekarnik."
+        "es_form": "[El horno::piekarnik] está aquí.",
+        "pl_translation": "Piekarnik jest tutaj."
       },
       {
-        "es_form": "[El horno::piekarnik] está sobre la mesa.",
-        "pl_translation": "Piekarnik jest na stole."
+        "es_form": "Este es [el horno::piekarnik].",
+        "pl_translation": "To jest piekarnik."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "ostry",
     "examples": [
       {
-        "es_form": "Hace un día [afilado::ostry].",
-        "pl_translation": "Jest ostry dzień."
+        "es_form": "Es muy [afilado::ostry].",
+        "pl_translation": "Jest bardzo ostry."
       },
       {
-        "es_form": "Nada es más [afilado::ostry] que la familia.",
-        "pl_translation": "Nic nie jest ostrzejsze od rodziny."
+        "es_form": "No es [afilado::ostry].",
+        "pl_translation": "Nie jest ostry."
       },
       {
-        "es_form": "El examen fue [afilado::ostry].",
-        "pl_translation": "Egzamin był ostry."
+        "es_form": "Parece [afilado::ostry].",
+        "pl_translation": "Wydaje się ostry."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "gorący",
     "examples": [
       {
-        "es_form": "Hace un día [caliente::gorący].",
-        "pl_translation": "Jest gorący dzień."
+        "es_form": "Es muy [caliente::gorący].",
+        "pl_translation": "Jest bardzo gorący."
       },
       {
-        "es_form": "Este coche es [caliente::gorący].",
-        "pl_translation": "Ten samochód jest gorący."
+        "es_form": "Parece [caliente::gorący].",
+        "pl_translation": "Wydaje się gorący."
       },
       {
-        "es_form": "La comida está [caliente::gorący].",
-        "pl_translation": "Jedzenie jest gorące."
+        "es_form": "Es demasiado [caliente::gorący].",
+        "pl_translation": "Jest zbyt gorący."
       }
     ]
   },

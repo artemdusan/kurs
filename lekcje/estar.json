@@ -6,15 +6,15 @@
     "examples": [
       {
         "es_form": "[La casa::dom] es muy grande.",
-        "pl_translation": "Dom jest bardzo duży"
+        "pl_translation": "Dom jest bardzo duży."
       },
       {
-        "es_form": "Voy a [la casa::dom] cada día.",
-        "pl_translation": "Chodzę do dom codziennie."
+        "es_form": "¿Dónde está [la casa::dom]?",
+        "pl_translation": "Gdzie jest dom?"
       },
       {
-        "es_form": "Trabajo en [la casa::dom].",
-        "pl_translation": "Pracuję w dom."
+        "es_form": "[La casa::dom] está aquí.",
+        "pl_translation": "Dom jest tutaj."
       }
     ]
   },
@@ -28,12 +28,12 @@
         "pl_translation": "Miejsce otwiera się o ósmej."
       },
       {
-        "es_form": "[El lugar::miejsce] es muy grande.",
-        "pl_translation": "Miejsce jest bardzo duży"
+        "es_form": "Este es [el lugar::miejsce].",
+        "pl_translation": "To jest miejsce."
       },
       {
-        "es_form": "Trabajo en [el lugar::miejsce].",
-        "pl_translation": "Pracuję w miejsce."
+        "es_form": "¿Dónde está [el lugar::miejsce]?",
+        "pl_translation": "Gdzie jest miejsce?"
       }
     ]
   },
@@ -52,7 +52,7 @@
       },
       {
         "es_form": "[El país::kraj] es muy grande.",
-        "pl_translation": "Kraj jest bardzo duży"
+        "pl_translation": "Kraj jest bardzo duży."
       }
     ]
   },
@@ -62,8 +62,8 @@
     "pl_word": "miasto",
     "examples": [
       {
-        "es_form": "Voy a [la ciudad::miasto] cada día.",
-        "pl_translation": "Chodzę do miasto codziennie."
+        "es_form": "Esta es [la ciudad::miasto].",
+        "pl_translation": "To jest miasto."
       },
       {
         "es_form": "[La ciudad::miasto] abre a las ocho.",
@@ -85,12 +85,12 @@
         "pl_translation": "Ulica jest niedaleko stąd."
       },
       {
-        "es_form": "Visitamos [la calle::ulica] la semana pasada.",
-        "pl_translation": "Odwiedziliśmy ulica w zeszłym tygodniu."
+        "es_form": "Esta es [la calle::ulica].",
+        "pl_translation": "To jest ulica."
       },
       {
-        "es_form": "Voy a [la calle::ulica] cada día.",
-        "pl_translation": "Chodzę do ulica codziennie."
+        "es_form": "[La calle::ulica] está aquí.",
+        "pl_translation": "Ulica jest tutaj."
       }
     ]
   },
@@ -100,35 +100,35 @@
     "pl_word": "świat",
     "examples": [
       {
-        "es_form": "Trabajo en [el mundo::świat].",
-        "pl_translation": "Pracuję w świat."
+        "es_form": "Este es [el mundo::świat].",
+        "pl_translation": "To jest świat."
       },
       {
-        "es_form": "Voy a [el mundo::świat] cada día.",
-        "pl_translation": "Chodzę do świat codziennie."
+        "es_form": "[El mundo::świat] está aquí.",
+        "pl_translation": "Świat jest tutaj."
       },
       {
-        "es_form": "Visitamos [el mundo::świat] la semana pasada.",
-        "pl_translation": "Odwiedziliśmy świat w zeszłym tygodniu."
+        "es_form": "No es [el mundo::świat].",
+        "pl_translation": "To nie jest świat."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El dirección",
+    "es_word": "La dirección",
     "pl_word": "adres",
     "examples": [
       {
-        "es_form": "[El dirección::adres] es de madera.",
-        "pl_translation": "Adres jest z drewna."
+        "es_form": "¿Dónde está [la dirección::adres]?",
+        "pl_translation": "Gdzie jest adres?"
       },
       {
-        "es_form": "Necesito [el dirección::adres] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "[La dirección::adres] está aquí.",
+        "pl_translation": "Adres jest tutaj."
       },
       {
-        "es_form": "Compré [el dirección::adres] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "No es [la dirección::adres].",
+        "pl_translation": "To nie jest adres."
       }
     ]
   },
@@ -138,35 +138,35 @@
     "pl_word": "stan",
     "examples": [
       {
-        "es_form": "Se me rompio [el estado::stan].",
-        "pl_translation": "Zepsuł mi się stan."
+        "es_form": "Este es [el estado::stan].",
+        "pl_translation": "To jest stan."
       },
       {
-        "es_form": "[El estado::stan] está sobre la mesa.",
-        "pl_translation": "Stan jest na stole."
+        "es_form": "No es [el estado::stan].",
+        "pl_translation": "To nie jest stan."
       },
       {
-        "es_form": "Necesito [el estado::stan] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "[El estado::stan] está aquí.",
+        "pl_translation": "Stan jest tutaj."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El habitación",
+    "es_word": "La habitación",
     "pl_word": "pokój",
     "examples": [
       {
-        "es_form": "Se me rompio [el habitación::pokój].",
-        "pl_translation": "Zepsuł mi się pokój."
+        "es_form": "Esta es [la habitación::pokój].",
+        "pl_translation": "To jest pokój."
       },
       {
-        "es_form": "Guarda [el habitación::pokój] en el armario.",
-        "pl_translation": "Schowaj pokój do szafy."
+        "es_form": "[La habitación::pokój] está aquí.",
+        "pl_translation": "Pokój jest tutaj."
       },
       {
-        "es_form": "Necesito [el habitación::pokój] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "No es [la habitación::pokój].",
+        "pl_translation": "To nie jest pokój."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "kuchnia",
     "examples": [
       {
-        "es_form": "[La cocina::kuchnia] es muy grande.",
-        "pl_translation": "Kuchnia jest bardzo duży"
+        "es_form": "¿Dónde está [la cocina::kuchnia]?",
+        "pl_translation": "Gdzie jest kuchnia?"
       },
       {
         "es_form": "¿Donde está [la cocina::kuchnia]?",
         "pl_translation": "Gdzie jest kuchnia?"
       },
       {
-        "es_form": "Voy a [la cocina::kuchnia] cada día.",
-        "pl_translation": "Chodzę do kuchnia codziennie."
+        "es_form": "[La cocina::kuchnia] está aquí.",
+        "pl_translation": "Kuchnia jest tutaj."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "duży",
     "examples": [
       {
-        "es_form": "Nada es más [grande::duży] que la familia.",
-        "pl_translation": "Nic nie jest duży od rodziny."
+        "es_form": "Es muy [grande::duży].",
+        "pl_translation": "Jest bardzo duży."
       },
       {
-        "es_form": "Es una persona muy [grande::duży].",
-        "pl_translation": "To jest bardzo duży osoba."
+        "es_form": "Parece [grande::duży].",
+        "pl_translation": "Wydaje się duży."
       },
       {
-        "es_form": "Hace un día [grande::duży].",
-        "pl_translation": "Jest duży dzień."
+        "es_form": "Es demasiado [grande::duży].",
+        "pl_translation": "Jest zbyt duży."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "mały",
     "examples": [
       {
-        "es_form": "Se compro un vestido [pequeño::mały].",
-        "pl_translation": "Kupiła sobie mały sukienkę."
+        "es_form": "Es muy [pequeño::mały].",
+        "pl_translation": "Jest bardzo mały."
       },
       {
-        "es_form": "La comida está [pequeña::mały].",
-        "pl_translation": "Jedzenie jest mały."
+        "es_form": "No es [pequeño::mały].",
+        "pl_translation": "Nie jest mały."
       },
       {
-        "es_form": "Este coche es [pequeño::mały].",
-        "pl_translation": "Ten samochód jest mały."
+        "es_form": "Parece [pequeño::mały].",
+        "pl_translation": "Wydaje się mały."
       }
     ]
   },

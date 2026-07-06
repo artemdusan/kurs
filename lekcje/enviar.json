@@ -24,8 +24,8 @@
     "pl_word": "aplikacja",
     "examples": [
       {
-        "es_form": "Se me cerró [la aplicación::aplikacja].",
-        "pl_translation": "Zamknęła mi się aplikacja."
+        "es_form": "Esta es [la aplicación::aplikacja].",
+        "pl_translation": "To jest aplikacja."
       },
       {
         "es_form": "Descargué [la aplicación::aplikacja] ayer.",
@@ -43,12 +43,12 @@
     "pl_word": "hasło",
     "examples": [
       {
-        "es_form": "Necesito cambiar [la contraseña::hasło].",
-        "pl_translation": "Muszę zmienić hasło."
+        "es_form": "Esta es [la contraseña::hasło].",
+        "pl_translation": "To jest hasło."
       },
       {
-        "es_form": "¿Olvidaste [la contraseña::hasło]?",
-        "pl_translation": "Zapomniałeś hasła?"
+        "es_form": "¿Dónde está [la contraseña::hasło]?",
+        "pl_translation": "Gdzie jest hasło?"
       },
       {
         "es_form": "[La contraseña::hasło] es muy segura.",
@@ -81,8 +81,8 @@
     "pl_word": "plik",
     "examples": [
       {
-        "es_form": "Guardé [el archivo::plik] ayer.",
-        "pl_translation": "Zapisałem plik wczoraj."
+        "es_form": "Este es [el archivo::plik].",
+        "pl_translation": "To jest plik."
       },
       {
         "es_form": "[El archivo::plik] está sobre el escritorio.",
@@ -100,8 +100,8 @@
     "pl_word": "drukarka",
     "examples": [
       {
-        "es_form": "[La impresora::drukarka] cuesta diez euros.",
-        "pl_translation": "Drukarka kosztuje dziesięć euro."
+        "es_form": "Esta es [la impresora::drukarka].",
+        "pl_translation": "To jest drukarka."
       },
       {
         "es_form": "Compré [la impresora::drukarka] ayer.",
@@ -142,8 +142,8 @@
         "pl_translation": "Wirus zainfekował mój komputer."
       },
       {
-        "es_form": "Eliminé [el virus::wirus (komputerowy)].",
-        "pl_translation": "Usunąłem wirusa."
+        "es_form": "Este es [el virus::wirus].",
+        "pl_translation": "To jest wirus."
       },
       {
         "es_form": "[El virus::wirus (komputerowy)] es muy peligroso.",
@@ -157,8 +157,8 @@
     "pl_word": "aktualizacja",
     "examples": [
       {
-        "es_form": "¿Has visto [la actualización::aktualizacja]?",
-        "pl_translation": "Widziałeś aktualizację?"
+        "es_form": "Esta es [la actualización::aktualizacja].",
+        "pl_translation": "To jest aktualizacja."
       },
       {
         "es_form": "[La actualización::aktualizacja] está disponible.",
@@ -180,12 +180,12 @@
         "pl_translation": "Dane są bezpieczne."
       },
       {
-        "es_form": "¿Has visto [los datos::dane]?",
-        "pl_translation": "Widziałeś te dane?"
+        "es_form": "¿Dónde está [los datos::dane]?",
+        "pl_translation": "Gdzie jest dane?"
       },
       {
-        "es_form": "Se me borraron [los datos::dane].",
-        "pl_translation": "Skasowały mi się dane."
+        "es_form": "[Los datos::dane] está aquí.",
+        "pl_translation": "Dane jest tutaj."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "cyfrowy",
     "examples": [
       {
-        "es_form": "El examen fue [digital::cyfrowy].",
-        "pl_translation": "Egzamin był cyfrowy."
+        "es_form": "Es muy [digital::cyfrowy].",
+        "pl_translation": "Jest bardzo cyfrowy."
       },
       {
-        "es_form": "Este documento es [digital::cyfrowy].",
-        "pl_translation": "Ten dokument jest cyfrowy."
+        "es_form": "Parece [digital::cyfrowy].",
+        "pl_translation": "Wydaje się cyfrowy."
       },
       {
-        "es_form": "Es una firma [digital::cyfrowy].",
-        "pl_translation": "To jest podpis cyfrowy."
+        "es_form": "Es demasiado [digital::cyfrowy].",
+        "pl_translation": "Jest zbyt cyfrowy."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "bezprzewodowy",
     "examples": [
       {
-        "es_form": "Este ratón es [inalámbrico::bezprzewodowy].",
-        "pl_translation": "Ta mysz jest bezprzewodowa."
+        "es_form": "Es muy [inalámbrico::bezprzewodowy].",
+        "pl_translation": "Jest bardzo bezprzewodowy."
       },
       {
-        "es_form": "Tengo una red [inalámbrica::bezprzewodowy].",
-        "pl_translation": "Mam sieć bezprzewodową."
+        "es_form": "No es [inalámbrico::bezprzewodowy].",
+        "pl_translation": "Nie jest bezprzewodowy."
       },
       {
-        "es_form": "La conexión es [inalámbrica::bezprzewodowy].",
-        "pl_translation": "Połączenie jest bezprzewodowe."
+        "es_form": "Parece [inalámbrico::bezprzewodowy].",
+        "pl_translation": "Wydaje się bezprzewodowy."
       }
     ]
   },

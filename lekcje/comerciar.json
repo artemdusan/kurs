@@ -13,8 +13,8 @@
         "pl_translation": "Handel jest bardzo ważny."
       },
       {
-        "es_form": "Tienes que aceptar [el comercio::handel].",
-        "pl_translation": "Musisz zaakceptować handel."
+        "es_form": "¿Dónde está [el comercio::handel]?",
+        "pl_translation": "Gdzie jest handel?"
       }
     ]
   },
@@ -24,8 +24,8 @@
     "pl_word": "eksport",
     "examples": [
       {
-        "es_form": "Tienes que aceptar [la exportación::eksport].",
-        "pl_translation": "Musisz zaakceptować eksport."
+        "es_form": "¿Dónde está [la exportación::eksport]?",
+        "pl_translation": "Gdzie jest eksport?"
       },
       {
         "es_form": "No entiendo [la exportación::eksport].",
@@ -47,8 +47,8 @@
         "pl_translation": "Import zmienił moje życie."
       },
       {
-        "es_form": "[La importación::import] es la clave del éxito.",
-        "pl_translation": "Import jest kluczem do sukcesu."
+        "es_form": "Esta es [la importación::import].",
+        "pl_translation": "To jest import."
       },
       {
         "es_form": "Hablamos sobre [la importación::import].",
@@ -66,8 +66,8 @@
         "pl_translation": "Nie rozumiem inwestycji."
       },
       {
-        "es_form": "[La inversión::inwestycja] es la clave del éxito.",
-        "pl_translation": "Inwestycja jest kluczem do sukcesu."
+        "es_form": "Esta es [la inversión::inwestycja].",
+        "pl_translation": "To jest inwestycja."
       },
       {
         "es_form": "[La inversión::inwestycja] cambio mi vida.",
@@ -81,16 +81,16 @@
     "pl_word": "akcja giełdowa",
     "examples": [
       {
-        "es_form": "¿Has visto [la acción::akcja giełdowa]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Esta es [la acción::akcja giełdowa].",
+        "pl_translation": "To jest akcja giełdowa."
       },
       {
-        "es_form": "[La acción::akcja giełdowa] cuesta diez euros.",
-        "pl_translation": "Akcja giełdowa kosztuje dziesięć euro."
+        "es_form": "Hablamos sobre [la acción::akcja giełdowa].",
+        "pl_translation": "Rozmawiamy o tym, czym jest akcja giełdowa."
       },
       {
-        "es_form": "Se me rompió [la acción::akcja giełdowa].",
-        "pl_translation": "Zepsuła mi się akcja giełdowa."
+        "es_form": "No es [la acción::akcja giełdowa].",
+        "pl_translation": "To nie jest akcja giełdowa."
       }
     ]
   },
@@ -104,8 +104,8 @@
         "pl_translation": "Rozmawialiśmy o kredycie."
       },
       {
-        "es_form": "Tienes que aceptar [el crédito::kredyt].",
-        "pl_translation": "Musisz zaakceptować kredyt."
+        "es_form": "Este es [el crédito::kredyt].",
+        "pl_translation": "To jest kredyt."
       },
       {
         "es_form": "[El crédito::kredyt] cambio mi vida.",
@@ -165,8 +165,8 @@
         "pl_translation": "Nie rozumiem kryzysu."
       },
       {
-        "es_form": "Tienes que aceptar [la crisis::kryzys].",
-        "pl_translation": "Musisz zaakceptować kryzys."
+        "es_form": "¿Dónde está [la crisis::kryzys]?",
+        "pl_translation": "Gdzie jest kryzys?"
       }
     ]
   },
@@ -176,12 +176,12 @@
     "pl_word": "rozwój",
     "examples": [
       {
-        "es_form": "Tienes que aceptar [el desarrollo::rozwój].",
-        "pl_translation": "Musisz zaakceptować rozwój."
+        "es_form": "¿Dónde está [el desarrollo::rozwój]?",
+        "pl_translation": "Gdzie jest rozwój?"
       },
       {
-        "es_form": "[El desarrollo::rozwój] es la clave del éxito.",
-        "pl_translation": "Rozwój jest kluczem do sukcesu."
+        "es_form": "Este es [el desarrollo::rozwój].",
+        "pl_translation": "To jest rozwój."
       },
       {
         "es_form": "[El desarrollo::rozwój] cambio mi vida.",
@@ -195,16 +195,16 @@
     "pl_word": "gospodarczy",
     "examples": [
       {
-        "es_form": "La comida está [económica::gospodarczy].",
-        "pl_translation": "Jedzenie jest tanie."
+        "es_form": "No es [económico::gospodarczy].",
+        "pl_translation": "Nie jest gospodarczy."
       },
       {
-        "es_form": "Nada es más [económico::gospodarczy] que la familia.",
-        "pl_translation": "Nic nie jest ważniejsze gospodarczo niż rodzina."
+        "es_form": "Parece [económico::gospodarczy].",
+        "pl_translation": "Wydaje się gospodarczy."
       },
       {
-        "es_form": "Es una persona muy [económico::gospodarczy].",
-        "pl_translation": "To jest bardzo oszczędna osoba."
+        "es_form": "Es demasiado [económico::gospodarczy].",
+        "pl_translation": "Jest zbyt gospodarczy."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "finansowy",
     "examples": [
       {
-        "es_form": "Tengo una casa [financiera::finansowy].",
-        "pl_translation": "Mam finansowy dom."
+        "es_form": "No es [financiero::finansowy].",
+        "pl_translation": "Nie jest finansowy."
       },
       {
-        "es_form": "Este coche es [financiero::finansowy].",
-        "pl_translation": "Ten samochód jest finansowy."
+        "es_form": "Parece [financiero::finansowy].",
+        "pl_translation": "Wydaje się finansowy."
       },
       {
-        "es_form": "Hace un día [financiero::finansowy].",
-        "pl_translation": "Jest finansowy dzień."
+        "es_form": "Es demasiado [financiero::finansowy].",
+        "pl_translation": "Jest zbyt finansowy."
       }
     ]
   },

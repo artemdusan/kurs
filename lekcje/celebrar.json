@@ -5,16 +5,16 @@
     "pl_word": "urodziny",
     "examples": [
       {
-        "es_form": "Compré [el cumpleaños::urodziny] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Este es [el cumpleaños::urodziny].",
+        "pl_translation": "To jest urodziny."
       },
       {
-        "es_form": "[El cumpleaños::urodziny] es de madera.",
-        "pl_translation": "Urodziny są z drewna."
+        "es_form": "¿Dónde está [el cumpleaños::urodziny]?",
+        "pl_translation": "Gdzie jest urodziny?"
       },
       {
-        "es_form": "¿Has visto [el cumpleaños::urodziny]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "[El cumpleaños::urodziny] está aquí.",
+        "pl_translation": "Urodziny jest tutaj."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "prezent",
     "examples": [
       {
-        "es_form": "Necesito [el regalo::prezent] nuevo.",
-        "pl_translation": "Potrzebuję nowy prezent."
+        "es_form": "Este es [el regalo::prezent].",
+        "pl_translation": "To jest prezent."
       },
       {
-        "es_form": "¿Has visto [el regalo::prezent]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "¿Dónde está [el regalo::prezent]?",
+        "pl_translation": "Gdzie jest prezent?"
       },
       {
-        "es_form": "[El regalo::prezent] está sobre la mesa.",
-        "pl_translation": "Prezent jest na stole."
+        "es_form": "No es [el regalo::prezent].",
+        "pl_translation": "To nie jest prezent."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "tort",
     "examples": [
       {
-        "es_form": "¿Has visto [la tarta::tort]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Esta es [la tarta::tort].",
+        "pl_translation": "To jest tort."
       },
       {
-        "es_form": "Necesito [la tarta::tort] nuevo.",
-        "pl_translation": "Potrzebuję nowy tort."
+        "es_form": "¿Dónde está [la tarta::tort]?",
+        "pl_translation": "Gdzie jest tort?"
       },
       {
-        "es_form": "[La tarta::tort] es de madera.",
-        "pl_translation": "Tort jest z drewna."
+        "es_form": "[La tarta::tort] está aquí.",
+        "pl_translation": "Tort jest tutaj."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "zabawa",
     "examples": [
       {
-        "es_form": "Compré [la diversión::zabawa] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Esta es [la diversión::zabawa].",
+        "pl_translation": "To jest zabawa."
       },
       {
-        "es_form": "¿Has visto [la diversión::zabawa]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "¿Dónde está [la diversión::zabawa]?",
+        "pl_translation": "Gdzie jest zabawa?"
       },
       {
-        "es_form": "[La diversión::zabawa] es de madera.",
-        "pl_translation": "Zabawa jest z drewna."
+        "es_form": "No es [la diversión::zabawa].",
+        "pl_translation": "To nie jest zabawa."
       }
     ]
   },
@@ -85,12 +85,12 @@
         "pl_translation": "Gość mieszka na mojej ulicy."
       },
       {
-        "es_form": "[El invitado::gość] es muy amable.",
-        "pl_translation": "Gość jest bardzo miły."
+        "es_form": "Este es [el invitado::gość].",
+        "pl_translation": "To jest gość."
       },
       {
-        "es_form": "Conozco a [el invitado::gość].",
-        "pl_translation": "Znam gościa."
+        "es_form": "No es [el invitado::gość].",
+        "pl_translation": "To nie jest gość."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "zaproszenie",
     "examples": [
       {
-        "es_form": "Compré [la invitación::zaproszenie] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Esta es [la invitación::zaproszenie].",
+        "pl_translation": "To jest zaproszenie."
       },
       {
-        "es_form": "Necesito [la invitación::zaproszenie] nuevo.",
-        "pl_translation": "Potrzebuję nowe zaproszenie."
+        "es_form": "Hablamos sobre [la invitación::zaproszenie].",
+        "pl_translation": "Rozmawiamy o tym, czym jest zaproszenie."
       },
       {
-        "es_form": "[La invitación::zaproszenie] es de madera.",
-        "pl_translation": "Zaproszenie jest z drewna."
+        "es_form": "No es [la invitación::zaproszenie].",
+        "pl_translation": "To nie jest zaproszenie."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "życzenia",
     "examples": [
       {
-        "es_form": "Compré [los deseos::życzenia] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Esta es [los deseos::życzenia].",
+        "pl_translation": "To jest życzenia."
       },
       {
         "es_form": "[Los deseos::życzenia] está sobre la mesa.",
         "pl_translation": "Życzenia są na stole."
       },
       {
-        "es_form": "Necesito [los deseos::życzenia] nuevo.",
-        "pl_translation": "Potrzebuję nowe życzenia."
+        "es_form": "[Los deseos::życzenia] está aquí.",
+        "pl_translation": "Życzenia jest tutaj."
       }
     ]
   },
@@ -142,8 +142,8 @@
         "pl_translation": "Rozmawialiśmy o tradycji."
       },
       {
-        "es_form": "[La tradición::tradycja] es la clave del éxito.",
-        "pl_translation": "Tradycja jest kluczem do sukcesu."
+        "es_form": "Esta es [la tradición::tradycja].",
+        "pl_translation": "To jest tradycja."
       },
       {
         "es_form": "[La tradición::tradycja] es muy importante.",
@@ -157,16 +157,16 @@
     "pl_word": "Boże Narodzenie",
     "examples": [
       {
-        "es_form": "[La Navidad::Boże Narodzenie] cuesta diez euros.",
-        "pl_translation": "Boże Narodzenie kosztuje dziesięć euro."
+        "es_form": "No es [la Navidad::Boże Narodzenie].",
+        "pl_translation": "To nie jest Boże Narodzenie."
       },
       {
-        "es_form": "Guarda [la Navidad::Boże Narodzenie] en el armario.",
-        "pl_translation": "Schowaj Boże Narodzenie do szafy."
+        "es_form": "Esta es [la Navidad::Boże Narodzenie].",
+        "pl_translation": "To jest Boże Narodzenie."
       },
       {
-        "es_form": "Necesito [la Navidad::Boże Narodzenie] nuevo.",
-        "pl_translation": "Potrzebuję nowe Boże Narodzenie."
+        "es_form": "¿Dónde está [la Navidad::Boże Narodzenie]?",
+        "pl_translation": "Gdzie jest Boże Narodzenie?"
       }
     ]
   },
@@ -176,8 +176,8 @@
     "pl_word": "Nowy Rok, Sylwester",
     "examples": [
       {
-        "es_form": "Llego [El Año Nuevo::Nowy Rok, Sylwester] de la boda.",
-        "pl_translation": "Przybywam na Nowy Rok, Sylwester ze ślubu."
+        "es_form": "Este es [el Año Nuevo::Nowy Rok].",
+        "pl_translation": "To jest Nowy Rok."
       },
       {
         "es_form": "[El Año Nuevo::Nowy Rok, Sylwester] se me hizo eterno.",
@@ -195,16 +195,16 @@
     "pl_word": "wesoły",
     "examples": [
       {
-        "es_form": "Nada es más [alegre::wesoły] que la familia.",
-        "pl_translation": "Nic nie jest bardziej wesołe od rodziny."
+        "es_form": "Es muy [alegre::wesoły].",
+        "pl_translation": "Jest bardzo wesoły."
       },
       {
-        "es_form": "El examen fue [alegre::wesoły].",
-        "pl_translation": "Egzamin był wesoły."
+        "es_form": "No es [alegre::wesoły].",
+        "pl_translation": "Nie jest wesoły."
       },
       {
-        "es_form": "Tengo una casa [alegre::wesoły].",
-        "pl_translation": "Mam wesoły dom."
+        "es_form": "Parece [alegre::wesoły].",
+        "pl_translation": "Wydaje się wesoły."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "wyjątkowy, uroczysty",
     "examples": [
       {
-        "es_form": "La comida está [especial::wyjątkowy, uroczysty].",
-        "pl_translation": "Jedzenie jest wyjątkowe, uroczyste."
+        "es_form": "Es muy [especial::wyjątkowy].",
+        "pl_translation": "Jest bardzo wyjątkowy."
       },
       {
-        "es_form": "Se compro un vestido [especial::wyjątkowy, uroczysty].",
-        "pl_translation": "Kupiła sobie wyjątkową, uroczystą sukienkę."
+        "es_form": "No es [especial::wyjątkowy].",
+        "pl_translation": "Nie jest wyjątkowy."
       },
       {
-        "es_form": "Es un lugar [especial::wyjątkowy, uroczysty] para vivir.",
-        "pl_translation": "To jest wyjątkowe, uroczyste miejsce do życia."
+        "es_form": "Es demasiado [especial::wyjątkowy].",
+        "pl_translation": "Jest zbyt wyjątkowy."
       }
     ]
   },

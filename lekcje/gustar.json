@@ -9,12 +9,12 @@
         "pl_translation": "Pies biegnie w parku."
       },
       {
-        "es_form": "¿Has visto al [perro::psa]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Este es [el perro::pies].",
+        "pl_translation": "To jest pies."
       },
       {
-        "es_form": "Me gusta [el perro::pies] de mi vecino.",
-        "pl_translation": "Podoba mi się pies mojego sąsiada."
+        "es_form": "[El perro::pies] está aquí.",
+        "pl_translation": "Pies jest tutaj."
       }
     ]
   },
@@ -28,12 +28,12 @@
         "pl_translation": "Kot śpi na sofie."
       },
       {
-        "es_form": "¿Has visto al [gato::kota]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "¿Dónde está [el gato::kot]?",
+        "pl_translation": "Gdzie jest kot?"
       },
       {
-        "es_form": "Me gusta [el gato::kot] de María.",
-        "pl_translation": "Podoba mi się kot Marii."
+        "es_form": "[El gato::kot] está aquí.",
+        "pl_translation": "Kot jest tutaj."
       }
     ]
   },
@@ -85,12 +85,12 @@
         "pl_translation": "Koń biegnie po polu."
       },
       {
-        "es_form": "¿Has visto al [caballo::konia]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Este es [el caballo::koń].",
+        "pl_translation": "To jest koń."
       },
       {
-        "es_form": "Me gusta [el caballo::koń] blanco.",
-        "pl_translation": "Podoba mi się biały koń."
+        "es_form": "¿Dónde está [el caballo::koń]?",
+        "pl_translation": "Gdzie jest koń?"
       }
     ]
   },
@@ -104,12 +104,12 @@
         "pl_translation": "Krowa je trawę na łące."
       },
       {
-        "es_form": "¿Has visto a [la vaca::krowę]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Esta es [la vaca::krowa].",
+        "pl_translation": "To jest krowa."
       },
       {
-        "es_form": "Me gusta [la vaca::krowa] de mi abuelo.",
-        "pl_translation": "Podoba mi się krowa mojego dziadka."
+        "es_form": "[La vaca::krowa] está aquí.",
+        "pl_translation": "Krowa jest tutaj."
       }
     ]
   },
@@ -123,12 +123,12 @@
         "pl_translation": "Świnia jest w zagrodzie."
       },
       {
-        "es_form": "¿Has visto al [cerdo::świnię]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Este es [el cerdo::świnia].",
+        "pl_translation": "To jest świnia."
       },
       {
-        "es_form": "Me gusta [el cerdo::świnia] pequeño.",
-        "pl_translation": "Podoba mi się mała świnia."
+        "es_form": "[El cerdo::świnia] está aquí.",
+        "pl_translation": "Świnia jest tutaj."
       }
     ]
   },
@@ -142,12 +142,12 @@
         "pl_translation": "Mysz mieszka w kuchni."
       },
       {
-        "es_form": "¿Has visto al [ratón::mysz]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Este es [el ratón::mysz].",
+        "pl_translation": "To jest mysz."
       },
       {
-        "es_form": "El gato persigue al [ratón::mysz].",
-        "pl_translation": "Kot goni mysz."
+        "es_form": "¿Dónde está [el ratón::mysz]?",
+        "pl_translation": "Gdzie jest mysz?"
       }
     ]
   },
@@ -165,8 +165,8 @@
         "pl_translation": "Mam królika jako zwierzątko."
       },
       {
-        "es_form": "Me gusta [el conejo::królik] de mi hermana.",
-        "pl_translation": "Podoba mi się królik mojej siostry."
+        "es_form": "Este es [el conejo::królik].",
+        "pl_translation": "To jest królik."
       }
     ]
   },
@@ -180,12 +180,12 @@
         "pl_translation": "Zwierzę żyje w dżungli."
       },
       {
-        "es_form": "¿Has visto al [animal::zwierzę]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Este es [el animal::zwierzę].",
+        "pl_translation": "To jest zwierzę."
       },
       {
-        "es_form": "Me gusta [el animal::zwierzę] que me mostraste.",
-        "pl_translation": "Podoba mi się zwierzę, które mi pokazałeś"
+        "es_form": "¿Dónde está [el animal::zwierzę]?",
+        "pl_translation": "Gdzie jest zwierzę?"
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "sympatyczny",
     "examples": [
       {
-        "es_form": "Conocí a un chico [simpático::sympatyczny] ayer.",
-        "pl_translation": "Poznałem"
+        "es_form": "Es muy [simpático::sympatyczny].",
+        "pl_translation": "Jest bardzo sympatyczny."
       },
       {
-        "es_form": "Tengo un perro [simpático::sympatyczny].",
-        "pl_translation": "Mam sympatycznego psa."
+        "es_form": "No es [simpático::sympatyczny].",
+        "pl_translation": "Nie jest sympatyczny."
       },
       {
-        "es_form": "Es una chica muy [simpática::sympatyczny].",
-        "pl_translation": "To jest bardzo sympatyczna dziewczyna."
+        "es_form": "Es demasiado [simpático::sympatyczny].",
+        "pl_translation": "Jest zbyt sympatyczny."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "dziki",
     "examples": [
       {
-        "es_form": "Es un animal [salvaje::dziki].",
-        "pl_translation": "To jest dzikie zwierzę."
+        "es_form": "Es muy [salvaje::dziki].",
+        "pl_translation": "Jest bardzo dziki."
       },
       {
-        "es_form": "El tigre es un animal [salvaje::dziki].",
-        "pl_translation": "Tygrys jest dzikim zwierzęciem."
+        "es_form": "No es [salvaje::dziki].",
+        "pl_translation": "Nie jest dziki."
       },
       {
-        "es_form": "Viven en un lugar [salvaje::dziki].",
-        "pl_translation": "Mieszkają w dzikim miejscu."
+        "es_form": "Es demasiado [salvaje::dziki].",
+        "pl_translation": "Jest zbyt dziki."
       }
     ]
   },

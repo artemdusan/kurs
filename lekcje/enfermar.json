@@ -24,12 +24,12 @@
     "pl_word": "przeziębienie",
     "examples": [
       {
-        "es_form": "Tengo [el resfriado::przeziębienie] desde hace tres días.",
-        "pl_translation": "Mam przeziębienie od trzech dni."
+        "es_form": "Este es [el resfriado::przeziębienie].",
+        "pl_translation": "To jest przeziębienie."
       },
       {
-        "es_form": "¿Has pasado ya [el resfriado::przeziębienie]?",
-        "pl_translation": "Czy już przeszedłeś przeziębienie?"
+        "es_form": "No es [el resfriado::przeziębienie].",
+        "pl_translation": "To nie jest przeziębienie."
       },
       {
         "es_form": "[El resfriado::przeziębienie] es muy molesto.",
@@ -43,16 +43,16 @@
     "pl_word": "ból głowy",
     "examples": [
       {
-        "es_form": "Tengo [el dolor de cabeza::ból głowy] desde ayer.",
-        "pl_translation": "Mam ból głowy od wczoraj."
+        "es_form": "Este es [el dolor de cabeza::ból głowy].",
+        "pl_translation": "To jest ból głowy."
       },
       {
         "es_form": "[El dolor de cabeza::ból głowy] no me deja trabajar.",
         "pl_translation": "Ból głowy nie pozwala mi pracować."
       },
       {
-        "es_form": "Necesito una pastilla para [el dolor de cabeza::ból głowy].",
-        "pl_translation": "Potrzebuję tabletki na ból głowy."
+        "es_form": "¿Dónde está [el dolor de cabeza::ból głowy]?",
+        "pl_translation": "Gdzie jest ból głowy?"
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "syrop",
     "examples": [
       {
-        "es_form": "Toma [el jarabe::syrop] dos veces al día.",
-        "pl_translation": "Bierz syrop dwa razy dziennie."
+        "es_form": "Este es [el jarabe::syrop].",
+        "pl_translation": "To jest syrop."
       },
       {
-        "es_form": "[El jarabe::syrop] cuesta diez euros.",
-        "pl_translation": "Syrop kosztuje dziesięć euro."
+        "es_form": "No es [el jarabe::syrop].",
+        "pl_translation": "To nie jest syrop."
       },
       {
-        "es_form": "Compré [el jarabe::syrop] para la tos ayer.",
-        "pl_translation": "Kupiłem syrop na kaszel wczoraj."
+        "es_form": "[El jarabe::syrop] está aquí.",
+        "pl_translation": "Syrop jest tutaj."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "gips (opatrunek)",
     "examples": [
       {
-        "es_form": "Me pusieron [el yeso::gips (opatrunek)] en el brazo.",
-        "pl_translation": "Założyli mi gips na rękę."
+        "es_form": "¿Dónde está [el yeso::gips]?",
+        "pl_translation": "Gdzie jest gips?"
       },
       {
         "es_form": "[El yeso::gips (opatrunek)] es muy incómodo.",
         "pl_translation": "Gips jest bardzo niewygodny."
       },
       {
-        "es_form": "Se me rompió [el yeso::gips (opatrunek)].",
-        "pl_translation": "Zepsuł mi się gips."
+        "es_form": "[El yeso::gips] está aquí.",
+        "pl_translation": "Gips jest tutaj."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "rentgen",
     "examples": [
       {
-        "es_form": "El médico me hizo [la radiografía::rentgen].",
-        "pl_translation": "Lekarz zrobił mi rentgen."
+        "es_form": "Esta es [la radiografía::rentgen].",
+        "pl_translation": "To jest rentgen."
       },
       {
         "es_form": "[La radiografía::rentgen] muestra el hueso roto.",
         "pl_translation": "Rentgen pokazuje złamaną kość."
       },
       {
-        "es_form": "Necesito ver [la radiografía::rentgen].",
-        "pl_translation": "Muszę zobaczyć rentgen."
+        "es_form": "¿Dónde está [la radiografía::rentgen]?",
+        "pl_translation": "Gdzie jest rentgen?"
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "przewlekły",
     "examples": [
       {
-        "es_form": "Tengo un dolor [crónico::przewlekły] de espalda.",
-        "pl_translation": "Mam przewlekły ból pleców."
+        "es_form": "Es muy [crónico::przewlekły].",
+        "pl_translation": "Jest bardzo przewlekły."
       },
       {
-        "es_form": "Es una enfermedad [crónica::przewlekły].",
-        "pl_translation": "To jest przewlekła choroba."
+        "es_form": "Parece [crónico::przewlekły].",
+        "pl_translation": "Wydaje się przewlekły."
       },
       {
-        "es_form": "Mi abuelo tiene un problema [crónico::przewlekły].",
-        "pl_translation": "Mój dziadek ma przewlekły problem."
+        "es_form": "Es demasiado [crónico::przewlekły].",
+        "pl_translation": "Jest zbyt przewlekły."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "zakaźny",
     "examples": [
       {
-        "es_form": "Este virus es muy [contagioso::zakaźny].",
-        "pl_translation": "Ten wirus jest bardzo zakaźny."
+        "es_form": "Es muy [contagioso::zakaźny].",
+        "pl_translation": "Jest bardzo zakaźny."
       },
       {
-        "es_form": "No es una enfermedad [contagiosa::zakaźny].",
-        "pl_translation": "To nie jest zakaźna choroba."
+        "es_form": "Parece [contagioso::zakaźny].",
+        "pl_translation": "Wydaje się zakaźny."
       },
       {
-        "es_form": "El resfriado es [contagioso::zakaźny].",
-        "pl_translation": "Przeziębienie jest zakaźne."
+        "es_form": "Es demasiado [contagioso::zakaźny].",
+        "pl_translation": "Jest zbyt zakaźny."
       }
     ]
   },

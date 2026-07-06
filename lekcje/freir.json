@@ -13,8 +13,8 @@
         "pl_translation": "Mąka jest typowa dla Hiszpanii."
       },
       {
-        "es_form": "¿Quieres [la harina::mąkę]?",
-        "pl_translation": "Chcesz mąkę?"
+        "es_form": "¿Dónde está [la harina::mąka]?",
+        "pl_translation": "Gdzie jest mąka?"
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "ryż",
     "examples": [
       {
-        "es_form": "[El arroz::ryż] es típico de España.",
-        "pl_translation": "Ryż jest typowy dla Hiszpanii."
+        "es_form": "¿Dónde está [el arroz::ryż]?",
+        "pl_translation": "Gdzie jest ryż?"
       },
       {
-        "es_form": "[El arroz::ryż] está muy rico.",
-        "pl_translation": "Ryż jest bardzo smaczny."
+        "es_form": "[El arroz::ryż] está aquí.",
+        "pl_translation": "Ryż jest tutaj."
       },
       {
-        "es_form": "[El arroz::ryż] se hace con leche.",
-        "pl_translation": "Ryż robi się z mleka."
+        "es_form": "No es [el arroz::ryż].",
+        "pl_translation": "To nie jest ryż."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "makaron",
     "examples": [
       {
-        "es_form": "[La pasta::makaron] se hace con leche.",
-        "pl_translation": "Makaron robi się z mleka."
+        "es_form": "Esta es [la pasta::makaron].",
+        "pl_translation": "To jest makaron."
       },
       {
         "es_form": "[La pasta::makaron] es típica de España.",
         "pl_translation": "Makaron jest typowy dla Hiszpanii."
       },
       {
-        "es_form": "¿Quieres [la pasta::makaron]?",
-        "pl_translation": "Chcesz makaron?"
+        "es_form": "¿Dónde está [la pasta::makaron]?",
+        "pl_translation": "Gdzie jest makaron?"
       }
     ]
   },
@@ -62,12 +62,12 @@
     "pl_word": "olej",
     "examples": [
       {
-        "es_form": "[El aceite::olej] está muy rico.",
-        "pl_translation": "Olej jest bardzo smaczny."
+        "es_form": "Este es [el aceite::olej].",
+        "pl_translation": "To jest olej."
       },
       {
-        "es_form": "¿Quieres [el aceite::olej]?",
-        "pl_translation": "Chcesz olej?"
+        "es_form": "¿Dónde está [el aceite::olej]?",
+        "pl_translation": "Gdzie jest olej?"
       },
       {
         "es_form": "[El aceite::olej] se usa para freír.",
@@ -81,12 +81,12 @@
     "pl_word": "ocet",
     "examples": [
       {
-        "es_form": "[El vinagre::ocet] está muy rico.",
-        "pl_translation": "Ocet jest bardzo smaczny."
+        "es_form": "¿Dónde está [el vinagre::ocet]?",
+        "pl_translation": "Gdzie jest ocet?"
       },
       {
-        "es_form": "¿Quieres [el vinagre::ocet]?",
-        "pl_translation": "Chcesz ocet?"
+        "es_form": "[El vinagre::ocet] está aquí.",
+        "pl_translation": "Ocet jest tutaj."
       },
       {
         "es_form": "[El vinagre::ocet] se usa en la ensalada.",
@@ -100,16 +100,16 @@
     "pl_word": "dżem",
     "examples": [
       {
-        "es_form": "[La mermelada::dżem] está muy rica.",
-        "pl_translation": "Dżem jest bardzo smaczny."
+        "es_form": "Esta es [la mermelada::dżem].",
+        "pl_translation": "To jest dżem."
       },
       {
         "es_form": "[La mermelada::dżem] se hace con frutas.",
         "pl_translation": "Dżem robi się z owoców."
       },
       {
-        "es_form": "Me gusta mucho [la mermelada::dżem].",
-        "pl_translation": "Bardzo lubię dżem."
+        "es_form": "¿Dónde está [la mermelada::dżem]?",
+        "pl_translation": "Gdzie jest dżem?"
       }
     ]
   },
@@ -123,12 +123,12 @@
         "pl_translation": "Miód robi się z kwiatów."
       },
       {
-        "es_form": "Me gusta mucho [la miel::miód].",
-        "pl_translation": "Bardzo lubię miód."
+        "es_form": "Esta es [la miel::miód].",
+        "pl_translation": "To jest miód."
       },
       {
-        "es_form": "Compramos [la miel::miód] en el mercado.",
-        "pl_translation": "Kupiliśmy miód na targu."
+        "es_form": "[La miel::miód] está aquí.",
+        "pl_translation": "Miód jest tutaj."
       }
     ]
   },
@@ -146,8 +146,8 @@
         "pl_translation": "Kupiliśmy czekoladę na targu."
       },
       {
-        "es_form": "¿Quieres [el chocolate::czekoladę]?",
-        "pl_translation": "Chcesz czekoladę?"
+        "es_form": "Este es [el chocolate::czekolada].",
+        "pl_translation": "To jest czekolada."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "lody",
     "examples": [
       {
-        "es_form": "Compramos [el helado::lody] en el mercado.",
-        "pl_translation": "Kupiliśmy lody na targu."
+        "es_form": "Este es [el helado::lody].",
+        "pl_translation": "To jest lody."
       },
       {
         "es_form": "[El helado::lody] es típico de España.",
         "pl_translation": "Lody są typowe dla Hiszpanii."
       },
       {
-        "es_form": "Me gusta mucho [el helado::lody].",
-        "pl_translation": "Bardzo lubię lody."
+        "es_form": "¿Dónde está [el helado::lody]?",
+        "pl_translation": "Gdzie jest lody?"
       }
     ]
   },
@@ -180,12 +180,12 @@
         "pl_translation": "Ciasto jest typowe dla Hiszpanii."
       },
       {
-        "es_form": "[El pastel::ciasto] se hace con leche.",
-        "pl_translation": "Ciasto robi się z mleka."
+        "es_form": "Este es [el pastel::ciasto].",
+        "pl_translation": "To jest ciasto."
       },
       {
-        "es_form": "Me gusta mucho [el pastel::ciasto].",
-        "pl_translation": "Bardzo lubię ciasto."
+        "es_form": "[El pastel::ciasto] está aquí.",
+        "pl_translation": "Ciasto jest tutaj."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "tłusty",
     "examples": [
       {
-        "es_form": "La comida está [grasienta::tłusta].",
-        "pl_translation": "Jedzenie jest tłuste."
+        "es_form": "Es muy [grasiento::tłusty].",
+        "pl_translation": "Jest bardzo tłusty."
       },
       {
-        "es_form": "Tengo una sartén [grasienta::tłustą].",
-        "pl_translation": "Mam tłustą patelnię."
+        "es_form": "No es [grasiento::tłusty].",
+        "pl_translation": "Nie jest tłusty."
       },
       {
-        "es_form": "Es un plato muy [grasiento::tłusty].",
-        "pl_translation": "To jest bardzo tłuste danie."
+        "es_form": "Es demasiado [grasiento::tłusty].",
+        "pl_translation": "Jest zbyt tłusty."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "chudy, cienki",
     "examples": [
       {
-        "es_form": "Es un papel muy [delgado::cienki].",
-        "pl_translation": "To jest bardzo cienki papier."
+        "es_form": "Es muy [delgado::chudy].",
+        "pl_translation": "Jest bardzo chudy."
       },
       {
-        "es_form": "Mi amigo es [delgado::chudy] y alto.",
-        "pl_translation": "Mój przyjaciel jest chudy i wysoki."
+        "es_form": "No es [delgado::chudy].",
+        "pl_translation": "Nie jest chudy."
       },
       {
-        "es_form": "La masa está muy [delgada::cienka].",
-        "pl_translation": "Ciasto jest bardzo cienkie."
+        "es_form": "Es demasiado [delgado::chudy].",
+        "pl_translation": "Jest zbyt chudy."
       }
     ]
   },

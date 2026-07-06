@@ -5,16 +5,16 @@
     "pl_word": "sztuka",
     "examples": [
       {
-        "es_form": "Tienes que aceptar [el arte::sztuka].",
-        "pl_translation": "Musisz zaakceptować sztuka."
+        "es_form": "Este es [el arte::sztuka].",
+        "pl_translation": "To jest sztuka."
       },
       {
-        "es_form": "Hablamos sobre [el arte::sztuka].",
-        "pl_translation": "Rozmawialiśmy o sztuka."
+        "es_form": "¿Dónde está [el arte::sztuka]?",
+        "pl_translation": "Gdzie jest sztuka?"
       },
       {
-        "es_form": "No entiendo [el arte::sztuka].",
-        "pl_translation": "Nie rozumiem sztuka."
+        "es_form": "[El arte::sztuka] está aquí.",
+        "pl_translation": "Sztuka jest tutaj."
       }
     ]
   },
@@ -39,20 +39,20 @@
   },
   {
     "type": "noun",
-    "es_word": "El exposición",
+    "es_word": "La exposición",
     "pl_word": "wystawa",
     "examples": [
       {
-        "es_form": "[El exposición::wystawa] es una parte importante del cuerpo.",
-        "pl_translation": "Wystawa jest ważną częścią ciała."
+        "es_form": "Esta es [la exposición::wystawa].",
+        "pl_translation": "To jest wystawa."
       },
       {
-        "es_form": "Tienes [el exposición::wystawa] muy fuerte.",
-        "pl_translation": "Masz bardzo silny"
+        "es_form": "[La exposición::wystawa] está aquí.",
+        "pl_translation": "Wystawa jest tutaj."
       },
       {
-        "es_form": "Me duele [el exposición::wystawa].",
-        "pl_translation": "Boli mnie wystawa."
+        "es_form": "No es [la exposición::wystawa].",
+        "pl_translation": "To nie jest wystawa."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "koncert",
     "examples": [
       {
-        "es_form": "[El concierto::koncert] está sobre la mesa.",
-        "pl_translation": "Koncert jest na stole."
+        "es_form": "No es [el concierto::koncert].",
+        "pl_translation": "To nie jest koncert."
       },
       {
-        "es_form": "[El concierto::koncert] cuesta diez euros.",
-        "pl_translation": "Koncert kosztuje dziesięć euro."
+        "es_form": "¿Dónde está [el concierto::koncert]?",
+        "pl_translation": "Gdzie jest koncert?"
       },
       {
-        "es_form": "[El concierto::koncert] es de madera.",
-        "pl_translation": "Koncert jest z drewna."
+        "es_form": "Este es [el concierto::koncert].",
+        "pl_translation": "To jest koncert."
       }
     ]
   },
@@ -81,35 +81,35 @@
     "pl_word": "scena",
     "examples": [
       {
-        "es_form": "¿Has visto [el escenario::scena]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Este es [el escenario::scena].",
+        "pl_translation": "To jest scena."
       },
       {
-        "es_form": "Necesito [el escenario::scena] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "¿Dónde está [el escenario::scena]?",
+        "pl_translation": "Gdzie jest scena?"
       },
       {
-        "es_form": "Compré [el escenario::scena] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "[El escenario::scena] está aquí.",
+        "pl_translation": "Scena jest tutaj."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El actuación",
+    "es_word": "La actuación",
     "pl_word": "występ",
     "examples": [
       {
-        "es_form": "[El actuación::występ] está sobre la mesa.",
-        "pl_translation": "Występ jest na stole."
+        "es_form": "Esta es [la actuación::występ].",
+        "pl_translation": "To jest występ."
       },
       {
-        "es_form": "Necesito [el actuación::występ] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "¿Dónde está [la actuación::występ]?",
+        "pl_translation": "Gdzie jest występ?"
       },
       {
-        "es_form": "Compré [el actuación::występ] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "[La actuación::występ] está aquí.",
+        "pl_translation": "Występ jest tutaj."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "aktor",
     "examples": [
       {
-        "es_form": "Conozco a [el actor::aktor].",
-        "pl_translation": "Znam aktor."
+        "es_form": "Este es [el actor::aktor].",
+        "pl_translation": "To jest aktor."
       },
       {
         "es_form": "[El actor::aktor] es muy amable.",
-        "pl_translation": "Aktor jest bardzo miły"
+        "pl_translation": "Aktor jest bardzo miły."
       },
       {
         "es_form": "Esta es [el actor::aktor] de la que hablé.",
-        "pl_translation": "To jest aktor, o której mówiłem"
+        "pl_translation": "To jest aktor, o której mówiłem."
       }
     ]
   },
@@ -139,7 +139,7 @@
     "examples": [
       {
         "es_form": "Esta es [el director::reżyser] de la que hablé.",
-        "pl_translation": "To jest reżyser, o której mówiłem"
+        "pl_translation": "To jest reżyser, o której mówiłem."
       },
       {
         "es_form": "[El director::reżyser] vive en mi calle.",
@@ -147,7 +147,7 @@
       },
       {
         "es_form": "[El director::reżyser] es muy amable.",
-        "pl_translation": "Reżyser jest bardzo miły"
+        "pl_translation": "Reżyser jest bardzo miły."
       }
     ]
   },
@@ -157,8 +157,8 @@
     "pl_word": "galeria",
     "examples": [
       {
-        "es_form": "Trabajo en [la galería::galeria].",
-        "pl_translation": "Pracuję w galeria."
+        "es_form": "Esta es [la galería::galeria].",
+        "pl_translation": "To jest galeria."
       },
       {
         "es_form": "[La galería::galeria] abre a las ocho.",
@@ -176,16 +176,16 @@
     "pl_word": "bilet (wstępu)",
     "examples": [
       {
-        "es_form": "[La entrada::bilet (wstępu)] cuesta diez euros.",
-        "pl_translation": "Bilet kosztuje dziesięć euro."
+        "es_form": "No es [la entrada::bilet].",
+        "pl_translation": "To nie jest bilet."
       },
       {
-        "es_form": "Compré [la entrada::bilet (wstępu)] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Esta es [la entrada::bilet].",
+        "pl_translation": "To jest bilet."
       },
       {
-        "es_form": "[La entrada::bilet (wstępu)] es de madera.",
-        "pl_translation": "Bilet jest z drewna."
+        "es_form": "¿Dónde está [la entrada::bilet]?",
+        "pl_translation": "Gdzie jest bilet?"
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "artystyczny",
     "examples": [
       {
-        "es_form": "El examen fue [artístico::artystyczny].",
-        "pl_translation": "Egzamin był artystyczny."
+        "es_form": "Es muy [artístico::artystyczny].",
+        "pl_translation": "Jest bardzo artystyczny."
       },
       {
-        "es_form": "Es un lugar [artístico::artystyczny] para vivir.",
-        "pl_translation": "To jest artystyczny miejsce do życia."
+        "es_form": "No es [artístico::artystyczny].",
+        "pl_translation": "Nie jest artystyczny."
       },
       {
-        "es_form": "Este coche es [artístico::artystyczny].",
-        "pl_translation": "Ten samochód jest artystyczny."
+        "es_form": "Es demasiado [artístico::artystyczny].",
+        "pl_translation": "Jest zbyt artystyczny."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "kulturalny",
     "examples": [
       {
-        "es_form": "Tengo una casa [cultural::kulturalny].",
-        "pl_translation": "Mam kulturalny dom."
+        "es_form": "Es muy [cultural::kulturalny].",
+        "pl_translation": "Jest bardzo kulturalny."
       },
       {
-        "es_form": "La comida está [cultural::kulturalny].",
-        "pl_translation": "Jedzenie jest kulturalny."
+        "es_form": "No es [cultural::kulturalny].",
+        "pl_translation": "Nie jest kulturalny."
       },
       {
-        "es_form": "Hace un día [cultural::kulturalny].",
-        "pl_translation": "Jest kulturalny dzień."
+        "es_form": "Parece [cultural::kulturalny].",
+        "pl_translation": "Wydaje się kulturalny."
       }
     ]
   },

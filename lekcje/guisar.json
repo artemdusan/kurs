@@ -5,12 +5,12 @@
     "pl_word": "rosół, bulion",
     "examples": [
       {
-        "es_form": "[El caldo::rosół] está muy rico.",
-        "pl_translation": "Rosół jest bardzo smaczny."
+        "es_form": "Este es [el caldo::rosół].",
+        "pl_translation": "To jest rosół."
       },
       {
-        "es_form": "Me gusta mucho [el caldo::rosół].",
-        "pl_translation": "Bardzo lubię rosół."
+        "es_form": "¿Dónde está [el caldo::rosół]?",
+        "pl_translation": "Gdzie jest rosół?"
       },
       {
         "es_form": "Compramos [el caldo::bulion] en el mercado.",
@@ -24,12 +24,12 @@
     "pl_word": "kotlet",
     "examples": [
       {
-        "es_form": "Compramos [la chuleta::kotlet] en el mercado.",
-        "pl_translation": "Kupiliśmy kotlet na targu."
+        "es_form": "Esta es [la chuleta::kotlet].",
+        "pl_translation": "To jest kotlet."
       },
       {
-        "es_form": "Me gusta mucho [la chuleta::kotlet].",
-        "pl_translation": "Bardzo lubię kotlet."
+        "es_form": "[La chuleta::kotlet] está aquí.",
+        "pl_translation": "Kotlet jest tutaj."
       },
       {
         "es_form": "[La chuleta::kotlet] es típica de España.",
@@ -43,12 +43,12 @@
     "pl_word": "gulasz, potrawka",
     "examples": [
       {
-        "es_form": "[El estofado::gulasz] está muy rico.",
-        "pl_translation": "Gulasz jest bardzo smaczny."
+        "es_form": "Este es [el estofado::gulasz].",
+        "pl_translation": "To jest gulasz."
       },
       {
-        "es_form": "Preparamos [el estofado::gulasz] la semana pasada.",
-        "pl_translation": "Przygotowaliśmy gulasz w zeszłym tygodniu."
+        "es_form": "¿Dónde está [el estofado::gulasz]?",
+        "pl_translation": "Gdzie jest gulasz?"
       },
       {
         "es_form": "¿Dónde está [el estofado::gulasz]?",
@@ -70,8 +70,8 @@
         "pl_translation": "Empanada jest bardzo smaczna."
       },
       {
-        "es_form": "[La empanada::empanada] está sobre la mesa.",
-        "pl_translation": "Empanada jest na stole."
+        "es_form": "Esta es [la empanada::pieróg].",
+        "pl_translation": "To jest pieróg."
       }
     ]
   },
@@ -81,8 +81,8 @@
     "pl_word": "paella",
     "examples": [
       {
-        "es_form": "¿Quieres [la paella::paellę]?",
-        "pl_translation": "Chcesz paellę?"
+        "es_form": "Esta es [la paella::paella].",
+        "pl_translation": "To jest paella."
       },
       {
         "es_form": "[La paella::paella] es típica de España.",
@@ -119,16 +119,16 @@
     "pl_word": "gazpacho (chłodnik)",
     "examples": [
       {
-        "es_form": "[El gazpacho::gazpacho] está sobre la mesa.",
-        "pl_translation": "Gazpacho jest na stole."
+        "es_form": "Este es [el gazpacho::gazpacho].",
+        "pl_translation": "To jest gazpacho."
       },
       {
         "es_form": "[El gazpacho::gazpacho] está muy fresco.",
         "pl_translation": "Gazpacho jest bardzo orzeźwiające."
       },
       {
-        "es_form": "[El gazpacho::gazpacho] cuesta diez euros.",
-        "pl_translation": "Gazpacho kosztuje dziesięć euro."
+        "es_form": "No es [el gazpacho::gazpacho].",
+        "pl_translation": "To nie jest gazpacho."
       }
     ]
   },
@@ -142,12 +142,12 @@
         "pl_translation": "Krokiety są bardzo smaczne."
       },
       {
-        "es_form": "¿Quieres [la croqueta::krokiety]?",
-        "pl_translation": "Chcesz krokiety?"
+        "es_form": "¿Dónde está [la croqueta::krokiety]?",
+        "pl_translation": "Gdzie jest krokiety?"
       },
       {
-        "es_form": "Compramos [la croqueta::krokiety] en el mercado.",
-        "pl_translation": "Kupiliśmy krokiety na targu."
+        "es_form": "[La croqueta::krokiety] está aquí.",
+        "pl_translation": "Krokiety jest tutaj."
       }
     ]
   },
@@ -161,12 +161,12 @@
         "pl_translation": "Potrzebuję nowego kremu karmelowego."
       },
       {
-        "es_form": "[El flan::krem karmelowy] cuesta diez euros.",
-        "pl_translation": "Krem karmelowy kosztuje dziesięć euro."
+        "es_form": "Este es [el flan::krem karmelowy].",
+        "pl_translation": "To jest krem karmelowy."
       },
       {
-        "es_form": "¿Has visto [el flan::krem karmelowy]?",
-        "pl_translation": "Widziałeś krem karmelowy?"
+        "es_form": "¿Dónde está [el flan::krem karmelowy]?",
+        "pl_translation": "Gdzie jest krem karmelowy?"
       }
     ]
   },
@@ -184,8 +184,8 @@
         "pl_translation": "Churros są typowe dla Hiszpanii."
       },
       {
-        "es_form": "Compré [los churros::churros] ayer.",
-        "pl_translation": "Kupiłem churros wczoraj."
+        "es_form": "¿Dónde está [los churros::churros]?",
+        "pl_translation": "Gdzie jest churros?"
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "domowy",
     "examples": [
       {
-        "es_form": "Este plato es [casero::domowy].",
-        "pl_translation": "To danie jest domowe."
+        "es_form": "No es [casero::domowy].",
+        "pl_translation": "Nie jest domowy."
       },
       {
-        "es_form": "Prefiero la comida [casera::domową].",
-        "pl_translation": "Wolę domowe jedzenie."
+        "es_form": "Parece [casero::domowy].",
+        "pl_translation": "Wydaje się domowy."
       },
       {
-        "es_form": "Mi madre cocina de forma [casera::domowa].",
-        "pl_translation": "Moja mama gotuje po domowemu."
+        "es_form": "Es demasiado [casero::domowy].",
+        "pl_translation": "Jest zbyt domowy."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "tradycyjny",
     "examples": [
       {
-        "es_form": "La comida está [tradicional::tradycyjna].",
-        "pl_translation": "Jedzenie jest tradycyjne."
+        "es_form": "Es muy [tradicional::tradycyjny].",
+        "pl_translation": "Jest bardzo tradycyjny."
       },
       {
-        "es_form": "El plato es [tradicional::tradycyjny].",
-        "pl_translation": "Danie jest tradycyjne."
+        "es_form": "No es [tradicional::tradycyjny].",
+        "pl_translation": "Nie jest tradycyjny."
       },
       {
-        "es_form": "Es una receta [tradicional::tradycyjna].",
-        "pl_translation": "To jest tradycyjny przepis."
+        "es_form": "Es demasiado [tradicional::tradycyjny].",
+        "pl_translation": "Jest zbyt tradycyjny."
       }
     ]
   },

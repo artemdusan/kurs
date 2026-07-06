@@ -5,12 +5,12 @@
     "pl_word": "uniwersytet",
     "examples": [
       {
-        "es_form": "Visitamos [la universidad::uniwersytet] la semana pasada.",
-        "pl_translation": "Odwiedziliśmy uniwersytet w zeszłym tygodniu."
+        "es_form": "Esta es [la universidad::uniwersytet].",
+        "pl_translation": "To jest uniwersytet."
       },
       {
         "es_form": "[La universidad::uniwersytet] es muy grande.",
-        "pl_translation": "Uniwersytet jest bardzo duży"
+        "pl_translation": "Uniwersytet jest bardzo duży."
       },
       {
         "es_form": "[La universidad::uniwersytet] está cerca de aquí.",
@@ -25,15 +25,15 @@
     "examples": [
       {
         "es_form": "[El estudiante::student] es muy amable.",
-        "pl_translation": "Student jest bardzo miły"
+        "pl_translation": "Student jest bardzo miły."
       },
       {
         "es_form": "Mi [hermano::brat] es [el estudiante::student].",
         "pl_translation": "Mój brat jest student."
       },
       {
-        "es_form": "Conozco a [el estudiante::student].",
-        "pl_translation": "Znam student."
+        "es_form": "Este es [el estudiante::student].",
+        "pl_translation": "To jest student."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "egzamin",
     "examples": [
       {
-        "es_form": "[El examen::egzamin] es de madera.",
-        "pl_translation": "Egzamin jest z drewna."
+        "es_form": "Este es [el examen::egzamin].",
+        "pl_translation": "To jest egzamin."
       },
       {
-        "es_form": "Compré [el examen::egzamin] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "[El examen::egzamin] está aquí.",
+        "pl_translation": "Egzamin jest tutaj."
       },
       {
-        "es_form": "[El examen::egzamin] está sobre la mesa.",
-        "pl_translation": "Egzamin jest na stole."
+        "es_form": "No es [el examen::egzamin].",
+        "pl_translation": "To nie jest egzamin."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "ocena",
     "examples": [
       {
-        "es_form": "[La nota::ocena] es de madera.",
-        "pl_translation": "Ocena jest z drewna."
+        "es_form": "Esta es [la nota::ocena].",
+        "pl_translation": "To jest ocena."
       },
       {
-        "es_form": "¿Has visto [la nota::ocena]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "¿Dónde está [la nota::ocena]?",
+        "pl_translation": "Gdzie jest ocena?"
       },
       {
-        "es_form": "Guarda [la nota::ocena] en el armario.",
-        "pl_translation": "Schowaj ocena do szafy."
+        "es_form": "[La nota::ocena] está aquí.",
+        "pl_translation": "Ocena jest tutaj."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "przerwa",
     "examples": [
       {
-        "es_form": "[El descanso::przerwa] cuesta diez euros.",
-        "pl_translation": "Przerwa kosztuje dziesięć euro."
+        "es_form": "Este es [el descanso::przerwa].",
+        "pl_translation": "To jest przerwa."
       },
       {
-        "es_form": "¿Has visto [el descanso::przerwa]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "¿Dónde está [el descanso::przerwa]?",
+        "pl_translation": "Gdzie jest przerwa?"
       },
       {
-        "es_form": "Se me rompio [el descanso::przerwa].",
-        "pl_translation": "Zepsuł mi się przerwa."
+        "es_form": "[El descanso::przerwa] está aquí.",
+        "pl_translation": "Przerwa jest tutaj."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "zadanie",
     "examples": [
       {
-        "es_form": "¿Quieres [la tarea::zadanie]?",
-        "pl_translation": "Chcesz zadanie?"
+        "es_form": "Esta es [la tarea::zadanie].",
+        "pl_translation": "To jest zadanie."
       },
       {
-        "es_form": "[La tarea::zadanie] es típico de España.",
-        "pl_translation": "Zadanie jest typowy"
+        "es_form": "No es [la tarea::zadanie].",
+        "pl_translation": "To nie jest zadanie."
       },
       {
-        "es_form": "Me gusta mucho [la tarea::zadanie].",
-        "pl_translation": "Bardzo lubię zadanie."
+        "es_form": "Hablamos sobre [la tarea::zadanie].",
+        "pl_translation": "Rozmawiamy o tym, czym jest zadanie."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "błąd",
     "examples": [
       {
-        "es_form": "[El error::błąd] está sobre la mesa.",
-        "pl_translation": "Błąd jest na stole."
+        "es_form": "No es [el error::błąd].",
+        "pl_translation": "To nie jest błąd."
       },
       {
-        "es_form": "[El error::błąd] cuesta diez euros.",
-        "pl_translation": "Błąd kosztuje dziesięć euro."
+        "es_form": "¿Dónde está [el error::błąd]?",
+        "pl_translation": "Gdzie jest błąd?"
       },
       {
-        "es_form": "Se me rompio [el error::błąd].",
-        "pl_translation": "Zepsuł mi się błąd."
+        "es_form": "Este es [el error::błąd].",
+        "pl_translation": "To jest błąd."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "gumka",
     "examples": [
       {
-        "es_form": "Compré [la goma::gumka] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Esta es [la goma::gumka].",
+        "pl_translation": "To jest gumka."
       },
       {
-        "es_form": "[La goma::gumka] es de madera.",
-        "pl_translation": "Gumka jest z drewna."
+        "es_form": "¿Dónde está [la goma::gumka]?",
+        "pl_translation": "Gdzie jest gumka?"
       },
       {
-        "es_form": "[La goma::gumka] está sobre la mesa.",
-        "pl_translation": "Gumka jest na stole."
+        "es_form": "No es [la goma::gumka].",
+        "pl_translation": "To nie jest gumka."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "linijka",
     "examples": [
       {
-        "es_form": "Necesito [la regla::linijka] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "¿Dónde está [la regla::linijka]?",
+        "pl_translation": "Gdzie jest linijka?"
       },
       {
-        "es_form": "Se me rompio [la regla::linijka].",
-        "pl_translation": "Zepsuł mi się linijka."
+        "es_form": "[La regla::linijka] está aquí.",
+        "pl_translation": "Linijka jest tutaj."
       },
       {
-        "es_form": "[La regla::linijka] es de madera.",
-        "pl_translation": "Linijka jest z drewna."
+        "es_form": "No es [la regla::linijka].",
+        "pl_translation": "To nie jest linijka."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "słownik",
     "examples": [
       {
-        "es_form": "¿Has visto [el diccionario::słownik]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Este es [el diccionario::słownik].",
+        "pl_translation": "To jest słownik."
       },
       {
-        "es_form": "[El diccionario::słownik] es de madera.",
-        "pl_translation": "Słownik jest z drewna."
+        "es_form": "¿Dónde está [el diccionario::słownik]?",
+        "pl_translation": "Gdzie jest słownik?"
       },
       {
-        "es_form": "[El diccionario::słownik] cuesta diez euros.",
-        "pl_translation": "Słownik kosztuje dziesięć euro."
+        "es_form": "No es [el diccionario::słownik].",
+        "pl_translation": "To nie jest słownik."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "łatwy",
     "examples": [
       {
-        "es_form": "Se compro un vestido [fácil::łatwy].",
-        "pl_translation": "Kupiła sobie łatwy sukienkę."
+        "es_form": "No es [fácil::łatwy].",
+        "pl_translation": "Nie jest łatwy."
       },
       {
-        "es_form": "Mi amigo es [fácil::łatwy] y simpático.",
-        "pl_translation": "Mój przyjaciel jest łatwy i sympatyczny."
+        "es_form": "Parece [fácil::łatwy].",
+        "pl_translation": "Wydaje się łatwy."
       },
       {
-        "es_form": "Es una persona muy [fácil::łatwy].",
-        "pl_translation": "To jest bardzo łatwy osoba."
+        "es_form": "Es demasiado [fácil::łatwy].",
+        "pl_translation": "Jest zbyt łatwy."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "pilny, uważny",
     "examples": [
       {
-        "es_form": "Tengo una casa [atenta::pilny, uważny].",
-        "pl_translation": "Mam pilny, uważny dom."
+        "es_form": "No es [atento::pilny].",
+        "pl_translation": "Nie jest pilny."
       },
       {
-        "es_form": "El examen fue [atento::pilny, uważny].",
-        "pl_translation": "Egzamin był pilny, uważny."
+        "es_form": "Parece [atento::pilny].",
+        "pl_translation": "Wydaje się pilny."
       },
       {
-        "es_form": "Nada es más [atento::pilny, uważny] que la familia.",
-        "pl_translation": "Nic nie jest pilny, uważny od rodziny."
+        "es_form": "Es demasiado [atento::pilny].",
+        "pl_translation": "Jest zbyt pilny."
       }
     ]
   },

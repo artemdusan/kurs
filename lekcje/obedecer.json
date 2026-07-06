@@ -5,16 +5,16 @@
     "pl_word": "przepis, norma",
     "examples": [
       {
-        "es_form": "[La norma::przepis, norma] está muy rico.",
-        "pl_translation": "Przepis, norma jest bardzo smaczny"
+        "es_form": "Esta es [la norma::przepis].",
+        "pl_translation": "To jest przepis."
       },
       {
-        "es_form": "¿Quieres [la norma::przepis, norma]?",
-        "pl_translation": "Chcesz przepis, norma?"
+        "es_form": "¿Dónde está [la norma::przepis]?",
+        "pl_translation": "Gdzie jest przepis?"
       },
       {
-        "es_form": "[La norma::przepis, norma] se hace con leche.",
-        "pl_translation": "Przepis, norma robi się z mleka."
+        "es_form": "No es [la norma::przepis].",
+        "pl_translation": "To nie jest przepis."
       }
     ]
   },
@@ -24,35 +24,35 @@
     "pl_word": "zasada",
     "examples": [
       {
-        "es_form": "Necesito [la regla::zasada] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "¿Dónde está [la regla::zasada]?",
+        "pl_translation": "Gdzie jest zasada?"
       },
       {
-        "es_form": "[La regla::zasada] es de madera.",
-        "pl_translation": "Zasada jest z drewna."
+        "es_form": "[La regla::zasada] está aquí.",
+        "pl_translation": "Zasada jest tutaj."
       },
       {
-        "es_form": "Guarda [la regla::zasada] en el armario.",
-        "pl_translation": "Schowaj zasada do szafy."
+        "es_form": "No es [la regla::zasada].",
+        "pl_translation": "To nie jest zasada."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El prohibición",
+    "es_word": "La prohibición",
     "pl_word": "zakaz",
     "examples": [
       {
-        "es_form": "Necesito [el prohibición::zakaz] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "Esta es [la prohibición::zakaz].",
+        "pl_translation": "To jest zakaz."
       },
       {
-        "es_form": "Guarda [el prohibición::zakaz] en el armario.",
-        "pl_translation": "Schowaj zakaz do szafy."
+        "es_form": "[La prohibición::zakaz] está aquí.",
+        "pl_translation": "Zakaz jest tutaj."
       },
       {
-        "es_form": "¿Has visto [el prohibición::zakaz]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "No es [la prohibición::zakaz].",
+        "pl_translation": "To nie jest zakaz."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "nakaz, rozkaz",
     "examples": [
       {
-        "es_form": "[El orden::nakaz, rozkaz] está sobre la mesa.",
-        "pl_translation": "Nakaz, rozkaz jest na stole."
+        "es_form": "No es [el orden::nakaz].",
+        "pl_translation": "To nie jest nakaz."
       },
       {
-        "es_form": "Necesito [el orden::nakaz, rozkaz] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "Este es [el orden::nakaz].",
+        "pl_translation": "To jest nakaz."
       },
       {
-        "es_form": "Compré [el orden::nakaz, rozkaz] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "¿Dónde está [el orden::nakaz]?",
+        "pl_translation": "Gdzie jest nakaz?"
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "mandat, grzywna",
     "examples": [
       {
-        "es_form": "Compré [la multa::mandat, grzywna] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Esta es [la multa::mandat].",
+        "pl_translation": "To jest mandat."
       },
       {
-        "es_form": "Se me rompio [la multa::mandat, grzywna].",
-        "pl_translation": "Zepsuł mi się mandat, grzywna."
+        "es_form": "¿Dónde está [la multa::mandat]?",
+        "pl_translation": "Gdzie jest mandat?"
       },
       {
-        "es_form": "[La multa::mandat, grzywna] está sobre la mesa.",
-        "pl_translation": "Mandat, grzywna jest na stole."
+        "es_form": "No es [la multa::mandat].",
+        "pl_translation": "To nie jest mandat."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "kara",
     "examples": [
       {
-        "es_form": "Guarda [el castigo::kara] en el armario.",
-        "pl_translation": "Schowaj kara do szafy."
+        "es_form": "Este es [el castigo::kara].",
+        "pl_translation": "To jest kara."
       },
       {
-        "es_form": "[El castigo::kara] está sobre la mesa.",
-        "pl_translation": "Kara jest na stole."
+        "es_form": "No es [el castigo::kara].",
+        "pl_translation": "To nie jest kara."
       },
       {
-        "es_form": "Compré [el castigo::kara] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "¿Dónde está [el castigo::kara]?",
+        "pl_translation": "Gdzie jest kara?"
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "sąd",
     "examples": [
       {
-        "es_form": "Guarda [el tribunal::sąd] en el armario.",
-        "pl_translation": "Schowaj sąd do szafy."
+        "es_form": "Este es [el tribunal::sąd].",
+        "pl_translation": "To jest sąd."
       },
       {
-        "es_form": "¿Has visto [el tribunal::sąd]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "¿Dónde está [el tribunal::sąd]?",
+        "pl_translation": "Gdzie jest sąd?"
       },
       {
-        "es_form": "[El tribunal::sąd] cuesta diez euros.",
-        "pl_translation": "Sąd kosztuje dziesięć euro."
+        "es_form": "No es [el tribunal::sąd].",
+        "pl_translation": "To nie jest sąd."
       }
     ]
   },
@@ -138,12 +138,12 @@
     "pl_word": "sędzia",
     "examples": [
       {
-        "es_form": "[La juez::sędzia] es muy amable.",
-        "pl_translation": "Sędzia jest bardzo miły"
+        "es_form": "¿Dónde está [la juez::sędzia]?",
+        "pl_translation": "Gdzie jest sędzia?"
       },
       {
-        "es_form": "Hablé con [la juez::sędzia] ayer.",
-        "pl_translation": "Rozmawiałem"
+        "es_form": "[La juez::sędzia] está aquí.",
+        "pl_translation": "Sędzia jest tutaj."
       },
       {
         "es_form": "[La juez::sędzia] vive en mi calle.",
@@ -158,7 +158,7 @@
     "examples": [
       {
         "es_form": "[El abogado::adwokat] es muy amable.",
-        "pl_translation": "Adwokat jest bardzo miły"
+        "pl_translation": "Adwokat jest bardzo miły."
       },
       {
         "es_form": "[El abogado::adwokat] trabaja aquí.",
@@ -166,7 +166,7 @@
       },
       {
         "es_form": "Esta es [el abogado::adwokat] de la que hablé.",
-        "pl_translation": "To jest adwokat, o której mówiłem"
+        "pl_translation": "To jest adwokat, o której mówiłem."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "pozew",
     "examples": [
       {
-        "es_form": "Necesito [la demanda::pozew] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "Esta es [la demanda::pozew].",
+        "pl_translation": "To jest pozew."
       },
       {
-        "es_form": "[La demanda::pozew] es de madera.",
-        "pl_translation": "Pozew jest z drewna."
+        "es_form": "[La demanda::pozew] está aquí.",
+        "pl_translation": "Pozew jest tutaj."
       },
       {
-        "es_form": "Se me rompio [la demanda::pozew].",
-        "pl_translation": "Zepsuł mi się pozew."
+        "es_form": "No es [la demanda::pozew].",
+        "pl_translation": "To nie jest pozew."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "legalny",
     "examples": [
       {
-        "es_form": "La comida está [legal::legalny].",
-        "pl_translation": "Jedzenie jest legalny."
+        "es_form": "Es muy [legal::legalny].",
+        "pl_translation": "Jest bardzo legalny."
       },
       {
-        "es_form": "Mi amigo es [legal::legalny] y simpático.",
-        "pl_translation": "Mój przyjaciel jest legalny i sympatyczny."
+        "es_form": "No es [legal::legalny].",
+        "pl_translation": "Nie jest legalny."
       },
       {
-        "es_form": "Tengo una casa [legal::legalny].",
-        "pl_translation": "Mam legalny dom."
+        "es_form": "Es demasiado [legal::legalny].",
+        "pl_translation": "Jest zbyt legalny."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "zabroniony",
     "examples": [
       {
-        "es_form": "Este coche es [prohibido::zabroniony].",
-        "pl_translation": "Ten samochód jest zabroniony."
+        "es_form": "Es muy [prohibido::zabroniony].",
+        "pl_translation": "Jest bardzo zabroniony."
       },
       {
-        "es_form": "Es una persona muy [prohibido::zabroniony].",
-        "pl_translation": "To jest bardzo zabroniony osoba."
+        "es_form": "Parece [prohibido::zabroniony].",
+        "pl_translation": "Wydaje się zabroniony."
       },
       {
-        "es_form": "Mi amigo es [prohibido::zabroniony] y simpático.",
-        "pl_translation": "Mój przyjaciel jest zabroniony i sympatyczny."
+        "es_form": "Es demasiado [prohibido::zabroniony].",
+        "pl_translation": "Jest zbyt zabroniony."
       }
     ]
   },

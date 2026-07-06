@@ -9,8 +9,8 @@
         "pl_translation": "Sukces jest bardzo ważny."
       },
       {
-        "es_form": "[El éxito::sukces] es la clave del éxito.",
-        "pl_translation": "Sukces jest kluczem do sukcesu."
+        "es_form": "Este es [el éxito::sukces].",
+        "pl_translation": "To jest sukces."
       },
       {
         "es_form": "Hablamos sobre [el éxito::sukces].",
@@ -32,8 +32,8 @@
         "pl_translation": "Nie mam wystarczająco porażek."
       },
       {
-        "es_form": "Esperé [el fracaso::porażka] entero.",
-        "pl_translation": "Czekałem"
+        "es_form": "¿Dónde está [el fracaso::porażka]?",
+        "pl_translation": "Gdzie jest porażka?"
       }
     ]
   },
@@ -47,8 +47,8 @@
         "pl_translation": "Wysiłek zmienił moje życie."
       },
       {
-        "es_form": "[El esfuerzo::wysiłek] es la clave del éxito.",
-        "pl_translation": "Wysiłek jest kluczem do sukcesu."
+        "es_form": "Este es [el esfuerzo::wysiłek].",
+        "pl_translation": "To jest wysiłek."
       },
       {
         "es_form": "No entiendo [el esfuerzo::wysiłek].",
@@ -62,16 +62,16 @@
     "pl_word": "determinacja",
     "examples": [
       {
-        "es_form": "Admiro [la determinación::determinacja].",
-        "pl_translation": "Podziwiam determinację."
+        "es_form": "Esta es [la determinación::determinacja].",
+        "pl_translation": "To jest determinacja."
       },
       {
         "es_form": "[La determinación::determinacja] es clave.",
         "pl_translation": "Determinacja jest kluczowa."
       },
       {
-        "es_form": "Mostró [la determinación::determinacja] necesaria.",
-        "pl_translation": "Pokazał"
+        "es_form": "No es [la determinación::determinacja].",
+        "pl_translation": "To nie jest determinacja."
       }
     ]
   },
@@ -89,8 +89,8 @@
         "pl_translation": "Postęp zmienił moje życie."
       },
       {
-        "es_form": "Tienes que aceptar [el progreso::postęp].",
-        "pl_translation": "Musisz zaakceptować postęp."
+        "es_form": "¿Dónde está [el progreso::postęp]?",
+        "pl_translation": "Gdzie jest postęp?"
       }
     ]
   },
@@ -100,8 +100,8 @@
     "pl_word": "marzenie",
     "examples": [
       {
-        "es_form": "[El sueño::marzenie] es la clave del éxito.",
-        "pl_translation": "Marzenie jest kluczem do sukcesu."
+        "es_form": "Este es [el sueño::marzenie].",
+        "pl_translation": "To jest marzenie."
       },
       {
         "es_form": "No entiendo [el sueño::marzenie].",
@@ -119,8 +119,8 @@
     "pl_word": "sens",
     "examples": [
       {
-        "es_form": "[El sentido::sens] es la clave del éxito.",
-        "pl_translation": "Sens jest kluczem do sukcesu."
+        "es_form": "Este es [el sentido::sens].",
+        "pl_translation": "To jest sens."
       },
       {
         "es_form": "[El sentido::sens] es muy importante.",
@@ -157,8 +157,8 @@
     "pl_word": "prawda",
     "examples": [
       {
-        "es_form": "[La verdad::prawda] es la clave del éxito.",
-        "pl_translation": "Prawda jest kluczem do sukcesu."
+        "es_form": "Esta es [la verdad::prawda].",
+        "pl_translation": "To jest prawda."
       },
       {
         "es_form": "[La verdad::prawda] es muy importante.",
@@ -184,8 +184,8 @@
         "pl_translation": "Nie rozumiem kłamstwa."
       },
       {
-        "es_form": "Tienes que aceptar [la mentira::kłamstwo].",
-        "pl_translation": "Musisz zaakceptować kłamstwo."
+        "es_form": "Esta es [la mentira::kłamstwo].",
+        "pl_translation": "To jest kłamstwo."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "prawdziwy",
     "examples": [
       {
-        "es_form": "Es una persona muy [verdadera::prawdziwa].",
-        "pl_translation": "To jest bardzo prawdziwa osoba."
+        "es_form": "Es muy [verdadero::prawdziwy].",
+        "pl_translation": "Jest bardzo prawdziwy."
       },
       {
-        "es_form": "Este coche es [verdadero::prawdziwy].",
-        "pl_translation": "Ten samochód jest prawdziwy."
+        "es_form": "No es [verdadero::prawdziwy].",
+        "pl_translation": "Nie jest prawdziwy."
       },
       {
-        "es_form": "Es un hecho [verdadero::prawdziwy].",
-        "pl_translation": "To jest prawdziwy fakt."
+        "es_form": "Parece [verdadero::prawdziwy].",
+        "pl_translation": "Wydaje się prawdziwy."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "fałszywy",
     "examples": [
       {
-        "es_form": "Se compró un vestido [falso::fałszywy].",
-        "pl_translation": "Kupiła sobie fałszywą sukienkę."
+        "es_form": "Es muy [falso::fałszywy].",
+        "pl_translation": "Jest bardzo fałszywy."
       },
       {
-        "es_form": "Nada es más [falso::fałszywe] que la mentira.",
-        "pl_translation": "Nic nie jest bardziej fałszywe niż kłamstwo."
+        "es_form": "No es [falso::fałszywy].",
+        "pl_translation": "Nie jest fałszywy."
       },
       {
-        "es_form": "Es una persona muy [falsa::fałszywa].",
-        "pl_translation": "To jest bardzo fałszywa osoba."
+        "es_form": "Es demasiado [falso::fałszywy].",
+        "pl_translation": "Jest zbyt fałszywy."
       }
     ]
   },

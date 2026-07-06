@@ -1,15 +1,15 @@
 import React from 'react';
-import { ARTICLE_BUTTONS, keyboardRows } from '../engine/keyboard.js';
+import { keyboardRows } from '../engine/keyboard.js';
 
 // Mini klawiatura ekranowa — układ jak fizyczna klawiatura (rzędy, stała
 // kolejność QWERTY, duże klawisze), użytkownik nie potrzebuje systemowej.
-export default function Keyboard({ layout, isNoun, article, onArticle, onKey, onBackspace, disabled }) {
+export default function Keyboard({ layout, isNoun, articles = [], article, onArticle, onKey, onBackspace, disabled }) {
   const rows = keyboardRows(layout.letters);
   return (
     <div className="kbd">
       {isNoun && (
         <div className="kbd-row kbd-articles">
-          {ARTICLE_BUTTONS.map((a) => (
+          {articles.map((a) => (
             <button
               key={a}
               className={'kbd-key kbd-article' + (article === a ? ' active' : '')}

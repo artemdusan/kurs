@@ -5,16 +5,16 @@
     "pl_word": "samochód",
     "examples": [
       {
-        "es_form": "[El coche::samochód] es de madera.",
-        "pl_translation": "Samochód jest z drewna."
+        "es_form": "Este es [el coche::samochód].",
+        "pl_translation": "To jest samochód."
       },
       {
-        "es_form": "Compré [el coche::samochód] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "¿Dónde está [el coche::samochód]?",
+        "pl_translation": "Gdzie jest samochód?"
       },
       {
-        "es_form": "Se me rompio [el coche::samochód].",
-        "pl_translation": "Zepsuł mi się samochód."
+        "es_form": "[El coche::samochód] está aquí.",
+        "pl_translation": "Samochód jest tutaj."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "autobus",
     "examples": [
       {
-        "es_form": "[El autobús::autobus] es de madera.",
-        "pl_translation": "Autobus jest z drewna."
+        "es_form": "Este es [el autobús::autobus].",
+        "pl_translation": "To jest autobus."
       },
       {
-        "es_form": "[El autobús::autobus] está sobre la mesa.",
-        "pl_translation": "Autobus jest na stole."
+        "es_form": "No es [el autobús::autobus].",
+        "pl_translation": "To nie jest autobus."
       },
       {
-        "es_form": "Compré [el autobús::autobus] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "[El autobús::autobus] está aquí.",
+        "pl_translation": "Autobus jest tutaj."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "pociąg",
     "examples": [
       {
-        "es_form": "Necesito [el tren::pociąg] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "Este es [el tren::pociąg].",
+        "pl_translation": "To jest pociąg."
       },
       {
-        "es_form": "Guarda [el tren::pociąg] en el armario.",
-        "pl_translation": "Schowaj pociąg do szafy."
+        "es_form": "¿Dónde está [el tren::pociąg]?",
+        "pl_translation": "Gdzie jest pociąg?"
       },
       {
-        "es_form": "Se me rompio [el tren::pociąg].",
-        "pl_translation": "Zepsuł mi się pociąg."
+        "es_form": "[El tren::pociąg] está aquí.",
+        "pl_translation": "Pociąg jest tutaj."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "samolot",
     "examples": [
       {
-        "es_form": "Guarda [el avión::samolot] en el armario.",
-        "pl_translation": "Schowaj samolot do szafy."
+        "es_form": "Este es [el avión::samolot].",
+        "pl_translation": "To jest samolot."
       },
       {
-        "es_form": "Necesito [el avión::samolot] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "¿Dónde está [el avión::samolot]?",
+        "pl_translation": "Gdzie jest samolot?"
       },
       {
-        "es_form": "[El avión::samolot] es de madera.",
-        "pl_translation": "Samolot jest z drewna."
+        "es_form": "No es [el avión::samolot].",
+        "pl_translation": "To nie jest samolot."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "rower",
     "examples": [
       {
-        "es_form": "[La bicicleta::rower] está sobre la mesa.",
-        "pl_translation": "Rower jest na stole."
+        "es_form": "No es [la bicicleta::rower].",
+        "pl_translation": "To nie jest rower."
       },
       {
-        "es_form": "Compré [la bicicleta::rower] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Esta es [la bicicleta::rower].",
+        "pl_translation": "To jest rower."
       },
       {
-        "es_form": "[La bicicleta::rower] es de madera.",
-        "pl_translation": "Rower jest z drewna."
+        "es_form": "¿Dónde está [la bicicleta::rower]?",
+        "pl_translation": "Gdzie jest rower?"
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "bilet",
     "examples": [
       {
-        "es_form": "[El billete::bilet] está sobre la mesa.",
-        "pl_translation": "Bilet jest na stole."
+        "es_form": "No es [el billete::bilet].",
+        "pl_translation": "To nie jest bilet."
       },
       {
-        "es_form": "[El billete::bilet] cuesta diez euros.",
-        "pl_translation": "Bilet kosztuje dziesięć euro."
+        "es_form": "¿Dónde está [el billete::bilet]?",
+        "pl_translation": "Gdzie jest bilet?"
       },
       {
-        "es_form": "Guarda [el billete::bilet] en el armario.",
-        "pl_translation": "Schowaj bilet do szafy."
+        "es_form": "Este es [el billete::bilet].",
+        "pl_translation": "To jest bilet."
       }
     ]
   },
@@ -123,8 +123,8 @@
         "pl_translation": "Przystanek otwiera się o ósmej."
       },
       {
-        "es_form": "Visitamos [la parada::przystanek] la semana pasada.",
-        "pl_translation": "Odwiedziliśmy przystanek w zeszłym tygodniu."
+        "es_form": "Esta es [la parada::przystanek].",
+        "pl_translation": "To jest przystanek."
       },
       {
         "es_form": "¿Donde está [la parada::przystanek]?",
@@ -134,20 +134,20 @@
   },
   {
     "type": "noun",
-    "es_word": "El estación",
+    "es_word": "La estación",
     "pl_word": "dworzec, stacja",
     "examples": [
       {
-        "es_form": "Trabajo en [el estación::dworzec, stacja].",
-        "pl_translation": "Pracuję w dworzec, stacja."
+        "es_form": "Esta es [la estación::dworzec].",
+        "pl_translation": "To jest dworzec."
       },
       {
-        "es_form": "¿Donde está [el estación::dworzec, stacja]?",
-        "pl_translation": "Gdzie jest dworzec, stacja?"
+        "es_form": "¿Dónde está [la estación::dworzec]?",
+        "pl_translation": "Gdzie jest dworzec?"
       },
       {
-        "es_form": "Visitamos [el estación::dworzec, stacja] la semana pasada.",
-        "pl_translation": "Odwiedziliśmy dworzec, stacja w zeszłym tygodniu."
+        "es_form": "No es [la estación::dworzec].",
+        "pl_translation": "To nie jest dworzec."
       }
     ]
   },
@@ -161,12 +161,12 @@
         "pl_translation": "Lotnisko jest niedaleko stąd."
       },
       {
-        "es_form": "Voy a [el aeropuerto::lotnisko] cada día.",
-        "pl_translation": "Chodzę do lotnisko codziennie."
+        "es_form": "¿Dónde está [el aeropuerto::lotnisko]?",
+        "pl_translation": "Gdzie jest lotnisko?"
       },
       {
-        "es_form": "[El aeropuerto::lotnisko] es muy grande.",
-        "pl_translation": "Lotnisko jest bardzo duży"
+        "es_form": "[El aeropuerto::lotnisko] está aquí.",
+        "pl_translation": "Lotnisko jest tutaj."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "droga, szosa",
     "examples": [
       {
-        "es_form": "¿Has visto [la carretera::droga, szosa]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "¿Dónde está [la carretera::droga]?",
+        "pl_translation": "Gdzie jest droga?"
       },
       {
-        "es_form": "Se me rompio [la carretera::droga, szosa].",
-        "pl_translation": "Zepsuł mi się droga, szosa."
+        "es_form": "[La carretera::droga] está aquí.",
+        "pl_translation": "Droga jest tutaj."
       },
       {
-        "es_form": "Compré [la carretera::droga, szosa] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "No es [la carretera::droga].",
+        "pl_translation": "To nie jest droga."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "szybki",
     "examples": [
       {
-        "es_form": "Nada es más [rápido::szybki] que la familia.",
-        "pl_translation": "Nic nie jest szybki od rodziny."
+        "es_form": "Es muy [rápido::szybki].",
+        "pl_translation": "Jest bardzo szybki."
       },
       {
-        "es_form": "Este coche es [rápido::szybki].",
-        "pl_translation": "Ten samochód jest szybki."
+        "es_form": "No es [rápido::szybki].",
+        "pl_translation": "Nie jest szybki."
       },
       {
-        "es_form": "Es una persona muy [rápido::szybki].",
-        "pl_translation": "To jest bardzo szybki osoba."
+        "es_form": "Parece [rápido::szybki].",
+        "pl_translation": "Wydaje się szybki."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "wolny (powolny)",
     "examples": [
       {
-        "es_form": "Es un lugar [lento::wolny (powolny)] para vivir.",
-        "pl_translation": "To jest wolny miejsce do życia."
+        "es_form": "Es muy [lento::wolny].",
+        "pl_translation": "Jest bardzo wolny."
       },
       {
-        "es_form": "Mi amigo es [lento::wolny (powolny)] y simpático.",
-        "pl_translation": "Mój przyjaciel jest wolny i sympatyczny."
+        "es_form": "No es [lento::wolny].",
+        "pl_translation": "Nie jest wolny."
       },
       {
-        "es_form": "La comida está [lenta::wolny (powolny)].",
-        "pl_translation": "Jedzenie jest wolny."
+        "es_form": "Parece [lento::wolny].",
+        "pl_translation": "Wydaje się wolny."
       }
     ]
   },

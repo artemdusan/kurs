@@ -62,16 +62,16 @@
     "pl_word": "pływanie",
     "examples": [
       {
-        "es_form": "Me gusta [la natación::pływanie].",
-        "pl_translation": "Lubię pływanie."
+        "es_form": "Esta es [la natación::pływanie].",
+        "pl_translation": "To jest pływanie."
       },
       {
         "es_form": "[La natación::pływanie] es un ejercicio completo.",
         "pl_translation": "Pływanie to wszechstronne ćwiczenie."
       },
       {
-        "es_form": "Practico [la natación::pływanie] todos los días.",
-        "pl_translation": "Uprawiam pływanie codziennie."
+        "es_form": "No es [la natación::pływanie].",
+        "pl_translation": "To nie jest pływanie."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "stadion",
     "examples": [
       {
-        "es_form": "Visitamos [el estadio::stadion] la semana pasada.",
-        "pl_translation": "Odwiedziliśmy stadion w zeszłym tygodniu."
+        "es_form": "¿Dónde está [el estadio::stadion]?",
+        "pl_translation": "Gdzie jest stadion?"
       },
       {
         "es_form": "[El estadio::stadion] está cerca de aquí.",
         "pl_translation": "Stadion jest niedaleko stąd."
       },
       {
-        "es_form": "Voy a [el estadio::stadion] cada día.",
-        "pl_translation": "Chodzę na stadion codziennie."
+        "es_form": "[El estadio::stadion] está aquí.",
+        "pl_translation": "Stadion jest tutaj."
       }
     ]
   },
@@ -138,12 +138,12 @@
     "pl_word": "wynik",
     "examples": [
       {
-        "es_form": "Tienes que aceptar [el resultado::wynik].",
-        "pl_translation": "Musisz zaakceptować wynik."
+        "es_form": "Este es [el resultado::wynik].",
+        "pl_translation": "To jest wynik."
       },
       {
-        "es_form": "[El resultado::wynik] es la clave del éxito.",
-        "pl_translation": "Wynik jest kluczem do sukcesu."
+        "es_form": "No es [el resultado::wynik].",
+        "pl_translation": "To nie jest wynik."
       },
       {
         "es_form": "[El resultado::wynik] cambió mi vida.",
@@ -157,16 +157,16 @@
     "pl_word": "medal",
     "examples": [
       {
-        "es_form": "Gané [la medalla::medal] de oro.",
-        "pl_translation": "Zdobyłem złoty medal."
+        "es_form": "Esta es [la medalla::medal].",
+        "pl_translation": "To jest medal."
       },
       {
-        "es_form": "¿Has visto [la medalla::medal]?",
-        "pl_translation": "Widziałeś medal?"
+        "es_form": "[La medalla::medal] está aquí.",
+        "pl_translation": "Medal jest tutaj."
       },
       {
-        "es_form": "[La medalla::medal] está sobre la mesa.",
-        "pl_translation": "Medal jest na stole."
+        "es_form": "No es [la medalla::medal].",
+        "pl_translation": "To nie jest medal."
       }
     ]
   },
@@ -180,8 +180,8 @@
         "pl_translation": "Wziąłem udział w zawodach wczoraj."
       },
       {
-        "es_form": "Gané [la competición::zawody].",
-        "pl_translation": "Wygrałem zawody."
+        "es_form": "Esta es [la competición::zawody].",
+        "pl_translation": "To jest zawody."
       },
       {
         "es_form": "[La competición::zawody] fue muy dura.",
@@ -195,16 +195,16 @@
     "pl_word": "szybki",
     "examples": [
       {
-        "es_form": "Este coche es [rápido::szybki].",
-        "pl_translation": "Ten samochód jest szybki."
+        "es_form": "Es muy [rápido::szybki].",
+        "pl_translation": "Jest bardzo szybki."
       },
       {
-        "es_form": "Es una persona muy [rápida::szybki].",
-        "pl_translation": "To jest bardzo szybka osoba."
+        "es_form": "No es [rápido::szybki].",
+        "pl_translation": "Nie jest szybki."
       },
       {
-        "es_form": "La comida está [rápida::szybki].",
-        "pl_translation": "Jedzenie jest szybkie (do przygotowania)."
+        "es_form": "Parece [rápido::szybki].",
+        "pl_translation": "Wydaje się szybki."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "sprawny / w formie",
     "examples": [
       {
-        "es_form": "Estoy [en forma::sprawny ] gracias al deporte.",
-        "pl_translation": "Jestem w formie dzięki sportowi."
+        "es_form": "Es muy [en forma::sprawny / w formie].",
+        "pl_translation": "Jest bardzo sprawny / w formie."
       },
       {
-        "es_form": "Se compró un vestido para estar [en forma::sprawny ].",
-        "pl_translation": "Kupiła sobie sukienkę, żeby dobrze wyglądać."
+        "es_form": "No es [en forma::sprawny / w formie].",
+        "pl_translation": "Nie jest sprawny / w formie."
       },
       {
-        "es_form": "Este atleta está muy [en forma::sprawny ].",
-        "pl_translation": "Ten sportowiec jest w bardzo dobrej formie."
+        "es_form": "Es demasiado [en forma::sprawny / w formie].",
+        "pl_translation": "Jest zbyt sprawny / w formie."
       }
     ]
   },

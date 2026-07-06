@@ -5,16 +5,16 @@
     "pl_word": "mama, matka",
     "examples": [
       {
-        "es_form": "Guarda [la madre::mama, matka] en el armario.",
-        "pl_translation": "Schowaj mama, matka do szafy."
+        "es_form": "Esta es [la madre::mama].",
+        "pl_translation": "To jest mama."
       },
       {
-        "es_form": "[La madre::mama, matka] es de madera.",
-        "pl_translation": "Mama, matka jest z drewna."
+        "es_form": "[La madre::mama] está aquí.",
+        "pl_translation": "Mama jest tutaj."
       },
       {
-        "es_form": "Se me rompio [la madre::mama, matka].",
-        "pl_translation": "Zepsuł mi się mama, matka."
+        "es_form": "No es [la madre::mama].",
+        "pl_translation": "To nie jest mama."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "tata, ojciec",
     "examples": [
       {
-        "es_form": "Guarda [el padre::tata, ojciec] en el armario.",
-        "pl_translation": "Schowaj tata, ojciec do szafy."
+        "es_form": "Este es [el padre::tata].",
+        "pl_translation": "To jest tata."
       },
       {
-        "es_form": "¿Has visto [el padre::tata, ojciec]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "[El padre::tata] está aquí.",
+        "pl_translation": "Tata jest tutaj."
       },
       {
-        "es_form": "Compré [el padre::tata, ojciec] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "No es [el padre::tata].",
+        "pl_translation": "To nie jest tata."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "brat",
     "examples": [
       {
-        "es_form": "Necesito [el hermano::brat] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "Este es [el hermano::brat].",
+        "pl_translation": "To jest brat."
       },
       {
-        "es_form": "[El hermano::brat] es de madera.",
-        "pl_translation": "Brat jest z drewna."
+        "es_form": "¿Dónde está [el hermano::brat]?",
+        "pl_translation": "Gdzie jest brat?"
       },
       {
-        "es_form": "Guarda [el hermano::brat] en el armario.",
-        "pl_translation": "Schowaj brat do szafy."
+        "es_form": "[El hermano::brat] está aquí.",
+        "pl_translation": "Brat jest tutaj."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "siostra",
     "examples": [
       {
-        "es_form": "¿Has visto [la hermana::siostra]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Esta es [la hermana::siostra].",
+        "pl_translation": "To jest siostra."
       },
       {
-        "es_form": "[La hermana::siostra] está sobre la mesa.",
-        "pl_translation": "Siostra jest na stole."
+        "es_form": "No es [la hermana::siostra].",
+        "pl_translation": "To nie jest siostra."
       },
       {
-        "es_form": "Guarda [la hermana::siostra] en el armario.",
-        "pl_translation": "Schowaj siostra do szafy."
+        "es_form": "¿Dónde está [la hermana::siostra]?",
+        "pl_translation": "Gdzie jest siostra?"
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "syn",
     "examples": [
       {
-        "es_form": "Necesito [el hijo::syn] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "Este es [el hijo::syn].",
+        "pl_translation": "To jest syn."
       },
       {
-        "es_form": "[El hijo::syn] es de madera.",
-        "pl_translation": "Syn jest z drewna."
+        "es_form": "¿Dónde está [el hijo::syn]?",
+        "pl_translation": "Gdzie jest syn?"
       },
       {
-        "es_form": "Guarda [el hijo::syn] en el armario.",
-        "pl_translation": "Schowaj syn do szafy."
+        "es_form": "[El hijo::syn] está aquí.",
+        "pl_translation": "Syn jest tutaj."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "córka",
     "examples": [
       {
-        "es_form": "[La hija::córka] es de madera.",
-        "pl_translation": "Córka jest z drewna."
+        "es_form": "¿Dónde está [la hija::córka]?",
+        "pl_translation": "Gdzie jest córka?"
       },
       {
-        "es_form": "[La hija::córka] está sobre la mesa.",
-        "pl_translation": "Córka jest na stole."
+        "es_form": "Esta es [la hija::córka].",
+        "pl_translation": "To jest córka."
       },
       {
-        "es_form": "Se me rompio [la hija::córka].",
-        "pl_translation": "Zepsuł mi się córka."
+        "es_form": "[La hija::córka] está aquí.",
+        "pl_translation": "Córka jest tutaj."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "babcia",
     "examples": [
       {
-        "es_form": "Se me rompio [la abuela::babcia].",
-        "pl_translation": "Zepsuł mi się babcia."
+        "es_form": "Esta es [la abuela::babcia].",
+        "pl_translation": "To jest babcia."
       },
       {
-        "es_form": "Guarda [la abuela::babcia] en el armario.",
-        "pl_translation": "Schowaj babcia do szafy."
+        "es_form": "¿Dónde está [la abuela::babcia]?",
+        "pl_translation": "Gdzie jest babcia?"
       },
       {
-        "es_form": "Necesito [la abuela::babcia] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "[La abuela::babcia] está aquí.",
+        "pl_translation": "Babcia jest tutaj."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "dziadek",
     "examples": [
       {
-        "es_form": "[El abuelo::dziadek] cuesta diez euros.",
-        "pl_translation": "Dziadek kosztuje dziesięć euro."
+        "es_form": "No es [el abuelo::dziadek].",
+        "pl_translation": "To nie jest dziadek."
       },
       {
-        "es_form": "¿Has visto [el abuelo::dziadek]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Este es [el abuelo::dziadek].",
+        "pl_translation": "To jest dziadek."
       },
       {
-        "es_form": "Compré [el abuelo::dziadek] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "¿Dónde está [el abuelo::dziadek]?",
+        "pl_translation": "Gdzie jest dziadek?"
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "mąż",
     "examples": [
       {
-        "es_form": "[El marido::mąż] cuesta diez euros.",
-        "pl_translation": "Mąż kosztuje dziesięć euro."
+        "es_form": "No es [el marido::mąż].",
+        "pl_translation": "To nie jest mąż."
       },
       {
-        "es_form": "Necesito [el marido::mąż] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "Este es [el marido::mąż].",
+        "pl_translation": "To jest mąż."
       },
       {
-        "es_form": "Guarda [el marido::mąż] en el armario.",
-        "pl_translation": "Schowaj mąż do szafy."
+        "es_form": "¿Dónde está [el marido::mąż]?",
+        "pl_translation": "Gdzie jest mąż?"
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "żona",
     "examples": [
       {
-        "es_form": "Guarda [la mujer::żona] en el armario.",
-        "pl_translation": "Schowaj żona do szafy."
+        "es_form": "Esta es [la mujer::żona].",
+        "pl_translation": "To jest żona."
       },
       {
-        "es_form": "Necesito [la mujer::żona] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "[La mujer::żona] está aquí.",
+        "pl_translation": "Żona jest tutaj."
       },
       {
-        "es_form": "Se me rompio [la mujer::żona].",
-        "pl_translation": "Zepsuł mi się żona."
+        "es_form": "No es [la mujer::żona].",
+        "pl_translation": "To nie jest żona."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "stary",
     "examples": [
       {
-        "es_form": "Es un lugar [viejo::stary] para vivir.",
-        "pl_translation": "To jest stary miejsce do życia."
+        "es_form": "Es muy [viejo::stary].",
+        "pl_translation": "Jest bardzo stary."
       },
       {
-        "es_form": "Mi amigo es [viejo::stary] y simpático.",
-        "pl_translation": "Mój przyjaciel jest stary i sympatyczny."
+        "es_form": "No es [viejo::stary].",
+        "pl_translation": "Nie jest stary."
       },
       {
-        "es_form": "Tengo una casa [vieja::stary].",
-        "pl_translation": "Mam stary dom."
+        "es_form": "Es demasiado [viejo::stary].",
+        "pl_translation": "Jest zbyt stary."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "młody",
     "examples": [
       {
-        "es_form": "Se compro un vestido [joven::młody].",
-        "pl_translation": "Kupiła sobie młody sukienkę."
+        "es_form": "Es muy [joven::młody].",
+        "pl_translation": "Jest bardzo młody."
       },
       {
-        "es_form": "Es un lugar [joven::młody] para vivir.",
-        "pl_translation": "To jest młody miejsce do życia."
+        "es_form": "No es [joven::młody].",
+        "pl_translation": "Nie jest młody."
       },
       {
-        "es_form": "Es una persona muy [joven::młody].",
-        "pl_translation": "To jest bardzo młody osoba."
+        "es_form": "Parece [joven::młody].",
+        "pl_translation": "Wydaje się młody."
       }
     ]
   },
@@ -233,11 +233,11 @@
     "pl_word": "kochać, chcieć",
     "examples": [
       {
-        "es_form": "Hay que [querer] a la familia.",
+        "es_form": "Hay que [querer::kochać] a la familia.",
         "pl_translation": "Trzeba kochać rodzinę."
       },
       {
-        "es_form": "Es fácil [querer] a los niños.",
+        "es_form": "Es fácil [querer::kochać] a los niños.",
         "pl_translation": "Łatwo jest kochać dzieci."
       }
     ],

@@ -36,7 +36,7 @@ function uuid() {
 
 // Podbij, gdy zmienia się sposób budowania rekordów z plików lekcji —
 // zaimportowane lekcje zostaną wtedy zaktualizowane (bez utraty postępów).
-const CONTENT_VERSION = 3;
+const CONTENT_VERSION = 4;
 
 /** Importuje słowa lekcji do bazy (idempotentnie). Zwraca liczbę nowych słów. */
 export async function ensureLessonImported(lessonNumber) {
@@ -137,6 +137,15 @@ export async function ensureLessonImported(lessonNumber) {
       }
       await db.words.add(row);
       added++;
+    }
+    // soft delete rekordów lekcji, których nie ma już w danych (np. poprawiony
+    // rodzajnik zmienił klucz) — inaczej wisiałyby w puli sesji jako duplikaty
+    const validKeys = new Set(rows.map((r) => r.naturalKey));
+    const lessonWords = await db.words.where('lesson').equals(lessonNumber).toArray();
+    for (const w of lessonWords) {
+      if (!validKeys.has(w.naturalKey) && !w.deleted) {
+        await db.words.update(w.id, { deleted: 1, updated_at: now });
+      }
     }
     const m = await db.meta.get('lessonContentVersions');
     const map = m ? { ...m.value } : {};

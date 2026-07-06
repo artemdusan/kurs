@@ -9,8 +9,8 @@
         "pl_translation": "Potrzebuję nowego dokumentu."
       },
       {
-        "es_form": "[El documento::dokument] cuesta diez euros.",
-        "pl_translation": "Dokument kosztuje dziesięć euro."
+        "es_form": "Este es [el documento::dokument].",
+        "pl_translation": "To jest dokument."
       },
       {
         "es_form": "[El documento::dokument] es importante.",
@@ -24,16 +24,16 @@
     "pl_word": "druk, formularz",
     "examples": [
       {
-        "es_form": "[El impreso::formularz] está sobre la mesa.",
-        "pl_translation": "Formularz jest na stole."
+        "es_form": "No es [el impreso::druk].",
+        "pl_translation": "To nie jest druk."
       },
       {
         "es_form": "[El impreso::druk] está listo.",
         "pl_translation": "Druk jest gotowy."
       },
       {
-        "es_form": "Guarda [el impreso::formularz] en el armario.",
-        "pl_translation": "Schowaj formularz do szafy."
+        "es_form": "Este es [el impreso::druk].",
+        "pl_translation": "To jest druk."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "koperta",
     "examples": [
       {
-        "es_form": "Guarda [el sobre::kopertę] en el armario.",
-        "pl_translation": "Schowaj kopertę do szafy."
+        "es_form": "Este es [el sobre::koperta].",
+        "pl_translation": "To jest koperta."
       },
       {
-        "es_form": "[El sobre::koperta] cuesta diez euros.",
-        "pl_translation": "Koperta kosztuje dziesięć euro."
+        "es_form": "No es [el sobre::koperta].",
+        "pl_translation": "To nie jest koperta."
       },
       {
-        "es_form": "[El sobre::koperta] está sobre la mesa.",
-        "pl_translation": "Koperta jest na stole."
+        "es_form": "¿Dónde está [el sobre::koperta]?",
+        "pl_translation": "Gdzie jest koperta?"
       }
     ]
   },
@@ -62,11 +62,11 @@
     "pl_word": "pieczątka, znaczek",
     "examples": [
       {
-        "es_form": "[El sello::znaczek] cuesta diez euros.",
-        "pl_translation": "Znaczek kosztuje dziesięć euro."
+        "es_form": "Este es [el sello::pieczątka].",
+        "pl_translation": "To jest pieczątka."
       },
       {
-        "es_form": "[El sello::pieczątka] es necesaria.",
+        "es_form": "[El sello::pieczątka] es necesario.",
         "pl_translation": "Pieczątka jest potrzebna."
       },
       {
@@ -85,12 +85,12 @@
         "pl_translation": "Potrzebuję podpisu tutaj."
       },
       {
-        "es_form": "Pon [la firma::podpis] en el documento.",
-        "pl_translation": "Złóż podpis na dokumencie."
+        "es_form": "Esta es [la firma::podpis].",
+        "pl_translation": "To jest podpis."
       },
       {
-        "es_form": "[La firma::podpis] está sobre la mesa.",
-        "pl_translation": "Podpis jest na stole."
+        "es_form": "No es [la firma::podpis].",
+        "pl_translation": "To nie jest podpis."
       }
     ]
   },
@@ -104,8 +104,8 @@
         "pl_translation": "Potrzebuję nowego wniosku."
       },
       {
-        "es_form": "Guarda [la solicitud::wniosek] en el armario.",
-        "pl_translation": "Schowaj wniosek do szafy."
+        "es_form": "Esta es [la solicitud::wniosek].",
+        "pl_translation": "To jest wniosek."
       },
       {
         "es_form": "[La solicitud::wniosek] está aprobada.",
@@ -119,16 +119,16 @@
     "pl_word": "zaświadczenie",
     "examples": [
       {
-        "es_form": "[El certificado::zaświadczenie] está sobre la mesa.",
-        "pl_translation": "Zaświadczenie jest na stole."
+        "es_form": "No es [el certificado::zaświadczenie].",
+        "pl_translation": "To nie jest zaświadczenie."
       },
       {
-        "es_form": "¿Has visto [el certificado::zaświadczenie]?",
-        "pl_translation": "Widziałeś zaświadczenie?"
+        "es_form": "Este es [el certificado::zaświadczenie].",
+        "pl_translation": "To jest zaświadczenie."
       },
       {
-        "es_form": "[El certificado::zaświadczenie] cuesta diez euros.",
-        "pl_translation": "Zaświadczenie kosztuje dziesięć euro."
+        "es_form": "Hablamos sobre [el certificado::zaświadczenie].",
+        "pl_translation": "Rozmawiamy o tym, czym jest zaświadczenie."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "umowa",
     "examples": [
       {
-        "es_form": "Guarda [el contrato::umowę] en el armario.",
-        "pl_translation": "Schowaj umowę do szafy."
+        "es_form": "Este es [el contrato::umowa].",
+        "pl_translation": "To jest umowa."
       },
       {
         "es_form": "Firmé [el contrato::umowę] ayer.",
         "pl_translation": "Podpisałem umowę wczoraj."
       },
       {
-        "es_form": "[El contrato::umowa] está sobre la mesa.",
-        "pl_translation": "Umowa jest na stole."
+        "es_form": "No es [el contrato::umowa].",
+        "pl_translation": "To nie jest umowa."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "segregator, folder",
     "examples": [
       {
-        "es_form": "¿Has visto [la carpeta::segregator]?",
-        "pl_translation": "Widziałeś segregator?"
+        "es_form": "¿Dónde está [la carpeta::segregator]?",
+        "pl_translation": "Gdzie jest segregator?"
       },
       {
         "es_form": "Compré [la carpeta::folder] ayer.",
         "pl_translation": "Kupiłem folder wczoraj."
       },
       {
-        "es_form": "Guarda [la carpeta::segregator] en el armario.",
-        "pl_translation": "Schowaj segregator do szafy."
+        "es_form": "[La carpeta::segregator] está aquí.",
+        "pl_translation": "Segregator jest tutaj."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "oficjalny",
     "examples": [
       {
-        "es_form": "Nada es más [oficial::oficjalny] que este documento.",
-        "pl_translation": "Nic nie jest bardziej oficjalne od tego dokumentu."
+        "es_form": "Es muy [oficial::oficjalny].",
+        "pl_translation": "Jest bardzo oficjalny."
       },
       {
-        "es_form": "Tengo una carta [oficial::oficjalną].",
-        "pl_translation": "Mam oficjalny list."
+        "es_form": "No es [oficial::oficjalny].",
+        "pl_translation": "Nie jest oficjalny."
       },
       {
-        "es_form": "Es un comunicado [oficial::oficjalny].",
-        "pl_translation": "To jest oficjalny komunikat."
+        "es_form": "Parece [oficial::oficjalny].",
+        "pl_translation": "Wydaje się oficjalny."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "ważny",
     "examples": [
       {
-        "es_form": "El pasaporte es [válido::ważny].",
-        "pl_translation": "Paszport jest ważny."
+        "es_form": "Es muy [válido::ważny].",
+        "pl_translation": "Jest bardzo ważny."
       },
       {
-        "es_form": "Es un documento [válido::ważny].",
-        "pl_translation": "To jest ważny dokument."
+        "es_form": "No es [válido::ważny].",
+        "pl_translation": "Nie jest ważny."
       },
       {
-        "es_form": "Este certificado no es [válido::ważny].",
-        "pl_translation": "To zaświadczenie nie jest ważne."
+        "es_form": "Parece [válido::ważny].",
+        "pl_translation": "Wydaje się ważny."
       }
     ]
   },

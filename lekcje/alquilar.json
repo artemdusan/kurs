@@ -5,16 +5,16 @@
     "pl_word": "mieszkanie",
     "examples": [
       {
-        "es_form": "[El piso::mieszkanie] es de madera.",
-        "pl_translation": "Mieszkanie jest z drewna."
+        "es_form": "Este es [el piso::mieszkanie].",
+        "pl_translation": "To jest mieszkanie."
       },
       {
-        "es_form": "Compré [el piso::mieszkanie] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Hablamos sobre [el piso::mieszkanie].",
+        "pl_translation": "Rozmawiamy o tym, czym jest mieszkanie."
       },
       {
-        "es_form": "Necesito [el piso::mieszkanie] nuevo.",
-        "pl_translation": "Potrzebuję nowe mieszkanie."
+        "es_form": "No es [el piso::mieszkanie].",
+        "pl_translation": "To nie jest mieszkanie."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "sypialnia",
     "examples": [
       {
-        "es_form": "[El dormitorio::sypialnia] cuesta diez euros.",
-        "pl_translation": "Sypialnia kosztuje dziesięć euro."
+        "es_form": "No es [el dormitorio::sypialnia].",
+        "pl_translation": "To nie jest sypialnia."
       },
       {
-        "es_form": "[El dormitorio::sypialnia] es de madera.",
-        "pl_translation": "Sypialnia jest z drewna."
+        "es_form": "Este es [el dormitorio::sypialnia].",
+        "pl_translation": "To jest sypialnia."
       },
       {
-        "es_form": "Se me rompio [el dormitorio::sypialnia].",
-        "pl_translation": "Zepsuła mi się sypialnia."
+        "es_form": "¿Dónde está [el dormitorio::sypialnia]?",
+        "pl_translation": "Gdzie jest sypialnia?"
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "salon",
     "examples": [
       {
-        "es_form": "[El salón::salon] es de madera.",
-        "pl_translation": "Salon jest z drewna."
+        "es_form": "Este es [el salón::salon].",
+        "pl_translation": "To jest salon."
       },
       {
-        "es_form": "¿Has visto [el salón::salon]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "¿Dónde está [el salón::salon]?",
+        "pl_translation": "Gdzie jest salon?"
       },
       {
-        "es_form": "Guarda [el salón::salon] en el armario.",
-        "pl_translation": "Schowaj salon do szafy."
+        "es_form": "No es [el salón::salon].",
+        "pl_translation": "To nie jest salon."
       }
     ]
   },
@@ -66,12 +66,12 @@
         "pl_translation": "Potrzebuję nowego przedpokoju."
       },
       {
-        "es_form": "Compré [el pasillo::przedpokój, korytarz] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Este es [el pasillo::przedpokój].",
+        "pl_translation": "To jest przedpokój."
       },
       {
-        "es_form": "[El pasillo::przedpokój, korytarz] está sobre la mesa.",
-        "pl_translation": "Przedpokój jest na stole."
+        "es_form": "No es [el pasillo::przedpokój].",
+        "pl_translation": "To nie jest przedpokój."
       }
     ]
   },
@@ -81,12 +81,12 @@
     "pl_word": "piwnica",
     "examples": [
       {
-        "es_form": "[El sótano::piwnica] es de madera.",
-        "pl_translation": "Piwnica jest z drewna."
+        "es_form": "Este es [el sótano::piwnica].",
+        "pl_translation": "To jest piwnica."
       },
       {
-        "es_form": "Se me rompio [el sótano::piwnica].",
-        "pl_translation": "Zepsuła mi się piwnica."
+        "es_form": "¿Dónde está [el sótano::piwnica]?",
+        "pl_translation": "Gdzie jest piwnica?"
       },
       {
         "es_form": "Necesito [el sótano::piwnica] nuevo.",
@@ -100,16 +100,16 @@
     "pl_word": "strych",
     "examples": [
       {
-        "es_form": "[La buhardilla::strych] es de madera.",
-        "pl_translation": "Strych jest z drewna."
+        "es_form": "Esta es [la buhardilla::strych].",
+        "pl_translation": "To jest strych."
       },
       {
-        "es_form": "¿Has visto [la buhardilla::strych]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "[La buhardilla::strych] está aquí.",
+        "pl_translation": "Strych jest tutaj."
       },
       {
-        "es_form": "Compré [la buhardilla::strych] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "No es [la buhardilla::strych].",
+        "pl_translation": "To nie jest strych."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "balkon",
     "examples": [
       {
-        "es_form": "[El balcón::balkon] cuesta diez euros.",
-        "pl_translation": "Balkon kosztuje dziesięć euro."
+        "es_form": "No es [el balcón::balkon].",
+        "pl_translation": "To nie jest balkon."
       },
       {
-        "es_form": "Compré [el balcón::balkon] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Este es [el balcón::balkon].",
+        "pl_translation": "To jest balkon."
       },
       {
-        "es_form": "[El balcón::balkon] es de madera.",
-        "pl_translation": "Balkon jest z drewna."
+        "es_form": "¿Dónde está [el balcón::balkon]?",
+        "pl_translation": "Gdzie jest balkon?"
       }
     ]
   },
@@ -142,12 +142,12 @@
         "pl_translation": "Schody kosztują dziesięć euro."
       },
       {
-        "es_form": "Necesito [la escalera::schody] nuevo.",
-        "pl_translation": "Potrzebuję nowe schody."
+        "es_form": "¿Dónde está [la escalera::schody]?",
+        "pl_translation": "Gdzie jest schody?"
       },
       {
-        "es_form": "Se me rompio [la escalera::schody].",
-        "pl_translation": "Zepsuły mi się schody."
+        "es_form": "[La escalera::schody] está aquí.",
+        "pl_translation": "Schody jest tutaj."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "piętro",
     "examples": [
       {
-        "es_form": "[La planta::piętro] es de madera.",
-        "pl_translation": "Piętro jest z drewna."
+        "es_form": "Esta es [la planta::piętro].",
+        "pl_translation": "To jest piętro."
       },
       {
-        "es_form": "Guarda [la planta::piętro] en el armario.",
-        "pl_translation": "Schowaj piętro do szafy."
+        "es_form": "¿Dónde está [la planta::piętro]?",
+        "pl_translation": "Gdzie jest piętro?"
       },
       {
-        "es_form": "Necesito [la planta::piętro] nuevo.",
-        "pl_translation": "Potrzebuję nowe piętro."
+        "es_form": "No es [la planta::piętro].",
+        "pl_translation": "To nie jest piętro."
       }
     ]
   },
@@ -180,12 +180,12 @@
         "pl_translation": "Potrzebuję nową windę."
       },
       {
-        "es_form": "[El ascensor::winda] es de madera.",
-        "pl_translation": "Winda jest z drewna."
+        "es_form": "¿Dónde está [el ascensor::winda]?",
+        "pl_translation": "Gdzie jest winda?"
       },
       {
-        "es_form": "Guarda [el ascensor::winda] en el armario.",
-        "pl_translation": "Schowaj windę do szafy."
+        "es_form": "[El ascensor::winda] está aquí.",
+        "pl_translation": "Winda jest tutaj."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "przytulny",
     "examples": [
       {
-        "es_form": "El examen fue [acogedor::przytulny].",
-        "pl_translation": "Egzamin był przytulny."
+        "es_form": "No es [acogedor::przytulny].",
+        "pl_translation": "Nie jest przytulny."
       },
       {
-        "es_form": "Mi amigo es [acogedor::przytulny] y simpático.",
-        "pl_translation": "Mój przyjaciel jest przytulny i sympatyczny."
+        "es_form": "Parece [acogedor::przytulny].",
+        "pl_translation": "Wydaje się przytulny."
       },
       {
-        "es_form": "Es un lugar [acogedor::przytulny] para vivir.",
-        "pl_translation": "To jest przytulne miejsce do życia."
+        "es_form": "Es demasiado [acogedor::przytulny].",
+        "pl_translation": "Jest zbyt przytulny."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "przestronny",
     "examples": [
       {
-        "es_form": "Es una persona muy [espacioso::przestronny].",
-        "pl_translation": "To jest bardzo przestronna osoba."
+        "es_form": "No es [espacioso::przestronny].",
+        "pl_translation": "Nie jest przestronny."
       },
       {
-        "es_form": "Hace un día [espacioso::przestronny].",
-        "pl_translation": "Jest przestronny dzień."
+        "es_form": "Parece [espacioso::przestronny].",
+        "pl_translation": "Wydaje się przestronny."
       },
       {
-        "es_form": "La comida está [espaciosa::przestronny].",
-        "pl_translation": "Jedzenie jest przestronne."
+        "es_form": "Es demasiado [espacioso::przestronny].",
+        "pl_translation": "Jest zbyt przestronny."
       }
     ]
   },

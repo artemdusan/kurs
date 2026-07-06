@@ -9,12 +9,12 @@
         "pl_translation": "Płuco jest ważną częścią ciała."
       },
       {
-        "es_form": "Me duele [el pulmón::płuco].",
-        "pl_translation": "Boli mnie płuco."
+        "es_form": "¿Dónde está [el pulmón::płuco]?",
+        "pl_translation": "Gdzie jest płuco?"
       },
       {
-        "es_form": "Tienes [el pulmón::płuco] muy fuerte.",
-        "pl_translation": "Masz bardzo silny"
+        "es_form": "[El pulmón::płuco] está aquí.",
+        "pl_translation": "Płuco jest tutaj."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "wątroba",
     "examples": [
       {
-        "es_form": "Me duele [el hígado::wątroba].",
-        "pl_translation": "Boli mnie wątroba."
+        "es_form": "¿Dónde está [el hígado::wątroba]?",
+        "pl_translation": "Gdzie jest wątroba?"
       },
       {
         "es_form": "[El hígado::wątroba] es una parte importante del cuerpo.",
         "pl_translation": "Wątroba jest ważną częścią ciała."
       },
       {
-        "es_form": "Tienes [el hígado::wątroba] muy fuerte.",
-        "pl_translation": "Masz bardzo silny"
+        "es_form": "[El hígado::wątroba] está aquí.",
+        "pl_translation": "Wątroba jest tutaj."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "nerka",
     "examples": [
       {
-        "es_form": "El médico me reviso [el riñón::nerka].",
-        "pl_translation": "Lekarz zbadał mi nerka."
+        "es_form": "Este es [el riñón::nerka].",
+        "pl_translation": "To jest nerka."
       },
       {
         "es_form": "[El riñón::nerka] es una parte importante del cuerpo.",
         "pl_translation": "Nerka jest ważną częścią ciała."
       },
       {
-        "es_form": "Me duele [el riñón::nerka].",
-        "pl_translation": "Boli mnie nerka."
+        "es_form": "¿Dónde está [el riñón::nerka]?",
+        "pl_translation": "Gdzie jest nerka?"
       }
     ]
   },
@@ -62,12 +62,12 @@
     "pl_word": "mięsień",
     "examples": [
       {
-        "es_form": "Me duele [el músculo::mięsień].",
-        "pl_translation": "Boli mnie mięsień."
+        "es_form": "¿Dónde está [el músculo::mięsień]?",
+        "pl_translation": "Gdzie jest mięsień?"
       },
       {
-        "es_form": "Tienes [el músculo::mięsień] muy fuerte.",
-        "pl_translation": "Masz bardzo silny"
+        "es_form": "[El músculo::mięsień] está aquí.",
+        "pl_translation": "Mięsień jest tutaj."
       },
       {
         "es_form": "[El músculo::mięsień] es una parte importante del cuerpo.",
@@ -77,20 +77,20 @@
   },
   {
     "type": "noun",
-    "es_word": "El articulación",
+    "es_word": "La articulación",
     "pl_word": "staw",
     "examples": [
       {
-        "es_form": "El médico me reviso [el articulación::staw].",
-        "pl_translation": "Lekarz zbadał mi staw."
+        "es_form": "¿Dónde está [la articulación::staw]?",
+        "pl_translation": "Gdzie jest staw?"
       },
       {
-        "es_form": "Tienes [el articulación::staw] muy fuerte.",
-        "pl_translation": "Masz bardzo silny"
+        "es_form": "[La articulación::staw] está aquí.",
+        "pl_translation": "Staw jest tutaj."
       },
       {
-        "es_form": "Me duele [el articulación::staw].",
-        "pl_translation": "Boli mnie staw."
+        "es_form": "No es [la articulación::staw].",
+        "pl_translation": "To nie jest staw."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "ścięgno",
     "examples": [
       {
-        "es_form": "Me duele [el tendón::ścięgno].",
-        "pl_translation": "Boli mnie ścięgno."
+        "es_form": "Este es [el tendón::ścięgno].",
+        "pl_translation": "To jest ścięgno."
       },
       {
-        "es_form": "Tienes [el tendón::ścięgno] muy fuerte.",
-        "pl_translation": "Masz bardzo silny"
+        "es_form": "[El tendón::ścięgno] está aquí.",
+        "pl_translation": "Ścięgno jest tutaj."
       },
       {
-        "es_form": "El médico me reviso [el tendón::ścięgno].",
-        "pl_translation": "Lekarz zbadał mi ścięgno."
+        "es_form": "No es [el tendón::ścięgno].",
+        "pl_translation": "To nie jest ścięgno."
       }
     ]
   },
@@ -119,12 +119,12 @@
     "pl_word": "skóra",
     "examples": [
       {
-        "es_form": "Tienes [la piel::skóra] muy fuerte.",
-        "pl_translation": "Masz bardzo silny"
+        "es_form": "Esta es [la piel::skóra].",
+        "pl_translation": "To jest skóra."
       },
       {
-        "es_form": "Me duele [la piel::skóra].",
-        "pl_translation": "Boli mnie skóra."
+        "es_form": "[La piel::skóra] está aquí.",
+        "pl_translation": "Skóra jest tutaj."
       },
       {
         "es_form": "[La piel::skóra] es una parte importante del cuerpo.",
@@ -138,16 +138,16 @@
     "pl_word": "paznokieć",
     "examples": [
       {
-        "es_form": "El médico me reviso [la uña::paznokieć].",
-        "pl_translation": "Lekarz zbadał mi paznokieć."
+        "es_form": "Esta es [la uña::paznokieć].",
+        "pl_translation": "To jest paznokieć."
       },
       {
         "es_form": "[La uña::paznokieć] es una parte importante del cuerpo.",
         "pl_translation": "Paznokieć jest ważną częścią ciała."
       },
       {
-        "es_form": "Tienes [la uña::paznokieć] muy fuerte.",
-        "pl_translation": "Masz bardzo silny"
+        "es_form": "[La uña::paznokieć] está aquí.",
+        "pl_translation": "Paznokieć jest tutaj."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "pot",
     "examples": [
       {
-        "es_form": "Tienes [el sudor::pot] muy fuerte.",
-        "pl_translation": "Masz bardzo silny"
+        "es_form": "Este es [el sudor::pot].",
+        "pl_translation": "To jest pot."
       },
       {
-        "es_form": "[El sudor::pot] es una parte importante del cuerpo.",
-        "pl_translation": "Pot jest ważną częścią ciała."
+        "es_form": "Este es [el sudor::pot].",
+        "pl_translation": "To jest pot."
       },
       {
-        "es_form": "El médico me reviso [el sudor::pot].",
-        "pl_translation": "Lekarz zbadał mi pot."
+        "es_form": "¿Dónde está [el sudor::pot]?",
+        "pl_translation": "Gdzie jest pot?"
       }
     ]
   },
@@ -176,12 +176,12 @@
     "pl_word": "łza",
     "examples": [
       {
-        "es_form": "Tienes [la lágrima::łza] muy fuerte.",
-        "pl_translation": "Masz bardzo silny"
+        "es_form": "Esta es [la lágrima::łza].",
+        "pl_translation": "To jest łza."
       },
       {
-        "es_form": "Me duele [la lágrima::łza].",
-        "pl_translation": "Boli mnie łza."
+        "es_form": "¿Dónde está [la lágrima::łza]?",
+        "pl_translation": "Gdzie jest łza?"
       },
       {
         "es_form": "[La lágrima::łza] es una parte importante del cuerpo.",
@@ -195,16 +195,16 @@
     "pl_word": "wewnętrzny",
     "examples": [
       {
-        "es_form": "Se compro un vestido [interno::wewnętrzny].",
-        "pl_translation": "Kupiła sobie wewnętrzny sukienkę."
+        "es_form": "Es muy [interno::wewnętrzny].",
+        "pl_translation": "Jest bardzo wewnętrzny."
       },
       {
-        "es_form": "Es una persona muy [interno::wewnętrzny].",
-        "pl_translation": "To jest bardzo wewnętrzny osoba."
+        "es_form": "No es [interno::wewnętrzny].",
+        "pl_translation": "Nie jest wewnętrzny."
       },
       {
-        "es_form": "Tengo una casa [interna::wewnętrzny].",
-        "pl_translation": "Mam wewnętrzny dom."
+        "es_form": "Es demasiado [interno::wewnętrzny].",
+        "pl_translation": "Jest zbyt wewnętrzny."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "zewnętrzny",
     "examples": [
       {
-        "es_form": "Hace un día [externo::zewnętrzny].",
-        "pl_translation": "Jest zewnętrzny dzień."
+        "es_form": "Es muy [externo::zewnętrzny].",
+        "pl_translation": "Jest bardzo zewnętrzny."
       },
       {
-        "es_form": "Nada es más [externo::zewnętrzny] que la familia.",
-        "pl_translation": "Nic nie jest zewnętrzny od rodziny."
+        "es_form": "Parece [externo::zewnętrzny].",
+        "pl_translation": "Wydaje się zewnętrzny."
       },
       {
-        "es_form": "Es un lugar [externo::zewnętrzny] para vivir.",
-        "pl_translation": "To jest zewnętrzny miejsce do życia."
+        "es_form": "Es demasiado [externo::zewnętrzny].",
+        "pl_translation": "Jest zbyt zewnętrzny."
       }
     ]
   },

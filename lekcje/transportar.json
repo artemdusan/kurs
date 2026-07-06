@@ -5,16 +5,16 @@
     "pl_word": "ciężarówka",
     "examples": [
       {
-        "es_form": "[El camión::ciężarówka] está sobre la mesa.",
-        "pl_translation": "Ciężarówka jest na stole."
+        "es_form": "No es [el camión::ciężarówka].",
+        "pl_translation": "To nie jest ciężarówka."
       },
       {
-        "es_form": "[El camión::ciężarówka] cuesta diez euros.",
-        "pl_translation": "Ciężarówka kosztuje dziesięć euro."
+        "es_form": "¿Dónde está [el camión::ciężarówka]?",
+        "pl_translation": "Gdzie jest ciężarówka?"
       },
       {
-        "es_form": "Se me rompio [el camión::ciężarówka].",
-        "pl_translation": "Zepsuł mi się ciężarówka."
+        "es_form": "Este es [el camión::ciężarówka].",
+        "pl_translation": "To jest ciężarówka."
       }
     ]
   },
@@ -25,7 +25,7 @@
     "examples": [
       {
         "es_form": "Esta es [el repartidor::dostawca] de la que hablé.",
-        "pl_translation": "To jest dostawca, o której mówiłem"
+        "pl_translation": "To jest dostawca, o której mówiłem."
       },
       {
         "es_form": "Mi [hermano::brat] es [el repartidor::dostawca].",
@@ -43,16 +43,16 @@
     "pl_word": "przesyłka",
     "examples": [
       {
-        "es_form": "[El paquete::przesyłka] está sobre la mesa.",
-        "pl_translation": "Przesyłka jest na stole."
+        "es_form": "No es [el paquete::przesyłka].",
+        "pl_translation": "To nie jest przesyłka."
       },
       {
-        "es_form": "[El paquete::przesyłka] es de madera.",
-        "pl_translation": "Przesyłka jest z drewna."
+        "es_form": "Este es [el paquete::przesyłka].",
+        "pl_translation": "To jest przesyłka."
       },
       {
-        "es_form": "[El paquete::przesyłka] cuesta diez euros.",
-        "pl_translation": "Przesyłka kosztuje dziesięć euro."
+        "es_form": "¿Dónde está [el paquete::przesyłka]?",
+        "pl_translation": "Gdzie jest przesyłka?"
       }
     ]
   },
@@ -63,7 +63,7 @@
     "examples": [
       {
         "es_form": "[El almacén::magazyn] es muy grande.",
-        "pl_translation": "Magazyn jest bardzo duży"
+        "pl_translation": "Magazyn jest bardzo duży."
       },
       {
         "es_form": "[El almacén::magazyn] está cerca de aquí.",
@@ -81,16 +81,16 @@
     "pl_word": "trasa",
     "examples": [
       {
-        "es_form": "[La ruta::trasa] está sobre la mesa.",
-        "pl_translation": "Trasa jest na stole."
+        "es_form": "Esta es [la ruta::trasa].",
+        "pl_translation": "To jest trasa."
       },
       {
-        "es_form": "[La ruta::trasa] cuesta diez euros.",
-        "pl_translation": "Trasa kosztuje dziesięć euro."
+        "es_form": "No es [la ruta::trasa].",
+        "pl_translation": "To nie jest trasa."
       },
       {
-        "es_form": "[La ruta::trasa] es de madera.",
-        "pl_translation": "Trasa jest z drewna."
+        "es_form": "¿Dónde está [la ruta::trasa]?",
+        "pl_translation": "Gdzie jest trasa?"
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "przesiadka",
     "examples": [
       {
-        "es_form": "Necesito [el transbordo::przesiadka] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "Este es [el transbordo::przesiadka].",
+        "pl_translation": "To jest przesiadka."
       },
       {
-        "es_form": "[El transbordo::przesiadka] cuesta diez euros.",
-        "pl_translation": "Przesiadka kosztuje dziesięć euro."
+        "es_form": "No es [el transbordo::przesiadka].",
+        "pl_translation": "To nie jest przesiadka."
       },
       {
-        "es_form": "¿Has visto [el transbordo::przesiadka]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "[El transbordo::przesiadka] está aquí.",
+        "pl_translation": "Przesiadka jest tutaj."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "odlot, wyjazd",
     "examples": [
       {
-        "es_form": "Guarda [la salida::odlot, wyjazd] en el armario.",
-        "pl_translation": "Schowaj odlot, wyjazd do szafy."
+        "es_form": "Esta es [la salida::odlot].",
+        "pl_translation": "To jest odlot."
       },
       {
-        "es_form": "Se me rompio [la salida::odlot, wyjazd].",
-        "pl_translation": "Zepsuł mi się odlot, wyjazd."
+        "es_form": "[La salida::odlot] está aquí.",
+        "pl_translation": "Odlot jest tutaj."
       },
       {
-        "es_form": "Necesito [la salida::odlot, wyjazd] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "No es [la salida::odlot].",
+        "pl_translation": "To nie jest odlot."
       }
     ]
   },
@@ -138,35 +138,35 @@
     "pl_word": "przylot, przyjazd",
     "examples": [
       {
-        "es_form": "Necesito [la llegada::przylot, przyjazd] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "Esta es [la llegada::przylot].",
+        "pl_translation": "To jest przylot."
       },
       {
-        "es_form": "[La llegada::przylot, przyjazd] está sobre la mesa.",
-        "pl_translation": "Przylot, przyjazd jest na stole."
+        "es_form": "No es [la llegada::przylot].",
+        "pl_translation": "To nie jest przylot."
       },
       {
-        "es_form": "Compré [la llegada::przylot, przyjazd] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "¿Dónde está [la llegada::przylot]?",
+        "pl_translation": "Gdzie jest przylot?"
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El facturación",
+    "es_word": "La facturación",
     "pl_word": "odprawa bagażowa",
     "examples": [
       {
-        "es_form": "[El facturación::odprawa bagażowa] es de madera.",
-        "pl_translation": "Odprawa bagażowa jest z drewna."
+        "es_form": "Esta es [la facturación::odprawa bagażowa].",
+        "pl_translation": "To jest odprawa bagażowa."
       },
       {
-        "es_form": "[El facturación::odprawa bagażowa] está sobre la mesa.",
-        "pl_translation": "Odprawa bagażowa jest na stole."
+        "es_form": "[La facturación::odprawa bagażowa] está aquí.",
+        "pl_translation": "Odprawa bagażowa jest tutaj."
       },
       {
-        "es_form": "Guarda [el facturación::odprawa bagażowa] en el armario.",
-        "pl_translation": "Schowaj odprawa bagażowa do szafy."
+        "es_form": "No es [la facturación::odprawa bagażowa].",
+        "pl_translation": "To nie jest odprawa bagażowa."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "odprawa celna",
     "examples": [
       {
-        "es_form": "Hablamos sobre [la aduana::odprawa celna].",
-        "pl_translation": "Rozmawialiśmy o odprawa celna."
+        "es_form": "Esta es [la aduana::odprawa celna].",
+        "pl_translation": "To jest odprawa celna."
       },
       {
-        "es_form": "No entiendo [la aduana::odprawa celna].",
-        "pl_translation": "Nie rozumiem odprawa celna."
+        "es_form": "[La aduana::odprawa celna] está aquí.",
+        "pl_translation": "Odprawa celna jest tutaj."
       },
       {
-        "es_form": "[La aduana::odprawa celna] es muy importante.",
-        "pl_translation": "Odprawa celna jest bardzo ważny"
+        "es_form": "No es [la aduana::odprawa celna].",
+        "pl_translation": "To nie jest odprawa celna."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "punktualny",
     "examples": [
       {
-        "es_form": "Nada es más [puntual::punktualny] que la familia.",
-        "pl_translation": "Nic nie jest punktualny od rodziny."
+        "es_form": "No es [puntual::punktualny].",
+        "pl_translation": "Nie jest punktualny."
       },
       {
-        "es_form": "Mi amigo es [puntual::punktualny] y simpático.",
-        "pl_translation": "Mój przyjaciel jest punktualny i sympatyczny."
+        "es_form": "Parece [puntual::punktualny].",
+        "pl_translation": "Wydaje się punktualny."
       },
       {
-        "es_form": "El examen fue [puntual::punktualny].",
-        "pl_translation": "Egzamin był punktualny."
+        "es_form": "Es demasiado [puntual::punktualny].",
+        "pl_translation": "Jest zbyt punktualny."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "spóźniony",
     "examples": [
       {
-        "es_form": "Es una persona muy [retrasado::spóźniony].",
-        "pl_translation": "To jest bardzo spóźniony osoba."
+        "es_form": "No es [retrasado::spóźniony].",
+        "pl_translation": "Nie jest spóźniony."
       },
       {
-        "es_form": "El examen fue [retrasado::spóźniony].",
-        "pl_translation": "Egzamin był spóźniony."
+        "es_form": "Parece [retrasado::spóźniony].",
+        "pl_translation": "Wydaje się spóźniony."
       },
       {
-        "es_form": "Se compro un vestido [retrasado::spóźniony].",
-        "pl_translation": "Kupiła sobie spóźniony sukienkę."
+        "es_form": "Es demasiado [retrasado::spóźniony].",
+        "pl_translation": "Jest zbyt spóźniony."
       }
     ]
   },

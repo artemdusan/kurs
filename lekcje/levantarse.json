@@ -5,35 +5,35 @@
     "pl_word": "rano; jutro",
     "examples": [
       {
-        "es_form": "Esperé [la mañana::rano; jutro] entero.",
-        "pl_translation": "Czekałem"
+        "es_form": "Esta es [la mañana::rano; jutro].",
+        "pl_translation": "To jest rano; jutro."
       },
       {
-        "es_form": "Llego [la mañana::rano; jutro] de la boda.",
-        "pl_translation": "Nadszedł rano; jutro ślubu."
+        "es_form": "[La mañana::rano; jutro] está aquí.",
+        "pl_translation": "Rano; jutro jest tutaj."
       },
       {
         "es_form": "[La mañana::rano; jutro] se me hizo eterno.",
-        "pl_translation": "Rano; jutro mi się dłużył"
+        "pl_translation": "Rano; jutro mi się dłużył."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "La mediodía",
+    "es_word": "El mediodía",
     "pl_word": "południe",
     "examples": [
       {
-        "es_form": "[La mediodía::południe] es oro.",
-        "pl_translation": "Południe jest na wagę złota."
+        "es_form": "Este es [el mediodía::południe].",
+        "pl_translation": "To jest południe."
       },
       {
-        "es_form": "[La mediodía::południe] se me hizo eterno.",
-        "pl_translation": "Południe mi się dłużył"
+        "es_form": "¿Dónde está [el mediodía::południe]?",
+        "pl_translation": "Gdzie jest południe?"
       },
       {
-        "es_form": "[La mediodía::południe] pasa muy rápido.",
-        "pl_translation": "Południe mija bardzo szybko."
+        "es_form": "No es [el mediodía::południe].",
+        "pl_translation": "To nie jest południe."
       }
     ]
   },
@@ -43,8 +43,8 @@
     "pl_word": "popołudnie",
     "examples": [
       {
-        "es_form": "Llego [el tarde::popołudnie] de la boda.",
-        "pl_translation": "Nadszedł popołudnie ślubu."
+        "es_form": "Este es [el tarde::popołudnie].",
+        "pl_translation": "To jest popołudnie."
       },
       {
         "es_form": "[El tarde::popołudnie] es oro.",
@@ -63,15 +63,15 @@
     "examples": [
       {
         "es_form": "[La noche::noc, wieczór] se me hizo eterno.",
-        "pl_translation": "Noc, wieczór mi się dłużył"
+        "pl_translation": "Noc, wieczór mi się dłużył."
       },
       {
-        "es_form": "No tengo [la noche::noc, wieczór] suficiente.",
-        "pl_translation": "Nie mam wystarczająco noc, wieczór."
+        "es_form": "¿Dónde está [la noche::noc]?",
+        "pl_translation": "Gdzie jest noc?"
       },
       {
-        "es_form": "Esperé [la noche::noc, wieczór] entero.",
-        "pl_translation": "Czekałem"
+        "es_form": "[La noche::noc] está aquí.",
+        "pl_translation": "Noc jest tutaj."
       }
     ]
   },
@@ -85,8 +85,8 @@
         "pl_translation": "Wiosna mija bardzo szybko."
       },
       {
-        "es_form": "Llego [la primavera::wiosna] de la boda.",
-        "pl_translation": "Nadszedł wiosna ślubu."
+        "es_form": "Esta es [la primavera::wiosna].",
+        "pl_translation": "To jest wiosna."
       },
       {
         "es_form": "[La primavera::wiosna] es oro.",
@@ -100,16 +100,16 @@
     "pl_word": "lato",
     "examples": [
       {
-        "es_form": "[El verano::lato] se me hizo eterno.",
-        "pl_translation": "Lato mi się dłużył"
+        "es_form": "No es [el verano::lato].",
+        "pl_translation": "To nie jest lato."
       },
       {
         "es_form": "[El verano::lato] pasa muy rápido.",
         "pl_translation": "Lato mija bardzo szybko."
       },
       {
-        "es_form": "Esperé [el verano::lato] entero.",
-        "pl_translation": "Czekałem"
+        "es_form": "Este es [el verano::lato].",
+        "pl_translation": "To jest lato."
       }
     ]
   },
@@ -123,8 +123,8 @@
         "pl_translation": "Jesień mija bardzo szybko."
       },
       {
-        "es_form": "Llego [el otoño::jesień] de la boda.",
-        "pl_translation": "Nadszedł jesień ślubu."
+        "es_form": "Este es [el otoño::jesień].",
+        "pl_translation": "To jest jesień."
       },
       {
         "es_form": "[El otoño::jesień] es oro.",
@@ -138,16 +138,16 @@
     "pl_word": "zima",
     "examples": [
       {
-        "es_form": "Llego [el invierno::zima] de la boda.",
-        "pl_translation": "Nadszedł zima ślubu."
+        "es_form": "Este es [el invierno::zima].",
+        "pl_translation": "To jest zima."
       },
       {
-        "es_form": "No tengo [el invierno::zima] suficiente.",
-        "pl_translation": "Nie mam wystarczająco zima."
+        "es_form": "¿Dónde está [el invierno::zima]?",
+        "pl_translation": "Gdzie jest zima?"
       },
       {
-        "es_form": "[El invierno::zima] se me hizo eterno.",
-        "pl_translation": "Zima mi się dłużył"
+        "es_form": "No es [el invierno::zima].",
+        "pl_translation": "To nie jest zima."
       }
     ]
   },
@@ -158,15 +158,15 @@
     "examples": [
       {
         "es_form": "[La temporada::sezon, pora] se me hizo eterno.",
-        "pl_translation": "Sezon, pora mi się dłużył"
+        "pl_translation": "Sezon, pora mi się dłużył."
       },
       {
-        "es_form": "Llego [la temporada::sezon, pora] de la boda.",
-        "pl_translation": "Nadszedł sezon, pora ślubu."
+        "es_form": "Esta es [la temporada::sezon].",
+        "pl_translation": "To jest sezon."
       },
       {
         "es_form": "[La temporada::sezon, pora] es oro.",
-        "pl_translation": "Sezon, pora jest na wagę złota."
+        "pl_translation": "Sezon jest na wagę złota."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "świt, wczesny ranek",
     "examples": [
       {
-        "es_form": "[La madrugada::świt, wczesny ranek] es de madera.",
-        "pl_translation": "Świt, wczesny ranek jest z drewna."
+        "es_form": "¿Dónde está [la madrugada::świt]?",
+        "pl_translation": "Gdzie jest świt?"
       },
       {
-        "es_form": "Compré [la madrugada::świt, wczesny ranek] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "[La madrugada::świt] está aquí.",
+        "pl_translation": "Świt jest tutaj."
       },
       {
-        "es_form": "Necesito [la madrugada::świt, wczesny ranek] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "No es [la madrugada::świt].",
+        "pl_translation": "To nie jest świt."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "jasny",
     "examples": [
       {
-        "es_form": "Se compro un vestido [claro::jasny].",
-        "pl_translation": "Kupiła sobie jasny sukienkę."
+        "es_form": "Es muy [claro::jasny].",
+        "pl_translation": "Jest bardzo jasny."
       },
       {
-        "es_form": "La comida está [clara::jasny].",
-        "pl_translation": "Jedzenie jest jasny."
+        "es_form": "No es [claro::jasny].",
+        "pl_translation": "Nie jest jasny."
       },
       {
-        "es_form": "El examen fue [claro::jasny].",
-        "pl_translation": "Egzamin był jasny."
+        "es_form": "Parece [claro::jasny].",
+        "pl_translation": "Wydaje się jasny."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "ciemny",
     "examples": [
       {
-        "es_form": "Este coche es [oscuro::ciemny].",
-        "pl_translation": "Ten samochód jest ciemny."
+        "es_form": "Es muy [oscuro::ciemny].",
+        "pl_translation": "Jest bardzo ciemny."
       },
       {
-        "es_form": "La comida está [oscura::ciemny].",
-        "pl_translation": "Jedzenie jest ciemny."
+        "es_form": "No es [oscuro::ciemny].",
+        "pl_translation": "Nie jest ciemny."
       },
       {
-        "es_form": "Se compro un vestido [oscuro::ciemny].",
-        "pl_translation": "Kupiła sobie ciemny sukienkę."
+        "es_form": "Es demasiado [oscuro::ciemny].",
+        "pl_translation": "Jest zbyt ciemny."
       }
     ]
   },

@@ -47,8 +47,8 @@
         "pl_translation": "Poniedziałek jest na wagę złota."
       },
       {
-        "es_form": "Esperé [el lunes::poniedziałek] entero.",
-        "pl_translation": "Czekałem"
+        "es_form": "Este es [el lunes::poniedziałek].",
+        "pl_translation": "To jest poniedziałek."
       },
       {
         "es_form": "[El lunes::poniedziałek] se me hizo eterno.",
@@ -62,12 +62,12 @@
     "pl_word": "wtorek",
     "examples": [
       {
-        "es_form": "No tengo [el martes::wtorek] suficiente.",
-        "pl_translation": "Nie mam czasu we wtorek."
+        "es_form": "Este es [el martes::wtorek].",
+        "pl_translation": "To jest wtorek."
       },
       {
-        "es_form": "Esperé [el martes::wtorek] entero.",
-        "pl_translation": "Czekałem"
+        "es_form": "¿Dónde está [el martes::wtorek]?",
+        "pl_translation": "Gdzie jest wtorek?"
       },
       {
         "es_form": "[El martes::wtorek] se me hizo eterno.",
@@ -81,12 +81,12 @@
     "pl_word": "środa",
     "examples": [
       {
-        "es_form": "Llegó [el miércoles::środa].",
-        "pl_translation": "Nadeszła środa."
+        "es_form": "Este es [el miércoles::środa].",
+        "pl_translation": "To jest środa."
       },
       {
-        "es_form": "Esperé [el miércoles::środa] entero.",
-        "pl_translation": "Czekałem"
+        "es_form": "¿Dónde está [el miércoles::środa]?",
+        "pl_translation": "Gdzie jest środa?"
       },
       {
         "es_form": "[El miércoles::środa] es oro.",
@@ -104,12 +104,12 @@
         "pl_translation": "Czwartek mija bardzo szybko."
       },
       {
-        "es_form": "Llego [el jueves::czwartek] de la boda.",
-        "pl_translation": "Nadszedł czwartek."
+        "es_form": "Este es [el jueves::czwartek].",
+        "pl_translation": "To jest czwartek."
       },
       {
         "es_form": "[El jueves::czwartek] se me hizo eterno.",
-        "pl_translation": "Czwartek mi się dłużył"
+        "pl_translation": "Czwartek mi się dłużył."
       }
     ]
   },
@@ -123,12 +123,12 @@
         "pl_translation": "Piątek mija bardzo szybko."
       },
       {
-        "es_form": "No tengo [el viernes::piątek] suficiente.",
-        "pl_translation": "Nie mam czasu w piątek."
+        "es_form": "Este es [el viernes::piątek].",
+        "pl_translation": "To jest piątek."
       },
       {
-        "es_form": "Llego [el viernes::piątek] de la boda.",
-        "pl_translation": "Nadszedł piątek."
+        "es_form": "[El viernes::piątek] está aquí.",
+        "pl_translation": "Piątek jest tutaj."
       }
     ]
   },
@@ -161,8 +161,8 @@
         "pl_translation": "Niedziela jest na wagę złota."
       },
       {
-        "es_form": "Llego [el domingo::niedziela] de la boda.",
-        "pl_translation": "Nadeszła niedziela."
+        "es_form": "Este es [el domingo::niedziela].",
+        "pl_translation": "To jest niedziela."
       },
       {
         "es_form": "No tengo [el domingo::niedziela] suficiente.",
@@ -176,16 +176,16 @@
     "pl_word": "weekend",
     "examples": [
       {
-        "es_form": "Llego [El fin de semana::weekend] de la boda.",
-        "pl_translation": "Nadszedł weekend."
+        "es_form": "Este es [el fin de semana::weekend].",
+        "pl_translation": "To jest weekend."
       },
       {
         "es_form": "[El fin de semana::weekend] es oro.",
         "pl_translation": "Weekend jest na wagę złota."
       },
       {
-        "es_form": "Esperé [El fin de semana::weekend] entero.",
-        "pl_translation": "Czekałem"
+        "es_form": "¿Dónde está [el fin de semana::weekend]?",
+        "pl_translation": "Gdzie jest weekend?"
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "wczesny",
     "examples": [
       {
-        "es_form": "Es un lugar [temprano::wczesny] para vivir.",
-        "pl_translation": "To jest wczesna pora."
+        "es_form": "Es muy [temprano::wczesny].",
+        "pl_translation": "Jest bardzo wczesny."
       },
       {
-        "es_form": "Es una persona muy [temprano::wczesny].",
-        "pl_translation": "To jest bardzo wczesna pora."
+        "es_form": "No es [temprano::wczesny].",
+        "pl_translation": "Nie jest wczesny."
       },
       {
-        "es_form": "Hace un día [temprano::wczesny].",
-        "pl_translation": "Jest wczesny dzień."
+        "es_form": "Es demasiado [temprano::wczesny].",
+        "pl_translation": "Jest zbyt wczesny."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "późny",
     "examples": [
       {
-        "es_form": "El examen fue [tarde::późny].",
-        "pl_translation": "Egzamin był późny."
+        "es_form": "Es muy [tarde::późny].",
+        "pl_translation": "Jest bardzo późny."
       },
       {
-        "es_form": "Mi amigo es [tarde::późny] y simpático.",
-        "pl_translation": "Mój przyjaciel jest spóźniony, ale sympatyczny."
+        "es_form": "Parece [tarde::późny].",
+        "pl_translation": "Wydaje się późny."
       },
       {
-        "es_form": "Es una persona muy [tarde::późny].",
-        "pl_translation": "To jest bardzo późna pora."
+        "es_form": "Es demasiado [tarde::późny].",
+        "pl_translation": "Jest zbyt późny."
       }
     ]
   },
