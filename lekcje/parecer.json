@@ -5,16 +5,16 @@
     "pl_word": "kolor",
     "examples": [
       {
-        "es_form": "Necesito [el color::kolor] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "Este es [el color::kolor].",
+        "pl_translation": "To jest kolor."
       },
       {
-        "es_form": "[El color::kolor] está sobre la mesa.",
-        "pl_translation": "Kolor jest na stole."
+        "es_form": "No es [el color::kolor].",
+        "pl_translation": "To nie jest kolor."
       },
       {
-        "es_form": "Guarda [el color::kolor] en el armario.",
-        "pl_translation": "Schowaj kolor do szafy."
+        "es_form": "[El color::kolor] está aquí.",
+        "pl_translation": "Kolor jest tutaj."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "kształt",
     "examples": [
       {
-        "es_form": "¿Has visto [la forma::kształt]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Esta es [la forma::kształt].",
+        "pl_translation": "To jest kształt."
       },
       {
-        "es_form": "[La forma::kształt] es de madera.",
-        "pl_translation": "Kształt jest z drewna."
+        "es_form": "[La forma::kształt] está aquí.",
+        "pl_translation": "Kształt jest tutaj."
       },
       {
-        "es_form": "Compré [la forma::kształt] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "No es [la forma::kształt].",
+        "pl_translation": "To nie jest kształt."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "wielkość, rozmiar",
     "examples": [
       {
-        "es_form": "Me duele [el tamaño::wielkość, rozmiar].",
-        "pl_translation": "Boli mnie wielkość, rozmiar."
+        "es_form": "Este es [el tamaño::wielkość].",
+        "pl_translation": "To jest wielkość."
       },
       {
-        "es_form": "Tienes [el tamaño::wielkość, rozmiar] muy fuerte.",
-        "pl_translation": "Masz bardzo silny"
+        "es_form": "No es [el tamaño::wielkość].",
+        "pl_translation": "To nie jest wielkość."
       },
       {
-        "es_form": "El médico me reviso [el tamaño::wielkość, rozmiar].",
-        "pl_translation": "Lekarz zbadał mi wielkość, rozmiar."
+        "es_form": "Hablamos sobre [el tamaño::wielkość].",
+        "pl_translation": "Rozmawiamy o tym, czym jest wielkość."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "zdjęcie",
     "examples": [
       {
-        "es_form": "[La foto::zdjęcie] cuesta diez euros.",
-        "pl_translation": "Zdjęcie kosztuje dziesięć euro."
+        "es_form": "Hablamos sobre [la foto::zdjęcie].",
+        "pl_translation": "Rozmawiamy o tym, czym jest zdjęcie."
       },
       {
-        "es_form": "Compré [la foto::zdjęcie] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Esta es [la foto::zdjęcie].",
+        "pl_translation": "To jest zdjęcie."
       },
       {
-        "es_form": "Se me rompio [la foto::zdjęcie].",
-        "pl_translation": "Zepsuł mi się zdjęcie."
+        "es_form": "No es [la foto::zdjęcie].",
+        "pl_translation": "To nie jest zdjęcie."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "obraz",
     "examples": [
       {
-        "es_form": "Compré [el imagen::obraz] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Este es [el imagen::obraz].",
+        "pl_translation": "To jest obraz."
       },
       {
-        "es_form": "[El imagen::obraz] cuesta diez euros.",
-        "pl_translation": "Obraz kosztuje dziesięć euro."
+        "es_form": "No es [el imagen::obraz].",
+        "pl_translation": "To nie jest obraz."
       },
       {
-        "es_form": "Se me rompio [el imagen::obraz].",
-        "pl_translation": "Zepsuł mi się obraz."
+        "es_form": "[El imagen::obraz] está aquí.",
+        "pl_translation": "Obraz jest tutaj."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "lustro",
     "examples": [
       {
-        "es_form": "Compré [el espejo::lustro] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Este es [el espejo::lustro].",
+        "pl_translation": "To jest lustro."
       },
       {
-        "es_form": "[El espejo::lustro] cuesta diez euros.",
-        "pl_translation": "Lustro kosztuje dziesięć euro."
+        "es_form": "No es [el espejo::lustro].",
+        "pl_translation": "To nie jest lustro."
       },
       {
-        "es_form": "Guarda [el espejo::lustro] en el armario.",
-        "pl_translation": "Schowaj lustro do szafy."
+        "es_form": "[El espejo::lustro] está aquí.",
+        "pl_translation": "Lustro jest tutaj."
       }
     ]
   },
@@ -119,8 +119,8 @@
     "pl_word": "światło",
     "examples": [
       {
-        "es_form": "Trabajo en [la luz::światło].",
-        "pl_translation": "Pracuję w światło."
+        "es_form": "Esta es [la luz::światło].",
+        "pl_translation": "To jest światło."
       },
       {
         "es_form": "[La luz::światło] abre a las ocho.",
@@ -138,16 +138,16 @@
     "pl_word": "cień",
     "examples": [
       {
-        "es_form": "Compré [la sombra::cień] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Esta es [la sombra::cień].",
+        "pl_translation": "To jest cień."
       },
       {
-        "es_form": "Se me rompio [la sombra::cień].",
-        "pl_translation": "Zepsuł mi się cień."
+        "es_form": "[La sombra::cień] está aquí.",
+        "pl_translation": "Cień jest tutaj."
       },
       {
-        "es_form": "[La sombra::cień] es de madera.",
-        "pl_translation": "Cień jest z drewna."
+        "es_form": "No es [la sombra::cień].",
+        "pl_translation": "To nie jest cień."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "widok",
     "examples": [
       {
-        "es_form": "[La vista::widok] es de madera.",
-        "pl_translation": "Widok jest z drewna."
+        "es_form": "Esta es [la vista::widok].",
+        "pl_translation": "To jest widok."
       },
       {
-        "es_form": "¿Has visto [la vista::widok]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "¿Dónde está [la vista::widok]?",
+        "pl_translation": "Gdzie jest widok?"
       },
       {
-        "es_form": "[La vista::widok] cuesta diez euros.",
-        "pl_translation": "Widok kosztuje dziesięć euro."
+        "es_form": "No es [la vista::widok].",
+        "pl_translation": "To nie jest widok."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "rzeczywistość",
     "examples": [
       {
-        "es_form": "Tienes que aceptar [la realidad::rzeczywistość].",
-        "pl_translation": "Musisz zaakceptować rzeczywistość."
-      },
-      {
-        "es_form": "No entiendo [la realidad::rzeczywistość].",
-        "pl_translation": "Nie rozumiem rzeczywistość."
+        "es_form": "Esta es [la realidad::rzeczywistość].",
+        "pl_translation": "To jest rzeczywistość."
       },
       {
         "es_form": "Hablamos sobre [la realidad::rzeczywistość].",
-        "pl_translation": "Rozmawialiśmy o rzeczywistość."
+        "pl_translation": "Rozmawiamy o tym, czym jest rzeczywistość."
+      },
+      {
+        "es_form": "No es [la realidad::rzeczywistość].",
+        "pl_translation": "To nie jest rzeczywistość."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "ładny",
     "examples": [
       {
-        "es_form": "Es una persona muy [bonito::ładny].",
-        "pl_translation": "To jest bardzo ładny osoba."
+        "es_form": "Es muy [bonito::ładny].",
+        "pl_translation": "Jest bardzo ładny."
       },
       {
-        "es_form": "Nada es más [bonito::ładny] que la familia.",
-        "pl_translation": "Nic nie jest ładny od rodziny."
+        "es_form": "Parece [bonito::ładny].",
+        "pl_translation": "Wydaje się ładny."
       },
       {
-        "es_form": "El examen fue [bonito::ładny].",
-        "pl_translation": "Egzamin był ładny."
+        "es_form": "Es demasiado [bonito::ładny].",
+        "pl_translation": "Jest zbyt ładny."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "brzydki",
     "examples": [
       {
-        "es_form": "Se compro un vestido [feo::brzydki].",
-        "pl_translation": "Kupiła sobie brzydki sukienkę."
+        "es_form": "Es muy [feo::brzydki].",
+        "pl_translation": "Jest bardzo brzydki."
       },
       {
-        "es_form": "Este coche es [feo::brzydki].",
-        "pl_translation": "Ten samochód jest brzydki."
+        "es_form": "No es [feo::brzydki].",
+        "pl_translation": "Nie jest brzydki."
       },
       {
-        "es_form": "Hace un día [feo::brzydki].",
-        "pl_translation": "Jest brzydki dzień."
+        "es_form": "Parece [feo::brzydki].",
+        "pl_translation": "Wydaje się brzydki."
       }
     ]
   },

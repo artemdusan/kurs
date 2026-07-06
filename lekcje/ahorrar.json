@@ -5,16 +5,16 @@
     "pl_word": "konto",
     "examples": [
       {
-        "es_form": "Abre [la cuenta::konto] en el banco.",
-        "pl_translation": "Otwórz konto w banku."
+        "es_form": "Esta es [la cuenta::konto].",
+        "pl_translation": "To jest konto."
       },
       {
-        "es_form": "Abrí [la cuenta::konto] el mes pasado.",
-        "pl_translation": "Otworzyłem konto w zeszłym miesiącu."
+        "es_form": "¿Dónde está [la cuenta::konto]?",
+        "pl_translation": "Gdzie jest konto?"
       },
       {
-        "es_form": "Han bloqueado [la cuenta::konto].",
-        "pl_translation": "Zablokowali mi konto."
+        "es_form": "No es [la cuenta::konto].",
+        "pl_translation": "To nie jest konto."
       }
     ]
   },
@@ -43,12 +43,12 @@
     "pl_word": "dług",
     "examples": [
       {
-        "es_form": "[La deuda::dług] es la clave del éxito.",
-        "pl_translation": "Dług jest kluczem do sukcesu."
+        "es_form": "No es [la deuda::dług].",
+        "pl_translation": "To nie jest dług."
       },
       {
-        "es_form": "Tienes que aceptar [la deuda::dług].",
-        "pl_translation": "Musisz zaakceptować dług."
+        "es_form": "Esta es [la deuda::dług].",
+        "pl_translation": "To jest dług."
       },
       {
         "es_form": "No entiendo [la deuda::dług].",
@@ -66,8 +66,8 @@
         "pl_translation": "Złożyłem wniosek o pożyczkę wczoraj."
       },
       {
-        "es_form": "[El préstamo::pożyczka] es de madera.",
-        "pl_translation": "Pożyczka jest z drewna."
+        "es_form": "Este es [el préstamo::pożyczka].",
+        "pl_translation": "To jest pożyczka."
       },
       {
         "es_form": "Me denegaron [el préstamo::pożyczka].",
@@ -89,8 +89,8 @@
         "pl_translation": "Opóźniłem ratę w tym miesiącu."
       },
       {
-        "es_form": "[El plazo::rata] cuesta diez euros.",
-        "pl_translation": "Rata kosztuje dziesięć euro."
+        "es_form": "Este es [el plazo::rata].",
+        "pl_translation": "To jest rata."
       }
     ]
   },
@@ -108,8 +108,8 @@
         "pl_translation": "Kupiłem walutę wczoraj."
       },
       {
-        "es_form": "Se me rompió [la moneda::waluta].",
-        "pl_translation": "Zepsuł mi się waluta."
+        "es_form": "Esta es [la moneda::waluta].",
+        "pl_translation": "To jest waluta."
       }
     ]
   },
@@ -123,12 +123,12 @@
         "pl_translation": "Schowaj resztę do portfela."
       },
       {
-        "es_form": "[El cambio::reszta (pieniądze)] es de madera.",
-        "pl_translation": "Reszta jest z drewna."
+        "es_form": "Este es [el cambio::reszta].",
+        "pl_translation": "To jest reszta."
       },
       {
-        "es_form": "Se me rompió [el cambio::reszta (pieniądze)].",
-        "pl_translation": "Zepsuł mi się reszta."
+        "es_form": "[El cambio::reszta] está aquí.",
+        "pl_translation": "Reszta jest tutaj."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "wydatek",
     "examples": [
       {
-        "es_form": "¿Has visto [el gasto::wydatek]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Este es [el gasto::wydatek].",
+        "pl_translation": "To jest wydatek."
       },
       {
-        "es_form": "Anoté [el gasto::wydatek] en la libreta.",
-        "pl_translation": "Zapisałem wydatek w notesie."
+        "es_form": "¿Dónde está [el gasto::wydatek]?",
+        "pl_translation": "Gdzie jest wydatek?"
       },
       {
-        "es_form": "[El gasto::wydatek] está sobre la mesa.",
-        "pl_translation": "Wydatek jest na stole."
+        "es_form": "No es [el gasto::wydatek].",
+        "pl_translation": "To nie jest wydatek."
       }
     ]
   },
@@ -161,8 +161,8 @@
         "pl_translation": "Budżet jest bardzo ważny."
       },
       {
-        "es_form": "Tienes que aceptar [el presupuesto::budżet].",
-        "pl_translation": "Musisz zaakceptować budżet."
+        "es_form": "Este es [el presupuesto::budżet].",
+        "pl_translation": "To jest budżet."
       },
       {
         "es_form": "No entiendo [el presupuesto::budżet].",
@@ -176,16 +176,16 @@
     "pl_word": "oszczędności",
     "examples": [
       {
-        "es_form": "Guarda [el ahorro::oszczędności] en el armario.",
-        "pl_translation": "Schowaj oszczędności do szafy."
+        "es_form": "Este es [el ahorro::oszczędności].",
+        "pl_translation": "To jest oszczędności."
       },
       {
-        "es_form": "Perdí [el ahorro::oszczędności] en la crisis.",
-        "pl_translation": "Straciłem oszczędności w kryzysie."
+        "es_form": "¿Dónde está [el ahorro::oszczędności]?",
+        "pl_translation": "Gdzie jest oszczędności?"
       },
       {
-        "es_form": "Aumenté [el ahorro::oszczędności] este año.",
-        "pl_translation": "Zwiększyłem oszczędności w tym roku."
+        "es_form": "No es [el ahorro::oszczędności].",
+        "pl_translation": "To nie jest oszczędności."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "bogaty",
     "examples": [
       {
-        "es_form": "Se compro un vestido [rico::bogaty].",
-        "pl_translation": "Kupiła sobie bogatą sukienkę."
+        "es_form": "Es muy [rico::bogaty].",
+        "pl_translation": "Jest bardzo bogaty."
       },
       {
-        "es_form": "Es una persona muy [rico::bogaty].",
-        "pl_translation": "To jest bardzo bogata osoba."
+        "es_form": "No es [rico::bogaty].",
+        "pl_translation": "Nie jest bogaty."
       },
       {
-        "es_form": "Nada es más [rico::bogaty] que la familia.",
-        "pl_translation": "Nic nie jest bogatsze niż rodzina."
+        "es_form": "Es demasiado [rico::bogaty].",
+        "pl_translation": "Jest zbyt bogaty."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "biedny",
     "examples": [
       {
-        "es_form": "Nada es más [pobre::biedny] que la familia.",
-        "pl_translation": "Nic nie jest biedniejsze niż rodzina."
+        "es_form": "Es muy [pobre::biedny].",
+        "pl_translation": "Jest bardzo biedny."
       },
       {
-        "es_form": "Hace un día [pobre::biedny].",
-        "pl_translation": "Jest biedny dzień."
+        "es_form": "No es [pobre::biedny].",
+        "pl_translation": "Nie jest biedny."
       },
       {
-        "es_form": "Es una persona muy [pobre::biedny].",
-        "pl_translation": "To jest bardzo biedna osoba."
+        "es_form": "Es demasiado [pobre::biedny].",
+        "pl_translation": "Jest zbyt biedny."
       }
     ]
   },

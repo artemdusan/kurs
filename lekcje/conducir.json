@@ -5,16 +5,16 @@
     "pl_word": "silnik",
     "examples": [
       {
-        "es_form": "Guardá [el motor::silnik] en el garaje.",
-        "pl_translation": "Schowaj narzędzia do szafy."
+        "es_form": "Este es [el motor::silnik].",
+        "pl_translation": "To jest silnik."
       },
       {
-        "es_form": "Se me rompió [el motor::silnik].",
-        "pl_translation": "Zepsuł mi się silnik."
+        "es_form": "[El motor::silnik] está aquí.",
+        "pl_translation": "Silnik jest tutaj."
       },
       {
-        "es_form": "[El motor::silnik] está sobre la mesa.",
-        "pl_translation": "Silnik jest na stole."
+        "es_form": "No es [el motor::silnik].",
+        "pl_translation": "To nie jest silnik."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "paliwo",
     "examples": [
       {
-        "es_form": "¿Has visto [el combustible::paliwo]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Este es [el combustible::paliwo].",
+        "pl_translation": "To jest paliwo."
       },
       {
         "es_form": "Guardá [el combustible::paliwo] en el garaje.",
         "pl_translation": "Schowaj kanister z paliwem do garażu."
       },
       {
-        "es_form": "Se me rompió [el combustible::paliwo].",
-        "pl_translation": "Zepsuł mi się paliwo."
+        "es_form": "¿Dónde está [el combustible::paliwo]?",
+        "pl_translation": "Gdzie jest paliwo?"
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "benzyna",
     "examples": [
       {
-        "es_form": "Compré [la gasolina::benzyna] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Esta es [la gasolina::benzyna].",
+        "pl_translation": "To jest benzyna."
       },
       {
-        "es_form": "¿Has visto [la gasolina::benzyna]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "[La gasolina::benzyna] está aquí.",
+        "pl_translation": "Benzyna jest tutaj."
       },
       {
-        "es_form": "Se me rompió [la gasolina::benzyna].",
-        "pl_translation": "Skończyła mi się benzyna."
+        "es_form": "No es [la gasolina::benzyna].",
+        "pl_translation": "To nie jest benzyna."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "koło",
     "examples": [
       {
-        "es_form": "¿Has visto [la rueda::koło]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Esta es [la rueda::koło].",
+        "pl_translation": "To jest koło."
       },
       {
-        "es_form": "[La rueda::koło] cuesta diez euros.",
-        "pl_translation": "Koło kosztuje dziesięć euro."
+        "es_form": "No es [la rueda::koło].",
+        "pl_translation": "To nie jest koło."
       },
       {
-        "es_form": "Necesito [la rueda::koło] nueva.",
-        "pl_translation": "Potrzebuję nowe koło."
+        "es_form": "[La rueda::koło] está aquí.",
+        "pl_translation": "Koło jest tutaj."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "kierownica",
     "examples": [
       {
-        "es_form": "[El volante::kierownica] está sobre la mesa.",
-        "pl_translation": "Kierownica jest na stole."
+        "es_form": "No es [el volante::kierownica].",
+        "pl_translation": "To nie jest kierownica."
       },
       {
         "es_form": "Guardá [el volante::kierownica] en el garaje.",
         "pl_translation": "Schowaj kierownicę do garażu."
       },
       {
-        "es_form": "¿Has visto [el volante::kierownica]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Este es [el volante::kierownica].",
+        "pl_translation": "To jest kierownica."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "hamulec",
     "examples": [
       {
-        "es_form": "Compré [el freno::hamulec] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Este es [el freno::hamulec].",
+        "pl_translation": "To jest hamulec."
       },
       {
-        "es_form": "Se me rompió [el freno::hamulec].",
-        "pl_translation": "Zepsuł mi się hamulec."
+        "es_form": "¿Dónde está [el freno::hamulec]?",
+        "pl_translation": "Gdzie jest hamulec?"
       },
       {
-        "es_form": "Revisá [el freno::hamulec].",
-        "pl_translation": "Sprawdź hamulec."
+        "es_form": "No es [el freno::hamulec].",
+        "pl_translation": "To nie jest hamulec."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "bagażnik",
     "examples": [
       {
-        "es_form": "¿Has visto [el maletero::bagażnik]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Este es [el maletero::bagażnik].",
+        "pl_translation": "To jest bagażnik."
       },
       {
-        "es_form": "[El maletero::bagażnik] cuesta diez euros.",
-        "pl_translation": "Bagażnik kosztuje dziesięć euro."
+        "es_form": "No es [el maletero::bagażnik].",
+        "pl_translation": "To nie jest bagażnik."
       },
       {
-        "es_form": "[El maletero::bagażnik] está sobre la mesa.",
-        "pl_translation": "Bagażnik jest na stole."
+        "es_form": "¿Dónde está [el maletero::bagażnik]?",
+        "pl_translation": "Gdzie jest bagażnik?"
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "szyba (samochodu)",
     "examples": [
       {
-        "es_form": "Limpia [el parabrisas::szyba (samochodu)].",
-        "pl_translation": "Schowaj szybę."
+        "es_form": "Este es [el parabrisas::szyba].",
+        "pl_translation": "To jest szyba."
       },
       {
-        "es_form": "¿Has visto [el parabrisas::szyba (samochodu)]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "¿Dónde está [el parabrisas::szyba]?",
+        "pl_translation": "Gdzie jest szyba?"
       },
       {
-        "es_form": "Compré [el parabrisas::szyba (samochodu)] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "[El parabrisas::szyba] está aquí.",
+        "pl_translation": "Szyba jest tutaj."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "pas bezpieczeństwa",
     "examples": [
       {
-        "es_form": "¿Has visto [El cinturón de seguridad::pas bezpieczeństwa]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Este es [el cinturón de seguridad::pas bezpieczeństwa].",
+        "pl_translation": "To jest pas bezpieczeństwa."
       },
       {
-        "es_form": "Se me rompió [El cinturón de seguridad::pas bezpieczeństwa].",
-        "pl_translation": "Zepsuł mi się pas bezpieczeństwa."
+        "es_form": "[El cinturón de seguridad::pas bezpieczeństwa] está aquí.",
+        "pl_translation": "Pas bezpieczeństwa jest tutaj."
       },
       {
-        "es_form": "Necesito [El cinturón de seguridad::pas bezpieczeństwa] nuevo.",
-        "pl_translation": "Potrzebuję nowy pas bezpieczeństwa."
+        "es_form": "No es [el cinturón de seguridad::pas bezpieczeństwa].",
+        "pl_translation": "To nie jest pas bezpieczeństwa."
       }
     ]
   },
@@ -184,8 +184,8 @@
         "pl_translation": "To był poważny wypadek."
       },
       {
-        "es_form": "Presencié [el accidente::wypadek] ayer.",
-        "pl_translation": "Widziałem"
+        "es_form": "Este es [el accidente::wypadek].",
+        "pl_translation": "To jest wypadek."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "szybki",
     "examples": [
       {
-        "es_form": "La comida está [rápida::szybki].",
-        "pl_translation": "Jedzenie jest szybkie."
+        "es_form": "Es muy [rápido::szybki].",
+        "pl_translation": "Jest bardzo szybki."
       },
       {
-        "es_form": "Nada es más [rápido::szybki] que la familia.",
-        "pl_translation": "Nic nie jest szybsze niż rodzina."
+        "es_form": "No es [rápido::szybki].",
+        "pl_translation": "Nie jest szybki."
       },
       {
-        "es_form": "El examen fue [rápido::szybki].",
-        "pl_translation": "Egzamin był szybki."
+        "es_form": "Parece [rápido::szybki].",
+        "pl_translation": "Wydaje się szybki."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "bezpieczny",
     "examples": [
       {
-        "es_form": "La comida está [segura::bezpieczny].",
-        "pl_translation": "Jedzenie jest bezpieczne."
+        "es_form": "No es [seguro::bezpieczny].",
+        "pl_translation": "Nie jest bezpieczny."
       },
       {
-        "es_form": "Es una persona muy [seguro::bezpieczny].",
-        "pl_translation": "To jest bardzo bezpieczna osoba."
+        "es_form": "Parece [seguro::bezpieczny].",
+        "pl_translation": "Wydaje się bezpieczny."
       },
       {
-        "es_form": "Se compro un vestido [seguro::bezpieczny].",
-        "pl_translation": "Kupiła sobie bezpieczną sukienkę."
+        "es_form": "Es demasiado [seguro::bezpieczny].",
+        "pl_translation": "Jest zbyt bezpieczny."
       }
     ]
   },

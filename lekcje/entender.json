@@ -9,8 +9,8 @@
         "pl_translation": "Nie rozumiem tej wiedzy."
       },
       {
-        "es_form": "[El conocimiento::wiedza] es la clave del éxito.",
-        "pl_translation": "Wiedza jest kluczem do sukcesu."
+        "es_form": "Este es [el conocimiento::wiedza].",
+        "pl_translation": "To jest wiedza."
       },
       {
         "es_form": "[El conocimiento::wiedza] cambió mi vida.",
@@ -28,8 +28,8 @@
         "pl_translation": "Bardzo lubię badania naukowe."
       },
       {
-        "es_form": "Estamos realizando [la investigación::badanie naukowe] en el laboratorio.",
-        "pl_translation": "Prowadzimy badanie naukowe w laboratorium."
+        "es_form": "Esta es [la investigación::badanie naukowe].",
+        "pl_translation": "To jest badanie naukowe."
       },
       {
         "es_form": "[La investigación::badanie naukowe] es típica de esta universidad.",
@@ -43,8 +43,8 @@
     "pl_word": "odkrycie",
     "examples": [
       {
-        "es_form": "Anunciaron [el descubrimiento::odkrycie] ayer.",
-        "pl_translation": "Wczoraj ogłosili odkrycie."
+        "es_form": "Este es [el descubrimiento::odkrycie].",
+        "pl_translation": "To jest odkrycie."
       },
       {
         "es_form": "[El descubrimiento::odkrycie] cambió la ciencia.",
@@ -66,8 +66,8 @@
         "pl_translation": "Rozmawialiśmy o teorii."
       },
       {
-        "es_form": "[La teoría::teoria] es la clave del éxito.",
-        "pl_translation": "Teoria jest kluczem do sukcesu."
+        "es_form": "Esta es [la teoría::teoria].",
+        "pl_translation": "To jest teoria."
       },
       {
         "es_form": "No entiendo [la teoría::teoria].",
@@ -89,8 +89,8 @@
         "pl_translation": "Fakt jest bardzo ważny."
       },
       {
-        "es_form": "[El hecho::fakt] es la clave del éxito.",
-        "pl_translation": "Fakt jest kluczem do sukcesu."
+        "es_form": "Este es [el hecho::fakt].",
+        "pl_translation": "To jest fakt."
       }
     ]
   },
@@ -108,8 +108,8 @@
         "pl_translation": "Nie rozumiem tego dowodu."
       },
       {
-        "es_form": "[La prueba::dowód] es la clave del éxito.",
-        "pl_translation": "Dowód jest kluczem do sukcesu."
+        "es_form": "Esta es [la prueba::dowód].",
+        "pl_translation": "To jest dowód."
       }
     ]
   },
@@ -123,8 +123,8 @@
         "pl_translation": "Rozwiązanie zmieniło moje życie."
       },
       {
-        "es_form": "[La solución::rozwiązanie] es la clave del éxito.",
-        "pl_translation": "Rozwiązanie jest kluczem do sukcesu."
+        "es_form": "Esta es [la solución::rozwiązanie].",
+        "pl_translation": "To jest rozwiązanie."
       },
       {
         "es_form": "No entiendo [la solución::rozwiązanie].",
@@ -146,8 +146,8 @@
         "pl_translation": "Nie rozumiem tego celu."
       },
       {
-        "es_form": "[El objetivo::cel] es la clave del éxito.",
-        "pl_translation": "Cel jest kluczem do sukcesu."
+        "es_form": "Este es [el objetivo::cel].",
+        "pl_translation": "To jest cel."
       }
     ]
   },
@@ -161,8 +161,8 @@
         "pl_translation": "Metoda zmieniła moje życie."
       },
       {
-        "es_form": "[El método::metoda] es la clave del éxito.",
-        "pl_translation": "Metoda jest kluczem do sukcesu."
+        "es_form": "Este es [el método::metoda].",
+        "pl_translation": "To jest metoda."
       },
       {
         "es_form": "Tienes que aceptar [el método::metoda].",
@@ -180,8 +180,8 @@
         "pl_translation": "Wynik zmienił moje życie."
       },
       {
-        "es_form": "Tienes que aceptar [el resultado::wynik].",
-        "pl_translation": "Musisz zaakceptować wynik."
+        "es_form": "Este es [el resultado::wynik].",
+        "pl_translation": "To jest wynik."
       },
       {
         "es_form": "No entiendo [el resultado::wynik].",
@@ -195,16 +195,16 @@
     "pl_word": "mądry",
     "examples": [
       {
-        "es_form": "Nada es más valioso que un consejo [sabio::mądry].",
-        "pl_translation": "Nic nie jest cenniejsze niż mądra rada."
+        "es_form": "No es [sabio::mądry].",
+        "pl_translation": "Nie jest mądry."
       },
       {
-        "es_form": "Es una persona muy [sabia::mądry].",
-        "pl_translation": "To jest bardzo mądra osoba."
+        "es_form": "Parece [sabio::mądry].",
+        "pl_translation": "Wydaje się mądry."
       },
       {
-        "es_form": "Mi abuelo es un hombre [sabio::mądry].",
-        "pl_translation": "Mój dziadek jest mądrym człowiekiem."
+        "es_form": "Es demasiado [sabio::mądry].",
+        "pl_translation": "Jest zbyt mądry."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "głupi",
     "examples": [
       {
-        "es_form": "No seas [tonto::głupi].",
-        "pl_translation": "Nie bądź głupi."
+        "es_form": "No es [tonto::głupi].",
+        "pl_translation": "Nie jest głupi."
       },
       {
-        "es_form": "Nada es más [tonto::głupi] que esa idea.",
-        "pl_translation": "Nic nie jest głupsze niż ten pomysł."
+        "es_form": "Parece [tonto::głupi].",
+        "pl_translation": "Wydaje się głupi."
       },
       {
-        "es_form": "Es una pregunta [tonta::głupi].",
-        "pl_translation": "To jest głupie pytanie."
+        "es_form": "Es demasiado [tonto::głupi].",
+        "pl_translation": "Jest zbyt głupi."
       }
     ]
   },

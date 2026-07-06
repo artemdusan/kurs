@@ -5,16 +5,16 @@
     "pl_word": "film",
     "examples": [
       {
-        "es_form": "¿Has visto [la película::film]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Esta es [la película::film].",
+        "pl_translation": "To jest film."
       },
       {
-        "es_form": "[La película::film] es de madera.",
-        "pl_translation": "Film jest z drewna."
+        "es_form": "¿Dónde está [la película::film]?",
+        "pl_translation": "Gdzie jest film?"
       },
       {
-        "es_form": "[La película::film] está sobre la mesa.",
-        "pl_translation": "Film jest na stole."
+        "es_form": "No es [la película::film].",
+        "pl_translation": "To nie jest film."
       }
     ]
   },
@@ -24,54 +24,54 @@
     "pl_word": "muzyka",
     "examples": [
       {
-        "es_form": "[La música::muzyka] es muy importante.",
-        "pl_translation": "Muzyka jest bardzo ważny"
+        "es_form": "Esta es [la música::muzyka].",
+        "pl_translation": "To jest muzyka."
       },
       {
-        "es_form": "Tienes que aceptar [la música::muzyka].",
-        "pl_translation": "Musisz zaakceptować muzyka."
+        "es_form": "[La música::muzyka] está aquí.",
+        "pl_translation": "Muzyka jest tutaj."
       },
       {
-        "es_form": "No entiendo [la música::muzyka].",
-        "pl_translation": "Nie rozumiem muzyka."
+        "es_form": "No es [la música::muzyka].",
+        "pl_translation": "To nie jest muzyka."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El canción",
+    "es_word": "La canción",
     "pl_word": "piosenka",
     "examples": [
       {
-        "es_form": "Se me rompio [el canción::piosenka].",
-        "pl_translation": "Zepsuł mi się piosenka."
+        "es_form": "Esta es [la canción::piosenka].",
+        "pl_translation": "To jest piosenka."
       },
       {
-        "es_form": "¿Has visto [el canción::piosenka]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "¿Dónde está [la canción::piosenka]?",
+        "pl_translation": "Gdzie jest piosenka?"
       },
       {
-        "es_form": "Guarda [el canción::piosenka] en el armario.",
-        "pl_translation": "Schowaj piosenka do szafy."
+        "es_form": "No es [la canción::piosenka].",
+        "pl_translation": "To nie jest piosenka."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El televisión",
+    "es_word": "La televisión",
     "pl_word": "telewizja",
     "examples": [
       {
-        "es_form": "[El televisión::telewizja] cuesta diez euros.",
-        "pl_translation": "Telewizja kosztuje dziesięć euro."
+        "es_form": "Esta es [la televisión::telewizja].",
+        "pl_translation": "To jest telewizja."
       },
       {
-        "es_form": "Guarda [el televisión::telewizja] en el armario.",
-        "pl_translation": "Schowaj telewizja do szafy."
+        "es_form": "Hablamos sobre [la televisión::telewizja].",
+        "pl_translation": "Rozmawiamy o tym, czym jest telewizja."
       },
       {
-        "es_form": "Se me rompio [el televisión::telewizja].",
-        "pl_translation": "Zepsuł mi się telewizja."
+        "es_form": "No es [la televisión::telewizja].",
+        "pl_translation": "To nie jest telewizja."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "radio",
     "examples": [
       {
-        "es_form": "Necesito [la radio::radio] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "Esta es [la radio::radio].",
+        "pl_translation": "To jest radio."
       },
       {
-        "es_form": "Se me rompio [la radio::radio].",
-        "pl_translation": "Zepsuł mi się radio."
+        "es_form": "[La radio::radio] está aquí.",
+        "pl_translation": "Radio jest tutaj."
       },
       {
-        "es_form": "[La radio::radio] cuesta diez euros.",
-        "pl_translation": "Radio kosztuje dziesięć euro."
+        "es_form": "No es [la radio::radio].",
+        "pl_translation": "To nie jest radio."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "komputer",
     "examples": [
       {
-        "es_form": "Se me rompio [el ordenador::komputer].",
-        "pl_translation": "Zepsuł mi się komputer."
+        "es_form": "¿Dónde está [el ordenador::komputer]?",
+        "pl_translation": "Gdzie jest komputer?"
       },
       {
-        "es_form": "¿Has visto [el ordenador::komputer]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "[El ordenador::komputer] está aquí.",
+        "pl_translation": "Komputer jest tutaj."
       },
       {
-        "es_form": "Necesito [el ordenador::komputer] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "No es [el ordenador::komputer].",
+        "pl_translation": "To nie jest komputer."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "internet",
     "examples": [
       {
-        "es_form": "¿Has visto [el internet::internet]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "¿Dónde está [el internet::internet]?",
+        "pl_translation": "Gdzie jest internet?"
       },
       {
-        "es_form": "Guarda [el internet::internet] en el armario.",
-        "pl_translation": "Schowaj internet do szafy."
+        "es_form": "[El internet::internet] está aquí.",
+        "pl_translation": "Internet jest tutaj."
       },
       {
-        "es_form": "[El internet::internet] está sobre la mesa.",
-        "pl_translation": "Internet jest na stole."
+        "es_form": "Este es [el internet::internet].",
+        "pl_translation": "To jest internet."
       }
     ]
   },
@@ -138,54 +138,54 @@
     "pl_word": "impreza",
     "examples": [
       {
-        "es_form": "[La fiesta::impreza] está sobre la mesa.",
-        "pl_translation": "Impreza jest na stole."
+        "es_form": "No es [la fiesta::impreza].",
+        "pl_translation": "To nie jest impreza."
       },
       {
-        "es_form": "Necesito [la fiesta::impreza] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "Esta es [la fiesta::impreza].",
+        "pl_translation": "To jest impreza."
       },
       {
-        "es_form": "Se me rompio [la fiesta::impreza].",
-        "pl_translation": "Zepsuł mi się impreza."
+        "es_form": "[La fiesta::impreza] está aquí.",
+        "pl_translation": "Impreza jest tutaj."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El vacaciones",
+    "es_word": "Las vacaciones",
     "pl_word": "wakacje",
     "examples": [
       {
-        "es_form": "[El vacaciones::wakacje] cuesta diez euros.",
-        "pl_translation": "Wakacje kosztuje dziesięć euro."
+        "es_form": "Estas son [las vacaciones::wakacje].",
+        "pl_translation": "To są wakacje."
       },
       {
-        "es_form": "[El vacaciones::wakacje] es de madera.",
-        "pl_translation": "Wakacje jest z drewna."
+        "es_form": "¿Dónde están [las vacaciones::wakacje]?",
+        "pl_translation": "Gdzie są wakacje?"
       },
       {
-        "es_form": "[El vacaciones::wakacje] está sobre la mesa.",
-        "pl_translation": "Wakacje jest na stole."
+        "es_form": "[Las vacaciones::wakacje] están aquí.",
+        "pl_translation": "Wakacje są tutaj."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El afición",
+    "es_word": "La afición",
     "pl_word": "hobby",
     "examples": [
       {
-        "es_form": "Compré [el afición::hobby] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Esta es [la afición::hobby].",
+        "pl_translation": "To jest hobby."
       },
       {
-        "es_form": "Se me rompio [el afición::hobby].",
-        "pl_translation": "Zepsuł mi się hobby."
+        "es_form": "[La afición::hobby] está aquí.",
+        "pl_translation": "Hobby jest tutaj."
       },
       {
-        "es_form": "[El afición::hobby] cuesta diez euros.",
-        "pl_translation": "Hobby kosztuje dziesięć euro."
+        "es_form": "No es [la afición::hobby].",
+        "pl_translation": "To nie jest hobby."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "ciekawy",
     "examples": [
       {
-        "es_form": "Tengo una casa [interesante::ciekawy].",
-        "pl_translation": "Mam ciekawy dom."
+        "es_form": "Es muy [interesante::ciekawy].",
+        "pl_translation": "Jest bardzo ciekawy."
       },
       {
-        "es_form": "Hace un día [interesante::ciekawy].",
-        "pl_translation": "Jest ciekawy dzień."
+        "es_form": "Parece [interesante::ciekawy].",
+        "pl_translation": "Wydaje się ciekawy."
       },
       {
-        "es_form": "Nada es más [interesante::ciekawy] que la familia.",
-        "pl_translation": "Nic nie jest ciekawy od rodziny."
+        "es_form": "Es demasiado [interesante::ciekawy].",
+        "pl_translation": "Jest zbyt ciekawy."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "nudny",
     "examples": [
       {
-        "es_form": "Este coche es [aburrido::nudny].",
-        "pl_translation": "Ten samochód jest nudny."
+        "es_form": "No es [aburrido::nudny].",
+        "pl_translation": "Nie jest nudny."
       },
       {
-        "es_form": "Es una persona muy [aburrido::nudny].",
-        "pl_translation": "To jest bardzo nudny osoba."
+        "es_form": "Parece [aburrido::nudny].",
+        "pl_translation": "Wydaje się nudny."
       },
       {
-        "es_form": "La comida está [aburrida::nudny].",
-        "pl_translation": "Jedzenie jest nudny."
+        "es_form": "Es demasiado [aburrido::nudny].",
+        "pl_translation": "Jest zbyt nudny."
       }
     ]
   },

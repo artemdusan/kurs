@@ -13,8 +13,8 @@
         "pl_translation": "Czas jest na wagę złota."
       },
       {
-        "es_form": "Esperé [el tiempo::czas] entero.",
-        "pl_translation": "Czekałem"
+        "es_form": "¿Dónde está [el tiempo::czas]?",
+        "pl_translation": "Gdzie jest czas?"
       }
     ]
   },
@@ -24,8 +24,8 @@
     "pl_word": "dzień",
     "examples": [
       {
-        "es_form": "No tengo [el día::dzień] suficiente.",
-        "pl_translation": "Nie mam wystarczająco dzień."
+        "es_form": "Este es [el día::dzień].",
+        "pl_translation": "To jest dzień."
       },
       {
         "es_form": "[El día::dzień] es oro.",
@@ -33,7 +33,7 @@
       },
       {
         "es_form": "[El día::dzień] se me hizo eterno.",
-        "pl_translation": "Dzień mi się dłużył"
+        "pl_translation": "Dzień mi się dłużył."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "rok",
     "examples": [
       {
-        "es_form": "Llego [el año::rok] de la boda.",
-        "pl_translation": "Nadszedł rok ślubu."
+        "es_form": "Este es [el año::rok].",
+        "pl_translation": "To jest rok."
       },
       {
-        "es_form": "No tengo [el año::rok] suficiente.",
-        "pl_translation": "Nie mam wystarczająco rok."
+        "es_form": "¿Dónde está [el año::rok]?",
+        "pl_translation": "Gdzie jest rok?"
       },
       {
-        "es_form": "Esperé [el año::rok] entero.",
-        "pl_translation": "Czekałem"
+        "es_form": "[El año::rok] está aquí.",
+        "pl_translation": "Rok jest tutaj."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "godzina",
     "examples": [
       {
-        "es_form": "No tengo [la hora::godzina] suficiente.",
-        "pl_translation": "Nie mam wystarczająco godzina."
+        "es_form": "¿Dónde está [la hora::godzina]?",
+        "pl_translation": "Gdzie jest godzina?"
       },
       {
-        "es_form": "[La hora::godzina] se me hizo eterno.",
-        "pl_translation": "Godzina mi się dłużył"
+        "es_form": "Esta es [la hora::godzina].",
+        "pl_translation": "To jest godzina."
       },
       {
-        "es_form": "Esperé [la hora::godzina] entero.",
-        "pl_translation": "Czekałem"
+        "es_form": "[La hora::godzina] está aquí.",
+        "pl_translation": "Godzina jest tutaj."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "wiek",
     "examples": [
       {
-        "es_form": "Esperé [la edad::wiek] entero.",
-        "pl_translation": "Czekałem"
+        "es_form": "Esta es [la edad::wiek].",
+        "pl_translation": "To jest wiek."
       },
       {
-        "es_form": "Llego [la edad::wiek] de la boda.",
-        "pl_translation": "Nadszedł wiek ślubu."
+        "es_form": "[La edad::wiek] está aquí.",
+        "pl_translation": "Wiek jest tutaj."
       },
       {
-        "es_form": "No tengo [la edad::wiek] suficiente.",
-        "pl_translation": "Nie mam wystarczająco wiek."
+        "es_form": "No es [la edad::wiek].",
+        "pl_translation": "To nie jest wiek."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "głód",
     "examples": [
       {
-        "es_form": "Compré [el hambre::głód] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "¿Dónde está [el hambre::głód]?",
+        "pl_translation": "Gdzie jest głód?"
       },
       {
-        "es_form": "[El hambre::głód] es de madera.",
-        "pl_translation": "Głód jest z drewna."
+        "es_form": "[El hambre::głód] está aquí.",
+        "pl_translation": "Głód jest tutaj."
       },
       {
-        "es_form": "[El hambre::głód] cuesta diez euros.",
-        "pl_translation": "Głód kosztuje dziesięć euro."
+        "es_form": "Este es [el hambre::głód].",
+        "pl_translation": "To jest głód."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "pragnienie",
     "examples": [
       {
-        "es_form": "Necesito [la sed::pragnienie] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "Esta es [la sed::pragnienie].",
+        "pl_translation": "To jest pragnienie."
       },
       {
-        "es_form": "[La sed::pragnienie] es de madera.",
-        "pl_translation": "Pragnienie jest z drewna."
+        "es_form": "Hablamos sobre [la sed::pragnienie].",
+        "pl_translation": "Rozmawiamy o tym, czym jest pragnienie."
       },
       {
-        "es_form": "Guarda [la sed::pragnienie] en el armario.",
-        "pl_translation": "Schowaj pragnienie do szafy."
+        "es_form": "No es [la sed::pragnienie].",
+        "pl_translation": "To nie jest pragnienie."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "sen, senność",
     "examples": [
       {
-        "es_form": "[El sueño::sen, senność] es de madera.",
-        "pl_translation": "Sen, senność jest z drewna."
+        "es_form": "Este es [el sueño::sen].",
+        "pl_translation": "To jest sen."
       },
       {
-        "es_form": "Compré [el sueño::sen, senność] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "¿Dónde está [el sueño::sen]?",
+        "pl_translation": "Gdzie jest sen?"
       },
       {
-        "es_form": "[El sueño::sen, senność] está sobre la mesa.",
-        "pl_translation": "Sen, senność jest na stole."
+        "es_form": "No es [el sueño::sen].",
+        "pl_translation": "To nie jest sen."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "szczęście (fart)",
     "examples": [
       {
-        "es_form": "[La suerte::szczęście (fart)] es la clave del éxito.",
-        "pl_translation": "Szczęście jest kluczem do sukcesu."
+        "es_form": "No es [la suerte::szczęście].",
+        "pl_translation": "To nie jest szczęście."
       },
       {
-        "es_form": "[La suerte::szczęście (fart)] es muy importante.",
-        "pl_translation": "Szczęście jest bardzo ważny"
+        "es_form": "Esta es [la suerte::szczęście].",
+        "pl_translation": "To jest szczęście."
       },
       {
-        "es_form": "[La suerte::szczęście (fart)] cambio mi vida.",
-        "pl_translation": "Szczęście zmienił"
+        "es_form": "[La suerte::szczęście] está aquí.",
+        "pl_translation": "Szczęście jest tutaj."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "racja, powód",
     "examples": [
       {
-        "es_form": "Guarda [el razón::racja, powód] en el armario.",
-        "pl_translation": "Schowaj racja, powód do szafy."
+        "es_form": "Este es [el razón::racja].",
+        "pl_translation": "To jest racja."
       },
       {
-        "es_form": "Necesito [el razón::racja, powód] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "No es [el razón::racja].",
+        "pl_translation": "To nie jest racja."
       },
       {
-        "es_form": "[El razón::racja, powód] cuesta diez euros.",
-        "pl_translation": "Racja, powód kosztuje dziesięć euro."
+        "es_form": "Hablamos sobre [el razón::racja].",
+        "pl_translation": "Rozmawiamy o tym, czym jest racja."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "gorący",
     "examples": [
       {
-        "es_form": "Mi amigo es [caliente::gorący] y simpático.",
-        "pl_translation": "Mój przyjaciel jest gorący i sympatyczny."
+        "es_form": "Es muy [caliente::gorący].",
+        "pl_translation": "Jest bardzo gorący."
       },
       {
-        "es_form": "Se compro un vestido [caliente::gorący].",
-        "pl_translation": "Kupiła sobie gorący sukienkę."
+        "es_form": "Parece [caliente::gorący].",
+        "pl_translation": "Wydaje się gorący."
       },
       {
-        "es_form": "Nada es más [caliente::gorący] que la familia.",
-        "pl_translation": "Nic nie jest gorący od rodziny."
+        "es_form": "Es demasiado [caliente::gorący].",
+        "pl_translation": "Jest zbyt gorący."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "zimny",
     "examples": [
       {
-        "es_form": "La comida está [fría::zimny].",
-        "pl_translation": "Jedzenie jest zimny."
+        "es_form": "Es muy [frío::zimny].",
+        "pl_translation": "Jest bardzo zimny."
       },
       {
-        "es_form": "Tengo una casa [fría::zimny].",
-        "pl_translation": "Mam zimny dom."
+        "es_form": "No es [frío::zimny].",
+        "pl_translation": "Nie jest zimny."
       },
       {
-        "es_form": "Hace un día [frío::zimny].",
-        "pl_translation": "Jest zimny dzień."
+        "es_form": "Parece [frío::zimny].",
+        "pl_translation": "Wydaje się zimny."
       }
     ]
   },

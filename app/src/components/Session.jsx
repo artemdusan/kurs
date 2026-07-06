@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { saveSettings } from '../db.js';
 import { buildSessionPool, buildMistakesPool, pickNext, recordAnswer, bumpDailyStats, SESSION_DONE_STREAK } from '../engine/session.js';
 import { checkAnswer, splitArticle } from '../engine/answer.js';
-import { buildKeyboard } from '../engine/keyboard.js';
+import { buildKeyboard, articleButtons } from '../engine/keyboard.js';
 import { buildMcqOptions } from '../engine/mcq.js';
 import Keyboard from './Keyboard.jsx';
 import Cloze, { parseExample } from './Cloze.jsx';
@@ -83,6 +83,7 @@ export default function Session({ settings, maxLesson, mode = 'normal', onExit, 
       mode: answerMode,
       mcqOptions,
       keyboard: answerMode === 'type' ? buildKeyboard(expected, { isNoun }) : null,
+      articles: isNoun ? articleButtons(splitArticle(expected).article) : [],
     });
     setTyped('');
     setArticle('');
@@ -199,6 +200,7 @@ export default function Session({ settings, maxLesson, mode = 'normal', onExit, 
           <Keyboard
             layout={task.keyboard}
             isNoun={task.isNoun}
+            articles={task.articles}
             article={article}
             onArticle={(a) => setArticle(a === article ? '' : a)}
             onKey={(ch) => setTyped((t) => t + ch)}

@@ -5,8 +5,8 @@
     "pl_word": "wybór",
     "examples": [
       {
-        "es_form": "[La elección::wybór] es la clave del éxito.",
-        "pl_translation": "Wybór jest kluczem do sukcesu."
+        "es_form": "Esta es [la elección::wybór].",
+        "pl_translation": "To jest wybór."
       },
       {
         "es_form": "No entiendo [la elección::wybór].",
@@ -28,12 +28,12 @@
         "pl_translation": "Jakość jest ważna."
       },
       {
-        "es_form": "Este producto tiene buena [calidad::jakość].",
-        "pl_translation": "Ten produkt ma dobrą jakość."
+        "es_form": "Esta es [la calidad::jakość].",
+        "pl_translation": "To jest jakość."
       },
       {
-        "es_form": "Prefiero [calidad::jakość] a cantidad.",
-        "pl_translation": "Wolę jakość od ilości."
+        "es_form": "No es [la calidad::jakość].",
+        "pl_translation": "To nie jest jakość."
       }
     ]
   },
@@ -66,8 +66,8 @@
         "pl_translation": "Zwrot towaru jest możliwy w ciągu 30 dni."
       },
       {
-        "es_form": "Solicité [la devolución::zwrot towaru] ayer.",
-        "pl_translation": "Zgłosiłem"
+        "es_form": "Esta es [la devolución::zwrot towaru].",
+        "pl_translation": "To jest zwrot towaru."
       },
       {
         "es_form": "[La devolución::zwrot towaru] fue aceptada.",
@@ -85,12 +85,12 @@
         "pl_translation": "Konsument jest bardzo miły."
       },
       {
-        "es_form": "Hablé con [el consumidor::konsument] ayer.",
-        "pl_translation": "Rozmawiałem"
+        "es_form": "Este es [el consumidor::konsument].",
+        "pl_translation": "To jest konsument."
       },
       {
         "es_form": "Este es [el consumidor::konsument] del que hablé.",
-        "pl_translation": "To jest konsument, o którym mówiłem"
+        "pl_translation": "To jest konsument, o którym mówiłem."
       }
     ]
   },
@@ -100,12 +100,12 @@
     "pl_word": "obsługa klienta",
     "examples": [
       {
-        "es_form": "Hablé con [la atención al cliente::obsługa klienta] ayer.",
-        "pl_translation": "Rozmawiałem"
+        "es_form": "¿Dónde está [la atención al cliente::obsługa klienta]?",
+        "pl_translation": "Gdzie jest obsługa klienta?"
       },
       {
-        "es_form": "Me quejé de [la atención al cliente::obsługa klienta].",
-        "pl_translation": "Poskarżyłem"
+        "es_form": "[La atención al cliente::obsługa klienta] está aquí.",
+        "pl_translation": "Obsługa klienta jest tutaj."
       },
       {
         "es_form": "Mejoraron [la atención al cliente::obsługa klienta] este año.",
@@ -138,16 +138,16 @@
     "pl_word": "zamówienie",
     "examples": [
       {
-        "es_form": "¿Has visto [el pedido::zamówienie]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Este es [el pedido::zamówienie].",
+        "pl_translation": "To jest zamówienie."
       },
       {
-        "es_form": "Hice [el pedido::zamówienie] ayer.",
-        "pl_translation": "Zrobiłem"
+        "es_form": "Hablamos sobre [el pedido::zamówienie].",
+        "pl_translation": "Rozmawiamy o tym, czym jest zamówienie."
       },
       {
-        "es_form": "Cancelé [el pedido::zamówienie] a tiempo.",
-        "pl_translation": "Anulowałem"
+        "es_form": "No es [el pedido::zamówienie].",
+        "pl_translation": "To nie jest zamówienie."
       }
     ]
   },
@@ -161,8 +161,8 @@
         "pl_translation": "Gdzie jest wózek sklepowy?"
       },
       {
-        "es_form": "Llené [el carrito::wózek sklepowy] con frutas.",
-        "pl_translation": "Wypełniłem"
+        "es_form": "Este es [el carrito::wózek sklepowy].",
+        "pl_translation": "To jest wózek sklepowy."
       },
       {
         "es_form": "[El carrito::wózek sklepowy] está vacío.",
@@ -180,8 +180,8 @@
         "pl_translation": "Produkty są na półce sklepowej."
       },
       {
-        "es_form": "Ordené [la estantería::półka sklepowa].",
-        "pl_translation": "Uporządkowałem"
+        "es_form": "Esta es [la estantería::półka sklepowa].",
+        "pl_translation": "To jest półka sklepowa."
       },
       {
         "es_form": "[La estantería::półka sklepowa] está llena.",
@@ -195,16 +195,16 @@
     "pl_word": "wygodny",
     "examples": [
       {
-        "es_form": "Tengo una casa [cómoda::wygodny].",
-        "pl_translation": "Mam wygodny dom."
+        "es_form": "No es [cómodo::wygodny].",
+        "pl_translation": "Nie jest wygodny."
       },
       {
-        "es_form": "Este sofá es muy [cómodo::wygodny].",
-        "pl_translation": "Ta sofa jest bardzo wygodna."
+        "es_form": "Parece [cómodo::wygodny].",
+        "pl_translation": "Wydaje się wygodny."
       },
       {
-        "es_form": "Esta silla es [cómoda::wygodny].",
-        "pl_translation": "To krzesło jest wygodne."
+        "es_form": "Es demasiado [cómodo::wygodny].",
+        "pl_translation": "Jest zbyt wygodny."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "przeceniony",
     "examples": [
       {
-        "es_form": "Este coche está [rebajado::przeceniony].",
-        "pl_translation": "Ten samochód jest przeceniony."
+        "es_form": "Es muy [rebajado::przeceniony].",
+        "pl_translation": "Jest bardzo przeceniony."
       },
       {
-        "es_form": "El precio fue [rebajado::przeceniony] ayer.",
-        "pl_translation": "Cena została przeceniona wczoraj."
+        "es_form": "No es [rebajado::przeceniony].",
+        "pl_translation": "Nie jest przeceniony."
       },
       {
-        "es_form": "Este artículo está [rebajado::przeceniony].",
-        "pl_translation": "Ten artykuł jest przeceniony."
+        "es_form": "Es demasiado [rebajado::przeceniony].",
+        "pl_translation": "Jest zbyt przeceniony."
       }
     ]
   },

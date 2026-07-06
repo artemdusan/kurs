@@ -6,7 +6,7 @@
     "examples": [
       {
         "es_form": "Este es [el enfermero::pielęgniarz] del que hablé.",
-        "pl_translation": "To jest pielęgniarz, o którym mówiłem"
+        "pl_translation": "To jest pielęgniarz, o którym mówiłem."
       },
       {
         "es_form": "[El enfermero::pielęgniarz] vive en mi calle.",
@@ -24,8 +24,8 @@
     "pl_word": "pielęgniarka",
     "examples": [
       {
-        "es_form": "Conozco a [la enfermera::pielęgniarka].",
-        "pl_translation": "Znam pielęgniarkę."
+        "es_form": "¿Dónde está [la enfermera::pielęgniarka]?",
+        "pl_translation": "Gdzie jest pielęgniarka?"
       },
       {
         "es_form": "Mi [hermana::siostra] es [la enfermera::pielęgniarka].",
@@ -62,16 +62,16 @@
     "pl_word": "badanie",
     "examples": [
       {
-        "es_form": "¿Quieres [el análisis::badanie]?",
-        "pl_translation": "Chcesz badanie?"
+        "es_form": "Este es [el análisis::badanie].",
+        "pl_translation": "To jest badanie."
       },
       {
-        "es_form": "Me gusta mucho [el análisis::badanie].",
-        "pl_translation": "Bardzo lubię badanie."
+        "es_form": "Hablamos sobre [el análisis::badanie].",
+        "pl_translation": "Rozmawiamy o tym, czym jest badanie."
       },
       {
-        "es_form": "[El análisis::badanie] se hace con leche.",
-        "pl_translation": "Badanie robi się z mleka."
+        "es_form": "No es [el análisis::badanie].",
+        "pl_translation": "To nie jest badanie."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "objaw",
     "examples": [
       {
-        "es_form": "[El síntoma::objaw] cuesta diez euros.",
-        "pl_translation": "Objaw kosztuje dziesięć euro."
+        "es_form": "No es [el síntoma::objaw].",
+        "pl_translation": "To nie jest objaw."
       },
       {
-        "es_form": "Compré [el síntoma::objaw] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Este es [el síntoma::objaw].",
+        "pl_translation": "To jest objaw."
       },
       {
-        "es_form": "Se me rompió [el síntoma::objaw].",
-        "pl_translation": "Zepsuł mi się objaw."
+        "es_form": "¿Dónde está [el síntoma::objaw]?",
+        "pl_translation": "Gdzie jest objaw?"
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "kaszel",
     "examples": [
       {
-        "es_form": "[La tos::kaszel] cuesta diez euros.",
-        "pl_translation": "Kaszel kosztuje dziesięć euro."
+        "es_form": "Esta es [la tos::kaszel].",
+        "pl_translation": "To jest kaszel."
       },
       {
-        "es_form": "Guarda [la tos::kaszel] en el armario.",
-        "pl_translation": "Schowaj kaszel do szafy."
+        "es_form": "¿Dónde está [la tos::kaszel]?",
+        "pl_translation": "Gdzie jest kaszel?"
       },
       {
-        "es_form": "¿Has visto [la tos::kaszel]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "[La tos::kaszel] está aquí.",
+        "pl_translation": "Kaszel jest tutaj."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "przeziębienie",
     "examples": [
       {
-        "es_form": "Necesito [el resfriado::przeziębienie] nuevo.",
-        "pl_translation": "Potrzebuję nowe przeziębienie."
+        "es_form": "Este es [el resfriado::przeziębienie].",
+        "pl_translation": "To jest przeziębienie."
       },
       {
-        "es_form": "Compré [el resfriado::przeziębienie] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "No es [el resfriado::przeziębienie].",
+        "pl_translation": "To nie jest przeziębienie."
       },
       {
-        "es_form": "[El resfriado::przeziębienie] está sobre la mesa.",
-        "pl_translation": "Przeziębienie jest na stole."
+        "es_form": "Hablamos sobre [el resfriado::przeziębienie].",
+        "pl_translation": "Rozmawiamy o tym, czym jest przeziębienie."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "zastrzyk",
     "examples": [
       {
-        "es_form": "Se me rompió [la inyección::zastrzyk].",
-        "pl_translation": "Zepsuł mi się zastrzyk."
+        "es_form": "¿Dónde está [la inyección::zastrzyk]?",
+        "pl_translation": "Gdzie jest zastrzyk?"
       },
       {
-        "es_form": "Compré [la inyección::zastrzyk] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "[La inyección::zastrzyk] está aquí.",
+        "pl_translation": "Zastrzyk jest tutaj."
       },
       {
-        "es_form": "¿Has visto [la inyección::zastrzyk]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "No es [la inyección::zastrzyk].",
+        "pl_translation": "To nie jest zastrzyk."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "odporny",
     "examples": [
       {
-        "es_form": "Se compró un vestido [resistente::odporny].",
-        "pl_translation": "Kupiła sobie odporną sukienkę."
+        "es_form": "Es muy [resistente::odporny].",
+        "pl_translation": "Jest bardzo odporny."
       },
       {
-        "es_form": "Hace un día [resistente::odporny].",
-        "pl_translation": "Jest odporny dzień."
+        "es_form": "No es [resistente::odporny].",
+        "pl_translation": "Nie jest odporny."
       },
       {
-        "es_form": "Tengo una casa [resistente::odporny].",
-        "pl_translation": "Mam odporny dom."
+        "es_form": "Es demasiado [resistente::odporny].",
+        "pl_translation": "Jest zbyt odporny."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "wrażliwy",
     "examples": [
       {
-        "es_form": "Mi amigo es [sensible::wrażliwy] y simpático.",
-        "pl_translation": "Mój przyjaciel jest wrażliwy i sympatyczny."
+        "es_form": "No es [sensible::wrażliwy].",
+        "pl_translation": "Nie jest wrażliwy."
       },
       {
-        "es_form": "Es un lugar [sensible::wrażliwy] para vivir.",
-        "pl_translation": "To jest wrażliwe miejsce do życia."
+        "es_form": "Parece [sensible::wrażliwy].",
+        "pl_translation": "Wydaje się wrażliwy."
       },
       {
-        "es_form": "La comida está [sensible::wrażliwy].",
-        "pl_translation": "Jedzenie jest wrażliwy."
+        "es_form": "Es demasiado [sensible::wrażliwy].",
+        "pl_translation": "Jest zbyt wrażliwy."
       }
     ]
   },

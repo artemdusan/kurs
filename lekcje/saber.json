@@ -5,16 +5,16 @@
     "pl_word": "prawda",
     "examples": [
       {
-        "es_form": "Tienes que aceptar [la verdad::prawda].",
-        "pl_translation": "Musisz zaakceptować prawda."
+        "es_form": "¿Dónde está [la verdad::prawda]?",
+        "pl_translation": "Gdzie jest prawda?"
       },
       {
-        "es_form": "[La verdad::prawda] cambio mi vida.",
-        "pl_translation": "Prawda zmienił"
+        "es_form": "[La verdad::prawda] está aquí.",
+        "pl_translation": "Prawda jest tutaj."
       },
       {
-        "es_form": "[La verdad::prawda] es la clave del éxito.",
-        "pl_translation": "Prawda jest kluczem do sukcesu."
+        "es_form": "Esta es [la verdad::prawda].",
+        "pl_translation": "To jest prawda."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "kłamstwo",
     "examples": [
       {
-        "es_form": "[La mentira::kłamstwo] es muy importante.",
-        "pl_translation": "Kłamstwo jest bardzo ważny"
+        "es_form": "Esta es [la mentira::kłamstwo].",
+        "pl_translation": "To jest kłamstwo."
       },
       {
-        "es_form": "[La mentira::kłamstwo] cambio mi vida.",
-        "pl_translation": "Kłamstwo zmienił"
+        "es_form": "No es [la mentira::kłamstwo].",
+        "pl_translation": "To nie jest kłamstwo."
       },
       {
-        "es_form": "[La mentira::kłamstwo] es la clave del éxito.",
-        "pl_translation": "Kłamstwo jest kluczem do sukcesu."
+        "es_form": "Hablamos sobre [la mentira::kłamstwo].",
+        "pl_translation": "Rozmawiamy o tym, czym jest kłamstwo."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "sekret",
     "examples": [
       {
-        "es_form": "No entiendo [el secreto::sekret].",
-        "pl_translation": "Nie rozumiem sekret."
+        "es_form": "¿Dónde está [el secreto::sekret]?",
+        "pl_translation": "Gdzie jest sekret?"
       },
       {
-        "es_form": "Tienes que aceptar [el secreto::sekret].",
-        "pl_translation": "Musisz zaakceptować sekret."
+        "es_form": "[El secreto::sekret] está aquí.",
+        "pl_translation": "Sekret jest tutaj."
       },
       {
-        "es_form": "[El secreto::sekret] cambio mi vida.",
-        "pl_translation": "Sekret zmienił"
+        "es_form": "No es [el secreto::sekret].",
+        "pl_translation": "To nie jest sekret."
       }
     ]
   },
@@ -62,35 +62,35 @@
     "pl_word": "dana, fakt",
     "examples": [
       {
-        "es_form": "No entiendo [el dato::dana, fakt].",
-        "pl_translation": "Nie rozumiem dana, fakt."
+        "es_form": "¿Dónde está [el dato::dana]?",
+        "pl_translation": "Gdzie jest dana?"
       },
       {
-        "es_form": "[El dato::dana, fakt] es muy importante.",
-        "pl_translation": "Dana, fakt jest bardzo ważny"
+        "es_form": "[El dato::dana] está aquí.",
+        "pl_translation": "Dana jest tutaj."
       },
       {
-        "es_form": "Hablamos sobre [el dato::dana, fakt].",
-        "pl_translation": "Rozmawialiśmy o dana, fakt."
+        "es_form": "No es [el dato::dana].",
+        "pl_translation": "To nie jest dana."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El información",
+    "es_word": "La información",
     "pl_word": "informacja",
     "examples": [
       {
-        "es_form": "No entiendo [el información::informacja].",
-        "pl_translation": "Nie rozumiem informacja."
+        "es_form": "Esta es [la información::informacja].",
+        "pl_translation": "To jest informacja."
       },
       {
-        "es_form": "[El información::informacja] cambio mi vida.",
-        "pl_translation": "Informacja zmienił"
+        "es_form": "No es [la información::informacja].",
+        "pl_translation": "To nie jest informacja."
       },
       {
-        "es_form": "[El información::informacja] es la clave del éxito.",
-        "pl_translation": "Informacja jest kluczem do sukcesu."
+        "es_form": "Hablamos sobre [la información::informacja].",
+        "pl_translation": "Rozmawiamy o tym, czym jest informacja."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "wiedza",
     "examples": [
       {
-        "es_form": "Tienes que aceptar [el conocimiento::wiedza].",
-        "pl_translation": "Musisz zaakceptować wiedza."
+        "es_form": "Este es [el conocimiento::wiedza].",
+        "pl_translation": "To jest wiedza."
       },
       {
-        "es_form": "[El conocimiento::wiedza] es la clave del éxito.",
-        "pl_translation": "Wiedza jest kluczem do sukcesu."
+        "es_form": "No es [el conocimiento::wiedza].",
+        "pl_translation": "To nie jest wiedza."
       },
       {
-        "es_form": "Hablamos sobre [el conocimiento::wiedza].",
-        "pl_translation": "Rozmawialiśmy o wiedza."
+        "es_form": "[El conocimiento::wiedza] está aquí.",
+        "pl_translation": "Wiedza jest tutaj."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "historia",
     "examples": [
       {
-        "es_form": "[La historia::historia] es la clave del éxito.",
-        "pl_translation": "Historia jest kluczem do sukcesu."
+        "es_form": "Esta es [la historia::historia].",
+        "pl_translation": "To jest historia."
       },
       {
-        "es_form": "Hablamos sobre [la historia::historia].",
-        "pl_translation": "Rozmawialiśmy o historia."
+        "es_form": "¿Dónde está [la historia::historia]?",
+        "pl_translation": "Gdzie jest historia?"
       },
       {
-        "es_form": "No entiendo [la historia::historia].",
-        "pl_translation": "Nie rozumiem historia."
+        "es_form": "[La historia::historia] está aquí.",
+        "pl_translation": "Historia jest tutaj."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "nauka",
     "examples": [
       {
-        "es_form": "[La ciencia::nauka] es muy importante.",
-        "pl_translation": "Nauka jest bardzo ważny"
+        "es_form": "Esta es [la ciencia::nauka].",
+        "pl_translation": "To jest nauka."
       },
       {
-        "es_form": "[La ciencia::nauka] cambio mi vida.",
-        "pl_translation": "Nauka zmienił"
+        "es_form": "[La ciencia::nauka] está aquí.",
+        "pl_translation": "Nauka jest tutaj."
       },
       {
-        "es_form": "Tienes que aceptar [la ciencia::nauka].",
-        "pl_translation": "Musisz zaakceptować nauka."
+        "es_form": "No es [la ciencia::nauka].",
+        "pl_translation": "To nie jest nauka."
       }
     ]
   },
@@ -161,12 +161,12 @@
         "pl_translation": "Wiadomość otwiera się o ósmej."
       },
       {
-        "es_form": "Visitamos [la noticia::wiadomość (news)] la semana pasada.",
-        "pl_translation": "Odwiedziliśmy wiadomość w zeszłym tygodniu."
+        "es_form": "Esta es [la noticia::wiadomość].",
+        "pl_translation": "To jest wiadomość."
       },
       {
-        "es_form": "¿Donde está [la noticia::wiadomość (news)]?",
-        "pl_translation": "Gdzie jest wiadomość?"
+        "es_form": "No es [la noticia::wiadomość].",
+        "pl_translation": "To nie jest wiadomość."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "pamięć",
     "examples": [
       {
-        "es_form": "¿Has visto [la memoria::pamięć]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "¿Dónde está [la memoria::pamięć]?",
+        "pl_translation": "Gdzie jest pamięć?"
       },
       {
-        "es_form": "[La memoria::pamięć] está sobre la mesa.",
-        "pl_translation": "Pamięć jest na stole."
+        "es_form": "Esta es [la memoria::pamięć].",
+        "pl_translation": "To jest pamięć."
       },
       {
-        "es_form": "Guarda [la memoria::pamięć] en el armario.",
-        "pl_translation": "Schowaj pamięć do szafy."
+        "es_form": "[La memoria::pamięć] está aquí.",
+        "pl_translation": "Pamięć jest tutaj."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "pewny, prawdziwy",
     "examples": [
       {
-        "es_form": "Es una persona muy [cierto::pewny, prawdziwy].",
-        "pl_translation": "To jest bardzo pewny, prawdziwy osoba."
+        "es_form": "No es [cierto::pewny].",
+        "pl_translation": "Nie jest pewny."
       },
       {
-        "es_form": "Tengo una casa [cierta::pewny, prawdziwy].",
-        "pl_translation": "Mam pewny, prawdziwy dom."
+        "es_form": "Parece [cierto::pewny].",
+        "pl_translation": "Wydaje się pewny."
       },
       {
-        "es_form": "Este coche es [cierto::pewny, prawdziwy].",
-        "pl_translation": "Ten samochód jest pewny, prawdziwy."
+        "es_form": "Es demasiado [cierto::pewny].",
+        "pl_translation": "Jest zbyt pewny."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "fałszywy",
     "examples": [
       {
-        "es_form": "Hace un día [falso::fałszywy].",
-        "pl_translation": "Jest fałszywy dzień."
+        "es_form": "Es muy [falso::fałszywy].",
+        "pl_translation": "Jest bardzo fałszywy."
       },
       {
-        "es_form": "Es un lugar [falso::fałszywy] para vivir.",
-        "pl_translation": "To jest fałszywy miejsce do życia."
+        "es_form": "No es [falso::fałszywy].",
+        "pl_translation": "Nie jest fałszywy."
       },
       {
-        "es_form": "Nada es más [falso::fałszywy] que la familia.",
-        "pl_translation": "Nic nie jest fałszywy od rodziny."
+        "es_form": "Es demasiado [falso::fałszywy].",
+        "pl_translation": "Jest zbyt fałszywy."
       }
     ]
   },

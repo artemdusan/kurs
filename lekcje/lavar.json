@@ -5,16 +5,16 @@
     "pl_word": "jabłko",
     "examples": [
       {
-        "es_form": "¿Quieres [la manzana::jabłko]?",
-        "pl_translation": "Chcesz jabłko?"
+        "es_form": "Esta es [la manzana::jabłko].",
+        "pl_translation": "To jest jabłko."
       },
       {
-        "es_form": "Compramos [la manzana::jabłko] en el mercado.",
-        "pl_translation": "Kupiliśmy jabłko na targu."
+        "es_form": "¿Dónde está [la manzana::jabłko]?",
+        "pl_translation": "Gdzie jest jabłko?"
       },
       {
-        "es_form": "[La manzana::jabłko] se hace con leche.",
-        "pl_translation": "Jabłko robi się z mleka."
+        "es_form": "No es [la manzana::jabłko].",
+        "pl_translation": "To nie jest jabłko."
       }
     ]
   },
@@ -32,8 +32,8 @@
         "pl_translation": "Banan jest typowy dla Hiszpanii."
       },
       {
-        "es_form": "¿Quieres [el plátano::banan]?",
-        "pl_translation": "Chcesz banana?"
+        "es_form": "Este es [el plátano::banan].",
+        "pl_translation": "To jest banan."
       }
     ]
   },
@@ -51,8 +51,8 @@
         "pl_translation": "Pomarańcza jest typowa dla Hiszpanii."
       },
       {
-        "es_form": "¿Quieres [la naranja::pomarańcza]?",
-        "pl_translation": "Chcesz pomarańczę?"
+        "es_form": "Esta es [la naranja::pomarańcza].",
+        "pl_translation": "To jest pomarańcza."
       }
     ]
   },
@@ -62,12 +62,12 @@
     "pl_word": "cytryna",
     "examples": [
       {
-        "es_form": "¿Quieres [el limón::cytryna]?",
-        "pl_translation": "Chcesz cytrynę?"
+        "es_form": "¿Dónde está [el limón::cytryna]?",
+        "pl_translation": "Gdzie jest cytryna?"
       },
       {
-        "es_form": "[El limón::cytryna] se hace con leche.",
-        "pl_translation": "Cytryna robi się z mleka."
+        "es_form": "[El limón::cytryna] está aquí.",
+        "pl_translation": "Cytryna jest tutaj."
       },
       {
         "es_form": "[El limón::cytryna] es típico de España.",
@@ -89,8 +89,8 @@
         "pl_translation": "Bardzo lubię truskawki."
       },
       {
-        "es_form": "¿Quieres [la fresa::truskawka]?",
-        "pl_translation": "Chcesz truskawkę?"
+        "es_form": "Esta es [la fresa::truskawka].",
+        "pl_translation": "To jest truskawka."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "ziemniak",
     "examples": [
       {
-        "es_form": "[La patata::ziemniak] es típico de España.",
+        "es_form": "[La patata::ziemniak] es típica de España.",
         "pl_translation": "Ziemniak jest typowy dla Hiszpanii."
       },
       {
-        "es_form": "¿Quieres [la patata::ziemniak]?",
-        "pl_translation": "Chcesz ziemniaka?"
+        "es_form": "Esta es [la patata::ziemniak].",
+        "pl_translation": "To jest ziemniak."
       },
       {
-        "es_form": "[La patata::ziemniak] está muy rico.",
-        "pl_translation": "Ziemniak jest bardzo smaczny."
+        "es_form": "¿Dónde está [la patata::ziemniak]?",
+        "pl_translation": "Gdzie jest ziemniak?"
       }
     ]
   },
@@ -127,8 +127,8 @@
         "pl_translation": "Bardzo lubię marchewkę."
       },
       {
-        "es_form": "[La zanahoria::marchewka] se hace con leche.",
-        "pl_translation": "Marchewka robi się z mleka."
+        "es_form": "¿Dónde está [la zanahoria::marchewka]?",
+        "pl_translation": "Gdzie jest marchewka?"
       }
     ]
   },
@@ -146,8 +146,8 @@
         "pl_translation": "Cebula jest bardzo smaczna."
       },
       {
-        "es_form": "[La cebolla::cebula] se hace con leche.",
-        "pl_translation": "Cebula robi się z mleka."
+        "es_form": "¿Dónde está [la cebolla::cebula]?",
+        "pl_translation": "Gdzie jest cebula?"
       }
     ]
   },
@@ -161,8 +161,8 @@
         "pl_translation": "Pomidor jest typowy dla Hiszpanii."
       },
       {
-        "es_form": "[El tomate::pomidor] se hace con leche.",
-        "pl_translation": "Pomidor robi się z mleka."
+        "es_form": "Este es [el tomate::pomidor].",
+        "pl_translation": "To jest pomidor."
       },
       {
         "es_form": "Me gusta mucho [el tomate::pomidor].",
@@ -180,12 +180,12 @@
         "pl_translation": "Ogórek jest typowy dla Hiszpanii."
       },
       {
-        "es_form": "¿Quieres [el pepino::ogórek]?",
-        "pl_translation": "Chcesz ogórka?"
+        "es_form": "Este es [el pepino::ogórek].",
+        "pl_translation": "To jest ogórek."
       },
       {
-        "es_form": "[El pepino::ogórek] se hace con leche.",
-        "pl_translation": "Ogórek robi się z mleka."
+        "es_form": "¿Dónde está [el pepino::ogórek]?",
+        "pl_translation": "Gdzie jest ogórek?"
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "świeży",
     "examples": [
       {
-        "es_form": "Este coche es [fresco::świeży].",
-        "pl_translation": "Ten samochód jest świeży."
+        "es_form": "Es muy [fresco::świeży].",
+        "pl_translation": "Jest bardzo świeży."
       },
       {
-        "es_form": "Tengo una casa [fresca::świeży].",
-        "pl_translation": "Mam świeży dom."
+        "es_form": "No es [fresco::świeży].",
+        "pl_translation": "Nie jest świeży."
       },
       {
-        "es_form": "Nada es más [fresco::świeże] que la familia.",
-        "pl_translation": "Nic nie jest świeższe od rodziny."
+        "es_form": "Es demasiado [fresco::świeży].",
+        "pl_translation": "Jest zbyt świeży."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "dojrzały",
     "examples": [
       {
-        "es_form": "La comida está [madura::dojrzała].",
-        "pl_translation": "Jedzenie jest dojrzałe."
+        "es_form": "Es muy [maduro::dojrzały].",
+        "pl_translation": "Jest bardzo dojrzały."
       },
       {
-        "es_form": "Hace un día [maduro::dojrzały].",
-        "pl_translation": "Jest dojrzały dzień."
+        "es_form": "No es [maduro::dojrzały].",
+        "pl_translation": "Nie jest dojrzały."
       },
       {
-        "es_form": "Mi amigo es [maduro::dojrzały] y simpático.",
-        "pl_translation": "Mój przyjaciel jest dojrzały i sympatyczny."
+        "es_form": "Es demasiado [maduro::dojrzały].",
+        "pl_translation": "Jest zbyt dojrzały."
       }
     ]
   },

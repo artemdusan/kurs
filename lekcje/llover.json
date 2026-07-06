@@ -9,8 +9,8 @@
         "pl_translation": "Dzisiaj jest deszcz."
       },
       {
-        "es_form": "¿Has visto [la lluvia::deszcz]?",
-        "pl_translation": "Widziałeś deszcz?"
+        "es_form": "Esta es [la lluvia::deszcz].",
+        "pl_translation": "To jest deszcz."
       },
       {
         "es_form": "[La lluvia::deszcz] cae fuerte.",
@@ -24,8 +24,8 @@
     "pl_word": "śnieg",
     "examples": [
       {
-        "es_form": "Me gusta [la nieve::śnieg].",
-        "pl_translation": "Lubię śnieg."
+        "es_form": "Esta es [la nieve::śnieg].",
+        "pl_translation": "To jest śnieg."
       },
       {
         "es_form": "Necesito [la nieve::śnieg] nuevo.",
@@ -43,12 +43,12 @@
     "pl_word": "słońce",
     "examples": [
       {
-        "es_form": "Necesito [el sol::słońce].",
-        "pl_translation": "Potrzebuję słońca."
+        "es_form": "Este es [el sol::słońce].",
+        "pl_translation": "To jest słońce."
       },
       {
-        "es_form": "¿Has visto [el sol::słońce]?",
-        "pl_translation": "Widziałeś słońce?"
+        "es_form": "¿Dónde está [el sol::słońce]?",
+        "pl_translation": "Gdzie jest słońce?"
       },
       {
         "es_form": "[El sol::słońce] brilla fuerte.",
@@ -66,12 +66,12 @@
         "pl_translation": "Wiatr mocno wieje."
       },
       {
-        "es_form": "Siento [el viento::wiatr].",
-        "pl_translation": "Czuję wiatr."
+        "es_form": "Este es [el viento::wiatr].",
+        "pl_translation": "To jest wiatr."
       },
       {
-        "es_form": "¿Has visto [el viento::wiatr]?",
-        "pl_translation": "Czujesz wiatr?"
+        "es_form": "¿Dónde está [el viento::wiatr]?",
+        "pl_translation": "Gdzie jest wiatr?"
       }
     ]
   },
@@ -104,8 +104,8 @@
         "pl_translation": "Niebo jest bezchmurne."
       },
       {
-        "es_form": "Mira [el cielo::niebo].",
-        "pl_translation": "Spójrz na niebo."
+        "es_form": "Este es [el cielo::niebo].",
+        "pl_translation": "To jest niebo."
       },
       {
         "es_form": "[El cielo::niebo] está gris.",
@@ -142,8 +142,8 @@
         "pl_translation": "Tęcza jest piękna."
       },
       {
-        "es_form": "¿Has visto [el arcoíris::tęczę]?",
-        "pl_translation": "Widziałeś tęczę?"
+        "es_form": "Este es [el arcoíris::tęcza].",
+        "pl_translation": "To jest tęcza."
       },
       {
         "es_form": "[El arcoíris::tęcza] aparece después de la lluvia.",
@@ -157,12 +157,12 @@
     "pl_word": "lód",
     "examples": [
       {
-        "es_form": "Necesito [el hielo::lód].",
-        "pl_translation": "Potrzebuję lodu."
+        "es_form": "¿Dónde está [el hielo::lód]?",
+        "pl_translation": "Gdzie jest lód?"
       },
       {
-        "es_form": "¿Has visto [el hielo::lód]?",
-        "pl_translation": "Widziałeś lód?"
+        "es_form": "[El hielo::lód] está aquí.",
+        "pl_translation": "Lód jest tutaj."
       },
       {
         "es_form": "[El hielo::lód] se derrite.",
@@ -195,16 +195,16 @@
     "pl_word": "słoneczny",
     "examples": [
       {
-        "es_form": "Es un día [soleado::słoneczny].",
-        "pl_translation": "To jest słoneczny dzień."
+        "es_form": "No es [soleado::słoneczny].",
+        "pl_translation": "Nie jest słoneczny."
       },
       {
-        "es_form": "El tiempo está [soleado::słoneczny].",
-        "pl_translation": "Pogoda jest słoneczna."
+        "es_form": "Parece [soleado::słoneczny].",
+        "pl_translation": "Wydaje się słoneczny."
       },
       {
-        "es_form": "Hace un día [soleado::słoneczny].",
-        "pl_translation": "Jest słoneczny dzień."
+        "es_form": "Es demasiado [soleado::słoneczny].",
+        "pl_translation": "Jest zbyt słoneczny."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "mokry",
     "examples": [
       {
-        "es_form": "El suelo está [mojado::mokry].",
-        "pl_translation": "Podłoga jest mokra."
+        "es_form": "Es muy [mojado::mokry].",
+        "pl_translation": "Jest bardzo mokry."
       },
       {
-        "es_form": "Tengo la ropa [mojada::mokrą].",
-        "pl_translation": "Mam mokre ubranie."
+        "es_form": "Parece [mojado::mokry].",
+        "pl_translation": "Wydaje się mokry."
       },
       {
-        "es_form": "Todo está [mojado::mokry] por la lluvia.",
-        "pl_translation": "Wszystko jest mokre od deszczu."
+        "es_form": "Es demasiado [mojado::mokry].",
+        "pl_translation": "Jest zbyt mokry."
       }
     ]
   },
@@ -233,11 +233,11 @@
     "pl_word": "padać (o deszczu)",
     "examples": [
       {
-        "es_form": "Va a [llover] mañana.",
+        "es_form": "Va a [llover::padać] mañana.",
         "pl_translation": "Jutro będzie padać."
       },
       {
-        "es_form": "Empieza a [llover].",
+        "es_form": "Empieza a [llover::padać].",
         "pl_translation": "Zaczyna padać."
       }
     ],

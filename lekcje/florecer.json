@@ -28,8 +28,8 @@
         "pl_translation": "Pole jest niedaleko stąd."
       },
       {
-        "es_form": "Visitamos [el campo::pole] la semana pasada.",
-        "pl_translation": "Odwiedziliśmy pole w zeszłym tygodniu."
+        "es_form": "Este es [el campo::pole].",
+        "pl_translation": "To jest pole."
       },
       {
         "es_form": "¿Dónde está [el campo::pole]?",
@@ -62,8 +62,8 @@
     "pl_word": "wodospad",
     "examples": [
       {
-        "es_form": "Visitamos [la cascada::wodospad] la semana pasada.",
-        "pl_translation": "Odwiedziliśmy wodospad w zeszłym tygodniu."
+        "es_form": "Esta es [la cascada::wodospad].",
+        "pl_translation": "To jest wodospad."
       },
       {
         "es_form": "Voy a [la cascada::wodospad] cada día.",
@@ -123,8 +123,8 @@
         "pl_translation": "Wybrzeże jest niedaleko stąd."
       },
       {
-        "es_form": "Visitamos [la costa::wybrzeże] la semana pasada.",
-        "pl_translation": "Odwiedziliśmy wybrzeże w zeszłym tygodniu."
+        "es_form": "Esta es [la costa::wybrzeże].",
+        "pl_translation": "To jest wybrzeże."
       },
       {
         "es_form": "[La costa::wybrzeże] es preciosa en verano.",
@@ -165,8 +165,8 @@
         "pl_translation": "Bawiliśmy się w piasku wczoraj."
       },
       {
-        "es_form": "Se me metió [la arena::piasek] en los zapatos.",
-        "pl_translation": "Wsypał mi się piasek do butów."
+        "es_form": "¿Dónde está [la arena::piasek]?",
+        "pl_translation": "Gdzie jest piasek?"
       }
     ]
   },
@@ -176,12 +176,12 @@
     "pl_word": "błoto",
     "examples": [
       {
-        "es_form": "Necesito limpiar [el barro::błoto] de mis botas.",
-        "pl_translation": "Muszę oczyścić błoto z butów."
+        "es_form": "Este es [el barro::błoto].",
+        "pl_translation": "To jest błoto."
       },
       {
-        "es_form": "¿Has visto [el barro::błoto] en el camino?",
-        "pl_translation": "Widziałeś błoto na drodze?"
+        "es_form": "¿Dónde está [el barro::błoto]?",
+        "pl_translation": "Gdzie jest błoto?"
       },
       {
         "es_form": "[El barro::błoto] está por todas partes después de la lluvia.",
@@ -195,16 +195,16 @@
     "pl_word": "malowniczy",
     "examples": [
       {
-        "es_form": "Es un lugar [pintoresco::malowniczy] para vivir.",
-        "pl_translation": "To malownicze miejsce do życia."
+        "es_form": "No es [pintoresco::malowniczy].",
+        "pl_translation": "Nie jest malowniczy."
       },
       {
-        "es_form": "Hace un día [pintoresco::malowniczy].",
-        "pl_translation": "Jest malowniczy dzień."
+        "es_form": "Parece [pintoresco::malowniczy].",
+        "pl_translation": "Wydaje się malowniczy."
       },
       {
-        "es_form": "El pueblo es muy [pintoresco::malowniczy].",
-        "pl_translation": "Miasteczko jest bardzo malownicze."
+        "es_form": "Es demasiado [pintoresco::malowniczy].",
+        "pl_translation": "Jest zbyt malowniczy."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "dziewiczy / nietknięty",
     "examples": [
       {
-        "es_form": "Es una playa [virgen::dziewiczy ].",
-        "pl_translation": "To jest dziewicza plaża."
+        "es_form": "No es [virgen::dziewiczy / nietknięty].",
+        "pl_translation": "Nie jest dziewiczy / nietknięty."
       },
       {
-        "es_form": "Exploramos una selva [virgen::dziewiczy ].",
-        "pl_translation": "Eksplorowaliśmy dziewiczą dżunglę."
+        "es_form": "Parece [virgen::dziewiczy / nietknięty].",
+        "pl_translation": "Wydaje się dziewiczy / nietknięty."
       },
       {
-        "es_form": "La naturaleza [virgen::dziewiczy ] es impresionante.",
-        "pl_translation": "Nietknięta przyroda jest imponująca."
+        "es_form": "Es demasiado [virgen::dziewiczy / nietknięty].",
+        "pl_translation": "Jest zbyt dziewiczy / nietknięty."
       }
     ]
   },

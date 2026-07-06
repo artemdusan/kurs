@@ -9,8 +9,8 @@
         "pl_translation": "Trening był bardzo intensywny."
       },
       {
-        "es_form": "Hago [entrenamiento::trening] tres veces por semana.",
-        "pl_translation": "Robię trening trzy razy w tygodniu."
+        "es_form": "Este es [el entrenamiento::trening].",
+        "pl_translation": "To jest trening."
       },
       {
         "es_form": "Después del [entrenamiento::trening] necesito descansar.",
@@ -47,8 +47,8 @@
         "pl_translation": "Rozciąganie pomaga zapobiegać kontuzjom."
       },
       {
-        "es_form": "Hago [estiramiento::rozciąganie] después de correr.",
-        "pl_translation": "Robię rozciąganie po bieganiu."
+        "es_form": "Este es [el estiramiento::rozciąganie].",
+        "pl_translation": "To jest rozciąganie."
       },
       {
         "es_form": "[El estiramiento::rozciąganie] es parte del entrenamiento.",
@@ -66,8 +66,8 @@
         "pl_translation": "Kondycja jest ważna dla zdrowia."
       },
       {
-        "es_form": "Mejoré [la condición física::kondycja] con ejercicio.",
-        "pl_translation": "Poprawiłem"
+        "es_form": "Esta es [la condición física::kondycja].",
+        "pl_translation": "To jest kondycja."
       },
       {
         "es_form": "Tiene buena [condición física::kondycja].",
@@ -89,8 +89,8 @@
         "pl_translation": "Potrzebuję więcej wytrzymałości do biegania."
       },
       {
-        "es_form": "Tiene mucha [resistencia::wytrzymałość] física.",
-        "pl_translation": "Ma dużą wytrzymałość fizyczną."
+        "es_form": "Esta es [la resistencia::wytrzymałość].",
+        "pl_translation": "To jest wytrzymałość."
       }
     ]
   },
@@ -180,8 +180,8 @@
         "pl_translation": "Nawodnienie jest kluczowe dla sportu."
       },
       {
-        "es_form": "Mantén una buena [hidratación::nawodnienie].",
-        "pl_translation": "Utrzymuj dobre nawodnienie."
+        "es_form": "Esta es [la hidratación::nawodnienie].",
+        "pl_translation": "To jest nawodnienie."
       },
       {
         "es_form": "[La hidratación::nawodnienie] previene los calambres.",
@@ -195,16 +195,16 @@
     "pl_word": "wysportowany",
     "examples": [
       {
-        "es_form": "Es un deportista [atlético::wysportowany].",
-        "pl_translation": "To wysportowany sportowiec."
+        "es_form": "Es muy [atlético::wysportowany].",
+        "pl_translation": "Jest bardzo wysportowany."
       },
       {
-        "es_form": "Marta es muy [atlética::wysportowany].",
-        "pl_translation": "Marta jest bardzo wysportowana."
+        "es_form": "No es [atlético::wysportowany].",
+        "pl_translation": "Nie jest wysportowany."
       },
       {
-        "es_form": "Son personas [atléticas::wysportowany].",
-        "pl_translation": "To wysportowane osoby."
+        "es_form": "Parece [atlético::wysportowany].",
+        "pl_translation": "Wydaje się wysportowany."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "zdrowy",
     "examples": [
       {
-        "es_form": "Es un lugar [saludable::zdrowy] para vivir.",
-        "pl_translation": "To zdrowe miejsce do życia."
+        "es_form": "No es [saludable::zdrowy].",
+        "pl_translation": "Nie jest zdrowy."
       },
       {
-        "es_form": "La comida es [saludable::zdrowy].",
-        "pl_translation": "Jedzenie jest zdrowe."
+        "es_form": "Parece [saludable::zdrowy].",
+        "pl_translation": "Wydaje się zdrowy."
       },
       {
-        "es_form": "Este hábito es [saludable::zdrowy].",
-        "pl_translation": "Ten nawyk jest zdrowy."
+        "es_form": "Es demasiado [saludable::zdrowy].",
+        "pl_translation": "Jest zbyt zdrowy."
       }
     ]
   },

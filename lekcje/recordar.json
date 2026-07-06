@@ -5,12 +5,12 @@
     "pl_word": "przeszłość",
     "examples": [
       {
-        "es_form": "Esperé [el pasado::przeszłość] entero.",
-        "pl_translation": "Czekałem"
+        "es_form": "Este es [el pasado::przeszłość].",
+        "pl_translation": "To jest przeszłość."
       },
       {
-        "es_form": "[El pasado::przeszłość] se me hizo eterno.",
-        "pl_translation": "Przeszłość mi się dłużył"
+        "es_form": "No es [el pasado::przeszłość].",
+        "pl_translation": "To nie jest przeszłość."
       },
       {
         "es_form": "[El pasado::przeszłość] es oro.",
@@ -28,12 +28,12 @@
         "pl_translation": "Przyszłość mija bardzo szybko."
       },
       {
-        "es_form": "Llego [el futuro::przyszłość] de la boda.",
-        "pl_translation": "Nadszedł przyszłość ślubu."
+        "es_form": "Este es [el futuro::przyszłość].",
+        "pl_translation": "To jest przyszłość."
       },
       {
-        "es_form": "Esperé [el futuro::przyszłość] entero.",
-        "pl_translation": "Czekałem"
+        "es_form": "No es [el futuro::przyszłość].",
+        "pl_translation": "To nie jest przyszłość."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "wiek (stulecie)",
     "examples": [
       {
-        "es_form": "Esperé [el siglo::wiek (stulecie)] entero.",
-        "pl_translation": "Czekałem"
+        "es_form": "Este es [el siglo::wiek].",
+        "pl_translation": "To jest wiek."
       },
       {
         "es_form": "[El siglo::wiek (stulecie)] se me hizo eterno.",
-        "pl_translation": "Wiek mi się dłużył"
+        "pl_translation": "Wiek mi się dłużył."
       },
       {
-        "es_form": "Llego [el siglo::wiek (stulecie)] de la boda.",
-        "pl_translation": "Nadszedł wiek ślubu."
+        "es_form": "¿Dónde está [el siglo::wiek]?",
+        "pl_translation": "Gdzie jest wiek?"
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "wojna",
     "examples": [
       {
-        "es_form": "[La guerra::wojna] cuesta diez euros.",
-        "pl_translation": "Wojna kosztuje dziesięć euro."
+        "es_form": "No es [la guerra::wojna].",
+        "pl_translation": "To nie jest wojna."
       },
       {
-        "es_form": "[La guerra::wojna] está sobre la mesa.",
-        "pl_translation": "Wojna jest na stole."
+        "es_form": "¿Dónde está [la guerra::wojna]?",
+        "pl_translation": "Gdzie jest wojna?"
       },
       {
-        "es_form": "[La guerra::wojna] es de madera.",
-        "pl_translation": "Wojna jest z drewna."
+        "es_form": "Esta es [la guerra::wojna].",
+        "pl_translation": "To jest wojna."
       }
     ]
   },
@@ -81,35 +81,35 @@
     "pl_word": "pokój (zgoda)",
     "examples": [
       {
-        "es_form": "Guarda [la paz::pokój (zgoda)] en el armario.",
-        "pl_translation": "Schowaj pokój do szafy."
+        "es_form": "Esta es [la paz::pokój].",
+        "pl_translation": "To jest pokój."
       },
       {
-        "es_form": "Necesito [la paz::pokój (zgoda)] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "¿Dónde está [la paz::pokój]?",
+        "pl_translation": "Gdzie jest pokój?"
       },
       {
-        "es_form": "Se me rompio [la paz::pokój (zgoda)].",
-        "pl_translation": "Zepsuł mi się pokój."
+        "es_form": "No es [la paz::pokój].",
+        "pl_translation": "To nie jest pokój."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El revolución",
+    "es_word": "La revolución",
     "pl_word": "rewolucja",
     "examples": [
       {
-        "es_form": "[El revolución::rewolucja] es de madera.",
-        "pl_translation": "Rewolucja jest z drewna."
+        "es_form": "Esta es [la revolución::rewolucja].",
+        "pl_translation": "To jest rewolucja."
       },
       {
-        "es_form": "Compré [el revolución::rewolucja] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Hablamos sobre [la revolución::rewolucja].",
+        "pl_translation": "Rozmawiamy o tym, czym jest rewolucja."
       },
       {
-        "es_form": "Necesito [el revolución::rewolucja] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "No es [la revolución::rewolucja].",
+        "pl_translation": "To nie jest rewolucja."
       }
     ]
   },
@@ -128,7 +128,7 @@
       },
       {
         "es_form": "Esta es [el rey::król] de la que hablé.",
-        "pl_translation": "To jest król, o której mówiłem"
+        "pl_translation": "To jest król, o której mówiłem."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "królowa",
     "examples": [
       {
-        "es_form": "[La reina::królowa] es muy amable.",
-        "pl_translation": "Królowa jest bardzo miły"
+        "es_form": "¿Dónde está [la reina::królowa]?",
+        "pl_translation": "Gdzie jest królowa?"
       },
       {
-        "es_form": "Conozco a [la reina::królowa].",
-        "pl_translation": "Znam królowa."
+        "es_form": "[La reina::królowa] está aquí.",
+        "pl_translation": "Królowa jest tutaj."
       },
       {
-        "es_form": "Hablé con [la reina::królowa] ayer.",
-        "pl_translation": "Rozmawiałem"
+        "es_form": "No es [la reina::królowa].",
+        "pl_translation": "To nie jest królowa."
       }
     ]
   },
@@ -157,8 +157,8 @@
     "pl_word": "rycerz",
     "examples": [
       {
-        "es_form": "[El caballero::rycerz] me ayudo mucho.",
-        "pl_translation": "Rycerz bardzo mi pomógł"
+        "es_form": "[El caballero::rycerz] me ayudó mucho.",
+        "pl_translation": "Rycerz bardzo mi pomógł."
       },
       {
         "es_form": "Mi [hermano::brat] es [el caballero::rycerz].",
@@ -176,16 +176,16 @@
     "pl_word": "zabytek, pomnik",
     "examples": [
       {
-        "es_form": "Compré [el monumento::zabytek, pomnik] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Este es [el monumento::zabytek].",
+        "pl_translation": "To jest zabytek."
       },
       {
-        "es_form": "[El monumento::zabytek, pomnik] cuesta diez euros.",
-        "pl_translation": "Zabytek, pomnik kosztuje dziesięć euro."
+        "es_form": "No es [el monumento::zabytek].",
+        "pl_translation": "To nie jest zabytek."
       },
       {
-        "es_form": "Guarda [el monumento::zabytek, pomnik] en el armario.",
-        "pl_translation": "Schowaj zabytek, pomnik do szafy."
+        "es_form": "[El monumento::zabytek] está aquí.",
+        "pl_translation": "Zabytek jest tutaj."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "historyczny",
     "examples": [
       {
-        "es_form": "Es un lugar [histórico::historyczny] para vivir.",
-        "pl_translation": "To jest historyczny miejsce do życia."
+        "es_form": "Es muy [histórico::historyczny].",
+        "pl_translation": "Jest bardzo historyczny."
       },
       {
-        "es_form": "Nada es más [histórico::historyczny] que la familia.",
-        "pl_translation": "Nic nie jest historyczny od rodziny."
+        "es_form": "No es [histórico::historyczny].",
+        "pl_translation": "Nie jest historyczny."
       },
       {
-        "es_form": "La comida está [histórica::historyczny].",
-        "pl_translation": "Jedzenie jest historyczny."
+        "es_form": "Es demasiado [histórico::historyczny].",
+        "pl_translation": "Jest zbyt historyczny."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "współczesny",
     "examples": [
       {
-        "es_form": "Hace un día [contemporáneo::współczesny].",
-        "pl_translation": "Jest współczesny dzień."
+        "es_form": "Es muy [contemporáneo::współczesny].",
+        "pl_translation": "Jest bardzo współczesny."
       },
       {
-        "es_form": "Tengo una casa [contemporánea::współczesny].",
-        "pl_translation": "Mam współczesny dom."
+        "es_form": "No es [contemporáneo::współczesny].",
+        "pl_translation": "Nie jest współczesny."
       },
       {
-        "es_form": "El examen fue [contemporáneo::współczesny].",
-        "pl_translation": "Egzamin był współczesny."
+        "es_form": "Parece [contemporáneo::współczesny].",
+        "pl_translation": "Wydaje się współczesny."
       }
     ]
   },

@@ -5,8 +5,8 @@
     "pl_word": "eksperyment",
     "examples": [
       {
-        "es_form": "¿Has visto [el experimento::eksperyment]?",
-        "pl_translation": "Widziałeś eksperyment?"
+        "es_form": "Este es [el experimento::eksperyment].",
+        "pl_translation": "To jest eksperyment."
       },
       {
         "es_form": "[El experimento::eksperyment] fue exitoso.",
@@ -32,8 +32,8 @@
         "pl_translation": "Laboratorium jest bardzo duże."
       },
       {
-        "es_form": "Voy a [el laboratorio::laboratorium] cada día.",
-        "pl_translation": "Chodzę do laboratorium codziennie."
+        "es_form": "Este es [el laboratorio::laboratorium].",
+        "pl_translation": "To jest laboratorium."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "robot",
     "examples": [
       {
-        "es_form": "[El robot::robot] está sobre la mesa.",
-        "pl_translation": "Robot jest na stole."
+        "es_form": "Este es [el robot::robot].",
+        "pl_translation": "To jest robot."
       },
       {
-        "es_form": "¿Has visto [el robot::robot]?",
-        "pl_translation": "Widziałeś robota?"
+        "es_form": "¿Dónde está [el robot::robot]?",
+        "pl_translation": "Gdzie jest robot?"
       },
       {
-        "es_form": "Construí [el robot::robot].",
-        "pl_translation": "Zbudowałem robota."
+        "es_form": "[El robot::robot] está aquí.",
+        "pl_translation": "Robot jest tutaj."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "kosmos",
     "examples": [
       {
-        "es_form": "¿Has visto [el espacio::kosmos]?",
-        "pl_translation": "Widziałeś kosmos?"
+        "es_form": "Este es [el espacio::kosmos].",
+        "pl_translation": "To jest kosmos."
       },
       {
         "es_form": "[El espacio::kosmos] es infinito.",
         "pl_translation": "Kosmos jest nieskończony."
       },
       {
-        "es_form": "Exploramos [el espacio::kosmos].",
-        "pl_translation": "Badamy kosmos."
+        "es_form": "¿Dónde está [el espacio::kosmos]?",
+        "pl_translation": "Gdzie jest kosmos?"
       }
     ]
   },
@@ -138,12 +138,12 @@
     "pl_word": "planeta",
     "examples": [
       {
-        "es_form": "[El planeta::planeta] es la clave del éxito.",
-        "pl_translation": "Planeta jest kluczem do sukcesu."
+        "es_form": "No es [el planeta::planeta].",
+        "pl_translation": "To nie jest planeta."
       },
       {
-        "es_form": "[El planeta::planeta] es muy importante.",
-        "pl_translation": "Planeta jest bardzo ważny."
+        "es_form": "Este es [el planeta::planeta].",
+        "pl_translation": "To jest planeta."
       },
       {
         "es_form": "[El planeta::planeta] necesita protección.",
@@ -161,8 +161,8 @@
         "pl_translation": "Gwiazda bardzo świeci."
       },
       {
-        "es_form": "¿Has visto [la estrella::gwiazdę]?",
-        "pl_translation": "Widziałeś gwiazdę?"
+        "es_form": "Esta es [la estrella::gwiazda].",
+        "pl_translation": "To jest gwiazda."
       },
       {
         "es_form": "[La estrella::gwiazda] está lejos.",
@@ -180,8 +180,8 @@
         "pl_translation": "Gdzie jest wszechświat?"
       },
       {
-        "es_form": "Estudiamos [el universo::wszechświat].",
-        "pl_translation": "Badamy wszechświat."
+        "es_form": "Este es [el universo::wszechświat].",
+        "pl_translation": "To jest wszechświat."
       },
       {
         "es_form": "Trabajo en [el universo::wszechświecie].",
@@ -195,16 +195,16 @@
     "pl_word": "naukowy",
     "examples": [
       {
-        "es_form": "Nada es más [científico::naukowy] que este estudio.",
-        "pl_translation": "Nic nie jest bardziej naukowe od tego badania."
+        "es_form": "Es muy [científico::naukowy].",
+        "pl_translation": "Jest bardzo naukowy."
       },
       {
-        "es_form": "El método es [científico::naukowy].",
-        "pl_translation": "Metoda jest naukowa."
+        "es_form": "Parece [científico::naukowy].",
+        "pl_translation": "Wydaje się naukowy."
       },
       {
-        "es_form": "Es un descubrimiento [científico::naukowy].",
-        "pl_translation": "To jest naukowe odkrycie."
+        "es_form": "Es demasiado [científico::naukowy].",
+        "pl_translation": "Jest zbyt naukowy."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "techniczny",
     "examples": [
       {
-        "es_form": "Es un problema [técnico::techniczny].",
-        "pl_translation": "To jest problem techniczny."
+        "es_form": "Es muy [técnico::techniczny].",
+        "pl_translation": "Jest bardzo techniczny."
       },
       {
-        "es_form": "El informe es [técnico::techniczny].",
-        "pl_translation": "Raport jest techniczny."
+        "es_form": "No es [técnico::techniczny].",
+        "pl_translation": "Nie jest techniczny."
       },
       {
-        "es_form": "Mi amigo es [técnico::technikiem].",
-        "pl_translation": "Mój przyjaciel jest technikiem."
+        "es_form": "Es demasiado [técnico::techniczny].",
+        "pl_translation": "Jest zbyt techniczny."
       }
     ]
   },

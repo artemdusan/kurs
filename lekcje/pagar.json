@@ -5,16 +5,16 @@
     "pl_word": "supermarket",
     "examples": [
       {
-        "es_form": "Voy a [el supermercado::supermarket] cada día.",
-        "pl_translation": "Chodzę do supermarket codziennie."
+        "es_form": "Este es [el supermercado::supermarket].",
+        "pl_translation": "To jest supermarket."
       },
       {
-        "es_form": "Trabajo en [el supermercado::supermarket].",
-        "pl_translation": "Pracuję w supermarket."
+        "es_form": "¿Dónde está [el supermercado::supermarket]?",
+        "pl_translation": "Gdzie jest supermarket?"
       },
       {
         "es_form": "[El supermercado::supermarket] es muy grande.",
-        "pl_translation": "Supermarket jest bardzo duży"
+        "pl_translation": "Supermarket jest bardzo duży."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "targ, rynek",
     "examples": [
       {
-        "es_form": "Voy a [el mercado::targ, rynek] cada día.",
-        "pl_translation": "Chodzę do targ, rynek codziennie."
+        "es_form": "¿Dónde está [el mercado::targ]?",
+        "pl_translation": "Gdzie jest targ?"
       },
       {
         "es_form": "¿Donde está [el mercado::targ, rynek]?",
         "pl_translation": "Gdzie jest targ, rynek?"
       },
       {
-        "es_form": "Trabajo en [el mercado::targ, rynek].",
-        "pl_translation": "Pracuję w targ, rynek."
+        "es_form": "[El mercado::targ] está aquí.",
+        "pl_translation": "Targ jest tutaj."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "promocja",
     "examples": [
       {
-        "es_form": "¿Has visto [la oferta::promocja]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Esta es [la oferta::promocja].",
+        "pl_translation": "To jest promocja."
       },
       {
-        "es_form": "[La oferta::promocja] cuesta diez euros.",
-        "pl_translation": "Promocja kosztuje dziesięć euro."
+        "es_form": "Hablamos sobre [la oferta::promocja].",
+        "pl_translation": "Rozmawiamy o tym, czym jest promocja."
       },
       {
-        "es_form": "Se me rompio [la oferta::promocja].",
-        "pl_translation": "Zepsuł mi się promocja."
+        "es_form": "No es [la oferta::promocja].",
+        "pl_translation": "To nie jest promocja."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "opakowanie",
     "examples": [
       {
-        "es_form": "[El envase::opakowanie] cuesta diez euros.",
-        "pl_translation": "Opakowanie kosztuje dziesięć euro."
+        "es_form": "Hablamos sobre [el envase::opakowanie].",
+        "pl_translation": "Rozmawiamy o tym, czym jest opakowanie."
       },
       {
-        "es_form": "Necesito [el envase::opakowanie] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "Este es [el envase::opakowanie].",
+        "pl_translation": "To jest opakowanie."
       },
       {
-        "es_form": "¿Has visto [el envase::opakowanie]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "No es [el envase::opakowanie].",
+        "pl_translation": "To nie jest opakowanie."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "waga",
     "examples": [
       {
-        "es_form": "[El peso::waga] está sobre la mesa.",
-        "pl_translation": "Waga jest na stole."
+        "es_form": "No es [el peso::waga].",
+        "pl_translation": "To nie jest waga."
       },
       {
-        "es_form": "Compré [el peso::waga] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Este es [el peso::waga].",
+        "pl_translation": "To jest waga."
       },
       {
-        "es_form": "Necesito [el peso::waga] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "¿Dónde está [el peso::waga]?",
+        "pl_translation": "Gdzie jest waga?"
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "kolejka",
     "examples": [
       {
-        "es_form": "¿Quieres [la cola::kolejka]?",
-        "pl_translation": "Chcesz kolejka?"
+        "es_form": "¿Dónde está [la cola::kolejka]?",
+        "pl_translation": "Gdzie jest kolejka?"
       },
       {
-        "es_form": "[La cola::kolejka] se hace con leche.",
-        "pl_translation": "Kolejka robi się z mleka."
+        "es_form": "[La cola::kolejka] está aquí.",
+        "pl_translation": "Kolejka jest tutaj."
       },
       {
-        "es_form": "[La cola::kolejka] está muy rico.",
-        "pl_translation": "Kolejka jest bardzo smaczny"
+        "es_form": "No es [la cola::kolejka].",
+        "pl_translation": "To nie jest kolejka."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "produkt",
     "examples": [
       {
-        "es_form": "Se me rompio [el producto::produkt].",
-        "pl_translation": "Zepsuł mi się produkt."
+        "es_form": "Este es [el producto::produkt].",
+        "pl_translation": "To jest produkt."
       },
       {
-        "es_form": "Necesito [el producto::produkt] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "¿Dónde está [el producto::produkt]?",
+        "pl_translation": "Gdzie jest produkt?"
       },
       {
-        "es_form": "[El producto::produkt] cuesta diez euros.",
-        "pl_translation": "Produkt kosztuje dziesięć euro."
+        "es_form": "No es [el producto::produkt].",
+        "pl_translation": "To nie jest produkt."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "marka",
     "examples": [
       {
-        "es_form": "Compré [la marca::marka] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "¿Dónde está [la marca::marka]?",
+        "pl_translation": "Gdzie jest marka?"
       },
       {
-        "es_form": "Guarda [la marca::marka] en el armario.",
-        "pl_translation": "Schowaj marka do szafy."
+        "es_form": "[La marca::marka] está aquí.",
+        "pl_translation": "Marka jest tutaj."
       },
       {
-        "es_form": "¿Has visto [la marca::marka]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "No es [la marca::marka].",
+        "pl_translation": "To nie jest marka."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "gwarancja",
     "examples": [
       {
-        "es_form": "[La garantía::gwarancja] es la clave del éxito.",
-        "pl_translation": "Gwarancja jest kluczem do sukcesu."
+        "es_form": "Hablamos sobre [la garantía::gwarancja].",
+        "pl_translation": "Rozmawiamy o tym, czym jest gwarancja."
       },
       {
-        "es_form": "No entiendo [la garantía::gwarancja].",
-        "pl_translation": "Nie rozumiem gwarancja."
+        "es_form": "Esta es [la garantía::gwarancja].",
+        "pl_translation": "To jest gwarancja."
       },
       {
-        "es_form": "[La garantía::gwarancja] es muy importante.",
-        "pl_translation": "Gwarancja jest bardzo ważny"
+        "es_form": "No es [la garantía::gwarancja].",
+        "pl_translation": "To nie jest gwarancja."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "zniżka",
     "examples": [
       {
-        "es_form": "Se me rompio [el descuento::zniżka].",
-        "pl_translation": "Zepsuł mi się zniżka."
+        "es_form": "Este es [el descuento::zniżka].",
+        "pl_translation": "To jest zniżka."
       },
       {
-        "es_form": "Necesito [el descuento::zniżka] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "¿Dónde está [el descuento::zniżka]?",
+        "pl_translation": "Gdzie jest zniżka?"
       },
       {
-        "es_form": "[El descuento::zniżka] cuesta diez euros.",
-        "pl_translation": "Zniżka kosztuje dziesięć euro."
+        "es_form": "No es [el descuento::zniżka].",
+        "pl_translation": "To nie jest zniżka."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "tani",
     "examples": [
       {
-        "es_form": "El examen fue [barato::tani].",
-        "pl_translation": "Egzamin był tani."
+        "es_form": "Es muy [barato::tani].",
+        "pl_translation": "Jest bardzo tani."
       },
       {
-        "es_form": "Nada es más [barato::tani] que la familia.",
-        "pl_translation": "Nic nie jest tani od rodziny."
+        "es_form": "Parece [barato::tani].",
+        "pl_translation": "Wydaje się tani."
       },
       {
-        "es_form": "Es un lugar [barato::tani] para vivir.",
-        "pl_translation": "To jest tani miejsce do życia."
+        "es_form": "Es demasiado [barato::tani].",
+        "pl_translation": "Jest zbyt tani."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "drogi (cenny)",
     "examples": [
       {
-        "es_form": "Hace un día [caro::drogi (cenny)].",
-        "pl_translation": "Jest drogi dzień."
+        "es_form": "Es muy [caro::drogi].",
+        "pl_translation": "Jest bardzo drogi."
       },
       {
-        "es_form": "Es un lugar [caro::drogi (cenny)] para vivir.",
-        "pl_translation": "To jest drogi miejsce do życia."
+        "es_form": "Parece [caro::drogi].",
+        "pl_translation": "Wydaje się drogi."
       },
       {
-        "es_form": "La comida está [cara::drogi (cenny)].",
-        "pl_translation": "Jedzenie jest drogi."
+        "es_form": "Es demasiado [caro::drogi].",
+        "pl_translation": "Jest zbyt drogi."
       }
     ]
   },

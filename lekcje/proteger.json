@@ -5,12 +5,12 @@
     "pl_word": "rzeka",
     "examples": [
       {
-        "es_form": "Trabajo en [el río::rzeka].",
-        "pl_translation": "Pracuję w rzeka."
+        "es_form": "Este es [el río::rzeka].",
+        "pl_translation": "To jest rzeka."
       },
       {
-        "es_form": "Visitamos [el río::rzeka] la semana pasada.",
-        "pl_translation": "Odwiedziliśmy rzeka w zeszłym tygodniu."
+        "es_form": "¿Dónde está [el río::rzeka]?",
+        "pl_translation": "Gdzie jest rzeka?"
       },
       {
         "es_form": "[El río::rzeka] abre a las ocho.",
@@ -24,16 +24,16 @@
     "pl_word": "jezioro",
     "examples": [
       {
-        "es_form": "Visitamos [el lago::jezioro] la semana pasada.",
-        "pl_translation": "Odwiedziliśmy jezioro w zeszłym tygodniu."
+        "es_form": "Este es [el lago::jezioro].",
+        "pl_translation": "To jest jezioro."
       },
       {
-        "es_form": "Voy a [el lago::jezioro] cada día.",
-        "pl_translation": "Chodzę do jezioro codziennie."
+        "es_form": "¿Dónde está [el lago::jezioro]?",
+        "pl_translation": "Gdzie jest jezioro?"
       },
       {
-        "es_form": "Trabajo en [el lago::jezioro].",
-        "pl_translation": "Pracuję w jezioro."
+        "es_form": "[El lago::jezioro] está aquí.",
+        "pl_translation": "Jezioro jest tutaj."
       }
     ]
   },
@@ -43,12 +43,12 @@
     "pl_word": "wyspa",
     "examples": [
       {
-        "es_form": "[La isla::wyspa] es muy grande.",
-        "pl_translation": "Wyspa jest bardzo duży"
+        "es_form": "Esta es [la isla::wyspa].",
+        "pl_translation": "To jest wyspa."
       },
       {
-        "es_form": "Trabajo en [la isla::wyspa].",
-        "pl_translation": "Pracuję w wyspa."
+        "es_form": "¿Dónde está [la isla::wyspa]?",
+        "pl_translation": "Gdzie jest wyspa?"
       },
       {
         "es_form": "[La isla::wyspa] está cerca de aquí.",
@@ -62,16 +62,16 @@
     "pl_word": "pustynia",
     "examples": [
       {
-        "es_form": "Voy a [el desierto::pustynia] cada día.",
-        "pl_translation": "Chodzę do pustynia codziennie."
+        "es_form": "Este es [el desierto::pustynia].",
+        "pl_translation": "To jest pustynia."
       },
       {
-        "es_form": "[El desierto::pustynia] es muy grande.",
-        "pl_translation": "Pustynia jest bardzo duży"
+        "es_form": "¿Dónde está [el desierto::pustynia]?",
+        "pl_translation": "Gdzie jest pustynia?"
       },
       {
-        "es_form": "Trabajo en [el desierto::pustynia].",
-        "pl_translation": "Pracuję w pustynia."
+        "es_form": "[El desierto::pustynia] está aquí.",
+        "pl_translation": "Pustynia jest tutaj."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "wzgórze",
     "examples": [
       {
-        "es_form": "Se me rompio [la colina::wzgórze].",
-        "pl_translation": "Zepsuł mi się wzgórze."
+        "es_form": "Esta es [la colina::wzgórze].",
+        "pl_translation": "To jest wzgórze."
       },
       {
-        "es_form": "[La colina::wzgórze] es de madera.",
-        "pl_translation": "Wzgórze jest z drewna."
+        "es_form": "¿Dónde está [la colina::wzgórze]?",
+        "pl_translation": "Gdzie jest wzgórze?"
       },
       {
-        "es_form": "Guarda [la colina::wzgórze] en el armario.",
-        "pl_translation": "Schowaj wzgórze do szafy."
+        "es_form": "No es [la colina::wzgórze].",
+        "pl_translation": "To nie jest wzgórze."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "skała",
     "examples": [
       {
-        "es_form": "Guarda [la roca::skała] en el armario.",
-        "pl_translation": "Schowaj skała do szafy."
+        "es_form": "Esta es [la roca::skała].",
+        "pl_translation": "To jest skała."
       },
       {
-        "es_form": "Se me rompio [la roca::skała].",
-        "pl_translation": "Zepsuł mi się skała."
+        "es_form": "¿Dónde está [la roca::skała]?",
+        "pl_translation": "Gdzie jest skała?"
       },
       {
-        "es_form": "Compré [la roca::skała] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "No es [la roca::skała].",
+        "pl_translation": "To nie jest skała."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "powietrze",
     "examples": [
       {
-        "es_form": "Necesito [el aire::powietrze] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "¿Dónde está [el aire::powietrze]?",
+        "pl_translation": "Gdzie jest powietrze?"
       },
       {
-        "es_form": "Compré [el aire::powietrze] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "[El aire::powietrze] está aquí.",
+        "pl_translation": "Powietrze jest tutaj."
       },
       {
-        "es_form": "[El aire::powietrze] está sobre la mesa.",
-        "pl_translation": "Powietrze jest na stole."
+        "es_form": "Este es [el aire::powietrze].",
+        "pl_translation": "To jest powietrze."
       }
     ]
   },
@@ -138,35 +138,35 @@
     "pl_word": "środowisko",
     "examples": [
       {
-        "es_form": "Necesito [El medio ambiente::środowisko] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "Este es [el medio ambiente::środowisko].",
+        "pl_translation": "To jest środowisko."
       },
       {
-        "es_form": "Compré [El medio ambiente::środowisko] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "¿Dónde está [el medio ambiente::środowisko]?",
+        "pl_translation": "Gdzie jest środowisko?"
       },
       {
-        "es_form": "[El medio ambiente::środowisko] cuesta diez euros.",
-        "pl_translation": "Środowisko kosztuje dziesięć euro."
+        "es_form": "No es [el medio ambiente::środowisko].",
+        "pl_translation": "To nie jest środowisko."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El contaminación",
+    "es_word": "La contaminación",
     "pl_word": "zanieczyszczenie",
     "examples": [
       {
-        "es_form": "Necesito [el contaminación::zanieczyszczenie] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "Esta es [la contaminación::zanieczyszczenie].",
+        "pl_translation": "To jest zanieczyszczenie."
       },
       {
-        "es_form": "[El contaminación::zanieczyszczenie] es de madera.",
-        "pl_translation": "Zanieczyszczenie jest z drewna."
+        "es_form": "No es [la contaminación::zanieczyszczenie].",
+        "pl_translation": "To nie jest zanieczyszczenie."
       },
       {
-        "es_form": "Se me rompio [el contaminación::zanieczyszczenie].",
-        "pl_translation": "Zepsuł mi się zanieczyszczenie."
+        "es_form": "Hablamos sobre [la contaminación::zanieczyszczenie].",
+        "pl_translation": "Rozmawiamy o tym, czym jest zanieczyszczenie."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "natura, przyroda",
     "examples": [
       {
-        "es_form": "[La naturaleza::natura, przyroda] es de madera.",
-        "pl_translation": "Natura, przyroda jest z drewna."
+        "es_form": "Esta es [la naturaleza::natura].",
+        "pl_translation": "To jest natura."
       },
       {
-        "es_form": "[La naturaleza::natura, przyroda] está sobre la mesa.",
-        "pl_translation": "Natura, przyroda jest na stole."
+        "es_form": "No es [la naturaleza::natura].",
+        "pl_translation": "To nie jest natura."
       },
       {
-        "es_form": "¿Has visto [la naturaleza::natura, przyroda]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "¿Dónde está [la naturaleza::natura]?",
+        "pl_translation": "Gdzie jest natura?"
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "naturalny",
     "examples": [
       {
-        "es_form": "La comida está [natural::naturalny].",
-        "pl_translation": "Jedzenie jest naturalny."
+        "es_form": "No es [natural::naturalny].",
+        "pl_translation": "Nie jest naturalny."
       },
       {
-        "es_form": "Mi amigo es [natural::naturalny] y simpático.",
-        "pl_translation": "Mój przyjaciel jest naturalny i sympatyczny."
+        "es_form": "Parece [natural::naturalny].",
+        "pl_translation": "Wydaje się naturalny."
       },
       {
-        "es_form": "El examen fue [natural::naturalny].",
-        "pl_translation": "Egzamin był naturalny."
+        "es_form": "Es demasiado [natural::naturalny].",
+        "pl_translation": "Jest zbyt naturalny."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "czysty (środowisko)",
     "examples": [
       {
-        "es_form": "Tengo una casa [pura::czysty (środowisko)].",
-        "pl_translation": "Mam czysty dom."
+        "es_form": "No es [puro::czysty].",
+        "pl_translation": "Nie jest czysty."
       },
       {
-        "es_form": "Es un lugar [puro::czysty (środowisko)] para vivir.",
-        "pl_translation": "To jest czysty miejsce do życia."
+        "es_form": "Parece [puro::czysty].",
+        "pl_translation": "Wydaje się czysty."
       },
       {
-        "es_form": "Nada es más [puro::czysty (środowisko)] que la familia.",
-        "pl_translation": "Nic nie jest czysty od rodziny."
+        "es_form": "Es demasiado [puro::czysty].",
+        "pl_translation": "Jest zbyt czysty."
       }
     ]
   },

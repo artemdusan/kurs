@@ -5,16 +5,16 @@
     "pl_word": "moda",
     "examples": [
       {
-        "es_form": "No entiendo [la moda::moda].",
-        "pl_translation": "Nie rozumiem moda."
+        "es_form": "¿Dónde está [la moda::moda]?",
+        "pl_translation": "Gdzie jest moda?"
       },
       {
-        "es_form": "[La moda::moda] cambio mi vida.",
-        "pl_translation": "Moda zmienił"
+        "es_form": "[La moda::moda] está aquí.",
+        "pl_translation": "Moda jest tutaj."
       },
       {
-        "es_form": "[La moda::moda] es muy importante.",
-        "pl_translation": "Moda jest bardzo ważny"
+        "es_form": "No es [la moda::moda].",
+        "pl_translation": "To nie jest moda."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "styl",
     "examples": [
       {
-        "es_form": "No entiendo [el estilo::styl].",
-        "pl_translation": "Nie rozumiem styl."
+        "es_form": "Este es [el estilo::styl].",
+        "pl_translation": "To jest styl."
       },
       {
-        "es_form": "[El estilo::styl] es la clave del éxito.",
-        "pl_translation": "Styl jest kluczem do sukcesu."
+        "es_form": "No es [el estilo::styl].",
+        "pl_translation": "To nie jest styl."
       },
       {
         "es_form": "[El estilo::styl] es muy importante.",
-        "pl_translation": "Styl jest bardzo ważny"
+        "pl_translation": "Styl jest bardzo ważny."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "garnitur",
     "examples": [
       {
-        "es_form": "¿Has visto [el traje::garnitur]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Este es [el traje::garnitur].",
+        "pl_translation": "To jest garnitur."
       },
       {
-        "es_form": "Necesito [el traje::garnitur] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "¿Dónde está [el traje::garnitur]?",
+        "pl_translation": "Gdzie jest garnitur?"
       },
       {
-        "es_form": "Guarda [el traje::garnitur] en el armario.",
-        "pl_translation": "Schowaj garnitur do szafy."
+        "es_form": "[El traje::garnitur] está aquí.",
+        "pl_translation": "Garnitur jest tutaj."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "krawat",
     "examples": [
       {
-        "es_form": "[La corbata::krawat] está sobre la mesa.",
-        "pl_translation": "Krawat jest na stole."
+        "es_form": "No es [la corbata::krawat].",
+        "pl_translation": "To nie jest krawat."
       },
       {
-        "es_form": "[La corbata::krawat] es de madera.",
-        "pl_translation": "Krawat jest z drewna."
+        "es_form": "Esta es [la corbata::krawat].",
+        "pl_translation": "To jest krawat."
       },
       {
-        "es_form": "Se me rompio [la corbata::krawat].",
-        "pl_translation": "Zepsuł mi się krawat."
+        "es_form": "¿Dónde está [la corbata::krawat]?",
+        "pl_translation": "Gdzie jest krawat?"
       }
     ]
   },
@@ -81,35 +81,35 @@
     "pl_word": "szalik",
     "examples": [
       {
-        "es_form": "[La bufanda::szalik] está sobre la mesa.",
-        "pl_translation": "Szalik jest na stole."
+        "es_form": "No es [la bufanda::szalik].",
+        "pl_translation": "To nie jest szalik."
       },
       {
-        "es_form": "Necesito [la bufanda::szalik] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "Esta es [la bufanda::szalik].",
+        "pl_translation": "To jest szalik."
       },
       {
-        "es_form": "[La bufanda::szalik] es de madera.",
-        "pl_translation": "Szalik jest z drewna."
+        "es_form": "¿Dónde está [la bufanda::szalik]?",
+        "pl_translation": "Gdzie jest szalik?"
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El guantes",
+    "es_word": "Los guantes",
     "pl_word": "rękawiczki",
     "examples": [
       {
-        "es_form": "Tienes [el guantes::rękawiczki] muy fuerte.",
-        "pl_translation": "Masz bardzo silny"
+        "es_form": "Estos son [los guantes::rękawiczki].",
+        "pl_translation": "To są rękawiczki."
       },
       {
-        "es_form": "Me duele [el guantes::rękawiczki].",
-        "pl_translation": "Boli mnie rękawiczki."
+        "es_form": "¿Dónde están [los guantes::rękawiczki]?",
+        "pl_translation": "Gdzie są rękawiczki?"
       },
       {
-        "es_form": "El médico me reviso [el guantes::rękawiczki].",
-        "pl_translation": "Lekarz zbadał mi rękawiczki."
+        "es_form": "No son [los guantes::rękawiczki].",
+        "pl_translation": "To nie są rękawiczki."
       }
     ]
   },
@@ -119,54 +119,54 @@
     "pl_word": "pasek",
     "examples": [
       {
-        "es_form": "Compré [el cinturón::pasek] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Este es [el cinturón::pasek].",
+        "pl_translation": "To jest pasek."
       },
       {
-        "es_form": "¿Has visto [el cinturón::pasek]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "¿Dónde está [el cinturón::pasek]?",
+        "pl_translation": "Gdzie jest pasek?"
       },
       {
-        "es_form": "[El cinturón::pasek] cuesta diez euros.",
-        "pl_translation": "Pasek kosztuje dziesięć euro."
+        "es_form": "No es [el cinturón::pasek].",
+        "pl_translation": "To nie jest pasek."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El gafas",
+    "es_word": "Las gafas",
     "pl_word": "okulary",
     "examples": [
       {
-        "es_form": "[El gafas::okulary] está sobre la mesa.",
-        "pl_translation": "Okulary jest na stole."
+        "es_form": "Estas son [las gafas::okulary].",
+        "pl_translation": "To są okulary."
       },
       {
-        "es_form": "Se me rompio [el gafas::okulary].",
-        "pl_translation": "Zepsuł mi się okulary."
+        "es_form": "[Las gafas::okulary] están aquí.",
+        "pl_translation": "Okulary są tutaj."
       },
       {
-        "es_form": "[El gafas::okulary] es de madera.",
-        "pl_translation": "Okulary jest z drewna."
+        "es_form": "No son [las gafas::okulary].",
+        "pl_translation": "To nie są okulary."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El joyas",
+    "es_word": "Las joyas",
     "pl_word": "biżuteria",
     "examples": [
       {
-        "es_form": "Necesito [el joyas::biżuteria] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "Estas son [las joyas::biżuteria].",
+        "pl_translation": "To jest biżuteria."
       },
       {
-        "es_form": "Se me rompio [el joyas::biżuteria].",
-        "pl_translation": "Zepsuł mi się biżuteria."
+        "es_form": "[Las joyas::biżuteria] están aquí.",
+        "pl_translation": "Biżuteria jest tutaj."
       },
       {
-        "es_form": "¿Has visto [el joyas::biżuteria]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "No son [las joyas::biżuteria].",
+        "pl_translation": "To nie jest biżuteria."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "kieszeń",
     "examples": [
       {
-        "es_form": "[El bolsillo::kieszeń] es de madera.",
-        "pl_translation": "Kieszeń jest z drewna."
+        "es_form": "Este es [el bolsillo::kieszeń].",
+        "pl_translation": "To jest kieszeń."
       },
       {
-        "es_form": "Necesito [el bolsillo::kieszeń] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "¿Dónde está [el bolsillo::kieszeń]?",
+        "pl_translation": "Gdzie jest kieszeń?"
       },
       {
-        "es_form": "Se me rompio [el bolsillo::kieszeń].",
-        "pl_translation": "Zepsuł mi się kieszeń."
+        "es_form": "[El bolsillo::kieszeń] está aquí.",
+        "pl_translation": "Kieszeń jest tutaj."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "elegancki",
     "examples": [
       {
-        "es_form": "Este coche es [elegante::elegancki].",
-        "pl_translation": "Ten samochód jest elegancki."
+        "es_form": "Es muy [elegante::elegancki].",
+        "pl_translation": "Jest bardzo elegancki."
       },
       {
-        "es_form": "Nada es más [elegante::elegancki] que la familia.",
-        "pl_translation": "Nic nie jest elegancki od rodziny."
+        "es_form": "Parece [elegante::elegancki].",
+        "pl_translation": "Wydaje się elegancki."
       },
       {
-        "es_form": "Mi amigo es [elegante::elegancki] y simpático.",
-        "pl_translation": "Mój przyjaciel jest elegancki i sympatyczny."
+        "es_form": "Es demasiado [elegante::elegancki].",
+        "pl_translation": "Jest zbyt elegancki."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "luźny, nieformalny",
     "examples": [
       {
-        "es_form": "Es un lugar [informal::luźny, nieformalny] para vivir.",
-        "pl_translation": "To jest luźny, nieformalny miejsce do życia."
+        "es_form": "Es muy [informal::luźny].",
+        "pl_translation": "Jest bardzo luźny."
       },
       {
-        "es_form": "Mi amigo es [informal::luźny, nieformalny] y simpático.",
-        "pl_translation": "Mój przyjaciel jest luźny, nieformalny i sympatyczny."
+        "es_form": "Parece [informal::luźny].",
+        "pl_translation": "Wydaje się luźny."
       },
       {
-        "es_form": "Hace un día [informal::luźny, nieformalny].",
-        "pl_translation": "Jest luźny, nieformalny dzień."
+        "es_form": "Es demasiado [informal::luźny].",
+        "pl_translation": "Jest zbyt luźny."
       }
     ]
   },

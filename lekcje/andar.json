@@ -5,16 +5,16 @@
     "pl_word": "droga, ścieżka",
     "examples": [
       {
-        "es_form": "Guarda [el camino::droga, ścieżka] en el armario.",
-        "pl_translation": "Schowaj drogę do szafy."
+        "es_form": "¿Dónde está [el camino::droga]?",
+        "pl_translation": "Gdzie jest droga?"
       },
       {
-        "es_form": "¿Has visto [el camino::droga, ścieżka]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "[El camino::droga] está aquí.",
+        "pl_translation": "Droga jest tutaj."
       },
       {
-        "es_form": "Compré [el camino::droga, ścieżka] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "No es [el camino::droga].",
+        "pl_translation": "To nie jest droga."
       }
     ]
   },
@@ -24,12 +24,12 @@
     "pl_word": "kierunek",
     "examples": [
       {
-        "es_form": "¿Has visto [la dirección::kierunek]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "¿Dónde está [la dirección::kierunek]?",
+        "pl_translation": "Gdzie jest kierunek?"
       },
       {
-        "es_form": "[La dirección::kierunek] está sobre la mesa.",
-        "pl_translation": "Kierunek jest na stole."
+        "es_form": "Esta es [la dirección::kierunek].",
+        "pl_translation": "To jest kierunek."
       },
       {
         "es_form": "Necesito [la dirección::kierunek] nuevo.",
@@ -43,16 +43,16 @@
     "pl_word": "strona",
     "examples": [
       {
-        "es_form": "[El lado::strona] está sobre la mesa.",
-        "pl_translation": "Strona jest na stole."
+        "es_form": "No es [el lado::strona].",
+        "pl_translation": "To nie jest strona."
       },
       {
-        "es_form": "[El lado::strona] es de madera.",
-        "pl_translation": "Strona jest z drewna."
+        "es_form": "Este es [el lado::strona].",
+        "pl_translation": "To jest strona."
       },
       {
-        "es_form": "¿Has visto [el lado::strona]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "¿Dónde está [el lado::strona]?",
+        "pl_translation": "Gdzie jest strona?"
       }
     ]
   },
@@ -85,12 +85,12 @@
         "pl_translation": "Potrzebuję nowego początku."
       },
       {
-        "es_form": "¿Has visto [el principio::początek]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "¿Dónde está [el principio::początek]?",
+        "pl_translation": "Gdzie jest początek?"
       },
       {
-        "es_form": "[El principio::początek] está sobre la mesa.",
-        "pl_translation": "Początek jest na stole."
+        "es_form": "Este es [el principio::początek].",
+        "pl_translation": "To jest początek."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "koniec",
     "examples": [
       {
-        "es_form": "[El final::koniec] cuesta diez euros.",
-        "pl_translation": "Koniec kosztuje dziesięć euro."
+        "es_form": "No es [el final::koniec].",
+        "pl_translation": "To nie jest koniec."
       },
       {
-        "es_form": "Compré [el final::koniec] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Este es [el final::koniec].",
+        "pl_translation": "To jest koniec."
       },
       {
-        "es_form": "Guarda [el final::koniec] en el armario.",
-        "pl_translation": "Schowaj koniec do szafy."
+        "es_form": "¿Dónde está [el final::koniec]?",
+        "pl_translation": "Gdzie jest koniec?"
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "chodnik",
     "examples": [
       {
-        "es_form": "Compré [la acera::chodnik] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Esta es [la acera::chodnik].",
+        "pl_translation": "To jest chodnik."
       },
       {
-        "es_form": "[La acera::chodnik] está sobre la mesa.",
-        "pl_translation": "Chodnik jest na stole."
+        "es_form": "No es [la acera::chodnik].",
+        "pl_translation": "To nie jest chodnik."
       },
       {
-        "es_form": "[La acera::chodnik] es de madera.",
-        "pl_translation": "Chodnik jest z drewna."
+        "es_form": "¿Dónde está [la acera::chodnik]?",
+        "pl_translation": "Gdzie jest chodnik?"
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "róg",
     "examples": [
       {
-        "es_form": "[La esquina::róg] está sobre la mesa.",
-        "pl_translation": "Róg jest na stole."
+        "es_form": "No es [la esquina::róg].",
+        "pl_translation": "To nie jest róg."
       },
       {
-        "es_form": "Se me rompio [la esquina::róg].",
-        "pl_translation": "Zepsuł mi się róg."
+        "es_form": "Esta es [la esquina::róg].",
+        "pl_translation": "To jest róg."
       },
       {
-        "es_form": "[La esquina::róg] es de madera.",
-        "pl_translation": "Róg jest z drewna."
+        "es_form": "¿Dónde está [la esquina::róg]?",
+        "pl_translation": "Gdzie jest róg?"
       }
     ]
   },
@@ -184,8 +184,8 @@
         "pl_translation": "Czas mija bardzo szybko."
       },
       {
-        "es_form": "Esperé [el paso::krok, przejście] entero.",
-        "pl_translation": "Czekałem"
+        "es_form": "¿Dónde está [el paso::krok]?",
+        "pl_translation": "Gdzie jest krok?"
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "prosty",
     "examples": [
       {
-        "es_form": "La comida está [recta::prosty].",
-        "pl_translation": "Jedzenie jest proste."
+        "es_form": "Es muy [recto::prosty].",
+        "pl_translation": "Jest bardzo prosty."
       },
       {
-        "es_form": "Mi amigo es [recto::prosty] y simpático.",
-        "pl_translation": "Mój przyjaciel jest prosty i sympatyczny."
+        "es_form": "Parece [recto::prosty].",
+        "pl_translation": "Wydaje się prosty."
       },
       {
-        "es_form": "Es un lugar [recto::prosty] para vivir.",
-        "pl_translation": "To jest proste miejsce do życia."
+        "es_form": "Es demasiado [recto::prosty].",
+        "pl_translation": "Jest zbyt prosty."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "lewy",
     "examples": [
       {
-        "es_form": "Se compro un vestido [izquierdo::lewy].",
-        "pl_translation": "Kupiła sobie lewą sukienkę."
+        "es_form": "Es muy [izquierdo::lewy].",
+        "pl_translation": "Jest bardzo lewy."
       },
       {
-        "es_form": "Hace un día [izquierdo::lewy].",
-        "pl_translation": "Jest lewy dzień."
+        "es_form": "No es [izquierdo::lewy].",
+        "pl_translation": "Nie jest lewy."
       },
       {
-        "es_form": "El examen fue [izquierdo::lewy].",
-        "pl_translation": "Egzamin był lewy."
+        "es_form": "Parece [izquierdo::lewy].",
+        "pl_translation": "Wydaje się lewy."
       }
     ]
   },

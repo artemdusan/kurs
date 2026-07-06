@@ -56,5 +56,9 @@ export function keyboardRows(letters, perRow = 7) {
   return rows;
 }
 
-// Wszystkie rzeczowniki kursu są w liczbie pojedynczej — los/las byłyby martwymi przyciskami.
-export const ARTICLE_BUTTONS = ['el', 'la'];
+/** Przyciski rodzajników dopasowane do odpowiedzi: mnogie tylko dla rzeczowników mnogich. */
+export function articleButtons(expectedArticle) {
+  return expectedArticle === 'los' || expectedArticle === 'las' || expectedArticle === 'unos' || expectedArticle === 'unas'
+    ? ['los', 'las']
+    : ['el', 'la'];
+}

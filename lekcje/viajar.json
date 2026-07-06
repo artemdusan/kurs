@@ -5,16 +5,16 @@
     "pl_word": "podróż",
     "examples": [
       {
-        "es_form": "Se me rompio [el viaje::podróż].",
-        "pl_translation": "Zepsuł mi się podróż."
+        "es_form": "Este es [el viaje::podróż].",
+        "pl_translation": "To jest podróż."
       },
       {
-        "es_form": "Guarda [el viaje::podróż] en el armario.",
-        "pl_translation": "Schowaj podróż do szafy."
+        "es_form": "¿Dónde está [el viaje::podróż]?",
+        "pl_translation": "Gdzie jest podróż?"
       },
       {
-        "es_form": "[El viaje::podróż] es de madera.",
-        "pl_translation": "Podróż jest z drewna."
+        "es_form": "No es [el viaje::podróż].",
+        "pl_translation": "To nie jest podróż."
       }
     ]
   },
@@ -25,7 +25,7 @@
     "examples": [
       {
         "es_form": "[El hotel::hotel] es muy grande.",
-        "pl_translation": "Hotel jest bardzo duży"
+        "pl_translation": "Hotel jest bardzo duży."
       },
       {
         "es_form": "[El hotel::hotel] está cerca de aquí.",
@@ -43,16 +43,16 @@
     "pl_word": "walizka",
     "examples": [
       {
-        "es_form": "[La maleta::walizka] está sobre la mesa.",
-        "pl_translation": "Walizka jest na stole."
+        "es_form": "No es [la maleta::walizka].",
+        "pl_translation": "To nie jest walizka."
       },
       {
-        "es_form": "[La maleta::walizka] cuesta diez euros.",
-        "pl_translation": "Walizka kosztuje dziesięć euro."
+        "es_form": "¿Dónde está [la maleta::walizka]?",
+        "pl_translation": "Gdzie jest walizka?"
       },
       {
-        "es_form": "Guarda [la maleta::walizka] en el armario.",
-        "pl_translation": "Schowaj walizka do szafy."
+        "es_form": "Esta es [la maleta::walizka].",
+        "pl_translation": "To jest walizka."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "paszport",
     "examples": [
       {
-        "es_form": "Se me rompio [el pasaporte::paszport].",
-        "pl_translation": "Zepsuł mi się paszport."
+        "es_form": "Este es [el pasaporte::paszport].",
+        "pl_translation": "To jest paszport."
       },
       {
-        "es_form": "Necesito [el pasaporte::paszport] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "¿Dónde está [el pasaporte::paszport]?",
+        "pl_translation": "Gdzie jest paszport?"
       },
       {
-        "es_form": "[El pasaporte::paszport] es de madera.",
-        "pl_translation": "Paszport jest z drewna."
+        "es_form": "No es [el pasaporte::paszport].",
+        "pl_translation": "To nie jest paszport."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "granica",
     "examples": [
       {
-        "es_form": "Compré [la frontera::granica] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "¿Dónde está [la frontera::granica]?",
+        "pl_translation": "Gdzie jest granica?"
       },
       {
-        "es_form": "Se me rompio [la frontera::granica].",
-        "pl_translation": "Zepsuł mi się granica."
+        "es_form": "[La frontera::granica] está aquí.",
+        "pl_translation": "Granica jest tutaj."
       },
       {
-        "es_form": "Necesito [la frontera::granica] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "No es [la frontera::granica].",
+        "pl_translation": "To nie jest granica."
       }
     ]
   },
@@ -100,8 +100,8 @@
     "pl_word": "morze",
     "examples": [
       {
-        "es_form": "Voy a [el mar::morze] cada día.",
-        "pl_translation": "Chodzę do morze codziennie."
+        "es_form": "Este es [el mar::morze].",
+        "pl_translation": "To jest morze."
       },
       {
         "es_form": "[El mar::morze] está cerca de aquí.",
@@ -119,16 +119,16 @@
     "pl_word": "góra",
     "examples": [
       {
-        "es_form": "Guarda [la montaña::góra] en el armario.",
-        "pl_translation": "Schowaj góra do szafy."
+        "es_form": "Esta es [la montaña::góra].",
+        "pl_translation": "To jest góra."
       },
       {
-        "es_form": "¿Has visto [la montaña::góra]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "¿Dónde está [la montaña::góra]?",
+        "pl_translation": "Gdzie jest góra?"
       },
       {
-        "es_form": "[La montaña::góra] cuesta diez euros.",
-        "pl_translation": "Góra kosztuje dziesięć euro."
+        "es_form": "No es [la montaña::góra].",
+        "pl_translation": "To nie jest góra."
       }
     ]
   },
@@ -157,35 +157,35 @@
     "pl_word": "mapa",
     "examples": [
       {
-        "es_form": "[El mapa::mapa] está sobre la mesa.",
-        "pl_translation": "Mapa jest na stole."
+        "es_form": "No es [el mapa::mapa].",
+        "pl_translation": "To nie jest mapa."
       },
       {
-        "es_form": "¿Has visto [el mapa::mapa]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Este es [el mapa::mapa].",
+        "pl_translation": "To jest mapa."
       },
       {
-        "es_form": "Guarda [el mapa::mapa] en el armario.",
-        "pl_translation": "Schowaj mapa do szafy."
+        "es_form": "[El mapa::mapa] está aquí.",
+        "pl_translation": "Mapa jest tutaj."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El excursión",
+    "es_word": "La excursión",
     "pl_word": "wycieczka",
     "examples": [
       {
-        "es_form": "Compré [el excursión::wycieczka] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "¿Dónde está [la excursión::wycieczka]?",
+        "pl_translation": "Gdzie jest wycieczka?"
       },
       {
-        "es_form": "¿Has visto [el excursión::wycieczka]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "[La excursión::wycieczka] está aquí.",
+        "pl_translation": "Wycieczka jest tutaj."
       },
       {
-        "es_form": "Guarda [el excursión::wycieczka] en el armario.",
-        "pl_translation": "Schowaj wycieczka do szafy."
+        "es_form": "No es [la excursión::wycieczka].",
+        "pl_translation": "To nie jest wycieczka."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "daleki",
     "examples": [
       {
-        "es_form": "Es un lugar [lejano::daleki] para vivir.",
-        "pl_translation": "To jest daleki miejsce do życia."
+        "es_form": "Es muy [lejano::daleki].",
+        "pl_translation": "Jest bardzo daleki."
       },
       {
-        "es_form": "El examen fue [lejano::daleki].",
-        "pl_translation": "Egzamin był daleki."
+        "es_form": "Parece [lejano::daleki].",
+        "pl_translation": "Wydaje się daleki."
       },
       {
-        "es_form": "La comida está [lejana::daleki].",
-        "pl_translation": "Jedzenie jest daleki."
+        "es_form": "Es demasiado [lejano::daleki].",
+        "pl_translation": "Jest zbyt daleki."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "bliski",
     "examples": [
       {
-        "es_form": "Tengo una casa [cercana::bliski].",
-        "pl_translation": "Mam bliski dom."
+        "es_form": "Es muy [cercano::bliski].",
+        "pl_translation": "Jest bardzo bliski."
       },
       {
-        "es_form": "Es un lugar [cercano::bliski] para vivir.",
-        "pl_translation": "To jest bliski miejsce do życia."
+        "es_form": "No es [cercano::bliski].",
+        "pl_translation": "Nie jest bliski."
       },
       {
-        "es_form": "Hace un día [cercano::bliski].",
-        "pl_translation": "Jest bliski dzień."
+        "es_form": "Es demasiado [cercano::bliski].",
+        "pl_translation": "Jest zbyt bliski."
       }
     ]
   },

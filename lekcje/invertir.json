@@ -24,8 +24,8 @@
     "pl_word": "biznes",
     "examples": [
       {
-        "es_form": "¿Has visto [el negocio::biznes]?",
-        "pl_translation": "Widziałeś ten biznes?"
+        "es_form": "Este es [el negocio::biznes].",
+        "pl_translation": "To jest biznes."
       },
       {
         "es_form": "Necesito [el negocio::biznes] nuevo.",
@@ -43,16 +43,16 @@
     "pl_word": "zysk",
     "examples": [
       {
-        "es_form": "¿Has visto [la ganancia::zysk]?",
-        "pl_translation": "Widziałeś zysk?"
+        "es_form": "Esta es [la ganancia::zysk].",
+        "pl_translation": "To jest zysk."
       },
       {
         "es_form": "[La ganancia::zysk] es alta.",
         "pl_translation": "Zysk jest wysoki."
       },
       {
-        "es_form": "Calculé [la ganancia::zysk] ayer.",
-        "pl_translation": "Obliczyłem zysk wczoraj."
+        "es_form": "[La ganancia::zysk] está aquí.",
+        "pl_translation": "Zysk jest tutaj."
       }
     ]
   },
@@ -70,8 +70,8 @@
         "pl_translation": "Strata była duża."
       },
       {
-        "es_form": "¿Has visto [la pérdida::stratę]?",
-        "pl_translation": "Widziałeś stratę?"
+        "es_form": "Esta es [la pérdida::strata].",
+        "pl_translation": "To jest strata."
       }
     ]
   },
@@ -81,8 +81,8 @@
     "pl_word": "podatek",
     "examples": [
       {
-        "es_form": "Necesito pagar [el impuesto::podatek].",
-        "pl_translation": "Muszę zapłacić podatek."
+        "es_form": "Este es [el impuesto::podatek].",
+        "pl_translation": "To jest podatek."
       },
       {
         "es_form": "[El impuesto::podatek] es alto.",
@@ -104,8 +104,8 @@
         "pl_translation": "Rynek jest w fazie wzrostu."
       },
       {
-        "es_form": "¿Has visto [el mercado::rynek]?",
-        "pl_translation": "Widziałeś rynek?"
+        "es_form": "¿Dónde está [el mercado::rynek]?",
+        "pl_translation": "Gdzie jest rynek?"
       },
       {
         "es_form": "[El mercado::rynek] es muy competitivo.",
@@ -119,8 +119,8 @@
     "pl_word": "klient",
     "examples": [
       {
-        "es_form": "Conozco a [el cliente::klienta].",
-        "pl_translation": "Znam klienta."
+        "es_form": "¿Dónde está [el cliente::klient]?",
+        "pl_translation": "Gdzie jest klient?"
       },
       {
         "es_form": "Hablé con [el cliente::klientem] ayer.",
@@ -146,8 +146,8 @@
         "pl_translation": "Konkurencja szybko rośnie."
       },
       {
-        "es_form": "¿Has visto [la competencia::konkurencję]?",
-        "pl_translation": "Widziałeś konkurencję?"
+        "es_form": "Esta es [la competencia::konkurencja].",
+        "pl_translation": "To jest konkurencja."
       }
     ]
   },
@@ -161,8 +161,8 @@
         "pl_translation": "Reklama jest skuteczna."
       },
       {
-        "es_form": "¿Has visto [la publicidad::reklamę]?",
-        "pl_translation": "Widziałeś reklamę?"
+        "es_form": "Esta es [la publicidad::reklama].",
+        "pl_translation": "To jest reklama."
       },
       {
         "es_form": "Pagamos por [la publicidad::reklamę].",
@@ -176,16 +176,16 @@
     "pl_word": "sukces",
     "examples": [
       {
-        "es_form": "Tienes que aceptar [el éxito::sukces].",
-        "pl_translation": "Musisz zaakceptować sukces."
+        "es_form": "Este es [el éxito::sukces].",
+        "pl_translation": "To jest sukces."
       },
       {
         "es_form": "[El éxito::sukces] es muy importante.",
         "pl_translation": "Sukces jest bardzo ważny."
       },
       {
-        "es_form": "[El éxito::sukces] es la clave del éxito.",
-        "pl_translation": "Sukces jest kluczem do sukcesu."
+        "es_form": "No es [el éxito::sukces].",
+        "pl_translation": "To nie jest sukces."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "dochodowy",
     "examples": [
       {
-        "es_form": "Es un negocio [rentable::dochodowy].",
-        "pl_translation": "To jest dochodowy biznes."
+        "es_form": "Es muy [rentable::dochodowy].",
+        "pl_translation": "Jest bardzo dochodowy."
       },
       {
-        "es_form": "La inversión fue [rentable::dochodowa].",
-        "pl_translation": "Inwestycja była dochodowa."
+        "es_form": "No es [rentable::dochodowy].",
+        "pl_translation": "Nie jest dochodowy."
       },
       {
-        "es_form": "Tengo una empresa [rentable::dochodową].",
-        "pl_translation": "Mam dochodową firmę."
+        "es_form": "Es demasiado [rentable::dochodowy].",
+        "pl_translation": "Jest zbyt dochodowy."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "konkurencyjny",
     "examples": [
       {
-        "es_form": "Es un mercado muy [competitivo::konkurencyjny].",
-        "pl_translation": "To bardzo konkurencyjny rynek."
+        "es_form": "Es muy [competitivo::konkurencyjny].",
+        "pl_translation": "Jest bardzo konkurencyjny."
       },
       {
-        "es_form": "El precio es [competitivo::konkurencyjny].",
-        "pl_translation": "Cena jest konkurencyjna."
+        "es_form": "No es [competitivo::konkurencyjny].",
+        "pl_translation": "Nie jest konkurencyjny."
       },
       {
-        "es_form": "Mi empresa es [competitiva::konkurencyjna].",
-        "pl_translation": "Moja firma jest konkurencyjna."
+        "es_form": "Es demasiado [competitivo::konkurencyjny].",
+        "pl_translation": "Jest zbyt konkurencyjny."
       }
     ]
   },

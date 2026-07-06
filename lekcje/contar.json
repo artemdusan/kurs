@@ -5,16 +5,16 @@
     "pl_word": "liczba",
     "examples": [
       {
-        "es_form": "[El número::liczba] es de madera.",
-        "pl_translation": "Liczba jest z drewna."
+        "es_form": "Este es [el número::liczba].",
+        "pl_translation": "To jest liczba."
       },
       {
         "es_form": "Apuntá [el número::liczba] en el cuaderno.",
         "pl_translation": "Zapisz liczbę w notesie."
       },
       {
-        "es_form": "¿Has visto [el número::liczba]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "¿Dónde está [el número::liczba]?",
+        "pl_translation": "Gdzie jest liczba?"
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "jeden",
     "examples": [
       {
-        "es_form": "Compré [el uno::jeden] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Este es [el uno::jeden].",
+        "pl_translation": "To jest jeden."
       },
       {
-        "es_form": "Guarda [el uno::jeden] en el armario.",
-        "pl_translation": "Schowaj jeden do szafy."
+        "es_form": "¿Dónde está [el uno::jeden]?",
+        "pl_translation": "Gdzie jest jeden?"
       },
       {
-        "es_form": "Se me rompió [el uno::jeden].",
-        "pl_translation": "Zepsuł mi się jeden."
+        "es_form": "[El uno::jeden] está aquí.",
+        "pl_translation": "Jeden jest tutaj."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "połowa",
     "examples": [
       {
-        "es_form": "Compré [la mitad::połowa] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Esta es [la mitad::połowa].",
+        "pl_translation": "To jest połowa."
       },
       {
-        "es_form": "[La mitad::połowa] cuesta diez euros.",
-        "pl_translation": "Połowa kosztuje dziesięć euro."
+        "es_form": "No es [la mitad::połowa].",
+        "pl_translation": "To nie jest połowa."
       },
       {
-        "es_form": "Se me rompió [la mitad::połowa].",
-        "pl_translation": "Zepsuł mi się połowa."
+        "es_form": "[La mitad::połowa] está aquí.",
+        "pl_translation": "Połowa jest tutaj."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "metr",
     "examples": [
       {
-        "es_form": "Se me rompió [el metro::metr].",
-        "pl_translation": "Zepsuł mi się metr."
+        "es_form": "Este es [el metro::metr].",
+        "pl_translation": "To jest metr."
       },
       {
-        "es_form": "[El metro::metr] cuesta diez euros.",
-        "pl_translation": "Metr kosztuje dziesięć euro."
+        "es_form": "No es [el metro::metr].",
+        "pl_translation": "To nie jest metr."
       },
       {
-        "es_form": "Compré [el metro::metr] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "¿Dónde está [el metro::metr]?",
+        "pl_translation": "Gdzie jest metr?"
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "kilogram",
     "examples": [
       {
-        "es_form": "Guarda [el kilo::kilogram] en el armario.",
-        "pl_translation": "Schowaj kilogram do szafy."
+        "es_form": "¿Dónde está [el kilo::kilogram]?",
+        "pl_translation": "Gdzie jest kilogram?"
       },
       {
-        "es_form": "Compré [el kilo::kilogram] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "[El kilo::kilogram] está aquí.",
+        "pl_translation": "Kilogram jest tutaj."
       },
       {
-        "es_form": "Se me rompió [el kilo::kilogram].",
-        "pl_translation": "Zepsuł mi się kilogram."
+        "es_form": "No es [el kilo::kilogram].",
+        "pl_translation": "To nie jest kilogram."
       }
     ]
   },
@@ -100,8 +100,8 @@
     "pl_word": "litr",
     "examples": [
       {
-        "es_form": "Se me rompió [el litro::litr].",
-        "pl_translation": "Zepsuł mi się litr."
+        "es_form": "Este es [el litro::litr].",
+        "pl_translation": "To jest litr."
       },
       {
         "es_form": "Necesito [el litro::litr] nuevo.",
@@ -123,12 +123,12 @@
         "pl_translation": "Kawałek tortu jest typowy dla Hiszpanii."
       },
       {
-        "es_form": "¿Quieres [el pedazo::kawałek]?",
-        "pl_translation": "Chcesz kawałek?"
+        "es_form": "¿Dónde está [el pedazo::kawałek]?",
+        "pl_translation": "Gdzie jest kawałek?"
       },
       {
-        "es_form": "Me gusta mucho [el pedazo::kawałek].",
-        "pl_translation": "Bardzo lubię kawałek."
+        "es_form": "[El pedazo::kawałek] está aquí.",
+        "pl_translation": "Kawałek jest tutaj."
       }
     ]
   },
@@ -138,12 +138,12 @@
     "pl_word": "grupa",
     "examples": [
       {
-        "es_form": "Se me rompió [el grupo::grupa].",
-        "pl_translation": "Rozpadła mi się grupa."
+        "es_form": "¿Dónde está [el grupo::grupa]?",
+        "pl_translation": "Gdzie jest grupa?"
       },
       {
-        "es_form": "[El grupo::grupa] está sobre la mesa.",
-        "pl_translation": "Grupa jest na stole."
+        "es_form": "Este es [el grupo::grupa].",
+        "pl_translation": "To jest grupa."
       },
       {
         "es_form": "Necesito [el grupo::grupa] nuevo.",
@@ -157,16 +157,16 @@
     "pl_word": "część",
     "examples": [
       {
-        "es_form": "Guarda [la parte::część] en el armario.",
-        "pl_translation": "Schowaj część do szafy."
+        "es_form": "Esta es [la parte::część].",
+        "pl_translation": "To jest część."
       },
       {
-        "es_form": "Compré [la parte::część] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "¿Dónde está [la parte::część]?",
+        "pl_translation": "Gdzie jest część?"
       },
       {
-        "es_form": "Se me rompió [la parte::część].",
-        "pl_translation": "Zepsuł mi się część."
+        "es_form": "No es [la parte::część].",
+        "pl_translation": "To nie jest część."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "suma",
     "examples": [
       {
-        "es_form": "Compré [el total::suma] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Este es [el total::suma].",
+        "pl_translation": "To jest suma."
       },
       {
         "es_form": "[El total::suma] cuesta diez euros.",
         "pl_translation": "Suma wynosi dziesięć euro."
       },
       {
-        "es_form": "Se me rompió [el total::suma].",
-        "pl_translation": "Pomyliła mi się suma."
+        "es_form": "¿Dónde está [el total::suma]?",
+        "pl_translation": "Gdzie jest suma?"
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "cały",
     "examples": [
       {
-        "es_form": "Se compro un vestido [entero::cały].",
-        "pl_translation": "Kupiła sobie całą sukienkę."
+        "es_form": "No es [entero::cały].",
+        "pl_translation": "Nie jest cały."
       },
       {
-        "es_form": "Hace un día [entero::cały].",
-        "pl_translation": "Jest cały dzień."
+        "es_form": "Parece [entero::cały].",
+        "pl_translation": "Wydaje się cały."
       },
       {
-        "es_form": "La comida está [entera::cały].",
-        "pl_translation": "Jedzenie jest całe."
+        "es_form": "Es demasiado [entero::cały].",
+        "pl_translation": "Jest zbyt cały."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "pełny",
     "examples": [
       {
-        "es_form": "Este coche es [lleno::pełny].",
-        "pl_translation": "Ten samochód jest pełny."
+        "es_form": "No es [lleno::pełny].",
+        "pl_translation": "Nie jest pełny."
       },
       {
-        "es_form": "Es un lugar [lleno::pełny] para vivir.",
-        "pl_translation": "To jest pełne życie."
+        "es_form": "Parece [lleno::pełny].",
+        "pl_translation": "Wydaje się pełny."
       },
       {
-        "es_form": "Mi amigo es [lleno::pełny] y simpático.",
-        "pl_translation": "Mój przyjaciel jest pełen życia i sympatyczny."
+        "es_form": "Es demasiado [lleno::pełny].",
+        "pl_translation": "Jest zbyt pełny."
       }
     ]
   },

@@ -9,12 +9,12 @@
         "pl_translation": "Głowa jest ważną częścią ciała."
       },
       {
-        "es_form": "Tienes [la cabeza::głowa] muy fuerte.",
-        "pl_translation": "Masz bardzo silny"
+        "es_form": "Esta es [la cabeza::głowa].",
+        "pl_translation": "To jest głowa."
       },
       {
-        "es_form": "Me duele [la cabeza::głowa].",
-        "pl_translation": "Boli mnie głowa."
+        "es_form": "¿Dónde está [la cabeza::głowa]?",
+        "pl_translation": "Gdzie jest głowa?"
       }
     ]
   },
@@ -28,12 +28,12 @@
         "pl_translation": "Ręka, dłoń jest ważną częścią ciała."
       },
       {
-        "es_form": "El médico me reviso [la mano::ręka, dłoń].",
-        "pl_translation": "Lekarz zbadał mi ręka, dłoń."
+        "es_form": "Esta es [la mano::ręka].",
+        "pl_translation": "To jest ręka."
       },
       {
-        "es_form": "Tienes [la mano::ręka, dłoń] muy fuerte.",
-        "pl_translation": "Masz bardzo silny"
+        "es_form": "[La mano::ręka] está aquí.",
+        "pl_translation": "Ręka jest tutaj."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "ramię",
     "examples": [
       {
-        "es_form": "[El brazo::ramię] cuesta diez euros.",
-        "pl_translation": "Ramię kosztuje dziesięć euro."
+        "es_form": "Este es [el brazo::ramię].",
+        "pl_translation": "To jest ramię."
       },
       {
-        "es_form": "Se me rompio [el brazo::ramię].",
-        "pl_translation": "Zepsuł mi się ramię."
+        "es_form": "¿Dónde está [el brazo::ramię]?",
+        "pl_translation": "Gdzie jest ramię?"
       },
       {
-        "es_form": "¿Has visto [el brazo::ramię]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "[El brazo::ramię] está aquí.",
+        "pl_translation": "Ramię jest tutaj."
       }
     ]
   },
@@ -62,12 +62,12 @@
     "pl_word": "noga",
     "examples": [
       {
-        "es_form": "Me duele [la pierna::noga].",
-        "pl_translation": "Boli mnie noga."
+        "es_form": "Esta es [la pierna::noga].",
+        "pl_translation": "To jest noga."
       },
       {
-        "es_form": "Tienes [la pierna::noga] muy fuerte.",
-        "pl_translation": "Masz bardzo silny"
+        "es_form": "¿Dónde está [la pierna::noga]?",
+        "pl_translation": "Gdzie jest noga?"
       },
       {
         "es_form": "[La pierna::noga] es una parte importante del cuerpo.",
@@ -85,12 +85,12 @@
         "pl_translation": "Oko jest ważną częścią ciała."
       },
       {
-        "es_form": "Tienes [el ojo::oko] muy fuerte.",
-        "pl_translation": "Masz bardzo silny"
+        "es_form": "Este es [el ojo::oko].",
+        "pl_translation": "To jest oko."
       },
       {
-        "es_form": "El médico me reviso [el ojo::oko].",
-        "pl_translation": "Lekarz zbadał mi oko."
+        "es_form": "[El ojo::oko] está aquí.",
+        "pl_translation": "Oko jest tutaj."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "ucho (zewn.)",
     "examples": [
       {
-        "es_form": "El médico me reviso [la oreja::ucho (zewn.)].",
-        "pl_translation": "Lekarz zbadał mi ucho."
+        "es_form": "Esta es [la oreja::ucho].",
+        "pl_translation": "To jest ucho."
       },
       {
         "es_form": "[La oreja::ucho (zewn.)] es una parte importante del cuerpo.",
         "pl_translation": "Ucho jest ważną częścią ciała."
       },
       {
-        "es_form": "Me duele [la oreja::ucho (zewn.)].",
-        "pl_translation": "Boli mnie ucho."
+        "es_form": "¿Dónde está [la oreja::ucho]?",
+        "pl_translation": "Gdzie jest ucho?"
       }
     ]
   },
@@ -123,12 +123,12 @@
         "pl_translation": "Nos jest ważną częścią ciała."
       },
       {
-        "es_form": "Tienes [la nariz::nos] muy fuerte.",
-        "pl_translation": "Masz bardzo silny"
+        "es_form": "Esta es [la nariz::nos].",
+        "pl_translation": "To jest nos."
       },
       {
-        "es_form": "El médico me reviso [la nariz::nos].",
-        "pl_translation": "Lekarz zbadał mi nos."
+        "es_form": "[La nariz::nos] está aquí.",
+        "pl_translation": "Nos jest tutaj."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "usta",
     "examples": [
       {
-        "es_form": "El médico me reviso [la boca::usta].",
-        "pl_translation": "Lekarz zbadał mi usta."
+        "es_form": "Esta es [la boca::usta].",
+        "pl_translation": "To jest usta."
       },
       {
-        "es_form": "Me duele [la boca::usta].",
-        "pl_translation": "Boli mnie usta."
+        "es_form": "¿Dónde está [la boca::usta]?",
+        "pl_translation": "Gdzie jest usta?"
       },
       {
-        "es_form": "Tienes [la boca::usta] muy fuerte.",
-        "pl_translation": "Masz bardzo silny"
+        "es_form": "[La boca::usta] está aquí.",
+        "pl_translation": "Usta jest tutaj."
       }
     ]
   },
@@ -157,12 +157,12 @@
     "pl_word": "twarz",
     "examples": [
       {
-        "es_form": "El médico me reviso [la cara::twarz].",
-        "pl_translation": "Lekarz zbadał mi twarz."
+        "es_form": "¿Dónde está [la cara::twarz]?",
+        "pl_translation": "Gdzie jest twarz?"
       },
       {
-        "es_form": "Me duele [la cara::twarz].",
-        "pl_translation": "Boli mnie twarz."
+        "es_form": "[La cara::twarz] está aquí.",
+        "pl_translation": "Twarz jest tutaj."
       },
       {
         "es_form": "[La cara::twarz] es una parte importante del cuerpo.",
@@ -176,16 +176,16 @@
     "pl_word": "włosy",
     "examples": [
       {
-        "es_form": "El médico me reviso [el pelo::włosy].",
-        "pl_translation": "Lekarz zbadał mi włosy."
+        "es_form": "Este es [el pelo::włosy].",
+        "pl_translation": "To jest włosy."
       },
       {
-        "es_form": "Me duele [el pelo::włosy].",
-        "pl_translation": "Boli mnie włosy."
+        "es_form": "¿Dónde está [el pelo::włosy]?",
+        "pl_translation": "Gdzie jest włosy?"
       },
       {
-        "es_form": "Tienes [el pelo::włosy] muy fuerte.",
-        "pl_translation": "Masz bardzo silny"
+        "es_form": "[El pelo::włosy] está aquí.",
+        "pl_translation": "Włosy jest tutaj."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "zdrowy",
     "examples": [
       {
-        "es_form": "El examen fue [sano::zdrowy].",
-        "pl_translation": "Egzamin był zdrowy."
+        "es_form": "Es muy [sano::zdrowy].",
+        "pl_translation": "Jest bardzo zdrowy."
       },
       {
-        "es_form": "Tengo una casa [sana::zdrowy].",
-        "pl_translation": "Mam zdrowy dom."
+        "es_form": "Parece [sano::zdrowy].",
+        "pl_translation": "Wydaje się zdrowy."
       },
       {
-        "es_form": "Es un lugar [sano::zdrowy] para vivir.",
-        "pl_translation": "To jest zdrowy miejsce do życia."
+        "es_form": "Es demasiado [sano::zdrowy].",
+        "pl_translation": "Jest zbyt zdrowy."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "chory",
     "examples": [
       {
-        "es_form": "Se compro un vestido [enfermo::chory].",
-        "pl_translation": "Kupiła sobie chory sukienkę."
+        "es_form": "Es muy [enfermo::chory].",
+        "pl_translation": "Jest bardzo chory."
       },
       {
-        "es_form": "Este coche es [enfermo::chory].",
-        "pl_translation": "Ten samochód jest chory."
+        "es_form": "No es [enfermo::chory].",
+        "pl_translation": "Nie jest chory."
       },
       {
-        "es_form": "Tengo una casa [enferma::chory].",
-        "pl_translation": "Mam chory dom."
+        "es_form": "Parece [enfermo::chory].",
+        "pl_translation": "Wydaje się chory."
       }
     ]
   },

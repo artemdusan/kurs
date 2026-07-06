@@ -5,16 +5,16 @@
     "pl_word": "wątpliwość",
     "examples": [
       {
-        "es_form": "[La duda::wątpliwość] está sobre la mesa.",
-        "pl_translation": "Wątpliwość jest na stole."
+        "es_form": "No es [la duda::wątpliwość].",
+        "pl_translation": "To nie jest wątpliwość."
       },
       {
-        "es_form": "[La duda::wątpliwość] cuesta diez euros.",
-        "pl_translation": "Wątpliwość kosztuje dziesięć euro."
+        "es_form": "Hablamos sobre [la duda::wątpliwość].",
+        "pl_translation": "Rozmawiamy o tym, czym jest wątpliwość."
       },
       {
-        "es_form": "Se me rompio [la duda::wątpliwość].",
-        "pl_translation": "Zepsuł mi się wątpliwość."
+        "es_form": "Esta es [la duda::wątpliwość].",
+        "pl_translation": "To jest wątpliwość."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "ciekawość",
     "examples": [
       {
-        "es_form": "¿Has visto [la curiosidad::ciekawość]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Esta es [la curiosidad::ciekawość].",
+        "pl_translation": "To jest ciekawość."
       },
       {
-        "es_form": "Se me rompio [la curiosidad::ciekawość].",
-        "pl_translation": "Zepsuł mi się ciekawość."
+        "es_form": "No es [la curiosidad::ciekawość].",
+        "pl_translation": "To nie jest ciekawość."
       },
       {
-        "es_form": "[La curiosidad::ciekawość] está sobre la mesa.",
-        "pl_translation": "Ciekawość jest na stole."
+        "es_form": "Hablamos sobre [la curiosidad::ciekawość].",
+        "pl_translation": "Rozmawiamy o tym, czym jest ciekawość."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "wywiad, rozmowa",
     "examples": [
       {
-        "es_form": "Se me rompio [la entrevista::wywiad, rozmowa].",
-        "pl_translation": "Zepsuł mi się wywiad, rozmowa."
+        "es_form": "¿Dónde está [la entrevista::wywiad]?",
+        "pl_translation": "Gdzie jest wywiad?"
       },
       {
-        "es_form": "[La entrevista::wywiad, rozmowa] cuesta diez euros.",
-        "pl_translation": "Wywiad, rozmowa kosztuje dziesięć euro."
+        "es_form": "Esta es [la entrevista::wywiad].",
+        "pl_translation": "To jest wywiad."
       },
       {
-        "es_form": "[La entrevista::wywiad, rozmowa] está sobre la mesa.",
-        "pl_translation": "Wywiad, rozmowa jest na stole."
+        "es_form": "No es [la entrevista::wywiad].",
+        "pl_translation": "To nie jest wywiad."
       }
     ]
   },
@@ -62,35 +62,35 @@
     "pl_word": "ankieta",
     "examples": [
       {
-        "es_form": "Guarda [la encuesta::ankieta] en el armario.",
-        "pl_translation": "Schowaj ankieta do szafy."
+        "es_form": "¿Dónde está [la encuesta::ankieta]?",
+        "pl_translation": "Gdzie jest ankieta?"
       },
       {
-        "es_form": "Compré [la encuesta::ankieta] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "[La encuesta::ankieta] está aquí.",
+        "pl_translation": "Ankieta jest tutaj."
       },
       {
-        "es_form": "Necesito [la encuesta::ankieta] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "No es [la encuesta::ankieta].",
+        "pl_translation": "To nie jest ankieta."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El opinión",
+    "es_word": "La opinión",
     "pl_word": "opinia",
     "examples": [
       {
-        "es_form": "[El opinión::opinia] cuesta diez euros.",
-        "pl_translation": "Opinia kosztuje dziesięć euro."
+        "es_form": "Esta es [la opinión::opinia].",
+        "pl_translation": "To jest opinia."
       },
       {
-        "es_form": "[El opinión::opinia] es de madera.",
-        "pl_translation": "Opinia jest z drewna."
+        "es_form": "¿Dónde está [la opinión::opinia]?",
+        "pl_translation": "Gdzie jest opinia?"
       },
       {
-        "es_form": "Se me rompio [el opinión::opinia].",
-        "pl_translation": "Zepsuł mi się opinia."
+        "es_form": "No es [la opinión::opinia].",
+        "pl_translation": "To nie jest opinia."
       }
     ]
   },
@@ -100,35 +100,35 @@
     "pl_word": "rada",
     "examples": [
       {
-        "es_form": "[El consejo::rada] está sobre la mesa.",
-        "pl_translation": "Rada jest na stole."
+        "es_form": "No es [el consejo::rada].",
+        "pl_translation": "To nie jest rada."
       },
       {
-        "es_form": "[El consejo::rada] es de madera.",
-        "pl_translation": "Rada jest z drewna."
+        "es_form": "Este es [el consejo::rada].",
+        "pl_translation": "To jest rada."
       },
       {
-        "es_form": "Guarda [el consejo::rada] en el armario.",
-        "pl_translation": "Schowaj rada do szafy."
+        "es_form": "¿Dónde está [el consejo::rada]?",
+        "pl_translation": "Gdzie jest rada?"
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El explicación",
+    "es_word": "La explicación",
     "pl_word": "wyjaśnienie",
     "examples": [
       {
-        "es_form": "[El explicación::wyjaśnienie] está sobre la mesa.",
-        "pl_translation": "Wyjaśnienie jest na stole."
+        "es_form": "Esta es [la explicación::wyjaśnienie].",
+        "pl_translation": "To jest wyjaśnienie."
       },
       {
-        "es_form": "Se me rompio [el explicación::wyjaśnienie].",
-        "pl_translation": "Zepsuł mi się wyjaśnienie."
+        "es_form": "No es [la explicación::wyjaśnienie].",
+        "pl_translation": "To nie jest wyjaśnienie."
       },
       {
-        "es_form": "[El explicación::wyjaśnienie] cuesta diez euros.",
-        "pl_translation": "Wyjaśnienie kosztuje dziesięć euro."
+        "es_form": "Hablamos sobre [la explicación::wyjaśnienie].",
+        "pl_translation": "Rozmawiamy o tym, czym jest wyjaśnienie."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "szczegół",
     "examples": [
       {
-        "es_form": "Compré [el detalle::szczegół] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Este es [el detalle::szczegół].",
+        "pl_translation": "To jest szczegół."
       },
       {
-        "es_form": "[El detalle::szczegół] cuesta diez euros.",
-        "pl_translation": "Szczegół kosztuje dziesięć euro."
+        "es_form": "No es [el detalle::szczegół].",
+        "pl_translation": "To nie jest szczegół."
       },
       {
-        "es_form": "Guarda [el detalle::szczegół] en el armario.",
-        "pl_translation": "Schowaj szczegół do szafy."
+        "es_form": "[El detalle::szczegół] está aquí.",
+        "pl_translation": "Szczegół jest tutaj."
       }
     ]
   },
@@ -157,35 +157,35 @@
     "pl_word": "temat",
     "examples": [
       {
-        "es_form": "Tienes que aceptar [el tema::temat].",
-        "pl_translation": "Musisz zaakceptować temat."
+        "es_form": "Este es [el tema::temat].",
+        "pl_translation": "To jest temat."
       },
       {
-        "es_form": "[El tema::temat] es la clave del éxito.",
-        "pl_translation": "Temat jest kluczem do sukcesu."
+        "es_form": "No es [el tema::temat].",
+        "pl_translation": "To nie jest temat."
       },
       {
-        "es_form": "No entiendo [el tema::temat].",
-        "pl_translation": "Nie rozumiem temat."
+        "es_form": "¿Dónde está [el tema::temat]?",
+        "pl_translation": "Gdzie jest temat?"
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El solución",
+    "es_word": "La solución",
     "pl_word": "rozwiązanie",
     "examples": [
       {
-        "es_form": "[El solución::rozwiązanie] es la clave del éxito.",
-        "pl_translation": "Rozwiązanie jest kluczem do sukcesu."
+        "es_form": "Esta es [la solución::rozwiązanie].",
+        "pl_translation": "To jest rozwiązanie."
       },
       {
-        "es_form": "No entiendo [el solución::rozwiązanie].",
-        "pl_translation": "Nie rozumiem rozwiązanie."
+        "es_form": "Hablamos sobre [la solución::rozwiązanie].",
+        "pl_translation": "Rozmawiamy o tym, czym jest rozwiązanie."
       },
       {
-        "es_form": "Hablamos sobre [el solución::rozwiązanie].",
-        "pl_translation": "Rozmawialiśmy o rozwiązanie."
+        "es_form": "No es [la solución::rozwiązanie].",
+        "pl_translation": "To nie jest rozwiązanie."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "ciekawy, ciekawski",
     "examples": [
       {
-        "es_form": "Nada es más [curioso::ciekawy, ciekawski] que la familia.",
-        "pl_translation": "Nic nie jest ciekawy, ciekawski od rodziny."
+        "es_form": "Es muy [curioso::ciekawy].",
+        "pl_translation": "Jest bardzo ciekawy."
       },
       {
-        "es_form": "La comida está [curiosa::ciekawy, ciekawski].",
-        "pl_translation": "Jedzenie jest ciekawy, ciekawski."
+        "es_form": "Parece [curioso::ciekawy].",
+        "pl_translation": "Wydaje się ciekawy."
       },
       {
-        "es_form": "Este coche es [curioso::ciekawy, ciekawski].",
-        "pl_translation": "Ten samochód jest ciekawy, ciekawski."
+        "es_form": "Es demasiado [curioso::ciekawy].",
+        "pl_translation": "Jest zbyt ciekawy."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "jasny, zrozumiały",
     "examples": [
       {
-        "es_form": "La comida está [clara::jasny, zrozumiały].",
-        "pl_translation": "Jedzenie jest jasny, zrozumiały."
+        "es_form": "Es muy [claro::jasny].",
+        "pl_translation": "Jest bardzo jasny."
       },
       {
-        "es_form": "Se compro un vestido [claro::jasny, zrozumiały].",
-        "pl_translation": "Kupiła sobie jasny, zrozumiały sukienkę."
+        "es_form": "No es [claro::jasny].",
+        "pl_translation": "Nie jest jasny."
       },
       {
-        "es_form": "Este coche es [claro::jasny, zrozumiały].",
-        "pl_translation": "Ten samochód jest jasny, zrozumiały."
+        "es_form": "Parece [claro::jasny].",
+        "pl_translation": "Wydaje się jasny."
       }
     ]
   },

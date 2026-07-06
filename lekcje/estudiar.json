@@ -9,12 +9,12 @@
         "pl_translation": "Kierunek studiów jest bardzo wymagający."
       },
       {
-        "es_form": "Elegí [la carrera::kierunek studiów] de medicina.",
-        "pl_translation": "Wybrałem kierunek studiów medycznych."
+        "es_form": "Esta es [la carrera::kierunek studiów].",
+        "pl_translation": "To jest kierunek studiów."
       },
       {
-        "es_form": "Terminé [la carrera::kierunek studiów] el año pasado.",
-        "pl_translation": "Ukończyłem kierunek studiów w zeszłym roku."
+        "es_form": "[La carrera::kierunek studiów] está aquí.",
+        "pl_translation": "Kierunek studiów jest tutaj."
       }
     ]
   },
@@ -43,8 +43,8 @@
     "pl_word": "dyplom / tytuł",
     "examples": [
       {
-        "es_form": "[El título::dyplom ] está sobre la mesa.",
-        "pl_translation": "Dyplom jest na stole."
+        "es_form": "Este es [el título::dyplom / tytuł].",
+        "pl_translation": "To jest dyplom / tytuł."
       },
       {
         "es_form": "Recibí [el título::dyplom ] la semana pasada.",
@@ -62,8 +62,8 @@
     "pl_word": "magister",
     "examples": [
       {
-        "es_form": "[El máster::magister] cuesta diez euros.",
-        "pl_translation": "Magister kosztuje dziesięć euro."
+        "es_form": "Este es [el máster::magister].",
+        "pl_translation": "To jest magister."
       },
       {
         "es_form": "Terminé [el máster::magister] ayer.",
@@ -81,8 +81,8 @@
     "pl_word": "doktorat",
     "examples": [
       {
-        "es_form": "Estoy haciendo [el doctorado::doktorat] en química.",
-        "pl_translation": "Robię doktorat z chemii."
+        "es_form": "¿Dónde está [el doctorado::doktorat]?",
+        "pl_translation": "Gdzie jest doktorat?"
       },
       {
         "es_form": "[El doctorado::doktorat] es un gran logro.",
@@ -119,12 +119,12 @@
     "pl_word": "indeks / świadectwo",
     "examples": [
       {
-        "es_form": "Perdí [el expediente::indeks ].",
-        "pl_translation": "Zgubiłem indeks."
+        "es_form": "Este es [el expediente::indeks / świadectwo].",
+        "pl_translation": "To jest indeks / świadectwo."
       },
       {
-        "es_form": "[El expediente::indeks ] cuesta diez euros.",
-        "pl_translation": "Indeks kosztuje dziesięć euro."
+        "es_form": "No es [el expediente::indeks / świadectwo].",
+        "pl_translation": "To nie jest indeks / świadectwo."
       },
       {
         "es_form": "¿Has visto [el expediente::indeks ]?",
@@ -161,8 +161,8 @@
         "pl_translation": "Mam poprawkę w poniedziałek."
       },
       {
-        "es_form": "Aprobé [la recuperación::poprawka (egzamin)].",
-        "pl_translation": "Zdałem poprawkę."
+        "es_form": "Esta es [la recuperación::poprawka].",
+        "pl_translation": "To jest poprawka."
       },
       {
         "es_form": "Estudio mucho para [la recuperación::poprawka (egzamin)].",
@@ -195,16 +195,16 @@
     "pl_word": "akademicki",
     "examples": [
       {
-        "es_form": "Nada es más importante que el rendimiento [académico::akademicki].",
-        "pl_translation": "Nic nie jest ważniejsze niż wyniki akademickie."
+        "es_form": "Es muy [académico::akademicki].",
+        "pl_translation": "Jest bardzo akademicki."
       },
       {
-        "es_form": "Es un artículo [académico::akademicki].",
-        "pl_translation": "To jest artykuł akademicki."
+        "es_form": "Parece [académico::akademicki].",
+        "pl_translation": "Wydaje się akademicki."
       },
       {
-        "es_form": "El año [académico::akademicki] empieza en octubre.",
-        "pl_translation": "Rok akademicki zaczyna się w październiku."
+        "es_form": "Es demasiado [académico::akademicki].",
+        "pl_translation": "Jest zbyt akademicki."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "wykształcony",
     "examples": [
       {
-        "es_form": "Mi abuelo es una persona muy [culta::wykształcony].",
-        "pl_translation": "Mój dziadek jest bardzo wykształconą osobą."
+        "es_form": "Es muy [culto::wykształcony].",
+        "pl_translation": "Jest bardzo wykształcony."
       },
       {
-        "es_form": "Es una sociedad muy [culta::wykształcony].",
-        "pl_translation": "To jest bardzo wykształcone społeczeństwo."
+        "es_form": "No es [culto::wykształcony].",
+        "pl_translation": "Nie jest wykształcony."
       },
       {
-        "es_form": "Un hombre [culto::wykształcony] siempre sigue aprendiendo.",
-        "pl_translation": "Wykształcony człowiek zawsze się uczy."
+        "es_form": "Es demasiado [culto::wykształcony].",
+        "pl_translation": "Jest zbyt wykształcony."
       }
     ]
   },

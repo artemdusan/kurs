@@ -9,12 +9,12 @@
         "pl_translation": "Przepis jest typowy dla Hiszpanii."
       },
       {
-        "es_form": "Me gusta mucho [la receta::przepis].",
-        "pl_translation": "Bardzo lubię ten przepis."
+        "es_form": "Esta es [la receta::przepis].",
+        "pl_translation": "To jest przepis."
       },
       {
-        "es_form": "¿Quieres [la receta::przepis]?",
-        "pl_translation": "Chcesz przepis?"
+        "es_form": "¿Dónde está [la receta::przepis]?",
+        "pl_translation": "Gdzie jest przepis?"
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "składnik",
     "examples": [
       {
-        "es_form": "¿Has visto [el ingrediente::składnik]?",
-        "pl_translation": "Widziałeś składnik?"
+        "es_form": "Este es [el ingrediente::składnik].",
+        "pl_translation": "To jest składnik."
       },
       {
-        "es_form": "Compré [el ingrediente::składnik] ayer.",
-        "pl_translation": "Kupiłem składnik wczoraj."
+        "es_form": "[El ingrediente::składnik] está aquí.",
+        "pl_translation": "Składnik jest tutaj."
       },
       {
-        "es_form": "[El ingrediente::składnik] cuesta diez euros.",
-        "pl_translation": "Składnik kosztuje dziesięć euro."
+        "es_form": "No es [el ingrediente::składnik].",
+        "pl_translation": "To nie jest składnik."
       }
     ]
   },
@@ -66,8 +66,8 @@
         "pl_translation": "Zapach jest bardzo przyjemny."
       },
       {
-        "es_form": "¿Hueles [el olor::zapach] a pan?",
-        "pl_translation": "Czujesz zapach chleba?"
+        "es_form": "Este es [el olor::zapach].",
+        "pl_translation": "To jest zapach."
       },
       {
         "es_form": "[El olor::zapach] llena la cocina.",
@@ -100,12 +100,12 @@
     "pl_word": "pieprz",
     "examples": [
       {
-        "es_form": "¿Quieres [la pimienta::pieprz]?",
-        "pl_translation": "Chcesz pieprz?"
+        "es_form": "Esta es [la pimienta::pieprz].",
+        "pl_translation": "To jest pieprz."
       },
       {
-        "es_form": "Me gusta mucho [la pimienta::pieprz].",
-        "pl_translation": "Bardzo lubię pieprz."
+        "es_form": "[La pimienta::pieprz] está aquí.",
+        "pl_translation": "Pieprz jest tutaj."
       },
       {
         "es_form": "[La pimienta::pieprz] está muy rica.",
@@ -123,12 +123,12 @@
         "pl_translation": "Rosół jest typowy dla Polski."
       },
       {
-        "es_form": "Me gusta mucho [el caldo::bulion].",
-        "pl_translation": "Bardzo lubię bulion."
+        "es_form": "Este es [el caldo::bulion].",
+        "pl_translation": "To jest bulion."
       },
       {
-        "es_form": "¿Quieres [el caldo::rosół]?",
-        "pl_translation": "Chcesz rosół?"
+        "es_form": "¿Dónde está [el caldo::bulion]?",
+        "pl_translation": "Gdzie jest bulion?"
       }
     ]
   },
@@ -142,8 +142,8 @@
         "pl_translation": "Bardzo lubię sałatkę."
       },
       {
-        "es_form": "¿Quieres [la ensalada::sałatkę]?",
-        "pl_translation": "Chcesz sałatkę?"
+        "es_form": "Esta es [la ensalada::sałatka].",
+        "pl_translation": "To jest sałatka."
       },
       {
         "es_form": "Compramos [la ensalada::sałatkę] en el mercado.",
@@ -176,12 +176,12 @@
     "pl_word": "omlet, tortilla",
     "examples": [
       {
-        "es_form": "¿Has visto [la tortilla::omlet]?",
-        "pl_translation": "Widziałeś omlet?"
+        "es_form": "Esta es [la tortilla::omlet].",
+        "pl_translation": "To jest omlet."
       },
       {
-        "es_form": "[La tortilla::tortilla] cuesta diez euros.",
-        "pl_translation": "Tortilla kosztuje dziesięć euro."
+        "es_form": "No es [la tortilla::omlet].",
+        "pl_translation": "To nie jest omlet."
       },
       {
         "es_form": "Necesito [la tortilla::omlet] nuevo.",
@@ -195,16 +195,16 @@
     "pl_word": "kwaśny",
     "examples": [
       {
-        "es_form": "El limón es [ácido::kwaśny].",
-        "pl_translation": "Cytryna jest kwaśna."
+        "es_form": "Es muy [ácido::kwaśny].",
+        "pl_translation": "Jest bardzo kwaśny."
       },
       {
-        "es_form": "La fruta está [ácida::kwaśna].",
-        "pl_translation": "Owoc jest kwaśny."
+        "es_form": "No es [ácido::kwaśny].",
+        "pl_translation": "Nie jest kwaśny."
       },
       {
-        "es_form": "Nada es más [ácido::kwaśny] que el vinagre.",
-        "pl_translation": "Nic nie jest bardziej kwaśne od octu."
+        "es_form": "Parece [ácido::kwaśny].",
+        "pl_translation": "Wydaje się kwaśny."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "gorzki",
     "examples": [
       {
-        "es_form": "El café está [amargo::gorzki].",
-        "pl_translation": "Kawa jest gorzka."
+        "es_form": "Es muy [amargo::gorzki].",
+        "pl_translation": "Jest bardzo gorzki."
       },
       {
-        "es_form": "Es un sabor [amargo::gorzki].",
-        "pl_translation": "To jest gorzki smak."
+        "es_form": "Parece [amargo::gorzki].",
+        "pl_translation": "Wydaje się gorzki."
       },
       {
-        "es_form": "Nada es más [amargo::gorzki] que este té.",
-        "pl_translation": "Nic nie jest bardziej gorzkie od tej herbaty."
+        "es_form": "Es demasiado [amargo::gorzki].",
+        "pl_translation": "Jest zbyt gorzki."
       }
     ]
   },

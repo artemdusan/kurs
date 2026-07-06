@@ -5,16 +5,16 @@
     "pl_word": "usługa",
     "examples": [
       {
-        "es_form": "[El servicio::usługa] cuesta diez euros.",
-        "pl_translation": "Usługa kosztuje dziesięć euro."
+        "es_form": "No es [el servicio::usługa].",
+        "pl_translation": "To nie jest usługa."
       },
       {
-        "es_form": "¿Has visto [el servicio::usługa]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Este es [el servicio::usługa].",
+        "pl_translation": "To jest usługa."
       },
       {
-        "es_form": "Compré [el servicio::usługa] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "¿Dónde está [el servicio::usługa]?",
+        "pl_translation": "Gdzie jest usługa?"
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "fryzjer",
     "examples": [
       {
-        "es_form": "¿Has visto [el peluquero::fryzjer]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Este es [el peluquero::fryzjer].",
+        "pl_translation": "To jest fryzjer."
       },
       {
-        "es_form": "Compré [el peluquero::fryzjer] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "¿Dónde está [el peluquero::fryzjer]?",
+        "pl_translation": "Gdzie jest fryzjer?"
       },
       {
-        "es_form": "Guarda [el peluquero::fryzjer] en el armario.",
-        "pl_translation": "Schowaj fryzjer do szafy."
+        "es_form": "[El peluquero::fryzjer] está aquí.",
+        "pl_translation": "Fryzjer jest tutaj."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "mechanik",
     "examples": [
       {
-        "es_form": "[El mecánico::mechanik] está sobre la mesa.",
-        "pl_translation": "Mechanik jest na stole."
+        "es_form": "No es [el mecánico::mechanik].",
+        "pl_translation": "To nie jest mechanik."
       },
       {
-        "es_form": "[El mecánico::mechanik] cuesta diez euros.",
-        "pl_translation": "Mechanik kosztuje dziesięć euro."
+        "es_form": "¿Dónde está [el mecánico::mechanik]?",
+        "pl_translation": "Gdzie jest mechanik?"
       },
       {
-        "es_form": "Compré [el mecánico::mechanik] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Este es [el mecánico::mechanik].",
+        "pl_translation": "To jest mechanik."
       }
     ]
   },
@@ -62,8 +62,8 @@
     "pl_word": "warsztat",
     "examples": [
       {
-        "es_form": "Voy a [el taller::warsztat] cada día.",
-        "pl_translation": "Chodzę do warsztat codziennie."
+        "es_form": "¿Dónde está [el taller::warsztat]?",
+        "pl_translation": "Gdzie jest warsztat?"
       },
       {
         "es_form": "[El taller::warsztat] está cerca de aquí.",
@@ -71,7 +71,7 @@
       },
       {
         "es_form": "[El taller::warsztat] es muy grande.",
-        "pl_translation": "Warsztat jest bardzo duży"
+        "pl_translation": "Warsztat jest bardzo duży."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "narzędzie",
     "examples": [
       {
-        "es_form": "Guarda [la herramienta::narzędzie] en el armario.",
-        "pl_translation": "Schowaj narzędzie do szafy."
+        "es_form": "Esta es [la herramienta::narzędzie].",
+        "pl_translation": "To jest narzędzie."
       },
       {
-        "es_form": "[La herramienta::narzędzie] cuesta diez euros.",
-        "pl_translation": "Narzędzie kosztuje dziesięć euro."
+        "es_form": "No es [la herramienta::narzędzie].",
+        "pl_translation": "To nie jest narzędzie."
       },
       {
-        "es_form": "[La herramienta::narzędzie] está sobre la mesa.",
-        "pl_translation": "Narzędzie jest na stole."
+        "es_form": "¿Dónde está [la herramienta::narzędzie]?",
+        "pl_translation": "Gdzie jest narzędzie?"
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "śrubokręt",
     "examples": [
       {
-        "es_form": "[El destornillador::śrubokręt] cuesta diez euros.",
-        "pl_translation": "Śrubokręt kosztuje dziesięć euro."
+        "es_form": "Este es [el destornillador::śrubokręt].",
+        "pl_translation": "To jest śrubokręt."
       },
       {
-        "es_form": "Guarda [el destornillador::śrubokręt] en el armario.",
-        "pl_translation": "Schowaj śrubokręt do szafy."
+        "es_form": "¿Dónde está [el destornillador::śrubokręt]?",
+        "pl_translation": "Gdzie jest śrubokręt?"
       },
       {
-        "es_form": "[El destornillador::śrubokręt] es de madera.",
-        "pl_translation": "Śrubokręt jest z drewna."
+        "es_form": "[El destornillador::śrubokręt] está aquí.",
+        "pl_translation": "Śrubokręt jest tutaj."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "młotek",
     "examples": [
       {
-        "es_form": "Compré [el martillo::młotek] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Este es [el martillo::młotek].",
+        "pl_translation": "To jest młotek."
       },
       {
-        "es_form": "[El martillo::młotek] está sobre la mesa.",
-        "pl_translation": "Młotek jest na stole."
+        "es_form": "No es [el martillo::młotek].",
+        "pl_translation": "To nie jest młotek."
       },
       {
-        "es_form": "Guarda [el martillo::młotek] en el armario.",
-        "pl_translation": "Schowaj młotek do szafy."
+        "es_form": "¿Dónde está [el martillo::młotek]?",
+        "pl_translation": "Gdzie jest młotek?"
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "usterka",
     "examples": [
       {
-        "es_form": "Necesito [la avería::usterka] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "Esta es [la avería::usterka].",
+        "pl_translation": "To jest usterka."
       },
       {
-        "es_form": "Se me rompio [la avería::usterka].",
-        "pl_translation": "Zepsuł mi się usterka."
+        "es_form": "[La avería::usterka] está aquí.",
+        "pl_translation": "Usterka jest tutaj."
       },
       {
-        "es_form": "¿Has visto [la avería::usterka]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "No es [la avería::usterka].",
+        "pl_translation": "To nie jest usterka."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "część zamienna",
     "examples": [
       {
-        "es_form": "[El repuesto::część zamienna] es de madera.",
-        "pl_translation": "Część zamienna jest z drewna."
+        "es_form": "Este es [el repuesto::część zamienna].",
+        "pl_translation": "To jest część zamienna."
       },
       {
-        "es_form": "Guarda [el repuesto::część zamienna] en el armario.",
-        "pl_translation": "Schowaj część zamienna do szafy."
+        "es_form": "¿Dónde está [el repuesto::część zamienna]?",
+        "pl_translation": "Gdzie jest część zamienna?"
       },
       {
-        "es_form": "Necesito [el repuesto::część zamienna] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "[El repuesto::część zamienna] está aquí.",
+        "pl_translation": "Część zamienna jest tutaj."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "naprawa",
     "examples": [
       {
-        "es_form": "Se me rompio [el arreglo::naprawa].",
-        "pl_translation": "Zepsuł mi się naprawa."
+        "es_form": "Este es [el arreglo::naprawa].",
+        "pl_translation": "To jest naprawa."
       },
       {
-        "es_form": "[El arreglo::naprawa] es de madera.",
-        "pl_translation": "Naprawa jest z drewna."
+        "es_form": "¿Dónde está [el arreglo::naprawa]?",
+        "pl_translation": "Gdzie jest naprawa?"
       },
       {
-        "es_form": "[El arreglo::naprawa] cuesta diez euros.",
-        "pl_translation": "Naprawa kosztuje dziesięć euro."
+        "es_form": "No es [el arreglo::naprawa].",
+        "pl_translation": "To nie jest naprawa."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "uszkodzony",
     "examples": [
       {
-        "es_form": "Se compro un vestido [dañado::uszkodzony].",
-        "pl_translation": "Kupiła sobie uszkodzony sukienkę."
+        "es_form": "Es muy [dañado::uszkodzony].",
+        "pl_translation": "Jest bardzo uszkodzony."
       },
       {
-        "es_form": "Tengo una casa [dañada::uszkodzony].",
-        "pl_translation": "Mam uszkodzony dom."
+        "es_form": "Parece [dañado::uszkodzony].",
+        "pl_translation": "Wydaje się uszkodzony."
       },
       {
-        "es_form": "El examen fue [dañado::uszkodzony].",
-        "pl_translation": "Egzamin był uszkodzony."
+        "es_form": "Es demasiado [dañado::uszkodzony].",
+        "pl_translation": "Jest zbyt uszkodzony."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "sprawny, użyteczny",
     "examples": [
       {
-        "es_form": "El examen fue [útil::sprawny, użyteczny].",
-        "pl_translation": "Egzamin był sprawny, użyteczny."
+        "es_form": "Es muy [útil::sprawny].",
+        "pl_translation": "Jest bardzo sprawny."
       },
       {
-        "es_form": "Nada es más [útil::sprawny, użyteczny] que la familia.",
-        "pl_translation": "Nic nie jest sprawny, użyteczny od rodziny."
+        "es_form": "No es [útil::sprawny].",
+        "pl_translation": "Nie jest sprawny."
       },
       {
-        "es_form": "Es un lugar [útil::sprawny, użyteczny] para vivir.",
-        "pl_translation": "To jest sprawny, użyteczny miejsce do życia."
+        "es_form": "Es demasiado [útil::sprawny].",
+        "pl_translation": "Jest zbyt sprawny."
       }
     ]
   },

@@ -5,16 +5,16 @@
     "pl_word": "mebel",
     "examples": [
       {
-        "es_form": "¿Has visto [el mueble::mebel]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "¿Dónde está [el mueble::mebel]?",
+        "pl_translation": "Gdzie jest mebel?"
       },
       {
-        "es_form": "Guarda [el mueble::mebel] en el armario.",
-        "pl_translation": "Schowaj mebel do szafy."
+        "es_form": "[El mueble::mebel] está aquí.",
+        "pl_translation": "Mebel jest tutaj."
       },
       {
-        "es_form": "Se me rompio [el mueble::mebel].",
-        "pl_translation": "Zepsuł mi się mebel."
+        "es_form": "No es [el mueble::mebel].",
+        "pl_translation": "To nie jest mebel."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "szafa",
     "examples": [
       {
-        "es_form": "Necesito [el armario::szafa] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "¿Dónde está [el armario::szafa]?",
+        "pl_translation": "Gdzie jest szafa?"
       },
       {
-        "es_form": "[El armario::szafa] está sobre la mesa.",
-        "pl_translation": "Szafa jest na stole."
+        "es_form": "Este es [el armario::szafa].",
+        "pl_translation": "To jest szafa."
       },
       {
-        "es_form": "Guarda [el armario::szafa] en el armario.",
-        "pl_translation": "Schowaj szafa do szafy."
+        "es_form": "[El armario::szafa] está aquí.",
+        "pl_translation": "Szafa jest tutaj."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "półka",
     "examples": [
       {
-        "es_form": "[El estante::półka] es de madera.",
-        "pl_translation": "Półka jest z drewna."
+        "es_form": "Este es [el estante::półka].",
+        "pl_translation": "To jest półka."
       },
       {
-        "es_form": "Se me rompio [el estante::półka].",
-        "pl_translation": "Zepsuł mi się półka."
+        "es_form": "¿Dónde está [el estante::półka]?",
+        "pl_translation": "Gdzie jest półka?"
       },
       {
-        "es_form": "Necesito [el estante::półka] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "[El estante::półka] está aquí.",
+        "pl_translation": "Półka jest tutaj."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "dywan",
     "examples": [
       {
-        "es_form": "Se me rompio [la alfombra::dywan].",
-        "pl_translation": "Zepsuł mi się dywan."
+        "es_form": "Esta es [la alfombra::dywan].",
+        "pl_translation": "To jest dywan."
       },
       {
-        "es_form": "Necesito [la alfombra::dywan] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "¿Dónde está [la alfombra::dywan]?",
+        "pl_translation": "Gdzie jest dywan?"
       },
       {
-        "es_form": "Compré [la alfombra::dywan] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "No es [la alfombra::dywan].",
+        "pl_translation": "To nie jest dywan."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "zasłona",
     "examples": [
       {
-        "es_form": "Compré [la cortina::zasłona] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Esta es [la cortina::zasłona].",
+        "pl_translation": "To jest zasłona."
       },
       {
-        "es_form": "Guarda [la cortina::zasłona] en el armario.",
-        "pl_translation": "Schowaj zasłona do szafy."
+        "es_form": "¿Dónde está [la cortina::zasłona]?",
+        "pl_translation": "Gdzie jest zasłona?"
       },
       {
-        "es_form": "[La cortina::zasłona] está sobre la mesa.",
-        "pl_translation": "Zasłona jest na stole."
+        "es_form": "No es [la cortina::zasłona].",
+        "pl_translation": "To nie jest zasłona."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "lampa",
     "examples": [
       {
-        "es_form": "Compré [la lámpara::lampa] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "¿Dónde está [la lámpara::lampa]?",
+        "pl_translation": "Gdzie jest lampa?"
       },
       {
-        "es_form": "¿Has visto [la lámpara::lampa]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "[La lámpara::lampa] está aquí.",
+        "pl_translation": "Lampa jest tutaj."
       },
       {
-        "es_form": "Guarda [la lámpara::lampa] en el armario.",
-        "pl_translation": "Schowaj lampa do szafy."
+        "es_form": "No es [la lámpara::lampa].",
+        "pl_translation": "To nie jest lampa."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "zegar",
     "examples": [
       {
-        "es_form": "¿Has visto [el reloj::zegar]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Este es [el reloj::zegar].",
+        "pl_translation": "To jest zegar."
       },
       {
-        "es_form": "Se me rompio [el reloj::zegar].",
-        "pl_translation": "Zepsuł mi się zegar."
+        "es_form": "[El reloj::zegar] está aquí.",
+        "pl_translation": "Zegar jest tutaj."
       },
       {
-        "es_form": "Necesito [el reloj::zegar] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "No es [el reloj::zegar].",
+        "pl_translation": "To nie jest zegar."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "obraz (na ścianie)",
     "examples": [
       {
-        "es_form": "Necesito [el cuadro::obraz (na ścianie)] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "Este es [el cuadro::obraz].",
+        "pl_translation": "To jest obraz."
       },
       {
-        "es_form": "[El cuadro::obraz (na ścianie)] cuesta diez euros.",
-        "pl_translation": "Obraz kosztuje dziesięć euro."
+        "es_form": "No es [el cuadro::obraz].",
+        "pl_translation": "To nie jest obraz."
       },
       {
-        "es_form": "[El cuadro::obraz (na ścianie)] está sobre la mesa.",
-        "pl_translation": "Obraz jest na stole."
+        "es_form": "¿Dónde está [el cuadro::obraz]?",
+        "pl_translation": "Gdzie jest obraz?"
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "wazon",
     "examples": [
       {
-        "es_form": "[El florero::wazon] está sobre la mesa.",
-        "pl_translation": "Wazon jest na stole."
+        "es_form": "Este es [el florero::wazon].",
+        "pl_translation": "To jest wazon."
       },
       {
-        "es_form": "[El florero::wazon] cuesta diez euros.",
-        "pl_translation": "Wazon kosztuje dziesięć euro."
+        "es_form": "No es [el florero::wazon].",
+        "pl_translation": "To nie jest wazon."
       },
       {
-        "es_form": "Compré [el florero::wazon] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "¿Dónde está [el florero::wazon]?",
+        "pl_translation": "Gdzie jest wazon?"
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "kosz",
     "examples": [
       {
-        "es_form": "Guarda [la cesta::kosz] en el armario.",
-        "pl_translation": "Schowaj kosz do szafy."
+        "es_form": "Esta es [la cesta::kosz].",
+        "pl_translation": "To jest kosz."
       },
       {
-        "es_form": "[La cesta::kosz] es de madera.",
-        "pl_translation": "Kosz jest z drewna."
+        "es_form": "[La cesta::kosz] está aquí.",
+        "pl_translation": "Kosz jest tutaj."
       },
       {
-        "es_form": "¿Has visto [la cesta::kosz]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "No es [la cesta::kosz].",
+        "pl_translation": "To nie jest kosz."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "miękki",
     "examples": [
       {
-        "es_form": "La comida está [suave::miękki].",
-        "pl_translation": "Jedzenie jest miękki."
+        "es_form": "Es muy [suave::miękki].",
+        "pl_translation": "Jest bardzo miękki."
       },
       {
-        "es_form": "Es una persona muy [suave::miękki].",
-        "pl_translation": "To jest bardzo miękki osoba."
+        "es_form": "No es [suave::miękki].",
+        "pl_translation": "Nie jest miękki."
       },
       {
-        "es_form": "Se compro un vestido [suave::miękki].",
-        "pl_translation": "Kupiła sobie miękki sukienkę."
+        "es_form": "Parece [suave::miękki].",
+        "pl_translation": "Wydaje się miękki."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "twardy",
     "examples": [
       {
-        "es_form": "Tengo una casa [dura::twardy].",
-        "pl_translation": "Mam twardy dom."
+        "es_form": "No es [duro::twardy].",
+        "pl_translation": "Nie jest twardy."
       },
       {
-        "es_form": "Mi amigo es [duro::twardy] y simpático.",
-        "pl_translation": "Mój przyjaciel jest twardy i sympatyczny."
+        "es_form": "Parece [duro::twardy].",
+        "pl_translation": "Wydaje się twardy."
       },
       {
-        "es_form": "El examen fue [duro::twardy].",
-        "pl_translation": "Egzamin był twardy."
+        "es_form": "Es demasiado [duro::twardy].",
+        "pl_translation": "Jest zbyt twardy."
       }
     ]
   },

@@ -9,12 +9,12 @@
         "pl_translation": "Osoba tu pracuje."
       },
       {
-        "es_form": "[La persona::osoba] es muy amable.",
-        "pl_translation": "Osoba jest bardzo miły"
+        "es_form": "Esta es [la persona::osoba].",
+        "pl_translation": "To jest osoba."
       },
       {
-        "es_form": "Hablé con [la persona::osoba] ayer.",
-        "pl_translation": "Rozmawiałem"
+        "es_form": "¿Dónde está [la persona::osoba]?",
+        "pl_translation": "Gdzie jest osoba?"
       }
     ]
   },
@@ -24,12 +24,12 @@
     "pl_word": "mężczyzna",
     "examples": [
       {
-        "es_form": "[El hombre::mężczyzna] me ayudo mucho.",
-        "pl_translation": "Mężczyzna bardzo mi pomógł"
+        "es_form": "No es [el hombre::mężczyzna].",
+        "pl_translation": "To nie jest mężczyzna."
       },
       {
-        "es_form": "Conozco a [el hombre::mężczyzna].",
-        "pl_translation": "Znam mężczyzna."
+        "es_form": "Este es [el hombre::mężczyzna].",
+        "pl_translation": "To jest mężczyzna."
       },
       {
         "es_form": "[El hombre::mężczyzna] trabaja aquí.",
@@ -48,11 +48,11 @@
       },
       {
         "es_form": "Esta es [la mujer::kobieta] de la que hablé.",
-        "pl_translation": "To jest kobieta, o której mówiłem"
+        "pl_translation": "To jest kobieta, o której mówiłem."
       },
       {
-        "es_form": "[La mujer::kobieta] es muy amable.",
-        "pl_translation": "Kobieta jest bardzo miły"
+        "es_form": "Esta es [la mujer::kobieta].",
+        "pl_translation": "To jest kobieta."
       }
     ]
   },
@@ -63,15 +63,15 @@
     "examples": [
       {
         "es_form": "[El niño::chłopiec, dziecko] es muy amable.",
-        "pl_translation": "Chłopiec, dziecko jest bardzo miły"
+        "pl_translation": "Chłopiec, dziecko jest bardzo miły."
       },
       {
         "es_form": "[El niño::chłopiec, dziecko] trabaja aquí.",
         "pl_translation": "Chłopiec, dziecko tu pracuje."
       },
       {
-        "es_form": "[El niño::chłopiec, dziecko] me ayudo mucho.",
-        "pl_translation": "Chłopiec, dziecko bardzo mi pomógł"
+        "es_form": "[El niño::chłopiec, dziecko] me ayudó mucho.",
+        "pl_translation": "Chłopiec, dziecko bardzo mi pomógł."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "dziewczynka",
     "examples": [
       {
-        "es_form": "[La niña::dziewczynka] me ayudo mucho.",
-        "pl_translation": "Dziewczynka bardzo mi pomógł"
+        "es_form": "No es [la niña::dziewczynka].",
+        "pl_translation": "To nie jest dziewczynka."
       },
       {
-        "es_form": "[La niña::dziewczynka] es muy amable.",
-        "pl_translation": "Dziewczynka jest bardzo miły"
+        "es_form": "Esta es [la niña::dziewczynka].",
+        "pl_translation": "To jest dziewczynka."
       },
       {
         "es_form": "Esta es [la niña::dziewczynka] de la que hablé.",
-        "pl_translation": "To jest dziewczynka, o której mówiłem"
+        "pl_translation": "To jest dziewczynka, o której mówiłem."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "imię",
     "examples": [
       {
-        "es_form": "[El nombre::imię] cuesta diez euros.",
-        "pl_translation": "Imię kosztuje dziesięć euro."
+        "es_form": "No es [el nombre::imię].",
+        "pl_translation": "To nie jest imię."
       },
       {
-        "es_form": "Compré [el nombre::imię] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Este es [el nombre::imię].",
+        "pl_translation": "To jest imię."
       },
       {
-        "es_form": "Se me rompio [el nombre::imię].",
-        "pl_translation": "Zepsuł mi się imię."
+        "es_form": "[El nombre::imię] está aquí.",
+        "pl_translation": "Imię jest tutaj."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "nazwisko",
     "examples": [
       {
-        "es_form": "[El apellido::nazwisko] está sobre la mesa.",
-        "pl_translation": "Nazwisko jest na stole."
+        "es_form": "No es [el apellido::nazwisko].",
+        "pl_translation": "To nie jest nazwisko."
       },
       {
-        "es_form": "¿Has visto [el apellido::nazwisko]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Este es [el apellido::nazwisko].",
+        "pl_translation": "To jest nazwisko."
       },
       {
-        "es_form": "[El apellido::nazwisko] es de madera.",
-        "pl_translation": "Nazwisko jest z drewna."
+        "es_form": "[El apellido::nazwisko] está aquí.",
+        "pl_translation": "Nazwisko jest tutaj."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "rodzina",
     "examples": [
       {
-        "es_form": "Guarda [la familia::rodzina] en el armario.",
-        "pl_translation": "Schowaj rodzina do szafy."
+        "es_form": "Esta es [la familia::rodzina].",
+        "pl_translation": "To jest rodzina."
       },
       {
-        "es_form": "Se me rompio [la familia::rodzina].",
-        "pl_translation": "Zepsuł mi się rodzina."
+        "es_form": "¿Dónde está [la familia::rodzina]?",
+        "pl_translation": "Gdzie jest rodzina?"
       },
       {
-        "es_form": "¿Has visto [la familia::rodzina]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "[La familia::rodzina] está aquí.",
+        "pl_translation": "Rodzina jest tutaj."
       }
     ]
   },
@@ -157,8 +157,8 @@
     "pl_word": "przyjaciel",
     "examples": [
       {
-        "es_form": "[El amigo::przyjaciel] me ayudo mucho.",
-        "pl_translation": "Przyjaciel bardzo mi pomógł"
+        "es_form": "[El amigo::przyjaciel] me ayudó mucho.",
+        "pl_translation": "Przyjaciel bardzo mi pomógł."
       },
       {
         "es_form": "[El amigo::przyjaciel] vive en mi calle.",
@@ -181,7 +181,7 @@
       },
       {
         "es_form": "Esta es [la amiga::przyjaciółka] de la que hablé.",
-        "pl_translation": "To jest przyjaciółka, o której mówiłem"
+        "pl_translation": "To jest przyjaciółka, o której mówiłem."
       },
       {
         "es_form": "[La amiga::przyjaciółka] vive en mi calle.",
@@ -195,16 +195,16 @@
     "pl_word": "dobry",
     "examples": [
       {
-        "es_form": "El examen fue [bueno::dobry].",
-        "pl_translation": "Egzamin był dobry."
+        "es_form": "No es [bueno::dobry].",
+        "pl_translation": "Nie jest dobry."
       },
       {
-        "es_form": "Es un lugar [bueno::dobry] para vivir.",
-        "pl_translation": "To jest dobry miejsce do życia."
+        "es_form": "Parece [bueno::dobry].",
+        "pl_translation": "Wydaje się dobry."
       },
       {
-        "es_form": "Hace un día [bueno::dobry].",
-        "pl_translation": "Jest dobry dzień."
+        "es_form": "Es demasiado [bueno::dobry].",
+        "pl_translation": "Jest zbyt dobry."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "nowy",
     "examples": [
       {
-        "es_form": "Es una persona muy [nuevo::nowy].",
-        "pl_translation": "To jest bardzo nowy osoba."
+        "es_form": "Es muy [nuevo::nowy].",
+        "pl_translation": "Jest bardzo nowy."
       },
       {
-        "es_form": "Nada es más [nuevo::nowy] que la familia.",
-        "pl_translation": "Nic nie jest nowy od rodziny."
+        "es_form": "No es [nuevo::nowy].",
+        "pl_translation": "Nie jest nowy."
       },
       {
-        "es_form": "Se compro un vestido [nuevo::nowy].",
-        "pl_translation": "Kupiła sobie nowy sukienkę."
+        "es_form": "Parece [nuevo::nowy].",
+        "pl_translation": "Wydaje się nowy."
       }
     ]
   },

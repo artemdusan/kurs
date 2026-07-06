@@ -5,8 +5,8 @@
     "pl_word": "serial",
     "examples": [
       {
-        "es_form": "¿Quieres ver [la serie::serial]?",
-        "pl_translation": "Chcesz obejrzeć serial?"
+        "es_form": "¿Dónde está [la serie::serial]?",
+        "pl_translation": "Gdzie jest serial?"
       },
       {
         "es_form": "[La serie::serial] es muy popular.",
@@ -24,16 +24,16 @@
     "pl_word": "program",
     "examples": [
       {
-        "es_form": "Voy a grabar [el programa::program].",
-        "pl_translation": "Nagrram program."
+        "es_form": "¿Dónde está [el programa::program]?",
+        "pl_translation": "Gdzie jest program?"
       },
       {
         "es_form": "Necesito [el programa::program] nuevo.",
         "pl_translation": "Potrzebuję nowego programu."
       },
       {
-        "es_form": "¿Has visto [el programa::program]?",
-        "pl_translation": "Widziałeś program?"
+        "es_form": "[El programa::program] está aquí.",
+        "pl_translation": "Program jest tutaj."
       }
     ]
   },
@@ -43,12 +43,12 @@
     "pl_word": "kanał telewizyjny",
     "examples": [
       {
-        "es_form": "Cambia [el canal::kanał telewizyjny].",
-        "pl_translation": "Zmień kanał telewizyjny."
+        "es_form": "Este es [el canal::kanał telewizyjny].",
+        "pl_translation": "To jest kanał telewizyjny."
       },
       {
-        "es_form": "¿Has visto [el canal::kanał telewizyjny]?",
-        "pl_translation": "Widziałeś ten kanał telewizyjny?"
+        "es_form": "[El canal::kanał telewizyjny] está aquí.",
+        "pl_translation": "Kanał telewizyjny jest tutaj."
       },
       {
         "es_form": "Necesito [el canal::kanał telewizyjny] nuevo.",
@@ -66,8 +66,8 @@
         "pl_translation": "Nagranie trwa dziesięć minut."
       },
       {
-        "es_form": "Compré [la grabación::nagranie] ayer.",
-        "pl_translation": "Kupiłem nagranie wczoraj."
+        "es_form": "Esta es [la grabación::nagranie].",
+        "pl_translation": "To jest nagranie."
       },
       {
         "es_form": "[La grabación::nagranie] es de buena calidad.",
@@ -89,8 +89,8 @@
         "pl_translation": "Wideo trwa dziesięć minut."
       },
       {
-        "es_form": "Grabé [el vídeo::filmik] ayer.",
-        "pl_translation": "Nagrrałem filmik wczoraj."
+        "es_form": "¿Dónde está [el vídeo::filmik]?",
+        "pl_translation": "Gdzie jest filmik?"
       }
     ]
   },
@@ -108,8 +108,8 @@
         "pl_translation": "Korzystam z mediów społecznościowych codziennie."
       },
       {
-        "es_form": "¿Has visto [las redes sociales::media społecznościowe]?",
-        "pl_translation": "Widziałeś media społecznościowe?"
+        "es_form": "Esta es [las redes sociales::media społecznościowe].",
+        "pl_translation": "To jest media społecznościowe."
       }
     ]
   },
@@ -142,8 +142,8 @@
         "pl_translation": "Forum jest bardzo aktywne."
       },
       {
-        "es_form": "Participo en [el foro::forum].",
-        "pl_translation": "Uczestniczę w forum."
+        "es_form": "Este es [el foro::forum].",
+        "pl_translation": "To jest forum."
       },
       {
         "es_form": "[El foro::forum] tiene muchos usuarios.",
@@ -157,8 +157,8 @@
     "pl_word": "recenzja",
     "examples": [
       {
-        "es_form": "¿Has visto [la reseña::recenzję]?",
-        "pl_translation": "Widziałeś recenzję?"
+        "es_form": "Esta es [la reseña::recenzja].",
+        "pl_translation": "To jest recenzja."
       },
       {
         "es_form": "[La reseña::recenzja] es muy positiva.",
@@ -176,8 +176,8 @@
     "pl_word": "subskrypcja",
     "examples": [
       {
-        "es_form": "¿Has visto [la suscripción::subskrypcję]?",
-        "pl_translation": "Widziałeś subskrypcję?"
+        "es_form": "Esta es [la suscripción::subskrypcja].",
+        "pl_translation": "To jest subskrypcja."
       },
       {
         "es_form": "[La suscripción::subskrypcja] es mensual.",
@@ -195,16 +195,16 @@
     "pl_word": "wirtualny",
     "examples": [
       {
-        "es_form": "Tengo una reunión [virtual::wirtualną].",
-        "pl_translation": "Mam wirtualne spotkanie."
+        "es_form": "Es muy [virtual::wirtualny].",
+        "pl_translation": "Jest bardzo wirtualny."
       },
       {
-        "es_form": "El mundo [virtual::wirtualny] es fascinante.",
-        "pl_translation": "Świat wirtualny jest fascynujący."
+        "es_form": "No es [virtual::wirtualny].",
+        "pl_translation": "Nie jest wirtualny."
       },
       {
-        "es_form": "Es una experiencia [virtual::wirtualna].",
-        "pl_translation": "To jest wirtualne doświadczenie."
+        "es_form": "Es demasiado [virtual::wirtualny].",
+        "pl_translation": "Jest zbyt wirtualny."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "interaktywny",
     "examples": [
       {
-        "es_form": "Nada es más [interactivo::interaktywny] que un videojuego.",
-        "pl_translation": "Nic nie jest bardziej interaktywne od gry wideo."
+        "es_form": "Es muy [interactivo::interaktywny].",
+        "pl_translation": "Jest bardzo interaktywny."
       },
       {
-        "es_form": "El mapa es [interactivo::interaktywny].",
-        "pl_translation": "Mapa jest interaktywna."
+        "es_form": "Parece [interactivo::interaktywny].",
+        "pl_translation": "Wydaje się interaktywny."
       },
       {
-        "es_form": "Es un programa [interactivo::interaktywny].",
-        "pl_translation": "To jest interaktywny program."
+        "es_form": "Es demasiado [interactivo::interaktywny].",
+        "pl_translation": "Jest zbyt interaktywny."
       }
     ]
   },

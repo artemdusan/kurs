@@ -5,16 +5,16 @@
     "pl_word": "koszula",
     "examples": [
       {
-        "es_form": "[La camisa::koszula] cuesta diez euros.",
-        "pl_translation": "Koszula kosztuje dziesięć euro."
+        "es_form": "No es [la camisa::koszula].",
+        "pl_translation": "To nie jest koszula."
       },
       {
-        "es_form": "Compré [la camisa::koszula] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "Esta es [la camisa::koszula].",
+        "pl_translation": "To jest koszula."
       },
       {
-        "es_form": "Guarda [la camisa::koszula] en el armario.",
-        "pl_translation": "Schowaj koszula do szafy."
+        "es_form": "[La camisa::koszula] está aquí.",
+        "pl_translation": "Koszula jest tutaj."
       }
     ]
   },
@@ -24,54 +24,54 @@
     "pl_word": "koszulka (t-shirt)",
     "examples": [
       {
-        "es_form": "Necesito [la camiseta::koszulka (t-shirt)] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "¿Dónde está [la camiseta::koszulka]?",
+        "pl_translation": "Gdzie jest koszulka?"
       },
       {
-        "es_form": "Guarda [la camiseta::koszulka (t-shirt)] en el armario.",
-        "pl_translation": "Schowaj koszulka do szafy."
+        "es_form": "[La camiseta::koszulka] está aquí.",
+        "pl_translation": "Koszulka jest tutaj."
       },
       {
-        "es_form": "[La camiseta::koszulka (t-shirt)] está sobre la mesa.",
-        "pl_translation": "Koszulka jest na stole."
+        "es_form": "Esta es [la camiseta::koszulka].",
+        "pl_translation": "To jest koszulka."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El pantalones",
+    "es_word": "Los pantalones",
     "pl_word": "spodnie",
     "examples": [
       {
-        "es_form": "[El pantalones::spodnie] es de madera.",
-        "pl_translation": "Spodnie jest z drewna."
+        "es_form": "¿Dónde están [los pantalones::spodnie]?",
+        "pl_translation": "Gdzie są spodnie?"
       },
       {
-        "es_form": "Se me rompio [el pantalones::spodnie].",
-        "pl_translation": "Zepsuł mi się spodnie."
+        "es_form": "[Los pantalones::spodnie] están aquí.",
+        "pl_translation": "Spodnie są tutaj."
       },
       {
-        "es_form": "[El pantalones::spodnie] cuesta diez euros.",
-        "pl_translation": "Spodnie kosztuje dziesięć euro."
+        "es_form": "No son [los pantalones::spodnie].",
+        "pl_translation": "To nie są spodnie."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El zapatos",
+    "es_word": "Los zapatos",
     "pl_word": "buty",
     "examples": [
       {
-        "es_form": "Necesito [el zapatos::buty] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "Estos son [los zapatos::buty].",
+        "pl_translation": "To są buty."
       },
       {
-        "es_form": "Compré [el zapatos::buty] ayer.",
-        "pl_translation": "Kupiłem"
+        "es_form": "¿Dónde están [los zapatos::buty]?",
+        "pl_translation": "Gdzie są buty?"
       },
       {
-        "es_form": "[El zapatos::buty] cuesta diez euros.",
-        "pl_translation": "Buty kosztuje dziesięć euro."
+        "es_form": "[Los zapatos::buty] están aquí.",
+        "pl_translation": "Buty są tutaj."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "sukienka",
     "examples": [
       {
-        "es_form": "[El vestido::sukienka] está sobre la mesa.",
-        "pl_translation": "Sukienka jest na stole."
+        "es_form": "No es [el vestido::sukienka].",
+        "pl_translation": "To nie jest sukienka."
       },
       {
-        "es_form": "Guarda [el vestido::sukienka] en el armario.",
-        "pl_translation": "Schowaj sukienka do szafy."
+        "es_form": "Este es [el vestido::sukienka].",
+        "pl_translation": "To jest sukienka."
       },
       {
-        "es_form": "[El vestido::sukienka] cuesta diez euros.",
-        "pl_translation": "Sukienka kosztuje dziesięć euro."
+        "es_form": "¿Dónde está [el vestido::sukienka]?",
+        "pl_translation": "Gdzie jest sukienka?"
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "kurtka",
     "examples": [
       {
-        "es_form": "¿Has visto [la chaqueta::kurtka]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Esta es [la chaqueta::kurtka].",
+        "pl_translation": "To jest kurtka."
       },
       {
-        "es_form": "[La chaqueta::kurtka] cuesta diez euros.",
-        "pl_translation": "Kurtka kosztuje dziesięć euro."
+        "es_form": "No es [la chaqueta::kurtka].",
+        "pl_translation": "To nie jest kurtka."
       },
       {
-        "es_form": "Necesito [la chaqueta::kurtka] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "¿Dónde está [la chaqueta::kurtka]?",
+        "pl_translation": "Gdzie jest kurtka?"
       }
     ]
   },
@@ -119,35 +119,35 @@
     "pl_word": "czapka (z daszkiem)",
     "examples": [
       {
-        "es_form": "[La gorra::czapka (z daszkiem)] cuesta diez euros.",
-        "pl_translation": "Czapka kosztuje dziesięć euro."
+        "es_form": "No es [la gorra::czapka].",
+        "pl_translation": "To nie jest czapka."
       },
       {
-        "es_form": "Guarda [la gorra::czapka (z daszkiem)] en el armario.",
-        "pl_translation": "Schowaj czapka do szafy."
+        "es_form": "Esta es [la gorra::czapka].",
+        "pl_translation": "To jest czapka."
       },
       {
-        "es_form": "¿Has visto [la gorra::czapka (z daszkiem)]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "¿Dónde está [la gorra::czapka]?",
+        "pl_translation": "Gdzie jest czapka?"
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El calcetines",
+    "es_word": "Los calcetines",
     "pl_word": "skarpetki",
     "examples": [
       {
-        "es_form": "[El calcetines::skarpetki] está sobre la mesa.",
-        "pl_translation": "Skarpetki jest na stole."
+        "es_form": "Estos son [los calcetines::skarpetki].",
+        "pl_translation": "To są skarpetki."
       },
       {
-        "es_form": "Se me rompio [el calcetines::skarpetki].",
-        "pl_translation": "Zepsuł mi się skarpetki."
+        "es_form": "[Los calcetines::skarpetki] están aquí.",
+        "pl_translation": "Skarpetki są tutaj."
       },
       {
-        "es_form": "¿Has visto [el calcetines::skarpetki]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "No son [los calcetines::skarpetki].",
+        "pl_translation": "To nie są skarpetki."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "ubranie",
     "examples": [
       {
-        "es_form": "¿Has visto [la ropa::ubranie]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Esta es [la ropa::ubranie].",
+        "pl_translation": "To jest ubranie."
       },
       {
-        "es_form": "Se me rompio [la ropa::ubranie].",
-        "pl_translation": "Zepsuł mi się ubranie."
+        "es_form": "Hablamos sobre [la ropa::ubranie].",
+        "pl_translation": "Rozmawiamy o tym, czym jest ubranie."
       },
       {
-        "es_form": "Necesito [la ropa::ubranie] nuevo.",
-        "pl_translation": "Potrzebuję nowy"
+        "es_form": "No es [la ropa::ubranie].",
+        "pl_translation": "To nie jest ubranie."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "płaszcz",
     "examples": [
       {
-        "es_form": "[El abrigo::płaszcz] está sobre la mesa.",
-        "pl_translation": "Płaszcz jest na stole."
+        "es_form": "No es [el abrigo::płaszcz].",
+        "pl_translation": "To nie jest płaszcz."
       },
       {
-        "es_form": "¿Has visto [el abrigo::płaszcz]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Este es [el abrigo::płaszcz].",
+        "pl_translation": "To jest płaszcz."
       },
       {
-        "es_form": "Guarda [el abrigo::płaszcz] en el armario.",
-        "pl_translation": "Schowaj płaszcz do szafy."
+        "es_form": "¿Dónde está [el abrigo::płaszcz]?",
+        "pl_translation": "Gdzie jest płaszcz?"
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "wygodny",
     "examples": [
       {
-        "es_form": "Mi amigo es [cómodo::wygodny] y simpático.",
-        "pl_translation": "Mój przyjaciel jest wygodny i sympatyczny."
+        "es_form": "No es [cómodo::wygodny].",
+        "pl_translation": "Nie jest wygodny."
       },
       {
-        "es_form": "Es un lugar [cómodo::wygodny] para vivir.",
-        "pl_translation": "To jest wygodny miejsce do życia."
+        "es_form": "Parece [cómodo::wygodny].",
+        "pl_translation": "Wydaje się wygodny."
       },
       {
-        "es_form": "El examen fue [cómodo::wygodny].",
-        "pl_translation": "Egzamin był wygodny."
+        "es_form": "Es demasiado [cómodo::wygodny].",
+        "pl_translation": "Jest zbyt wygodny."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "elegancki",
     "examples": [
       {
-        "es_form": "Es una persona muy [elegante::elegancki].",
-        "pl_translation": "To jest bardzo elegancki osoba."
+        "es_form": "Es muy [elegante::elegancki].",
+        "pl_translation": "Jest bardzo elegancki."
       },
       {
-        "es_form": "La comida está [elegante::elegancki].",
-        "pl_translation": "Jedzenie jest elegancki."
+        "es_form": "Parece [elegante::elegancki].",
+        "pl_translation": "Wydaje się elegancki."
       },
       {
-        "es_form": "Hace un día [elegante::elegancki].",
-        "pl_translation": "Jest elegancki dzień."
+        "es_form": "Es demasiado [elegante::elegancki].",
+        "pl_translation": "Jest zbyt elegancki."
       }
     ]
   },

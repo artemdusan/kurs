@@ -5,8 +5,8 @@
     "pl_word": "budynek",
     "examples": [
       {
-        "es_form": "Construyeron [el edificio::budynek] el año pasado.",
-        "pl_translation": "Zbudowali budynek w zeszłym roku."
+        "es_form": "Este es [el edificio::budynek].",
+        "pl_translation": "To jest budynek."
       },
       {
         "es_form": "[El edificio::budynek] es muy alto.",
@@ -32,8 +32,8 @@
         "pl_translation": "Studiuję architekturę na uniwersytecie."
       },
       {
-        "es_form": "Me apasiona [la arquitectura::architektura] moderna.",
-        "pl_translation": "Pasjonuje mnie architektura nowoczesna."
+        "es_form": "Esta es [la arquitectura::architektura].",
+        "pl_translation": "To jest architektura."
       }
     ]
   },
@@ -47,8 +47,8 @@
         "pl_translation": "Zamek jest na wzgórzu."
       },
       {
-        "es_form": "Visitamos [el castillo::zamek (budynek)] medieval.",
-        "pl_translation": "Odwiedziliśmy średniowieczny zamek."
+        "es_form": "Este es [el castillo::zamek].",
+        "pl_translation": "To jest zamek."
       },
       {
         "es_form": "[El castillo::zamek (budynek)] fue construido en el siglo XIII.",
@@ -66,8 +66,8 @@
         "pl_translation": "Pałac królewski jest w centrum."
       },
       {
-        "es_form": "Visitamos [el palacio::pałac] ayer.",
-        "pl_translation": "Odwiedziliśmy pałac wczoraj."
+        "es_form": "Este es [el palacio::pałac].",
+        "pl_translation": "To jest pałac."
       },
       {
         "es_form": "[El palacio::pałac] tiene cien habitaciones.",
@@ -81,8 +81,8 @@
     "pl_word": "wieża",
     "examples": [
       {
-        "es_form": "[La torre::wieża] es de madera.",
-        "pl_translation": "Wieża jest z drewna."
+        "es_form": "¿Dónde está [la torre::wieża]?",
+        "pl_translation": "Gdzie jest wieża?"
       },
       {
         "es_form": "Subimos a [la torre::wieża] para ver la ciudad.",
@@ -104,8 +104,8 @@
         "pl_translation": "Most przecina rzekę."
       },
       {
-        "es_form": "Construyeron [el puente::most] en 1920.",
-        "pl_translation": "Zbudowali most w 1920 roku."
+        "es_form": "Este es [el puente::most].",
+        "pl_translation": "To jest most."
       },
       {
         "es_form": "[El puente::most] es muy antiguo.",
@@ -127,8 +127,8 @@
         "pl_translation": "Dach jest z czerwonych dachówek."
       },
       {
-        "es_form": "¿Has visto [el tejado::dach]?",
-        "pl_translation": "Widziałeś"
+        "es_form": "Este es [el tejado::dach].",
+        "pl_translation": "To jest dach."
       }
     ]
   },
@@ -142,8 +142,8 @@
         "pl_translation": "Fundamenty są z betonu."
       },
       {
-        "es_form": "Reforzamos [los cimientos::fundamenty] el año pasado.",
-        "pl_translation": "Wzmocniliśmy fundamenty w zeszłym roku."
+        "es_form": "Esta es [los cimientos::fundamenty].",
+        "pl_translation": "To jest fundamenty."
       },
       {
         "es_form": "[Los cimientos::fundamenty] son la base del edificio.",
@@ -161,8 +161,8 @@
         "pl_translation": "Dym wydobywa się z komina."
       },
       {
-        "es_form": "Limpiamos [la chimenea::komin] cada invierno.",
-        "pl_translation": "Czyścimy komin każdej zimy."
+        "es_form": "¿Dónde está [la chimenea::komin]?",
+        "pl_translation": "Gdzie jest komin?"
       },
       {
         "es_form": "Hay un nido en [la chimenea::komin].",
@@ -176,16 +176,16 @@
     "pl_word": "ogrodzenie",
     "examples": [
       {
-        "es_form": "Pintamos [la valla::ogrodzenie] de blanco.",
-        "pl_translation": "Pomalowaliśmy ogrodzenie na biało."
+        "es_form": "Esta es [la valla::ogrodzenie].",
+        "pl_translation": "To jest ogrodzenie."
       },
       {
-        "es_form": "El perro saltó [la valla::ogrodzenie].",
-        "pl_translation": "Pies przeskoczył przez ogrodzenie."
+        "es_form": "Hablamos sobre [la valla::ogrodzenie].",
+        "pl_translation": "Rozmawiamy o tym, czym jest ogrodzenie."
       },
       {
-        "es_form": "[La valla::ogrodzenie] es de madera.",
-        "pl_translation": "Ogrodzenie jest z drewna."
+        "es_form": "No es [la valla::ogrodzenie].",
+        "pl_translation": "To nie jest ogrodzenie."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "nowoczesny",
     "examples": [
       {
-        "es_form": "Este edificio es muy [moderno::nowoczesny].",
-        "pl_translation": "Ten budynek jest bardzo nowoczesny."
+        "es_form": "Es muy [moderno::nowoczesny].",
+        "pl_translation": "Jest bardzo nowoczesny."
       },
       {
-        "es_form": "Es una persona muy [moderna::nowoczesna].",
-        "pl_translation": "To jest bardzo nowoczesna osoba."
+        "es_form": "No es [moderno::nowoczesny].",
+        "pl_translation": "Nie jest nowoczesny."
       },
       {
-        "es_form": "Este coche es [moderno::nowoczesny].",
-        "pl_translation": "Ten samochód jest nowoczesny."
+        "es_form": "Es demasiado [moderno::nowoczesny].",
+        "pl_translation": "Jest zbyt nowoczesny."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "zabytkowy",
     "examples": [
       {
-        "es_form": "El centro [histórico::zabytkowy] es precioso.",
-        "pl_translation": "Zabytkowe centrum jest przepiękne."
+        "es_form": "Es muy [histórico::zabytkowy].",
+        "pl_translation": "Jest bardzo zabytkowy."
       },
       {
-        "es_form": "Este edificio es [histórico::zabytkowy].",
-        "pl_translation": "Ten budynek jest zabytkowy."
+        "es_form": "No es [histórico::zabytkowy].",
+        "pl_translation": "Nie jest zabytkowy."
       },
       {
-        "es_form": "Vivo en una casa [histórica::zabytkowa].",
-        "pl_translation": "Mieszkam w zabytkowym domu."
+        "es_form": "Es demasiado [histórico::zabytkowy].",
+        "pl_translation": "Jest zbyt zabytkowy."
       }
     ]
   },

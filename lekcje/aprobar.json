@@ -51,8 +51,8 @@
         "pl_translation": "Nie rozumiem historii."
       },
       {
-        "es_form": "[La historia::historia] es la clave del éxito.",
-        "pl_translation": "Historia jest kluczem do sukcesu."
+        "es_form": "Esta es [la historia::historia].",
+        "pl_translation": "To jest historia."
       }
     ]
   },
@@ -146,8 +146,8 @@
         "pl_translation": "Potrzebuję świadectwa na uczelnię."
       },
       {
-        "es_form": "[El certificado::świadectwo] está sobre la mesa.",
-        "pl_translation": "Świadectwo jest na stole."
+        "es_form": "Este es [el certificado::świadectwo].",
+        "pl_translation": "To jest świadectwo."
       }
     ]
   },
@@ -161,12 +161,12 @@
         "pl_translation": "Stypendium pokrywa wszystkie wydatki."
       },
       {
-        "es_form": "He solicitado [la beca::stypendium] este año.",
-        "pl_translation": "Złożyłem wniosek o stypendium w tym roku."
+        "es_form": "Esta es [la beca::stypendium].",
+        "pl_translation": "To jest stypendium."
       },
       {
-        "es_form": "¿Has recibido [la beca::stypendium]?",
-        "pl_translation": "Dostałeś stypendium?"
+        "es_form": "[La beca::stypendium] está aquí.",
+        "pl_translation": "Stypendium jest tutaj."
       }
     ]
   },
@@ -180,8 +180,8 @@
         "pl_translation": "Byłem wczoraj na wykładzie."
       },
       {
-        "es_form": "¿Has entendido [la conferencia::wykład]?",
-        "pl_translation": "Zrozumiałeś wykład?"
+        "es_form": "Esta es [la conferencia::wykład].",
+        "pl_translation": "To jest wykład."
       },
       {
         "es_form": "[La conferencia::wykład] duró dos horas.",
@@ -195,16 +195,16 @@
     "pl_word": "utalentowany",
     "examples": [
       {
-        "es_form": "Es un estudiante muy [talentoso::utalentowany].",
-        "pl_translation": "To bardzo utalentowany uczeń."
+        "es_form": "Es muy [talentoso::utalentowany].",
+        "pl_translation": "Jest bardzo utalentowany."
       },
       {
-        "es_form": "Mi hermana es [talentosa::utalentowany] para la música.",
-        "pl_translation": "Moja siostra jest utalentowana muzycznie."
+        "es_form": "Parece [talentoso::utalentowany].",
+        "pl_translation": "Wydaje się utalentowany."
       },
       {
-        "es_form": "Es un artista [talentoso::utalentowany].",
-        "pl_translation": "To utalentowany artysta."
+        "es_form": "Es demasiado [talentoso::utalentowany].",
+        "pl_translation": "Jest zbyt utalentowany."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "ambitny",
     "examples": [
       {
-        "es_form": "Es una persona muy [ambiciosa::ambitny].",
-        "pl_translation": "To jest bardzo ambitna osoba."
+        "es_form": "No es [ambicioso::ambitny].",
+        "pl_translation": "Nie jest ambitny."
       },
       {
-        "es_form": "Nada es más [ambicioso::ambitny] que su plan.",
-        "pl_translation": "Nic nie jest bardziej ambitne niż jego plan."
+        "es_form": "Parece [ambicioso::ambitny].",
+        "pl_translation": "Wydaje się ambitny."
       },
       {
-        "es_form": "Tiene un proyecto [ambicioso::ambitny] este año.",
-        "pl_translation": "Ma w tym roku ambitny projekt."
+        "es_form": "Es demasiado [ambicioso::ambitny].",
+        "pl_translation": "Jest zbyt ambitny."
       }
     ]
   },
