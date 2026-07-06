@@ -233,22 +233,18 @@
     "pl_word": "świętować, obchodzić",
     "examples": [
       {
-        "es_form": "Quiero [celebrar::świętować, obchodzić] ahora.",
-        "pl_translation": "Chcę świętować, obchodzić teraz."
+        "es_form": "Quiero [celebrar::świętować] el cumpleaños.",
+        "pl_translation": "Chcę świętować urodziny."
       },
       {
-        "es_form": "Voy a [celebrar::świętować, obchodzić] mañana.",
-        "pl_translation": "Będę świętować, obchodzić jutro."
-      },
-      {
-        "es_form": "Prefiero [celebrar::świętować, obchodzić] en casa.",
-        "pl_translation": "Wolę świętować, obchodzić w domu."
+        "es_form": "No puedo [celebrar::świętować] el cumpleaños hoy.",
+        "pl_translation": "Nie mogę dziś świętować urodziny."
       }
     ],
     "forms": [
       {
         "es_word": "celebro",
-        "pl_word": "świętuję",
+        "pl_word": "świętuję (celebrar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "No [celebro::świętuję] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie świętuję zbyt dobrze."
-          },
-          {
-            "es_form": "[celebro::świętuję] todos los días.",
-            "pl_translation": "Świętuję codziennie."
-          },
-          {
-            "es_form": "Normalmente [celebro::świętuję] por la mañana.",
-            "pl_translation": "Zazwyczaj świętuję rano."
+            "es_form": "Yo [celebro::świętuję] el cumpleaños.",
+            "pl_translation": "Świętuję urodziny."
           }
         ]
       },
       {
         "es_word": "celebras",
-        "pl_word": "świętujesz",
+        "pl_word": "świętujesz (celebrar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "No [celebras::świętujesz] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie świętujesz zbyt dobrze."
-          },
-          {
-            "es_form": "Siempre [celebras::świętujesz] con atencion.",
-            "pl_translation": "Zawsze świętujesz z uwagą."
-          },
-          {
-            "es_form": "[celebras::świętujesz] todos los días.",
-            "pl_translation": "Świętujesz codziennie."
+            "es_form": "Tú [celebras::świętujesz] el cumpleaños.",
+            "pl_translation": "Świętujesz urodziny."
           }
         ]
       },
       {
         "es_word": "celebra",
-        "pl_word": "świętuje",
+        "pl_word": "świętuje (celebrar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [celebra::świętuje] con atencion.",
-            "pl_translation": "Zawsze świętuje z uwagą."
-          },
-          {
-            "es_form": "Normalmente [celebra::świętuje] por la mañana.",
-            "pl_translation": "Zazwyczaj świętuje rano."
-          },
-          {
-            "es_form": "¿[celebra::świętuje] los fines de semana?",
-            "pl_translation": "Czy świętuje w weekendy?"
+            "es_form": "Él [celebra::świętuje] el cumpleaños.",
+            "pl_translation": "Świętuje urodziny."
           }
         ]
       },
       {
         "es_word": "celebramos",
-        "pl_word": "świętujemy",
+        "pl_word": "świętujemy (celebrar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "[celebramos::świętujemy] todos los días.",
-            "pl_translation": "Świętujemy codziennie."
-          },
-          {
-            "es_form": "¿[celebramos::świętujemy] los fines de semana?",
-            "pl_translation": "Czy świętujemy w weekendy?"
-          },
-          {
-            "es_form": "[celebramos::świętujemy] como me enseñaste.",
-            "pl_translation": "Świętujemy tak jak mnie nauczyłeś"
+            "es_form": "Nosotros [celebramos::świętujemy] el cumpleaños.",
+            "pl_translation": "Świętujemy urodziny."
           }
         ]
       },
       {
         "es_word": "celebráis",
-        "pl_word": "świętujecie",
+        "pl_word": "świętujecie (celebrar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "No [celebráis::świętujecie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie świętujecie zbyt dobrze."
-          },
-          {
-            "es_form": "[celebráis::świętujecie] todos los días.",
-            "pl_translation": "Świętujecie codziennie."
-          },
-          {
-            "es_form": "Normalmente [celebráis::świętujecie] por la mañana.",
-            "pl_translation": "Zazwyczaj świętujecie rano."
+            "es_form": "Vosotros [celebráis::świętujecie] el cumpleaños.",
+            "pl_translation": "Świętujecie urodziny."
           }
         ]
       },
       {
         "es_word": "celebran",
-        "pl_word": "świętują",
+        "pl_word": "świętują (celebrar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "No [celebran::świętują] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie świętują zbyt dobrze."
-          },
-          {
-            "es_form": "¿[celebran::świętują] los fines de semana?",
-            "pl_translation": "Czy świętują w weekendy?"
-          },
-          {
-            "es_form": "Normalmente [celebran::świętują] por la mañana.",
-            "pl_translation": "Zazwyczaj świętują rano."
+            "es_form": "Ellos [celebran::świętują] el cumpleaños.",
+            "pl_translation": "Świętują urodziny."
           }
         ]
       },
       {
         "es_word": "celebré",
-        "pl_word": "świętowałem",
+        "pl_word": "świętowałem (celebrar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[celebré::świętowałem] bien el examen?",
-            "pl_translation": "Czy dobrze świętowałem egzamin?"
-          },
-          {
-            "es_form": "El mes pasado no [celebré::świętowałem] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie świętowałem."
-          },
-          {
-            "es_form": "Ayer [celebré::świętowałem] todo el día.",
-            "pl_translation": "Wczoraj świętowałem cały dzień."
+            "es_form": "Yo [celebré::świętowałem] el cumpleaños.",
+            "pl_translation": "Świętowałem urodziny."
           }
         ]
       },
       {
         "es_word": "celebraste",
-        "pl_word": "świętowałeś",
+        "pl_word": "świętowałeś (celebrar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[celebraste::świętowałeś] bien el examen?",
-            "pl_translation": "Czy dobrze świętowałeś egzamin?"
-          },
-          {
-            "es_form": "Nunca [celebraste::świętowałeś] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie świętowałeś czegoś takiego."
-          },
-          {
-            "es_form": "Ayer [celebraste::świętowałeś] todo el día.",
-            "pl_translation": "Wczoraj świętowałeś cały dzień."
+            "es_form": "Tú [celebraste::świętowałeś] el cumpleaños.",
+            "pl_translation": "Świętowałeś urodziny."
           }
         ]
       },
       {
         "es_word": "celebró",
-        "pl_word": "świętował",
+        "pl_word": "świętował (celebrar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [celebró::świętował] todo el día.",
-            "pl_translation": "Wczoraj świętował cały dzień."
-          },
-          {
-            "es_form": "¿[celebró::świętował] bien el examen?",
-            "pl_translation": "Czy dobrze świętował egzamin?"
-          },
-          {
-            "es_form": "[celebró::świętował] sin parar durante horas.",
-            "pl_translation": "Świętował bez przerwy przez wiele godzin."
+            "es_form": "Él [celebró::świętował] el cumpleaños.",
+            "pl_translation": "Świętował urodziny."
           }
         ]
       },
       {
         "es_word": "celebramos",
-        "pl_word": "świętowaliśmy",
+        "pl_word": "świętowaliśmy (celebrar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "[celebramos::świętowaliśmy] sin parar durante horas.",
-            "pl_translation": "Świętowaliśmy bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "Ayer [celebramos::świętowaliśmy] todo el día.",
-            "pl_translation": "Wczoraj świętowaliśmy cały dzień."
-          },
-          {
-            "es_form": "Nunca [celebramos::świętowaliśmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie świętowaliśmy czegoś takiego."
+            "es_form": "Nosotros [celebramos::świętowaliśmy] el cumpleaños.",
+            "pl_translation": "Świętowaliśmy urodziny."
           }
         ]
       },
       {
         "es_word": "celebrasteis",
-        "pl_word": "świętowaliście",
+        "pl_word": "świętowaliście (celebrar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [celebrasteis::świętowaliście] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie świętowaliście."
-          },
-          {
-            "es_form": "[celebrasteis::świętowaliście] sin parar durante horas.",
-            "pl_translation": "Świętowaliście bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "[celebrasteis::świętowaliście] la semana pasada.",
-            "pl_translation": "Świętowaliście w zeszłym tygodniu."
+            "es_form": "Vosotros [celebrasteis::świętowaliście] el cumpleaños.",
+            "pl_translation": "Świętowaliście urodziny."
           }
         ]
       },
       {
         "es_word": "celebraron",
-        "pl_word": "świętowali",
+        "pl_word": "świętowali (celebrar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [celebraron::świętowali] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie świętowali czegoś takiego."
-          },
-          {
-            "es_form": "¿[celebraron::świętowali] bien el examen?",
-            "pl_translation": "Czy dobrze świętowali egzamin?"
-          },
-          {
-            "es_form": "El mes pasado no [celebraron::świętowali] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie świętowali."
+            "es_form": "Ellos [celebraron::świętowali] el cumpleaños.",
+            "pl_translation": "Świętowali urodziny."
           }
         ]
       },
       {
-        "es_word": "celebré",
-        "pl_word": "będę świętować",
+        "es_word": "celebraré",
+        "pl_word": "będę świętować (celebrar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [celebré::będę świętować] en España.",
-            "pl_translation": "W przyszłym roku będę świętować w Hiszpanii."
-          },
-          {
-            "es_form": "Mañana [celebré::będę świętować] más temprano.",
-            "pl_translation": "Jutro będę świętować wcześniej."
-          },
-          {
-            "es_form": "[celebré::będę świętować] la proxima semana.",
-            "pl_translation": "Będę świętować w przyszłym tygodniu."
+            "es_form": "Yo [celebraré::będę świętować] el cumpleaños.",
+            "pl_translation": "Będę świętować urodziny."
           }
         ]
       },
       {
-        "es_word": "celebrás",
-        "pl_word": "będziesz świętować",
+        "es_word": "celebrarás",
+        "pl_word": "będziesz świętować (celebrar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [celebrás::będziesz świętować] bien.",
-            "pl_translation": "Myślę, że będziesz świętować dobrze."
-          },
-          {
-            "es_form": "El año que viene [celebrás::będziesz świętować] en España.",
-            "pl_translation": "W przyszłym roku będziesz świętować w Hiszpanii."
-          },
-          {
-            "es_form": "¿[celebrás::będziesz świętować] con nosotros mañana?",
-            "pl_translation": "Czy będziesz świętować z nami jutro?"
+            "es_form": "Tú [celebrarás::będziesz świętować] el cumpleaños.",
+            "pl_translation": "Będziesz świętować urodziny."
           }
         ]
       },
       {
-        "es_word": "celebrá",
-        "pl_word": "będzie świętować",
+        "es_word": "celebrará",
+        "pl_word": "będzie świętować (celebrar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[celebrá::będzie świętować] con nosotros mañana?",
-            "pl_translation": "Czy będzie świętować z nami jutro?"
-          },
-          {
-            "es_form": "Creo que [celebrá::będzie świętować] bien.",
-            "pl_translation": "Myślę, że będzie świętować dobrze."
-          },
-          {
-            "es_form": "Te prometo que [celebrá::będzie świętować] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będzie świętować na czas."
+            "es_form": "Él [celebrará::będzie świętować] el cumpleaños.",
+            "pl_translation": "Będzie świętować urodziny."
           }
         ]
       },
       {
-        "es_word": "celebremos",
-        "pl_word": "będziemy świętować",
+        "es_word": "celebraremos",
+        "pl_word": "będziemy świętować (celebrar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [celebremos::będziemy świętować] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziemy świętować na czas."
-          },
-          {
-            "es_form": "El año que viene [celebremos::będziemy świętować] en España.",
-            "pl_translation": "W przyszłym roku będziemy świętować w Hiszpanii."
-          },
-          {
-            "es_form": "Creo que [celebremos::będziemy świętować] bien.",
-            "pl_translation": "Myślę, że będziemy świętować dobrze."
+            "es_form": "Nosotros [celebraremos::będziemy świętować] el cumpleaños.",
+            "pl_translation": "Będziemy świętować urodziny."
           }
         ]
       },
       {
-        "es_word": "celebréis",
-        "pl_word": "będziecie świętować",
+        "es_word": "celebraréis",
+        "pl_word": "będziecie świętować (celebrar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [celebréis::będziecie świętować] más temprano.",
-            "pl_translation": "Jutro będziecie świętować wcześniej."
-          },
-          {
-            "es_form": "Te prometo que [celebréis::będziecie świętować] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziecie świętować na czas."
-          },
-          {
-            "es_form": "[celebréis::będziecie świętować] la proxima semana.",
-            "pl_translation": "Będziecie świętować w przyszłym tygodniu."
+            "es_form": "Vosotros [celebraréis::będziecie świętować] el cumpleaños.",
+            "pl_translation": "Będziecie świętować urodziny."
           }
         ]
       },
       {
-        "es_word": "celebrán",
-        "pl_word": "będą świętować",
+        "es_word": "celebrarán",
+        "pl_word": "będą świętować (celebrar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [celebrán::będą świętować] más temprano.",
-            "pl_translation": "Jutro będą świętować wcześniej."
-          },
-          {
-            "es_form": "El año que viene [celebrán::będą świętować] en España.",
-            "pl_translation": "W przyszłym roku będą świętować w Hiszpanii."
-          },
-          {
-            "es_form": "Te prometo que [celebrán::będą świętować] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będą świętować na czas."
+            "es_form": "Ellos [celebrarán::będą świętować] el cumpleaños.",
+            "pl_translation": "Będą świętować urodziny."
           }
         ]
       }

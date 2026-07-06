@@ -233,22 +233,18 @@
     "pl_word": "liczyć",
     "examples": [
       {
-        "es_form": "¿Puedes [contar::liczyć] más rápido?",
-        "pl_translation": "Możesz liczyć szybciej?"
+        "es_form": "Quiero [contar::liczyć] el dinero.",
+        "pl_translation": "Chcę liczyć pieniądze."
       },
       {
-        "es_form": "Quiero [contar::liczyć] ahora.",
-        "pl_translation": "Chcę liczyć teraz."
-      },
-      {
-        "es_form": "Es importante [contar::liczyć] todos los días.",
-        "pl_translation": "Ważne jest liczyć codziennie."
+        "es_form": "No puedo [contar::liczyć] el dinero hoy.",
+        "pl_translation": "Nie mogę dziś liczyć pieniądze."
       }
     ],
     "forms": [
       {
         "es_word": "cuento",
-        "pl_word": "liczę",
+        "pl_word": "liczę (contar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "No [cuento::liczę] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie liczę zbyt dobrze."
-          },
-          {
-            "es_form": "Siempre [cuento::liczę] con atencion.",
-            "pl_translation": "Zawsze liczę z uwagą."
-          },
-          {
-            "es_form": "[cuento::liczę] como me enseñaste.",
-            "pl_translation": "Liczę tak jak mnie nauczyłeś"
+            "es_form": "Yo [cuento::liczę] el dinero.",
+            "pl_translation": "Liczę pieniądze."
           }
         ]
       },
       {
         "es_word": "cuentas",
-        "pl_word": "liczysz",
+        "pl_word": "liczysz (contar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "No [cuentas::liczysz] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie liczysz zbyt dobrze."
-          },
-          {
-            "es_form": "Normalmente [cuentas::liczysz] por la mañana.",
-            "pl_translation": "Zazwyczaj liczysz rano."
-          },
-          {
-            "es_form": "[cuentas::liczysz] como me enseñaste.",
-            "pl_translation": "Liczysz tak jak mnie nauczyłeś"
+            "es_form": "Tú [cuentas::liczysz] el dinero.",
+            "pl_translation": "Liczysz pieniądze."
           }
         ]
       },
       {
         "es_word": "cuenta",
-        "pl_word": "liczy",
+        "pl_word": "liczy (contar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "[cuenta::liczy] todos los días.",
-            "pl_translation": "Liczy codziennie."
-          },
-          {
-            "es_form": "Normalmente [cuenta::liczy] por la mañana.",
-            "pl_translation": "Zazwyczaj liczy rano."
-          },
-          {
-            "es_form": "¿[cuenta::liczy] los fines de semana?",
-            "pl_translation": "Czy liczy w weekendy?"
+            "es_form": "Él [cuenta::liczy] el dinero.",
+            "pl_translation": "Liczy pieniądze."
           }
         ]
       },
       {
         "es_word": "contamos",
-        "pl_word": "liczymy",
+        "pl_word": "liczymy (contar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "[contamos::liczymy] todos los días.",
-            "pl_translation": "Liczymy codziennie."
-          },
-          {
-            "es_form": "No [contamos::liczymy] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie liczymy zbyt dobrze."
-          },
-          {
-            "es_form": "[contamos::liczymy] como me enseñaste.",
-            "pl_translation": "Liczymy tak jak mnie nauczyłeś"
+            "es_form": "Nosotros [contamos::liczymy] el dinero.",
+            "pl_translation": "Liczymy pieniądze."
           }
         ]
       },
       {
         "es_word": "contáis",
-        "pl_word": "liczycie",
+        "pl_word": "liczycie (contar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "No [contáis::liczycie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie liczycie zbyt dobrze."
-          },
-          {
-            "es_form": "[contáis::liczycie] como me enseñaste.",
-            "pl_translation": "Liczycie tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "[contáis::liczycie] todos los días.",
-            "pl_translation": "Liczycie codziennie."
+            "es_form": "Vosotros [contáis::liczycie] el dinero.",
+            "pl_translation": "Liczycie pieniądze."
           }
         ]
       },
       {
         "es_word": "cuentan",
-        "pl_word": "liczą",
+        "pl_word": "liczą (contar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [cuentan::liczą] con atencion.",
-            "pl_translation": "Zawsze liczą z uwagą."
-          },
-          {
-            "es_form": "[cuentan::liczą] como me enseñaste.",
-            "pl_translation": "Liczą tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Normalmente [cuentan::liczą] por la mañana.",
-            "pl_translation": "Zazwyczaj liczą rano."
+            "es_form": "Ellos [cuentan::liczą] el dinero.",
+            "pl_translation": "Liczą pieniądze."
           }
         ]
       },
       {
         "es_word": "conté",
-        "pl_word": "liczyłem",
+        "pl_word": "policzyłem (contar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [conté::liczyłem] todo el día.",
-            "pl_translation": "Wczoraj liczyłem"
-          },
-          {
-            "es_form": "Nunca [conté::liczyłem] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie liczyłem"
-          },
-          {
-            "es_form": "[conté::liczyłem] sin parar durante horas.",
-            "pl_translation": "Liczyłem"
+            "es_form": "Yo [conté::policzyłem] el dinero.",
+            "pl_translation": "Policzyłem pieniądze."
           }
         ]
       },
       {
         "es_word": "contaste",
-        "pl_word": "liczyłeś",
+        "pl_word": "policzyłeś (contar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "[contaste::liczyłeś] la semana pasada.",
-            "pl_translation": "Liczyłeś"
-          },
-          {
-            "es_form": "[contaste::liczyłeś] sin parar durante horas.",
-            "pl_translation": "Liczyłeś"
-          },
-          {
-            "es_form": "Nunca [contaste::liczyłeś] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie liczyłeś"
+            "es_form": "Tú [contaste::policzyłeś] el dinero.",
+            "pl_translation": "Policzyłeś pieniądze."
           }
         ]
       },
       {
         "es_word": "contó",
-        "pl_word": "liczył",
+        "pl_word": "policzył (contar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [contó::liczył] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie liczył"
-          },
-          {
-            "es_form": "Ayer [contó::liczył] todo el día.",
-            "pl_translation": "Wczoraj liczył"
-          },
-          {
-            "es_form": "[contó::liczył] la semana pasada.",
-            "pl_translation": "Liczył"
+            "es_form": "Él [contó::policzył] el dinero.",
+            "pl_translation": "Policzył pieniądze."
           }
         ]
       },
       {
         "es_word": "contamos",
-        "pl_word": "liczyliśmy",
+        "pl_word": "policzyliśmy (contar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[contamos::liczyliśmy] bien el examen?",
-            "pl_translation": "Czy liczyliśmy"
-          },
-          {
-            "es_form": "[contamos::liczyliśmy] la semana pasada.",
-            "pl_translation": "Liczyliśmy"
-          },
-          {
-            "es_form": "Ayer [contamos::liczyliśmy] todo el día.",
-            "pl_translation": "Wczoraj liczyliśmy"
+            "es_form": "Nosotros [contamos::policzyliśmy] el dinero.",
+            "pl_translation": "Policzyliśmy pieniądze."
           }
         ]
       },
       {
         "es_word": "contasteis",
-        "pl_word": "liczyliście",
+        "pl_word": "policzyliście (contar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[contasteis::liczyliście] bien el examen?",
-            "pl_translation": "Czy liczyliście"
-          },
-          {
-            "es_form": "[contasteis::liczyliście] la semana pasada.",
-            "pl_translation": "Liczyliście"
-          },
-          {
-            "es_form": "Nunca [contasteis::liczyliście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie liczyliście"
+            "es_form": "Vosotros [contasteis::policzyliście] el dinero.",
+            "pl_translation": "Policzyliście pieniądze."
           }
         ]
       },
       {
         "es_word": "contaron",
-        "pl_word": "liczyli",
+        "pl_word": "policzyli (contar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [contaron::liczyli] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie liczyli"
-          },
-          {
-            "es_form": "Ayer [contaron::liczyli] todo el día.",
-            "pl_translation": "Wczoraj liczyli"
-          },
-          {
-            "es_form": "[contaron::liczyli] sin parar durante horas.",
-            "pl_translation": "Liczyli"
+            "es_form": "Ellos [contaron::policzyli] el dinero.",
+            "pl_translation": "Policzyli pieniądze."
           }
         ]
       },
       {
         "es_word": "contaré",
-        "pl_word": "będę liczył",
+        "pl_word": "będę liczyć (contar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[contaré::będę liczył] con nosotros mañana?",
-            "pl_translation": "Czy będę liczył"
-          },
-          {
-            "es_form": "Mañana [contaré::będę liczył] más temprano.",
-            "pl_translation": "Jutro będę liczył"
-          },
-          {
-            "es_form": "El año que viene [contaré::będę liczył] en España.",
-            "pl_translation": "W przyszłym roku będę liczył"
+            "es_form": "Yo [contaré::będę liczyć] el dinero.",
+            "pl_translation": "Będę liczyć pieniądze."
           }
         ]
       },
       {
         "es_word": "contarás",
-        "pl_word": "będziesz liczył",
+        "pl_word": "będziesz liczyć (contar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [contarás::będziesz liczył] en España.",
-            "pl_translation": "W przyszłym roku będziesz liczył"
-          },
-          {
-            "es_form": "Creo que [contarás::będziesz liczył] bien.",
-            "pl_translation": "Myślę, że będziesz liczył"
-          },
-          {
-            "es_form": "Te prometo que [contarás::będziesz liczył] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziesz liczył"
+            "es_form": "Tú [contarás::będziesz liczyć] el dinero.",
+            "pl_translation": "Będziesz liczyć pieniądze."
           }
         ]
       },
       {
         "es_word": "contará",
-        "pl_word": "będzie liczył",
+        "pl_word": "będzie liczyć (contar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[contará::będzie liczył] con nosotros mañana?",
-            "pl_translation": "Czy będzie liczył"
-          },
-          {
-            "es_form": "Creo que [contará::będzie liczył] bien.",
-            "pl_translation": "Myślę, że będzie liczył"
-          },
-          {
-            "es_form": "[contará::będzie liczył] la proxima semana.",
-            "pl_translation": "Będzie liczył"
+            "es_form": "Él [contará::będzie liczyć] el dinero.",
+            "pl_translation": "Będzie liczyć pieniądze."
           }
         ]
       },
       {
         "es_word": "contaremos",
-        "pl_word": "będziemy liczyli",
+        "pl_word": "będziemy liczyć (contar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[contaremos::będziemy liczyli] con nosotros mañana?",
-            "pl_translation": "Czy będziemy liczyli"
-          },
-          {
-            "es_form": "Creo que [contaremos::będziemy liczyli] bien.",
-            "pl_translation": "Myślę, że będziemy liczyli"
-          },
-          {
-            "es_form": "El año que viene [contaremos::będziemy liczyli] en España.",
-            "pl_translation": "W przyszłym roku będziemy liczyli"
+            "es_form": "Nosotros [contaremos::będziemy liczyć] el dinero.",
+            "pl_translation": "Będziemy liczyć pieniądze."
           }
         ]
       },
       {
         "es_word": "contaréis",
-        "pl_word": "będziecie liczyli",
+        "pl_word": "będziecie liczyć (contar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "[contaréis::będziecie liczyli] la proxima semana.",
-            "pl_translation": "Będziecie liczyli"
-          },
-          {
-            "es_form": "Mañana [contaréis::będziecie liczyli] más temprano.",
-            "pl_translation": "Jutro będziecie liczyli"
-          },
-          {
-            "es_form": "El año que viene [contaréis::będziecie liczyli] en España.",
-            "pl_translation": "W przyszłym roku będziecie liczyli"
+            "es_form": "Vosotros [contaréis::będziecie liczyć] el dinero.",
+            "pl_translation": "Będziecie liczyć pieniądze."
           }
         ]
       },
       {
         "es_word": "contarán",
-        "pl_word": "będą liczyli",
+        "pl_word": "będą liczyć (contar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "[contarán::będą liczyli] la proxima semana.",
-            "pl_translation": "Będą liczyli"
-          },
-          {
-            "es_form": "Te prometo que [contarán::będą liczyli] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będą liczyli"
-          },
-          {
-            "es_form": "Creo que [contarán::będą liczyli] bien.",
-            "pl_translation": "Myślę, że będą liczyli"
+            "es_form": "Ellos [contarán::będą liczyć] el dinero.",
+            "pl_translation": "Będą liczyć pieniądze."
           }
         ]
       }

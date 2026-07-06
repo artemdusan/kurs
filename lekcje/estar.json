@@ -233,22 +233,18 @@
     "pl_word": "być (stan, miejsce)",
     "examples": [
       {
-        "es_form": "Me gusta [estar::być (stan, miejsce)] por la mañana.",
-        "pl_translation": "Lubię być rano."
+        "es_form": "Quiero [estar::być] en casa.",
+        "pl_translation": "Chcę być w domu."
       },
       {
-        "es_form": "¿Puedes [estar::być (stan, miejsce)] más rápido?",
-        "pl_translation": "Możesz być szybciej?"
-      },
-      {
-        "es_form": "Voy a [estar::być (stan, miejsce)] mañana.",
-        "pl_translation": "Będę być jutro."
+        "es_form": "No puedo [estar::być] en casa hoy.",
+        "pl_translation": "Nie mogę dziś być w domu."
       }
     ],
     "forms": [
       {
         "es_word": "estoy",
-        "pl_word": "jestem (chwil.) (estar)",
+        "pl_word": "jestem (estar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,16 +252,8 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [estoy::jestem (chwil.) (estar)] con atencion.",
-            "pl_translation": "Zawsze jestem z uwagą."
-          },
-          {
-            "es_form": "[estoy::jestem (chwil.) (estar)] todos los días.",
-            "pl_translation": "Jestem codziennie."
-          },
-          {
-            "es_form": "¿[estoy::jestem (chwil.) (estar)] los fines de semana?",
-            "pl_translation": "Czy jestem w weekendy?"
+            "es_form": "Yo [estoy::jestem] en casa.",
+            "pl_translation": "Jestem w domu."
           }
         ]
       },
@@ -279,16 +267,8 @@
         },
         "examples": [
           {
-            "es_form": "¿[estás::jesteś (estar)] los fines de semana?",
-            "pl_translation": "Czy jesteś w weekendy?"
-          },
-          {
-            "es_form": "Normalmente [estás::jesteś (estar)] por la mañana.",
-            "pl_translation": "Zazwyczaj jesteś rano."
-          },
-          {
-            "es_form": "Siempre [estás::jesteś (estar)] con atencion.",
-            "pl_translation": "Zawsze jesteś z uwagą."
+            "es_form": "Tú [estás::jesteś] en casa.",
+            "pl_translation": "Jesteś w domu."
           }
         ]
       },
@@ -302,16 +282,8 @@
         },
         "examples": [
           {
-            "es_form": "No [está::jest (estar)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie jest zbyt dobrze."
-          },
-          {
-            "es_form": "Normalmente [está::jest (estar)] por la mañana.",
-            "pl_translation": "Zazwyczaj jest rano."
-          },
-          {
-            "es_form": "Siempre [está::jest (estar)] con atencion.",
-            "pl_translation": "Zawsze jest z uwagą."
+            "es_form": "Él [está::jest] en casa.",
+            "pl_translation": "Jest w domu."
           }
         ]
       },
@@ -325,16 +297,8 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [estamos::jesteśmy (estar)] con atencion.",
-            "pl_translation": "Zawsze jesteśmy z uwagą."
-          },
-          {
-            "es_form": "[estamos::jesteśmy (estar)] todos los días.",
-            "pl_translation": "Jesteśmy codziennie."
-          },
-          {
-            "es_form": "Normalmente [estamos::jesteśmy (estar)] por la mañana.",
-            "pl_translation": "Zazwyczaj jesteśmy rano."
+            "es_form": "Nosotros [estamos::jesteśmy] en casa.",
+            "pl_translation": "Jesteśmy w domu."
           }
         ]
       },
@@ -348,16 +312,8 @@
         },
         "examples": [
           {
-            "es_form": "[estáis::jesteście (estar)] todos los días.",
-            "pl_translation": "Jesteście codziennie."
-          },
-          {
-            "es_form": "¿[estáis::jesteście (estar)] los fines de semana?",
-            "pl_translation": "Czy jesteście w weekendy?"
-          },
-          {
-            "es_form": "Normalmente [estáis::jesteście (estar)] por la mañana.",
-            "pl_translation": "Zazwyczaj jesteście rano."
+            "es_form": "Vosotros [estáis::jesteście] en casa.",
+            "pl_translation": "Jesteście w domu."
           }
         ]
       },
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [están::są (estar)] por la mañana.",
-            "pl_translation": "Zazwyczaj są rano."
-          },
-          {
-            "es_form": "[están::są (estar)] como me enseñaste.",
-            "pl_translation": "Są tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "No [están::są (estar)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie są zbyt dobrze."
+            "es_form": "Ellos [están::są] en casa.",
+            "pl_translation": "Są w domu."
           }
         ]
       },
       {
         "es_word": "estuve",
-        "pl_word": "byłem",
+        "pl_word": "byłem (estar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [estuve::byłem] todo el día.",
-            "pl_translation": "Wczoraj byłem"
-          },
-          {
-            "es_form": "[estuve::byłem] sin parar durante horas.",
-            "pl_translation": "Byłem"
-          },
-          {
-            "es_form": "[estuve::byłem] la semana pasada.",
-            "pl_translation": "Byłem"
+            "es_form": "Yo [estuve::byłem] en casa.",
+            "pl_translation": "Byłem w domu."
           }
         ]
       },
       {
         "es_word": "estuviste",
-        "pl_word": "byłeś",
+        "pl_word": "byłeś (estar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "[estuviste::byłeś] la semana pasada.",
-            "pl_translation": "Byłeś"
-          },
-          {
-            "es_form": "Nunca [estuviste::byłeś] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie byłeś"
-          },
-          {
-            "es_form": "¿[estuviste::byłeś] bien el examen?",
-            "pl_translation": "Czy byłeś"
+            "es_form": "Tú [estuviste::byłeś] en casa.",
+            "pl_translation": "Byłeś w domu."
           }
         ]
       },
       {
         "es_word": "estuvo",
-        "pl_word": "był",
+        "pl_word": "był (estar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "[estuvo::był] sin parar durante horas.",
-            "pl_translation": "Był"
-          },
-          {
-            "es_form": "[estuvo::był] la semana pasada.",
-            "pl_translation": "Był"
-          },
-          {
-            "es_form": "El mes pasado no [estuvo::był] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie był"
+            "es_form": "Él [estuvo::był] en casa.",
+            "pl_translation": "Był w domu."
           }
         ]
       },
       {
         "es_word": "estuvimos",
-        "pl_word": "byliśmy",
+        "pl_word": "byliśmy (estar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "[estuvimos::byliśmy] sin parar durante horas.",
-            "pl_translation": "Byliśmy"
-          },
-          {
-            "es_form": "¿[estuvimos::byliśmy] bien el examen?",
-            "pl_translation": "Czy byliśmy"
-          },
-          {
-            "es_form": "[estuvimos::byliśmy] la semana pasada.",
-            "pl_translation": "Byliśmy"
+            "es_form": "Nosotros [estuvimos::byliśmy] en casa.",
+            "pl_translation": "Byliśmy w domu."
           }
         ]
       },
       {
         "es_word": "estuvisteis",
-        "pl_word": "byliście",
+        "pl_word": "byliście (estar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "[estuvisteis::byliście] sin parar durante horas.",
-            "pl_translation": "Byliście"
-          },
-          {
-            "es_form": "Nunca [estuvisteis::byliście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie byliście"
-          },
-          {
-            "es_form": "[estuvisteis::byliście] la semana pasada.",
-            "pl_translation": "Byliście"
+            "es_form": "Vosotros [estuvisteis::byliście] en casa.",
+            "pl_translation": "Byliście w domu."
           }
         ]
       },
       {
         "es_word": "estuvieron",
-        "pl_word": "byli",
+        "pl_word": "byli (estar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [estuvieron::byli] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie byli"
-          },
-          {
-            "es_form": "El mes pasado no [estuvieron::byli] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie byli"
-          },
-          {
-            "es_form": "¿[estuvieron::byli] bien el examen?",
-            "pl_translation": "Czy byli"
+            "es_form": "Ellos [estuvieron::byli] en casa.",
+            "pl_translation": "Byli w domu."
           }
         ]
       },
       {
         "es_word": "estaré",
-        "pl_word": "będę (chwil.) (estar)",
+        "pl_word": "będę (estar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,16 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [estaré::będę (chwil.) (estar)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będę na czas."
-          },
-          {
-            "es_form": "El año que viene [estaré::będę (chwil.) (estar)] en España.",
-            "pl_translation": "W przyszłym roku będę w Hiszpanii."
-          },
-          {
-            "es_form": "Creo que [estaré::będę (chwil.) (estar)] bien.",
-            "pl_translation": "Myślę, że będę dobrze."
+            "es_form": "Yo [estaré::będę] en casa.",
+            "pl_translation": "Będę w domu."
           }
         ]
       },
@@ -555,16 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "¿[estarás::będziesz (estar)] con nosotros mañana?",
-            "pl_translation": "Czy będziesz z nami jutro?"
-          },
-          {
-            "es_form": "Creo que [estarás::będziesz (estar)] bien.",
-            "pl_translation": "Myślę, że będziesz dobrze."
-          },
-          {
-            "es_form": "Mañana [estarás::będziesz (estar)] más temprano.",
-            "pl_translation": "Jutro będziesz wcześniej."
+            "es_form": "Tú [estarás::będziesz] en casa.",
+            "pl_translation": "Będziesz w domu."
           }
         ]
       },
@@ -578,16 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "[estará::będzie (estar)] la proxima semana.",
-            "pl_translation": "Będzie w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Mañana [estará::będzie (estar)] más temprano.",
-            "pl_translation": "Jutro będzie wcześniej."
-          },
-          {
-            "es_form": "El año que viene [estará::będzie (estar)] en España.",
-            "pl_translation": "W przyszłym roku będzie w Hiszpanii."
+            "es_form": "Él [estará::będzie] en casa.",
+            "pl_translation": "Będzie w domu."
           }
         ]
       },
@@ -601,16 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [estaremos::będziemy (estar)] más temprano.",
-            "pl_translation": "Jutro będziemy wcześniej."
-          },
-          {
-            "es_form": "¿[estaremos::będziemy (estar)] con nosotros mañana?",
-            "pl_translation": "Czy będziemy z nami jutro?"
-          },
-          {
-            "es_form": "[estaremos::będziemy (estar)] la proxima semana.",
-            "pl_translation": "Będziemy w przyszłym tygodniu."
+            "es_form": "Nosotros [estaremos::będziemy] en casa.",
+            "pl_translation": "Będziemy w domu."
           }
         ]
       },
@@ -624,16 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "¿[estaréis::będziecie (estar)] con nosotros mañana?",
-            "pl_translation": "Czy będziecie z nami jutro?"
-          },
-          {
-            "es_form": "[estaréis::będziecie (estar)] la proxima semana.",
-            "pl_translation": "Będziecie w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Mañana [estaréis::będziecie (estar)] más temprano.",
-            "pl_translation": "Jutro będziecie wcześniej."
+            "es_form": "Vosotros [estaréis::będziecie] en casa.",
+            "pl_translation": "Będziecie w domu."
           }
         ]
       },
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [estarán::będą (estar)] más temprano.",
-            "pl_translation": "Jutro będą wcześniej."
-          },
-          {
-            "es_form": "Te prometo que [estarán::będą (estar)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będą na czas."
-          },
-          {
-            "es_form": "[estarán::będą (estar)] la proxima semana.",
-            "pl_translation": "Będą w przyszłym tygodniu."
+            "es_form": "Ellos [estarán::będą] en casa.",
+            "pl_translation": "Będą w domu."
           }
         ]
       }

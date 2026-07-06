@@ -233,22 +233,18 @@
     "pl_word": "mówić, rozmawiać",
     "examples": [
       {
-        "es_form": "Voy a [hablar::mówić, rozmawiać] mañana.",
-        "pl_translation": "Będę mówić, rozmawiać jutro."
+        "es_form": "Quiero [hablar::mówić] español.",
+        "pl_translation": "Chcę mówić po hiszpańsku."
       },
       {
-        "es_form": "Me gusta [hablar::mówić, rozmawiać] por la mañana.",
-        "pl_translation": "Lubię mówić, rozmawiać rano."
-      },
-      {
-        "es_form": "Es importante [hablar::mówić, rozmawiać] todos los días.",
-        "pl_translation": "Ważne jest mówić, rozmawiać codziennie."
+        "es_form": "No puedo [hablar::mówić] español hoy.",
+        "pl_translation": "Nie mogę dziś mówić po hiszpańsku."
       }
     ],
     "forms": [
       {
         "es_word": "hablo",
-        "pl_word": "mówię",
+        "pl_word": "mówię (hablar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [hablo::mówię] por la mañana.",
-            "pl_translation": "Zazwyczaj mówię rano."
-          },
-          {
-            "es_form": "[hablo::mówię] como me enseñaste.",
-            "pl_translation": "Mówię tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "¿[hablo::mówię] los fines de semana?",
-            "pl_translation": "Czy mówię w weekendy?"
+            "es_form": "Yo [hablo::mówię] español.",
+            "pl_translation": "Mówię po hiszpańsku."
           }
         ]
       },
       {
         "es_word": "hablas",
-        "pl_word": "mówisz",
+        "pl_word": "mówisz (hablar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "[hablas::mówisz] todos los días.",
-            "pl_translation": "Mówisz codziennie."
-          },
-          {
-            "es_form": "Siempre [hablas::mówisz] con atencion.",
-            "pl_translation": "Zawsze mówisz z uwagą."
-          },
-          {
-            "es_form": "¿[hablas::mówisz] los fines de semana?",
-            "pl_translation": "Czy mówisz w weekendy?"
+            "es_form": "Tú [hablas::mówisz] español.",
+            "pl_translation": "Mówisz po hiszpańsku."
           }
         ]
       },
       {
         "es_word": "habla",
-        "pl_word": "mówi",
+        "pl_word": "mówi (hablar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "[habla::mówi] todos los días.",
-            "pl_translation": "Mówi codziennie."
-          },
-          {
-            "es_form": "[habla::mówi] como me enseñaste.",
-            "pl_translation": "Mówi tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Siempre [habla::mówi] con atencion.",
-            "pl_translation": "Zawsze mówi z uwagą."
+            "es_form": "Él [habla::mówi] español.",
+            "pl_translation": "Mówi po hiszpańsku."
           }
         ]
       },
       {
         "es_word": "hablamos",
-        "pl_word": "mówimy",
+        "pl_word": "mówimy (hablar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "[hablamos::mówimy] todos los días.",
-            "pl_translation": "Mówimy codziennie."
-          },
-          {
-            "es_form": "[hablamos::mówimy] como me enseñaste.",
-            "pl_translation": "Mówimy tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Siempre [hablamos::mówimy] con atencion.",
-            "pl_translation": "Zawsze mówimy z uwagą."
+            "es_form": "Nosotros [hablamos::mówimy] español.",
+            "pl_translation": "Mówimy po hiszpańsku."
           }
         ]
       },
       {
         "es_word": "habláis",
-        "pl_word": "mówicie",
+        "pl_word": "mówicie (hablar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[habláis::mówicie] los fines de semana?",
-            "pl_translation": "Czy mówicie w weekendy?"
-          },
-          {
-            "es_form": "No [habláis::mówicie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie mówicie zbyt dobrze."
-          },
-          {
-            "es_form": "Siempre [habláis::mówicie] con atencion.",
-            "pl_translation": "Zawsze mówicie z uwagą."
+            "es_form": "Vosotros [habláis::mówicie] español.",
+            "pl_translation": "Mówicie po hiszpańsku."
           }
         ]
       },
       {
         "es_word": "hablan",
-        "pl_word": "mówią",
+        "pl_word": "mówią (hablar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [hablan::mówią] por la mañana.",
-            "pl_translation": "Zazwyczaj mówią rano."
-          },
-          {
-            "es_form": "[hablan::mówią] como me enseñaste.",
-            "pl_translation": "Mówią tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "No [hablan::mówią] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie mówią zbyt dobrze."
+            "es_form": "Ellos [hablan::mówią] español.",
+            "pl_translation": "Mówią po hiszpańsku."
           }
         ]
       },
       {
         "es_word": "hablé",
-        "pl_word": "mówiłem",
+        "pl_word": "mówiłem (hablar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [hablé::mówiłem] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie mówiłem"
-          },
-          {
-            "es_form": "Ayer [hablé::mówiłem] todo el día.",
-            "pl_translation": "Wczoraj mówiłem"
-          },
-          {
-            "es_form": "[hablé::mówiłem] la semana pasada.",
-            "pl_translation": "Mówiłem"
+            "es_form": "Yo [hablé::mówiłem] español.",
+            "pl_translation": "Mówiłem po hiszpańsku."
           }
         ]
       },
       {
         "es_word": "hablaste",
-        "pl_word": "mówiłeś",
+        "pl_word": "mówiłeś (hablar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [hablaste::mówiłeś] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie mówiłeś"
-          },
-          {
-            "es_form": "El mes pasado no [hablaste::mówiłeś] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie mówiłeś"
-          },
-          {
-            "es_form": "[hablaste::mówiłeś] la semana pasada.",
-            "pl_translation": "Mówiłeś"
+            "es_form": "Tú [hablaste::mówiłeś] español.",
+            "pl_translation": "Mówiłeś po hiszpańsku."
           }
         ]
       },
       {
         "es_word": "habló",
-        "pl_word": "mówił",
+        "pl_word": "mówił (hablar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [habló::mówił] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie mówił"
-          },
-          {
-            "es_form": "¿[habló::mówił] bien el examen?",
-            "pl_translation": "Czy mówił"
-          },
-          {
-            "es_form": "[habló::mówił] sin parar durante horas.",
-            "pl_translation": "Mówił"
+            "es_form": "Él [habló::mówił] español.",
+            "pl_translation": "Mówił po hiszpańsku."
           }
         ]
       },
       {
         "es_word": "hablamos",
-        "pl_word": "mówiliśmy",
+        "pl_word": "mówiliśmy (hablar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [hablamos::mówiliśmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie mówiliśmy"
-          },
-          {
-            "es_form": "¿[hablamos::mówiliśmy] bien el examen?",
-            "pl_translation": "Czy mówiliśmy"
-          },
-          {
-            "es_form": "[hablamos::mówiliśmy] sin parar durante horas.",
-            "pl_translation": "Mówiliśmy"
+            "es_form": "Nosotros [hablamos::mówiliśmy] español.",
+            "pl_translation": "Mówiliśmy po hiszpańsku."
           }
         ]
       },
       {
         "es_word": "hablasteis",
-        "pl_word": "mówiliście",
+        "pl_word": "mówiliście (hablar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [hablasteis::mówiliście] todo el día.",
-            "pl_translation": "Wczoraj mówiliście"
-          },
-          {
-            "es_form": "Nunca [hablasteis::mówiliście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie mówiliście"
-          },
-          {
-            "es_form": "[hablasteis::mówiliście] la semana pasada.",
-            "pl_translation": "Mówiliście"
+            "es_form": "Vosotros [hablasteis::mówiliście] español.",
+            "pl_translation": "Mówiliście po hiszpańsku."
           }
         ]
       },
       {
         "es_word": "hablaron",
-        "pl_word": "mówili",
+        "pl_word": "mówili (hablar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "[hablaron::mówili] sin parar durante horas.",
-            "pl_translation": "Mówili"
-          },
-          {
-            "es_form": "Ayer [hablaron::mówili] todo el día.",
-            "pl_translation": "Wczoraj mówili"
-          },
-          {
-            "es_form": "El mes pasado no [hablaron::mówili] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie mówili"
+            "es_form": "Ellos [hablaron::mówili] español.",
+            "pl_translation": "Mówili po hiszpańsku."
           }
         ]
       },
       {
-        "es_word": "hablé",
-        "pl_word": "będę mówić",
+        "es_word": "hablaré",
+        "pl_word": "będę mówić (hablar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[hablé::będę mówić] con nosotros mañana?",
-            "pl_translation": "Czy będę mówić z nami jutro?"
-          },
-          {
-            "es_form": "[hablé::będę mówić] la proxima semana.",
-            "pl_translation": "Będę mówić w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Creo que [hablé::będę mówić] bien.",
-            "pl_translation": "Myślę, że będę mówić dobrze."
+            "es_form": "Yo [hablaré::będę mówić] español.",
+            "pl_translation": "Będę mówić po hiszpańsku."
           }
         ]
       },
       {
-        "es_word": "hablás",
-        "pl_word": "będziesz mówić",
+        "es_word": "hablarás",
+        "pl_word": "będziesz mówić (hablar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "[hablás::będziesz mówić] la proxima semana.",
-            "pl_translation": "Będziesz mówić w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Mañana [hablás::będziesz mówić] más temprano.",
-            "pl_translation": "Jutro będziesz mówić wcześniej."
-          },
-          {
-            "es_form": "El año que viene [hablás::będziesz mówić] en España.",
-            "pl_translation": "W przyszłym roku będziesz mówić w Hiszpanii."
+            "es_form": "Tú [hablarás::będziesz mówić] español.",
+            "pl_translation": "Będziesz mówić po hiszpańsku."
           }
         ]
       },
       {
-        "es_word": "hablá",
-        "pl_word": "będzie mówić",
+        "es_word": "hablará",
+        "pl_word": "będzie mówić (hablar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [hablá::będzie mówić] en España.",
-            "pl_translation": "W przyszłym roku będzie mówić w Hiszpanii."
-          },
-          {
-            "es_form": "Mañana [hablá::będzie mówić] más temprano.",
-            "pl_translation": "Jutro będzie mówić wcześniej."
-          },
-          {
-            "es_form": "[hablá::będzie mówić] la proxima semana.",
-            "pl_translation": "Będzie mówić w przyszłym tygodniu."
+            "es_form": "Él [hablará::będzie mówić] español.",
+            "pl_translation": "Będzie mówić po hiszpańsku."
           }
         ]
       },
       {
-        "es_word": "hablemos",
-        "pl_word": "będziemy mówić",
+        "es_word": "hablaremos",
+        "pl_word": "będziemy mówić (hablar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [hablemos::będziemy mówić] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziemy mówić na czas."
-          },
-          {
-            "es_form": "[hablemos::będziemy mówić] la proxima semana.",
-            "pl_translation": "Będziemy mówić w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Mañana [hablemos::będziemy mówić] más temprano.",
-            "pl_translation": "Jutro będziemy mówić wcześniej."
+            "es_form": "Nosotros [hablaremos::będziemy mówić] español.",
+            "pl_translation": "Będziemy mówić po hiszpańsku."
           }
         ]
       },
       {
-        "es_word": "habléis",
-        "pl_word": "będziecie mówić",
+        "es_word": "hablaréis",
+        "pl_word": "będziecie mówić (hablar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [habléis::będziecie mówić] en España.",
-            "pl_translation": "W przyszłym roku będziecie mówić w Hiszpanii."
-          },
-          {
-            "es_form": "¿[habléis::będziecie mówić] con nosotros mañana?",
-            "pl_translation": "Czy będziecie mówić z nami jutro?"
-          },
-          {
-            "es_form": "Creo que [habléis::będziecie mówić] bien.",
-            "pl_translation": "Myślę, że będziecie mówić dobrze."
+            "es_form": "Vosotros [hablaréis::będziecie mówić] español.",
+            "pl_translation": "Będziecie mówić po hiszpańsku."
           }
         ]
       },
       {
-        "es_word": "hablán",
-        "pl_word": "będą mówić",
+        "es_word": "hablarán",
+        "pl_word": "będą mówić (hablar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "¿[hablán::będą mówić] con nosotros mañana?",
-            "pl_translation": "Czy będą mówić z nami jutro?"
-          },
-          {
-            "es_form": "Te prometo que [hablán::będą mówić] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będą mówić na czas."
-          },
-          {
-            "es_form": "[hablán::będą mówić] la proxima semana.",
-            "pl_translation": "Będą mówić w przyszłym tygodniu."
+            "es_form": "Ellos [hablarán::będą mówić] español.",
+            "pl_translation": "Będą mówić po hiszpańsku."
           }
         ]
       }

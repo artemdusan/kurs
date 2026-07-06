@@ -233,22 +233,18 @@
     "pl_word": "zarabiać, wygrywać",
     "examples": [
       {
-        "es_form": "Hay que [ganar::zarabiać] dinero para vivir.",
-        "pl_translation": "Trzeba zarabiać pieniądze, żeby żyć."
+        "es_form": "Quiero [ganar::zarabiać] mucho dinero.",
+        "pl_translation": "Chcę zarabiać dużo pieniędzy."
       },
       {
-        "es_form": "Voy a [ganar::wygrać] el partido mañana.",
-        "pl_translation": "Wygram jutro mecz."
-      },
-      {
-        "es_form": "Es importante [ganar::wygrywać] en equipo.",
-        "pl_translation": "Ważne jest wygrywać zespołowo."
+        "es_form": "No puedo [ganar::zarabiać] mucho dinero hoy.",
+        "pl_translation": "Nie mogę dziś zarabiać dużo pieniędzy."
       }
     ],
     "forms": [
       {
         "es_word": "gano",
-        "pl_word": "zarabiam",
+        "pl_word": "zarabiam (ganar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "[gano::zarabiam] como me enseñaste.",
-            "pl_translation": "Zarabiam tak, jak mnie nauczyłeś."
-          },
-          {
-            "es_form": "No [gano::zarabiam] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie zarabiam zbyt dobrze."
-          },
-          {
-            "es_form": "¿[gano::zarabiam] bastante para vivir?",
-            "pl_translation": "Czy zarabiam wystarczająco na życie?"
+            "es_form": "Yo [gano::zarabiam] mucho dinero.",
+            "pl_translation": "Zarabiam dużo pieniędzy."
           }
         ]
       },
       {
         "es_word": "ganas",
-        "pl_word": "zarabiasz",
+        "pl_word": "zarabiasz (ganar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "[ganas::zarabiasz] como me enseñaste.",
-            "pl_translation": "Zarabiasz tak, jak mnie nauczyłeś."
-          },
-          {
-            "es_form": "¿[ganas::zarabiasz] bien en tu trabajo?",
-            "pl_translation": "Czy dobrze zarabiasz w swojej pracy?"
-          },
-          {
-            "es_form": "[ganas::zarabiasz] más que el año pasado.",
-            "pl_translation": "Zarabiasz więcej niż w zeszłym roku."
+            "es_form": "Tú [ganas::zarabiasz] mucho dinero.",
+            "pl_translation": "Zarabiasz dużo pieniędzy."
           }
         ]
       },
       {
         "es_word": "gana",
-        "pl_word": "zarabia",
+        "pl_word": "zarabia (ganar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "No [gana::zarabia] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie zarabia zbyt dobrze."
-          },
-          {
-            "es_form": "[gana::zarabia] mucho dinero.",
+            "es_form": "Él [gana::zarabia] mucho dinero.",
             "pl_translation": "Zarabia dużo pieniędzy."
-          },
-          {
-            "es_form": "¿[gana::zarabia] bien en su empresa?",
-            "pl_translation": "Czy dobrze zarabia w swojej firmie?"
           }
         ]
       },
       {
         "es_word": "ganamos",
-        "pl_word": "zarabiamy",
+        "pl_word": "zarabiamy (ganar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "[ganamos::zarabiamy] más que antes.",
-            "pl_translation": "Zarabiamy więcej niż wcześniej."
-          },
-          {
-            "es_form": "No [ganamos::zarabiamy] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie zarabiamy zbyt dobrze."
-          },
-          {
-            "es_form": "Siempre [ganamos::zarabiamy] con esfuerzo.",
-            "pl_translation": "Zawsze zarabiamy z wysiłkiem."
+            "es_form": "Nosotros [ganamos::zarabiamy] mucho dinero.",
+            "pl_translation": "Zarabiamy dużo pieniędzy."
           }
         ]
       },
       {
         "es_word": "ganáis",
-        "pl_word": "zarabiacie",
+        "pl_word": "zarabiacie (ganar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[ganáis::zarabiacie] suficiente?",
-            "pl_translation": "Czy zarabiacie wystarczająco?"
-          },
-          {
-            "es_form": "Siempre [ganáis::zarabiacie] con esfuerzo.",
-            "pl_translation": "Zawsze zarabiacie z wysiłkiem."
-          },
-          {
-            "es_form": "No [ganáis::zarabiacie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie zarabiacie zbyt dobrze."
+            "es_form": "Vosotros [ganáis::zarabiacie] mucho dinero.",
+            "pl_translation": "Zarabiacie dużo pieniędzy."
           }
         ]
       },
       {
         "es_word": "ganan",
-        "pl_word": "zarabiają",
+        "pl_word": "zarabiają (ganar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[ganan::zarabiają] bien en esta empresa?",
-            "pl_translation": "Czy dobrze zarabiają w tej firmie?"
-          },
-          {
-            "es_form": "[ganan::zarabiają] más que el año pasado.",
-            "pl_translation": "Zarabiają więcej niż w zeszłym roku."
-          },
-          {
-            "es_form": "[ganan::zarabiają] como me enseñaste.",
-            "pl_translation": "Zarabiają tak, jak mnie nauczyłeś."
+            "es_form": "Ellos [ganan::zarabiają] mucho dinero.",
+            "pl_translation": "Zarabiają dużo pieniędzy."
           }
         ]
       },
       {
         "es_word": "gané",
-        "pl_word": "zarobiłem",
+        "pl_word": "zarobiłem (ganar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "[gané::zarobiłem] la semana pasada.",
-            "pl_translation": "Zarobiłem"
-          },
-          {
-            "es_form": "[gané::zarobiłem] sin parar durante horas.",
-            "pl_translation": "Zarobiłem"
-          },
-          {
-            "es_form": "Nunca [gané::zarobiłem] tanto antes.",
-            "pl_translation": "Nigdy wcześniej nie zarobiłem"
+            "es_form": "Yo [gané::zarobiłem] mucho dinero.",
+            "pl_translation": "Zarobiłem dużo pieniędzy."
           }
         ]
       },
       {
         "es_word": "ganaste",
-        "pl_word": "zarobiłeś",
+        "pl_word": "zarobiłeś (ganar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "[ganaste::zarobiłeś] la semana pasada.",
-            "pl_translation": "Zarobiłeś"
-          },
-          {
-            "es_form": "El mes pasado no [ganaste::zarobiłeś] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie zarobiłeś"
-          },
-          {
-            "es_form": "Nunca [ganaste::zarobiłeś] tanto antes.",
-            "pl_translation": "Nigdy wcześniej nie zarobiłeś"
+            "es_form": "Tú [ganaste::zarobiłeś] mucho dinero.",
+            "pl_translation": "Zarobiłeś dużo pieniędzy."
           }
         ]
       },
       {
         "es_word": "ganó",
-        "pl_word": "zarobił",
+        "pl_word": "zarobił (ganar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [ganó::zarobił] tanto antes.",
-            "pl_translation": "Nigdy wcześniej nie zarobił"
-          },
-          {
-            "es_form": "[ganó::zarobił] sin parar durante horas.",
-            "pl_translation": "Zarobił"
-          },
-          {
-            "es_form": "[ganó::zarobił] la semana pasada.",
-            "pl_translation": "Zarobił"
+            "es_form": "Él [ganó::zarobił] mucho dinero.",
+            "pl_translation": "Zarobił dużo pieniędzy."
           }
         ]
       },
       {
         "es_word": "ganamos",
-        "pl_word": "zarobiliśmy",
+        "pl_word": "zarobiliśmy (ganar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[ganamos::zarobiliśmy] bien?",
-            "pl_translation": "Czy dobrze zarobiliśmy"
-          },
-          {
-            "es_form": "[ganamos::zarobiliśmy] la semana pasada.",
-            "pl_translation": "Zarobiliśmy"
-          },
-          {
-            "es_form": "Nunca [ganamos::zarobiliśmy] tanto antes.",
-            "pl_translation": "Nigdy wcześniej nie zarobiliśmy"
+            "es_form": "Nosotros [ganamos::zarobiliśmy] mucho dinero.",
+            "pl_translation": "Zarobiliśmy dużo pieniędzy."
           }
         ]
       },
       {
         "es_word": "ganasteis",
-        "pl_word": "zarobiliście",
+        "pl_word": "zarobiliście (ganar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "[ganasteis::zarobiliście] sin parar durante horas.",
-            "pl_translation": "Zarobiliście"
-          },
-          {
-            "es_form": "[ganasteis::zarobiliście] la semana pasada.",
-            "pl_translation": "Zarobiliście"
-          },
-          {
-            "es_form": "El mes pasado no [ganasteis::zarobiliście] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie zarobiliście"
+            "es_form": "Vosotros [ganasteis::zarobiliście] mucho dinero.",
+            "pl_translation": "Zarobiliście dużo pieniędzy."
           }
         ]
       },
       {
         "es_word": "ganaron",
-        "pl_word": "zarobili",
+        "pl_word": "zarobili (ganar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [ganaron::zarobili] todo el día.",
-            "pl_translation": "Wczoraj zarobili"
-          },
-          {
-            "es_form": "[ganaron::zarobili] sin parar durante horas.",
-            "pl_translation": "Zarobili"
-          },
-          {
-            "es_form": "Nunca [ganaron::zarobili] tanto antes.",
-            "pl_translation": "Nigdy wcześniej nie zarobili"
+            "es_form": "Ellos [ganaron::zarobili] mucho dinero.",
+            "pl_translation": "Zarobili dużo pieniędzy."
           }
         ]
       },
       {
         "es_word": "ganaré",
-        "pl_word": "będę zarabiał",
+        "pl_word": "będę zarabiać (ganar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [ganaré::będę zarabiał] más temprano.",
-            "pl_translation": "Jutro będę zarabiał"
-          },
-          {
-            "es_form": "[ganaré::będę zarabiał] la próxima semana.",
-            "pl_translation": "Będę zarabiał"
-          },
-          {
-            "es_form": "El año que viene [ganaré::będę zarabiał] en España.",
-            "pl_translation": "W przyszłym roku będę zarabiał"
+            "es_form": "Yo [ganaré::będę zarabiać] mucho dinero.",
+            "pl_translation": "Będę zarabiać dużo pieniędzy."
           }
         ]
       },
       {
         "es_word": "ganarás",
-        "pl_word": "będziesz zarabiał",
+        "pl_word": "będziesz zarabiać (ganar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "[ganarás::będziesz zarabiał] la próxima semana.",
-            "pl_translation": "Będziesz zarabiał"
-          },
-          {
-            "es_form": "Te prometo que [ganarás::będziesz zarabiał] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziesz zarabiał"
-          },
-          {
-            "es_form": "Mañana [ganarás::będziesz zarabiał] más temprano.",
-            "pl_translation": "Jutro będziesz zarabiał"
+            "es_form": "Tú [ganarás::będziesz zarabiać] mucho dinero.",
+            "pl_translation": "Będziesz zarabiać dużo pieniędzy."
           }
         ]
       },
       {
         "es_word": "ganará",
-        "pl_word": "będzie zarabiał",
+        "pl_word": "będzie zarabiać (ganar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [ganará::będzie zarabiał] en España.",
-            "pl_translation": "W przyszłym roku będzie zarabiał"
-          },
-          {
-            "es_form": "Creo que [ganará::będzie zarabiał] bien.",
-            "pl_translation": "Myślę, że będzie zarabiał"
-          },
-          {
-            "es_form": "Te prometo que [ganará::będzie zarabiał] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będzie zarabiał"
+            "es_form": "Él [ganará::będzie zarabiać] mucho dinero.",
+            "pl_translation": "Będzie zarabiać dużo pieniędzy."
           }
         ]
       },
       {
         "es_word": "ganaremos",
-        "pl_word": "będziemy zarabiali",
+        "pl_word": "będziemy zarabiać (ganar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [ganaremos::będziemy zarabiali] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziemy zarabiali"
-          },
-          {
-            "es_form": "El año que viene [ganaremos::będziemy zarabiali] en España.",
-            "pl_translation": "W przyszłym roku będziemy zarabiali"
-          },
-          {
-            "es_form": "[ganaremos::będziemy zarabiali] la próxima semana.",
-            "pl_translation": "Będziemy zarabiali"
+            "es_form": "Nosotros [ganaremos::będziemy zarabiać] mucho dinero.",
+            "pl_translation": "Będziemy zarabiać dużo pieniędzy."
           }
         ]
       },
       {
         "es_word": "ganaréis",
-        "pl_word": "będziecie zarabiali",
+        "pl_word": "będziecie zarabiać (ganar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "[ganaréis::będziecie zarabiali] la próxima semana.",
-            "pl_translation": "Będziecie zarabiali"
-          },
-          {
-            "es_form": "Mañana [ganaréis::będziecie zarabiali] más temprano.",
-            "pl_translation": "Jutro będziecie zarabiali"
-          },
-          {
-            "es_form": "¿[ganaréis::będziecie zarabiali] con nosotros mañana?",
-            "pl_translation": "Czy będziecie zarabiali"
+            "es_form": "Vosotros [ganaréis::będziecie zarabiać] mucho dinero.",
+            "pl_translation": "Będziecie zarabiać dużo pieniędzy."
           }
         ]
       },
       {
         "es_word": "ganarán",
-        "pl_word": "będą zarabiali",
+        "pl_word": "będą zarabiać (ganar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "¿[ganarán::będą zarabiali] con nosotros mañana?",
-            "pl_translation": "Czy będą zarabiali"
-          },
-          {
-            "es_form": "El año que viene [ganarán::będą zarabiali] en España.",
-            "pl_translation": "W przyszłym roku będą zarabiali"
-          },
-          {
-            "es_form": "[ganarán::będą zarabiali] la próxima semana.",
-            "pl_translation": "Będą zarabiali"
+            "es_form": "Ellos [ganarán::będą zarabiać] mucho dinero.",
+            "pl_translation": "Będą zarabiać dużo pieniędzy."
           }
         ]
       }

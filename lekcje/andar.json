@@ -233,22 +233,18 @@
     "pl_word": "chodzić, iść pieszo",
     "examples": [
       {
-        "es_form": "Me gusta [andar::chodzić, iść pieszo] por la mañana.",
-        "pl_translation": "Lubię chodzić rano."
+        "es_form": "Quiero [andar::chodzić] por el parque.",
+        "pl_translation": "Chcę chodzić po parku."
       },
       {
-        "es_form": "Hay que [andar::chodzić, iść pieszo] con cuidado.",
-        "pl_translation": "Trzeba chodzić ostrożnie."
-      },
-      {
-        "es_form": "Es importante [andar::chodzić, iść pieszo] todos los días.",
-        "pl_translation": "Ważne jest chodzić codziennie."
+        "es_form": "No puedo [andar::chodzić] por el parque hoy.",
+        "pl_translation": "Nie mogę dziś chodzić po parku."
       }
     ],
     "forms": [
       {
         "es_word": "ando",
-        "pl_word": "chodzę",
+        "pl_word": "chodzę (andar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [ando::chodzę] con atencion.",
-            "pl_translation": "Zawsze chodzę z uwagą."
-          },
-          {
-            "es_form": "No [ando::chodzę] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie chodzę zbyt dobrze."
-          },
-          {
-            "es_form": "¿[ando::chodzę] los fines de semana?",
-            "pl_translation": "Czy chodzę w weekendy?"
+            "es_form": "Yo [ando::chodzę] por el parque.",
+            "pl_translation": "Chodzę po parku."
           }
         ]
       },
       {
         "es_word": "andas",
-        "pl_word": "chodzisz",
+        "pl_word": "chodzisz (andar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "[andas::chodzisz] todos los días.",
-            "pl_translation": "Chodzisz codziennie."
-          },
-          {
-            "es_form": "[andas::chodzisz] como me enseñaste.",
-            "pl_translation": "Chodzisz tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Siempre [andas::chodzisz] con atencion.",
-            "pl_translation": "Zawsze chodzisz z uwagą."
+            "es_form": "Tú [andas::chodzisz] por el parque.",
+            "pl_translation": "Chodzisz po parku."
           }
         ]
       },
       {
         "es_word": "anda",
-        "pl_word": "chodzi",
+        "pl_word": "chodzi (andar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "[anda::chodzi] como me enseñaste.",
-            "pl_translation": "Chodzi tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Normalmente [anda::chodzi] por la mañana.",
-            "pl_translation": "Zazwyczaj chodzi rano."
-          },
-          {
-            "es_form": "No [anda::chodzi] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie chodzi zbyt dobrze."
+            "es_form": "Él [anda::chodzi] por el parque.",
+            "pl_translation": "Chodzi po parku."
           }
         ]
       },
       {
         "es_word": "andamos",
-        "pl_word": "chodzimy",
+        "pl_word": "chodzimy (andar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "No [andamos::chodzimy] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie chodzimy zbyt dobrze."
-          },
-          {
-            "es_form": "¿[andamos::chodzimy] los fines de semana?",
-            "pl_translation": "Czy chodzimy w weekendy?"
-          },
-          {
-            "es_form": "Normalmente [andamos::chodzimy] por la mañana.",
-            "pl_translation": "Zazwyczaj chodzimy rano."
+            "es_form": "Nosotros [andamos::chodzimy] por el parque.",
+            "pl_translation": "Chodzimy po parku."
           }
         ]
       },
       {
         "es_word": "andáis",
-        "pl_word": "chodzicie",
+        "pl_word": "chodzicie (andar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "[andáis::chodzicie] como me enseñaste.",
-            "pl_translation": "Chodzicie tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Normalmente [andáis::chodzicie] por la mañana.",
-            "pl_translation": "Zazwyczaj chodzicie rano."
-          },
-          {
-            "es_form": "[andáis::chodzicie] todos los días.",
-            "pl_translation": "Chodzicie codziennie."
+            "es_form": "Vosotros [andáis::chodzicie] por el parque.",
+            "pl_translation": "Chodzicie po parku."
           }
         ]
       },
       {
         "es_word": "andan",
-        "pl_word": "chodzą",
+        "pl_word": "chodzą (andar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [andan::chodzą] por la mañana.",
-            "pl_translation": "Zazwyczaj chodzą rano."
-          },
-          {
-            "es_form": "No [andan::chodzą] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie chodzą zbyt dobrze."
-          },
-          {
-            "es_form": "[andan::chodzą] como me enseñaste.",
-            "pl_translation": "Chodzą tak jak mnie nauczyłeś"
+            "es_form": "Ellos [andan::chodzą] por el parque.",
+            "pl_translation": "Chodzą po parku."
           }
         ]
       },
       {
         "es_word": "anduve",
-        "pl_word": "chodziłem",
+        "pl_word": "chodziłem (andar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [anduve::chodziłem] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie chodziłem"
-          },
-          {
-            "es_form": "[anduve::chodziłem] sin parar durante horas.",
-            "pl_translation": "Chodziłem"
-          },
-          {
-            "es_form": "Ayer [anduve::chodziłem] todo el día.",
-            "pl_translation": "Wczoraj chodziłem"
+            "es_form": "Yo [anduve::chodziłem] por el parque.",
+            "pl_translation": "Chodziłem po parku."
           }
         ]
       },
       {
         "es_word": "anduviste",
-        "pl_word": "chodziłeś",
+        "pl_word": "chodziłeś (andar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "[anduviste::chodziłeś] sin parar durante horas.",
-            "pl_translation": "Chodziłeś"
-          },
-          {
-            "es_form": "Ayer [anduviste::chodziłeś] todo el día.",
-            "pl_translation": "Wczoraj chodziłeś"
-          },
-          {
-            "es_form": "[anduviste::chodziłeś] la semana pasada.",
-            "pl_translation": "Chodziłeś"
+            "es_form": "Tú [anduviste::chodziłeś] por el parque.",
+            "pl_translation": "Chodziłeś po parku."
           }
         ]
       },
       {
         "es_word": "anduvo",
-        "pl_word": "chodził",
+        "pl_word": "chodził (andar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "[anduvo::chodził] la semana pasada.",
-            "pl_translation": "Chodził"
-          },
-          {
-            "es_form": "Nunca [anduvo::chodził] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie chodził"
-          },
-          {
-            "es_form": "[anduvo::chodził] sin parar durante horas.",
-            "pl_translation": "Chodził"
+            "es_form": "Él [anduvo::chodził] por el parque.",
+            "pl_translation": "Chodził po parku."
           }
         ]
       },
       {
         "es_word": "anduvimos",
-        "pl_word": "chodziliśmy",
+        "pl_word": "chodziliśmy (andar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[anduvimos::chodziliśmy] bien el examen?",
-            "pl_translation": "Czy chodziliśmy"
-          },
-          {
-            "es_form": "El mes pasado no [anduvimos::chodziliśmy] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie chodziliśmy"
-          },
-          {
-            "es_form": "Ayer [anduvimos::chodziliśmy] todo el día.",
-            "pl_translation": "Wczoraj chodziliśmy"
+            "es_form": "Nosotros [anduvimos::chodziliśmy] por el parque.",
+            "pl_translation": "Chodziliśmy po parku."
           }
         ]
       },
       {
         "es_word": "anduvisteis",
-        "pl_word": "chodziliście",
+        "pl_word": "chodziliście (andar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [anduvisteis::chodziliście] todo el día.",
-            "pl_translation": "Wczoraj chodziliście"
-          },
-          {
-            "es_form": "Nunca [anduvisteis::chodziliście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie chodziliście"
-          },
-          {
-            "es_form": "El mes pasado no [anduvisteis::chodziliście] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie chodziliście"
+            "es_form": "Vosotros [anduvisteis::chodziliście] por el parque.",
+            "pl_translation": "Chodziliście po parku."
           }
         ]
       },
       {
         "es_word": "anduvieron",
-        "pl_word": "chodzili",
+        "pl_word": "chodzili (andar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "[anduvieron::chodzili] sin parar durante horas.",
-            "pl_translation": "Chodzili"
-          },
-          {
-            "es_form": "Nunca [anduvieron::chodzili] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie chodzili"
-          },
-          {
-            "es_form": "Ayer [anduvieron::chodzili] todo el día.",
-            "pl_translation": "Wczoraj chodzili"
+            "es_form": "Ellos [anduvieron::chodzili] por el parque.",
+            "pl_translation": "Chodzili po parku."
           }
         ]
       },
       {
         "es_word": "andaré",
-        "pl_word": "będę chodzić",
+        "pl_word": "będę chodzić (andar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "[andaré::będę chodzić] la proxima semana.",
-            "pl_translation": "Będę chodzić w przyszłym tygodniu."
-          },
-          {
-            "es_form": "El año que viene [andaré::będę chodzić] en España.",
-            "pl_translation": "W przyszłym roku będę chodzić w Hiszpanii."
-          },
-          {
-            "es_form": "Mañana [andaré::będę chodzić] más temprano.",
-            "pl_translation": "Jutro będę chodzić wcześniej."
+            "es_form": "Yo [andaré::będę chodzić] por el parque.",
+            "pl_translation": "Będę chodzić po parku."
           }
         ]
       },
       {
         "es_word": "andarás",
-        "pl_word": "będziesz chodzić",
+        "pl_word": "będziesz chodzić (andar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "[andarás::będziesz chodzić] la proxima semana.",
-            "pl_translation": "Będziesz chodzić w przyszłym tygodniu."
-          },
-          {
-            "es_form": "¿[andarás::będziesz chodzić] con nosotros mañana?",
-            "pl_translation": "Czy będziesz chodzić z nami jutro?"
-          },
-          {
-            "es_form": "Te prometo que [andarás::będziesz chodzić] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziesz chodzić na czas."
+            "es_form": "Tú [andarás::będziesz chodzić] por el parque.",
+            "pl_translation": "Będziesz chodzić po parku."
           }
         ]
       },
       {
         "es_word": "andará",
-        "pl_word": "będzie chodzić",
+        "pl_word": "będzie chodzić (andar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [andará::będzie chodzić] bien.",
-            "pl_translation": "Myślę, że będzie chodzić dobrze."
-          },
-          {
-            "es_form": "Mañana [andará::będzie chodzić] más temprano.",
-            "pl_translation": "Jutro będzie chodzić wcześniej."
-          },
-          {
-            "es_form": "El año que viene [andará::będzie chodzić] en España.",
-            "pl_translation": "W przyszłym roku będzie chodzić w Hiszpanii."
+            "es_form": "Él [andará::będzie chodzić] por el parque.",
+            "pl_translation": "Będzie chodzić po parku."
           }
         ]
       },
       {
         "es_word": "andaremos",
-        "pl_word": "będziemy chodzić",
+        "pl_word": "będziemy chodzić (andar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "[andaremos::będziemy chodzić] la proxima semana.",
-            "pl_translation": "Będziemy chodzić w przyszłym tygodniu."
-          },
-          {
-            "es_form": "¿[andaremos::będziemy chodzić] con nosotros mañana?",
-            "pl_translation": "Czy będziemy chodzić z nami jutro?"
-          },
-          {
-            "es_form": "Creo que [andaremos::będziemy chodzić] bien.",
-            "pl_translation": "Myślę, że będziemy chodzić dobrze."
+            "es_form": "Nosotros [andaremos::będziemy chodzić] por el parque.",
+            "pl_translation": "Będziemy chodzić po parku."
           }
         ]
       },
       {
         "es_word": "andaréis",
-        "pl_word": "będziecie chodzić",
+        "pl_word": "będziecie chodzić (andar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [andaréis::będziecie chodzić] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziecie chodzić na czas."
-          },
-          {
-            "es_form": "¿[andaréis::będziecie chodzić] con nosotros mañana?",
-            "pl_translation": "Czy będziecie chodzić z nami jutro?"
-          },
-          {
-            "es_form": "El año que viene [andaréis::będziecie chodzić] en España.",
-            "pl_translation": "W przyszłym roku będziecie chodzić w Hiszpanii."
+            "es_form": "Vosotros [andaréis::będziecie chodzić] por el parque.",
+            "pl_translation": "Będziecie chodzić po parku."
           }
         ]
       },
       {
         "es_word": "andarán",
-        "pl_word": "będą chodzić",
+        "pl_word": "będą chodzić (andar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [andarán::będą chodzić] bien.",
-            "pl_translation": "Myślę, że będą chodzić dobrze."
-          },
-          {
-            "es_form": "Te prometo que [andarán::będą chodzić] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będą chodzić na czas."
-          },
-          {
-            "es_form": "[andarán::będą chodzić] la proxima semana.",
-            "pl_translation": "Będą chodzić w przyszłym tygodniu."
+            "es_form": "Ellos [andarán::będą chodzić] por el parque.",
+            "pl_translation": "Będą chodzić po parku."
           }
         ]
       }

@@ -233,22 +233,18 @@
     "pl_word": "rozmawiać, konwersować",
     "examples": [
       {
-        "es_form": "Me gusta [conversar::rozmawiać, konwersować] por la mañana.",
-        "pl_translation": "Lubię rozmawiać, konwersować rano."
+        "es_form": "Quiero [conversar::rozmawiać] con los vecinos.",
+        "pl_translation": "Chcę rozmawiać z sąsiadami."
       },
       {
-        "es_form": "Voy a [conversar::rozmawiać, konwersować] mañana.",
-        "pl_translation": "Będę rozmawiać, konwersować jutro."
-      },
-      {
-        "es_form": "No puedo [conversar::rozmawiać, konwersować] sin tu ayuda.",
-        "pl_translation": "Nie mogę rozmawiać, konwersować bez twojej pomocy."
+        "es_form": "No puedo [conversar::rozmawiać] con los vecinos hoy.",
+        "pl_translation": "Nie mogę dziś rozmawiać z sąsiadami."
       }
     ],
     "forms": [
       {
         "es_word": "converso",
-        "pl_word": "rozmawiam",
+        "pl_word": "rozmawiam (conversar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "No [converso::rozmawiam] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie rozmawiam zbyt dobrze."
-          },
-          {
-            "es_form": "[converso::rozmawiam] como me enseñaste.",
-            "pl_translation": "Rozmawiam tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Siempre [converso::rozmawiam] con atencion.",
-            "pl_translation": "Zawsze rozmawiam z uwagą."
+            "es_form": "Yo [converso::rozmawiam] con los vecinos.",
+            "pl_translation": "Rozmawiam z sąsiadami."
           }
         ]
       },
       {
         "es_word": "conversas",
-        "pl_word": "rozmawiasz",
+        "pl_word": "rozmawiasz (conversar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [conversas::rozmawiasz] con atencion.",
-            "pl_translation": "Zawsze rozmawiasz z uwagą."
-          },
-          {
-            "es_form": "Normalmente [conversas::rozmawiasz] por la mañana.",
-            "pl_translation": "Zazwyczaj rozmawiasz rano."
-          },
-          {
-            "es_form": "[conversas::rozmawiasz] como me enseñaste.",
-            "pl_translation": "Rozmawiasz tak jak mnie nauczyłeś"
+            "es_form": "Tú [conversas::rozmawiasz] con los vecinos.",
+            "pl_translation": "Rozmawiasz z sąsiadami."
           }
         ]
       },
       {
         "es_word": "conversa",
-        "pl_word": "rozmawia",
+        "pl_word": "rozmawia (conversar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[conversa::rozmawia] los fines de semana?",
-            "pl_translation": "Czy rozmawia w weekendy?"
-          },
-          {
-            "es_form": "Normalmente [conversa::rozmawia] por la mañana.",
-            "pl_translation": "Zazwyczaj rozmawia rano."
-          },
-          {
-            "es_form": "[conversa::rozmawia] como me enseñaste.",
-            "pl_translation": "Rozmawia tak jak mnie nauczyłeś"
+            "es_form": "Él [conversa::rozmawia] con los vecinos.",
+            "pl_translation": "Rozmawia z sąsiadami."
           }
         ]
       },
       {
         "es_word": "conversamos",
-        "pl_word": "rozmawiamy",
+        "pl_word": "rozmawiamy (conversar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "[conversamos::rozmawiamy] como me enseñaste.",
-            "pl_translation": "Rozmawiamy tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Normalmente [conversamos::rozmawiamy] por la mañana.",
-            "pl_translation": "Zazwyczaj rozmawiamy rano."
-          },
-          {
-            "es_form": "[conversamos::rozmawiamy] todos los días.",
-            "pl_translation": "Rozmawiamy codziennie."
+            "es_form": "Nosotros [conversamos::rozmawiamy] con los vecinos.",
+            "pl_translation": "Rozmawiamy z sąsiadami."
           }
         ]
       },
       {
         "es_word": "conversáis",
-        "pl_word": "rozmawiacie",
+        "pl_word": "rozmawiacie (conversar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [conversáis::rozmawiacie] con atencion.",
-            "pl_translation": "Zawsze rozmawiacie z uwagą."
-          },
-          {
-            "es_form": "¿[conversáis::rozmawiacie] los fines de semana?",
-            "pl_translation": "Czy rozmawiacie w weekendy?"
-          },
-          {
-            "es_form": "No [conversáis::rozmawiacie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie rozmawiacie zbyt dobrze."
+            "es_form": "Vosotros [conversáis::rozmawiacie] con los vecinos.",
+            "pl_translation": "Rozmawiacie z sąsiadami."
           }
         ]
       },
       {
         "es_word": "conversan",
-        "pl_word": "rozmawiają",
+        "pl_word": "rozmawiają (conversar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [conversan::rozmawiają] con atencion.",
-            "pl_translation": "Zawsze rozmawiają z uwagą."
-          },
-          {
-            "es_form": "[conversan::rozmawiają] como me enseñaste.",
-            "pl_translation": "Rozmawiają tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Normalmente [conversan::rozmawiają] por la mañana.",
-            "pl_translation": "Zazwyczaj rozmawiają rano."
+            "es_form": "Ellos [conversan::rozmawiają] con los vecinos.",
+            "pl_translation": "Rozmawiają z sąsiadami."
           }
         ]
       },
       {
         "es_word": "conversé",
-        "pl_word": "rozmawiałem",
+        "pl_word": "rozmawiałem (conversar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "[conversé::rozmawiałem] sin parar durante horas.",
-            "pl_translation": "Rozmawiałem"
-          },
-          {
-            "es_form": "[conversé::rozmawiałem] la semana pasada.",
-            "pl_translation": "Rozmawiałem"
-          },
-          {
-            "es_form": "¿[conversé::rozmawiałem] bien el examen?",
-            "pl_translation": "Czy rozmawiałem"
+            "es_form": "Yo [conversé::rozmawiałem] con los vecinos.",
+            "pl_translation": "Rozmawiałem z sąsiadami."
           }
         ]
       },
       {
         "es_word": "conversaste",
-        "pl_word": "rozmawiałeś",
+        "pl_word": "rozmawiałeś (conversar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[conversaste::rozmawiałeś] bien el examen?",
-            "pl_translation": "Czy rozmawiałeś"
-          },
-          {
-            "es_form": "Ayer [conversaste::rozmawiałeś] todo el día.",
-            "pl_translation": "Wczoraj rozmawiałeś"
-          },
-          {
-            "es_form": "El mes pasado no [conversaste::rozmawiałeś] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie rozmawiałeś"
+            "es_form": "Tú [conversaste::rozmawiałeś] con los vecinos.",
+            "pl_translation": "Rozmawiałeś z sąsiadami."
           }
         ]
       },
       {
         "es_word": "conversó",
-        "pl_word": "rozmawiał",
+        "pl_word": "rozmawiał (conversar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [conversó::rozmawiał] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie rozmawiał"
-          },
-          {
-            "es_form": "Ayer [conversó::rozmawiał] todo el día.",
-            "pl_translation": "Wczoraj rozmawiał"
-          },
-          {
-            "es_form": "[conversó::rozmawiał] la semana pasada.",
-            "pl_translation": "Rozmawiał"
+            "es_form": "Él [conversó::rozmawiał] con los vecinos.",
+            "pl_translation": "Rozmawiał z sąsiadami."
           }
         ]
       },
       {
         "es_word": "conversamos",
-        "pl_word": "rozmawialiśmy",
+        "pl_word": "rozmawialiśmy (conversar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [conversamos::rozmawialiśmy] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie rozmawialiśmy"
-          },
-          {
-            "es_form": "[conversamos::rozmawialiśmy] la semana pasada.",
-            "pl_translation": "Rozmawialiśmy"
-          },
-          {
-            "es_form": "¿[conversamos::rozmawialiśmy] bien el examen?",
-            "pl_translation": "Czy rozmawialiśmy"
+            "es_form": "Nosotros [conversamos::rozmawialiśmy] con los vecinos.",
+            "pl_translation": "Rozmawialiśmy z sąsiadami."
           }
         ]
       },
       {
         "es_word": "conversasteis",
-        "pl_word": "rozmawialiście",
+        "pl_word": "rozmawialiście (conversar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [conversasteis::rozmawialiście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie rozmawialiście"
-          },
-          {
-            "es_form": "El mes pasado no [conversasteis::rozmawialiście] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie rozmawialiście"
-          },
-          {
-            "es_form": "¿[conversasteis::rozmawialiście] bien el examen?",
-            "pl_translation": "Czy rozmawialiście"
+            "es_form": "Vosotros [conversasteis::rozmawialiście] con los vecinos.",
+            "pl_translation": "Rozmawialiście z sąsiadami."
           }
         ]
       },
       {
         "es_word": "conversaron",
-        "pl_word": "rozmawiali",
+        "pl_word": "rozmawiali (conversar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [conversaron::rozmawiali] todo el día.",
-            "pl_translation": "Wczoraj rozmawiali"
-          },
-          {
-            "es_form": "El mes pasado no [conversaron::rozmawiali] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie rozmawiali"
-          },
-          {
-            "es_form": "¿[conversaron::rozmawiali] bien el examen?",
-            "pl_translation": "Czy rozmawiali"
+            "es_form": "Ellos [conversaron::rozmawiali] con los vecinos.",
+            "pl_translation": "Rozmawiali z sąsiadami."
           }
         ]
       },
       {
-        "es_word": "conversé",
-        "pl_word": "będę rozmawiał",
+        "es_word": "conversaré",
+        "pl_word": "będę rozmawiać (conversar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [conversé::będę rozmawiał] bien.",
-            "pl_translation": "Myślę, że będę rozmawiał"
-          },
-          {
-            "es_form": "Te prometo que [conversé::będę rozmawiał] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będę rozmawiał"
-          },
-          {
-            "es_form": "El año que viene [conversé::będę rozmawiał] en España.",
-            "pl_translation": "W przyszłym roku będę rozmawiał"
+            "es_form": "Yo [conversaré::będę rozmawiać] con los vecinos.",
+            "pl_translation": "Będę rozmawiać z sąsiadami."
           }
         ]
       },
       {
-        "es_word": "conversás",
-        "pl_word": "będziesz rozmawiał",
+        "es_word": "conversarás",
+        "pl_word": "będziesz rozmawiać (conversar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [conversás::będziesz rozmawiał] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziesz rozmawiał"
-          },
-          {
-            "es_form": "Creo que [conversás::będziesz rozmawiał] bien.",
-            "pl_translation": "Myślę, że będziesz rozmawiał"
-          },
-          {
-            "es_form": "Mañana [conversás::będziesz rozmawiał] más temprano.",
-            "pl_translation": "Jutro będziesz rozmawiał"
+            "es_form": "Tú [conversarás::będziesz rozmawiać] con los vecinos.",
+            "pl_translation": "Będziesz rozmawiać z sąsiadami."
           }
         ]
       },
       {
-        "es_word": "conversá",
-        "pl_word": "będzie rozmawiał",
+        "es_word": "conversará",
+        "pl_word": "będzie rozmawiać (conversar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "[conversá::będzie rozmawiał] la proxima semana.",
-            "pl_translation": "Będzie rozmawiał"
-          },
-          {
-            "es_form": "Te prometo que [conversá::będzie rozmawiał] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będzie rozmawiał"
-          },
-          {
-            "es_form": "El año que viene [conversá::będzie rozmawiał] en España.",
-            "pl_translation": "W przyszłym roku będzie rozmawiał"
+            "es_form": "Él [conversará::będzie rozmawiać] con los vecinos.",
+            "pl_translation": "Będzie rozmawiać z sąsiadami."
           }
         ]
       },
       {
-        "es_word": "conversemos",
-        "pl_word": "będziemy rozmawiali",
+        "es_word": "conversaremos",
+        "pl_word": "będziemy rozmawiać (conversar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[conversemos::będziemy rozmawiali] con nosotros mañana?",
-            "pl_translation": "Czy będziemy rozmawiali"
-          },
-          {
-            "es_form": "Mañana [conversemos::będziemy rozmawiali] más temprano.",
-            "pl_translation": "Jutro będziemy rozmawiali"
-          },
-          {
-            "es_form": "El año que viene [conversemos::będziemy rozmawiali] en España.",
-            "pl_translation": "W przyszłym roku będziemy rozmawiali"
+            "es_form": "Nosotros [conversaremos::będziemy rozmawiać] con los vecinos.",
+            "pl_translation": "Będziemy rozmawiać z sąsiadami."
           }
         ]
       },
       {
-        "es_word": "converséis",
-        "pl_word": "będziecie rozmawiali",
+        "es_word": "conversaréis",
+        "pl_word": "będziecie rozmawiać (conversar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [converséis::będziecie rozmawiali] bien.",
-            "pl_translation": "Myślę, że będziecie rozmawiali"
-          },
-          {
-            "es_form": "¿[converséis::będziecie rozmawiali] con nosotros mañana?",
-            "pl_translation": "Czy będziecie rozmawiali"
-          },
-          {
-            "es_form": "Te prometo que [converséis::będziecie rozmawiali] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziecie rozmawiali"
+            "es_form": "Vosotros [conversaréis::będziecie rozmawiać] con los vecinos.",
+            "pl_translation": "Będziecie rozmawiać z sąsiadami."
           }
         ]
       },
       {
-        "es_word": "conversán",
-        "pl_word": "będą rozmawiali",
+        "es_word": "conversarán",
+        "pl_word": "będą rozmawiać (conversar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "¿[conversán::będą rozmawiali] con nosotros mañana?",
-            "pl_translation": "Czy będą rozmawiali"
-          },
-          {
-            "es_form": "Te prometo que [conversán::będą rozmawiali] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będą rozmawiali"
-          },
-          {
-            "es_form": "El año que viene [conversán::będą rozmawiali] en España.",
-            "pl_translation": "W przyszłym roku będą rozmawiali"
+            "es_form": "Ellos [conversarán::będą rozmawiać] con los vecinos.",
+            "pl_translation": "Będą rozmawiać z sąsiadami."
           }
         ]
       }

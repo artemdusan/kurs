@@ -233,16 +233,12 @@
     "pl_word": "być (cechy stałe, tożsamość)",
     "examples": [
       {
-        "es_form": "Es importante [ser::być (cechy stałe, tożsamość)] todos los días.",
-        "pl_translation": "Ważne jest być codziennie."
+        "es_form": "Quiero [ser::być] feliz.",
+        "pl_translation": "Chcę być szczęśliwy."
       },
       {
-        "es_form": "Hay que [ser::być (cechy stałe, tożsamość)] con cuidado.",
-        "pl_translation": "Trzeba być ostrożnie."
-      },
-      {
-        "es_form": "Me gusta [ser::być (cechy stałe, tożsamość)] por la mañana.",
-        "pl_translation": "Lubię być rano."
+        "es_form": "No puedo [ser::być] feliz hoy.",
+        "pl_translation": "Nie mogę dziś być szczęśliwy."
       }
     ],
     "forms": [
@@ -256,16 +252,8 @@
         },
         "examples": [
           {
-            "es_form": "[soy::jestem (ser)] como me enseñaste.",
-            "pl_translation": "Jestem tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "¿[soy::jestem (ser)] los fines de semana?",
-            "pl_translation": "Czy jestem w weekendy?"
-          },
-          {
-            "es_form": "Siempre [soy::jestem (ser)] con atencion.",
-            "pl_translation": "Zawsze jestem z uwagą."
+            "es_form": "Yo [soy::jestem] feliz.",
+            "pl_translation": "Jestem szczęśliwy."
           }
         ]
       },
@@ -279,16 +267,8 @@
         },
         "examples": [
           {
-            "es_form": "¿[eres::jesteś (ser)] los fines de semana?",
-            "pl_translation": "Czy jesteś w weekendy?"
-          },
-          {
-            "es_form": "[eres::jesteś (ser)] todos los días.",
-            "pl_translation": "Jesteś codziennie."
-          },
-          {
-            "es_form": "[eres::jesteś (ser)] como me enseñaste.",
-            "pl_translation": "Jesteś tak jak mnie nauczyłeś"
+            "es_form": "Tú [eres::jesteś] feliz.",
+            "pl_translation": "Jesteś szczęśliwy."
           }
         ]
       },
@@ -302,16 +282,8 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [es::jest (ser)] por la mañana.",
-            "pl_translation": "Zazwyczaj jest rano."
-          },
-          {
-            "es_form": "[es::jest (ser)] como me enseñaste.",
-            "pl_translation": "Jest tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "[es::jest (ser)] todos los días.",
-            "pl_translation": "Jest codziennie."
+            "es_form": "Él [es::jest] feliz.",
+            "pl_translation": "Jest szczęśliwy."
           }
         ]
       },
@@ -325,16 +297,8 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [somos::jesteśmy (ser)] con atencion.",
-            "pl_translation": "Zawsze jesteśmy z uwagą."
-          },
-          {
-            "es_form": "Normalmente [somos::jesteśmy (ser)] por la mañana.",
-            "pl_translation": "Zazwyczaj jesteśmy rano."
-          },
-          {
-            "es_form": "[somos::jesteśmy (ser)] todos los días.",
-            "pl_translation": "Jesteśmy codziennie."
+            "es_form": "Nosotros [somos::jesteśmy] felices.",
+            "pl_translation": "Jesteśmy szczęśliwi."
           }
         ]
       },
@@ -348,16 +312,8 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [sois::jesteście (ser)] por la mañana.",
-            "pl_translation": "Zazwyczaj jesteście rano."
-          },
-          {
-            "es_form": "No [sois::jesteście (ser)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie jesteście zbyt dobrze."
-          },
-          {
-            "es_form": "Siempre [sois::jesteście (ser)] con atencion.",
-            "pl_translation": "Zawsze jesteście z uwagą."
+            "es_form": "Vosotros [sois::jesteście] felices.",
+            "pl_translation": "Jesteście szczęśliwi."
           }
         ]
       },
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "No [son::są (ser)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie są zbyt dobrze."
-          },
-          {
-            "es_form": "[son::są (ser)] como me enseñaste.",
-            "pl_translation": "Są tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Siempre [son::są (ser)] con atencion.",
-            "pl_translation": "Zawsze są z uwagą."
+            "es_form": "Ellos [son::są] felices.",
+            "pl_translation": "Są szczęśliwi."
           }
         ]
       },
       {
         "es_word": "fui",
-        "pl_word": "byłem",
+        "pl_word": "byłem (ser)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "[fui::byłem] la semana pasada.",
-            "pl_translation": "Byłem"
-          },
-          {
-            "es_form": "El mes pasado no [fui::byłem] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie byłem"
-          },
-          {
-            "es_form": "Nunca [fui::byłem] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie byłem"
+            "es_form": "Yo [fui::byłem] feliz.",
+            "pl_translation": "Byłem szczęśliwy."
           }
         ]
       },
       {
         "es_word": "fuiste",
-        "pl_word": "byłeś",
+        "pl_word": "byłeś (ser)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [fuiste::byłeś] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie byłeś"
-          },
-          {
-            "es_form": "Nunca [fuiste::byłeś] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie byłeś"
-          },
-          {
-            "es_form": "Ayer [fuiste::byłeś] todo el día.",
-            "pl_translation": "Wczoraj byłeś"
+            "es_form": "Tú [fuiste::byłeś] feliz.",
+            "pl_translation": "Byłeś szczęśliwy."
           }
         ]
       },
       {
         "es_word": "fue",
-        "pl_word": "był",
+        "pl_word": "był (ser)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "[fue::był] sin parar durante horas.",
-            "pl_translation": "Był"
-          },
-          {
-            "es_form": "Nunca [fue::był] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie był"
-          },
-          {
-            "es_form": "[fue::był] la semana pasada.",
-            "pl_translation": "Był"
+            "es_form": "Él [fue::był] feliz.",
+            "pl_translation": "Był szczęśliwy."
           }
         ]
       },
       {
         "es_word": "fuimos",
-        "pl_word": "byliśmy",
+        "pl_word": "byliśmy (ser)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "[fuimos::byliśmy] sin parar durante horas.",
-            "pl_translation": "Byliśmy"
-          },
-          {
-            "es_form": "Nunca [fuimos::byliśmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie byliśmy"
-          },
-          {
-            "es_form": "[fuimos::byliśmy] la semana pasada.",
-            "pl_translation": "Byliśmy"
+            "es_form": "Nosotros [fuimos::byliśmy] felices.",
+            "pl_translation": "Byliśmy szczęśliwi."
           }
         ]
       },
       {
         "es_word": "fuisteis",
-        "pl_word": "byliście",
+        "pl_word": "byliście (ser)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "[fuisteis::byliście] la semana pasada.",
-            "pl_translation": "Byliście"
-          },
-          {
-            "es_form": "¿[fuisteis::byliście] bien el examen?",
-            "pl_translation": "Czy byliście"
-          },
-          {
-            "es_form": "El mes pasado no [fuisteis::byliście] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie byliście"
+            "es_form": "Vosotros [fuisteis::byliście] felices.",
+            "pl_translation": "Byliście szczęśliwi."
           }
         ]
       },
       {
         "es_word": "fueron",
-        "pl_word": "byli",
+        "pl_word": "byli (ser)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,16 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [fueron::byli] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie byli"
-          },
-          {
-            "es_form": "[fueron::byli] sin parar durante horas.",
-            "pl_translation": "Byli"
-          },
-          {
-            "es_form": "[fueron::byli] la semana pasada.",
-            "pl_translation": "Byli"
+            "es_form": "Ellos [fueron::byli] felices.",
+            "pl_translation": "Byli szczęśliwi."
           }
         ]
       },
@@ -532,16 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [seré::będę (ser)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będę na czas."
-          },
-          {
-            "es_form": "El año que viene [seré::będę (ser)] en España.",
-            "pl_translation": "W przyszłym roku będę w Hiszpanii."
-          },
-          {
-            "es_form": "Mañana [seré::będę (ser)] más temprano.",
-            "pl_translation": "Jutro będę wcześniej."
+            "es_form": "Yo [seré::będę] feliz.",
+            "pl_translation": "Będę szczęśliwy."
           }
         ]
       },
@@ -555,16 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "[serás::będziesz (ser)] la proxima semana.",
-            "pl_translation": "Będziesz w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Mañana [serás::będziesz (ser)] más temprano.",
-            "pl_translation": "Jutro będziesz wcześniej."
-          },
-          {
-            "es_form": "El año que viene [serás::będziesz (ser)] en España.",
-            "pl_translation": "W przyszłym roku będziesz w Hiszpanii."
+            "es_form": "Tú [serás::będziesz] feliz.",
+            "pl_translation": "Będziesz szczęśliwy."
           }
         ]
       },
@@ -578,16 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [será::będzie (ser)] bien.",
-            "pl_translation": "Myślę, że będzie dobrze."
-          },
-          {
-            "es_form": "El año que viene [será::będzie (ser)] en España.",
-            "pl_translation": "W przyszłym roku będzie w Hiszpanii."
-          },
-          {
-            "es_form": "Mañana [será::będzie (ser)] más temprano.",
-            "pl_translation": "Jutro będzie wcześniej."
+            "es_form": "Él [será::będzie] feliz.",
+            "pl_translation": "Będzie szczęśliwy."
           }
         ]
       },
@@ -601,16 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "[seremos::będziemy (ser)] la proxima semana.",
-            "pl_translation": "Będziemy w przyszłym tygodniu."
-          },
-          {
-            "es_form": "¿[seremos::będziemy (ser)] con nosotros mañana?",
-            "pl_translation": "Czy będziemy z nami jutro?"
-          },
-          {
-            "es_form": "Te prometo que [seremos::będziemy (ser)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziemy na czas."
+            "es_form": "Nosotros [seremos::będziemy] felices.",
+            "pl_translation": "Będziemy szczęśliwi."
           }
         ]
       },
@@ -624,16 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [seréis::będziecie (ser)] en España.",
-            "pl_translation": "W przyszłym roku będziecie w Hiszpanii."
-          },
-          {
-            "es_form": "[seréis::będziecie (ser)] la proxima semana.",
-            "pl_translation": "Będziecie w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Te prometo que [seréis::będziecie (ser)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziecie na czas."
+            "es_form": "Vosotros [seréis::będziecie] felices.",
+            "pl_translation": "Będziecie szczęśliwi."
           }
         ]
       },
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [serán::będą (ser)] bien.",
-            "pl_translation": "Myślę, że będą dobrze."
-          },
-          {
-            "es_form": "Te prometo que [serán::będą (ser)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będą na czas."
-          },
-          {
-            "es_form": "[serán::będą (ser)] la proxima semana.",
-            "pl_translation": "Będą w przyszłym tygodniu."
+            "es_form": "Ellos [serán::będą] felices.",
+            "pl_translation": "Będą szczęśliwi."
           }
         ]
       }

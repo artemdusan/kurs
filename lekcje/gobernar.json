@@ -233,22 +233,18 @@
     "pl_word": "rządzić",
     "examples": [
       {
-        "es_form": "Voy a [gobernar::rządzić] con justicia.",
-        "pl_translation": "Będę rządzić sprawiedliwie."
+        "es_form": "Quiero [gobernar::rządzić] el país.",
+        "pl_translation": "Chcę rządzić krajem."
       },
       {
-        "es_form": "¿Puedes [gobernar::rządzić] el país?",
-        "pl_translation": "Możesz rządzić krajem?"
-      },
-      {
-        "es_form": "Es difícil [gobernar::rządzić] bien.",
-        "pl_translation": "Trudno jest dobrze rządzić."
+        "es_form": "No puedo [gobernar::rządzić] el país hoy.",
+        "pl_translation": "Nie mogę dziś rządzić krajem."
       }
     ],
     "forms": [
       {
         "es_word": "gobierno",
-        "pl_word": "rządzę",
+        "pl_word": "rządzę (gobernar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [gobierno::rządzę] con justicia.",
-            "pl_translation": "Zazwyczaj rządzę sprawiedliwie."
-          },
-          {
-            "es_form": "[gobierno::rządzę] como me enseñaste.",
-            "pl_translation": "Rządzę tak, jak mnie nauczyłeś."
-          },
-          {
-            "es_form": "[gobierno::rządzę] bien el país.",
-            "pl_translation": "Rządzę dobrze krajem."
+            "es_form": "Yo [gobierno::rządzę] el país.",
+            "pl_translation": "Rządzę krajem."
           }
         ]
       },
       {
         "es_word": "gobiernas",
-        "pl_word": "rządzisz",
+        "pl_word": "rządzisz (gobernar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "No [gobiernas::rządzisz] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie rządzisz zbyt dobrze."
-          },
-          {
-            "es_form": "[gobiernas::rządzisz] como me enseñaste.",
-            "pl_translation": "Rządzisz tak, jak mnie nauczyłeś."
-          },
-          {
-            "es_form": "Normalmente [gobiernas::rządzisz] con firmeza.",
-            "pl_translation": "Zazwyczaj rządzisz stanowczo."
+            "es_form": "Tú [gobiernas::rządzisz] el país.",
+            "pl_translation": "Rządzisz krajem."
           }
         ]
       },
       {
         "es_word": "gobierna",
-        "pl_word": "rządzi",
+        "pl_word": "rządzi (gobernar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "No [gobierna::rządzi] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie rządzi zbyt dobrze."
-          },
-          {
-            "es_form": "¿[gobierna::rządzi] con justicia?",
-            "pl_translation": "Czy rządzi sprawiedliwie?"
-          },
-          {
-            "es_form": "Normalmente [gobierna::rządzi] con firmeza.",
-            "pl_translation": "Zazwyczaj rządzi stanowczo."
+            "es_form": "Él [gobierna::rządzi] el país.",
+            "pl_translation": "Rządzi krajem."
           }
         ]
       },
       {
         "es_word": "gobernamos",
-        "pl_word": "rządzimy",
+        "pl_word": "rządzimy (gobernar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "[gobernamos::rządzimy] con justicia.",
-            "pl_translation": "Rządzimy sprawiedliwie."
-          },
-          {
-            "es_form": "[gobernamos::rządzimy] como me enseñaste.",
-            "pl_translation": "Rządzimy tak, jak mnie nauczyłeś."
-          },
-          {
-            "es_form": "Normalmente [gobernamos::rządzimy] bien.",
-            "pl_translation": "Zazwyczaj rządzimy dobrze."
+            "es_form": "Nosotros [gobernamos::rządzimy] el país.",
+            "pl_translation": "Rządzimy krajem."
           }
         ]
       },
       {
         "es_word": "gobernáis",
-        "pl_word": "rządzicie",
+        "pl_word": "rządzicie (gobernar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "[gobernáis::rządzicie] con justicia.",
-            "pl_translation": "Rządzicie sprawiedliwie."
-          },
-          {
-            "es_form": "[gobernáis::rządzicie] como me enseñaste.",
-            "pl_translation": "Rządzicie tak, jak mnie nauczyłeś."
-          },
-          {
-            "es_form": "Normalmente [gobernáis::rządzicie] bien.",
-            "pl_translation": "Zazwyczaj rządzicie dobrze."
+            "es_form": "Vosotros [gobernáis::rządzicie] el país.",
+            "pl_translation": "Rządzicie krajem."
           }
         ]
       },
       {
         "es_word": "gobiernan",
-        "pl_word": "rządzą",
+        "pl_word": "rządzą (gobernar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [gobiernan::rządzą] con firmeza.",
-            "pl_translation": "Zawsze rządzą stanowczo."
-          },
-          {
-            "es_form": "Normalmente [gobiernan::rządzą] bien.",
-            "pl_translation": "Zazwyczaj rządzą dobrze."
-          },
-          {
-            "es_form": "No [gobiernan::rządzą] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie rządzą zbyt dobrze."
+            "es_form": "Ellos [gobiernan::rządzą] el país.",
+            "pl_translation": "Rządzą krajem."
           }
         ]
       },
       {
         "es_word": "goberné",
-        "pl_word": "rządziłem",
+        "pl_word": "rządziłem (gobernar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "[goberné::rządziłem] sin parar durante horas.",
-            "pl_translation": "Rządziłem"
-          },
-          {
-            "es_form": "[goberné::rządziłem] la semana pasada.",
-            "pl_translation": "Rządziłem"
-          },
-          {
-            "es_form": "Ayer [goberné::rządziłem] todo el día.",
-            "pl_translation": "Wczoraj rządziłem"
+            "es_form": "Yo [goberné::rządziłem] el país.",
+            "pl_translation": "Rządziłem krajem."
           }
         ]
       },
       {
         "es_word": "gobernaste",
-        "pl_word": "rządziłeś",
+        "pl_word": "rządziłeś (gobernar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [gobernaste::rządziłeś] todo el día.",
-            "pl_translation": "Wczoraj rządziłeś"
-          },
-          {
-            "es_form": "¿[gobernaste::rządziłeś] bien el país?",
-            "pl_translation": "Czy dobrze rządziłeś"
-          },
-          {
-            "es_form": "[gobernaste::rządziłeś] sin parar durante horas.",
-            "pl_translation": "Rządziłeś"
+            "es_form": "Tú [gobernaste::rządziłeś] el país.",
+            "pl_translation": "Rządziłeś krajem."
           }
         ]
       },
       {
         "es_word": "gobernó",
-        "pl_word": "rządził",
+        "pl_word": "rządził (gobernar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "[gobernó::rządził] sin parar durante horas.",
-            "pl_translation": "Rządził"
-          },
-          {
-            "es_form": "[gobernó::rządził] la semana pasada.",
-            "pl_translation": "Rządził"
-          },
-          {
-            "es_form": "Ayer [gobernó::rządził] todo el día.",
-            "pl_translation": "Wczoraj rządził"
+            "es_form": "Él [gobernó::rządził] el país.",
+            "pl_translation": "Rządził krajem."
           }
         ]
       },
       {
         "es_word": "gobernamos",
-        "pl_word": "rządziliśmy",
+        "pl_word": "rządziliśmy (gobernar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "[gobernamos::rządziliśmy] la semana pasada.",
-            "pl_translation": "Rządziliśmy"
-          },
-          {
-            "es_form": "¿[gobernamos::rządziliśmy] bien el país?",
-            "pl_translation": "Czy dobrze rządziliśmy"
-          },
-          {
-            "es_form": "El mes pasado no [gobernamos::rządziliśmy] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie rządziliśmy"
+            "es_form": "Nosotros [gobernamos::rządziliśmy] el país.",
+            "pl_translation": "Rządziliśmy krajem."
           }
         ]
       },
       {
         "es_word": "gobernasteis",
-        "pl_word": "rządziliście",
+        "pl_word": "rządziliście (gobernar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [gobernasteis::rządziliście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie rządziliście"
-          },
-          {
-            "es_form": "¿[gobernasteis::rządziliście] bien el país?",
-            "pl_translation": "Czy dobrze rządziliście"
-          },
-          {
-            "es_form": "El mes pasado no [gobernasteis::rządziliście] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie rządziliście"
+            "es_form": "Vosotros [gobernasteis::rządziliście] el país.",
+            "pl_translation": "Rządziliście krajem."
           }
         ]
       },
       {
         "es_word": "gobernaron",
-        "pl_word": "rządzili",
+        "pl_word": "rządzili (gobernar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [gobernaron::rządzili] todo el día.",
-            "pl_translation": "Wczoraj rządzili"
-          },
-          {
-            "es_form": "Nunca [gobernaron::rządzili] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie rządzili"
-          },
-          {
-            "es_form": "[gobernaron::rządzili] sin parar durante horas.",
-            "pl_translation": "Rządzili"
+            "es_form": "Ellos [gobernaron::rządzili] el país.",
+            "pl_translation": "Rządzili krajem."
           }
         ]
       },
       {
         "es_word": "gobernaré",
-        "pl_word": "będę rządził",
+        "pl_word": "będę rządzić (gobernar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[gobernaré::będę rządził] con justicia?",
-            "pl_translation": "Czy będę rządził"
-          },
-          {
-            "es_form": "[gobernaré::będę rządził] la próxima semana.",
-            "pl_translation": "Będę rządził"
-          },
-          {
-            "es_form": "El año que viene [gobernaré::będę rządził] en España.",
-            "pl_translation": "W przyszłym roku będę rządził"
+            "es_form": "Yo [gobernaré::będę rządzić] el país.",
+            "pl_translation": "Będę rządzić krajem."
           }
         ]
       },
       {
         "es_word": "gobernarás",
-        "pl_word": "będziesz rządził",
+        "pl_word": "będziesz rządzić (gobernar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "[gobernarás::będziesz rządził] la próxima semana.",
-            "pl_translation": "Będziesz rządził"
-          },
-          {
-            "es_form": "Mañana [gobernarás::będziesz rządził] más temprano.",
-            "pl_translation": "Jutro będziesz rządził"
-          },
-          {
-            "es_form": "¿[gobernarás::będziesz rządził] con nosotros mañana?",
-            "pl_translation": "Czy będziesz rządził"
+            "es_form": "Tú [gobernarás::będziesz rządzić] el país.",
+            "pl_translation": "Będziesz rządzić krajem."
           }
         ]
       },
       {
         "es_word": "gobernará",
-        "pl_word": "będzie rządził",
+        "pl_word": "będzie rządzić (gobernar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "[gobernará::będzie rządził] la próxima semana.",
-            "pl_translation": "Będzie rządził"
-          },
-          {
-            "es_form": "El año que viene [gobernará::będzie rządził] en España.",
-            "pl_translation": "W przyszłym roku będzie rządził"
-          },
-          {
-            "es_form": "Mañana [gobernará::będzie rządził] más temprano.",
-            "pl_translation": "Jutro będzie rządził"
+            "es_form": "Él [gobernará::będzie rządzić] el país.",
+            "pl_translation": "Będzie rządzić krajem."
           }
         ]
       },
       {
         "es_word": "gobernaremos",
-        "pl_word": "będziemy rządzili",
+        "pl_word": "będziemy rządzić (gobernar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [gobernaremos::będziemy rządzili] más temprano.",
-            "pl_translation": "Jutro będziemy rządzili"
-          },
-          {
-            "es_form": "El año que viene [gobernaremos::będziemy rządzili] en España.",
-            "pl_translation": "W przyszłym roku będziemy rządzili"
-          },
-          {
-            "es_form": "[gobernaremos::będziemy rządzili] la próxima semana.",
-            "pl_translation": "Będziemy rządzili"
+            "es_form": "Nosotros [gobernaremos::będziemy rządzić] el país.",
+            "pl_translation": "Będziemy rządzić krajem."
           }
         ]
       },
       {
         "es_word": "gobernaréis",
-        "pl_word": "będziecie rządzili",
+        "pl_word": "będziecie rządzić (gobernar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [gobernaréis::będziecie rządzili] bien.",
-            "pl_translation": "Myślę, że będziecie rządzili"
-          },
-          {
-            "es_form": "[gobernaréis::będziecie rządzili] la próxima semana.",
-            "pl_translation": "Będziecie rządzili"
-          },
-          {
-            "es_form": "Te prometo que [gobernaréis::będziecie rządzili] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziecie rządzili"
+            "es_form": "Vosotros [gobernaréis::będziecie rządzić] el país.",
+            "pl_translation": "Będziecie rządzić krajem."
           }
         ]
       },
       {
         "es_word": "gobernarán",
-        "pl_word": "będą rządzili",
+        "pl_word": "będą rządzić (gobernar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [gobernarán::będą rządzili] en España.",
-            "pl_translation": "W przyszłym roku będą rządzili"
-          },
-          {
-            "es_form": "¿[gobernarán::będą rządzili] con nosotros mañana?",
-            "pl_translation": "Czy będą rządzili"
-          },
-          {
-            "es_form": "[gobernarán::będą rządzili] la próxima semana.",
-            "pl_translation": "Będą rządzili"
+            "es_form": "Ellos [gobernarán::będą rządzić] el país.",
+            "pl_translation": "Będą rządzić krajem."
           }
         ]
       }

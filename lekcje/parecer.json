@@ -233,22 +233,18 @@
     "pl_word": "wyglądać, wydawać się",
     "examples": [
       {
-        "es_form": "Es importante [parecer::wyglądać, wydawać się] todos los días.",
-        "pl_translation": "Ważne jest wyglądać, wydawać się codziennie."
+        "es_form": "Quiero [parecer::wyglądać] muy bien.",
+        "pl_translation": "Chcę wyglądać bardzo dobrze."
       },
       {
-        "es_form": "Voy a [parecer::wyglądać, wydawać się] mañana.",
-        "pl_translation": "Będę wyglądać, wydawać się jutro."
-      },
-      {
-        "es_form": "Me gusta [parecer::wyglądać, wydawać się] por la mañana.",
-        "pl_translation": "Lubię wyglądać, wydawać się rano."
+        "es_form": "No puedo [parecer::wyglądać] muy bien hoy.",
+        "pl_translation": "Nie mogę dziś wyglądać bardzo dobrze."
       }
     ],
     "forms": [
       {
         "es_word": "parezco",
-        "pl_word": "wyglądam",
+        "pl_word": "wyglądam (parecer)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "No [parezco::wyglądam] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie wyglądam zbyt dobrze."
-          },
-          {
-            "es_form": "¿[parezco::wyglądam] los fines de semana?",
-            "pl_translation": "Czy wyglądam w weekendy?"
-          },
-          {
-            "es_form": "[parezco::wyglądam] todos los días.",
-            "pl_translation": "wyglądam codziennie."
+            "es_form": "Yo [parezco::wyglądam] muy bien.",
+            "pl_translation": "Wyglądam bardzo dobrze."
           }
         ]
       },
       {
         "es_word": "pareces",
-        "pl_word": "wyglądasz",
+        "pl_word": "wyglądasz (parecer)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "No [pareces::wyglądasz] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie wyglądasz zbyt dobrze."
-          },
-          {
-            "es_form": "Normalmente [pareces::wyglądasz] por la mañana.",
-            "pl_translation": "Zazwyczaj wyglądasz rano."
-          },
-          {
-            "es_form": "[pareces::wyglądasz] todos los días.",
-            "pl_translation": "wyglądasz codziennie."
+            "es_form": "Tú [pareces::wyglądasz] muy bien.",
+            "pl_translation": "Wyglądasz bardzo dobrze."
           }
         ]
       },
       {
         "es_word": "parece",
-        "pl_word": "wygląda",
+        "pl_word": "wygląda (parecer)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "No [parece::wygląda] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie wygląda zbyt dobrze."
-          },
-          {
-            "es_form": "Siempre [parece::wygląda] con atencion.",
-            "pl_translation": "Zawsze wygląda z uwagą."
-          },
-          {
-            "es_form": "Normalmente [parece::wygląda] por la mañana.",
-            "pl_translation": "Zazwyczaj wygląda rano."
+            "es_form": "Él [parece::wygląda] muy bien.",
+            "pl_translation": "Wygląda bardzo dobrze."
           }
         ]
       },
       {
         "es_word": "parecemos",
-        "pl_word": "wyglądamy",
+        "pl_word": "wyglądamy (parecer)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "No [parecemos::wyglądamy] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie wyglądamy zbyt dobrze."
-          },
-          {
-            "es_form": "Normalmente [parecemos::wyglądamy] por la mañana.",
-            "pl_translation": "Zazwyczaj wyglądamy rano."
-          },
-          {
-            "es_form": "¿[parecemos::wyglądamy] los fines de semana?",
-            "pl_translation": "Czy wyglądamy w weekendy?"
+            "es_form": "Nosotros [parecemos::wyglądamy] muy bien.",
+            "pl_translation": "Wyglądamy bardzo dobrze."
           }
         ]
       },
       {
         "es_word": "parecéis",
-        "pl_word": "wyglądacie",
+        "pl_word": "wyglądacie (parecer)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [parecéis::wyglądacie] con atencion.",
-            "pl_translation": "Zawsze wyglądacie z uwagą."
-          },
-          {
-            "es_form": "[parecéis::wyglądacie] todos los días.",
-            "pl_translation": "wyglądacie codziennie."
-          },
-          {
-            "es_form": "No [parecéis::wyglądacie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie wyglądacie zbyt dobrze."
+            "es_form": "Vosotros [parecéis::wyglądacie] muy bien.",
+            "pl_translation": "Wyglądacie bardzo dobrze."
           }
         ]
       },
       {
         "es_word": "parecen",
-        "pl_word": "wyglądają",
+        "pl_word": "wyglądają (parecer)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [parecen::wyglądają] por la mañana.",
-            "pl_translation": "Zazwyczaj wyglądają rano."
-          },
-          {
-            "es_form": "Siempre [parecen::wyglądają] con atencion.",
-            "pl_translation": "Zawsze wyglądają z uwagą."
-          },
-          {
-            "es_form": "[parecen::wyglądają] todos los días.",
-            "pl_translation": "wyglądają codziennie."
+            "es_form": "Ellos [parecen::wyglądają] muy bien.",
+            "pl_translation": "Wyglądają bardzo dobrze."
           }
         ]
       },
       {
         "es_word": "parecí",
-        "pl_word": "wyglądałem",
+        "pl_word": "wyglądałem (parecer)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [parecí::wyglądałem] todo el día.",
-            "pl_translation": "Wczoraj wyglądałem cały dzień."
-          },
-          {
-            "es_form": "El mes pasado no [parecí::wyglądałem] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie wyglądałem."
-          },
-          {
-            "es_form": "Nunca [parecí::wyglądałem] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie wyglądałem czegoś takiego."
+            "es_form": "Yo [parecí::wyglądałem] muy bien.",
+            "pl_translation": "Wyglądałem bardzo dobrze."
           }
         ]
       },
       {
         "es_word": "pareciste",
-        "pl_word": "wyglądałeś",
+        "pl_word": "wyglądałeś (parecer)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [pareciste::wyglądałeś] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie wyglądałeś czegoś takiego."
-          },
-          {
-            "es_form": "El mes pasado no [pareciste::wyglądałeś] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie wyglądałeś."
-          },
-          {
-            "es_form": "[pareciste::wyglądałeś] la semana pasada.",
-            "pl_translation": "wyglądałeś w zeszłym tygodniu."
+            "es_form": "Tú [pareciste::wyglądałeś] muy bien.",
+            "pl_translation": "Wyglądałeś bardzo dobrze."
           }
         ]
       },
       {
         "es_word": "pareció",
-        "pl_word": "wyglądał",
+        "pl_word": "wyglądał (parecer)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "[pareció::wyglądał] la semana pasada.",
-            "pl_translation": "wyglądał w zeszłym tygodniu."
-          },
-          {
-            "es_form": "Ayer [pareció::wyglądał] todo el día.",
-            "pl_translation": "Wczoraj wyglądał cały dzień."
-          },
-          {
-            "es_form": "El mes pasado no [pareció::wyglądał] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie wyglądał."
+            "es_form": "Él [pareció::wyglądał] muy bien.",
+            "pl_translation": "Wyglądał bardzo dobrze."
           }
         ]
       },
       {
         "es_word": "parecimos",
-        "pl_word": "wyglądaliśmy",
+        "pl_word": "wyglądaliśmy (parecer)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[parecimos::wyglądaliśmy] bien el examen?",
-            "pl_translation": "Czy wyglądaliśmy dobrze egzamin?"
-          },
-          {
-            "es_form": "Nunca [parecimos::wyglądaliśmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie wyglądaliśmy czegoś takiego."
-          },
-          {
-            "es_form": "[parecimos::wyglądaliśmy] la semana pasada.",
-            "pl_translation": "wyglądaliśmy w zeszłym tygodniu."
+            "es_form": "Nosotros [parecimos::wyglądaliśmy] muy bien.",
+            "pl_translation": "Wyglądaliśmy bardzo dobrze."
           }
         ]
       },
       {
         "es_word": "parecisteis",
-        "pl_word": "wyglądaliście",
+        "pl_word": "wyglądaliście (parecer)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [parecisteis::wyglądaliście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie wyglądaliście czegoś takiego."
-          },
-          {
-            "es_form": "¿[parecisteis::wyglądaliście] bien el examen?",
-            "pl_translation": "Czy wyglądaliście dobrze egzamin?"
-          },
-          {
-            "es_form": "[parecisteis::wyglądaliście] sin parar durante horas.",
-            "pl_translation": "wyglądaliście bez przerwy przez wiele godzin."
+            "es_form": "Vosotros [parecisteis::wyglądaliście] muy bien.",
+            "pl_translation": "Wyglądaliście bardzo dobrze."
           }
         ]
       },
       {
         "es_word": "parecieron",
-        "pl_word": "wyglądali",
+        "pl_word": "wyglądali (parecer)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [parecieron::wyglądali] todo el día.",
-            "pl_translation": "Wczoraj wyglądali cały dzień."
-          },
-          {
-            "es_form": "El mes pasado no [parecieron::wyglądali] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie wyglądali."
-          },
-          {
-            "es_form": "[parecieron::wyglądali] la semana pasada.",
-            "pl_translation": "wyglądali w zeszłym tygodniu."
+            "es_form": "Ellos [parecieron::wyglądali] muy bien.",
+            "pl_translation": "Wyglądali bardzo dobrze."
           }
         ]
       },
       {
         "es_word": "pareceré",
-        "pl_word": "będę wyglądać",
+        "pl_word": "będę wyglądać (parecer)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "[pareceré::będę wyglądać] la proxima semana.",
-            "pl_translation": "będę będę wyglądać w przyszłym tygodniu."
-          },
-          {
-            "es_form": "¿[pareceré::będę wyglądać] con nosotros mañana?",
-            "pl_translation": "Czy będę będę będę będę będę wyglądać z nami jutro?"
-          },
-          {
-            "es_form": "Te prometo que [pareceré::będę wyglądać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będę będę będę wyglądać na czas."
+            "es_form": "Yo [pareceré::będę wyglądać] muy bien.",
+            "pl_translation": "Będę wyglądać bardzo dobrze."
           }
         ]
       },
       {
         "es_word": "parecerás",
-        "pl_word": "będziesz wyglądać",
+        "pl_word": "będziesz wyglądać (parecer)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[parecerás::będziesz wyglądać] con nosotros mañana?",
-            "pl_translation": "Czy będziesz będziesz będziesz będziesz będziesz wyglądać z nami jutro?"
-          },
-          {
-            "es_form": "Creo que [parecerás::będziesz wyglądać] bien.",
-            "pl_translation": "Myślę, że będziesz będziesz będziesz wyglądać dobrze."
-          },
-          {
-            "es_form": "Mañana [parecerás::będziesz wyglądać] más temprano.",
-            "pl_translation": "Jutro będziesz będziesz będziesz będziesz będziesz wyglądać wcześniej."
+            "es_form": "Tú [parecerás::będziesz wyglądać] muy bien.",
+            "pl_translation": "Będziesz wyglądać bardzo dobrze."
           }
         ]
       },
       {
         "es_word": "parecerá",
-        "pl_word": "będzie wyglądać",
+        "pl_word": "będzie wyglądać (parecer)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [parecerá::będzie wyglądać] en España.",
-            "pl_translation": "W przyszłym roku będzie będzie będzie będzie będzie wyglądać w Hiszpanii."
-          },
-          {
-            "es_form": "[parecerá::będzie wyglądać] la proxima semana.",
-            "pl_translation": "będzie będzie wyglądać w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Mañana [parecerá::będzie wyglądać] más temprano.",
-            "pl_translation": "Jutro będzie będzie będzie będzie będzie wyglądać wcześniej."
+            "es_form": "Él [parecerá::będzie wyglądać] muy bien.",
+            "pl_translation": "Będzie wyglądać bardzo dobrze."
           }
         ]
       },
       {
         "es_word": "pareceremos",
-        "pl_word": "będziemy wyglądać",
+        "pl_word": "będziemy wyglądać (parecer)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [pareceremos::będziemy wyglądać] más temprano.",
-            "pl_translation": "Jutro będziemy będziemy będziemy będziemy będziemy wyglądać wcześniej."
-          },
-          {
-            "es_form": "[pareceremos::będziemy wyglądać] la proxima semana.",
-            "pl_translation": "będziemy będziemy wyglądać w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Creo que [pareceremos::będziemy wyglądać] bien.",
-            "pl_translation": "Myślę, że będziemy będziemy będziemy wyglądać dobrze."
+            "es_form": "Nosotros [pareceremos::będziemy wyglądać] muy bien.",
+            "pl_translation": "Będziemy wyglądać bardzo dobrze."
           }
         ]
       },
       {
         "es_word": "pareceréis",
-        "pl_word": "będziecie wyglądać",
+        "pl_word": "będziecie wyglądać (parecer)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [pareceréis::będziecie wyglądać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziecie będziecie będziecie wyglądać na czas."
-          },
-          {
-            "es_form": "¿[pareceréis::będziecie wyglądać] con nosotros mañana?",
-            "pl_translation": "Czy będziecie będziecie będziecie będziecie będziecie wyglądać z nami jutro?"
-          },
-          {
-            "es_form": "Creo que [pareceréis::będziecie wyglądać] bien.",
-            "pl_translation": "Myślę, że będziecie będziecie będziecie wyglądać dobrze."
+            "es_form": "Vosotros [pareceréis::będziecie wyglądać] muy bien.",
+            "pl_translation": "Będziecie wyglądać bardzo dobrze."
           }
         ]
       },
       {
         "es_word": "parecerán",
-        "pl_word": "będą wyglądać",
+        "pl_word": "będą wyglądać (parecer)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [parecerán::będą wyglądać] más temprano.",
-            "pl_translation": "Jutro będą będą będą będą będą wyglądać wcześniej."
-          },
-          {
-            "es_form": "Creo que [parecerán::będą wyglądać] bien.",
-            "pl_translation": "Myślę, że będą będą będą wyglądać dobrze."
-          },
-          {
-            "es_form": "¿[parecerán::będą wyglądać] con nosotros mañana?",
-            "pl_translation": "Czy będą będą będą będą będą wyglądać z nami jutro?"
+            "es_form": "Ellos [parecerán::będą wyglądać] muy bien.",
+            "pl_translation": "Będą wyglądać bardzo dobrze."
           }
         ]
       }

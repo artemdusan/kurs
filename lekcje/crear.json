@@ -233,22 +233,18 @@
     "pl_word": "tworzyć",
     "examples": [
       {
-        "es_form": "Hay que [crear::tworzyć] con cuidado.",
-        "pl_translation": "Trzeba tworzyć ostrożnie."
+        "es_form": "Quiero [crear::tworzyć] algo nuevo.",
+        "pl_translation": "Chcę tworzyć coś nowego."
       },
       {
-        "es_form": "Quiero [crear::tworzyć] ahora.",
-        "pl_translation": "Chcę tworzyć teraz."
-      },
-      {
-        "es_form": "¿Puedes [crear::tworzyć] más rápido?",
-        "pl_translation": "Możesz tworzyć szybciej?"
+        "es_form": "No puedo [crear::tworzyć] algo nuevo hoy.",
+        "pl_translation": "Nie mogę dziś tworzyć coś nowego."
       }
     ],
     "forms": [
       {
         "es_word": "creo",
-        "pl_word": "tworzę",
+        "pl_word": "tworzę (crear)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [creo::tworzę] con atencion.",
-            "pl_translation": "Zawsze tworzę z uwagą."
-          },
-          {
-            "es_form": "No [creo::tworzę] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie tworzę zbyt dobrze."
-          },
-          {
-            "es_form": "[creo::tworzę] todos los días.",
-            "pl_translation": "Tworzę codziennie."
+            "es_form": "Yo [creo::tworzę] algo nuevo.",
+            "pl_translation": "Tworzę coś nowego."
           }
         ]
       },
       {
         "es_word": "creas",
-        "pl_word": "tworzysz",
+        "pl_word": "tworzysz (crear)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "No [creas::tworzysz] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie tworzysz zbyt dobrze."
-          },
-          {
-            "es_form": "Siempre [creas::tworzysz] con atencion.",
-            "pl_translation": "Zawsze tworzysz z uwagą."
-          },
-          {
-            "es_form": "¿[creas::tworzysz] los fines de semana?",
-            "pl_translation": "Czy tworzysz w weekendy?"
+            "es_form": "Tú [creas::tworzysz] algo nuevo.",
+            "pl_translation": "Tworzysz coś nowego."
           }
         ]
       },
       {
         "es_word": "crea",
-        "pl_word": "tworzy",
+        "pl_word": "tworzy (crear)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [crea::tworzy] por la mañana.",
-            "pl_translation": "Zazwyczaj tworzy rano."
-          },
-          {
-            "es_form": "[crea::tworzy] como me enseñaste.",
-            "pl_translation": "Tworzy tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "¿[crea::tworzy] los fines de semana?",
-            "pl_translation": "Czy tworzy w weekendy?"
+            "es_form": "Él [crea::tworzy] algo nuevo.",
+            "pl_translation": "Tworzy coś nowego."
           }
         ]
       },
       {
         "es_word": "creamos",
-        "pl_word": "tworzymy",
+        "pl_word": "tworzymy (crear)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "[creamos::tworzymy] todos los días.",
-            "pl_translation": "Tworzymy codziennie."
-          },
-          {
-            "es_form": "No [creamos::tworzymy] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie tworzymy zbyt dobrze."
-          },
-          {
-            "es_form": "[creamos::tworzymy] como me enseñaste.",
-            "pl_translation": "Tworzymy tak jak mnie nauczyłeś"
+            "es_form": "Nosotros [creamos::tworzymy] algo nuevo.",
+            "pl_translation": "Tworzymy coś nowego."
           }
         ]
       },
       {
         "es_word": "creáis",
-        "pl_word": "tworzycie",
+        "pl_word": "tworzycie (crear)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "No [creáis::tworzycie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie tworzycie zbyt dobrze."
-          },
-          {
-            "es_form": "Normalmente [creáis::tworzycie] por la mañana.",
-            "pl_translation": "Zazwyczaj tworzycie rano."
-          },
-          {
-            "es_form": "[creáis::tworzycie] como me enseñaste.",
-            "pl_translation": "Tworzycie tak jak mnie nauczyłeś"
+            "es_form": "Vosotros [creáis::tworzycie] algo nuevo.",
+            "pl_translation": "Tworzycie coś nowego."
           }
         ]
       },
       {
         "es_word": "crean",
-        "pl_word": "tworzą",
+        "pl_word": "tworzą (crear)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[crean::tworzą] los fines de semana?",
-            "pl_translation": "Czy tworzą w weekendy?"
-          },
-          {
-            "es_form": "Normalmente [crean::tworzą] por la mañana.",
-            "pl_translation": "Zazwyczaj tworzą rano."
-          },
-          {
-            "es_form": "[crean::tworzą] todos los días.",
-            "pl_translation": "Tworzą codziennie."
+            "es_form": "Ellos [crean::tworzą] algo nuevo.",
+            "pl_translation": "Tworzą coś nowego."
           }
         ]
       },
       {
         "es_word": "creé",
-        "pl_word": "tworzyłem",
+        "pl_word": "stworzyłem (crear)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "[creé::tworzyłem] sin parar durante horas.",
-            "pl_translation": "Tworzyłem"
-          },
-          {
-            "es_form": "Nunca [creé::tworzyłem] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie tworzyłem"
-          },
-          {
-            "es_form": "[creé::tworzyłem] la semana pasada.",
-            "pl_translation": "Tworzyłem"
+            "es_form": "Yo [creé::stworzyłem] algo nuevo.",
+            "pl_translation": "Stworzyłem coś nowego."
           }
         ]
       },
       {
         "es_word": "creaste",
-        "pl_word": "tworzyłeś",
+        "pl_word": "stworzyłeś (crear)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[creaste::tworzyłeś] bien el examen?",
-            "pl_translation": "Czy tworzyłeś"
-          },
-          {
-            "es_form": "El mes pasado no [creaste::tworzyłeś] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie tworzyłeś"
-          },
-          {
-            "es_form": "Ayer [creaste::tworzyłeś] todo el día.",
-            "pl_translation": "Wczoraj tworzyłeś"
+            "es_form": "Tú [creaste::stworzyłeś] algo nuevo.",
+            "pl_translation": "Stworzyłeś coś nowego."
           }
         ]
       },
       {
         "es_word": "creó",
-        "pl_word": "tworzył",
+        "pl_word": "stworzył (crear)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "[creó::tworzył] la semana pasada.",
-            "pl_translation": "Tworzył"
-          },
-          {
-            "es_form": "¿[creó::tworzył] bien el examen?",
-            "pl_translation": "Czy tworzył"
-          },
-          {
-            "es_form": "[creó::tworzył] sin parar durante horas.",
-            "pl_translation": "Tworzył"
+            "es_form": "Él [creó::stworzył] algo nuevo.",
+            "pl_translation": "Stworzył coś nowego."
           }
         ]
       },
       {
         "es_word": "creamos",
-        "pl_word": "tworzyliśmy",
+        "pl_word": "stworzyliśmy (crear)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [creamos::tworzyliśmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie tworzyliśmy"
-          },
-          {
-            "es_form": "[creamos::tworzyliśmy] la semana pasada.",
-            "pl_translation": "Tworzyliśmy"
-          },
-          {
-            "es_form": "¿[creamos::tworzyliśmy] bien el examen?",
-            "pl_translation": "Czy tworzyliśmy"
+            "es_form": "Nosotros [creamos::stworzyliśmy] algo nuevo.",
+            "pl_translation": "Stworzyliśmy coś nowego."
           }
         ]
       },
       {
         "es_word": "creasteis",
-        "pl_word": "tworzyliście",
+        "pl_word": "stworzyliście (crear)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [creasteis::tworzyliście] todo el día.",
-            "pl_translation": "Wczoraj tworzyliście"
-          },
-          {
-            "es_form": "El mes pasado no [creasteis::tworzyliście] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie tworzyliście"
-          },
-          {
-            "es_form": "Nunca [creasteis::tworzyliście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie tworzyliście"
+            "es_form": "Vosotros [creasteis::stworzyliście] algo nuevo.",
+            "pl_translation": "Stworzyliście coś nowego."
           }
         ]
       },
       {
         "es_word": "crearon",
-        "pl_word": "tworzyli",
+        "pl_word": "stworzyli (crear)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [crearon::tworzyli] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie tworzyli"
-          },
-          {
-            "es_form": "[crearon::tworzyli] la semana pasada.",
-            "pl_translation": "Tworzyli"
-          },
-          {
-            "es_form": "Ayer [crearon::tworzyli] todo el día.",
-            "pl_translation": "Wczoraj tworzyli"
+            "es_form": "Ellos [crearon::stworzyli] algo nuevo.",
+            "pl_translation": "Stworzyli coś nowego."
           }
         ]
       },
       {
-        "es_word": "creé",
-        "pl_word": "będę tworzył",
+        "es_word": "crearé",
+        "pl_word": "będę tworzyć (crear)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [creé::będę tworzył] más temprano.",
-            "pl_translation": "Jutro będę tworzył"
-          },
-          {
-            "es_form": "Te prometo que [creé::będę tworzył] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będę tworzył"
-          },
-          {
-            "es_form": "Creo que [creé::będę tworzył] bien.",
-            "pl_translation": "Myślę, że będę tworzył"
+            "es_form": "Yo [crearé::będę tworzyć] algo nuevo.",
+            "pl_translation": "Będę tworzyć coś nowego."
           }
         ]
       },
       {
-        "es_word": "creás",
-        "pl_word": "będziesz tworzył",
+        "es_word": "crearás",
+        "pl_word": "będziesz tworzyć (crear)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [creás::będziesz tworzył] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziesz tworzył"
-          },
-          {
-            "es_form": "El año que viene [creás::będziesz tworzył] en España.",
-            "pl_translation": "W przyszłym roku będziesz tworzył"
-          },
-          {
-            "es_form": "Mañana [creás::będziesz tworzył] más temprano.",
-            "pl_translation": "Jutro będziesz tworzył"
+            "es_form": "Tú [crearás::będziesz tworzyć] algo nuevo.",
+            "pl_translation": "Będziesz tworzyć coś nowego."
           }
         ]
       },
       {
-        "es_word": "creá",
-        "pl_word": "będzie tworzył",
+        "es_word": "creará",
+        "pl_word": "będzie tworzyć (crear)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[creá::będzie tworzył] con nosotros mañana?",
-            "pl_translation": "Czy będzie tworzył"
-          },
-          {
-            "es_form": "Te prometo que [creá::będzie tworzył] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będzie tworzył"
-          },
-          {
-            "es_form": "Creo que [creá::będzie tworzył] bien.",
-            "pl_translation": "Myślę, że będzie tworzył"
+            "es_form": "Él [creará::będzie tworzyć] algo nuevo.",
+            "pl_translation": "Będzie tworzyć coś nowego."
           }
         ]
       },
       {
-        "es_word": "creemos",
-        "pl_word": "będziemy tworzyli",
+        "es_word": "crearemos",
+        "pl_word": "będziemy tworzyć (crear)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [creemos::będziemy tworzyli] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziemy tworzyli"
-          },
-          {
-            "es_form": "¿[creemos::będziemy tworzyli] con nosotros mañana?",
-            "pl_translation": "Czy będziemy tworzyli"
-          },
-          {
-            "es_form": "[creemos::będziemy tworzyli] la proxima semana.",
-            "pl_translation": "Będziemy tworzyli"
+            "es_form": "Nosotros [crearemos::będziemy tworzyć] algo nuevo.",
+            "pl_translation": "Będziemy tworzyć coś nowego."
           }
         ]
       },
       {
-        "es_word": "creéis",
-        "pl_word": "będziecie tworzyli",
+        "es_word": "crearéis",
+        "pl_word": "będziecie tworzyć (crear)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [creéis::będziecie tworzyli] bien.",
-            "pl_translation": "Myślę, że będziecie tworzyli"
-          },
-          {
-            "es_form": "¿[creéis::będziecie tworzyli] con nosotros mañana?",
-            "pl_translation": "Czy będziecie tworzyli"
-          },
-          {
-            "es_form": "Mañana [creéis::będziecie tworzyli] más temprano.",
-            "pl_translation": "Jutro będziecie tworzyli"
+            "es_form": "Vosotros [crearéis::będziecie tworzyć] algo nuevo.",
+            "pl_translation": "Będziecie tworzyć coś nowego."
           }
         ]
       },
       {
-        "es_word": "creán",
-        "pl_word": "będą tworzyli",
+        "es_word": "crearán",
+        "pl_word": "będą tworzyć (crear)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "[creán::będą tworzyli] la proxima semana.",
-            "pl_translation": "Będą tworzyli"
-          },
-          {
-            "es_form": "El año que viene [creán::będą tworzyli] en España.",
-            "pl_translation": "W przyszłym roku będą tworzyli"
-          },
-          {
-            "es_form": "¿[creán::będą tworzyli] con nosotros mañana?",
-            "pl_translation": "Czy będą tworzyli"
+            "es_form": "Ellos [crearán::będą tworzyć] algo nuevo.",
+            "pl_translation": "Będą tworzyć coś nowego."
           }
         ]
       }

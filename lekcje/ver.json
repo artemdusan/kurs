@@ -233,22 +233,18 @@
     "pl_word": "widzieć",
     "examples": [
       {
-        "es_form": "¿Puedes [ver::widzieć] más rápido?",
-        "pl_translation": "Możesz widzieć szybciej?"
+        "es_form": "Quiero [ver::widzieć] el mar.",
+        "pl_translation": "Chcę widzieć morze."
       },
       {
-        "es_form": "Me gusta [ver::widzieć] por la mañana.",
-        "pl_translation": "Lubię widzieć rano."
-      },
-      {
-        "es_form": "Quiero [ver::widzieć] ahora.",
-        "pl_translation": "Chcę widzieć teraz."
+        "es_form": "No puedo [ver::widzieć] el mar hoy.",
+        "pl_translation": "Nie mogę dziś widzieć morze."
       }
     ],
     "forms": [
       {
         "es_word": "veo",
-        "pl_word": "widzę",
+        "pl_word": "widzę (ver)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "[veo::widzę] como me enseñaste.",
-            "pl_translation": "Widzę tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "No [veo::widzę] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie widzę zbyt dobrze."
-          },
-          {
-            "es_form": "Normalmente [veo::widzę] por la mañana.",
-            "pl_translation": "Zazwyczaj widzę rano."
+            "es_form": "Yo [veo::widzę] el mar.",
+            "pl_translation": "Widzę morze."
           }
         ]
       },
       {
         "es_word": "ves",
-        "pl_word": "widzisz",
+        "pl_word": "widzisz (ver)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[ves::widzisz] los fines de semana?",
-            "pl_translation": "Czy widzisz w weekendy?"
-          },
-          {
-            "es_form": "[ves::widzisz] como me enseñaste.",
-            "pl_translation": "Widzisz tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "[ves::widzisz] todos los días.",
-            "pl_translation": "Widzisz codziennie."
+            "es_form": "Tú [ves::widzisz] el mar.",
+            "pl_translation": "Widzisz morze."
           }
         ]
       },
       {
         "es_word": "ve",
-        "pl_word": "widzi",
+        "pl_word": "widzi (ver)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [ve::widzi] con atencion.",
-            "pl_translation": "Zawsze widzi z uwagą."
-          },
-          {
-            "es_form": "No [ve::widzi] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie widzi zbyt dobrze."
-          },
-          {
-            "es_form": "Normalmente [ve::widzi] por la mañana.",
-            "pl_translation": "Zazwyczaj widzi rano."
+            "es_form": "Él [ve::widzi] el mar.",
+            "pl_translation": "Widzi morze."
           }
         ]
       },
       {
         "es_word": "vemos",
-        "pl_word": "widzimy",
+        "pl_word": "widzimy (ver)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "[vemos::widzimy] como me enseñaste.",
-            "pl_translation": "Widzimy tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Siempre [vemos::widzimy] con atencion.",
-            "pl_translation": "Zawsze widzimy z uwagą."
-          },
-          {
-            "es_form": "¿[vemos::widzimy] los fines de semana?",
-            "pl_translation": "Czy widzimy w weekendy?"
+            "es_form": "Nosotros [vemos::widzimy] el mar.",
+            "pl_translation": "Widzimy morze."
           }
         ]
       },
       {
         "es_word": "veis",
-        "pl_word": "widzicie",
+        "pl_word": "widzicie (ver)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [veis::widzicie] con atencion.",
-            "pl_translation": "Zawsze widzicie z uwagą."
-          },
-          {
-            "es_form": "[veis::widzicie] como me enseñaste.",
-            "pl_translation": "Widzicie tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Normalmente [veis::widzicie] por la mañana.",
-            "pl_translation": "Zazwyczaj widzicie rano."
+            "es_form": "Vosotros [veis::widzicie] el mar.",
+            "pl_translation": "Widzicie morze."
           }
         ]
       },
       {
         "es_word": "ven",
-        "pl_word": "widzą",
+        "pl_word": "widzą (ver)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "[ven::widzą] como me enseñaste.",
-            "pl_translation": "Widzą tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Siempre [ven::widzą] con atencion.",
-            "pl_translation": "Zawsze widzą z uwagą."
-          },
-          {
-            "es_form": "¿[ven::widzą] los fines de semana?",
-            "pl_translation": "Czy widzą w weekendy?"
+            "es_form": "Ellos [ven::widzą] el mar.",
+            "pl_translation": "Widzą morze."
           }
         ]
       },
       {
         "es_word": "vi",
-        "pl_word": "widziałem",
+        "pl_word": "zobaczyłem (ver)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [vi::widziałem] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie widziałem"
-          },
-          {
-            "es_form": "Nunca [vi::widziałem] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie widziałem"
-          },
-          {
-            "es_form": "¿[vi::widziałem] bien el examen?",
-            "pl_translation": "Czy widziałem"
+            "es_form": "Yo [vi::zobaczyłem] el mar.",
+            "pl_translation": "Zobaczyłem morze."
           }
         ]
       },
       {
         "es_word": "viste",
-        "pl_word": "widziałeś",
+        "pl_word": "zobaczyłeś (ver)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [viste::widziałeś] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie widziałeś"
-          },
-          {
-            "es_form": "¿[viste::widziałeś] bien el examen?",
-            "pl_translation": "Czy widziałeś"
-          },
-          {
-            "es_form": "Nunca [viste::widziałeś] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie widziałeś"
+            "es_form": "Tú [viste::zobaczyłeś] el mar.",
+            "pl_translation": "Zobaczyłeś morze."
           }
         ]
       },
       {
         "es_word": "vio",
-        "pl_word": "widział",
+        "pl_word": "zobaczył (ver)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [vio::widział] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie widział"
-          },
-          {
-            "es_form": "[vio::widział] sin parar durante horas.",
-            "pl_translation": "widział"
-          },
-          {
-            "es_form": "[vio::widział] la semana pasada.",
-            "pl_translation": "widział"
+            "es_form": "Él [vio::zobaczył] el mar.",
+            "pl_translation": "Zobaczył morze."
           }
         ]
       },
       {
         "es_word": "vimos",
-        "pl_word": "widzieliśmy",
+        "pl_word": "zobaczyliśmy (ver)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "[vimos::widzieliśmy] la semana pasada.",
-            "pl_translation": "widzieliśmy"
-          },
-          {
-            "es_form": "¿[vimos::widzieliśmy] bien el examen?",
-            "pl_translation": "Czy widzieliśmy"
-          },
-          {
-            "es_form": "Nunca [vimos::widzieliśmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie widzieliśmy"
+            "es_form": "Nosotros [vimos::zobaczyliśmy] el mar.",
+            "pl_translation": "Zobaczyliśmy morze."
           }
         ]
       },
       {
         "es_word": "visteis",
-        "pl_word": "widzieliście",
+        "pl_word": "zobaczyliście (ver)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[visteis::widzieliście] bien el examen?",
-            "pl_translation": "Czy widzieliście"
-          },
-          {
-            "es_form": "Nunca [visteis::widzieliście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie widzieliście"
-          },
-          {
-            "es_form": "[visteis::widzieliście] la semana pasada.",
-            "pl_translation": "widzieliście"
+            "es_form": "Vosotros [visteis::zobaczyliście] el mar.",
+            "pl_translation": "Zobaczyliście morze."
           }
         ]
       },
       {
         "es_word": "vieron",
-        "pl_word": "widzieli",
+        "pl_word": "zobaczyli (ver)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "[vieron::widzieli] sin parar durante horas.",
-            "pl_translation": "widzieli"
-          },
-          {
-            "es_form": "El mes pasado no [vieron::widzieli] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie widzieli"
-          },
-          {
-            "es_form": "¿[vieron::widzieli] bien el examen?",
-            "pl_translation": "Czy widzieli"
+            "es_form": "Ellos [vieron::zobaczyli] el mar.",
+            "pl_translation": "Zobaczyli morze."
           }
         ]
       },
       {
         "es_word": "veré",
-        "pl_word": "zobaczę",
+        "pl_word": "będę widzieć (ver)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[veré::zobaczę] con nosotros mañana?",
-            "pl_translation": "Czy zobaczę z nami jutro?"
-          },
-          {
-            "es_form": "Mañana [veré::zobaczę] más temprano.",
-            "pl_translation": "Jutro zobaczę wcześniej."
-          },
-          {
-            "es_form": "El año que viene [veré::zobaczę] en España.",
-            "pl_translation": "W przyszłym roku zobaczę w Hiszpanii."
+            "es_form": "Yo [veré::będę widzieć] el mar.",
+            "pl_translation": "Będę widzieć morze."
           }
         ]
       },
       {
         "es_word": "verás",
-        "pl_word": "zobaczysz",
+        "pl_word": "będziesz widzieć (ver)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [verás::zobaczysz] en España.",
-            "pl_translation": "W przyszłym roku zobaczysz w Hiszpanii."
-          },
-          {
-            "es_form": "[verás::zobaczysz] la proxima semana.",
-            "pl_translation": "Zobaczysz w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Creo que [verás::zobaczysz] bien.",
-            "pl_translation": "Myślę, że zobaczysz dobrze."
+            "es_form": "Tú [verás::będziesz widzieć] el mar.",
+            "pl_translation": "Będziesz widzieć morze."
           }
         ]
       },
       {
         "es_word": "verá",
-        "pl_word": "zobaczy",
+        "pl_word": "będzie widzieć (ver)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[verá::zobaczy] con nosotros mañana?",
-            "pl_translation": "Czy zobaczy z nami jutro?"
-          },
-          {
-            "es_form": "Te prometo que [verá::zobaczy] a tiempo.",
-            "pl_translation": "Obiecuję ci, że zobaczy na czas."
-          },
-          {
-            "es_form": "El año que viene [verá::zobaczy] en España.",
-            "pl_translation": "W przyszłym roku zobaczy w Hiszpanii."
+            "es_form": "Él [verá::będzie widzieć] el mar.",
+            "pl_translation": "Będzie widzieć morze."
           }
         ]
       },
       {
         "es_word": "veremos",
-        "pl_word": "zobaczymy",
+        "pl_word": "będziemy widzieć (ver)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [veremos::zobaczymy] bien.",
-            "pl_translation": "Myślę, że zobaczymy dobrze."
-          },
-          {
-            "es_form": "Te prometo que [veremos::zobaczymy] a tiempo.",
-            "pl_translation": "Obiecuję ci, że zobaczymy na czas."
-          },
-          {
-            "es_form": "[veremos::zobaczymy] la proxima semana.",
-            "pl_translation": "Zobaczymy w przyszłym tygodniu."
+            "es_form": "Nosotros [veremos::będziemy widzieć] el mar.",
+            "pl_translation": "Będziemy widzieć morze."
           }
         ]
       },
       {
         "es_word": "veréis",
-        "pl_word": "zobaczycie",
+        "pl_word": "będziecie widzieć (ver)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[veréis::zobaczycie] con nosotros mañana?",
-            "pl_translation": "Czy zobaczycie z nami jutro?"
-          },
-          {
-            "es_form": "Creo que [veréis::zobaczycie] bien.",
-            "pl_translation": "Myślę, że zobaczycie dobrze."
-          },
-          {
-            "es_form": "Te prometo que [veréis::zobaczycie] a tiempo.",
-            "pl_translation": "Obiecuję ci, że zobaczycie na czas."
+            "es_form": "Vosotros [veréis::będziecie widzieć] el mar.",
+            "pl_translation": "Będziecie widzieć morze."
           }
         ]
       },
       {
         "es_word": "verán",
-        "pl_word": "zobaczą",
+        "pl_word": "będą widzieć (ver)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "[verán::zobaczą] la proxima semana.",
-            "pl_translation": "Zobaczą w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Te prometo que [verán::zobaczą] a tiempo.",
-            "pl_translation": "Obiecuję ci, że zobaczą na czas."
-          },
-          {
-            "es_form": "Mañana [verán::zobaczą] más temprano.",
-            "pl_translation": "Jutro zobaczą wcześniej."
+            "es_form": "Ellos [verán::będą widzieć] el mar.",
+            "pl_translation": "Będą widzieć morze."
           }
         ]
       }

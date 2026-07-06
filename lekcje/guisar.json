@@ -233,22 +233,18 @@
     "pl_word": "dusić, gotować na wolnym ogniu",
     "examples": [
       {
-        "es_form": "Voy a [guisar::dusić] la carne mañana.",
-        "pl_translation": "Będę dusić mięso jutro."
+        "es_form": "Quiero [guisar::dusić] la carne.",
+        "pl_translation": "Chcę dusić mięso."
       },
       {
-        "es_form": "¿Puedes [guisar::dusić] más rápido?",
-        "pl_translation": "Możesz dusić szybciej?"
-      },
-      {
-        "es_form": "Hay que [guisar::dusić] a fuego lento.",
-        "pl_translation": "Trzeba dusić na wolnym ogniu."
+        "es_form": "No puedo [guisar::dusić] la carne hoy.",
+        "pl_translation": "Nie mogę dziś dusić mięso."
       }
     ],
     "forms": [
       {
         "es_word": "guiso",
-        "pl_word": "duszę",
+        "pl_word": "duszę (guisar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[guiso::duszę] los fines de semana?",
-            "pl_translation": "Czy duszę w weekendy?"
-          },
-          {
-            "es_form": "No [guiso::duszę] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie duszę zbyt dobrze."
-          },
-          {
-            "es_form": "Normalmente [guiso::duszę] por la mañana.",
-            "pl_translation": "Zazwyczaj duszę rano."
+            "es_form": "Yo [guiso::duszę] la carne.",
+            "pl_translation": "Duszę mięso."
           }
         ]
       },
       {
         "es_word": "guisas",
-        "pl_word": "dusisz",
+        "pl_word": "dusisz (guisar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [guisas::dusisz] por la mañana.",
-            "pl_translation": "Zazwyczaj dusisz rano."
-          },
-          {
-            "es_form": "No [guisas::dusisz] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie dusisz zbyt dobrze."
-          },
-          {
-            "es_form": "¿[guisas::dusisz] los fines de semana?",
-            "pl_translation": "Czy dusisz w weekendy?"
+            "es_form": "Tú [guisas::dusisz] la carne.",
+            "pl_translation": "Dusisz mięso."
           }
         ]
       },
       {
         "es_word": "guisa",
-        "pl_word": "dusi",
+        "pl_word": "dusi (guisar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [guisa::dusi] con atención.",
-            "pl_translation": "Zawsze dusi z uwagą."
-          },
-          {
-            "es_form": "[guisa::dusi] como me enseñaste.",
-            "pl_translation": "Dusi tak, jak mnie nauczyłeś."
-          },
-          {
-            "es_form": "[guisa::dusi] todos los días.",
-            "pl_translation": "Dusi codziennie."
+            "es_form": "Él [guisa::dusi] la carne.",
+            "pl_translation": "Dusi mięso."
           }
         ]
       },
       {
         "es_word": "guisamos",
-        "pl_word": "dusimy",
+        "pl_word": "dusimy (guisar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [guisamos::dusimy] por la mañana.",
-            "pl_translation": "Zazwyczaj dusimy rano."
-          },
-          {
-            "es_form": "No [guisamos::dusimy] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie dusimy zbyt dobrze."
-          },
-          {
-            "es_form": "Siempre [guisamos::dusimy] con atención.",
-            "pl_translation": "Zawsze dusimy z uwagą."
+            "es_form": "Nosotros [guisamos::dusimy] la carne.",
+            "pl_translation": "Dusimy mięso."
           }
         ]
       },
       {
         "es_word": "guisáis",
-        "pl_word": "dusicie",
+        "pl_word": "dusicie (guisar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[guisáis::dusicie] los fines de semana?",
-            "pl_translation": "Czy dusicie w weekendy?"
-          },
-          {
-            "es_form": "Siempre [guisáis::dusicie] con atención.",
-            "pl_translation": "Zawsze dusicie z uwagą."
-          },
-          {
-            "es_form": "[guisáis::dusicie] como me enseñaste.",
-            "pl_translation": "Dusicie tak, jak mnie nauczyłeś."
+            "es_form": "Vosotros [guisáis::dusicie] la carne.",
+            "pl_translation": "Dusicie mięso."
           }
         ]
       },
       {
         "es_word": "guisan",
-        "pl_word": "duszą",
+        "pl_word": "duszą (guisar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "No [guisan::duszą] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie duszą zbyt dobrze."
-          },
-          {
-            "es_form": "Siempre [guisan::duszą] con atención.",
-            "pl_translation": "Zawsze duszą z uwagą."
-          },
-          {
-            "es_form": "[guisan::duszą] como me enseñaste.",
-            "pl_translation": "Duszą tak, jak mnie nauczyłeś."
+            "es_form": "Ellos [guisan::duszą] la carne.",
+            "pl_translation": "Duszą mięso."
           }
         ]
       },
       {
         "es_word": "guisé",
-        "pl_word": "dusiłem",
+        "pl_word": "udusiłem (guisar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "[guisé::dusiłem] la semana pasada.",
-            "pl_translation": "Dusiłem"
-          },
-          {
-            "es_form": "[guisé::dusiłem] sin parar durante horas.",
-            "pl_translation": "Dusiłem"
-          },
-          {
-            "es_form": "El mes pasado no [guisé::dusiłem] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie dusiłem"
+            "es_form": "Yo [guisé::udusiłem] la carne.",
+            "pl_translation": "Udusiłem mięso."
           }
         ]
       },
       {
         "es_word": "guisaste",
-        "pl_word": "dusiłeś",
+        "pl_word": "udusiłeś (guisar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [guisaste::dusiłeś] todo el día.",
-            "pl_translation": "Wczoraj dusiłeś"
-          },
-          {
-            "es_form": "[guisaste::dusiłeś] la semana pasada.",
-            "pl_translation": "Dusiłeś"
-          },
-          {
-            "es_form": "Nunca [guisaste::dusiłeś] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie dusiłeś"
+            "es_form": "Tú [guisaste::udusiłeś] la carne.",
+            "pl_translation": "Udusiłeś mięso."
           }
         ]
       },
       {
         "es_word": "guisó",
-        "pl_word": "dusił",
+        "pl_word": "udusił (guisar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "[guisó::dusił] sin parar durante horas.",
-            "pl_translation": "Dusił"
-          },
-          {
-            "es_form": "Ayer [guisó::dusił] todo el día.",
-            "pl_translation": "Wczoraj dusił"
-          },
-          {
-            "es_form": "El mes pasado no [guisó::dusił] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie dusił"
+            "es_form": "Él [guisó::udusił] la carne.",
+            "pl_translation": "Udusił mięso."
           }
         ]
       },
       {
         "es_word": "guisamos",
-        "pl_word": "dusiliśmy",
+        "pl_word": "udusiliśmy (guisar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [guisamos::dusiliśmy] todo el día.",
-            "pl_translation": "Wczoraj dusiliśmy"
-          },
-          {
-            "es_form": "¿[guisamos::dusiliśmy] bien la carne?",
-            "pl_translation": "Czy dobrze udusiliśmy"
-          },
-          {
-            "es_form": "Nunca [guisamos::dusiliśmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie dusiliśmy"
+            "es_form": "Nosotros [guisamos::udusiliśmy] la carne.",
+            "pl_translation": "Udusiliśmy mięso."
           }
         ]
       },
       {
         "es_word": "guisasteis",
-        "pl_word": "dusiliście",
+        "pl_word": "udusiliście (guisar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [guisasteis::dusiliście] todo el día.",
-            "pl_translation": "Wczoraj dusiliście"
-          },
-          {
-            "es_form": "[guisasteis::dusiliście] la semana pasada.",
-            "pl_translation": "Dusiliście"
-          },
-          {
-            "es_form": "Nunca [guisasteis::dusiliście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie dusiliście"
+            "es_form": "Vosotros [guisasteis::udusiliście] la carne.",
+            "pl_translation": "Udusiliście mięso."
           }
         ]
       },
       {
         "es_word": "guisaron",
-        "pl_word": "dusili",
+        "pl_word": "udusili (guisar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "[guisaron::dusili] sin parar durante horas.",
-            "pl_translation": "Dusili"
-          },
-          {
-            "es_form": "El mes pasado no [guisaron::dusili] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie dusili"
-          },
-          {
-            "es_form": "¿[guisaron::dusili] bien la carne?",
-            "pl_translation": "Czy dobrze udusili"
+            "es_form": "Ellos [guisaron::udusili] la carne.",
+            "pl_translation": "Udusili mięso."
           }
         ]
       },
       {
         "es_word": "guisaré",
-        "pl_word": "będę dusił",
+        "pl_word": "będę dusić (guisar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "[guisaré::będę dusił] la próxima semana.",
-            "pl_translation": "Będę dusił"
-          },
-          {
-            "es_form": "¿[guisaré::będę dusił] con nosotros mañana?",
-            "pl_translation": "Czy będę dusił"
-          },
-          {
-            "es_form": "El año que viene [guisaré::będę dusił] en España.",
-            "pl_translation": "W przyszłym roku będę dusił"
+            "es_form": "Yo [guisaré::będę dusić] la carne.",
+            "pl_translation": "Będę dusić mięso."
           }
         ]
       },
       {
         "es_word": "guisarás",
-        "pl_word": "będziesz dusił",
+        "pl_word": "będziesz dusić (guisar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [guisarás::będziesz dusił] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziesz dusił"
-          },
-          {
-            "es_form": "El año que viene [guisarás::będziesz dusił] en España.",
-            "pl_translation": "W przyszłym roku będziesz dusił"
-          },
-          {
-            "es_form": "Creo que [guisarás::będziesz dusił] bien.",
-            "pl_translation": "Myślę, że będziesz dusił"
+            "es_form": "Tú [guisarás::będziesz dusić] la carne.",
+            "pl_translation": "Będziesz dusić mięso."
           }
         ]
       },
       {
         "es_word": "guisará",
-        "pl_word": "będzie dusił",
+        "pl_word": "będzie dusić (guisar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [guisará::będzie dusił] en España.",
-            "pl_translation": "W przyszłym roku będzie dusił"
-          },
-          {
-            "es_form": "[guisará::będzie dusił] la próxima semana.",
-            "pl_translation": "Będzie dusił"
-          },
-          {
-            "es_form": "Te prometo que [guisará::będzie dusił] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będzie dusił"
+            "es_form": "Él [guisará::będzie dusić] la carne.",
+            "pl_translation": "Będzie dusić mięso."
           }
         ]
       },
       {
         "es_word": "guisaremos",
-        "pl_word": "będziemy dusili",
+        "pl_word": "będziemy dusić (guisar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [guisaremos::będziemy dusili] en España.",
-            "pl_translation": "W przyszłym roku będziemy dusili"
-          },
-          {
-            "es_form": "[guisaremos::będziemy dusili] la próxima semana.",
-            "pl_translation": "Będziemy dusili"
-          },
-          {
-            "es_form": "Creo que [guisaremos::będziemy dusili] bien.",
-            "pl_translation": "Myślę, że będziemy dusili"
+            "es_form": "Nosotros [guisaremos::będziemy dusić] la carne.",
+            "pl_translation": "Będziemy dusić mięso."
           }
         ]
       },
       {
         "es_word": "guisaréis",
-        "pl_word": "będziecie dusili",
+        "pl_word": "będziecie dusić (guisar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[guisaréis::będziecie dusili] con nosotros mañana?",
-            "pl_translation": "Czy będziecie dusili"
-          },
-          {
-            "es_form": "El año que viene [guisaréis::będziecie dusili] en España.",
-            "pl_translation": "W przyszłym roku będziecie dusili"
-          },
-          {
-            "es_form": "Mañana [guisaréis::będziecie dusili] más temprano.",
-            "pl_translation": "Jutro będziecie dusili"
+            "es_form": "Vosotros [guisaréis::będziecie dusić] la carne.",
+            "pl_translation": "Będziecie dusić mięso."
           }
         ]
       },
       {
         "es_word": "guisarán",
-        "pl_word": "będą dusili",
+        "pl_word": "będą dusić (guisar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [guisarán::będą dusili] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będą dusili"
-          },
-          {
-            "es_form": "[guisarán::będą dusili] la próxima semana.",
-            "pl_translation": "Będą dusili"
-          },
-          {
-            "es_form": "Mañana [guisarán::będą dusili] más temprano.",
-            "pl_translation": "Jutro będą dusili"
+            "es_form": "Ellos [guisarán::będą dusić] la carne.",
+            "pl_translation": "Będą dusić mięso."
           }
         ]
       }

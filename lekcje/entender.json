@@ -233,22 +233,18 @@
     "pl_word": "rozumieć",
     "examples": [
       {
-        "es_form": "No puedo [entender::rozumieć] esto sin tu ayuda.",
-        "pl_translation": "Nie mogę tego zrozumieć bez twojej pomocy."
+        "es_form": "Quiero [entender::rozumieć] la lección.",
+        "pl_translation": "Chcę rozumieć lekcję."
       },
       {
-        "es_form": "¿Puedes [entender::rozumieć] más rápido?",
-        "pl_translation": "Możesz zrozumieć szybciej?"
-      },
-      {
-        "es_form": "Voy a [entender::rozumieć] esto mañana.",
-        "pl_translation": "Zrozumiem to jutro."
+        "es_form": "No puedo [entender::rozumieć] la lección hoy.",
+        "pl_translation": "Nie mogę dziś rozumieć lekcję."
       }
     ],
     "forms": [
       {
         "es_word": "entiendo",
-        "pl_word": "rozumiem",
+        "pl_word": "rozumiem (entender)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "No [entiendo::rozumiem] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie rozumiem zbyt dobrze."
-          },
-          {
-            "es_form": "¿[Entiendo::rozumiem] bien los fines de semana?",
-            "pl_translation": "Czy dobrze rozumiem w weekendy?"
-          },
-          {
-            "es_form": "Normalmente [entiendo::rozumiem] todo por la mañana.",
-            "pl_translation": "Zazwyczaj rozumiem wszystko rano."
+            "es_form": "Yo [entiendo::rozumiem] la lección.",
+            "pl_translation": "Rozumiem lekcję."
           }
         ]
       },
       {
         "es_word": "entiendes",
-        "pl_word": "rozumiesz",
+        "pl_word": "rozumiesz (entender)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[Entiendes::rozumiesz] los fines de semana?",
-            "pl_translation": "Czy rozumiesz w weekendy?"
-          },
-          {
-            "es_form": "No [entiendes::rozumiesz] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie rozumiesz zbyt dobrze."
-          },
-          {
-            "es_form": "[Entiendes::rozumiesz] como me enseñaste.",
-            "pl_translation": "Rozumiesz tak jak mnie nauczyłeś."
+            "es_form": "Tú [entiendes::rozumiesz] la lección.",
+            "pl_translation": "Rozumiesz lekcję."
           }
         ]
       },
       {
         "es_word": "entiende",
-        "pl_word": "rozumie",
+        "pl_word": "rozumie (entender)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "[Entiende::rozumie] todo todos los días.",
-            "pl_translation": "Rozumie wszystko codziennie."
-          },
-          {
-            "es_form": "[Entiende::rozumie] como me enseñaste.",
-            "pl_translation": "Rozumie tak jak mnie nauczyłeś."
-          },
-          {
-            "es_form": "¿[Entiende::rozumie] los fines de semana?",
-            "pl_translation": "Czy rozumie w weekendy?"
+            "es_form": "Él [entiende::rozumie] la lección.",
+            "pl_translation": "Rozumie lekcję."
           }
         ]
       },
       {
         "es_word": "entendemos",
-        "pl_word": "rozumiemy",
+        "pl_word": "rozumiemy (entender)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [entendemos::rozumiemy] con atención.",
-            "pl_translation": "Zawsze rozumiemy z uwagą."
-          },
-          {
-            "es_form": "No [entendemos::rozumiemy] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie rozumiemy zbyt dobrze."
-          },
-          {
-            "es_form": "¿[Entendemos::rozumiemy] los fines de semana?",
-            "pl_translation": "Czy rozumiemy w weekendy?"
+            "es_form": "Nosotros [entendemos::rozumiemy] la lección.",
+            "pl_translation": "Rozumiemy lekcję."
           }
         ]
       },
       {
         "es_word": "entendéis",
-        "pl_word": "rozumiecie",
+        "pl_word": "rozumiecie (entender)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[Entendéis::rozumiecie] los fines de semana?",
-            "pl_translation": "Czy rozumiecie w weekendy?"
-          },
-          {
-            "es_form": "Siempre [entendéis::rozumiecie] con atención.",
-            "pl_translation": "Zawsze rozumiecie z uwagą."
-          },
-          {
-            "es_form": "Normalmente [entendéis::rozumiecie] por la mañana.",
-            "pl_translation": "Zazwyczaj rozumiecie rano."
+            "es_form": "Vosotros [entendéis::rozumiecie] la lección.",
+            "pl_translation": "Rozumiecie lekcję."
           }
         ]
       },
       {
         "es_word": "entienden",
-        "pl_word": "rozumieją",
+        "pl_word": "rozumieją (entender)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [entienden::rozumieją] por la mañana.",
-            "pl_translation": "Zazwyczaj rozumieją rano."
-          },
-          {
-            "es_form": "¿[Entienden::rozumieją] los fines de semana?",
-            "pl_translation": "Czy rozumieją w weekendy?"
-          },
-          {
-            "es_form": "No [entienden::rozumieją] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie rozumieją zbyt dobrze."
+            "es_form": "Ellos [entienden::rozumieją] la lección.",
+            "pl_translation": "Rozumieją lekcję."
           }
         ]
       },
       {
         "es_word": "entendí",
-        "pl_word": "rozumiałem",
+        "pl_word": "zrozumiałem (entender)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [entendí::rozumiałem] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie rozumiałem czegoś takiego."
-          },
-          {
-            "es_form": "El mes pasado no [entendí::rozumiałem] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie rozumiałem."
-          },
-          {
-            "es_form": "Ayer [entendí::rozumiałem] todo el día.",
-            "pl_translation": "Wczoraj rozumiałem cały dzień."
+            "es_form": "Yo [entendí::zrozumiałem] la lección.",
+            "pl_translation": "Zrozumiałem lekcję."
           }
         ]
       },
       {
         "es_word": "entendiste",
-        "pl_word": "rozumiałeś",
+        "pl_word": "zrozumiałeś (entender)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "[Entendiste::rozumiałeś] sin parar durante horas.",
-            "pl_translation": "Rozumiałeś bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "¿[Entendiste::rozumiałeś] bien el examen?",
-            "pl_translation": "Czy dobrze zrozumiałeś egzamin?"
-          },
-          {
-            "es_form": "Nunca [entendiste::rozumiałeś] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie rozumiałeś czegoś takiego."
+            "es_form": "Tú [entendiste::zrozumiałeś] la lección.",
+            "pl_translation": "Zrozumiałeś lekcję."
           }
         ]
       },
       {
         "es_word": "entendió",
-        "pl_word": "rozumiał",
+        "pl_word": "zrozumiał (entender)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [entendió::rozumiał] todo el día.",
-            "pl_translation": "Wczoraj rozumiał cały dzień."
-          },
-          {
-            "es_form": "[Entendió::rozumiał] la lección la semana pasada.",
-            "pl_translation": "Zrozumiał lekcję w zeszłym tygodniu."
-          },
-          {
-            "es_form": "Nunca [entendió::rozumiał] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie rozumiał czegoś takiego."
+            "es_form": "Él [entendió::zrozumiał] la lección.",
+            "pl_translation": "Zrozumiał lekcję."
           }
         ]
       },
       {
         "es_word": "entendimos",
-        "pl_word": "rozumieliśmy",
+        "pl_word": "zrozumieliśmy (entender)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [entendimos::rozumieliśmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie rozumieliśmy czegoś takiego."
-          },
-          {
-            "es_form": "[Entendimos::rozumieliśmy] sin parar durante horas.",
-            "pl_translation": "Rozumieliśmy bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "El mes pasado no [entendimos::rozumieliśmy] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie rozumieliśmy."
+            "es_form": "Nosotros [entendimos::zrozumieliśmy] la lección.",
+            "pl_translation": "Zrozumieliśmy lekcję."
           }
         ]
       },
       {
         "es_word": "entendisteis",
-        "pl_word": "rozumieliście",
+        "pl_word": "zrozumieliście (entender)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[Entendisteis::rozumieliście] bien el examen?",
-            "pl_translation": "Czy dobrze zrozumieliście egzamin?"
-          },
-          {
-            "es_form": "[Entendisteis::rozumieliście] sin parar durante horas.",
-            "pl_translation": "Rozumieliście bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "Ayer [entendisteis::rozumieliście] todo el día.",
-            "pl_translation": "Wczoraj rozumieliście cały dzień."
+            "es_form": "Vosotros [entendisteis::zrozumieliście] la lección.",
+            "pl_translation": "Zrozumieliście lekcję."
           }
         ]
       },
       {
         "es_word": "entendieron",
-        "pl_word": "rozumieli",
+        "pl_word": "zrozumieli (entender)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "[Entendieron::rozumieli] sin parar durante horas.",
-            "pl_translation": "Rozumieli bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "Ayer [entendieron::rozumieli] todo el día.",
-            "pl_translation": "Wczoraj rozumieli cały dzień."
-          },
-          {
-            "es_form": "[Entendieron::rozumieli] la lección la semana pasada.",
-            "pl_translation": "Zrozumieli lekcję w zeszłym tygodniu."
+            "es_form": "Ellos [entendieron::zrozumieli] la lección.",
+            "pl_translation": "Zrozumieli lekcję."
           }
         ]
       },
       {
         "es_word": "entenderé",
-        "pl_word": "będę rozumieć",
+        "pl_word": "będę rozumieć (entender)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [entenderé::będę rozumieć] bien.",
-            "pl_translation": "Myślę, że będę dobrze rozumieć."
-          },
-          {
-            "es_form": "Te prometo que [entenderé::będę rozumieć] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będę rozumieć na czas."
-          },
-          {
-            "es_form": "Mañana [entenderé::będę rozumieć] más temprano.",
-            "pl_translation": "Jutro będę rozumieć wcześniej."
+            "es_form": "Yo [entenderé::będę rozumieć] la lección.",
+            "pl_translation": "Będę rozumieć lekcję."
           }
         ]
       },
       {
         "es_word": "entenderás",
-        "pl_word": "będziesz rozumieć",
+        "pl_word": "będziesz rozumieć (entender)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [entenderás::będziesz rozumieć] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziesz rozumieć na czas."
-          },
-          {
-            "es_form": "¿[Entenderás::będziesz rozumieć] con nosotros mañana?",
-            "pl_translation": "Czy będziesz z nami rozumieć jutro?"
-          },
-          {
-            "es_form": "El año que viene [entenderás::będziesz rozumieć] en España.",
-            "pl_translation": "W przyszłym roku będziesz rozumieć w Hiszpanii."
+            "es_form": "Tú [entenderás::będziesz rozumieć] la lección.",
+            "pl_translation": "Będziesz rozumieć lekcję."
           }
         ]
       },
       {
         "es_word": "entenderá",
-        "pl_word": "będzie rozumieć",
+        "pl_word": "będzie rozumieć (entender)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[Entenderá::będzie rozumieć] con nosotros mañana?",
-            "pl_translation": "Czy będzie z nami rozumieć jutro?"
-          },
-          {
-            "es_form": "Mañana [entenderá::będzie rozumieć] más temprano.",
-            "pl_translation": "Jutro będzie rozumieć wcześniej."
-          },
-          {
-            "es_form": "El año que viene [entenderá::będzie rozumieć] en España.",
-            "pl_translation": "W przyszłym roku będzie rozumieć w Hiszpanii."
+            "es_form": "Él [entenderá::będzie rozumieć] la lección.",
+            "pl_translation": "Będzie rozumieć lekcję."
           }
         ]
       },
       {
         "es_word": "entenderemos",
-        "pl_word": "będziemy rozumieć",
+        "pl_word": "będziemy rozumieć (entender)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[Entenderemos::będziemy rozumieć] con nosotros mañana?",
-            "pl_translation": "Czy będziemy z nami rozumieć jutro?"
-          },
-          {
-            "es_form": "Mañana [entenderemos::będziemy rozumieć] más temprano.",
-            "pl_translation": "Jutro będziemy rozumieć wcześniej."
-          },
-          {
-            "es_form": "Creo que [entenderemos::będziemy rozumieć] bien.",
-            "pl_translation": "Myślę, że będziemy dobrze rozumieć."
+            "es_form": "Nosotros [entenderemos::będziemy rozumieć] la lección.",
+            "pl_translation": "Będziemy rozumieć lekcję."
           }
         ]
       },
       {
         "es_word": "entenderéis",
-        "pl_word": "będziecie rozumieć",
+        "pl_word": "będziecie rozumieć (entender)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [entenderéis::będziecie rozumieć] bien.",
-            "pl_translation": "Myślę, że będziecie dobrze rozumieć."
-          },
-          {
-            "es_form": "¿[Entenderéis::będziecie rozumieć] con nosotros mañana?",
-            "pl_translation": "Czy będziecie z nami rozumieć jutro?"
-          },
-          {
-            "es_form": "Te prometo que [entenderéis::będziecie rozumieć] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziecie rozumieć na czas."
+            "es_form": "Vosotros [entenderéis::będziecie rozumieć] la lección.",
+            "pl_translation": "Będziecie rozumieć lekcję."
           }
         ]
       },
       {
         "es_word": "entenderán",
-        "pl_word": "będą rozumieć",
+        "pl_word": "będą rozumieć (entender)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [entenderán::będą rozumieć] en España.",
-            "pl_translation": "W przyszłym roku będą rozumieć w Hiszpanii."
-          },
-          {
-            "es_form": "Creo que [entenderán::będą rozumieć] bien.",
-            "pl_translation": "Myślę, że będą dobrze rozumieć."
-          },
-          {
-            "es_form": "[Entenderán::będą rozumieć] la próxima semana.",
-            "pl_translation": "Będą rozumieć w przyszłym tygodniu."
+            "es_form": "Ellos [entenderán::będą rozumieć] la lección.",
+            "pl_translation": "Będą rozumieć lekcję."
           }
         ]
       }

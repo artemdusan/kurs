@@ -233,22 +233,18 @@
     "pl_word": "zwiedzać, odwiedzać",
     "examples": [
       {
-        "es_form": "Es importante [visitar::zwiedzać, odwiedzać] todos los días.",
-        "pl_translation": "Ważne jest zwiedzać, odwiedzać codziennie."
+        "es_form": "Quiero [visitar::zwiedzać] el museo.",
+        "pl_translation": "Chcę zwiedzać muzeum."
       },
       {
-        "es_form": "Quiero [visitar::zwiedzać, odwiedzać] ahora.",
-        "pl_translation": "Chcę zwiedzać, odwiedzać teraz."
-      },
-      {
-        "es_form": "Me gusta [visitar::zwiedzać, odwiedzać] por la mañana.",
-        "pl_translation": "Lubię zwiedzać, odwiedzać rano."
+        "es_form": "No puedo [visitar::zwiedzać] el museo hoy.",
+        "pl_translation": "Nie mogę dziś zwiedzać muzeum."
       }
     ],
     "forms": [
       {
         "es_word": "visito",
-        "pl_word": "zwiedzam",
+        "pl_word": "zwiedzam (visitar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "[visito::zwiedzam] todos los días.",
-            "pl_translation": "Zwiedzam codziennie."
-          },
-          {
-            "es_form": "Normalmente [visito::zwiedzam] por la mañana.",
-            "pl_translation": "Zazwyczaj zwiedzam rano."
-          },
-          {
-            "es_form": "No [visito::zwiedzam] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie zwiedzam zbyt dobrze."
+            "es_form": "Yo [visito::zwiedzam] el museo.",
+            "pl_translation": "Zwiedzam muzeum."
           }
         ]
       },
       {
         "es_word": "visitas",
-        "pl_word": "zwiedzasz",
+        "pl_word": "zwiedzasz (visitar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[visitas::zwiedzasz] los fines de semana?",
-            "pl_translation": "Czy zwiedzasz w weekendy?"
-          },
-          {
-            "es_form": "Siempre [visitas::zwiedzasz] con atencion.",
-            "pl_translation": "Zawsze zwiedzasz z uwagą."
-          },
-          {
-            "es_form": "[visitas::zwiedzasz] como me enseñaste.",
-            "pl_translation": "Zwiedzasz tak jak mnie nauczyłeś"
+            "es_form": "Tú [visitas::zwiedzasz] el museo.",
+            "pl_translation": "Zwiedzasz muzeum."
           }
         ]
       },
       {
         "es_word": "visita",
-        "pl_word": "zwiedza",
+        "pl_word": "zwiedza (visitar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "[visita::zwiedza] como me enseñaste.",
-            "pl_translation": "Zwiedza tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "¿[visita::zwiedza] los fines de semana?",
-            "pl_translation": "Czy zwiedza w weekendy?"
-          },
-          {
-            "es_form": "No [visita::zwiedza] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie zwiedza zbyt dobrze."
+            "es_form": "Él [visita::zwiedza] el museo.",
+            "pl_translation": "Zwiedza muzeum."
           }
         ]
       },
       {
         "es_word": "visitamos",
-        "pl_word": "zwiedzamy",
+        "pl_word": "zwiedzamy (visitar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "No [visitamos::zwiedzamy] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie zwiedzamy zbyt dobrze."
-          },
-          {
-            "es_form": "[visitamos::zwiedzamy] como me enseñaste.",
-            "pl_translation": "Zwiedzamy tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Normalmente [visitamos::zwiedzamy] por la mañana.",
-            "pl_translation": "Zazwyczaj zwiedzamy rano."
+            "es_form": "Nosotros [visitamos::zwiedzamy] el museo.",
+            "pl_translation": "Zwiedzamy muzeum."
           }
         ]
       },
       {
         "es_word": "visitáis",
-        "pl_word": "zwiedzacie",
+        "pl_word": "zwiedzacie (visitar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "[visitáis::zwiedzacie] como me enseñaste.",
-            "pl_translation": "Zwiedzacie tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "¿[visitáis::zwiedzacie] los fines de semana?",
-            "pl_translation": "Czy zwiedzacie w weekendy?"
-          },
-          {
-            "es_form": "[visitáis::zwiedzacie] todos los días.",
-            "pl_translation": "Zwiedzacie codziennie."
+            "es_form": "Vosotros [visitáis::zwiedzacie] el museo.",
+            "pl_translation": "Zwiedzacie muzeum."
           }
         ]
       },
       {
         "es_word": "visitan",
-        "pl_word": "zwiedzają",
+        "pl_word": "zwiedzają (visitar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [visitan::zwiedzają] con atencion.",
-            "pl_translation": "Zawsze zwiedzają z uwagą."
-          },
-          {
-            "es_form": "Normalmente [visitan::zwiedzają] por la mañana.",
-            "pl_translation": "Zazwyczaj zwiedzają rano."
-          },
-          {
-            "es_form": "¿[visitan::zwiedzają] los fines de semana?",
-            "pl_translation": "Czy zwiedzają w weekendy?"
+            "es_form": "Ellos [visitan::zwiedzają] el museo.",
+            "pl_translation": "Zwiedzają muzeum."
           }
         ]
       },
       {
         "es_word": "visité",
-        "pl_word": "zwiedzałem",
+        "pl_word": "zwiedziłem (visitar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "[visité::zwiedzałem] la semana pasada.",
-            "pl_translation": "Zwiedzałem"
-          },
-          {
-            "es_form": "[visité::zwiedzałem] sin parar durante horas.",
-            "pl_translation": "Zwiedzałem"
-          },
-          {
-            "es_form": "El mes pasado no [visité::zwiedzałem] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie zwiedzałem"
+            "es_form": "Yo [visité::zwiedziłem] el museo.",
+            "pl_translation": "Zwiedziłem muzeum."
           }
         ]
       },
       {
         "es_word": "visitaste",
-        "pl_word": "zwiedzałeś",
+        "pl_word": "zwiedziłeś (visitar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[visitaste::zwiedzałeś] bien el examen?",
-            "pl_translation": "Czy zwiedzałeś"
-          },
-          {
-            "es_form": "[visitaste::zwiedzałeś] sin parar durante horas.",
-            "pl_translation": "Zwiedzałeś"
-          },
-          {
-            "es_form": "Nunca [visitaste::zwiedzałeś] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie zwiedzałeś"
+            "es_form": "Tú [visitaste::zwiedziłeś] el museo.",
+            "pl_translation": "Zwiedziłeś muzeum."
           }
         ]
       },
       {
         "es_word": "visitó",
-        "pl_word": "zwiedzał",
+        "pl_word": "zwiedził (visitar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [visitó::zwiedzał] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie zwiedzał"
-          },
-          {
-            "es_form": "Ayer [visitó::zwiedzał] todo el día.",
-            "pl_translation": "Wczoraj zwiedzał"
-          },
-          {
-            "es_form": "El mes pasado no [visitó::zwiedzał] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie zwiedzał"
+            "es_form": "Él [visitó::zwiedził] el museo.",
+            "pl_translation": "Zwiedził muzeum."
           }
         ]
       },
       {
         "es_word": "visitamos",
-        "pl_word": "zwiedzaliśmy",
+        "pl_word": "zwiedziliśmy (visitar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [visitamos::zwiedzaliśmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie zwiedzaliśmy"
-          },
-          {
-            "es_form": "¿[visitamos::zwiedzaliśmy] bien el examen?",
-            "pl_translation": "Czy zwiedzaliśmy"
-          },
-          {
-            "es_form": "[visitamos::zwiedzaliśmy] la semana pasada.",
-            "pl_translation": "Zwiedzaliśmy"
+            "es_form": "Nosotros [visitamos::zwiedziliśmy] el museo.",
+            "pl_translation": "Zwiedziliśmy muzeum."
           }
         ]
       },
       {
         "es_word": "visitasteis",
-        "pl_word": "zwiedzaliście",
+        "pl_word": "zwiedziliście (visitar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [visitasteis::zwiedzaliście] todo el día.",
-            "pl_translation": "Wczoraj zwiedzaliście"
-          },
-          {
-            "es_form": "[visitasteis::zwiedzaliście] la semana pasada.",
-            "pl_translation": "Zwiedzaliście"
-          },
-          {
-            "es_form": "¿[visitasteis::zwiedzaliście] bien el examen?",
-            "pl_translation": "Czy zwiedzaliście"
+            "es_form": "Vosotros [visitasteis::zwiedziliście] el museo.",
+            "pl_translation": "Zwiedziliście muzeum."
           }
         ]
       },
       {
         "es_word": "visitaron",
-        "pl_word": "zwiedzali",
+        "pl_word": "zwiedzili (visitar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [visitaron::zwiedzali] todo el día.",
-            "pl_translation": "Wczoraj zwiedzali"
-          },
-          {
-            "es_form": "¿[visitaron::zwiedzali] bien el examen?",
-            "pl_translation": "Czy zwiedzali"
-          },
-          {
-            "es_form": "[visitaron::zwiedzali] sin parar durante horas.",
-            "pl_translation": "Zwiedzali"
+            "es_form": "Ellos [visitaron::zwiedzili] el museo.",
+            "pl_translation": "Zwiedzili muzeum."
           }
         ]
       },
       {
-        "es_word": "visité",
-        "pl_word": "będę zwiedzać",
+        "es_word": "visitaré",
+        "pl_word": "będę zwiedzać (visitar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[visité::będę zwiedzać] con nosotros mañana?",
-            "pl_translation": "Czy będę zwiedzać z nami jutro?"
-          },
-          {
-            "es_form": "Mañana [visité::będę zwiedzać] más temprano.",
-            "pl_translation": "Jutro będę zwiedzać wcześniej."
-          },
-          {
-            "es_form": "El año que viene [visité::będę zwiedzać] en España.",
-            "pl_translation": "W przyszłym roku będę zwiedzać w Hiszpanii."
+            "es_form": "Yo [visitaré::będę zwiedzać] el museo.",
+            "pl_translation": "Będę zwiedzać muzeum."
           }
         ]
       },
       {
-        "es_word": "visitás",
-        "pl_word": "będziesz zwiedzać",
+        "es_word": "visitarás",
+        "pl_word": "będziesz zwiedzać (visitar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [visitás::będziesz zwiedzać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziesz zwiedzać na czas."
-          },
-          {
-            "es_form": "[visitás::będziesz zwiedzać] la proxima semana.",
-            "pl_translation": "Będziesz zwiedzać w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Mañana [visitás::będziesz zwiedzać] más temprano.",
-            "pl_translation": "Jutro będziesz zwiedzać wcześniej."
+            "es_form": "Tú [visitarás::będziesz zwiedzać] el museo.",
+            "pl_translation": "Będziesz zwiedzać muzeum."
           }
         ]
       },
       {
-        "es_word": "visitá",
-        "pl_word": "będzie zwiedzać",
+        "es_word": "visitará",
+        "pl_word": "będzie zwiedzać (visitar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [visitá::będzie zwiedzać] más temprano.",
-            "pl_translation": "Jutro będzie zwiedzać wcześniej."
-          },
-          {
-            "es_form": "Te prometo que [visitá::będzie zwiedzać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będzie zwiedzać na czas."
-          },
-          {
-            "es_form": "[visitá::będzie zwiedzać] la proxima semana.",
-            "pl_translation": "Będzie zwiedzać w przyszłym tygodniu."
+            "es_form": "Él [visitará::będzie zwiedzać] el museo.",
+            "pl_translation": "Będzie zwiedzać muzeum."
           }
         ]
       },
       {
-        "es_word": "visitemos",
-        "pl_word": "będziemy zwiedzać",
+        "es_word": "visitaremos",
+        "pl_word": "będziemy zwiedzać (visitar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [visitemos::będziemy zwiedzać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziemy zwiedzać na czas."
-          },
-          {
-            "es_form": "Mañana [visitemos::będziemy zwiedzać] más temprano.",
-            "pl_translation": "Jutro będziemy zwiedzać wcześniej."
-          },
-          {
-            "es_form": "[visitemos::będziemy zwiedzać] la proxima semana.",
-            "pl_translation": "Będziemy zwiedzać w przyszłym tygodniu."
+            "es_form": "Nosotros [visitaremos::będziemy zwiedzać] el museo.",
+            "pl_translation": "Będziemy zwiedzać muzeum."
           }
         ]
       },
       {
-        "es_word": "visitéis",
-        "pl_word": "będziecie zwiedzać",
+        "es_word": "visitaréis",
+        "pl_word": "będziecie zwiedzać (visitar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [visitéis::będziecie zwiedzać] bien.",
-            "pl_translation": "Myślę, że będziecie zwiedzać dobrze."
-          },
-          {
-            "es_form": "El año que viene [visitéis::będziecie zwiedzać] en España.",
-            "pl_translation": "W przyszłym roku będziecie zwiedzać w Hiszpanii."
-          },
-          {
-            "es_form": "¿[visitéis::będziecie zwiedzać] con nosotros mañana?",
-            "pl_translation": "Czy będziecie zwiedzać z nami jutro?"
+            "es_form": "Vosotros [visitaréis::będziecie zwiedzać] el museo.",
+            "pl_translation": "Będziecie zwiedzać muzeum."
           }
         ]
       },
       {
-        "es_word": "visitán",
-        "pl_word": "będą zwiedzać",
+        "es_word": "visitarán",
+        "pl_word": "będą zwiedzać (visitar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "¿[visitán::będą zwiedzać] con nosotros mañana?",
-            "pl_translation": "Czy będą zwiedzać z nami jutro?"
-          },
-          {
-            "es_form": "Te prometo que [visitán::będą zwiedzać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będą zwiedzać na czas."
-          },
-          {
-            "es_form": "El año que viene [visitán::będą zwiedzać] en España.",
-            "pl_translation": "W przyszłym roku będą zwiedzać w Hiszpanii."
+            "es_form": "Ellos [visitarán::będą zwiedzać] el museo.",
+            "pl_translation": "Będą zwiedzać muzeum."
           }
         ]
       }

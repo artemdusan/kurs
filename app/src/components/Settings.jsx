@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { saveSettings } from '../db.js';
 import { syncNow, DEFAULT_SYNC_URL, resolveSyncUrl } from '../sync.js';
+import Icon from './Icon.jsx';
 
 export default function Settings({ settings, onChange, onBack }) {
   const [form, setForm] = useState(settings);
@@ -30,7 +31,9 @@ export default function Settings({ settings, onChange, onBack }) {
   return (
     <div className="screen settings">
       <div className="session-top">
-        <button className="btn ghost" onClick={onBack}>←</button>
+        <button className="btn ghost" onClick={onBack} aria-label="Wróć">
+          <Icon name="back" />
+        </button>
         <h2>Ustawienia</h2>
         <span />
       </div>

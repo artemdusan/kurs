@@ -233,22 +233,18 @@
     "pl_word": "chronić",
     "examples": [
       {
-        "es_form": "Voy a [proteger::chronić] mañana.",
-        "pl_translation": "Będę chronić jutro."
+        "es_form": "Quiero [proteger::chronić] a la familia.",
+        "pl_translation": "Chcę chronić rodzinę."
       },
       {
-        "es_form": "No puedo [proteger::chronić] sin tu ayuda.",
-        "pl_translation": "Nie mogę chronić bez twojej pomocy."
-      },
-      {
-        "es_form": "Es importante [proteger::chronić] todos los días.",
-        "pl_translation": "Ważne jest chronić codziennie."
+        "es_form": "No puedo [proteger::chronić] a la familia hoy.",
+        "pl_translation": "Nie mogę dziś chronić rodzinę."
       }
     ],
     "forms": [
       {
         "es_word": "protejo",
-        "pl_word": "chronię",
+        "pl_word": "chronię (proteger)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "No [protejo::chronię] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie chronię zbyt dobrze."
-          },
-          {
-            "es_form": "Siempre [protejo::chronię] con atencion.",
-            "pl_translation": "Zawsze chronię z uwagą."
-          },
-          {
-            "es_form": "[protejo::chronię] como me enseñaste.",
-            "pl_translation": "Chronię tak jak mnie nauczyłeś"
+            "es_form": "Yo [protejo::chronię] a la familia.",
+            "pl_translation": "Chronię rodzinę."
           }
         ]
       },
       {
         "es_word": "proteges",
-        "pl_word": "chronisz",
+        "pl_word": "chronisz (proteger)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "[proteges::chronisz] todos los días.",
-            "pl_translation": "Chronisz codziennie."
-          },
-          {
-            "es_form": "Siempre [proteges::chronisz] con atencion.",
-            "pl_translation": "Zawsze chronisz z uwagą."
-          },
-          {
-            "es_form": "[proteges::chronisz] como me enseñaste.",
-            "pl_translation": "Chronisz tak jak mnie nauczyłeś"
+            "es_form": "Tú [proteges::chronisz] a la familia.",
+            "pl_translation": "Chronisz rodzinę."
           }
         ]
       },
       {
         "es_word": "protege",
-        "pl_word": "chroni",
+        "pl_word": "chroni (proteger)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [protege::chroni] por la mañana.",
-            "pl_translation": "Zazwyczaj chroni rano."
-          },
-          {
-            "es_form": "No [protege::chroni] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie chroni zbyt dobrze."
-          },
-          {
-            "es_form": "Siempre [protege::chroni] con atencion.",
-            "pl_translation": "Zawsze chroni z uwagą."
+            "es_form": "Él [protege::chroni] a la familia.",
+            "pl_translation": "Chroni rodzinę."
           }
         ]
       },
       {
         "es_word": "protegemos",
-        "pl_word": "chronimy",
+        "pl_word": "chronimy (proteger)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "[protegemos::chronimy] todos los días.",
-            "pl_translation": "Chronimy codziennie."
-          },
-          {
-            "es_form": "¿[protegemos::chronimy] los fines de semana?",
-            "pl_translation": "Czy chronimy w weekendy?"
-          },
-          {
-            "es_form": "No [protegemos::chronimy] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie chronimy zbyt dobrze."
+            "es_form": "Nosotros [protegemos::chronimy] a la familia.",
+            "pl_translation": "Chronimy rodzinę."
           }
         ]
       },
       {
         "es_word": "protegéis",
-        "pl_word": "chronicie",
+        "pl_word": "chronicie (proteger)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [protegéis::chronicie] por la mañana.",
-            "pl_translation": "Zazwyczaj chronicie rano."
-          },
-          {
-            "es_form": "[protegéis::chronicie] todos los días.",
-            "pl_translation": "Chronicie codziennie."
-          },
-          {
-            "es_form": "¿[protegéis::chronicie] los fines de semana?",
-            "pl_translation": "Czy chronicie w weekendy?"
+            "es_form": "Vosotros [protegéis::chronicie] a la familia.",
+            "pl_translation": "Chronicie rodzinę."
           }
         ]
       },
       {
         "es_word": "protegen",
-        "pl_word": "chronią",
+        "pl_word": "chronią (proteger)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "No [protegen::chronią] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie chronią zbyt dobrze."
-          },
-          {
-            "es_form": "[protegen::chronią] como me enseñaste.",
-            "pl_translation": "Chronią tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Normalmente [protegen::chronią] por la mañana.",
-            "pl_translation": "Zazwyczaj chronią rano."
+            "es_form": "Ellos [protegen::chronią] a la familia.",
+            "pl_translation": "Chronią rodzinę."
           }
         ]
       },
       {
         "es_word": "protegí",
-        "pl_word": "chroniłem",
+        "pl_word": "ochroniłem (proteger)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [protegí::chroniłem] todo el día.",
-            "pl_translation": "Wczoraj chroniłem cały dzień."
-          },
-          {
-            "es_form": "[protegí::chroniłem] sin parar durante horas.",
-            "pl_translation": "Chroniłem bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "[protegí::chroniłem] la semana pasada.",
-            "pl_translation": "Chroniłem w zeszłym tygodniu."
+            "es_form": "Yo [protegí::ochroniłem] a la familia.",
+            "pl_translation": "Ochroniłem rodzinę."
           }
         ]
       },
       {
         "es_word": "protegiste",
-        "pl_word": "chroniłeś",
+        "pl_word": "ochroniłeś (proteger)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [protegiste::chroniłeś] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie chroniłeś czegoś takiego."
-          },
-          {
-            "es_form": "El mes pasado no [protegiste::chroniłeś] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie chroniłeś."
-          },
-          {
-            "es_form": "Ayer [protegiste::chroniłeś] todo el día.",
-            "pl_translation": "Wczoraj chroniłeś cały dzień."
+            "es_form": "Tú [protegiste::ochroniłeś] a la familia.",
+            "pl_translation": "Ochroniłeś rodzinę."
           }
         ]
       },
       {
         "es_word": "protegió",
-        "pl_word": "chronił",
+        "pl_word": "ochronił (proteger)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [protegió::chronił] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie chronił."
-          },
-          {
-            "es_form": "[protegió::chronił] sin parar durante horas.",
-            "pl_translation": "Chronił bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "[protegió::chronił] la semana pasada.",
-            "pl_translation": "Chronił w zeszłym tygodniu."
+            "es_form": "Él [protegió::ochronił] a la familia.",
+            "pl_translation": "Ochronił rodzinę."
           }
         ]
       },
       {
         "es_word": "protegimos",
-        "pl_word": "chroniliśmy",
+        "pl_word": "ochroniliśmy (proteger)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [protegimos::chroniliśmy] todo el día.",
-            "pl_translation": "Wczoraj chroniliśmy cały dzień."
-          },
-          {
-            "es_form": "Nunca [protegimos::chroniliśmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie chroniliśmy czegoś takiego."
-          },
-          {
-            "es_form": "[protegimos::chroniliśmy] la semana pasada.",
-            "pl_translation": "Chroniliśmy w zeszłym tygodniu."
+            "es_form": "Nosotros [protegimos::ochroniliśmy] a la familia.",
+            "pl_translation": "Ochroniliśmy rodzinę."
           }
         ]
       },
       {
         "es_word": "protegisteis",
-        "pl_word": "chroniliście",
+        "pl_word": "ochroniliście (proteger)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "[protegisteis::chroniliście] la semana pasada.",
-            "pl_translation": "Chroniliście w zeszłym tygodniu."
-          },
-          {
-            "es_form": "Nunca [protegisteis::chroniliście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie chroniliście czegoś takiego."
-          },
-          {
-            "es_form": "El mes pasado no [protegisteis::chroniliście] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie chroniliście."
+            "es_form": "Vosotros [protegisteis::ochroniliście] a la familia.",
+            "pl_translation": "Ochroniliście rodzinę."
           }
         ]
       },
       {
         "es_word": "protegieron",
-        "pl_word": "chronili",
+        "pl_word": "ochronili (proteger)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [protegieron::chronili] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie chronili."
-          },
-          {
-            "es_form": "[protegieron::chronili] la semana pasada.",
-            "pl_translation": "Chronili w zeszłym tygodniu."
-          },
-          {
-            "es_form": "Ayer [protegieron::chronili] todo el día.",
-            "pl_translation": "Wczoraj chronili cały dzień."
+            "es_form": "Ellos [protegieron::ochronili] a la familia.",
+            "pl_translation": "Ochronili rodzinę."
           }
         ]
       },
       {
         "es_word": "protegeré",
-        "pl_word": "będę chronić",
+        "pl_word": "będę chronić (proteger)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [protegeré::będę chronić] bien.",
-            "pl_translation": "Myślę, że będę chronić dobrze."
-          },
-          {
-            "es_form": "¿[protegeré::będę chronić] con nosotros mañana?",
-            "pl_translation": "Czy będę chronić z nami jutro?"
-          },
-          {
-            "es_form": "El año que viene [protegeré::będę chronić] en España.",
-            "pl_translation": "W przyszłym roku będę chronić w Hiszpanii."
+            "es_form": "Yo [protegeré::będę chronić] a la familia.",
+            "pl_translation": "Będę chronić rodzinę."
           }
         ]
       },
       {
         "es_word": "protegerás",
-        "pl_word": "będziesz chronić",
+        "pl_word": "będziesz chronić (proteger)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "[protegerás::będziesz chronić] la proxima semana.",
-            "pl_translation": "Będziesz chronić w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Mañana [protegerás::będziesz chronić] más temprano.",
-            "pl_translation": "Jutro będziesz chronić wcześniej."
-          },
-          {
-            "es_form": "El año que viene [protegerás::będziesz chronić] en España.",
-            "pl_translation": "W przyszłym roku będziesz chronić w Hiszpanii."
+            "es_form": "Tú [protegerás::będziesz chronić] a la familia.",
+            "pl_translation": "Będziesz chronić rodzinę."
           }
         ]
       },
       {
         "es_word": "protegerá",
-        "pl_word": "będzie chronić",
+        "pl_word": "będzie chronić (proteger)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [protegerá::będzie chronić] en España.",
-            "pl_translation": "W przyszłym roku będzie chronić w Hiszpanii."
-          },
-          {
-            "es_form": "Creo que [protegerá::będzie chronić] bien.",
-            "pl_translation": "Myślę, że będzie chronić dobrze."
-          },
-          {
-            "es_form": "Te prometo que [protegerá::będzie chronić] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będzie chronić na czas."
+            "es_form": "Él [protegerá::będzie chronić] a la familia.",
+            "pl_translation": "Będzie chronić rodzinę."
           }
         ]
       },
       {
         "es_word": "protegeremos",
-        "pl_word": "będziemy chronić",
+        "pl_word": "będziemy chronić (proteger)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[protegeremos::będziemy chronić] con nosotros mañana?",
-            "pl_translation": "Czy będziemy chronić z nami jutro?"
-          },
-          {
-            "es_form": "El año que viene [protegeremos::będziemy chronić] en España.",
-            "pl_translation": "W przyszłym roku będziemy chronić w Hiszpanii."
-          },
-          {
-            "es_form": "Creo que [protegeremos::będziemy chronić] bien.",
-            "pl_translation": "Myślę, że będziemy chronić dobrze."
+            "es_form": "Nosotros [protegeremos::będziemy chronić] a la familia.",
+            "pl_translation": "Będziemy chronić rodzinę."
           }
         ]
       },
       {
         "es_word": "protegeréis",
-        "pl_word": "będziecie chronić",
+        "pl_word": "będziecie chronić (proteger)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [protegeréis::będziecie chronić] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziecie chronić na czas."
-          },
-          {
-            "es_form": "[protegeréis::będziecie chronić] la proxima semana.",
-            "pl_translation": "Będziecie chronić w przyszłym tygodniu."
-          },
-          {
-            "es_form": "El año que viene [protegeréis::będziecie chronić] en España.",
-            "pl_translation": "W przyszłym roku będziecie chronić w Hiszpanii."
+            "es_form": "Vosotros [protegeréis::będziecie chronić] a la familia.",
+            "pl_translation": "Będziecie chronić rodzinę."
           }
         ]
       },
       {
         "es_word": "protegerán",
-        "pl_word": "będą chronić",
+        "pl_word": "będą chronić (proteger)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [protegerán::będą chronić] bien.",
-            "pl_translation": "Myślę, że będą chronić dobrze."
-          },
-          {
-            "es_form": "El año que viene [protegerán::będą chronić] en España.",
-            "pl_translation": "W przyszłym roku będą chronić w Hiszpanii."
-          },
-          {
-            "es_form": "[protegerán::będą chronić] la proxima semana.",
-            "pl_translation": "Będą chronić w przyszłym tygodniu."
+            "es_form": "Ellos [protegerán::będą chronić] a la familia.",
+            "pl_translation": "Będą chronić rodzinę."
           }
         ]
       }

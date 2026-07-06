@@ -233,22 +233,18 @@
     "pl_word": "gotować",
     "examples": [
       {
-        "es_form": "Es importante [cocinar::gotować] todos los días.",
-        "pl_translation": "Ważne jest gotować codziennie."
+        "es_form": "Quiero [cocinar::gotować] la cena.",
+        "pl_translation": "Chcę gotować kolację."
       },
       {
-        "es_form": "Voy a [cocinar::gotować] mañana.",
-        "pl_translation": "Będę gotować jutro."
-      },
-      {
-        "es_form": "Hay que [cocinar::gotować] con cuidado.",
-        "pl_translation": "Trzeba gotować ostrożnie."
+        "es_form": "No puedo [cocinar::gotować] la cena hoy.",
+        "pl_translation": "Nie mogę dziś gotować kolację."
       }
     ],
     "forms": [
       {
         "es_word": "cocino",
-        "pl_word": "gotuję",
+        "pl_word": "gotuję (cocinar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "No [cocino::gotuję] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie gotuję zbyt dobrze."
-          },
-          {
-            "es_form": "¿[cocino::gotuję] los fines de semana?",
-            "pl_translation": "Czy gotuję w weekendy?"
-          },
-          {
-            "es_form": "Normalmente [cocino::gotuję] por la mañana.",
-            "pl_translation": "Zazwyczaj gotuję rano."
+            "es_form": "Yo [cocino::gotuję] la cena.",
+            "pl_translation": "Gotuję kolację."
           }
         ]
       },
       {
         "es_word": "cocinas",
-        "pl_word": "gotujesz",
+        "pl_word": "gotujesz (cocinar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [cocinas::gotujesz] por la mañana.",
-            "pl_translation": "Zazwyczaj gotujesz rano."
-          },
-          {
-            "es_form": "Siempre [cocinas::gotujesz] con atencion.",
-            "pl_translation": "Zawsze gotujesz z uwagą."
-          },
-          {
-            "es_form": "¿[cocinas::gotujesz] los fines de semana?",
-            "pl_translation": "Czy gotujesz w weekendy?"
+            "es_form": "Tú [cocinas::gotujesz] la cena.",
+            "pl_translation": "Gotujesz kolację."
           }
         ]
       },
       {
         "es_word": "cocina",
-        "pl_word": "gotuje",
+        "pl_word": "gotuje (cocinar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [cocina::gotuje] por la mañana.",
-            "pl_translation": "Zazwyczaj gotuje rano."
-          },
-          {
-            "es_form": "¿[cocina::gotuje] los fines de semana?",
-            "pl_translation": "Czy gotuje w weekendy?"
-          },
-          {
-            "es_form": "Siempre [cocina::gotuje] con atencion.",
-            "pl_translation": "Zawsze gotuje z uwagą."
+            "es_form": "Él [cocina::gotuje] la cena.",
+            "pl_translation": "Gotuje kolację."
           }
         ]
       },
       {
         "es_word": "cocinamos",
-        "pl_word": "gotujemy",
+        "pl_word": "gotujemy (cocinar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "No [cocinamos::gotujemy] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie gotujemy zbyt dobrze."
-          },
-          {
-            "es_form": "Normalmente [cocinamos::gotujemy] por la mañana.",
-            "pl_translation": "Zazwyczaj gotujemy rano."
-          },
-          {
-            "es_form": "Siempre [cocinamos::gotujemy] con atencion.",
-            "pl_translation": "Zawsze gotujemy z uwagą."
+            "es_form": "Nosotros [cocinamos::gotujemy] la cena.",
+            "pl_translation": "Gotujemy kolację."
           }
         ]
       },
       {
         "es_word": "cocináis",
-        "pl_word": "gotujecie",
+        "pl_word": "gotujecie (cocinar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "No [cocináis::gotujecie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie gotujecie zbyt dobrze."
-          },
-          {
-            "es_form": "Normalmente [cocináis::gotujecie] por la mañana.",
-            "pl_translation": "Zazwyczaj gotujecie rano."
-          },
-          {
-            "es_form": "[cocináis::gotujecie] como me enseñaste.",
-            "pl_translation": "Gotujecie tak jak mnie nauczyłeś"
+            "es_form": "Vosotros [cocináis::gotujecie] la cena.",
+            "pl_translation": "Gotujecie kolację."
           }
         ]
       },
       {
         "es_word": "cocinan",
-        "pl_word": "gotują",
+        "pl_word": "gotują (cocinar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[cocinan::gotują] los fines de semana?",
-            "pl_translation": "Czy gotują w weekendy?"
-          },
-          {
-            "es_form": "[cocinan::gotują] todos los días.",
-            "pl_translation": "Gotują codziennie."
-          },
-          {
-            "es_form": "[cocinan::gotują] como me enseñaste.",
-            "pl_translation": "Gotują tak jak mnie nauczyłeś"
+            "es_form": "Ellos [cocinan::gotują] la cena.",
+            "pl_translation": "Gotują kolację."
           }
         ]
       },
       {
         "es_word": "cociné",
-        "pl_word": "gotowałem",
+        "pl_word": "ugotowałem (cocinar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[cociné::gotowałem] bien el examen?",
-            "pl_translation": "Czy dobrze gotowałem egzamin?"
-          },
-          {
-            "es_form": "[cociné::gotowałem] la semana pasada.",
-            "pl_translation": "Gotowałem w zeszłym tygodniu."
-          },
-          {
-            "es_form": "El mes pasado no [cociné::gotowałem] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie gotowałem."
+            "es_form": "Yo [cociné::ugotowałem] la cena.",
+            "pl_translation": "Ugotowałem kolację."
           }
         ]
       },
       {
         "es_word": "cocinaste",
-        "pl_word": "gotowałeś",
+        "pl_word": "ugotowałeś (cocinar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [cocinaste::gotowałeś] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie gotowałeś."
-          },
-          {
-            "es_form": "¿[cocinaste::gotowałeś] bien el examen?",
-            "pl_translation": "Czy dobrze gotowałeś egzamin?"
-          },
-          {
-            "es_form": "[cocinaste::gotowałeś] la semana pasada.",
-            "pl_translation": "Gotowałeś w zeszłym tygodniu."
+            "es_form": "Tú [cocinaste::ugotowałeś] la cena.",
+            "pl_translation": "Ugotowałeś kolację."
           }
         ]
       },
       {
         "es_word": "cocinó",
-        "pl_word": "gotował",
+        "pl_word": "ugotował (cocinar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [cocinó::gotował] todo el día.",
-            "pl_translation": "Wczoraj gotował cały dzień."
-          },
-          {
-            "es_form": "[cocinó::gotował] la semana pasada.",
-            "pl_translation": "Gotował w zeszłym tygodniu."
-          },
-          {
-            "es_form": "¿[cocinó::gotował] bien el examen?",
-            "pl_translation": "Czy dobrze gotował egzamin?"
+            "es_form": "Él [cocinó::ugotował] la cena.",
+            "pl_translation": "Ugotował kolację."
           }
         ]
       },
       {
         "es_word": "cocinamos",
-        "pl_word": "gotowaliśmy",
+        "pl_word": "ugotowaliśmy (cocinar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [cocinamos::gotowaliśmy] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie gotowaliśmy."
-          },
-          {
-            "es_form": "¿[cocinamos::gotowaliśmy] bien el examen?",
-            "pl_translation": "Czy dobrze gotowaliśmy egzamin?"
-          },
-          {
-            "es_form": "Ayer [cocinamos::gotowaliśmy] todo el día.",
-            "pl_translation": "Wczoraj gotowaliśmy cały dzień."
+            "es_form": "Nosotros [cocinamos::ugotowaliśmy] la cena.",
+            "pl_translation": "Ugotowaliśmy kolację."
           }
         ]
       },
       {
         "es_word": "cocinasteis",
-        "pl_word": "gotowaliście",
+        "pl_word": "ugotowaliście (cocinar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [cocinasteis::gotowaliście] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie gotowaliście."
-          },
-          {
-            "es_form": "[cocinasteis::gotowaliście] la semana pasada.",
-            "pl_translation": "Gotowaliście w zeszłym tygodniu."
-          },
-          {
-            "es_form": "Nunca [cocinasteis::gotowaliście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie gotowaliście czegoś takiego."
+            "es_form": "Vosotros [cocinasteis::ugotowaliście] la cena.",
+            "pl_translation": "Ugotowaliście kolację."
           }
         ]
       },
       {
         "es_word": "cocinaron",
-        "pl_word": "gotowali",
+        "pl_word": "ugotowali (cocinar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [cocinaron::gotowali] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie gotowali czegoś takiego."
-          },
-          {
-            "es_form": "¿[cocinaron::gotowali] bien el examen?",
-            "pl_translation": "Czy dobrze gotowali egzamin?"
-          },
-          {
-            "es_form": "[cocinaron::gotowali] sin parar durante horas.",
-            "pl_translation": "Gotowali bez przerwy przez wiele godzin."
+            "es_form": "Ellos [cocinaron::ugotowali] la cena.",
+            "pl_translation": "Ugotowali kolację."
           }
         ]
       },
       {
-        "es_word": "cociné",
-        "pl_word": "będę gotować",
+        "es_word": "cocinaré",
+        "pl_word": "będę gotować (cocinar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[cociné::będę gotować] con nosotros mañana?",
-            "pl_translation": "Czy będę gotować z nami jutro?"
-          },
-          {
-            "es_form": "[cociné::będę gotować] la proxima semana.",
-            "pl_translation": "Będę gotować w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Creo que [cociné::będę gotować] bien.",
-            "pl_translation": "Myślę, że będę gotować dobrze."
+            "es_form": "Yo [cocinaré::będę gotować] la cena.",
+            "pl_translation": "Będę gotować kolację."
           }
         ]
       },
       {
-        "es_word": "cocinás",
-        "pl_word": "będziesz gotować",
+        "es_word": "cocinarás",
+        "pl_word": "będziesz gotować (cocinar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [cocinás::będziesz gotować] más temprano.",
-            "pl_translation": "Jutro będziesz gotować wcześniej."
-          },
-          {
-            "es_form": "[cocinás::będziesz gotować] la proxima semana.",
-            "pl_translation": "Będziesz gotować w przyszłym tygodniu."
-          },
-          {
-            "es_form": "El año que viene [cocinás::będziesz gotować] en España.",
-            "pl_translation": "W przyszłym roku będziesz gotować w Hiszpanii."
+            "es_form": "Tú [cocinarás::będziesz gotować] la cena.",
+            "pl_translation": "Będziesz gotować kolację."
           }
         ]
       },
       {
-        "es_word": "cociná",
-        "pl_word": "będzie gotować",
+        "es_word": "cocinará",
+        "pl_word": "będzie gotować (cocinar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [cociná::będzie gotować] más temprano.",
-            "pl_translation": "Jutro będzie gotować wcześniej."
-          },
-          {
-            "es_form": "Creo que [cociná::będzie gotować] bien.",
-            "pl_translation": "Myślę, że będzie gotować dobrze."
-          },
-          {
-            "es_form": "El año que viene [cociná::będzie gotować] en España.",
-            "pl_translation": "W przyszłym roku będzie gotować w Hiszpanii."
+            "es_form": "Él [cocinará::będzie gotować] la cena.",
+            "pl_translation": "Będzie gotować kolację."
           }
         ]
       },
       {
-        "es_word": "cocinemos",
-        "pl_word": "będziemy gotować",
+        "es_word": "cocinaremos",
+        "pl_word": "będziemy gotować (cocinar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[cocinemos::będziemy gotować] con nosotros mañana?",
-            "pl_translation": "Czy będziemy gotować z nami jutro?"
-          },
-          {
-            "es_form": "Creo que [cocinemos::będziemy gotować] bien.",
-            "pl_translation": "Myślę, że będziemy gotować dobrze."
-          },
-          {
-            "es_form": "El año que viene [cocinemos::będziemy gotować] en España.",
-            "pl_translation": "W przyszłym roku będziemy gotować w Hiszpanii."
+            "es_form": "Nosotros [cocinaremos::będziemy gotować] la cena.",
+            "pl_translation": "Będziemy gotować kolację."
           }
         ]
       },
       {
-        "es_word": "cocinéis",
-        "pl_word": "będziecie gotować",
+        "es_word": "cocinaréis",
+        "pl_word": "będziecie gotować (cocinar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [cocinéis::będziecie gotować] bien.",
-            "pl_translation": "Myślę, że będziecie gotować dobrze."
-          },
-          {
-            "es_form": "El año que viene [cocinéis::będziecie gotować] en España.",
-            "pl_translation": "W przyszłym roku będziecie gotować w Hiszpanii."
-          },
-          {
-            "es_form": "Te prometo que [cocinéis::będziecie gotować] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziecie gotować na czas."
+            "es_form": "Vosotros [cocinaréis::będziecie gotować] la cena.",
+            "pl_translation": "Będziecie gotować kolację."
           }
         ]
       },
       {
-        "es_word": "cocinán",
-        "pl_word": "będą gotować",
+        "es_word": "cocinarán",
+        "pl_word": "będą gotować (cocinar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "¿[cocinán::będą gotować] con nosotros mañana?",
-            "pl_translation": "Czy będą gotować z nami jutro?"
-          },
-          {
-            "es_form": "[cocinán::będą gotować] la proxima semana.",
-            "pl_translation": "Będą gotować w przyszłym tygodniu."
-          },
-          {
-            "es_form": "El año que viene [cocinán::będą gotować] en España.",
-            "pl_translation": "W przyszłym roku będą gotować w Hiszpanii."
+            "es_form": "Ellos [cocinarán::będą gotować] la cena.",
+            "pl_translation": "Będą gotować kolację."
           }
         ]
       }

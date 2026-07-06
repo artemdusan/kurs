@@ -233,22 +233,18 @@
     "pl_word": "przestrzegać, być posłusznym",
     "examples": [
       {
-        "es_form": "Voy a [obedecer::przestrzegać, być posłusznym] mañana.",
-        "pl_translation": "Będę przestrzegać, być posłusznym jutro."
+        "es_form": "Quiero [obedecer::przestrzegać] las reglas.",
+        "pl_translation": "Chcę przestrzegać zasad."
       },
       {
-        "es_form": "Hay que [obedecer::przestrzegać, być posłusznym] con cuidado.",
-        "pl_translation": "Trzeba przestrzegać, być posłusznym ostrożnie."
-      },
-      {
-        "es_form": "Me gusta [obedecer::przestrzegać, być posłusznym] por la mañana.",
-        "pl_translation": "Lubię przestrzegać, być posłusznym rano."
+        "es_form": "No puedo [obedecer::przestrzegać] las reglas hoy.",
+        "pl_translation": "Nie mogę dziś przestrzegać zasad."
       }
     ],
     "forms": [
       {
         "es_word": "obedezco",
-        "pl_word": "przestrzegam",
+        "pl_word": "przestrzegam (obedecer)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "[obedezco::przestrzegam] como me enseñaste.",
-            "pl_translation": "przestrzegam tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "[obedezco::przestrzegam] todos los días.",
-            "pl_translation": "przestrzegam codziennie."
-          },
-          {
-            "es_form": "Normalmente [obedezco::przestrzegam] por la mañana.",
-            "pl_translation": "Zazwyczaj przestrzegam rano."
+            "es_form": "Yo [obedezco::przestrzegam] las reglas.",
+            "pl_translation": "Przestrzegam zasad."
           }
         ]
       },
       {
         "es_word": "obedeces",
-        "pl_word": "przestrzegasz",
+        "pl_word": "przestrzegasz (obedecer)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [obedeces::przestrzegasz] con atencion.",
-            "pl_translation": "Zawsze przestrzegasz z uwagą."
-          },
-          {
-            "es_form": "No [obedeces::przestrzegasz] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie przestrzegasz zbyt dobrze."
-          },
-          {
-            "es_form": "[obedeces::przestrzegasz] como me enseñaste.",
-            "pl_translation": "przestrzegasz tak jak mnie nauczyłeś"
+            "es_form": "Tú [obedeces::przestrzegasz] las reglas.",
+            "pl_translation": "Przestrzegasz zasad."
           }
         ]
       },
       {
         "es_word": "obedece",
-        "pl_word": "przestrzega",
+        "pl_word": "przestrzega (obedecer)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [obedece::przestrzega] con atencion.",
-            "pl_translation": "Zawsze przestrzega z uwagą."
-          },
-          {
-            "es_form": "[obedece::przestrzega] como me enseñaste.",
-            "pl_translation": "przestrzega tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "¿[obedece::przestrzega] los fines de semana?",
-            "pl_translation": "Czy przestrzega w weekendy?"
+            "es_form": "Él [obedece::przestrzega] las reglas.",
+            "pl_translation": "Przestrzega zasad."
           }
         ]
       },
       {
         "es_word": "obedecemos",
-        "pl_word": "przestrzegamy",
+        "pl_word": "przestrzegamy (obedecer)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "[obedecemos::przestrzegamy] todos los días.",
-            "pl_translation": "przestrzegamy codziennie."
-          },
-          {
-            "es_form": "Siempre [obedecemos::przestrzegamy] con atencion.",
-            "pl_translation": "Zawsze przestrzegamy z uwagą."
-          },
-          {
-            "es_form": "[obedecemos::przestrzegamy] como me enseñaste.",
-            "pl_translation": "przestrzegamy tak jak mnie nauczyłeś"
+            "es_form": "Nosotros [obedecemos::przestrzegamy] las reglas.",
+            "pl_translation": "Przestrzegamy zasad."
           }
         ]
       },
       {
         "es_word": "obedecéis",
-        "pl_word": "przestrzegacie",
+        "pl_word": "przestrzegacie (obedecer)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [obedecéis::przestrzegacie] por la mañana.",
-            "pl_translation": "Zazwyczaj przestrzegacie rano."
-          },
-          {
-            "es_form": "Siempre [obedecéis::przestrzegacie] con atencion.",
-            "pl_translation": "Zawsze przestrzegacie z uwagą."
-          },
-          {
-            "es_form": "¿[obedecéis::przestrzegacie] los fines de semana?",
-            "pl_translation": "Czy przestrzegacie w weekendy?"
+            "es_form": "Vosotros [obedecéis::przestrzegacie] las reglas.",
+            "pl_translation": "Przestrzegacie zasad."
           }
         ]
       },
       {
         "es_word": "obedecen",
-        "pl_word": "przestrzegają",
+        "pl_word": "przestrzegają (obedecer)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "[obedecen::przestrzegają] todos los días.",
-            "pl_translation": "przestrzegają codziennie."
-          },
-          {
-            "es_form": "No [obedecen::przestrzegają] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie przestrzegają zbyt dobrze."
-          },
-          {
-            "es_form": "Siempre [obedecen::przestrzegają] con atencion.",
-            "pl_translation": "Zawsze przestrzegają z uwagą."
+            "es_form": "Ellos [obedecen::przestrzegają] las reglas.",
+            "pl_translation": "Przestrzegają zasad."
           }
         ]
       },
       {
         "es_word": "obedecí",
-        "pl_word": "przestrzegałem",
+        "pl_word": "przestrzegałem (obedecer)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "[obedecí::przestrzegałem] sin parar durante horas.",
-            "pl_translation": "przestrzegałem bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "¿[obedecí::przestrzegałem] bien el examen?",
-            "pl_translation": "Czy przestrzegałem dobrze egzamin?"
-          },
-          {
-            "es_form": "Ayer [obedecí::przestrzegałem] todo el día.",
-            "pl_translation": "Wczoraj przestrzegałem cały dzień."
+            "es_form": "Yo [obedecí::przestrzegałem] las reglas.",
+            "pl_translation": "Przestrzegałem zasad."
           }
         ]
       },
       {
         "es_word": "obedeciste",
-        "pl_word": "przestrzegałeś",
+        "pl_word": "przestrzegałeś (obedecer)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[obedeciste::przestrzegałeś] bien el examen?",
-            "pl_translation": "Czy przestrzegałeś dobrze egzamin?"
-          },
-          {
-            "es_form": "El mes pasado no [obedeciste::przestrzegałeś] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie przestrzegałeś."
-          },
-          {
-            "es_form": "[obedeciste::przestrzegałeś] sin parar durante horas.",
-            "pl_translation": "przestrzegałeś bez przerwy przez wiele godzin."
+            "es_form": "Tú [obedeciste::przestrzegałeś] las reglas.",
+            "pl_translation": "Przestrzegałeś zasad."
           }
         ]
       },
       {
         "es_word": "obedeció",
-        "pl_word": "przestrzegał",
+        "pl_word": "przestrzegał (obedecer)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "[obedeció::przestrzegał] la semana pasada.",
-            "pl_translation": "przestrzegał w zeszłym tygodniu."
-          },
-          {
-            "es_form": "¿[obedeció::przestrzegał] bien el examen?",
-            "pl_translation": "Czy przestrzegał dobrze egzamin?"
-          },
-          {
-            "es_form": "Nunca [obedeció::przestrzegał] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie przestrzegał czegoś takiego."
+            "es_form": "Él [obedeció::przestrzegał] las reglas.",
+            "pl_translation": "Przestrzegał zasad."
           }
         ]
       },
       {
         "es_word": "obedecimos",
-        "pl_word": "przestrzegaliśmy",
+        "pl_word": "przestrzegaliśmy (obedecer)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[obedecimos::przestrzegaliśmy] bien el examen?",
-            "pl_translation": "Czy przestrzegaliśmy dobrze egzamin?"
-          },
-          {
-            "es_form": "Ayer [obedecimos::przestrzegaliśmy] todo el día.",
-            "pl_translation": "Wczoraj przestrzegaliśmy cały dzień."
-          },
-          {
-            "es_form": "[obedecimos::przestrzegaliśmy] sin parar durante horas.",
-            "pl_translation": "przestrzegaliśmy bez przerwy przez wiele godzin."
+            "es_form": "Nosotros [obedecimos::przestrzegaliśmy] las reglas.",
+            "pl_translation": "Przestrzegaliśmy zasad."
           }
         ]
       },
       {
         "es_word": "obedecisteis",
-        "pl_word": "przestrzegaliście",
+        "pl_word": "przestrzegaliście (obedecer)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [obedecisteis::przestrzegaliście] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie przestrzegaliście."
-          },
-          {
-            "es_form": "¿[obedecisteis::przestrzegaliście] bien el examen?",
-            "pl_translation": "Czy przestrzegaliście dobrze egzamin?"
-          },
-          {
-            "es_form": "Nunca [obedecisteis::przestrzegaliście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie przestrzegaliście czegoś takiego."
+            "es_form": "Vosotros [obedecisteis::przestrzegaliście] las reglas.",
+            "pl_translation": "Przestrzegaliście zasad."
           }
         ]
       },
       {
         "es_word": "obedecieron",
-        "pl_word": "przestrzegali",
+        "pl_word": "przestrzegali (obedecer)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "[obedecieron::przestrzegali] la semana pasada.",
-            "pl_translation": "przestrzegali w zeszłym tygodniu."
-          },
-          {
-            "es_form": "Nunca [obedecieron::przestrzegali] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie przestrzegali czegoś takiego."
-          },
-          {
-            "es_form": "¿[obedecieron::przestrzegali] bien el examen?",
-            "pl_translation": "Czy przestrzegali dobrze egzamin?"
+            "es_form": "Ellos [obedecieron::przestrzegali] las reglas.",
+            "pl_translation": "Przestrzegali zasad."
           }
         ]
       },
       {
         "es_word": "obedeceré",
-        "pl_word": "będę przestrzegać",
+        "pl_word": "będę przestrzegać (obedecer)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[obedeceré::będę przestrzegać] con nosotros mañana?",
-            "pl_translation": "Czy będę będę będę będę będę przestrzegać z nami jutro?"
-          },
-          {
-            "es_form": "Te prometo que [obedeceré::będę przestrzegać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będę będę będę przestrzegać na czas."
-          },
-          {
-            "es_form": "Mañana [obedeceré::będę przestrzegać] más temprano.",
-            "pl_translation": "Jutro będę będę będę będę będę przestrzegać wcześniej."
+            "es_form": "Yo [obedeceré::będę przestrzegać] las reglas.",
+            "pl_translation": "Będę przestrzegać zasad."
           }
         ]
       },
       {
         "es_word": "obedecerás",
-        "pl_word": "będziesz przestrzegać",
+        "pl_word": "będziesz przestrzegać (obedecer)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [obedecerás::będziesz przestrzegać] en España.",
-            "pl_translation": "W przyszłym roku będziesz będziesz będziesz będziesz będziesz przestrzegać w Hiszpanii."
-          },
-          {
-            "es_form": "Creo que [obedecerás::będziesz przestrzegać] bien.",
-            "pl_translation": "Myślę, że będziesz będziesz będziesz przestrzegać dobrze."
-          },
-          {
-            "es_form": "Mañana [obedecerás::będziesz przestrzegać] más temprano.",
-            "pl_translation": "Jutro będziesz będziesz będziesz będziesz będziesz przestrzegać wcześniej."
+            "es_form": "Tú [obedecerás::będziesz przestrzegać] las reglas.",
+            "pl_translation": "Będziesz przestrzegać zasad."
           }
         ]
       },
       {
         "es_word": "obedecerá",
-        "pl_word": "będzie przestrzegać",
+        "pl_word": "będzie przestrzegać (obedecer)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [obedecerá::będzie przestrzegać] bien.",
-            "pl_translation": "Myślę, że będzie będzie będzie przestrzegać dobrze."
-          },
-          {
-            "es_form": "El año que viene [obedecerá::będzie przestrzegać] en España.",
-            "pl_translation": "W przyszłym roku będzie będzie będzie będzie będzie przestrzegać w Hiszpanii."
-          },
-          {
-            "es_form": "[obedecerá::będzie przestrzegać] la proxima semana.",
-            "pl_translation": "będzie będzie przestrzegać w przyszłym tygodniu."
+            "es_form": "Él [obedecerá::będzie przestrzegać] las reglas.",
+            "pl_translation": "Będzie przestrzegać zasad."
           }
         ]
       },
       {
         "es_word": "obedeceremos",
-        "pl_word": "będziemy przestrzegać",
+        "pl_word": "będziemy przestrzegać (obedecer)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "[obedeceremos::będziemy przestrzegać] la proxima semana.",
-            "pl_translation": "będziemy będziemy przestrzegać w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Te prometo que [obedeceremos::będziemy przestrzegać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziemy będziemy będziemy przestrzegać na czas."
-          },
-          {
-            "es_form": "El año que viene [obedeceremos::będziemy przestrzegać] en España.",
-            "pl_translation": "W przyszłym roku będziemy będziemy będziemy będziemy będziemy przestrzegać w Hiszpanii."
+            "es_form": "Nosotros [obedeceremos::będziemy przestrzegać] las reglas.",
+            "pl_translation": "Będziemy przestrzegać zasad."
           }
         ]
       },
       {
         "es_word": "obedeceréis",
-        "pl_word": "będziecie przestrzegać",
+        "pl_word": "będziecie przestrzegać (obedecer)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "[obedeceréis::będziecie przestrzegać] la proxima semana.",
-            "pl_translation": "będziecie będziecie przestrzegać w przyszłym tygodniu."
-          },
-          {
-            "es_form": "¿[obedeceréis::będziecie przestrzegać] con nosotros mañana?",
-            "pl_translation": "Czy będziecie będziecie będziecie będziecie będziecie przestrzegać z nami jutro?"
-          },
-          {
-            "es_form": "Creo que [obedeceréis::będziecie przestrzegać] bien.",
-            "pl_translation": "Myślę, że będziecie będziecie będziecie przestrzegać dobrze."
+            "es_form": "Vosotros [obedeceréis::będziecie przestrzegać] las reglas.",
+            "pl_translation": "Będziecie przestrzegać zasad."
           }
         ]
       },
       {
         "es_word": "obedecerán",
-        "pl_word": "będą przestrzegać",
+        "pl_word": "będą przestrzegać (obedecer)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [obedecerán::będą przestrzegać] en España.",
-            "pl_translation": "W przyszłym roku będą będą będą będą będą przestrzegać w Hiszpanii."
-          },
-          {
-            "es_form": "¿[obedecerán::będą przestrzegać] con nosotros mañana?",
-            "pl_translation": "Czy będą będą będą będą będą przestrzegać z nami jutro?"
-          },
-          {
-            "es_form": "Mañana [obedecerán::będą przestrzegać] más temprano.",
-            "pl_translation": "Jutro będą będą będą będą będą przestrzegać wcześniej."
+            "es_form": "Ellos [obedecerán::będą przestrzegać] las reglas.",
+            "pl_translation": "Będą przestrzegać zasad."
           }
         ]
       }

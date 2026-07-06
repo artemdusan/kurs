@@ -40,7 +40,7 @@
   {
     "type": "noun",
     "es_word": "El cantante",
-    "pl_word": "piosenkarz/piosenkarka",
+    "pl_word": "piosenkarz",
     "examples": [
       {
         "es_form": "Compré [el cantante::piosenkarz] ayer.",
@@ -233,22 +233,18 @@
     "pl_word": "grać (na instrumencie), dotykać",
     "examples": [
       {
-        "es_form": "Voy a [tocar::grać (na instrumencie), dotykać] mañana.",
-        "pl_translation": "Będę grać (na instrumencie), dotykać jutro."
+        "es_form": "Quiero [tocar::grać] la guitarra.",
+        "pl_translation": "Chcę grać na gitarze."
       },
       {
-        "es_form": "Prefiero [tocar::grać (na instrumencie), dotykać] en casa.",
-        "pl_translation": "Wolę grać (na instrumencie), dotykać w domu."
-      },
-      {
-        "es_form": "No puedo [tocar::grać (na instrumencie), dotykać] sin tu ayuda.",
-        "pl_translation": "Nie mogę grać (na instrumencie), dotykać bez twojej pomocy."
+        "es_form": "No puedo [tocar::grać] la guitarra hoy.",
+        "pl_translation": "Nie mogę dziś grać na gitarze."
       }
     ],
     "forms": [
       {
         "es_word": "toco",
-        "pl_word": "gram",
+        "pl_word": "gram (tocar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "[toco::gram] todos los días.",
-            "pl_translation": "Gram codziennie."
-          },
-          {
-            "es_form": "[toco::gram] como me enseñaste.",
-            "pl_translation": "Gram tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Normalmente [toco::gram] por la mañana.",
-            "pl_translation": "Zazwyczaj gram rano."
+            "es_form": "Yo [toco::gram] la guitarra.",
+            "pl_translation": "Gram na gitarze."
           }
         ]
       },
       {
         "es_word": "tocas",
-        "pl_word": "grasz",
+        "pl_word": "grasz (tocar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "[tocas::grasz] como me enseñaste.",
-            "pl_translation": "Grasz tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "¿[tocas::grasz] los fines de semana?",
-            "pl_translation": "Czy grasz w weekendy?"
-          },
-          {
-            "es_form": "[tocas::grasz] todos los días.",
-            "pl_translation": "Grasz codziennie."
+            "es_form": "Tú [tocas::grasz] la guitarra.",
+            "pl_translation": "Grasz na gitarze."
           }
         ]
       },
       {
         "es_word": "toca",
-        "pl_word": "gra",
+        "pl_word": "gra (tocar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "No [toca::gra] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie gra zbyt dobrze."
-          },
-          {
-            "es_form": "[toca::gra] como me enseñaste.",
-            "pl_translation": "Gra tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Normalmente [toca::gra] por la mañana.",
-            "pl_translation": "Zazwyczaj gra rano."
+            "es_form": "Él [toca::gra] la guitarra.",
+            "pl_translation": "Gra na gitarze."
           }
         ]
       },
       {
         "es_word": "tocamos",
-        "pl_word": "gramy",
+        "pl_word": "gramy (tocar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "[tocamos::gramy] como me enseñaste.",
-            "pl_translation": "Gramy tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "¿[tocamos::gramy] los fines de semana?",
-            "pl_translation": "Czy gramy w weekendy?"
-          },
-          {
-            "es_form": "Normalmente [tocamos::gramy] por la mañana.",
-            "pl_translation": "Zazwyczaj gramy rano."
+            "es_form": "Nosotros [tocamos::gramy] la guitarra.",
+            "pl_translation": "Gramy na gitarze."
           }
         ]
       },
       {
         "es_word": "tocáis",
-        "pl_word": "gracie",
+        "pl_word": "gracie (tocar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "No [tocáis::gracie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie gracie zbyt dobrze."
-          },
-          {
-            "es_form": "[tocáis::gracie] como me enseñaste.",
-            "pl_translation": "Gracie tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Siempre [tocáis::gracie] con atencion.",
-            "pl_translation": "Zawsze gracie z uwagą."
+            "es_form": "Vosotros [tocáis::gracie] la guitarra.",
+            "pl_translation": "Gracie na gitarze."
           }
         ]
       },
       {
         "es_word": "tocan",
-        "pl_word": "grają",
+        "pl_word": "grają (tocar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "No [tocan::grają] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie grają zbyt dobrze."
-          },
-          {
-            "es_form": "Normalmente [tocan::grają] por la mañana.",
-            "pl_translation": "Zazwyczaj grają rano."
-          },
-          {
-            "es_form": "¿[tocan::grają] los fines de semana?",
-            "pl_translation": "Czy grają w weekendy?"
+            "es_form": "Ellos [tocan::grają] la guitarra.",
+            "pl_translation": "Grają na gitarze."
           }
         ]
       },
       {
         "es_word": "toqué",
-        "pl_word": "grałem",
+        "pl_word": "grałem (tocar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [toqué::grałem] todo el día.",
-            "pl_translation": "Wczoraj grałem cały dzień."
-          },
-          {
-            "es_form": "¿[toqué::grałem] bien el examen?",
-            "pl_translation": "Czy grałem dobrze egzamin?"
-          },
-          {
-            "es_form": "[toqué::grałem] la semana pasada.",
-            "pl_translation": "Grałem w zeszłym tygodniu."
+            "es_form": "Yo [toqué::grałem] la guitarra.",
+            "pl_translation": "Grałem na gitarze."
           }
         ]
       },
       {
         "es_word": "tocaste",
-        "pl_word": "grałeś",
+        "pl_word": "grałeś (tocar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "[tocaste::grałeś] la semana pasada.",
-            "pl_translation": "Grałeś w zeszłym tygodniu."
-          },
-          {
-            "es_form": "El mes pasado no [tocaste::grałeś] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie grałeś."
-          },
-          {
-            "es_form": "Ayer [tocaste::grałeś] todo el día.",
-            "pl_translation": "Wczoraj grałeś cały dzień."
+            "es_form": "Tú [tocaste::grałeś] la guitarra.",
+            "pl_translation": "Grałeś na gitarze."
           }
         ]
       },
       {
         "es_word": "tocó",
-        "pl_word": "grał",
+        "pl_word": "grał (tocar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [tocó::grał] todo el día.",
-            "pl_translation": "Wczoraj grał cały dzień."
-          },
-          {
-            "es_form": "¿[tocó::grał] bien el examen?",
-            "pl_translation": "Czy grał dobrze egzamin?"
-          },
-          {
-            "es_form": "El mes pasado no [tocó::grał] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie grał."
+            "es_form": "Él [tocó::grał] la guitarra.",
+            "pl_translation": "Grał na gitarze."
           }
         ]
       },
       {
         "es_word": "tocamos",
-        "pl_word": "graliśmy",
+        "pl_word": "graliśmy (tocar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "[tocamos::graliśmy] la semana pasada.",
-            "pl_translation": "Graliśmy w zeszłym tygodniu."
-          },
-          {
-            "es_form": "Nunca [tocamos::graliśmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie graliśmy czegoś takiego."
-          },
-          {
-            "es_form": "Ayer [tocamos::graliśmy] todo el día.",
-            "pl_translation": "Wczoraj graliśmy cały dzień."
+            "es_form": "Nosotros [tocamos::graliśmy] la guitarra.",
+            "pl_translation": "Graliśmy na gitarze."
           }
         ]
       },
       {
         "es_word": "tocasteis",
-        "pl_word": "graliście",
+        "pl_word": "graliście (tocar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "[tocasteis::graliście] la semana pasada.",
-            "pl_translation": "Graliście w zeszłym tygodniu."
-          },
-          {
-            "es_form": "Ayer [tocasteis::graliście] todo el día.",
-            "pl_translation": "Wczoraj graliście cały dzień."
-          },
-          {
-            "es_form": "Nunca [tocasteis::graliście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie graliście czegoś takiego."
+            "es_form": "Vosotros [tocasteis::graliście] la guitarra.",
+            "pl_translation": "Graliście na gitarze."
           }
         ]
       },
       {
         "es_word": "tocaron",
-        "pl_word": "grali",
+        "pl_word": "grali (tocar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "[tocaron::grali] la semana pasada.",
-            "pl_translation": "Grali w zeszłym tygodniu."
-          },
-          {
-            "es_form": "Nunca [tocaron::grali] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie grali czegoś takiego."
-          },
-          {
-            "es_form": "Ayer [tocaron::grali] todo el día.",
-            "pl_translation": "Wczoraj grali cały dzień."
+            "es_form": "Ellos [tocaron::grali] la guitarra.",
+            "pl_translation": "Grali na gitarze."
           }
         ]
       },
       {
         "es_word": "tocaré",
-        "pl_word": "będę grać",
+        "pl_word": "będę grać (tocar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [tocaré::będę grać] bien.",
-            "pl_translation": "Myślę, że będę grać dobrze."
-          },
-          {
-            "es_form": "¿[tocaré::będę grać] con nosotros mañana?",
-            "pl_translation": "Czy będę grać z nami jutro?"
-          },
-          {
-            "es_form": "Mañana [tocaré::będę grać] más temprano.",
-            "pl_translation": "Jutro będę grać wcześniej."
+            "es_form": "Yo [tocaré::będę grać] la guitarra.",
+            "pl_translation": "Będę grać na gitarze."
           }
         ]
       },
       {
         "es_word": "tocarás",
-        "pl_word": "będziesz grać",
+        "pl_word": "będziesz grać (tocar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [tocarás::będziesz grać] en España.",
-            "pl_translation": "W przyszłym roku będziesz grać w Hiszpanii."
-          },
-          {
-            "es_form": "¿[tocarás::będziesz grać] con nosotros mañana?",
-            "pl_translation": "Czy będziesz grać z nami jutro?"
-          },
-          {
-            "es_form": "Te prometo que [tocarás::będziesz grać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziesz grać na czas."
+            "es_form": "Tú [tocarás::będziesz grać] la guitarra.",
+            "pl_translation": "Będziesz grać na gitarze."
           }
         ]
       },
       {
         "es_word": "tocará",
-        "pl_word": "będzie grać",
+        "pl_word": "będzie grać (tocar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "[tocará::będzie grać] la proxima semana.",
-            "pl_translation": "Będzie grać w przyszłym tygodniu."
-          },
-          {
-            "es_form": "¿[tocará::będzie grać] con nosotros mañana?",
-            "pl_translation": "Czy będzie grać z nami jutro?"
-          },
-          {
-            "es_form": "Creo que [tocará::będzie grać] bien.",
-            "pl_translation": "Myślę, że będzie grać dobrze."
+            "es_form": "Él [tocará::będzie grać] la guitarra.",
+            "pl_translation": "Będzie grać na gitarze."
           }
         ]
       },
       {
         "es_word": "tocaremos",
-        "pl_word": "będziemy grać",
+        "pl_word": "będziemy grać (tocar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [tocaremos::będziemy grać] bien.",
-            "pl_translation": "Myślę, że będziemy grać dobrze."
-          },
-          {
-            "es_form": "Mañana [tocaremos::będziemy grać] más temprano.",
-            "pl_translation": "Jutro będziemy grać wcześniej."
-          },
-          {
-            "es_form": "[tocaremos::będziemy grać] la proxima semana.",
-            "pl_translation": "Będziemy grać w przyszłym tygodniu."
+            "es_form": "Nosotros [tocaremos::będziemy grać] la guitarra.",
+            "pl_translation": "Będziemy grać na gitarze."
           }
         ]
       },
       {
         "es_word": "tocaréis",
-        "pl_word": "będziecie grać",
+        "pl_word": "będziecie grać (tocar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "[tocaréis::będziecie grać] la proxima semana.",
-            "pl_translation": "Będziecie grać w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Mañana [tocaréis::będziecie grać] más temprano.",
-            "pl_translation": "Jutro będziecie grać wcześniej."
-          },
-          {
-            "es_form": "El año que viene [tocaréis::będziecie grać] en España.",
-            "pl_translation": "W przyszłym roku będziecie grać w Hiszpanii."
+            "es_form": "Vosotros [tocaréis::będziecie grać] la guitarra.",
+            "pl_translation": "Będziecie grać na gitarze."
           }
         ]
       },
       {
         "es_word": "tocarán",
-        "pl_word": "będą grać",
+        "pl_word": "będą grać (tocar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [tocarán::będą grać] en España.",
-            "pl_translation": "W przyszłym roku będą grać w Hiszpanii."
-          },
-          {
-            "es_form": "[tocarán::będą grać] la proxima semana.",
-            "pl_translation": "Będą grać w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Mañana [tocarán::będą grać] más temprano.",
-            "pl_translation": "Jutro będą grać wcześniej."
+            "es_form": "Ellos [tocarán::będą grać] la guitarra.",
+            "pl_translation": "Będą grać na gitarze."
           }
         ]
       }

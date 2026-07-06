@@ -233,22 +233,18 @@
     "pl_word": "kierować",
     "examples": [
       {
-        "es_form": "No puedo [dirigir::kierować] sin tu ayuda.",
-        "pl_translation": "Nie mogę kierować bez twojej pomocy."
+        "es_form": "Quiero [dirigir::kierować] la empresa.",
+        "pl_translation": "Chcę kierować firmą."
       },
       {
-        "es_form": "Voy a [dirigir::kierować] mañana.",
-        "pl_translation": "Będę kierować jutro."
-      },
-      {
-        "es_form": "Me gusta [dirigir::kierować] por la mañana.",
-        "pl_translation": "Lubię kierować rano."
+        "es_form": "No puedo [dirigir::kierować] la empresa hoy.",
+        "pl_translation": "Nie mogę dziś kierować firmą."
       }
     ],
     "forms": [
       {
         "es_word": "dirijo",
-        "pl_word": "kieruję",
+        "pl_word": "kieruję (dirigir)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [dirijo::kieruję] por la mañana.",
-            "pl_translation": "Zazwyczaj kieruję rano."
-          },
-          {
-            "es_form": "[dirijo::kieruję] como me enseñaste.",
-            "pl_translation": "Kieruję tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "[dirijo::kieruję] todos los días.",
-            "pl_translation": "Kieruję codziennie."
+            "es_form": "Yo [dirijo::kieruję] la empresa.",
+            "pl_translation": "Kieruję firmą."
           }
         ]
       },
       {
         "es_word": "diriges",
-        "pl_word": "kierujesz",
+        "pl_word": "kierujesz (dirigir)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "[diriges::kierujesz] todos los días.",
-            "pl_translation": "Kierujesz codziennie."
-          },
-          {
-            "es_form": "[diriges::kierujesz] como me enseñaste.",
-            "pl_translation": "Kierujesz tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Siempre [diriges::kierujesz] con atención.",
-            "pl_translation": "Zawsze kierujesz z uwagą."
+            "es_form": "Tú [diriges::kierujesz] la empresa.",
+            "pl_translation": "Kierujesz firmą."
           }
         ]
       },
       {
         "es_word": "dirige",
-        "pl_word": "kieruje",
+        "pl_word": "kieruje (dirigir)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "[dirige::kieruje] todos los días.",
-            "pl_translation": "Kieruje codziennie."
-          },
-          {
-            "es_form": "Normalmente [dirige::kieruje] por la mañana.",
-            "pl_translation": "Zazwyczaj kieruje rano."
-          },
-          {
-            "es_form": "No [dirige::kieruje] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie kieruje zbyt dobrze."
+            "es_form": "Él [dirige::kieruje] la empresa.",
+            "pl_translation": "Kieruje firmą."
           }
         ]
       },
       {
         "es_word": "dirigimos",
-        "pl_word": "kierujemy",
+        "pl_word": "kierujemy (dirigir)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "[dirigimos::kierujemy] como me enseñaste.",
-            "pl_translation": "Kierujemy tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Normalmente [dirigimos::kierujemy] por la mañana.",
-            "pl_translation": "Zazwyczaj kierujemy rano."
-          },
-          {
-            "es_form": "No [dirigimos::kierujemy] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie kierujemy zbyt dobrze."
+            "es_form": "Nosotros [dirigimos::kierujemy] la empresa.",
+            "pl_translation": "Kierujemy firmą."
           }
         ]
       },
       {
         "es_word": "dirigís",
-        "pl_word": "kierujecie",
+        "pl_word": "kierujecie (dirigir)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "No [dirigís::kierujecie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie kierujecie zbyt dobrze."
-          },
-          {
-            "es_form": "Normalmente [dirigís::kierujecie] por la mañana.",
-            "pl_translation": "Zazwyczaj kierujecie rano."
-          },
-          {
-            "es_form": "[dirigís::kierujecie] todos los días.",
-            "pl_translation": "Kierujecie codziennie."
+            "es_form": "Vosotros [dirigís::kierujecie] la empresa.",
+            "pl_translation": "Kierujecie firmą."
           }
         ]
       },
       {
         "es_word": "dirigen",
-        "pl_word": "kierują",
+        "pl_word": "kierują (dirigir)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [dirigen::kierują] por la mañana.",
-            "pl_translation": "Zazwyczaj kierują rano."
-          },
-          {
-            "es_form": "[dirigen::kierują] como me enseñaste.",
-            "pl_translation": "Kierują tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "¿[dirigen::kierują] los fines de semana?",
-            "pl_translation": "Czy kierują w weekendy?"
+            "es_form": "Ellos [dirigen::kierują] la empresa.",
+            "pl_translation": "Kierują firmą."
           }
         ]
       },
       {
         "es_word": "dirigí",
-        "pl_word": "kierowałem",
+        "pl_word": "kierowałem (dirigir)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "[dirigí::kierowałem] sin parar durante horas.",
-            "pl_translation": "Kierowałem"
-          },
-          {
-            "es_form": "Ayer [dirigí::kierowałem] todo el día.",
-            "pl_translation": "Wczoraj kierowałem"
-          },
-          {
-            "es_form": "¿[dirigí::kierowałem] bien el examen?",
-            "pl_translation": "Czy kierowałem"
+            "es_form": "Yo [dirigí::kierowałem] la empresa.",
+            "pl_translation": "Kierowałem firmą."
           }
         ]
       },
       {
         "es_word": "dirigiste",
-        "pl_word": "kierowałeś",
+        "pl_word": "kierowałeś (dirigir)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [dirigiste::kierowałeś] todo el día.",
-            "pl_translation": "Wczoraj kierowałeś"
-          },
-          {
-            "es_form": "El mes pasado no [dirigiste::kierowałeś] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie kierowałeś"
-          },
-          {
-            "es_form": "Nunca [dirigiste::kierowałeś] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie kierowałeś"
+            "es_form": "Tú [dirigiste::kierowałeś] la empresa.",
+            "pl_translation": "Kierowałeś firmą."
           }
         ]
       },
       {
         "es_word": "dirigió",
-        "pl_word": "kierował",
+        "pl_word": "kierował (dirigir)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [dirigió::kierował] todo el día.",
-            "pl_translation": "Wczoraj kierował"
-          },
-          {
-            "es_form": "[dirigió::kierował] sin parar durante horas.",
-            "pl_translation": "Kierował"
-          },
-          {
-            "es_form": "[dirigió::kierował] la semana pasada.",
-            "pl_translation": "Kierował"
+            "es_form": "Él [dirigió::kierował] la empresa.",
+            "pl_translation": "Kierował firmą."
           }
         ]
       },
       {
         "es_word": "dirigimos",
-        "pl_word": "kierowaliśmy",
+        "pl_word": "kierowaliśmy (dirigir)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "[dirigimos::kierowaliśmy] sin parar durante horas.",
-            "pl_translation": "Kierowaliśmy"
-          },
-          {
-            "es_form": "[dirigimos::kierowaliśmy] la semana pasada.",
-            "pl_translation": "Kierowaliśmy"
-          },
-          {
-            "es_form": "Nunca [dirigimos::kierowaliśmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie kierowaliśmy"
+            "es_form": "Nosotros [dirigimos::kierowaliśmy] la empresa.",
+            "pl_translation": "Kierowaliśmy firmą."
           }
         ]
       },
       {
         "es_word": "dirigisteis",
-        "pl_word": "kierowaliście",
+        "pl_word": "kierowaliście (dirigir)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [dirigisteis::kierowaliście] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie kierowaliście"
-          },
-          {
-            "es_form": "Ayer [dirigisteis::kierowaliście] todo el día.",
-            "pl_translation": "Wczoraj kierowaliście"
-          },
-          {
-            "es_form": "[dirigisteis::kierowaliście] la semana pasada.",
-            "pl_translation": "Kierowaliście"
+            "es_form": "Vosotros [dirigisteis::kierowaliście] la empresa.",
+            "pl_translation": "Kierowaliście firmą."
           }
         ]
       },
       {
         "es_word": "dirigieron",
-        "pl_word": "kierowali",
+        "pl_word": "kierowali (dirigir)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [dirigieron::kierowali] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie kierowali"
-          },
-          {
-            "es_form": "El mes pasado no [dirigieron::kierowali] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie kierowali"
-          },
-          {
-            "es_form": "[dirigieron::kierowali] sin parar durante horas.",
-            "pl_translation": "Kierowali"
+            "es_form": "Ellos [dirigieron::kierowali] la empresa.",
+            "pl_translation": "Kierowali firmą."
           }
         ]
       },
       {
         "es_word": "dirigiré",
-        "pl_word": "będę kierował",
+        "pl_word": "będę kierować (dirigir)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [dirigiré::będę kierował] en España.",
-            "pl_translation": "W przyszłym roku będę kierował"
-          },
-          {
-            "es_form": "[dirigiré::będę kierował] la próxima semana.",
-            "pl_translation": "Będę kierował"
-          },
-          {
-            "es_form": "¿[dirigiré::będę kierował] con nosotros mañana?",
-            "pl_translation": "Czy będę kierował"
+            "es_form": "Yo [dirigiré::będę kierować] la empresa.",
+            "pl_translation": "Będę kierować firmą."
           }
         ]
       },
       {
         "es_word": "dirigirás",
-        "pl_word": "będziesz kierował",
+        "pl_word": "będziesz kierować (dirigir)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [dirigirás::będziesz kierował] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziesz kierował"
-          },
-          {
-            "es_form": "¿[dirigirás::będziesz kierował] con nosotros mañana?",
-            "pl_translation": "Czy będziesz kierował"
-          },
-          {
-            "es_form": "[dirigirás::będziesz kierował] la próxima semana.",
-            "pl_translation": "Będziesz kierował"
+            "es_form": "Tú [dirigirás::będziesz kierować] la empresa.",
+            "pl_translation": "Będziesz kierować firmą."
           }
         ]
       },
       {
         "es_word": "dirigirá",
-        "pl_word": "będzie kierował",
+        "pl_word": "będzie kierować (dirigir)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[dirigirá::będzie kierował] con nosotros mañana?",
-            "pl_translation": "Czy będzie kierował"
-          },
-          {
-            "es_form": "Mañana [dirigirá::będzie kierował] más temprano.",
-            "pl_translation": "Jutro będzie kierował"
-          },
-          {
-            "es_form": "[dirigirá::będzie kierował] la próxima semana.",
-            "pl_translation": "Będzie kierował"
+            "es_form": "Él [dirigirá::będzie kierować] la empresa.",
+            "pl_translation": "Będzie kierować firmą."
           }
         ]
       },
       {
         "es_word": "dirigiremos",
-        "pl_word": "będziemy kierowali",
+        "pl_word": "będziemy kierować (dirigir)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [dirigiremos::będziemy kierowali] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziemy kierowali"
-          },
-          {
-            "es_form": "[dirigiremos::będziemy kierowali] la próxima semana.",
-            "pl_translation": "Będziemy kierowali"
-          },
-          {
-            "es_form": "El año que viene [dirigiremos::będziemy kierowali] en España.",
-            "pl_translation": "W przyszłym roku będziemy kierowali"
+            "es_form": "Nosotros [dirigiremos::będziemy kierować] la empresa.",
+            "pl_translation": "Będziemy kierować firmą."
           }
         ]
       },
       {
         "es_word": "dirigiréis",
-        "pl_word": "będziecie kierowali",
+        "pl_word": "będziecie kierować (dirigir)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "[dirigiréis::będziecie kierowali] la próxima semana.",
-            "pl_translation": "Będziecie kierowali"
-          },
-          {
-            "es_form": "¿[dirigiréis::będziecie kierowali] con nosotros mañana?",
-            "pl_translation": "Czy będziecie kierowali"
-          },
-          {
-            "es_form": "Mañana [dirigiréis::będziecie kierowali] más temprano.",
-            "pl_translation": "Jutro będziecie kierowali"
+            "es_form": "Vosotros [dirigiréis::będziecie kierować] la empresa.",
+            "pl_translation": "Będziecie kierować firmą."
           }
         ]
       },
       {
         "es_word": "dirigirán",
-        "pl_word": "będą kierowali",
+        "pl_word": "będą kierować (dirigir)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [dirigirán::będą kierowali] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będą kierowali"
-          },
-          {
-            "es_form": "Mañana [dirigirán::będą kierowali] más temprano.",
-            "pl_translation": "Jutro będą kierowali"
-          },
-          {
-            "es_form": "[dirigirán::będą kierowali] la próxima semana.",
-            "pl_translation": "Będą kierowali"
+            "es_form": "Ellos [dirigirán::będą kierować] la empresa.",
+            "pl_translation": "Będą kierować firmą."
           }
         ]
       }

@@ -233,22 +233,18 @@
     "pl_word": "opowiadać",
     "examples": [
       {
-        "es_form": "Es importante [narrar::opowiadać] todos los días.",
-        "pl_translation": "Ważne jest opowiadać codziennie."
+        "es_form": "Quiero [narrar::opowiadać] una historia.",
+        "pl_translation": "Chcę opowiadać historię."
       },
       {
-        "es_form": "Prefiero [narrar::opowiadać] en casa.",
-        "pl_translation": "Wolę opowiadać w domu."
-      },
-      {
-        "es_form": "¿Puedes [narrar::opowiadać] más rápido?",
-        "pl_translation": "Możesz opowiadać szybciej?"
+        "es_form": "No puedo [narrar::opowiadać] una historia hoy.",
+        "pl_translation": "Nie mogę dziś opowiadać historię."
       }
     ],
     "forms": [
       {
         "es_word": "narro",
-        "pl_word": "opowiadam",
+        "pl_word": "opowiadam (narrar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[narro::opowiadam] los fines de semana?",
-            "pl_translation": "Czy opowiadam w weekendy?"
-          },
-          {
-            "es_form": "No [narro::opowiadam] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie opowiadam zbyt dobrze."
-          },
-          {
-            "es_form": "[narro::opowiadam] todos los días.",
-            "pl_translation": "Opowiadam codziennie."
+            "es_form": "Yo [narro::opowiadam] una historia.",
+            "pl_translation": "Opowiadam historię."
           }
         ]
       },
       {
         "es_word": "narras",
-        "pl_word": "opowiadasz",
+        "pl_word": "opowiadasz (narrar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "[narras::opowiadasz] como me enseñaste.",
-            "pl_translation": "Opowiadasz tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "No [narras::opowiadasz] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie opowiadasz zbyt dobrze."
-          },
-          {
-            "es_form": "Normalmente [narras::opowiadasz] por la mañana.",
-            "pl_translation": "Zazwyczaj opowiadasz rano."
+            "es_form": "Tú [narras::opowiadasz] una historia.",
+            "pl_translation": "Opowiadasz historię."
           }
         ]
       },
       {
         "es_word": "narra",
-        "pl_word": "opowiada",
+        "pl_word": "opowiada (narrar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "[narra::opowiada] todos los días.",
-            "pl_translation": "Opowiadać codziennie."
-          },
-          {
-            "es_form": "¿[narra::opowiada] los fines de semana?",
-            "pl_translation": "Czy opowiadać w weekendy?"
-          },
-          {
-            "es_form": "No [narra::opowiada] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie opowiadać zbyt dobrze."
+            "es_form": "Él [narra::opowiada] una historia.",
+            "pl_translation": "Opowiada historię."
           }
         ]
       },
       {
         "es_word": "narramos",
-        "pl_word": "opowiadamy",
+        "pl_word": "opowiadamy (narrar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "[narramos::opowiadamy] todos los días.",
-            "pl_translation": "Opowiadamy codziennie."
-          },
-          {
-            "es_form": "¿[narramos::opowiadamy] los fines de semana?",
-            "pl_translation": "Czy opowiadamy w weekendy?"
-          },
-          {
-            "es_form": "[narramos::opowiadamy] como me enseñaste.",
-            "pl_translation": "Opowiadamy tak jak mnie nauczyłeś"
+            "es_form": "Nosotros [narramos::opowiadamy] una historia.",
+            "pl_translation": "Opowiadamy historię."
           }
         ]
       },
       {
         "es_word": "narráis",
-        "pl_word": "opowiadacie",
+        "pl_word": "opowiadacie (narrar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [narráis::opowiadacie] por la mañana.",
-            "pl_translation": "Zazwyczaj opowiadacie rano."
-          },
-          {
-            "es_form": "No [narráis::opowiadacie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie opowiadacie zbyt dobrze."
-          },
-          {
-            "es_form": "[narráis::opowiadacie] como me enseñaste.",
-            "pl_translation": "Opowiadacie tak jak mnie nauczyłeś"
+            "es_form": "Vosotros [narráis::opowiadacie] una historia.",
+            "pl_translation": "Opowiadacie historię."
           }
         ]
       },
       {
         "es_word": "narran",
-        "pl_word": "opowiadają",
+        "pl_word": "opowiadają (narrar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [narran::opowiadają] con atencion.",
-            "pl_translation": "Zawsze opowiadają z uwagą."
-          },
-          {
-            "es_form": "Normalmente [narran::opowiadają] por la mañana.",
-            "pl_translation": "Zazwyczaj opowiadają rano."
-          },
-          {
-            "es_form": "¿[narran::opowiadają] los fines de semana?",
-            "pl_translation": "Czy opowiadają w weekendy?"
+            "es_form": "Ellos [narran::opowiadają] una historia.",
+            "pl_translation": "Opowiadają historię."
           }
         ]
       },
       {
         "es_word": "narré",
-        "pl_word": "opowiadałem",
+        "pl_word": "opowiedziałem (narrar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [narré::opowiadałem] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie opowiadałem czegoś takiego."
-          },
-          {
-            "es_form": "El mes pasado no [narré::opowiadałem] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie opowiadałem."
-          },
-          {
-            "es_form": "¿[narré::opowiadałem] bien el examen?",
-            "pl_translation": "Czy opowiadałem dobrze egzamin?"
+            "es_form": "Yo [narré::opowiedziałem] una historia.",
+            "pl_translation": "Opowiedziałem historię."
           }
         ]
       },
       {
         "es_word": "narraste",
-        "pl_word": "opowiadałeś",
+        "pl_word": "opowiedziałeś (narrar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [narraste::opowiadałeś] todo el día.",
-            "pl_translation": "Wczoraj opowiadałeś cały dzień."
-          },
-          {
-            "es_form": "¿[narraste::opowiadałeś] bien el examen?",
-            "pl_translation": "Czy opowiadałeś dobrze egzamin?"
-          },
-          {
-            "es_form": "[narraste::opowiadałeś] la semana pasada.",
-            "pl_translation": "Opowiadałeś w zeszłym tygodniu."
+            "es_form": "Tú [narraste::opowiedziałeś] una historia.",
+            "pl_translation": "Opowiedziałeś historię."
           }
         ]
       },
       {
         "es_word": "narró",
-        "pl_word": "opowiadał",
+        "pl_word": "opowiedział (narrar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [narró::opowiadał] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie opowiadał czegoś takiego."
-          },
-          {
-            "es_form": "Ayer [narró::opowiadał] todo el día.",
-            "pl_translation": "Wczoraj opowiadał cały dzień."
-          },
-          {
-            "es_form": "¿[narró::opowiadał] bien el examen?",
-            "pl_translation": "Czy opowiadał dobrze egzamin?"
+            "es_form": "Él [narró::opowiedział] una historia.",
+            "pl_translation": "Opowiedział historię."
           }
         ]
       },
       {
         "es_word": "narramos",
-        "pl_word": "opowiadaliśmy",
+        "pl_word": "opowiedzieliśmy (narrar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [narramos::opowiadaliśmy] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie opowiadaliśmy."
-          },
-          {
-            "es_form": "[narramos::opowiadaliśmy] la semana pasada.",
-            "pl_translation": "Opowiadaliśmy w zeszłym tygodniu."
-          },
-          {
-            "es_form": "Nunca [narramos::opowiadaliśmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie opowiadaliśmy czegoś takiego."
+            "es_form": "Nosotros [narramos::opowiedzieliśmy] una historia.",
+            "pl_translation": "Opowiedzieliśmy historię."
           }
         ]
       },
       {
         "es_word": "narrasteis",
-        "pl_word": "opowiadaliście",
+        "pl_word": "opowiedzieliście (narrar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [narrasteis::opowiadaliście] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie opowiadaliście."
-          },
-          {
-            "es_form": "¿[narrasteis::opowiadaliście] bien el examen?",
-            "pl_translation": "Czy opowiadaliście dobrze egzamin?"
-          },
-          {
-            "es_form": "[narrasteis::opowiadaliście] sin parar durante horas.",
-            "pl_translation": "Opowiadaliście bez przerwy przez wiele godzin."
+            "es_form": "Vosotros [narrasteis::opowiedzieliście] una historia.",
+            "pl_translation": "Opowiedzieliście historię."
           }
         ]
       },
       {
         "es_word": "narraron",
-        "pl_word": "opowiadali",
+        "pl_word": "opowiedzieli (narrar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [narraron::opowiadali] todo el día.",
-            "pl_translation": "Wczoraj opowiadali cały dzień."
-          },
-          {
-            "es_form": "[narraron::opowiadali] sin parar durante horas.",
-            "pl_translation": "Opowiadali bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "Nunca [narraron::opowiadali] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie opowiadali czegoś takiego."
+            "es_form": "Ellos [narraron::opowiedzieli] una historia.",
+            "pl_translation": "Opowiedzieli historię."
           }
         ]
       },
       {
-        "es_word": "narré",
-        "pl_word": "będę opowiadać",
+        "es_word": "narraré",
+        "pl_word": "będę opowiadać (narrar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [narré::będę opowiadać] bien.",
-            "pl_translation": "Myślę, że będę opowiadać dobrze."
-          },
-          {
-            "es_form": "Te prometo que [narré::będę opowiadać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będę opowiadać na czas."
-          },
-          {
-            "es_form": "Mañana [narré::będę opowiadać] más temprano.",
-            "pl_translation": "Jutro będę opowiadać wcześniej."
+            "es_form": "Yo [narraré::będę opowiadać] una historia.",
+            "pl_translation": "Będę opowiadać historię."
           }
         ]
       },
       {
-        "es_word": "narrás",
-        "pl_word": "będziesz opowiadać",
+        "es_word": "narrarás",
+        "pl_word": "będziesz opowiadać (narrar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[narrás::będziesz opowiadać] con nosotros mañana?",
-            "pl_translation": "Czy będziesz opowiadać z nami jutro?"
-          },
-          {
-            "es_form": "[narrás::będziesz opowiadać] la proxima semana.",
-            "pl_translation": "Będziesz opowiadać w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Mañana [narrás::będziesz opowiadać] más temprano.",
-            "pl_translation": "Jutro będziesz opowiadać wcześniej."
+            "es_form": "Tú [narrarás::będziesz opowiadać] una historia.",
+            "pl_translation": "Będziesz opowiadać historię."
           }
         ]
       },
       {
-        "es_word": "narrá",
-        "pl_word": "będzie opowiadać",
+        "es_word": "narrará",
+        "pl_word": "będzie opowiadać (narrar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [narrá::będzie opowiadać] bien.",
-            "pl_translation": "Myślę, że będzie opowiadać dobrze."
-          },
-          {
-            "es_form": "Te prometo que [narrá::będzie opowiadać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będzie opowiadać na czas."
-          },
-          {
-            "es_form": "Mañana [narrá::będzie opowiadać] más temprano.",
-            "pl_translation": "Jutro będzie opowiadać wcześniej."
+            "es_form": "Él [narrará::będzie opowiadać] una historia.",
+            "pl_translation": "Będzie opowiadać historię."
           }
         ]
       },
       {
-        "es_word": "narremos",
-        "pl_word": "będziemy opowiadać",
+        "es_word": "narraremos",
+        "pl_word": "będziemy opowiadać (narrar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[narremos::będziemy opowiadać] con nosotros mañana?",
-            "pl_translation": "Czy będziemy opowiadać z nami jutro?"
-          },
-          {
-            "es_form": "El año que viene [narremos::będziemy opowiadać] en España.",
-            "pl_translation": "W przyszłym roku będziemy opowiadać w Hiszpanii."
-          },
-          {
-            "es_form": "Te prometo que [narremos::będziemy opowiadać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziemy opowiadać na czas."
+            "es_form": "Nosotros [narraremos::będziemy opowiadać] una historia.",
+            "pl_translation": "Będziemy opowiadać historię."
           }
         ]
       },
       {
-        "es_word": "narréis",
-        "pl_word": "będziecie opowiadać",
+        "es_word": "narraréis",
+        "pl_word": "będziecie opowiadać (narrar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [narréis::będziecie opowiadać] en España.",
-            "pl_translation": "W przyszłym roku będziecie opowiadać w Hiszpanii."
-          },
-          {
-            "es_form": "Creo que [narréis::będziecie opowiadać] bien.",
-            "pl_translation": "Myślę, że będziecie opowiadać dobrze."
-          },
-          {
-            "es_form": "Mañana [narréis::będziecie opowiadać] más temprano.",
-            "pl_translation": "Jutro będziecie opowiadać wcześniej."
+            "es_form": "Vosotros [narraréis::będziecie opowiadać] una historia.",
+            "pl_translation": "Będziecie opowiadać historię."
           }
         ]
       },
       {
-        "es_word": "narrán",
-        "pl_word": "będą opowiadać",
+        "es_word": "narrarán",
+        "pl_word": "będą opowiadać (narrar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [narrán::będą opowiadać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będą opowiadać na czas."
-          },
-          {
-            "es_form": "Mañana [narrán::będą opowiadać] más temprano.",
-            "pl_translation": "Jutro będą opowiadać wcześniej."
-          },
-          {
-            "es_form": "El año que viene [narrán::będą opowiadać] en España.",
-            "pl_translation": "W przyszłym roku będą opowiadać w Hiszpanii."
+            "es_form": "Ellos [narrarán::będą opowiadać] una historia.",
+            "pl_translation": "Będą opowiadać historię."
           }
         ]
       }

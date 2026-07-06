@@ -233,22 +233,18 @@
     "pl_word": "inwestować",
     "examples": [
       {
-        "es_form": "¿Puedes [invertir::inwestować] más rápido?",
-        "pl_translation": "Możesz inwestować szybciej?"
+        "es_form": "Quiero [invertir::inwestować] en la bolsa.",
+        "pl_translation": "Chcę inwestować na giełdzie."
       },
       {
-        "es_form": "Es importante [invertir::inwestować] con inteligencia.",
-        "pl_translation": "Ważne jest inwestować mądrze."
-      },
-      {
-        "es_form": "No puedo [invertir::inwestować] sin tu ayuda.",
-        "pl_translation": "Nie mogę inwestować bez twojej pomocy."
+        "es_form": "No puedo [invertir::inwestować] en la bolsa hoy.",
+        "pl_translation": "Nie mogę dziś inwestować na giełdzie."
       }
     ],
     "forms": [
       {
         "es_word": "invierto",
-        "pl_word": "inwestuję",
+        "pl_word": "inwestuję (invertir)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[invierto::inwestuję] los fines de semana?",
-            "pl_translation": "Czy inwestuję w weekendy?"
-          },
-          {
-            "es_form": "[invierto::inwestuję] en la bolsa.",
+            "es_form": "Yo [invierto::inwestuję] en la bolsa.",
             "pl_translation": "Inwestuję na giełdzie."
-          },
-          {
-            "es_form": "No [invierto::inwestuję] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie inwestuję zbyt dobrze."
           }
         ]
       },
       {
         "es_word": "inviertes",
-        "pl_word": "inwestujesz",
+        "pl_word": "inwestujesz (invertir)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "[inviertes::inwestujesz] como me enseñaste.",
-            "pl_translation": "Inwestujesz tak, jak mnie nauczyłeś."
-          },
-          {
-            "es_form": "[inviertes::inwestujesz] en acciones.",
-            "pl_translation": "Inwestujesz w akcje."
-          },
-          {
-            "es_form": "Siempre [inviertes::inwestujesz] con atención.",
-            "pl_translation": "Zawsze inwestujesz z uwagą."
+            "es_form": "Tú [inviertes::inwestujesz] en la bolsa.",
+            "pl_translation": "Inwestujesz na giełdzie."
           }
         ]
       },
       {
         "es_word": "invierte",
-        "pl_word": "inwestuje",
+        "pl_word": "inwestuje (invertir)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [invierte::inwestuje] por la mañana.",
-            "pl_translation": "Zazwyczaj inwestuje rano."
-          },
-          {
-            "es_form": "[invierte::inwestuje] en propiedades.",
-            "pl_translation": "Inwestuje w nieruchomości."
-          },
-          {
-            "es_form": "[invierte::inwestuje] como me enseñaste.",
-            "pl_translation": "Inwestuje tak, jak mnie nauczyłeś."
+            "es_form": "Él [invierte::inwestuje] en la bolsa.",
+            "pl_translation": "Inwestuje na giełdzie."
           }
         ]
       },
       {
         "es_word": "invertimos",
-        "pl_word": "inwestujemy",
+        "pl_word": "inwestujemy (invertir)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "No [invertimos::inwestujemy] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie inwestujemy zbyt dobrze."
-          },
-          {
-            "es_form": "[invertimos::inwestujemy] juntos.",
-            "pl_translation": "Inwestujemy razem."
-          },
-          {
-            "es_form": "[invertimos::inwestujemy] como me enseñaste.",
-            "pl_translation": "Inwestujemy tak, jak mnie nauczyłeś."
+            "es_form": "Nosotros [invertimos::inwestujemy] en la bolsa.",
+            "pl_translation": "Inwestujemy na giełdzie."
           }
         ]
       },
       {
         "es_word": "invertís",
-        "pl_word": "inwestujecie",
+        "pl_word": "inwestujecie (invertir)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [invertís::inwestujecie] por la mañana.",
-            "pl_translation": "Zazwyczaj inwestujecie rano."
-          },
-          {
-            "es_form": "[invertís::inwestujecie] como me enseñaste.",
-            "pl_translation": "Inwestujecie tak, jak mnie nauczyłeś."
-          },
-          {
-            "es_form": "Siempre [invertís::inwestujecie] con atención.",
-            "pl_translation": "Zawsze inwestujecie z uwagą."
+            "es_form": "Vosotros [invertís::inwestujecie] en la bolsa.",
+            "pl_translation": "Inwestujecie na giełdzie."
           }
         ]
       },
       {
         "es_word": "invierten",
-        "pl_word": "inwestują",
+        "pl_word": "inwestują (invertir)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [invierten::inwestują] con atención.",
-            "pl_translation": "Zawsze inwestują z uwagą."
-          },
-          {
-            "es_form": "[invierten::inwestują] en tecnología.",
-            "pl_translation": "Inwestują w technologię."
-          },
-          {
-            "es_form": "No [invierten::inwestują] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie inwestują zbyt dobrze."
+            "es_form": "Ellos [invierten::inwestują] en la bolsa.",
+            "pl_translation": "Inwestują na giełdzie."
           }
         ]
       },
       {
         "es_word": "invertí",
-        "pl_word": "inwestowałem",
+        "pl_word": "zainwestowałem (invertir)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [invertí::inwestowałem] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie inwestowałem"
-          },
-          {
-            "es_form": "[invertí::inwestowałem] sin parar durante horas.",
-            "pl_translation": "Inwestowałem"
-          },
-          {
-            "es_form": "¿[invertí::inwestowałem] bien el dinero?",
-            "pl_translation": "Czy dobrze zainwestowałem"
+            "es_form": "Yo [invertí::zainwestowałem] en la bolsa.",
+            "pl_translation": "Zainwestowałem na giełdzie."
           }
         ]
       },
       {
         "es_word": "invertiste",
-        "pl_word": "inwestowałeś",
+        "pl_word": "zainwestowałeś (invertir)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [invertiste::inwestowałeś] todo el día.",
-            "pl_translation": "Wczoraj inwestowałeś"
-          },
-          {
-            "es_form": "Nunca [invertiste::inwestowałeś] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie inwestowałeś"
-          },
-          {
-            "es_form": "[invertiste::inwestowałeś] sin parar durante horas.",
-            "pl_translation": "Inwestowałeś"
+            "es_form": "Tú [invertiste::zainwestowałeś] en la bolsa.",
+            "pl_translation": "Zainwestowałeś na giełdzie."
           }
         ]
       },
       {
         "es_word": "invirtió",
-        "pl_word": "inwestował",
+        "pl_word": "zainwestował (invertir)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "[invirtió::inwestował] la semana pasada.",
-            "pl_translation": "Inwestował"
-          },
-          {
-            "es_form": "Ayer [invirtió::inwestował] todo el día.",
-            "pl_translation": "Wczoraj inwestował"
-          },
-          {
-            "es_form": "¿[invirtió::inwestował] bien el dinero?",
-            "pl_translation": "Czy dobrze zainwestował"
+            "es_form": "Él [invirtió::zainwestował] en la bolsa.",
+            "pl_translation": "Zainwestował na giełdzie."
           }
         ]
       },
       {
         "es_word": "invertimos",
-        "pl_word": "inwestowaliśmy",
+        "pl_word": "zainwestowaliśmy (invertir)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "[invertimos::inwestowaliśmy] sin parar durante horas.",
-            "pl_translation": "Inwestowaliśmy"
-          },
-          {
-            "es_form": "Ayer [invertimos::inwestowaliśmy] todo el día.",
-            "pl_translation": "Wczoraj inwestowaliśmy"
-          },
-          {
-            "es_form": "[invertimos::inwestowaliśmy] la semana pasada.",
-            "pl_translation": "Inwestowaliśmy"
+            "es_form": "Nosotros [invertimos::zainwestowaliśmy] en la bolsa.",
+            "pl_translation": "Zainwestowaliśmy na giełdzie."
           }
         ]
       },
       {
         "es_word": "invertisteis",
-        "pl_word": "inwestowaliście",
+        "pl_word": "zainwestowaliście (invertir)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [invertisteis::inwestowaliście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie inwestowaliście"
-          },
-          {
-            "es_form": "¿[invertisteis::inwestowaliście] bien el dinero?",
-            "pl_translation": "Czy dobrze zainwestowaliście"
-          },
-          {
-            "es_form": "[invertisteis::inwestowaliście] sin parar durante horas.",
-            "pl_translation": "Inwestowaliście"
+            "es_form": "Vosotros [invertisteis::zainwestowaliście] en la bolsa.",
+            "pl_translation": "Zainwestowaliście na giełdzie."
           }
         ]
       },
       {
         "es_word": "invirtieron",
-        "pl_word": "inwestowali",
+        "pl_word": "zainwestowali (invertir)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "[invirtieron::inwestowali] sin parar durante horas.",
-            "pl_translation": "Inwestowali"
-          },
-          {
-            "es_form": "El mes pasado no [invirtieron::inwestowali] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie inwestowali"
-          },
-          {
-            "es_form": "¿[invirtieron::inwestowali] bien el dinero?",
-            "pl_translation": "Czy dobrze zainwestowali"
+            "es_form": "Ellos [invirtieron::zainwestowali] en la bolsa.",
+            "pl_translation": "Zainwestowali na giełdzie."
           }
         ]
       },
       {
         "es_word": "invertiré",
-        "pl_word": "będę inwestował",
+        "pl_word": "będę inwestować (invertir)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "[invertiré::będę inwestował] la próxima semana.",
-            "pl_translation": "Będę inwestował"
-          },
-          {
-            "es_form": "Te prometo que [invertiré::będę inwestował] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będę inwestował"
-          },
-          {
-            "es_form": "El año que viene [invertiré::będę inwestował] en España.",
-            "pl_translation": "W przyszłym roku będę inwestował"
+            "es_form": "Yo [invertiré::będę inwestować] en la bolsa.",
+            "pl_translation": "Będę inwestować na giełdzie."
           }
         ]
       },
       {
         "es_word": "invertirás",
-        "pl_word": "będziesz inwestował",
+        "pl_word": "będziesz inwestować (invertir)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "[invertirás::będziesz inwestował] la próxima semana.",
-            "pl_translation": "Będziesz inwestował"
-          },
-          {
-            "es_form": "Mañana [invertirás::będziesz inwestował] más temprano.",
-            "pl_translation": "Jutro będziesz inwestował"
-          },
-          {
-            "es_form": "El año que viene [invertirás::będziesz inwestował] en España.",
-            "pl_translation": "W przyszłym roku będziesz inwestował"
+            "es_form": "Tú [invertirás::będziesz inwestować] en la bolsa.",
+            "pl_translation": "Będziesz inwestować na giełdzie."
           }
         ]
       },
       {
         "es_word": "invertirá",
-        "pl_word": "będzie inwestował",
+        "pl_word": "będzie inwestować (invertir)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "[invertirá::będzie inwestował] la próxima semana.",
-            "pl_translation": "Będzie inwestował"
-          },
-          {
-            "es_form": "Mañana [invertirá::będzie inwestował] más temprano.",
-            "pl_translation": "Jutro będzie inwestował"
-          },
-          {
-            "es_form": "Te prometo que [invertirá::będzie inwestował] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będzie inwestował"
+            "es_form": "Él [invertirá::będzie inwestować] en la bolsa.",
+            "pl_translation": "Będzie inwestować na giełdzie."
           }
         ]
       },
       {
         "es_word": "invertiremos",
-        "pl_word": "będziemy inwestowali",
+        "pl_word": "będziemy inwestować (invertir)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [invertiremos::będziemy inwestowali] bien.",
-            "pl_translation": "Myślę, że będziemy inwestowali"
-          },
-          {
-            "es_form": "[invertiremos::będziemy inwestowali] la próxima semana.",
-            "pl_translation": "Będziemy inwestowali"
-          },
-          {
-            "es_form": "Mañana [invertiremos::będziemy inwestowali] más temprano.",
-            "pl_translation": "Jutro będziemy inwestowali"
+            "es_form": "Nosotros [invertiremos::będziemy inwestować] en la bolsa.",
+            "pl_translation": "Będziemy inwestować na giełdzie."
           }
         ]
       },
       {
         "es_word": "invertiréis",
-        "pl_word": "będziecie inwestowali",
+        "pl_word": "będziecie inwestować (invertir)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [invertiréis::będziecie inwestowali] bien.",
-            "pl_translation": "Myślę, że będziecie inwestowali"
-          },
-          {
-            "es_form": "¿[invertiréis::będziecie inwestowali] con nosotros mañana?",
-            "pl_translation": "Czy będziecie inwestowali"
-          },
-          {
-            "es_form": "Mañana [invertiréis::będziecie inwestowali] más temprano.",
-            "pl_translation": "Jutro będziecie inwestowali"
+            "es_form": "Vosotros [invertiréis::będziecie inwestować] en la bolsa.",
+            "pl_translation": "Będziecie inwestować na giełdzie."
           }
         ]
       },
       {
         "es_word": "invertirán",
-        "pl_word": "będą inwestowali",
+        "pl_word": "będą inwestować (invertir)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [invertirán::będą inwestowali] bien.",
-            "pl_translation": "Myślę, że będą inwestowali"
-          },
-          {
-            "es_form": "[invertirán::będą inwestowali] la próxima semana.",
-            "pl_translation": "Będą inwestowali"
-          },
-          {
-            "es_form": "¿[invertirán::będą inwestowali] con nosotros mañana?",
-            "pl_translation": "Czy będą inwestowali"
+            "es_form": "Ellos [invertirán::będą inwestować] en la bolsa.",
+            "pl_translation": "Będą inwestować na giełdzie."
           }
         ]
       }

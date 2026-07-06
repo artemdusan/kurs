@@ -233,22 +233,18 @@
     "pl_word": "radzić sobie, stawiać czoła",
     "examples": [
       {
-        "es_form": "Prefiero [afrontar::radzić sobie, stawiać czoła] en casa.",
-        "pl_translation": "Wolę radzić sobie, stawiać czoła w domu."
+        "es_form": "Quiero [afrontar::radzić] los problemas.",
+        "pl_translation": "Chcę radzić sobie z problemami."
       },
       {
-        "es_form": "Voy a [afrontar::radzić sobie, stawiać czoła] mañana.",
-        "pl_translation": "Będę radzić sobie, stawiać czoła jutro."
-      },
-      {
-        "es_form": "No puedo [afrontar::radzić sobie, stawiać czoła] sin tu ayuda.",
-        "pl_translation": "Nie mogę radzić sobie, stawiać czoła bez twojej pomocy."
+        "es_form": "No puedo [afrontar::radzić] los problemas hoy.",
+        "pl_translation": "Nie mogę dziś radzić sobie z problemami."
       }
     ],
     "forms": [
       {
         "es_word": "afronto",
-        "pl_word": "radzę sobie",
+        "pl_word": "radzę (afrontar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "[afronto::radzę sobie] como me enseñaste.",
-            "pl_translation": "Radzę sobie tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Siempre [afronto::radzę sobie] con atencion.",
-            "pl_translation": "Zawsze radzę sobie z uwagą."
-          },
-          {
-            "es_form": "¿[afronto::radzę sobie] los fines de semana?",
-            "pl_translation": "Czy radzę sobie w weekendy?"
+            "es_form": "Yo [afronto::radzę] los problemas.",
+            "pl_translation": "Radzę sobie z problemami."
           }
         ]
       },
       {
         "es_word": "afrontas",
-        "pl_word": "radzisz sobie",
+        "pl_word": "radzisz (afrontar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "[afrontas::radzisz sobie] como me enseñaste.",
-            "pl_translation": "Radzisz sobie tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "No [afrontas::radzisz sobie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie radzisz sobie zbyt dobrze."
-          },
-          {
-            "es_form": "Siempre [afrontas::radzisz sobie] con atencion.",
-            "pl_translation": "Zawsze radzisz sobie z uwagą."
+            "es_form": "Tú [afrontas::radzisz] los problemas.",
+            "pl_translation": "Radzisz sobie z problemami."
           }
         ]
       },
       {
         "es_word": "afronta",
-        "pl_word": "radzi sobie",
+        "pl_word": "radzi (afrontar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[afronta::radzi sobie] los fines de semana?",
-            "pl_translation": "Czy radzi sobie w weekendy?"
-          },
-          {
-            "es_form": "No [afronta::radzi sobie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie radzi sobie zbyt dobrze."
-          },
-          {
-            "es_form": "[afronta::radzi sobie] como me enseñaste.",
-            "pl_translation": "Radzi sobie tak jak mnie nauczyłeś"
+            "es_form": "Él [afronta::radzi] los problemas.",
+            "pl_translation": "Radzi sobie z problemami."
           }
         ]
       },
       {
         "es_word": "afrontamos",
-        "pl_word": "radzimy sobie",
+        "pl_word": "radzimy (afrontar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[afrontamos::radzimy sobie] los fines de semana?",
-            "pl_translation": "Czy radzimy sobie w weekendy?"
-          },
-          {
-            "es_form": "[afrontamos::radzimy sobie] como me enseñaste.",
-            "pl_translation": "Radzimy sobie tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Normalmente [afrontamos::radzimy sobie] por la mañana.",
-            "pl_translation": "Zazwyczaj radzimy sobie rano."
+            "es_form": "Nosotros [afrontamos::radzimy] los problemas.",
+            "pl_translation": "Radzimy sobie z problemami."
           }
         ]
       },
       {
         "es_word": "afrontáis",
-        "pl_word": "radzicie sobie",
+        "pl_word": "radzicie (afrontar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "[afrontáis::radzicie sobie] todos los días.",
-            "pl_translation": "Radzicie sobie codziennie."
-          },
-          {
-            "es_form": "No [afrontáis::radzicie sobie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie radzicie sobie zbyt dobrze."
-          },
-          {
-            "es_form": "Siempre [afrontáis::radzicie sobie] con atencion.",
-            "pl_translation": "Zawsze radzicie sobie z uwagą."
+            "es_form": "Vosotros [afrontáis::radzicie] los problemas.",
+            "pl_translation": "Radzicie sobie z problemami."
           }
         ]
       },
       {
         "es_word": "afrontan",
-        "pl_word": "radzą sobie",
+        "pl_word": "radzą (afrontar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "No [afrontan::radzą sobie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie radzą sobie zbyt dobrze."
-          },
-          {
-            "es_form": "¿[afrontan::radzą sobie] los fines de semana?",
-            "pl_translation": "Czy radzą sobie w weekendy?"
-          },
-          {
-            "es_form": "[afrontan::radzą sobie] todos los días.",
-            "pl_translation": "Radzą sobie codziennie."
+            "es_form": "Ellos [afrontan::radzą] los problemas.",
+            "pl_translation": "Radzą sobie z problemami."
           }
         ]
       },
       {
         "es_word": "afronté",
-        "pl_word": "radziłem sobie",
+        "pl_word": "poradziłem (afrontar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [afronté::radziłem sobie] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie radziłem sobie."
-          },
-          {
-            "es_form": "[afronté::radziłem sobie] sin parar durante horas.",
-            "pl_translation": "Radziłem sobie bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "Ayer [afronté::radziłem sobie] todo el día.",
-            "pl_translation": "Wczoraj radziłem sobie cały dzień."
+            "es_form": "Yo [afronté::poradziłem] los problemas.",
+            "pl_translation": "Poradziłem sobie z problemami."
           }
         ]
       },
       {
         "es_word": "afrontaste",
-        "pl_word": "radziłeś sobie",
+        "pl_word": "poradziłeś (afrontar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "[afrontaste::radziłeś sobie] la semana pasada.",
-            "pl_translation": "Radziłeś sobie w zeszłym tygodniu."
-          },
-          {
-            "es_form": "Ayer [afrontaste::radziłeś sobie] todo el día.",
-            "pl_translation": "Wczoraj radziłeś sobie cały dzień."
-          },
-          {
-            "es_form": "El mes pasado no [afrontaste::radziłeś sobie] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie radziłeś sobie."
+            "es_form": "Tú [afrontaste::poradziłeś] los problemas.",
+            "pl_translation": "Poradziłeś sobie z problemami."
           }
         ]
       },
       {
         "es_word": "afrontó",
-        "pl_word": "radził sobie",
+        "pl_word": "poradził (afrontar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[afrontó::radził sobie] bien el examen?",
-            "pl_translation": "Czy radził sobie dobrze egzamin?"
-          },
-          {
-            "es_form": "[afrontó::radził sobie] sin parar durante horas.",
-            "pl_translation": "Radził sobie bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "El mes pasado no [afrontó::radził sobie] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie radził sobie."
+            "es_form": "Él [afrontó::poradził] los problemas.",
+            "pl_translation": "Poradził sobie z problemami."
           }
         ]
       },
       {
         "es_word": "afrontamos",
-        "pl_word": "radziliśmy sobie",
+        "pl_word": "poradziliśmy (afrontar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "[afrontamos::radziliśmy sobie] la semana pasada.",
-            "pl_translation": "Radziliśmy sobie w zeszłym tygodniu."
-          },
-          {
-            "es_form": "[afrontamos::radziliśmy sobie] sin parar durante horas.",
-            "pl_translation": "Radziliśmy sobie bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "Ayer [afrontamos::radziliśmy sobie] todo el día.",
-            "pl_translation": "Wczoraj radziliśmy sobie cały dzień."
+            "es_form": "Nosotros [afrontamos::poradziliśmy] los problemas.",
+            "pl_translation": "Poradziliśmy sobie z problemami."
           }
         ]
       },
       {
         "es_word": "afrontasteis",
-        "pl_word": "radziliście sobie",
+        "pl_word": "poradziliście (afrontar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[afrontasteis::radziliście sobie] bien el examen?",
-            "pl_translation": "Czy radziliście sobie dobrze egzamin?"
-          },
-          {
-            "es_form": "[afrontasteis::radziliście sobie] sin parar durante horas.",
-            "pl_translation": "Radziliście sobie bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "El mes pasado no [afrontasteis::radziliście sobie] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie radziliście sobie."
+            "es_form": "Vosotros [afrontasteis::poradziliście] los problemas.",
+            "pl_translation": "Poradziliście sobie z problemami."
           }
         ]
       },
       {
         "es_word": "afrontaron",
-        "pl_word": "radzili sobie",
+        "pl_word": "poradzili (afrontar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[afrontaron::radzili sobie] bien el examen?",
-            "pl_translation": "Czy radzili sobie dobrze egzamin?"
-          },
-          {
-            "es_form": "El mes pasado no [afrontaron::radzili sobie] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie radzili sobie."
-          },
-          {
-            "es_form": "Ayer [afrontaron::radzili sobie] todo el día.",
-            "pl_translation": "Wczoraj radzili sobie cały dzień."
+            "es_form": "Ellos [afrontaron::poradzili] los problemas.",
+            "pl_translation": "Poradzili sobie z problemami."
           }
         ]
       },
       {
-        "es_word": "afronté",
-        "pl_word": "będę sobie radzić",
+        "es_word": "afrontaré",
+        "pl_word": "będę radzić (afrontar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "[afronté::będę sobie radzić] la proxima semana.",
-            "pl_translation": "Będę sobie radzić w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Creo que [afronté::będę sobie radzić] bien.",
-            "pl_translation": "Myślę, że będę sobie radzić dobrze."
-          },
-          {
-            "es_form": "El año que viene [afronté::będę sobie radzić] en España.",
-            "pl_translation": "W przyszłym roku będę sobie radzić w Hiszpanii."
+            "es_form": "Yo [afrontaré::będę radzić] los problemas.",
+            "pl_translation": "Będę radzić sobie z problemami."
           }
         ]
       },
       {
-        "es_word": "afrontás",
-        "pl_word": "będziesz sobie radzić",
+        "es_word": "afrontarás",
+        "pl_word": "będziesz radzić (afrontar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [afrontás::będziesz sobie radzić] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziesz sobie radzić na czas."
-          },
-          {
-            "es_form": "Mañana [afrontás::będziesz sobie radzić] más temprano.",
-            "pl_translation": "Jutro będziesz sobie radzić wcześniej."
-          },
-          {
-            "es_form": "El año que viene [afrontás::będziesz sobie radzić] en España.",
-            "pl_translation": "W przyszłym roku będziesz sobie radzić w Hiszpanii."
+            "es_form": "Tú [afrontarás::będziesz radzić] los problemas.",
+            "pl_translation": "Będziesz radzić sobie z problemami."
           }
         ]
       },
       {
-        "es_word": "afrontá",
-        "pl_word": "będzie sobie radzić",
+        "es_word": "afrontará",
+        "pl_word": "będzie radzić (afrontar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [afrontá::będzie sobie radzić] más temprano.",
-            "pl_translation": "Jutro będzie sobie radzić wcześniej."
-          },
-          {
-            "es_form": "El año que viene [afrontá::będzie sobie radzić] en España.",
-            "pl_translation": "W przyszłym roku będzie sobie radzić w Hiszpanii."
-          },
-          {
-            "es_form": "¿[afrontá::będzie sobie radzić] con nosotros mañana?",
-            "pl_translation": "Czy będzie sobie radzić z nami jutro?"
+            "es_form": "Él [afrontará::będzie radzić] los problemas.",
+            "pl_translation": "Będzie radzić sobie z problemami."
           }
         ]
       },
       {
-        "es_word": "afrontemos",
-        "pl_word": "będziemy sobie radzić",
+        "es_word": "afrontaremos",
+        "pl_word": "będziemy radzić (afrontar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[afrontemos::będziemy sobie radzić] con nosotros mañana?",
-            "pl_translation": "Czy będziemy sobie radzić z nami jutro?"
-          },
-          {
-            "es_form": "Te prometo que [afrontemos::będziemy sobie radzić] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziemy sobie radzić na czas."
-          },
-          {
-            "es_form": "Mañana [afrontemos::będziemy sobie radzić] más temprano.",
-            "pl_translation": "Jutro będziemy sobie radzić wcześniej."
+            "es_form": "Nosotros [afrontaremos::będziemy radzić] los problemas.",
+            "pl_translation": "Będziemy radzić sobie z problemami."
           }
         ]
       },
       {
-        "es_word": "afrontéis",
-        "pl_word": "będziecie sobie radzić",
+        "es_word": "afrontaréis",
+        "pl_word": "będziecie radzić (afrontar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [afrontéis::będziecie sobie radzić] en España.",
-            "pl_translation": "W przyszłym roku będziecie sobie radzić w Hiszpanii."
-          },
-          {
-            "es_form": "[afrontéis::będziecie sobie radzić] la proxima semana.",
-            "pl_translation": "Będziecie sobie radzić w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Mañana [afrontéis::będziecie sobie radzić] más temprano.",
-            "pl_translation": "Jutro będziecie sobie radzić wcześniej."
+            "es_form": "Vosotros [afrontaréis::będziecie radzić] los problemas.",
+            "pl_translation": "Będziecie radzić sobie z problemami."
           }
         ]
       },
       {
-        "es_word": "afrontán",
-        "pl_word": "będą sobie radzić",
+        "es_word": "afrontarán",
+        "pl_word": "będą radzić (afrontar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [afrontán::będą sobie radzić] más temprano.",
-            "pl_translation": "Jutro będą sobie radzić wcześniej."
-          },
-          {
-            "es_form": "El año que viene [afrontán::będą sobie radzić] en España.",
-            "pl_translation": "W przyszłym roku będą sobie radzić w Hiszpanii."
-          },
-          {
-            "es_form": "¿[afrontán::będą sobie radzić] con nosotros mañana?",
-            "pl_translation": "Czy będą sobie radzić z nami jutro?"
+            "es_form": "Ellos [afrontarán::będą radzić] los problemas.",
+            "pl_translation": "Będą radzić sobie z problemami."
           }
         ]
       }

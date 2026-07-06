@@ -31,11 +31,29 @@ export function buildKeyboard(target, { isNoun = false, rng = Math.random } = {}
   const consonant = special && rng() < 0.5 ? special : pick(EXTRA_CONSONANTS, chars, rng);
   if (consonant && !extras.includes(consonant)) extras.push(consonant);
 
-  const letters = [...chars, ...extras].sort((a, b) => a.localeCompare(b, 'es'));
+  // kolejność jak na klawiaturze QWERTY (litery akcentowane obok bazowych) —
+  // stałe, przewidywalne pozycje ułatwiają trafianie palcem
+  const letters = [...chars, ...extras].sort((a, b) => qwertyRank(a) - qwertyRank(b));
   return {
     letters,
     hasSpace: /\s/.test(text.trim()),
   };
+}
+
+const QWERTY = 'qwertyuiopasdfghjklñzxcvbnm';
+const BASE = { á: 'a', é: 'e', í: 'i', ó: 'o', ú: 'u', ü: 'u' };
+
+function qwertyRank(ch) {
+  const base = BASE[ch] || ch;
+  // akcentowana wersja tuż za bazową literą
+  return QWERTY.indexOf(base) * 2 + (BASE[ch] ? 1 : 0);
+}
+
+/** Dzieli litery na rzędy po maks `perRow`, jak fizyczna klawiatura. */
+export function keyboardRows(letters, perRow = 7) {
+  const rows = [];
+  for (let i = 0; i < letters.length; i += perRow) rows.push(letters.slice(i, i + perRow));
+  return rows;
 }
 
 // Wszystkie rzeczowniki kursu są w liczbie pojedynczej — los/las byłyby martwymi przyciskami.

@@ -233,22 +233,18 @@
     "pl_word": "studiować / uczyć się",
     "examples": [
       {
-        "es_form": "Es importante [estudiar::studiować / uczyć się] todos los días.",
-        "pl_translation": "Ważne jest uczyć się codziennie."
+        "es_form": "Quiero [estudiar::studiować] medicina.",
+        "pl_translation": "Chcę studiować medycynę."
       },
       {
-        "es_form": "Hay que [estudiar::studiować / uczyć się] con cuidado.",
-        "pl_translation": "Trzeba uczyć się uważnie."
-      },
-      {
-        "es_form": "Quiero [estudiar::studiować / uczyć się] ahora.",
-        "pl_translation": "Chcę się teraz uczyć."
+        "es_form": "No puedo [estudiar::studiować] medicina hoy.",
+        "pl_translation": "Nie mogę dziś studiować medycynę."
       }
     ],
     "forms": [
       {
         "es_word": "estudio",
-        "pl_word": "studiuję",
+        "pl_word": "studiuję (estudiar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "[Estudio::studiuję] todos los días.",
-            "pl_translation": "Studiuję codziennie."
-          },
-          {
-            "es_form": "Siempre [estudio::studiuję] con atención.",
-            "pl_translation": "Zawsze studiuję z uwagą."
-          },
-          {
-            "es_form": "No [estudio::studiuję] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie studiuję zbyt dobrze."
+            "es_form": "Yo [estudio::studiuję] medicina.",
+            "pl_translation": "Studiuję medycynę."
           }
         ]
       },
       {
         "es_word": "estudias",
-        "pl_word": "studiujesz",
+        "pl_word": "studiujesz (estudiar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [estudias::studiujesz] con atención.",
-            "pl_translation": "Zawsze studiujesz z uwagą."
-          },
-          {
-            "es_form": "[Estudias::studiujesz] todos los días.",
-            "pl_translation": "Studiujesz codziennie."
-          },
-          {
-            "es_form": "[Estudias::studiujesz] como me enseñaste.",
-            "pl_translation": "Studiujesz tak jak mnie nauczyłeś."
+            "es_form": "Tú [estudias::studiujesz] medicina.",
+            "pl_translation": "Studiujesz medycynę."
           }
         ]
       },
       {
         "es_word": "estudia",
-        "pl_word": "studiuje",
+        "pl_word": "studiuje (estudiar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [estudia::studiuje] con atención.",
-            "pl_translation": "Zawsze studiuje z uwagą."
-          },
-          {
-            "es_form": "[Estudia::studiuje] como me enseñaste.",
-            "pl_translation": "Studiuje tak jak mnie nauczyłeś."
-          },
-          {
-            "es_form": "No [estudia::studiuje] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie studiuje zbyt dobrze."
+            "es_form": "Él [estudia::studiuje] medicina.",
+            "pl_translation": "Studiuje medycynę."
           }
         ]
       },
       {
         "es_word": "estudiamos",
-        "pl_word": "studiujemy",
+        "pl_word": "studiujemy (estudiar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "[Estudiamos::studiujemy] como me enseñaste.",
-            "pl_translation": "Studiujemy tak jak mnie nauczyłeś."
-          },
-          {
-            "es_form": "Normalmente [estudiamos::studiujemy] por la mañana.",
-            "pl_translation": "Zazwyczaj studiujemy rano."
-          },
-          {
-            "es_form": "[Estudiamos::studiujemy] todos los días.",
-            "pl_translation": "Studiujemy codziennie."
+            "es_form": "Nosotros [estudiamos::studiujemy] medicina.",
+            "pl_translation": "Studiujemy medycynę."
           }
         ]
       },
       {
         "es_word": "estudiáis",
-        "pl_word": "studiujecie",
+        "pl_word": "studiujecie (estudiar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[Estudiáis::studiujecie] los fines de semana?",
-            "pl_translation": "Czy studiujecie w weekendy?"
-          },
-          {
-            "es_form": "[Estudiáis::studiujecie] como me enseñaste.",
-            "pl_translation": "Studiujecie tak jak mnie nauczyłeś."
-          },
-          {
-            "es_form": "No [estudiáis::studiujecie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie studiujecie zbyt dobrze."
+            "es_form": "Vosotros [estudiáis::studiujecie] medicina.",
+            "pl_translation": "Studiujecie medycynę."
           }
         ]
       },
       {
         "es_word": "estudian",
-        "pl_word": "studiują",
+        "pl_word": "studiują (estudiar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [estudian::studiują] por la mañana.",
-            "pl_translation": "Zazwyczaj studiują rano."
-          },
-          {
-            "es_form": "[Estudian::studiują] como me enseñaste.",
-            "pl_translation": "Studiują tak jak mnie nauczyłeś."
-          },
-          {
-            "es_form": "Siempre [estudian::studiują] con atención.",
-            "pl_translation": "Zawsze studiują z uwagą."
+            "es_form": "Ellos [estudian::studiują] medicina.",
+            "pl_translation": "Studiują medycynę."
           }
         ]
       },
       {
         "es_word": "estudié",
-        "pl_word": "studiowałem",
+        "pl_word": "studiowałem (estudiar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "[Estudié::studiowałem] la semana pasada.",
-            "pl_translation": "Studiowałem w zeszłym tygodniu."
-          },
-          {
-            "es_form": "[Estudié::studiowałem] sin parar durante horas.",
-            "pl_translation": "Studiowałem bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "Ayer [estudié::studiowałem] todo el día.",
-            "pl_translation": "Wczoraj studiowałem cały dzień."
+            "es_form": "Yo [estudié::studiowałem] medicina.",
+            "pl_translation": "Studiowałem medycynę."
           }
         ]
       },
       {
         "es_word": "estudiaste",
-        "pl_word": "studiowałeś",
+        "pl_word": "studiowałeś (estudiar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [estudiaste::studiowałeś] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie studiowałeś czegoś takiego."
-          },
-          {
-            "es_form": "El mes pasado no [estudiaste::studiowałeś] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie studiowałeś."
-          },
-          {
-            "es_form": "¿[Estudiaste::studiowałeś] bien para el examen?",
-            "pl_translation": "Czy dobrze studiowałeś do egzaminu?"
+            "es_form": "Tú [estudiaste::studiowałeś] medicina.",
+            "pl_translation": "Studiowałeś medycynę."
           }
         ]
       },
       {
         "es_word": "estudió",
-        "pl_word": "studiował",
+        "pl_word": "studiował (estudiar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [estudió::studiował] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie studiował czegoś takiego."
-          },
-          {
-            "es_form": "¿[Estudió::studiował] bien para el examen?",
-            "pl_translation": "Czy dobrze studiował do egzaminu?"
-          },
-          {
-            "es_form": "[Estudió::studiował] sin parar durante horas.",
-            "pl_translation": "Studiował bez przerwy przez wiele godzin."
+            "es_form": "Él [estudió::studiował] medicina.",
+            "pl_translation": "Studiował medycynę."
           }
         ]
       },
       {
         "es_word": "estudiamos",
-        "pl_word": "studiowaliśmy",
+        "pl_word": "studiowaliśmy (estudiar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[Estudiamos::studiowaliśmy] bien para el examen?",
-            "pl_translation": "Czy dobrze studiowaliśmy do egzaminu?"
-          },
-          {
-            "es_form": "[Estudiamos::studiowaliśmy] la semana pasada.",
-            "pl_translation": "Studiowaliśmy w zeszłym tygodniu."
-          },
-          {
-            "es_form": "El mes pasado no [estudiamos::studiowaliśmy] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie studiowaliśmy."
+            "es_form": "Nosotros [estudiamos::studiowaliśmy] medicina.",
+            "pl_translation": "Studiowaliśmy medycynę."
           }
         ]
       },
       {
         "es_word": "estudiasteis",
-        "pl_word": "studiowaliście",
+        "pl_word": "studiowaliście (estudiar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [estudiasteis::studiowaliście] todo el día.",
-            "pl_translation": "Wczoraj studiowaliście cały dzień."
-          },
-          {
-            "es_form": "El mes pasado no [estudiasteis::studiowaliście] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie studiowaliście."
-          },
-          {
-            "es_form": "Nunca [estudiasteis::studiowaliście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie studiowaliście czegoś takiego."
+            "es_form": "Vosotros [estudiasteis::studiowaliście] medicina.",
+            "pl_translation": "Studiowaliście medycynę."
           }
         ]
       },
       {
         "es_word": "estudiaron",
-        "pl_word": "studiowali",
+        "pl_word": "studiowali (estudiar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "[Estudiaron::studiowali] sin parar durante horas.",
-            "pl_translation": "Studiowali bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "[Estudiaron::studiowali] la semana pasada.",
-            "pl_translation": "Studiowali w zeszłym tygodniu."
-          },
-          {
-            "es_form": "Nunca [estudiaron::studiowali] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie studiowali czegoś takiego."
+            "es_form": "Ellos [estudiaron::studiowali] medicina.",
+            "pl_translation": "Studiowali medycynę."
           }
         ]
       },
       {
         "es_word": "estudiaré",
-        "pl_word": "będę studiować",
+        "pl_word": "będę studiować (estudiar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [estudiaré::będę studiować] más temprano.",
-            "pl_translation": "Jutro będę studiować wcześniej."
-          },
-          {
-            "es_form": "¿[Estudiaré::będę studiować] con nosotros mañana?",
-            "pl_translation": "Czy będę studiować z nami jutro?"
-          },
-          {
-            "es_form": "El año que viene [estudiaré::będę studiować] en España.",
-            "pl_translation": "W przyszłym roku będę studiować w Hiszpanii."
+            "es_form": "Yo [estudiaré::będę studiować] medicina.",
+            "pl_translation": "Będę studiować medycynę."
           }
         ]
       },
       {
         "es_word": "estudiarás",
-        "pl_word": "będziesz studiować",
+        "pl_word": "będziesz studiować (estudiar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "[Estudiarás::będziesz studiować] la próxima semana.",
-            "pl_translation": "Będziesz studiować w przyszłym tygodniu."
-          },
-          {
-            "es_form": "El año que viene [estudiarás::będziesz studiować] en España.",
-            "pl_translation": "W przyszłym roku będziesz studiować w Hiszpanii."
-          },
-          {
-            "es_form": "Creo que [estudiarás::będziesz studiować] bien.",
-            "pl_translation": "Myślę, że będziesz dobrze studiować."
+            "es_form": "Tú [estudiarás::będziesz studiować] medicina.",
+            "pl_translation": "Będziesz studiować medycynę."
           }
         ]
       },
       {
         "es_word": "estudiará",
-        "pl_word": "będzie studiować",
+        "pl_word": "będzie studiować (estudiar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[Estudiará::będzie studiować] con nosotros mañana?",
-            "pl_translation": "Czy będzie studiować z nami jutro?"
-          },
-          {
-            "es_form": "Te prometo que [estudiará::będzie studiować] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będzie studiować na czas."
-          },
-          {
-            "es_form": "Mañana [estudiará::będzie studiować] más temprano.",
-            "pl_translation": "Jutro będzie studiować wcześniej."
+            "es_form": "Él [estudiará::będzie studiować] medicina.",
+            "pl_translation": "Będzie studiować medycynę."
           }
         ]
       },
       {
         "es_word": "estudiaremos",
-        "pl_word": "będziemy studiować",
+        "pl_word": "będziemy studiować (estudiar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [estudiaremos::będziemy studiować] en España.",
-            "pl_translation": "W przyszłym roku będziemy studiować w Hiszpanii."
-          },
-          {
-            "es_form": "Mañana [estudiaremos::będziemy studiować] más temprano.",
-            "pl_translation": "Jutro będziemy studiować wcześniej."
-          },
-          {
-            "es_form": "¿[Estudiaremos::będziemy studiować] con nosotros mañana?",
-            "pl_translation": "Czy będziemy studiować z nami jutro?"
+            "es_form": "Nosotros [estudiaremos::będziemy studiować] medicina.",
+            "pl_translation": "Będziemy studiować medycynę."
           }
         ]
       },
       {
         "es_word": "estudiaréis",
-        "pl_word": "będziecie studiować",
+        "pl_word": "będziecie studiować (estudiar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[Estudiaréis::będziecie studiować] con nosotros mañana?",
-            "pl_translation": "Czy będziecie studiować z nami jutro?"
-          },
-          {
-            "es_form": "[Estudiaréis::będziecie studiować] la próxima semana.",
-            "pl_translation": "Będziecie studiować w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Creo que [estudiaréis::będziecie studiować] bien.",
-            "pl_translation": "Myślę, że będziecie dobrze studiować."
+            "es_form": "Vosotros [estudiaréis::będziecie studiować] medicina.",
+            "pl_translation": "Będziecie studiować medycynę."
           }
         ]
       },
       {
         "es_word": "estudiarán",
-        "pl_word": "będą studiować",
+        "pl_word": "będą studiować (estudiar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [estudiarán::będą studiować] bien.",
-            "pl_translation": "Myślę, że będą dobrze studiować."
-          },
-          {
-            "es_form": "El año que viene [estudiarán::będą studiować] en España.",
-            "pl_translation": "W przyszłym roku będą studiować w Hiszpanii."
-          },
-          {
-            "es_form": "Te prometo que [estudiarán::będą studiować] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będą studiować na czas."
+            "es_form": "Ellos [estudiarán::będą studiować] medicina.",
+            "pl_translation": "Będą studiować medycynę."
           }
         ]
       }

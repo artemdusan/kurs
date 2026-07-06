@@ -233,22 +233,18 @@
     "pl_word": "wiać, dmuchać",
     "examples": [
       {
-        "es_form": "Voy a [soplar::wiać, dmuchać] mañana.",
-        "pl_translation": "Będę wiać, dmuchać jutro."
+        "es_form": "Quiero [soplar::dmuchać] las velas.",
+        "pl_translation": "Chcę dmuchać w świeczki."
       },
       {
-        "es_form": "Es importante [soplar::wiać, dmuchać] todos los días.",
-        "pl_translation": "Ważne jest wiać, dmuchać codziennie."
-      },
-      {
-        "es_form": "Quiero [soplar::wiać, dmuchać] ahora.",
-        "pl_translation": "Chcę wiać, dmuchać teraz."
+        "es_form": "No puedo [soplar::dmuchać] las velas hoy.",
+        "pl_translation": "Nie mogę dziś dmuchać w świeczki."
       }
     ],
     "forms": [
       {
         "es_word": "soplo",
-        "pl_word": "wieję",
+        "pl_word": "dmucham (soplar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "No [soplo::wieję] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie wieję zbyt dobrze."
-          },
-          {
-            "es_form": "Siempre [soplo::wieję] con atencion.",
-            "pl_translation": "Zawsze wieję z uwagą."
-          },
-          {
-            "es_form": "[soplo::wieję] todos los días.",
-            "pl_translation": "Wieję codziennie."
+            "es_form": "Yo [soplo::dmucham] las velas.",
+            "pl_translation": "Dmucham w świeczki."
           }
         ]
       },
       {
         "es_word": "soplas",
-        "pl_word": "wiejesz",
+        "pl_word": "dmuchasz (soplar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "[soplas::wiejesz] todos los días.",
-            "pl_translation": "Wiejesz codziennie."
-          },
-          {
-            "es_form": "Siempre [soplas::wiejesz] con atencion.",
-            "pl_translation": "Zawsze wiejesz z uwagą."
-          },
-          {
-            "es_form": "¿[soplas::wiejesz] los fines de semana?",
-            "pl_translation": "Czy wiejesz w weekendy?"
+            "es_form": "Tú [soplas::dmuchasz] las velas.",
+            "pl_translation": "Dmuchasz w świeczki."
           }
         ]
       },
       {
         "es_word": "sopla",
-        "pl_word": "wieje",
+        "pl_word": "dmucha (soplar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "[sopla::wieje] todos los días.",
-            "pl_translation": "Wieje codziennie."
-          },
-          {
-            "es_form": "Siempre [sopla::wieje] con atencion.",
-            "pl_translation": "Zawsze wieje z uwagą."
-          },
-          {
-            "es_form": "Normalmente [sopla::wieje] por la mañana.",
-            "pl_translation": "Zazwyczaj wieje rano."
+            "es_form": "Él [sopla::dmucha] las velas.",
+            "pl_translation": "Dmucha w świeczki."
           }
         ]
       },
       {
         "es_word": "soplamos",
-        "pl_word": "wiejemy",
+        "pl_word": "dmuchamy (soplar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[soplamos::wiejemy] los fines de semana?",
-            "pl_translation": "Czy wiejemy w weekendy?"
-          },
-          {
-            "es_form": "No [soplamos::wiejemy] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie wiejemy zbyt dobrze."
-          },
-          {
-            "es_form": "[soplamos::wiejemy] todos los días.",
-            "pl_translation": "Wiejemy codziennie."
+            "es_form": "Nosotros [soplamos::dmuchamy] las velas.",
+            "pl_translation": "Dmuchamy w świeczki."
           }
         ]
       },
       {
         "es_word": "sopláis",
-        "pl_word": "wiejecie",
+        "pl_word": "dmuchacie (soplar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "[sopláis::wiejecie] como me enseñaste.",
-            "pl_translation": "Wiejecie tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Normalmente [sopláis::wiejecie] por la mañana.",
-            "pl_translation": "Zazwyczaj wiejecie rano."
-          },
-          {
-            "es_form": "Siempre [sopláis::wiejecie] con atencion.",
-            "pl_translation": "Zawsze wiejecie z uwagą."
+            "es_form": "Vosotros [sopláis::dmuchacie] las velas.",
+            "pl_translation": "Dmuchacie w świeczki."
           }
         ]
       },
       {
         "es_word": "soplan",
-        "pl_word": "wieją",
+        "pl_word": "dmuchają (soplar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "No [soplan::wieją] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie wieją zbyt dobrze."
-          },
-          {
-            "es_form": "[soplan::wieją] todos los días.",
-            "pl_translation": "Wieją codziennie."
-          },
-          {
-            "es_form": "[soplan::wieją] como me enseñaste.",
-            "pl_translation": "Wieją tak jak mnie nauczyłeś"
+            "es_form": "Ellos [soplan::dmuchają] las velas.",
+            "pl_translation": "Dmuchają w świeczki."
           }
         ]
       },
       {
         "es_word": "soplé",
-        "pl_word": "wiałem",
+        "pl_word": "dmuchnąłem (soplar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [soplé::wiałem] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie wiałem czegoś takiego."
-          },
-          {
-            "es_form": "[soplé::wiałem] sin parar durante horas.",
-            "pl_translation": "Wiałem bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "Ayer [soplé::wiałem] todo el día.",
-            "pl_translation": "Wczoraj wiałem cały dzień."
+            "es_form": "Yo [soplé::dmuchnąłem] las velas.",
+            "pl_translation": "Dmuchnąłem w świeczki."
           }
         ]
       },
       {
         "es_word": "soplaste",
-        "pl_word": "wiałeś",
+        "pl_word": "dmuchnąłeś (soplar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "[soplaste::wiałeś] sin parar durante horas.",
-            "pl_translation": "Wiałeś bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "Nunca [soplaste::wiałeś] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie wiałeś czegoś takiego."
-          },
-          {
-            "es_form": "El mes pasado no [soplaste::wiałeś] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie wiałeś."
+            "es_form": "Tú [soplaste::dmuchnąłeś] las velas.",
+            "pl_translation": "Dmuchnąłeś w świeczki."
           }
         ]
       },
       {
         "es_word": "sopló",
-        "pl_word": "wiał",
+        "pl_word": "dmuchnął (soplar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [sopló::wiał] todo el día.",
-            "pl_translation": "Wczoraj wiał cały dzień."
-          },
-          {
-            "es_form": "Nunca [sopló::wiał] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie wiał czegoś takiego."
-          },
-          {
-            "es_form": "[sopló::wiał] sin parar durante horas.",
-            "pl_translation": "Wiał bez przerwy przez wiele godzin."
+            "es_form": "Él [sopló::dmuchnął] las velas.",
+            "pl_translation": "Dmuchnął w świeczki."
           }
         ]
       },
       {
         "es_word": "soplamos",
-        "pl_word": "wialiśmy",
+        "pl_word": "dmuchnęliśmy (soplar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[soplamos::wialiśmy] bien el examen?",
-            "pl_translation": "Czy wialiśmy dobrze egzamin?"
-          },
-          {
-            "es_form": "Ayer [soplamos::wialiśmy] todo el día.",
-            "pl_translation": "Wczoraj wialiśmy cały dzień."
-          },
-          {
-            "es_form": "El mes pasado no [soplamos::wialiśmy] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie wialiśmy."
+            "es_form": "Nosotros [soplamos::dmuchnęliśmy] las velas.",
+            "pl_translation": "Dmuchnęliśmy w świeczki."
           }
         ]
       },
       {
         "es_word": "soplasteis",
-        "pl_word": "wialiście",
+        "pl_word": "dmuchnęliście (soplar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [soplasteis::wialiście] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie wialiście."
-          },
-          {
-            "es_form": "¿[soplasteis::wialiście] bien el examen?",
-            "pl_translation": "Czy wialiście dobrze egzamin?"
-          },
-          {
-            "es_form": "Ayer [soplasteis::wialiście] todo el día.",
-            "pl_translation": "Wczoraj wialiście cały dzień."
+            "es_form": "Vosotros [soplasteis::dmuchnęliście] las velas.",
+            "pl_translation": "Dmuchnęliście w świeczki."
           }
         ]
       },
       {
         "es_word": "soplaron",
-        "pl_word": "wiali",
+        "pl_word": "dmuchnęli (soplar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "[soplaron::wiali] la semana pasada.",
-            "pl_translation": "Wiali w zeszłym tygodniu."
-          },
-          {
-            "es_form": "Nunca [soplaron::wiali] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie wiali czegoś takiego."
-          },
-          {
-            "es_form": "[soplaron::wiali] sin parar durante horas.",
-            "pl_translation": "Wiali bez przerwy przez wiele godzin."
+            "es_form": "Ellos [soplaron::dmuchnęli] las velas.",
+            "pl_translation": "Dmuchnęli w świeczki."
           }
         ]
       },
       {
         "es_word": "soplaré",
-        "pl_word": "będę wiać",
+        "pl_word": "będę dmuchać (soplar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [soplaré::będę wiać] más temprano.",
-            "pl_translation": "Jutro będę wiać wcześniej."
-          },
-          {
-            "es_form": "Te prometo que [soplaré::będę wiać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będę wiać na czas."
-          },
-          {
-            "es_form": "Creo que [soplaré::będę wiać] bien.",
-            "pl_translation": "Myślę, że będę wiać dobrze."
+            "es_form": "Yo [soplaré::będę dmuchać] las velas.",
+            "pl_translation": "Będę dmuchać w świeczki."
           }
         ]
       },
       {
         "es_word": "soplarás",
-        "pl_word": "będziesz wiać",
+        "pl_word": "będziesz dmuchać (soplar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [soplarás::będziesz wiać] más temprano.",
-            "pl_translation": "Jutro będziesz wiać wcześniej."
-          },
-          {
-            "es_form": "El año que viene [soplarás::będziesz wiać] en España.",
-            "pl_translation": "W przyszłym roku będziesz wiać w Hiszpanii."
-          },
-          {
-            "es_form": "¿[soplarás::będziesz wiać] con nosotros mañana?",
-            "pl_translation": "Czy będziesz wiać z nami jutro?"
+            "es_form": "Tú [soplarás::będziesz dmuchać] las velas.",
+            "pl_translation": "Będziesz dmuchać w świeczki."
           }
         ]
       },
       {
         "es_word": "soplará",
-        "pl_word": "będzie wiać",
+        "pl_word": "będzie dmuchać (soplar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [soplará::będzie wiać] más temprano.",
-            "pl_translation": "Jutro będzie wiać wcześniej."
-          },
-          {
-            "es_form": "El año que viene [soplará::będzie wiać] en España.",
-            "pl_translation": "W przyszłym roku będzie wiać w Hiszpanii."
-          },
-          {
-            "es_form": "¿[soplará::będzie wiać] con nosotros mañana?",
-            "pl_translation": "Czy będzie wiać z nami jutro?"
+            "es_form": "Él [soplará::będzie dmuchać] las velas.",
+            "pl_translation": "Będzie dmuchać w świeczki."
           }
         ]
       },
       {
         "es_word": "soplaremos",
-        "pl_word": "będziemy wiać",
+        "pl_word": "będziemy dmuchać (soplar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[soplaremos::będziemy wiać] con nosotros mañana?",
-            "pl_translation": "Czy będziemy wiać z nami jutro?"
-          },
-          {
-            "es_form": "[soplaremos::będziemy wiać] la proxima semana.",
-            "pl_translation": "Będziemy wiać w przyszłym tygodniu."
-          },
-          {
-            "es_form": "El año que viene [soplaremos::będziemy wiać] en España.",
-            "pl_translation": "W przyszłym roku będziemy wiać w Hiszpanii."
+            "es_form": "Nosotros [soplaremos::będziemy dmuchać] las velas.",
+            "pl_translation": "Będziemy dmuchać w świeczki."
           }
         ]
       },
       {
         "es_word": "soplaréis",
-        "pl_word": "będziecie wiać",
+        "pl_word": "będziecie dmuchać (soplar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[soplaréis::będziecie wiać] con nosotros mañana?",
-            "pl_translation": "Czy będziecie wiać z nami jutro?"
-          },
-          {
-            "es_form": "Te prometo que [soplaréis::będziecie wiać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziecie wiać na czas."
-          },
-          {
-            "es_form": "[soplaréis::będziecie wiać] la proxima semana.",
-            "pl_translation": "Będziecie wiać w przyszłym tygodniu."
+            "es_form": "Vosotros [soplaréis::będziecie dmuchać] las velas.",
+            "pl_translation": "Będziecie dmuchać w świeczki."
           }
         ]
       },
       {
         "es_word": "soplarán",
-        "pl_word": "będą wiać",
+        "pl_word": "będą dmuchać (soplar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "[soplarán::będą wiać] la proxima semana.",
-            "pl_translation": "Będą wiać w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Mañana [soplarán::będą wiać] más temprano.",
-            "pl_translation": "Jutro będą wiać wcześniej."
-          },
-          {
-            "es_form": "Te prometo que [soplarán::będą wiać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będą wiać na czas."
+            "es_form": "Ellos [soplarán::będą dmuchać] las velas.",
+            "pl_translation": "Będą dmuchać w świeczki."
           }
         ]
       }

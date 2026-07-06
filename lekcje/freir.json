@@ -233,22 +233,18 @@
     "pl_word": "smażyć",
     "examples": [
       {
-        "es_form": "Hay que [freír::smażyć] las patatas con cuidado.",
-        "pl_translation": "Trzeba smażyć ziemniaki ostrożnie."
+        "es_form": "Quiero [freír::smażyć] patatas.",
+        "pl_translation": "Chcę smażyć ziemniaki."
       },
       {
-        "es_form": "Quiero [freír::smażyć] el pescado ahora.",
-        "pl_translation": "Chcę usmażyć rybę teraz."
-      },
-      {
-        "es_form": "¿Puedes [freír::smażyć] las cebollas más rápido?",
-        "pl_translation": "Możesz smażyć cebulę szybciej?"
+        "es_form": "No puedo [freír::smażyć] patatas hoy.",
+        "pl_translation": "Nie mogę dziś smażyć ziemniaki."
       }
     ],
     "forms": [
       {
         "es_word": "frío",
-        "pl_word": "smażę",
+        "pl_word": "smażę (freír)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "[frío::smażę] las patatas todos los días.",
-            "pl_translation": "Smażę ziemniaki codziennie."
-          },
-          {
-            "es_form": "Siempre [frío::smażę] el pescado con atención.",
-            "pl_translation": "Zawsze smażę rybę z uwagą."
-          },
-          {
-            "es_form": "[frío::smażę] como me enseñaste.",
-            "pl_translation": "Smażę tak, jak mnie nauczyłeś."
+            "es_form": "Yo [frío::smażę] patatas.",
+            "pl_translation": "Smażę ziemniaki."
           }
         ]
       },
       {
         "es_word": "fríes",
-        "pl_word": "smażysz",
+        "pl_word": "smażysz (freír)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [fríes::smażysz] por la mañana.",
-            "pl_translation": "Zazwyczaj smażysz rano."
-          },
-          {
-            "es_form": "¿[fríes::smażysz] los fines de semana?",
-            "pl_translation": "Czy smażysz w weekendy?"
-          },
-          {
-            "es_form": "[fríes::smażysz] todos los días.",
-            "pl_translation": "Smażysz codziennie."
+            "es_form": "Tú [fríes::smażysz] patatas.",
+            "pl_translation": "Smażysz ziemniaki."
           }
         ]
       },
       {
         "es_word": "fríe",
-        "pl_word": "smaży",
+        "pl_word": "smaży (freír)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [fríe::smaży] con atención.",
-            "pl_translation": "Zawsze smaży z uwagą."
-          },
-          {
-            "es_form": "[fríe::smaży] todos los días.",
-            "pl_translation": "Smaży codziennie."
-          },
-          {
-            "es_form": "No [fríe::smaży] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie smaży zbyt dobrze."
+            "es_form": "Él [fríe::smaży] patatas.",
+            "pl_translation": "Smaży ziemniaki."
           }
         ]
       },
       {
         "es_word": "freímos",
-        "pl_word": "smażymy",
+        "pl_word": "smażymy (freír)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [freímos::smażymy] por la mañana.",
-            "pl_translation": "Zazwyczaj smażymy rano."
-          },
-          {
-            "es_form": "Siempre [freímos::smażymy] con atención.",
-            "pl_translation": "Zawsze smażymy z uwagą."
-          },
-          {
-            "es_form": "[freímos::smażymy] como me enseñaste.",
-            "pl_translation": "Smażymy tak, jak mnie nauczyłeś."
+            "es_form": "Nosotros [freímos::smażymy] patatas.",
+            "pl_translation": "Smażymy ziemniaki."
           }
         ]
       },
       {
         "es_word": "freís",
-        "pl_word": "smażycie",
+        "pl_word": "smażycie (freír)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "No [freís::smażycie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie smażycie zbyt dobrze."
-          },
-          {
-            "es_form": "¿[freís::smażycie] los fines de semana?",
-            "pl_translation": "Czy smażycie w weekendy?"
-          },
-          {
-            "es_form": "[freís::smażycie] como me enseñaste.",
-            "pl_translation": "Smażycie tak, jak mnie nauczyłeś."
+            "es_form": "Vosotros [freís::smażycie] patatas.",
+            "pl_translation": "Smażycie ziemniaki."
           }
         ]
       },
       {
         "es_word": "fríen",
-        "pl_word": "smażą",
+        "pl_word": "smażą (freír)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [fríen::smażą] con atención.",
-            "pl_translation": "Zawsze smażą z uwagą."
-          },
-          {
-            "es_form": "¿[fríen::smażą] los fines de semana?",
-            "pl_translation": "Czy smażą w weekendy?"
-          },
-          {
-            "es_form": "No [fríen::smażą] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie smażą zbyt dobrze."
+            "es_form": "Ellos [fríen::smażą] patatas.",
+            "pl_translation": "Smażą ziemniaki."
           }
         ]
       },
       {
         "es_word": "freí",
-        "pl_word": "smażyłem",
+        "pl_word": "usmażyłem (freír)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "[freí::smażyłem] sin parar durante horas.",
-            "pl_translation": "Smażyłem"
-          },
-          {
-            "es_form": "¿[freí::smażyłem] bien el pescado?",
-            "pl_translation": "Czy usmażyłem"
-          },
-          {
-            "es_form": "Ayer [freí::smażyłem] todo el día.",
-            "pl_translation": "Wczoraj smażyłem"
+            "es_form": "Yo [freí::usmażyłem] patatas.",
+            "pl_translation": "Usmażyłem ziemniaki."
           }
         ]
       },
       {
         "es_word": "freíste",
-        "pl_word": "smażyłeś",
+        "pl_word": "usmażyłeś (freír)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [freíste::smażyłeś] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie smażyłeś"
-          },
-          {
-            "es_form": "¿[freíste::smażyłeś] bien las patatas?",
-            "pl_translation": "Czy dobrze usmażyłeś"
-          },
-          {
-            "es_form": "[freíste::smażyłeś] sin parar durante horas.",
-            "pl_translation": "Smażyłeś"
+            "es_form": "Tú [freíste::usmażyłeś] patatas.",
+            "pl_translation": "Usmażyłeś ziemniaki."
           }
         ]
       },
       {
-        "es_word": "frió",
-        "pl_word": "smażył",
+        "es_word": "frio",
+        "pl_word": "usmażył (freír)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "[frió::smażył] la semana pasada.",
-            "pl_translation": "Smażył"
-          },
-          {
-            "es_form": "Nunca [frió::smażył] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie smażył"
-          },
-          {
-            "es_form": "El mes pasado no [frió::smażył] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie smażył"
+            "es_form": "Él [frio::usmażył] patatas.",
+            "pl_translation": "Usmażył ziemniaki."
           }
         ]
       },
       {
         "es_word": "freímos",
-        "pl_word": "smażyliśmy",
+        "pl_word": "usmażyliśmy (freír)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "[freímos::smażyliśmy] sin parar durante horas.",
-            "pl_translation": "Smażyliśmy"
-          },
-          {
-            "es_form": "Ayer [freímos::smażyliśmy] todo el día.",
-            "pl_translation": "Wczoraj smażyliśmy"
-          },
-          {
-            "es_form": "Nunca [freímos::smażyliśmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie smażyliśmy"
+            "es_form": "Nosotros [freímos::usmażyliśmy] patatas.",
+            "pl_translation": "Usmażyliśmy ziemniaki."
           }
         ]
       },
       {
         "es_word": "freísteis",
-        "pl_word": "smażyliście",
+        "pl_word": "usmażyliście (freír)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "[freísteis::smażyliście] la semana pasada.",
-            "pl_translation": "Smażyliście"
-          },
-          {
-            "es_form": "El mes pasado no [freísteis::smażyliście] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie smażyliście"
-          },
-          {
-            "es_form": "Ayer [freísteis::smażyliście] todo el día.",
-            "pl_translation": "Wczoraj smażyliście"
+            "es_form": "Vosotros [freísteis::usmażyliście] patatas.",
+            "pl_translation": "Usmażyliście ziemniaki."
           }
         ]
       },
       {
         "es_word": "frieron",
-        "pl_word": "smażyli",
+        "pl_word": "usmażyli (freír)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "[frieron::smażyli] la semana pasada.",
-            "pl_translation": "Smażyli"
-          },
-          {
-            "es_form": "El mes pasado no [frieron::smażyli] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie smażyli"
-          },
-          {
-            "es_form": "Ayer [frieron::smażyli] todo el día.",
-            "pl_translation": "Wczoraj smażyli"
+            "es_form": "Ellos [frieron::usmażyli] patatas.",
+            "pl_translation": "Usmażyli ziemniaki."
           }
         ]
       },
       {
         "es_word": "freiré",
-        "pl_word": "będę smażył",
+        "pl_word": "będę smażyć (freír)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "[freiré::będę smażył] la próxima semana.",
-            "pl_translation": "Będę smażył"
-          },
-          {
-            "es_form": "El año que viene [freiré::będę smażył] en España.",
-            "pl_translation": "W przyszłym roku będę smażył"
-          },
-          {
-            "es_form": "Te prometo que [freiré::będę smażył] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będę smażył"
+            "es_form": "Yo [freiré::będę smażyć] patatas.",
+            "pl_translation": "Będę smażyć ziemniaki."
           }
         ]
       },
       {
         "es_word": "freirás",
-        "pl_word": "będziesz smażył",
+        "pl_word": "będziesz smażyć (freír)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "[freirás::będziesz smażył] la próxima semana.",
-            "pl_translation": "Będziesz smażył"
-          },
-          {
-            "es_form": "¿[freirás::będziesz smażył] con nosotros mañana?",
-            "pl_translation": "Czy będziesz smażył"
-          },
-          {
-            "es_form": "Creo que [freirás::będziesz smażył] bien.",
-            "pl_translation": "Myślę, że będziesz smażył"
+            "es_form": "Tú [freirás::będziesz smażyć] patatas.",
+            "pl_translation": "Będziesz smażyć ziemniaki."
           }
         ]
       },
       {
         "es_word": "freirá",
-        "pl_word": "będzie smażył",
+        "pl_word": "będzie smażyć (freír)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [freirá::będzie smażył] bien.",
-            "pl_translation": "Myślę, że będzie smażył"
-          },
-          {
-            "es_form": "¿[freirá::będzie smażył] con nosotros mañana?",
-            "pl_translation": "Czy będzie smażył"
-          },
-          {
-            "es_form": "[freirá::będzie smażył] la próxima semana.",
-            "pl_translation": "Będzie smażył"
+            "es_form": "Él [freirá::będzie smażyć] patatas.",
+            "pl_translation": "Będzie smażyć ziemniaki."
           }
         ]
       },
       {
         "es_word": "freiremos",
-        "pl_word": "będziemy smażyli",
+        "pl_word": "będziemy smażyć (freír)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[freiremos::będziemy smażyli] con nosotros mañana?",
-            "pl_translation": "Czy będziemy smażyli"
-          },
-          {
-            "es_form": "Creo que [freiremos::będziemy smażyli] bien.",
-            "pl_translation": "Myślę, że będziemy smażyli"
-          },
-          {
-            "es_form": "[freiremos::będziemy smażyli] la próxima semana.",
-            "pl_translation": "Będziemy smażyli"
+            "es_form": "Nosotros [freiremos::będziemy smażyć] patatas.",
+            "pl_translation": "Będziemy smażyć ziemniaki."
           }
         ]
       },
       {
         "es_word": "freiréis",
-        "pl_word": "będziecie smażyli",
+        "pl_word": "będziecie smażyć (freír)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [freiréis::będziecie smażyli] bien.",
-            "pl_translation": "Myślę, że będziecie smażyli"
-          },
-          {
-            "es_form": "Te prometo que [freiréis::będziecie smażyli] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziecie smażyli"
-          },
-          {
-            "es_form": "¿[freiréis::będziecie smażyli] con nosotros mañana?",
-            "pl_translation": "Czy będziecie smażyli"
+            "es_form": "Vosotros [freiréis::będziecie smażyć] patatas.",
+            "pl_translation": "Będziecie smażyć ziemniaki."
           }
         ]
       },
       {
         "es_word": "freirán",
-        "pl_word": "będą smażyli",
+        "pl_word": "będą smażyć (freír)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [freirán::będą smażyli] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będą smażyli"
-          },
-          {
-            "es_form": "[freirán::będą smażyli] la próxima semana.",
-            "pl_translation": "Będą smażyli"
-          },
-          {
-            "es_form": "¿[freirán::będą smażyli] con nosotros mañana?",
-            "pl_translation": "Czy będą smażyli"
+            "es_form": "Ellos [freirán::będą smażyć] patatas.",
+            "pl_translation": "Będą smażyć ziemniaki."
           }
         ]
       }

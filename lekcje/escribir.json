@@ -233,22 +233,18 @@
     "pl_word": "pisać",
     "examples": [
       {
-        "es_form": "Prefiero [escribir::pisać] en casa.",
-        "pl_translation": "Wolę pisać w domu."
+        "es_form": "Quiero [escribir::pisać] una carta.",
+        "pl_translation": "Chcę pisać list."
       },
       {
-        "es_form": "No puedo [escribir::pisać] sin tu ayuda.",
-        "pl_translation": "Nie mogę pisać bez twojej pomocy."
-      },
-      {
-        "es_form": "Hay que [escribir::pisać] con cuidado.",
-        "pl_translation": "Trzeba pisać ostrożnie."
+        "es_form": "No puedo [escribir::pisać] una carta hoy.",
+        "pl_translation": "Nie mogę dziś pisać list."
       }
     ],
     "forms": [
       {
         "es_word": "escribo",
-        "pl_word": "piszę",
+        "pl_word": "piszę (escribir)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [escribo::piszę] con atencion.",
-            "pl_translation": "Zawsze pisze z uwagą."
-          },
-          {
-            "es_form": "[escribo::piszę] todos los días.",
-            "pl_translation": "Piszę codziennie."
-          },
-          {
-            "es_form": "Normalmente [escribo::piszę] por la mañana.",
-            "pl_translation": "Zazwyczaj pisze rano."
+            "es_form": "Yo [escribo::piszę] una carta.",
+            "pl_translation": "Piszę list."
           }
         ]
       },
       {
         "es_word": "escribes",
-        "pl_word": "piszesz",
+        "pl_word": "piszesz (escribir)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [escribes::piszesz] con atencion.",
-            "pl_translation": "Zawsze piszesz z uwagą."
-          },
-          {
-            "es_form": "¿[escribes::piszesz] los fines de semana?",
-            "pl_translation": "Czy piszesz w weekendy?"
-          },
-          {
-            "es_form": "[escribes::piszesz] todos los días.",
-            "pl_translation": "Piszęsz codziennie."
+            "es_form": "Tú [escribes::piszesz] una carta.",
+            "pl_translation": "Piszesz list."
           }
         ]
       },
       {
         "es_word": "escribe",
-        "pl_word": "pisze",
+        "pl_word": "pisze (escribir)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [escribe::pisze] por la mañana.",
-            "pl_translation": "Zazwyczaj pisze rano."
-          },
-          {
-            "es_form": "Siempre [escribe::pisze] con atencion.",
-            "pl_translation": "Zawsze pisze z uwagą."
-          },
-          {
-            "es_form": "No [escribe::pisze] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie pisze zbyt dobrze."
+            "es_form": "Él [escribe::pisze] una carta.",
+            "pl_translation": "Pisze list."
           }
         ]
       },
       {
         "es_word": "escribimos",
-        "pl_word": "piszemy",
+        "pl_word": "piszemy (escribir)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[escribimos::piszemy] los fines de semana?",
-            "pl_translation": "Czy piszemy w weekendy?"
-          },
-          {
-            "es_form": "Siempre [escribimos::piszemy] con atencion.",
-            "pl_translation": "Zawsze piszemy z uwagą."
-          },
-          {
-            "es_form": "[escribimos::piszemy] todos los días.",
-            "pl_translation": "Piszęmy codziennie."
+            "es_form": "Nosotros [escribimos::piszemy] una carta.",
+            "pl_translation": "Piszemy list."
           }
         ]
       },
       {
         "es_word": "escribís",
-        "pl_word": "piszecie",
+        "pl_word": "piszecie (escribir)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "[escribís::piszecie] todos los días.",
-            "pl_translation": "Piszęcie codziennie."
-          },
-          {
-            "es_form": "Normalmente [escribís::piszecie] por la mañana.",
-            "pl_translation": "Zazwyczaj piszecie rano."
-          },
-          {
-            "es_form": "[escribís::piszecie] como me enseñaste.",
-            "pl_translation": "Piszęcie tak jak mnie nauczyłeś"
+            "es_form": "Vosotros [escribís::piszecie] una carta.",
+            "pl_translation": "Piszecie list."
           }
         ]
       },
       {
         "es_word": "escriben",
-        "pl_word": "piszą",
+        "pl_word": "piszą (escribir)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "[escriben::piszą] todos los días.",
-            "pl_translation": "Piszą codziennie."
-          },
-          {
-            "es_form": "Siempre [escriben::piszą] con atencion.",
-            "pl_translation": "Zawsze piszą z uwagą."
-          },
-          {
-            "es_form": "¿[escriben::piszą] los fines de semana?",
-            "pl_translation": "Czy piszą w weekendy?"
+            "es_form": "Ellos [escriben::piszą] una carta.",
+            "pl_translation": "Piszą list."
           }
         ]
       },
       {
         "es_word": "escribí",
-        "pl_word": "pisałem",
+        "pl_word": "napisałem (escribir)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [escribí::pisałem] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie pisałem"
-          },
-          {
-            "es_form": "Ayer [escribí::pisałem] todo el día.",
-            "pl_translation": "Wczoraj pisałem"
-          },
-          {
-            "es_form": "[escribí::pisałem] la semana pasada.",
-            "pl_translation": "Pisąlem"
+            "es_form": "Yo [escribí::napisałem] una carta.",
+            "pl_translation": "Napisałem list."
           }
         ]
       },
       {
         "es_word": "escribiste",
-        "pl_word": "pisałeś",
+        "pl_word": "napisałeś (escribir)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "[escribiste::pisałeś] sin parar durante horas.",
-            "pl_translation": "Pisąles"
-          },
-          {
-            "es_form": "¿[escribiste::pisałeś] bien el examen?",
-            "pl_translation": "Czy pisałeś"
-          },
-          {
-            "es_form": "El mes pasado no [escribiste::pisałeś] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie pisałeś"
+            "es_form": "Tú [escribiste::napisałeś] una carta.",
+            "pl_translation": "Napisałeś list."
           }
         ]
       },
       {
         "es_word": "escribió",
-        "pl_word": "pisał",
+        "pl_word": "napisał (escribir)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "[escribió::pisał] la semana pasada.",
-            "pl_translation": "Pisąl"
-          },
-          {
-            "es_form": "[escribió::pisał] sin parar durante horas.",
-            "pl_translation": "Pisąl"
-          },
-          {
-            "es_form": "El mes pasado no [escribió::pisał] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie pisał"
+            "es_form": "Él [escribió::napisał] una carta.",
+            "pl_translation": "Napisał list."
           }
         ]
       },
       {
         "es_word": "escribimos",
-        "pl_word": "pisaliśmy",
+        "pl_word": "napisaliśmy (escribir)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [escribimos::pisaliśmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie pisaliśmy"
-          },
-          {
-            "es_form": "El mes pasado no [escribimos::pisaliśmy] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie pisaliśmy"
-          },
-          {
-            "es_form": "[escribimos::pisaliśmy] sin parar durante horas.",
-            "pl_translation": "Pisąlismy"
+            "es_form": "Nosotros [escribimos::napisaliśmy] una carta.",
+            "pl_translation": "Napisaliśmy list."
           }
         ]
       },
       {
         "es_word": "escribisteis",
-        "pl_word": "pisaliście",
+        "pl_word": "napisaliście (escribir)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [escribisteis::pisaliście] todo el día.",
-            "pl_translation": "Wczoraj pisaliście"
-          },
-          {
-            "es_form": "Nunca [escribisteis::pisaliście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie pisaliście"
-          },
-          {
-            "es_form": "El mes pasado no [escribisteis::pisaliście] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie pisaliście"
+            "es_form": "Vosotros [escribisteis::napisaliście] una carta.",
+            "pl_translation": "Napisaliście list."
           }
         ]
       },
       {
         "es_word": "escribieron",
-        "pl_word": "pisali",
+        "pl_word": "napisali (escribir)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "[escribieron::pisali] sin parar durante horas.",
-            "pl_translation": "Pisąli"
-          },
-          {
-            "es_form": "[escribieron::pisali] la semana pasada.",
-            "pl_translation": "Pisąli"
-          },
-          {
-            "es_form": "¿[escribieron::pisali] bien el examen?",
-            "pl_translation": "Czy pisali"
+            "es_form": "Ellos [escribieron::napisali] una carta.",
+            "pl_translation": "Napisali list."
           }
         ]
       },
       {
-        "es_word": "escribé",
-        "pl_word": "będę pisać",
+        "es_word": "escribiré",
+        "pl_word": "będę pisać (escribir)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[escribé::będę pisać] con nosotros mañana?",
-            "pl_translation": "Czy będę pisać z nami jutro?"
-          },
-          {
-            "es_form": "El año que viene [escribé::będę pisać] en España.",
-            "pl_translation": "W przyszłym roku będę pisać w Hiszpanii."
-          },
-          {
-            "es_form": "[escribé::będę pisać] la proxima semana.",
-            "pl_translation": "Będę pisać w przyszłym tygodniu."
+            "es_form": "Yo [escribiré::będę pisać] una carta.",
+            "pl_translation": "Będę pisać list."
           }
         ]
       },
       {
-        "es_word": "escribás",
-        "pl_word": "będziesz pisać",
+        "es_word": "escribirás",
+        "pl_word": "będziesz pisać (escribir)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [escribás::będziesz pisać] bien.",
-            "pl_translation": "Myślę, że będziesz pisać dobrze."
-          },
-          {
-            "es_form": "Mañana [escribás::będziesz pisać] más temprano.",
-            "pl_translation": "Jutro będziesz pisać wcześniej."
-          },
-          {
-            "es_form": "[escribás::będziesz pisać] la proxima semana.",
-            "pl_translation": "Będziesz pisać w przyszłym tygodniu."
+            "es_form": "Tú [escribirás::będziesz pisać] una carta.",
+            "pl_translation": "Będziesz pisać list."
           }
         ]
       },
       {
-        "es_word": "escribá",
-        "pl_word": "będzie pisać",
+        "es_word": "escribirá",
+        "pl_word": "będzie pisać (escribir)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[escribá::będzie pisać] con nosotros mañana?",
-            "pl_translation": "Czy będzie pisać z nami jutro?"
-          },
-          {
-            "es_form": "[escribá::będzie pisać] la proxima semana.",
-            "pl_translation": "Będzie pisać w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Mañana [escribá::będzie pisać] más temprano.",
-            "pl_translation": "Jutro będzie pisać wcześniej."
+            "es_form": "Él [escribirá::będzie pisać] una carta.",
+            "pl_translation": "Będzie pisać list."
           }
         ]
       },
       {
-        "es_word": "escribemos",
-        "pl_word": "będziemy pisać",
+        "es_word": "escribiremos",
+        "pl_word": "będziemy pisać (escribir)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[escribemos::będziemy pisać] con nosotros mañana?",
-            "pl_translation": "Czy będziemy pisać z nami jutro?"
-          },
-          {
-            "es_form": "Creo que [escribemos::będziemy pisać] bien.",
-            "pl_translation": "Myślę, że będziemy pisać dobrze."
-          },
-          {
-            "es_form": "Mañana [escribemos::będziemy pisać] más temprano.",
-            "pl_translation": "Jutro będziemy pisać wcześniej."
+            "es_form": "Nosotros [escribiremos::będziemy pisać] una carta.",
+            "pl_translation": "Będziemy pisać list."
           }
         ]
       },
       {
-        "es_word": "escribéis",
-        "pl_word": "będziecie pisać",
+        "es_word": "escribiréis",
+        "pl_word": "będziecie pisać (escribir)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [escribéis::będziecie pisać] en España.",
-            "pl_translation": "W przyszłym roku będziecie pisać w Hiszpanii."
-          },
-          {
-            "es_form": "¿[escribéis::będziecie pisać] con nosotros mañana?",
-            "pl_translation": "Czy będziecie pisać z nami jutro?"
-          },
-          {
-            "es_form": "[escribéis::będziecie pisać] la proxima semana.",
-            "pl_translation": "Będziecie pisać w przyszłym tygodniu."
+            "es_form": "Vosotros [escribiréis::będziecie pisać] una carta.",
+            "pl_translation": "Będziecie pisać list."
           }
         ]
       },
       {
-        "es_word": "escribán",
-        "pl_word": "będą pisać",
+        "es_word": "escribirán",
+        "pl_word": "będą pisać (escribir)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "[escribán::będą pisać] la proxima semana.",
-            "pl_translation": "Będą pisać w przyszłym tygodniu."
-          },
-          {
-            "es_form": "El año que viene [escribán::będą pisać] en España.",
-            "pl_translation": "W przyszłym roku będą pisać w Hiszpanii."
-          },
-          {
-            "es_form": "Te prometo que [escribán::będą pisać] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będą pisać na czas."
+            "es_form": "Ellos [escribirán::będą pisać] una carta.",
+            "pl_translation": "Będą pisać list."
           }
         ]
       }

@@ -4,9 +4,9 @@ import { buildSessionPool, buildMistakesPool, pickNext, recordAnswer, bumpDailyS
 import { checkAnswer, splitArticle } from '../engine/answer.js';
 import { buildKeyboard } from '../engine/keyboard.js';
 import { buildMcqOptions } from '../engine/mcq.js';
-import { describeGrammar } from '../course.js';
 import Keyboard from './Keyboard.jsx';
 import Cloze, { parseExample } from './Cloze.jsx';
+import Icon from './Icon.jsx';
 
 function speak(text, enabled) {
   if (!enabled || !('speechSynthesis' in window)) return;
@@ -109,13 +109,6 @@ export default function Session({ settings, maxLesson, mode = 'normal', onExit, 
     setPhase('feedback');
   }
 
-  // Odsłuch zdania przykładowego; przed oceną luka jest pomijana (nie zdradza odpowiedzi).
-  function speakSentence() {
-    const { before, answer, after } = task.parsed;
-    const gap = phase === 'feedback' ? ` ${answer} ` : ' ';
-    speak((before + gap + after).replace(/\s+/g, ' ').trim(), true);
-  }
-
   function toggleTts() {
     const next = !tts;
     setTts(next);
@@ -137,7 +130,9 @@ export default function Session({ settings, maxLesson, mode = 'normal', onExit, 
     return (
       <div className="screen center session-summary">
         <h2>Sesja zakończona 🎉</h2>
-        <p className="big-num">✅ {counts.correct} &nbsp; ❌ {counts.wrong}</p>
+        <p className="big-num">
+          <span className="num-ok">{counts.correct}</span> &nbsp; <span className="num-bad">{counts.wrong}</span>
+        </p>
         <p>Zaliczone w tej sesji słowa: {counts.done}</p>
         <button className="btn primary" onClick={onExit}>Wróć do kursu</button>
       </div>
@@ -149,36 +144,42 @@ export default function Session({ settings, maxLesson, mode = 'normal', onExit, 
   const w = task.entry.word;
   const display = task.isNoun ? (article ? article + ' ' + typed : typed) : typed;
 
+  const donePct = Math.round((counts.done / pool.length) * 100) || 0;
+
   return (
     <div className="screen session">
       <div className="session-top">
-        <button className="btn ghost" onClick={() => finish(pool)}>✕</button>
+        <button className="btn ghost" onClick={() => finish(pool)} aria-label="Zakończ sesję">
+          <Icon name="close" />
+        </button>
         <span className="timer">{mins}:{secs}</span>
-        <span className="score">✅ {counts.correct} ❌ {counts.wrong}</span>
+        <span className="score">
+          <span className="num-ok">{counts.correct}</span> <span className="num-bad">{counts.wrong}</span>
+        </span>
         <button
           className="btn ghost"
           title={tts ? 'Wycisz czytanie na głos' : 'Włącz czytanie na głos'}
           onClick={toggleTts}
         >
-          {tts ? '🔊' : '🔇'}
+          <Icon name={tts ? 'soundOn' : 'soundOff'} />
         </button>
+      </div>
+
+      <div className="session-progress" title={`Zaliczone słowa: ${counts.done}/${pool.length}`}>
+        <div className="session-progress-fill" style={{ width: donePct + '%' }} />
       </div>
 
       <div className="prompt-wrap">
         <div className="prompt">
+          <div className="level-dots" title={`Poziom słowa: ${task.entry.progress.level}/6`}>
+            {Array.from({ length: 6 }, (_, i) => (
+              <span key={i} className={'level-dot' + (i < task.entry.progress.level ? ' on' : '')} />
+            ))}
+          </div>
           <div className="prompt-word">
             <span className="pl-word">{w.pl}</span>
-            {w.type === 'verb_form' && w.grammar && (
-              <span className="grammar-tag">{describeGrammar(w.grammar)}</span>
-            )}
-            <span className="level-tag">poz. {task.entry.progress.level}</span>
           </div>
-          <div className="cloze-row">
-            <Cloze parsed={task.parsed} revealed={phase === 'feedback'} userText={display} />
-            <button className="btn ghost speak-btn" title="Odsłuchaj zdanie" onClick={speakSentence}>
-              🔊
-            </button>
-          </div>
+          <Cloze parsed={task.parsed} revealed={phase === 'feedback'} userText={display} />
         </div>
       </div>
 

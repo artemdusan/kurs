@@ -233,22 +233,18 @@
     "pl_word": "słyszeć",
     "examples": [
       {
-        "es_form": "Es importante [oír::słyszeć] todos los días.",
-        "pl_translation": "Ważne jest słyszeć codziennie."
+        "es_form": "Quiero [oír::słyszeć] un ruido.",
+        "pl_translation": "Chcę słyszeć hałas."
       },
       {
-        "es_form": "Prefiero [oír::słyszeć] en casa.",
-        "pl_translation": "Wolę słyszeć w domu."
-      },
-      {
-        "es_form": "¿Puedes [oír::słyszeć] más rápido?",
-        "pl_translation": "Możesz słyszeć szybciej?"
+        "es_form": "No puedo [oír::słyszeć] un ruido hoy.",
+        "pl_translation": "Nie mogę dziś słyszeć hałas."
       }
     ],
     "forms": [
       {
         "es_word": "oigo",
-        "pl_word": "słyszę",
+        "pl_word": "słyszę (oír)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "[oigo::słyszę] todos los días.",
-            "pl_translation": "Słyszę codziennie."
-          },
-          {
-            "es_form": "[oigo::słyszę] como me enseñaste.",
-            "pl_translation": "Słyszę tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "¿[oigo::słyszę] los fines de semana?",
-            "pl_translation": "Czy słyszę w weekendy?"
+            "es_form": "Yo [oigo::słyszę] un ruido.",
+            "pl_translation": "Słyszę hałas."
           }
         ]
       },
       {
         "es_word": "oyes",
-        "pl_word": "słyszysz",
+        "pl_word": "słyszysz (oír)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "[oyes::słyszysz] como me enseñaste.",
-            "pl_translation": "Słyszysz tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Siempre [oyes::słyszysz] con atención.",
-            "pl_translation": "Zawsze słyszysz z uwagą."
-          },
-          {
-            "es_form": "¿[oyes::słyszysz] los fines de semana?",
-            "pl_translation": "Czy słyszysz w weekendy?"
+            "es_form": "Tú [oyes::słyszysz] un ruido.",
+            "pl_translation": "Słyszysz hałas."
           }
         ]
       },
       {
         "es_word": "oye",
-        "pl_word": "słyszy",
+        "pl_word": "słyszy (oír)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "[oye::słyszy] como me enseñaste.",
-            "pl_translation": "Słyszy tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "No [oye::słyszy] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie słyszy zbyt dobrze."
-          },
-          {
-            "es_form": "[oye::słyszy] todos los días.",
-            "pl_translation": "Słyszy codziennie."
+            "es_form": "Él [oye::słyszy] un ruido.",
+            "pl_translation": "Słyszy hałas."
           }
         ]
       },
       {
         "es_word": "oímos",
-        "pl_word": "słyszymy",
+        "pl_word": "słyszymy (oír)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[oímos::słyszymy] los fines de semana?",
-            "pl_translation": "Czy słyszymy w weekendy?"
-          },
-          {
-            "es_form": "[oímos::słyszymy] todos los días.",
-            "pl_translation": "Słyszymy codziennie."
-          },
-          {
-            "es_form": "Normalmente [oímos::słyszymy] por la mañana.",
-            "pl_translation": "Zazwyczaj słyszymy rano."
+            "es_form": "Nosotros [oímos::słyszymy] un ruido.",
+            "pl_translation": "Słyszymy hałas."
           }
         ]
       },
       {
         "es_word": "oís",
-        "pl_word": "słyszycie",
+        "pl_word": "słyszycie (oír)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[oís::słyszycie] los fines de semana?",
-            "pl_translation": "Czy słyszycie w weekendy?"
-          },
-          {
-            "es_form": "Siempre [oís::słyszycie] con atención.",
-            "pl_translation": "Zawsze słyszycie z uwagą."
-          },
-          {
-            "es_form": "[oís::słyszycie] todos los días.",
-            "pl_translation": "Słyszycie codziennie."
+            "es_form": "Vosotros [oís::słyszycie] un ruido.",
+            "pl_translation": "Słyszycie hałas."
           }
         ]
       },
       {
         "es_word": "oyen",
-        "pl_word": "słyszą",
+        "pl_word": "słyszą (oír)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [oyen::słyszą] con atención.",
-            "pl_translation": "Zawsze słyszą z uwagą."
-          },
-          {
-            "es_form": "[oyen::słyszą] como me enseñaste.",
-            "pl_translation": "Słyszą tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "¿[oyen::słyszą] los fines de semana?",
-            "pl_translation": "Czy słyszą w weekendy?"
+            "es_form": "Ellos [oyen::słyszą] un ruido.",
+            "pl_translation": "Słyszą hałas."
           }
         ]
       },
       {
         "es_word": "oí",
-        "pl_word": "słyszałem",
+        "pl_word": "usłyszałem (oír)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [oí::słyszałem] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie słyszałem."
-          },
-          {
-            "es_form": "[oí::słyszałem] sin parar durante horas.",
-            "pl_translation": "Słyszałem bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "Nunca [oí::słyszałem] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie słyszałem czegoś takiego."
+            "es_form": "Yo [oí::usłyszałem] un ruido.",
+            "pl_translation": "Usłyszałem hałas."
           }
         ]
       },
       {
         "es_word": "oíste",
-        "pl_word": "słyszałeś",
+        "pl_word": "usłyszałeś (oír)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [oíste::słyszałeś] todo el día.",
-            "pl_translation": "Wczoraj słyszałeś cały dzień."
-          },
-          {
-            "es_form": "[oíste::słyszałeś] la semana pasada.",
-            "pl_translation": "Słyszałeś w zeszłym tygodniu."
-          },
-          {
-            "es_form": "¿[oíste::słyszałeś] bien el sonido?",
-            "pl_translation": "Czy słyszałeś dobrze dźwięk?"
+            "es_form": "Tú [oíste::usłyszałeś] un ruido.",
+            "pl_translation": "Usłyszałeś hałas."
           }
         ]
       },
       {
         "es_word": "oyó",
-        "pl_word": "słyszał",
+        "pl_word": "usłyszał (oír)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [oyó::słyszał] todo el día.",
-            "pl_translation": "Wczoraj słyszał cały dzień."
-          },
-          {
-            "es_form": "El mes pasado no [oyó::słyszał] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie słyszał."
-          },
-          {
-            "es_form": "Nunca [oyó::słyszał] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie słyszał czegoś takiego."
+            "es_form": "Él [oyó::usłyszał] un ruido.",
+            "pl_translation": "Usłyszał hałas."
           }
         ]
       },
       {
         "es_word": "oímos",
-        "pl_word": "słyszeliśmy",
+        "pl_word": "usłyszeliśmy (oír)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "[oímos::słyszeliśmy] la semana pasada.",
-            "pl_translation": "Słyszeliśmy w zeszłym tygodniu."
-          },
-          {
-            "es_form": "Nunca [oímos::słyszeliśmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie słyszeliśmy czegoś takiego."
-          },
-          {
-            "es_form": "El mes pasado no [oímos::słyszeliśmy] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie słyszeliśmy."
+            "es_form": "Nosotros [oímos::usłyszeliśmy] un ruido.",
+            "pl_translation": "Usłyszeliśmy hałas."
           }
         ]
       },
       {
         "es_word": "oísteis",
-        "pl_word": "słyszeliście",
+        "pl_word": "usłyszeliście (oír)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "[oísteis::słyszeliście] la semana pasada.",
-            "pl_translation": "Słyszeliście w zeszłym tygodniu."
-          },
-          {
-            "es_form": "Nunca [oísteis::słyszeliście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie słyszeliście czegoś takiego."
-          },
-          {
-            "es_form": "¿[oísteis::słyszeliście] bien el sonido?",
-            "pl_translation": "Czy słyszeliście dobrze dźwięk?"
+            "es_form": "Vosotros [oísteis::usłyszeliście] un ruido.",
+            "pl_translation": "Usłyszeliście hałas."
           }
         ]
       },
       {
         "es_word": "oyeron",
-        "pl_word": "słyszeli",
+        "pl_word": "usłyszeli (oír)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[oyeron::słyszeli] bien el sonido?",
-            "pl_translation": "Czy słyszeli dobrze dźwięk?"
-          },
-          {
-            "es_form": "[oyeron::słyszeli] la semana pasada.",
-            "pl_translation": "Słyszeli w zeszłym tygodniu."
-          },
-          {
-            "es_form": "[oyeron::słyszeli] sin parar durante horas.",
-            "pl_translation": "Słyszeli bez przerwy przez wiele godzin."
+            "es_form": "Ellos [oyeron::usłyszeli] un ruido.",
+            "pl_translation": "Usłyszeli hałas."
           }
         ]
       },
       {
         "es_word": "oiré",
-        "pl_word": "będę słyszeć",
+        "pl_word": "będę słyszeć (oír)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [oiré::będę słyszeć] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będę słyszeć na czas."
-          },
-          {
-            "es_form": "El año que viene [oiré::będę słyszeć] en España.",
-            "pl_translation": "W przyszłym roku będę słyszeć w Hiszpanii."
-          },
-          {
-            "es_form": "Creo que [oiré::będę słyszeć] bien.",
-            "pl_translation": "Myślę, że będę słyszeć dobrze."
+            "es_form": "Yo [oiré::będę słyszeć] un ruido.",
+            "pl_translation": "Będę słyszeć hałas."
           }
         ]
       },
       {
         "es_word": "oirás",
-        "pl_word": "będziesz słyszeć",
+        "pl_word": "będziesz słyszeć (oír)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [oirás::będziesz słyszeć] bien.",
-            "pl_translation": "Myślę, że będziesz słyszeć dobrze."
-          },
-          {
-            "es_form": "Mañana [oirás::będziesz słyszeć] más temprano.",
-            "pl_translation": "Jutro będziesz słyszeć wcześniej."
-          },
-          {
-            "es_form": "Te prometo que [oirás::będziesz słyszeć] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziesz słyszeć na czas."
+            "es_form": "Tú [oirás::będziesz słyszeć] un ruido.",
+            "pl_translation": "Będziesz słyszeć hałas."
           }
         ]
       },
       {
         "es_word": "oirá",
-        "pl_word": "będzie słyszeć",
+        "pl_word": "będzie słyszeć (oír)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [oirá::będzie słyszeć] más temprano.",
-            "pl_translation": "Jutro będzie słyszeć wcześniej."
-          },
-          {
-            "es_form": "Creo que [oirá::będzie słyszeć] bien.",
-            "pl_translation": "Myślę, że będzie słyszeć dobrze."
-          },
-          {
-            "es_form": "¿[oirá::będzie słyszeć] con nosotros mañana?",
-            "pl_translation": "Czy będzie słyszeć z nami jutro?"
+            "es_form": "Él [oirá::będzie słyszeć] un ruido.",
+            "pl_translation": "Będzie słyszeć hałas."
           }
         ]
       },
       {
         "es_word": "oiremos",
-        "pl_word": "będziemy słyszeć",
+        "pl_word": "będziemy słyszeć (oír)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [oiremos::będziemy słyszeć] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziemy słyszeć na czas."
-          },
-          {
-            "es_form": "El año que viene [oiremos::będziemy słyszeć] en España.",
-            "pl_translation": "W przyszłym roku będziemy słyszeć w Hiszpanii."
-          },
-          {
-            "es_form": "Creo que [oiremos::będziemy słyszeć] bien.",
-            "pl_translation": "Myślę, że będziemy słyszeć dobrze."
+            "es_form": "Nosotros [oiremos::będziemy słyszeć] un ruido.",
+            "pl_translation": "Będziemy słyszeć hałas."
           }
         ]
       },
       {
         "es_word": "oiréis",
-        "pl_word": "będziecie słyszeć",
+        "pl_word": "będziecie słyszeć (oír)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [oiréis::będziecie słyszeć] bien.",
-            "pl_translation": "Myślę, że będziecie słyszeć dobrze."
-          },
-          {
-            "es_form": "El año que viene [oiréis::będziecie słyszeć] en España.",
-            "pl_translation": "W przyszłym roku będziecie słyszeć w Hiszpanii."
-          },
-          {
-            "es_form": "¿[oiréis::będziecie słyszeć] con nosotros mañana?",
-            "pl_translation": "Czy będziecie słyszeć z nami jutro?"
+            "es_form": "Vosotros [oiréis::będziecie słyszeć] un ruido.",
+            "pl_translation": "Będziecie słyszeć hałas."
           }
         ]
       },
       {
         "es_word": "oirán",
-        "pl_word": "będą słyszeć",
+        "pl_word": "będą słyszeć (oír)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [oirán::będą słyszeć] más temprano.",
-            "pl_translation": "Jutro będą słyszeć wcześniej."
-          },
-          {
-            "es_form": "Te prometo que [oirán::będą słyszeć] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będą słyszeć na czas."
-          },
-          {
-            "es_form": "Creo que [oirán::będą słyszeć] bien.",
-            "pl_translation": "Myślę, że będą słyszeć dobrze."
+            "es_form": "Ellos [oirán::będą słyszeć] un ruido.",
+            "pl_translation": "Będą słyszeć hałas."
           }
         ]
       }

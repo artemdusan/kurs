@@ -233,22 +233,18 @@
     "pl_word": "rosnąć",
     "examples": [
       {
-        "es_form": "Hay que [crecer::rosnąć] con cuidado.",
-        "pl_translation": "Trzeba rosnąć ostrożnie."
+        "es_form": "Quiero [crecer::rosnąć] muy rápido.",
+        "pl_translation": "Chcę rosnąć bardzo szybko."
       },
       {
-        "es_form": "Es importante [crecer::rosnąć] todos los días.",
-        "pl_translation": "Ważne jest rosnąć codziennie."
-      },
-      {
-        "es_form": "Quiero [crecer::rosnąć] ahora.",
-        "pl_translation": "Chcę rosnąć teraz."
+        "es_form": "No puedo [crecer::rosnąć] muy rápido hoy.",
+        "pl_translation": "Nie mogę dziś rosnąć bardzo szybko."
       }
     ],
     "forms": [
       {
         "es_word": "crezco",
-        "pl_word": "rosnę",
+        "pl_word": "rosnę (crecer)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[crezco::rosnę] los fines de semana?",
-            "pl_translation": "Czy rosnę w weekendy?"
-          },
-          {
-            "es_form": "[crezco::rosnę] como me enseñaste.",
-            "pl_translation": "Rosnę tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Siempre [crezco::rosnę] con atencion.",
-            "pl_translation": "Zawsze rosnę z uwagą."
+            "es_form": "Yo [crezco::rosnę] muy rápido.",
+            "pl_translation": "Rosnę bardzo szybko."
           }
         ]
       },
       {
         "es_word": "creces",
-        "pl_word": "rośniesz",
+        "pl_word": "rośniesz (crecer)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[creces::rośniesz] los fines de semana?",
-            "pl_translation": "Czy rośniesz w weekendy?"
-          },
-          {
-            "es_form": "[creces::rośniesz] como me enseñaste.",
-            "pl_translation": "Rośniesz tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Siempre [creces::rośniesz] con atencion.",
-            "pl_translation": "Zawsze rośniesz z uwagą."
+            "es_form": "Tú [creces::rośniesz] muy rápido.",
+            "pl_translation": "Rośniesz bardzo szybko."
           }
         ]
       },
       {
         "es_word": "crece",
-        "pl_word": "rośnie",
+        "pl_word": "rośnie (crecer)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [crece::rośnie] con atencion.",
-            "pl_translation": "Zawsze rośnie z uwagą."
-          },
-          {
-            "es_form": "[crece::rośnie] como me enseñaste.",
-            "pl_translation": "Rośnie tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Normalmente [crece::rośnie] por la mañana.",
-            "pl_translation": "Zazwyczaj rośnie rano."
+            "es_form": "Él [crece::rośnie] muy rápido.",
+            "pl_translation": "Rośnie bardzo szybko."
           }
         ]
       },
       {
         "es_word": "crecemos",
-        "pl_word": "rośniemy",
+        "pl_word": "rośniemy (crecer)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "No [crecemos::rośniemy] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie rośniemy zbyt dobrze."
-          },
-          {
-            "es_form": "Normalmente [crecemos::rośniemy] por la mañana.",
-            "pl_translation": "Zazwyczaj rośniemy rano."
-          },
-          {
-            "es_form": "Siempre [crecemos::rośniemy] con atencion.",
-            "pl_translation": "Zawsze rośniemy z uwagą."
+            "es_form": "Nosotros [crecemos::rośniemy] muy rápido.",
+            "pl_translation": "Rośniemy bardzo szybko."
           }
         ]
       },
       {
         "es_word": "crecéis",
-        "pl_word": "rośniecie",
+        "pl_word": "rośniecie (crecer)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [crecéis::rośniecie] con atencion.",
-            "pl_translation": "Zawsze rośniecie z uwagą."
-          },
-          {
-            "es_form": "[crecéis::rośniecie] como me enseñaste.",
-            "pl_translation": "Rośniecie tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "[crecéis::rośniecie] todos los días.",
-            "pl_translation": "Rośniecie codziennie."
+            "es_form": "Vosotros [crecéis::rośniecie] muy rápido.",
+            "pl_translation": "Rośniecie bardzo szybko."
           }
         ]
       },
       {
         "es_word": "crecen",
-        "pl_word": "rosną",
+        "pl_word": "rosną (crecer)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "[crecen::rosną] todos los días.",
-            "pl_translation": "Rosną codziennie."
-          },
-          {
-            "es_form": "¿[crecen::rosną] los fines de semana?",
-            "pl_translation": "Czy rosną w weekendy?"
-          },
-          {
-            "es_form": "Normalmente [crecen::rosną] por la mañana.",
-            "pl_translation": "Zazwyczaj rosną rano."
+            "es_form": "Ellos [crecen::rosną] muy rápido.",
+            "pl_translation": "Rosną bardzo szybko."
           }
         ]
       },
       {
         "es_word": "crecí",
-        "pl_word": "rosłem",
+        "pl_word": "urosłem (crecer)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "[crecí::rosłem] sin parar durante horas.",
-            "pl_translation": "Rosłem"
-          },
-          {
-            "es_form": "¿[crecí::rosłem] bien el examen?",
-            "pl_translation": "Czy rosłem"
-          },
-          {
-            "es_form": "Nunca [crecí::rosłem] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie rosłem"
+            "es_form": "Yo [crecí::urosłem] muy rápido.",
+            "pl_translation": "Urosłem bardzo szybko."
           }
         ]
       },
       {
         "es_word": "creciste",
-        "pl_word": "rosłeś",
+        "pl_word": "urosłeś (crecer)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [creciste::rosłeś] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie rosłeś"
-          },
-          {
-            "es_form": "Nunca [creciste::rosłeś] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie rosłeś"
-          },
-          {
-            "es_form": "[creciste::rosłeś] la semana pasada.",
-            "pl_translation": "Rosłeś"
+            "es_form": "Tú [creciste::urosłeś] muy rápido.",
+            "pl_translation": "Urosłeś bardzo szybko."
           }
         ]
       },
       {
         "es_word": "creció",
-        "pl_word": "rósł",
+        "pl_word": "urósł (crecer)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [creció::rósł] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie rósł"
-          },
-          {
-            "es_form": "Ayer [creció::rósł] todo el día.",
-            "pl_translation": "Wczoraj rósł"
-          },
-          {
-            "es_form": "¿[creció::rósł] bien el examen?",
-            "pl_translation": "Czy rósł"
+            "es_form": "Él [creció::urósł] muy rápido.",
+            "pl_translation": "Urósł bardzo szybko."
           }
         ]
       },
       {
         "es_word": "crecimos",
-        "pl_word": "rośliśmy",
+        "pl_word": "urośliśmy (crecer)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [crecimos::rośliśmy] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie rośliśmy"
-          },
-          {
-            "es_form": "¿[crecimos::rośliśmy] bien el examen?",
-            "pl_translation": "Czy rośliśmy"
-          },
-          {
-            "es_form": "Nunca [crecimos::rośliśmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie rośliśmy"
+            "es_form": "Nosotros [crecimos::urośliśmy] muy rápido.",
+            "pl_translation": "Urośliśmy bardzo szybko."
           }
         ]
       },
       {
         "es_word": "crecisteis",
-        "pl_word": "rośliście",
+        "pl_word": "urośliście (crecer)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [crecisteis::rośliście] todo el día.",
-            "pl_translation": "Wczoraj rośliście"
-          },
-          {
-            "es_form": "[crecisteis::rośliście] sin parar durante horas.",
-            "pl_translation": "Rośliście"
-          },
-          {
-            "es_form": "Nunca [crecisteis::rośliście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie rośliście"
+            "es_form": "Vosotros [crecisteis::urośliście] muy rápido.",
+            "pl_translation": "Urośliście bardzo szybko."
           }
         ]
       },
       {
         "es_word": "crecieron",
-        "pl_word": "rośli",
+        "pl_word": "urośli (crecer)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "[crecieron::rośli] sin parar durante horas.",
-            "pl_translation": "Rośli"
-          },
-          {
-            "es_form": "[crecieron::rośli] la semana pasada.",
-            "pl_translation": "Rośli"
-          },
-          {
-            "es_form": "El mes pasado no [crecieron::rośli] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie rośli"
+            "es_form": "Ellos [crecieron::urośli] muy rápido.",
+            "pl_translation": "Urośli bardzo szybko."
           }
         ]
       },
       {
         "es_word": "creceré",
-        "pl_word": "będę rósł",
+        "pl_word": "będę rosnąć (crecer)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [creceré::będę rósł] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będę rósł"
-          },
-          {
-            "es_form": "[creceré::będę rósł] la proxima semana.",
-            "pl_translation": "Będę rósł"
-          },
-          {
-            "es_form": "¿[creceré::będę rósł] con nosotros mañana?",
-            "pl_translation": "Czy będę rósł"
+            "es_form": "Yo [creceré::będę rosnąć] muy rápido.",
+            "pl_translation": "Będę rosnąć bardzo szybko."
           }
         ]
       },
       {
         "es_word": "crecerás",
-        "pl_word": "będziesz rósł",
+        "pl_word": "będziesz rosnąć (crecer)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [crecerás::będziesz rósł] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziesz rósł"
-          },
-          {
-            "es_form": "Creo que [crecerás::będziesz rósł] bien.",
-            "pl_translation": "Myślę, że będziesz rósł"
-          },
-          {
-            "es_form": "El año que viene [crecerás::będziesz rósł] en España.",
-            "pl_translation": "W przyszłym roku będziesz rósł"
+            "es_form": "Tú [crecerás::będziesz rosnąć] muy rápido.",
+            "pl_translation": "Będziesz rosnąć bardzo szybko."
           }
         ]
       },
       {
         "es_word": "crecerá",
-        "pl_word": "będzie rósł",
+        "pl_word": "będzie rosnąć (crecer)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[crecerá::będzie rósł] con nosotros mañana?",
-            "pl_translation": "Czy będzie rósł"
-          },
-          {
-            "es_form": "El año que viene [crecerá::będzie rósł] en España.",
-            "pl_translation": "W przyszłym roku będzie rósł"
-          },
-          {
-            "es_form": "[crecerá::będzie rósł] la proxima semana.",
-            "pl_translation": "Będzie rósł"
+            "es_form": "Él [crecerá::będzie rosnąć] muy rápido.",
+            "pl_translation": "Będzie rosnąć bardzo szybko."
           }
         ]
       },
       {
         "es_word": "creceremos",
-        "pl_word": "będziemy rośli",
+        "pl_word": "będziemy rosnąć (crecer)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [creceremos::będziemy rośli] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziemy rośli"
-          },
-          {
-            "es_form": "¿[creceremos::będziemy rośli] con nosotros mañana?",
-            "pl_translation": "Czy będziemy rośli"
-          },
-          {
-            "es_form": "[creceremos::będziemy rośli] la proxima semana.",
-            "pl_translation": "Będziemy rośli"
+            "es_form": "Nosotros [creceremos::będziemy rosnąć] muy rápido.",
+            "pl_translation": "Będziemy rosnąć bardzo szybko."
           }
         ]
       },
       {
         "es_word": "creceréis",
-        "pl_word": "będziecie rośli",
+        "pl_word": "będziecie rosnąć (crecer)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [creceréis::będziecie rośli] en España.",
-            "pl_translation": "W przyszłym roku będziecie rośli"
-          },
-          {
-            "es_form": "Mañana [creceréis::będziecie rośli] más temprano.",
-            "pl_translation": "Jutro będziecie rośli"
-          },
-          {
-            "es_form": "Creo que [creceréis::będziecie rośli] bien.",
-            "pl_translation": "Myślę, że będziecie rośli"
+            "es_form": "Vosotros [creceréis::będziecie rosnąć] muy rápido.",
+            "pl_translation": "Będziecie rosnąć bardzo szybko."
           }
         ]
       },
       {
         "es_word": "crecerán",
-        "pl_word": "będą rośli",
+        "pl_word": "będą rosnąć (crecer)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "[crecerán::będą rośli] la proxima semana.",
-            "pl_translation": "Będą rośli"
-          },
-          {
-            "es_form": "Te prometo que [crecerán::będą rośli] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będą rośli"
-          },
-          {
-            "es_form": "El año que viene [crecerán::będą rośli] en España.",
-            "pl_translation": "W przyszłym roku będą rośli"
+            "es_form": "Ellos [crecerán::będą rosnąć] muy rápido.",
+            "pl_translation": "Będą rosnąć bardzo szybko."
           }
         ]
       }

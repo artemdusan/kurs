@@ -233,22 +233,18 @@
     "pl_word": "wybierać",
     "examples": [
       {
-        "es_form": "Voy a [elegir::wybierać] mañana.",
-        "pl_translation": "Będę wybierać jutro."
+        "es_form": "Quiero [elegir::wybierać] el mejor camino.",
+        "pl_translation": "Chcę wybierać najlepszą drogę."
       },
       {
-        "es_form": "Prefiero [elegir::wybierać] en casa.",
-        "pl_translation": "Wolę wybierać w domu."
-      },
-      {
-        "es_form": "Me gusta [elegir::wybierać] por la mañana.",
-        "pl_translation": "Lubię wybierać rano."
+        "es_form": "No puedo [elegir::wybierać] el mejor camino hoy.",
+        "pl_translation": "Nie mogę dziś wybierać najlepszą drogę."
       }
     ],
     "forms": [
       {
         "es_word": "elijo",
-        "pl_word": "wybieram",
+        "pl_word": "wybieram (elegir)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "[elijo::wybieram] como me enseñaste.",
-            "pl_translation": "Wybieram tak, jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Siempre [elijo::wybieram] con atención.",
-            "pl_translation": "Zawsze wybieram z uwagą."
-          },
-          {
-            "es_form": "No [elijo::wybieram] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie wybieram zbyt dobrze."
+            "es_form": "Yo [elijo::wybieram] el mejor camino.",
+            "pl_translation": "Wybieram najlepszą drogę."
           }
         ]
       },
       {
         "es_word": "eliges",
-        "pl_word": "wybierasz",
+        "pl_word": "wybierasz (elegir)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [eliges::wybierasz] con atención.",
-            "pl_translation": "Zawsze wybierasz z uwagą."
-          },
-          {
-            "es_form": "¿[eliges::wybierasz] los fines de semana?",
-            "pl_translation": "Czy wybierasz w weekendy?"
-          },
-          {
-            "es_form": "No [eliges::wybierasz] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie wybierasz zbyt dobrze."
+            "es_form": "Tú [eliges::wybierasz] el mejor camino.",
+            "pl_translation": "Wybierasz najlepszą drogę."
           }
         ]
       },
       {
         "es_word": "elige",
-        "pl_word": "wybiera",
+        "pl_word": "wybiera (elegir)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "[elige::wybiera] todos los días.",
-            "pl_translation": "Wybiera codziennie."
-          },
-          {
-            "es_form": "Siempre [elige::wybiera] con atención.",
-            "pl_translation": "Zawsze wybiera z uwagą."
-          },
-          {
-            "es_form": "[elige::wybiera] como me enseñaste.",
-            "pl_translation": "Wybiera tak, jak mnie nauczyłeś"
+            "es_form": "Él [elige::wybiera] el mejor camino.",
+            "pl_translation": "Wybiera najlepszą drogę."
           }
         ]
       },
       {
         "es_word": "elegimos",
-        "pl_word": "wybieramy",
+        "pl_word": "wybieramy (elegir)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "No [elegimos::wybieramy] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie wybieramy zbyt dobrze."
-          },
-          {
-            "es_form": "[elegimos::wybieramy] todos los días.",
-            "pl_translation": "Wybieramy codziennie."
-          },
-          {
-            "es_form": "¿[elegimos::wybieramy] los fines de semana?",
-            "pl_translation": "Czy wybieramy w weekendy?"
+            "es_form": "Nosotros [elegimos::wybieramy] el mejor camino.",
+            "pl_translation": "Wybieramy najlepszą drogę."
           }
         ]
       },
       {
         "es_word": "elegís",
-        "pl_word": "wybieracie",
+        "pl_word": "wybieracie (elegir)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "[elegís::wybieracie] como me enseñaste.",
-            "pl_translation": "Wybieracie tak, jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "No [elegís::wybieracie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie wybieracie zbyt dobrze."
-          },
-          {
-            "es_form": "Normalmente [elegís::wybieracie] por la mañana.",
-            "pl_translation": "Zazwyczaj wybieracie rano."
+            "es_form": "Vosotros [elegís::wybieracie] el mejor camino.",
+            "pl_translation": "Wybieracie najlepszą drogę."
           }
         ]
       },
       {
         "es_word": "eligen",
-        "pl_word": "wybierają",
+        "pl_word": "wybierają (elegir)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "[eligen::wybierają] todos los días.",
-            "pl_translation": "Wybierają codziennie."
-          },
-          {
-            "es_form": "Normalmente [eligen::wybierają] por la mañana.",
-            "pl_translation": "Zazwyczaj wybierają rano."
-          },
-          {
-            "es_form": "No [eligen::wybierają] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie wybierają zbyt dobrze."
+            "es_form": "Ellos [eligen::wybierają] el mejor camino.",
+            "pl_translation": "Wybierają najlepszą drogę."
           }
         ]
       },
       {
         "es_word": "elegí",
-        "pl_word": "wybierałem",
+        "pl_word": "wybrałem (elegir)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [elegí::wybierałem] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie wybierałem"
-          },
-          {
-            "es_form": "[elegí::wybierałem] la semana pasada.",
-            "pl_translation": "Wybierałem"
-          },
-          {
-            "es_form": "Nunca [elegí::wybierałem] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie wybierałem"
+            "es_form": "Yo [elegí::wybrałem] el mejor camino.",
+            "pl_translation": "Wybrałem najlepszą drogę."
           }
         ]
       },
       {
         "es_word": "elegiste",
-        "pl_word": "wybierałeś",
+        "pl_word": "wybrałeś (elegir)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[elegiste::wybierałeś] bien la respuesta?",
-            "pl_translation": "Czy dobrze wybierałeś"
-          },
-          {
-            "es_form": "Ayer [elegiste::wybierałeś] todo el día.",
-            "pl_translation": "Wczoraj wybierałeś"
-          },
-          {
-            "es_form": "El mes pasado no [elegiste::wybierałeś] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie wybierałeś"
+            "es_form": "Tú [elegiste::wybrałeś] el mejor camino.",
+            "pl_translation": "Wybrałeś najlepszą drogę."
           }
         ]
       },
       {
         "es_word": "eligió",
-        "pl_word": "wybierał",
+        "pl_word": "wybrał (elegir)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [eligió::wybierał] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie wybierał"
-          },
-          {
-            "es_form": "[eligió::wybierał] sin parar durante horas.",
-            "pl_translation": "Wybierał"
-          },
-          {
-            "es_form": "¿[eligió::wybierał] bien la respuesta?",
-            "pl_translation": "Czy dobrze wybierał"
+            "es_form": "Él [eligió::wybrał] el mejor camino.",
+            "pl_translation": "Wybrał najlepszą drogę."
           }
         ]
       },
       {
         "es_word": "elegimos",
-        "pl_word": "wybieraliśmy",
+        "pl_word": "wybraliśmy (elegir)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[elegimos::wybieraliśmy] bien la respuesta?",
-            "pl_translation": "Czy dobrze wybieraliśmy"
-          },
-          {
-            "es_form": "Ayer [elegimos::wybieraliśmy] todo el día.",
-            "pl_translation": "Wczoraj wybieraliśmy"
-          },
-          {
-            "es_form": "Nunca [elegimos::wybieraliśmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie wybieraliśmy"
+            "es_form": "Nosotros [elegimos::wybraliśmy] el mejor camino.",
+            "pl_translation": "Wybraliśmy najlepszą drogę."
           }
         ]
       },
       {
         "es_word": "elegisteis",
-        "pl_word": "wybieraliście",
+        "pl_word": "wybraliście (elegir)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "[elegisteis::wybieraliście] la semana pasada.",
-            "pl_translation": "Wybieraliście"
-          },
-          {
-            "es_form": "Ayer [elegisteis::wybieraliście] todo el día.",
-            "pl_translation": "Wczoraj wybieraliście"
-          },
-          {
-            "es_form": "El mes pasado no [elegisteis::wybieraliście] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie wybieraliście"
+            "es_form": "Vosotros [elegisteis::wybraliście] el mejor camino.",
+            "pl_translation": "Wybraliście najlepszą drogę."
           }
         ]
       },
       {
         "es_word": "eligieron",
-        "pl_word": "wybierali",
+        "pl_word": "wybrali (elegir)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [eligieron::wybierali] todo el día.",
-            "pl_translation": "Wczoraj wybierali"
-          },
-          {
-            "es_form": "[eligieron::wybierali] la semana pasada.",
-            "pl_translation": "Wybierali"
-          },
-          {
-            "es_form": "El mes pasado no [eligieron::wybierali] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie wybierali"
+            "es_form": "Ellos [eligieron::wybrali] el mejor camino.",
+            "pl_translation": "Wybrali najlepszą drogę."
           }
         ]
       },
       {
         "es_word": "elegiré",
-        "pl_word": "będę wybierał",
+        "pl_word": "będę wybierać (elegir)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "[elegiré::będę wybierał] la próxima semana.",
-            "pl_translation": "Będę wybierał"
-          },
-          {
-            "es_form": "Te prometo que [elegiré::będę wybierał] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będę wybierał"
-          },
-          {
-            "es_form": "¿[elegiré::będę wybierał] con nosotros mañana?",
-            "pl_translation": "Czy będę wybierał"
+            "es_form": "Yo [elegiré::będę wybierać] el mejor camino.",
+            "pl_translation": "Będę wybierać najlepszą drogę."
           }
         ]
       },
       {
         "es_word": "elegirás",
-        "pl_word": "będziesz wybierał",
+        "pl_word": "będziesz wybierać (elegir)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [elegirás::będziesz wybierał] en España.",
-            "pl_translation": "W przyszłym roku będziesz wybierał"
-          },
-          {
-            "es_form": "¿[elegirás::będziesz wybierał] con nosotros mañana?",
-            "pl_translation": "Czy będziesz wybierał"
-          },
-          {
-            "es_form": "Te prometo que [elegirás::będziesz wybierał] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziesz wybierał"
+            "es_form": "Tú [elegirás::będziesz wybierać] el mejor camino.",
+            "pl_translation": "Będziesz wybierać najlepszą drogę."
           }
         ]
       },
       {
         "es_word": "elegirá",
-        "pl_word": "będzie wybierał",
+        "pl_word": "będzie wybierać (elegir)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[elegirá::będzie wybierał] con nosotros mañana?",
-            "pl_translation": "Czy będzie wybierał"
-          },
-          {
-            "es_form": "[elegirá::będzie wybierał] la próxima semana.",
-            "pl_translation": "Będzie wybierał"
-          },
-          {
-            "es_form": "Mañana [elegirá::będzie wybierał] más temprano.",
-            "pl_translation": "Jutro będzie wybierał"
+            "es_form": "Él [elegirá::będzie wybierać] el mejor camino.",
+            "pl_translation": "Będzie wybierać najlepszą drogę."
           }
         ]
       },
       {
         "es_word": "elegiremos",
-        "pl_word": "będziemy wybierali",
+        "pl_word": "będziemy wybierać (elegir)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[elegiremos::będziemy wybierali] con nosotros mañana?",
-            "pl_translation": "Czy będziemy wybierali"
-          },
-          {
-            "es_form": "[elegiremos::będziemy wybierali] la próxima semana.",
-            "pl_translation": "Będziemy wybierali"
-          },
-          {
-            "es_form": "Creo que [elegiremos::będziemy wybierali] bien.",
-            "pl_translation": "Myślę, że będziemy wybierali"
+            "es_form": "Nosotros [elegiremos::będziemy wybierać] el mejor camino.",
+            "pl_translation": "Będziemy wybierać najlepszą drogę."
           }
         ]
       },
       {
         "es_word": "elegiréis",
-        "pl_word": "będziecie wybierali",
+        "pl_word": "będziecie wybierać (elegir)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [elegiréis::będziecie wybierali] más temprano.",
-            "pl_translation": "Jutro będziecie wybierali"
-          },
-          {
-            "es_form": "[elegiréis::będziecie wybierali] la próxima semana.",
-            "pl_translation": "Będziecie wybierali"
-          },
-          {
-            "es_form": "Creo que [elegiréis::będziecie wybierali] bien.",
-            "pl_translation": "Myślę, że będziecie wybierali"
+            "es_form": "Vosotros [elegiréis::będziecie wybierać] el mejor camino.",
+            "pl_translation": "Będziecie wybierać najlepszą drogę."
           }
         ]
       },
       {
         "es_word": "elegirán",
-        "pl_word": "będą wybierali",
+        "pl_word": "będą wybierać (elegir)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [elegirán::będą wybierali] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będą wybierali"
-          },
-          {
-            "es_form": "Mañana [elegirán::będą wybierali] más temprano.",
-            "pl_translation": "Jutro będą wybierali"
-          },
-          {
-            "es_form": "El año que viene [elegirán::będą wybierali] en España.",
-            "pl_translation": "W przyszłym roku będą wybierali"
+            "es_form": "Ellos [elegirán::będą wybierać] el mejor camino.",
+            "pl_translation": "Będą wybierać najlepszą drogę."
           }
         ]
       }

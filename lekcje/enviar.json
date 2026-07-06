@@ -233,22 +233,18 @@
     "pl_word": "wysyłać",
     "examples": [
       {
-        "es_form": "Voy a [enviar::wysyłać] el correo mañana.",
-        "pl_translation": "Wyślę maila jutro."
+        "es_form": "Quiero [enviar::wysyłać] una carta.",
+        "pl_translation": "Chcę wysyłać list."
       },
       {
-        "es_form": "Me gusta [enviar::wysyłać] mensajes por la mañana.",
-        "pl_translation": "Lubię wysyłać wiadomości rano."
-      },
-      {
-        "es_form": "Prefiero [enviar::wysyłać] el archivo en casa.",
-        "pl_translation": "Wolę wysłać plik w domu."
+        "es_form": "No puedo [enviar::wysyłać] una carta hoy.",
+        "pl_translation": "Nie mogę dziś wysyłać list."
       }
     ],
     "forms": [
       {
         "es_word": "envío",
-        "pl_word": "wysyłam",
+        "pl_word": "wysyłam (enviar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "[Envío::wysyłam] el correo como me enseñaste.",
-            "pl_translation": "Wysyłam maila tak jak mnie nauczyłeś."
-          },
-          {
-            "es_form": "¿[Envío::wysyłam] mensajes los fines de semana?",
-            "pl_translation": "Czy wysyłam wiadomości w weekendy?"
-          },
-          {
-            "es_form": "Siempre [envío::wysyłam] con atención.",
-            "pl_translation": "Zawsze wysyłam z uwagą."
+            "es_form": "Yo [envío::wysyłam] una carta.",
+            "pl_translation": "Wysyłam list."
           }
         ]
       },
       {
         "es_word": "envías",
-        "pl_word": "wysyłasz",
+        "pl_word": "wysyłasz (enviar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [envías::wysyłasz] por la mañana.",
-            "pl_translation": "Zazwyczaj wysyłasz rano."
-          },
-          {
-            "es_form": "Siempre [envías::wysyłasz] con atención.",
-            "pl_translation": "Zawsze wysyłasz z uwagą."
-          },
-          {
-            "es_form": "No [envías::wysyłasz] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie wysyłasz zbyt dobrze."
+            "es_form": "Tú [envías::wysyłasz] una carta.",
+            "pl_translation": "Wysyłasz list."
           }
         ]
       },
       {
         "es_word": "envía",
-        "pl_word": "wysyła",
+        "pl_word": "wysyła (enviar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [envía::wysyła] por la mañana.",
-            "pl_translation": "Zazwyczaj wysyła rano."
-          },
-          {
-            "es_form": "No [envía::wysyła] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie wysyła zbyt dobrze."
-          },
-          {
-            "es_form": "¿[Envía::wysyła] mensajes los fines de semana?",
-            "pl_translation": "Czy wysyła wiadomości w weekendy?"
+            "es_form": "Él [envía::wysyła] una carta.",
+            "pl_translation": "Wysyła list."
           }
         ]
       },
       {
         "es_word": "enviamos",
-        "pl_word": "wysyłamy",
+        "pl_word": "wysyłamy (enviar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [enviamos::wysyłamy] por la mañana.",
-            "pl_translation": "Zazwyczaj wysyłamy rano."
-          },
-          {
-            "es_form": "Siempre [enviamos::wysyłamy] con atención.",
-            "pl_translation": "Zawsze wysyłamy z uwagą."
-          },
-          {
-            "es_form": "No [enviamos::wysyłamy] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie wysyłamy zbyt dobrze."
+            "es_form": "Nosotros [enviamos::wysyłamy] una carta.",
+            "pl_translation": "Wysyłamy list."
           }
         ]
       },
       {
         "es_word": "enviáis",
-        "pl_word": "wysyłacie",
+        "pl_word": "wysyłacie (enviar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "[Enviáis::wysyłacie] correos todos los días.",
-            "pl_translation": "Wysyłacie maile codziennie."
-          },
-          {
-            "es_form": "Normalmente [enviáis::wysyłacie] por la mañana.",
-            "pl_translation": "Zazwyczaj wysyłacie rano."
-          },
-          {
-            "es_form": "[Enviáis::wysyłacie] como me enseñaste.",
-            "pl_translation": "Wysyłacie tak jak mnie nauczyłeś."
+            "es_form": "Vosotros [enviáis::wysyłacie] una carta.",
+            "pl_translation": "Wysyłacie list."
           }
         ]
       },
       {
         "es_word": "envían",
-        "pl_word": "wysyłają",
+        "pl_word": "wysyłają (enviar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [envían::wysyłają] con atención.",
-            "pl_translation": "Zawsze wysyłają z uwagą."
-          },
-          {
-            "es_form": "¿[Envían::wysyłają] mensajes los fines de semana?",
-            "pl_translation": "Czy wysyłają wiadomości w weekendy?"
-          },
-          {
-            "es_form": "No [envían::wysyłają] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie wysyłają zbyt dobrze."
+            "es_form": "Ellos [envían::wysyłają] una carta.",
+            "pl_translation": "Wysyłają list."
           }
         ]
       },
       {
         "es_word": "envié",
-        "pl_word": "wysłałem",
+        "pl_word": "wysłałem (enviar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "[Envié::wysłałem] el correo sin parar durante horas.",
-            "pl_translation": "Wysłałem maila bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "[Envié::wysłałem] el mensaje la semana pasada.",
-            "pl_translation": "Wysłałem wiadomość w zeszłym tygodniu."
-          },
-          {
-            "es_form": "Nunca [envié::wysłałem] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie wysłałem czegoś takiego."
+            "es_form": "Yo [envié::wysłałem] una carta.",
+            "pl_translation": "Wysłałem list."
           }
         ]
       },
       {
         "es_word": "enviaste",
-        "pl_word": "wysłałeś",
+        "pl_word": "wysłałeś (enviar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "[Enviaste::wysłałeś] el mensaje la semana pasada.",
-            "pl_translation": "Wysłałeś wiadomość w zeszłym tygodniu."
-          },
-          {
-            "es_form": "[Enviaste::wysłałeś] sin parar durante horas.",
-            "pl_translation": "Wysłałeś bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "Ayer [enviaste::wysłałeś] el correo todo el día.",
-            "pl_translation": "Wczoraj wysłałeś maila cały dzień."
+            "es_form": "Tú [enviaste::wysłałeś] una carta.",
+            "pl_translation": "Wysłałeś list."
           }
         ]
       },
       {
         "es_word": "envió",
-        "pl_word": "wysłał",
+        "pl_word": "wysłał (enviar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [envió::wysłał] el correo todo el día.",
-            "pl_translation": "Wczoraj wysłał maila cały dzień."
-          },
-          {
-            "es_form": "[Envió::wysłał] sin parar durante horas.",
-            "pl_translation": "Wysłał bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "Nunca [envió::wysłał] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie wysłał czegoś takiego."
+            "es_form": "Él [envió::wysłał] una carta.",
+            "pl_translation": "Wysłał list."
           }
         ]
       },
       {
         "es_word": "enviamos",
-        "pl_word": "wysłaliśmy",
+        "pl_word": "wysłaliśmy (enviar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [enviamos::wysłaliśmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie wysłaliśmy czegoś takiego."
-          },
-          {
-            "es_form": "[Enviamos::wysłaliśmy] sin parar durante horas.",
-            "pl_translation": "Wysłaliśmy bez przerwy przez wiele godzin."
-          },
-          {
-            "es_form": "Ayer [enviamos::wysłaliśmy] el correo todo el día.",
-            "pl_translation": "Wczoraj wysłaliśmy maila cały dzień."
+            "es_form": "Nosotros [enviamos::wysłaliśmy] una carta.",
+            "pl_translation": "Wysłaliśmy list."
           }
         ]
       },
       {
         "es_word": "enviasteis",
-        "pl_word": "wysłaliście",
+        "pl_word": "wysłaliście (enviar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[Enviasteis::wysłaliście] bien el correo?",
-            "pl_translation": "Czy dobrze wysłaliście maila?"
-          },
-          {
-            "es_form": "Nunca [enviasteis::wysłaliście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie wysłaliście czegoś takiego."
-          },
-          {
-            "es_form": "[Enviasteis::wysłaliście] sin parar durante horas.",
-            "pl_translation": "Wysłaliście bez przerwy przez wiele godzin."
+            "es_form": "Vosotros [enviasteis::wysłaliście] una carta.",
+            "pl_translation": "Wysłaliście list."
           }
         ]
       },
       {
         "es_word": "enviaron",
-        "pl_word": "wysłali",
+        "pl_word": "wysłali (enviar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [enviaron::wysłali] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie wysłali czegoś takiego."
-          },
-          {
-            "es_form": "El mes pasado no [enviaron::wysłali] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie wysłali."
-          },
-          {
-            "es_form": "¿[Enviaron::wysłali] bien el correo?",
-            "pl_translation": "Czy dobrze wysłali maila?"
+            "es_form": "Ellos [enviaron::wysłali] una carta.",
+            "pl_translation": "Wysłali list."
           }
         ]
       },
       {
         "es_word": "enviaré",
-        "pl_word": "wyślę",
+        "pl_word": "będę wysyłać (enviar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[Enviaré::wyślę] el correo con nosotros mañana?",
-            "pl_translation": "Czy wyślę maila z nami jutro?"
-          },
-          {
-            "es_form": "El año que viene [enviaré::wyślę] más en España.",
-            "pl_translation": "W przyszłym roku wyślę więcej w Hiszpanii."
-          },
-          {
-            "es_form": "[Enviaré::wyślę] el mensaje la próxima semana.",
-            "pl_translation": "Wyślę wiadomość w przyszłym tygodniu."
+            "es_form": "Yo [enviaré::będę wysyłać] una carta.",
+            "pl_translation": "Będę wysyłać list."
           }
         ]
       },
       {
         "es_word": "enviarás",
-        "pl_word": "wyślesz",
+        "pl_word": "będziesz wysyłać (enviar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[Enviarás::wyślesz] el correo con nosotros mañana?",
-            "pl_translation": "Czy wyślesz maila z nami jutro?"
-          },
-          {
-            "es_form": "Creo que [enviarás::wyślesz] bien.",
-            "pl_translation": "Myślę, że wyślesz dobrze."
-          },
-          {
-            "es_form": "Te prometo que [enviarás::wyślesz] a tiempo.",
-            "pl_translation": "Obiecuję ci, że wyślesz na czas."
+            "es_form": "Tú [enviarás::będziesz wysyłać] una carta.",
+            "pl_translation": "Będziesz wysyłać list."
           }
         ]
       },
       {
         "es_word": "enviará",
-        "pl_word": "wyśle",
+        "pl_word": "będzie wysyłać (enviar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [enviará::wyśle] a tiempo.",
-            "pl_translation": "Obiecuję ci, że wyśle na czas."
-          },
-          {
-            "es_form": "Creo que [enviará::wyśle] bien.",
-            "pl_translation": "Myślę, że wyśle dobrze."
-          },
-          {
-            "es_form": "[Enviará::wyśle] el mensaje la próxima semana.",
-            "pl_translation": "Wyśle wiadomość w przyszłym tygodniu."
+            "es_form": "Él [enviará::będzie wysyłać] una carta.",
+            "pl_translation": "Będzie wysyłać list."
           }
         ]
       },
       {
         "es_word": "enviaremos",
-        "pl_word": "wyślemy",
+        "pl_word": "będziemy wysyłać (enviar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[Enviaremos::wyślemy] el correo con nosotros mañana?",
-            "pl_translation": "Czy wyślemy maila z nami jutro?"
-          },
-          {
-            "es_form": "[Enviaremos::wyślemy] el mensaje la próxima semana.",
-            "pl_translation": "Wyślemy wiadomość w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Te prometo que [enviaremos::wyślemy] a tiempo.",
-            "pl_translation": "Obiecuję ci, że wyślemy na czas."
+            "es_form": "Nosotros [enviaremos::będziemy wysyłać] una carta.",
+            "pl_translation": "Będziemy wysyłać list."
           }
         ]
       },
       {
         "es_word": "enviaréis",
-        "pl_word": "wyślecie",
+        "pl_word": "będziecie wysyłać (enviar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [enviaréis::wyślecie] en España.",
-            "pl_translation": "W przyszłym roku wyślecie w Hiszpanii."
-          },
-          {
-            "es_form": "[Enviaréis::wyślecie] el mensaje la próxima semana.",
-            "pl_translation": "Wyślecie wiadomość w przyszłym tygodniu."
-          },
-          {
-            "es_form": "Mañana [enviaréis::wyślecie] más temprano.",
-            "pl_translation": "Jutro wyślecie wcześniej."
+            "es_form": "Vosotros [enviaréis::będziecie wysyłać] una carta.",
+            "pl_translation": "Będziecie wysyłać list."
           }
         ]
       },
       {
         "es_word": "enviarán",
-        "pl_word": "wyślą",
+        "pl_word": "będą wysyłać (enviar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [enviarán::wyślą] más temprano.",
-            "pl_translation": "Jutro wyślą wcześniej."
-          },
-          {
-            "es_form": "Creo que [enviarán::wyślą] bien.",
-            "pl_translation": "Myślę, że wyślą dobrze."
-          },
-          {
-            "es_form": "Te prometo que [enviarán::wyślą] a tiempo.",
-            "pl_translation": "Obiecuję ci, że wyślą na czas."
+            "es_form": "Ellos [enviarán::będą wysyłać] una carta.",
+            "pl_translation": "Będą wysyłać list."
           }
         ]
       }

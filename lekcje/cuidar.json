@@ -233,22 +233,18 @@
     "pl_word": "dbać",
     "examples": [
       {
-        "es_form": "Es importante [cuidar::dbać] todos los días.",
-        "pl_translation": "Ważne jest dbać codziennie."
+        "es_form": "Quiero [cuidar::dbać] del jardín.",
+        "pl_translation": "Chcę dbać o ogród."
       },
       {
-        "es_form": "Hay que [cuidar::dbać] con cuidado.",
-        "pl_translation": "Trzeba dbać ostrożnie."
-      },
-      {
-        "es_form": "No puedo [cuidar::dbać] sin tu ayuda.",
-        "pl_translation": "Nie mogę dbać bez twojej pomocy."
+        "es_form": "No puedo [cuidar::dbać] del jardín hoy.",
+        "pl_translation": "Nie mogę dziś dbać o ogród."
       }
     ],
     "forms": [
       {
         "es_word": "cuido",
-        "pl_word": "dbam",
+        "pl_word": "dbam (cuidar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "No [cuido::dbam] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie dbam zbyt dobrze."
-          },
-          {
-            "es_form": "[cuido::dbam] como me enseñaste.",
-            "pl_translation": "Dbam tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Normalmente [cuido::dbam] por la mañana.",
-            "pl_translation": "Zazwyczaj dbam rano."
+            "es_form": "Yo [cuido::dbam] del jardín.",
+            "pl_translation": "Dbam o ogród."
           }
         ]
       },
       {
         "es_word": "cuidas",
-        "pl_word": "dbasz",
+        "pl_word": "dbasz (cuidar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [cuidas::dbasz] por la mañana.",
-            "pl_translation": "Zazwyczaj dbasz rano."
-          },
-          {
-            "es_form": "[cuidas::dbasz] todos los días.",
-            "pl_translation": "Dbasz codziennie."
-          },
-          {
-            "es_form": "¿[cuidas::dbasz] los fines de semana?",
-            "pl_translation": "Czy dbasz w weekendy?"
+            "es_form": "Tú [cuidas::dbasz] del jardín.",
+            "pl_translation": "Dbasz o ogród."
           }
         ]
       },
       {
         "es_word": "cuida",
-        "pl_word": "dba",
+        "pl_word": "dba (cuidar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "[cuida::dba] como me enseñaste.",
-            "pl_translation": "Dba tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Normalmente [cuida::dba] por la mañana.",
-            "pl_translation": "Zazwyczaj dba rano."
-          },
-          {
-            "es_form": "[cuida::dba] todos los días.",
-            "pl_translation": "Dba codziennie."
+            "es_form": "Él [cuida::dba] del jardín.",
+            "pl_translation": "Dba o ogród."
           }
         ]
       },
       {
         "es_word": "cuidamos",
-        "pl_word": "dbamy",
+        "pl_word": "dbamy (cuidar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "[cuidamos::dbamy] como me enseñaste.",
-            "pl_translation": "Dbamy tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "[cuidamos::dbamy] todos los días.",
-            "pl_translation": "Dbamy codziennie."
-          },
-          {
-            "es_form": "No [cuidamos::dbamy] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie dbamy zbyt dobrze."
+            "es_form": "Nosotros [cuidamos::dbamy] del jardín.",
+            "pl_translation": "Dbamy o ogród."
           }
         ]
       },
       {
         "es_word": "cuidáis",
-        "pl_word": "dbacie",
+        "pl_word": "dbacie (cuidar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[cuidáis::dbacie] los fines de semana?",
-            "pl_translation": "Czy dbacie w weekendy?"
-          },
-          {
-            "es_form": "Siempre [cuidáis::dbacie] con atención.",
-            "pl_translation": "Zawsze dbacie z uwagą."
-          },
-          {
-            "es_form": "No [cuidáis::dbacie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie dbacie zbyt dobrze."
+            "es_form": "Vosotros [cuidáis::dbacie] del jardín.",
+            "pl_translation": "Dbacie o ogród."
           }
         ]
       },
       {
         "es_word": "cuidan",
-        "pl_word": "dbają",
+        "pl_word": "dbają (cuidar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[cuidan::dbają] los fines de semana?",
-            "pl_translation": "Czy dbają w weekendy?"
-          },
-          {
-            "es_form": "No [cuidan::dbają] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie dbają zbyt dobrze."
-          },
-          {
-            "es_form": "[cuidan::dbają] todos los días.",
-            "pl_translation": "Dbają codziennie."
+            "es_form": "Ellos [cuidan::dbają] del jardín.",
+            "pl_translation": "Dbają o ogród."
           }
         ]
       },
       {
         "es_word": "cuidé",
-        "pl_word": "dbałem",
+        "pl_word": "zadbałem (cuidar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "[cuidé::dbałem] la semana pasada.",
-            "pl_translation": "Dbałem"
-          },
-          {
-            "es_form": "Nunca [cuidé::dbałem] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie dbałem"
-          },
-          {
-            "es_form": "El mes pasado no [cuidé::dbałem] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie dbałem"
+            "es_form": "Yo [cuidé::zadbałem] del jardín.",
+            "pl_translation": "Zadbałem o ogród."
           }
         ]
       },
       {
         "es_word": "cuidaste",
-        "pl_word": "dbałeś",
+        "pl_word": "zadbałeś (cuidar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [cuidaste::dbałeś] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie dbałeś"
-          },
-          {
-            "es_form": "[cuidaste::dbałeś] sin parar durante horas.",
-            "pl_translation": "Dbałeś"
-          },
-          {
-            "es_form": "Nunca [cuidaste::dbałeś] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie dbałeś"
+            "es_form": "Tú [cuidaste::zadbałeś] del jardín.",
+            "pl_translation": "Zadbałeś o ogród."
           }
         ]
       },
       {
         "es_word": "cuidó",
-        "pl_word": "dbał",
+        "pl_word": "zadbał (cuidar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [cuidó::dbał] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie dbał"
-          },
-          {
-            "es_form": "¿[cuidó::dbał] bien el examen?",
-            "pl_translation": "Czy dbał"
-          },
-          {
-            "es_form": "Nunca [cuidó::dbał] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie dbał"
+            "es_form": "Él [cuidó::zadbał] del jardín.",
+            "pl_translation": "Zadbał o ogród."
           }
         ]
       },
       {
         "es_word": "cuidamos",
-        "pl_word": "dbaliśmy",
+        "pl_word": "zadbaliśmy (cuidar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [cuidamos::dbaliśmy] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie dbaliśmy"
-          },
-          {
-            "es_form": "Ayer [cuidamos::dbaliśmy] todo el día.",
-            "pl_translation": "Wczoraj dbaliśmy"
-          },
-          {
-            "es_form": "[cuidamos::dbaliśmy] sin parar durante horas.",
-            "pl_translation": "Dbaliśmy"
+            "es_form": "Nosotros [cuidamos::zadbaliśmy] del jardín.",
+            "pl_translation": "Zadbaliśmy o ogród."
           }
         ]
       },
       {
         "es_word": "cuidasteis",
-        "pl_word": "dbaliście",
+        "pl_word": "zadbaliście (cuidar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [cuidasteis::dbaliście] todo el día.",
-            "pl_translation": "Wczoraj dbaliście"
-          },
-          {
-            "es_form": "[cuidasteis::dbaliście] sin parar durante horas.",
-            "pl_translation": "Dbaliście"
-          },
-          {
-            "es_form": "¿[cuidasteis::dbaliście] bien el examen?",
-            "pl_translation": "Czy dbaliście"
+            "es_form": "Vosotros [cuidasteis::zadbaliście] del jardín.",
+            "pl_translation": "Zadbaliście o ogród."
           }
         ]
       },
       {
         "es_word": "cuidaron",
-        "pl_word": "dbali",
+        "pl_word": "zadbali (cuidar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "[cuidaron::dbali] la semana pasada.",
-            "pl_translation": "Dbali"
-          },
-          {
-            "es_form": "El mes pasado no [cuidaron::dbali] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie dbali"
-          },
-          {
-            "es_form": "Ayer [cuidaron::dbali] todo el día.",
-            "pl_translation": "Wczoraj dbali"
+            "es_form": "Ellos [cuidaron::zadbali] del jardín.",
+            "pl_translation": "Zadbali o ogród."
           }
         ]
       },
       {
         "es_word": "cuidaré",
-        "pl_word": "będę dbał",
+        "pl_word": "będę dbać (cuidar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [cuidaré::będę dbał] en España.",
-            "pl_translation": "W przyszłym roku będę dbał"
-          },
-          {
-            "es_form": "¿[cuidaré::będę dbał] con nosotros mañana?",
-            "pl_translation": "Czy będę dbał"
-          },
-          {
-            "es_form": "Mañana [cuidaré::będę dbał] más temprano.",
-            "pl_translation": "Jutro będę dbał"
+            "es_form": "Yo [cuidaré::będę dbać] del jardín.",
+            "pl_translation": "Będę dbać o ogród."
           }
         ]
       },
       {
         "es_word": "cuidarás",
-        "pl_word": "będziesz dbał",
+        "pl_word": "będziesz dbać (cuidar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [cuidarás::będziesz dbał] más temprano.",
-            "pl_translation": "Jutro będziesz dbał"
-          },
-          {
-            "es_form": "Te prometo que [cuidarás::będziesz dbał] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziesz dbał"
-          },
-          {
-            "es_form": "¿[cuidarás::będziesz dbał] con nosotros mañana?",
-            "pl_translation": "Czy będziesz dbał"
+            "es_form": "Tú [cuidarás::będziesz dbać] del jardín.",
+            "pl_translation": "Będziesz dbać o ogród."
           }
         ]
       },
       {
         "es_word": "cuidará",
-        "pl_word": "będzie dbał",
+        "pl_word": "będzie dbać (cuidar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [cuidará::będzie dbał] en España.",
-            "pl_translation": "W przyszłym roku będzie dbał"
-          },
-          {
-            "es_form": "Mañana [cuidará::będzie dbał] más temprano.",
-            "pl_translation": "Jutro będzie dbał"
-          },
-          {
-            "es_form": "[cuidará::będzie dbał] la próxima semana.",
-            "pl_translation": "Będzie dbał"
+            "es_form": "Él [cuidará::będzie dbać] del jardín.",
+            "pl_translation": "Będzie dbać o ogród."
           }
         ]
       },
       {
         "es_word": "cuidaremos",
-        "pl_word": "będziemy dbali",
+        "pl_word": "będziemy dbać (cuidar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [cuidaremos::będziemy dbali] bien.",
-            "pl_translation": "Myślę, że będziemy dbali"
-          },
-          {
-            "es_form": "Te prometo que [cuidaremos::będziemy dbali] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziemy dbali"
-          },
-          {
-            "es_form": "¿[cuidaremos::będziemy dbali] con nosotros mañana?",
-            "pl_translation": "Czy będziemy dbali"
+            "es_form": "Nosotros [cuidaremos::będziemy dbać] del jardín.",
+            "pl_translation": "Będziemy dbać o ogród."
           }
         ]
       },
       {
         "es_word": "cuidaréis",
-        "pl_word": "będziecie dbali",
+        "pl_word": "będziecie dbać (cuidar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [cuidaréis::będziecie dbali] bien.",
-            "pl_translation": "Myślę, że będziecie dbali"
-          },
-          {
-            "es_form": "Te prometo que [cuidaréis::będziecie dbali] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziecie dbali"
-          },
-          {
-            "es_form": "El año que viene [cuidaréis::będziecie dbali] en España.",
-            "pl_translation": "W przyszłym roku będziecie dbali"
+            "es_form": "Vosotros [cuidaréis::będziecie dbać] del jardín.",
+            "pl_translation": "Będziecie dbać o ogród."
           }
         ]
       },
       {
         "es_word": "cuidarán",
-        "pl_word": "będą dbali",
+        "pl_word": "będą dbać (cuidar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [cuidarán::będą dbali] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będą dbali"
-          },
-          {
-            "es_form": "Creo que [cuidarán::będą dbali] bien.",
-            "pl_translation": "Myślę, że będą dbali"
-          },
-          {
-            "es_form": "¿[cuidarán::będą dbali] con nosotros mañana?",
-            "pl_translation": "Czy będą dbali"
+            "es_form": "Ellos [cuidarán::będą dbać] del jardín.",
+            "pl_translation": "Będą dbać o ogród."
           }
         ]
       }

@@ -233,22 +233,18 @@
     "pl_word": "czekać, mieć nadzieję",
     "examples": [
       {
-        "es_form": "Es importante [esperar::czekać, mieć nadzieję] todos los días.",
-        "pl_translation": "Ważne jest czekać, mieć nadzieję codziennie."
+        "es_form": "Quiero [esperar::czekać] el autobús.",
+        "pl_translation": "Chcę czekać na autobus."
       },
       {
-        "es_form": "Prefiero [esperar::czekać, mieć nadzieję] en casa.",
-        "pl_translation": "Wolę czekać, mieć nadzieję w domu."
-      },
-      {
-        "es_form": "Me gusta [esperar::czekać, mieć nadzieję] por la mañana.",
-        "pl_translation": "Lubię czekać, mieć nadzieję rano."
+        "es_form": "No puedo [esperar::czekać] el autobús hoy.",
+        "pl_translation": "Nie mogę dziś czekać na autobus."
       }
     ],
     "forms": [
       {
         "es_word": "espero",
-        "pl_word": "czekam",
+        "pl_word": "czekam (esperar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "[espero::czekam] todos los días.",
-            "pl_translation": "Czekam codziennie."
-          },
-          {
-            "es_form": "No [espero::czekam] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie czekam zbyt dobrze."
-          },
-          {
-            "es_form": "[espero::czekam] como me enseñaste.",
-            "pl_translation": "Czekam tak jak mnie nauczyłeś"
+            "es_form": "Yo [espero::czekam] el autobús.",
+            "pl_translation": "Czekam na autobus."
           }
         ]
       },
       {
         "es_word": "esperas",
-        "pl_word": "czekasz",
+        "pl_word": "czekasz (esperar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[esperas::czekasz] los fines de semana?",
-            "pl_translation": "Czy czekasz w weekendy?"
-          },
-          {
-            "es_form": "[esperas::czekasz] como me enseñaste.",
-            "pl_translation": "Czekasz tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Siempre [esperas::czekasz] con atencion.",
-            "pl_translation": "Zawsze czekasz z uwagą."
+            "es_form": "Tú [esperas::czekasz] el autobús.",
+            "pl_translation": "Czekasz na autobus."
           }
         ]
       },
       {
         "es_word": "espera",
-        "pl_word": "czeka",
+        "pl_word": "czeka (esperar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "[espera::czeka] como me enseñaste.",
-            "pl_translation": "Czeka tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Normalmente [espera::czeka] por la mañana.",
-            "pl_translation": "Zazwyczaj czeka rano."
-          },
-          {
-            "es_form": "Siempre [espera::czeka] con atencion.",
-            "pl_translation": "Zawsze czeka z uwagą."
+            "es_form": "Él [espera::czeka] el autobús.",
+            "pl_translation": "Czeka na autobus."
           }
         ]
       },
       {
         "es_word": "esperamos",
-        "pl_word": "czekamy",
+        "pl_word": "czekamy (esperar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [esperamos::czekamy] con atencion.",
-            "pl_translation": "Zawsze czekamy z uwagą."
-          },
-          {
-            "es_form": "¿[esperamos::czekamy] los fines de semana?",
-            "pl_translation": "Czy czekamy w weekendy?"
-          },
-          {
-            "es_form": "[esperamos::czekamy] todos los días.",
-            "pl_translation": "Czekamy codziennie."
+            "es_form": "Nosotros [esperamos::czekamy] el autobús.",
+            "pl_translation": "Czekamy na autobus."
           }
         ]
       },
       {
         "es_word": "esperáis",
-        "pl_word": "czekacie",
+        "pl_word": "czekacie (esperar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "[esperáis::czekacie] todos los días.",
-            "pl_translation": "Czekacie codziennie."
-          },
-          {
-            "es_form": "No [esperáis::czekacie] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie czekacie zbyt dobrze."
-          },
-          {
-            "es_form": "[esperáis::czekacie] como me enseñaste.",
-            "pl_translation": "Czekacie tak jak mnie nauczyłeś"
+            "es_form": "Vosotros [esperáis::czekacie] el autobús.",
+            "pl_translation": "Czekacie na autobus."
           }
         ]
       },
       {
         "es_word": "esperan",
-        "pl_word": "czekają",
+        "pl_word": "czekają (esperar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[esperan::czekają] los fines de semana?",
-            "pl_translation": "Czy czekają w weekendy?"
-          },
-          {
-            "es_form": "Siempre [esperan::czekają] con atencion.",
-            "pl_translation": "Zawsze czekają z uwagą."
-          },
-          {
-            "es_form": "No [esperan::czekają] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie czekają zbyt dobrze."
+            "es_form": "Ellos [esperan::czekają] el autobús.",
+            "pl_translation": "Czekają na autobus."
           }
         ]
       },
       {
         "es_word": "esperé",
-        "pl_word": "czekałem",
+        "pl_word": "czekałem (esperar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [esperé::czekałem] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie czekałem"
-          },
-          {
-            "es_form": "[esperé::czekałem] sin parar durante horas.",
-            "pl_translation": "Czekałem"
-          },
-          {
-            "es_form": "¿[esperé::czekałem] bien el examen?",
-            "pl_translation": "Czy czekałem"
+            "es_form": "Yo [esperé::czekałem] el autobús.",
+            "pl_translation": "Czekałem na autobus."
           }
         ]
       },
       {
         "es_word": "esperaste",
-        "pl_word": "czekałeś",
+        "pl_word": "czekałeś (esperar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "[esperaste::czekałeś] sin parar durante horas.",
-            "pl_translation": "Czekałeś"
-          },
-          {
-            "es_form": "Nunca [esperaste::czekałeś] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie czekałeś"
-          },
-          {
-            "es_form": "[esperaste::czekałeś] la semana pasada.",
-            "pl_translation": "Czekałeś"
+            "es_form": "Tú [esperaste::czekałeś] el autobús.",
+            "pl_translation": "Czekałeś na autobus."
           }
         ]
       },
       {
         "es_word": "esperó",
-        "pl_word": "czekał",
+        "pl_word": "czekał (esperar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "[esperó::czekał] la semana pasada.",
-            "pl_translation": "Czekał"
-          },
-          {
-            "es_form": "Nunca [esperó::czekał] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie czekał"
-          },
-          {
-            "es_form": "[esperó::czekał] sin parar durante horas.",
-            "pl_translation": "Czekał"
+            "es_form": "Él [esperó::czekał] el autobús.",
+            "pl_translation": "Czekał na autobus."
           }
         ]
       },
       {
         "es_word": "esperamos",
-        "pl_word": "czekaliśmy",
+        "pl_word": "czekaliśmy (esperar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [esperamos::czekaliśmy] todo el día.",
-            "pl_translation": "Wczoraj czekaliśmy"
-          },
-          {
-            "es_form": "[esperamos::czekaliśmy] sin parar durante horas.",
-            "pl_translation": "Czekaliśmy"
-          },
-          {
-            "es_form": "¿[esperamos::czekaliśmy] bien el examen?",
-            "pl_translation": "Czy czekaliśmy"
+            "es_form": "Nosotros [esperamos::czekaliśmy] el autobús.",
+            "pl_translation": "Czekaliśmy na autobus."
           }
         ]
       },
       {
         "es_word": "esperasteis",
-        "pl_word": "czekaliście",
+        "pl_word": "czekaliście (esperar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "[esperasteis::czekaliście] sin parar durante horas.",
-            "pl_translation": "Czekaliście"
-          },
-          {
-            "es_form": "Nunca [esperasteis::czekaliście] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie czekaliście"
-          },
-          {
-            "es_form": "El mes pasado no [esperasteis::czekaliście] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie czekaliście"
+            "es_form": "Vosotros [esperasteis::czekaliście] el autobús.",
+            "pl_translation": "Czekaliście na autobus."
           }
         ]
       },
       {
         "es_word": "esperaron",
-        "pl_word": "czekali",
+        "pl_word": "czekali (esperar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [esperaron::czekali] todo el día.",
-            "pl_translation": "Wczoraj czekali"
-          },
-          {
-            "es_form": "[esperaron::czekali] sin parar durante horas.",
-            "pl_translation": "Czekali"
-          },
-          {
-            "es_form": "[esperaron::czekali] la semana pasada.",
-            "pl_translation": "Czekali"
+            "es_form": "Ellos [esperaron::czekali] el autobús.",
+            "pl_translation": "Czekali na autobus."
           }
         ]
       },
       {
-        "es_word": "esperé",
-        "pl_word": "będę czekał",
+        "es_word": "esperaré",
+        "pl_word": "będę czekać (esperar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[esperé::będę czekał] con nosotros mañana?",
-            "pl_translation": "Czy będę czekał"
-          },
-          {
-            "es_form": "[esperé::będę czekał] la proxima semana.",
-            "pl_translation": "Będę czekał"
-          },
-          {
-            "es_form": "El año que viene [esperé::będę czekał] en España.",
-            "pl_translation": "W przyszłym roku będę czekał"
+            "es_form": "Yo [esperaré::będę czekać] el autobús.",
+            "pl_translation": "Będę czekać na autobus."
           }
         ]
       },
       {
-        "es_word": "esperás",
-        "pl_word": "będziesz czekał",
+        "es_word": "esperarás",
+        "pl_word": "będziesz czekać (esperar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[esperás::będziesz czekał] con nosotros mañana?",
-            "pl_translation": "Czy będziesz czekał"
-          },
-          {
-            "es_form": "Creo que [esperás::będziesz czekał] bien.",
-            "pl_translation": "Myślę, że będziesz czekał"
-          },
-          {
-            "es_form": "Mañana [esperás::będziesz czekał] más temprano.",
-            "pl_translation": "Jutro będziesz czekał"
+            "es_form": "Tú [esperarás::będziesz czekać] el autobús.",
+            "pl_translation": "Będziesz czekać na autobus."
           }
         ]
       },
       {
-        "es_word": "esperá",
-        "pl_word": "będzie czekał",
+        "es_word": "esperará",
+        "pl_word": "będzie czekać (esperar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [esperá::będzie czekał] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będzie czekał"
-          },
-          {
-            "es_form": "[esperá::będzie czekał] la proxima semana.",
-            "pl_translation": "Będzie czekał"
-          },
-          {
-            "es_form": "¿[esperá::będzie czekał] con nosotros mañana?",
-            "pl_translation": "Czy będzie czekał"
+            "es_form": "Él [esperará::będzie czekać] el autobús.",
+            "pl_translation": "Będzie czekać na autobus."
           }
         ]
       },
       {
-        "es_word": "esperemos",
-        "pl_word": "będziemy czekali",
+        "es_word": "esperaremos",
+        "pl_word": "będziemy czekać (esperar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [esperemos::będziemy czekali] bien.",
-            "pl_translation": "Myślę, że będziemy czekali"
-          },
-          {
-            "es_form": "Mañana [esperemos::będziemy czekali] más temprano.",
-            "pl_translation": "Jutro będziemy czekali"
-          },
-          {
-            "es_form": "¿[esperemos::będziemy czekali] con nosotros mañana?",
-            "pl_translation": "Czy będziemy czekali"
+            "es_form": "Nosotros [esperaremos::będziemy czekać] el autobús.",
+            "pl_translation": "Będziemy czekać na autobus."
           }
         ]
       },
       {
-        "es_word": "esperéis",
-        "pl_word": "będziecie czekali",
+        "es_word": "esperaréis",
+        "pl_word": "będziecie czekać (esperar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [esperéis::będziecie czekali] bien.",
-            "pl_translation": "Myślę, że będziecie czekali"
-          },
-          {
-            "es_form": "Mañana [esperéis::będziecie czekali] más temprano.",
-            "pl_translation": "Jutro będziecie czekali"
-          },
-          {
-            "es_form": "[esperéis::będziecie czekali] la proxima semana.",
-            "pl_translation": "Będziecie czekali"
+            "es_form": "Vosotros [esperaréis::będziecie czekać] el autobús.",
+            "pl_translation": "Będziecie czekać na autobus."
           }
         ]
       },
       {
-        "es_word": "esperán",
-        "pl_word": "będą czekali",
+        "es_word": "esperarán",
+        "pl_word": "będą czekać (esperar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "¿[esperán::będą czekali] con nosotros mañana?",
-            "pl_translation": "Czy będą czekali"
-          },
-          {
-            "es_form": "Creo que [esperán::będą czekali] bien.",
-            "pl_translation": "Myślę, że będą czekali"
-          },
-          {
-            "es_form": "Mañana [esperán::będą czekali] más temprano.",
-            "pl_translation": "Jutro będą czekali"
+            "es_form": "Ellos [esperarán::będą czekać] el autobús.",
+            "pl_translation": "Będą czekać na autobus."
           }
         ]
       }

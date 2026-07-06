@@ -233,22 +233,18 @@
     "pl_word": "czuć się",
     "examples": [
       {
-        "es_form": "Prefiero [sentirse::czuć się] en casa.",
-        "pl_translation": "Wolę czuć się w domu."
+        "es_form": "Es importante [sentirse::czuć] bien.",
+        "pl_translation": "Ważne jest czuć się dobrze."
       },
       {
-        "es_form": "Voy a [sentirse::czuć się] mañana.",
-        "pl_translation": "Będę czuć się jutro."
-      },
-      {
-        "es_form": "Es importante [sentirse::czuć się] todos los días.",
-        "pl_translation": "Ważne jest czuć się codziennie."
+        "es_form": "Hay que [sentirse::czuć] bien.",
+        "pl_translation": "Trzeba czuć się dobrze."
       }
     ],
     "forms": [
       {
         "es_word": "me siento",
-        "pl_word": "czuję się",
+        "pl_word": "czuję (sentirse)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "[me siento::czuję się] como me enseñaste.",
-            "pl_translation": "czuję się tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "No [me siento::czuję się] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie czuję się zbyt dobrze."
-          },
-          {
-            "es_form": "Normalmente [me siento::czuję się] por la mañana.",
-            "pl_translation": "Zazwyczaj czuję się rano."
+            "es_form": "Yo [me siento::czuję] bien.",
+            "pl_translation": "Czuję się dobrze."
           }
         ]
       },
       {
         "es_word": "te sientes",
-        "pl_word": "czujesz się",
+        "pl_word": "czujesz (sentirse)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [te sientes::czujesz się] con atencion.",
-            "pl_translation": "Zawsze czujesz się z uwagą."
-          },
-          {
-            "es_form": "[te sientes::czujesz się] todos los días.",
-            "pl_translation": "czujesz się codziennie."
-          },
-          {
-            "es_form": "Normalmente [te sientes::czujesz się] por la mañana.",
-            "pl_translation": "Zazwyczaj czujesz się rano."
+            "es_form": "Tú [te sientes::czujesz] bien.",
+            "pl_translation": "Czujesz się dobrze."
           }
         ]
       },
       {
         "es_word": "se siente",
-        "pl_word": "czuje się",
+        "pl_word": "czuje (sentirse)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "[se siente::czuje się] todos los días.",
-            "pl_translation": "czuje się codziennie."
-          },
-          {
-            "es_form": "Normalmente [se siente::czuje się] por la mañana.",
-            "pl_translation": "Zazwyczaj czuje się rano."
-          },
-          {
-            "es_form": "Siempre [se siente::czuje się] con atencion.",
-            "pl_translation": "Zawsze czuje się z uwagą."
+            "es_form": "Él [se siente::czuje] bien.",
+            "pl_translation": "Czuje się dobrze."
           }
         ]
       },
       {
         "es_word": "nos sentimos",
-        "pl_word": "czujemy się",
+        "pl_word": "czujemy (sentirse)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [nos sentimos::czujemy się] con atencion.",
-            "pl_translation": "Zawsze czujemy się z uwagą."
-          },
-          {
-            "es_form": "¿[nos sentimos::czujemy się] los fines de semana?",
-            "pl_translation": "Czy czujemy się w weekendy?"
-          },
-          {
-            "es_form": "No [nos sentimos::czujemy się] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie czujemy się zbyt dobrze."
+            "es_form": "Nosotros [nos sentimos::czujemy] bien.",
+            "pl_translation": "Czujemy się dobrze."
           }
         ]
       },
       {
         "es_word": "os sentís",
-        "pl_word": "czujecie się",
+        "pl_word": "czujecie (sentirse)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[os sentís::czujecie się] los fines de semana?",
-            "pl_translation": "Czy czujecie się w weekendy?"
-          },
-          {
-            "es_form": "No [os sentís::czujecie się] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie czujecie się zbyt dobrze."
-          },
-          {
-            "es_form": "Siempre [os sentís::czujecie się] con atencion.",
-            "pl_translation": "Zawsze czujecie się z uwagą."
+            "es_form": "Vosotros [os sentís::czujecie] bien.",
+            "pl_translation": "Czujecie się dobrze."
           }
         ]
       },
       {
         "es_word": "se sienten",
-        "pl_word": "czują się",
+        "pl_word": "czują (sentirse)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [se sienten::czują się] por la mañana.",
-            "pl_translation": "Zazwyczaj czują się rano."
-          },
-          {
-            "es_form": "[se sienten::czują się] como me enseñaste.",
-            "pl_translation": "czują się tak jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "[se sienten::czują się] todos los días.",
-            "pl_translation": "czują się codziennie."
+            "es_form": "Ellos [se sienten::czują] bien.",
+            "pl_translation": "Czują się dobrze."
           }
         ]
       },
       {
         "es_word": "me sentí",
-        "pl_word": "czułem się",
+        "pl_word": "poczułem (sentirse)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [me sentí::czułem się] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie czułem się."
-          },
-          {
-            "es_form": "Ayer [me sentí::czułem się] todo el día.",
-            "pl_translation": "Wczoraj czułem się cały dzień."
-          },
-          {
-            "es_form": "Nunca [me sentí::czułem się] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie czułem się czegoś takiego."
+            "es_form": "Yo [me sentí::poczułem] bien.",
+            "pl_translation": "Poczułem się dobrze."
           }
         ]
       },
       {
         "es_word": "te sentiste",
-        "pl_word": "czułeś się",
+        "pl_word": "poczułeś (sentirse)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [te sentiste::czułeś się] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie czułeś się."
-          },
-          {
-            "es_form": "Ayer [te sentiste::czułeś się] todo el día.",
-            "pl_translation": "Wczoraj czułeś się cały dzień."
-          },
-          {
-            "es_form": "¿[te sentiste::czułeś się] bien el examen?",
-            "pl_translation": "Czy czułeś się dobrze egzamin?"
+            "es_form": "Tú [te sentiste::poczułeś] bien.",
+            "pl_translation": "Poczułeś się dobrze."
           }
         ]
       },
       {
         "es_word": "se sintió",
-        "pl_word": "czuł się",
+        "pl_word": "poczuł (sentirse)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[se sintió::czuł się] bien el examen?",
-            "pl_translation": "Czy czuł się dobrze egzamin?"
-          },
-          {
-            "es_form": "Nunca [se sintió::czuł się] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie czuł się czegoś takiego."
-          },
-          {
-            "es_form": "El mes pasado no [se sintió::czuł się] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie czuł się."
+            "es_form": "Él [se sintió::poczuł] bien.",
+            "pl_translation": "Poczuł się dobrze."
           }
         ]
       },
       {
         "es_word": "nos sentimos",
-        "pl_word": "czuliśmy się",
+        "pl_word": "poczuliśmy (sentirse)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "[nos sentimos::czuliśmy się] la semana pasada.",
-            "pl_translation": "czuliśmy się w zeszłym tygodniu."
-          },
-          {
-            "es_form": "¿[nos sentimos::czuliśmy się] bien el examen?",
-            "pl_translation": "Czy czuliśmy się dobrze egzamin?"
-          },
-          {
-            "es_form": "Nunca [nos sentimos::czuliśmy się] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie czuliśmy się czegoś takiego."
+            "es_form": "Nosotros [nos sentimos::poczuliśmy] bien.",
+            "pl_translation": "Poczuliśmy się dobrze."
           }
         ]
       },
       {
         "es_word": "os sentisteis",
-        "pl_word": "czuliście się",
+        "pl_word": "poczuliście (sentirse)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[os sentisteis::czuliście się] bien el examen?",
-            "pl_translation": "Czy czuliście się dobrze egzamin?"
-          },
-          {
-            "es_form": "El mes pasado no [os sentisteis::czuliście się] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie czuliście się."
-          },
-          {
-            "es_form": "[os sentisteis::czuliście się] sin parar durante horas.",
-            "pl_translation": "czuliście się bez przerwy przez wiele godzin."
+            "es_form": "Vosotros [os sentisteis::poczuliście] bien.",
+            "pl_translation": "Poczuliście się dobrze."
           }
         ]
       },
       {
         "es_word": "se sintieron",
-        "pl_word": "czuli się",
+        "pl_word": "poczuli (sentirse)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [se sintieron::czuli się] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie czuli się."
-          },
-          {
-            "es_form": "Ayer [se sintieron::czuli się] todo el día.",
-            "pl_translation": "Wczoraj czuli się cały dzień."
-          },
-          {
-            "es_form": "Nunca [se sintieron::czuli się] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie czuli się czegoś takiego."
+            "es_form": "Ellos [se sintieron::poczuli] bien.",
+            "pl_translation": "Poczuli się dobrze."
           }
         ]
       },
       {
         "es_word": "me sentiré",
-        "pl_word": "będę się czuć",
+        "pl_word": "będę czuć (sentirse)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [me sentiré::będę się czuć] bien.",
-            "pl_translation": "Myślę, że będę się czuć dobrze."
-          },
-          {
-            "es_form": "Mañana [me sentiré::będę się czuć] más temprano.",
-            "pl_translation": "Jutro będę się czuć wcześniej."
-          },
-          {
-            "es_form": "¿[me sentiré::będę się czuć] con nosotros mañana?",
-            "pl_translation": "Czy będę się czuć z nami jutro?"
+            "es_form": "Yo [me sentiré::będę czuć] bien.",
+            "pl_translation": "Będę czuć się dobrze."
           }
         ]
       },
       {
         "es_word": "te sentirás",
-        "pl_word": "będziesz się czuć",
+        "pl_word": "będziesz czuć (sentirse)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "[te sentirás::będziesz się czuć] la proxima semana.",
-            "pl_translation": "będziesz się czuć w przyszłym tygodniu."
-          },
-          {
-            "es_form": "¿[te sentirás::będziesz się czuć] con nosotros mañana?",
-            "pl_translation": "Czy będziesz się czuć z nami jutro?"
-          },
-          {
-            "es_form": "El año que viene [te sentirás::będziesz się czuć] en España.",
-            "pl_translation": "W przyszłym roku będziesz się czuć w Hiszpanii."
+            "es_form": "Tú [te sentirás::będziesz czuć] bien.",
+            "pl_translation": "Będziesz czuć się dobrze."
           }
         ]
       },
       {
         "es_word": "se sentirá",
-        "pl_word": "będzie się czuć",
+        "pl_word": "będzie czuć (sentirse)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [se sentirá::będzie się czuć] en España.",
-            "pl_translation": "W przyszłym roku będzie się czuć w Hiszpanii."
-          },
-          {
-            "es_form": "Mañana [se sentirá::będzie się czuć] más temprano.",
-            "pl_translation": "Jutro będzie się czuć wcześniej."
-          },
-          {
-            "es_form": "Te prometo que [se sentirá::będzie się czuć] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będzie się czuć na czas."
+            "es_form": "Él [se sentirá::będzie czuć] bien.",
+            "pl_translation": "Będzie czuć się dobrze."
           }
         ]
       },
       {
         "es_word": "nos sentiremos",
-        "pl_word": "będziemy się czuć",
+        "pl_word": "będziemy czuć (sentirse)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [nos sentiremos::będziemy się czuć] en España.",
-            "pl_translation": "W przyszłym roku będziemy się czuć w Hiszpanii."
-          },
-          {
-            "es_form": "Creo que [nos sentiremos::będziemy się czuć] bien.",
-            "pl_translation": "Myślę, że będziemy się czuć dobrze."
-          },
-          {
-            "es_form": "¿[nos sentiremos::będziemy się czuć] con nosotros mañana?",
-            "pl_translation": "Czy będziemy się czuć z nami jutro?"
+            "es_form": "Nosotros [nos sentiremos::będziemy czuć] bien.",
+            "pl_translation": "Będziemy czuć się dobrze."
           }
         ]
       },
       {
         "es_word": "os sentiréis",
-        "pl_word": "będziecie się czuć",
+        "pl_word": "będziecie czuć (sentirse)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [os sentiréis::będziecie się czuć] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziecie się czuć na czas."
-          },
-          {
-            "es_form": "Creo que [os sentiréis::będziecie się czuć] bien.",
-            "pl_translation": "Myślę, że będziecie się czuć dobrze."
-          },
-          {
-            "es_form": "[os sentiréis::będziecie się czuć] la proxima semana.",
-            "pl_translation": "będziecie się czuć w przyszłym tygodniu."
+            "es_form": "Vosotros [os sentiréis::będziecie czuć] bien.",
+            "pl_translation": "Będziecie czuć się dobrze."
           }
         ]
       },
       {
         "es_word": "se sentirán",
-        "pl_word": "będą się czuć",
+        "pl_word": "będą czuć (sentirse)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [se sentirán::będą się czuć] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będą się czuć na czas."
-          },
-          {
-            "es_form": "Creo que [se sentirán::będą się czuć] bien.",
-            "pl_translation": "Myślę, że będą się czuć dobrze."
-          },
-          {
-            "es_form": "El año que viene [se sentirán::będą się czuć] en España.",
-            "pl_translation": "W przyszłym roku będą się czuć w Hiszpanii."
+            "es_form": "Ellos [se sentirán::będą czuć] bien.",
+            "pl_translation": "Będą czuć się dobrze."
           }
         ]
       }

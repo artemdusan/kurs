@@ -233,22 +233,18 @@
     "pl_word": "ćwiczyć",
     "examples": [
       {
-        "es_form": "No puedo [ejercitar::ćwiczyć] sin tu ayuda.",
-        "pl_translation": "Nie mogę ćwiczyć bez twojej pomocy."
+        "es_form": "Quiero [ejercitar::ćwiczyć] el cuerpo.",
+        "pl_translation": "Chcę ćwiczyć ciało."
       },
       {
-        "es_form": "Es importante [ejercitar::ćwiczyć] todos los días.",
-        "pl_translation": "Ważne jest ćwiczyć codziennie."
-      },
-      {
-        "es_form": "Voy a [ejercitar::ćwiczyć] mañana.",
-        "pl_translation": "Będę ćwiczyć jutro."
+        "es_form": "No puedo [ejercitar::ćwiczyć] el cuerpo hoy.",
+        "pl_translation": "Nie mogę dziś ćwiczyć ciało."
       }
     ],
     "forms": [
       {
         "es_word": "ejercito",
-        "pl_word": "ćwiczę",
+        "pl_word": "ćwiczę (ejercitar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "No [ejercito::ćwiczę] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie ćwiczę zbyt dobrze."
-          },
-          {
-            "es_form": "[ejercito::ćwiczę] como me enseñaste.",
-            "pl_translation": "Ćwiczę tak, jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Normalmente [ejercito::ćwiczę] por la mañana.",
-            "pl_translation": "Zazwyczaj ćwiczę rano."
+            "es_form": "Yo [ejercito::ćwiczę] el cuerpo.",
+            "pl_translation": "Ćwiczę ciało."
           }
         ]
       },
       {
         "es_word": "ejercitas",
-        "pl_word": "ćwiczysz",
+        "pl_word": "ćwiczysz (ejercitar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "No [ejercitas::ćwiczysz] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie ćwiczysz zbyt dobrze."
-          },
-          {
-            "es_form": "¿[Ejercitas::ćwiczysz] los fines de semana?",
-            "pl_translation": "Czy ćwiczysz w weekendy?"
-          },
-          {
-            "es_form": "Normalmente [ejercitas::ćwiczysz] por la mañana.",
-            "pl_translation": "Zazwyczaj ćwiczysz rano."
+            "es_form": "Tú [ejercitas::ćwiczysz] el cuerpo.",
+            "pl_translation": "Ćwiczysz ciało."
           }
         ]
       },
       {
         "es_word": "ejercita",
-        "pl_word": "ćwiczy",
+        "pl_word": "ćwiczy (ejercitar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[Ejercita::ćwiczy] los fines de semana?",
-            "pl_translation": "Czy ćwiczy w weekendy?"
-          },
-          {
-            "es_form": "[Ejercita::ćwiczy] como me enseñaste.",
-            "pl_translation": "Ćwiczy tak, jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Normalmente [ejercita::ćwiczy] por la mañana.",
-            "pl_translation": "Zazwyczaj ćwiczy rano."
+            "es_form": "Él [ejercita::ćwiczy] el cuerpo.",
+            "pl_translation": "Ćwiczy ciało."
           }
         ]
       },
       {
         "es_word": "ejercitamos",
-        "pl_word": "ćwiczymy",
+        "pl_word": "ćwiczymy (ejercitar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "[Ejercitamos::ćwiczymy] todos los días.",
-            "pl_translation": "Ćwiczymy codziennie."
-          },
-          {
-            "es_form": "[Ejercitamos::ćwiczymy] como me enseñaste.",
-            "pl_translation": "Ćwiczymy tak, jak mnie nauczyłeś"
-          },
-          {
-            "es_form": "Normalmente [ejercitamos::ćwiczymy] por la mañana.",
-            "pl_translation": "Zazwyczaj ćwiczymy rano."
+            "es_form": "Nosotros [ejercitamos::ćwiczymy] el cuerpo.",
+            "pl_translation": "Ćwiczymy ciało."
           }
         ]
       },
       {
         "es_word": "ejercitáis",
-        "pl_word": "ćwiczycie",
+        "pl_word": "ćwiczycie (ejercitar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "[Ejercitáis::ćwiczycie] todos los días.",
-            "pl_translation": "Ćwiczycie codziennie."
-          },
-          {
-            "es_form": "¿[Ejercitáis::ćwiczycie] los fines de semana?",
-            "pl_translation": "Czy ćwiczycie w weekendy?"
-          },
-          {
-            "es_form": "[Ejercitáis::ćwiczycie] como me enseñaste.",
-            "pl_translation": "Ćwiczycie tak, jak mnie nauczyłeś"
+            "es_form": "Vosotros [ejercitáis::ćwiczycie] el cuerpo.",
+            "pl_translation": "Ćwiczycie ciało."
           }
         ]
       },
       {
         "es_word": "ejercitan",
-        "pl_word": "ćwiczą",
+        "pl_word": "ćwiczą (ejercitar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "[Ejercitan::ćwiczą] todos los días.",
-            "pl_translation": "Ćwiczą codziennie."
-          },
-          {
-            "es_form": "Normalmente [ejercitan::ćwiczą] por la mañana.",
-            "pl_translation": "Zazwyczaj ćwiczą rano."
-          },
-          {
-            "es_form": "¿[Ejercitan::ćwiczą] los fines de semana?",
-            "pl_translation": "Czy ćwiczą w weekendy?"
+            "es_form": "Ellos [ejercitan::ćwiczą] el cuerpo.",
+            "pl_translation": "Ćwiczą ciało."
           }
         ]
       },
       {
         "es_word": "ejercité",
-        "pl_word": "ćwiczyłem",
+        "pl_word": "ćwiczyłem (ejercitar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[Ejercité::ćwiczyłem] bien para el examen?",
-            "pl_translation": "Czy dobrze przećwiczyłem"
-          },
-          {
-            "es_form": "El mes pasado no [ejercité::ćwiczyłem] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie ćwiczyłem"
-          },
-          {
-            "es_form": "Ayer [ejercité::ćwiczyłem] todo el día.",
-            "pl_translation": "Wczoraj ćwiczyłem"
+            "es_form": "Yo [ejercité::ćwiczyłem] el cuerpo.",
+            "pl_translation": "Ćwiczyłem ciało."
           }
         ]
       },
       {
         "es_word": "ejercitaste",
-        "pl_word": "ćwiczyłeś",
+        "pl_word": "ćwiczyłeś (ejercitar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [ejercitaste::ćwiczyłeś] todo el día.",
-            "pl_translation": "Wczoraj ćwiczyłeś"
-          },
-          {
-            "es_form": "[Ejercitaste::ćwiczyłeś] la semana pasada.",
-            "pl_translation": "Ćwiczyłeś"
-          },
-          {
-            "es_form": "[Ejercitaste::ćwiczyłeś] sin parar durante horas.",
-            "pl_translation": "Ćwiczyłeś"
+            "es_form": "Tú [ejercitaste::ćwiczyłeś] el cuerpo.",
+            "pl_translation": "Ćwiczyłeś ciało."
           }
         ]
       },
       {
         "es_word": "ejercitó",
-        "pl_word": "ćwiczył",
+        "pl_word": "ćwiczył (ejercitar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "[Ejercitó::ćwiczył] la semana pasada.",
-            "pl_translation": "Ćwiczył"
-          },
-          {
-            "es_form": "Nunca [ejercitó::ćwiczył] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie ćwiczył"
-          },
-          {
-            "es_form": "Ayer [ejercitó::ćwiczył] todo el día.",
-            "pl_translation": "Wczoraj ćwiczył"
+            "es_form": "Él [ejercitó::ćwiczył] el cuerpo.",
+            "pl_translation": "Ćwiczył ciało."
           }
         ]
       },
       {
         "es_word": "ejercitamos",
-        "pl_word": "ćwiczyliśmy",
+        "pl_word": "ćwiczyliśmy (ejercitar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "[Ejercitamos::ćwiczyliśmy] sin parar durante horas.",
-            "pl_translation": "Ćwiczyliśmy"
-          },
-          {
-            "es_form": "El mes pasado no [ejercitamos::ćwiczyliśmy] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie ćwiczyliśmy"
-          },
-          {
-            "es_form": "Ayer [ejercitamos::ćwiczyliśmy] todo el día.",
-            "pl_translation": "Wczoraj ćwiczyliśmy"
+            "es_form": "Nosotros [ejercitamos::ćwiczyliśmy] el cuerpo.",
+            "pl_translation": "Ćwiczyliśmy ciało."
           }
         ]
       },
       {
         "es_word": "ejercitasteis",
-        "pl_word": "ćwiczyliście",
+        "pl_word": "ćwiczyliście (ejercitar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [ejercitasteis::ćwiczyliście] todo el día.",
-            "pl_translation": "Wczoraj ćwiczyliście"
-          },
-          {
-            "es_form": "[Ejercitasteis::ćwiczyliście] sin parar durante horas.",
-            "pl_translation": "Ćwiczyliście"
-          },
-          {
-            "es_form": "El mes pasado no [ejercitasteis::ćwiczyliście] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie ćwiczyliście"
+            "es_form": "Vosotros [ejercitasteis::ćwiczyliście] el cuerpo.",
+            "pl_translation": "Ćwiczyliście ciało."
           }
         ]
       },
       {
         "es_word": "ejercitaron",
-        "pl_word": "ćwiczyli",
+        "pl_word": "ćwiczyli (ejercitar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [ejercitaron::ćwiczyli] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie ćwiczyli"
-          },
-          {
-            "es_form": "[Ejercitaron::ćwiczyli] sin parar durante horas.",
-            "pl_translation": "Ćwiczyli"
-          },
-          {
-            "es_form": "[Ejercitaron::ćwiczyli] la semana pasada.",
-            "pl_translation": "Ćwiczyli"
+            "es_form": "Ellos [ejercitaron::ćwiczyli] el cuerpo.",
+            "pl_translation": "Ćwiczyli ciało."
           }
         ]
       },
       {
         "es_word": "ejercitaré",
-        "pl_word": "będę ćwiczył",
+        "pl_word": "będę ćwiczyć (ejercitar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [ejercitaré::będę ćwiczył] bien.",
-            "pl_translation": "Myślę, że będę dobrze ćwiczył"
-          },
-          {
-            "es_form": "Te prometo que [ejercitaré::będę ćwiczył] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będę ćwiczył"
-          },
-          {
-            "es_form": "Mañana [ejercitaré::będę ćwiczył] más temprano.",
-            "pl_translation": "Jutro będę ćwiczył"
+            "es_form": "Yo [ejercitaré::będę ćwiczyć] el cuerpo.",
+            "pl_translation": "Będę ćwiczyć ciało."
           }
         ]
       },
       {
         "es_word": "ejercitarás",
-        "pl_word": "będziesz ćwiczył",
+        "pl_word": "będziesz ćwiczyć (ejercitar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "[Ejercitarás::będziesz ćwiczył] la próxima semana.",
-            "pl_translation": "Będziesz ćwiczył"
-          },
-          {
-            "es_form": "El año que viene [ejercitarás::będziesz ćwiczył] en España.",
-            "pl_translation": "W przyszłym roku będziesz ćwiczył"
-          },
-          {
-            "es_form": "Mañana [ejercitarás::będziesz ćwiczył] más temprano.",
-            "pl_translation": "Jutro będziesz ćwiczył"
+            "es_form": "Tú [ejercitarás::będziesz ćwiczyć] el cuerpo.",
+            "pl_translation": "Będziesz ćwiczyć ciało."
           }
         ]
       },
       {
         "es_word": "ejercitará",
-        "pl_word": "będzie ćwiczył",
+        "pl_word": "będzie ćwiczyć (ejercitar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[Ejercitará::będzie ćwiczył] con nosotros mañana?",
-            "pl_translation": "Czy będzie ćwiczył"
-          },
-          {
-            "es_form": "El año que viene [ejercitará::będzie ćwiczył] en España.",
-            "pl_translation": "W przyszłym roku będzie ćwiczył"
-          },
-          {
-            "es_form": "Te prometo que [ejercitará::będzie ćwiczył] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będzie ćwiczył"
+            "es_form": "Él [ejercitará::będzie ćwiczyć] el cuerpo.",
+            "pl_translation": "Będzie ćwiczyć ciało."
           }
         ]
       },
       {
         "es_word": "ejercitaremos",
-        "pl_word": "będziemy ćwiczyli",
+        "pl_word": "będziemy ćwiczyć (ejercitar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[Ejercitaremos::będziemy ćwiczyli] juntos mañana?",
-            "pl_translation": "Czy będziemy ćwiczyli"
-          },
-          {
-            "es_form": "Creo que [ejercitaremos::będziemy ćwiczyli] bien.",
-            "pl_translation": "Myślę, że będziemy dobrze ćwiczyli"
-          },
-          {
-            "es_form": "[Ejercitaremos::będziemy ćwiczyli] la próxima semana.",
-            "pl_translation": "Będziemy ćwiczyli"
+            "es_form": "Nosotros [ejercitaremos::będziemy ćwiczyć] el cuerpo.",
+            "pl_translation": "Będziemy ćwiczyć ciało."
           }
         ]
       },
       {
         "es_word": "ejercitaréis",
-        "pl_word": "będziecie ćwiczyli",
+        "pl_word": "będziecie ćwiczyć (ejercitar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "¿[Ejercitaréis::będziecie ćwiczyli] con nosotros mañana?",
-            "pl_translation": "Czy będziecie ćwiczyli"
-          },
-          {
-            "es_form": "Creo que [ejercitaréis::będziecie ćwiczyli] bien.",
-            "pl_translation": "Myślę, że będziecie dobrze ćwiczyli"
-          },
-          {
-            "es_form": "Te prometo que [ejercitaréis::będziecie ćwiczyli] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziecie ćwiczyli"
+            "es_form": "Vosotros [ejercitaréis::będziecie ćwiczyć] el cuerpo.",
+            "pl_translation": "Będziecie ćwiczyć ciało."
           }
         ]
       },
       {
         "es_word": "ejercitarán",
-        "pl_word": "będą ćwiczyli",
+        "pl_word": "będą ćwiczyć (ejercitar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [ejercitarán::będą ćwiczyli] en España.",
-            "pl_translation": "W przyszłym roku będą ćwiczyli"
-          },
-          {
-            "es_form": "¿[Ejercitarán::będą ćwiczyli] con nosotros mañana?",
-            "pl_translation": "Czy będą ćwiczyli"
-          },
-          {
-            "es_form": "[Ejercitarán::będą ćwiczyli] la próxima semana.",
-            "pl_translation": "Będą ćwiczyli"
+            "es_form": "Ellos [ejercitarán::będą ćwiczyć] el cuerpo.",
+            "pl_translation": "Będą ćwiczyć ciało."
           }
         ]
       }
