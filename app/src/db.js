@@ -5,17 +5,8 @@ import Dexie from 'dexie';
 export const db = new Dexie('kurs-hiszpanski');
 
 db.version(1).stores({
-  // id = UUID generowany lokalnie, niezmienny; naturalKey do deduplikacji importu
-  words: 'id, &naturalKey, lesson, parentId, updated_at',
-  progress: 'wordId, level, updated_at',
-  meta: 'key',
-});
-
-// v2: id jest teraz deterministyczny (lekcja+typ+pozycja), identyczny na każdym
-// urządzeniu — naturalKey przestaje być unikalnym identyfikatorem (służy tylko
-// do jednorazowej migracji starych losowych UUID), więc zdejmujemy indeks &.
-db.version(2).stores({
-  words: 'id, naturalKey, lesson, parentId, updated_at',
+  // id deterministyczny (lekcja+typ+pozycja w lekcji) — patrz course.js
+  words: 'id, lesson, parentId, updated_at',
   progress: 'wordId, level, updated_at',
   meta: 'key',
 });

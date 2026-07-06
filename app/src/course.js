@@ -16,18 +16,6 @@ export async function loadIndex() {
   return indexCache;
 }
 
-// Klucz treściowy — używany WYŁĄCZNIE do jednorazowej migracji starych rekordów
-// (sprzed deterministycznych id), które miały losowy UUID powiązany z treścią
-// słowa w chwili importu.
-function naturalKeyOf(lesson, type, es, grammar) {
-  const g = grammar ? `${grammar.tense}.${grammar.person}.${grammar.number}` : '';
-  return `${lesson}|${type}|${es.toLowerCase()}|${g}`;
-}
-
-function formKeyOf(lesson, parentEs, grammar) {
-  return `${lesson}|verb_form|${parentEs.toLowerCase()}|${grammar.tense}.${grammar.person}.${grammar.number}`;
-}
-
 const TYPE_CODE = { verb: 'v', noun: 'n', adjective: 'j' };
 const TENSE_CODE = { present: 'pres', preterite: 'pret', future: 'fut' };
 
@@ -46,8 +34,9 @@ function formSlotId(lesson, verbOrdinal, grammar) {
 }
 
 // Podbij, gdy zmienia się sposób budowania rekordów z plików lekcji —
-// zaimportowane lekcje zostaną wtedy zaktualizowane (bez utraty postępów).
-const CONTENT_VERSION = 5;
+// zaimportowane lekcje zostaną wtedy zaktualizowane (bez utraty postępów,
+// bo id słowa zależy tylko od jego pozycji w lekcji, nie od treści).
+const CONTENT_VERSION = 6;
 
 /** Importuje słowa lekcji do bazy (idempotentnie). Zwraca liczbę nowych słów. */
 export async function ensureLessonImported(lessonNumber) {
@@ -71,7 +60,6 @@ export async function ensureLessonImported(lessonNumber) {
     const id = slotId(lessonNumber, item.type, ordinal);
     rows.push({
       id,
-      legacyKey: naturalKeyOf(lessonNumber, item.type, item.es_word, null),
       lesson: lessonNumber,
       type: item.type,
       es: item.es_word,
@@ -85,7 +73,6 @@ export async function ensureLessonImported(lessonNumber) {
     for (const form of item.forms || []) {
       rows.push({
         id: formSlotId(lessonNumber, ordinal, form.grammar),
-        legacyKey: formKeyOf(lessonNumber, item.es_word, form.grammar),
         lesson: lessonNumber,
         type: 'verb_form',
         es: form.es_word,
@@ -101,14 +88,11 @@ export async function ensureLessonImported(lessonNumber) {
   }
 
   let added = 0;
-  await db.transaction('rw', db.words, db.progress, db.meta, async () => {
-    for (const row of rows) {
-      const { legacyKey, ...data } = row;
-      data.naturalKey = legacyKey; // zachowane tylko dla ew. przyszłych migracji
-
+  await db.transaction('rw', db.words, db.meta, async () => {
+    for (const data of rows) {
       const current = await db.words.get(data.id);
       if (current) {
-        // rekord z tym deterministycznym id już istnieje — dopasuj treść (id i postęp zostają)
+        // rekord z tym id już istnieje — dopasuj treść, id i postęp zostają
         const changed =
           current.es !== data.es ||
           current.pl !== data.pl ||
@@ -118,37 +102,11 @@ export async function ensureLessonImported(lessonNumber) {
         }
         continue;
       }
-
-      // brak rekordu pod nowym id — to albo świeży import, albo migracja starego
-      // losowego UUID (sprzed wprowadzenia deterministycznych id). Szukamy po
-      // treściowym kluczu, a dla form dodatkowo po (parentId, gramatyka), żeby
-      // przenieść istniejący postęp zamiast tworzyć duplikat w puli sesji.
-      let legacy = await db.words.where('naturalKey').equals(legacyKey).first();
-      if (!legacy && data.grammar) {
-        const siblings = await db.words.where('parentId').equals(data.parentId).toArray();
-        legacy = siblings.find(
-          (w) =>
-            w.grammar &&
-            w.grammar.tense === data.grammar.tense &&
-            w.grammar.person === data.grammar.person &&
-            w.grammar.number === data.grammar.number
-        );
-      }
       await db.words.add(data);
-      if (legacy) {
-        const legacyProgress = await db.progress.get(legacy.id);
-        if (legacyProgress) {
-          await db.progress.put({ ...legacyProgress, wordId: data.id, updated_at: now });
-          await db.progress.put({ ...legacyProgress, wordId: legacy.id, deleted: 1, updated_at: now });
-        }
-        await db.words.update(legacy.id, { deleted: 1, updated_at: now });
-      } else {
-        added++;
-      }
+      added++;
     }
-    // soft delete rekordów lekcji spoza bieżącego zestawu (usunięte słowa albo
-    // niedopasowane podczas migracji legacy rekordy) — inaczej wisiałyby w puli
-    // sesji jako duplikaty
+    // soft delete rekordów lekcji, których słowo zniknęło z danych kursu —
+    // inaczej wisiałyby w puli sesji jako duplikaty
     const validIds = new Set(rows.map((r) => r.id));
     const lessonWords = await db.words.where('lesson').equals(lessonNumber).toArray();
     for (const w of lessonWords) {
