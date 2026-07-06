@@ -211,6 +211,7 @@ html, body {
 .field.row input { width: 22px; height: 22px; }
 .row.gap { display: flex; gap: 10px; }
 .sync-msg { color: var(--amber); font-weight: 600; }
+.hint { color: var(--muted, #94a3b8); font-weight: 400; font-size: 12px; }
 h3 { margin: 12px 0 0; }
 
 @keyframes pop {

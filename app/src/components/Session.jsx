@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
+import { saveSettings } from '../db.js';
 import { buildSessionPool, pickNext, recordAnswer, bumpDailyStats, SESSION_DONE_STREAK } from '../engine/session.js';
 import { checkAnswer, splitArticle } from '../engine/answer.js';
 import { buildKeyboard } from '../engine/keyboard.js';
@@ -19,8 +20,9 @@ function speak(text, enabled) {
   }
 }
 
-export default function Session({ settings, maxLesson, onExit, onFinished }) {
+export default function Session({ settings, maxLesson, onExit, onFinished, onSettingsChange }) {
   const [pool, setPool] = useState(null);
+  const [tts, setTts] = useState(settings.tts);
   const [task, setTask] = useState(null);
   const [typed, setTyped] = useState('');
   const [article, setArticle] = useState('');
@@ -101,8 +103,17 @@ export default function Session({ settings, maxLesson, onExit, onFinished }) {
       done: newPool.filter((e) => e.sessionStreak >= SESSION_DONE_STREAK).length,
     }));
     await bumpDailyStats({ correct: correct ? 1 : 0, wrong: correct ? 0 : 1 });
-    speak(task.expected, settings.tts);
+    speak(task.expected, tts);
     setPhase('feedback');
+  }
+
+  function toggleTts() {
+    const next = !tts;
+    setTts(next);
+    if (!next && 'speechSynthesis' in window) window.speechSynthesis.cancel();
+    const updated = { ...settings, tts: next };
+    saveSettings(updated);
+    onSettingsChange?.(updated);
   }
 
   async function finish(currentPool) {
@@ -135,6 +146,13 @@ export default function Session({ settings, maxLesson, onExit, onFinished }) {
         <button className="btn ghost" onClick={() => finish(pool)}>✕</button>
         <span className="timer">{mins}:{secs}</span>
         <span className="score">✅ {counts.correct} ❌ {counts.wrong}</span>
+        <button
+          className="btn ghost"
+          title={tts ? 'Wycisz czytanie na głos' : 'Włącz czytanie na głos'}
+          onClick={toggleTts}
+        >
+          {tts ? '🔊' : '🔇'}
+        </button>
       </div>
 
       <div className="prompt">

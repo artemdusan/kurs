@@ -81,6 +81,7 @@ export default function App() {
         maxLesson={unlockedLesson}
         onExit={() => setView('tree')}
         onFinished={handleSessionFinished}
+        onSettingsChange={setSettings}
       />
     );
   }

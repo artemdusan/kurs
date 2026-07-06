@@ -38,4 +38,5 @@ export function buildKeyboard(target, { isNoun = false, rng = Math.random } = {}
   };
 }
 
-export const ARTICLE_BUTTONS = ['el', 'la', 'los', 'las'];
+// Wszystkie rzeczowniki kursu są w liczbie pojedynczej — los/las byłyby martwymi przyciskami.
+export const ARTICLE_BUTTONS = ['el', 'la'];
