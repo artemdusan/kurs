@@ -1,0 +1,15 @@
+name = "kurs-sync"
+main = "src/index.js"
+compatibility_date = "2025-01-01"
+
+# Darmowy plan Cloudflare: Worker + D1.
+# 1. npx wrangler d1 create kurs-db
+# 2. wpisz database_id poniżej
+# 3. npx wrangler d1 execute kurs-db --file=schema.sql --remote
+# 4. npx wrangler secret put ADMIN_TOKEN
+# 5. npx wrangler deploy
+
+[[d1_databases]]
+binding = "DB"
+database_name = "kurs-db"
+database_id = "WPISZ-ID-BAZY"
