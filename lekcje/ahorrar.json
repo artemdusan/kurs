@@ -5,16 +5,16 @@
     "pl_word": "konto",
     "examples": [
       {
-        "es_form": "Guarda [la cuenta::konto] en el armario.",
-        "pl_translation": "Schowaj konto do szafy."
+        "es_form": "Abre [la cuenta::konto] en el banco.",
+        "pl_translation": "Otwórz konto w banku."
       },
       {
-        "es_form": "Compré [la cuenta::konto] ayer.",
-        "pl_translation": "Kupiłem/am konto wczoraj."
+        "es_form": "Abrí [la cuenta::konto] el mes pasado.",
+        "pl_translation": "Otworzyłem konto w zeszłym miesiącu."
       },
       {
-        "es_form": "Se me rompio [la cuenta::konto].",
-        "pl_translation": "Zepsuł mi się konto."
+        "es_form": "Han bloqueado [la cuenta::konto].",
+        "pl_translation": "Zablokowali mi konto."
       }
     ]
   },
@@ -32,8 +32,8 @@
         "pl_translation": "Gdzie jest bankomat?"
       },
       {
-        "es_form": "Voy a [El cajero automático::bankomat] cada día.",
-        "pl_translation": "Chodzę do bankomat codziennie."
+        "es_form": "Voy a [el cajero automático::bankomat] cada día.",
+        "pl_translation": "Chodzę do bankomatu codziennie."
       }
     ]
   },
@@ -52,7 +52,7 @@
       },
       {
         "es_form": "No entiendo [la deuda::dług].",
-        "pl_translation": "Nie rozumiem dług."
+        "pl_translation": "Nie rozumiem długu."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "pożyczka",
     "examples": [
       {
-        "es_form": "Compré [el préstamo::pożyczka] ayer.",
-        "pl_translation": "Kupiłem/am pożyczka wczoraj."
+        "es_form": "Solicité [el préstamo::pożyczka] ayer.",
+        "pl_translation": "Złożyłem wniosek o pożyczkę wczoraj."
       },
       {
         "es_form": "[El préstamo::pożyczka] es de madera.",
         "pl_translation": "Pożyczka jest z drewna."
       },
       {
-        "es_form": "Se me rompio [el préstamo::pożyczka].",
-        "pl_translation": "Zepsuł mi się pożyczka."
+        "es_form": "Me denegaron [el préstamo::pożyczka].",
+        "pl_translation": "Odmówili mi pożyczki."
       }
     ]
   },
@@ -81,12 +81,12 @@
     "pl_word": "rata",
     "examples": [
       {
-        "es_form": "Guarda [el plazo::rata] en el armario.",
-        "pl_translation": "Schowaj rata do szafy."
+        "es_form": "Pagué [el plazo::rata] a tiempo.",
+        "pl_translation": "Zapłaciłem ratę na czas."
       },
       {
-        "es_form": "Compré [el plazo::rata] ayer.",
-        "pl_translation": "Kupiłem/am rata wczoraj."
+        "es_form": "Atrasé [el plazo::rata] este mes.",
+        "pl_translation": "Opóźniłem ratę w tym miesiącu."
       },
       {
         "es_form": "[El plazo::rata] cuesta diez euros.",
@@ -101,14 +101,14 @@
     "examples": [
       {
         "es_form": "Necesito [la moneda::waluta] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową waluta."
+        "pl_translation": "Potrzebuję nową walutę."
       },
       {
         "es_form": "Compré [la moneda::waluta] ayer.",
-        "pl_translation": "Kupiłem/am waluta wczoraj."
+        "pl_translation": "Kupiłem walutę wczoraj."
       },
       {
-        "es_form": "Se me rompio [la moneda::waluta].",
+        "es_form": "Se me rompió [la moneda::waluta].",
         "pl_translation": "Zepsuł mi się waluta."
       }
     ]
@@ -119,15 +119,15 @@
     "pl_word": "reszta (pieniądze)",
     "examples": [
       {
-        "es_form": "Guarda [el cambio::reszta (pieniądze)] en el armario.",
-        "pl_translation": "Schowaj reszta do szafy."
+        "es_form": "Guarda [el cambio::reszta (pieniądze)] en la cartera.",
+        "pl_translation": "Schowaj resztę do portfela."
       },
       {
         "es_form": "[El cambio::reszta (pieniądze)] es de madera.",
         "pl_translation": "Reszta jest z drewna."
       },
       {
-        "es_form": "Se me rompio [el cambio::reszta (pieniądze)].",
+        "es_form": "Se me rompió [el cambio::reszta (pieniądze)].",
         "pl_translation": "Zepsuł mi się reszta."
       }
     ]
@@ -139,11 +139,11 @@
     "examples": [
       {
         "es_form": "¿Has visto [el gasto::wydatek]?",
-        "pl_translation": "Widziałeś/aś wydatek?"
+        "pl_translation": "Widziałeś"
       },
       {
-        "es_form": "Se me rompio [el gasto::wydatek].",
-        "pl_translation": "Zepsuł mi się wydatek."
+        "es_form": "Anoté [el gasto::wydatek] en la libreta.",
+        "pl_translation": "Zapisałem wydatek w notesie."
       },
       {
         "es_form": "[El gasto::wydatek] está sobre la mesa.",
@@ -158,7 +158,7 @@
     "examples": [
       {
         "es_form": "[El presupuesto::budżet] es muy importante.",
-        "pl_translation": "Budżet jest bardzo ważny/a."
+        "pl_translation": "Budżet jest bardzo ważny."
       },
       {
         "es_form": "Tienes que aceptar [el presupuesto::budżet].",
@@ -166,7 +166,7 @@
       },
       {
         "es_form": "No entiendo [el presupuesto::budżet].",
-        "pl_translation": "Nie rozumiem budżet."
+        "pl_translation": "Nie rozumiem budżetu."
       }
     ]
   },
@@ -180,12 +180,12 @@
         "pl_translation": "Schowaj oszczędności do szafy."
       },
       {
-        "es_form": "Se me rompio [el ahorro::oszczędności].",
-        "pl_translation": "Zepsuł mi się oszczędności."
+        "es_form": "Perdí [el ahorro::oszczędności] en la crisis.",
+        "pl_translation": "Straciłem oszczędności w kryzysie."
       },
       {
-        "es_form": "Compré [el ahorro::oszczędności] ayer.",
-        "pl_translation": "Kupiłem/am oszczędności wczoraj."
+        "es_form": "Aumenté [el ahorro::oszczędności] este año.",
+        "pl_translation": "Zwiększyłem oszczędności w tym roku."
       }
     ]
   },
@@ -196,15 +196,15 @@
     "examples": [
       {
         "es_form": "Se compro un vestido [rico::bogaty].",
-        "pl_translation": "Kupiła sobie bogaty sukienkę."
+        "pl_translation": "Kupiła sobie bogatą sukienkę."
       },
       {
         "es_form": "Es una persona muy [rico::bogaty].",
-        "pl_translation": "To jest bardzo bogaty osoba."
+        "pl_translation": "To jest bardzo bogata osoba."
       },
       {
         "es_form": "Nada es más [rico::bogaty] que la familia.",
-        "pl_translation": "Nic nie jest bogaty od rodziny."
+        "pl_translation": "Nic nie jest bogatsze niż rodzina."
       }
     ]
   },
@@ -215,7 +215,7 @@
     "examples": [
       {
         "es_form": "Nada es más [pobre::biedny] que la familia.",
-        "pl_translation": "Nic nie jest biedny od rodziny."
+        "pl_translation": "Nic nie jest biedniejsze niż rodzina."
       },
       {
         "es_form": "Hace un día [pobre::biedny].",
@@ -223,7 +223,7 @@
       },
       {
         "es_form": "Es una persona muy [pobre::biedny].",
-        "pl_translation": "To jest bardzo biedny osoba."
+        "pl_translation": "To jest bardzo biedna osoba."
       }
     ]
   },
@@ -248,7 +248,7 @@
     "forms": [
       {
         "es_word": "ahorro",
-        "pl_word": "oszczędzać (1.os.lp, ter.)",
+        "pl_word": "oszczędzam",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +256,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [ahorro::oszczędzać (1.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj oszczędzać rano."
+            "es_form": "Normalmente [ahorro::oszczędzam] por la mañana.",
+            "pl_translation": "Zazwyczaj oszczędzam rano."
           },
           {
-            "es_form": "¿[ahorro::oszczędzać (1.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy oszczędzać w weekendy?"
+            "es_form": "¿[ahorro::oszczędzam] los fines de semana?",
+            "pl_translation": "Czy oszczędzam w weekendy?"
           },
           {
-            "es_form": "Siempre [ahorro::oszczędzać (1.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze oszczędzać z uwagą."
+            "es_form": "Siempre [ahorro::oszczędzam] con atencion.",
+            "pl_translation": "Zawsze oszczędzam z uwagą."
           }
         ]
       },
       {
         "es_word": "ahorras",
-        "pl_word": "oszczędzać (2.os.lp, ter.)",
+        "pl_word": "oszczędzasz",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +279,22 @@
         },
         "examples": [
           {
-            "es_form": "[ahorras::oszczędzać (2.os.lp, ter.)] todos los días.",
-            "pl_translation": "Oszczędzać codziennie."
+            "es_form": "[ahorras::oszczędzasz] todos los días.",
+            "pl_translation": "Oszczędzasz codziennie."
           },
           {
-            "es_form": "No [ahorras::oszczędzać (2.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie oszczędzać zbyt dobrze."
+            "es_form": "No [ahorras::oszczędzasz] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie oszczędzasz zbyt dobrze."
           },
           {
-            "es_form": "¿[ahorras::oszczędzać (2.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy oszczędzać w weekendy?"
+            "es_form": "¿[ahorras::oszczędzasz] los fines de semana?",
+            "pl_translation": "Czy oszczędzasz w weekendy?"
           }
         ]
       },
       {
         "es_word": "ahorra",
-        "pl_word": "oszczędzać (3.os.lp, ter.)",
+        "pl_word": "oszczędza",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +302,22 @@
         },
         "examples": [
           {
-            "es_form": "No [ahorra::oszczędzać (3.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie oszczędzać zbyt dobrze."
+            "es_form": "No [ahorra::oszczędza] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie oszczędza zbyt dobrze."
           },
           {
-            "es_form": "[ahorra::oszczędzać (3.os.lp, ter.)] todos los días.",
-            "pl_translation": "Oszczędzać codziennie."
+            "es_form": "[ahorra::oszczędza] todos los días.",
+            "pl_translation": "Oszczędza codziennie."
           },
           {
-            "es_form": "[ahorra::oszczędzać (3.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Oszczędzać tak jak mnie nauczyłeś/aś."
+            "es_form": "[ahorra::oszczędza] como me enseñaste.",
+            "pl_translation": "Oszczędza tak jak mnie nauczyłeś"
           }
         ]
       },
       {
         "es_word": "ahorramos",
-        "pl_word": "oszczędzać (1.os.lm, ter.)",
+        "pl_word": "oszczędzamy",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +325,22 @@
         },
         "examples": [
           {
-            "es_form": "[ahorramos::oszczędzać (1.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Oszczędzać tak jak mnie nauczyłeś/aś."
+            "es_form": "[ahorramos::oszczędzamy] como me enseñaste.",
+            "pl_translation": "Oszczędzamy tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "No [ahorramos::oszczędzać (1.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie oszczędzać zbyt dobrze."
+            "es_form": "No [ahorramos::oszczędzamy] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie oszczędzamy zbyt dobrze."
           },
           {
-            "es_form": "[ahorramos::oszczędzać (1.os.lm, ter.)] todos los días.",
-            "pl_translation": "Oszczędzać codziennie."
+            "es_form": "[ahorramos::oszczędzamy] todos los días.",
+            "pl_translation": "Oszczędzamy codziennie."
           }
         ]
       },
       {
         "es_word": "ahorráis",
-        "pl_word": "oszczędzać (2.os.lm, ter.)",
+        "pl_word": "oszczędzacie",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +348,22 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [ahorráis::oszczędzać (2.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze oszczędzać z uwagą."
+            "es_form": "Siempre [ahorráis::oszczędzacie] con atencion.",
+            "pl_translation": "Zawsze oszczędzacie z uwagą."
           },
           {
-            "es_form": "Normalmente [ahorráis::oszczędzać (2.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj oszczędzać rano."
+            "es_form": "Normalmente [ahorráis::oszczędzacie] por la mañana.",
+            "pl_translation": "Zazwyczaj oszczędzacie rano."
           },
           {
-            "es_form": "No [ahorráis::oszczędzać (2.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie oszczędzać zbyt dobrze."
+            "es_form": "No [ahorráis::oszczędzacie] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie oszczędzacie zbyt dobrze."
           }
         ]
       },
       {
         "es_word": "ahorran",
-        "pl_word": "oszczędzać (3.os.lm, ter.)",
+        "pl_word": "oszczędzają",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +371,22 @@
         },
         "examples": [
           {
-            "es_form": "[ahorran::oszczędzać (3.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Oszczędzać tak jak mnie nauczyłeś/aś."
+            "es_form": "[ahorran::oszczędzają] como me enseñaste.",
+            "pl_translation": "Oszczędzają tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "[ahorran::oszczędzać (3.os.lm, ter.)] todos los días.",
-            "pl_translation": "Oszczędzać codziennie."
+            "es_form": "[ahorran::oszczędzają] todos los días.",
+            "pl_translation": "Oszczędzają codziennie."
           },
           {
-            "es_form": "¿[ahorran::oszczędzać (3.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy oszczędzać w weekendy?"
+            "es_form": "¿[ahorran::oszczędzają] los fines de semana?",
+            "pl_translation": "Czy oszczędzają w weekendy?"
           }
         ]
       },
       {
         "es_word": "ahorré",
-        "pl_word": "oszczędzać (1.os.lp, przesz.)",
+        "pl_word": "oszczędzałem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "[ahorré::oszczędzać (1.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Oszczędzać bez przerwy przez wiele godzin."
+            "es_form": "[ahorré::oszczędzałem] sin parar durante horas.",
+            "pl_translation": "Oszczędzałem bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "Nunca [ahorré::oszczędzać (1.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie oszczędzać czegoś takiego."
+            "es_form": "Nunca [ahorré::oszczędzałem] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie oszczędzałem czegoś takiego."
           },
           {
-            "es_form": "El mes pasado no [ahorré::oszczędzać (1.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie oszczędzać."
+            "es_form": "El mes pasado no [ahorré::oszczędzałem] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie oszczędzałem."
           }
         ]
       },
       {
         "es_word": "ahorraste",
-        "pl_word": "oszczędzać (2.os.lp, przesz.)",
+        "pl_word": "oszczędzałeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [ahorraste::oszczędzać (2.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie oszczędzać."
+            "es_form": "El mes pasado no [ahorraste::oszczędzałeś] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie oszczędzałeś."
           },
           {
-            "es_form": "Nunca [ahorraste::oszczędzać (2.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie oszczędzać czegoś takiego."
+            "es_form": "Nunca [ahorraste::oszczędzałeś] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie oszczędzałeś czegoś takiego."
           },
           {
-            "es_form": "[ahorraste::oszczędzać (2.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Oszczędzać bez przerwy przez wiele godzin."
+            "es_form": "[ahorraste::oszczędzałeś] sin parar durante horas.",
+            "pl_translation": "Oszczędzałeś bez przerwy przez wiele godzin."
           }
         ]
       },
       {
         "es_word": "ahorró",
-        "pl_word": "oszczędzać (3.os.lp, przesz.)",
+        "pl_word": "oszczędzał",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [ahorró::oszczędzać (3.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie oszczędzać."
+            "es_form": "El mes pasado no [ahorró::oszczędzał] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie oszczędzał."
           },
           {
-            "es_form": "¿[ahorró::oszczędzać (3.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy oszczędzać dobrze egzamin?"
+            "es_form": "¿[ahorró::oszczędzał] bien el examen?",
+            "pl_translation": "Czy oszczędzał dobrze egzamin?"
           },
           {
-            "es_form": "[ahorró::oszczędzać (3.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Oszczędzać w zeszłym tygodniu."
+            "es_form": "[ahorró::oszczędzał] la semana pasada.",
+            "pl_translation": "Oszczędzał w zeszłym tygodniu."
           }
         ]
       },
       {
         "es_word": "ahorramos",
-        "pl_word": "oszczędzać (1.os.lm, przesz.)",
+        "pl_word": "oszczędzaliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [ahorramos::oszczędzać (1.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj oszczędzać cały dzień."
+            "es_form": "Ayer [ahorramos::oszczędzaliśmy] todo el día.",
+            "pl_translation": "Wczoraj oszczędzaliśmy cały dzień."
           },
           {
-            "es_form": "[ahorramos::oszczędzać (1.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Oszczędzać w zeszłym tygodniu."
+            "es_form": "[ahorramos::oszczędzaliśmy] la semana pasada.",
+            "pl_translation": "Oszczędzaliśmy w zeszłym tygodniu."
           },
           {
-            "es_form": "El mes pasado no [ahorramos::oszczędzać (1.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie oszczędzać."
+            "es_form": "El mes pasado no [ahorramos::oszczędzaliśmy] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie oszczędzaliśmy."
           }
         ]
       },
       {
         "es_word": "ahorrasteis",
-        "pl_word": "oszczędzać (2.os.lm, przesz.)",
+        "pl_word": "oszczędzaliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [ahorrasteis::oszczędzać (2.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj oszczędzać cały dzień."
+            "es_form": "Ayer [ahorrasteis::oszczędzaliście] todo el día.",
+            "pl_translation": "Wczoraj oszczędzaliście cały dzień."
           },
           {
-            "es_form": "Nunca [ahorrasteis::oszczędzać (2.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie oszczędzać czegoś takiego."
+            "es_form": "Nunca [ahorrasteis::oszczędzaliście] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie oszczędzaliście czegoś takiego."
           },
           {
-            "es_form": "¿[ahorrasteis::oszczędzać (2.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy oszczędzać dobrze egzamin?"
+            "es_form": "¿[ahorrasteis::oszczędzaliście] bien el examen?",
+            "pl_translation": "Czy oszczędzaliście dobrze egzamin?"
           }
         ]
       },
       {
         "es_word": "ahorraron",
-        "pl_word": "oszczędzać (3.os.lm, przesz.)",
+        "pl_word": "oszczędzali",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +509,22 @@
         },
         "examples": [
           {
-            "es_form": "[ahorraron::oszczędzać (3.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Oszczędzać bez przerwy przez wiele godzin."
+            "es_form": "[ahorraron::oszczędzali] sin parar durante horas.",
+            "pl_translation": "Oszczędzali bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "¿[ahorraron::oszczędzać (3.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy oszczędzać dobrze egzamin?"
+            "es_form": "¿[ahorraron::oszczędzali] bien el examen?",
+            "pl_translation": "Czy oszczędzali dobrze egzamin?"
           },
           {
-            "es_form": "El mes pasado no [ahorraron::oszczędzać (3.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie oszczędzać."
+            "es_form": "El mes pasado no [ahorraron::oszczędzali] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie oszczędzali."
           }
         ]
       },
       {
         "es_word": "ahorré",
-        "pl_word": "oszczędzać (1.os.lp, przysz.)",
+        "pl_word": "będę oszczędzać",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +532,22 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [ahorré::oszczędzać (1.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że oszczędzać na czas."
+            "es_form": "Te prometo que [ahorré::będę oszczędzać] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będę oszczędzać na czas."
           },
           {
-            "es_form": "¿[ahorré::oszczędzać (1.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy oszczędzać z nami jutro?"
+            "es_form": "¿[ahorré::będę oszczędzać] con nosotros mañana?",
+            "pl_translation": "Czy będę oszczędzać z nami jutro?"
           },
           {
-            "es_form": "Creo que [ahorré::oszczędzać (1.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że oszczędzać dobrze."
+            "es_form": "Creo que [ahorré::będę oszczędzać] bien.",
+            "pl_translation": "Myślę, że będę oszczędzać dobrze."
           }
         ]
       },
       {
         "es_word": "ahorrás",
-        "pl_word": "oszczędzać (2.os.lp, przysz.)",
+        "pl_word": "będziesz oszczędzać",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +555,22 @@
         },
         "examples": [
           {
-            "es_form": "[ahorrás::oszczędzać (2.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Oszczędzać w przyszłym tygodniu."
+            "es_form": "[ahorrás::będziesz oszczędzać] la proxima semana.",
+            "pl_translation": "Będziesz oszczędzać w przyszłym tygodniu."
           },
           {
-            "es_form": "El año que viene [ahorrás::oszczędzać (2.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku oszczędzać w Hiszpanii."
+            "es_form": "El año que viene [ahorrás::będziesz oszczędzać] en España.",
+            "pl_translation": "W przyszłym roku będziesz oszczędzać w Hiszpanii."
           },
           {
-            "es_form": "Mañana [ahorrás::oszczędzać (2.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro oszczędzać wcześniej."
+            "es_form": "Mañana [ahorrás::będziesz oszczędzać] más temprano.",
+            "pl_translation": "Jutro będziesz oszczędzać wcześniej."
           }
         ]
       },
       {
         "es_word": "ahorrá",
-        "pl_word": "oszczędzać (3.os.lp, przysz.)",
+        "pl_word": "będzie oszczędzać",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +578,22 @@
         },
         "examples": [
           {
-            "es_form": "[ahorrá::oszczędzać (3.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Oszczędzać w przyszłym tygodniu."
+            "es_form": "[ahorrá::będzie oszczędzać] la proxima semana.",
+            "pl_translation": "Będzie oszczędzać w przyszłym tygodniu."
           },
           {
-            "es_form": "Mañana [ahorrá::oszczędzać (3.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro oszczędzać wcześniej."
+            "es_form": "Mañana [ahorrá::będzie oszczędzać] más temprano.",
+            "pl_translation": "Jutro będzie oszczędzać wcześniej."
           },
           {
-            "es_form": "¿[ahorrá::oszczędzać (3.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy oszczędzać z nami jutro?"
+            "es_form": "¿[ahorrá::będzie oszczędzać] con nosotros mañana?",
+            "pl_translation": "Czy będzie oszczędzać z nami jutro?"
           }
         ]
       },
       {
         "es_word": "ahorremos",
-        "pl_word": "oszczędzać (1.os.lm, przysz.)",
+        "pl_word": "będziemy oszczędzać",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +601,22 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [ahorremos::oszczędzać (1.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro oszczędzać wcześniej."
+            "es_form": "Mañana [ahorremos::będziemy oszczędzać] más temprano.",
+            "pl_translation": "Jutro będziemy oszczędzać wcześniej."
           },
           {
-            "es_form": "[ahorremos::oszczędzać (1.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Oszczędzać w przyszłym tygodniu."
+            "es_form": "[ahorremos::będziemy oszczędzać] la proxima semana.",
+            "pl_translation": "Będziemy oszczędzać w przyszłym tygodniu."
           },
           {
-            "es_form": "El año que viene [ahorremos::oszczędzać (1.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku oszczędzać w Hiszpanii."
+            "es_form": "El año que viene [ahorremos::będziemy oszczędzać] en España.",
+            "pl_translation": "W przyszłym roku będziemy oszczędzać w Hiszpanii."
           }
         ]
       },
       {
         "es_word": "ahorréis",
-        "pl_word": "oszczędzać (2.os.lm, przysz.)",
+        "pl_word": "będziecie oszczędzać",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +624,22 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [ahorréis::oszczędzać (2.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku oszczędzać w Hiszpanii."
+            "es_form": "El año que viene [ahorréis::będziecie oszczędzać] en España.",
+            "pl_translation": "W przyszłym roku będziecie oszczędzać w Hiszpanii."
           },
           {
-            "es_form": "[ahorréis::oszczędzać (2.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Oszczędzać w przyszłym tygodniu."
+            "es_form": "[ahorréis::będziecie oszczędzać] la proxima semana.",
+            "pl_translation": "Będziecie oszczędzać w przyszłym tygodniu."
           },
           {
-            "es_form": "Te prometo que [ahorréis::oszczędzać (2.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że oszczędzać na czas."
+            "es_form": "Te prometo que [ahorréis::będziecie oszczędzać] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziecie oszczędzać na czas."
           }
         ]
       },
       {
         "es_word": "ahorrán",
-        "pl_word": "oszczędzać (3.os.lm, przysz.)",
+        "pl_word": "będą oszczędzać",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +647,16 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [ahorrán::oszczędzać (3.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że oszczędzać dobrze."
+            "es_form": "Creo que [ahorrán::będą oszczędzać] bien.",
+            "pl_translation": "Myślę, że będą oszczędzać dobrze."
           },
           {
-            "es_form": "Te prometo que [ahorrán::oszczędzać (3.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że oszczędzać na czas."
+            "es_form": "Te prometo que [ahorrán::będą oszczędzać] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będą oszczędzać na czas."
           },
           {
-            "es_form": "Mañana [ahorrán::oszczędzać (3.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro oszczędzać wcześniej."
+            "es_form": "Mañana [ahorrán::będą oszczędzać] más temprano.",
+            "pl_translation": "Jutro będą oszczędzać wcześniej."
           }
         ]
       }

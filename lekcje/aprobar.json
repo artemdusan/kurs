@@ -5,35 +5,35 @@
     "pl_word": "przedmiot szkolny",
     "examples": [
       {
-        "es_form": "[La asignatura::przedmiot szkolny] es de madera.",
-        "pl_translation": "Przedmiot szkolny jest z drewna."
+        "es_form": "[La asignatura::przedmiot szkolny] es muy interesante.",
+        "pl_translation": "Przedmiot szkolny jest bardzo interesujący."
       },
       {
-        "es_form": "Guarda [la asignatura::przedmiot szkolny] en el armario.",
-        "pl_translation": "Schowaj przedmiot szkolny do szafy."
+        "es_form": "Estudio [la asignatura::przedmiot szkolny] todos los días.",
+        "pl_translation": "Uczę się tego przedmiotu szkolnego codziennie."
       },
       {
-        "es_form": "[La asignatura::przedmiot szkolny] está sobre la mesa.",
-        "pl_translation": "Przedmiot szkolny jest na stole."
+        "es_form": "[La asignatura::przedmiot szkolny] me gusta mucho.",
+        "pl_translation": "Przedmiot szkolny bardzo mi się podoba."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El matemáticas",
+    "es_word": "Las matemáticas",
     "pl_word": "matematyka",
     "examples": [
       {
-        "es_form": "Hablamos sobre [el matemáticas::matematyka].",
-        "pl_translation": "Rozmawialiśmy o matematyka."
+        "es_form": "Hablamos sobre [las matemáticas::matematyka].",
+        "pl_translation": "Rozmawialiśmy o matematyce."
       },
       {
-        "es_form": "[El matemáticas::matematyka] cambio mi vida.",
-        "pl_translation": "Matematyka zmienił/a moje życie."
+        "es_form": "[Las matemáticas::matematyka] cambiaron mi vida.",
+        "pl_translation": "Matematyka zmieniła moje życie."
       },
       {
-        "es_form": "Tienes que aceptar [el matemáticas::matematyka].",
-        "pl_translation": "Musisz zaakceptować matematyka."
+        "es_form": "Tienes que estudiar [las matemáticas::matematyka].",
+        "pl_translation": "Musisz uczyć się matematyki."
       }
     ]
   },
@@ -44,11 +44,11 @@
     "examples": [
       {
         "es_form": "[La historia::historia] es muy importante.",
-        "pl_translation": "Historia jest bardzo ważny/a."
+        "pl_translation": "Historia jest bardzo ważna."
       },
       {
         "es_form": "No entiendo [la historia::historia].",
-        "pl_translation": "Nie rozumiem historia."
+        "pl_translation": "Nie rozumiem historii."
       },
       {
         "es_form": "[La historia::historia] es la clave del éxito.",
@@ -62,16 +62,16 @@
     "pl_word": "geografia",
     "examples": [
       {
-        "es_form": "Compré [la geografía::geografia] ayer.",
-        "pl_translation": "Kupiłem/am geografia wczoraj."
+        "es_form": "Estudio [la geografía::geografia] por la tarde.",
+        "pl_translation": "Uczę się geografii po południu."
       },
       {
-        "es_form": "[La geografía::geografia] es de madera.",
-        "pl_translation": "Geografia jest z drewna."
+        "es_form": "[La geografía::geografia] es mi asignatura favorita.",
+        "pl_translation": "Geografia jest moim ulubionym przedmiotem."
       },
       {
-        "es_form": "Se me rompio [la geografía::geografia].",
-        "pl_translation": "Zepsuł mi się geografia."
+        "es_form": "Me gusta mucho [la geografía::geografia].",
+        "pl_translation": "Bardzo lubię geografię."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "biologia",
     "examples": [
       {
-        "es_form": "¿Has visto [la biología::biologia]?",
-        "pl_translation": "Widziałeś/aś biologia?"
+        "es_form": "¿Has estudiado [la biología::biologia]?",
+        "pl_translation": "Uczyłeś się biologii?"
       },
       {
-        "es_form": "[La biología::biologia] es de madera.",
-        "pl_translation": "Biologia jest z drewna."
+        "es_form": "[La biología::biologia] es muy interesante.",
+        "pl_translation": "Biologia jest bardzo interesująca."
       },
       {
-        "es_form": "Necesito [la biología::biologia] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową biologia."
+        "es_form": "Necesito aprobar [la biología::biologia] este semestre.",
+        "pl_translation": "Muszę zdać biologię w tym semestrze."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "chemia",
     "examples": [
       {
-        "es_form": "¿Has visto [la química::chemia]?",
-        "pl_translation": "Widziałeś/aś chemia?"
+        "es_form": "¿Has estudiado [la química::chemia]?",
+        "pl_translation": "Uczyłeś się chemii?"
       },
       {
-        "es_form": "[La química::chemia] cuesta diez euros.",
-        "pl_translation": "Chemia kosztuje dziesięć euro."
+        "es_form": "[La química::chemia] es difícil pero interesante.",
+        "pl_translation": "Chemia jest trudna, ale interesująca."
       },
       {
-        "es_form": "Se me rompio [la química::chemia].",
-        "pl_translation": "Zepsuł mi się chemia."
+        "es_form": "Me gusta [la química::chemia] desde pequeño.",
+        "pl_translation": "Lubię chemię od dziecka."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "fizyka",
     "examples": [
       {
-        "es_form": "Compré [la física::fizyka] ayer.",
-        "pl_translation": "Kupiłem/am fizyka wczoraj."
+        "es_form": "Estudio [la física::fizyka] con mi amigo.",
+        "pl_translation": "Uczę się fizyki z kolegą."
       },
       {
-        "es_form": "Guarda [la física::fizyka] en el armario.",
-        "pl_translation": "Schowaj fizyka do szafy."
+        "es_form": "Guarda los apuntes de [la física::fizyka] en la carpeta.",
+        "pl_translation": "Schowaj notatki z fizyki do teczki."
       },
       {
-        "es_form": "Necesito [la física::fizyka] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową fizyka."
+        "es_form": "Necesito un libro nuevo de [la física::fizyka].",
+        "pl_translation": "Potrzebuję nowego podręcznika do fizyki."
       }
     ]
   },
@@ -138,12 +138,12 @@
     "pl_word": "świadectwo",
     "examples": [
       {
-        "es_form": "[El certificado::świadectwo] es de madera.",
-        "pl_translation": "Świadectwo jest z drewna."
+        "es_form": "[El certificado::świadectwo] está en la pared.",
+        "pl_translation": "Świadectwo wisi na ścianie."
       },
       {
-        "es_form": "Necesito [el certificado::świadectwo] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową świadectwo."
+        "es_form": "Necesito [el certificado::świadectwo] para la universidad.",
+        "pl_translation": "Potrzebuję świadectwa na uczelnię."
       },
       {
         "es_form": "[El certificado::świadectwo] está sobre la mesa.",
@@ -157,16 +157,16 @@
     "pl_word": "stypendium",
     "examples": [
       {
-        "es_form": "[La beca::stypendium] es de madera.",
-        "pl_translation": "Stypendium jest z drewna."
+        "es_form": "[La beca::stypendium] cubre todos los gastos.",
+        "pl_translation": "Stypendium pokrywa wszystkie wydatki."
       },
       {
-        "es_form": "Se me rompio [la beca::stypendium].",
-        "pl_translation": "Zepsuł mi się stypendium."
+        "es_form": "He solicitado [la beca::stypendium] este año.",
+        "pl_translation": "Złożyłem wniosek o stypendium w tym roku."
       },
       {
-        "es_form": "¿Has visto [la beca::stypendium]?",
-        "pl_translation": "Widziałeś/aś stypendium?"
+        "es_form": "¿Has recibido [la beca::stypendium]?",
+        "pl_translation": "Dostałeś stypendium?"
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "wykład",
     "examples": [
       {
-        "es_form": "Compré [la conferencia::wykład] ayer.",
-        "pl_translation": "Kupiłem/am wykład wczoraj."
+        "es_form": "Asistí a [la conferencia::wykład] ayer.",
+        "pl_translation": "Byłem wczoraj na wykładzie."
       },
       {
-        "es_form": "¿Has visto [la conferencia::wykład]?",
-        "pl_translation": "Widziałeś/aś wykład?"
+        "es_form": "¿Has entendido [la conferencia::wykład]?",
+        "pl_translation": "Zrozumiałeś wykład?"
       },
       {
-        "es_form": "[La conferencia::wykład] cuesta diez euros.",
-        "pl_translation": "Wykład kosztuje dziesięć euro."
+        "es_form": "[La conferencia::wykład] duró dos horas.",
+        "pl_translation": "Wykład trwał dwie godziny."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "utalentowany",
     "examples": [
       {
-        "es_form": "La comida está [talentosa::utalentowany].",
-        "pl_translation": "Jedzenie jest utalentowany."
+        "es_form": "Es un estudiante muy [talentoso::utalentowany].",
+        "pl_translation": "To bardzo utalentowany uczeń."
       },
       {
-        "es_form": "Tengo una casa [talentosa::utalentowany].",
-        "pl_translation": "Mam utalentowany dom."
+        "es_form": "Mi hermana es [talentosa::utalentowany] para la música.",
+        "pl_translation": "Moja siostra jest utalentowana muzycznie."
       },
       {
-        "es_form": "Hace un día [talentoso::utalentowany].",
-        "pl_translation": "Jest utalentowany dzień."
+        "es_form": "Es un artista [talentoso::utalentowany].",
+        "pl_translation": "To utalentowany artysta."
       }
     ]
   },
@@ -214,41 +214,41 @@
     "pl_word": "ambitny",
     "examples": [
       {
-        "es_form": "Se compro un vestido [ambicioso::ambitny].",
-        "pl_translation": "Kupiła sobie ambitny sukienkę."
+        "es_form": "Es una persona muy [ambiciosa::ambitny].",
+        "pl_translation": "To jest bardzo ambitna osoba."
       },
       {
-        "es_form": "Nada es más [ambicioso::ambitny] que la familia.",
-        "pl_translation": "Nic nie jest ambitny od rodziny."
+        "es_form": "Nada es más [ambicioso::ambitny] que su plan.",
+        "pl_translation": "Nic nie jest bardziej ambitne niż jego plan."
       },
       {
-        "es_form": "Es una persona muy [ambicioso::ambitny].",
-        "pl_translation": "To jest bardzo ambitny osoba."
+        "es_form": "Tiene un proyecto [ambicioso::ambitny] este año.",
+        "pl_translation": "Ma w tym roku ambitny projekt."
       }
     ]
   },
   {
     "type": "verb",
     "es_word": "aprobar",
-    "pl_word": "zdawać (egzamin), zaliczać",
+    "pl_word": "zdawać",
     "examples": [
       {
-        "es_form": "Me gusta [aprobar::zdawać (egzamin), zaliczać] por la mañana.",
-        "pl_translation": "Lubię zdawać (egzamin), zaliczać rano."
+        "es_form": "Me gusta [aprobar::zdawać] por la mañana.",
+        "pl_translation": "Lubię zdawać rano."
       },
       {
-        "es_form": "Prefiero [aprobar::zdawać (egzamin), zaliczać] en casa.",
-        "pl_translation": "Wolę zdawać (egzamin), zaliczać w domu."
+        "es_form": "Prefiero [aprobar::zdawać] en casa.",
+        "pl_translation": "Wolę zdawać w domu."
       },
       {
-        "es_form": "¿Puedes [aprobar::zdawać (egzamin), zaliczać] más rápido?",
-        "pl_translation": "Możesz zdawać (egzamin), zaliczać szybciej?"
+        "es_form": "¿Puedes [aprobar::zdawać] más rápido?",
+        "pl_translation": "Możesz zdawać szybciej?"
       }
     ],
     "forms": [
       {
         "es_word": "apruebo",
-        "pl_word": "zdawać (1.os.lp, ter.)",
+        "pl_word": "zdaję",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +256,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [apruebo::zdawać (1.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj zdawać rano."
+            "es_form": "Normalmente [apruebo::zdaję] por la mañana.",
+            "pl_translation": "Zazwyczaj zdaję rano."
           },
           {
-            "es_form": "[apruebo::zdawać (1.os.lp, ter.)] todos los días.",
-            "pl_translation": "Zdawać codziennie."
+            "es_form": "[apruebo::zdaję] todos los días.",
+            "pl_translation": "Zdaję codziennie."
           },
           {
-            "es_form": "Siempre [apruebo::zdawać (1.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze zdawać z uwagą."
+            "es_form": "Siempre [apruebo::zdaję] con atención.",
+            "pl_translation": "Zawsze zdaję z uwagą."
           }
         ]
       },
       {
         "es_word": "apruebas",
-        "pl_word": "zdawać (2.os.lp, ter.)",
+        "pl_word": "zdajesz",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +279,22 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [apruebas::zdawać (2.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze zdawać z uwagą."
+            "es_form": "Siempre [apruebas::zdajesz] con atención.",
+            "pl_translation": "Zawsze zdajesz z uwagą."
           },
           {
-            "es_form": "[apruebas::zdawać (2.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Zdawać tak jak mnie nauczyłeś/aś."
+            "es_form": "[apruebas::zdajesz] como te enseñé.",
+            "pl_translation": "Zdajesz tak jak cię nauczyłem."
           },
           {
-            "es_form": "No [apruebas::zdawać (2.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie zdawać zbyt dobrze."
+            "es_form": "No [apruebas::zdajesz] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie zdajesz zbyt dobrze."
           }
         ]
       },
       {
         "es_word": "aprueba",
-        "pl_word": "zdawać (3.os.lp, ter.)",
+        "pl_word": "zdaje",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +302,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [aprueba::zdawać (3.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj zdawać rano."
+            "es_form": "Normalmente [aprueba::zdaje] por la mañana.",
+            "pl_translation": "Zazwyczaj zdaje rano."
           },
           {
-            "es_form": "[aprueba::zdawać (3.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Zdawać tak jak mnie nauczyłeś/aś."
+            "es_form": "[aprueba::zdaje] como le enseñaron.",
+            "pl_translation": "Zdaje tak jak go nauczyli."
           },
           {
-            "es_form": "Siempre [aprueba::zdawać (3.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze zdawać z uwagą."
+            "es_form": "Siempre [aprueba::zdaje] con atención.",
+            "pl_translation": "Zawsze zdaje z uwagą."
           }
         ]
       },
       {
         "es_word": "aprobamos",
-        "pl_word": "zdawać (1.os.lm, ter.)",
+        "pl_word": "zdajemy",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +325,22 @@
         },
         "examples": [
           {
-            "es_form": "No [aprobamos::zdawać (1.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie zdawać zbyt dobrze."
+            "es_form": "No [aprobamos::zdajemy] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie zdajemy zbyt dobrze."
           },
           {
-            "es_form": "[aprobamos::zdawać (1.os.lm, ter.)] todos los días.",
-            "pl_translation": "Zdawać codziennie."
+            "es_form": "[aprobamos::zdajemy] todos los días.",
+            "pl_translation": "Zdajemy codziennie."
           },
           {
-            "es_form": "[aprobamos::zdawać (1.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Zdawać tak jak mnie nauczyłeś/aś."
+            "es_form": "[aprobamos::zdajemy] como nos enseñaste.",
+            "pl_translation": "Zdajemy tak jak nas nauczyłeś."
           }
         ]
       },
       {
         "es_word": "aprobáis",
-        "pl_word": "zdawać (2.os.lm, ter.)",
+        "pl_word": "zdajecie",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +348,22 @@
         },
         "examples": [
           {
-            "es_form": "[aprobáis::zdawać (2.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Zdawać tak jak mnie nauczyłeś/aś."
+            "es_form": "[aprobáis::zdajecie] como os enseñaron.",
+            "pl_translation": "Zdajecie tak jak was nauczono."
           },
           {
-            "es_form": "[aprobáis::zdawać (2.os.lm, ter.)] todos los días.",
-            "pl_translation": "Zdawać codziennie."
+            "es_form": "[aprobáis::zdajecie] todos los días.",
+            "pl_translation": "Zdajecie codziennie."
           },
           {
-            "es_form": "Normalmente [aprobáis::zdawać (2.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj zdawać rano."
+            "es_form": "Normalmente [aprobáis::zdajecie] por la mañana.",
+            "pl_translation": "Zazwyczaj zdajecie rano."
           }
         ]
       },
       {
         "es_word": "aprueban",
-        "pl_word": "zdawać (3.os.lm, ter.)",
+        "pl_word": "zdają",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +371,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [aprueban::zdawać (3.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj zdawać rano."
+            "es_form": "Normalmente [aprueban::zdają] por la mañana.",
+            "pl_translation": "Zazwyczaj zdają rano."
           },
           {
-            "es_form": "Siempre [aprueban::zdawać (3.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze zdawać z uwagą."
+            "es_form": "Siempre [aprueban::zdają] con atención.",
+            "pl_translation": "Zawsze zdają z uwagą."
           },
           {
-            "es_form": "No [aprueban::zdawać (3.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie zdawać zbyt dobrze."
+            "es_form": "No [aprueban::zdają] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie zdają zbyt dobrze."
           }
         ]
       },
       {
         "es_word": "aprobé",
-        "pl_word": "zdawać (1.os.lp, przesz.)",
+        "pl_word": "zdawałem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [aprobé::zdawać (1.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj zdawać cały dzień."
+            "es_form": "Ayer [aprobé::zdawałem] todo el día.",
+            "pl_translation": "Wczoraj zdawałem cały dzień."
           },
           {
-            "es_form": "[aprobé::zdawać (1.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Zdawać bez przerwy przez wiele godzin."
+            "es_form": "[aprobé::zdawałem] sin parar durante horas.",
+            "pl_translation": "Zdawałem bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "Nunca [aprobé::zdawać (1.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie zdawać czegoś takiego."
+            "es_form": "Nunca [aprobé::zdawałem] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie zdawałem czegoś takiego."
           }
         ]
       },
       {
         "es_word": "aprobaste",
-        "pl_word": "zdawać (2.os.lp, przesz.)",
+        "pl_word": "zdawałeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [aprobaste::zdawać (2.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie zdawać."
+            "es_form": "El mes pasado no [aprobaste::zdawałeś] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie zdawałeś."
           },
           {
-            "es_form": "[aprobaste::zdawać (2.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Zdawać bez przerwy przez wiele godzin."
+            "es_form": "[aprobaste::zdawałeś] sin parar durante horas.",
+            "pl_translation": "Zdawałeś bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "¿[aprobaste::zdawać (2.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy zdawać dobrze egzamin?"
+            "es_form": "¿[aprobaste::zdawałeś] bien el examen?",
+            "pl_translation": "Czy zdałeś dobrze egzamin?"
           }
         ]
       },
       {
         "es_word": "aprobó",
-        "pl_word": "zdawać (3.os.lp, przesz.)",
+        "pl_word": "zdawał",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "[aprobó::zdawać (3.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Zdawać bez przerwy przez wiele godzin."
+            "es_form": "[aprobó::zdawał] sin parar durante horas.",
+            "pl_translation": "Zdawał bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "¿[aprobó::zdawać (3.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy zdawać dobrze egzamin?"
+            "es_form": "¿[aprobó::zdawał] bien el examen?",
+            "pl_translation": "Czy zdał dobrze egzamin?"
           },
           {
-            "es_form": "El mes pasado no [aprobó::zdawać (3.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie zdawać."
+            "es_form": "El mes pasado no [aprobó::zdawał] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie zdawał."
           }
         ]
       },
       {
         "es_word": "aprobamos",
-        "pl_word": "zdawać (1.os.lm, przesz.)",
+        "pl_word": "zdawaliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [aprobamos::zdawać (1.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie zdawać czegoś takiego."
+            "es_form": "Nunca [aprobamos::zdawaliśmy] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie zdawaliśmy czegoś takiego."
           },
           {
-            "es_form": "¿[aprobamos::zdawać (1.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy zdawać dobrze egzamin?"
+            "es_form": "¿[aprobamos::zdawaliśmy] bien el examen?",
+            "pl_translation": "Czy zdaliśmy dobrze egzamin?"
           },
           {
-            "es_form": "Ayer [aprobamos::zdawać (1.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj zdawać cały dzień."
+            "es_form": "Ayer [aprobamos::zdawaliśmy] todo el día.",
+            "pl_translation": "Wczoraj zdawaliśmy cały dzień."
           }
         ]
       },
       {
         "es_word": "aprobasteis",
-        "pl_word": "zdawać (2.os.lm, przesz.)",
+        "pl_word": "zdawaliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [aprobasteis::zdawać (2.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie zdawać."
+            "es_form": "El mes pasado no [aprobasteis::zdawaliście] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie zdawaliście."
           },
           {
-            "es_form": "[aprobasteis::zdawać (2.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Zdawać bez przerwy przez wiele godzin."
+            "es_form": "[aprobasteis::zdawaliście] sin parar durante horas.",
+            "pl_translation": "Zdawaliście bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "Nunca [aprobasteis::zdawać (2.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie zdawać czegoś takiego."
+            "es_form": "Nunca [aprobasteis::zdawaliście] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie zdawaliście czegoś takiego."
           }
         ]
       },
       {
         "es_word": "aprobaron",
-        "pl_word": "zdawać (3.os.lm, przesz.)",
+        "pl_word": "zdawali",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +509,22 @@
         },
         "examples": [
           {
-            "es_form": "[aprobaron::zdawać (3.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Zdawać bez przerwy przez wiele godzin."
+            "es_form": "[aprobaron::zdawali] sin parar durante horas.",
+            "pl_translation": "Zdawali bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "Ayer [aprobaron::zdawać (3.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj zdawać cały dzień."
+            "es_form": "Ayer [aprobaron::zdawali] todo el día.",
+            "pl_translation": "Wczoraj zdawali cały dzień."
           },
           {
-            "es_form": "El mes pasado no [aprobaron::zdawać (3.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie zdawać."
+            "es_form": "El mes pasado no [aprobaron::zdawali] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie zdawali."
           }
         ]
       },
       {
         "es_word": "aprobaré",
-        "pl_word": "zdawać (1.os.lp, przysz.)",
+        "pl_word": "będę zdawać",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +532,22 @@
         },
         "examples": [
           {
-            "es_form": "[aprobaré::zdawać (1.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Zdawać w przyszłym tygodniu."
+            "es_form": "[aprobaré::będę zdawać] la próxima semana.",
+            "pl_translation": "Będę zdawać w przyszłym tygodniu."
           },
           {
-            "es_form": "¿[aprobaré::zdawać (1.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy zdawać z nami jutro?"
+            "es_form": "¿[aprobaré::będę zdawać] con vosotros mañana?",
+            "pl_translation": "Czy będę zdawać z wami jutro?"
           },
           {
-            "es_form": "Mañana [aprobaré::zdawać (1.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro zdawać wcześniej."
+            "es_form": "Mañana [aprobaré::będę zdawać] más temprano.",
+            "pl_translation": "Jutro będę zdawać wcześniej."
           }
         ]
       },
       {
         "es_word": "aprobarás",
-        "pl_word": "zdawać (2.os.lp, przysz.)",
+        "pl_word": "będziesz zdawać",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +555,22 @@
         },
         "examples": [
           {
-            "es_form": "[aprobarás::zdawać (2.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Zdawać w przyszłym tygodniu."
+            "es_form": "[aprobarás::będziesz zdawać] la próxima semana.",
+            "pl_translation": "Będziesz zdawać w przyszłym tygodniu."
           },
           {
-            "es_form": "El año que viene [aprobarás::zdawać (2.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku zdawać w Hiszpanii."
+            "es_form": "El año que viene [aprobarás::będziesz zdawać] en España.",
+            "pl_translation": "W przyszłym roku będziesz zdawać w Hiszpanii."
           },
           {
-            "es_form": "Creo que [aprobarás::zdawać (2.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że zdawać dobrze."
+            "es_form": "Creo que [aprobarás::będziesz zdawać] bien.",
+            "pl_translation": "Myślę, że będziesz zdawać dobrze."
           }
         ]
       },
       {
         "es_word": "aprobará",
-        "pl_word": "zdawać (3.os.lp, przysz.)",
+        "pl_word": "będzie zdawać",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +578,22 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [aprobará::zdawać (3.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że zdawać na czas."
+            "es_form": "Te prometo que [aprobará::będzie zdawać] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będzie zdawać na czas."
           },
           {
-            "es_form": "[aprobará::zdawać (3.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Zdawać w przyszłym tygodniu."
+            "es_form": "[aprobará::będzie zdawać] la próxima semana.",
+            "pl_translation": "Będzie zdawać w przyszłym tygodniu."
           },
           {
-            "es_form": "El año que viene [aprobará::zdawać (3.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku zdawać w Hiszpanii."
+            "es_form": "El año que viene [aprobará::będzie zdawać] en España.",
+            "pl_translation": "W przyszłym roku będzie zdawać w Hiszpanii."
           }
         ]
       },
       {
         "es_word": "aprobaremos",
-        "pl_word": "zdawać (1.os.lm, przysz.)",
+        "pl_word": "będziemy zdawać",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +601,22 @@
         },
         "examples": [
           {
-            "es_form": "[aprobaremos::zdawać (1.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Zdawać w przyszłym tygodniu."
+            "es_form": "[aprobaremos::będziemy zdawać] la próxima semana.",
+            "pl_translation": "Będziemy zdawać w przyszłym tygodniu."
           },
           {
-            "es_form": "Mañana [aprobaremos::zdawać (1.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro zdawać wcześniej."
+            "es_form": "Mañana [aprobaremos::będziemy zdawać] más temprano.",
+            "pl_translation": "Jutro będziemy zdawać wcześniej."
           },
           {
-            "es_form": "El año que viene [aprobaremos::zdawać (1.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku zdawać w Hiszpanii."
+            "es_form": "El año que viene [aprobaremos::będziemy zdawać] en España.",
+            "pl_translation": "W przyszłym roku będziemy zdawać w Hiszpanii."
           }
         ]
       },
       {
         "es_word": "aprobaréis",
-        "pl_word": "zdawać (2.os.lm, przysz.)",
+        "pl_word": "będziecie zdawać",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +624,22 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [aprobaréis::zdawać (2.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku zdawać w Hiszpanii."
+            "es_form": "El año que viene [aprobaréis::będziecie zdawać] en España.",
+            "pl_translation": "W przyszłym roku będziecie zdawać w Hiszpanii."
           },
           {
-            "es_form": "Creo que [aprobaréis::zdawać (2.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że zdawać dobrze."
+            "es_form": "Creo que [aprobaréis::będziecie zdawać] bien.",
+            "pl_translation": "Myślę, że będziecie zdawać dobrze."
           },
           {
-            "es_form": "Te prometo que [aprobaréis::zdawać (2.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że zdawać na czas."
+            "es_form": "Te prometo que [aprobaréis::będziecie zdawać] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziecie zdawać na czas."
           }
         ]
       },
       {
         "es_word": "aprobarán",
-        "pl_word": "zdawać (3.os.lm, przysz.)",
+        "pl_word": "będą zdawać",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +647,16 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [aprobarán::zdawać (3.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku zdawać w Hiszpanii."
+            "es_form": "El año que viene [aprobarán::będą zdawać] en España.",
+            "pl_translation": "W przyszłym roku będą zdawać w Hiszpanii."
           },
           {
-            "es_form": "Mañana [aprobarán::zdawać (3.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro zdawać wcześniej."
+            "es_form": "Mañana [aprobarán::będą zdawać] más temprano.",
+            "pl_translation": "Jutro będą zdawać wcześniej."
           },
           {
-            "es_form": "¿[aprobarán::zdawać (3.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy zdawać z nami jutro?"
+            "es_form": "¿[aprobarán::będą zdawać] con nosotros mañana?",
+            "pl_translation": "Czy będą zdawać z nami jutro?"
           }
         ]
       }

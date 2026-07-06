@@ -10,7 +10,7 @@
       },
       {
         "es_form": "Compré [la tranvía::tramwaj] ayer.",
-        "pl_translation": "Kupiłem/am tramwaj wczoraj."
+        "pl_translation": "Kupiłem"
       },
       {
         "es_form": "Se me rompio [la tranvía::tramwaj].",
@@ -44,11 +44,11 @@
     "examples": [
       {
         "es_form": "Necesito [el metro::metro] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową metro."
+        "pl_translation": "Potrzebuję nowy"
       },
       {
         "es_form": "¿Has visto [el metro::metro]?",
-        "pl_translation": "Widziałeś/aś metro?"
+        "pl_translation": "Widziałeś"
       },
       {
         "es_form": "[El metro::metro] está sobre la mesa.",
@@ -63,11 +63,11 @@
     "examples": [
       {
         "es_form": "[El conductor::kierowca] me ayudo mucho.",
-        "pl_translation": "Kierowca bardzo mi pomógł/pomogła."
+        "pl_translation": "Kierowca bardzo mi pomógł"
       },
       {
         "es_form": "Hablé con [el conductor::kierowca] ayer.",
-        "pl_translation": "Rozmawiałem/am wczoraj z kierowca."
+        "pl_translation": "Rozmawiałem"
       },
       {
         "es_form": "Mi [hermano::brat] es [el conductor::kierowca].",
@@ -82,11 +82,11 @@
     "examples": [
       {
         "es_form": "Necesito [el pasajero::pasażer] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową pasażer."
+        "pl_translation": "Potrzebuję nowy"
       },
       {
         "es_form": "Compré [el pasajero::pasażer] ayer.",
-        "pl_translation": "Kupiłem/am pasażer wczoraj."
+        "pl_translation": "Kupiłem"
       },
       {
         "es_form": "Guarda [el pasajero::pasażer] en el armario.",
@@ -124,7 +124,7 @@
       },
       {
         "es_form": "Necesito [el retraso::opóźnienie] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową opóźnienie."
+        "pl_translation": "Potrzebuję nowy"
       },
       {
         "es_form": "Guarda [el retraso::opóźnienie] en el armario.",
@@ -143,7 +143,7 @@
       },
       {
         "es_form": "¿Has visto [el andén::peron]?",
-        "pl_translation": "Widziałeś/aś peron?"
+        "pl_translation": "Widziałeś"
       },
       {
         "es_form": "Se me rompio [el andén::peron].",
@@ -162,11 +162,11 @@
       },
       {
         "es_form": "Compré [el equipaje::bagaż] ayer.",
-        "pl_translation": "Kupiłem/am bagaż wczoraj."
+        "pl_translation": "Kupiłem"
       },
       {
         "es_form": "Necesito [el equipaje::bagaż] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową bagaż."
+        "pl_translation": "Potrzebuję nowy"
       }
     ]
   },
@@ -185,7 +185,7 @@
       },
       {
         "es_form": "Compré [el vuelo::lot] ayer.",
-        "pl_translation": "Kupiłem/am lot wczoraj."
+        "pl_translation": "Kupiłem"
       }
     ]
   },
@@ -248,7 +248,7 @@
     "forms": [
       {
         "es_word": "vuelo",
-        "pl_word": "latać (1.os.lp, ter.)",
+        "pl_word": "latam",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +256,22 @@
         },
         "examples": [
           {
-            "es_form": "[vuelo::latać (1.os.lp, ter.)] todos los días.",
-            "pl_translation": "Latać codziennie."
+            "es_form": "[vuelo::latam] todos los días.",
+            "pl_translation": "Latam codziennie."
           },
           {
-            "es_form": "Siempre [vuelo::latać (1.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze latać z uwagą."
+            "es_form": "Siempre [vuelo::latam] con atencion.",
+            "pl_translation": "Zawsze latam z uwagą."
           },
           {
-            "es_form": "[vuelo::latać (1.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Latać tak jak mnie nauczyłeś/aś."
+            "es_form": "[vuelo::latam] como me enseñaste.",
+            "pl_translation": "Latam tak jak mnie nauczyłeś"
           }
         ]
       },
       {
         "es_word": "vuelas",
-        "pl_word": "latać (2.os.lp, ter.)",
+        "pl_word": "latasz",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +279,22 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [vuelas::latać (2.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze latać z uwagą."
+            "es_form": "Siempre [vuelas::latasz] con atencion.",
+            "pl_translation": "Zawsze latasz z uwagą."
           },
           {
-            "es_form": "[vuelas::latać (2.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Latać tak jak mnie nauczyłeś/aś."
+            "es_form": "[vuelas::latasz] como me enseñaste.",
+            "pl_translation": "Latasz tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "¿[vuelas::latać (2.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy latać w weekendy?"
+            "es_form": "¿[vuelas::latasz] los fines de semana?",
+            "pl_translation": "Czy latasz w weekendy?"
           }
         ]
       },
       {
         "es_word": "vuela",
-        "pl_word": "latać (3.os.lp, ter.)",
+        "pl_word": "lata",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +302,22 @@
         },
         "examples": [
           {
-            "es_form": "[vuela::latać (3.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Latać tak jak mnie nauczyłeś/aś."
+            "es_form": "[vuela::lata] como me enseñaste.",
+            "pl_translation": "Lata tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "No [vuela::latać (3.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie latać zbyt dobrze."
+            "es_form": "No [vuela::lata] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie lata zbyt dobrze."
           },
           {
-            "es_form": "Siempre [vuela::latać (3.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze latać z uwagą."
+            "es_form": "Siempre [vuela::lata] con atencion.",
+            "pl_translation": "Zawsze lata z uwagą."
           }
         ]
       },
       {
         "es_word": "volamos",
-        "pl_word": "latać (1.os.lm, ter.)",
+        "pl_word": "latamy",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +325,22 @@
         },
         "examples": [
           {
-            "es_form": "No [volamos::latać (1.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie latać zbyt dobrze."
+            "es_form": "No [volamos::latamy] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie latamy zbyt dobrze."
           },
           {
-            "es_form": "Siempre [volamos::latać (1.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze latać z uwagą."
+            "es_form": "Siempre [volamos::latamy] con atencion.",
+            "pl_translation": "Zawsze latamy z uwagą."
           },
           {
-            "es_form": "[volamos::latać (1.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Latać tak jak mnie nauczyłeś/aś."
+            "es_form": "[volamos::latamy] como me enseñaste.",
+            "pl_translation": "Latamy tak jak mnie nauczyłeś"
           }
         ]
       },
       {
         "es_word": "voláis",
-        "pl_word": "latać (2.os.lm, ter.)",
+        "pl_word": "latacie",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +348,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[voláis::latać (2.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy latać w weekendy?"
+            "es_form": "¿[voláis::latacie] los fines de semana?",
+            "pl_translation": "Czy latacie w weekendy?"
           },
           {
-            "es_form": "No [voláis::latać (2.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie latać zbyt dobrze."
+            "es_form": "No [voláis::latacie] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie latacie zbyt dobrze."
           },
           {
-            "es_form": "[voláis::latać (2.os.lm, ter.)] todos los días.",
-            "pl_translation": "Latać codziennie."
+            "es_form": "[voláis::latacie] todos los días.",
+            "pl_translation": "Latacie codziennie."
           }
         ]
       },
       {
         "es_word": "vuelan",
-        "pl_word": "latać (3.os.lm, ter.)",
+        "pl_word": "latają",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +371,22 @@
         },
         "examples": [
           {
-            "es_form": "[vuelan::latać (3.os.lm, ter.)] todos los días.",
-            "pl_translation": "Latać codziennie."
+            "es_form": "[vuelan::latają] todos los días.",
+            "pl_translation": "Latają codziennie."
           },
           {
-            "es_form": "Normalmente [vuelan::latać (3.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj latać rano."
+            "es_form": "Normalmente [vuelan::latają] por la mañana.",
+            "pl_translation": "Zazwyczaj latają rano."
           },
           {
-            "es_form": "[vuelan::latać (3.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Latać tak jak mnie nauczyłeś/aś."
+            "es_form": "[vuelan::latają] como me enseñaste.",
+            "pl_translation": "Latają tak jak mnie nauczyłeś"
           }
         ]
       },
       {
         "es_word": "volé",
-        "pl_word": "latać (1.os.lp, przesz.)",
+        "pl_word": "latałem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "[volé::latać (1.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Latać w zeszłym tygodniu."
+            "es_form": "[volé::latałem] la semana pasada.",
+            "pl_translation": "Latałem"
           },
           {
-            "es_form": "Nunca [volé::latać (1.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie latać czegoś takiego."
+            "es_form": "Nunca [volé::latałem] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie latałem"
           },
           {
-            "es_form": "El mes pasado no [volé::latać (1.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie latać."
+            "es_form": "El mes pasado no [volé::latałem] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie latałem"
           }
         ]
       },
       {
         "es_word": "volaste",
-        "pl_word": "latać (2.os.lp, przesz.)",
+        "pl_word": "latałeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [volaste::latać (2.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie latać czegoś takiego."
+            "es_form": "Nunca [volaste::latałeś] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie latałeś"
           },
           {
-            "es_form": "Ayer [volaste::latać (2.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj latać cały dzień."
+            "es_form": "Ayer [volaste::latałeś] todo el día.",
+            "pl_translation": "Wczoraj latałeś"
           },
           {
-            "es_form": "[volaste::latać (2.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Latać w zeszłym tygodniu."
+            "es_form": "[volaste::latałeś] la semana pasada.",
+            "pl_translation": "Latałeś"
           }
         ]
       },
       {
         "es_word": "voló",
-        "pl_word": "latać (3.os.lp, przesz.)",
+        "pl_word": "latał",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "[voló::latać (3.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Latać w zeszłym tygodniu."
+            "es_form": "[voló::latał] la semana pasada.",
+            "pl_translation": "Latał"
           },
           {
-            "es_form": "¿[voló::latać (3.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy latać dobrze egzamin?"
+            "es_form": "¿[voló::latał] bien el examen?",
+            "pl_translation": "Czy latał"
           },
           {
-            "es_form": "Ayer [voló::latać (3.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj latać cały dzień."
+            "es_form": "Ayer [voló::latał] todo el día.",
+            "pl_translation": "Wczoraj latał"
           }
         ]
       },
       {
         "es_word": "volamos",
-        "pl_word": "latać (1.os.lm, przesz.)",
+        "pl_word": "lataliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [volamos::latać (1.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj latać cały dzień."
+            "es_form": "Ayer [volamos::lataliśmy] todo el día.",
+            "pl_translation": "Wczoraj lataliśmy"
           },
           {
-            "es_form": "¿[volamos::latać (1.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy latać dobrze egzamin?"
+            "es_form": "¿[volamos::lataliśmy] bien el examen?",
+            "pl_translation": "Czy lataliśmy"
           },
           {
-            "es_form": "[volamos::latać (1.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Latać bez przerwy przez wiele godzin."
+            "es_form": "[volamos::lataliśmy] sin parar durante horas.",
+            "pl_translation": "Lataliśmy"
           }
         ]
       },
       {
         "es_word": "volasteis",
-        "pl_word": "latać (2.os.lm, przesz.)",
+        "pl_word": "lataliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [volasteis::latać (2.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj latać cały dzień."
+            "es_form": "Ayer [volasteis::lataliście] todo el día.",
+            "pl_translation": "Wczoraj lataliście"
           },
           {
-            "es_form": "¿[volasteis::latać (2.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy latać dobrze egzamin?"
+            "es_form": "¿[volasteis::lataliście] bien el examen?",
+            "pl_translation": "Czy lataliście"
           },
           {
-            "es_form": "[volasteis::latać (2.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Latać bez przerwy przez wiele godzin."
+            "es_form": "[volasteis::lataliście] sin parar durante horas.",
+            "pl_translation": "Lataliście"
           }
         ]
       },
       {
         "es_word": "volaron",
-        "pl_word": "latać (3.os.lm, przesz.)",
+        "pl_word": "latali",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +509,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [volaron::latać (3.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj latać cały dzień."
+            "es_form": "Ayer [volaron::latali] todo el día.",
+            "pl_translation": "Wczoraj latali"
           },
           {
-            "es_form": "El mes pasado no [volaron::latać (3.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie latać."
+            "es_form": "El mes pasado no [volaron::latali] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie latali"
           },
           {
-            "es_form": "[volaron::latać (3.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Latać bez przerwy przez wiele godzin."
+            "es_form": "[volaron::latali] sin parar durante horas.",
+            "pl_translation": "Latali"
           }
         ]
       },
       {
         "es_word": "volaré",
-        "pl_word": "latać (1.os.lp, przysz.)",
+        "pl_word": "będę latać",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +532,22 @@
         },
         "examples": [
           {
-            "es_form": "[volaré::latać (1.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Latać w przyszłym tygodniu."
+            "es_form": "[volaré::będę latać] la proxima semana.",
+            "pl_translation": "Będę latać w przyszłym tygodniu."
           },
           {
-            "es_form": "Mañana [volaré::latać (1.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro latać wcześniej."
+            "es_form": "Mañana [volaré::będę latać] más temprano.",
+            "pl_translation": "Jutro będę latać wcześniej."
           },
           {
-            "es_form": "Te prometo que [volaré::latać (1.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że latać na czas."
+            "es_form": "Te prometo que [volaré::będę latać] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będę latać na czas."
           }
         ]
       },
       {
         "es_word": "volarás",
-        "pl_word": "latać (2.os.lp, przysz.)",
+        "pl_word": "będziesz latać",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +555,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [volarás::latać (2.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że latać dobrze."
+            "es_form": "Creo que [volarás::będziesz latać] bien.",
+            "pl_translation": "Myślę, że będziesz latać dobrze."
           },
           {
-            "es_form": "El año que viene [volarás::latać (2.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku latać w Hiszpanii."
+            "es_form": "El año que viene [volarás::będziesz latać] en España.",
+            "pl_translation": "W przyszłym roku będziesz latać w Hiszpanii."
           },
           {
-            "es_form": "[volarás::latać (2.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Latać w przyszłym tygodniu."
+            "es_form": "[volarás::będziesz latać] la proxima semana.",
+            "pl_translation": "Będziesz latać w przyszłym tygodniu."
           }
         ]
       },
       {
         "es_word": "volará",
-        "pl_word": "latać (3.os.lp, przysz.)",
+        "pl_word": "będzie latać",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +578,22 @@
         },
         "examples": [
           {
-            "es_form": "[volará::latać (3.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Latać w przyszłym tygodniu."
+            "es_form": "[volará::będzie latać] la proxima semana.",
+            "pl_translation": "Będzie latać w przyszłym tygodniu."
           },
           {
-            "es_form": "Te prometo que [volará::latać (3.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że latać na czas."
+            "es_form": "Te prometo que [volará::będzie latać] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będzie latać na czas."
           },
           {
-            "es_form": "El año que viene [volará::latać (3.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku latać w Hiszpanii."
+            "es_form": "El año que viene [volará::będzie latać] en España.",
+            "pl_translation": "W przyszłym roku będzie latać w Hiszpanii."
           }
         ]
       },
       {
         "es_word": "volaremos",
-        "pl_word": "latać (1.os.lm, przysz.)",
+        "pl_word": "będziemy latać",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +601,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [volaremos::latać (1.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że latać dobrze."
+            "es_form": "Creo que [volaremos::będziemy latać] bien.",
+            "pl_translation": "Myślę, że będziemy latać dobrze."
           },
           {
-            "es_form": "Te prometo que [volaremos::latać (1.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że latać na czas."
+            "es_form": "Te prometo que [volaremos::będziemy latać] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziemy latać na czas."
           },
           {
-            "es_form": "[volaremos::latać (1.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Latać w przyszłym tygodniu."
+            "es_form": "[volaremos::będziemy latać] la proxima semana.",
+            "pl_translation": "Będziemy latać w przyszłym tygodniu."
           }
         ]
       },
       {
         "es_word": "volaréis",
-        "pl_word": "latać (2.os.lm, przysz.)",
+        "pl_word": "będziecie latać",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +624,22 @@
         },
         "examples": [
           {
-            "es_form": "[volaréis::latać (2.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Latać w przyszłym tygodniu."
+            "es_form": "[volaréis::będziecie latać] la proxima semana.",
+            "pl_translation": "Będziecie latać w przyszłym tygodniu."
           },
           {
-            "es_form": "¿[volaréis::latać (2.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy latać z nami jutro?"
+            "es_form": "¿[volaréis::będziecie latać] con nosotros mañana?",
+            "pl_translation": "Czy będziecie latać z nami jutro?"
           },
           {
-            "es_form": "Mañana [volaréis::latać (2.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro latać wcześniej."
+            "es_form": "Mañana [volaréis::będziecie latać] más temprano.",
+            "pl_translation": "Jutro będziecie latać wcześniej."
           }
         ]
       },
       {
         "es_word": "volarán",
-        "pl_word": "latać (3.os.lm, przysz.)",
+        "pl_word": "będą latać",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +647,16 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [volarán::latać (3.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro latać wcześniej."
+            "es_form": "Mañana [volarán::będą latać] más temprano.",
+            "pl_translation": "Jutro będą latać wcześniej."
           },
           {
-            "es_form": "Te prometo que [volarán::latać (3.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że latać na czas."
+            "es_form": "Te prometo que [volarán::będą latać] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będą latać na czas."
           },
           {
-            "es_form": "El año que viene [volarán::latać (3.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku latać w Hiszpanii."
+            "es_form": "El año que viene [volarán::będą latać] en España.",
+            "pl_translation": "W przyszłym roku będą latać w Hiszpanii."
           }
         ]
       }

@@ -5,34 +5,34 @@
     "pl_word": "mąka",
     "examples": [
       {
-        "es_form": "Compramos [la harina::mąka] en el mercado.",
-        "pl_translation": "Kupiliśmy mąka na targu."
+        "es_form": "Compramos [la harina::mąkę] en el mercado.",
+        "pl_translation": "Kupiliśmy mąkę na targu."
       },
       {
-        "es_form": "[La harina::mąka] es típico de España.",
-        "pl_translation": "Mąka jest typowy/a dla Hiszpanii."
+        "es_form": "[La harina::mąka] es típica de España.",
+        "pl_translation": "Mąka jest typowa dla Hiszpanii."
       },
       {
-        "es_form": "¿Quieres [la harina::mąka]?",
-        "pl_translation": "Chcesz mąka?"
+        "es_form": "¿Quieres [la harina::mąkę]?",
+        "pl_translation": "Chcesz mąkę?"
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "La arroz",
+    "es_word": "El arroz",
     "pl_word": "ryż",
     "examples": [
       {
-        "es_form": "[La arroz::ryż] es típico de España.",
-        "pl_translation": "Ryż jest typowy/a dla Hiszpanii."
+        "es_form": "[El arroz::ryż] es típico de España.",
+        "pl_translation": "Ryż jest typowy dla Hiszpanii."
       },
       {
-        "es_form": "[La arroz::ryż] está muy rico.",
-        "pl_translation": "Ryż jest bardzo smaczny/a."
+        "es_form": "[El arroz::ryż] está muy rico.",
+        "pl_translation": "Ryż jest bardzo smaczny."
       },
       {
-        "es_form": "[La arroz::ryż] se hace con leche.",
+        "es_form": "[El arroz::ryż] se hace con leche.",
         "pl_translation": "Ryż robi się z mleka."
       }
     ]
@@ -47,8 +47,8 @@
         "pl_translation": "Makaron robi się z mleka."
       },
       {
-        "es_form": "[La pasta::makaron] es típico de España.",
-        "pl_translation": "Makaron jest typowy/a dla Hiszpanii."
+        "es_form": "[La pasta::makaron] es típica de España.",
+        "pl_translation": "Makaron jest typowy dla Hiszpanii."
       },
       {
         "es_form": "¿Quieres [la pasta::makaron]?",
@@ -63,15 +63,15 @@
     "examples": [
       {
         "es_form": "[El aceite::olej] está muy rico.",
-        "pl_translation": "Olej jest bardzo smaczny/a."
+        "pl_translation": "Olej jest bardzo smaczny."
       },
       {
         "es_form": "¿Quieres [el aceite::olej]?",
         "pl_translation": "Chcesz olej?"
       },
       {
-        "es_form": "[El aceite::olej] se hace con leche.",
-        "pl_translation": "Olej robi się z mleka."
+        "es_form": "[El aceite::olej] se usa para freír.",
+        "pl_translation": "Olej używa się do smażenia."
       }
     ]
   },
@@ -82,15 +82,15 @@
     "examples": [
       {
         "es_form": "[El vinagre::ocet] está muy rico.",
-        "pl_translation": "Ocet jest bardzo smaczny/a."
+        "pl_translation": "Ocet jest bardzo smaczny."
       },
       {
         "es_form": "¿Quieres [el vinagre::ocet]?",
         "pl_translation": "Chcesz ocet?"
       },
       {
-        "es_form": "[El vinagre::ocet] se hace con leche.",
-        "pl_translation": "Ocet robi się z mleka."
+        "es_form": "[El vinagre::ocet] se usa en la ensalada.",
+        "pl_translation": "Ocet używa się do sałatki."
       }
     ]
   },
@@ -100,12 +100,12 @@
     "pl_word": "dżem",
     "examples": [
       {
-        "es_form": "[La mermelada::dżem] está muy rico.",
-        "pl_translation": "Dżem jest bardzo smaczny/a."
+        "es_form": "[La mermelada::dżem] está muy rica.",
+        "pl_translation": "Dżem jest bardzo smaczny."
       },
       {
-        "es_form": "[La mermelada::dżem] se hace con leche.",
-        "pl_translation": "Dżem robi się z mleka."
+        "es_form": "[La mermelada::dżem] se hace con frutas.",
+        "pl_translation": "Dżem robi się z owoców."
       },
       {
         "es_form": "Me gusta mucho [la mermelada::dżem].",
@@ -119,8 +119,8 @@
     "pl_word": "miód",
     "examples": [
       {
-        "es_form": "[La miel::miód] se hace con leche.",
-        "pl_translation": "Miód robi się z mleka."
+        "es_form": "[La miel::miód] se hace con flores.",
+        "pl_translation": "Miód robi się z kwiatów."
       },
       {
         "es_form": "Me gusta mucho [la miel::miód].",
@@ -139,15 +139,15 @@
     "examples": [
       {
         "es_form": "Me gusta mucho [el chocolate::czekolada].",
-        "pl_translation": "Bardzo lubię czekolada."
+        "pl_translation": "Bardzo lubię czekoladę."
       },
       {
-        "es_form": "Compramos [el chocolate::czekolada] en el mercado.",
-        "pl_translation": "Kupiliśmy czekolada na targu."
+        "es_form": "Compramos [el chocolate::czekoladę] en el mercado.",
+        "pl_translation": "Kupiliśmy czekoladę na targu."
       },
       {
-        "es_form": "¿Quieres [el chocolate::czekolada]?",
-        "pl_translation": "Chcesz czekolada?"
+        "es_form": "¿Quieres [el chocolate::czekoladę]?",
+        "pl_translation": "Chcesz czekoladę?"
       }
     ]
   },
@@ -162,7 +162,7 @@
       },
       {
         "es_form": "[El helado::lody] es típico de España.",
-        "pl_translation": "Lody jest typowy/a dla Hiszpanii."
+        "pl_translation": "Lody są typowe dla Hiszpanii."
       },
       {
         "es_form": "Me gusta mucho [el helado::lody].",
@@ -177,7 +177,7 @@
     "examples": [
       {
         "es_form": "[El pastel::ciasto] es típico de España.",
-        "pl_translation": "Ciasto jest typowy/a dla Hiszpanii."
+        "pl_translation": "Ciasto jest typowe dla Hiszpanii."
       },
       {
         "es_form": "[El pastel::ciasto] se hace con leche.",
@@ -195,16 +195,16 @@
     "pl_word": "tłusty",
     "examples": [
       {
-        "es_form": "La comida está [grasienta::tłusty].",
-        "pl_translation": "Jedzenie jest tłusty."
+        "es_form": "La comida está [grasienta::tłusta].",
+        "pl_translation": "Jedzenie jest tłuste."
       },
       {
-        "es_form": "Tengo una casa [grasienta::tłusty].",
-        "pl_translation": "Mam tłusty dom."
+        "es_form": "Tengo una sartén [grasienta::tłustą].",
+        "pl_translation": "Mam tłustą patelnię."
       },
       {
-        "es_form": "Es una persona muy [grasiento::tłusty].",
-        "pl_translation": "To jest bardzo tłusty osoba."
+        "es_form": "Es un plato muy [grasiento::tłusty].",
+        "pl_translation": "To jest bardzo tłuste danie."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "chudy, cienki",
     "examples": [
       {
-        "es_form": "Es un lugar [delgado::chudy, cienki] para vivir.",
-        "pl_translation": "To jest chudy, cienki miejsce do życia."
+        "es_form": "Es un papel muy [delgado::cienki].",
+        "pl_translation": "To jest bardzo cienki papier."
       },
       {
-        "es_form": "Mi amigo es [delgado::chudy, cienki] y simpático.",
-        "pl_translation": "Mój przyjaciel jest chudy, cienki i sympatyczny."
+        "es_form": "Mi amigo es [delgado::chudy] y alto.",
+        "pl_translation": "Mój przyjaciel jest chudy i wysoki."
       },
       {
-        "es_form": "Nada es más [delgado::chudy, cienki] que la familia.",
-        "pl_translation": "Nic nie jest chudy, cienki od rodziny."
+        "es_form": "La masa está muy [delgada::cienka].",
+        "pl_translation": "Ciasto jest bardzo cienkie."
       }
     ]
   },
@@ -233,22 +233,22 @@
     "pl_word": "smażyć",
     "examples": [
       {
-        "es_form": "Hay que [freír::smażyć] con cuidado.",
-        "pl_translation": "Trzeba smażyć ostrożnie."
+        "es_form": "Hay que [freír::smażyć] las patatas con cuidado.",
+        "pl_translation": "Trzeba smażyć ziemniaki ostrożnie."
       },
       {
-        "es_form": "Quiero [freír::smażyć] ahora.",
-        "pl_translation": "Chcę smażyć teraz."
+        "es_form": "Quiero [freír::smażyć] el pescado ahora.",
+        "pl_translation": "Chcę usmażyć rybę teraz."
       },
       {
-        "es_form": "¿Puedes [freír::smażyć] más rápido?",
-        "pl_translation": "Możesz smażyć szybciej?"
+        "es_form": "¿Puedes [freír::smażyć] las cebollas más rápido?",
+        "pl_translation": "Możesz smażyć cebulę szybciej?"
       }
     ],
     "forms": [
       {
         "es_word": "frío",
-        "pl_word": "freir (1.os.lp, ter.)",
+        "pl_word": "smażę",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +256,22 @@
         },
         "examples": [
           {
-            "es_form": "[frío::freir (1.os.lp, ter.)] todos los días.",
-            "pl_translation": "Freir codziennie."
+            "es_form": "[frío::smażę] las patatas todos los días.",
+            "pl_translation": "Smażę ziemniaki codziennie."
           },
           {
-            "es_form": "Siempre [frío::freir (1.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze freir z uwagą."
+            "es_form": "Siempre [frío::smażę] el pescado con atención.",
+            "pl_translation": "Zawsze smażę rybę z uwagą."
           },
           {
-            "es_form": "[frío::freir (1.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Freir tak jak mnie nauczyłeś/aś."
+            "es_form": "[frío::smażę] como me enseñaste.",
+            "pl_translation": "Smażę tak, jak mnie nauczyłeś."
           }
         ]
       },
       {
         "es_word": "fríes",
-        "pl_word": "freir (2.os.lp, ter.)",
+        "pl_word": "smażysz",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +279,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [fríes::freir (2.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj freir rano."
+            "es_form": "Normalmente [fríes::smażysz] por la mañana.",
+            "pl_translation": "Zazwyczaj smażysz rano."
           },
           {
-            "es_form": "¿[fríes::freir (2.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy freir w weekendy?"
+            "es_form": "¿[fríes::smażysz] los fines de semana?",
+            "pl_translation": "Czy smażysz w weekendy?"
           },
           {
-            "es_form": "[fríes::freir (2.os.lp, ter.)] todos los días.",
-            "pl_translation": "Freir codziennie."
+            "es_form": "[fríes::smażysz] todos los días.",
+            "pl_translation": "Smażysz codziennie."
           }
         ]
       },
       {
         "es_word": "fríe",
-        "pl_word": "freir (3.os.lp, ter.)",
+        "pl_word": "smaży",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +302,22 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [fríe::freir (3.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze freir z uwagą."
+            "es_form": "Siempre [fríe::smaży] con atención.",
+            "pl_translation": "Zawsze smaży z uwagą."
           },
           {
-            "es_form": "[fríe::freir (3.os.lp, ter.)] todos los días.",
-            "pl_translation": "Freir codziennie."
+            "es_form": "[fríe::smaży] todos los días.",
+            "pl_translation": "Smaży codziennie."
           },
           {
-            "es_form": "No [fríe::freir (3.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie freir zbyt dobrze."
+            "es_form": "No [fríe::smaży] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie smaży zbyt dobrze."
           }
         ]
       },
       {
         "es_word": "freímos",
-        "pl_word": "freir (1.os.lm, ter.)",
+        "pl_word": "smażymy",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +325,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [freímos::freir (1.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj freir rano."
+            "es_form": "Normalmente [freímos::smażymy] por la mañana.",
+            "pl_translation": "Zazwyczaj smażymy rano."
           },
           {
-            "es_form": "Siempre [freímos::freir (1.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze freir z uwagą."
+            "es_form": "Siempre [freímos::smażymy] con atención.",
+            "pl_translation": "Zawsze smażymy z uwagą."
           },
           {
-            "es_form": "[freímos::freir (1.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Freir tak jak mnie nauczyłeś/aś."
+            "es_form": "[freímos::smażymy] como me enseñaste.",
+            "pl_translation": "Smażymy tak, jak mnie nauczyłeś."
           }
         ]
       },
       {
         "es_word": "freís",
-        "pl_word": "freir (2.os.lm, ter.)",
+        "pl_word": "smażycie",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +348,22 @@
         },
         "examples": [
           {
-            "es_form": "No [freís::freir (2.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie freir zbyt dobrze."
+            "es_form": "No [freís::smażycie] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie smażycie zbyt dobrze."
           },
           {
-            "es_form": "¿[freís::freir (2.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy freir w weekendy?"
+            "es_form": "¿[freís::smażycie] los fines de semana?",
+            "pl_translation": "Czy smażycie w weekendy?"
           },
           {
-            "es_form": "[freís::freir (2.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Freir tak jak mnie nauczyłeś/aś."
+            "es_form": "[freís::smażycie] como me enseñaste.",
+            "pl_translation": "Smażycie tak, jak mnie nauczyłeś."
           }
         ]
       },
       {
         "es_word": "fríen",
-        "pl_word": "freir (3.os.lm, ter.)",
+        "pl_word": "smażą",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +371,22 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [fríen::freir (3.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze freir z uwagą."
+            "es_form": "Siempre [fríen::smażą] con atención.",
+            "pl_translation": "Zawsze smażą z uwagą."
           },
           {
-            "es_form": "¿[fríen::freir (3.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy freir w weekendy?"
+            "es_form": "¿[fríen::smażą] los fines de semana?",
+            "pl_translation": "Czy smażą w weekendy?"
           },
           {
-            "es_form": "No [fríen::freir (3.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie freir zbyt dobrze."
+            "es_form": "No [fríen::smażą] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie smażą zbyt dobrze."
           }
         ]
       },
       {
         "es_word": "freí",
-        "pl_word": "freir (1.os.lp, przesz.)",
+        "pl_word": "smażyłem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "[freí::freir (1.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Freir bez przerwy przez wiele godzin."
+            "es_form": "[freí::smażyłem] sin parar durante horas.",
+            "pl_translation": "Smażyłem"
           },
           {
-            "es_form": "¿[freí::freir (1.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy freir dobrze egzamin?"
+            "es_form": "¿[freí::smażyłem] bien el pescado?",
+            "pl_translation": "Czy usmażyłem"
           },
           {
-            "es_form": "Ayer [freí::freir (1.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj freir cały dzień."
+            "es_form": "Ayer [freí::smażyłem] todo el día.",
+            "pl_translation": "Wczoraj smażyłem"
           }
         ]
       },
       {
         "es_word": "freíste",
-        "pl_word": "freir (2.os.lp, przesz.)",
+        "pl_word": "smażyłeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [freíste::freir (2.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie freir."
+            "es_form": "El mes pasado no [freíste::smażyłeś] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie smażyłeś"
           },
           {
-            "es_form": "¿[freíste::freir (2.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy freir dobrze egzamin?"
+            "es_form": "¿[freíste::smażyłeś] bien las patatas?",
+            "pl_translation": "Czy dobrze usmażyłeś"
           },
           {
-            "es_form": "[freíste::freir (2.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Freir bez przerwy przez wiele godzin."
+            "es_form": "[freíste::smażyłeś] sin parar durante horas.",
+            "pl_translation": "Smażyłeś"
           }
         ]
       },
       {
         "es_word": "frió",
-        "pl_word": "freir (3.os.lp, przesz.)",
+        "pl_word": "smażył",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "[frió::freir (3.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Freir w zeszłym tygodniu."
+            "es_form": "[frió::smażył] la semana pasada.",
+            "pl_translation": "Smażył"
           },
           {
-            "es_form": "Nunca [frió::freir (3.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie freir czegoś takiego."
+            "es_form": "Nunca [frió::smażył] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie smażył"
           },
           {
-            "es_form": "El mes pasado no [frió::freir (3.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie freir."
+            "es_form": "El mes pasado no [frió::smażył] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie smażył"
           }
         ]
       },
       {
         "es_word": "freímos",
-        "pl_word": "freir (1.os.lm, przesz.)",
+        "pl_word": "smażyliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "[freímos::freir (1.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Freir bez przerwy przez wiele godzin."
+            "es_form": "[freímos::smażyliśmy] sin parar durante horas.",
+            "pl_translation": "Smażyliśmy"
           },
           {
-            "es_form": "Ayer [freímos::freir (1.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj freir cały dzień."
+            "es_form": "Ayer [freímos::smażyliśmy] todo el día.",
+            "pl_translation": "Wczoraj smażyliśmy"
           },
           {
-            "es_form": "Nunca [freímos::freir (1.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie freir czegoś takiego."
+            "es_form": "Nunca [freímos::smażyliśmy] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie smażyliśmy"
           }
         ]
       },
       {
         "es_word": "freísteis",
-        "pl_word": "freir (2.os.lm, przesz.)",
+        "pl_word": "smażyliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "[freísteis::freir (2.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Freir w zeszłym tygodniu."
+            "es_form": "[freísteis::smażyliście] la semana pasada.",
+            "pl_translation": "Smażyliście"
           },
           {
-            "es_form": "El mes pasado no [freísteis::freir (2.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie freir."
+            "es_form": "El mes pasado no [freísteis::smażyliście] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie smażyliście"
           },
           {
-            "es_form": "Ayer [freísteis::freir (2.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj freir cały dzień."
+            "es_form": "Ayer [freísteis::smażyliście] todo el día.",
+            "pl_translation": "Wczoraj smażyliście"
           }
         ]
       },
       {
         "es_word": "frieron",
-        "pl_word": "freir (3.os.lm, przesz.)",
+        "pl_word": "smażyli",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +509,22 @@
         },
         "examples": [
           {
-            "es_form": "[frieron::freir (3.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Freir w zeszłym tygodniu."
+            "es_form": "[frieron::smażyli] la semana pasada.",
+            "pl_translation": "Smażyli"
           },
           {
-            "es_form": "El mes pasado no [frieron::freir (3.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie freir."
+            "es_form": "El mes pasado no [frieron::smażyli] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie smażyli"
           },
           {
-            "es_form": "Ayer [frieron::freir (3.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj freir cały dzień."
+            "es_form": "Ayer [frieron::smażyli] todo el día.",
+            "pl_translation": "Wczoraj smażyli"
           }
         ]
       },
       {
         "es_word": "freiré",
-        "pl_word": "freir (1.os.lp, przysz.)",
+        "pl_word": "będę smażył",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +532,22 @@
         },
         "examples": [
           {
-            "es_form": "[freiré::freir (1.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Freir w przyszłym tygodniu."
+            "es_form": "[freiré::będę smażył] la próxima semana.",
+            "pl_translation": "Będę smażył"
           },
           {
-            "es_form": "El año que viene [freiré::freir (1.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku freir w Hiszpanii."
+            "es_form": "El año que viene [freiré::będę smażył] en España.",
+            "pl_translation": "W przyszłym roku będę smażył"
           },
           {
-            "es_form": "Te prometo que [freiré::freir (1.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że freir na czas."
+            "es_form": "Te prometo que [freiré::będę smażył] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będę smażył"
           }
         ]
       },
       {
         "es_word": "freirás",
-        "pl_word": "freir (2.os.lp, przysz.)",
+        "pl_word": "będziesz smażył",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +555,22 @@
         },
         "examples": [
           {
-            "es_form": "[freirás::freir (2.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Freir w przyszłym tygodniu."
+            "es_form": "[freirás::będziesz smażył] la próxima semana.",
+            "pl_translation": "Będziesz smażył"
           },
           {
-            "es_form": "¿[freirás::freir (2.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy freir z nami jutro?"
+            "es_form": "¿[freirás::będziesz smażył] con nosotros mañana?",
+            "pl_translation": "Czy będziesz smażył"
           },
           {
-            "es_form": "Creo que [freirás::freir (2.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że freir dobrze."
+            "es_form": "Creo que [freirás::będziesz smażył] bien.",
+            "pl_translation": "Myślę, że będziesz smażył"
           }
         ]
       },
       {
         "es_word": "freirá",
-        "pl_word": "freir (3.os.lp, przysz.)",
+        "pl_word": "będzie smażył",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +578,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [freirá::freir (3.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że freir dobrze."
+            "es_form": "Creo que [freirá::będzie smażył] bien.",
+            "pl_translation": "Myślę, że będzie smażył"
           },
           {
-            "es_form": "¿[freirá::freir (3.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy freir z nami jutro?"
+            "es_form": "¿[freirá::będzie smażył] con nosotros mañana?",
+            "pl_translation": "Czy będzie smażył"
           },
           {
-            "es_form": "[freirá::freir (3.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Freir w przyszłym tygodniu."
+            "es_form": "[freirá::będzie smażył] la próxima semana.",
+            "pl_translation": "Będzie smażył"
           }
         ]
       },
       {
         "es_word": "freiremos",
-        "pl_word": "freir (1.os.lm, przysz.)",
+        "pl_word": "będziemy smażyli",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +601,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[freiremos::freir (1.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy freir z nami jutro?"
+            "es_form": "¿[freiremos::będziemy smażyli] con nosotros mañana?",
+            "pl_translation": "Czy będziemy smażyli"
           },
           {
-            "es_form": "Creo que [freiremos::freir (1.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że freir dobrze."
+            "es_form": "Creo que [freiremos::będziemy smażyli] bien.",
+            "pl_translation": "Myślę, że będziemy smażyli"
           },
           {
-            "es_form": "[freiremos::freir (1.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Freir w przyszłym tygodniu."
+            "es_form": "[freiremos::będziemy smażyli] la próxima semana.",
+            "pl_translation": "Będziemy smażyli"
           }
         ]
       },
       {
         "es_word": "freiréis",
-        "pl_word": "freir (2.os.lm, przysz.)",
+        "pl_word": "będziecie smażyli",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +624,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [freiréis::freir (2.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że freir dobrze."
+            "es_form": "Creo que [freiréis::będziecie smażyli] bien.",
+            "pl_translation": "Myślę, że będziecie smażyli"
           },
           {
-            "es_form": "Te prometo que [freiréis::freir (2.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że freir na czas."
+            "es_form": "Te prometo que [freiréis::będziecie smażyli] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziecie smażyli"
           },
           {
-            "es_form": "¿[freiréis::freir (2.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy freir z nami jutro?"
+            "es_form": "¿[freiréis::będziecie smażyli] con nosotros mañana?",
+            "pl_translation": "Czy będziecie smażyli"
           }
         ]
       },
       {
         "es_word": "freirán",
-        "pl_word": "freir (3.os.lm, przysz.)",
+        "pl_word": "będą smażyli",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +647,16 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [freirán::freir (3.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że freir na czas."
+            "es_form": "Te prometo que [freirán::będą smażyli] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będą smażyli"
           },
           {
-            "es_form": "[freirán::freir (3.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Freir w przyszłym tygodniu."
+            "es_form": "[freirán::będą smażyli] la próxima semana.",
+            "pl_translation": "Będą smażyli"
           },
           {
-            "es_form": "¿[freirán::freir (3.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy freir z nami jutro?"
+            "es_form": "¿[freirán::będą smażyli] con nosotros mañana?",
+            "pl_translation": "Czy będą smażyli"
           }
         ]
       }

@@ -6,7 +6,7 @@
     "examples": [
       {
         "es_form": "¿Has visto [el psicólogo::psycholog]?",
-        "pl_translation": "Widziałeś/aś psycholog?"
+        "pl_translation": "Widziałeś"
       },
       {
         "es_form": "[El psicólogo::psycholog] cuesta diez euros.",
@@ -14,7 +14,7 @@
       },
       {
         "es_form": "Necesito [el psicólogo::psycholog] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową psycholog."
+        "pl_translation": "Potrzebuję nowy"
       }
     ]
   },
@@ -33,26 +33,26 @@
       },
       {
         "es_form": "Compré [la terapia::terapia] ayer.",
-        "pl_translation": "Kupiłem/am terapia wczoraj."
+        "pl_translation": "Kupiłem"
       }
     ]
   },
   {
     "type": "noun",
     "es_word": "El agotamiento",
-    "pl_word": "wypalenie (zawodowe)",
+    "pl_word": "wypalenie",
     "examples": [
       {
-        "es_form": "Guarda [el agotamiento::wypalenie (zawodowe)] en el armario.",
-        "pl_translation": "Schowaj wypalenie do szafy."
+        "es_form": "[El agotamiento::wypalenie] es un problema serio.",
+        "pl_translation": "Wypalenie to poważny problem."
       },
       {
-        "es_form": "¿Has visto [el agotamiento::wypalenie (zawodowe)]?",
-        "pl_translation": "Widziałeś/aś wypalenie?"
+        "es_form": "Sufro de [agotamiento::wypalenie].",
+        "pl_translation": "Cierpię na wypalenie."
       },
       {
-        "es_form": "Se me rompio [el agotamiento::wypalenie (zawodowe)].",
-        "pl_translation": "Zepsuł mi się wypalenie."
+        "es_form": "El médico me diagnosticó [agotamiento::wypalenie].",
+        "pl_translation": "Lekarz zdiagnozował u mnie wypalenie."
       }
     ]
   },
@@ -63,11 +63,11 @@
     "examples": [
       {
         "es_form": "No entiendo [el equilibrio::równowaga].",
-        "pl_translation": "Nie rozumiem równowaga."
+        "pl_translation": "Nie rozumiem równowagi."
       },
       {
-        "es_form": "[El equilibrio::równowaga] cambio mi vida.",
-        "pl_translation": "Równowaga zmienił/a moje życie."
+        "es_form": "[El equilibrio::równowaga] cambió mi vida.",
+        "pl_translation": "Równowaga zmieniła moje życie."
       },
       {
         "es_form": "[El equilibrio::równowaga] es la clave del éxito.",
@@ -81,12 +81,12 @@
     "pl_word": "stres",
     "examples": [
       {
-        "es_form": "[El estrés::stres] cambio mi vida.",
-        "pl_translation": "Stres zmienił/a moje życie."
+        "es_form": "[El estrés::stres] cambió mi vida.",
+        "pl_translation": "Stres zmienił moje życie."
       },
       {
         "es_form": "No entiendo [el estrés::stres].",
-        "pl_translation": "Nie rozumiem stres."
+        "pl_translation": "Nie rozumiem stresu."
       },
       {
         "es_form": "Tienes que aceptar [el estrés::stres].",
@@ -96,19 +96,19 @@
   },
   {
     "type": "noun",
-    "es_word": "El relajación",
+    "es_word": "La relajación",
     "pl_word": "relaks",
     "examples": [
       {
-        "es_form": "Se me rompio [el relajación::relaks].",
+        "es_form": "Se me rompió [la relajación::relaks].",
         "pl_translation": "Zepsuł mi się relaks."
       },
       {
-        "es_form": "¿Has visto [el relajación::relaks]?",
-        "pl_translation": "Widziałeś/aś relaks?"
+        "es_form": "¿Has visto [la relajación::relaks]?",
+        "pl_translation": "Widziałeś"
       },
       {
-        "es_form": "[El relajación::relaks] está sobre la mesa.",
+        "es_form": "[La relajación::relaks] está sobre la mesa.",
         "pl_translation": "Relaks jest na stole."
       }
     ]
@@ -119,16 +119,16 @@
     "pl_word": "cisza",
     "examples": [
       {
-        "es_form": "Guarda [el silencio::cisza] en el armario.",
-        "pl_translation": "Schowaj cisza do szafy."
+        "es_form": "El [silencio::cisza] ayuda a concentrarse.",
+        "pl_translation": "Cisza pomaga się skupić."
       },
       {
-        "es_form": "Se me rompio [el silencio::cisza].",
-        "pl_translation": "Zepsuł mi się cisza."
+        "es_form": "Necesito un momento de [silencio::cisza].",
+        "pl_translation": "Potrzebuję chwili ciszy."
       },
       {
-        "es_form": "Necesito [el silencio::cisza] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową cisza."
+        "es_form": "Disfruto del [silencio::cisza] por la mañana.",
+        "pl_translation": "Cieszę się ciszą o poranku."
       }
     ]
   },
@@ -139,7 +139,7 @@
     "examples": [
       {
         "es_form": "Hablamos sobre [la soledad::samotność].",
-        "pl_translation": "Rozmawialiśmy o samotność."
+        "pl_translation": "Rozmawialiśmy o samotności."
       },
       {
         "es_form": "[La soledad::samotność] es la clave del éxito.",
@@ -157,8 +157,8 @@
     "pl_word": "szczęście",
     "examples": [
       {
-        "es_form": "[La felicidad::szczęście] cambio mi vida.",
-        "pl_translation": "Szczęście zmienił/a moje życie."
+        "es_form": "[La felicidad::szczęście] cambió mi vida.",
+        "pl_translation": "Szczęście zmieniło moje życie."
       },
       {
         "es_form": "[La felicidad::szczęście] es la clave del éxito.",
@@ -166,25 +166,25 @@
       },
       {
         "es_form": "No entiendo [la felicidad::szczęście].",
-        "pl_translation": "Nie rozumiem szczęście."
+        "pl_translation": "Nie rozumiem szczęścia."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El realización",
+    "es_word": "La realización",
     "pl_word": "spełnienie",
     "examples": [
       {
-        "es_form": "[El realización::spełnienie] cambio mi vida.",
-        "pl_translation": "Spełnienie zmienił/a moje życie."
+        "es_form": "[La realización::spełnienie] cambió mi vida.",
+        "pl_translation": "Spełnienie zmieniło moje życie."
       },
       {
-        "es_form": "Hablamos sobre [el realización::spełnienie].",
-        "pl_translation": "Rozmawialiśmy o spełnienie."
+        "es_form": "Hablamos sobre [la realización::spełnienie].",
+        "pl_translation": "Rozmawialiśmy o spełnieniu."
       },
       {
-        "es_form": "[El realización::spełnienie] es la clave del éxito.",
+        "es_form": "[La realización::spełnienie] es la clave del éxito.",
         "pl_translation": "Spełnienie jest kluczem do sukcesu."
       }
     ]
@@ -199,8 +199,8 @@
         "pl_translation": "Mam zrelaksowany dom."
       },
       {
-        "es_form": "Es una persona muy [relajado::zrelaksowany].",
-        "pl_translation": "To jest bardzo zrelaksowany osoba."
+        "es_form": "Es una persona muy [relajada::zrelaksowany].",
+        "pl_translation": "To jest bardzo zrelaksowana osoba."
       },
       {
         "es_form": "El examen fue [relajado::zrelaksowany].",
@@ -215,15 +215,15 @@
     "examples": [
       {
         "es_form": "La comida está [descansada::wypoczęty].",
-        "pl_translation": "Jedzenie jest wypoczęty."
+        "pl_translation": "Jedzenie jest wypoczęte."
       },
       {
         "es_form": "Mi amigo es [descansado::wypoczęty] y simpático.",
         "pl_translation": "Mój przyjaciel jest wypoczęty i sympatyczny."
       },
       {
-        "es_form": "Es una persona muy [descansado::wypoczęty].",
-        "pl_translation": "To jest bardzo wypoczęty osoba."
+        "es_form": "Es una persona muy [descansada::wypoczęty].",
+        "pl_translation": "To jest bardzo wypoczęta osoba."
       }
     ]
   },
@@ -248,7 +248,7 @@
     "forms": [
       {
         "es_word": "descanso",
-        "pl_word": "odpoczywać (1.os.lp, ter.)",
+        "pl_word": "odpoczywam",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +256,22 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [descanso::odpoczywać (1.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze odpoczywać z uwagą."
+            "es_form": "Siempre [descanso::odpoczywam] con atención.",
+            "pl_translation": "Zawsze odpoczywam z uwagą."
           },
           {
-            "es_form": "[descanso::odpoczywać (1.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Odpoczywać tak jak mnie nauczyłeś/aś."
+            "es_form": "[Descanso::odpoczywam] como me enseñaste.",
+            "pl_translation": "Odpoczywam tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "[descanso::odpoczywać (1.os.lp, ter.)] todos los días.",
-            "pl_translation": "Odpoczywać codziennie."
+            "es_form": "[Descanso::odpoczywam] todos los días.",
+            "pl_translation": "Odpoczywam codziennie."
           }
         ]
       },
       {
         "es_word": "descansas",
-        "pl_word": "odpoczywać (2.os.lp, ter.)",
+        "pl_word": "odpoczywasz",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +279,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [descansąs::odpoczywać (2.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj odpoczywać rano."
+            "es_form": "Normalmente [descansas::odpoczywasz] por la mañana.",
+            "pl_translation": "Zazwyczaj odpoczywasz rano."
           },
           {
-            "es_form": "¿[descansąs::odpoczywać (2.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy odpoczywać w weekendy?"
+            "es_form": "¿[Descansas::odpoczywasz] los fines de semana?",
+            "pl_translation": "Czy odpoczywasz w weekendy?"
           },
           {
-            "es_form": "No [descansąs::odpoczywać (2.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie odpoczywać zbyt dobrze."
+            "es_form": "No [descansas::odpoczywasz] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie odpoczywasz zbyt dobrze."
           }
         ]
       },
       {
         "es_word": "descansa",
-        "pl_word": "odpoczywać (3.os.lp, ter.)",
+        "pl_word": "odpoczywa",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +302,22 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [descansą::odpoczywać (3.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze odpoczywać z uwagą."
+            "es_form": "Siempre [descansa::odpoczywa] con atención.",
+            "pl_translation": "Zawsze odpoczywa z uwagą."
           },
           {
-            "es_form": "No [descansą::odpoczywać (3.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie odpoczywać zbyt dobrze."
+            "es_form": "No [descansa::odpoczywa] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie odpoczywa zbyt dobrze."
           },
           {
-            "es_form": "[descansą::odpoczywać (3.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Odpoczywać tak jak mnie nauczyłeś/aś."
+            "es_form": "[Descansa::odpoczywa] como me enseñaste.",
+            "pl_translation": "Odpoczywa tak jak mnie nauczyłeś"
           }
         ]
       },
       {
         "es_word": "descansamos",
-        "pl_word": "odpoczywać (1.os.lm, ter.)",
+        "pl_word": "odpoczywamy",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +325,22 @@
         },
         "examples": [
           {
-            "es_form": "No [descansąmos::odpoczywać (1.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie odpoczywać zbyt dobrze."
+            "es_form": "No [descansamos::odpoczywamy] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie odpoczywamy zbyt dobrze."
           },
           {
-            "es_form": "Siempre [descansąmos::odpoczywać (1.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze odpoczywać z uwagą."
+            "es_form": "Siempre [descansamos::odpoczywamy] con atención.",
+            "pl_translation": "Zawsze odpoczywamy z uwagą."
           },
           {
-            "es_form": "Normalmente [descansąmos::odpoczywać (1.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj odpoczywać rano."
+            "es_form": "Normalmente [descansamos::odpoczywamy] por la mañana.",
+            "pl_translation": "Zazwyczaj odpoczywamy rano."
           }
         ]
       },
       {
         "es_word": "descansáis",
-        "pl_word": "odpoczywać (2.os.lm, ter.)",
+        "pl_word": "odpoczywacie",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +348,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[descansáis::odpoczywać (2.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy odpoczywać w weekendy?"
+            "es_form": "¿[Descansáis::odpoczywacie] los fines de semana?",
+            "pl_translation": "Czy odpoczywacie w weekendy?"
           },
           {
-            "es_form": "[descansáis::odpoczywać (2.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Odpoczywać tak jak mnie nauczyłeś/aś."
+            "es_form": "[Descansáis::odpoczywacie] como me enseñaste.",
+            "pl_translation": "Odpoczywacie tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "Siempre [descansáis::odpoczywać (2.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze odpoczywać z uwagą."
+            "es_form": "Siempre [descansáis::odpoczywacie] con atención.",
+            "pl_translation": "Zawsze odpoczywacie z uwagą."
           }
         ]
       },
       {
         "es_word": "descansan",
-        "pl_word": "odpoczywać (3.os.lm, ter.)",
+        "pl_word": "odpoczywają",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +371,22 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [descansąn::odpoczywać (3.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze odpoczywać z uwagą."
+            "es_form": "Siempre [descansan::odpoczywają] con atención.",
+            "pl_translation": "Zawsze odpoczywają z uwagą."
           },
           {
-            "es_form": "[descansąn::odpoczywać (3.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Odpoczywać tak jak mnie nauczyłeś/aś."
+            "es_form": "[Descansan::odpoczywają] como me enseñaste.",
+            "pl_translation": "Odpoczywają tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "[descansąn::odpoczywać (3.os.lm, ter.)] todos los días.",
-            "pl_translation": "Odpoczywać codziennie."
+            "es_form": "[Descansan::odpoczywają] todos los días.",
+            "pl_translation": "Odpoczywają codziennie."
           }
         ]
       },
       {
         "es_word": "descansé",
-        "pl_word": "odpoczywać (1.os.lp, przesz.)",
+        "pl_word": "odpoczywałem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [descansé::odpoczywać (1.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie odpoczywać czegoś takiego."
+            "es_form": "Nunca [descansé::odpoczywałem] algo así antes.",
+            "pl_translation": "Nigdy wcześniej tak nie odpoczywałem"
           },
           {
-            "es_form": "[descansé::odpoczywać (1.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Odpoczywać bez przerwy przez wiele godzin."
+            "es_form": "[Descansé::odpoczywałem] sin parar durante horas.",
+            "pl_translation": "Odpoczywałem"
           },
           {
-            "es_form": "¿[descansé::odpoczywać (1.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy odpoczywać dobrze egzamin?"
+            "es_form": "Ayer [descansé::odpoczywałem] todo el día.",
+            "pl_translation": "Wczoraj odpoczywałem"
           }
         ]
       },
       {
         "es_word": "descansaste",
-        "pl_word": "odpoczywać (2.os.lp, przesz.)",
+        "pl_word": "odpoczywałeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [descansąste::odpoczywać (2.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj odpoczywać cały dzień."
+            "es_form": "Ayer [descansaste::odpoczywałeś] todo el día.",
+            "pl_translation": "Wczoraj odpoczywałeś"
           },
           {
-            "es_form": "[descansąste::odpoczywać (2.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Odpoczywać w zeszłym tygodniu."
+            "es_form": "[Descansaste::odpoczywałeś] la semana pasada.",
+            "pl_translation": "Odpoczywałeś"
           },
           {
-            "es_form": "El mes pasado no [descansąste::odpoczywać (2.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie odpoczywać."
+            "es_form": "El mes pasado no [descansaste::odpoczywałeś] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie odpoczywałeś"
           }
         ]
       },
       {
         "es_word": "descansó",
-        "pl_word": "odpoczywać (3.os.lp, przesz.)",
+        "pl_word": "odpoczywał",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "[descansó::odpoczywać (3.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Odpoczywać bez przerwy przez wiele godzin."
+            "es_form": "[Descansó::odpoczywał] sin parar durante horas.",
+            "pl_translation": "Odpoczywał"
           },
           {
-            "es_form": "Ayer [descansó::odpoczywać (3.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj odpoczywać cały dzień."
+            "es_form": "Ayer [descansó::odpoczywał] todo el día.",
+            "pl_translation": "Wczoraj odpoczywał"
           },
           {
-            "es_form": "Nunca [descansó::odpoczywać (3.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie odpoczywać czegoś takiego."
+            "es_form": "Nunca [descansó::odpoczywał] algo así antes.",
+            "pl_translation": "Nigdy wcześniej tak nie odpoczywał"
           }
         ]
       },
       {
         "es_word": "descansamos",
-        "pl_word": "odpoczywać (1.os.lm, przesz.)",
+        "pl_word": "odpoczywaliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [descansąmos::odpoczywać (1.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie odpoczywać."
+            "es_form": "El mes pasado no [descansamos::odpoczywaliśmy] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie odpoczywaliśmy"
           },
           {
-            "es_form": "¿[descansąmos::odpoczywać (1.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy odpoczywać dobrze egzamin?"
+            "es_form": "[Descansamos::odpoczywaliśmy] todo el día.",
+            "pl_translation": "Odpoczywaliśmy"
           },
           {
-            "es_form": "Nunca [descansąmos::odpoczywać (1.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie odpoczywać czegoś takiego."
+            "es_form": "Nunca [descansamos::odpoczywaliśmy] algo así antes.",
+            "pl_translation": "Nigdy wcześniej tak nie odpoczywaliśmy"
           }
         ]
       },
       {
         "es_word": "descansasteis",
-        "pl_word": "odpoczywać (2.os.lm, przesz.)",
+        "pl_word": "odpoczywaliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "[descansąsteis::odpoczywać (2.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Odpoczywać w zeszłym tygodniu."
+            "es_form": "[Descansasteis::odpoczywaliście] la semana pasada.",
+            "pl_translation": "Odpoczywaliście"
           },
           {
-            "es_form": "[descansąsteis::odpoczywać (2.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Odpoczywać bez przerwy przez wiele godzin."
+            "es_form": "[Descansasteis::odpoczywaliście] sin parar durante horas.",
+            "pl_translation": "Odpoczywaliście"
           },
           {
-            "es_form": "¿[descansąsteis::odpoczywać (2.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy odpoczywać dobrze egzamin?"
+            "es_form": "Ayer [descansasteis::odpoczywaliście] todo el día.",
+            "pl_translation": "Wczoraj odpoczywaliście"
           }
         ]
       },
       {
         "es_word": "descansaron",
-        "pl_word": "odpoczywać (3.os.lm, przesz.)",
+        "pl_word": "odpoczywali",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +509,22 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [descansąron::odpoczywać (3.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie odpoczywać czegoś takiego."
+            "es_form": "Nunca [descansaron::odpoczywali] algo así antes.",
+            "pl_translation": "Nigdy wcześniej tak nie odpoczywali"
           },
           {
-            "es_form": "¿[descansąron::odpoczywać (3.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy odpoczywać dobrze egzamin?"
+            "es_form": "[Descansaron::odpoczywali] todo el día.",
+            "pl_translation": "Odpoczywali"
           },
           {
-            "es_form": "El mes pasado no [descansąron::odpoczywać (3.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie odpoczywać."
+            "es_form": "El mes pasado no [descansaron::odpoczywali] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie odpoczywali"
           }
         ]
       },
       {
         "es_word": "descansé",
-        "pl_word": "odpoczywać (1.os.lp, przysz.)",
+        "pl_word": "będę odpoczywał",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +532,22 @@
         },
         "examples": [
           {
-            "es_form": "[descansé::odpoczywać (1.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Odpoczywać w przyszłym tygodniu."
+            "es_form": "[Descansé::będę odpoczywał] la próxima semana.",
+            "pl_translation": "Będę odpoczywał"
           },
           {
-            "es_form": "Te prometo que [descansé::odpoczywać (1.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że odpoczywać na czas."
+            "es_form": "Te prometo que [descansé::będę odpoczywał] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będę odpoczywał"
           },
           {
-            "es_form": "Mañana [descansé::odpoczywać (1.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro odpoczywać wcześniej."
+            "es_form": "Mañana [descansé::będę odpoczywał] más temprano.",
+            "pl_translation": "Jutro będę odpoczywał"
           }
         ]
       },
       {
         "es_word": "descansás",
-        "pl_word": "odpoczywać (2.os.lp, przysz.)",
+        "pl_word": "będziesz odpoczywał",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +555,22 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [descansás::odpoczywać (2.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku odpoczywać w Hiszpanii."
+            "es_form": "El año que viene [descansás::będziesz odpoczywał] en España.",
+            "pl_translation": "W przyszłym roku będziesz odpoczywał"
           },
           {
-            "es_form": "Te prometo que [descansás::odpoczywać (2.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że odpoczywać na czas."
+            "es_form": "Te prometo que [descansás::będziesz odpoczywał] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziesz odpoczywał"
           },
           {
-            "es_form": "¿[descansás::odpoczywać (2.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy odpoczywać z nami jutro?"
+            "es_form": "¿[Descansás::będziesz odpoczywał] con nosotros mañana?",
+            "pl_translation": "Czy będziesz odpoczywał"
           }
         ]
       },
       {
         "es_word": "descansá",
-        "pl_word": "odpoczywać (3.os.lp, przysz.)",
+        "pl_word": "będzie odpoczywał",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +578,22 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [descansá::odpoczywać (3.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro odpoczywać wcześniej."
+            "es_form": "Mañana [descansá::będzie odpoczywał] más temprano.",
+            "pl_translation": "Jutro będzie odpoczywał"
           },
           {
-            "es_form": "Te prometo que [descansá::odpoczywać (3.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że odpoczywać na czas."
+            "es_form": "Te prometo que [descansá::będzie odpoczywał] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będzie odpoczywał"
           },
           {
-            "es_form": "[descansá::odpoczywać (3.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Odpoczywać w przyszłym tygodniu."
+            "es_form": "[Descansá::będzie odpoczywał] la próxima semana.",
+            "pl_translation": "Będzie odpoczywał"
           }
         ]
       },
       {
         "es_word": "descansemos",
-        "pl_word": "odpoczywać (1.os.lm, przysz.)",
+        "pl_word": "będziemy odpoczywali",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +601,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [descansemos::odpoczywać (1.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że odpoczywać dobrze."
+            "es_form": "Creo que [descansemos::będziemy odpoczywali] bien.",
+            "pl_translation": "Myślę, że będziemy odpoczywali"
           },
           {
-            "es_form": "Te prometo que [descansemos::odpoczywać (1.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że odpoczywać na czas."
+            "es_form": "Te prometo que [descansemos::będziemy odpoczywali] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziemy odpoczywali"
           },
           {
-            "es_form": "[descansemos::odpoczywać (1.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Odpoczywać w przyszłym tygodniu."
+            "es_form": "[Descansemos::będziemy odpoczywali] la próxima semana.",
+            "pl_translation": "Będziemy odpoczywali"
           }
         ]
       },
       {
         "es_word": "descanséis",
-        "pl_word": "odpoczywać (2.os.lm, przysz.)",
+        "pl_word": "będziecie odpoczywali",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +624,22 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [descanséis::odpoczywać (2.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro odpoczywać wcześniej."
+            "es_form": "Mañana [descanséis::będziecie odpoczywali] más temprano.",
+            "pl_translation": "Jutro będziecie odpoczywali"
           },
           {
-            "es_form": "El año que viene [descanséis::odpoczywać (2.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku odpoczywać w Hiszpanii."
+            "es_form": "El año que viene [descanséis::będziecie odpoczywali] en España.",
+            "pl_translation": "W przyszłym roku będziecie odpoczywali"
           },
           {
-            "es_form": "Creo que [descanséis::odpoczywać (2.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że odpoczywać dobrze."
+            "es_form": "Creo que [descanséis::będziecie odpoczywali] bien.",
+            "pl_translation": "Myślę, że będziecie odpoczywali"
           }
         ]
       },
       {
         "es_word": "descansán",
-        "pl_word": "odpoczywać (3.os.lm, przysz.)",
+        "pl_word": "będą odpoczywali",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +647,16 @@
         },
         "examples": [
           {
-            "es_form": "[descansán::odpoczywać (3.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Odpoczywać w przyszłym tygodniu."
+            "es_form": "[Descansán::będą odpoczywali] la próxima semana.",
+            "pl_translation": "Będą odpoczywali"
           },
           {
-            "es_form": "Mañana [descansán::odpoczywać (3.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro odpoczywać wcześniej."
+            "es_form": "Mañana [descansán::będą odpoczywali] más temprano.",
+            "pl_translation": "Jutro będą odpoczywali"
           },
           {
-            "es_form": "¿[descansán::odpoczywać (3.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy odpoczywać z nami jutro?"
+            "es_form": "¿[Descansán::będą odpoczywali] con nosotros mañana?",
+            "pl_translation": "Czy będą odpoczywali"
           }
         ]
       }

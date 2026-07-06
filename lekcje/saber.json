@@ -10,7 +10,7 @@
       },
       {
         "es_form": "[La verdad::prawda] cambio mi vida.",
-        "pl_translation": "Prawda zmienił/a moje życie."
+        "pl_translation": "Prawda zmienił"
       },
       {
         "es_form": "[La verdad::prawda] es la clave del éxito.",
@@ -25,11 +25,11 @@
     "examples": [
       {
         "es_form": "[La mentira::kłamstwo] es muy importante.",
-        "pl_translation": "Kłamstwo jest bardzo ważny/a."
+        "pl_translation": "Kłamstwo jest bardzo ważny"
       },
       {
         "es_form": "[La mentira::kłamstwo] cambio mi vida.",
-        "pl_translation": "Kłamstwo zmienił/a moje życie."
+        "pl_translation": "Kłamstwo zmienił"
       },
       {
         "es_form": "[La mentira::kłamstwo] es la clave del éxito.",
@@ -52,7 +52,7 @@
       },
       {
         "es_form": "[El secreto::sekret] cambio mi vida.",
-        "pl_translation": "Sekret zmienił/a moje życie."
+        "pl_translation": "Sekret zmienił"
       }
     ]
   },
@@ -67,7 +67,7 @@
       },
       {
         "es_form": "[El dato::dana, fakt] es muy importante.",
-        "pl_translation": "Dana, fakt jest bardzo ważny/a."
+        "pl_translation": "Dana, fakt jest bardzo ważny"
       },
       {
         "es_form": "Hablamos sobre [el dato::dana, fakt].",
@@ -86,7 +86,7 @@
       },
       {
         "es_form": "[El información::informacja] cambio mi vida.",
-        "pl_translation": "Informacja zmienił/a moje życie."
+        "pl_translation": "Informacja zmienił"
       },
       {
         "es_form": "[El información::informacja] es la clave del éxito.",
@@ -139,11 +139,11 @@
     "examples": [
       {
         "es_form": "[La ciencia::nauka] es muy importante.",
-        "pl_translation": "Nauka jest bardzo ważny/a."
+        "pl_translation": "Nauka jest bardzo ważny"
       },
       {
         "es_form": "[La ciencia::nauka] cambio mi vida.",
-        "pl_translation": "Nauka zmienił/a moje życie."
+        "pl_translation": "Nauka zmienił"
       },
       {
         "es_form": "Tienes que aceptar [la ciencia::nauka].",
@@ -177,7 +177,7 @@
     "examples": [
       {
         "es_form": "¿Has visto [la memoria::pamięć]?",
-        "pl_translation": "Widziałeś/aś pamięć?"
+        "pl_translation": "Widziałeś"
       },
       {
         "es_form": "[La memoria::pamięć] está sobre la mesa.",
@@ -261,7 +261,7 @@
           },
           {
             "es_form": "[sé::wiem] como me enseñaste.",
-            "pl_translation": "Wiem tak jak mnie nauczyłeś/aś."
+            "pl_translation": "Wiem tak jak mnie nauczyłeś"
           },
           {
             "es_form": "Siempre [sé::wiem] con atencion.",
@@ -279,15 +279,15 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [sąbes::wiesz] por la mañana.",
+            "es_form": "Normalmente [sabes::wiesz] por la mañana.",
             "pl_translation": "Zazwyczaj wiesz rano."
           },
           {
-            "es_form": "No [sąbes::wiesz] muy bien últimamente.",
+            "es_form": "No [sabes::wiesz] muy bien últimamente.",
             "pl_translation": "Ostatnio nie wiesz zbyt dobrze."
           },
           {
-            "es_form": "Siempre [sąbes::wiesz] con atencion.",
+            "es_form": "Siempre [sabes::wiesz] con atencion.",
             "pl_translation": "Zawsze wiesz z uwagą."
           }
         ]
@@ -302,15 +302,15 @@
         },
         "examples": [
           {
-            "es_form": "No [sąbe::wie] muy bien últimamente.",
+            "es_form": "No [sabe::wie] muy bien últimamente.",
             "pl_translation": "Ostatnio nie wie zbyt dobrze."
           },
           {
-            "es_form": "[sąbe::wie] como me enseñaste.",
-            "pl_translation": "Wie tak jak mnie nauczyłeś/aś."
+            "es_form": "[sabe::wie] como me enseñaste.",
+            "pl_translation": "Wie tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "Siempre [sąbe::wie] con atencion.",
+            "es_form": "Siempre [sabe::wie] con atencion.",
             "pl_translation": "Zawsze wie z uwagą."
           }
         ]
@@ -325,15 +325,15 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [sąbemos::wiemy] por la mañana.",
+            "es_form": "Normalmente [sabemos::wiemy] por la mañana.",
             "pl_translation": "Zazwyczaj wiemy rano."
           },
           {
-            "es_form": "[sąbemos::wiemy] como me enseñaste.",
-            "pl_translation": "Wiemy tak jak mnie nauczyłeś/aś."
+            "es_form": "[sabemos::wiemy] como me enseñaste.",
+            "pl_translation": "Wiemy tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "¿[sąbemos::wiemy] los fines de semana?",
+            "es_form": "¿[sabemos::wiemy] los fines de semana?",
             "pl_translation": "Czy wiemy w weekendy?"
           }
         ]
@@ -348,15 +348,15 @@
         },
         "examples": [
           {
-            "es_form": "No [sąbéis::wiecie] muy bien últimamente.",
+            "es_form": "No [sabéis::wiecie] muy bien últimamente.",
             "pl_translation": "Ostatnio nie wiecie zbyt dobrze."
           },
           {
-            "es_form": "[sąbéis::wiecie] todos los días.",
+            "es_form": "[sabéis::wiecie] todos los días.",
             "pl_translation": "Wiecie codziennie."
           },
           {
-            "es_form": "Siempre [sąbéis::wiecie] con atencion.",
+            "es_form": "Siempre [sabéis::wiecie] con atencion.",
             "pl_translation": "Zawsze wiecie z uwagą."
           }
         ]
@@ -371,22 +371,22 @@
         },
         "examples": [
           {
-            "es_form": "No [sąben::wiedzą] muy bien últimamente.",
+            "es_form": "No [saben::wiedzą] muy bien últimamente.",
             "pl_translation": "Ostatnio nie wiedzą zbyt dobrze."
           },
           {
-            "es_form": "Siempre [sąben::wiedzą] con atencion.",
+            "es_form": "Siempre [saben::wiedzą] con atencion.",
             "pl_translation": "Zawsze wiedzą z uwagą."
           },
           {
-            "es_form": "[sąben::wiedzą] todos los días.",
+            "es_form": "[saben::wiedzą] todos los días.",
             "pl_translation": "Wiedzą codziennie."
           }
         ]
       },
       {
         "es_word": "supe",
-        "pl_word": "wiedziałem/wiedziałam",
+        "pl_word": "wiedziałem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[supe::wiedziałem/wiedziałam] bien el examen?",
-            "pl_translation": "Czy wiedziałem/wiedziałam dobrze egzamin?"
+            "es_form": "¿[supe::wiedziałem] bien el examen?",
+            "pl_translation": "Czy wiedziałem"
           },
           {
-            "es_form": "Ayer [supe::wiedziałem/wiedziałam] todo el día.",
-            "pl_translation": "Wczoraj wiedziałem/wiedziałam cały dzień."
+            "es_form": "Ayer [supe::wiedziałem] todo el día.",
+            "pl_translation": "Wczoraj wiedziałem"
           },
           {
-            "es_form": "El mes pasado no [supe::wiedziałem/wiedziałam] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie wiedziałem/wiedziałam."
+            "es_form": "El mes pasado no [supe::wiedziałem] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie wiedziałem"
           }
         ]
       },
       {
         "es_word": "supiste",
-        "pl_word": "wiedziałes/wiedziałas",
+        "pl_word": "wiedziałeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[supiste::wiedziałes/wiedziałas] bien el examen?",
-            "pl_translation": "Czy wiedziałes/wiedziałas dobrze egzamin?"
+            "es_form": "¿[supiste::wiedziałeś] bien el examen?",
+            "pl_translation": "Czy wiedziałeś"
           },
           {
-            "es_form": "El mes pasado no [supiste::wiedziałes/wiedziałas] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie wiedziałes/wiedziałas."
+            "es_form": "El mes pasado no [supiste::wiedziałeś] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie wiedziałeś"
           },
           {
-            "es_form": "[supiste::wiedziałes/wiedziałas] la semana pasada.",
-            "pl_translation": "Wiedziałes/wiedziałas w zeszłym tygodniu."
+            "es_form": "[supiste::wiedziałeś] la semana pasada.",
+            "pl_translation": "wiedziałeś"
           }
         ]
       },
       {
         "es_word": "supo",
-        "pl_word": "wiedział/wiedziała/wiedziało",
+        "pl_word": "wiedział",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [supo::wiedział/wiedziała/wiedziało] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie wiedział/wiedziała/wiedziało."
+            "es_form": "El mes pasado no [supo::wiedział] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie wiedział"
           },
           {
-            "es_form": "[supo::wiedział/wiedziała/wiedziało] sin parar durante horas.",
-            "pl_translation": "Wiedział/wiedziała/wiedziało bez przerwy przez wiele godzin."
+            "es_form": "[supo::wiedział] sin parar durante horas.",
+            "pl_translation": "Wiedział"
           },
           {
-            "es_form": "Ayer [supo::wiedział/wiedziała/wiedziało] todo el día.",
-            "pl_translation": "Wczoraj wiedział/wiedziała/wiedziało cały dzień."
+            "es_form": "Ayer [supo::wiedział] todo el día.",
+            "pl_translation": "Wczoraj wiedział"
           }
         ]
       },
       {
         "es_word": "supimos",
-        "pl_word": "wiedzieliśmy/wiedziałysmy",
+        "pl_word": "wiedzieliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "[supimos::wiedzieliśmy/wiedziałysmy] la semana pasada.",
-            "pl_translation": "Wiedzieliśmy/wiedziałysmy w zeszłym tygodniu."
+            "es_form": "[supimos::wiedzieliśmy] la semana pasada.",
+            "pl_translation": "Wiedzieliśmy"
           },
           {
-            "es_form": "Nunca [supimos::wiedzieliśmy/wiedziałysmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie wiedzieliśmy/wiedziałysmy czegoś takiego."
+            "es_form": "Nunca [supimos::wiedzieliśmy] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie wiedzieliśmy"
           },
           {
-            "es_form": "Ayer [supimos::wiedzieliśmy/wiedziałysmy] todo el día.",
-            "pl_translation": "Wczoraj wiedzieliśmy/wiedziałysmy cały dzień."
+            "es_form": "Ayer [supimos::wiedzieliśmy] todo el día.",
+            "pl_translation": "Wczoraj wiedzieliśmy"
           }
         ]
       },
       {
         "es_word": "supisteis",
-        "pl_word": "wiedzieliscie/wiedziałyscie",
+        "pl_word": "wiedzieliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [supisteis::wiedzieliscie/wiedziałyscie] todo el día.",
-            "pl_translation": "Wczoraj wiedzieliscie/wiedziałyscie cały dzień."
+            "es_form": "Ayer [supisteis::wiedzieliście] todo el día.",
+            "pl_translation": "Wczoraj wiedzieliście"
           },
           {
-            "es_form": "Nunca [supisteis::wiedzieliscie/wiedziałyscie] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie wiedzieliscie/wiedziałyscie czegoś takiego."
+            "es_form": "Nunca [supisteis::wiedzieliście] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie wiedzieliście"
           },
           {
-            "es_form": "El mes pasado no [supisteis::wiedzieliscie/wiedziałyscie] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie wiedzieliscie/wiedziałyscie."
+            "es_form": "El mes pasado no [supisteis::wiedzieliście] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie wiedzieliście"
           }
         ]
       },
       {
         "es_word": "supieron",
-        "pl_word": "wiedzieli/wiedziały",
+        "pl_word": "wiedzieli",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +509,22 @@
         },
         "examples": [
           {
-            "es_form": "[supieron::wiedzieli/wiedziały] sin parar durante horas.",
-            "pl_translation": "Wiedzieli/wiedziały bez przerwy przez wiele godzin."
+            "es_form": "[supieron::wiedzieli] sin parar durante horas.",
+            "pl_translation": "Wiedzieli"
           },
           {
-            "es_form": "¿[supieron::wiedzieli/wiedziały] bien el examen?",
-            "pl_translation": "Czy wiedzieli/wiedziały dobrze egzamin?"
+            "es_form": "¿[supieron::wiedzieli] bien el examen?",
+            "pl_translation": "Czy wiedzieli"
           },
           {
-            "es_form": "[supieron::wiedzieli/wiedziały] la semana pasada.",
-            "pl_translation": "Wiedzieli/wiedziały w zeszłym tygodniu."
+            "es_form": "[supieron::wiedzieli] la semana pasada.",
+            "pl_translation": "Wiedzieli"
           }
         ]
       },
       {
         "es_word": "sabré",
-        "pl_word": "będę wiedziec",
+        "pl_word": "będę wiedzieć",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +532,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[sąbré::będę wiedziec] con nosotros mañana?",
-            "pl_translation": "Czy będę wiedziec z nami jutro?"
+            "es_form": "¿[sabré::będę wiedzieć] con nosotros mañana?",
+            "pl_translation": "Czy będę wiedzieć z nami jutro?"
           },
           {
-            "es_form": "Mañana [sąbré::będę wiedziec] más temprano.",
-            "pl_translation": "Jutro będę wiedziec wcześniej."
+            "es_form": "Mañana [sabré::będę wiedzieć] más temprano.",
+            "pl_translation": "Jutro będę wiedzieć wcześniej."
           },
           {
-            "es_form": "Creo que [sąbré::będę wiedziec] bien.",
-            "pl_translation": "Myślę, że będę wiedziec dobrze."
+            "es_form": "Creo que [sabré::będę wiedzieć] bien.",
+            "pl_translation": "Myślę, że będę wiedzieć dobrze."
           }
         ]
       },
       {
         "es_word": "sabrás",
-        "pl_word": "będziesz wiedziec",
+        "pl_word": "będziesz wiedzieć",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +555,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[sąbrás::będziesz wiedziec] con nosotros mañana?",
-            "pl_translation": "Czy będziesz wiedziec z nami jutro?"
+            "es_form": "¿[sabrás::będziesz wiedzieć] con nosotros mañana?",
+            "pl_translation": "Czy będziesz wiedzieć z nami jutro?"
           },
           {
-            "es_form": "Creo que [sąbrás::będziesz wiedziec] bien.",
-            "pl_translation": "Myślę, że będziesz wiedziec dobrze."
+            "es_form": "Creo que [sabrás::będziesz wiedzieć] bien.",
+            "pl_translation": "Myślę, że będziesz wiedzieć dobrze."
           },
           {
-            "es_form": "Te prometo que [sąbrás::będziesz wiedziec] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziesz wiedziec na czas."
+            "es_form": "Te prometo que [sabrás::będziesz wiedzieć] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziesz wiedzieć na czas."
           }
         ]
       },
       {
         "es_word": "sabrá",
-        "pl_word": "będzie wiedziec",
+        "pl_word": "będzie wiedzieć",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +578,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [sąbrá::będzie wiedziec] bien.",
-            "pl_translation": "Myślę, że będzie wiedziec dobrze."
+            "es_form": "Creo que [sabrá::będzie wiedzieć] bien.",
+            "pl_translation": "Myślę, że będzie wiedzieć dobrze."
           },
           {
-            "es_form": "¿[sąbrá::będzie wiedziec] con nosotros mañana?",
-            "pl_translation": "Czy będzie wiedziec z nami jutro?"
+            "es_form": "¿[sabrá::będzie wiedzieć] con nosotros mañana?",
+            "pl_translation": "Czy będzie wiedzieć z nami jutro?"
           },
           {
-            "es_form": "[sąbrá::będzie wiedziec] la proxima semana.",
-            "pl_translation": "Będzie wiedziec w przyszłym tygodniu."
+            "es_form": "[sabrá::będzie wiedzieć] la proxima semana.",
+            "pl_translation": "Będzie wiedzieć w przyszłym tygodniu."
           }
         ]
       },
       {
         "es_word": "sabremos",
-        "pl_word": "będziemy wiedziec",
+        "pl_word": "będziemy wiedzieć",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +601,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [sąbremos::będziemy wiedziec] bien.",
-            "pl_translation": "Myślę, że będziemy wiedziec dobrze."
+            "es_form": "Creo que [sabremos::będziemy wiedzieć] bien.",
+            "pl_translation": "Myślę, że będziemy wiedzieć dobrze."
           },
           {
-            "es_form": "El año que viene [sąbremos::będziemy wiedziec] en España.",
-            "pl_translation": "W przyszłym roku będziemy wiedziec w Hiszpanii."
+            "es_form": "El año que viene [sabremos::będziemy wiedzieć] en España.",
+            "pl_translation": "W przyszłym roku będziemy wiedzieć w Hiszpanii."
           },
           {
-            "es_form": "Mañana [sąbremos::będziemy wiedziec] más temprano.",
-            "pl_translation": "Jutro będziemy wiedziec wcześniej."
+            "es_form": "Mañana [sabremos::będziemy wiedzieć] más temprano.",
+            "pl_translation": "Jutro będziemy wiedzieć wcześniej."
           }
         ]
       },
       {
         "es_word": "sabréis",
-        "pl_word": "będziecie wiedziec",
+        "pl_word": "będziecie wiedzieć",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +624,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [sąbréis::będziecie wiedziec] bien.",
-            "pl_translation": "Myślę, że będziecie wiedziec dobrze."
+            "es_form": "Creo que [sabréis::będziecie wiedzieć] bien.",
+            "pl_translation": "Myślę, że będziecie wiedzieć dobrze."
           },
           {
-            "es_form": "Te prometo que [sąbréis::będziecie wiedziec] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będziecie wiedziec na czas."
+            "es_form": "Te prometo que [sabréis::będziecie wiedzieć] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziecie wiedzieć na czas."
           },
           {
-            "es_form": "Mañana [sąbréis::będziecie wiedziec] más temprano.",
-            "pl_translation": "Jutro będziecie wiedziec wcześniej."
+            "es_form": "Mañana [sabréis::będziecie wiedzieć] más temprano.",
+            "pl_translation": "Jutro będziecie wiedzieć wcześniej."
           }
         ]
       },
       {
         "es_word": "sabrán",
-        "pl_word": "będą wiedziec",
+        "pl_word": "będą wiedzieć",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +647,16 @@
         },
         "examples": [
           {
-            "es_form": "¿[sąbrán::będą wiedziec] con nosotros mañana?",
-            "pl_translation": "Czy będą wiedziec z nami jutro?"
+            "es_form": "¿[sabrán::będą wiedzieć] con nosotros mañana?",
+            "pl_translation": "Czy będą wiedzieć z nami jutro?"
           },
           {
-            "es_form": "Te prometo que [sąbrán::będą wiedziec] a tiempo.",
-            "pl_translation": "Obiecuję ci, że będą wiedziec na czas."
+            "es_form": "Te prometo que [sabrán::będą wiedzieć] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będą wiedzieć na czas."
           },
           {
-            "es_form": "[sąbrán::będą wiedziec] la proxima semana.",
-            "pl_translation": "Będą wiedziec w przyszłym tygodniu."
+            "es_form": "[sabrán::będą wiedzieć] la proxima semana.",
+            "pl_translation": "Będą wiedzieć w przyszłym tygodniu."
           }
         ]
       }

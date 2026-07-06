@@ -6,7 +6,7 @@
     "examples": [
       {
         "es_form": "Esta es [la política::polityka] de la que hablé.",
-        "pl_translation": "To jest polityka, o której mówiłem/am."
+        "pl_translation": "To jest polityka, o której mówiłem"
       },
       {
         "es_form": "[La política::polityka] vive en mi calle.",
@@ -14,7 +14,7 @@
       },
       {
         "es_form": "[La política::polityka] es muy amable.",
-        "pl_translation": "Polityka jest bardzo miły/a."
+        "pl_translation": "Polityka jest bardzo miły"
       }
     ]
   },
@@ -25,11 +25,11 @@
     "examples": [
       {
         "es_form": "Esta es [el político::polityk] de la que hablé.",
-        "pl_translation": "To jest polityk, o której mówiłem/am."
+        "pl_translation": "To jest polityk, o której mówiłem"
       },
       {
         "es_form": "[El político::polityk] me ayudo mucho.",
-        "pl_translation": "Polityk bardzo mi pomógł/pomogła."
+        "pl_translation": "Polityk bardzo mi pomógł"
       },
       {
         "es_form": "Mi [hermano::brat] es [el político::polityk].",
@@ -48,7 +48,7 @@
       },
       {
         "es_form": "Necesito [el partido::partia polityczna] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową partia polityczna."
+        "pl_translation": "Potrzebuję nowy"
       },
       {
         "es_form": "Se me rompio [el partido::partia polityczna].",
@@ -71,7 +71,7 @@
       },
       {
         "es_form": "Necesito [el oposición::opozycja] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową opozycja."
+        "pl_translation": "Potrzebuję nowy"
       }
     ]
   },
@@ -86,7 +86,7 @@
       },
       {
         "es_form": "[La democracia::demokracja] cambio mi vida.",
-        "pl_translation": "Demokracja zmienił/a moje życie."
+        "pl_translation": "Demokracja zmienił"
       },
       {
         "es_form": "Hablamos sobre [la democracia::demokracja].",
@@ -101,15 +101,15 @@
     "examples": [
       {
         "es_form": "Compré [la campaña::kampania] ayer.",
-        "pl_translation": "Kupiłem/am kampania wczoraj."
+        "pl_translation": "Kupiłem"
       },
       {
         "es_form": "Necesito [la campaña::kampania] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową kampania."
+        "pl_translation": "Potrzebuję nowy"
       },
       {
         "es_form": "¿Has visto [la campaña::kampania]?",
-        "pl_translation": "Widziałeś/aś kampania?"
+        "pl_translation": "Widziałeś"
       }
     ]
   },
@@ -124,7 +124,7 @@
       },
       {
         "es_form": "Necesito [el parlamento::parlament] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową parlament."
+        "pl_translation": "Potrzebuję nowy"
       },
       {
         "es_form": "Guarda [el parlamento::parlament] en el armario.",
@@ -139,7 +139,7 @@
     "examples": [
       {
         "es_form": "Esta es [el ministro::minister] de la que hablé.",
-        "pl_translation": "To jest minister, o której mówiłem/am."
+        "pl_translation": "To jest minister, o której mówiłem"
       },
       {
         "es_form": "Conozco a [el ministro::minister].",
@@ -166,7 +166,7 @@
       },
       {
         "es_form": "Tienes [la ley::ustawa] muy fuerte.",
-        "pl_translation": "Masz bardzo silny/a ustawa."
+        "pl_translation": "Masz bardzo silny"
       }
     ]
   },
@@ -177,7 +177,7 @@
     "examples": [
       {
         "es_form": "Necesito [el referéndum::referendum] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową referendum."
+        "pl_translation": "Potrzebuję nowy"
       },
       {
         "es_form": "Guarda [el referéndum::referendum] en el armario.",
@@ -248,7 +248,7 @@
     "forms": [
       {
         "es_word": "voto",
-        "pl_word": "głosować (1.os.lp, ter.)",
+        "pl_word": "głosuję",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +256,22 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [voto::głosować (1.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze głosować z uwagą."
+            "es_form": "Siempre [voto::głosuję] con atencion.",
+            "pl_translation": "Zawsze głosuję z uwagą."
           },
           {
-            "es_form": "[voto::głosować (1.os.lp, ter.)] todos los días.",
-            "pl_translation": "Głosować codziennie."
+            "es_form": "[voto::głosuję] todos los días.",
+            "pl_translation": "Głosuję codziennie."
           },
           {
-            "es_form": "[voto::głosować (1.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Głosować tak jak mnie nauczyłeś/aś."
+            "es_form": "[voto::głosuję] como me enseñaste.",
+            "pl_translation": "Głosuję tak jak mnie nauczyłeś"
           }
         ]
       },
       {
         "es_word": "votas",
-        "pl_word": "głosować (2.os.lp, ter.)",
+        "pl_word": "głosujesz",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +279,22 @@
         },
         "examples": [
           {
-            "es_form": "No [votas::głosować (2.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie głosować zbyt dobrze."
+            "es_form": "No [votas::głosujesz] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie głosujesz zbyt dobrze."
           },
           {
-            "es_form": "[votas::głosować (2.os.lp, ter.)] todos los días.",
-            "pl_translation": "Głosować codziennie."
+            "es_form": "[votas::głosujesz] todos los días.",
+            "pl_translation": "Głosujesz codziennie."
           },
           {
-            "es_form": "¿[votas::głosować (2.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy głosować w weekendy?"
+            "es_form": "¿[votas::głosujesz] los fines de semana?",
+            "pl_translation": "Czy głosujesz w weekendy?"
           }
         ]
       },
       {
         "es_word": "vota",
-        "pl_word": "głosować (3.os.lp, ter.)",
+        "pl_word": "głosuje",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +302,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [vota::głosować (3.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj głosować rano."
+            "es_form": "Normalmente [vota::głosuje] por la mañana.",
+            "pl_translation": "Zazwyczaj głosuje rano."
           },
           {
-            "es_form": "[vota::głosować (3.os.lp, ter.)] todos los días.",
-            "pl_translation": "Głosować codziennie."
+            "es_form": "[vota::głosuje] todos los días.",
+            "pl_translation": "Głosuje codziennie."
           },
           {
-            "es_form": "Siempre [vota::głosować (3.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze głosować z uwagą."
+            "es_form": "Siempre [vota::głosuje] con atencion.",
+            "pl_translation": "Zawsze głosuje z uwagą."
           }
         ]
       },
       {
         "es_word": "votamos",
-        "pl_word": "głosować (1.os.lm, ter.)",
+        "pl_word": "głosujemy",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +325,22 @@
         },
         "examples": [
           {
-            "es_form": "No [votamos::głosować (1.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie głosować zbyt dobrze."
+            "es_form": "No [votamos::głosujemy] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie głosujemy zbyt dobrze."
           },
           {
-            "es_form": "Siempre [votamos::głosować (1.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze głosować z uwagą."
+            "es_form": "Siempre [votamos::głosujemy] con atencion.",
+            "pl_translation": "Zawsze głosujemy z uwagą."
           },
           {
-            "es_form": "[votamos::głosować (1.os.lm, ter.)] todos los días.",
-            "pl_translation": "Głosować codziennie."
+            "es_form": "[votamos::głosujemy] todos los días.",
+            "pl_translation": "Głosujemy codziennie."
           }
         ]
       },
       {
         "es_word": "votáis",
-        "pl_word": "głosować (2.os.lm, ter.)",
+        "pl_word": "głosujecie",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +348,22 @@
         },
         "examples": [
           {
-            "es_form": "[votáis::głosować (2.os.lm, ter.)] todos los días.",
-            "pl_translation": "Głosować codziennie."
+            "es_form": "[votáis::głosujecie] todos los días.",
+            "pl_translation": "Głosujecie codziennie."
           },
           {
-            "es_form": "No [votáis::głosować (2.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie głosować zbyt dobrze."
+            "es_form": "No [votáis::głosujecie] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie głosujecie zbyt dobrze."
           },
           {
-            "es_form": "[votáis::głosować (2.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Głosować tak jak mnie nauczyłeś/aś."
+            "es_form": "[votáis::głosujecie] como me enseñaste.",
+            "pl_translation": "Głosujecie tak jak mnie nauczyłeś"
           }
         ]
       },
       {
         "es_word": "votan",
-        "pl_word": "głosować (3.os.lm, ter.)",
+        "pl_word": "głosują",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +371,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [votan::głosować (3.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj głosować rano."
+            "es_form": "Normalmente [votan::głosują] por la mañana.",
+            "pl_translation": "Zazwyczaj głosują rano."
           },
           {
-            "es_form": "[votan::głosować (3.os.lm, ter.)] todos los días.",
-            "pl_translation": "Głosować codziennie."
+            "es_form": "[votan::głosują] todos los días.",
+            "pl_translation": "Głosują codziennie."
           },
           {
-            "es_form": "[votan::głosować (3.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Głosować tak jak mnie nauczyłeś/aś."
+            "es_form": "[votan::głosują] como me enseñaste.",
+            "pl_translation": "Głosują tak jak mnie nauczyłeś"
           }
         ]
       },
       {
         "es_word": "voté",
-        "pl_word": "głosować (1.os.lp, przesz.)",
+        "pl_word": "głosowałem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "[voté::głosować (1.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Głosować bez przerwy przez wiele godzin."
+            "es_form": "[voté::głosowałem] sin parar durante horas.",
+            "pl_translation": "Głosowałem"
           },
           {
-            "es_form": "¿[voté::głosować (1.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy głosować dobrze egzamin?"
+            "es_form": "¿[voté::głosowałem] bien el examen?",
+            "pl_translation": "Czy głosowałem"
           },
           {
-            "es_form": "Nunca [voté::głosować (1.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie głosować czegoś takiego."
+            "es_form": "Nunca [voté::głosowałem] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie głosowałem"
           }
         ]
       },
       {
         "es_word": "votaste",
-        "pl_word": "głosować (2.os.lp, przesz.)",
+        "pl_word": "głosowałeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [votaste::głosować (2.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie głosować."
+            "es_form": "El mes pasado no [votaste::głosowałeś] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie głosowałeś"
           },
           {
-            "es_form": "[votaste::głosować (2.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Głosować w zeszłym tygodniu."
+            "es_form": "[votaste::głosowałeś] la semana pasada.",
+            "pl_translation": "Głosowałeś"
           },
           {
-            "es_form": "Nunca [votaste::głosować (2.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie głosować czegoś takiego."
+            "es_form": "Nunca [votaste::głosowałeś] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie głosowałeś"
           }
         ]
       },
       {
         "es_word": "votó",
-        "pl_word": "głosować (3.os.lp, przesz.)",
+        "pl_word": "głosował",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [votó::głosować (3.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj głosować cały dzień."
+            "es_form": "Ayer [votó::głosował] todo el día.",
+            "pl_translation": "Wczoraj głosował"
           },
           {
-            "es_form": "[votó::głosować (3.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Głosować bez przerwy przez wiele godzin."
+            "es_form": "[votó::głosował] sin parar durante horas.",
+            "pl_translation": "Głosował"
           },
           {
-            "es_form": "¿[votó::głosować (3.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy głosować dobrze egzamin?"
+            "es_form": "¿[votó::głosował] bien el examen?",
+            "pl_translation": "Czy głosował"
           }
         ]
       },
       {
         "es_word": "votamos",
-        "pl_word": "głosować (1.os.lm, przesz.)",
+        "pl_word": "głosowaliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [votamos::głosować (1.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie głosować czegoś takiego."
+            "es_form": "Nunca [votamos::głosowaliśmy] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie głosowaliśmy"
           },
           {
-            "es_form": "El mes pasado no [votamos::głosować (1.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie głosować."
+            "es_form": "El mes pasado no [votamos::głosowaliśmy] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie głosowaliśmy"
           },
           {
-            "es_form": "Ayer [votamos::głosować (1.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj głosować cały dzień."
+            "es_form": "Ayer [votamos::głosowaliśmy] todo el día.",
+            "pl_translation": "Wczoraj głosowaliśmy"
           }
         ]
       },
       {
         "es_word": "votasteis",
-        "pl_word": "głosować (2.os.lm, przesz.)",
+        "pl_word": "głosowaliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "[votasteis::głosować (2.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Głosować w zeszłym tygodniu."
+            "es_form": "[votasteis::głosowaliście] la semana pasada.",
+            "pl_translation": "Głosowaliście"
           },
           {
-            "es_form": "Nunca [votasteis::głosować (2.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie głosować czegoś takiego."
+            "es_form": "Nunca [votasteis::głosowaliście] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie głosowaliście"
           },
           {
-            "es_form": "El mes pasado no [votasteis::głosować (2.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie głosować."
+            "es_form": "El mes pasado no [votasteis::głosowaliście] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie głosowaliście"
           }
         ]
       },
       {
         "es_word": "votaron",
-        "pl_word": "głosować (3.os.lm, przesz.)",
+        "pl_word": "głosowali",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +509,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [votaron::głosować (3.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie głosować."
+            "es_form": "El mes pasado no [votaron::głosowali] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie głosowali"
           },
           {
-            "es_form": "[votaron::głosować (3.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Głosować w zeszłym tygodniu."
+            "es_form": "[votaron::głosowali] la semana pasada.",
+            "pl_translation": "Głosowali"
           },
           {
-            "es_form": "[votaron::głosować (3.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Głosować bez przerwy przez wiele godzin."
+            "es_form": "[votaron::głosowali] sin parar durante horas.",
+            "pl_translation": "Głosowali"
           }
         ]
       },
       {
         "es_word": "voté",
-        "pl_word": "głosować (1.os.lp, przysz.)",
+        "pl_word": "będę głosować",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +532,22 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [voté::głosować (1.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro głosować wcześniej."
+            "es_form": "Mañana [voté::będę głosować] más temprano.",
+            "pl_translation": "Jutro będę głosować wcześniej."
           },
           {
-            "es_form": "Te prometo que [voté::głosować (1.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że głosować na czas."
+            "es_form": "Te prometo que [voté::będę głosować] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będę głosować na czas."
           },
           {
-            "es_form": "[voté::głosować (1.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Głosować w przyszłym tygodniu."
+            "es_form": "[voté::będę głosować] la proxima semana.",
+            "pl_translation": "Będę głosować w przyszłym tygodniu."
           }
         ]
       },
       {
         "es_word": "votás",
-        "pl_word": "głosować (2.os.lp, przysz.)",
+        "pl_word": "będziesz głosować",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +555,22 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [votás::głosować (2.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że głosować na czas."
+            "es_form": "Te prometo que [votás::będziesz głosować] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziesz głosować na czas."
           },
           {
-            "es_form": "[votás::głosować (2.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Głosować w przyszłym tygodniu."
+            "es_form": "[votás::będziesz głosować] la proxima semana.",
+            "pl_translation": "Będziesz głosować w przyszłym tygodniu."
           },
           {
-            "es_form": "¿[votás::głosować (2.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy głosować z nami jutro?"
+            "es_form": "¿[votás::będziesz głosować] con nosotros mañana?",
+            "pl_translation": "Czy będziesz głosować z nami jutro?"
           }
         ]
       },
       {
         "es_word": "votá",
-        "pl_word": "głosować (3.os.lp, przysz.)",
+        "pl_word": "będzie głosować",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +578,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [votá::głosować (3.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że głosować dobrze."
+            "es_form": "Creo que [votá::będzie głosować] bien.",
+            "pl_translation": "Myślę, że będzie głosować dobrze."
           },
           {
-            "es_form": "¿[votá::głosować (3.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy głosować z nami jutro?"
+            "es_form": "¿[votá::będzie głosować] con nosotros mañana?",
+            "pl_translation": "Czy będzie głosować z nami jutro?"
           },
           {
-            "es_form": "El año que viene [votá::głosować (3.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku głosować w Hiszpanii."
+            "es_form": "El año que viene [votá::będzie głosować] en España.",
+            "pl_translation": "W przyszłym roku będzie głosować w Hiszpanii."
           }
         ]
       },
       {
         "es_word": "votemos",
-        "pl_word": "głosować (1.os.lm, przysz.)",
+        "pl_word": "będziemy głosować",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +601,22 @@
         },
         "examples": [
           {
-            "es_form": "[votemos::głosować (1.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Głosować w przyszłym tygodniu."
+            "es_form": "[votemos::będziemy głosować] la proxima semana.",
+            "pl_translation": "Będziemy głosować w przyszłym tygodniu."
           },
           {
-            "es_form": "Creo que [votemos::głosować (1.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że głosować dobrze."
+            "es_form": "Creo que [votemos::będziemy głosować] bien.",
+            "pl_translation": "Myślę, że będziemy głosować dobrze."
           },
           {
-            "es_form": "Te prometo que [votemos::głosować (1.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że głosować na czas."
+            "es_form": "Te prometo que [votemos::będziemy głosować] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziemy głosować na czas."
           }
         ]
       },
       {
         "es_word": "votéis",
-        "pl_word": "głosować (2.os.lm, przysz.)",
+        "pl_word": "będziecie głosować",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +624,22 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [votéis::głosować (2.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro głosować wcześniej."
+            "es_form": "Mañana [votéis::będziecie głosować] más temprano.",
+            "pl_translation": "Jutro będziecie głosować wcześniej."
           },
           {
-            "es_form": "Creo que [votéis::głosować (2.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że głosować dobrze."
+            "es_form": "Creo que [votéis::będziecie głosować] bien.",
+            "pl_translation": "Myślę, że będziecie głosować dobrze."
           },
           {
-            "es_form": "[votéis::głosować (2.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Głosować w przyszłym tygodniu."
+            "es_form": "[votéis::będziecie głosować] la proxima semana.",
+            "pl_translation": "Będziecie głosować w przyszłym tygodniu."
           }
         ]
       },
       {
         "es_word": "votán",
-        "pl_word": "głosować (3.os.lm, przysz.)",
+        "pl_word": "będą głosować",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +647,16 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [votán::głosować (3.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro głosować wcześniej."
+            "es_form": "Mañana [votán::będą głosować] más temprano.",
+            "pl_translation": "Jutro będą głosować wcześniej."
           },
           {
-            "es_form": "Te prometo que [votán::głosować (3.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że głosować na czas."
+            "es_form": "Te prometo que [votán::będą głosować] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będą głosować na czas."
           },
           {
-            "es_form": "[votán::głosować (3.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Głosować w przyszłym tygodniu."
+            "es_form": "[votán::będą głosować] la proxima semana.",
+            "pl_translation": "Będą głosować w przyszłym tygodniu."
           }
         ]
       }

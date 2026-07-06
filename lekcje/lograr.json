@@ -6,7 +6,7 @@
     "examples": [
       {
         "es_form": "[El éxito::sukces] es muy importante.",
-        "pl_translation": "Sukces jest bardzo ważny/a."
+        "pl_translation": "Sukces jest bardzo ważny."
       },
       {
         "es_form": "[El éxito::sukces] es la clave del éxito.",
@@ -14,7 +14,7 @@
       },
       {
         "es_form": "Hablamos sobre [el éxito::sukces].",
-        "pl_translation": "Rozmawialiśmy o sukces."
+        "pl_translation": "Rozmawialiśmy o sukcesie."
       }
     ]
   },
@@ -25,15 +25,15 @@
     "examples": [
       {
         "es_form": "[El fracaso::porażka] se me hizo eterno.",
-        "pl_translation": "Porażka mi się dłużył/a."
+        "pl_translation": "Porażka mi się dłużyła."
       },
       {
         "es_form": "No tengo [el fracaso::porażka] suficiente.",
-        "pl_translation": "Nie mam wystarczająco porażka."
+        "pl_translation": "Nie mam wystarczająco porażek."
       },
       {
         "es_form": "Esperé [el fracaso::porażka] entero.",
-        "pl_translation": "Czekałem/am cały/całą porażka."
+        "pl_translation": "Czekałem"
       }
     ]
   },
@@ -43,8 +43,8 @@
     "pl_word": "wysiłek",
     "examples": [
       {
-        "es_form": "[El esfuerzo::wysiłek] cambio mi vida.",
-        "pl_translation": "Wysiłek zmienił/a moje życie."
+        "es_form": "[El esfuerzo::wysiłek] cambió mi vida.",
+        "pl_translation": "Wysiłek zmienił moje życie."
       },
       {
         "es_form": "[El esfuerzo::wysiłek] es la clave del éxito.",
@@ -52,26 +52,26 @@
       },
       {
         "es_form": "No entiendo [el esfuerzo::wysiłek].",
-        "pl_translation": "Nie rozumiem wysiłek."
+        "pl_translation": "Nie rozumiem wysiłku."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El determinación",
+    "es_word": "La determinación",
     "pl_word": "determinacja",
     "examples": [
       {
-        "es_form": "Compré [el determinación::determinacja] ayer.",
-        "pl_translation": "Kupiłem/am determinacja wczoraj."
+        "es_form": "Admiro [la determinación::determinacja].",
+        "pl_translation": "Podziwiam determinację."
       },
       {
-        "es_form": "Guarda [el determinación::determinacja] en el armario.",
-        "pl_translation": "Schowaj determinacja do szafy."
+        "es_form": "[La determinación::determinacja] es clave.",
+        "pl_translation": "Determinacja jest kluczowa."
       },
       {
-        "es_form": "Se me rompio [el determinación::determinacja].",
-        "pl_translation": "Zepsuł mi się determinacja."
+        "es_form": "Mostró [la determinación::determinacja] necesaria.",
+        "pl_translation": "Pokazał"
       }
     ]
   },
@@ -82,11 +82,11 @@
     "examples": [
       {
         "es_form": "Hablamos sobre [el progreso::postęp].",
-        "pl_translation": "Rozmawialiśmy o postęp."
+        "pl_translation": "Rozmawialiśmy o postępie."
       },
       {
-        "es_form": "[El progreso::postęp] cambio mi vida.",
-        "pl_translation": "Postęp zmienił/a moje życie."
+        "es_form": "[El progreso::postęp] cambió mi vida.",
+        "pl_translation": "Postęp zmienił moje życie."
       },
       {
         "es_form": "Tienes que aceptar [el progreso::postęp].",
@@ -105,30 +105,30 @@
       },
       {
         "es_form": "No entiendo [el sueño::marzenie].",
-        "pl_translation": "Nie rozumiem marzenie."
+        "pl_translation": "Nie rozumiem marzenia."
       },
       {
         "es_form": "Hablamos sobre [el sueño::marzenie].",
-        "pl_translation": "Rozmawialiśmy o marzenie."
+        "pl_translation": "Rozmawialiśmy o marzeniu."
       }
     ]
   },
   {
     "type": "noun",
     "es_word": "El sentido",
-    "pl_word": "sens, znaczenie",
+    "pl_word": "sens",
     "examples": [
       {
-        "es_form": "[El sentido::sens, znaczenie] es la clave del éxito.",
-        "pl_translation": "Sens, znaczenie jest kluczem do sukcesu."
+        "es_form": "[El sentido::sens] es la clave del éxito.",
+        "pl_translation": "Sens jest kluczem do sukcesu."
       },
       {
-        "es_form": "[El sentido::sens, znaczenie] es muy importante.",
-        "pl_translation": "Sens, znaczenie jest bardzo ważny/a."
+        "es_form": "[El sentido::sens] es muy importante.",
+        "pl_translation": "Sens jest bardzo ważny."
       },
       {
-        "es_form": "Hablamos sobre [el sentido::sens, znaczenie].",
-        "pl_translation": "Rozmawialiśmy o sens, znaczenie."
+        "es_form": "Hablamos sobre [el sentido::sens].",
+        "pl_translation": "Rozmawialiśmy o sensie."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "wartość",
     "examples": [
       {
-        "es_form": "[El valor::wartość] cambio mi vida.",
-        "pl_translation": "Wartość zmienił/a moje życie."
+        "es_form": "[El valor::wartość] cambió mi vida.",
+        "pl_translation": "Wartość zmieniła moje życie."
       },
       {
         "es_form": "Hablamos sobre [el valor::wartość].",
-        "pl_translation": "Rozmawialiśmy o wartość."
+        "pl_translation": "Rozmawialiśmy o wartości."
       },
       {
         "es_form": "[El valor::wartość] es muy importante.",
-        "pl_translation": "Wartość jest bardzo ważny/a."
+        "pl_translation": "Wartość jest bardzo ważna."
       }
     ]
   },
@@ -162,11 +162,11 @@
       },
       {
         "es_form": "[La verdad::prawda] es muy importante.",
-        "pl_translation": "Prawda jest bardzo ważny/a."
+        "pl_translation": "Prawda jest bardzo ważna."
       },
       {
         "es_form": "No entiendo [la verdad::prawda].",
-        "pl_translation": "Nie rozumiem prawda."
+        "pl_translation": "Nie rozumiem prawdy."
       }
     ]
   },
@@ -177,11 +177,11 @@
     "examples": [
       {
         "es_form": "[La mentira::kłamstwo] es muy importante.",
-        "pl_translation": "Kłamstwo jest bardzo ważny/a."
+        "pl_translation": "Kłamstwo jest bardzo ważne."
       },
       {
         "es_form": "No entiendo [la mentira::kłamstwo].",
-        "pl_translation": "Nie rozumiem kłamstwo."
+        "pl_translation": "Nie rozumiem kłamstwa."
       },
       {
         "es_form": "Tienes que aceptar [la mentira::kłamstwo].",
@@ -195,16 +195,16 @@
     "pl_word": "prawdziwy",
     "examples": [
       {
-        "es_form": "Es una persona muy [verdadero::prawdziwy].",
-        "pl_translation": "To jest bardzo prawdziwy osoba."
+        "es_form": "Es una persona muy [verdadera::prawdziwa].",
+        "pl_translation": "To jest bardzo prawdziwa osoba."
       },
       {
         "es_form": "Este coche es [verdadero::prawdziwy].",
         "pl_translation": "Ten samochód jest prawdziwy."
       },
       {
-        "es_form": "Hace un día [verdadero::prawdziwy].",
-        "pl_translation": "Jest prawdziwy dzień."
+        "es_form": "Es un hecho [verdadero::prawdziwy].",
+        "pl_translation": "To jest prawdziwy fakt."
       }
     ]
   },
@@ -214,41 +214,41 @@
     "pl_word": "fałszywy",
     "examples": [
       {
-        "es_form": "Se compro un vestido [falso::fałszywy].",
-        "pl_translation": "Kupiła sobie fałszywy sukienkę."
+        "es_form": "Se compró un vestido [falso::fałszywy].",
+        "pl_translation": "Kupiła sobie fałszywą sukienkę."
       },
       {
-        "es_form": "Nada es más [falso::fałszywy] que la familia.",
-        "pl_translation": "Nic nie jest fałszywy od rodziny."
+        "es_form": "Nada es más [falso::fałszywe] que la mentira.",
+        "pl_translation": "Nic nie jest bardziej fałszywe niż kłamstwo."
       },
       {
-        "es_form": "Es una persona muy [falso::fałszywy].",
-        "pl_translation": "To jest bardzo fałszywy osoba."
+        "es_form": "Es una persona muy [falsa::fałszywa].",
+        "pl_translation": "To jest bardzo fałszywa osoba."
       }
     ]
   },
   {
     "type": "verb",
     "es_word": "lograr",
-    "pl_word": "osiągać, zdołać",
+    "pl_word": "osiągać",
     "examples": [
       {
-        "es_form": "Hay que [lograr::osiągać, zdołać] con cuidado.",
-        "pl_translation": "Trzeba osiągać, zdołać ostrożnie."
+        "es_form": "Hay que [lograr::osiągać] con cuidado.",
+        "pl_translation": "Trzeba osiągać ostrożnie."
       },
       {
-        "es_form": "Voy a [lograr::osiągać, zdołać] mañana.",
-        "pl_translation": "Będę osiągać, zdołać jutro."
+        "es_form": "Voy a [lograr::osiągać] mañana.",
+        "pl_translation": "Będę osiągać jutro."
       },
       {
-        "es_form": "Prefiero [lograr::osiągać, zdołać] en casa.",
-        "pl_translation": "Wolę osiągać, zdołać w domu."
+        "es_form": "Prefiero [lograr::osiągać] en casa.",
+        "pl_translation": "Wolę osiągać w domu."
       }
     ],
     "forms": [
       {
         "es_word": "logro",
-        "pl_word": "osiągać (1.os.lp, ter.)",
+        "pl_word": "osiągam",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +256,22 @@
         },
         "examples": [
           {
-            "es_form": "No [logro::osiągać (1.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie osiągać zbyt dobrze."
+            "es_form": "No [logro::osiągam] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie osiągam zbyt dobrze."
           },
           {
-            "es_form": "¿[logro::osiągać (1.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy osiągać w weekendy?"
+            "es_form": "¿[logro::osiągam] los fines de semana?",
+            "pl_translation": "Czy osiągam w weekendy?"
           },
           {
-            "es_form": "[logro::osiągać (1.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Osiągać tak jak mnie nauczyłeś/aś."
+            "es_form": "[logro::osiągam] como me enseñaste.",
+            "pl_translation": "Osiągam tak jak mnie nauczyłeś"
           }
         ]
       },
       {
         "es_word": "logras",
-        "pl_word": "osiągać (2.os.lp, ter.)",
+        "pl_word": "osiągasz",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +279,22 @@
         },
         "examples": [
           {
-            "es_form": "[logras::osiągać (2.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Osiągać tak jak mnie nauczyłeś/aś."
+            "es_form": "[logras::osiągasz] como me enseñaste.",
+            "pl_translation": "Osiągasz tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "¿[logras::osiągać (2.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy osiągać w weekendy?"
+            "es_form": "¿[logras::osiągasz] los fines de semana?",
+            "pl_translation": "Czy osiągasz w weekendy?"
           },
           {
-            "es_form": "Normalmente [logras::osiągać (2.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj osiągać rano."
+            "es_form": "Normalmente [logras::osiągasz] por la mañana.",
+            "pl_translation": "Zazwyczaj osiągasz rano."
           }
         ]
       },
       {
         "es_word": "logra",
-        "pl_word": "osiągać (3.os.lp, ter.)",
+        "pl_word": "osiąga",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +302,22 @@
         },
         "examples": [
           {
-            "es_form": "No [logra::osiągać (3.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie osiągać zbyt dobrze."
+            "es_form": "No [logra::osiąga] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie osiąga zbyt dobrze."
           },
           {
-            "es_form": "Normalmente [logra::osiągać (3.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj osiągać rano."
+            "es_form": "Normalmente [logra::osiąga] por la mañana.",
+            "pl_translation": "Zazwyczaj osiąga rano."
           },
           {
-            "es_form": "¿[logra::osiągać (3.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy osiągać w weekendy?"
+            "es_form": "¿[logra::osiąga] los fines de semana?",
+            "pl_translation": "Czy osiąga w weekendy?"
           }
         ]
       },
       {
         "es_word": "logramos",
-        "pl_word": "osiągać (1.os.lm, ter.)",
+        "pl_word": "osiągamy",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +325,22 @@
         },
         "examples": [
           {
-            "es_form": "[logramos::osiągać (1.os.lm, ter.)] todos los días.",
-            "pl_translation": "Osiągać codziennie."
+            "es_form": "[logramos::osiągamy] todos los días.",
+            "pl_translation": "Osiągamy codziennie."
           },
           {
-            "es_form": "[logramos::osiągać (1.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Osiągać tak jak mnie nauczyłeś/aś."
+            "es_form": "[logramos::osiągamy] como me enseñaste.",
+            "pl_translation": "Osiągamy tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "Normalmente [logramos::osiągać (1.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj osiągać rano."
+            "es_form": "Normalmente [logramos::osiągamy] por la mañana.",
+            "pl_translation": "Zazwyczaj osiągamy rano."
           }
         ]
       },
       {
         "es_word": "lográis",
-        "pl_word": "osiągać (2.os.lm, ter.)",
+        "pl_word": "osiągacie",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +348,22 @@
         },
         "examples": [
           {
-            "es_form": "[lográis::osiągać (2.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Osiągać tak jak mnie nauczyłeś/aś."
+            "es_form": "[lográis::osiągacie] como me enseñaste.",
+            "pl_translation": "Osiągacie tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "No [lográis::osiągać (2.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie osiągać zbyt dobrze."
+            "es_form": "No [lográis::osiągacie] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie osiągacie zbyt dobrze."
           },
           {
-            "es_form": "¿[lográis::osiągać (2.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy osiągać w weekendy?"
+            "es_form": "¿[lográis::osiągacie] los fines de semana?",
+            "pl_translation": "Czy osiągacie w weekendy?"
           }
         ]
       },
       {
         "es_word": "logran",
-        "pl_word": "osiągać (3.os.lm, ter.)",
+        "pl_word": "osiągają",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +371,22 @@
         },
         "examples": [
           {
-            "es_form": "[logran::osiągać (3.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Osiągać tak jak mnie nauczyłeś/aś."
+            "es_form": "[logran::osiągają] como me enseñaste.",
+            "pl_translation": "Osiągają tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "Siempre [logran::osiągać (3.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze osiągać z uwagą."
+            "es_form": "Siempre [logran::osiągają] con atención.",
+            "pl_translation": "Zawsze osiągają z uwagą."
           },
           {
-            "es_form": "[logran::osiągać (3.os.lm, ter.)] todos los días.",
-            "pl_translation": "Osiągać codziennie."
+            "es_form": "[logran::osiągają] todos los días.",
+            "pl_translation": "Osiągają codziennie."
           }
         ]
       },
       {
         "es_word": "logré",
-        "pl_word": "osiągać (1.os.lp, przesz.)",
+        "pl_word": "osiągnąłem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [logré::osiągać (1.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie osiągać czegoś takiego."
+            "es_form": "Nunca [logré::osiągnąłem] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie osiągnąłem czegoś takiego."
           },
           {
-            "es_form": "[logré::osiągać (1.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Osiągać bez przerwy przez wiele godzin."
+            "es_form": "[logré::osiągnąłem] sin parar durante horas.",
+            "pl_translation": "Osiągnąłem bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "Ayer [logré::osiągać (1.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj osiągać cały dzień."
+            "es_form": "Ayer [logré::osiągnąłem] todo el día.",
+            "pl_translation": "Wczoraj osiągnąłem cały dzień."
           }
         ]
       },
       {
         "es_word": "lograste",
-        "pl_word": "osiągać (2.os.lp, przesz.)",
+        "pl_word": "osiągnąłeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "[lograste::osiągać (2.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Osiągać bez przerwy przez wiele godzin."
+            "es_form": "[lograste::osiągnąłeś] sin parar durante horas.",
+            "pl_translation": "Osiągnąłeś bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "¿[lograste::osiągać (2.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy osiągać dobrze egzamin?"
+            "es_form": "¿[lograste::osiągnąłeś] bien el objetivo?",
+            "pl_translation": "Czy osiągnąłeś dobrze cel?"
           },
           {
-            "es_form": "[lograste::osiągać (2.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Osiągać w zeszłym tygodniu."
+            "es_form": "[lograste::osiągnąłeś] la semana pasada.",
+            "pl_translation": "Osiągnąłeś w zeszłym tygodniu."
           }
         ]
       },
       {
         "es_word": "logró",
-        "pl_word": "osiągać (3.os.lp, przesz.)",
+        "pl_word": "osiągnął",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [logró::osiągać (3.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie osiągać czegoś takiego."
+            "es_form": "Nunca [logró::osiągnął] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie osiągnął czegoś takiego."
           },
           {
-            "es_form": "[logró::osiągać (3.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Osiągać bez przerwy przez wiele godzin."
+            "es_form": "[logró::osiągnął] sin parar durante horas.",
+            "pl_translation": "Osiągnął bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "[logró::osiągać (3.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Osiągać w zeszłym tygodniu."
+            "es_form": "[logró::osiągnął] la semana pasada.",
+            "pl_translation": "Osiągnął w zeszłym tygodniu."
           }
         ]
       },
       {
         "es_word": "logramos",
-        "pl_word": "osiągać (1.os.lm, przesz.)",
+        "pl_word": "osiągnęliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "[logramos::osiągać (1.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Osiągać w zeszłym tygodniu."
+            "es_form": "[logramos::osiągnęliśmy] la semana pasada.",
+            "pl_translation": "Osiągnęliśmy w zeszłym tygodniu."
           },
           {
-            "es_form": "Ayer [logramos::osiągać (1.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj osiągać cały dzień."
+            "es_form": "Ayer [logramos::osiągnęliśmy] todo el día.",
+            "pl_translation": "Wczoraj osiągnęliśmy cały dzień."
           },
           {
-            "es_form": "El mes pasado no [logramos::osiągać (1.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie osiągać."
+            "es_form": "El mes pasado no [logramos::osiągnęliśmy] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie osiągnęliśmy."
           }
         ]
       },
       {
         "es_word": "lograsteis",
-        "pl_word": "osiągać (2.os.lm, przesz.)",
+        "pl_word": "osiągnęliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "[lograsteis::osiągać (2.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Osiągać w zeszłym tygodniu."
+            "es_form": "[lograsteis::osiągnęliście] la semana pasada.",
+            "pl_translation": "Osiągnęliście w zeszłym tygodniu."
           },
           {
-            "es_form": "[lograsteis::osiągać (2.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Osiągać bez przerwy przez wiele godzin."
+            "es_form": "[lograsteis::osiągnęliście] sin parar durante horas.",
+            "pl_translation": "Osiągnęliście bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "El mes pasado no [lograsteis::osiągać (2.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie osiągać."
+            "es_form": "El mes pasado no [lograsteis::osiągnęliście] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie osiągnęliście."
           }
         ]
       },
       {
         "es_word": "lograron",
-        "pl_word": "osiągać (3.os.lm, przesz.)",
+        "pl_word": "osiągnęli",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +509,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [lograron::osiągać (3.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj osiągać cały dzień."
+            "es_form": "Ayer [lograron::osiągnęli] todo el día.",
+            "pl_translation": "Wczoraj osiągnęli cały dzień."
           },
           {
-            "es_form": "¿[lograron::osiągać (3.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy osiągać dobrze egzamin?"
+            "es_form": "¿[lograron::osiągnęli] bien el objetivo?",
+            "pl_translation": "Czy osiągnęli dobrze cel?"
           },
           {
-            "es_form": "[lograron::osiągać (3.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Osiągać w zeszłym tygodniu."
+            "es_form": "[lograron::osiągnęli] la semana pasada.",
+            "pl_translation": "Osiągnęli w zeszłym tygodniu."
           }
         ]
       },
       {
-        "es_word": "logré",
-        "pl_word": "osiągać (1.os.lp, przysz.)",
+        "es_word": "lograré",
+        "pl_word": "będę osiągać",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +532,22 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [logré::osiągać (1.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku osiągać w Hiszpanii."
+            "es_form": "El año que viene [lograré::będę osiągać] en España.",
+            "pl_translation": "W przyszłym roku będę osiągać w Hiszpanii."
           },
           {
-            "es_form": "Mañana [logré::osiągać (1.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro osiągać wcześniej."
+            "es_form": "Mañana [lograré::będę osiągać] más temprano.",
+            "pl_translation": "Jutro będę osiągać wcześniej."
           },
           {
-            "es_form": "Te prometo que [logré::osiągać (1.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że osiągać na czas."
+            "es_form": "Te prometo que [lograré::będę osiągać] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będę osiągać na czas."
           }
         ]
       },
       {
-        "es_word": "lográs",
-        "pl_word": "osiągać (2.os.lp, przysz.)",
+        "es_word": "lograrás",
+        "pl_word": "będziesz osiągać",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +555,22 @@
         },
         "examples": [
           {
-            "es_form": "[lográs::osiągać (2.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Osiągać w przyszłym tygodniu."
+            "es_form": "[lograrás::będziesz osiągać] la próxima semana.",
+            "pl_translation": "Będziesz osiągać w przyszłym tygodniu."
           },
           {
-            "es_form": "¿[lográs::osiągać (2.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy osiągać z nami jutro?"
+            "es_form": "¿[lograrás::będziesz osiągać] con nosotros mañana?",
+            "pl_translation": "Czy będziesz osiągać z nami jutro?"
           },
           {
-            "es_form": "Mañana [lográs::osiągać (2.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro osiągać wcześniej."
+            "es_form": "Mañana [lograrás::będziesz osiągać] más temprano.",
+            "pl_translation": "Jutro będziesz osiągać wcześniej."
           }
         ]
       },
       {
-        "es_word": "lográ",
-        "pl_word": "osiągać (3.os.lp, przysz.)",
+        "es_word": "logrará",
+        "pl_word": "będzie osiągać",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +578,22 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [lográ::osiągać (3.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku osiągać w Hiszpanii."
+            "es_form": "El año que viene [logrará::będzie osiągać] en España.",
+            "pl_translation": "W przyszłym roku będzie osiągać w Hiszpanii."
           },
           {
-            "es_form": "Creo que [lográ::osiągać (3.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że osiągać dobrze."
+            "es_form": "Creo que [logrará::będzie osiągać] bien.",
+            "pl_translation": "Myślę, że będzie osiągać dobrze."
           },
           {
-            "es_form": "[lográ::osiągać (3.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Osiągać w przyszłym tygodniu."
+            "es_form": "[logrará::będzie osiągać] la próxima semana.",
+            "pl_translation": "Będzie osiągać w przyszłym tygodniu."
           }
         ]
       },
       {
-        "es_word": "logremos",
-        "pl_word": "osiągać (1.os.lm, przysz.)",
+        "es_word": "lograremos",
+        "pl_word": "będziemy osiągać",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +601,22 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [logremos::osiągać (1.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro osiągać wcześniej."
+            "es_form": "Mañana [lograremos::będziemy osiągać] más temprano.",
+            "pl_translation": "Jutro będziemy osiągać wcześniej."
           },
           {
-            "es_form": "Te prometo que [logremos::osiągać (1.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że osiągać na czas."
+            "es_form": "Te prometo que [lograremos::będziemy osiągać] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziemy osiągać na czas."
           },
           {
-            "es_form": "¿[logremos::osiągać (1.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy osiągać z nami jutro?"
+            "es_form": "¿[lograremos::będziemy osiągać] con vosotros mañana?",
+            "pl_translation": "Czy będziemy osiągać z wami jutro?"
           }
         ]
       },
       {
-        "es_word": "logréis",
-        "pl_word": "osiągać (2.os.lm, przysz.)",
+        "es_word": "lograréis",
+        "pl_word": "będziecie osiągać",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +624,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [logréis::osiągać (2.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że osiągać dobrze."
+            "es_form": "Creo que [lograréis::będziecie osiągać] bien.",
+            "pl_translation": "Myślę, że będziecie osiągać dobrze."
           },
           {
-            "es_form": "[logréis::osiągać (2.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Osiągać w przyszłym tygodniu."
+            "es_form": "[lograréis::będziecie osiągać] la próxima semana.",
+            "pl_translation": "Będziecie osiągać w przyszłym tygodniu."
           },
           {
-            "es_form": "El año que viene [logréis::osiągać (2.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku osiągać w Hiszpanii."
+            "es_form": "El año que viene [lograréis::będziecie osiągać] en España.",
+            "pl_translation": "W przyszłym roku będziecie osiągać w Hiszpanii."
           }
         ]
       },
       {
-        "es_word": "lográn",
-        "pl_word": "osiągać (3.os.lm, przysz.)",
+        "es_word": "lograrán",
+        "pl_word": "będą osiągać",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +647,16 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [lográn::osiągać (3.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że osiągać na czas."
+            "es_form": "Te prometo que [lograrán::będą osiągać] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będą osiągać na czas."
           },
           {
-            "es_form": "¿[lográn::osiągać (3.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy osiągać z nami jutro?"
+            "es_form": "¿[lograrán::będą osiągać] con nosotros mañana?",
+            "pl_translation": "Czy będą osiągać z nami jutro?"
           },
           {
-            "es_form": "Mañana [lográn::osiągać (3.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro osiągać wcześniej."
+            "es_form": "Mañana [lograrán::będą osiągać] más temprano.",
+            "pl_translation": "Jutro będą osiągać wcześniej."
           }
         ]
       }

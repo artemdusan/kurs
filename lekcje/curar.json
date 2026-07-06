@@ -5,8 +5,8 @@
     "pl_word": "pielęgniarz",
     "examples": [
       {
-        "es_form": "Esta es [el enfermero::pielęgniarz] de la que hablé.",
-        "pl_translation": "To jest pielęgniarz, o której mówiłem/am."
+        "es_form": "Este es [el enfermero::pielęgniarz] del que hablé.",
+        "pl_translation": "To jest pielęgniarz, o którym mówiłem"
       },
       {
         "es_form": "[El enfermero::pielęgniarz] vive en mi calle.",
@@ -25,11 +25,11 @@
     "examples": [
       {
         "es_form": "Conozco a [la enfermera::pielęgniarka].",
-        "pl_translation": "Znam pielęgniarka."
+        "pl_translation": "Znam pielęgniarkę."
       },
       {
-        "es_form": "Mi [hermano::brat] es [la enfermera::pielęgniarka].",
-        "pl_translation": "Mój brat jest pielęgniarka."
+        "es_form": "Mi [hermana::siostra] es [la enfermera::pielęgniarka].",
+        "pl_translation": "Moja siostra jest pielęgniarką."
       },
       {
         "es_form": "[La enfermera::pielęgniarka] vive en mi calle.",
@@ -44,11 +44,11 @@
     "examples": [
       {
         "es_form": "[La clínica::przychodnia] es muy grande.",
-        "pl_translation": "Przychodnia jest bardzo duży/a."
+        "pl_translation": "Przychodnia jest bardzo duża."
       },
       {
         "es_form": "Voy a [la clínica::przychodnia] cada día.",
-        "pl_translation": "Chodzę do przychodnia codziennie."
+        "pl_translation": "Chodzę do przychodni codziennie."
       },
       {
         "es_form": "[La clínica::przychodnia] abre a las ocho.",
@@ -58,96 +58,96 @@
   },
   {
     "type": "noun",
-    "es_word": "La análisis",
+    "es_word": "El análisis",
     "pl_word": "badanie",
     "examples": [
       {
-        "es_form": "¿Quieres [la análisis::badanie]?",
+        "es_form": "¿Quieres [el análisis::badanie]?",
         "pl_translation": "Chcesz badanie?"
       },
       {
-        "es_form": "Me gusta mucho [la análisis::badanie].",
+        "es_form": "Me gusta mucho [el análisis::badanie].",
         "pl_translation": "Bardzo lubię badanie."
       },
       {
-        "es_form": "[La análisis::badanie] se hace con leche.",
+        "es_form": "[El análisis::badanie] se hace con leche.",
         "pl_translation": "Badanie robi się z mleka."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "La síntoma",
+    "es_word": "El síntoma",
     "pl_word": "objaw",
     "examples": [
       {
-        "es_form": "[La síntoma::objaw] cuesta diez euros.",
+        "es_form": "[El síntoma::objaw] cuesta diez euros.",
         "pl_translation": "Objaw kosztuje dziesięć euro."
       },
       {
-        "es_form": "Compré [la síntoma::objaw] ayer.",
-        "pl_translation": "Kupiłem/am objaw wczoraj."
+        "es_form": "Compré [el síntoma::objaw] ayer.",
+        "pl_translation": "Kupiłem"
       },
       {
-        "es_form": "Se me rompio [la síntoma::objaw].",
+        "es_form": "Se me rompió [el síntoma::objaw].",
         "pl_translation": "Zepsuł mi się objaw."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El tos",
+    "es_word": "La tos",
     "pl_word": "kaszel",
     "examples": [
       {
-        "es_form": "[El tos::kaszel] cuesta diez euros.",
+        "es_form": "[La tos::kaszel] cuesta diez euros.",
         "pl_translation": "Kaszel kosztuje dziesięć euro."
       },
       {
-        "es_form": "Guarda [el tos::kaszel] en el armario.",
+        "es_form": "Guarda [la tos::kaszel] en el armario.",
         "pl_translation": "Schowaj kaszel do szafy."
       },
       {
-        "es_form": "¿Has visto [el tos::kaszel]?",
-        "pl_translation": "Widziałeś/aś kaszel?"
+        "es_form": "¿Has visto [la tos::kaszel]?",
+        "pl_translation": "Widziałeś"
       }
     ]
   },
   {
     "type": "noun",
     "es_word": "El resfriado",
-    "pl_word": "katar, przeziębienie",
+    "pl_word": "przeziębienie",
     "examples": [
       {
-        "es_form": "Necesito [el resfriado::katar, przeziębienie] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową katar, przeziębienie."
+        "es_form": "Necesito [el resfriado::przeziębienie] nuevo.",
+        "pl_translation": "Potrzebuję nowe przeziębienie."
       },
       {
-        "es_form": "Compré [el resfriado::katar, przeziębienie] ayer.",
-        "pl_translation": "Kupiłem/am katar, przeziębienie wczoraj."
+        "es_form": "Compré [el resfriado::przeziębienie] ayer.",
+        "pl_translation": "Kupiłem"
       },
       {
-        "es_form": "[El resfriado::katar, przeziębienie] está sobre la mesa.",
-        "pl_translation": "Katar, przeziębienie jest na stole."
+        "es_form": "[El resfriado::przeziębienie] está sobre la mesa.",
+        "pl_translation": "Przeziębienie jest na stole."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El gripe",
+    "es_word": "La gripe",
     "pl_word": "grypa",
     "examples": [
       {
-        "es_form": "Tienes que aceptar [el gripe::grypa].",
-        "pl_translation": "Musisz zaakceptować grypa."
+        "es_form": "Tienes que aceptar [la gripe::grypa].",
+        "pl_translation": "Musisz zaakceptować grypę."
       },
       {
-        "es_form": "[El gripe::grypa] es muy importante.",
-        "pl_translation": "Grypa jest bardzo ważny/a."
+        "es_form": "[La gripe::grypa] es muy importante.",
+        "pl_translation": "Grypa jest bardzo ważna."
       },
       {
-        "es_form": "[El gripe::grypa] cambio mi vida.",
-        "pl_translation": "Grypa zmienił/a moje życie."
+        "es_form": "[La gripe::grypa] cambio mi vida.",
+        "pl_translation": "Grypa zmieniła moje życie."
       }
     ]
   },
@@ -158,34 +158,34 @@
     "examples": [
       {
         "es_form": "Hablamos sobre [la alergia::alergia].",
-        "pl_translation": "Rozmawialiśmy o alergia."
+        "pl_translation": "Rozmawialiśmy o alergii."
       },
       {
         "es_form": "Tienes que aceptar [la alergia::alergia].",
-        "pl_translation": "Musisz zaakceptować alergia."
+        "pl_translation": "Musisz zaakceptować alergię."
       },
       {
         "es_form": "[La alergia::alergia] cambio mi vida.",
-        "pl_translation": "Alergia zmienił/a moje życie."
+        "pl_translation": "Alergia zmieniła moje życie."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El inyección",
+    "es_word": "La inyección",
     "pl_word": "zastrzyk",
     "examples": [
       {
-        "es_form": "Se me rompio [el inyección::zastrzyk].",
+        "es_form": "Se me rompió [la inyección::zastrzyk].",
         "pl_translation": "Zepsuł mi się zastrzyk."
       },
       {
-        "es_form": "Compré [el inyección::zastrzyk] ayer.",
-        "pl_translation": "Kupiłem/am zastrzyk wczoraj."
+        "es_form": "Compré [la inyección::zastrzyk] ayer.",
+        "pl_translation": "Kupiłem"
       },
       {
-        "es_form": "¿Has visto [el inyección::zastrzyk]?",
-        "pl_translation": "Widziałeś/aś zastrzyk?"
+        "es_form": "¿Has visto [la inyección::zastrzyk]?",
+        "pl_translation": "Widziałeś"
       }
     ]
   },
@@ -195,8 +195,8 @@
     "pl_word": "odporny",
     "examples": [
       {
-        "es_form": "Se compro un vestido [resistente::odporny].",
-        "pl_translation": "Kupiła sobie odporny sukienkę."
+        "es_form": "Se compró un vestido [resistente::odporny].",
+        "pl_translation": "Kupiła sobie odporną sukienkę."
       },
       {
         "es_form": "Hace un día [resistente::odporny].",
@@ -219,7 +219,7 @@
       },
       {
         "es_form": "Es un lugar [sensible::wrażliwy] para vivir.",
-        "pl_translation": "To jest wrażliwy miejsce do życia."
+        "pl_translation": "To jest wrażliwe miejsce do życia."
       },
       {
         "es_form": "La comida está [sensible::wrażliwy].",
@@ -248,7 +248,7 @@
     "forms": [
       {
         "es_word": "curo",
-        "pl_word": "leczyć (1.os.lp, ter.)",
+        "pl_word": "leczę",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +256,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[curo::leczyć (1.os.lp, ter.)] los fines de semana?",
+            "es_form": "¿[curo::leczę] los fines de semana?",
             "pl_translation": "Czy leczyć w weekendy?"
           },
           {
-            "es_form": "Normalmente [curo::leczyć (1.os.lp, ter.)] por la mañana.",
+            "es_form": "Normalmente [curo::leczę] por la mañana.",
             "pl_translation": "Zazwyczaj leczyć rano."
           },
           {
-            "es_form": "Siempre [curo::leczyć (1.os.lp, ter.)] con atencion.",
+            "es_form": "Siempre [curo::leczę] con atencion.",
             "pl_translation": "Zawsze leczyć z uwagą."
           }
         ]
       },
       {
         "es_word": "curas",
-        "pl_word": "leczyć (2.os.lp, ter.)",
+        "pl_word": "leczysz",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +279,22 @@
         },
         "examples": [
           {
-            "es_form": "No [curas::leczyć (2.os.lp, ter.)] muy bien últimamente.",
+            "es_form": "No [curas::leczysz] muy bien últimamente.",
             "pl_translation": "Ostatnio nie leczyć zbyt dobrze."
           },
           {
-            "es_form": "[curas::leczyć (2.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Leczyć tak jak mnie nauczyłeś/aś."
+            "es_form": "[curas::leczysz] como me enseñaste.",
+            "pl_translation": "Leczyć tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "[curas::leczyć (2.os.lp, ter.)] todos los días.",
+            "es_form": "[curas::leczysz] todos los días.",
             "pl_translation": "Leczyć codziennie."
           }
         ]
       },
       {
         "es_word": "cura",
-        "pl_word": "leczyć (3.os.lp, ter.)",
+        "pl_word": "leczy",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +302,22 @@
         },
         "examples": [
           {
-            "es_form": "No [cura::leczyć (3.os.lp, ter.)] muy bien últimamente.",
+            "es_form": "No [cura::leczy] muy bien últimamente.",
             "pl_translation": "Ostatnio nie leczyć zbyt dobrze."
           },
           {
-            "es_form": "Normalmente [cura::leczyć (3.os.lp, ter.)] por la mañana.",
+            "es_form": "Normalmente [cura::leczy] por la mañana.",
             "pl_translation": "Zazwyczaj leczyć rano."
           },
           {
-            "es_form": "[cura::leczyć (3.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Leczyć tak jak mnie nauczyłeś/aś."
+            "es_form": "[cura::leczy] como me enseñaste.",
+            "pl_translation": "Leczyć tak jak mnie nauczyłeś"
           }
         ]
       },
       {
         "es_word": "curamos",
-        "pl_word": "leczyć (1.os.lm, ter.)",
+        "pl_word": "leczymy",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +325,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[curamos::leczyć (1.os.lm, ter.)] los fines de semana?",
+            "es_form": "¿[curamos::leczymy] los fines de semana?",
             "pl_translation": "Czy leczyć w weekendy?"
           },
           {
-            "es_form": "No [curamos::leczyć (1.os.lm, ter.)] muy bien últimamente.",
+            "es_form": "No [curamos::leczymy] muy bien últimamente.",
             "pl_translation": "Ostatnio nie leczyć zbyt dobrze."
           },
           {
-            "es_form": "Siempre [curamos::leczyć (1.os.lm, ter.)] con atencion.",
+            "es_form": "Siempre [curamos::leczymy] con atencion.",
             "pl_translation": "Zawsze leczyć z uwagą."
           }
         ]
       },
       {
         "es_word": "curáis",
-        "pl_word": "leczyć (2.os.lm, ter.)",
+        "pl_word": "leczycie",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +348,22 @@
         },
         "examples": [
           {
-            "es_form": "[curáis::leczyć (2.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Leczyć tak jak mnie nauczyłeś/aś."
+            "es_form": "[curáis::leczycie] como me enseñaste.",
+            "pl_translation": "Leczyć tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "Normalmente [curáis::leczyć (2.os.lm, ter.)] por la mañana.",
+            "es_form": "Normalmente [curáis::leczycie] por la mañana.",
             "pl_translation": "Zazwyczaj leczyć rano."
           },
           {
-            "es_form": "[curáis::leczyć (2.os.lm, ter.)] todos los días.",
+            "es_form": "[curáis::leczycie] todos los días.",
             "pl_translation": "Leczyć codziennie."
           }
         ]
       },
       {
         "es_word": "curan",
-        "pl_word": "leczyć (3.os.lm, ter.)",
+        "pl_word": "leczą",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +371,22 @@
         },
         "examples": [
           {
-            "es_form": "No [curan::leczyć (3.os.lm, ter.)] muy bien últimamente.",
+            "es_form": "No [curan::leczą] muy bien últimamente.",
             "pl_translation": "Ostatnio nie leczyć zbyt dobrze."
           },
           {
-            "es_form": "¿[curan::leczyć (3.os.lm, ter.)] los fines de semana?",
+            "es_form": "¿[curan::leczą] los fines de semana?",
             "pl_translation": "Czy leczyć w weekendy?"
           },
           {
-            "es_form": "Normalmente [curan::leczyć (3.os.lm, ter.)] por la mañana.",
+            "es_form": "Normalmente [curan::leczą] por la mañana.",
             "pl_translation": "Zazwyczaj leczyć rano."
           }
         ]
       },
       {
         "es_word": "curé",
-        "pl_word": "leczyć (1.os.lp, przesz.)",
+        "pl_word": "leczyłem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [curé::leczyć (1.os.lp, przesz.)] nada.",
+            "es_form": "El mes pasado no [curé::leczyłem] nada.",
             "pl_translation": "W zeszłym miesiącu nic nie leczyć."
           },
           {
-            "es_form": "[curé::leczyć (1.os.lp, przesz.)] sin parar durante horas.",
+            "es_form": "[curé::leczyłem] sin parar durante horas.",
             "pl_translation": "Leczyć bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "[curé::leczyć (1.os.lp, przesz.)] la semana pasada.",
+            "es_form": "[curé::leczyłem] la semana pasada.",
             "pl_translation": "Leczyć w zeszłym tygodniu."
           }
         ]
       },
       {
         "es_word": "curaste",
-        "pl_word": "leczyć (2.os.lp, przesz.)",
+        "pl_word": "leczyłeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "[curaste::leczyć (2.os.lp, przesz.)] sin parar durante horas.",
+            "es_form": "[curaste::leczyłeś] sin parar durante horas.",
             "pl_translation": "Leczyć bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "El mes pasado no [curaste::leczyć (2.os.lp, przesz.)] nada.",
+            "es_form": "El mes pasado no [curaste::leczyłeś] nada.",
             "pl_translation": "W zeszłym miesiącu nic nie leczyć."
           },
           {
-            "es_form": "[curaste::leczyć (2.os.lp, przesz.)] la semana pasada.",
+            "es_form": "[curaste::leczyłeś] la semana pasada.",
             "pl_translation": "Leczyć w zeszłym tygodniu."
           }
         ]
       },
       {
         "es_word": "curó",
-        "pl_word": "leczyć (3.os.lp, przesz.)",
+        "pl_word": "leczył",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [curó::leczyć (3.os.lp, przesz.)] nada.",
+            "es_form": "El mes pasado no [curó::leczył] nada.",
             "pl_translation": "W zeszłym miesiącu nic nie leczyć."
           },
           {
-            "es_form": "¿[curó::leczyć (3.os.lp, przesz.)] bien el examen?",
+            "es_form": "¿[curó::leczył] bien el examen?",
             "pl_translation": "Czy leczyć dobrze egzamin?"
           },
           {
-            "es_form": "[curó::leczyć (3.os.lp, przesz.)] sin parar durante horas.",
+            "es_form": "[curó::leczył] sin parar durante horas.",
             "pl_translation": "Leczyć bez przerwy przez wiele godzin."
           }
         ]
       },
       {
         "es_word": "curamos",
-        "pl_word": "leczyć (1.os.lm, przesz.)",
+        "pl_word": "leczyliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [curamos::leczyć (1.os.lm, przesz.)] nada.",
+            "es_form": "El mes pasado no [curamos::leczyliśmy] nada.",
             "pl_translation": "W zeszłym miesiącu nic nie leczyć."
           },
           {
-            "es_form": "[curamos::leczyć (1.os.lm, przesz.)] la semana pasada.",
+            "es_form": "[curamos::leczyliśmy] la semana pasada.",
             "pl_translation": "Leczyć w zeszłym tygodniu."
           },
           {
-            "es_form": "¿[curamos::leczyć (1.os.lm, przesz.)] bien el examen?",
+            "es_form": "¿[curamos::leczyliśmy] bien el examen?",
             "pl_translation": "Czy leczyć dobrze egzamin?"
           }
         ]
       },
       {
         "es_word": "curasteis",
-        "pl_word": "leczyć (2.os.lm, przesz.)",
+        "pl_word": "leczyliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[curasteis::leczyć (2.os.lm, przesz.)] bien el examen?",
+            "es_form": "¿[curasteis::leczyliście] bien el examen?",
             "pl_translation": "Czy leczyć dobrze egzamin?"
           },
           {
-            "es_form": "[curasteis::leczyć (2.os.lm, przesz.)] la semana pasada.",
+            "es_form": "[curasteis::leczyliście] la semana pasada.",
             "pl_translation": "Leczyć w zeszłym tygodniu."
           },
           {
-            "es_form": "Nunca [curasteis::leczyć (2.os.lm, przesz.)] algo así antes.",
+            "es_form": "Nunca [curasteis::leczyliście] algo así antes.",
             "pl_translation": "Nigdy wcześniej nie leczyć czegoś takiego."
           }
         ]
       },
       {
         "es_word": "curaron",
-        "pl_word": "leczyć (3.os.lm, przesz.)",
+        "pl_word": "leczyli",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +509,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [curaron::leczyć (3.os.lm, przesz.)] nada.",
+            "es_form": "El mes pasado no [curaron::leczyli] nada.",
             "pl_translation": "W zeszłym miesiącu nic nie leczyć."
           },
           {
-            "es_form": "¿[curaron::leczyć (3.os.lm, przesz.)] bien el examen?",
+            "es_form": "¿[curaron::leczyli] bien el examen?",
             "pl_translation": "Czy leczyć dobrze egzamin?"
           },
           {
-            "es_form": "[curaron::leczyć (3.os.lm, przesz.)] la semana pasada.",
+            "es_form": "[curaron::leczyli] la semana pasada.",
             "pl_translation": "Leczyć w zeszłym tygodniu."
           }
         ]
       },
       {
         "es_word": "curé",
-        "pl_word": "leczyć (1.os.lp, przysz.)",
+        "pl_word": "będę leczył",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +532,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[curé::leczyć (1.os.lp, przysz.)] con nosotros mañana?",
+            "es_form": "¿[curé::będę leczył] con nosotros mañana?",
             "pl_translation": "Czy leczyć z nami jutro?"
           },
           {
-            "es_form": "[curé::leczyć (1.os.lp, przysz.)] la proxima semana.",
+            "es_form": "[curé::będę leczył] la proxima semana.",
             "pl_translation": "Leczyć w przyszłym tygodniu."
           },
           {
-            "es_form": "Te prometo que [curé::leczyć (1.os.lp, przysz.)] a tiempo.",
+            "es_form": "Te prometo que [curé::będę leczył] a tiempo.",
             "pl_translation": "Obiecuję ci, że leczyć na czas."
           }
         ]
       },
       {
         "es_word": "curás",
-        "pl_word": "leczyć (2.os.lp, przysz.)",
+        "pl_word": "będziesz leczył",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +555,22 @@
         },
         "examples": [
           {
-            "es_form": "[curás::leczyć (2.os.lp, przysz.)] la proxima semana.",
+            "es_form": "[curás::będziesz leczył] la proxima semana.",
             "pl_translation": "Leczyć w przyszłym tygodniu."
           },
           {
-            "es_form": "Mañana [curás::leczyć (2.os.lp, przysz.)] más temprano.",
+            "es_form": "Mañana [curás::będziesz leczył] más temprano.",
             "pl_translation": "Jutro leczyć wcześniej."
           },
           {
-            "es_form": "Te prometo que [curás::leczyć (2.os.lp, przysz.)] a tiempo.",
+            "es_form": "Te prometo que [curás::będziesz leczył] a tiempo.",
             "pl_translation": "Obiecuję ci, że leczyć na czas."
           }
         ]
       },
       {
         "es_word": "curá",
-        "pl_word": "leczyć (3.os.lp, przysz.)",
+        "pl_word": "będzie leczył",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +578,22 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [curá::leczyć (3.os.lp, przysz.)] en España.",
+            "es_form": "El año que viene [curá::będzie leczył] en España.",
             "pl_translation": "W przyszłym roku leczyć w Hiszpanii."
           },
           {
-            "es_form": "[curá::leczyć (3.os.lp, przysz.)] la proxima semana.",
+            "es_form": "[curá::będzie leczył] la proxima semana.",
             "pl_translation": "Leczyć w przyszłym tygodniu."
           },
           {
-            "es_form": "¿[curá::leczyć (3.os.lp, przysz.)] con nosotros mañana?",
+            "es_form": "¿[curá::będzie leczył] con nosotros mañana?",
             "pl_translation": "Czy leczyć z nami jutro?"
           }
         ]
       },
       {
         "es_word": "curemos",
-        "pl_word": "leczyć (1.os.lm, przysz.)",
+        "pl_word": "będziemy leczyli",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +601,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [curemos::leczyć (1.os.lm, przysz.)] bien.",
+            "es_form": "Creo que [curemos::będziemy leczyli] bien.",
             "pl_translation": "Myślę, że leczyć dobrze."
           },
           {
-            "es_form": "[curemos::leczyć (1.os.lm, przysz.)] la proxima semana.",
+            "es_form": "[curemos::będziemy leczyli] la proxima semana.",
             "pl_translation": "Leczyć w przyszłym tygodniu."
           },
           {
-            "es_form": "Te prometo que [curemos::leczyć (1.os.lm, przysz.)] a tiempo.",
+            "es_form": "Te prometo que [curemos::będziemy leczyli] a tiempo.",
             "pl_translation": "Obiecuję ci, że leczyć na czas."
           }
         ]
       },
       {
         "es_word": "curéis",
-        "pl_word": "leczyć (2.os.lm, przysz.)",
+        "pl_word": "będziecie leczyli",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +624,22 @@
         },
         "examples": [
           {
-            "es_form": "[curéis::leczyć (2.os.lm, przysz.)] la proxima semana.",
+            "es_form": "[curéis::będziecie leczyli] la proxima semana.",
             "pl_translation": "Leczyć w przyszłym tygodniu."
           },
           {
-            "es_form": "Creo que [curéis::leczyć (2.os.lm, przysz.)] bien.",
+            "es_form": "Creo que [curéis::będziecie leczyli] bien.",
             "pl_translation": "Myślę, że leczyć dobrze."
           },
           {
-            "es_form": "Mañana [curéis::leczyć (2.os.lm, przysz.)] más temprano.",
+            "es_form": "Mañana [curéis::będziecie leczyli] más temprano.",
             "pl_translation": "Jutro leczyć wcześniej."
           }
         ]
       },
       {
         "es_word": "curán",
-        "pl_word": "leczyć (3.os.lm, przysz.)",
+        "pl_word": "będą leczyli",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,15 +647,15 @@
         },
         "examples": [
           {
-            "es_form": "[curán::leczyć (3.os.lm, przysz.)] la proxima semana.",
+            "es_form": "[curán::będą leczyli] la proxima semana.",
             "pl_translation": "Leczyć w przyszłym tygodniu."
           },
           {
-            "es_form": "Creo que [curán::leczyć (3.os.lm, przysz.)] bien.",
+            "es_form": "Creo que [curán::będą leczyli] bien.",
             "pl_translation": "Myślę, że leczyć dobrze."
           },
           {
-            "es_form": "Te prometo que [curán::leczyć (3.os.lm, przysz.)] a tiempo.",
+            "es_form": "Te prometo que [curán::będą leczyli] a tiempo.",
             "pl_translation": "Obiecuję ci, że leczyć na czas."
           }
         ]

@@ -5,12 +5,12 @@
     "pl_word": "przepis",
     "examples": [
       {
-        "es_form": "[La receta::przepis] es típico de España.",
-        "pl_translation": "Przepis jest typowy/a dla Hiszpanii."
+        "es_form": "[La receta::przepis] es típica de España.",
+        "pl_translation": "Przepis jest typowy dla Hiszpanii."
       },
       {
         "es_form": "Me gusta mucho [la receta::przepis].",
-        "pl_translation": "Bardzo lubię przepis."
+        "pl_translation": "Bardzo lubię ten przepis."
       },
       {
         "es_form": "¿Quieres [la receta::przepis]?",
@@ -25,11 +25,11 @@
     "examples": [
       {
         "es_form": "¿Has visto [el ingrediente::składnik]?",
-        "pl_translation": "Widziałeś/aś składnik?"
+        "pl_translation": "Widziałeś składnik?"
       },
       {
         "es_form": "Compré [el ingrediente::składnik] ayer.",
-        "pl_translation": "Kupiłem/am składnik wczoraj."
+        "pl_translation": "Kupiłem składnik wczoraj."
       },
       {
         "es_form": "[El ingrediente::składnik] cuesta diez euros.",
@@ -43,16 +43,16 @@
     "pl_word": "smak",
     "examples": [
       {
-        "es_form": "Guarda [el sabor::smak] en el armario.",
-        "pl_translation": "Schowaj smak do szafy."
+        "es_form": "[El sabor::smak] es delicioso.",
+        "pl_translation": "Smak jest wyśmienity."
       },
       {
-        "es_form": "Se me rompio [el sabor::smak].",
-        "pl_translation": "Zepsuł mi się smak."
+        "es_form": "[El sabor::smak] es muy intenso.",
+        "pl_translation": "Smak jest bardzo intensywny."
       },
       {
-        "es_form": "[El sabor::smak] cuesta diez euros.",
-        "pl_translation": "Smak kosztuje dziesięć euro."
+        "es_form": "[El sabor::smak] a chocolate me encanta.",
+        "pl_translation": "Smak czekoladowy uwielbiam."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "zapach",
     "examples": [
       {
-        "es_form": "Guarda [el olor::zapach] en el armario.",
-        "pl_translation": "Schowaj zapach do szafy."
+        "es_form": "[El olor::zapach] es muy agradable.",
+        "pl_translation": "Zapach jest bardzo przyjemny."
       },
       {
-        "es_form": "¿Has visto [el olor::zapach]?",
-        "pl_translation": "Widziałeś/aś zapach?"
+        "es_form": "¿Hueles [el olor::zapach] a pan?",
+        "pl_translation": "Czujesz zapach chleba?"
       },
       {
-        "es_form": "[El olor::zapach] está sobre la mesa.",
-        "pl_translation": "Zapach jest na stole."
+        "es_form": "[El olor::zapach] llena la cocina.",
+        "pl_translation": "Zapach wypełnia kuchnię."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "przyprawa",
     "examples": [
       {
-        "es_form": "[La especia::przyprawa] se hace con leche.",
-        "pl_translation": "Przyprawa robi się z mleka."
+        "es_form": "[La especia::przyprawa] se usa en la cocina.",
+        "pl_translation": "Przyprawy używa się w kuchni."
       },
       {
-        "es_form": "Compramos [la especia::przyprawa] en el mercado.",
-        "pl_translation": "Kupiliśmy przyprawa na targu."
+        "es_form": "Compramos [la especia::przyprawę] en el mercado.",
+        "pl_translation": "Kupiliśmy przyprawę na targu."
       },
       {
-        "es_form": "[La especia::przyprawa] está muy rico.",
-        "pl_translation": "Przyprawa jest bardzo smaczny/a."
+        "es_form": "[La especia::przyprawa] está muy rica.",
+        "pl_translation": "Przyprawa jest bardzo smaczna."
       }
     ]
   },
@@ -108,8 +108,8 @@
         "pl_translation": "Bardzo lubię pieprz."
       },
       {
-        "es_form": "[La pimienta::pieprz] está muy rico.",
-        "pl_translation": "Pieprz jest bardzo smaczny/a."
+        "es_form": "[La pimienta::pieprz] está muy rica.",
+        "pl_translation": "Pieprz jest bardzo dobry."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "bulion, rosół",
     "examples": [
       {
-        "es_form": "[El caldo::bulion, rosół] es típico de España.",
-        "pl_translation": "Bulion, rosół jest typowy/a dla Hiszpanii."
+        "es_form": "[El caldo::rosół] es típico de Polonia.",
+        "pl_translation": "Rosół jest typowy dla Polski."
       },
       {
-        "es_form": "Me gusta mucho [el caldo::bulion, rosół].",
-        "pl_translation": "Bardzo lubię bulion, rosół."
+        "es_form": "Me gusta mucho [el caldo::bulion].",
+        "pl_translation": "Bardzo lubię bulion."
       },
       {
-        "es_form": "¿Quieres [el caldo::bulion, rosół]?",
-        "pl_translation": "Chcesz bulion, rosół?"
+        "es_form": "¿Quieres [el caldo::rosół]?",
+        "pl_translation": "Chcesz rosół?"
       }
     ]
   },
@@ -139,15 +139,15 @@
     "examples": [
       {
         "es_form": "Me gusta mucho [la ensalada::sałatka].",
-        "pl_translation": "Bardzo lubię sałatka."
+        "pl_translation": "Bardzo lubię sałatkę."
       },
       {
-        "es_form": "¿Quieres [la ensalada::sałatka]?",
-        "pl_translation": "Chcesz sałatka?"
+        "es_form": "¿Quieres [la ensalada::sałatkę]?",
+        "pl_translation": "Chcesz sałatkę?"
       },
       {
-        "es_form": "Compramos [la ensalada::sałatka] en el mercado.",
-        "pl_translation": "Kupiliśmy sałatka na targu."
+        "es_form": "Compramos [la ensalada::sałatkę] en el mercado.",
+        "pl_translation": "Kupiliśmy sałatkę na targu."
       }
     ]
   },
@@ -158,15 +158,15 @@
     "examples": [
       {
         "es_form": "Me gusta mucho [el bocadillo::kanapka].",
-        "pl_translation": "Bardzo lubię kanapka."
+        "pl_translation": "Bardzo lubię kanapkę."
       },
       {
-        "es_form": "[El bocadillo::kanapka] se hace con leche.",
-        "pl_translation": "Kanapka robi się z mleka."
+        "es_form": "[El bocadillo::kanapka] se hace con pan.",
+        "pl_translation": "Kanapka robi się z chleba."
       },
       {
-        "es_form": "Compramos [el bocadillo::kanapka] en el mercado.",
-        "pl_translation": "Kupiliśmy kanapka na targu."
+        "es_form": "Compramos [el bocadillo::kanapkę] en el mercado.",
+        "pl_translation": "Kupiliśmy kanapkę na targu."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "omlet, tortilla",
     "examples": [
       {
-        "es_form": "¿Has visto [la tortilla::omlet, tortilla]?",
-        "pl_translation": "Widziałeś/aś omlet, tortilla?"
+        "es_form": "¿Has visto [la tortilla::omlet]?",
+        "pl_translation": "Widziałeś omlet?"
       },
       {
-        "es_form": "[La tortilla::omlet, tortilla] cuesta diez euros.",
-        "pl_translation": "Omlet, tortilla kosztuje dziesięć euro."
+        "es_form": "[La tortilla::tortilla] cuesta diez euros.",
+        "pl_translation": "Tortilla kosztuje dziesięć euro."
       },
       {
-        "es_form": "Necesito [la tortilla::omlet, tortilla] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową omlet, tortilla."
+        "es_form": "Necesito [la tortilla::omlet] nuevo.",
+        "pl_translation": "Potrzebuję nowego omletu."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "kwaśny",
     "examples": [
       {
-        "es_form": "Tengo una casa [ácida::kwaśny].",
-        "pl_translation": "Mam kwaśny dom."
+        "es_form": "El limón es [ácido::kwaśny].",
+        "pl_translation": "Cytryna jest kwaśna."
       },
       {
-        "es_form": "Se compro un vestido [ácido::kwaśny].",
-        "pl_translation": "Kupiła sobie kwaśny sukienkę."
+        "es_form": "La fruta está [ácida::kwaśna].",
+        "pl_translation": "Owoc jest kwaśny."
       },
       {
-        "es_form": "Nada es más [ácido::kwaśny] que la familia.",
-        "pl_translation": "Nic nie jest kwaśny od rodziny."
+        "es_form": "Nada es más [ácido::kwaśny] que el vinagre.",
+        "pl_translation": "Nic nie jest bardziej kwaśne od octu."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "gorzki",
     "examples": [
       {
-        "es_form": "Mi amigo es [amargo::gorzki] y simpático.",
-        "pl_translation": "Mój przyjaciel jest gorzki i sympatyczny."
+        "es_form": "El café está [amargo::gorzki].",
+        "pl_translation": "Kawa jest gorzka."
       },
       {
-        "es_form": "Es un lugar [amargo::gorzki] para vivir.",
-        "pl_translation": "To jest gorzki miejsce do życia."
+        "es_form": "Es un sabor [amargo::gorzki].",
+        "pl_translation": "To jest gorzki smak."
       },
       {
-        "es_form": "Nada es más [amargo::gorzki] que la familia.",
-        "pl_translation": "Nic nie jest gorzki od rodziny."
+        "es_form": "Nada es más [amargo::gorzki] que este té.",
+        "pl_translation": "Nic nie jest bardziej gorzkie od tej herbaty."
       }
     ]
   },
@@ -233,22 +233,22 @@
     "pl_word": "piec (w piekarniku)",
     "examples": [
       {
-        "es_form": "Prefiero [hornear::piec (w piekarniku)] en casa.",
-        "pl_translation": "Wolę piec w domu."
+        "es_form": "Prefiero [hornear::piec] pan en casa.",
+        "pl_translation": "Wolę piec chleb w domu."
       },
       {
-        "es_form": "Me gusta [hornear::piec (w piekarniku)] por la mañana.",
+        "es_form": "Me gusta [hornear::piec] por la mañana.",
         "pl_translation": "Lubię piec rano."
       },
       {
-        "es_form": "Quiero [hornear::piec (w piekarniku)] ahora.",
-        "pl_translation": "Chcę piec teraz."
+        "es_form": "Quiero [hornear::piec] una tarta ahora.",
+        "pl_translation": "Chcę upiec ciasto teraz."
       }
     ],
     "forms": [
       {
         "es_word": "horneo",
-        "pl_word": "piec (1.os.lp, ter.)",
+        "pl_word": "piekę",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +256,22 @@
         },
         "examples": [
           {
-            "es_form": "[horneo::piec (1.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Piec tak jak mnie nauczyłeś/aś."
+            "es_form": "[horneo::piekę] como me enseñaste.",
+            "pl_translation": "Piekę tak, jak mnie nauczyłeś."
           },
           {
-            "es_form": "No [horneo::piec (1.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie piec zbyt dobrze."
+            "es_form": "No [horneo::piekę] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie piekę zbyt dobrze."
           },
           {
-            "es_form": "[horneo::piec (1.os.lp, ter.)] todos los días.",
-            "pl_translation": "Piec codziennie."
+            "es_form": "[horneo::piekę] todos los días.",
+            "pl_translation": "Piekę codziennie."
           }
         ]
       },
       {
         "es_word": "horneas",
-        "pl_word": "piec (2.os.lp, ter.)",
+        "pl_word": "pieczesz",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +279,22 @@
         },
         "examples": [
           {
-            "es_form": "[horneas::piec (2.os.lp, ter.)] todos los días.",
-            "pl_translation": "Piec codziennie."
+            "es_form": "[horneas::pieczesz] todos los días.",
+            "pl_translation": "Pieczesz codziennie."
           },
           {
-            "es_form": "Siempre [horneas::piec (2.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze piec z uwagą."
+            "es_form": "Siempre [horneas::pieczesz] con atención.",
+            "pl_translation": "Zawsze pieczesz z uwagą."
           },
           {
-            "es_form": "No [horneas::piec (2.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie piec zbyt dobrze."
+            "es_form": "No [horneas::pieczesz] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie pieczesz zbyt dobrze."
           }
         ]
       },
       {
         "es_word": "hornea",
-        "pl_word": "piec (3.os.lp, ter.)",
+        "pl_word": "piecze",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +302,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[hornea::piec (3.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy piec w weekendy?"
+            "es_form": "¿[hornea::piecze] los fines de semana?",
+            "pl_translation": "Czy piecze w weekendy?"
           },
           {
-            "es_form": "[hornea::piec (3.os.lp, ter.)] todos los días.",
-            "pl_translation": "Piec codziennie."
+            "es_form": "[hornea::piecze] todos los días.",
+            "pl_translation": "Piecze codziennie."
           },
           {
-            "es_form": "Normalmente [hornea::piec (3.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj piec rano."
+            "es_form": "Normalmente [hornea::piecze] por la mañana.",
+            "pl_translation": "Zazwyczaj piecze rano."
           }
         ]
       },
       {
         "es_word": "horneamos",
-        "pl_word": "piec (1.os.lm, ter.)",
+        "pl_word": "pieczemy",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +325,22 @@
         },
         "examples": [
           {
-            "es_form": "No [horneamos::piec (1.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie piec zbyt dobrze."
+            "es_form": "No [horneamos::pieczemy] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie pieczemy zbyt dobrze."
           },
           {
-            "es_form": "Normalmente [horneamos::piec (1.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj piec rano."
+            "es_form": "Normalmente [horneamos::pieczemy] por la mañana.",
+            "pl_translation": "Zazwyczaj pieczemy rano."
           },
           {
-            "es_form": "[horneamos::piec (1.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Piec tak jak mnie nauczyłeś/aś."
+            "es_form": "[horneamos::pieczemy] como me enseñaste.",
+            "pl_translation": "Pieczemy tak, jak mnie nauczyłeś."
           }
         ]
       },
       {
         "es_word": "horneáis",
-        "pl_word": "piec (2.os.lm, ter.)",
+        "pl_word": "pieczecie",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +348,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[horneáis::piec (2.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy piec w weekendy?"
+            "es_form": "¿[horneáis::pieczecie] los fines de semana?",
+            "pl_translation": "Czy pieczecie w weekendy?"
           },
           {
-            "es_form": "Normalmente [horneáis::piec (2.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj piec rano."
+            "es_form": "Normalmente [horneáis::pieczecie] por la mañana.",
+            "pl_translation": "Zazwyczaj pieczecie rano."
           },
           {
-            "es_form": "No [horneáis::piec (2.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie piec zbyt dobrze."
+            "es_form": "No [horneáis::pieczecie] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie pieczecie zbyt dobrze."
           }
         ]
       },
       {
         "es_word": "hornean",
-        "pl_word": "piec (3.os.lm, ter.)",
+        "pl_word": "pieką",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +371,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[hornean::piec (3.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy piec w weekendy?"
+            "es_form": "¿[hornean::pieką] los fines de semana?",
+            "pl_translation": "Czy pieką w weekendy?"
           },
           {
-            "es_form": "No [hornean::piec (3.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie piec zbyt dobrze."
+            "es_form": "No [hornean::pieką] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie pieką zbyt dobrze."
           },
           {
-            "es_form": "[hornean::piec (3.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Piec tak jak mnie nauczyłeś/aś."
+            "es_form": "[hornean::pieką] como me enseñaste.",
+            "pl_translation": "Pieką tak, jak mnie nauczyłeś."
           }
         ]
       },
       {
         "es_word": "horneé",
-        "pl_word": "piec (1.os.lp, przesz.)",
+        "pl_word": "piekłem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [horneé::piec (1.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj piec cały dzień."
+            "es_form": "Ayer [horneé::piekłem] todo el día.",
+            "pl_translation": "Wczoraj piekłem"
           },
           {
-            "es_form": "¿[horneé::piec (1.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy piec dobrze egzamin?"
+            "es_form": "¿[horneé::piekłem] bien el pan?",
+            "pl_translation": "Czy dobrze upiekłem"
           },
           {
-            "es_form": "[horneé::piec (1.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Piec w zeszłym tygodniu."
+            "es_form": "[horneé::piekłem] la semana pasada.",
+            "pl_translation": "Piekłem"
           }
         ]
       },
       {
         "es_word": "horneaste",
-        "pl_word": "piec (2.os.lp, przesz.)",
+        "pl_word": "piekłeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [horneaste::piec (2.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj piec cały dzień."
+            "es_form": "Ayer [horneaste::piekłeś] todo el día.",
+            "pl_translation": "Wczoraj piekłeś"
           },
           {
-            "es_form": "[horneaste::piec (2.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Piec bez przerwy przez wiele godzin."
+            "es_form": "[horneaste::piekłeś] sin parar durante horas.",
+            "pl_translation": "Piekłeś"
           },
           {
-            "es_form": "Nunca [horneaste::piec (2.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie piec czegoś takiego."
+            "es_form": "Nunca [horneaste::piekłeś] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie piekłeś"
           }
         ]
       },
       {
         "es_word": "horneó",
-        "pl_word": "piec (3.os.lp, przesz.)",
+        "pl_word": "piekł",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [horneó::piec (3.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie piec czegoś takiego."
+            "es_form": "Nunca [horneó::piekł] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie piekł"
           },
           {
-            "es_form": "¿[horneó::piec (3.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy piec dobrze egzamin?"
+            "es_form": "¿[horneó::piekł] bien la tarta?",
+            "pl_translation": "Czy dobrze upiekł"
           },
           {
-            "es_form": "[horneó::piec (3.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Piec w zeszłym tygodniu."
+            "es_form": "[horneó::piekł] la semana pasada.",
+            "pl_translation": "Piekł"
           }
         ]
       },
       {
         "es_word": "horneamos",
-        "pl_word": "piec (1.os.lm, przesz.)",
+        "pl_word": "piekliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "[horneamos::piec (1.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Piec w zeszłym tygodniu."
+            "es_form": "[horneamos::piekliśmy] la semana pasada.",
+            "pl_translation": "Piekliśmy"
           },
           {
-            "es_form": "El mes pasado no [horneamos::piec (1.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie piec."
+            "es_form": "El mes pasado no [horneamos::piekliśmy] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie piekliśmy"
           },
           {
-            "es_form": "Nunca [horneamos::piec (1.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie piec czegoś takiego."
+            "es_form": "Nunca [horneamos::piekliśmy] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie piekliśmy"
           }
         ]
       },
       {
         "es_word": "horneasteis",
-        "pl_word": "piec (2.os.lm, przesz.)",
+        "pl_word": "piekliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [horneasteis::piec (2.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj piec cały dzień."
+            "es_form": "Ayer [horneasteis::piekliście] todo el día.",
+            "pl_translation": "Wczoraj piekliście"
           },
           {
-            "es_form": "¿[horneasteis::piec (2.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy piec dobrze egzamin?"
+            "es_form": "¿[horneasteis::piekliście] bien el pan?",
+            "pl_translation": "Czy dobrze upiekliście"
           },
           {
-            "es_form": "Nunca [horneasteis::piec (2.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie piec czegoś takiego."
+            "es_form": "Nunca [horneasteis::piekliście] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie piekliście"
           }
         ]
       },
       {
         "es_word": "hornearon",
-        "pl_word": "piec (3.os.lm, przesz.)",
+        "pl_word": "piekli",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +509,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [hornearon::piec (3.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie piec."
+            "es_form": "El mes pasado no [hornearon::piekli] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie piekli"
           },
           {
-            "es_form": "[hornearon::piec (3.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Piec w zeszłym tygodniu."
+            "es_form": "[hornearon::piekli] la semana pasada.",
+            "pl_translation": "Piekli"
           },
           {
-            "es_form": "Nunca [hornearon::piec (3.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie piec czegoś takiego."
+            "es_form": "Nunca [hornearon::piekli] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie piekli"
           }
         ]
       },
       {
-        "es_word": "horneé",
-        "pl_word": "piec (1.os.lp, przysz.)",
+        "es_word": "hornearé",
+        "pl_word": "będę piekł",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +532,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [horneé::piec (1.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że piec dobrze."
+            "es_form": "Creo que [hornearé::będę piekł] bien.",
+            "pl_translation": "Myślę, że będę piekł"
           },
           {
-            "es_form": "¿[horneé::piec (1.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy piec z nami jutro?"
+            "es_form": "¿[hornearé::będę piekł] con nosotros mañana?",
+            "pl_translation": "Czy będę piekł"
           },
           {
-            "es_form": "Te prometo que [horneé::piec (1.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że piec na czas."
+            "es_form": "Te prometo que [hornearé::będę piekł] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będę piekł"
           }
         ]
       },
       {
-        "es_word": "horneás",
-        "pl_word": "piec (2.os.lp, przysz.)",
+        "es_word": "hornearás",
+        "pl_word": "będziesz piekł",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +555,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[horneás::piec (2.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy piec z nami jutro?"
+            "es_form": "¿[hornearás::będziesz piekł] con nosotros mañana?",
+            "pl_translation": "Czy będziesz piekł"
           },
           {
-            "es_form": "Mañana [horneás::piec (2.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro piec wcześniej."
+            "es_form": "Mañana [hornearás::będziesz piekł] más temprano.",
+            "pl_translation": "Jutro będziesz piekł"
           },
           {
-            "es_form": "Creo que [horneás::piec (2.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że piec dobrze."
+            "es_form": "Creo que [hornearás::będziesz piekł] bien.",
+            "pl_translation": "Myślę, że będziesz piekł"
           }
         ]
       },
       {
-        "es_word": "horneá",
-        "pl_word": "piec (3.os.lp, przysz.)",
+        "es_word": "horneará",
+        "pl_word": "będzie piekł",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +578,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [horneá::piec (3.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że piec dobrze."
+            "es_form": "Creo que [horneará::będzie piekł] bien.",
+            "pl_translation": "Myślę, że będzie piekł"
           },
           {
-            "es_form": "[horneá::piec (3.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Piec w przyszłym tygodniu."
+            "es_form": "[horneará::będzie piekł] la próxima semana.",
+            "pl_translation": "Będzie piekł"
           },
           {
-            "es_form": "Te prometo que [horneá::piec (3.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że piec na czas."
+            "es_form": "Te prometo que [horneará::będzie piekł] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będzie piekł"
           }
         ]
       },
       {
-        "es_word": "horneemos",
-        "pl_word": "piec (1.os.lm, przysz.)",
+        "es_word": "hornearemos",
+        "pl_word": "będziemy piekli",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +601,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [horneemos::piec (1.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że piec dobrze."
+            "es_form": "Creo que [hornearemos::będziemy piekli] bien.",
+            "pl_translation": "Myślę, że będziemy piekli"
           },
           {
-            "es_form": "[horneemos::piec (1.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Piec w przyszłym tygodniu."
+            "es_form": "[hornearemos::będziemy piekli] la próxima semana.",
+            "pl_translation": "Będziemy piekli"
           },
           {
-            "es_form": "El año que viene [horneemos::piec (1.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku piec w Hiszpanii."
+            "es_form": "El año que viene [hornearemos::będziemy piekli] en España.",
+            "pl_translation": "W przyszłym roku będziemy piekli"
           }
         ]
       },
       {
-        "es_word": "horneéis",
-        "pl_word": "piec (2.os.lm, przysz.)",
+        "es_word": "hornearéis",
+        "pl_word": "będziecie piekli",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +624,22 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [horneéis::piec (2.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że piec na czas."
+            "es_form": "Te prometo que [hornearéis::będziecie piekli] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziecie piekli"
           },
           {
-            "es_form": "Creo que [horneéis::piec (2.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że piec dobrze."
+            "es_form": "Creo que [hornearéis::będziecie piekli] bien.",
+            "pl_translation": "Myślę, że będziecie piekli"
           },
           {
-            "es_form": "Mañana [horneéis::piec (2.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro piec wcześniej."
+            "es_form": "Mañana [hornearéis::będziecie piekli] más temprano.",
+            "pl_translation": "Jutro będziecie piekli"
           }
         ]
       },
       {
-        "es_word": "horneán",
-        "pl_word": "piec (3.os.lm, przysz.)",
+        "es_word": "hornearán",
+        "pl_word": "będą piekli",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +647,16 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [horneán::piec (3.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że piec na czas."
+            "es_form": "Te prometo que [hornearán::będą piekli] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będą piekli"
           },
           {
-            "es_form": "Mañana [horneán::piec (3.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro piec wcześniej."
+            "es_form": "Mañana [hornearán::będą piekli] más temprano.",
+            "pl_translation": "Jutro będą piekli"
           },
           {
-            "es_form": "Creo que [horneán::piec (3.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że piec dobrze."
+            "es_form": "Creo que [hornearán::będą piekli] bien.",
+            "pl_translation": "Myślę, że będą piekli"
           }
         ]
       }

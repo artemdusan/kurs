@@ -10,7 +10,7 @@
       },
       {
         "es_form": "¿Has visto [el trabajo::praca]?",
-        "pl_translation": "Widziałeś/aś praca?"
+        "pl_translation": "Widziałeś"
       },
       {
         "es_form": "Se me rompio [el trabajo::praca].",
@@ -25,7 +25,7 @@
     "examples": [
       {
         "es_form": "Necesito [la compra::zakupy] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową zakupy."
+        "pl_translation": "Potrzebuję nowy"
       },
       {
         "es_form": "[La compra::zakupy] cuesta diez euros.",
@@ -52,7 +52,7 @@
       },
       {
         "es_form": "Compré [la limpieza::sprzątanie] ayer.",
-        "pl_translation": "Kupiłem/am sprzątanie wczoraj."
+        "pl_translation": "Kupiłem"
       }
     ]
   },
@@ -63,7 +63,7 @@
     "examples": [
       {
         "es_form": "Compré [la cocina::gotowanie] ayer.",
-        "pl_translation": "Kupiłem/am gotowanie wczoraj."
+        "pl_translation": "Kupiłem"
       },
       {
         "es_form": "Se me rompio [la cocina::gotowanie].",
@@ -90,7 +90,7 @@
       },
       {
         "es_form": "Necesito [el descanso::odpoczynek] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową odpoczynek."
+        "pl_translation": "Potrzebuję nowy"
       }
     ]
   },
@@ -109,7 +109,7 @@
       },
       {
         "es_form": "Necesito [el paseo::spacer] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową spacer."
+        "pl_translation": "Potrzebuję nowy"
       }
     ]
   },
@@ -120,7 +120,7 @@
     "examples": [
       {
         "es_form": "¿Has visto [la ducha::prysznic]?",
-        "pl_translation": "Widziałeś/aś prysznic?"
+        "pl_translation": "Widziałeś"
       },
       {
         "es_form": "[La ducha::prysznic] cuesta diez euros.",
@@ -128,7 +128,7 @@
       },
       {
         "es_form": "Necesito [la ducha::prysznic] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową prysznic."
+        "pl_translation": "Potrzebuję nowy"
       }
     ]
   },
@@ -139,7 +139,7 @@
     "examples": [
       {
         "es_form": "¿Has visto [la cama::łóżko]?",
-        "pl_translation": "Widziałeś/aś łóżko?"
+        "pl_translation": "Widziałeś"
       },
       {
         "es_form": "[La cama::łóżko] está sobre la mesa.",
@@ -158,7 +158,7 @@
     "examples": [
       {
         "es_form": "Compré [el deporte::sport] ayer.",
-        "pl_translation": "Kupiłem/am sport wczoraj."
+        "pl_translation": "Kupiłem"
       },
       {
         "es_form": "Se me rompio [el deporte::sport].",
@@ -185,7 +185,7 @@
       },
       {
         "es_form": "Compré [el ejercicio::ćwiczenie] ayer.",
-        "pl_translation": "Kupiłem/am ćwiczenie wczoraj."
+        "pl_translation": "Kupiłem"
       }
     ]
   },
@@ -307,7 +307,7 @@
           },
           {
             "es_form": "[hace::robi] como me enseñaste.",
-            "pl_translation": "Robi tak jak mnie nauczyłeś/aś."
+            "pl_translation": "Robi tak jak mnie nauczyłeś"
           },
           {
             "es_form": "Siempre [hace::robi] con atencion.",
@@ -334,7 +334,7 @@
           },
           {
             "es_form": "[hacemos::robimy] como me enseñaste.",
-            "pl_translation": "Robimy tak jak mnie nauczyłeś/aś."
+            "pl_translation": "Robimy tak jak mnie nauczyłeś"
           }
         ]
       },
@@ -353,7 +353,7 @@
           },
           {
             "es_form": "[hacéis::robicie] como me enseñaste.",
-            "pl_translation": "Robicie tak jak mnie nauczyłeś/aś."
+            "pl_translation": "Robicie tak jak mnie nauczyłeś"
           },
           {
             "es_form": "No [hacéis::robicie] muy bien últimamente.",
@@ -386,7 +386,7 @@
       },
       {
         "es_word": "hice",
-        "pl_word": "robiłem/robiłam",
+        "pl_word": "robiłem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[hice::robiłem/robiłam] bien el examen?",
-            "pl_translation": "Czy robiłem/robiłam dobrze egzamin?"
+            "es_form": "¿[hice::robiłem] bien el examen?",
+            "pl_translation": "Czy robiłem"
           },
           {
-            "es_form": "Ayer [hice::robiłem/robiłam] todo el día.",
-            "pl_translation": "Wczoraj robiłem/robiłam cały dzień."
+            "es_form": "Ayer [hice::robiłem] todo el día.",
+            "pl_translation": "Wczoraj robiłem"
           },
           {
-            "es_form": "[hice::robiłem/robiłam] sin parar durante horas.",
-            "pl_translation": "Robiłem/robiłam bez przerwy przez wiele godzin."
+            "es_form": "[hice::robiłem] sin parar durante horas.",
+            "pl_translation": "Robiłem"
           }
         ]
       },
       {
         "es_word": "hiciste",
-        "pl_word": "robiłeś/robiłaś",
+        "pl_word": "robiłeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [hiciste::robiłeś/robiłaś] todo el día.",
-            "pl_translation": "Wczoraj robiłeś/robiłaś cały dzień."
+            "es_form": "Ayer [hiciste::robiłeś] todo el día.",
+            "pl_translation": "Wczoraj robiłeś"
           },
           {
-            "es_form": "¿[hiciste::robiłeś/robiłaś] bien el examen?",
-            "pl_translation": "Czy robiłeś/robiłaś dobrze egzamin?"
+            "es_form": "¿[hiciste::robiłeś] bien el examen?",
+            "pl_translation": "Czy robiłeś"
           },
           {
-            "es_form": "Nunca [hiciste::robiłeś/robiłaś] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie robiłeś/robiłaś czegoś takiego."
+            "es_form": "Nunca [hiciste::robiłeś] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie robiłeś"
           }
         ]
       },
       {
         "es_word": "hizo",
-        "pl_word": "robił/robiła/robiło",
+        "pl_word": "robił",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [hizo::robił/robiła/robiło] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie robił/robiła/robiło."
+            "es_form": "El mes pasado no [hizo::robił] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie robił"
           },
           {
-            "es_form": "[hizo::robił/robiła/robiło] sin parar durante horas.",
-            "pl_translation": "Robił/robiła/robiło bez przerwy przez wiele godzin."
+            "es_form": "[hizo::robił] sin parar durante horas.",
+            "pl_translation": "Robił"
           },
           {
-            "es_form": "Ayer [hizo::robił/robiła/robiło] todo el día.",
-            "pl_translation": "Wczoraj robił/robiła/robiło cały dzień."
+            "es_form": "Ayer [hizo::robił] todo el día.",
+            "pl_translation": "Wczoraj robił"
           }
         ]
       },
       {
         "es_word": "hicimos",
-        "pl_word": "robiłismy/robiłysmy",
+        "pl_word": "robiliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [hicimos::robiłismy/robiłysmy] todo el día.",
-            "pl_translation": "Wczoraj robiłismy/robiłysmy cały dzień."
+            "es_form": "Ayer [hicimos::robiliśmy] todo el día.",
+            "pl_translation": "Wczoraj robiliśmy"
           },
           {
-            "es_form": "[hicimos::robiłismy/robiłysmy] la semana pasada.",
-            "pl_translation": "Robiłismy/robiłysmy w zeszłym tygodniu."
+            "es_form": "[hicimos::robiliśmy] la semana pasada.",
+            "pl_translation": "Robiłismy"
           },
           {
-            "es_form": "Nunca [hicimos::robiłismy/robiłysmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie robiłismy/robiłysmy czegoś takiego."
+            "es_form": "Nunca [hicimos::robiliśmy] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie robiliśmy"
           }
         ]
       },
       {
         "es_word": "hicisteis",
-        "pl_word": "robiłiscie/robiłyscie",
+        "pl_word": "robiliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "[hicisteis::robiłiscie/robiłyscie] sin parar durante horas.",
-            "pl_translation": "Robiłiscie/robiłyscie bez przerwy przez wiele godzin."
+            "es_form": "[hicisteis::robiliście] sin parar durante horas.",
+            "pl_translation": "Robiłiscie"
           },
           {
-            "es_form": "Ayer [hicisteis::robiłiscie/robiłyscie] todo el día.",
-            "pl_translation": "Wczoraj robiłiscie/robiłyscie cały dzień."
+            "es_form": "Ayer [hicisteis::robiliście] todo el día.",
+            "pl_translation": "Wczoraj robiliście"
           },
           {
-            "es_form": "Nunca [hicisteis::robiłiscie/robiłyscie] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie robiłiscie/robiłyscie czegoś takiego."
+            "es_form": "Nunca [hicisteis::robiliście] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie robiliście"
           }
         ]
       },
       {
         "es_word": "hicieron",
-        "pl_word": "robiłi/robiły",
+        "pl_word": "robili",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,16 +509,16 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [hicieron::robiłi/robiły] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie robiłi/robiły."
+            "es_form": "El mes pasado no [hicieron::robili] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie robili"
           },
           {
-            "es_form": "[hicieron::robiłi/robiły] sin parar durante horas.",
-            "pl_translation": "Robiłi/robiły bez przerwy przez wiele godzin."
+            "es_form": "[hicieron::robili] sin parar durante horas.",
+            "pl_translation": "Robiłi"
           },
           {
-            "es_form": "Ayer [hicieron::robiłi/robiły] todo el día.",
-            "pl_translation": "Wczoraj robiłi/robiły cały dzień."
+            "es_form": "Ayer [hicieron::robili] todo el día.",
+            "pl_translation": "Wczoraj robili"
           }
         ]
       },

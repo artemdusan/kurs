@@ -2,19 +2,19 @@
   {
     "type": "noun",
     "es_word": "La policía",
-    "pl_word": "policjant",
+    "pl_word": "policjantka",
     "examples": [
       {
-        "es_form": "Hablé con [la policía::policjant] ayer.",
-        "pl_translation": "Rozmawiałem/am wczoraj z policjant."
+        "es_form": "Hablé con [la policía::policjantką] ayer.",
+        "pl_translation": "Rozmawiałem wczoraj z policjantką."
       },
       {
-        "es_form": "[La policía::policjant] vive en mi calle.",
-        "pl_translation": "Policjant mieszka na mojej ulicy."
+        "es_form": "[La policía::policjantka] vive en mi calle.",
+        "pl_translation": "Policjantka mieszka na mojej ulicy."
       },
       {
-        "es_form": "[La policía::policjant] trabaja aquí.",
-        "pl_translation": "Policjant tu pracuje."
+        "es_form": "[La policía::policjantka] trabaja aquí.",
+        "pl_translation": "Policjantka tu pracuje."
       }
     ]
   },
@@ -25,15 +25,15 @@
     "examples": [
       {
         "es_form": "[El bombero::strażak] es muy amable.",
-        "pl_translation": "Strażak jest bardzo miły/a."
+        "pl_translation": "Strażak jest bardzo miły."
       },
       {
-        "es_form": "Hablé con [el bombero::strażak] ayer.",
-        "pl_translation": "Rozmawiałem/am wczoraj z strażak."
+        "es_form": "Hablé con [el bombero::strażakiem] ayer.",
+        "pl_translation": "Rozmawiałem wczoraj ze strażakiem."
       },
       {
-        "es_form": "Esta es [el bombero::strażak] de la que hablé.",
-        "pl_translation": "To jest strażak, o której mówiłem/am."
+        "es_form": "Este es [el bombero::strażak] del que hablé.",
+        "pl_translation": "To jest strażak, o którym mówiłem."
       }
     ]
   },
@@ -43,12 +43,12 @@
     "pl_word": "kierowca autobusu",
     "examples": [
       {
-        "es_form": "[El conductor de autobús::kierowca autobusu] me ayudo mucho.",
-        "pl_translation": "Kierowca autobusu bardzo mi pomógł/pomogła."
+        "es_form": "[El conductor de autobús::kierowca autobusu] me ayudó mucho.",
+        "pl_translation": "Kierowca autobusu bardzo mi pomógł."
       },
       {
-        "es_form": "Esta es [El conductor de autobús::kierowca autobusu] de la que hablé.",
-        "pl_translation": "To jest kierowca autobusu, o której mówiłem/am."
+        "es_form": "Este es [el conductor de autobús::kierowca autobusu] del que hablé.",
+        "pl_translation": "To jest kierowca autobusu, o którym mówiłem."
       },
       {
         "es_form": "[El conductor de autobús::kierowca autobusu] trabaja aquí.",
@@ -67,7 +67,7 @@
       },
       {
         "es_form": "Mi [hermano::brat] es [el vendedor::sprzedawca].",
-        "pl_translation": "Mój brat jest sprzedawca."
+        "pl_translation": "Mój brat jest sprzedawcą."
       },
       {
         "es_form": "[El vendedor::sprzedawca] trabaja aquí.",
@@ -81,16 +81,16 @@
     "pl_word": "kucharz",
     "examples": [
       {
-        "es_form": "Conozco a [el cocinero::kucharz].",
-        "pl_translation": "Znam kucharz."
+        "es_form": "Conozco a [el cocinero::kucharza].",
+        "pl_translation": "Znam kucharza."
       },
       {
-        "es_form": "[El cocinero::kucharz] me ayudo mucho.",
-        "pl_translation": "Kucharz bardzo mi pomógł/pomogła."
+        "es_form": "[El cocinero::kucharz] me ayudó mucho.",
+        "pl_translation": "Kucharz bardzo mi pomógł."
       },
       {
         "es_form": "Mi [hermano::brat] es [el cocinero::kucharz].",
-        "pl_translation": "Mój brat jest kucharz."
+        "pl_translation": "Mój brat jest kucharzem."
       }
     ]
   },
@@ -101,15 +101,15 @@
     "examples": [
       {
         "es_form": "[El ingeniero::inżynier] es muy amable.",
-        "pl_translation": "Inżynier jest bardzo miły/a."
+        "pl_translation": "Inżynier jest bardzo miły."
       },
       {
-        "es_form": "[El ingeniero::inżynier] me ayudo mucho.",
-        "pl_translation": "Inżynier bardzo mi pomógł/pomogła."
+        "es_form": "[El ingeniero::inżynier] me ayudó mucho.",
+        "pl_translation": "Inżynier bardzo mi pomógł."
       },
       {
-        "es_form": "Hablé con [el ingeniero::inżynier] ayer.",
-        "pl_translation": "Rozmawiałem/am wczoraj z inżynier."
+        "es_form": "Hablé con [el ingeniero::inżynierem] ayer.",
+        "pl_translation": "Rozmawiałem wczoraj z inżynierem."
       }
     ]
   },
@@ -124,11 +124,11 @@
       },
       {
         "es_form": "Mi [hermano::brat] es [el abogado::prawnik].",
-        "pl_translation": "Mój brat jest prawnik."
+        "pl_translation": "Mój brat jest prawnikiem."
       },
       {
-        "es_form": "Esta es [el abogado::prawnik] de la que hablé.",
-        "pl_translation": "To jest prawnik, o której mówiłem/am."
+        "es_form": "Este es [el abogado::prawnik] del que hablé.",
+        "pl_translation": "To jest prawnik, o którym mówiłem."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "informatyk",
     "examples": [
       {
-        "es_form": "¿Has visto [el informático::informatyk]?",
-        "pl_translation": "Widziałeś/aś informatyk?"
+        "es_form": "¿Has visto a [el informático::informatyka]?",
+        "pl_translation": "Widziałeś informatyka?"
       },
       {
-        "es_form": "[El informático::informatyk] está sobre la mesa.",
-        "pl_translation": "Informatyk jest na stole."
+        "es_form": "[El informático::informatyk] está en la oficina.",
+        "pl_translation": "Informatyk jest w biurze."
       },
       {
-        "es_form": "Guarda [el informático::informatyk] en el armario.",
-        "pl_translation": "Schowaj informatyk do szafy."
+        "es_form": "Llama a [el informático::informatyka].",
+        "pl_translation": "Zadzwoń do informatyka."
       }
     ]
   },
@@ -161,12 +161,12 @@
         "pl_translation": "Sekretarz mieszka na mojej ulicy."
       },
       {
-        "es_form": "Hablé con [el secretario::sekretarz] ayer.",
-        "pl_translation": "Rozmawiałem/am wczoraj z sekretarz."
+        "es_form": "Hablé con [el secretario::sekretarzem] ayer.",
+        "pl_translation": "Rozmawiałem wczoraj z sekretarzem."
       },
       {
-        "es_form": "[El secretario::sekretarz] me ayudo mucho.",
-        "pl_translation": "Sekretarz bardzo mi pomógł/pomogła."
+        "es_form": "[El secretario::sekretarz] me ayudó mucho.",
+        "pl_translation": "Sekretarz bardzo mi pomógł."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "emeryt",
     "examples": [
       {
-        "es_form": "Hablé con [el jubilado::emeryt] ayer.",
-        "pl_translation": "Rozmawiałem/am wczoraj z emeryt."
+        "es_form": "Hablé con [el jubilado::emerytem] ayer.",
+        "pl_translation": "Rozmawiałem wczoraj z emerytem."
       },
       {
         "es_form": "[El jubilado::emeryt] es muy amable.",
-        "pl_translation": "Emeryt jest bardzo miły/a."
+        "pl_translation": "Emeryt jest bardzo miły."
       },
       {
-        "es_form": "Esta es [el jubilado::emeryt] de la que hablé.",
-        "pl_translation": "To jest emeryt, o której mówiłem/am."
+        "es_form": "Este es [el jubilado::emeryt] del que hablé.",
+        "pl_translation": "To jest emeryt, o którym mówiłem."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "odpowiedzialny",
     "examples": [
       {
-        "es_form": "Es una persona muy [responsable::odpowiedzialny].",
-        "pl_translation": "To jest bardzo odpowiedzialny osoba."
+        "es_form": "Es una persona muy [responsable::odpowiedzialna].",
+        "pl_translation": "To jest bardzo odpowiedzialna osoba."
       },
       {
-        "es_form": "Se compro un vestido [responsable::odpowiedzialny].",
-        "pl_translation": "Kupiła sobie odpowiedzialny sukienkę."
+        "es_form": "Tiene un trabajo [responsable::odpowiedzialny].",
+        "pl_translation": "Ma odpowiedzialną pracę."
       },
       {
-        "es_form": "Hace un día [responsable::odpowiedzialny].",
-        "pl_translation": "Jest odpowiedzialny dzień."
+        "es_form": "Juan es un empleado [responsable::odpowiedzialny].",
+        "pl_translation": "Juan jest odpowiedzialnym pracownikiem."
       }
     ]
   },
@@ -218,12 +218,12 @@
         "pl_translation": "Mój przyjaciel jest leniwy i sympatyczny."
       },
       {
-        "es_form": "La comida está [perezosa::leniwy].",
-        "pl_translation": "Jedzenie jest leniwy."
+        "es_form": "El gato está [perezoso::leniwy] hoy.",
+        "pl_translation": "Kot jest dzisiaj leniwy."
       },
       {
-        "es_form": "El examen fue [perezoso::leniwy].",
-        "pl_translation": "Egzamin był leniwy."
+        "es_form": "Es un estudiante muy [perezoso::leniwy].",
+        "pl_translation": "To bardzo leniwy uczeń."
       }
     ]
   },
@@ -233,22 +233,22 @@
     "pl_word": "zarabiać, wygrywać",
     "examples": [
       {
-        "es_form": "Hay que [ganar::zarabiać, wygrywać] con cuidado.",
-        "pl_translation": "Trzeba zarabiać, wygrywać ostrożnie."
+        "es_form": "Hay que [ganar::zarabiać] dinero para vivir.",
+        "pl_translation": "Trzeba zarabiać pieniądze, żeby żyć."
       },
       {
-        "es_form": "Voy a [ganar::zarabiać, wygrywać] mañana.",
-        "pl_translation": "Będę zarabiać, wygrywać jutro."
+        "es_form": "Voy a [ganar::wygrać] el partido mañana.",
+        "pl_translation": "Wygram jutro mecz."
       },
       {
-        "es_form": "Es importante [ganar::zarabiać, wygrywać] todos los días.",
-        "pl_translation": "Ważne jest zarabiać, wygrywać codziennie."
+        "es_form": "Es importante [ganar::wygrywać] en equipo.",
+        "pl_translation": "Ważne jest wygrywać zespołowo."
       }
     ],
     "forms": [
       {
         "es_word": "gano",
-        "pl_word": "zarabiać (1.os.lp, ter.)",
+        "pl_word": "zarabiam",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +256,22 @@
         },
         "examples": [
           {
-            "es_form": "[gano::zarabiać (1.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Zarabiać tak jak mnie nauczyłeś/aś."
+            "es_form": "[gano::zarabiam] como me enseñaste.",
+            "pl_translation": "Zarabiam tak, jak mnie nauczyłeś."
           },
           {
-            "es_form": "No [gano::zarabiać (1.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie zarabiać zbyt dobrze."
+            "es_form": "No [gano::zarabiam] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie zarabiam zbyt dobrze."
           },
           {
-            "es_form": "¿[gano::zarabiać (1.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy zarabiać w weekendy?"
+            "es_form": "¿[gano::zarabiam] bastante para vivir?",
+            "pl_translation": "Czy zarabiam wystarczająco na życie?"
           }
         ]
       },
       {
         "es_word": "ganas",
-        "pl_word": "zarabiać (2.os.lp, ter.)",
+        "pl_word": "zarabiasz",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +279,22 @@
         },
         "examples": [
           {
-            "es_form": "[ganas::zarabiać (2.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Zarabiać tak jak mnie nauczyłeś/aś."
+            "es_form": "[ganas::zarabiasz] como me enseñaste.",
+            "pl_translation": "Zarabiasz tak, jak mnie nauczyłeś."
           },
           {
-            "es_form": "¿[ganas::zarabiać (2.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy zarabiać w weekendy?"
+            "es_form": "¿[ganas::zarabiasz] bien en tu trabajo?",
+            "pl_translation": "Czy dobrze zarabiasz w swojej pracy?"
           },
           {
-            "es_form": "[ganas::zarabiać (2.os.lp, ter.)] todos los días.",
-            "pl_translation": "Zarabiać codziennie."
+            "es_form": "[ganas::zarabiasz] más que el año pasado.",
+            "pl_translation": "Zarabiasz więcej niż w zeszłym roku."
           }
         ]
       },
       {
         "es_word": "gana",
-        "pl_word": "zarabiać (3.os.lp, ter.)",
+        "pl_word": "zarabia",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +302,22 @@
         },
         "examples": [
           {
-            "es_form": "No [gana::zarabiać (3.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie zarabiać zbyt dobrze."
+            "es_form": "No [gana::zarabia] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie zarabia zbyt dobrze."
           },
           {
-            "es_form": "[gana::zarabiać (3.os.lp, ter.)] todos los días.",
-            "pl_translation": "Zarabiać codziennie."
+            "es_form": "[gana::zarabia] mucho dinero.",
+            "pl_translation": "Zarabia dużo pieniędzy."
           },
           {
-            "es_form": "¿[gana::zarabiać (3.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy zarabiać w weekendy?"
+            "es_form": "¿[gana::zarabia] bien en su empresa?",
+            "pl_translation": "Czy dobrze zarabia w swojej firmie?"
           }
         ]
       },
       {
         "es_word": "ganamos",
-        "pl_word": "zarabiać (1.os.lm, ter.)",
+        "pl_word": "zarabiamy",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +325,22 @@
         },
         "examples": [
           {
-            "es_form": "[ganamos::zarabiać (1.os.lm, ter.)] todos los días.",
-            "pl_translation": "Zarabiać codziennie."
+            "es_form": "[ganamos::zarabiamy] más que antes.",
+            "pl_translation": "Zarabiamy więcej niż wcześniej."
           },
           {
-            "es_form": "No [ganamos::zarabiać (1.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie zarabiać zbyt dobrze."
+            "es_form": "No [ganamos::zarabiamy] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie zarabiamy zbyt dobrze."
           },
           {
-            "es_form": "Siempre [ganamos::zarabiać (1.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze zarabiać z uwagą."
+            "es_form": "Siempre [ganamos::zarabiamy] con esfuerzo.",
+            "pl_translation": "Zawsze zarabiamy z wysiłkiem."
           }
         ]
       },
       {
         "es_word": "ganáis",
-        "pl_word": "zarabiać (2.os.lm, ter.)",
+        "pl_word": "zarabiacie",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +348,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[ganáis::zarabiać (2.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy zarabiać w weekendy?"
+            "es_form": "¿[ganáis::zarabiacie] suficiente?",
+            "pl_translation": "Czy zarabiacie wystarczająco?"
           },
           {
-            "es_form": "Siempre [ganáis::zarabiać (2.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze zarabiać z uwagą."
+            "es_form": "Siempre [ganáis::zarabiacie] con esfuerzo.",
+            "pl_translation": "Zawsze zarabiacie z wysiłkiem."
           },
           {
-            "es_form": "No [ganáis::zarabiać (2.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie zarabiać zbyt dobrze."
+            "es_form": "No [ganáis::zarabiacie] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie zarabiacie zbyt dobrze."
           }
         ]
       },
       {
         "es_word": "ganan",
-        "pl_word": "zarabiać (3.os.lm, ter.)",
+        "pl_word": "zarabiają",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +371,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[ganan::zarabiać (3.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy zarabiać w weekendy?"
+            "es_form": "¿[ganan::zarabiają] bien en esta empresa?",
+            "pl_translation": "Czy dobrze zarabiają w tej firmie?"
           },
           {
-            "es_form": "[ganan::zarabiać (3.os.lm, ter.)] todos los días.",
-            "pl_translation": "Zarabiać codziennie."
+            "es_form": "[ganan::zarabiają] más que el año pasado.",
+            "pl_translation": "Zarabiają więcej niż w zeszłym roku."
           },
           {
-            "es_form": "[ganan::zarabiać (3.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Zarabiać tak jak mnie nauczyłeś/aś."
+            "es_form": "[ganan::zarabiają] como me enseñaste.",
+            "pl_translation": "Zarabiają tak, jak mnie nauczyłeś."
           }
         ]
       },
       {
         "es_word": "gané",
-        "pl_word": "zarabiać (1.os.lp, przesz.)",
+        "pl_word": "zarobiłem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "[gané::zarabiać (1.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Zarabiać w zeszłym tygodniu."
+            "es_form": "[gané::zarobiłem] la semana pasada.",
+            "pl_translation": "Zarobiłem"
           },
           {
-            "es_form": "[gané::zarabiać (1.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Zarabiać bez przerwy przez wiele godzin."
+            "es_form": "[gané::zarobiłem] sin parar durante horas.",
+            "pl_translation": "Zarobiłem"
           },
           {
-            "es_form": "Nunca [gané::zarabiać (1.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie zarabiać czegoś takiego."
+            "es_form": "Nunca [gané::zarobiłem] tanto antes.",
+            "pl_translation": "Nigdy wcześniej nie zarobiłem"
           }
         ]
       },
       {
         "es_word": "ganaste",
-        "pl_word": "zarabiać (2.os.lp, przesz.)",
+        "pl_word": "zarobiłeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "[ganaste::zarabiać (2.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Zarabiać w zeszłym tygodniu."
+            "es_form": "[ganaste::zarobiłeś] la semana pasada.",
+            "pl_translation": "Zarobiłeś"
           },
           {
-            "es_form": "El mes pasado no [ganaste::zarabiać (2.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie zarabiać."
+            "es_form": "El mes pasado no [ganaste::zarobiłeś] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie zarobiłeś"
           },
           {
-            "es_form": "Nunca [ganaste::zarabiać (2.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie zarabiać czegoś takiego."
+            "es_form": "Nunca [ganaste::zarobiłeś] tanto antes.",
+            "pl_translation": "Nigdy wcześniej nie zarobiłeś"
           }
         ]
       },
       {
         "es_word": "ganó",
-        "pl_word": "zarabiać (3.os.lp, przesz.)",
+        "pl_word": "zarobił",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [ganó::zarabiać (3.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie zarabiać czegoś takiego."
+            "es_form": "Nunca [ganó::zarobił] tanto antes.",
+            "pl_translation": "Nigdy wcześniej nie zarobił"
           },
           {
-            "es_form": "[ganó::zarabiać (3.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Zarabiać bez przerwy przez wiele godzin."
+            "es_form": "[ganó::zarobił] sin parar durante horas.",
+            "pl_translation": "Zarobił"
           },
           {
-            "es_form": "[ganó::zarabiać (3.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Zarabiać w zeszłym tygodniu."
+            "es_form": "[ganó::zarobił] la semana pasada.",
+            "pl_translation": "Zarobił"
           }
         ]
       },
       {
         "es_word": "ganamos",
-        "pl_word": "zarabiać (1.os.lm, przesz.)",
+        "pl_word": "zarobiliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[ganamos::zarabiać (1.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy zarabiać dobrze egzamin?"
+            "es_form": "¿[ganamos::zarobiliśmy] bien?",
+            "pl_translation": "Czy dobrze zarobiliśmy"
           },
           {
-            "es_form": "[ganamos::zarabiać (1.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Zarabiać w zeszłym tygodniu."
+            "es_form": "[ganamos::zarobiliśmy] la semana pasada.",
+            "pl_translation": "Zarobiliśmy"
           },
           {
-            "es_form": "Nunca [ganamos::zarabiać (1.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie zarabiać czegoś takiego."
+            "es_form": "Nunca [ganamos::zarobiliśmy] tanto antes.",
+            "pl_translation": "Nigdy wcześniej nie zarobiliśmy"
           }
         ]
       },
       {
         "es_word": "ganasteis",
-        "pl_word": "zarabiać (2.os.lm, przesz.)",
+        "pl_word": "zarobiliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "[ganasteis::zarabiać (2.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Zarabiać bez przerwy przez wiele godzin."
+            "es_form": "[ganasteis::zarobiliście] sin parar durante horas.",
+            "pl_translation": "Zarobiliście"
           },
           {
-            "es_form": "[ganasteis::zarabiać (2.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Zarabiać w zeszłym tygodniu."
+            "es_form": "[ganasteis::zarobiliście] la semana pasada.",
+            "pl_translation": "Zarobiliście"
           },
           {
-            "es_form": "El mes pasado no [ganasteis::zarabiać (2.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie zarabiać."
+            "es_form": "El mes pasado no [ganasteis::zarobiliście] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie zarobiliście"
           }
         ]
       },
       {
         "es_word": "ganaron",
-        "pl_word": "zarabiać (3.os.lm, przesz.)",
+        "pl_word": "zarobili",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +509,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [ganaron::zarabiać (3.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj zarabiać cały dzień."
+            "es_form": "Ayer [ganaron::zarobili] todo el día.",
+            "pl_translation": "Wczoraj zarobili"
           },
           {
-            "es_form": "[ganaron::zarabiać (3.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Zarabiać bez przerwy przez wiele godzin."
+            "es_form": "[ganaron::zarobili] sin parar durante horas.",
+            "pl_translation": "Zarobili"
           },
           {
-            "es_form": "Nunca [ganaron::zarabiać (3.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie zarabiać czegoś takiego."
+            "es_form": "Nunca [ganaron::zarobili] tanto antes.",
+            "pl_translation": "Nigdy wcześniej nie zarobili"
           }
         ]
       },
       {
-        "es_word": "gané",
-        "pl_word": "zarabiać (1.os.lp, przysz.)",
+        "es_word": "ganaré",
+        "pl_word": "będę zarabiał",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +532,22 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [gané::zarabiać (1.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro zarabiać wcześniej."
+            "es_form": "Mañana [ganaré::będę zarabiał] más temprano.",
+            "pl_translation": "Jutro będę zarabiał"
           },
           {
-            "es_form": "[gané::zarabiać (1.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Zarabiać w przyszłym tygodniu."
+            "es_form": "[ganaré::będę zarabiał] la próxima semana.",
+            "pl_translation": "Będę zarabiał"
           },
           {
-            "es_form": "El año que viene [gané::zarabiać (1.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku zarabiać w Hiszpanii."
+            "es_form": "El año que viene [ganaré::będę zarabiał] en España.",
+            "pl_translation": "W przyszłym roku będę zarabiał"
           }
         ]
       },
       {
-        "es_word": "ganás",
-        "pl_word": "zarabiać (2.os.lp, przysz.)",
+        "es_word": "ganarás",
+        "pl_word": "będziesz zarabiał",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +555,22 @@
         },
         "examples": [
           {
-            "es_form": "[ganás::zarabiać (2.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Zarabiać w przyszłym tygodniu."
+            "es_form": "[ganarás::będziesz zarabiał] la próxima semana.",
+            "pl_translation": "Będziesz zarabiał"
           },
           {
-            "es_form": "Te prometo que [ganás::zarabiać (2.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że zarabiać na czas."
+            "es_form": "Te prometo que [ganarás::będziesz zarabiał] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziesz zarabiał"
           },
           {
-            "es_form": "Mañana [ganás::zarabiać (2.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro zarabiać wcześniej."
+            "es_form": "Mañana [ganarás::będziesz zarabiał] más temprano.",
+            "pl_translation": "Jutro będziesz zarabiał"
           }
         ]
       },
       {
-        "es_word": "ganá",
-        "pl_word": "zarabiać (3.os.lp, przysz.)",
+        "es_word": "ganará",
+        "pl_word": "będzie zarabiał",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +578,22 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [ganá::zarabiać (3.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku zarabiać w Hiszpanii."
+            "es_form": "El año que viene [ganará::będzie zarabiał] en España.",
+            "pl_translation": "W przyszłym roku będzie zarabiał"
           },
           {
-            "es_form": "Creo que [ganá::zarabiać (3.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że zarabiać dobrze."
+            "es_form": "Creo que [ganará::będzie zarabiał] bien.",
+            "pl_translation": "Myślę, że będzie zarabiał"
           },
           {
-            "es_form": "Te prometo que [ganá::zarabiać (3.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że zarabiać na czas."
+            "es_form": "Te prometo que [ganará::będzie zarabiał] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będzie zarabiał"
           }
         ]
       },
       {
-        "es_word": "ganemos",
-        "pl_word": "zarabiać (1.os.lm, przysz.)",
+        "es_word": "ganaremos",
+        "pl_word": "będziemy zarabiali",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +601,22 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [ganemos::zarabiać (1.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że zarabiać na czas."
+            "es_form": "Te prometo que [ganaremos::będziemy zarabiali] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziemy zarabiali"
           },
           {
-            "es_form": "El año que viene [ganemos::zarabiać (1.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku zarabiać w Hiszpanii."
+            "es_form": "El año que viene [ganaremos::będziemy zarabiali] en España.",
+            "pl_translation": "W przyszłym roku będziemy zarabiali"
           },
           {
-            "es_form": "[ganemos::zarabiać (1.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Zarabiać w przyszłym tygodniu."
+            "es_form": "[ganaremos::będziemy zarabiali] la próxima semana.",
+            "pl_translation": "Będziemy zarabiali"
           }
         ]
       },
       {
-        "es_word": "ganéis",
-        "pl_word": "zarabiać (2.os.lm, przysz.)",
+        "es_word": "ganaréis",
+        "pl_word": "będziecie zarabiali",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +624,22 @@
         },
         "examples": [
           {
-            "es_form": "[ganéis::zarabiać (2.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Zarabiać w przyszłym tygodniu."
+            "es_form": "[ganaréis::będziecie zarabiali] la próxima semana.",
+            "pl_translation": "Będziecie zarabiali"
           },
           {
-            "es_form": "Mañana [ganéis::zarabiać (2.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro zarabiać wcześniej."
+            "es_form": "Mañana [ganaréis::będziecie zarabiali] más temprano.",
+            "pl_translation": "Jutro będziecie zarabiali"
           },
           {
-            "es_form": "¿[ganéis::zarabiać (2.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy zarabiać z nami jutro?"
+            "es_form": "¿[ganaréis::będziecie zarabiali] con nosotros mañana?",
+            "pl_translation": "Czy będziecie zarabiali"
           }
         ]
       },
       {
-        "es_word": "ganán",
-        "pl_word": "zarabiać (3.os.lm, przysz.)",
+        "es_word": "ganarán",
+        "pl_word": "będą zarabiali",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +647,16 @@
         },
         "examples": [
           {
-            "es_form": "¿[ganán::zarabiać (3.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy zarabiać z nami jutro?"
+            "es_form": "¿[ganarán::będą zarabiali] con nosotros mañana?",
+            "pl_translation": "Czy będą zarabiali"
           },
           {
-            "es_form": "El año que viene [ganán::zarabiać (3.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku zarabiać w Hiszpanii."
+            "es_form": "El año que viene [ganarán::będą zarabiali] en España.",
+            "pl_translation": "W przyszłym roku będą zarabiali"
           },
           {
-            "es_form": "[ganán::zarabiać (3.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Zarabiać w przyszłym tygodniu."
+            "es_form": "[ganarán::będą zarabiali] la próxima semana.",
+            "pl_translation": "Będą zarabiali"
           }
         ]
       }

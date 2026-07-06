@@ -48,7 +48,7 @@
       },
       {
         "es_form": "Tienes [el exposición::wystawa] muy fuerte.",
-        "pl_translation": "Masz bardzo silny/a wystawa."
+        "pl_translation": "Masz bardzo silny"
       },
       {
         "es_form": "Me duele [el exposición::wystawa].",
@@ -82,15 +82,15 @@
     "examples": [
       {
         "es_form": "¿Has visto [el escenario::scena]?",
-        "pl_translation": "Widziałeś/aś scena?"
+        "pl_translation": "Widziałeś"
       },
       {
         "es_form": "Necesito [el escenario::scena] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową scena."
+        "pl_translation": "Potrzebuję nowy"
       },
       {
         "es_form": "Compré [el escenario::scena] ayer.",
-        "pl_translation": "Kupiłem/am scena wczoraj."
+        "pl_translation": "Kupiłem"
       }
     ]
   },
@@ -105,11 +105,11 @@
       },
       {
         "es_form": "Necesito [el actuación::występ] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową występ."
+        "pl_translation": "Potrzebuję nowy"
       },
       {
         "es_form": "Compré [el actuación::występ] ayer.",
-        "pl_translation": "Kupiłem/am występ wczoraj."
+        "pl_translation": "Kupiłem"
       }
     ]
   },
@@ -124,11 +124,11 @@
       },
       {
         "es_form": "[El actor::aktor] es muy amable.",
-        "pl_translation": "Aktor jest bardzo miły/a."
+        "pl_translation": "Aktor jest bardzo miły"
       },
       {
         "es_form": "Esta es [el actor::aktor] de la que hablé.",
-        "pl_translation": "To jest aktor, o której mówiłem/am."
+        "pl_translation": "To jest aktor, o której mówiłem"
       }
     ]
   },
@@ -139,7 +139,7 @@
     "examples": [
       {
         "es_form": "Esta es [el director::reżyser] de la que hablé.",
-        "pl_translation": "To jest reżyser, o której mówiłem/am."
+        "pl_translation": "To jest reżyser, o której mówiłem"
       },
       {
         "es_form": "[El director::reżyser] vive en mi calle.",
@@ -147,7 +147,7 @@
       },
       {
         "es_form": "[El director::reżyser] es muy amable.",
-        "pl_translation": "Reżyser jest bardzo miły/a."
+        "pl_translation": "Reżyser jest bardzo miły"
       }
     ]
   },
@@ -181,7 +181,7 @@
       },
       {
         "es_form": "Compré [la entrada::bilet (wstępu)] ayer.",
-        "pl_translation": "Kupiłem/am bilet wczoraj."
+        "pl_translation": "Kupiłem"
       },
       {
         "es_form": "[La entrada::bilet (wstępu)] es de madera.",
@@ -248,7 +248,7 @@
     "forms": [
       {
         "es_word": "pinto",
-        "pl_word": "malować (1.os.lp, ter.)",
+        "pl_word": "maluję",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +256,22 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [pinto::malować (1.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze malować z uwagą."
+            "es_form": "Siempre [pinto::maluję] con atencion.",
+            "pl_translation": "Zawsze maluję z uwagą."
           },
           {
-            "es_form": "¿[pinto::malować (1.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy malować w weekendy?"
+            "es_form": "¿[pinto::maluję] los fines de semana?",
+            "pl_translation": "Czy maluję w weekendy?"
           },
           {
-            "es_form": "No [pinto::malować (1.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie malować zbyt dobrze."
+            "es_form": "No [pinto::maluję] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie maluję zbyt dobrze."
           }
         ]
       },
       {
         "es_word": "pintas",
-        "pl_word": "malować (2.os.lp, ter.)",
+        "pl_word": "malujesz",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +279,22 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [pintas::malować (2.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze malować z uwagą."
+            "es_form": "Siempre [pintas::malujesz] con atencion.",
+            "pl_translation": "Zawsze malujesz z uwagą."
           },
           {
-            "es_form": "[pintas::malować (2.os.lp, ter.)] todos los días.",
-            "pl_translation": "Malować codziennie."
+            "es_form": "[pintas::malujesz] todos los días.",
+            "pl_translation": "malujesz codziennie."
           },
           {
-            "es_form": "Normalmente [pintas::malować (2.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj malować rano."
+            "es_form": "Normalmente [pintas::malujesz] por la mañana.",
+            "pl_translation": "Zazwyczaj malujesz rano."
           }
         ]
       },
       {
         "es_word": "pinta",
-        "pl_word": "malować (3.os.lp, ter.)",
+        "pl_word": "maluje",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +302,22 @@
         },
         "examples": [
           {
-            "es_form": "[pinta::malować (3.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Malować tak jak mnie nauczyłeś/aś."
+            "es_form": "[pinta::maluje] como me enseñaste.",
+            "pl_translation": "maluje tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "Normalmente [pinta::malować (3.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj malować rano."
+            "es_form": "Normalmente [pinta::maluje] por la mañana.",
+            "pl_translation": "Zazwyczaj maluje rano."
           },
           {
-            "es_form": "¿[pinta::malować (3.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy malować w weekendy?"
+            "es_form": "¿[pinta::maluje] los fines de semana?",
+            "pl_translation": "Czy maluje w weekendy?"
           }
         ]
       },
       {
         "es_word": "pintamos",
-        "pl_word": "malować (1.os.lm, ter.)",
+        "pl_word": "malujemy",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +325,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[pintamos::malować (1.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy malować w weekendy?"
+            "es_form": "¿[pintamos::malujemy] los fines de semana?",
+            "pl_translation": "Czy malujemy w weekendy?"
           },
           {
-            "es_form": "Normalmente [pintamos::malować (1.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj malować rano."
+            "es_form": "Normalmente [pintamos::malujemy] por la mañana.",
+            "pl_translation": "Zazwyczaj malujemy rano."
           },
           {
-            "es_form": "No [pintamos::malować (1.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie malować zbyt dobrze."
+            "es_form": "No [pintamos::malujemy] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie malujemy zbyt dobrze."
           }
         ]
       },
       {
         "es_word": "pintáis",
-        "pl_word": "malować (2.os.lm, ter.)",
+        "pl_word": "malujecie",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +348,22 @@
         },
         "examples": [
           {
-            "es_form": "[pintáis::malować (2.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Malować tak jak mnie nauczyłeś/aś."
+            "es_form": "[pintáis::malujecie] como me enseñaste.",
+            "pl_translation": "malujecie tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "[pintáis::malować (2.os.lm, ter.)] todos los días.",
-            "pl_translation": "Malować codziennie."
+            "es_form": "[pintáis::malujecie] todos los días.",
+            "pl_translation": "malujecie codziennie."
           },
           {
-            "es_form": "Siempre [pintáis::malować (2.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze malować z uwagą."
+            "es_form": "Siempre [pintáis::malujecie] con atencion.",
+            "pl_translation": "Zawsze malujecie z uwagą."
           }
         ]
       },
       {
         "es_word": "pintan",
-        "pl_word": "malować (3.os.lm, ter.)",
+        "pl_word": "malują",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +371,22 @@
         },
         "examples": [
           {
-            "es_form": "No [pintan::malować (3.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie malować zbyt dobrze."
+            "es_form": "No [pintan::malują] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie malują zbyt dobrze."
           },
           {
-            "es_form": "Siempre [pintan::malować (3.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze malować z uwagą."
+            "es_form": "Siempre [pintan::malują] con atencion.",
+            "pl_translation": "Zawsze malują z uwagą."
           },
           {
-            "es_form": "Normalmente [pintan::malować (3.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj malować rano."
+            "es_form": "Normalmente [pintan::malują] por la mañana.",
+            "pl_translation": "Zazwyczaj malują rano."
           }
         ]
       },
       {
         "es_word": "pinté",
-        "pl_word": "malować (1.os.lp, przesz.)",
+        "pl_word": "malowałem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "[pinté::malować (1.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Malować w zeszłym tygodniu."
+            "es_form": "[pinté::malowałem] la semana pasada.",
+            "pl_translation": "malowałem w zeszłym tygodniu."
           },
           {
-            "es_form": "¿[pinté::malować (1.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy malować dobrze egzamin?"
+            "es_form": "¿[pinté::malowałem] bien el examen?",
+            "pl_translation": "Czy malowałem dobrze egzamin?"
           },
           {
-            "es_form": "Nunca [pinté::malować (1.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie malować czegoś takiego."
+            "es_form": "Nunca [pinté::malowałem] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie malowałem czegoś takiego."
           }
         ]
       },
       {
         "es_word": "pintaste",
-        "pl_word": "malować (2.os.lp, przesz.)",
+        "pl_word": "malowałeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "[pintaste::malować (2.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Malować bez przerwy przez wiele godzin."
+            "es_form": "[pintaste::malowałeś] sin parar durante horas.",
+            "pl_translation": "malowałeś bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "El mes pasado no [pintaste::malować (2.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie malować."
+            "es_form": "El mes pasado no [pintaste::malowałeś] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie malowałeś."
           },
           {
-            "es_form": "¿[pintaste::malować (2.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy malować dobrze egzamin?"
+            "es_form": "¿[pintaste::malowałeś] bien el examen?",
+            "pl_translation": "Czy malowałeś dobrze egzamin?"
           }
         ]
       },
       {
         "es_word": "pintó",
-        "pl_word": "malować (3.os.lp, przesz.)",
+        "pl_word": "malował",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "[pintó::malować (3.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Malować bez przerwy przez wiele godzin."
+            "es_form": "[pintó::malował] sin parar durante horas.",
+            "pl_translation": "malował bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "El mes pasado no [pintó::malować (3.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie malować."
+            "es_form": "El mes pasado no [pintó::malował] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie malował."
           },
           {
-            "es_form": "Nunca [pintó::malować (3.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie malować czegoś takiego."
+            "es_form": "Nunca [pintó::malował] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie malował czegoś takiego."
           }
         ]
       },
       {
         "es_word": "pintamos",
-        "pl_word": "malować (1.os.lm, przesz.)",
+        "pl_word": "malowaliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[pintamos::malować (1.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy malować dobrze egzamin?"
+            "es_form": "¿[pintamos::malowaliśmy] bien el examen?",
+            "pl_translation": "Czy malowaliśmy dobrze egzamin?"
           },
           {
-            "es_form": "[pintamos::malować (1.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Malować w zeszłym tygodniu."
+            "es_form": "[pintamos::malowaliśmy] la semana pasada.",
+            "pl_translation": "malowaliśmy w zeszłym tygodniu."
           },
           {
-            "es_form": "[pintamos::malować (1.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Malować bez przerwy przez wiele godzin."
+            "es_form": "[pintamos::malowaliśmy] sin parar durante horas.",
+            "pl_translation": "malowaliśmy bez przerwy przez wiele godzin."
           }
         ]
       },
       {
         "es_word": "pintasteis",
-        "pl_word": "malować (2.os.lm, przesz.)",
+        "pl_word": "malowaliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "[pintasteis::malować (2.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Malować bez przerwy przez wiele godzin."
+            "es_form": "[pintasteis::malowaliście] sin parar durante horas.",
+            "pl_translation": "malowaliście bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "¿[pintasteis::malować (2.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy malować dobrze egzamin?"
+            "es_form": "¿[pintasteis::malowaliście] bien el examen?",
+            "pl_translation": "Czy malowaliście dobrze egzamin?"
           },
           {
-            "es_form": "[pintasteis::malować (2.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Malować w zeszłym tygodniu."
+            "es_form": "[pintasteis::malowaliście] la semana pasada.",
+            "pl_translation": "malowaliście w zeszłym tygodniu."
           }
         ]
       },
       {
         "es_word": "pintaron",
-        "pl_word": "malować (3.os.lm, przesz.)",
+        "pl_word": "malowali",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +509,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [pintaron::malować (3.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie malować."
+            "es_form": "El mes pasado no [pintaron::malowali] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie malowali."
           },
           {
-            "es_form": "[pintaron::malować (3.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Malować bez przerwy przez wiele godzin."
+            "es_form": "[pintaron::malowali] sin parar durante horas.",
+            "pl_translation": "malowali bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "¿[pintaron::malować (3.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy malować dobrze egzamin?"
+            "es_form": "¿[pintaron::malowali] bien el examen?",
+            "pl_translation": "Czy malowali dobrze egzamin?"
           }
         ]
       },
       {
-        "es_word": "pinté",
-        "pl_word": "malować (1.os.lp, przysz.)",
+        "es_word": "pintaré",
+        "pl_word": "będę malować",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +532,22 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [pinté::malować (1.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku malować w Hiszpanii."
+            "es_form": "El año que viene [pintaré::będę malować] en España.",
+            "pl_translation": "W przyszłym roku będę będę będę będę będę malować w Hiszpanii."
           },
           {
-            "es_form": "¿[pinté::malować (1.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy malować z nami jutro?"
+            "es_form": "¿[pintaré::będę malować] con nosotros mañana?",
+            "pl_translation": "Czy będę będę będę będę będę malować z nami jutro?"
           },
           {
-            "es_form": "Te prometo que [pinté::malować (1.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że malować na czas."
+            "es_form": "Te prometo que [pintaré::będę malować] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będę będę będę malować na czas."
           }
         ]
       },
       {
-        "es_word": "pintás",
-        "pl_word": "malować (2.os.lp, przysz.)",
+        "es_word": "pintarás",
+        "pl_word": "będziesz malować",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +555,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [pintás::malować (2.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że malować dobrze."
+            "es_form": "Creo que [pintarás::będziesz malować] bien.",
+            "pl_translation": "Myślę, że będziesz będziesz będziesz malować dobrze."
           },
           {
-            "es_form": "Te prometo que [pintás::malować (2.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że malować na czas."
+            "es_form": "Te prometo que [pintarás::będziesz malować] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziesz będziesz będziesz malować na czas."
           },
           {
-            "es_form": "[pintás::malować (2.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Malować w przyszłym tygodniu."
+            "es_form": "[pintarás::będziesz malować] la proxima semana.",
+            "pl_translation": "będziesz będziesz malować w przyszłym tygodniu."
           }
         ]
       },
       {
-        "es_word": "pintá",
-        "pl_word": "malować (3.os.lp, przysz.)",
+        "es_word": "pintará",
+        "pl_word": "będzie malować",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +578,22 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [pintá::malować (3.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że malować na czas."
+            "es_form": "Te prometo que [pintará::będzie malować] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będzie będzie będzie malować na czas."
           },
           {
-            "es_form": "Mañana [pintá::malować (3.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro malować wcześniej."
+            "es_form": "Mañana [pintará::będzie malować] más temprano.",
+            "pl_translation": "Jutro będzie będzie będzie będzie będzie malować wcześniej."
           },
           {
-            "es_form": "[pintá::malować (3.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Malować w przyszłym tygodniu."
+            "es_form": "[pintará::będzie malować] la proxima semana.",
+            "pl_translation": "będzie będzie malować w przyszłym tygodniu."
           }
         ]
       },
       {
-        "es_word": "pintemos",
-        "pl_word": "malować (1.os.lm, przysz.)",
+        "es_word": "pintaremos",
+        "pl_word": "będziemy malować",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +601,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [pintemos::malować (1.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że malować dobrze."
+            "es_form": "Creo que [pintaremos::będziemy malować] bien.",
+            "pl_translation": "Myślę, że będziemy będziemy będziemy malować dobrze."
           },
           {
-            "es_form": "Te prometo que [pintemos::malować (1.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że malować na czas."
+            "es_form": "Te prometo que [pintaremos::będziemy malować] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziemy będziemy będziemy malować na czas."
           },
           {
-            "es_form": "[pintemos::malować (1.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Malować w przyszłym tygodniu."
+            "es_form": "[pintaremos::będziemy malować] la proxima semana.",
+            "pl_translation": "będziemy będziemy malować w przyszłym tygodniu."
           }
         ]
       },
       {
-        "es_word": "pintéis",
-        "pl_word": "malować (2.os.lm, przysz.)",
+        "es_word": "pintaréis",
+        "pl_word": "będziecie malować",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +624,22 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [pintéis::malować (2.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro malować wcześniej."
+            "es_form": "Mañana [pintaréis::będziecie malować] más temprano.",
+            "pl_translation": "Jutro będziecie będziecie będziecie będziecie będziecie malować wcześniej."
           },
           {
-            "es_form": "[pintéis::malować (2.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Malować w przyszłym tygodniu."
+            "es_form": "[pintaréis::będziecie malować] la proxima semana.",
+            "pl_translation": "będziecie będziecie malować w przyszłym tygodniu."
           },
           {
-            "es_form": "¿[pintéis::malować (2.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy malować z nami jutro?"
+            "es_form": "¿[pintaréis::będziecie malować] con nosotros mañana?",
+            "pl_translation": "Czy będziecie będziecie będziecie będziecie będziecie malować z nami jutro?"
           }
         ]
       },
       {
-        "es_word": "pintán",
-        "pl_word": "malować (3.os.lm, przysz.)",
+        "es_word": "pintarán",
+        "pl_word": "będą malować",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +647,16 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [pintán::malować (3.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że malować dobrze."
+            "es_form": "Creo que [pintarán::będą malować] bien.",
+            "pl_translation": "Myślę, że będą będą będą malować dobrze."
           },
           {
-            "es_form": "El año que viene [pintán::malować (3.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku malować w Hiszpanii."
+            "es_form": "El año que viene [pintarán::będą malować] en España.",
+            "pl_translation": "W przyszłym roku będą będą będą będą będą malować w Hiszpanii."
           },
           {
-            "es_form": "¿[pintán::malować (3.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy malować z nami jutro?"
+            "es_form": "¿[pintarán::będą malować] con nosotros mañana?",
+            "pl_translation": "Czy będą będą będą będą będą malować z nami jutro?"
           }
         ]
       }

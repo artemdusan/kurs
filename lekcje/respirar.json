@@ -14,7 +14,7 @@
       },
       {
         "es_form": "Tienes [el pulmón::płuco] muy fuerte.",
-        "pl_translation": "Masz bardzo silny/a płuco."
+        "pl_translation": "Masz bardzo silny"
       }
     ]
   },
@@ -33,7 +33,7 @@
       },
       {
         "es_form": "Tienes [el hígado::wątroba] muy fuerte.",
-        "pl_translation": "Masz bardzo silny/a wątroba."
+        "pl_translation": "Masz bardzo silny"
       }
     ]
   },
@@ -67,7 +67,7 @@
       },
       {
         "es_form": "Tienes [el músculo::mięsień] muy fuerte.",
-        "pl_translation": "Masz bardzo silny/a mięsień."
+        "pl_translation": "Masz bardzo silny"
       },
       {
         "es_form": "[El músculo::mięsień] es una parte importante del cuerpo.",
@@ -86,7 +86,7 @@
       },
       {
         "es_form": "Tienes [el articulación::staw] muy fuerte.",
-        "pl_translation": "Masz bardzo silny/a staw."
+        "pl_translation": "Masz bardzo silny"
       },
       {
         "es_form": "Me duele [el articulación::staw].",
@@ -105,7 +105,7 @@
       },
       {
         "es_form": "Tienes [el tendón::ścięgno] muy fuerte.",
-        "pl_translation": "Masz bardzo silny/a ścięgno."
+        "pl_translation": "Masz bardzo silny"
       },
       {
         "es_form": "El médico me reviso [el tendón::ścięgno].",
@@ -120,7 +120,7 @@
     "examples": [
       {
         "es_form": "Tienes [la piel::skóra] muy fuerte.",
-        "pl_translation": "Masz bardzo silny/a skóra."
+        "pl_translation": "Masz bardzo silny"
       },
       {
         "es_form": "Me duele [la piel::skóra].",
@@ -147,7 +147,7 @@
       },
       {
         "es_form": "Tienes [la uña::paznokieć] muy fuerte.",
-        "pl_translation": "Masz bardzo silny/a paznokieć."
+        "pl_translation": "Masz bardzo silny"
       }
     ]
   },
@@ -158,7 +158,7 @@
     "examples": [
       {
         "es_form": "Tienes [el sudor::pot] muy fuerte.",
-        "pl_translation": "Masz bardzo silny/a pot."
+        "pl_translation": "Masz bardzo silny"
       },
       {
         "es_form": "[El sudor::pot] es una parte importante del cuerpo.",
@@ -177,7 +177,7 @@
     "examples": [
       {
         "es_form": "Tienes [la lágrima::łza] muy fuerte.",
-        "pl_translation": "Masz bardzo silny/a łza."
+        "pl_translation": "Masz bardzo silny"
       },
       {
         "es_form": "Me duele [la lágrima::łza].",
@@ -248,7 +248,7 @@
     "forms": [
       {
         "es_word": "respiro",
-        "pl_word": "oddychać (1.os.lp, ter.)",
+        "pl_word": "oddycham",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +256,22 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [respiro::oddychać (1.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze oddychać z uwagą."
+            "es_form": "Siempre [respiro::oddycham] con atencion.",
+            "pl_translation": "Zawsze oddycham z uwagą."
           },
           {
-            "es_form": "Normalmente [respiro::oddychać (1.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj oddychać rano."
+            "es_form": "Normalmente [respiro::oddycham] por la mañana.",
+            "pl_translation": "Zazwyczaj oddycham rano."
           },
           {
-            "es_form": "¿[respiro::oddychać (1.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy oddychać w weekendy?"
+            "es_form": "¿[respiro::oddycham] los fines de semana?",
+            "pl_translation": "Czy oddycham w weekendy?"
           }
         ]
       },
       {
         "es_word": "respiras",
-        "pl_word": "oddychać (2.os.lp, ter.)",
+        "pl_word": "oddychasz",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +279,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [respiras::oddychać (2.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj oddychać rano."
+            "es_form": "Normalmente [respiras::oddychasz] por la mañana.",
+            "pl_translation": "Zazwyczaj oddychasz rano."
           },
           {
-            "es_form": "[respiras::oddychać (2.os.lp, ter.)] todos los días.",
-            "pl_translation": "Oddychać codziennie."
+            "es_form": "[respiras::oddychasz] todos los días.",
+            "pl_translation": "Oddychasz codziennie."
           },
           {
-            "es_form": "Siempre [respiras::oddychać (2.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze oddychać z uwagą."
+            "es_form": "Siempre [respiras::oddychasz] con atencion.",
+            "pl_translation": "Zawsze oddychasz z uwagą."
           }
         ]
       },
       {
         "es_word": "respira",
-        "pl_word": "oddychać (3.os.lp, ter.)",
+        "pl_word": "oddycha",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +302,22 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [respira::oddychać (3.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze oddychać z uwagą."
+            "es_form": "Siempre [respira::oddycha] con atencion.",
+            "pl_translation": "Zawsze oddycha z uwagą."
           },
           {
-            "es_form": "[respira::oddychać (3.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Oddychać tak jak mnie nauczyłeś/aś."
+            "es_form": "[respira::oddycha] como me enseñaste.",
+            "pl_translation": "Oddycha tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "¿[respira::oddychać (3.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy oddychać w weekendy?"
+            "es_form": "¿[respira::oddycha] los fines de semana?",
+            "pl_translation": "Czy oddycha w weekendy?"
           }
         ]
       },
       {
         "es_word": "respiramos",
-        "pl_word": "oddychać (1.os.lm, ter.)",
+        "pl_word": "oddychamy",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +325,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [respiramos::oddychać (1.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj oddychać rano."
+            "es_form": "Normalmente [respiramos::oddychamy] por la mañana.",
+            "pl_translation": "Zazwyczaj oddychamy rano."
           },
           {
-            "es_form": "[respiramos::oddychać (1.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Oddychać tak jak mnie nauczyłeś/aś."
+            "es_form": "[respiramos::oddychamy] como me enseñaste.",
+            "pl_translation": "Oddychamy tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "Siempre [respiramos::oddychać (1.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze oddychać z uwagą."
+            "es_form": "Siempre [respiramos::oddychamy] con atencion.",
+            "pl_translation": "Zawsze oddychamy z uwagą."
           }
         ]
       },
       {
         "es_word": "respiráis",
-        "pl_word": "oddychać (2.os.lm, ter.)",
+        "pl_word": "oddychacie",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +348,22 @@
         },
         "examples": [
           {
-            "es_form": "No [respiráis::oddychać (2.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie oddychać zbyt dobrze."
+            "es_form": "No [respiráis::oddychacie] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie oddychacie zbyt dobrze."
           },
           {
-            "es_form": "Normalmente [respiráis::oddychać (2.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj oddychać rano."
+            "es_form": "Normalmente [respiráis::oddychacie] por la mañana.",
+            "pl_translation": "Zazwyczaj oddychacie rano."
           },
           {
-            "es_form": "Siempre [respiráis::oddychać (2.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze oddychać z uwagą."
+            "es_form": "Siempre [respiráis::oddychacie] con atencion.",
+            "pl_translation": "Zawsze oddychacie z uwagą."
           }
         ]
       },
       {
         "es_word": "respiran",
-        "pl_word": "oddychać (3.os.lm, ter.)",
+        "pl_word": "oddychają",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +371,22 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [respiran::oddychać (3.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze oddychać z uwagą."
+            "es_form": "Siempre [respiran::oddychają] con atencion.",
+            "pl_translation": "Zawsze oddychają z uwagą."
           },
           {
-            "es_form": "No [respiran::oddychać (3.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie oddychać zbyt dobrze."
+            "es_form": "No [respiran::oddychają] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie oddychają zbyt dobrze."
           },
           {
-            "es_form": "Normalmente [respiran::oddychać (3.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj oddychać rano."
+            "es_form": "Normalmente [respiran::oddychają] por la mañana.",
+            "pl_translation": "Zazwyczaj oddychają rano."
           }
         ]
       },
       {
         "es_word": "respiré",
-        "pl_word": "oddychać (1.os.lp, przesz.)",
+        "pl_word": "oddychałem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [respiré::oddychać (1.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie oddychać czegoś takiego."
+            "es_form": "Nunca [respiré::oddychałem] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie oddychałem czegoś takiego."
           },
           {
-            "es_form": "[respiré::oddychać (1.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Oddychać w zeszłym tygodniu."
+            "es_form": "[respiré::oddychałem] la semana pasada.",
+            "pl_translation": "Oddychałem w zeszłym tygodniu."
           },
           {
-            "es_form": "El mes pasado no [respiré::oddychać (1.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie oddychać."
+            "es_form": "El mes pasado no [respiré::oddychałem] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie oddychałem."
           }
         ]
       },
       {
         "es_word": "respiraste",
-        "pl_word": "oddychać (2.os.lp, przesz.)",
+        "pl_word": "oddychałeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "[respiraste::oddychać (2.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Oddychać bez przerwy przez wiele godzin."
+            "es_form": "[respiraste::oddychałeś] sin parar durante horas.",
+            "pl_translation": "Oddychałeś bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "Ayer [respiraste::oddychać (2.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj oddychać cały dzień."
+            "es_form": "Ayer [respiraste::oddychałeś] todo el día.",
+            "pl_translation": "Wczoraj oddychałeś cały dzień."
           },
           {
-            "es_form": "Nunca [respiraste::oddychać (2.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie oddychać czegoś takiego."
+            "es_form": "Nunca [respiraste::oddychałeś] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie oddychałeś czegoś takiego."
           }
         ]
       },
       {
         "es_word": "respiró",
-        "pl_word": "oddychać (3.os.lp, przesz.)",
+        "pl_word": "oddychał",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [respiró::oddychać (3.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj oddychać cały dzień."
+            "es_form": "Ayer [respiró::oddychał] todo el día.",
+            "pl_translation": "Wczoraj oddychał cały dzień."
           },
           {
-            "es_form": "El mes pasado no [respiró::oddychać (3.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie oddychać."
+            "es_form": "El mes pasado no [respiró::oddychał] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie oddychał."
           },
           {
-            "es_form": "[respiró::oddychać (3.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Oddychać w zeszłym tygodniu."
+            "es_form": "[respiró::oddychał] la semana pasada.",
+            "pl_translation": "Oddychał w zeszłym tygodniu."
           }
         ]
       },
       {
         "es_word": "respiramos",
-        "pl_word": "oddychać (1.os.lm, przesz.)",
+        "pl_word": "oddychaliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [respiramos::oddychać (1.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj oddychać cały dzień."
+            "es_form": "Ayer [respiramos::oddychaliśmy] todo el día.",
+            "pl_translation": "Wczoraj oddychaliśmy cały dzień."
           },
           {
-            "es_form": "[respiramos::oddychać (1.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Oddychać bez przerwy przez wiele godzin."
+            "es_form": "[respiramos::oddychaliśmy] sin parar durante horas.",
+            "pl_translation": "Oddychaliśmy bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "El mes pasado no [respiramos::oddychać (1.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie oddychać."
+            "es_form": "El mes pasado no [respiramos::oddychaliśmy] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie oddychaliśmy."
           }
         ]
       },
       {
         "es_word": "respirasteis",
-        "pl_word": "oddychać (2.os.lm, przesz.)",
+        "pl_word": "oddychaliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [respirasteis::oddychać (2.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj oddychać cały dzień."
+            "es_form": "Ayer [respirasteis::oddychaliście] todo el día.",
+            "pl_translation": "Wczoraj oddychaliście cały dzień."
           },
           {
-            "es_form": "¿[respirasteis::oddychać (2.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy oddychać dobrze egzamin?"
+            "es_form": "¿[respirasteis::oddychaliście] bien el examen?",
+            "pl_translation": "Czy oddychaliście dobrze egzamin?"
           },
           {
-            "es_form": "Nunca [respirasteis::oddychać (2.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie oddychać czegoś takiego."
+            "es_form": "Nunca [respirasteis::oddychaliście] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie oddychaliście czegoś takiego."
           }
         ]
       },
       {
         "es_word": "respiraron",
-        "pl_word": "oddychać (3.os.lm, przesz.)",
+        "pl_word": "oddychali",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +509,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[respiraron::oddychać (3.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy oddychać dobrze egzamin?"
+            "es_form": "¿[respiraron::oddychali] bien el examen?",
+            "pl_translation": "Czy oddychali dobrze egzamin?"
           },
           {
-            "es_form": "[respiraron::oddychać (3.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Oddychać bez przerwy przez wiele godzin."
+            "es_form": "[respiraron::oddychali] sin parar durante horas.",
+            "pl_translation": "Oddychali bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "El mes pasado no [respiraron::oddychać (3.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie oddychać."
+            "es_form": "El mes pasado no [respiraron::oddychali] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie oddychali."
           }
         ]
       },
       {
-        "es_word": "respiré",
-        "pl_word": "oddychać (1.os.lp, przysz.)",
+        "es_word": "respiraré",
+        "pl_word": "będę oddychać",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +532,22 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [respiré::oddychać (1.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro oddychać wcześniej."
+            "es_form": "Mañana [respiraré::będę oddychać] más temprano.",
+            "pl_translation": "Jutro będę oddychać wcześniej."
           },
           {
-            "es_form": "Te prometo que [respiré::oddychać (1.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że oddychać na czas."
+            "es_form": "Te prometo que [respiraré::będę oddychać] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będę oddychać na czas."
           },
           {
-            "es_form": "Creo que [respiré::oddychać (1.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że oddychać dobrze."
+            "es_form": "Creo que [respiraré::będę oddychać] bien.",
+            "pl_translation": "Myślę, że będę oddychać dobrze."
           }
         ]
       },
       {
-        "es_word": "respirás",
-        "pl_word": "oddychać (2.os.lp, przysz.)",
+        "es_word": "respirarás",
+        "pl_word": "będziesz oddychać",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +555,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[respirás::oddychać (2.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy oddychać z nami jutro?"
+            "es_form": "¿[respirarás::będziesz oddychać] con nosotros mañana?",
+            "pl_translation": "Czy będziesz oddychać z nami jutro?"
           },
           {
-            "es_form": "Mañana [respirás::oddychać (2.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro oddychać wcześniej."
+            "es_form": "Mañana [respirarás::będziesz oddychać] más temprano.",
+            "pl_translation": "Jutro będziesz oddychać wcześniej."
           },
           {
-            "es_form": "El año que viene [respirás::oddychać (2.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku oddychać w Hiszpanii."
+            "es_form": "El año que viene [respirarás::będziesz oddychać] en España.",
+            "pl_translation": "W przyszłym roku będziesz oddychać w Hiszpanii."
           }
         ]
       },
       {
-        "es_word": "respirá",
-        "pl_word": "oddychać (3.os.lp, przysz.)",
+        "es_word": "respirará",
+        "pl_word": "będzie oddychać",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +578,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [respirá::oddychać (3.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że oddychać dobrze."
+            "es_form": "Creo que [respirará::będzie oddychać] bien.",
+            "pl_translation": "Myślę, że będzie oddychać dobrze."
           },
           {
-            "es_form": "¿[respirá::oddychać (3.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy oddychać z nami jutro?"
+            "es_form": "¿[respirará::będzie oddychać] con nosotros mañana?",
+            "pl_translation": "Czy będzie oddychać z nami jutro?"
           },
           {
-            "es_form": "El año que viene [respirá::oddychać (3.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku oddychać w Hiszpanii."
+            "es_form": "El año que viene [respirará::będzie oddychać] en España.",
+            "pl_translation": "W przyszłym roku będzie oddychać w Hiszpanii."
           }
         ]
       },
       {
-        "es_word": "respiremos",
-        "pl_word": "oddychać (1.os.lm, przysz.)",
+        "es_word": "respiraremos",
+        "pl_word": "będziemy oddychać",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +601,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[respiremos::oddychać (1.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy oddychać z nami jutro?"
+            "es_form": "¿[respiraremos::będziemy oddychać] con nosotros mañana?",
+            "pl_translation": "Czy będziemy oddychać z nami jutro?"
           },
           {
-            "es_form": "Mañana [respiremos::oddychać (1.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro oddychać wcześniej."
+            "es_form": "Mañana [respiraremos::będziemy oddychać] más temprano.",
+            "pl_translation": "Jutro będziemy oddychać wcześniej."
           },
           {
-            "es_form": "Creo que [respiremos::oddychać (1.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że oddychać dobrze."
+            "es_form": "Creo que [respiraremos::będziemy oddychać] bien.",
+            "pl_translation": "Myślę, że będziemy oddychać dobrze."
           }
         ]
       },
       {
-        "es_word": "respiréis",
-        "pl_word": "oddychać (2.os.lm, przysz.)",
+        "es_word": "respiraréis",
+        "pl_word": "będziecie oddychać",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +624,22 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [respiréis::oddychać (2.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro oddychać wcześniej."
+            "es_form": "Mañana [respiraréis::będziecie oddychać] más temprano.",
+            "pl_translation": "Jutro będziecie oddychać wcześniej."
           },
           {
-            "es_form": "Te prometo que [respiréis::oddychać (2.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że oddychać na czas."
+            "es_form": "Te prometo que [respiraréis::będziecie oddychać] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziecie oddychać na czas."
           },
           {
-            "es_form": "[respiréis::oddychać (2.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Oddychać w przyszłym tygodniu."
+            "es_form": "[respiraréis::będziecie oddychać] la proxima semana.",
+            "pl_translation": "Będziecie oddychać w przyszłym tygodniu."
           }
         ]
       },
       {
-        "es_word": "respirán",
-        "pl_word": "oddychać (3.os.lm, przysz.)",
+        "es_word": "respirarán",
+        "pl_word": "będą oddychać",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +647,16 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [respirán::oddychać (3.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku oddychać w Hiszpanii."
+            "es_form": "El año que viene [respirarán::będą oddychać] en España.",
+            "pl_translation": "W przyszłym roku będą oddychać w Hiszpanii."
           },
           {
-            "es_form": "Creo que [respirán::oddychać (3.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że oddychać dobrze."
+            "es_form": "Creo que [respirarán::będą oddychać] bien.",
+            "pl_translation": "Myślę, że będą oddychać dobrze."
           },
           {
-            "es_form": "¿[respirán::oddychać (3.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy oddychać z nami jutro?"
+            "es_form": "¿[respirarán::będą oddychać] con nosotros mañana?",
+            "pl_translation": "Czy będą oddychać z nami jutro?"
           }
         ]
       }

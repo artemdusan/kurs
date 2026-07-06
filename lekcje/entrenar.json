@@ -5,16 +5,16 @@
     "pl_word": "piłka nożna",
     "examples": [
       {
-        "es_form": "Guarda [el fútbol::piłka nożna] en el armario.",
-        "pl_translation": "Schowaj piłka nożna do szafy."
+        "es_form": "Me gusta jugar a [el fútbol::piłka nożna].",
+        "pl_translation": "Lubię grać w piłkę nożną."
       },
       {
-        "es_form": "[El fútbol::piłka nożna] es de madera.",
-        "pl_translation": "Piłka nożna jest z drewna."
+        "es_form": "[El fútbol::piłka nożna] es mi deporte favorito.",
+        "pl_translation": "Piłka nożna to mój ulubiony sport."
       },
       {
-        "es_form": "Necesito [el fútbol::piłka nożna] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową piłka nożna."
+        "es_form": "Necesito un balón de [el fútbol::piłka nożna].",
+        "pl_translation": "Potrzebuję piłki do gry w piłkę nożną."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "koszykówka",
     "examples": [
       {
-        "es_form": "[El baloncesto::koszykówka] es de madera.",
-        "pl_translation": "Koszykówka jest z drewna."
+        "es_form": "Juego a [el baloncesto::koszykówka] los fines de semana.",
+        "pl_translation": "Gram w koszykówkę w weekendy."
       },
       {
-        "es_form": "Se me rompio [el baloncesto::koszykówka].",
-        "pl_translation": "Zepsuł mi się koszykówka."
+        "es_form": "Se me rompió el balón de [el baloncesto::koszykówka].",
+        "pl_translation": "Zepsuła mi się piłka do koszykówki."
       },
       {
-        "es_form": "[El baloncesto::koszykówka] está sobre la mesa.",
-        "pl_translation": "Koszykówka jest na stole."
+        "es_form": "[El baloncesto::koszykówka] es muy popular.",
+        "pl_translation": "Koszykówka jest bardzo popularna."
       }
     ]
   },
@@ -43,54 +43,54 @@
     "pl_word": "siatkówka",
     "examples": [
       {
-        "es_form": "Guarda [el voleibol::siatkówka] en el armario.",
-        "pl_translation": "Schowaj siatkówka do szafy."
+        "es_form": "Practico [el voleibol::siatkówka] en la playa.",
+        "pl_translation": "Gram w siatkówkę na plaży."
       },
       {
-        "es_form": "Compré [el voleibol::siatkówka] ayer.",
-        "pl_translation": "Kupiłem/am siatkówka wczoraj."
+        "es_form": "Compré una red de [el voleibol::siatkówka] ayer.",
+        "pl_translation": "Kupiłem siatkę do siatkówki wczoraj."
       },
       {
-        "es_form": "[El voleibol::siatkówka] está sobre la mesa.",
-        "pl_translation": "Siatkówka jest na stole."
+        "es_form": "[El voleibol::siatkówka] es un deporte de equipo.",
+        "pl_translation": "Siatkówka to sport zespołowy."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El natación",
+    "es_word": "La natación",
     "pl_word": "pływanie",
     "examples": [
       {
-        "es_form": "Se me rompio [el natación::pływanie].",
-        "pl_translation": "Zepsuł mi się pływanie."
+        "es_form": "Me gusta [la natación::pływanie].",
+        "pl_translation": "Lubię pływanie."
       },
       {
-        "es_form": "[El natación::pływanie] cuesta diez euros.",
-        "pl_translation": "Pływanie kosztuje dziesięć euro."
+        "es_form": "[La natación::pływanie] es un ejercicio completo.",
+        "pl_translation": "Pływanie to wszechstronne ćwiczenie."
       },
       {
-        "es_form": "Guarda [el natación::pływanie] en el armario.",
-        "pl_translation": "Schowaj pływanie do szafy."
+        "es_form": "Practico [la natación::pływanie] todos los días.",
+        "pl_translation": "Uprawiam pływanie codziennie."
       }
     ]
   },
   {
     "type": "noun",
     "es_word": "El ciclismo",
-    "pl_word": "jazda na rowerze",
+    "pl_word": "jazda na rowerze / kolarstwo",
     "examples": [
       {
-        "es_form": "Necesito [el ciclismo::jazda na rowerze] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową jazda na rowerze."
+        "es_form": "Me gusta [el ciclismo::jazda na rowerze ].",
+        "pl_translation": "Lubię jazdę na rowerze."
       },
       {
-        "es_form": "¿Has visto [el ciclismo::jazda na rowerze]?",
-        "pl_translation": "Widziałeś/aś jazda na rowerze?"
+        "es_form": "¿Has visto la carrera de [el ciclismo::jazda na rowerze ]?",
+        "pl_translation": "Widziałeś wyścig kolarski?"
       },
       {
-        "es_form": "[El ciclismo::jazda na rowerze] está sobre la mesa.",
-        "pl_translation": "Jazda na rowerze jest na stole."
+        "es_form": "[El ciclismo::jazda na rowerze ] es muy popular en España.",
+        "pl_translation": "Kolarstwo jest bardzo popularne w Hiszpanii."
       }
     ]
   },
@@ -104,12 +104,12 @@
         "pl_translation": "Trener tu pracuje."
       },
       {
-        "es_form": "[El entrenador::trener] me ayudo mucho.",
-        "pl_translation": "Trener bardzo mi pomógł/pomogła."
+        "es_form": "[El entrenador::trener] me ayudó mucho.",
+        "pl_translation": "Trener bardzo mi pomógł."
       },
       {
-        "es_form": "Esta es [el entrenador::trener] de la que hablé.",
-        "pl_translation": "To jest trener, o której mówiłem/am."
+        "es_form": "Este es [el entrenador::trener] del que hablé.",
+        "pl_translation": "To jest trener, o którym mówiłem."
       }
     ]
   },
@@ -128,7 +128,7 @@
       },
       {
         "es_form": "Voy a [el estadio::stadion] cada día.",
-        "pl_translation": "Chodzę do stadion codziennie."
+        "pl_translation": "Chodzę na stadion codziennie."
       }
     ]
   },
@@ -146,8 +146,8 @@
         "pl_translation": "Wynik jest kluczem do sukcesu."
       },
       {
-        "es_form": "[El resultado::wynik] cambio mi vida.",
-        "pl_translation": "Wynik zmienił/a moje życie."
+        "es_form": "[El resultado::wynik] cambió mi vida.",
+        "pl_translation": "Wynik zmienił moje życie."
       }
     ]
   },
@@ -157,12 +157,12 @@
     "pl_word": "medal",
     "examples": [
       {
-        "es_form": "Necesito [la medalla::medal] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową medal."
+        "es_form": "Gané [la medalla::medal] de oro.",
+        "pl_translation": "Zdobyłem złoty medal."
       },
       {
         "es_form": "¿Has visto [la medalla::medal]?",
-        "pl_translation": "Widziałeś/aś medal?"
+        "pl_translation": "Widziałeś medal?"
       },
       {
         "es_form": "[La medalla::medal] está sobre la mesa.",
@@ -172,20 +172,20 @@
   },
   {
     "type": "noun",
-    "es_word": "El competición",
+    "es_word": "La competición",
     "pl_word": "zawody",
     "examples": [
       {
-        "es_form": "Compré [el competición::zawody] ayer.",
-        "pl_translation": "Kupiłem/am zawody wczoraj."
+        "es_form": "Participé en [la competición::zawody] ayer.",
+        "pl_translation": "Wziąłem udział w zawodach wczoraj."
       },
       {
-        "es_form": "Guarda [el competición::zawody] en el armario.",
-        "pl_translation": "Schowaj zawody do szafy."
+        "es_form": "Gané [la competición::zawody].",
+        "pl_translation": "Wygrałem zawody."
       },
       {
-        "es_form": "[El competición::zawody] está sobre la mesa.",
-        "pl_translation": "Zawody jest na stole."
+        "es_form": "[La competición::zawody] fue muy dura.",
+        "pl_translation": "Zawody były bardzo trudne."
       }
     ]
   },
@@ -199,56 +199,56 @@
         "pl_translation": "Ten samochód jest szybki."
       },
       {
-        "es_form": "Es una persona muy [rápido::szybki].",
-        "pl_translation": "To jest bardzo szybki osoba."
+        "es_form": "Es una persona muy [rápida::szybki].",
+        "pl_translation": "To jest bardzo szybka osoba."
       },
       {
         "es_form": "La comida está [rápida::szybki].",
-        "pl_translation": "Jedzenie jest szybki."
+        "pl_translation": "Jedzenie jest szybkie (do przygotowania)."
       }
     ]
   },
   {
     "type": "adjective",
     "es_word": "en forma",
-    "pl_word": "sprawny, w formie",
+    "pl_word": "sprawny / w formie",
     "examples": [
       {
-        "es_form": "Hace un día [en forma::sprawny, w formie].",
-        "pl_translation": "Jest sprawny, w formie dzień."
+        "es_form": "Estoy [en forma::sprawny ] gracias al deporte.",
+        "pl_translation": "Jestem w formie dzięki sportowi."
       },
       {
-        "es_form": "Se compro un vestido [en forma::sprawny, w formie].",
-        "pl_translation": "Kupiła sobie sprawny, w formie sukienkę."
+        "es_form": "Se compró un vestido para estar [en forma::sprawny ].",
+        "pl_translation": "Kupiła sobie sukienkę, żeby dobrze wyglądać."
       },
       {
-        "es_form": "Este coche es [en forma::sprawny, w formie].",
-        "pl_translation": "Ten samochód jest sprawny, w formie."
+        "es_form": "Este atleta está muy [en forma::sprawny ].",
+        "pl_translation": "Ten sportowiec jest w bardzo dobrej formie."
       }
     ]
   },
   {
     "type": "verb",
     "es_word": "entrenar",
-    "pl_word": "ćwiczyć, trenować",
+    "pl_word": "ćwiczyć / trenować",
     "examples": [
       {
-        "es_form": "¿Puedes [entrenar::ćwiczyć, trenować] más rápido?",
-        "pl_translation": "Możesz ćwiczyć, trenować szybciej?"
+        "es_form": "¿Puedes [entrenar::ćwiczyć / trenować] más rápido?",
+        "pl_translation": "Możesz ćwiczyć szybciej?"
       },
       {
-        "es_form": "Me gusta [entrenar::ćwiczyć, trenować] por la mañana.",
-        "pl_translation": "Lubię ćwiczyć, trenować rano."
+        "es_form": "Me gusta [entrenar::ćwiczyć / trenować] por la mañana.",
+        "pl_translation": "Lubię ćwiczyć rano."
       },
       {
-        "es_form": "Hay que [entrenar::ćwiczyć, trenować] con cuidado.",
-        "pl_translation": "Trzeba ćwiczyć, trenować ostrożnie."
+        "es_form": "Hay que [entrenar::ćwiczyć / trenować] con cuidado.",
+        "pl_translation": "Trzeba ćwiczyć ostrożnie."
       }
     ],
     "forms": [
       {
         "es_word": "entreno",
-        "pl_word": "ćwiczyć (1.os.lp, ter.)",
+        "pl_word": "ćwiczę",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +256,22 @@
         },
         "examples": [
           {
-            "es_form": "No [entreno::ćwiczyć (1.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie ćwiczyć zbyt dobrze."
+            "es_form": "No [entreno::ćwiczę] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie ćwiczę zbyt dobrze."
           },
           {
-            "es_form": "[entreno::ćwiczyć (1.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Ćwiczyć tak jak mnie nauczyłeś/aś."
+            "es_form": "[Entreno::ćwiczę] como me enseñaste.",
+            "pl_translation": "Ćwiczę tak jak mnie nauczyłeś."
           },
           {
-            "es_form": "Siempre [entreno::ćwiczyć (1.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze ćwiczyć z uwagą."
+            "es_form": "Siempre [entreno::ćwiczę] con atención.",
+            "pl_translation": "Zawsze ćwiczę z uwagą."
           }
         ]
       },
       {
         "es_word": "entrenas",
-        "pl_word": "ćwiczyć (2.os.lp, ter.)",
+        "pl_word": "ćwiczysz",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +279,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [entrenas::ćwiczyć (2.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj ćwiczyć rano."
+            "es_form": "Normalmente [entrenas::ćwiczysz] por la mañana.",
+            "pl_translation": "Zazwyczaj ćwiczysz rano."
           },
           {
-            "es_form": "No [entrenas::ćwiczyć (2.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie ćwiczyć zbyt dobrze."
+            "es_form": "No [entrenas::ćwiczysz] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie ćwiczysz zbyt dobrze."
           },
           {
-            "es_form": "[entrenas::ćwiczyć (2.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Ćwiczyć tak jak mnie nauczyłeś/aś."
+            "es_form": "[Entrenas::ćwiczysz] como me enseñaste.",
+            "pl_translation": "Ćwiczysz tak jak mnie nauczyłeś."
           }
         ]
       },
       {
         "es_word": "entrena",
-        "pl_word": "ćwiczyć (3.os.lp, ter.)",
+        "pl_word": "ćwiczy",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +302,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [entrena::ćwiczyć (3.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj ćwiczyć rano."
+            "es_form": "Normalmente [entrena::ćwiczy] por la mañana.",
+            "pl_translation": "Zazwyczaj ćwiczy rano."
           },
           {
-            "es_form": "¿[entrena::ćwiczyć (3.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy ćwiczyć w weekendy?"
+            "es_form": "¿[Entrena::ćwiczy] los fines de semana?",
+            "pl_translation": "Czy ćwiczy w weekendy?"
           },
           {
-            "es_form": "[entrena::ćwiczyć (3.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Ćwiczyć tak jak mnie nauczyłeś/aś."
+            "es_form": "[Entrena::ćwiczy] como me enseñaste.",
+            "pl_translation": "Ćwiczy tak jak mnie nauczyłeś."
           }
         ]
       },
       {
         "es_word": "entrenamos",
-        "pl_word": "ćwiczyć (1.os.lm, ter.)",
+        "pl_word": "ćwiczymy",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +325,22 @@
         },
         "examples": [
           {
-            "es_form": "[entrenamos::ćwiczyć (1.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Ćwiczyć tak jak mnie nauczyłeś/aś."
+            "es_form": "[Entrenamos::ćwiczymy] como me enseñaste.",
+            "pl_translation": "Ćwiczymy tak jak mnie nauczyłeś."
           },
           {
-            "es_form": "¿[entrenamos::ćwiczyć (1.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy ćwiczyć w weekendy?"
+            "es_form": "¿[Entrenamos::ćwiczymy] los fines de semana?",
+            "pl_translation": "Czy ćwiczymy w weekendy?"
           },
           {
-            "es_form": "Normalmente [entrenamos::ćwiczyć (1.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj ćwiczyć rano."
+            "es_form": "Normalmente [entrenamos::ćwiczymy] por la mañana.",
+            "pl_translation": "Zazwyczaj ćwiczymy rano."
           }
         ]
       },
       {
         "es_word": "entrenáis",
-        "pl_word": "ćwiczyć (2.os.lm, ter.)",
+        "pl_word": "ćwiczycie",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +348,22 @@
         },
         "examples": [
           {
-            "es_form": "[entrenáis::ćwiczyć (2.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Ćwiczyć tak jak mnie nauczyłeś/aś."
+            "es_form": "[Entrenáis::ćwiczycie] como me enseñaste.",
+            "pl_translation": "Ćwiczycie tak jak mnie nauczyłeś."
           },
           {
-            "es_form": "¿[entrenáis::ćwiczyć (2.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy ćwiczyć w weekendy?"
+            "es_form": "¿[Entrenáis::ćwiczycie] los fines de semana?",
+            "pl_translation": "Czy ćwiczycie w weekendy?"
           },
           {
-            "es_form": "Normalmente [entrenáis::ćwiczyć (2.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj ćwiczyć rano."
+            "es_form": "Normalmente [entrenáis::ćwiczycie] por la mañana.",
+            "pl_translation": "Zazwyczaj ćwiczycie rano."
           }
         ]
       },
       {
         "es_word": "entrenan",
-        "pl_word": "ćwiczyć (3.os.lm, ter.)",
+        "pl_word": "ćwiczą",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +371,22 @@
         },
         "examples": [
           {
-            "es_form": "[entrenan::ćwiczyć (3.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Ćwiczyć tak jak mnie nauczyłeś/aś."
+            "es_form": "[Entrenan::ćwiczą] como me enseñaste.",
+            "pl_translation": "Ćwiczą tak jak mnie nauczyłeś."
           },
           {
-            "es_form": "Normalmente [entrenan::ćwiczyć (3.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj ćwiczyć rano."
+            "es_form": "Normalmente [entrenan::ćwiczą] por la mañana.",
+            "pl_translation": "Zazwyczaj ćwiczą rano."
           },
           {
-            "es_form": "Siempre [entrenan::ćwiczyć (3.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze ćwiczyć z uwagą."
+            "es_form": "Siempre [entrenan::ćwiczą] con atención.",
+            "pl_translation": "Zawsze ćwiczą z uwagą."
           }
         ]
       },
       {
         "es_word": "entrené",
-        "pl_word": "ćwiczyć (1.os.lp, przesz.)",
+        "pl_word": "ćwiczyłem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "[entrené::ćwiczyć (1.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Ćwiczyć bez przerwy przez wiele godzin."
+            "es_form": "[Entrené::ćwiczyłem] sin parar durante horas.",
+            "pl_translation": "Ćwiczyłem bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "Ayer [entrené::ćwiczyć (1.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj ćwiczyć cały dzień."
+            "es_form": "Ayer [entrené::ćwiczyłem] todo el día.",
+            "pl_translation": "Wczoraj ćwiczyłem cały dzień."
           },
           {
-            "es_form": "El mes pasado no [entrené::ćwiczyć (1.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie ćwiczyć."
+            "es_form": "El mes pasado no [entrené::ćwiczyłem] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie ćwiczyłem."
           }
         ]
       },
       {
         "es_word": "entrenaste",
-        "pl_word": "ćwiczyć (2.os.lp, przesz.)",
+        "pl_word": "ćwiczyłeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [entrenaste::ćwiczyć (2.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie ćwiczyć czegoś takiego."
+            "es_form": "Nunca [entrenaste::ćwiczyłeś] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie ćwiczyłeś czegoś takiego."
           },
           {
-            "es_form": "El mes pasado no [entrenaste::ćwiczyć (2.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie ćwiczyć."
+            "es_form": "El mes pasado no [entrenaste::ćwiczyłeś] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie ćwiczyłeś."
           },
           {
-            "es_form": "[entrenaste::ćwiczyć (2.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Ćwiczyć bez przerwy przez wiele godzin."
+            "es_form": "[Entrenaste::ćwiczyłeś] sin parar durante horas.",
+            "pl_translation": "Ćwiczyłeś bez przerwy przez wiele godzin."
           }
         ]
       },
       {
         "es_word": "entrenó",
-        "pl_word": "ćwiczyć (3.os.lp, przesz.)",
+        "pl_word": "ćwiczył",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [entrenó::ćwiczyć (3.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj ćwiczyć cały dzień."
+            "es_form": "Ayer [entrenó::ćwiczył] todo el día.",
+            "pl_translation": "Wczoraj ćwiczył cały dzień."
           },
           {
-            "es_form": "El mes pasado no [entrenó::ćwiczyć (3.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie ćwiczyć."
+            "es_form": "El mes pasado no [entrenó::ćwiczył] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie ćwiczył."
           },
           {
-            "es_form": "¿[entrenó::ćwiczyć (3.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy ćwiczyć dobrze egzamin?"
+            "es_form": "¿[Entrenó::ćwiczył] bien para el examen?",
+            "pl_translation": "Czy dobrze ćwiczył do egzaminu?"
           }
         ]
       },
       {
         "es_word": "entrenamos",
-        "pl_word": "ćwiczyć (1.os.lm, przesz.)",
+        "pl_word": "ćwiczyliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[entrenamos::ćwiczyć (1.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy ćwiczyć dobrze egzamin?"
+            "es_form": "¿[Entrenamos::ćwiczyliśmy] bien para el examen?",
+            "pl_translation": "Czy dobrze ćwiczyliśmy do egzaminu?"
           },
           {
-            "es_form": "Nunca [entrenamos::ćwiczyć (1.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie ćwiczyć czegoś takiego."
+            "es_form": "Nunca [entrenamos::ćwiczyliśmy] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie ćwiczyliśmy czegoś takiego."
           },
           {
-            "es_form": "Ayer [entrenamos::ćwiczyć (1.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj ćwiczyć cały dzień."
+            "es_form": "Ayer [entrenamos::ćwiczyliśmy] todo el día.",
+            "pl_translation": "Wczoraj ćwiczyliśmy cały dzień."
           }
         ]
       },
       {
         "es_word": "entrenasteis",
-        "pl_word": "ćwiczyć (2.os.lm, przesz.)",
+        "pl_word": "ćwiczyliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[entrenasteis::ćwiczyć (2.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy ćwiczyć dobrze egzamin?"
+            "es_form": "¿[Entrenasteis::ćwiczyliście] bien para el examen?",
+            "pl_translation": "Czy dobrze ćwiczyliście do egzaminu?"
           },
           {
-            "es_form": "[entrenasteis::ćwiczyć (2.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Ćwiczyć w zeszłym tygodniu."
+            "es_form": "[Entrenasteis::ćwiczyliście] la semana pasada.",
+            "pl_translation": "Ćwiczyliście w zeszłym tygodniu."
           },
           {
-            "es_form": "[entrenasteis::ćwiczyć (2.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Ćwiczyć bez przerwy przez wiele godzin."
+            "es_form": "[Entrenasteis::ćwiczyliście] sin parar durante horas.",
+            "pl_translation": "Ćwiczyliście bez przerwy przez wiele godzin."
           }
         ]
       },
       {
         "es_word": "entrenaron",
-        "pl_word": "ćwiczyć (3.os.lm, przesz.)",
+        "pl_word": "ćwiczyli",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +509,22 @@
         },
         "examples": [
           {
-            "es_form": "[entrenaron::ćwiczyć (3.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Ćwiczyć w zeszłym tygodniu."
+            "es_form": "[Entrenaron::ćwiczyli] la semana pasada.",
+            "pl_translation": "Ćwiczyli w zeszłym tygodniu."
           },
           {
-            "es_form": "Nunca [entrenaron::ćwiczyć (3.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie ćwiczyć czegoś takiego."
+            "es_form": "Nunca [entrenaron::ćwiczyli] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie ćwiczyli czegoś takiego."
           },
           {
-            "es_form": "¿[entrenaron::ćwiczyć (3.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy ćwiczyć dobrze egzamin?"
+            "es_form": "¿[Entrenaron::ćwiczyli] bien para el examen?",
+            "pl_translation": "Czy dobrze ćwiczyli do egzaminu?"
           }
         ]
       },
       {
-        "es_word": "entrené",
-        "pl_word": "ćwiczyć (1.os.lp, przysz.)",
+        "es_word": "entrenaré",
+        "pl_word": "będę ćwiczyć",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +532,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[entrené::ćwiczyć (1.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy ćwiczyć z nami jutro?"
+            "es_form": "¿[Entrenaré::będę ćwiczyć] con nosotros mañana?",
+            "pl_translation": "Czy będę ćwiczyć z nami jutro?"
           },
           {
-            "es_form": "El año que viene [entrené::ćwiczyć (1.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku ćwiczyć w Hiszpanii."
+            "es_form": "El año que viene [entrenaré::będę ćwiczyć] en España.",
+            "pl_translation": "W przyszłym roku będę ćwiczyć w Hiszpanii."
           },
           {
-            "es_form": "Te prometo que [entrené::ćwiczyć (1.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że ćwiczyć na czas."
+            "es_form": "Te prometo que [entrenaré::będę ćwiczyć] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będę ćwiczyć na czas."
           }
         ]
       },
       {
-        "es_word": "entrenás",
-        "pl_word": "ćwiczyć (2.os.lp, przysz.)",
+        "es_word": "entrenarás",
+        "pl_word": "będziesz ćwiczyć",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +555,22 @@
         },
         "examples": [
           {
-            "es_form": "[entrenás::ćwiczyć (2.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Ćwiczyć w przyszłym tygodniu."
+            "es_form": "[Entrenarás::będziesz ćwiczyć] la próxima semana.",
+            "pl_translation": "Będziesz ćwiczyć w przyszłym tygodniu."
           },
           {
-            "es_form": "El año que viene [entrenás::ćwiczyć (2.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku ćwiczyć w Hiszpanii."
+            "es_form": "El año que viene [entrenarás::będziesz ćwiczyć] en España.",
+            "pl_translation": "W przyszłym roku będziesz ćwiczyć w Hiszpanii."
           },
           {
-            "es_form": "Te prometo que [entrenás::ćwiczyć (2.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że ćwiczyć na czas."
+            "es_form": "Te prometo que [entrenarás::będziesz ćwiczyć] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziesz ćwiczyć na czas."
           }
         ]
       },
       {
-        "es_word": "entrená",
-        "pl_word": "ćwiczyć (3.os.lp, przysz.)",
+        "es_word": "entrenará",
+        "pl_word": "będzie ćwiczyć",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +578,22 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [entrená::ćwiczyć (3.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że ćwiczyć na czas."
+            "es_form": "Te prometo que [entrenará::będzie ćwiczyć] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będzie ćwiczyć na czas."
           },
           {
-            "es_form": "El año que viene [entrená::ćwiczyć (3.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku ćwiczyć w Hiszpanii."
+            "es_form": "El año que viene [entrenará::będzie ćwiczyć] en España.",
+            "pl_translation": "W przyszłym roku będzie ćwiczyć w Hiszpanii."
           },
           {
-            "es_form": "Mañana [entrená::ćwiczyć (3.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro ćwiczyć wcześniej."
+            "es_form": "Mañana [entrenará::będzie ćwiczyć] más temprano.",
+            "pl_translation": "Jutro będzie ćwiczyć wcześniej."
           }
         ]
       },
       {
-        "es_word": "entrenemos",
-        "pl_word": "ćwiczyć (1.os.lm, przysz.)",
+        "es_word": "entrenaremos",
+        "pl_word": "będziemy ćwiczyć",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +601,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[entrenemos::ćwiczyć (1.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy ćwiczyć z nami jutro?"
+            "es_form": "¿[Entrenaremos::będziemy ćwiczyć] con nosotros mañana?",
+            "pl_translation": "Czy będziemy ćwiczyć z nami jutro?"
           },
           {
-            "es_form": "[entrenemos::ćwiczyć (1.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Ćwiczyć w przyszłym tygodniu."
+            "es_form": "[Entrenaremos::będziemy ćwiczyć] la próxima semana.",
+            "pl_translation": "Będziemy ćwiczyć w przyszłym tygodniu."
           },
           {
-            "es_form": "Mañana [entrenemos::ćwiczyć (1.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro ćwiczyć wcześniej."
+            "es_form": "Mañana [entrenaremos::będziemy ćwiczyć] más temprano.",
+            "pl_translation": "Jutro będziemy ćwiczyć wcześniej."
           }
         ]
       },
       {
-        "es_word": "entrenéis",
-        "pl_word": "ćwiczyć (2.os.lm, przysz.)",
+        "es_word": "entrenaréis",
+        "pl_word": "będziecie ćwiczyć",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +624,22 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [entrenéis::ćwiczyć (2.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro ćwiczyć wcześniej."
+            "es_form": "Mañana [entrenaréis::będziecie ćwiczyć] más temprano.",
+            "pl_translation": "Jutro będziecie ćwiczyć wcześniej."
           },
           {
-            "es_form": "¿[entrenéis::ćwiczyć (2.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy ćwiczyć z nami jutro?"
+            "es_form": "¿[Entrenaréis::będziecie ćwiczyć] con nosotros mañana?",
+            "pl_translation": "Czy będziecie ćwiczyć z nami jutro?"
           },
           {
-            "es_form": "Creo que [entrenéis::ćwiczyć (2.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że ćwiczyć dobrze."
+            "es_form": "Creo que [entrenaréis::będziecie ćwiczyć] bien.",
+            "pl_translation": "Myślę, że będziecie dobrze ćwiczyć."
           }
         ]
       },
       {
-        "es_word": "entrenán",
-        "pl_word": "ćwiczyć (3.os.lm, przysz.)",
+        "es_word": "entrenarán",
+        "pl_word": "będą ćwiczyć",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +647,16 @@
         },
         "examples": [
           {
-            "es_form": "¿[entrenán::ćwiczyć (3.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy ćwiczyć z nami jutro?"
+            "es_form": "¿[Entrenarán::będą ćwiczyć] con nosotros mañana?",
+            "pl_translation": "Czy będą ćwiczyć z nami jutro?"
           },
           {
-            "es_form": "Mañana [entrenán::ćwiczyć (3.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro ćwiczyć wcześniej."
+            "es_form": "Mañana [entrenarán::będą ćwiczyć] más temprano.",
+            "pl_translation": "Jutro będą ćwiczyć wcześniej."
           },
           {
-            "es_form": "El año que viene [entrenán::ćwiczyć (3.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku ćwiczyć w Hiszpanii."
+            "es_form": "El año que viene [entrenarán::będą ćwiczyć] en España.",
+            "pl_translation": "W przyszłym roku będą ćwiczyć w Hiszpanii."
           }
         ]
       }

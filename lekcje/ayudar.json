@@ -5,16 +5,16 @@
     "pl_word": "ubóstwo",
     "examples": [
       {
-        "es_form": "[La pobreza::ubóstwo] cuesta diez euros.",
-        "pl_translation": "Ubóstwo kosztuje dziesięć euro."
+        "es_form": "[La pobreza::ubóstwo] es un problema grave.",
+        "pl_translation": "Ubóstwo jest poważnym problemem."
       },
       {
-        "es_form": "Guarda [la pobreza::ubóstwo] en el armario.",
-        "pl_translation": "Schowaj ubóstwo do szafy."
+        "es_form": "Hay que luchar contra [la pobreza::ubóstwo].",
+        "pl_translation": "Trzeba walczyć z ubóstwem."
       },
       {
-        "es_form": "Se me rompio [la pobreza::ubóstwo].",
-        "pl_translation": "Zepsuł mi się ubóstwo."
+        "es_form": "[La pobreza::ubóstwo] afecta a muchas familias.",
+        "pl_translation": "Ubóstwo dotyka wiele rodzin."
       }
     ]
   },
@@ -25,34 +25,34 @@
     "examples": [
       {
         "es_form": "Hablamos sobre [la desigualdad::nierówność].",
-        "pl_translation": "Rozmawialiśmy o nierówność."
+        "pl_translation": "Rozmawialiśmy o nierówności."
       },
       {
-        "es_form": "[La desigualdad::nierówność] es la clave del éxito.",
-        "pl_translation": "Nierówność jest kluczem do sukcesu."
+        "es_form": "[La desigualdad::nierówność] es un problema social.",
+        "pl_translation": "Nierówność jest problemem społecznym."
       },
       {
         "es_form": "No entiendo [la desigualdad::nierówność].",
-        "pl_translation": "Nie rozumiem nierówność."
+        "pl_translation": "Nie rozumiem nierówności."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El discriminación",
+    "es_word": "La discriminación",
     "pl_word": "dyskryminacja",
     "examples": [
       {
-        "es_form": "[El discriminación::dyskryminacja] es la clave del éxito.",
-        "pl_translation": "Dyskryminacja jest kluczem do sukcesu."
+        "es_form": "[La discriminación::dyskryminacja] es un problema grave.",
+        "pl_translation": "Dyskryminacja jest poważnym problemem."
       },
       {
-        "es_form": "Tienes que aceptar [el discriminación::dyskryminacja].",
-        "pl_translation": "Musisz zaakceptować dyskryminacja."
+        "es_form": "Tienes que combatir [la discriminación::dyskryminacja].",
+        "pl_translation": "Musisz zwalczać dyskryminację."
       },
       {
-        "es_form": "No entiendo [el discriminación::dyskryminacja].",
-        "pl_translation": "Nie rozumiem dyskryminacja."
+        "es_form": "No entiendo [la discriminación::dyskryminacja].",
+        "pl_translation": "Nie rozumiem dyskryminacji."
       }
     ]
   },
@@ -62,8 +62,8 @@
     "pl_word": "równość",
     "examples": [
       {
-        "es_form": "[La igualdad::równość] es la clave del éxito.",
-        "pl_translation": "Równość jest kluczem do sukcesu."
+        "es_form": "[La igualdad::równość] es un derecho fundamental.",
+        "pl_translation": "Równość jest podstawowym prawem."
       },
       {
         "es_form": "Tienes que aceptar [la igualdad::równość].",
@@ -71,7 +71,7 @@
       },
       {
         "es_form": "Hablamos sobre [la igualdad::równość].",
-        "pl_translation": "Rozmawialiśmy o równość."
+        "pl_translation": "Rozmawialiśmy o równości."
       }
     ]
   },
@@ -82,53 +82,53 @@
     "examples": [
       {
         "es_form": "[La justicia::sprawiedliwość] es muy importante.",
-        "pl_translation": "Sprawiedliwość jest bardzo ważny/a."
+        "pl_translation": "Sprawiedliwość jest bardzo ważna."
       },
       {
         "es_form": "Hablamos sobre [la justicia::sprawiedliwość].",
-        "pl_translation": "Rozmawialiśmy o sprawiedliwość."
+        "pl_translation": "Rozmawialiśmy o sprawiedliwości."
       },
       {
-        "es_form": "[La justicia::sprawiedliwość] cambio mi vida.",
-        "pl_translation": "Sprawiedliwość zmienił/a moje życie."
+        "es_form": "[La justicia::sprawiedliwość] cambió mi vida.",
+        "pl_translation": "Sprawiedliwość zmieniła moje życie."
       }
     ]
   },
   {
     "type": "noun",
     "es_word": "La injusticia",
-    "pl_word": "niesprawiedliwość, krzywda",
+    "pl_word": "niesprawiedliwość",
     "examples": [
       {
-        "es_form": "[La injusticia::niesprawiedliwość, krzywda] cambio mi vida.",
-        "pl_translation": "Niesprawiedliwość, krzywda zmienił/a moje życie."
+        "es_form": "[La injusticia::niesprawiedliwość] cambió mi vida.",
+        "pl_translation": "Niesprawiedliwość zmieniła moje życie."
       },
       {
-        "es_form": "Tienes que aceptar [la injusticia::niesprawiedliwość, krzywda].",
-        "pl_translation": "Musisz zaakceptować niesprawiedliwość, krzywda."
+        "es_form": "Tienes que aceptar [la injusticia::niesprawiedliwość].",
+        "pl_translation": "Musisz zaakceptować niesprawiedliwość."
       },
       {
-        "es_form": "[La injusticia::niesprawiedliwość, krzywda] es la clave del éxito.",
-        "pl_translation": "Niesprawiedliwość, krzywda jest kluczem do sukcesu."
+        "es_form": "[La injusticia::niesprawiedliwość] me enfada mucho.",
+        "pl_translation": "Niesprawiedliwość bardzo mnie złości."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El derechos humanos",
+    "es_word": "Los derechos humanos",
     "pl_word": "prawa człowieka",
     "examples": [
       {
-        "es_form": "[El derechos humanos::prawa człowieka] pasa muy rápido.",
-        "pl_translation": "Prawa człowieka mija bardzo szybko."
+        "es_form": "[Los derechos humanos::prawa człowieka] son fundamentales.",
+        "pl_translation": "Prawa człowieka są fundamentalne."
       },
       {
-        "es_form": "Llego [El derechos humanos::prawa człowieka] de la boda.",
-        "pl_translation": "Nadszedł prawa człowieka ślubu."
+        "es_form": "Hay que respetar [los derechos humanos::prawa człowieka].",
+        "pl_translation": "Trzeba szanować prawa człowieka."
       },
       {
-        "es_form": "[El derechos humanos::prawa człowieka] se me hizo eterno.",
-        "pl_translation": "Prawa człowieka mi się dłużył/a."
+        "es_form": "[Los derechos humanos::prawa człowieka] nos protegen a todos.",
+        "pl_translation": "Prawa człowieka chronią nas wszystkich."
       }
     ]
   },
@@ -143,30 +143,30 @@
       },
       {
         "es_form": "No entiendo [el voluntariado::wolontariat].",
-        "pl_translation": "Nie rozumiem wolontariat."
+        "pl_translation": "Nie rozumiem wolontariatu."
       },
       {
-        "es_form": "[El voluntariado::wolontariat] cambio mi vida.",
-        "pl_translation": "Wolontariat zmienił/a moje życie."
+        "es_form": "[El voluntariado::wolontariat] cambió mi vida.",
+        "pl_translation": "Wolontariat zmienił moje życie."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El organización",
+    "es_word": "La organización",
     "pl_word": "organizacja",
     "examples": [
       {
-        "es_form": "No entiendo [el organización::organizacja].",
-        "pl_translation": "Nie rozumiem organizacja."
+        "es_form": "No entiendo [la organización::organizacja].",
+        "pl_translation": "Nie rozumiem organizacji."
       },
       {
-        "es_form": "[El organización::organizacja] es la clave del éxito.",
+        "es_form": "[La organización::organizacja] es la clave del éxito.",
         "pl_translation": "Organizacja jest kluczem do sukcesu."
       },
       {
-        "es_form": "[El organización::organizacja] cambio mi vida.",
-        "pl_translation": "Organizacja zmienił/a moje życie."
+        "es_form": "[La organización::organizacja] cambió mi vida.",
+        "pl_translation": "Organizacja zmieniła moje życie."
       }
     ]
   },
@@ -177,15 +177,15 @@
     "examples": [
       {
         "es_form": "No entiendo [la solidaridad::solidarność].",
-        "pl_translation": "Nie rozumiem solidarność."
+        "pl_translation": "Nie rozumiem solidarności."
       },
       {
         "es_form": "Tienes que aceptar [la solidaridad::solidarność].",
         "pl_translation": "Musisz zaakceptować solidarność."
       },
       {
-        "es_form": "[La solidaridad::solidarność] cambio mi vida.",
-        "pl_translation": "Solidarność zmienił/a moje życie."
+        "es_form": "[La solidaridad::solidarność] cambió mi vida.",
+        "pl_translation": "Solidarność zmieniła moje życie."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "sprawiedliwy",
     "examples": [
       {
-        "es_form": "Nada es más [justo::sprawiedliwy] que la familia.",
-        "pl_translation": "Nic nie jest sprawiedliwy od rodziny."
+        "es_form": "El profesor es muy [justo::sprawiedliwy].",
+        "pl_translation": "Nauczyciel jest bardzo sprawiedliwy."
       },
       {
         "es_form": "El examen fue [justo::sprawiedliwy].",
         "pl_translation": "Egzamin był sprawiedliwy."
       },
       {
-        "es_form": "Este coche es [justo::sprawiedliwy].",
-        "pl_translation": "Ten samochód jest sprawiedliwy."
+        "es_form": "Es una decisión [justa::sprawiedliwy].",
+        "pl_translation": "To sprawiedliwa decyzja."
       }
     ]
   },
@@ -218,12 +218,12 @@
         "pl_translation": "Egzamin był niesprawiedliwy."
       },
       {
-        "es_form": "Mi amigo es [injusto::niesprawiedliwy] y simpático.",
-        "pl_translation": "Mój przyjaciel jest niesprawiedliwy i sympatyczny."
+        "es_form": "Es una situación [injusta::niesprawiedliwy].",
+        "pl_translation": "To niesprawiedliwa sytuacja."
       },
       {
-        "es_form": "Tengo una casa [injusta::niesprawiedliwy].",
-        "pl_translation": "Mam niesprawiedliwy dom."
+        "es_form": "El castigo fue [injusto::niesprawiedliwy].",
+        "pl_translation": "Kara była niesprawiedliwa."
       }
     ]
   },
@@ -248,7 +248,7 @@
     "forms": [
       {
         "es_word": "ayudo",
-        "pl_word": "pomagać (1.os.lp, ter.)",
+        "pl_word": "pomagam",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +256,22 @@
         },
         "examples": [
           {
-            "es_form": "No [ayudo::pomagać (1.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie pomagać zbyt dobrze."
+            "es_form": "No [ayudo::pomagam] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie pomagam zbyt dobrze."
           },
           {
-            "es_form": "¿[ayudo::pomagać (1.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy pomagać w weekendy?"
+            "es_form": "¿[ayudo::pomagam] los fines de semana?",
+            "pl_translation": "Czy pomagam w weekendy?"
           },
           {
-            "es_form": "Normalmente [ayudo::pomagać (1.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj pomagać rano."
+            "es_form": "Normalmente [ayudo::pomagam] por la mañana.",
+            "pl_translation": "Zazwyczaj pomagam rano."
           }
         ]
       },
       {
         "es_word": "ayudas",
-        "pl_word": "pomagać (2.os.lp, ter.)",
+        "pl_word": "pomagasz",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +279,22 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [ayudas::pomagać (2.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze pomagać z uwagą."
+            "es_form": "Siempre [ayudas::pomagasz] con atención.",
+            "pl_translation": "Zawsze pomagasz z uwagą."
           },
           {
-            "es_form": "[ayudas::pomagać (2.os.lp, ter.)] todos los días.",
-            "pl_translation": "Pomagać codziennie."
+            "es_form": "[ayudas::pomagasz] todos los días.",
+            "pl_translation": "Pomagasz codziennie."
           },
           {
-            "es_form": "¿[ayudas::pomagać (2.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy pomagać w weekendy?"
+            "es_form": "¿[ayudas::pomagasz] los fines de semana?",
+            "pl_translation": "Czy pomagasz w weekendy?"
           }
         ]
       },
       {
         "es_word": "ayuda",
-        "pl_word": "pomagać (3.os.lp, ter.)",
+        "pl_word": "pomaga",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +302,22 @@
         },
         "examples": [
           {
-            "es_form": "[ayuda::pomagać (3.os.lp, ter.)] todos los días.",
-            "pl_translation": "Pomagać codziennie."
+            "es_form": "[ayuda::pomaga] todos los días.",
+            "pl_translation": "Pomaga codziennie."
           },
           {
-            "es_form": "Siempre [ayuda::pomagać (3.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze pomagać z uwagą."
+            "es_form": "Siempre [ayuda::pomaga] con atención.",
+            "pl_translation": "Zawsze pomaga z uwagą."
           },
           {
-            "es_form": "[ayuda::pomagać (3.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Pomagać tak jak mnie nauczyłeś/aś."
+            "es_form": "[ayuda::pomaga] como le enseñaste.",
+            "pl_translation": "Pomaga tak jak go nauczyłeś."
           }
         ]
       },
       {
         "es_word": "ayudamos",
-        "pl_word": "pomagać (1.os.lm, ter.)",
+        "pl_word": "pomagamy",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +325,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [ayudamos::pomagać (1.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj pomagać rano."
+            "es_form": "Normalmente [ayudamos::pomagamy] por la mañana.",
+            "pl_translation": "Zazwyczaj pomagamy rano."
           },
           {
-            "es_form": "No [ayudamos::pomagać (1.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie pomagać zbyt dobrze."
+            "es_form": "No [ayudamos::pomagamy] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie pomagamy zbyt dobrze."
           },
           {
-            "es_form": "[ayudamos::pomagać (1.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Pomagać tak jak mnie nauczyłeś/aś."
+            "es_form": "[ayudamos::pomagamy] como nos enseñaste.",
+            "pl_translation": "Pomagamy tak jak nas nauczyłeś."
           }
         ]
       },
       {
         "es_word": "ayudáis",
-        "pl_word": "pomagać (2.os.lm, ter.)",
+        "pl_word": "pomagacie",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +348,22 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [ayudáis::pomagać (2.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze pomagać z uwagą."
+            "es_form": "Siempre [ayudáis::pomagacie] con atención.",
+            "pl_translation": "Zawsze pomagacie z uwagą."
           },
           {
-            "es_form": "[ayudáis::pomagać (2.os.lm, ter.)] todos los días.",
-            "pl_translation": "Pomagać codziennie."
+            "es_form": "[ayudáis::pomagacie] todos los días.",
+            "pl_translation": "Pomagacie codziennie."
           },
           {
-            "es_form": "No [ayudáis::pomagać (2.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie pomagać zbyt dobrze."
+            "es_form": "No [ayudáis::pomagacie] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie pomagacie zbyt dobrze."
           }
         ]
       },
       {
         "es_word": "ayudan",
-        "pl_word": "pomagać (3.os.lm, ter.)",
+        "pl_word": "pomagają",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +371,22 @@
         },
         "examples": [
           {
-            "es_form": "No [ayudan::pomagać (3.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie pomagać zbyt dobrze."
+            "es_form": "No [ayudan::pomagają] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie pomagają zbyt dobrze."
           },
           {
-            "es_form": "[ayudan::pomagać (3.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Pomagać tak jak mnie nauczyłeś/aś."
+            "es_form": "[ayudan::pomagają] como les enseñaste.",
+            "pl_translation": "Pomagają tak jak ich nauczyłeś."
           },
           {
-            "es_form": "¿[ayudan::pomagać (3.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy pomagać w weekendy?"
+            "es_form": "¿[ayudan::pomagają] los fines de semana?",
+            "pl_translation": "Czy pomagają w weekendy?"
           }
         ]
       },
       {
         "es_word": "ayudé",
-        "pl_word": "pomagać (1.os.lp, przesz.)",
+        "pl_word": "pomagałem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [ayudé::pomagać (1.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie pomagać."
+            "es_form": "El mes pasado no [ayudé::pomagałem] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie pomagałem."
           },
           {
-            "es_form": "[ayudé::pomagać (1.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Pomagać bez przerwy przez wiele godzin."
+            "es_form": "[ayudé::pomagałem] sin parar durante horas.",
+            "pl_translation": "Pomagałem bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "Ayer [ayudé::pomagać (1.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj pomagać cały dzień."
+            "es_form": "Ayer [ayudé::pomagałem] todo el día.",
+            "pl_translation": "Wczoraj pomagałem cały dzień."
           }
         ]
       },
       {
         "es_word": "ayudaste",
-        "pl_word": "pomagać (2.os.lp, przesz.)",
+        "pl_word": "pomagałeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "[ayudaste::pomagać (2.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Pomagać bez przerwy przez wiele godzin."
+            "es_form": "[ayudaste::pomagałeś] sin parar durante horas.",
+            "pl_translation": "Pomagałeś bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "Ayer [ayudaste::pomagać (2.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj pomagać cały dzień."
+            "es_form": "Ayer [ayudaste::pomagałeś] todo el día.",
+            "pl_translation": "Wczoraj pomagałeś cały dzień."
           },
           {
-            "es_form": "[ayudaste::pomagać (2.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Pomagać w zeszłym tygodniu."
+            "es_form": "[ayudaste::pomagałeś] la semana pasada.",
+            "pl_translation": "Pomagałeś w zeszłym tygodniu."
           }
         ]
       },
       {
         "es_word": "ayudó",
-        "pl_word": "pomagać (3.os.lp, przesz.)",
+        "pl_word": "pomagał",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "[ayudó::pomagać (3.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Pomagać w zeszłym tygodniu."
+            "es_form": "[ayudó::pomagał] la semana pasada.",
+            "pl_translation": "Pomagał w zeszłym tygodniu."
           },
           {
-            "es_form": "El mes pasado no [ayudó::pomagać (3.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie pomagać."
+            "es_form": "El mes pasado no [ayudó::pomagał] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie pomagał."
           },
           {
-            "es_form": "[ayudó::pomagać (3.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Pomagać bez przerwy przez wiele godzin."
+            "es_form": "[ayudó::pomagał] sin parar durante horas.",
+            "pl_translation": "Pomagał bez przerwy przez wiele godzin."
           }
         ]
       },
       {
         "es_word": "ayudamos",
-        "pl_word": "pomagać (1.os.lm, przesz.)",
+        "pl_word": "pomagaliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [ayudamos::pomagać (1.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie pomagać czegoś takiego."
+            "es_form": "Nunca [ayudamos::pomagaliśmy] de esa manera antes.",
+            "pl_translation": "Nigdy wcześniej nie pomagaliśmy w ten sposób."
           },
           {
-            "es_form": "[ayudamos::pomagać (1.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Pomagać bez przerwy przez wiele godzin."
+            "es_form": "[ayudamos::pomagaliśmy] sin parar durante horas.",
+            "pl_translation": "Pomagaliśmy bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "¿[ayudamos::pomagać (1.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy pomagać dobrze egzamin?"
+            "es_form": "Ayer [ayudamos::pomagaliśmy] todo el día.",
+            "pl_translation": "Wczoraj pomagaliśmy cały dzień."
           }
         ]
       },
       {
         "es_word": "ayudasteis",
-        "pl_word": "pomagać (2.os.lm, przesz.)",
+        "pl_word": "pomagaliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[ayudasteis::pomagać (2.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy pomagać dobrze egzamin?"
+            "es_form": "¿[ayudasteis::pomagaliście] a los demás?",
+            "pl_translation": "Czy pomagaliście innym?"
           },
           {
-            "es_form": "[ayudasteis::pomagać (2.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Pomagać w zeszłym tygodniu."
+            "es_form": "[ayudasteis::pomagaliście] la semana pasada.",
+            "pl_translation": "Pomagaliście w zeszłym tygodniu."
           },
           {
-            "es_form": "Ayer [ayudasteis::pomagać (2.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj pomagać cały dzień."
+            "es_form": "Ayer [ayudasteis::pomagaliście] todo el día.",
+            "pl_translation": "Wczoraj pomagaliście cały dzień."
           }
         ]
       },
       {
         "es_word": "ayudaron",
-        "pl_word": "pomagać (3.os.lm, przesz.)",
+        "pl_word": "pomagali",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +509,22 @@
         },
         "examples": [
           {
-            "es_form": "[ayudaron::pomagać (3.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Pomagać bez przerwy przez wiele godzin."
+            "es_form": "[ayudaron::pomagali] sin parar durante horas.",
+            "pl_translation": "Pomagali bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "¿[ayudaron::pomagać (3.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy pomagać dobrze egzamin?"
+            "es_form": "¿[ayudaron::pomagali] a los demás?",
+            "pl_translation": "Czy pomagali innym?"
           },
           {
-            "es_form": "[ayudaron::pomagać (3.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Pomagać w zeszłym tygodniu."
+            "es_form": "[ayudaron::pomagali] la semana pasada.",
+            "pl_translation": "Pomagali w zeszłym tygodniu."
           }
         ]
       },
       {
-        "es_word": "ayudé",
-        "pl_word": "pomagać (1.os.lp, przysz.)",
+        "es_word": "ayudaré",
+        "pl_word": "będę pomagać",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +532,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [ayudé::pomagać (1.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że pomagać dobrze."
+            "es_form": "Creo que [ayudaré::będę pomagać] bien.",
+            "pl_translation": "Myślę, że będę pomagać dobrze."
           },
           {
-            "es_form": "Mañana [ayudé::pomagać (1.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro pomagać wcześniej."
+            "es_form": "Mañana [ayudaré::będę pomagać] más temprano.",
+            "pl_translation": "Jutro będę pomagać wcześniej."
           },
           {
-            "es_form": "El año que viene [ayudé::pomagać (1.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku pomagać w Hiszpanii."
+            "es_form": "El año que viene [ayudaré::będę pomagać] en España.",
+            "pl_translation": "W przyszłym roku będę pomagać w Hiszpanii."
           }
         ]
       },
       {
-        "es_word": "ayudás",
-        "pl_word": "pomagać (2.os.lp, przysz.)",
+        "es_word": "ayudarás",
+        "pl_word": "będziesz pomagać",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +555,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[ayudás::pomagać (2.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy pomagać z nami jutro?"
+            "es_form": "¿[ayudarás::będziesz pomagać] con nosotros mañana?",
+            "pl_translation": "Czy będziesz pomagać z nami jutro?"
           },
           {
-            "es_form": "Creo que [ayudás::pomagać (2.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że pomagać dobrze."
+            "es_form": "Creo que [ayudarás::będziesz pomagać] bien.",
+            "pl_translation": "Myślę, że będziesz pomagać dobrze."
           },
           {
-            "es_form": "Te prometo que [ayudás::pomagać (2.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że pomagać na czas."
+            "es_form": "Te prometo que [ayudarás::będziesz pomagać] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziesz pomagać na czas."
           }
         ]
       },
       {
-        "es_word": "ayudá",
-        "pl_word": "pomagać (3.os.lp, przysz.)",
+        "es_word": "ayudará",
+        "pl_word": "będzie pomagać",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +578,22 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [ayudá::pomagać (3.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku pomagać w Hiszpanii."
+            "es_form": "El año que viene [ayudará::będzie pomagać] en España.",
+            "pl_translation": "W przyszłym roku będzie pomagać w Hiszpanii."
           },
           {
-            "es_form": "Mañana [ayudá::pomagać (3.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro pomagać wcześniej."
+            "es_form": "Mañana [ayudará::będzie pomagać] más temprano.",
+            "pl_translation": "Jutro będzie pomagać wcześniej."
           },
           {
-            "es_form": "[ayudá::pomagać (3.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Pomagać w przyszłym tygodniu."
+            "es_form": "[ayudará::będzie pomagać] la próxima semana.",
+            "pl_translation": "Będzie pomagać w przyszłym tygodniu."
           }
         ]
       },
       {
-        "es_word": "ayudemos",
-        "pl_word": "pomagać (1.os.lm, przysz.)",
+        "es_word": "ayudaremos",
+        "pl_word": "będziemy pomagać",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +601,22 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [ayudemos::pomagać (1.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro pomagać wcześniej."
+            "es_form": "Mañana [ayudaremos::będziemy pomagać] más temprano.",
+            "pl_translation": "Jutro będziemy pomagać wcześniej."
           },
           {
-            "es_form": "Te prometo que [ayudemos::pomagać (1.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że pomagać na czas."
+            "es_form": "Te prometo que [ayudaremos::będziemy pomagać] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziemy pomagać na czas."
           },
           {
-            "es_form": "¿[ayudemos::pomagać (1.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy pomagać z nami jutro?"
+            "es_form": "¿[ayudaremos::będziemy pomagać] con vosotros mañana?",
+            "pl_translation": "Czy będziemy pomagać z wami jutro?"
           }
         ]
       },
       {
-        "es_word": "ayudéis",
-        "pl_word": "pomagać (2.os.lm, przysz.)",
+        "es_word": "ayudaréis",
+        "pl_word": "będziecie pomagać",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +624,22 @@
         },
         "examples": [
           {
-            "es_form": "[ayudéis::pomagać (2.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Pomagać w przyszłym tygodniu."
+            "es_form": "[ayudaréis::będziecie pomagać] la próxima semana.",
+            "pl_translation": "Będziecie pomagać w przyszłym tygodniu."
           },
           {
-            "es_form": "Mañana [ayudéis::pomagać (2.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro pomagać wcześniej."
+            "es_form": "Mañana [ayudaréis::będziecie pomagać] más temprano.",
+            "pl_translation": "Jutro będziecie pomagać wcześniej."
           },
           {
-            "es_form": "Te prometo que [ayudéis::pomagać (2.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że pomagać na czas."
+            "es_form": "Te prometo que [ayudaréis::będziecie pomagać] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziecie pomagać na czas."
           }
         ]
       },
       {
-        "es_word": "ayudán",
-        "pl_word": "pomagać (3.os.lm, przysz.)",
+        "es_word": "ayudarán",
+        "pl_word": "będą pomagać",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +647,16 @@
         },
         "examples": [
           {
-            "es_form": "¿[ayudán::pomagać (3.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy pomagać z nami jutro?"
+            "es_form": "¿[ayudarán::będą pomagać] con nosotros mañana?",
+            "pl_translation": "Czy będą pomagać z nami jutro?"
           },
           {
-            "es_form": "Creo que [ayudán::pomagać (3.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że pomagać dobrze."
+            "es_form": "Creo que [ayudarán::będą pomagać] bien.",
+            "pl_translation": "Myślę, że będą pomagać dobrze."
           },
           {
-            "es_form": "Mañana [ayudán::pomagać (3.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro pomagać wcześniej."
+            "es_form": "Mañana [ayudarán::będą pomagać] más temprano.",
+            "pl_translation": "Jutro będą pomagać wcześniej."
           }
         ]
       }

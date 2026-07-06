@@ -6,34 +6,34 @@
     "examples": [
       {
         "es_form": "Compré [la dieta::dieta] ayer.",
-        "pl_translation": "Kupiłem/am dieta wczoraj."
+        "pl_translation": "Kupiłem"
       },
       {
         "es_form": "¿Has visto [la dieta::dieta]?",
-        "pl_translation": "Widziałeś/aś dieta?"
+        "pl_translation": "Widziałeś"
       },
       {
-        "es_form": "Se me rompio [la dieta::dieta].",
-        "pl_translation": "Zepsuł mi się dieta."
+        "es_form": "Se me rompió [la dieta::dieta].",
+        "pl_translation": "Zepsuła mi się dieta."
       }
     ]
   },
   {
     "type": "noun",
     "es_word": "El ejercicio",
-    "pl_word": "ruch, ćwiczenie",
+    "pl_word": "ćwiczenie",
     "examples": [
       {
-        "es_form": "Guarda [el ejercicio::ruch, ćwiczenie] en el armario.",
-        "pl_translation": "Schowaj ruch, ćwiczenie do szafy."
+        "es_form": "Guarda [el ejercicio::ćwiczenie] en el armario.",
+        "pl_translation": "Schowaj ćwiczenie do szafy."
       },
       {
-        "es_form": "¿Has visto [el ejercicio::ruch, ćwiczenie]?",
-        "pl_translation": "Widziałeś/aś ruch, ćwiczenie?"
+        "es_form": "¿Has visto [el ejercicio::ćwiczenie]?",
+        "pl_translation": "Widziałeś"
       },
       {
-        "es_form": "Necesito [el ejercicio::ruch, ćwiczenie] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową ruch, ćwiczenie."
+        "es_form": "Necesito [el ejercicio::ćwiczenie] nuevo.",
+        "pl_translation": "Potrzebuję nowego ćwiczenia."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "nawyk",
     "examples": [
       {
-        "es_form": "[El hábito::nawyk] es de madera.",
-        "pl_translation": "Nawyk jest z drewna."
+        "es_form": "[El hábito::nawyk] es importante para la salud.",
+        "pl_translation": "Nawyk jest ważny dla zdrowia."
       },
       {
         "es_form": "Necesito [el hábito::nawyk] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową nawyk."
+        "pl_translation": "Potrzebuję nowego nawyku."
       },
       {
-        "es_form": "Guarda [el hábito::nawyk] en el armario.",
-        "pl_translation": "Schowaj nawyk do szafy."
+        "es_form": "Tienes que cambiar [el hábito::nawyk].",
+        "pl_translation": "Musisz zmienić nawyk."
       }
     ]
   },
@@ -71,7 +71,7 @@
       },
       {
         "es_form": "[El estrés::stres] es muy importante.",
-        "pl_translation": "Stres jest bardzo ważny/a."
+        "pl_translation": "Stres jest bardzo ważny."
       }
     ]
   },
@@ -81,35 +81,35 @@
     "pl_word": "odporność",
     "examples": [
       {
-        "es_form": "Se me rompio [la inmunidad::odporność].",
-        "pl_translation": "Zepsuł mi się odporność."
+        "es_form": "Se me rompió [la inmunidad::odporność].",
+        "pl_translation": "Zepsuła mi się odporność."
       },
       {
         "es_form": "Compré [la inmunidad::odporność] ayer.",
-        "pl_translation": "Kupiłem/am odporność wczoraj."
+        "pl_translation": "Kupiłem"
       },
       {
-        "es_form": "[La inmunidad::odporność] es de madera.",
-        "pl_translation": "Odporność jest z drewna."
+        "es_form": "[La inmunidad::odporność] es importante para la salud.",
+        "pl_translation": "Odporność jest ważna dla zdrowia."
       }
     ]
   },
   {
     "type": "noun",
     "es_word": "El sueño",
-    "pl_word": "sen (spanie)",
+    "pl_word": "sen",
     "examples": [
       {
-        "es_form": "[El sueño::sen (spanie)] es de madera.",
-        "pl_translation": "Sen jest z drewna."
+        "es_form": "[El sueño::sen] es importante para la salud.",
+        "pl_translation": "Sen jest ważny dla zdrowia."
       },
       {
-        "es_form": "[El sueño::sen (spanie)] cuesta diez euros.",
-        "pl_translation": "Sen kosztuje dziesięć euro."
+        "es_form": "Necesito [el sueño::sen] para descansar.",
+        "pl_translation": "Potrzebuję snu, żeby odpocząć."
       },
       {
-        "es_form": "¿Has visto [el sueño::sen (spanie)]?",
-        "pl_translation": "Widziałeś/aś sen?"
+        "es_form": "¿Tienes [el sueño::sen] profundo?",
+        "pl_translation": "Czy masz głęboki sen?"
       }
     ]
   },
@@ -120,11 +120,11 @@
     "examples": [
       {
         "es_form": "[El chequeo::badanie kontrolne] es típico de España.",
-        "pl_translation": "Badanie kontrolne jest typowy/a dla Hiszpanii."
+        "pl_translation": "Badanie kontrolne jest typowe dla Hiszpanii."
       },
       {
-        "es_form": "[El chequeo::badanie kontrolne] está muy rico.",
-        "pl_translation": "Badanie kontrolne jest bardzo smaczny/a."
+        "es_form": "[El chequeo::badanie kontrolne] es muy importante.",
+        "pl_translation": "Badanie kontrolne jest bardzo ważne."
       },
       {
         "es_form": "¿Quieres [el chequeo::badanie kontrolne]?",
@@ -142,12 +142,12 @@
         "pl_translation": "Witamina kosztuje dziesięć euro."
       },
       {
-        "es_form": "[La vitamina::witamina] es de madera.",
-        "pl_translation": "Witamina jest z drewna."
+        "es_form": "[La vitamina::witamina] es importante para la salud.",
+        "pl_translation": "Witamina jest ważna dla zdrowia."
       },
       {
         "es_form": "Guarda [la vitamina::witamina] en el armario.",
-        "pl_translation": "Schowaj witamina do szafy."
+        "pl_translation": "Schowaj witaminę do szafy."
       }
     ]
   },
@@ -162,49 +162,49 @@
       },
       {
         "es_form": "¿Has visto [el suplemento::suplement]?",
-        "pl_translation": "Widziałeś/aś suplement?"
+        "pl_translation": "Widziałeś"
       },
       {
         "es_form": "Necesito [el suplemento::suplement] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową suplement."
+        "pl_translation": "Potrzebuję nowego suplementu."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El adicción",
+    "es_word": "La adicción",
     "pl_word": "uzależnienie",
     "examples": [
       {
-        "es_form": "Compré [el adicción::uzależnienie] ayer.",
-        "pl_translation": "Kupiłem/am uzależnienie wczoraj."
+        "es_form": "Compré [la adicción::uzależnienie] ayer.",
+        "pl_translation": "Kupiłem"
       },
       {
-        "es_form": "Necesito [el adicción::uzależnienie] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową uzależnienie."
+        "es_form": "Necesito [la adicción::uzależnienie] nuevo.",
+        "pl_translation": "Potrzebuję nowego uzależnienia."
       },
       {
-        "es_form": "Guarda [el adicción::uzależnienie] en el armario.",
-        "pl_translation": "Schowaj uzależnienie do szafy."
+        "es_form": "Tienes que superar [la adicción::uzależnienie].",
+        "pl_translation": "Musisz pokonać uzależnienie."
       }
     ]
   },
   {
     "type": "adjective",
     "es_word": "saludable",
-    "pl_word": "zdrowy (styl życia)",
+    "pl_word": "zdrowy",
     "examples": [
       {
-        "es_form": "Se compro un vestido [saludable::zdrowy (styl życia)].",
-        "pl_translation": "Kupiła sobie zdrowy sukienkę."
+        "es_form": "Se compró un vestido [saludable::zdrowy].",
+        "pl_translation": "Kupiła sobie zdrową sukienkę."
       },
       {
-        "es_form": "Este coche es [saludable::zdrowy (styl życia)].",
+        "es_form": "Este coche es [saludable::zdrowy].",
         "pl_translation": "Ten samochód jest zdrowy."
       },
       {
-        "es_form": "Nada es más [saludable::zdrowy (styl życia)] que la familia.",
-        "pl_translation": "Nic nie jest zdrowy od rodziny."
+        "es_form": "Nada es más [saludable::zdrowy] que la familia.",
+        "pl_translation": "Nic nie jest zdrowsze od rodziny."
       }
     ]
   },
@@ -215,7 +215,7 @@
     "examples": [
       {
         "es_form": "La comida está [nerviosa::nerwowy].",
-        "pl_translation": "Jedzenie jest nerwowy."
+        "pl_translation": "Jedzenie jest nerwowe."
       },
       {
         "es_form": "Hace un día [nervioso::nerwowy].",
@@ -230,25 +230,25 @@
   {
     "type": "verb",
     "es_word": "cuidar",
-    "pl_word": "dbać, opiekować się",
+    "pl_word": "dbać",
     "examples": [
       {
-        "es_form": "Es importante [cuidar::dbać, opiekować się] todos los días.",
-        "pl_translation": "Ważne jest dbać, opiekować się codziennie."
+        "es_form": "Es importante [cuidar::dbać] todos los días.",
+        "pl_translation": "Ważne jest dbać codziennie."
       },
       {
-        "es_form": "Hay que [cuidar::dbać, opiekować się] con cuidado.",
-        "pl_translation": "Trzeba dbać, opiekować się ostrożnie."
+        "es_form": "Hay que [cuidar::dbać] con cuidado.",
+        "pl_translation": "Trzeba dbać ostrożnie."
       },
       {
-        "es_form": "No puedo [cuidar::dbać, opiekować się] sin tu ayuda.",
-        "pl_translation": "Nie mogę dbać, opiekować się bez twojej pomocy."
+        "es_form": "No puedo [cuidar::dbać] sin tu ayuda.",
+        "pl_translation": "Nie mogę dbać bez twojej pomocy."
       }
     ],
     "forms": [
       {
         "es_word": "cuido",
-        "pl_word": "dbać (1.os.lp, ter.)",
+        "pl_word": "dbam",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +256,22 @@
         },
         "examples": [
           {
-            "es_form": "No [cuido::dbać (1.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie dbać zbyt dobrze."
+            "es_form": "No [cuido::dbam] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie dbam zbyt dobrze."
           },
           {
-            "es_form": "[cuido::dbać (1.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Dbać tak jak mnie nauczyłeś/aś."
+            "es_form": "[cuido::dbam] como me enseñaste.",
+            "pl_translation": "Dbam tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "Normalmente [cuido::dbać (1.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj dbać rano."
+            "es_form": "Normalmente [cuido::dbam] por la mañana.",
+            "pl_translation": "Zazwyczaj dbam rano."
           }
         ]
       },
       {
         "es_word": "cuidas",
-        "pl_word": "dbać (2.os.lp, ter.)",
+        "pl_word": "dbasz",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +279,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [cuidąs::dbać (2.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj dbać rano."
+            "es_form": "Normalmente [cuidas::dbasz] por la mañana.",
+            "pl_translation": "Zazwyczaj dbasz rano."
           },
           {
-            "es_form": "[cuidąs::dbać (2.os.lp, ter.)] todos los días.",
-            "pl_translation": "Dbać codziennie."
+            "es_form": "[cuidas::dbasz] todos los días.",
+            "pl_translation": "Dbasz codziennie."
           },
           {
-            "es_form": "¿[cuidąs::dbać (2.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy dbać w weekendy?"
+            "es_form": "¿[cuidas::dbasz] los fines de semana?",
+            "pl_translation": "Czy dbasz w weekendy?"
           }
         ]
       },
       {
         "es_word": "cuida",
-        "pl_word": "dbać (3.os.lp, ter.)",
+        "pl_word": "dba",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +302,22 @@
         },
         "examples": [
           {
-            "es_form": "[cuidą::dbać (3.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Dbać tak jak mnie nauczyłeś/aś."
+            "es_form": "[cuida::dba] como me enseñaste.",
+            "pl_translation": "Dba tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "Normalmente [cuidą::dbać (3.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj dbać rano."
+            "es_form": "Normalmente [cuida::dba] por la mañana.",
+            "pl_translation": "Zazwyczaj dba rano."
           },
           {
-            "es_form": "[cuidą::dbać (3.os.lp, ter.)] todos los días.",
-            "pl_translation": "Dbać codziennie."
+            "es_form": "[cuida::dba] todos los días.",
+            "pl_translation": "Dba codziennie."
           }
         ]
       },
       {
         "es_word": "cuidamos",
-        "pl_word": "dbać (1.os.lm, ter.)",
+        "pl_word": "dbamy",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +325,22 @@
         },
         "examples": [
           {
-            "es_form": "[cuidąmos::dbać (1.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Dbać tak jak mnie nauczyłeś/aś."
+            "es_form": "[cuidamos::dbamy] como me enseñaste.",
+            "pl_translation": "Dbamy tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "[cuidąmos::dbać (1.os.lm, ter.)] todos los días.",
-            "pl_translation": "Dbać codziennie."
+            "es_form": "[cuidamos::dbamy] todos los días.",
+            "pl_translation": "Dbamy codziennie."
           },
           {
-            "es_form": "No [cuidąmos::dbać (1.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie dbać zbyt dobrze."
+            "es_form": "No [cuidamos::dbamy] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie dbamy zbyt dobrze."
           }
         ]
       },
       {
         "es_word": "cuidáis",
-        "pl_word": "dbać (2.os.lm, ter.)",
+        "pl_word": "dbacie",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +348,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[cuidáis::dbać (2.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy dbać w weekendy?"
+            "es_form": "¿[cuidáis::dbacie] los fines de semana?",
+            "pl_translation": "Czy dbacie w weekendy?"
           },
           {
-            "es_form": "Siempre [cuidáis::dbać (2.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze dbać z uwagą."
+            "es_form": "Siempre [cuidáis::dbacie] con atención.",
+            "pl_translation": "Zawsze dbacie z uwagą."
           },
           {
-            "es_form": "No [cuidáis::dbać (2.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie dbać zbyt dobrze."
+            "es_form": "No [cuidáis::dbacie] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie dbacie zbyt dobrze."
           }
         ]
       },
       {
         "es_word": "cuidan",
-        "pl_word": "dbać (3.os.lm, ter.)",
+        "pl_word": "dbają",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +371,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[cuidąn::dbać (3.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy dbać w weekendy?"
+            "es_form": "¿[cuidan::dbają] los fines de semana?",
+            "pl_translation": "Czy dbają w weekendy?"
           },
           {
-            "es_form": "No [cuidąn::dbać (3.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie dbać zbyt dobrze."
+            "es_form": "No [cuidan::dbają] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie dbają zbyt dobrze."
           },
           {
-            "es_form": "[cuidąn::dbać (3.os.lm, ter.)] todos los días.",
-            "pl_translation": "Dbać codziennie."
+            "es_form": "[cuidan::dbają] todos los días.",
+            "pl_translation": "Dbają codziennie."
           }
         ]
       },
       {
         "es_word": "cuidé",
-        "pl_word": "dbać (1.os.lp, przesz.)",
+        "pl_word": "dbałem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "[cuidé::dbać (1.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Dbać w zeszłym tygodniu."
+            "es_form": "[cuidé::dbałem] la semana pasada.",
+            "pl_translation": "Dbałem"
           },
           {
-            "es_form": "Nunca [cuidé::dbać (1.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie dbać czegoś takiego."
+            "es_form": "Nunca [cuidé::dbałem] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie dbałem"
           },
           {
-            "es_form": "El mes pasado no [cuidé::dbać (1.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie dbać."
+            "es_form": "El mes pasado no [cuidé::dbałem] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie dbałem"
           }
         ]
       },
       {
         "es_word": "cuidaste",
-        "pl_word": "dbać (2.os.lp, przesz.)",
+        "pl_word": "dbałeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [cuidąste::dbać (2.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie dbać."
+            "es_form": "El mes pasado no [cuidaste::dbałeś] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie dbałeś"
           },
           {
-            "es_form": "[cuidąste::dbać (2.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Dbać bez przerwy przez wiele godzin."
+            "es_form": "[cuidaste::dbałeś] sin parar durante horas.",
+            "pl_translation": "Dbałeś"
           },
           {
-            "es_form": "Nunca [cuidąste::dbać (2.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie dbać czegoś takiego."
+            "es_form": "Nunca [cuidaste::dbałeś] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie dbałeś"
           }
         ]
       },
       {
         "es_word": "cuidó",
-        "pl_word": "dbać (3.os.lp, przesz.)",
+        "pl_word": "dbał",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [cuidó::dbać (3.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie dbać."
+            "es_form": "El mes pasado no [cuidó::dbał] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie dbał"
           },
           {
-            "es_form": "¿[cuidó::dbać (3.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy dbać dobrze egzamin?"
+            "es_form": "¿[cuidó::dbał] bien el examen?",
+            "pl_translation": "Czy dbał"
           },
           {
-            "es_form": "Nunca [cuidó::dbać (3.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie dbać czegoś takiego."
+            "es_form": "Nunca [cuidó::dbał] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie dbał"
           }
         ]
       },
       {
         "es_word": "cuidamos",
-        "pl_word": "dbać (1.os.lm, przesz.)",
+        "pl_word": "dbaliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [cuidąmos::dbać (1.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie dbać."
+            "es_form": "El mes pasado no [cuidamos::dbaliśmy] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie dbaliśmy"
           },
           {
-            "es_form": "Ayer [cuidąmos::dbać (1.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj dbać cały dzień."
+            "es_form": "Ayer [cuidamos::dbaliśmy] todo el día.",
+            "pl_translation": "Wczoraj dbaliśmy"
           },
           {
-            "es_form": "[cuidąmos::dbać (1.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Dbać bez przerwy przez wiele godzin."
+            "es_form": "[cuidamos::dbaliśmy] sin parar durante horas.",
+            "pl_translation": "Dbaliśmy"
           }
         ]
       },
       {
         "es_word": "cuidasteis",
-        "pl_word": "dbać (2.os.lm, przesz.)",
+        "pl_word": "dbaliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [cuidąsteis::dbać (2.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj dbać cały dzień."
+            "es_form": "Ayer [cuidasteis::dbaliście] todo el día.",
+            "pl_translation": "Wczoraj dbaliście"
           },
           {
-            "es_form": "[cuidąsteis::dbać (2.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Dbać bez przerwy przez wiele godzin."
+            "es_form": "[cuidasteis::dbaliście] sin parar durante horas.",
+            "pl_translation": "Dbaliście"
           },
           {
-            "es_form": "¿[cuidąsteis::dbać (2.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy dbać dobrze egzamin?"
+            "es_form": "¿[cuidasteis::dbaliście] bien el examen?",
+            "pl_translation": "Czy dbaliście"
           }
         ]
       },
       {
         "es_word": "cuidaron",
-        "pl_word": "dbać (3.os.lm, przesz.)",
+        "pl_word": "dbali",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +509,22 @@
         },
         "examples": [
           {
-            "es_form": "[cuidąron::dbać (3.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Dbać w zeszłym tygodniu."
+            "es_form": "[cuidaron::dbali] la semana pasada.",
+            "pl_translation": "Dbali"
           },
           {
-            "es_form": "El mes pasado no [cuidąron::dbać (3.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie dbać."
+            "es_form": "El mes pasado no [cuidaron::dbali] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie dbali"
           },
           {
-            "es_form": "Ayer [cuidąron::dbać (3.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj dbać cały dzień."
+            "es_form": "Ayer [cuidaron::dbali] todo el día.",
+            "pl_translation": "Wczoraj dbali"
           }
         ]
       },
       {
-        "es_word": "cuidé",
-        "pl_word": "dbać (1.os.lp, przysz.)",
+        "es_word": "cuidaré",
+        "pl_word": "będę dbał",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +532,22 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [cuidé::dbać (1.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku dbać w Hiszpanii."
+            "es_form": "El año que viene [cuidaré::będę dbał] en España.",
+            "pl_translation": "W przyszłym roku będę dbał"
           },
           {
-            "es_form": "¿[cuidé::dbać (1.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy dbać z nami jutro?"
+            "es_form": "¿[cuidaré::będę dbał] con nosotros mañana?",
+            "pl_translation": "Czy będę dbał"
           },
           {
-            "es_form": "Mañana [cuidé::dbać (1.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro dbać wcześniej."
+            "es_form": "Mañana [cuidaré::będę dbał] más temprano.",
+            "pl_translation": "Jutro będę dbał"
           }
         ]
       },
       {
-        "es_word": "cuidás",
-        "pl_word": "dbać (2.os.lp, przysz.)",
+        "es_word": "cuidarás",
+        "pl_word": "będziesz dbał",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +555,22 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [cuidás::dbać (2.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro dbać wcześniej."
+            "es_form": "Mañana [cuidarás::będziesz dbał] más temprano.",
+            "pl_translation": "Jutro będziesz dbał"
           },
           {
-            "es_form": "Te prometo que [cuidás::dbać (2.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że dbać na czas."
+            "es_form": "Te prometo que [cuidarás::będziesz dbał] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziesz dbał"
           },
           {
-            "es_form": "¿[cuidás::dbać (2.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy dbać z nami jutro?"
+            "es_form": "¿[cuidarás::będziesz dbał] con nosotros mañana?",
+            "pl_translation": "Czy będziesz dbał"
           }
         ]
       },
       {
-        "es_word": "cuidá",
-        "pl_word": "dbać (3.os.lp, przysz.)",
+        "es_word": "cuidará",
+        "pl_word": "będzie dbał",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +578,22 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [cuidá::dbać (3.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku dbać w Hiszpanii."
+            "es_form": "El año que viene [cuidará::będzie dbał] en España.",
+            "pl_translation": "W przyszłym roku będzie dbał"
           },
           {
-            "es_form": "Mañana [cuidá::dbać (3.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro dbać wcześniej."
+            "es_form": "Mañana [cuidará::będzie dbał] más temprano.",
+            "pl_translation": "Jutro będzie dbał"
           },
           {
-            "es_form": "[cuidá::dbać (3.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Dbać w przyszłym tygodniu."
+            "es_form": "[cuidará::będzie dbał] la próxima semana.",
+            "pl_translation": "Będzie dbał"
           }
         ]
       },
       {
-        "es_word": "cuidemos",
-        "pl_word": "dbać (1.os.lm, przysz.)",
+        "es_word": "cuidaremos",
+        "pl_word": "będziemy dbali",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +601,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [cuidęmos::dbać (1.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że dbać dobrze."
+            "es_form": "Creo que [cuidaremos::będziemy dbali] bien.",
+            "pl_translation": "Myślę, że będziemy dbali"
           },
           {
-            "es_form": "Te prometo que [cuidęmos::dbać (1.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że dbać na czas."
+            "es_form": "Te prometo que [cuidaremos::będziemy dbali] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziemy dbali"
           },
           {
-            "es_form": "¿[cuidęmos::dbać (1.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy dbać z nami jutro?"
+            "es_form": "¿[cuidaremos::będziemy dbali] con nosotros mañana?",
+            "pl_translation": "Czy będziemy dbali"
           }
         ]
       },
       {
-        "es_word": "cuidéis",
-        "pl_word": "dbać (2.os.lm, przysz.)",
+        "es_word": "cuidaréis",
+        "pl_word": "będziecie dbali",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +624,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [cuidéis::dbać (2.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że dbać dobrze."
+            "es_form": "Creo que [cuidaréis::będziecie dbali] bien.",
+            "pl_translation": "Myślę, że będziecie dbali"
           },
           {
-            "es_form": "Te prometo que [cuidéis::dbać (2.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że dbać na czas."
+            "es_form": "Te prometo que [cuidaréis::będziecie dbali] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziecie dbali"
           },
           {
-            "es_form": "El año que viene [cuidéis::dbać (2.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku dbać w Hiszpanii."
+            "es_form": "El año que viene [cuidaréis::będziecie dbali] en España.",
+            "pl_translation": "W przyszłym roku będziecie dbali"
           }
         ]
       },
       {
-        "es_word": "cuidán",
-        "pl_word": "dbać (3.os.lm, przysz.)",
+        "es_word": "cuidarán",
+        "pl_word": "będą dbali",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +647,16 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [cuidán::dbać (3.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że dbać na czas."
+            "es_form": "Te prometo que [cuidarán::będą dbali] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będą dbali"
           },
           {
-            "es_form": "Creo que [cuidán::dbać (3.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że dbać dobrze."
+            "es_form": "Creo que [cuidarán::będą dbali] bien.",
+            "pl_translation": "Myślę, że będą dbali"
           },
           {
-            "es_form": "¿[cuidán::dbać (3.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy dbać z nami jutro?"
+            "es_form": "¿[cuidarán::będą dbali] con nosotros mañana?",
+            "pl_translation": "Czy będą dbali"
           }
         ]
       }

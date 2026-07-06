@@ -6,15 +6,15 @@
     "examples": [
       {
         "es_form": "[El dinero::pieniądze] está sobre la mesa.",
-        "pl_translation": "Pieniądze jest na stole."
+        "pl_translation": "Pieniądze są na stole."
       },
       {
-        "es_form": "Compré [el dinero::pieniądze] ayer.",
-        "pl_translation": "Kupiłem/am pieniądze wczoraj."
+        "es_form": "Gasté [el dinero::pieniądze] ayer.",
+        "pl_translation": "Wydałem"
       },
       {
-        "es_form": "Se me rompio [el dinero::pieniądze].",
-        "pl_translation": "Zepsuł mi się pieniądze."
+        "es_form": "Se me acabó [el dinero::pieniądze].",
+        "pl_translation": "Skończyły mi się pieniądze."
       }
     ]
   },
@@ -29,7 +29,7 @@
       },
       {
         "es_form": "Voy a [la tienda::sklep] cada día.",
-        "pl_translation": "Chodzę do sklep codziennie."
+        "pl_translation": "Chodzę do sklepu codziennie."
       },
       {
         "es_form": "[La tienda::sklep] abre a las ocho.",
@@ -43,16 +43,16 @@
     "pl_word": "cena",
     "examples": [
       {
-        "es_form": "Guarda [el precio::cena] en el armario.",
-        "pl_translation": "Schowaj cena do szafy."
+        "es_form": "Apuntá [el precio::cena] en el papel.",
+        "pl_translation": "Sprawdź cenę przed zakupem."
       },
       {
         "es_form": "[El precio::cena] cuesta diez euros.",
-        "pl_translation": "Cena kosztuje dziesięć euro."
+        "pl_translation": "Cena to dziesięć euro."
       },
       {
-        "es_form": "Se me rompio [el precio::cena].",
-        "pl_translation": "Zepsuł mi się cena."
+        "es_form": "Se me rompió [el precio::cena].",
+        "pl_translation": "Zapamiętaj cenę."
       }
     ]
   },
@@ -63,11 +63,11 @@
     "examples": [
       {
         "es_form": "¿Has visto [la tarjeta::karta (płatnicza)]?",
-        "pl_translation": "Widziałeś/aś karta?"
+        "pl_translation": "Widziałeś"
       },
       {
-        "es_form": "Necesito [la tarjeta::karta (płatnicza)] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową karta."
+        "es_form": "Necesito [la tarjeta::karta (płatnicza)] nueva.",
+        "pl_translation": "Potrzebuję nową kartę."
       },
       {
         "es_form": "[La tarjeta::karta (płatnicza)] está sobre la mesa.",
@@ -81,12 +81,12 @@
     "pl_word": "gotówka",
     "examples": [
       {
-        "es_form": "Se me rompio [el efectivo::gotówka].",
-        "pl_translation": "Zepsuł mi się gotówka."
+        "es_form": "Se me rompió [el efectivo::gotówka].",
+        "pl_translation": "Skończyła mi się gotówka."
       },
       {
-        "es_form": "Compré [el efectivo::gotówka] ayer.",
-        "pl_translation": "Kupiłem/am gotówka wczoraj."
+        "es_form": "Saqué [el efectivo::gotówka] ayer.",
+        "pl_translation": "Wypłaciłem"
       },
       {
         "es_form": "[El efectivo::gotówka] está sobre la mesa.",
@@ -105,11 +105,11 @@
       },
       {
         "es_form": "¿Has visto [la cartera::portfel]?",
-        "pl_translation": "Widziałeś/aś portfel?"
+        "pl_translation": "Widziałeś"
       },
       {
-        "es_form": "Necesito [la cartera::portfel] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową portfel."
+        "es_form": "Necesito [la cartera::portfel] nueva.",
+        "pl_translation": "Potrzebuję nowy portfel."
       }
     ]
   },
@@ -119,12 +119,12 @@
     "pl_word": "torba",
     "examples": [
       {
-        "es_form": "Se me rompio [la bolsa::torba].",
-        "pl_translation": "Zepsuł mi się torba."
+        "es_form": "Se me rompió [la bolsa::torba].",
+        "pl_translation": "Zepsuła mi się torba."
       },
       {
-        "es_form": "Guarda [la bolsa::torba] en el armario.",
-        "pl_translation": "Schowaj torba do szafy."
+        "es_form": "Guardá [la bolsa::torba] en el armario.",
+        "pl_translation": "Schowaj torbę do szafy."
       },
       {
         "es_form": "[La bolsa::torba] es de madera.",
@@ -139,7 +139,7 @@
     "examples": [
       {
         "es_form": "¿Has visto [la lista::lista]?",
-        "pl_translation": "Widziałeś/aś lista?"
+        "pl_translation": "Widziałeś"
       },
       {
         "es_form": "[La lista::lista] cuesta diez euros.",
@@ -147,7 +147,7 @@
       },
       {
         "es_form": "Guarda [la lista::lista] en el armario.",
-        "pl_translation": "Schowaj lista do szafy."
+        "pl_translation": "Schowaj listę do szafy."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "paragon",
     "examples": [
       {
-        "es_form": "Se me rompio [el recibo::paragon].",
+        "es_form": "Se me rompió [el recibo::paragon].",
         "pl_translation": "Zepsuł mi się paragon."
       },
       {
         "es_form": "¿Has visto [el recibo::paragon]?",
-        "pl_translation": "Widziałeś/aś paragon?"
+        "pl_translation": "Widziałeś"
       },
       {
         "es_form": "Compré [el recibo::paragon] ayer.",
-        "pl_translation": "Kupiłem/am paragon wczoraj."
+        "pl_translation": "Kupiłem"
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "kasa",
     "examples": [
       {
-        "es_form": "Se me rompio [la caja::kasa].",
+        "es_form": "Se me rompió [la caja::kasa].",
         "pl_translation": "Zepsuł mi się kasa."
       },
       {
-        "es_form": "Guarda [la caja::kasa] en el armario.",
-        "pl_translation": "Schowaj kasa do szafy."
+        "es_form": "Poné [la caja::kasa] en la mesa.",
+        "pl_translation": "Podejdź do kasy."
       },
       {
-        "es_form": "Necesito [la caja::kasa] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową kasa."
+        "es_form": "Necesito [la caja::kasa] nueva.",
+        "pl_translation": "Potrzebuję nowej kasy."
       }
     ]
   },
@@ -196,7 +196,7 @@
     "examples": [
       {
         "es_form": "Nada es más [barato::tani] que la familia.",
-        "pl_translation": "Nic nie jest tani od rodziny."
+        "pl_translation": "Nic nie jest tańsze niż rodzina."
       },
       {
         "es_form": "Este coche es [barato::tani].",
@@ -204,7 +204,7 @@
       },
       {
         "es_form": "La comida está [barata::tani].",
-        "pl_translation": "Jedzenie jest tani."
+        "pl_translation": "Jedzenie jest tanie."
       }
     ]
   },
@@ -223,7 +223,7 @@
       },
       {
         "es_form": "Se compro un vestido [caro::drogi].",
-        "pl_translation": "Kupiła sobie drogi sukienkę."
+        "pl_translation": "Kupiła sobie drogą sukienkę."
       }
     ]
   },
@@ -248,7 +248,7 @@
     "forms": [
       {
         "es_word": "compro",
-        "pl_word": "kupować (1.os.lp, ter.)",
+        "pl_word": "kupuję",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +256,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [compro::kupować (1.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj kupować rano."
+            "es_form": "Normalmente [compro::kupuję] por la mañana.",
+            "pl_translation": "Zazwyczaj kupuję rano."
           },
           {
-            "es_form": "Siempre [compro::kupować (1.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze kupować z uwagą."
+            "es_form": "Siempre [compro::kupuję] con atencion.",
+            "pl_translation": "Zawsze kupuję z uwagą."
           },
           {
-            "es_form": "¿[compro::kupować (1.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy kupować w weekendy?"
+            "es_form": "¿[compro::kupuję] los fines de semana?",
+            "pl_translation": "Czy kupuję w weekendy?"
           }
         ]
       },
       {
         "es_word": "compras",
-        "pl_word": "kupować (2.os.lp, ter.)",
+        "pl_word": "kupujesz",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +279,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [compras::kupować (2.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj kupować rano."
+            "es_form": "Normalmente [compras::kupujesz] por la mañana.",
+            "pl_translation": "Zazwyczaj kupujesz rano."
           },
           {
-            "es_form": "No [compras::kupować (2.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie kupować zbyt dobrze."
+            "es_form": "No [compras::kupujesz] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie kupujesz zbyt dobrze."
           },
           {
-            "es_form": "Siempre [compras::kupować (2.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze kupować z uwagą."
+            "es_form": "Siempre [compras::kupujesz] con atencion.",
+            "pl_translation": "Zawsze kupujesz z uwagą."
           }
         ]
       },
       {
         "es_word": "compra",
-        "pl_word": "kupować (3.os.lp, ter.)",
+        "pl_word": "kupuje",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +302,22 @@
         },
         "examples": [
           {
-            "es_form": "[compra::kupować (3.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Kupować tak jak mnie nauczyłeś/aś."
+            "es_form": "[compra::kupuje] como me enseñaste.",
+            "pl_translation": "Kupuje tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "Siempre [compra::kupować (3.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze kupować z uwagą."
+            "es_form": "Siempre [compra::kupuje] con atencion.",
+            "pl_translation": "Zawsze kupuje z uwagą."
           },
           {
-            "es_form": "¿[compra::kupować (3.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy kupować w weekendy?"
+            "es_form": "¿[compra::kupuje] los fines de semana?",
+            "pl_translation": "Czy kupuje w weekendy?"
           }
         ]
       },
       {
         "es_word": "compramos",
-        "pl_word": "kupować (1.os.lm, ter.)",
+        "pl_word": "kupujemy",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +325,22 @@
         },
         "examples": [
           {
-            "es_form": "No [compramos::kupować (1.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie kupować zbyt dobrze."
+            "es_form": "No [compramos::kupujemy] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie kupujemy zbyt dobrze."
           },
           {
-            "es_form": "[compramos::kupować (1.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Kupować tak jak mnie nauczyłeś/aś."
+            "es_form": "[compramos::kupujemy] como me enseñaste.",
+            "pl_translation": "Kupujemy tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "Siempre [compramos::kupować (1.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze kupować z uwagą."
+            "es_form": "Siempre [compramos::kupujemy] con atencion.",
+            "pl_translation": "Zawsze kupujemy z uwagą."
           }
         ]
       },
       {
         "es_word": "compráis",
-        "pl_word": "kupować (2.os.lm, ter.)",
+        "pl_word": "kupujecie",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +348,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [compráis::kupować (2.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj kupować rano."
+            "es_form": "Normalmente [compráis::kupujecie] por la mañana.",
+            "pl_translation": "Zazwyczaj kupujecie rano."
           },
           {
-            "es_form": "[compráis::kupować (2.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Kupować tak jak mnie nauczyłeś/aś."
+            "es_form": "[compráis::kupujecie] como me enseñaste.",
+            "pl_translation": "Kupujecie tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "[compráis::kupować (2.os.lm, ter.)] todos los días.",
-            "pl_translation": "Kupować codziennie."
+            "es_form": "[compráis::kupujecie] todos los días.",
+            "pl_translation": "Kupujecie codziennie."
           }
         ]
       },
       {
         "es_word": "compran",
-        "pl_word": "kupować (3.os.lm, ter.)",
+        "pl_word": "kupują",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +371,22 @@
         },
         "examples": [
           {
-            "es_form": "No [compran::kupować (3.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie kupować zbyt dobrze."
+            "es_form": "No [compran::kupują] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie kupują zbyt dobrze."
           },
           {
-            "es_form": "Normalmente [compran::kupować (3.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj kupować rano."
+            "es_form": "Normalmente [compran::kupują] por la mañana.",
+            "pl_translation": "Zazwyczaj kupują rano."
           },
           {
-            "es_form": "¿[compran::kupować (3.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy kupować w weekendy?"
+            "es_form": "¿[compran::kupują] los fines de semana?",
+            "pl_translation": "Czy kupują w weekendy?"
           }
         ]
       },
       {
         "es_word": "compré",
-        "pl_word": "kupować (1.os.lp, przesz.)",
+        "pl_word": "kupowałem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "[compré::kupować (1.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Kupować bez przerwy przez wiele godzin."
+            "es_form": "[compré::kupowałem] sin parar durante horas.",
+            "pl_translation": "Kupowałem"
           },
           {
-            "es_form": "El mes pasado no [compré::kupować (1.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie kupować."
+            "es_form": "El mes pasado no [compré::kupowałem] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie kupowałem"
           },
           {
-            "es_form": "[compré::kupować (1.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Kupować w zeszłym tygodniu."
+            "es_form": "[compré::kupowałem] la semana pasada.",
+            "pl_translation": "Kupowałem"
           }
         ]
       },
       {
         "es_word": "compraste",
-        "pl_word": "kupować (2.os.lp, przesz.)",
+        "pl_word": "kupowałeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [compraste::kupować (2.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie kupować czegoś takiego."
+            "es_form": "Nunca [compraste::kupowałeś] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie kupowałeś"
           },
           {
-            "es_form": "Ayer [compraste::kupować (2.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj kupować cały dzień."
+            "es_form": "Ayer [compraste::kupowałeś] todo el día.",
+            "pl_translation": "Wczoraj kupowałeś"
           },
           {
-            "es_form": "¿[compraste::kupować (2.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy kupować dobrze egzamin?"
+            "es_form": "¿[compraste::kupowałeś] bien el examen?",
+            "pl_translation": "Czy kupowałeś"
           }
         ]
       },
       {
         "es_word": "compró",
-        "pl_word": "kupować (3.os.lp, przesz.)",
+        "pl_word": "kupował",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [compró::kupować (3.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie kupować czegoś takiego."
+            "es_form": "Nunca [compró::kupował] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie kupował"
           },
           {
-            "es_form": "El mes pasado no [compró::kupować (3.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie kupować."
+            "es_form": "El mes pasado no [compró::kupował] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie kupował"
           },
           {
-            "es_form": "¿[compró::kupować (3.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy kupować dobrze egzamin?"
+            "es_form": "¿[compró::kupował] bien el examen?",
+            "pl_translation": "Czy kupował"
           }
         ]
       },
       {
         "es_word": "compramos",
-        "pl_word": "kupować (1.os.lm, przesz.)",
+        "pl_word": "kupowaliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [compramos::kupować (1.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj kupować cały dzień."
+            "es_form": "Ayer [compramos::kupowaliśmy] todo el día.",
+            "pl_translation": "Wczoraj kupowaliśmy"
           },
           {
-            "es_form": "[compramos::kupować (1.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Kupować w zeszłym tygodniu."
+            "es_form": "[compramos::kupowaliśmy] la semana pasada.",
+            "pl_translation": "Kupowaliśmy"
           },
           {
-            "es_form": "El mes pasado no [compramos::kupować (1.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie kupować."
+            "es_form": "El mes pasado no [compramos::kupowaliśmy] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie kupowaliśmy"
           }
         ]
       },
       {
         "es_word": "comprasteis",
-        "pl_word": "kupować (2.os.lm, przesz.)",
+        "pl_word": "kupowaliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[comprasteis::kupować (2.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy kupować dobrze egzamin?"
+            "es_form": "¿[comprasteis::kupowaliście] bien el examen?",
+            "pl_translation": "Czy kupowaliście"
           },
           {
-            "es_form": "Ayer [comprasteis::kupować (2.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj kupować cały dzień."
+            "es_form": "Ayer [comprasteis::kupowaliście] todo el día.",
+            "pl_translation": "Wczoraj kupowaliście"
           },
           {
-            "es_form": "[comprasteis::kupować (2.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Kupować w zeszłym tygodniu."
+            "es_form": "[comprasteis::kupowaliście] la semana pasada.",
+            "pl_translation": "Kupowaliście"
           }
         ]
       },
       {
         "es_word": "compraron",
-        "pl_word": "kupować (3.os.lm, przesz.)",
+        "pl_word": "kupowali",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +509,22 @@
         },
         "examples": [
           {
-            "es_form": "[compraron::kupować (3.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Kupować bez przerwy przez wiele godzin."
+            "es_form": "[compraron::kupowali] sin parar durante horas.",
+            "pl_translation": "Kupowali"
           },
           {
-            "es_form": "[compraron::kupować (3.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Kupować w zeszłym tygodniu."
+            "es_form": "[compraron::kupowali] la semana pasada.",
+            "pl_translation": "Kupowali"
           },
           {
-            "es_form": "¿[compraron::kupować (3.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy kupować dobrze egzamin?"
+            "es_form": "¿[compraron::kupowali] bien el examen?",
+            "pl_translation": "Czy kupowali"
           }
         ]
       },
       {
         "es_word": "compré",
-        "pl_word": "kupować (1.os.lp, przysz.)",
+        "pl_word": "będę kupował",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +532,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [compré::kupować (1.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że kupować dobrze."
+            "es_form": "Creo que [compré::będę kupował] bien.",
+            "pl_translation": "Myślę, że będę kupował"
           },
           {
-            "es_form": "El año que viene [compré::kupować (1.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku kupować w Hiszpanii."
+            "es_form": "El año que viene [compré::będę kupował] en España.",
+            "pl_translation": "W przyszłym roku będę kupował"
           },
           {
-            "es_form": "Te prometo que [compré::kupować (1.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że kupować na czas."
+            "es_form": "Te prometo que [compré::będę kupował] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będę kupował"
           }
         ]
       },
       {
         "es_word": "comprás",
-        "pl_word": "kupować (2.os.lp, przysz.)",
+        "pl_word": "będziesz kupował",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +555,22 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [comprás::kupować (2.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że kupować na czas."
+            "es_form": "Te prometo que [comprás::będziesz kupował] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziesz kupował"
           },
           {
-            "es_form": "¿[comprás::kupować (2.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy kupować z nami jutro?"
+            "es_form": "¿[comprás::będziesz kupował] con nosotros mañana?",
+            "pl_translation": "Czy będziesz kupował"
           },
           {
-            "es_form": "Creo que [comprás::kupować (2.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że kupować dobrze."
+            "es_form": "Creo que [comprás::będziesz kupował] bien.",
+            "pl_translation": "Myślę, że będziesz kupował"
           }
         ]
       },
       {
         "es_word": "comprá",
-        "pl_word": "kupować (3.os.lp, przysz.)",
+        "pl_word": "będzie kupował",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +578,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[comprá::kupować (3.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy kupować z nami jutro?"
+            "es_form": "¿[comprá::będzie kupował] con nosotros mañana?",
+            "pl_translation": "Czy będzie kupował"
           },
           {
-            "es_form": "Te prometo que [comprá::kupować (3.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że kupować na czas."
+            "es_form": "Te prometo que [comprá::będzie kupował] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będzie kupował"
           },
           {
-            "es_form": "[comprá::kupować (3.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Kupować w przyszłym tygodniu."
+            "es_form": "[comprá::będzie kupował] la proxima semana.",
+            "pl_translation": "Będzie kupował"
           }
         ]
       },
       {
         "es_word": "compremos",
-        "pl_word": "kupować (1.os.lm, przysz.)",
+        "pl_word": "będziemy kupowali",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +601,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [compremos::kupować (1.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że kupować dobrze."
+            "es_form": "Creo que [compremos::będziemy kupowali] bien.",
+            "pl_translation": "Myślę, że będziemy kupowali"
           },
           {
-            "es_form": "Te prometo que [compremos::kupować (1.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że kupować na czas."
+            "es_form": "Te prometo que [compremos::będziemy kupowali] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziemy kupowali"
           },
           {
-            "es_form": "Mañana [compremos::kupować (1.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro kupować wcześniej."
+            "es_form": "Mañana [compremos::będziemy kupowali] más temprano.",
+            "pl_translation": "Jutro będziemy kupowali"
           }
         ]
       },
       {
         "es_word": "compréis",
-        "pl_word": "kupować (2.os.lm, przysz.)",
+        "pl_word": "będziecie kupowali",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +624,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [compréis::kupować (2.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że kupować dobrze."
+            "es_form": "Creo que [compréis::będziecie kupowali] bien.",
+            "pl_translation": "Myślę, że będziecie kupowali"
           },
           {
-            "es_form": "¿[compréis::kupować (2.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy kupować z nami jutro?"
+            "es_form": "¿[compréis::będziecie kupowali] con nosotros mañana?",
+            "pl_translation": "Czy będziecie kupowali"
           },
           {
-            "es_form": "El año que viene [compréis::kupować (2.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku kupować w Hiszpanii."
+            "es_form": "El año que viene [compréis::będziecie kupowali] en España.",
+            "pl_translation": "W przyszłym roku będziecie kupowali"
           }
         ]
       },
       {
         "es_word": "comprán",
-        "pl_word": "kupować (3.os.lm, przysz.)",
+        "pl_word": "będą kupowali",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +647,16 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [comprán::kupować (3.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro kupować wcześniej."
+            "es_form": "Mañana [comprán::będą kupowali] más temprano.",
+            "pl_translation": "Jutro będą kupowali"
           },
           {
-            "es_form": "Te prometo que [comprán::kupować (3.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że kupować na czas."
+            "es_form": "Te prometo que [comprán::będą kupowali] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będą kupowali"
           },
           {
-            "es_form": "El año que viene [comprán::kupować (3.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku kupować w Hiszpanii."
+            "es_form": "El año que viene [comprán::będą kupowali] en España.",
+            "pl_translation": "W przyszłym roku będą kupowali"
           }
         ]
       }

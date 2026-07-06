@@ -6,15 +6,15 @@
     "examples": [
       {
         "es_form": "¿Has visto [el experimento::eksperyment]?",
-        "pl_translation": "Widziałeś/aś eksperyment?"
+        "pl_translation": "Widziałeś eksperyment?"
       },
       {
-        "es_form": "[El experimento::eksperyment] cuesta diez euros.",
-        "pl_translation": "Eksperyment kosztuje dziesięć euro."
+        "es_form": "[El experimento::eksperyment] fue exitoso.",
+        "pl_translation": "Eksperyment był udany."
       },
       {
         "es_form": "Necesito [el experimento::eksperyment] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową eksperyment."
+        "pl_translation": "Potrzebuję nowego eksperymentu."
       }
     ]
   },
@@ -24,12 +24,12 @@
     "pl_word": "laboratorium",
     "examples": [
       {
-        "es_form": "¿Donde está [el laboratorio::laboratorium]?",
+        "es_form": "¿Dónde está [el laboratorio::laboratorium]?",
         "pl_translation": "Gdzie jest laboratorium?"
       },
       {
         "es_form": "[El laboratorio::laboratorium] es muy grande.",
-        "pl_translation": "Laboratorium jest bardzo duży/a."
+        "pl_translation": "Laboratorium jest bardzo duże."
       },
       {
         "es_form": "Voy a [el laboratorio::laboratorium] cada día.",
@@ -43,16 +43,16 @@
     "pl_word": "wynalazek",
     "examples": [
       {
-        "es_form": "[El invento::wynalazek] cuesta diez euros.",
-        "pl_translation": "Wynalazek kosztuje dziesięć euro."
+        "es_form": "[El invento::wynalazek] es revolucionario.",
+        "pl_translation": "Wynalazek jest rewolucyjny."
       },
       {
-        "es_form": "Se me rompio [el invento::wynalazek].",
-        "pl_translation": "Zepsuł mi się wynalazek."
+        "es_form": "[El invento::wynalazek] cambió el mundo.",
+        "pl_translation": "Wynalazek zmienił świat."
       },
       {
         "es_form": "Necesito [el invento::wynalazek] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową wynalazek."
+        "pl_translation": "Potrzebuję nowego wynalazku."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "technologia",
     "examples": [
       {
-        "es_form": "[La tecnología::technologia] cambio mi vida.",
-        "pl_translation": "Technologia zmienił/a moje życie."
+        "es_form": "[La tecnología::technologia] cambió mi vida.",
+        "pl_translation": "Technologia zmieniła moje życie."
       },
       {
         "es_form": "[La tecnología::technologia] es muy importante.",
-        "pl_translation": "Technologia jest bardzo ważny/a."
+        "pl_translation": "Technologia jest bardzo ważna."
       },
       {
-        "es_form": "Hablamos sobre [la tecnología::technologia].",
-        "pl_translation": "Rozmawialiśmy o technologia."
+        "es_form": "Hablamos sobre [la tecnología::technologii].",
+        "pl_translation": "Rozmawialiśmy o technologii."
       }
     ]
   },
@@ -86,11 +86,11 @@
       },
       {
         "es_form": "¿Has visto [el robot::robot]?",
-        "pl_translation": "Widziałeś/aś robot?"
+        "pl_translation": "Widziałeś robota?"
       },
       {
-        "es_form": "Guarda [el robot::robot] en el armario.",
-        "pl_translation": "Schowaj robot do szafy."
+        "es_form": "Construí [el robot::robot].",
+        "pl_translation": "Zbudowałem robota."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "sztuczna inteligencja",
     "examples": [
       {
-        "es_form": "[La inteligencia artificial::sztuczna inteligencja] cambio mi vida.",
-        "pl_translation": "Sztuczna inteligencja zmienił/a moje życie."
+        "es_form": "[La inteligencia artificial::sztuczna inteligencja] cambió mi vida.",
+        "pl_translation": "Sztuczna inteligencja zmieniła moje życie."
       },
       {
-        "es_form": "No entiendo [La inteligencia artificial::sztuczna inteligencja].",
-        "pl_translation": "Nie rozumiem sztuczna inteligencja."
+        "es_form": "No entiendo [la inteligencia artificial::sztuczną inteligencję].",
+        "pl_translation": "Nie rozumiem sztucznej inteligencji."
       },
       {
         "es_form": "[La inteligencia artificial::sztuczna inteligencja] es muy importante.",
-        "pl_translation": "Sztuczna inteligencja jest bardzo ważny/a."
+        "pl_translation": "Sztuczna inteligencja jest bardzo ważna."
       }
     ]
   },
@@ -120,15 +120,15 @@
     "examples": [
       {
         "es_form": "¿Has visto [el espacio::kosmos]?",
-        "pl_translation": "Widziałeś/aś kosmos?"
+        "pl_translation": "Widziałeś kosmos?"
       },
       {
-        "es_form": "[El espacio::kosmos] es de madera.",
-        "pl_translation": "Kosmos jest z drewna."
+        "es_form": "[El espacio::kosmos] es infinito.",
+        "pl_translation": "Kosmos jest nieskończony."
       },
       {
-        "es_form": "Compré [el espacio::kosmos] ayer.",
-        "pl_translation": "Kupiłem/am kosmos wczoraj."
+        "es_form": "Exploramos [el espacio::kosmos].",
+        "pl_translation": "Badamy kosmos."
       }
     ]
   },
@@ -143,11 +143,11 @@
       },
       {
         "es_form": "[El planeta::planeta] es muy importante.",
-        "pl_translation": "Planeta jest bardzo ważny/a."
+        "pl_translation": "Planeta jest bardzo ważny."
       },
       {
-        "es_form": "[El planeta::planeta] cambio mi vida.",
-        "pl_translation": "Planeta zmienił/a moje życie."
+        "es_form": "[El planeta::planeta] necesita protección.",
+        "pl_translation": "Planeta potrzebuje ochrony."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "gwiazda",
     "examples": [
       {
-        "es_form": "[La estrella::gwiazda] cuesta diez euros.",
-        "pl_translation": "Gwiazda kosztuje dziesięć euro."
+        "es_form": "[La estrella::gwiazda] brilla mucho.",
+        "pl_translation": "Gwiazda bardzo świeci."
       },
       {
-        "es_form": "¿Has visto [la estrella::gwiazda]?",
-        "pl_translation": "Widziałeś/aś gwiazda?"
+        "es_form": "¿Has visto [la estrella::gwiazdę]?",
+        "pl_translation": "Widziałeś gwiazdę?"
       },
       {
-        "es_form": "Se me rompio [la estrella::gwiazda].",
-        "pl_translation": "Zepsuł mi się gwiazda."
+        "es_form": "[La estrella::gwiazda] está lejos.",
+        "pl_translation": "Gwiazda jest daleko."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "wszechświat",
     "examples": [
       {
-        "es_form": "¿Donde está [el universo::wszechświat]?",
+        "es_form": "¿Dónde está [el universo::wszechświat]?",
         "pl_translation": "Gdzie jest wszechświat?"
       },
       {
-        "es_form": "Visitamos [el universo::wszechświat] la semana pasada.",
-        "pl_translation": "Odwiedziliśmy wszechświat w zeszłym tygodniu."
+        "es_form": "Estudiamos [el universo::wszechświat].",
+        "pl_translation": "Badamy wszechświat."
       },
       {
-        "es_form": "Trabajo en [el universo::wszechświat].",
-        "pl_translation": "Pracuję w wszechświat."
+        "es_form": "Trabajo en [el universo::wszechświecie].",
+        "pl_translation": "Pracuję we wszechświecie."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "naukowy",
     "examples": [
       {
-        "es_form": "Nada es más [científico::naukowy] que la familia.",
-        "pl_translation": "Nic nie jest naukowy od rodziny."
+        "es_form": "Nada es más [científico::naukowy] que este estudio.",
+        "pl_translation": "Nic nie jest bardziej naukowe od tego badania."
       },
       {
-        "es_form": "La comida está [científica::naukowy].",
-        "pl_translation": "Jedzenie jest naukowy."
+        "es_form": "El método es [científico::naukowy].",
+        "pl_translation": "Metoda jest naukowa."
       },
       {
-        "es_form": "Es un lugar [científico::naukowy] para vivir.",
-        "pl_translation": "To jest naukowy miejsce do życia."
+        "es_form": "Es un descubrimiento [científico::naukowy].",
+        "pl_translation": "To jest naukowe odkrycie."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "techniczny",
     "examples": [
       {
-        "es_form": "Es un lugar [técnico::techniczny] para vivir.",
-        "pl_translation": "To jest techniczny miejsce do życia."
+        "es_form": "Es un problema [técnico::techniczny].",
+        "pl_translation": "To jest problem techniczny."
       },
       {
-        "es_form": "Hace un día [técnico::techniczny].",
-        "pl_translation": "Jest techniczny dzień."
+        "es_form": "El informe es [técnico::techniczny].",
+        "pl_translation": "Raport jest techniczny."
       },
       {
-        "es_form": "Mi amigo es [técnico::techniczny] y simpático.",
-        "pl_translation": "Mój przyjaciel jest techniczny i sympatyczny."
+        "es_form": "Mi amigo es [técnico::technikiem].",
+        "pl_translation": "Mój przyjaciel jest technikiem."
       }
     ]
   },
@@ -233,22 +233,22 @@
     "pl_word": "badać, prowadzić badania",
     "examples": [
       {
-        "es_form": "Prefiero [investigar::badać, prowadzić badania] en casa.",
-        "pl_translation": "Wolę badać, prowadzić badania w domu."
+        "es_form": "Prefiero [investigar::badać] en el laboratorio.",
+        "pl_translation": "Wolę badać w laboratorium."
       },
       {
-        "es_form": "Me gusta [investigar::badać, prowadzić badania] por la mañana.",
-        "pl_translation": "Lubię badać, prowadzić badania rano."
+        "es_form": "Me gusta [investigar::badać] por la mañana.",
+        "pl_translation": "Lubię badać rano."
       },
       {
-        "es_form": "¿Puedes [investigar::badać, prowadzić badania] más rápido?",
-        "pl_translation": "Możesz badać, prowadzić badania szybciej?"
+        "es_form": "¿Puedes [investigar::badać] más rápido?",
+        "pl_translation": "Możesz badać szybciej?"
       }
     ],
     "forms": [
       {
         "es_word": "investigo",
-        "pl_word": "badać (1.os.lp, ter.)",
+        "pl_word": "badam",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +256,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [investigo::badać (1.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj badać rano."
+            "es_form": "Normalmente [investigo::badam] por la mañana.",
+            "pl_translation": "Zazwyczaj badam rano."
           },
           {
-            "es_form": "[investigo::badać (1.os.lp, ter.)] todos los días.",
-            "pl_translation": "Badać codziennie."
+            "es_form": "[investigo::badam] todos los días.",
+            "pl_translation": "Badam codziennie."
           },
           {
-            "es_form": "No [investigo::badać (1.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie badać zbyt dobrze."
+            "es_form": "No [investigo::badam] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie badam zbyt dobrze."
           }
         ]
       },
       {
         "es_word": "investigas",
-        "pl_word": "badać (2.os.lp, ter.)",
+        "pl_word": "badasz",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +279,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [investigas::badać (2.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj badać rano."
+            "es_form": "Normalmente [investigas::badasz] por la mañana.",
+            "pl_translation": "Zazwyczaj badasz rano."
           },
           {
-            "es_form": "No [investigas::badać (2.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie badać zbyt dobrze."
+            "es_form": "No [investigas::badasz] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie badasz zbyt dobrze."
           },
           {
-            "es_form": "¿[investigas::badać (2.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy badać w weekendy?"
+            "es_form": "¿[investigas::badasz] los fines de semana?",
+            "pl_translation": "Czy badasz w weekendy?"
           }
         ]
       },
       {
         "es_word": "investiga",
-        "pl_word": "badać (3.os.lp, ter.)",
+        "pl_word": "bada",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +302,22 @@
         },
         "examples": [
           {
-            "es_form": "[investiga::badać (3.os.lp, ter.)] todos los días.",
-            "pl_translation": "Badać codziennie."
+            "es_form": "[investiga::bada] todos los días.",
+            "pl_translation": "Bada codziennie."
           },
           {
-            "es_form": "¿[investiga::badać (3.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy badać w weekendy?"
+            "es_form": "¿[investiga::bada] los fines de semana?",
+            "pl_translation": "Czy bada w weekendy?"
           },
           {
-            "es_form": "Siempre [investiga::badać (3.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze badać z uwagą."
+            "es_form": "Siempre [investiga::bada] con atención.",
+            "pl_translation": "Zawsze bada z uwagą."
           }
         ]
       },
       {
         "es_word": "investigamos",
-        "pl_word": "badać (1.os.lm, ter.)",
+        "pl_word": "badamy",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +325,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[investigamos::badać (1.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy badać w weekendy?"
+            "es_form": "¿[investigamos::badamy] los fines de semana?",
+            "pl_translation": "Czy badamy w weekendy?"
           },
           {
-            "es_form": "No [investigamos::badać (1.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie badać zbyt dobrze."
+            "es_form": "No [investigamos::badamy] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie badamy zbyt dobrze."
           },
           {
-            "es_form": "Normalmente [investigamos::badać (1.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj badać rano."
+            "es_form": "Normalmente [investigamos::badamy] por la mañana.",
+            "pl_translation": "Zazwyczaj badamy rano."
           }
         ]
       },
       {
         "es_word": "investigáis",
-        "pl_word": "badać (2.os.lm, ter.)",
+        "pl_word": "badacie",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +348,22 @@
         },
         "examples": [
           {
-            "es_form": "[investigáis::badać (2.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Badać tak jak mnie nauczyłeś/aś."
+            "es_form": "[investigáis::badacie] como me enseñaste.",
+            "pl_translation": "Badacie tak, jak mnie nauczyłeś."
           },
           {
-            "es_form": "Normalmente [investigáis::badać (2.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj badać rano."
+            "es_form": "Normalmente [investigáis::badacie] por la mañana.",
+            "pl_translation": "Zazwyczaj badacie rano."
           },
           {
-            "es_form": "Siempre [investigáis::badać (2.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze badać z uwagą."
+            "es_form": "Siempre [investigáis::badacie] con atención.",
+            "pl_translation": "Zawsze badacie z uwagą."
           }
         ]
       },
       {
         "es_word": "investigan",
-        "pl_word": "badać (3.os.lm, ter.)",
+        "pl_word": "badają",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +371,22 @@
         },
         "examples": [
           {
-            "es_form": "[investigan::badać (3.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Badać tak jak mnie nauczyłeś/aś."
+            "es_form": "[investigan::badają] como me enseñaste.",
+            "pl_translation": "Badają tak, jak mnie nauczyłeś."
           },
           {
-            "es_form": "No [investigan::badać (3.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie badać zbyt dobrze."
+            "es_form": "No [investigan::badają] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie badają zbyt dobrze."
           },
           {
-            "es_form": "Siempre [investigan::badać (3.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze badać z uwagą."
+            "es_form": "Siempre [investigan::badają] con atención.",
+            "pl_translation": "Zawsze badają z uwagą."
           }
         ]
       },
       {
-        "es_word": "investigé",
-        "pl_word": "badać (1.os.lp, przesz.)",
+        "es_word": "investigué",
+        "pl_word": "badałem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [investigé::badać (1.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie badać czegoś takiego."
+            "es_form": "Nunca [investigué::badałem] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie badałem"
           },
           {
-            "es_form": "El mes pasado no [investigé::badać (1.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie badać."
+            "es_form": "El mes pasado no [investigué::badałem] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie badałem"
           },
           {
-            "es_form": "¿[investigé::badać (1.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy badać dobrze egzamin?"
+            "es_form": "¿[investigué::badałem] bien el tema?",
+            "pl_translation": "Czy dobrze zbadałem"
           }
         ]
       },
       {
         "es_word": "investigaste",
-        "pl_word": "badać (2.os.lp, przesz.)",
+        "pl_word": "badałeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "[investigaste::badać (2.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Badać bez przerwy przez wiele godzin."
+            "es_form": "[investigaste::badałeś] sin parar durante horas.",
+            "pl_translation": "Badałeś"
           },
           {
-            "es_form": "[investigaste::badać (2.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Badać w zeszłym tygodniu."
+            "es_form": "[investigaste::badałeś] la semana pasada.",
+            "pl_translation": "Badałeś"
           },
           {
-            "es_form": "¿[investigaste::badać (2.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy badać dobrze egzamin?"
+            "es_form": "¿[investigaste::badałeś] bien el tema?",
+            "pl_translation": "Czy dobrze zbadałeś"
           }
         ]
       },
       {
         "es_word": "investigó",
-        "pl_word": "badać (3.os.lp, przesz.)",
+        "pl_word": "badał",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "[investigó::badać (3.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Badać w zeszłym tygodniu."
+            "es_form": "[investigó::badał] la semana pasada.",
+            "pl_translation": "Badał"
           },
           {
-            "es_form": "[investigó::badać (3.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Badać bez przerwy przez wiele godzin."
+            "es_form": "[investigó::badał] sin parar durante horas.",
+            "pl_translation": "Badał"
           },
           {
-            "es_form": "Nunca [investigó::badać (3.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie badać czegoś takiego."
+            "es_form": "Nunca [investigó::badał] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie badał"
           }
         ]
       },
       {
         "es_word": "investigamos",
-        "pl_word": "badać (1.os.lm, przesz.)",
+        "pl_word": "badaliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[investigamos::badać (1.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy badać dobrze egzamin?"
+            "es_form": "¿[investigamos::badaliśmy] bien el tema?",
+            "pl_translation": "Czy dobrze zbadaliśmy"
           },
           {
-            "es_form": "Nunca [investigamos::badać (1.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie badać czegoś takiego."
+            "es_form": "Nunca [investigamos::badaliśmy] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie badaliśmy"
           },
           {
-            "es_form": "[investigamos::badać (1.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Badać w zeszłym tygodniu."
+            "es_form": "[investigamos::badaliśmy] la semana pasada.",
+            "pl_translation": "Badaliśmy"
           }
         ]
       },
       {
         "es_word": "investigasteis",
-        "pl_word": "badać (2.os.lm, przesz.)",
+        "pl_word": "badaliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [investigasteis::badać (2.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie badać czegoś takiego."
+            "es_form": "Nunca [investigasteis::badaliście] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie badaliście"
           },
           {
-            "es_form": "[investigasteis::badać (2.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Badać bez przerwy przez wiele godzin."
+            "es_form": "[investigasteis::badaliście] sin parar durante horas.",
+            "pl_translation": "Badaliście"
           },
           {
-            "es_form": "Ayer [investigasteis::badać (2.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj badać cały dzień."
+            "es_form": "Ayer [investigasteis::badaliście] todo el día.",
+            "pl_translation": "Wczoraj badaliście"
           }
         ]
       },
       {
         "es_word": "investigaron",
-        "pl_word": "badać (3.os.lm, przesz.)",
+        "pl_word": "badali",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +509,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[investigaron::badać (3.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy badać dobrze egzamin?"
+            "es_form": "¿[investigaron::badali] bien el tema?",
+            "pl_translation": "Czy dobrze zbadali"
           },
           {
-            "es_form": "Nunca [investigaron::badać (3.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie badać czegoś takiego."
+            "es_form": "Nunca [investigaron::badali] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie badali"
           },
           {
-            "es_form": "Ayer [investigaron::badać (3.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj badać cały dzień."
+            "es_form": "Ayer [investigaron::badali] todo el día.",
+            "pl_translation": "Wczoraj badali"
           }
         ]
       },
       {
-        "es_word": "investigé",
-        "pl_word": "badać (1.os.lp, przysz.)",
+        "es_word": "investigaré",
+        "pl_word": "będę badał",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +532,22 @@
         },
         "examples": [
           {
-            "es_form": "[investigé::badać (1.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Badać w przyszłym tygodniu."
+            "es_form": "[investigaré::będę badał] la próxima semana.",
+            "pl_translation": "Będę badał"
           },
           {
-            "es_form": "El año que viene [investigé::badać (1.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku badać w Hiszpanii."
+            "es_form": "El año que viene [investigaré::będę badał] en España.",
+            "pl_translation": "W przyszłym roku będę badał"
           },
           {
-            "es_form": "Te prometo que [investigé::badać (1.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że badać na czas."
+            "es_form": "Te prometo que [investigaré::będę badał] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będę badał"
           }
         ]
       },
       {
-        "es_word": "investigás",
-        "pl_word": "badać (2.os.lp, przysz.)",
+        "es_word": "investigarás",
+        "pl_word": "będziesz badał",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +555,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[investigás::badać (2.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy badać z nami jutro?"
+            "es_form": "¿[investigarás::będziesz badał] con nosotros mañana?",
+            "pl_translation": "Czy będziesz badał"
           },
           {
-            "es_form": "El año que viene [investigás::badać (2.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku badać w Hiszpanii."
+            "es_form": "El año que viene [investigarás::będziesz badał] en España.",
+            "pl_translation": "W przyszłym roku będziesz badał"
           },
           {
-            "es_form": "Te prometo que [investigás::badać (2.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że badać na czas."
+            "es_form": "Te prometo que [investigarás::będziesz badał] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziesz badał"
           }
         ]
       },
       {
-        "es_word": "investigá",
-        "pl_word": "badać (3.os.lp, przysz.)",
+        "es_word": "investigará",
+        "pl_word": "będzie badał",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +578,22 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [investigá::badać (3.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro badać wcześniej."
+            "es_form": "Mañana [investigará::będzie badał] más temprano.",
+            "pl_translation": "Jutro będzie badał"
           },
           {
-            "es_form": "Te prometo que [investigá::badać (3.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że badać na czas."
+            "es_form": "Te prometo que [investigará::będzie badał] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będzie badał"
           },
           {
-            "es_form": "[investigá::badać (3.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Badać w przyszłym tygodniu."
+            "es_form": "[investigará::będzie badał] la próxima semana.",
+            "pl_translation": "Będzie badał"
           }
         ]
       },
       {
-        "es_word": "investigemos",
-        "pl_word": "badać (1.os.lm, przysz.)",
+        "es_word": "investigaremos",
+        "pl_word": "będziemy badali",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +601,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [investigemos::badać (1.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że badać dobrze."
+            "es_form": "Creo que [investigaremos::będziemy badali] bien.",
+            "pl_translation": "Myślę, że będziemy badali"
           },
           {
-            "es_form": "¿[investigemos::badać (1.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy badać z nami jutro?"
+            "es_form": "¿[investigaremos::będziemy badali] con nosotros mañana?",
+            "pl_translation": "Czy będziemy badali"
           },
           {
-            "es_form": "Mañana [investigemos::badać (1.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro badać wcześniej."
+            "es_form": "Mañana [investigaremos::będziemy badali] más temprano.",
+            "pl_translation": "Jutro będziemy badali"
           }
         ]
       },
       {
-        "es_word": "investigéis",
-        "pl_word": "badać (2.os.lm, przysz.)",
+        "es_word": "investigaréis",
+        "pl_word": "będziecie badali",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +624,22 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [investigéis::badać (2.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku badać w Hiszpanii."
+            "es_form": "El año que viene [investigaréis::będziecie badali] en España.",
+            "pl_translation": "W przyszłym roku będziecie badali"
           },
           {
-            "es_form": "Mañana [investigéis::badać (2.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro badać wcześniej."
+            "es_form": "Mañana [investigaréis::będziecie badali] más temprano.",
+            "pl_translation": "Jutro będziecie badali"
           },
           {
-            "es_form": "¿[investigéis::badać (2.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy badać z nami jutro?"
+            "es_form": "¿[investigaréis::będziecie badali] con nosotros mañana?",
+            "pl_translation": "Czy będziecie badali"
           }
         ]
       },
       {
-        "es_word": "investigán",
-        "pl_word": "badać (3.os.lm, przysz.)",
+        "es_word": "investigarán",
+        "pl_word": "będą badali",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +647,16 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [investigán::badać (3.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku badać w Hiszpanii."
+            "es_form": "El año que viene [investigarán::będą badali] en España.",
+            "pl_translation": "W przyszłym roku będą badali"
           },
           {
-            "es_form": "Creo que [investigán::badać (3.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że badać dobrze."
+            "es_form": "Creo que [investigarán::będą badali] bien.",
+            "pl_translation": "Myślę, że będą badali"
           },
           {
-            "es_form": "[investigán::badać (3.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Badać w przyszłym tygodniu."
+            "es_form": "[investigarán::będą badali] la próxima semana.",
+            "pl_translation": "Będą badali"
           }
         ]
       }

@@ -14,7 +14,7 @@
       },
       {
         "es_form": "[El supermercado::supermarket] es muy grande.",
-        "pl_translation": "Supermarket jest bardzo duży/a."
+        "pl_translation": "Supermarket jest bardzo duży"
       }
     ]
   },
@@ -44,7 +44,7 @@
     "examples": [
       {
         "es_form": "¿Has visto [la oferta::promocja]?",
-        "pl_translation": "Widziałeś/aś promocja?"
+        "pl_translation": "Widziałeś"
       },
       {
         "es_form": "[La oferta::promocja] cuesta diez euros.",
@@ -67,11 +67,11 @@
       },
       {
         "es_form": "Necesito [el envase::opakowanie] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową opakowanie."
+        "pl_translation": "Potrzebuję nowy"
       },
       {
         "es_form": "¿Has visto [el envase::opakowanie]?",
-        "pl_translation": "Widziałeś/aś opakowanie?"
+        "pl_translation": "Widziałeś"
       }
     ]
   },
@@ -86,11 +86,11 @@
       },
       {
         "es_form": "Compré [el peso::waga] ayer.",
-        "pl_translation": "Kupiłem/am waga wczoraj."
+        "pl_translation": "Kupiłem"
       },
       {
         "es_form": "Necesito [el peso::waga] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową waga."
+        "pl_translation": "Potrzebuję nowy"
       }
     ]
   },
@@ -109,7 +109,7 @@
       },
       {
         "es_form": "[La cola::kolejka] está muy rico.",
-        "pl_translation": "Kolejka jest bardzo smaczny/a."
+        "pl_translation": "Kolejka jest bardzo smaczny"
       }
     ]
   },
@@ -124,7 +124,7 @@
       },
       {
         "es_form": "Necesito [el producto::produkt] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową produkt."
+        "pl_translation": "Potrzebuję nowy"
       },
       {
         "es_form": "[El producto::produkt] cuesta diez euros.",
@@ -139,7 +139,7 @@
     "examples": [
       {
         "es_form": "Compré [la marca::marka] ayer.",
-        "pl_translation": "Kupiłem/am marka wczoraj."
+        "pl_translation": "Kupiłem"
       },
       {
         "es_form": "Guarda [la marca::marka] en el armario.",
@@ -147,7 +147,7 @@
       },
       {
         "es_form": "¿Has visto [la marca::marka]?",
-        "pl_translation": "Widziałeś/aś marka?"
+        "pl_translation": "Widziałeś"
       }
     ]
   },
@@ -166,7 +166,7 @@
       },
       {
         "es_form": "[La garantía::gwarancja] es muy importante.",
-        "pl_translation": "Gwarancja jest bardzo ważny/a."
+        "pl_translation": "Gwarancja jest bardzo ważny"
       }
     ]
   },
@@ -181,7 +181,7 @@
       },
       {
         "es_form": "Necesito [el descuento::zniżka] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową zniżka."
+        "pl_translation": "Potrzebuję nowy"
       },
       {
         "es_form": "[El descuento::zniżka] cuesta diez euros.",
@@ -248,7 +248,7 @@
     "forms": [
       {
         "es_word": "pago",
-        "pl_word": "płacić (1.os.lp, ter.)",
+        "pl_word": "płacę",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +256,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [pago::płacić (1.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj płacić rano."
+            "es_form": "Normalmente [pago::płacę] por la mañana.",
+            "pl_translation": "Zazwyczaj płacę rano."
           },
           {
-            "es_form": "Siempre [pago::płacić (1.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze płacić z uwagą."
+            "es_form": "Siempre [pago::płacę] con atencion.",
+            "pl_translation": "Zawsze płacę z uwagą."
           },
           {
-            "es_form": "[pago::płacić (1.os.lp, ter.)] todos los días.",
-            "pl_translation": "Płacić codziennie."
+            "es_form": "[pago::płacę] todos los días.",
+            "pl_translation": "płacę codziennie."
           }
         ]
       },
       {
         "es_word": "pagas",
-        "pl_word": "płacić (2.os.lp, ter.)",
+        "pl_word": "płacisz",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +279,22 @@
         },
         "examples": [
           {
-            "es_form": "[pagas::płacić (2.os.lp, ter.)] todos los días.",
-            "pl_translation": "Płacić codziennie."
+            "es_form": "[pagas::płacisz] todos los días.",
+            "pl_translation": "płacisz codziennie."
           },
           {
-            "es_form": "[pagas::płacić (2.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Płacić tak jak mnie nauczyłeś/aś."
+            "es_form": "[pagas::płacisz] como me enseñaste.",
+            "pl_translation": "płacisz tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "No [pagas::płacić (2.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie płacić zbyt dobrze."
+            "es_form": "No [pagas::płacisz] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie płacisz zbyt dobrze."
           }
         ]
       },
       {
         "es_word": "paga",
-        "pl_word": "płacić (3.os.lp, ter.)",
+        "pl_word": "płaci",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +302,22 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [paga::płacić (3.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze płacić z uwagą."
+            "es_form": "Siempre [paga::płaci] con atencion.",
+            "pl_translation": "Zawsze płaci z uwagą."
           },
           {
-            "es_form": "[paga::płacić (3.os.lp, ter.)] todos los días.",
-            "pl_translation": "Płacić codziennie."
+            "es_form": "[paga::płaci] todos los días.",
+            "pl_translation": "płaci codziennie."
           },
           {
-            "es_form": "[paga::płacić (3.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Płacić tak jak mnie nauczyłeś/aś."
+            "es_form": "[paga::płaci] como me enseñaste.",
+            "pl_translation": "płaci tak jak mnie nauczyłeś"
           }
         ]
       },
       {
         "es_word": "pagamos",
-        "pl_word": "płacić (1.os.lm, ter.)",
+        "pl_word": "płacimy",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +325,22 @@
         },
         "examples": [
           {
-            "es_form": "[pagamos::płacić (1.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Płacić tak jak mnie nauczyłeś/aś."
+            "es_form": "[pagamos::płacimy] como me enseñaste.",
+            "pl_translation": "płacimy tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "Siempre [pagamos::płacić (1.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze płacić z uwagą."
+            "es_form": "Siempre [pagamos::płacimy] con atencion.",
+            "pl_translation": "Zawsze płacimy z uwagą."
           },
           {
-            "es_form": "No [pagamos::płacić (1.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie płacić zbyt dobrze."
+            "es_form": "No [pagamos::płacimy] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie płacimy zbyt dobrze."
           }
         ]
       },
       {
         "es_word": "pagáis",
-        "pl_word": "płacić (2.os.lm, ter.)",
+        "pl_word": "płacicie",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +348,22 @@
         },
         "examples": [
           {
-            "es_form": "No [pagáis::płacić (2.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie płacić zbyt dobrze."
+            "es_form": "No [pagáis::płacicie] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie płacicie zbyt dobrze."
           },
           {
-            "es_form": "Siempre [pagáis::płacić (2.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze płacić z uwagą."
+            "es_form": "Siempre [pagáis::płacicie] con atencion.",
+            "pl_translation": "Zawsze płacicie z uwagą."
           },
           {
-            "es_form": "¿[pagáis::płacić (2.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy płacić w weekendy?"
+            "es_form": "¿[pagáis::płacicie] los fines de semana?",
+            "pl_translation": "Czy płacicie w weekendy?"
           }
         ]
       },
       {
         "es_word": "pagan",
-        "pl_word": "płacić (3.os.lm, ter.)",
+        "pl_word": "płacą",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +371,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [pagan::płacić (3.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj płacić rano."
+            "es_form": "Normalmente [pagan::płacą] por la mañana.",
+            "pl_translation": "Zazwyczaj płacą rano."
           },
           {
-            "es_form": "[pagan::płacić (3.os.lm, ter.)] todos los días.",
-            "pl_translation": "Płacić codziennie."
+            "es_form": "[pagan::płacą] todos los días.",
+            "pl_translation": "płacą codziennie."
           },
           {
-            "es_form": "[pagan::płacić (3.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Płacić tak jak mnie nauczyłeś/aś."
+            "es_form": "[pagan::płacą] como me enseñaste.",
+            "pl_translation": "płacą tak jak mnie nauczyłeś"
           }
         ]
       },
       {
-        "es_word": "pagé",
-        "pl_word": "płacić (1.os.lp, przesz.)",
+        "es_word": "pagué",
+        "pl_word": "płaciłem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "[pagé::płacić (1.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Płacić bez przerwy przez wiele godzin."
+            "es_form": "[pagué::płaciłem] sin parar durante horas.",
+            "pl_translation": "płaciłem bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "Ayer [pagé::płacić (1.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj płacić cały dzień."
+            "es_form": "Ayer [pagué::płaciłem] todo el día.",
+            "pl_translation": "Wczoraj płaciłem cały dzień."
           },
           {
-            "es_form": "El mes pasado no [pagé::płacić (1.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie płacić."
+            "es_form": "El mes pasado no [pagué::płaciłem] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie płaciłem."
           }
         ]
       },
       {
         "es_word": "pagaste",
-        "pl_word": "płacić (2.os.lp, przesz.)",
+        "pl_word": "płaciłeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "[pagaste::płacić (2.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Płacić w zeszłym tygodniu."
+            "es_form": "[pagaste::płaciłeś] la semana pasada.",
+            "pl_translation": "płaciłeś w zeszłym tygodniu."
           },
           {
-            "es_form": "[pagaste::płacić (2.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Płacić bez przerwy przez wiele godzin."
+            "es_form": "[pagaste::płaciłeś] sin parar durante horas.",
+            "pl_translation": "płaciłeś bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "El mes pasado no [pagaste::płacić (2.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie płacić."
+            "es_form": "El mes pasado no [pagaste::płaciłeś] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie płaciłeś."
           }
         ]
       },
       {
         "es_word": "pagó",
-        "pl_word": "płacić (3.os.lp, przesz.)",
+        "pl_word": "płacił",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [pagó::płacić (3.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie płacić czegoś takiego."
+            "es_form": "Nunca [pagó::płacił] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie płacił czegoś takiego."
           },
           {
-            "es_form": "Ayer [pagó::płacić (3.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj płacić cały dzień."
+            "es_form": "Ayer [pagó::płacił] todo el día.",
+            "pl_translation": "Wczoraj płacił cały dzień."
           },
           {
-            "es_form": "[pagó::płacić (3.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Płacić bez przerwy przez wiele godzin."
+            "es_form": "[pagó::płacił] sin parar durante horas.",
+            "pl_translation": "płacił bez przerwy przez wiele godzin."
           }
         ]
       },
       {
         "es_word": "pagamos",
-        "pl_word": "płacić (1.os.lm, przesz.)",
+        "pl_word": "płaciliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [pagamos::płacić (1.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie płacić czegoś takiego."
+            "es_form": "Nunca [pagamos::płaciliśmy] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie płaciliśmy czegoś takiego."
           },
           {
-            "es_form": "Ayer [pagamos::płacić (1.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj płacić cały dzień."
+            "es_form": "Ayer [pagamos::płaciliśmy] todo el día.",
+            "pl_translation": "Wczoraj płaciliśmy cały dzień."
           },
           {
-            "es_form": "[pagamos::płacić (1.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Płacić bez przerwy przez wiele godzin."
+            "es_form": "[pagamos::płaciliśmy] sin parar durante horas.",
+            "pl_translation": "płaciliśmy bez przerwy przez wiele godzin."
           }
         ]
       },
       {
         "es_word": "pagasteis",
-        "pl_word": "płacić (2.os.lm, przesz.)",
+        "pl_word": "płaciliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "[pagasteis::płacić (2.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Płacić bez przerwy przez wiele godzin."
+            "es_form": "[pagasteis::płaciliście] sin parar durante horas.",
+            "pl_translation": "płaciliście bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "¿[pagasteis::płacić (2.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy płacić dobrze egzamin?"
+            "es_form": "¿[pagasteis::płaciliście] bien el examen?",
+            "pl_translation": "Czy płaciliście dobrze egzamin?"
           },
           {
-            "es_form": "[pagasteis::płacić (2.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Płacić w zeszłym tygodniu."
+            "es_form": "[pagasteis::płaciliście] la semana pasada.",
+            "pl_translation": "płaciliście w zeszłym tygodniu."
           }
         ]
       },
       {
         "es_word": "pagaron",
-        "pl_word": "płacić (3.os.lm, przesz.)",
+        "pl_word": "płacili",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +509,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [pagaron::płacić (3.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj płacić cały dzień."
+            "es_form": "Ayer [pagaron::płacili] todo el día.",
+            "pl_translation": "Wczoraj płacili cały dzień."
           },
           {
-            "es_form": "[pagaron::płacić (3.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Płacić bez przerwy przez wiele godzin."
+            "es_form": "[pagaron::płacili] sin parar durante horas.",
+            "pl_translation": "płacili bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "El mes pasado no [pagaron::płacić (3.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie płacić."
+            "es_form": "El mes pasado no [pagaron::płacili] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie płacili."
           }
         ]
       },
       {
-        "es_word": "pagé",
-        "pl_word": "płacić (1.os.lp, przysz.)",
+        "es_word": "pagaré",
+        "pl_word": "będę płacić",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +532,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[pagé::płacić (1.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy płacić z nami jutro?"
+            "es_form": "¿[pagaré::będę płacić] con nosotros mañana?",
+            "pl_translation": "Czy będę będę będę będę będę płacić z nami jutro?"
           },
           {
-            "es_form": "Creo que [pagé::płacić (1.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że płacić dobrze."
+            "es_form": "Creo que [pagaré::będę płacić] bien.",
+            "pl_translation": "Myślę, że będę będę będę płacić dobrze."
           },
           {
-            "es_form": "Te prometo que [pagé::płacić (1.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że płacić na czas."
+            "es_form": "Te prometo que [pagaré::będę płacić] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będę będę będę płacić na czas."
           }
         ]
       },
       {
-        "es_word": "pagás",
-        "pl_word": "płacić (2.os.lp, przysz.)",
+        "es_word": "pagarás",
+        "pl_word": "będziesz płacić",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +555,22 @@
         },
         "examples": [
           {
-            "es_form": "[pagás::płacić (2.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Płacić w przyszłym tygodniu."
+            "es_form": "[pagarás::będziesz płacić] la proxima semana.",
+            "pl_translation": "będziesz będziesz płacić w przyszłym tygodniu."
           },
           {
-            "es_form": "El año que viene [pagás::płacić (2.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku płacić w Hiszpanii."
+            "es_form": "El año que viene [pagarás::będziesz płacić] en España.",
+            "pl_translation": "W przyszłym roku będziesz będziesz będziesz będziesz będziesz płacić w Hiszpanii."
           },
           {
-            "es_form": "Creo que [pagás::płacić (2.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że płacić dobrze."
+            "es_form": "Creo que [pagarás::będziesz płacić] bien.",
+            "pl_translation": "Myślę, że będziesz będziesz będziesz płacić dobrze."
           }
         ]
       },
       {
-        "es_word": "pagá",
-        "pl_word": "płacić (3.os.lp, przysz.)",
+        "es_word": "pagará",
+        "pl_word": "będzie płacić",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +578,22 @@
         },
         "examples": [
           {
-            "es_form": "[pagá::płacić (3.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Płacić w przyszłym tygodniu."
+            "es_form": "[pagará::będzie płacić] la proxima semana.",
+            "pl_translation": "będzie będzie płacić w przyszłym tygodniu."
           },
           {
-            "es_form": "¿[pagá::płacić (3.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy płacić z nami jutro?"
+            "es_form": "¿[pagará::będzie płacić] con nosotros mañana?",
+            "pl_translation": "Czy będzie będzie będzie będzie będzie płacić z nami jutro?"
           },
           {
-            "es_form": "Te prometo que [pagá::płacić (3.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że płacić na czas."
+            "es_form": "Te prometo que [pagará::będzie płacić] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będzie będzie będzie płacić na czas."
           }
         ]
       },
       {
-        "es_word": "pagemos",
-        "pl_word": "płacić (1.os.lm, przysz.)",
+        "es_word": "pagaremos",
+        "pl_word": "będziemy płacić",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +601,22 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [pagemos::płacić (1.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku płacić w Hiszpanii."
+            "es_form": "El año que viene [pagaremos::będziemy płacić] en España.",
+            "pl_translation": "W przyszłym roku będziemy będziemy będziemy będziemy będziemy płacić w Hiszpanii."
           },
           {
-            "es_form": "[pagemos::płacić (1.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Płacić w przyszłym tygodniu."
+            "es_form": "[pagaremos::będziemy płacić] la proxima semana.",
+            "pl_translation": "będziemy będziemy płacić w przyszłym tygodniu."
           },
           {
-            "es_form": "Creo que [pagemos::płacić (1.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że płacić dobrze."
+            "es_form": "Creo que [pagaremos::będziemy płacić] bien.",
+            "pl_translation": "Myślę, że będziemy będziemy będziemy płacić dobrze."
           }
         ]
       },
       {
-        "es_word": "pagéis",
-        "pl_word": "płacić (2.os.lm, przysz.)",
+        "es_word": "pagaréis",
+        "pl_word": "będziecie płacić",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +624,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[pagéis::płacić (2.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy płacić z nami jutro?"
+            "es_form": "¿[pagaréis::będziecie płacić] con nosotros mañana?",
+            "pl_translation": "Czy będziecie będziecie będziecie będziecie będziecie płacić z nami jutro?"
           },
           {
-            "es_form": "Mañana [pagéis::płacić (2.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro płacić wcześniej."
+            "es_form": "Mañana [pagaréis::będziecie płacić] más temprano.",
+            "pl_translation": "Jutro będziecie będziecie będziecie będziecie będziecie płacić wcześniej."
           },
           {
-            "es_form": "Creo que [pagéis::płacić (2.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że płacić dobrze."
+            "es_form": "Creo que [pagaréis::będziecie płacić] bien.",
+            "pl_translation": "Myślę, że będziecie będziecie będziecie płacić dobrze."
           }
         ]
       },
       {
-        "es_word": "pagán",
-        "pl_word": "płacić (3.os.lm, przysz.)",
+        "es_word": "pagarán",
+        "pl_word": "będą płacić",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +647,16 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [pagán::płacić (3.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku płacić w Hiszpanii."
+            "es_form": "El año que viene [pagarán::będą płacić] en España.",
+            "pl_translation": "W przyszłym roku będą będą będą będą będą płacić w Hiszpanii."
           },
           {
-            "es_form": "¿[pagán::płacić (3.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy płacić z nami jutro?"
+            "es_form": "¿[pagarán::będą płacić] con nosotros mañana?",
+            "pl_translation": "Czy będą będą będą będą będą płacić z nami jutro?"
           },
           {
-            "es_form": "Mañana [pagán::płacić (3.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro płacić wcześniej."
+            "es_form": "Mañana [pagarán::będą płacić] más temprano.",
+            "pl_translation": "Jutro będą będą będą będą będą płacić wcześniej."
           }
         ]
       }

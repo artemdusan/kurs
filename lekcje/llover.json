@@ -5,35 +5,35 @@
     "pl_word": "deszcz",
     "examples": [
       {
-        "es_form": "Compré [la lluvia::deszcz] ayer.",
-        "pl_translation": "Kupiłem/am deszcz wczoraj."
+        "es_form": "Hoy hay [lluvia::deszcz].",
+        "pl_translation": "Dzisiaj jest deszcz."
       },
       {
         "es_form": "¿Has visto [la lluvia::deszcz]?",
-        "pl_translation": "Widziałeś/aś deszcz?"
+        "pl_translation": "Widziałeś deszcz?"
       },
       {
-        "es_form": "[La lluvia::deszcz] está sobre la mesa.",
-        "pl_translation": "Deszcz jest na stole."
+        "es_form": "[La lluvia::deszcz] cae fuerte.",
+        "pl_translation": "Deszcz mocno pada."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El nieve",
+    "es_word": "La nieve",
     "pl_word": "śnieg",
     "examples": [
       {
-        "es_form": "Compré [el nieve::śnieg] ayer.",
-        "pl_translation": "Kupiłem/am śnieg wczoraj."
+        "es_form": "Me gusta [la nieve::śnieg].",
+        "pl_translation": "Lubię śnieg."
       },
       {
-        "es_form": "Necesito [el nieve::śnieg] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową śnieg."
+        "es_form": "Necesito [la nieve::śnieg] nuevo.",
+        "pl_translation": "Potrzebuję świeżego śniegu."
       },
       {
-        "es_form": "Guarda [el nieve::śnieg] en el armario.",
-        "pl_translation": "Schowaj śnieg do szafy."
+        "es_form": "[La nieve::śnieg] cubre todo.",
+        "pl_translation": "Śnieg wszystko pokrywa."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "słońce",
     "examples": [
       {
-        "es_form": "Necesito [el sol::słońce] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową słońce."
+        "es_form": "Necesito [el sol::słońce].",
+        "pl_translation": "Potrzebuję słońca."
       },
       {
         "es_form": "¿Has visto [el sol::słońce]?",
-        "pl_translation": "Widziałeś/aś słońce?"
+        "pl_translation": "Widziałeś słońce?"
       },
       {
-        "es_form": "[El sol::słońce] está sobre la mesa.",
-        "pl_translation": "Słońce jest na stole."
+        "es_form": "[El sol::słońce] brilla fuerte.",
+        "pl_translation": "Słońce mocno świeci."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "wiatr",
     "examples": [
       {
-        "es_form": "[El viento::wiatr] cuesta diez euros.",
-        "pl_translation": "Wiatr kosztuje dziesięć euro."
+        "es_form": "[El viento::wiatr] sopla fuerte.",
+        "pl_translation": "Wiatr mocno wieje."
       },
       {
-        "es_form": "Compré [el viento::wiatr] ayer.",
-        "pl_translation": "Kupiłem/am wiatr wczoraj."
+        "es_form": "Siento [el viento::wiatr].",
+        "pl_translation": "Czuję wiatr."
       },
       {
         "es_form": "¿Has visto [el viento::wiatr]?",
-        "pl_translation": "Widziałeś/aś wiatr?"
+        "pl_translation": "Czujesz wiatr?"
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "chmura",
     "examples": [
       {
-        "es_form": "Guarda [la nube::chmura] en el armario.",
-        "pl_translation": "Schowaj chmura do szafy."
+        "es_form": "[La nube::chmura] es muy grande.",
+        "pl_translation": "Chmura jest bardzo duża."
       },
       {
-        "es_form": "Se me rompio [la nube::chmura].",
-        "pl_translation": "Zepsuł mi się chmura."
+        "es_form": "Mira [la nube::chmurę].",
+        "pl_translation": "Spójrz na chmurę."
       },
       {
-        "es_form": "[La nube::chmura] es de madera.",
-        "pl_translation": "Chmura jest z drewna."
+        "es_form": "[La nube::chmura] cubre el sol.",
+        "pl_translation": "Chmura zakrywa słońce."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "niebo",
     "examples": [
       {
-        "es_form": "[El cielo::niebo] es de madera.",
-        "pl_translation": "Niebo jest z drewna."
+        "es_form": "[El cielo::niebo] está despejado.",
+        "pl_translation": "Niebo jest bezchmurne."
       },
       {
-        "es_form": "Guarda [el cielo::niebo] en el armario.",
-        "pl_translation": "Schowaj niebo do szafy."
+        "es_form": "Mira [el cielo::niebo].",
+        "pl_translation": "Spójrz na niebo."
       },
       {
-        "es_form": "[El cielo::niebo] está sobre la mesa.",
-        "pl_translation": "Niebo jest na stole."
+        "es_form": "[El cielo::niebo] está gris.",
+        "pl_translation": "Niebo jest szare."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "burza",
     "examples": [
       {
-        "es_form": "Guarda [la tormenta::burza] en el armario.",
-        "pl_translation": "Schowaj burza do szafy."
+        "es_form": "[La tormenta::burza] se acerca.",
+        "pl_translation": "Burza się zbliża."
       },
       {
-        "es_form": "Necesito [la tormenta::burza] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową burza."
+        "es_form": "Tengo miedo de [la tormenta::burzy].",
+        "pl_translation": "Boję się burzy."
       },
       {
-        "es_form": "[La tormenta::burza] es de madera.",
-        "pl_translation": "Burza jest z drewna."
+        "es_form": "[La tormenta::burza] fue muy fuerte.",
+        "pl_translation": "Burza była bardzo silna."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "tęcza",
     "examples": [
       {
-        "es_form": "Se me rompio [el arcoíris::tęcza].",
-        "pl_translation": "Zepsuł mi się tęcza."
+        "es_form": "[El arcoíris::tęcza] es hermoso.",
+        "pl_translation": "Tęcza jest piękna."
       },
       {
-        "es_form": "¿Has visto [el arcoíris::tęcza]?",
-        "pl_translation": "Widziałeś/aś tęcza?"
+        "es_form": "¿Has visto [el arcoíris::tęczę]?",
+        "pl_translation": "Widziałeś tęczę?"
       },
       {
-        "es_form": "Guarda [el arcoíris::tęcza] en el armario.",
-        "pl_translation": "Schowaj tęcza do szafy."
+        "es_form": "[El arcoíris::tęcza] aparece después de la lluvia.",
+        "pl_translation": "Tęcza pojawia się po deszczu."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "lód",
     "examples": [
       {
-        "es_form": "Necesito [el hielo::lód] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową lód."
+        "es_form": "Necesito [el hielo::lód].",
+        "pl_translation": "Potrzebuję lodu."
       },
       {
         "es_form": "¿Has visto [el hielo::lód]?",
-        "pl_translation": "Widziałeś/aś lód?"
+        "pl_translation": "Widziałeś lód?"
       },
       {
-        "es_form": "Guarda [el hielo::lód] en el armario.",
-        "pl_translation": "Schowaj lód do szafy."
+        "es_form": "[El hielo::lód] se derrite.",
+        "pl_translation": "Lód się topi."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "klimat",
     "examples": [
       {
-        "es_form": "Se me rompio [el clima::klimat].",
-        "pl_translation": "Zepsuł mi się klimat."
+        "es_form": "[El clima::klimat] está cambiando.",
+        "pl_translation": "Klimat się zmienia."
       },
       {
-        "es_form": "[El clima::klimat] es de madera.",
-        "pl_translation": "Klimat jest z drewna."
+        "es_form": "Hablamos sobre [el clima::klimat].",
+        "pl_translation": "Rozmawialiśmy o klimacie."
       },
       {
         "es_form": "¿Has visto [el clima::klimat]?",
-        "pl_translation": "Widziałeś/aś klimat?"
+        "pl_translation": "Słyszałeś o klimacie?"
       }
     ]
   },
@@ -195,12 +195,12 @@
     "pl_word": "słoneczny",
     "examples": [
       {
-        "es_form": "Es un lugar [soleado::słoneczny] para vivir.",
-        "pl_translation": "To jest słoneczny miejsce do życia."
+        "es_form": "Es un día [soleado::słoneczny].",
+        "pl_translation": "To jest słoneczny dzień."
       },
       {
-        "es_form": "Este coche es [soleado::słoneczny].",
-        "pl_translation": "Ten samochód jest słoneczny."
+        "es_form": "El tiempo está [soleado::słoneczny].",
+        "pl_translation": "Pogoda jest słoneczna."
       },
       {
         "es_form": "Hace un día [soleado::słoneczny].",
@@ -214,41 +214,41 @@
     "pl_word": "mokry",
     "examples": [
       {
-        "es_form": "Se compro un vestido [mojado::mokry].",
-        "pl_translation": "Kupiła sobie mokry sukienkę."
+        "es_form": "El suelo está [mojado::mokry].",
+        "pl_translation": "Podłoga jest mokra."
       },
       {
-        "es_form": "Tengo una casa [mojada::mokry].",
-        "pl_translation": "Mam mokry dom."
+        "es_form": "Tengo la ropa [mojada::mokrą].",
+        "pl_translation": "Mam mokre ubranie."
       },
       {
-        "es_form": "El examen fue [mojado::mokry].",
-        "pl_translation": "Egzamin był mokry."
+        "es_form": "Todo está [mojado::mokry] por la lluvia.",
+        "pl_translation": "Wszystko jest mokre od deszczu."
       }
     ]
   },
   {
     "type": "verb",
     "es_word": "llover",
-    "pl_word": "padać (deszcz)",
+    "pl_word": "padać (o deszczu)",
     "examples": [
       {
-        "es_form": "Voy a [llover::padać (deszcz)] mañana.",
-        "pl_translation": "Będę padać jutro."
+        "es_form": "Va a [llover::padać] mañana.",
+        "pl_translation": "Jutro będzie padać."
       },
       {
-        "es_form": "Es importante [llover::padać (deszcz)] todos los días.",
-        "pl_translation": "Ważne jest padać codziennie."
+        "es_form": "Parece que va a [llover::padać].",
+        "pl_translation": "Wygląda na to, że będzie padać."
       },
       {
-        "es_form": "Hay que [llover::padać (deszcz)] con cuidado.",
-        "pl_translation": "Trzeba padać ostrożnie."
+        "es_form": "No deja de [llover::padać].",
+        "pl_translation": "Nie przestaje padać."
       }
     ],
     "forms": [
       {
         "es_word": "llueve",
-        "pl_word": "padać (3.os.lp, ter.)",
+        "pl_word": "pada",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -256,22 +256,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[llueve::padać (3.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy padać w weekendy?"
+            "es_form": "¿[llueve::pada] los fines de semana?",
+            "pl_translation": "Czy pada w weekendy?"
           },
           {
-            "es_form": "Siempre [llueve::padać (3.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze padać z uwagą."
+            "es_form": "Hoy [llueve::pada] mucho.",
+            "pl_translation": "Dzisiaj bardzo pada."
           },
           {
-            "es_form": "Normalmente [llueve::padać (3.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj padać rano."
+            "es_form": "Normalmente [llueve::pada] por la mañana.",
+            "pl_translation": "Zazwyczaj pada rano."
           }
         ]
       },
       {
         "es_word": "llovió",
-        "pl_word": "padać (3.os.lp, przesz.)",
+        "pl_word": "padało",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -279,22 +279,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [llovió::padać (3.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie padać."
+            "es_form": "El mes pasado no [llovió::padało] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie padało."
           },
           {
-            "es_form": "[llovió::padać (3.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Padać w zeszłym tygodniu."
+            "es_form": "[llovió::padało] la semana pasada.",
+            "pl_translation": "Padało w zeszłym tygodniu."
           },
           {
-            "es_form": "¿[llovió::padać (3.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy padać dobrze egzamin?"
+            "es_form": "Ayer [llovió::padało] todo el día.",
+            "pl_translation": "Wczoraj padało cały dzień."
           }
         ]
       },
       {
         "es_word": "lloverá",
-        "pl_word": "padać (3.os.lp, przysz.)",
+        "pl_word": "będzie padać",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -302,16 +302,16 @@
         },
         "examples": [
           {
-            "es_form": "[lloverá::padać (3.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Padać w przyszłym tygodniu."
+            "es_form": "[lloverá::będzie padać] la próxima semana.",
+            "pl_translation": "Będzie padać w przyszłym tygodniu."
           },
           {
-            "es_form": "Mañana [lloverá::padać (3.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro padać wcześniej."
+            "es_form": "Mañana [lloverá::będzie padać].",
+            "pl_translation": "Jutro będzie padać."
           },
           {
-            "es_form": "El año que viene [lloverá::padać (3.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku padać w Hiszpanii."
+            "es_form": "El año que viene [lloverá::będzie padać] en España.",
+            "pl_translation": "W przyszłym roku będzie padać w Hiszpanii."
           }
         ]
       }

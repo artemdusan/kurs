@@ -6,7 +6,7 @@
     "examples": [
       {
         "es_form": "¿Has visto [el mueble::mebel]?",
-        "pl_translation": "Widziałeś/aś mebel?"
+        "pl_translation": "Widziałeś"
       },
       {
         "es_form": "Guarda [el mueble::mebel] en el armario.",
@@ -25,7 +25,7 @@
     "examples": [
       {
         "es_form": "Necesito [el armario::szafa] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową szafa."
+        "pl_translation": "Potrzebuję nowy"
       },
       {
         "es_form": "[El armario::szafa] está sobre la mesa.",
@@ -52,7 +52,7 @@
       },
       {
         "es_form": "Necesito [el estante::półka] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową półka."
+        "pl_translation": "Potrzebuję nowy"
       }
     ]
   },
@@ -67,11 +67,11 @@
       },
       {
         "es_form": "Necesito [la alfombra::dywan] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową dywan."
+        "pl_translation": "Potrzebuję nowy"
       },
       {
         "es_form": "Compré [la alfombra::dywan] ayer.",
-        "pl_translation": "Kupiłem/am dywan wczoraj."
+        "pl_translation": "Kupiłem"
       }
     ]
   },
@@ -82,7 +82,7 @@
     "examples": [
       {
         "es_form": "Compré [la cortina::zasłona] ayer.",
-        "pl_translation": "Kupiłem/am zasłona wczoraj."
+        "pl_translation": "Kupiłem"
       },
       {
         "es_form": "Guarda [la cortina::zasłona] en el armario.",
@@ -101,11 +101,11 @@
     "examples": [
       {
         "es_form": "Compré [la lámpara::lampa] ayer.",
-        "pl_translation": "Kupiłem/am lampa wczoraj."
+        "pl_translation": "Kupiłem"
       },
       {
         "es_form": "¿Has visto [la lámpara::lampa]?",
-        "pl_translation": "Widziałeś/aś lampa?"
+        "pl_translation": "Widziałeś"
       },
       {
         "es_form": "Guarda [la lámpara::lampa] en el armario.",
@@ -120,7 +120,7 @@
     "examples": [
       {
         "es_form": "¿Has visto [el reloj::zegar]?",
-        "pl_translation": "Widziałeś/aś zegar?"
+        "pl_translation": "Widziałeś"
       },
       {
         "es_form": "Se me rompio [el reloj::zegar].",
@@ -128,7 +128,7 @@
       },
       {
         "es_form": "Necesito [el reloj::zegar] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową zegar."
+        "pl_translation": "Potrzebuję nowy"
       }
     ]
   },
@@ -139,7 +139,7 @@
     "examples": [
       {
         "es_form": "Necesito [el cuadro::obraz (na ścianie)] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową obraz."
+        "pl_translation": "Potrzebuję nowy"
       },
       {
         "es_form": "[El cuadro::obraz (na ścianie)] cuesta diez euros.",
@@ -166,7 +166,7 @@
       },
       {
         "es_form": "Compré [el florero::wazon] ayer.",
-        "pl_translation": "Kupiłem/am wazon wczoraj."
+        "pl_translation": "Kupiłem"
       }
     ]
   },
@@ -185,7 +185,7 @@
       },
       {
         "es_form": "¿Has visto [la cesta::kosz]?",
-        "pl_translation": "Widziałeś/aś kosz?"
+        "pl_translation": "Widziałeś"
       }
     ]
   },
@@ -248,7 +248,7 @@
     "forms": [
       {
         "es_word": "limpio",
-        "pl_word": "sprzątać (1.os.lp, ter.)",
+        "pl_word": "sprzątam",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +256,22 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [limpio::sprzątać (1.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze sprzątać z uwagą."
+            "es_form": "Siempre [limpio::sprzątam] con atencion.",
+            "pl_translation": "Zawsze sprzątam z uwagą."
           },
           {
-            "es_form": "Normalmente [limpio::sprzątać (1.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj sprzątać rano."
+            "es_form": "Normalmente [limpio::sprzątam] por la mañana.",
+            "pl_translation": "Zazwyczaj sprzątam rano."
           },
           {
-            "es_form": "¿[limpio::sprzątać (1.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy sprzątać w weekendy?"
+            "es_form": "¿[limpio::sprzątam] los fines de semana?",
+            "pl_translation": "Czy sprzątam w weekendy?"
           }
         ]
       },
       {
         "es_word": "limpias",
-        "pl_word": "sprzątać (2.os.lp, ter.)",
+        "pl_word": "sprzątasz",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +279,22 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [limpias::sprzątać (2.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze sprzątać z uwagą."
+            "es_form": "Siempre [limpias::sprzątasz] con atencion.",
+            "pl_translation": "Zawsze sprzątasz z uwagą."
           },
           {
-            "es_form": "Normalmente [limpias::sprzątać (2.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj sprzątać rano."
+            "es_form": "Normalmente [limpias::sprzątasz] por la mañana.",
+            "pl_translation": "Zazwyczaj sprzątasz rano."
           },
           {
-            "es_form": "¿[limpias::sprzątać (2.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy sprzątać w weekendy?"
+            "es_form": "¿[limpias::sprzątasz] los fines de semana?",
+            "pl_translation": "Czy sprzątasz w weekendy?"
           }
         ]
       },
       {
         "es_word": "limpia",
-        "pl_word": "sprzątać (3.os.lp, ter.)",
+        "pl_word": "sprząta",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +302,22 @@
         },
         "examples": [
           {
-            "es_form": "[limpia::sprzątać (3.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Sprzątać tak jak mnie nauczyłeś/aś."
+            "es_form": "[limpia::sprząta] como me enseñaste.",
+            "pl_translation": "Sprzątać tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "Normalmente [limpia::sprzątać (3.os.lp, ter.)] por la mañana.",
+            "es_form": "Normalmente [limpia::sprząta] por la mañana.",
             "pl_translation": "Zazwyczaj sprzątać rano."
           },
           {
-            "es_form": "[limpia::sprzątać (3.os.lp, ter.)] todos los días.",
+            "es_form": "[limpia::sprząta] todos los días.",
             "pl_translation": "Sprzątać codziennie."
           }
         ]
       },
       {
         "es_word": "limpiamos",
-        "pl_word": "sprzątać (1.os.lm, ter.)",
+        "pl_word": "sprzątamy",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +325,22 @@
         },
         "examples": [
           {
-            "es_form": "[limpiamos::sprzątać (1.os.lm, ter.)] todos los días.",
-            "pl_translation": "Sprzątać codziennie."
+            "es_form": "[limpiamos::sprzątamy] todos los días.",
+            "pl_translation": "Sprzątamy codziennie."
           },
           {
-            "es_form": "¿[limpiamos::sprzątać (1.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy sprzątać w weekendy?"
+            "es_form": "¿[limpiamos::sprzątamy] los fines de semana?",
+            "pl_translation": "Czy sprzątamy w weekendy?"
           },
           {
-            "es_form": "Normalmente [limpiamos::sprzątać (1.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj sprzątać rano."
+            "es_form": "Normalmente [limpiamos::sprzątamy] por la mañana.",
+            "pl_translation": "Zazwyczaj sprzątamy rano."
           }
         ]
       },
       {
         "es_word": "limpiáis",
-        "pl_word": "sprzątać (2.os.lm, ter.)",
+        "pl_word": "sprzątacie",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +348,22 @@
         },
         "examples": [
           {
-            "es_form": "No [limpiáis::sprzątać (2.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie sprzątać zbyt dobrze."
+            "es_form": "No [limpiáis::sprzątacie] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie sprzątacie zbyt dobrze."
           },
           {
-            "es_form": "Normalmente [limpiáis::sprzątać (2.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj sprzątać rano."
+            "es_form": "Normalmente [limpiáis::sprzątacie] por la mañana.",
+            "pl_translation": "Zazwyczaj sprzątacie rano."
           },
           {
-            "es_form": "Siempre [limpiáis::sprzątać (2.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze sprzątać z uwagą."
+            "es_form": "Siempre [limpiáis::sprzątacie] con atencion.",
+            "pl_translation": "Zawsze sprzątacie z uwagą."
           }
         ]
       },
       {
         "es_word": "limpian",
-        "pl_word": "sprzątać (3.os.lm, ter.)",
+        "pl_word": "sprzątają",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +371,22 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [limpian::sprzątać (3.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze sprzątać z uwagą."
+            "es_form": "Siempre [limpian::sprzątają] con atencion.",
+            "pl_translation": "Zawsze sprzątają z uwagą."
           },
           {
-            "es_form": "Normalmente [limpian::sprzątać (3.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj sprzątać rano."
+            "es_form": "Normalmente [limpian::sprzątają] por la mañana.",
+            "pl_translation": "Zazwyczaj sprzątają rano."
           },
           {
-            "es_form": "¿[limpian::sprzątać (3.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy sprzątać w weekendy?"
+            "es_form": "¿[limpian::sprzątają] los fines de semana?",
+            "pl_translation": "Czy sprzątają w weekendy?"
           }
         ]
       },
       {
         "es_word": "limpié",
-        "pl_word": "sprzątać (1.os.lp, przesz.)",
+        "pl_word": "sprzątałem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[limpié::sprzątać (1.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy sprzątać dobrze egzamin?"
+            "es_form": "¿[limpié::sprzątałem] bien el examen?",
+            "pl_translation": "Czy sprzątałem dobrze egzamin?"
           },
           {
-            "es_form": "Ayer [limpié::sprzątać (1.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj sprzątać cały dzień."
+            "es_form": "Ayer [limpié::sprzątałem] todo el día.",
+            "pl_translation": "Wczoraj sprzątałem cały dzień."
           },
           {
-            "es_form": "El mes pasado no [limpié::sprzątać (1.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie sprzątać."
+            "es_form": "El mes pasado no [limpié::sprzątałem] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie sprzątałem."
           }
         ]
       },
       {
         "es_word": "limpiaste",
-        "pl_word": "sprzątać (2.os.lp, przesz.)",
+        "pl_word": "sprzątałeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "[limpiaste::sprzątać (2.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Sprzątać w zeszłym tygodniu."
+            "es_form": "[limpiaste::sprzątałeś] la semana pasada.",
+            "pl_translation": "Sprzątałeś w zeszłym tygodniu."
           },
           {
-            "es_form": "El mes pasado no [limpiaste::sprzątać (2.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie sprzątać."
+            "es_form": "El mes pasado no [limpiaste::sprzątałeś] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie sprzątałeś."
           },
           {
-            "es_form": "[limpiaste::sprzątać (2.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Sprzątać bez przerwy przez wiele godzin."
+            "es_form": "[limpiaste::sprzątałeś] sin parar durante horas.",
+            "pl_translation": "Sprzątałeś bez przerwy przez wiele godzin."
           }
         ]
       },
       {
         "es_word": "limpió",
-        "pl_word": "sprzątać (3.os.lp, przesz.)",
+        "pl_word": "sprzątał",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [limpió::sprzątać (3.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie sprzątać."
+            "es_form": "El mes pasado no [limpió::sprzątał] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie sprzątał."
           },
           {
-            "es_form": "Nunca [limpió::sprzątać (3.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie sprzątać czegoś takiego."
+            "es_form": "Nunca [limpió::sprzątał] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie sprzątał czegoś takiego."
           },
           {
-            "es_form": "[limpió::sprzątać (3.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Sprzątać bez przerwy przez wiele godzin."
+            "es_form": "[limpió::sprzątał] sin parar durante horas.",
+            "pl_translation": "Sprzątał bez przerwy przez wiele godzin."
           }
         ]
       },
       {
         "es_word": "limpiamos",
-        "pl_word": "sprzątać (1.os.lm, przesz.)",
+        "pl_word": "sprzątaliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "[limpiamos::sprzątać (1.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Sprzątać w zeszłym tygodniu."
+            "es_form": "[limpiamos::sprzątaliśmy] la semana pasada.",
+            "pl_translation": "Sprzątaliśmy w zeszłym tygodniu."
           },
           {
-            "es_form": "¿[limpiamos::sprzątać (1.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy sprzątać dobrze egzamin?"
+            "es_form": "¿[limpiamos::sprzątaliśmy] bien el examen?",
+            "pl_translation": "Czy sprzątaliśmy dobrze egzamin?"
           },
           {
-            "es_form": "El mes pasado no [limpiamos::sprzątać (1.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie sprzątać."
+            "es_form": "El mes pasado no [limpiamos::sprzątaliśmy] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie sprzątaliśmy."
           }
         ]
       },
       {
         "es_word": "limpiasteis",
-        "pl_word": "sprzątać (2.os.lm, przesz.)",
+        "pl_word": "sprzątaliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "[limpiasteis::sprzątać (2.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Sprzątać bez przerwy przez wiele godzin."
+            "es_form": "[limpiasteis::sprzątaliście] sin parar durante horas.",
+            "pl_translation": "Sprzątaliście bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "¿[limpiasteis::sprzątać (2.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy sprzątać dobrze egzamin?"
+            "es_form": "¿[limpiasteis::sprzątaliście] bien el examen?",
+            "pl_translation": "Czy sprzątaliście dobrze egzamin?"
           },
           {
-            "es_form": "[limpiasteis::sprzątać (2.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Sprzątać w zeszłym tygodniu."
+            "es_form": "[limpiasteis::sprzątaliście] la semana pasada.",
+            "pl_translation": "Sprzątaliście w zeszłym tygodniu."
           }
         ]
       },
       {
         "es_word": "limpiaron",
-        "pl_word": "sprzątać (3.os.lm, przesz.)",
+        "pl_word": "sprzątali",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +509,22 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [limpiaron::sprzątać (3.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie sprzątać czegoś takiego."
+            "es_form": "Nunca [limpiaron::sprzątali] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie sprzątali czegoś takiego."
           },
           {
-            "es_form": "[limpiaron::sprzątać (3.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Sprzątać bez przerwy przez wiele godzin."
+            "es_form": "[limpiaron::sprzątali] sin parar durante horas.",
+            "pl_translation": "Sprzątali bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "[limpiaron::sprzątać (3.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Sprzątać w zeszłym tygodniu."
+            "es_form": "[limpiaron::sprzątali] la semana pasada.",
+            "pl_translation": "Sprzątali w zeszłym tygodniu."
           }
         ]
       },
       {
         "es_word": "limpié",
-        "pl_word": "sprzątać (1.os.lp, przysz.)",
+        "pl_word": "będę sprzątać",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +532,22 @@
         },
         "examples": [
           {
-            "es_form": "[limpié::sprzątać (1.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Sprzątać w przyszłym tygodniu."
+            "es_form": "[limpié::będę sprzątać] la proxima semana.",
+            "pl_translation": "Będę sprzątać w przyszłym tygodniu."
           },
           {
-            "es_form": "Mañana [limpié::sprzątać (1.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro sprzątać wcześniej."
+            "es_form": "Mañana [limpié::będę sprzątać] más temprano.",
+            "pl_translation": "Jutro będę sprzątać wcześniej."
           },
           {
-            "es_form": "Creo que [limpié::sprzątać (1.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że sprzątać dobrze."
+            "es_form": "Creo que [limpié::będę sprzątać] bien.",
+            "pl_translation": "Myślę, że będę sprzątać dobrze."
           }
         ]
       },
       {
         "es_word": "limpiás",
-        "pl_word": "sprzątać (2.os.lp, przysz.)",
+        "pl_word": "będziesz sprzątać",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +555,22 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [limpiás::sprzątać (2.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro sprzątać wcześniej."
+            "es_form": "Mañana [limpiás::będziesz sprzątać] más temprano.",
+            "pl_translation": "Jutro będziesz sprzątać wcześniej."
           },
           {
-            "es_form": "[limpiás::sprzątać (2.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Sprzątać w przyszłym tygodniu."
+            "es_form": "[limpiás::będziesz sprzątać] la proxima semana.",
+            "pl_translation": "Będziesz sprzątać w przyszłym tygodniu."
           },
           {
-            "es_form": "¿[limpiás::sprzątać (2.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy sprzątać z nami jutro?"
+            "es_form": "¿[limpiás::będziesz sprzątać] con nosotros mañana?",
+            "pl_translation": "Czy będziesz sprzątać z nami jutro?"
           }
         ]
       },
       {
         "es_word": "limpiá",
-        "pl_word": "sprzątać (3.os.lp, przysz.)",
+        "pl_word": "będzie sprzątać",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +578,22 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [limpiá::sprzątać (3.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku sprzątać w Hiszpanii."
+            "es_form": "El año que viene [limpiá::będzie sprzątać] en España.",
+            "pl_translation": "W przyszłym roku będzie sprzątać w Hiszpanii."
           },
           {
-            "es_form": "Te prometo que [limpiá::sprzątać (3.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że sprzątać na czas."
+            "es_form": "Te prometo que [limpiá::będzie sprzątać] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będzie sprzątać na czas."
           },
           {
-            "es_form": "Mañana [limpiá::sprzątać (3.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro sprzątać wcześniej."
+            "es_form": "Mañana [limpiá::będzie sprzątać] más temprano.",
+            "pl_translation": "Jutro będzie sprzątać wcześniej."
           }
         ]
       },
       {
         "es_word": "limpiemos",
-        "pl_word": "sprzątać (1.os.lm, przysz.)",
+        "pl_word": "będziemy sprzątać",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +601,22 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [limpiemos::sprzątać (1.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku sprzątać w Hiszpanii."
+            "es_form": "El año que viene [limpiemos::będziemy sprzątać] en España.",
+            "pl_translation": "W przyszłym roku będziemy sprzątać w Hiszpanii."
           },
           {
-            "es_form": "Mañana [limpiemos::sprzątać (1.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro sprzątać wcześniej."
+            "es_form": "Mañana [limpiemos::będziemy sprzątać] más temprano.",
+            "pl_translation": "Jutro będziemy sprzątać wcześniej."
           },
           {
-            "es_form": "Te prometo que [limpiemos::sprzątać (1.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że sprzątać na czas."
+            "es_form": "Te prometo que [limpiemos::będziemy sprzątać] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziemy sprzątać na czas."
           }
         ]
       },
       {
         "es_word": "limpiéis",
-        "pl_word": "sprzątać (2.os.lm, przysz.)",
+        "pl_word": "będziecie sprzątać",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +624,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [limpiéis::sprzątać (2.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że sprzątać dobrze."
+            "es_form": "Creo que [limpiéis::będziecie sprzątać] bien.",
+            "pl_translation": "Myślę, że będziecie sprzątać dobrze."
           },
           {
-            "es_form": "Te prometo que [limpiéis::sprzątać (2.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że sprzątać na czas."
+            "es_form": "Te prometo que [limpiéis::będziecie sprzątać] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziecie sprzątać na czas."
           },
           {
-            "es_form": "El año que viene [limpiéis::sprzątać (2.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku sprzątać w Hiszpanii."
+            "es_form": "El año que viene [limpiéis::będziecie sprzątać] en España.",
+            "pl_translation": "W przyszłym roku będziecie sprzątać w Hiszpanii."
           }
         ]
       },
       {
         "es_word": "limpián",
-        "pl_word": "sprzątać (3.os.lm, przysz.)",
+        "pl_word": "będą sprzątać",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +647,16 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [limpián::sprzątać (3.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro sprzątać wcześniej."
+            "es_form": "Mañana [limpián::będą sprzątać] más temprano.",
+            "pl_translation": "Jutro będą sprzątać wcześniej."
           },
           {
-            "es_form": "[limpián::sprzątać (3.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Sprzątać w przyszłym tygodniu."
+            "es_form": "[limpián::będą sprzątać] la proxima semana.",
+            "pl_translation": "Będą sprzątać w przyszłym tygodniu."
           },
           {
-            "es_form": "¿[limpián::sprzątać (3.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy sprzątać z nami jutro?"
+            "es_form": "¿[limpián::będą sprzątać] con nosotros mañana?",
+            "pl_translation": "Czy będą sprzątać z nami jutro?"
           }
         ]
       }

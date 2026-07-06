@@ -10,11 +10,11 @@
       },
       {
         "es_form": "Mi [hermano::brat] es [el conocido::znajomy].",
-        "pl_translation": "Mój brat jest znajomy."
+        "pl_translation": "Mój brat jest znajomym."
       },
       {
         "es_form": "Conozco a [el conocido::znajomy].",
-        "pl_translation": "Znam znajomy."
+        "pl_translation": "Znam znajomego."
       }
     ]
   },
@@ -25,34 +25,34 @@
     "examples": [
       {
         "es_form": "Conozco a [el vecino::sąsiad].",
-        "pl_translation": "Znam sąsiad."
+        "pl_translation": "Znam sąsiada."
       },
       {
         "es_form": "[El vecino::sąsiad] me ayudo mucho.",
-        "pl_translation": "Sąsiad bardzo mi pomógł/pomogła."
+        "pl_translation": "Sąsiad bardzo mi pomógł."
       },
       {
         "es_form": "[El vecino::sąsiad] es muy amable.",
-        "pl_translation": "Sąsiad jest bardzo miły/a."
+        "pl_translation": "Sąsiad jest bardzo miły."
       }
     ]
   },
   {
     "type": "noun",
     "es_word": "La pareja",
-    "pl_word": "para (dwie osoby)",
+    "pl_word": "para",
     "examples": [
       {
-        "es_form": "[La pareja::para (dwie osoby)] es de madera.",
-        "pl_translation": "Para jest z drewna."
+        "es_form": "[La pareja::para] está en el parque.",
+        "pl_translation": "Para siedzi w parku."
       },
       {
-        "es_form": "Necesito [la pareja::para (dwie osoby)] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową para."
+        "es_form": "Necesito [la pareja::para] nueva.",
+        "pl_translation": "Potrzebuję partnera."
       },
       {
-        "es_form": "[La pareja::para (dwie osoby)] cuesta diez euros.",
-        "pl_translation": "Para kosztuje dziesięć euro."
+        "es_form": "[La pareja::para] parece feliz.",
+        "pl_translation": "Para wygląda na szczęśliwą."
       }
     ]
   },
@@ -63,11 +63,11 @@
     "examples": [
       {
         "es_form": "Conozco a [la colega::kolega].",
-        "pl_translation": "Znam kolega."
+        "pl_translation": "Znam kolegę."
       },
       {
         "es_form": "Hablé con [la colega::kolega] ayer.",
-        "pl_translation": "Rozmawiałem/am wczoraj z kolega."
+        "pl_translation": "Rozmawiałem"
       },
       {
         "es_form": "[La colega::kolega] vive en mi calle.",
@@ -82,15 +82,15 @@
     "examples": [
       {
         "es_form": "Necesito [el contacto::kontakt] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową kontakt."
+        "pl_translation": "Potrzebuję nowego kontaktu."
       },
       {
-        "es_form": "[El contacto::kontakt] es de madera.",
-        "pl_translation": "Kontakt jest z drewna."
+        "es_form": "[El contacto::kontakt] es importante.",
+        "pl_translation": "Kontakt jest ważny."
       },
       {
-        "es_form": "Guarda [el contacto::kontakt] en el armario.",
-        "pl_translation": "Schowaj kontakt do szafy."
+        "es_form": "Guarda [el contacto::kontakt] en el teléfono.",
+        "pl_translation": "Zapisz kontakt w telefonie."
       }
     ]
   },
@@ -100,73 +100,73 @@
     "pl_word": "spotkanie",
     "examples": [
       {
-        "es_form": "El médico me reviso [el encuentro::spotkanie].",
-        "pl_translation": "Lekarz zbadał mi spotkanie."
+        "es_form": "El jefe programó [el encuentro::spotkanie].",
+        "pl_translation": "Szef zaplanował spotkanie."
       },
       {
-        "es_form": "Tienes [el encuentro::spotkanie] muy fuerte.",
-        "pl_translation": "Masz bardzo silny/a spotkanie."
+        "es_form": "Tienes [el encuentro::spotkanie] muy importante.",
+        "pl_translation": "Masz bardzo ważne spotkanie."
       },
       {
-        "es_form": "Me duele [el encuentro::spotkanie].",
-        "pl_translation": "Boli mnie spotkanie."
+        "es_form": "Me gusta [el encuentro::spotkanie].",
+        "pl_translation": "Podoba mi się spotkanie."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El presentación",
+    "es_word": "La presentación",
     "pl_word": "przedstawienie (kogoś)",
     "examples": [
       {
-        "es_form": "Tienes [el presentación::przedstawienie (kogoś)] muy fuerte.",
-        "pl_translation": "Masz bardzo silny/a przedstawienie."
+        "es_form": "Tienes [La presentación::przedstawienie] muy interesante.",
+        "pl_translation": "Masz bardzo ciekawe przedstawienie."
       },
       {
-        "es_form": "Me duele [el presentación::przedstawienie (kogoś)].",
-        "pl_translation": "Boli mnie przedstawienie."
+        "es_form": "Me gusta [La presentación::przedstawienie].",
+        "pl_translation": "Czeka mnie przedstawienie."
       },
       {
-        "es_form": "[El presentación::przedstawienie (kogoś)] es una parte importante del cuerpo.",
-        "pl_translation": "Przedstawienie jest ważną częścią ciała."
+        "es_form": "[La presentación::przedstawienie] es una parte importante de la ceremonia.",
+        "pl_translation": "Przedstawienie jest ważną częścią ceremonii."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El relación",
-    "pl_word": "relacja, związek",
+    "es_word": "La relación",
+    "pl_word": "relacja",
     "examples": [
       {
-        "es_form": "¿Has visto [el relación::relacja, związek]?",
-        "pl_translation": "Widziałeś/aś relacja, związek?"
+        "es_form": "¿Has visto [el relación::relacja]?",
+        "pl_translation": "Widziałeś"
       },
       {
-        "es_form": "Necesito [el relación::relacja, związek] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową relacja, związek."
+        "es_form": "Necesito [el relación::relacja] nuevo.",
+        "pl_translation": "Potrzebuję nowej relacji."
       },
       {
-        "es_form": "Se me rompio [el relación::relacja, związek].",
-        "pl_translation": "Zepsuł mi się relacja, związek."
+        "es_form": "Se me rompió [el relación::relacja].",
+        "pl_translation": "Zepsuła mi się relacja."
       }
     ]
   },
   {
     "type": "noun",
     "es_word": "El extranjero",
-    "pl_word": "cudzoziemiec, zagranica",
+    "pl_word": "cudzoziemiec",
     "examples": [
       {
-        "es_form": "[El extranjero::cudzoziemiec, zagranica] vive en mi calle.",
-        "pl_translation": "Cudzoziemiec, zagranica mieszka na mojej ulicy."
+        "es_form": "[El extranjero::cudzoziemiec] vive en mi calle.",
+        "pl_translation": "Cudzoziemiec mieszka na mojej ulicy."
       },
       {
-        "es_form": "Esta es [el extranjero::cudzoziemiec, zagranica] de la que hablé.",
-        "pl_translation": "To jest cudzoziemiec, zagranica, o której mówiłem/am."
+        "es_form": "Esta es [el extranjero::cudzoziemiec] de la que hablé.",
+        "pl_translation": "To jest cudzoziemiec, o którym mówiłem"
       },
       {
-        "es_form": "Hablé con [el extranjero::cudzoziemiec, zagranica] ayer.",
-        "pl_translation": "Rozmawiałem/am wczoraj z cudzoziemiec, zagranica."
+        "es_form": "Hablé con [el extranjero::cudzoziemiec] ayer.",
+        "pl_translation": "Rozmawiałem"
       }
     ]
   },
@@ -177,7 +177,7 @@
     "examples": [
       {
         "es_form": "Esta es [la turista::turysta] de la que hablé.",
-        "pl_translation": "To jest turysta, o której mówiłem/am."
+        "pl_translation": "To jest turysta, o której mówiłem"
       },
       {
         "es_form": "Mi [hermano::brat] es [la turista::turysta].",
@@ -185,7 +185,7 @@
       },
       {
         "es_form": "[La turista::turysta] es muy amable.",
-        "pl_translation": "Turysta jest bardzo miły/a."
+        "pl_translation": "Turysta jest bardzo miły"
       }
     ]
   },
@@ -196,7 +196,7 @@
     "examples": [
       {
         "es_form": "La comida está [famosa::sławny].",
-        "pl_translation": "Jedzenie jest sławny."
+        "pl_translation": "Jedzenie jest sławne."
       },
       {
         "es_form": "Hace un día [famoso::sławny].",
@@ -215,11 +215,11 @@
     "examples": [
       {
         "es_form": "La comida está [desconocida::nieznany].",
-        "pl_translation": "Jedzenie jest nieznany."
+        "pl_translation": "Jedzenie jest nieznane."
       },
       {
         "es_form": "Es un lugar [desconocido::nieznany] para vivir.",
-        "pl_translation": "To jest nieznany miejsce do życia."
+        "pl_translation": "To jest nieznane miejsce do życia."
       },
       {
         "es_form": "Tengo una casa [desconocida::nieznany].",
@@ -248,7 +248,7 @@
     "forms": [
       {
         "es_word": "conozco",
-        "pl_word": "znać (1.os.lp, ter.)",
+        "pl_word": "znam",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +256,22 @@
         },
         "examples": [
           {
-            "es_form": "[conozco::znać (1.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Znać tak jak mnie nauczyłeś/aś."
+            "es_form": "[conozco::znam] como me enseñaste.",
+            "pl_translation": "Znam tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "[conozco::znać (1.os.lp, ter.)] todos los días.",
-            "pl_translation": "Znać codziennie."
+            "es_form": "[conozco::znam] todos los días.",
+            "pl_translation": "Znam codziennie."
           },
           {
-            "es_form": "Normalmente [conozco::znać (1.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj znać rano."
+            "es_form": "Normalmente [conozco::znam] por la mañana.",
+            "pl_translation": "Zazwyczaj znam rano."
           }
         ]
       },
       {
         "es_word": "conoces",
-        "pl_word": "znać (2.os.lp, ter.)",
+        "pl_word": "znasz",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +279,22 @@
         },
         "examples": [
           {
-            "es_form": "[conoces::znać (2.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Znać tak jak mnie nauczyłeś/aś."
+            "es_form": "[conoces::znasz] como me enseñaste.",
+            "pl_translation": "Znasz tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "No [conoces::znać (2.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie znać zbyt dobrze."
+            "es_form": "No [conoces::znasz] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie znasz zbyt dobrze."
           },
           {
-            "es_form": "Siempre [conoces::znać (2.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze znać z uwagą."
+            "es_form": "Siempre [conoces::znasz] con atencion.",
+            "pl_translation": "Zawsze znasz z uwagą."
           }
         ]
       },
       {
         "es_word": "conoce",
-        "pl_word": "znać (3.os.lp, ter.)",
+        "pl_word": "zna",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +302,22 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [conoce::znać (3.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze znać z uwagą."
+            "es_form": "Siempre [conoce::zna] con atencion.",
+            "pl_translation": "Zawsze zna z uwagą."
           },
           {
-            "es_form": "Normalmente [conoce::znać (3.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj znać rano."
+            "es_form": "Normalmente [conoce::zna] por la mañana.",
+            "pl_translation": "Zazwyczaj zna rano."
           },
           {
-            "es_form": "No [conoce::znać (3.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie znać zbyt dobrze."
+            "es_form": "No [conoce::zna] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie zna zbyt dobrze."
           }
         ]
       },
       {
         "es_word": "conocemos",
-        "pl_word": "znać (1.os.lm, ter.)",
+        "pl_word": "znamy",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +325,22 @@
         },
         "examples": [
           {
-            "es_form": "[conocemos::znać (1.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Znać tak jak mnie nauczyłeś/aś."
+            "es_form": "[conocemos::znamy] como me enseñaste.",
+            "pl_translation": "Znamy tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "Normalmente [conocemos::znać (1.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj znać rano."
+            "es_form": "Normalmente [conocemos::znamy] por la mañana.",
+            "pl_translation": "Zazwyczaj znamy rano."
           },
           {
-            "es_form": "[conocemos::znać (1.os.lm, ter.)] todos los días.",
-            "pl_translation": "Znać codziennie."
+            "es_form": "[conocemos::znamy] todos los días.",
+            "pl_translation": "Znamy codziennie."
           }
         ]
       },
       {
         "es_word": "conocéis",
-        "pl_word": "znać (2.os.lm, ter.)",
+        "pl_word": "znacie",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +348,22 @@
         },
         "examples": [
           {
-            "es_form": "[conocéis::znać (2.os.lm, ter.)] todos los días.",
-            "pl_translation": "Znać codziennie."
+            "es_form": "[conocéis::znacie] todos los días.",
+            "pl_translation": "Znacie codziennie."
           },
           {
-            "es_form": "Siempre [conocéis::znać (2.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze znać z uwagą."
+            "es_form": "Siempre [conocéis::znacie] con atencion.",
+            "pl_translation": "Zawsze znacie z uwagą."
           },
           {
-            "es_form": "[conocéis::znać (2.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Znać tak jak mnie nauczyłeś/aś."
+            "es_form": "[conocéis::znacie] como me enseñaste.",
+            "pl_translation": "Znacie tak jak mnie nauczyłeś"
           }
         ]
       },
       {
         "es_word": "conocen",
-        "pl_word": "znać (3.os.lm, ter.)",
+        "pl_word": "znają",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +371,22 @@
         },
         "examples": [
           {
-            "es_form": "No [conocen::znać (3.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie znać zbyt dobrze."
+            "es_form": "No [conocen::znają] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie znają zbyt dobrze."
           },
           {
-            "es_form": "Siempre [conocen::znać (3.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze znać z uwagą."
+            "es_form": "Siempre [conocen::znają] con atencion.",
+            "pl_translation": "Zawsze znają z uwagą."
           },
           {
-            "es_form": "[conocen::znać (3.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Znać tak jak mnie nauczyłeś/aś."
+            "es_form": "[conocen::znają] como me enseñaste.",
+            "pl_translation": "Znają tak jak mnie nauczyłeś"
           }
         ]
       },
       {
         "es_word": "conocí",
-        "pl_word": "znać (1.os.lp, przesz.)",
+        "pl_word": "znałem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[conocí::znać (1.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy znać dobrze egzamin?"
+            "es_form": "¿[conocí::znałem] bien el examen?",
+            "pl_translation": "Czy znałem"
           },
           {
-            "es_form": "[conocí::znać (1.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Znać bez przerwy przez wiele godzin."
+            "es_form": "[conocí::znałem] sin parar durante horas.",
+            "pl_translation": "Znałem"
           },
           {
-            "es_form": "Nunca [conocí::znać (1.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie znać czegoś takiego."
+            "es_form": "Nunca [conocí::znałem] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie znałem"
           }
         ]
       },
       {
         "es_word": "conociste",
-        "pl_word": "znać (2.os.lp, przesz.)",
+        "pl_word": "znałeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [conociste::znać (2.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj znać cały dzień."
+            "es_form": "Ayer [conociste::znałeś] todo el día.",
+            "pl_translation": "Wczoraj znałeś"
           },
           {
-            "es_form": "[conociste::znać (2.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Znać w zeszłym tygodniu."
+            "es_form": "[conociste::znałeś] la semana pasada.",
+            "pl_translation": "Znałeś"
           },
           {
-            "es_form": "¿[conociste::znać (2.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy znać dobrze egzamin?"
+            "es_form": "¿[conociste::znałeś] bien el examen?",
+            "pl_translation": "Czy znałeś"
           }
         ]
       },
       {
         "es_word": "conoció",
-        "pl_word": "znać (3.os.lp, przesz.)",
+        "pl_word": "znał",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "[conoció::znać (3.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Znać w zeszłym tygodniu."
+            "es_form": "[conoció::znał] la semana pasada.",
+            "pl_translation": "Znał"
           },
           {
-            "es_form": "¿[conoció::znać (3.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy znać dobrze egzamin?"
+            "es_form": "¿[conoció::znał] bien el examen?",
+            "pl_translation": "Czy znał"
           },
           {
-            "es_form": "Nunca [conoció::znać (3.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie znać czegoś takiego."
+            "es_form": "Nunca [conoció::znał] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie znał"
           }
         ]
       },
       {
         "es_word": "conocimos",
-        "pl_word": "znać (1.os.lm, przesz.)",
+        "pl_word": "znaliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[conocimos::znać (1.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy znać dobrze egzamin?"
+            "es_form": "¿[conocimos::znaliśmy] bien el examen?",
+            "pl_translation": "Czy znaliśmy"
           },
           {
-            "es_form": "[conocimos::znać (1.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Znać bez przerwy przez wiele godzin."
+            "es_form": "[conocimos::znaliśmy] sin parar durante horas.",
+            "pl_translation": "Znaliśmy"
           },
           {
-            "es_form": "El mes pasado no [conocimos::znać (1.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie znać."
+            "es_form": "El mes pasado no [conocimos::znaliśmy] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie znaliśmy"
           }
         ]
       },
       {
         "es_word": "conocisteis",
-        "pl_word": "znać (2.os.lm, przesz.)",
+        "pl_word": "znaliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [conocisteis::znać (2.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj znać cały dzień."
+            "es_form": "Ayer [conocisteis::znaliście] todo el día.",
+            "pl_translation": "Wczoraj znaliście"
           },
           {
-            "es_form": "[conocisteis::znać (2.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Znać bez przerwy przez wiele godzin."
+            "es_form": "[conocisteis::znaliście] sin parar durante horas.",
+            "pl_translation": "Znaliście"
           },
           {
-            "es_form": "[conocisteis::znać (2.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Znać w zeszłym tygodniu."
+            "es_form": "[conocisteis::znaliście] la semana pasada.",
+            "pl_translation": "Znaliście"
           }
         ]
       },
       {
         "es_word": "conocieron",
-        "pl_word": "znać (3.os.lm, przesz.)",
+        "pl_word": "znali",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +509,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [conocieron::znać (3.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj znać cały dzień."
+            "es_form": "Ayer [conocieron::znali] todo el día.",
+            "pl_translation": "Wczoraj znali"
           },
           {
-            "es_form": "El mes pasado no [conocieron::znać (3.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie znać."
+            "es_form": "El mes pasado no [conocieron::znali] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie znali"
           },
           {
-            "es_form": "Nunca [conocieron::znać (3.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie znać czegoś takiego."
+            "es_form": "Nunca [conocieron::znali] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie znali"
           }
         ]
       },
       {
         "es_word": "conoceré",
-        "pl_word": "znać (1.os.lp, przysz.)",
+        "pl_word": "będę znał",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +532,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[conoceré::znać (1.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy znać z nami jutro?"
+            "es_form": "¿[conoceré::będę znał] con nosotros mañana?",
+            "pl_translation": "Czy będę znał"
           },
           {
-            "es_form": "Creo que [conoceré::znać (1.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że znać dobrze."
+            "es_form": "Creo que [conoceré::będę znał] bien.",
+            "pl_translation": "Myślę, że będę znał"
           },
           {
-            "es_form": "[conoceré::znać (1.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Znać w przyszłym tygodniu."
+            "es_form": "[conoceré::będę znał] la proxima semana.",
+            "pl_translation": "Będę znał"
           }
         ]
       },
       {
         "es_word": "conocerás",
-        "pl_word": "znać (2.os.lp, przysz.)",
+        "pl_word": "będziesz znał",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +555,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[conocerás::znać (2.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy znać z nami jutro?"
+            "es_form": "¿[conocerás::będziesz znał] con nosotros mañana?",
+            "pl_translation": "Czy będziesz znał"
           },
           {
-            "es_form": "Mañana [conocerás::znać (2.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro znać wcześniej."
+            "es_form": "Mañana [conocerás::będziesz znał] más temprano.",
+            "pl_translation": "Jutro będziesz znał"
           },
           {
-            "es_form": "[conocerás::znać (2.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Znać w przyszłym tygodniu."
+            "es_form": "[conocerás::będziesz znał] la proxima semana.",
+            "pl_translation": "Będziesz znał"
           }
         ]
       },
       {
         "es_word": "conocerá",
-        "pl_word": "znać (3.os.lp, przysz.)",
+        "pl_word": "będzie znał",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +578,22 @@
         },
         "examples": [
           {
-            "es_form": "[conocerá::znać (3.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Znać w przyszłym tygodniu."
+            "es_form": "[conocerá::będzie znał] la proxima semana.",
+            "pl_translation": "Będzie znał"
           },
           {
-            "es_form": "Mañana [conocerá::znać (3.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro znać wcześniej."
+            "es_form": "Mañana [conocerá::będzie znał] más temprano.",
+            "pl_translation": "Jutro będzie znał"
           },
           {
-            "es_form": "Creo que [conocerá::znać (3.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że znać dobrze."
+            "es_form": "Creo que [conocerá::będzie znał] bien.",
+            "pl_translation": "Myślę, że będzie znał"
           }
         ]
       },
       {
         "es_word": "conoceremos",
-        "pl_word": "znać (1.os.lm, przysz.)",
+        "pl_word": "będziemy znali",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +601,22 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [conoceremos::znać (1.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro znać wcześniej."
+            "es_form": "Mañana [conoceremos::będziemy znali] más temprano.",
+            "pl_translation": "Jutro będziemy znali"
           },
           {
-            "es_form": "El año que viene [conoceremos::znać (1.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku znać w Hiszpanii."
+            "es_form": "El año que viene [conoceremos::będziemy znali] en España.",
+            "pl_translation": "W przyszłym roku będziemy znali"
           },
           {
-            "es_form": "Te prometo que [conoceremos::znać (1.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że znać na czas."
+            "es_form": "Te prometo que [conoceremos::będziemy znali] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziemy znali"
           }
         ]
       },
       {
         "es_word": "conoceréis",
-        "pl_word": "znać (2.os.lm, przysz.)",
+        "pl_word": "będziecie znali",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +624,22 @@
         },
         "examples": [
           {
-            "es_form": "[conoceréis::znać (2.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Znać w przyszłym tygodniu."
+            "es_form": "[conoceréis::będziecie znali] la proxima semana.",
+            "pl_translation": "Będziecie znali"
           },
           {
-            "es_form": "El año que viene [conoceréis::znać (2.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku znać w Hiszpanii."
+            "es_form": "El año que viene [conoceréis::będziecie znali] en España.",
+            "pl_translation": "W przyszłym roku będziecie znali"
           },
           {
-            "es_form": "Creo que [conoceréis::znać (2.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że znać dobrze."
+            "es_form": "Creo que [conoceréis::będziecie znali] bien.",
+            "pl_translation": "Myślę, że będziecie znali"
           }
         ]
       },
       {
         "es_word": "conocerán",
-        "pl_word": "znać (3.os.lm, przysz.)",
+        "pl_word": "będą znali",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +647,16 @@
         },
         "examples": [
           {
-            "es_form": "¿[conocerán::znać (3.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy znać z nami jutro?"
+            "es_form": "¿[conocerán::będą znali] con nosotros mañana?",
+            "pl_translation": "Czy będą znali"
           },
           {
-            "es_form": "Creo que [conocerán::znać (3.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że znać dobrze."
+            "es_form": "Creo que [conocerán::będą znali] bien.",
+            "pl_translation": "Myślę, że będą znali"
           },
           {
-            "es_form": "Te prometo que [conocerán::znać (3.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że znać na czas."
+            "es_form": "Te prometo que [conocerán::będą znali] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będą znali"
           }
         ]
       }

@@ -14,7 +14,7 @@
       },
       {
         "es_form": "Compré [la nevera::lodówka] ayer.",
-        "pl_translation": "Kupiłem/am lodówka wczoraj."
+        "pl_translation": "Kupiłem"
       }
     ]
   },
@@ -29,11 +29,11 @@
       },
       {
         "es_form": "¿Has visto [la lavadora::pralka]?",
-        "pl_translation": "Widziałeś/aś pralka?"
+        "pl_translation": "Widziałeś"
       },
       {
-        "es_form": "Se me rompio [la lavadora::pralka].",
-        "pl_translation": "Zepsuł mi się pralka."
+        "es_form": "Se me rompió [la lavadora::pralka].",
+        "pl_translation": "Zepsuła mi się pralka."
       }
     ]
   },
@@ -44,7 +44,7 @@
     "examples": [
       {
         "es_form": "Necesito [el lavavajillas::zmywarka] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową zmywarka."
+        "pl_translation": "Potrzebuję nowej zmywarki."
       },
       {
         "es_form": "[El lavavajillas::zmywarka] está sobre la mesa.",
@@ -71,7 +71,7 @@
       },
       {
         "es_form": "Compré [la aspiradora::odkurzacz] ayer.",
-        "pl_translation": "Kupiłem/am odkurzacz wczoraj."
+        "pl_translation": "Kupiłem"
       }
     ]
   },
@@ -82,11 +82,11 @@
     "examples": [
       {
         "es_form": "Necesito [el televisor::telewizor] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową telewizor."
+        "pl_translation": "Potrzebuję nowego telewizora."
       },
       {
         "es_form": "¿Has visto [el televisor::telewizor]?",
-        "pl_translation": "Widziałeś/aś telewizor?"
+        "pl_translation": "Widziałeś"
       },
       {
         "es_form": "[El televisor::telewizor] es de madera.",
@@ -101,7 +101,7 @@
     "examples": [
       {
         "es_form": "Necesito [el cargador::ładowarka] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową ładowarka."
+        "pl_translation": "Potrzebuję nowej ładowarki."
       },
       {
         "es_form": "[El cargador::ładowarka] está sobre la mesa.",
@@ -115,20 +115,20 @@
   },
   {
     "type": "noun",
-    "es_word": "El auriculares",
+    "es_word": "Los auriculares",
     "pl_word": "słuchawki",
     "examples": [
       {
-        "es_form": "¿Has visto [el auriculares::słuchawki]?",
-        "pl_translation": "Widziałeś/aś słuchawki?"
+        "es_form": "¿Has visto [los auriculares::słuchawki]?",
+        "pl_translation": "Widziałeś"
       },
       {
-        "es_form": "[El auriculares::słuchawki] cuesta diez euros.",
-        "pl_translation": "Słuchawki kosztuje dziesięć euro."
+        "es_form": "[Los auriculares::słuchawki] cuestan diez euros.",
+        "pl_translation": "Słuchawki kosztują dziesięć euro."
       },
       {
-        "es_form": "Se me rompio [el auriculares::słuchawki].",
-        "pl_translation": "Zepsuł mi się słuchawki."
+        "es_form": "Se me rompieron [los auriculares::słuchawki].",
+        "pl_translation": "Zepsuły mi się słuchawki."
       }
     ]
   },
@@ -138,8 +138,8 @@
     "pl_word": "mysz (komputerowa)",
     "examples": [
       {
-        "es_form": "Se me rompio [el ratón::mysz (komputerowa)].",
-        "pl_translation": "Zepsuł mi się mysz."
+        "es_form": "Se me rompió [el ratón::mysz (komputerowa)].",
+        "pl_translation": "Zepsuła mi się mysz."
       },
       {
         "es_form": "Guarda [el ratón::mysz (komputerowa)] en el armario.",
@@ -158,15 +158,15 @@
     "examples": [
       {
         "es_form": "Guarda [el teclado::klawiatura] en el armario.",
-        "pl_translation": "Schowaj klawiatura do szafy."
+        "pl_translation": "Schowaj klawiaturę do szafy."
       },
       {
         "es_form": "Compré [el teclado::klawiatura] ayer.",
-        "pl_translation": "Kupiłem/am klawiatura wczoraj."
+        "pl_translation": "Kupiłem"
       },
       {
-        "es_form": "Se me rompio [el teclado::klawiatura].",
-        "pl_translation": "Zepsuł mi się klawiatura."
+        "es_form": "Se me rompió [el teclado::klawiatura].",
+        "pl_translation": "Zepsuła mi się klawiatura."
       }
     ]
   },
@@ -181,11 +181,11 @@
       },
       {
         "es_form": "Necesito [la pantalla::ekran] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową ekran."
+        "pl_translation": "Potrzebuję nowego ekranu."
       },
       {
         "es_form": "¿Has visto [la pantalla::ekran]?",
-        "pl_translation": "Widziałeś/aś ekran?"
+        "pl_translation": "Widziałeś"
       }
     ]
   },
@@ -196,7 +196,7 @@
     "examples": [
       {
         "es_form": "Es un lugar [electrónico::elektroniczny] para vivir.",
-        "pl_translation": "To jest elektroniczny miejsce do życia."
+        "pl_translation": "To jest elektroniczne miejsce do życia."
       },
       {
         "es_form": "Este coche es [electrónico::elektroniczny].",
@@ -204,7 +204,7 @@
       },
       {
         "es_form": "La comida está [electrónica::elektroniczny].",
-        "pl_translation": "Jedzenie jest elektroniczny."
+        "pl_translation": "Jedzenie jest elektroniczne."
       }
     ]
   },
@@ -214,41 +214,41 @@
     "pl_word": "zepsuty",
     "examples": [
       {
-        "es_form": "Este coche es [estropeado::zepsuty].",
+        "es_form": "Este coche está [estropeado::zepsuty].",
         "pl_translation": "Ten samochód jest zepsuty."
       },
       {
         "es_form": "La comida está [estropeada::zepsuty].",
-        "pl_translation": "Jedzenie jest zepsuty."
+        "pl_translation": "Jedzenie jest zepsute."
       },
       {
-        "es_form": "Nada es más [estropeado::zepsuty] que la familia.",
-        "pl_translation": "Nic nie jest zepsuty od rodziny."
+        "es_form": "No hay nada más [estropeado::zepsuty] que esto.",
+        "pl_translation": "Nie ma nic bardziej zepsutego niż to."
       }
     ]
   },
   {
     "type": "verb",
     "es_word": "encender",
-    "pl_word": "włączyć",
+    "pl_word": "włączać / włączyć",
     "examples": [
       {
-        "es_form": "Prefiero [encender::włączyć] en casa.",
-        "pl_translation": "Wolę włączyć w domu."
+        "es_form": "Prefiero [encender::włączać / włączyć] la luz en casa.",
+        "pl_translation": "Wolę włączać światło w domu."
       },
       {
-        "es_form": "No puedo [encender::włączyć] sin tu ayuda.",
-        "pl_translation": "Nie mogę włączyć bez twojej pomocy."
+        "es_form": "No puedo [encender::włączać / włączyć] el ordenador sin tu ayuda.",
+        "pl_translation": "Nie mogę włączyć komputera bez twojej pomocy."
       },
       {
-        "es_form": "Hay que [encender::włączyć] con cuidado.",
-        "pl_translation": "Trzeba włączyć ostrożnie."
+        "es_form": "Hay que [encender::włączać / włączyć] la tele con cuidado.",
+        "pl_translation": "Trzeba włączać telewizor ostrożnie."
       }
     ],
     "forms": [
       {
         "es_word": "enciendo",
-        "pl_word": "włączyć (1.os.lp, ter.)",
+        "pl_word": "włączam",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +256,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [enciendo::włączyć (1.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj włączyć rano."
+            "es_form": "Normalmente [enciendo::włączam] la luz por la mañana.",
+            "pl_translation": "Zazwyczaj włączam światło rano."
           },
           {
-            "es_form": "¿[enciendo::włączyć (1.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy włączyć w weekendy?"
+            "es_form": "¿[Enciendo::włączam] la calefacción los fines de semana?",
+            "pl_translation": "Czy włączam ogrzewanie w weekendy?"
           },
           {
-            "es_form": "Siempre [enciendo::włączyć (1.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze włączyć z uwagą."
+            "es_form": "Siempre [enciendo::włączam] el ordenador con atención.",
+            "pl_translation": "Zawsze włączam komputer z uwagą."
           }
         ]
       },
       {
         "es_word": "enciendes",
-        "pl_word": "włączyć (2.os.lp, ter.)",
+        "pl_word": "włączasz",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +279,22 @@
         },
         "examples": [
           {
-            "es_form": "[enciendes::włączyć (2.os.lp, ter.)] todos los días.",
-            "pl_translation": "Włączyć codziennie."
+            "es_form": "[Enciendes::włączasz] la luz todos los días.",
+            "pl_translation": "Włączasz światło codziennie."
           },
           {
-            "es_form": "No [enciendes::włączyć (2.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie włączyć zbyt dobrze."
+            "es_form": "No [enciendes::włączasz] la tele muy bien últimamente.",
+            "pl_translation": "Ostatnio nie włączasz telewizora zbyt dobrze."
           },
           {
-            "es_form": "Siempre [enciendes::włączyć (2.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze włączyć z uwagą."
+            "es_form": "Siempre [enciendes::włączasz] el ordenador con atención.",
+            "pl_translation": "Zawsze włączasz komputer z uwagą."
           }
         ]
       },
       {
         "es_word": "enciende",
-        "pl_word": "włączyć (3.os.lp, ter.)",
+        "pl_word": "włącza",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +302,22 @@
         },
         "examples": [
           {
-            "es_form": "No [enciende::włączyć (3.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie włączyć zbyt dobrze."
+            "es_form": "No [enciende::włącza] la tele muy bien últimamente.",
+            "pl_translation": "Ostatnio nie włącza telewizora zbyt dobrze."
           },
           {
-            "es_form": "Siempre [enciende::włączyć (3.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze włączyć z uwagą."
+            "es_form": "Siempre [enciende::włącza] el ordenador con atención.",
+            "pl_translation": "Zawsze włącza komputer z uwagą."
           },
           {
-            "es_form": "Normalmente [enciende::włączyć (3.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj włączyć rano."
+            "es_form": "Normalmente [enciende::włącza] la luz por la mañana.",
+            "pl_translation": "Zazwyczaj włącza światło rano."
           }
         ]
       },
       {
         "es_word": "encendemos",
-        "pl_word": "włączyć (1.os.lm, ter.)",
+        "pl_word": "włączamy",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +325,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [encendemos::włączyć (1.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj włączyć rano."
+            "es_form": "Normalmente [encendemos::włączamy] la luz por la mañana.",
+            "pl_translation": "Zazwyczaj włączamy światło rano."
           },
           {
-            "es_form": "[encendemos::włączyć (1.os.lm, ter.)] todos los días.",
-            "pl_translation": "Włączyć codziennie."
+            "es_form": "[Encendemos::włączamy] la tele todos los días.",
+            "pl_translation": "Włączamy telewizor codziennie."
           },
           {
-            "es_form": "[encendemos::włączyć (1.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Włączyć tak jak mnie nauczyłeś/aś."
+            "es_form": "[Encendemos::włączamy] el ordenador como me enseñaste.",
+            "pl_translation": "Włączamy komputer tak jak mnie nauczyłeś."
           }
         ]
       },
       {
         "es_word": "encendéis",
-        "pl_word": "włączyć (2.os.lm, ter.)",
+        "pl_word": "włączacie",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +348,22 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [encendéis::włączyć (2.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze włączyć z uwagą."
+            "es_form": "Siempre [encendéis::włączacie] el ordenador con atención.",
+            "pl_translation": "Zawsze włączacie komputer z uwagą."
           },
           {
-            "es_form": "[encendéis::włączyć (2.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Włączyć tak jak mnie nauczyłeś/aś."
+            "es_form": "[Encendéis::włączacie] la tele como me enseñaste.",
+            "pl_translation": "Włączacie telewizor tak jak mnie nauczyłeś."
           },
           {
-            "es_form": "¿[encendéis::włączyć (2.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy włączyć w weekendy?"
+            "es_form": "¿[Encendéis::włączacie] la luz los fines de semana?",
+            "pl_translation": "Czy włączacie światło w weekendy?"
           }
         ]
       },
       {
         "es_word": "encienden",
-        "pl_word": "włączyć (3.os.lm, ter.)",
+        "pl_word": "włączają",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +371,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [encienden::włączyć (3.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj włączyć rano."
+            "es_form": "Normalmente [encienden::włączają] la luz por la mañana.",
+            "pl_translation": "Zazwyczaj włączają światło rano."
           },
           {
-            "es_form": "[encienden::włączyć (3.os.lm, ter.)] todos los días.",
-            "pl_translation": "Włączyć codziennie."
+            "es_form": "[Encienden::włączają] la tele todos los días.",
+            "pl_translation": "Włączają telewizor codziennie."
           },
           {
-            "es_form": "Siempre [encienden::włączyć (3.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze włączyć z uwagą."
+            "es_form": "Siempre [encienden::włączają] el ordenador con atención.",
+            "pl_translation": "Zawsze włączają komputer z uwagą."
           }
         ]
       },
       {
         "es_word": "encendí",
-        "pl_word": "włączyć (1.os.lp, przesz.)",
+        "pl_word": "włączyłem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "[encendí::włączyć (1.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Włączyć w zeszłym tygodniu."
+            "es_form": "[Encendí::włączyłem] la tele la semana pasada.",
+            "pl_translation": "Włączyłem telewizor w zeszłym tygodniu."
           },
           {
-            "es_form": "Ayer [encendí::włączyć (1.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj włączyć cały dzień."
+            "es_form": "Ayer [encendí::włączyłem] el ordenador todo el día.",
+            "pl_translation": "Wczoraj włączyłem komputer na cały dzień."
           },
           {
-            "es_form": "Nunca [encendí::włączyć (1.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie włączyć czegoś takiego."
+            "es_form": "Nunca [encendí::włączyłem] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie włączyłem czegoś takiego."
           }
         ]
       },
       {
         "es_word": "encendiste",
-        "pl_word": "włączyć (2.os.lp, przesz.)",
+        "pl_word": "włączyłeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "[encendiste::włączyć (2.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Włączyć w zeszłym tygodniu."
+            "es_form": "[Encendiste::włączyłeś] la tele la semana pasada.",
+            "pl_translation": "Włączyłeś telewizor w zeszłym tygodniu."
           },
           {
-            "es_form": "El mes pasado no [encendiste::włączyć (2.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie włączyć."
+            "es_form": "El mes pasado no [encendiste::włączyłeś] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie włączyłeś."
           },
           {
-            "es_form": "¿[encendiste::włączyć (2.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy włączyć dobrze egzamin?"
+            "es_form": "¿[Encendiste::włączyłeś] bien el ordenador?",
+            "pl_translation": "Czy włączyłeś dobrze komputer?"
           }
         ]
       },
       {
         "es_word": "encendió",
-        "pl_word": "włączyć (3.os.lp, przesz.)",
+        "pl_word": "włączył",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "[encendió::włączyć (3.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Włączyć bez przerwy przez wiele godzin."
+            "es_form": "[Encendió::włączył] la tele sin parar durante horas.",
+            "pl_translation": "Włączył telewizor bez przerwy na wiele godzin."
           },
           {
-            "es_form": "Ayer [encendió::włączyć (3.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj włączyć cały dzień."
+            "es_form": "Ayer [encendió::włączył] el ordenador todo el día.",
+            "pl_translation": "Wczoraj włączył komputer na cały dzień."
           },
           {
-            "es_form": "Nunca [encendió::włączyć (3.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie włączyć czegoś takiego."
+            "es_form": "Nunca [encendió::włączył] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie włączył czegoś takiego."
           }
         ]
       },
       {
         "es_word": "encendimos",
-        "pl_word": "włączyć (1.os.lm, przesz.)",
+        "pl_word": "włączyliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [encendimos::włączyć (1.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie włączyć."
+            "es_form": "El mes pasado no [encendimos::włączyliśmy] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie włączyliśmy."
           },
           {
-            "es_form": "[encendimos::włączyć (1.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Włączyć w zeszłym tygodniu."
+            "es_form": "[Encendimos::włączyliśmy] la tele la semana pasada.",
+            "pl_translation": "Włączyliśmy telewizor w zeszłym tygodniu."
           },
           {
-            "es_form": "Ayer [encendimos::włączyć (1.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj włączyć cały dzień."
+            "es_form": "Ayer [encendimos::włączyliśmy] el ordenador todo el día.",
+            "pl_translation": "Wczoraj włączyliśmy komputer na cały dzień."
           }
         ]
       },
       {
         "es_word": "encendisteis",
-        "pl_word": "włączyć (2.os.lm, przesz.)",
+        "pl_word": "włączyliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[encendisteis::włączyć (2.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy włączyć dobrze egzamin?"
+            "es_form": "¿[Encendisteis::włączyliście] bien el ordenador?",
+            "pl_translation": "Czy włączyliście dobrze komputer?"
           },
           {
-            "es_form": "[encendisteis::włączyć (2.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Włączyć bez przerwy przez wiele godzin."
+            "es_form": "[Encendisteis::włączyliście] la tele sin parar durante horas.",
+            "pl_translation": "Włączyliście telewizor bez przerwy na wiele godzin."
           },
           {
-            "es_form": "Nunca [encendisteis::włączyć (2.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie włączyć czegoś takiego."
+            "es_form": "Nunca [encendisteis::włączyliście] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie włączyliście czegoś takiego."
           }
         ]
       },
       {
         "es_word": "encendieron",
-        "pl_word": "włączyć (3.os.lm, przesz.)",
+        "pl_word": "włączyli",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +509,22 @@
         },
         "examples": [
           {
-            "es_form": "[encendieron::włączyć (3.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Włączyć bez przerwy przez wiele godzin."
+            "es_form": "[Encendieron::włączyli] la tele sin parar durante horas.",
+            "pl_translation": "Włączyli telewizor bez przerwy na wiele godzin."
           },
           {
-            "es_form": "[encendieron::włączyć (3.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Włączyć w zeszłym tygodniu."
+            "es_form": "[Encendieron::włączyli] el ordenador la semana pasada.",
+            "pl_translation": "Włączyli komputer w zeszłym tygodniu."
           },
           {
-            "es_form": "Ayer [encendieron::włączyć (3.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj włączyć cały dzień."
+            "es_form": "Ayer [encendieron::włączyli] la luz todo el día.",
+            "pl_translation": "Wczoraj włączyli światło na cały dzień."
           }
         ]
       },
       {
         "es_word": "encenderé",
-        "pl_word": "włączyć (1.os.lp, przysz.)",
+        "pl_word": "włączę",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +532,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [encenderé::włączyć (1.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że włączyć dobrze."
+            "es_form": "Creo que [encenderé::włączę] bien el ordenador.",
+            "pl_translation": "Myślę, że włączę dobrze komputer."
           },
           {
-            "es_form": "Mañana [encenderé::włączyć (1.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro włączyć wcześniej."
+            "es_form": "Mañana [encenderé::włączę] la luz más temprano.",
+            "pl_translation": "Jutro włączę światło wcześniej."
           },
           {
-            "es_form": "[encenderé::włączyć (1.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Włączyć w przyszłym tygodniu."
+            "es_form": "[Encenderé::włączę] la tele la próxima semana.",
+            "pl_translation": "Włączę telewizor w przyszłym tygodniu."
           }
         ]
       },
       {
         "es_word": "encenderás",
-        "pl_word": "włączyć (2.os.lp, przysz.)",
+        "pl_word": "włączysz",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +555,22 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [encenderás::włączyć (2.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro włączyć wcześniej."
+            "es_form": "Mañana [encenderás::włączysz] la luz más temprano.",
+            "pl_translation": "Jutro włączysz światło wcześniej."
           },
           {
-            "es_form": "[encenderás::włączyć (2.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Włączyć w przyszłym tygodniu."
+            "es_form": "[Encenderás::włączysz] la tele la próxima semana.",
+            "pl_translation": "Włączysz telewizor w przyszłym tygodniu."
           },
           {
-            "es_form": "Creo que [encenderás::włączyć (2.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że włączyć dobrze."
+            "es_form": "Creo que [encenderás::włączysz] bien el ordenador.",
+            "pl_translation": "Myślę, że włączysz dobrze komputer."
           }
         ]
       },
       {
         "es_word": "encenderá",
-        "pl_word": "włączyć (3.os.lp, przysz.)",
+        "pl_word": "włączy",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +578,22 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [encenderá::włączyć (3.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku włączyć w Hiszpanii."
+            "es_form": "El año que viene [encenderá::włączy] la tele en España.",
+            "pl_translation": "W przyszłym roku włączy telewizor w Hiszpanii."
           },
           {
-            "es_form": "Te prometo que [encenderá::włączyć (3.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że włączyć na czas."
+            "es_form": "Te prometo que [encenderá::włączy] el ordenador a tiempo.",
+            "pl_translation": "Obiecuję ci, że włączy komputer na czas."
           },
           {
-            "es_form": "Mañana [encenderá::włączyć (3.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro włączyć wcześniej."
+            "es_form": "Mañana [encenderá::włączy] la luz más temprano.",
+            "pl_translation": "Jutro włączy światło wcześniej."
           }
         ]
       },
       {
         "es_word": "encenderemos",
-        "pl_word": "włączyć (1.os.lm, przysz.)",
+        "pl_word": "włączymy",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +601,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[encenderemos::włączyć (1.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy włączyć z nami jutro?"
+            "es_form": "¿[Encenderemos::włączymy] la tele con nosotros mañana?",
+            "pl_translation": "Czy włączymy telewizor z nami jutro?"
           },
           {
-            "es_form": "El año que viene [encenderemos::włączyć (1.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku włączyć w Hiszpanii."
+            "es_form": "El año que viene [encenderemos::włączymy] el ordenador en España.",
+            "pl_translation": "W przyszłym roku włączymy komputer w Hiszpanii."
           },
           {
-            "es_form": "Mañana [encenderemos::włączyć (1.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro włączyć wcześniej."
+            "es_form": "Mañana [encenderemos::włączymy] la luz más temprano.",
+            "pl_translation": "Jutro włączymy światło wcześniej."
           }
         ]
       },
       {
         "es_word": "encenderéis",
-        "pl_word": "włączyć (2.os.lm, przysz.)",
+        "pl_word": "włączycie",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +624,22 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [encenderéis::włączyć (2.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro włączyć wcześniej."
+            "es_form": "Mañana [encenderéis::włączycie] la luz más temprano.",
+            "pl_translation": "Jutro włączycie światło wcześniej."
           },
           {
-            "es_form": "[encenderéis::włączyć (2.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Włączyć w przyszłym tygodniu."
+            "es_form": "[Encenderéis::włączycie] la tele la próxima semana.",
+            "pl_translation": "Włączycie telewizor w przyszłym tygodniu."
           },
           {
-            "es_form": "Te prometo que [encenderéis::włączyć (2.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że włączyć na czas."
+            "es_form": "Te prometo que [encenderéis::włączycie] el ordenador a tiempo.",
+            "pl_translation": "Obiecuję ci, że włączycie komputer na czas."
           }
         ]
       },
       {
         "es_word": "encenderán",
-        "pl_word": "włączyć (3.os.lm, przysz.)",
+        "pl_word": "włączą",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +647,16 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [encenderán::włączyć (3.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że włączyć dobrze."
+            "es_form": "Creo que [encenderán::włączą] bien el ordenador.",
+            "pl_translation": "Myślę, że włączą dobrze komputer."
           },
           {
-            "es_form": "[encenderán::włączyć (3.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Włączyć w przyszłym tygodniu."
+            "es_form": "[Encenderán::włączą] la tele la próxima semana.",
+            "pl_translation": "Włączą telewizor w przyszłym tygodniu."
           },
           {
-            "es_form": "Mañana [encenderán::włączyć (3.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro włączyć wcześniej."
+            "es_form": "Mañana [encenderán::włączą] la luz más temprano.",
+            "pl_translation": "Jutro włączą światło wcześniej."
           }
         ]
       }

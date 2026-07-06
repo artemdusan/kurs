@@ -6,7 +6,7 @@
     "examples": [
       {
         "es_form": "[La casa::dom] es muy grande.",
-        "pl_translation": "Dom jest bardzo duży/a."
+        "pl_translation": "Dom jest bardzo duży"
       },
       {
         "es_form": "Voy a [la casa::dom] cada día.",
@@ -29,7 +29,7 @@
       },
       {
         "es_form": "[El lugar::miejsce] es muy grande.",
-        "pl_translation": "Miejsce jest bardzo duży/a."
+        "pl_translation": "Miejsce jest bardzo duży"
       },
       {
         "es_form": "Trabajo en [el lugar::miejsce].",
@@ -52,7 +52,7 @@
       },
       {
         "es_form": "[El país::kraj] es muy grande.",
-        "pl_translation": "Kraj jest bardzo duży/a."
+        "pl_translation": "Kraj jest bardzo duży"
       }
     ]
   },
@@ -124,11 +124,11 @@
       },
       {
         "es_form": "Necesito [el dirección::adres] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową adres."
+        "pl_translation": "Potrzebuję nowy"
       },
       {
         "es_form": "Compré [el dirección::adres] ayer.",
-        "pl_translation": "Kupiłem/am adres wczoraj."
+        "pl_translation": "Kupiłem"
       }
     ]
   },
@@ -147,7 +147,7 @@
       },
       {
         "es_form": "Necesito [el estado::stan] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową stan."
+        "pl_translation": "Potrzebuję nowy"
       }
     ]
   },
@@ -166,7 +166,7 @@
       },
       {
         "es_form": "Necesito [el habitación::pokój] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową pokój."
+        "pl_translation": "Potrzebuję nowy"
       }
     ]
   },
@@ -177,7 +177,7 @@
     "examples": [
       {
         "es_form": "[La cocina::kuchnia] es muy grande.",
-        "pl_translation": "Kuchnia jest bardzo duży/a."
+        "pl_translation": "Kuchnia jest bardzo duży"
       },
       {
         "es_form": "¿Donde está [la cocina::kuchnia]?",
@@ -376,7 +376,7 @@
           },
           {
             "es_form": "[están::są (estar)] como me enseñaste.",
-            "pl_translation": "Są tak jak mnie nauczyłeś/aś."
+            "pl_translation": "Są tak jak mnie nauczyłeś"
           },
           {
             "es_form": "No [están::są (estar)] muy bien últimamente.",
@@ -386,7 +386,7 @@
       },
       {
         "es_word": "estuve",
-        "pl_word": "byłem/byłam (chwil.) (estar)",
+        "pl_word": "byłem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [estuve::byłem/byłam (chwil.) (estar)] todo el día.",
-            "pl_translation": "Wczoraj byłem/byłam cały dzień."
+            "es_form": "Ayer [estuve::byłem] todo el día.",
+            "pl_translation": "Wczoraj byłem"
           },
           {
-            "es_form": "[estuve::byłem/byłam (chwil.) (estar)] sin parar durante horas.",
-            "pl_translation": "Byłem/byłam bez przerwy przez wiele godzin."
+            "es_form": "[estuve::byłem] sin parar durante horas.",
+            "pl_translation": "Byłem"
           },
           {
-            "es_form": "[estuve::byłem/byłam (chwil.) (estar)] la semana pasada.",
-            "pl_translation": "Byłem/byłam w zeszłym tygodniu."
+            "es_form": "[estuve::byłem] la semana pasada.",
+            "pl_translation": "Byłem"
           }
         ]
       },
       {
         "es_word": "estuviste",
-        "pl_word": "byłeś/byłaś (estar)",
+        "pl_word": "byłeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "[estuviste::byłeś/byłaś (estar)] la semana pasada.",
-            "pl_translation": "Byłeś/byłaś w zeszłym tygodniu."
+            "es_form": "[estuviste::byłeś] la semana pasada.",
+            "pl_translation": "Byłeś"
           },
           {
-            "es_form": "Nunca [estuviste::byłeś/byłaś (estar)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie byłeś/byłaś czegoś takiego."
+            "es_form": "Nunca [estuviste::byłeś] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie byłeś"
           },
           {
-            "es_form": "¿[estuviste::byłeś/byłaś (estar)] bien el examen?",
-            "pl_translation": "Czy byłeś/byłaś dobrze egzamin?"
+            "es_form": "¿[estuviste::byłeś] bien el examen?",
+            "pl_translation": "Czy byłeś"
           }
         ]
       },
       {
         "es_word": "estuvo",
-        "pl_word": "był/była/było (estar)",
+        "pl_word": "był",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "[estuvo::był/była/było (estar)] sin parar durante horas.",
-            "pl_translation": "Był/była/było bez przerwy przez wiele godzin."
+            "es_form": "[estuvo::był] sin parar durante horas.",
+            "pl_translation": "Był"
           },
           {
-            "es_form": "[estuvo::był/była/było (estar)] la semana pasada.",
-            "pl_translation": "Był/była/było w zeszłym tygodniu."
+            "es_form": "[estuvo::był] la semana pasada.",
+            "pl_translation": "Był"
           },
           {
-            "es_form": "El mes pasado no [estuvo::był/była/było (estar)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie był/była/było."
+            "es_form": "El mes pasado no [estuvo::był] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie był"
           }
         ]
       },
       {
         "es_word": "estuvimos",
-        "pl_word": "byliśmy/byłyśmy (estar)",
+        "pl_word": "byliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "[estuvimos::byłismy/byłysimy (estar)] sin parar durante horas.",
-            "pl_translation": "Byliśmy/byłyśmy bez przerwy przez wiele godzin."
+            "es_form": "[estuvimos::byliśmy] sin parar durante horas.",
+            "pl_translation": "Byliśmy"
           },
           {
-            "es_form": "¿[estuvimos::byłismy/byłysimy (estar)] bien el examen?",
-            "pl_translation": "Czy byliśmy/byłyśmy dobrze egzamin?"
+            "es_form": "¿[estuvimos::byliśmy] bien el examen?",
+            "pl_translation": "Czy byliśmy"
           },
           {
-            "es_form": "[estuvimos::byłismy/byłysimy (estar)] la semana pasada.",
-            "pl_translation": "Byliśmy/byłyśmy w zeszłym tygodniu."
+            "es_form": "[estuvimos::byliśmy] la semana pasada.",
+            "pl_translation": "Byliśmy"
           }
         ]
       },
       {
         "es_word": "estuvisteis",
-        "pl_word": "byliście/byłyście (estar)",
+        "pl_word": "byliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "[estuvisteis::byłiscie/byłyscie (estar)] sin parar durante horas.",
-            "pl_translation": "Byliście/byłyście bez przerwy przez wiele godzin."
+            "es_form": "[estuvisteis::byliście] sin parar durante horas.",
+            "pl_translation": "Byliście"
           },
           {
-            "es_form": "Nunca [estuvisteis::byłiscie/byłyscie (estar)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie byliście/byłyście czegoś takiego."
+            "es_form": "Nunca [estuvisteis::byliście] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie byliście"
           },
           {
-            "es_form": "[estuvisteis::byłiscie/byłyscie (estar)] la semana pasada.",
-            "pl_translation": "Byliście/byłyście w zeszłym tygodniu."
+            "es_form": "[estuvisteis::byliście] la semana pasada.",
+            "pl_translation": "Byliście"
           }
         ]
       },
       {
         "es_word": "estuvieron",
-        "pl_word": "byli/były (estar)",
+        "pl_word": "byli",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,16 +509,16 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [estuvieron::byłi/były (estar)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie byli/były czegoś takiego."
+            "es_form": "Nunca [estuvieron::byli] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie byli"
           },
           {
-            "es_form": "El mes pasado no [estuvieron::byłi/były (estar)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie byli/były."
+            "es_form": "El mes pasado no [estuvieron::byli] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie byli"
           },
           {
-            "es_form": "¿[estuvieron::byłi/były (estar)] bien el examen?",
-            "pl_translation": "Czy byli/były dobrze egzamin?"
+            "es_form": "¿[estuvieron::byli] bien el examen?",
+            "pl_translation": "Czy byli"
           }
         ]
       },

@@ -25,15 +25,15 @@
     "examples": [
       {
         "es_form": "Me gusta mucho [el plátano::banan].",
-        "pl_translation": "Bardzo lubię banan."
+        "pl_translation": "Bardzo lubię banana."
       },
       {
         "es_form": "[El plátano::banan] es típico de España.",
-        "pl_translation": "Banan jest typowy/a dla Hiszpanii."
+        "pl_translation": "Banan jest typowy dla Hiszpanii."
       },
       {
         "es_form": "¿Quieres [el plátano::banan]?",
-        "pl_translation": "Chcesz banan?"
+        "pl_translation": "Chcesz banana?"
       }
     ]
   },
@@ -44,15 +44,15 @@
     "examples": [
       {
         "es_form": "Me gusta mucho [la naranja::pomarańcza].",
-        "pl_translation": "Bardzo lubię pomarańcza."
+        "pl_translation": "Bardzo lubię pomarańczę."
       },
       {
-        "es_form": "[La naranja::pomarańcza] es típico de España.",
-        "pl_translation": "Pomarańcza jest typowy/a dla Hiszpanii."
+        "es_form": "[La naranja::pomarańcza] es típica de España.",
+        "pl_translation": "Pomarańcza jest typowa dla Hiszpanii."
       },
       {
         "es_form": "¿Quieres [la naranja::pomarańcza]?",
-        "pl_translation": "Chcesz pomarańcza?"
+        "pl_translation": "Chcesz pomarańczę?"
       }
     ]
   },
@@ -63,7 +63,7 @@
     "examples": [
       {
         "es_form": "¿Quieres [el limón::cytryna]?",
-        "pl_translation": "Chcesz cytryna?"
+        "pl_translation": "Chcesz cytrynę?"
       },
       {
         "es_form": "[El limón::cytryna] se hace con leche.",
@@ -71,7 +71,7 @@
       },
       {
         "es_form": "[El limón::cytryna] es típico de España.",
-        "pl_translation": "Cytryna jest typowy/a dla Hiszpanii."
+        "pl_translation": "Cytryna jest typowa dla Hiszpanii."
       }
     ]
   },
@@ -82,15 +82,15 @@
     "examples": [
       {
         "es_form": "Compramos [la fresa::truskawka] en el mercado.",
-        "pl_translation": "Kupiliśmy truskawka na targu."
+        "pl_translation": "Kupiliśmy truskawki na targu."
       },
       {
         "es_form": "Me gusta mucho [la fresa::truskawka].",
-        "pl_translation": "Bardzo lubię truskawka."
+        "pl_translation": "Bardzo lubię truskawki."
       },
       {
         "es_form": "¿Quieres [la fresa::truskawka]?",
-        "pl_translation": "Chcesz truskawka?"
+        "pl_translation": "Chcesz truskawkę?"
       }
     ]
   },
@@ -101,15 +101,15 @@
     "examples": [
       {
         "es_form": "[La patata::ziemniak] es típico de España.",
-        "pl_translation": "Ziemniak jest typowy/a dla Hiszpanii."
+        "pl_translation": "Ziemniak jest typowy dla Hiszpanii."
       },
       {
         "es_form": "¿Quieres [la patata::ziemniak]?",
-        "pl_translation": "Chcesz ziemniak?"
+        "pl_translation": "Chcesz ziemniaka?"
       },
       {
         "es_form": "[La patata::ziemniak] está muy rico.",
-        "pl_translation": "Ziemniak jest bardzo smaczny/a."
+        "pl_translation": "Ziemniak jest bardzo smaczny."
       }
     ]
   },
@@ -120,11 +120,11 @@
     "examples": [
       {
         "es_form": "Compramos [la zanahoria::marchewka] en el mercado.",
-        "pl_translation": "Kupiliśmy marchewka na targu."
+        "pl_translation": "Kupiliśmy marchewkę na targu."
       },
       {
         "es_form": "Me gusta mucho [la zanahoria::marchewka].",
-        "pl_translation": "Bardzo lubię marchewka."
+        "pl_translation": "Bardzo lubię marchewkę."
       },
       {
         "es_form": "[La zanahoria::marchewka] se hace con leche.",
@@ -139,11 +139,11 @@
     "examples": [
       {
         "es_form": "Compramos [la cebolla::cebula] en el mercado.",
-        "pl_translation": "Kupiliśmy cebula na targu."
+        "pl_translation": "Kupiliśmy cebulę na targu."
       },
       {
         "es_form": "[La cebolla::cebula] está muy rico.",
-        "pl_translation": "Cebula jest bardzo smaczny/a."
+        "pl_translation": "Cebula jest bardzo smaczna."
       },
       {
         "es_form": "[La cebolla::cebula] se hace con leche.",
@@ -158,7 +158,7 @@
     "examples": [
       {
         "es_form": "[El tomate::pomidor] es típico de España.",
-        "pl_translation": "Pomidor jest typowy/a dla Hiszpanii."
+        "pl_translation": "Pomidor jest typowy dla Hiszpanii."
       },
       {
         "es_form": "[El tomate::pomidor] se hace con leche.",
@@ -166,7 +166,7 @@
       },
       {
         "es_form": "Me gusta mucho [el tomate::pomidor].",
-        "pl_translation": "Bardzo lubię pomidor."
+        "pl_translation": "Bardzo lubię pomidora."
       }
     ]
   },
@@ -177,11 +177,11 @@
     "examples": [
       {
         "es_form": "[El pepino::ogórek] es típico de España.",
-        "pl_translation": "Ogórek jest typowy/a dla Hiszpanii."
+        "pl_translation": "Ogórek jest typowy dla Hiszpanii."
       },
       {
         "es_form": "¿Quieres [el pepino::ogórek]?",
-        "pl_translation": "Chcesz ogórek?"
+        "pl_translation": "Chcesz ogórka?"
       },
       {
         "es_form": "[El pepino::ogórek] se hace con leche.",
@@ -203,8 +203,8 @@
         "pl_translation": "Mam świeży dom."
       },
       {
-        "es_form": "Nada es más [fresco::świeży] que la familia.",
-        "pl_translation": "Nic nie jest świeży od rodziny."
+        "es_form": "Nada es más [fresco::świeże] que la familia.",
+        "pl_translation": "Nic nie jest świeższe od rodziny."
       }
     ]
   },
@@ -214,8 +214,8 @@
     "pl_word": "dojrzały",
     "examples": [
       {
-        "es_form": "La comida está [madura::dojrzały].",
-        "pl_translation": "Jedzenie jest dojrzały."
+        "es_form": "La comida está [madura::dojrzała].",
+        "pl_translation": "Jedzenie jest dojrzałe."
       },
       {
         "es_form": "Hace un día [maduro::dojrzały].",
@@ -248,7 +248,7 @@
     "forms": [
       {
         "es_word": "lavo",
-        "pl_word": "myć (1.os.lp, ter.)",
+        "pl_word": "myję",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +256,22 @@
         },
         "examples": [
           {
-            "es_form": "No [lavo::myć (1.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie myć zbyt dobrze."
+            "es_form": "No [lavo::myję] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie myję zbyt dobrze."
           },
           {
-            "es_form": "Normalmente [lavo::myć (1.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj myć rano."
+            "es_form": "Normalmente [lavo::myję] por la mañana.",
+            "pl_translation": "Zazwyczaj myję rano."
           },
           {
-            "es_form": "¿[lavo::myć (1.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy myć w weekendy?"
+            "es_form": "¿[lavo::myję] los fines de semana?",
+            "pl_translation": "Czy myję w weekendy?"
           }
         ]
       },
       {
         "es_word": "lavas",
-        "pl_word": "myć (2.os.lp, ter.)",
+        "pl_word": "myjesz",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +279,22 @@
         },
         "examples": [
           {
-            "es_form": "No [lavas::myć (2.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie myć zbyt dobrze."
+            "es_form": "No [lavas::myjesz] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie myjesz zbyt dobrze."
           },
           {
-            "es_form": "¿[lavas::myć (2.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy myć w weekendy?"
+            "es_form": "¿[lavas::myjesz] los fines de semana?",
+            "pl_translation": "Czy myjesz w weekendy?"
           },
           {
-            "es_form": "[lavas::myć (2.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Myć tak jak mnie nauczyłeś/aś."
+            "es_form": "[lavas::myjesz] como me enseñaste.",
+            "pl_translation": "Myjesz tak jak mnie nauczyłeś"
           }
         ]
       },
       {
         "es_word": "lava",
-        "pl_word": "myć (3.os.lp, ter.)",
+        "pl_word": "myje",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +302,22 @@
         },
         "examples": [
           {
-            "es_form": "No [lava::myć (3.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie myć zbyt dobrze."
+            "es_form": "No [lava::myje] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie myje zbyt dobrze."
           },
           {
-            "es_form": "¿[lava::myć (3.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy myć w weekendy?"
+            "es_form": "¿[lava::myje] los fines de semana?",
+            "pl_translation": "Czy myje w weekendy?"
           },
           {
-            "es_form": "Normalmente [lava::myć (3.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj myć rano."
+            "es_form": "Normalmente [lava::myje] por la mañana.",
+            "pl_translation": "Zazwyczaj myje rano."
           }
         ]
       },
       {
         "es_word": "lavamos",
-        "pl_word": "myć (1.os.lm, ter.)",
+        "pl_word": "myjemy",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +325,22 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [lavamos::myć (1.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze myć z uwagą."
+            "es_form": "Siempre [lavamos::myjemy] con atención.",
+            "pl_translation": "Zawsze myjemy z uwagą."
           },
           {
-            "es_form": "[lavamos::myć (1.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Myć tak jak mnie nauczyłeś/aś."
+            "es_form": "[lavamos::myjemy] como me enseñaste.",
+            "pl_translation": "Myjemy tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "¿[lavamos::myć (1.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy myć w weekendy?"
+            "es_form": "¿[lavamos::myjemy] los fines de semana?",
+            "pl_translation": "Czy myjemy w weekendy?"
           }
         ]
       },
       {
         "es_word": "laváis",
-        "pl_word": "myć (2.os.lm, ter.)",
+        "pl_word": "myjecie",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +348,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[laváis::myć (2.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy myć w weekendy?"
+            "es_form": "¿[laváis::myjecie] los fines de semana?",
+            "pl_translation": "Czy myjecie w weekendy?"
           },
           {
-            "es_form": "[laváis::myć (2.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Myć tak jak mnie nauczyłeś/aś."
+            "es_form": "[laváis::myjecie] como me enseñaste.",
+            "pl_translation": "Myjecie tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "Normalmente [laváis::myć (2.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj myć rano."
+            "es_form": "Normalmente [laváis::myjecie] por la mañana.",
+            "pl_translation": "Zazwyczaj myjecie rano."
           }
         ]
       },
       {
         "es_word": "lavan",
-        "pl_word": "myć (3.os.lm, ter.)",
+        "pl_word": "myją",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +371,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [lavan::myć (3.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj myć rano."
+            "es_form": "Normalmente [lavan::myją] por la mañana.",
+            "pl_translation": "Zazwyczaj myją rano."
           },
           {
-            "es_form": "[lavan::myć (3.os.lm, ter.)] todos los días.",
-            "pl_translation": "Myć codziennie."
+            "es_form": "[lavan::myją] todos los días.",
+            "pl_translation": "Myją codziennie."
           },
           {
-            "es_form": "[lavan::myć (3.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Myć tak jak mnie nauczyłeś/aś."
+            "es_form": "[lavan::myją] como me enseñaste.",
+            "pl_translation": "Myją tak jak mnie nauczyłeś"
           }
         ]
       },
       {
         "es_word": "lavé",
-        "pl_word": "myć (1.os.lp, przesz.)",
+        "pl_word": "myłem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [lavé::myć (1.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie myć czegoś takiego."
+            "es_form": "Nunca [lavé::myłem] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie myłem czegoś takiego."
           },
           {
-            "es_form": "El mes pasado no [lavé::myć (1.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie myć."
+            "es_form": "El mes pasado no [lavé::myłem] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie myłem."
           },
           {
-            "es_form": "[lavé::myć (1.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Myć w zeszłym tygodniu."
+            "es_form": "[lavé::myłem] la semana pasada.",
+            "pl_translation": "Myłem w zeszłym tygodniu."
           }
         ]
       },
       {
         "es_word": "lavaste",
-        "pl_word": "myć (2.os.lp, przesz.)",
+        "pl_word": "myłeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [lavaste::myć (2.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie myć czegoś takiego."
+            "es_form": "Nunca [lavaste::myłeś] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie myłeś czegoś takiego."
           },
           {
-            "es_form": "[lavaste::myć (2.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Myć bez przerwy przez wiele godzin."
+            "es_form": "[lavaste::myłeś] sin parar durante horas.",
+            "pl_translation": "Myłeś bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "Ayer [lavaste::myć (2.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj myć cały dzień."
+            "es_form": "Ayer [lavaste::myłeś] todo el día.",
+            "pl_translation": "Wczoraj myłeś cały dzień."
           }
         ]
       },
       {
         "es_word": "lavó",
-        "pl_word": "myć (3.os.lp, przesz.)",
+        "pl_word": "mył",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "[lavó::myć (3.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Myć bez przerwy przez wiele godzin."
+            "es_form": "[lavó::mył] sin parar durante horas.",
+            "pl_translation": "Mył bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "Nunca [lavó::myć (3.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie myć czegoś takiego."
+            "es_form": "Nunca [lavó::mył] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie mył czegoś takiego."
           },
           {
-            "es_form": "¿[lavó::myć (3.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy myć dobrze egzamin?"
+            "es_form": "¿[lavó::mył] bien los platos?",
+            "pl_translation": "Czy mył dobrze naczynia?"
           }
         ]
       },
       {
         "es_word": "lavamos",
-        "pl_word": "myć (1.os.lm, przesz.)",
+        "pl_word": "myliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [lavamos::myć (1.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie myć."
+            "es_form": "El mes pasado no [lavamos::myliśmy] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie myliśmy."
           },
           {
-            "es_form": "¿[lavamos::myć (1.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy myć dobrze egzamin?"
+            "es_form": "¿[lavamos::myliśmy] bien los platos?",
+            "pl_translation": "Czy myliśmy dobrze naczynia?"
           },
           {
-            "es_form": "Ayer [lavamos::myć (1.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj myć cały dzień."
+            "es_form": "Ayer [lavamos::myliśmy] todo el día.",
+            "pl_translation": "Wczoraj myliśmy cały dzień."
           }
         ]
       },
       {
         "es_word": "lavasteis",
-        "pl_word": "myć (2.os.lm, przesz.)",
+        "pl_word": "myliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [lavasteis::myć (2.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj myć cały dzień."
+            "es_form": "Ayer [lavasteis::myliście] todo el día.",
+            "pl_translation": "Wczoraj myliście cały dzień."
           },
           {
-            "es_form": "El mes pasado no [lavasteis::myć (2.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie myć."
+            "es_form": "El mes pasado no [lavasteis::myliście] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie myliście."
           },
           {
-            "es_form": "[lavasteis::myć (2.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Myć w zeszłym tygodniu."
+            "es_form": "[lavasteis::myliście] la semana pasada.",
+            "pl_translation": "Myliście w zeszłym tygodniu."
           }
         ]
       },
       {
         "es_word": "lavaron",
-        "pl_word": "myć (3.os.lm, przesz.)",
+        "pl_word": "myli",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +509,22 @@
         },
         "examples": [
           {
-            "es_form": "[lavaron::myć (3.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Myć bez przerwy przez wiele godzin."
+            "es_form": "[lavaron::myli] sin parar durante horas.",
+            "pl_translation": "Myli bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "Nunca [lavaron::myć (3.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie myć czegoś takiego."
+            "es_form": "Nunca [lavaron::myli] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie myli czegoś takiego."
           },
           {
-            "es_form": "[lavaron::myć (3.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Myć w zeszłym tygodniu."
+            "es_form": "[lavaron::myli] la semana pasada.",
+            "pl_translation": "Myli w zeszłym tygodniu."
           }
         ]
       },
       {
-        "es_word": "lavé",
-        "pl_word": "myć (1.os.lp, przysz.)",
+        "es_word": "lavaré",
+        "pl_word": "będę myć",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +532,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [lavé::myć (1.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że myć dobrze."
+            "es_form": "Creo que [lavaré::będę myć] bien.",
+            "pl_translation": "Myślę, że będę myć dobrze."
           },
           {
-            "es_form": "El año que viene [lavé::myć (1.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku myć w Hiszpanii."
+            "es_form": "El año que viene [lavaré::będę myć] en España.",
+            "pl_translation": "W przyszłym roku będę myć w Hiszpanii."
           },
           {
-            "es_form": "Te prometo que [lavé::myć (1.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że myć na czas."
+            "es_form": "Te prometo que [lavaré::będę myć] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będę myć na czas."
           }
         ]
       },
       {
-        "es_word": "lavás",
-        "pl_word": "myć (2.os.lp, przysz.)",
+        "es_word": "lavarás",
+        "pl_word": "będziesz myć",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +555,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[lavás::myć (2.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy myć z nami jutro?"
+            "es_form": "¿[lavarás::będziesz myć] con nosotros mañana?",
+            "pl_translation": "Czy będziesz myć z nami jutro?"
           },
           {
-            "es_form": "Te prometo que [lavás::myć (2.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że myć na czas."
+            "es_form": "Te prometo que [lavarás::będziesz myć] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziesz myć na czas."
           },
           {
-            "es_form": "[lavás::myć (2.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Myć w przyszłym tygodniu."
+            "es_form": "[lavarás::będziesz myć] la próxima semana.",
+            "pl_translation": "Będziesz myć w przyszłym tygodniu."
           }
         ]
       },
       {
-        "es_word": "lavá",
-        "pl_word": "myć (3.os.lp, przysz.)",
+        "es_word": "lavará",
+        "pl_word": "będzie myć",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +578,22 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [lavá::myć (3.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku myć w Hiszpanii."
+            "es_form": "El año que viene [lavará::będzie myć] en España.",
+            "pl_translation": "W przyszłym roku będzie myć w Hiszpanii."
           },
           {
-            "es_form": "Mañana [lavá::myć (3.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro myć wcześniej."
+            "es_form": "Mañana [lavará::będzie myć] más temprano.",
+            "pl_translation": "Jutro będzie myć wcześniej."
           },
           {
-            "es_form": "Creo que [lavá::myć (3.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że myć dobrze."
+            "es_form": "Creo que [lavará::będzie myć] bien.",
+            "pl_translation": "Myślę, że będzie myć dobrze."
           }
         ]
       },
       {
-        "es_word": "lavemos",
-        "pl_word": "myć (1.os.lm, przysz.)",
+        "es_word": "lavaremos",
+        "pl_word": "będziemy myć",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +601,22 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [lavemos::myć (1.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro myć wcześniej."
+            "es_form": "Mañana [lavaremos::będziemy myć] más temprano.",
+            "pl_translation": "Jutro będziemy myć wcześniej."
           },
           {
-            "es_form": "El año que viene [lavemos::myć (1.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku myć w Hiszpanii."
+            "es_form": "El año que viene [lavaremos::będziemy myć] en España.",
+            "pl_translation": "W przyszłym roku będziemy myć w Hiszpanii."
           },
           {
-            "es_form": "Creo que [lavemos::myć (1.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że myć dobrze."
+            "es_form": "Creo que [lavaremos::będziemy myć] bien.",
+            "pl_translation": "Myślę, że będziemy myć dobrze."
           }
         ]
       },
       {
-        "es_word": "lavéis",
-        "pl_word": "myć (2.os.lm, przysz.)",
+        "es_word": "lavaréis",
+        "pl_word": "będziecie myć",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +624,22 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [lavéis::myć (2.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro myć wcześniej."
+            "es_form": "Mañana [lavaréis::będziecie myć] más temprano.",
+            "pl_translation": "Jutro będziecie myć wcześniej."
           },
           {
-            "es_form": "Te prometo que [lavéis::myć (2.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że myć na czas."
+            "es_form": "Te prometo que [lavaréis::będziecie myć] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziecie myć na czas."
           },
           {
-            "es_form": "[lavéis::myć (2.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Myć w przyszłym tygodniu."
+            "es_form": "[lavaréis::będziecie myć] la próxima semana.",
+            "pl_translation": "Będziecie myć w przyszłym tygodniu."
           }
         ]
       },
       {
-        "es_word": "laván",
-        "pl_word": "myć (3.os.lm, przysz.)",
+        "es_word": "lavarán",
+        "pl_word": "będą myć",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +647,16 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [laván::myć (3.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku myć w Hiszpanii."
+            "es_form": "El año que viene [lavarán::będą myć] en España.",
+            "pl_translation": "W przyszłym roku będą myć w Hiszpanii."
           },
           {
-            "es_form": "Creo que [laván::myć (3.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że myć dobrze."
+            "es_form": "Creo que [lavarán::będą myć] bien.",
+            "pl_translation": "Myślę, że będą myć dobrze."
           },
           {
-            "es_form": "[laván::myć (3.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Myć w przyszłym tygodniu."
+            "es_form": "[lavarán::będą myć] la próxima semana.",
+            "pl_translation": "Będą myć w przyszłym tygodniu."
           }
         ]
       }

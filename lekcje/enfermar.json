@@ -6,15 +6,15 @@
     "examples": [
       {
         "es_form": "Tienes que aceptar [la enfermedad::choroba].",
-        "pl_translation": "Musisz zaakceptować choroba."
+        "pl_translation": "Musisz zaakceptować chorobę."
       },
       {
-        "es_form": "[La enfermedad::choroba] cambio mi vida.",
-        "pl_translation": "Choroba zmienił/a moje życie."
+        "es_form": "[La enfermedad::choroba] cambió mi vida.",
+        "pl_translation": "Choroba zmieniła moje życie."
       },
       {
-        "es_form": "[La enfermedad::choroba] es muy importante.",
-        "pl_translation": "Choroba jest bardzo ważny/a."
+        "es_form": "[La enfermedad::choroba] es un tema muy importante.",
+        "pl_translation": "Choroba jest bardzo ważnym tematem."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "przeziębienie",
     "examples": [
       {
-        "es_form": "[El resfriado::przeziębienie] está sobre la mesa.",
-        "pl_translation": "Przeziębienie jest na stole."
+        "es_form": "Tengo [el resfriado::przeziębienie] desde hace tres días.",
+        "pl_translation": "Mam przeziębienie od trzech dni."
       },
       {
-        "es_form": "¿Has visto [el resfriado::przeziębienie]?",
-        "pl_translation": "Widziałeś/aś przeziębienie?"
+        "es_form": "¿Has pasado ya [el resfriado::przeziębienie]?",
+        "pl_translation": "Czy już przeszedłeś przeziębienie?"
       },
       {
-        "es_form": "[El resfriado::przeziębienie] es de madera.",
-        "pl_translation": "Przeziębienie jest z drewna."
+        "es_form": "[El resfriado::przeziębienie] es muy molesto.",
+        "pl_translation": "Przeziębienie jest bardzo uciążliwe."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "ból głowy",
     "examples": [
       {
-        "es_form": "Compré [El dolor de cabeza::ból głowy] ayer.",
-        "pl_translation": "Kupiłem/am ból głowy wczoraj."
+        "es_form": "Tengo [el dolor de cabeza::ból głowy] desde ayer.",
+        "pl_translation": "Mam ból głowy od wczoraj."
       },
       {
-        "es_form": "[El dolor de cabeza::ból głowy] es de madera.",
-        "pl_translation": "Ból głowy jest z drewna."
+        "es_form": "[El dolor de cabeza::ból głowy] no me deja trabajar.",
+        "pl_translation": "Ból głowy nie pozwala mi pracować."
       },
       {
-        "es_form": "Necesito [El dolor de cabeza::ból głowy] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową ból głowy."
+        "es_form": "Necesito una pastilla para [el dolor de cabeza::ból głowy].",
+        "pl_translation": "Potrzebuję tabletki na ból głowy."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "rana",
     "examples": [
       {
-        "es_form": "Necesito [la herida::rana] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową rana."
+        "es_form": "Necesito curar [la herida::rana].",
+        "pl_translation": "Muszę opatrzyć ranę."
       },
       {
-        "es_form": "[La herida::rana] está sobre la mesa.",
-        "pl_translation": "Rana jest na stole."
+        "es_form": "[La herida::rana] está sanando bien.",
+        "pl_translation": "Rana goi się dobrze."
       },
       {
-        "es_form": "Compré [la herida::rana] ayer.",
-        "pl_translation": "Kupiłem/am rana wczoraj."
+        "es_form": "Me hice [la herida::rana] ayer.",
+        "pl_translation": "Zrobiłem sobie ranę wczoraj."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "operacja",
     "examples": [
       {
-        "es_form": "Necesito [la cirugía::operacja] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową operacja."
+        "es_form": "Necesito [la cirugía::operacja] de urgencia.",
+        "pl_translation": "Potrzebuję pilnej operacji."
       },
       {
-        "es_form": "Guarda [la cirugía::operacja] en el armario.",
-        "pl_translation": "Schowaj operacja do szafy."
+        "es_form": "[La cirugía::operacja] salió muy bien.",
+        "pl_translation": "Operacja przebiegła bardzo dobrze."
       },
       {
-        "es_form": "[La cirugía::operacja] es de madera.",
-        "pl_translation": "Operacja jest z drewna."
+        "es_form": "Mañana tengo [la cirugía::operacja].",
+        "pl_translation": "Jutro mam operację."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "szczepionka",
     "examples": [
       {
-        "es_form": "Guarda [la vacuna::szczepionka] en el armario.",
-        "pl_translation": "Schowaj szczepionka do szafy."
+        "es_form": "Me puse [la vacuna::szczepionka] la semana pasada.",
+        "pl_translation": "Zaszczepiłem się w zeszłym tygodniu."
       },
       {
-        "es_form": "[La vacuna::szczepionka] es de madera.",
-        "pl_translation": "Szczepionka jest z drewna."
+        "es_form": "[La vacuna::szczepionka] protege contra la enfermedad.",
+        "pl_translation": "Szczepionka chroni przed chorobą."
       },
       {
-        "es_form": "¿Has visto [la vacuna::szczepionka]?",
-        "pl_translation": "Widziałeś/aś szczepionka?"
+        "es_form": "¿Ya tienes [la vacuna::szczepionka]?",
+        "pl_translation": "Czy masz już szczepionkę?"
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "tabletka",
     "examples": [
       {
-        "es_form": "[La pastilla::tabletka] está sobre la mesa.",
-        "pl_translation": "Tabletka jest na stole."
+        "es_form": "Tómate [la pastilla::tabletka] con agua.",
+        "pl_translation": "Weź tabletkę z wodą."
       },
       {
-        "es_form": "Necesito [la pastilla::tabletka] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową tabletka."
+        "es_form": "Necesito [la pastilla::tabletka] para el dolor.",
+        "pl_translation": "Potrzebuję tabletki na ból."
       },
       {
-        "es_form": "Compré [la pastilla::tabletka] ayer.",
-        "pl_translation": "Kupiłem/am tabletka wczoraj."
+        "es_form": "Compré [la pastilla::tabletka] en la farmacia ayer.",
+        "pl_translation": "Kupiłem tabletkę w aptece wczoraj."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "syrop",
     "examples": [
       {
-        "es_form": "Guarda [el jarabe::syrop] en el armario.",
-        "pl_translation": "Schowaj syrop do szafy."
+        "es_form": "Toma [el jarabe::syrop] dos veces al día.",
+        "pl_translation": "Bierz syrop dwa razy dziennie."
       },
       {
         "es_form": "[El jarabe::syrop] cuesta diez euros.",
         "pl_translation": "Syrop kosztuje dziesięć euro."
       },
       {
-        "es_form": "Compré [el jarabe::syrop] ayer.",
-        "pl_translation": "Kupiłem/am syrop wczoraj."
+        "es_form": "Compré [el jarabe::syrop] para la tos ayer.",
+        "pl_translation": "Kupiłem syrop na kaszel wczoraj."
       }
     ]
   },
@@ -157,15 +157,15 @@
     "pl_word": "gips (opatrunek)",
     "examples": [
       {
-        "es_form": "[El yeso::gips (opatrunek)] está sobre la mesa.",
-        "pl_translation": "Gips jest na stole."
+        "es_form": "Me pusieron [el yeso::gips (opatrunek)] en el brazo.",
+        "pl_translation": "Założyli mi gips na rękę."
       },
       {
-        "es_form": "[El yeso::gips (opatrunek)] cuesta diez euros.",
-        "pl_translation": "Gips kosztuje dziesięć euro."
+        "es_form": "[El yeso::gips (opatrunek)] es muy incómodo.",
+        "pl_translation": "Gips jest bardzo niewygodny."
       },
       {
-        "es_form": "Se me rompio [el yeso::gips (opatrunek)].",
+        "es_form": "Se me rompió [el yeso::gips (opatrunek)].",
         "pl_translation": "Zepsuł mi się gips."
       }
     ]
@@ -176,16 +176,16 @@
     "pl_word": "rentgen",
     "examples": [
       {
-        "es_form": "Guarda [la radiografía::rentgen] en el armario.",
-        "pl_translation": "Schowaj rentgen do szafy."
+        "es_form": "El médico me hizo [la radiografía::rentgen].",
+        "pl_translation": "Lekarz zrobił mi rentgen."
       },
       {
-        "es_form": "[La radiografía::rentgen] cuesta diez euros.",
-        "pl_translation": "Rentgen kosztuje dziesięć euro."
+        "es_form": "[La radiografía::rentgen] muestra el hueso roto.",
+        "pl_translation": "Rentgen pokazuje złamaną kość."
       },
       {
-        "es_form": "Necesito [la radiografía::rentgen] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową rentgen."
+        "es_form": "Necesito ver [la radiografía::rentgen].",
+        "pl_translation": "Muszę zobaczyć rentgen."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "przewlekły",
     "examples": [
       {
-        "es_form": "Es un lugar [crónico::przewlekły] para vivir.",
-        "pl_translation": "To jest przewlekły miejsce do życia."
+        "es_form": "Tengo un dolor [crónico::przewlekły] de espalda.",
+        "pl_translation": "Mam przewlekły ból pleców."
       },
       {
-        "es_form": "Hace un día [crónico::przewlekły].",
-        "pl_translation": "Jest przewlekły dzień."
+        "es_form": "Es una enfermedad [crónica::przewlekły].",
+        "pl_translation": "To jest przewlekła choroba."
       },
       {
-        "es_form": "Mi amigo es [crónico::przewlekły] y simpático.",
-        "pl_translation": "Mój przyjaciel jest przewlekły i sympatyczny."
+        "es_form": "Mi abuelo tiene un problema [crónico::przewlekły].",
+        "pl_translation": "Mój dziadek ma przewlekły problem."
       }
     ]
   },
@@ -214,41 +214,41 @@
     "pl_word": "zakaźny",
     "examples": [
       {
-        "es_form": "Mi amigo es [contagioso::zakaźny] y simpático.",
-        "pl_translation": "Mój przyjaciel jest zakaźny i sympatyczny."
+        "es_form": "Este virus es muy [contagioso::zakaźny].",
+        "pl_translation": "Ten wirus jest bardzo zakaźny."
       },
       {
-        "es_form": "Nada es más [contagioso::zakaźny] que la familia.",
-        "pl_translation": "Nic nie jest zakaźny od rodziny."
+        "es_form": "No es una enfermedad [contagiosa::zakaźny].",
+        "pl_translation": "To nie jest zakaźna choroba."
       },
       {
-        "es_form": "El examen fue [contagioso::zakaźny].",
-        "pl_translation": "Egzamin był zakaźny."
+        "es_form": "El resfriado es [contagioso::zakaźny].",
+        "pl_translation": "Przeziębienie jest zakaźne."
       }
     ]
   },
   {
     "type": "verb",
     "es_word": "enfermar",
-    "pl_word": "chorować, zachorować",
+    "pl_word": "chorować / zachorować",
     "examples": [
       {
-        "es_form": "Quiero [enfermar::chorować, zachorować] ahora.",
-        "pl_translation": "Chcę chorować, zachorować teraz."
+        "es_form": "No quiero [enfermar::chorować / zachorować] ahora.",
+        "pl_translation": "Nie chcę teraz chorować."
       },
       {
-        "es_form": "Me gusta [enfermar::chorować, zachorować] por la mañana.",
-        "pl_translation": "Lubię chorować, zachorować rano."
+        "es_form": "Es fácil [enfermar::chorować / zachorować] en invierno.",
+        "pl_translation": "Łatwo jest zachorować zimą."
       },
       {
-        "es_form": "Prefiero [enfermar::chorować, zachorować] en casa.",
-        "pl_translation": "Wolę chorować, zachorować w domu."
+        "es_form": "Prefiero no [enfermar::chorować / zachorować] en casa.",
+        "pl_translation": "Wolę nie chorować w domu."
       }
     ],
     "forms": [
       {
         "es_word": "enfermo",
-        "pl_word": "chorować (1.os.lp, ter.)",
+        "pl_word": "choruję",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +256,22 @@
         },
         "examples": [
           {
-            "es_form": "[enfermo::chorować (1.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Chorować tak jak mnie nauczyłeś/aś."
+            "es_form": "[Enfermo::choruję] a menudo en invierno.",
+            "pl_translation": "Choruję często zimą."
           },
           {
-            "es_form": "¿[enfermo::chorować (1.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy chorować w weekendy?"
+            "es_form": "¿[Enfermo::choruję] los fines de semana?",
+            "pl_translation": "Czy choruję w weekendy?"
           },
           {
-            "es_form": "[enfermo::chorować (1.os.lp, ter.)] todos los días.",
-            "pl_translation": "Chorować codziennie."
+            "es_form": "No [enfermo::choruję] casi nunca.",
+            "pl_translation": "Prawie nigdy nie choruję."
           }
         ]
       },
       {
         "es_word": "enfermas",
-        "pl_word": "chorować (2.os.lp, ter.)",
+        "pl_word": "chorujesz",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +279,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [enfermas::chorować (2.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj chorować rano."
+            "es_form": "Normalmente [enfermas::chorujesz] por la mañana.",
+            "pl_translation": "Zazwyczaj chorujesz rano."
           },
           {
-            "es_form": "[enfermas::chorować (2.os.lp, ter.)] todos los días.",
-            "pl_translation": "Chorować codziennie."
+            "es_form": "[Enfermas::chorujesz] todos los días.",
+            "pl_translation": "Chorujesz codziennie."
           },
           {
-            "es_form": "[enfermas::chorować (2.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Chorować tak jak mnie nauczyłeś/aś."
+            "es_form": "¿Por qué [enfermas::chorujesz] tan a menudo?",
+            "pl_translation": "Dlaczego tak często chorujesz?"
           }
         ]
       },
       {
         "es_word": "enferma",
-        "pl_word": "chorować (3.os.lp, ter.)",
+        "pl_word": "choruje",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +302,22 @@
         },
         "examples": [
           {
-            "es_form": "No [enferma::chorować (3.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie chorować zbyt dobrze."
+            "es_form": "No [enferma::choruje] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie choruje zbyt dobrze."
           },
           {
-            "es_form": "Normalmente [enferma::chorować (3.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj chorować rano."
+            "es_form": "Normalmente [enferma::choruje] en invierno.",
+            "pl_translation": "Zazwyczaj choruje zimą."
           },
           {
-            "es_form": "Siempre [enferma::chorować (3.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze chorować z uwagą."
+            "es_form": "Siempre [enferma::choruje] con atención médica.",
+            "pl_translation": "Zawsze choruje pod opieką lekarską."
           }
         ]
       },
       {
         "es_word": "enfermamos",
-        "pl_word": "chorować (1.os.lm, ter.)",
+        "pl_word": "chorujemy",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +325,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[enfermamos::chorować (1.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy chorować w weekendy?"
+            "es_form": "¿[Enfermamos::chorujemy] los fines de semana?",
+            "pl_translation": "Czy chorujemy w weekendy?"
           },
           {
-            "es_form": "No [enfermamos::chorować (1.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie chorować zbyt dobrze."
+            "es_form": "No [enfermamos::chorujemy] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie chorujemy zbyt dobrze."
           },
           {
-            "es_form": "[enfermamos::chorować (1.os.lm, ter.)] todos los días.",
-            "pl_translation": "Chorować codziennie."
+            "es_form": "[Enfermamos::chorujemy] todos los días en esta oficina.",
+            "pl_translation": "Chorujemy codziennie w tym biurze."
           }
         ]
       },
       {
         "es_word": "enfermáis",
-        "pl_word": "chorować (2.os.lm, ter.)",
+        "pl_word": "chorujecie",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +348,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[enfermáis::chorować (2.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy chorować w weekendy?"
+            "es_form": "¿[Enfermáis::chorujecie] los fines de semana?",
+            "pl_translation": "Czy chorujecie w weekendy?"
           },
           {
-            "es_form": "[enfermáis::chorować (2.os.lm, ter.)] todos los días.",
-            "pl_translation": "Chorować codziennie."
+            "es_form": "[Enfermáis::chorujecie] todos los días.",
+            "pl_translation": "Chorujecie codziennie."
           },
           {
-            "es_form": "[enfermáis::chorować (2.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Chorować tak jak mnie nauczyłeś/aś."
+            "es_form": "Siempre [enfermáis::chorujecie] en esta época.",
+            "pl_translation": "Zawsze chorujecie o tej porze roku."
           }
         ]
       },
       {
         "es_word": "enferman",
-        "pl_word": "chorować (3.os.lm, ter.)",
+        "pl_word": "chorują",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +371,22 @@
         },
         "examples": [
           {
-            "es_form": "[enferman::chorować (3.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Chorować tak jak mnie nauczyłeś/aś."
+            "es_form": "[Enferman::chorują] a menudo en esta escuela.",
+            "pl_translation": "Chorują często w tej szkole."
           },
           {
-            "es_form": "¿[enferman::chorować (3.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy chorować w weekendy?"
+            "es_form": "¿[Enferman::chorują] los fines de semana?",
+            "pl_translation": "Czy chorują w weekendy?"
           },
           {
-            "es_form": "[enferman::chorować (3.os.lm, ter.)] todos los días.",
-            "pl_translation": "Chorować codziennie."
+            "es_form": "No [enferman::chorują] casi nunca.",
+            "pl_translation": "Prawie nigdy nie chorują."
           }
         ]
       },
       {
         "es_word": "enfermé",
-        "pl_word": "chorować (1.os.lp, przesz.)",
+        "pl_word": "chorowałem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [enfermé::chorować (1.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj chorować cały dzień."
+            "es_form": "Ayer [enfermé::chorowałem] todo el día.",
+            "pl_translation": "Wczoraj chorowałem cały dzień."
           },
           {
-            "es_form": "[enfermé::chorować (1.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Chorować bez przerwy przez wiele godzin."
+            "es_form": "[Enfermé::chorowałem] sin parar durante horas.",
+            "pl_translation": "Chorowałem bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "[enfermé::chorować (1.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Chorować w zeszłym tygodniu."
+            "es_form": "[Enfermé::chorowałem] la semana pasada.",
+            "pl_translation": "Chorowałem w zeszłym tygodniu."
           }
         ]
       },
       {
         "es_word": "enfermaste",
-        "pl_word": "chorować (2.os.lp, przesz.)",
+        "pl_word": "chorowałeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [enfermaste::chorować (2.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie chorować czegoś takiego."
+            "es_form": "Nunca [enfermaste::chorowałeś] de algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie chorowałeś na coś takiego."
           },
           {
-            "es_form": "Ayer [enfermaste::chorować (2.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj chorować cały dzień."
+            "es_form": "Ayer [enfermaste::chorowałeś] todo el día.",
+            "pl_translation": "Wczoraj chorowałeś cały dzień."
           },
           {
-            "es_form": "[enfermaste::chorować (2.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Chorować w zeszłym tygodniu."
+            "es_form": "[Enfermaste::chorowałeś] la semana pasada.",
+            "pl_translation": "Chorowałeś w zeszłym tygodniu."
           }
         ]
       },
       {
         "es_word": "enfermó",
-        "pl_word": "chorować (3.os.lp, przesz.)",
+        "pl_word": "chorował",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [enfermó::chorować (3.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie chorować."
+            "es_form": "El mes pasado no [enfermó::chorował] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie chorował."
           },
           {
-            "es_form": "[enfermó::chorować (3.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Chorować bez przerwy przez wiele godzin."
+            "es_form": "[Enfermó::chorował] sin parar durante horas.",
+            "pl_translation": "Chorował bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "[enfermó::chorować (3.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Chorować w zeszłym tygodniu."
+            "es_form": "[Enfermó::chorował] la semana pasada.",
+            "pl_translation": "Chorował w zeszłym tygodniu."
           }
         ]
       },
       {
         "es_word": "enfermamos",
-        "pl_word": "chorować (1.os.lm, przesz.)",
+        "pl_word": "chorowaliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "[enfermamos::chorować (1.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Chorować bez przerwy przez wiele godzin."
+            "es_form": "[Enfermamos::chorowaliśmy] sin parar durante horas.",
+            "pl_translation": "Chorowaliśmy bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "Nunca [enfermamos::chorować (1.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie chorować czegoś takiego."
+            "es_form": "Nunca [enfermamos::chorowaliśmy] de algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie chorowaliśmy na coś takiego."
           },
           {
-            "es_form": "El mes pasado no [enfermamos::chorować (1.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie chorować."
+            "es_form": "El mes pasado no [enfermamos::chorowaliśmy] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie chorowaliśmy."
           }
         ]
       },
       {
         "es_word": "enfermasteis",
-        "pl_word": "chorować (2.os.lm, przesz.)",
+        "pl_word": "chorowaliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "[enfermasteis::chorować (2.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Chorować w zeszłym tygodniu."
+            "es_form": "[Enfermasteis::chorowaliście] la semana pasada.",
+            "pl_translation": "Chorowaliście w zeszłym tygodniu."
           },
           {
-            "es_form": "Nunca [enfermasteis::chorować (2.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie chorować czegoś takiego."
+            "es_form": "Nunca [enfermasteis::chorowaliście] de algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie chorowaliście na coś takiego."
           },
           {
-            "es_form": "Ayer [enfermasteis::chorować (2.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj chorować cały dzień."
+            "es_form": "Ayer [enfermasteis::chorowaliście] todo el día.",
+            "pl_translation": "Wczoraj chorowaliście cały dzień."
           }
         ]
       },
       {
         "es_word": "enfermaron",
-        "pl_word": "chorować (3.os.lm, przesz.)",
+        "pl_word": "chorowali",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +509,22 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [enfermaron::chorować (3.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie chorować czegoś takiego."
+            "es_form": "Nunca [enfermaron::chorowali] de algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie chorowali na coś takiego."
           },
           {
-            "es_form": "[enfermaron::chorować (3.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Chorować bez przerwy przez wiele godzin."
+            "es_form": "[Enfermaron::chorowali] sin parar durante horas.",
+            "pl_translation": "Chorowali bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "El mes pasado no [enfermaron::chorować (3.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie chorować."
+            "es_form": "El mes pasado no [enfermaron::chorowali] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie chorowali."
           }
         ]
       },
       {
-        "es_word": "enfermé",
-        "pl_word": "chorować (1.os.lp, przysz.)",
+        "es_word": "enfermaré",
+        "pl_word": "będę chorować",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +532,22 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [enfermé::chorować (1.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że chorować na czas."
+            "es_form": "Te prometo que no [enfermaré::będę chorować] a propósito.",
+            "pl_translation": "Obiecuję ci, że nie będę chorować celowo."
           },
           {
-            "es_form": "¿[enfermé::chorować (1.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy chorować z nami jutro?"
+            "es_form": "¿[Enfermaré::będę chorować] con vosotros mañana?",
+            "pl_translation": "Czy będę chorować z wami jutro?"
           },
           {
-            "es_form": "Creo que [enfermé::chorować (1.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że chorować dobrze."
+            "es_form": "Creo que [enfermaré::będę chorować] este invierno.",
+            "pl_translation": "Myślę, że będę chorować tej zimy."
           }
         ]
       },
       {
-        "es_word": "enfermás",
-        "pl_word": "chorować (2.os.lp, przysz.)",
+        "es_word": "enfermarás",
+        "pl_word": "będziesz chorować",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +555,22 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [enfermás::chorować (2.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro chorować wcześniej."
+            "es_form": "Mañana [enfermarás::będziesz chorować] más temprano.",
+            "pl_translation": "Jutro będziesz chorować wcześniej."
           },
           {
-            "es_form": "Creo que [enfermás::chorować (2.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że chorować dobrze."
+            "es_form": "Creo que [enfermarás::będziesz chorować] este invierno.",
+            "pl_translation": "Myślę, że będziesz chorować tej zimy."
           },
           {
-            "es_form": "Te prometo que [enfermás::chorować (2.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że chorować na czas."
+            "es_form": "Te prometo que no [enfermarás::będziesz chorować] a propósito.",
+            "pl_translation": "Obiecuję ci, że nie będziesz chorować celowo."
           }
         ]
       },
       {
-        "es_word": "enfermá",
-        "pl_word": "chorować (3.os.lp, przysz.)",
+        "es_word": "enfermará",
+        "pl_word": "będzie chorować",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +578,22 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [enfermá::chorować (3.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że chorować na czas."
+            "es_form": "Te prometo que no [enfermará::będzie chorować] a propósito.",
+            "pl_translation": "Obiecuję ci, że nie będzie chorować celowo."
           },
           {
-            "es_form": "Mañana [enfermá::chorować (3.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro chorować wcześniej."
+            "es_form": "Mañana [enfermará::będzie chorować] más temprano.",
+            "pl_translation": "Jutro będzie chorować wcześniej."
           },
           {
-            "es_form": "El año que viene [enfermá::chorować (3.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku chorować w Hiszpanii."
+            "es_form": "El año que viene [enfermará::będzie chorować] en España.",
+            "pl_translation": "W przyszłym roku będzie chorować w Hiszpanii."
           }
         ]
       },
       {
-        "es_word": "enfermemos",
-        "pl_word": "chorować (1.os.lm, przysz.)",
+        "es_word": "enfermaremos",
+        "pl_word": "będziemy chorować",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +601,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [enfermemos::chorować (1.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że chorować dobrze."
+            "es_form": "Creo que [enfermaremos::będziemy chorować] este invierno.",
+            "pl_translation": "Myślę, że będziemy chorować tej zimy."
           },
           {
-            "es_form": "El año que viene [enfermemos::chorować (1.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku chorować w Hiszpanii."
+            "es_form": "El año que viene [enfermaremos::będziemy chorować] en España.",
+            "pl_translation": "W przyszłym roku będziemy chorować w Hiszpanii."
           },
           {
-            "es_form": "Mañana [enfermemos::chorować (1.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro chorować wcześniej."
+            "es_form": "Mañana [enfermaremos::będziemy chorować] más temprano.",
+            "pl_translation": "Jutro będziemy chorować wcześniej."
           }
         ]
       },
       {
-        "es_word": "enferméis",
-        "pl_word": "chorować (2.os.lm, przysz.)",
+        "es_word": "enfermaréis",
+        "pl_word": "będziecie chorować",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +624,22 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [enferméis::chorować (2.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że chorować na czas."
+            "es_form": "Te prometo que no [enfermaréis::będziecie chorować] a propósito.",
+            "pl_translation": "Obiecuję ci, że nie będziecie chorować celowo."
           },
           {
-            "es_form": "¿[enferméis::chorować (2.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy chorować z nami jutro?"
+            "es_form": "¿[Enfermaréis::będziecie chorować] con nosotros mañana?",
+            "pl_translation": "Czy będziecie chorować z nami jutro?"
           },
           {
-            "es_form": "Creo que [enferméis::chorować (2.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że chorować dobrze."
+            "es_form": "Creo que [enfermaréis::będziecie chorować] este invierno.",
+            "pl_translation": "Myślę, że będziecie chorować tej zimy."
           }
         ]
       },
       {
-        "es_word": "enfermán",
-        "pl_word": "chorować (3.os.lm, przysz.)",
+        "es_word": "enfermarán",
+        "pl_word": "będą chorować",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +647,16 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [enfermán::chorować (3.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że chorować dobrze."
+            "es_form": "Creo que [enfermarán::będą chorować] este invierno.",
+            "pl_translation": "Myślę, że będą chorować tej zimy."
           },
           {
-            "es_form": "El año que viene [enfermán::chorować (3.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku chorować w Hiszpanii."
+            "es_form": "El año que viene [enfermarán::będą chorować] en España.",
+            "pl_translation": "W przyszłym roku będą chorować w Hiszpanii."
           },
           {
-            "es_form": "¿[enfermán::chorować (3.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy chorować z nami jutro?"
+            "es_form": "¿[Enfermarán::będą chorować] con nosotros mañana?",
+            "pl_translation": "Czy będą chorować z nami jutro?"
           }
         ]
       }

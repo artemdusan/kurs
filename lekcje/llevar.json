@@ -10,7 +10,7 @@
       },
       {
         "es_form": "Compré [la camisa::koszula] ayer.",
-        "pl_translation": "Kupiłem/am koszula wczoraj."
+        "pl_translation": "Kupiłem"
       },
       {
         "es_form": "Guarda [la camisa::koszula] en el armario.",
@@ -25,7 +25,7 @@
     "examples": [
       {
         "es_form": "Necesito [la camiseta::koszulka (t-shirt)] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową koszulka."
+        "pl_translation": "Potrzebuję nowy"
       },
       {
         "es_form": "Guarda [la camiseta::koszulka (t-shirt)] en el armario.",
@@ -63,11 +63,11 @@
     "examples": [
       {
         "es_form": "Necesito [el zapatos::buty] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową buty."
+        "pl_translation": "Potrzebuję nowy"
       },
       {
         "es_form": "Compré [el zapatos::buty] ayer.",
-        "pl_translation": "Kupiłem/am buty wczoraj."
+        "pl_translation": "Kupiłem"
       },
       {
         "es_form": "[El zapatos::buty] cuesta diez euros.",
@@ -101,7 +101,7 @@
     "examples": [
       {
         "es_form": "¿Has visto [la chaqueta::kurtka]?",
-        "pl_translation": "Widziałeś/aś kurtka?"
+        "pl_translation": "Widziałeś"
       },
       {
         "es_form": "[La chaqueta::kurtka] cuesta diez euros.",
@@ -109,7 +109,7 @@
       },
       {
         "es_form": "Necesito [la chaqueta::kurtka] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową kurtka."
+        "pl_translation": "Potrzebuję nowy"
       }
     ]
   },
@@ -128,7 +128,7 @@
       },
       {
         "es_form": "¿Has visto [la gorra::czapka (z daszkiem)]?",
-        "pl_translation": "Widziałeś/aś czapka?"
+        "pl_translation": "Widziałeś"
       }
     ]
   },
@@ -147,7 +147,7 @@
       },
       {
         "es_form": "¿Has visto [el calcetines::skarpetki]?",
-        "pl_translation": "Widziałeś/aś skarpetki?"
+        "pl_translation": "Widziałeś"
       }
     ]
   },
@@ -158,7 +158,7 @@
     "examples": [
       {
         "es_form": "¿Has visto [la ropa::ubranie]?",
-        "pl_translation": "Widziałeś/aś ubranie?"
+        "pl_translation": "Widziałeś"
       },
       {
         "es_form": "Se me rompio [la ropa::ubranie].",
@@ -166,7 +166,7 @@
       },
       {
         "es_form": "Necesito [la ropa::ubranie] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową ubranie."
+        "pl_translation": "Potrzebuję nowy"
       }
     ]
   },
@@ -181,7 +181,7 @@
       },
       {
         "es_form": "¿Has visto [el abrigo::płaszcz]?",
-        "pl_translation": "Widziałeś/aś płaszcz?"
+        "pl_translation": "Widziałeś"
       },
       {
         "es_form": "Guarda [el abrigo::płaszcz] en el armario.",
@@ -248,7 +248,7 @@
     "forms": [
       {
         "es_word": "llevo",
-        "pl_word": "nosić (1.os.lp, ter.)",
+        "pl_word": "noszę",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +256,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[llevo::nosić (1.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy nosić w weekendy?"
+            "es_form": "¿[llevo::noszę] los fines de semana?",
+            "pl_translation": "Czy noszę w weekendy?"
           },
           {
-            "es_form": "Normalmente [llevo::nosić (1.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj nosić rano."
+            "es_form": "Normalmente [llevo::noszę] por la mañana.",
+            "pl_translation": "Zazwyczaj noszę rano."
           },
           {
-            "es_form": "[llevo::nosić (1.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Nosić tak jak mnie nauczyłeś/aś."
+            "es_form": "[llevo::noszę] como me enseñaste.",
+            "pl_translation": "Noszę tak jak mnie nauczyłeś"
           }
         ]
       },
       {
         "es_word": "llevas",
-        "pl_word": "nosić (2.os.lp, ter.)",
+        "pl_word": "nosisz",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +279,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [llevas::nosić (2.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj nosić rano."
+            "es_form": "Normalmente [llevas::nosisz] por la mañana.",
+            "pl_translation": "Zazwyczaj nosisz rano."
           },
           {
-            "es_form": "No [llevas::nosić (2.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie nosić zbyt dobrze."
+            "es_form": "No [llevas::nosisz] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie nosisz zbyt dobrze."
           },
           {
-            "es_form": "Siempre [llevas::nosić (2.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze nosić z uwagą."
+            "es_form": "Siempre [llevas::nosisz] con atencion.",
+            "pl_translation": "Zawsze nosisz z uwagą."
           }
         ]
       },
       {
         "es_word": "lleva",
-        "pl_word": "nosić (3.os.lp, ter.)",
+        "pl_word": "nosi",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +302,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[lleva::nosić (3.os.lp, ter.)] los fines de semana?",
+            "es_form": "¿[lleva::nosi] los fines de semana?",
             "pl_translation": "Czy nosić w weekendy?"
           },
           {
-            "es_form": "Normalmente [lleva::nosić (3.os.lp, ter.)] por la mañana.",
+            "es_form": "Normalmente [lleva::nosi] por la mañana.",
             "pl_translation": "Zazwyczaj nosić rano."
           },
           {
-            "es_form": "No [lleva::nosić (3.os.lp, ter.)] muy bien últimamente.",
+            "es_form": "No [lleva::nosi] muy bien últimamente.",
             "pl_translation": "Ostatnio nie nosić zbyt dobrze."
           }
         ]
       },
       {
         "es_word": "llevamos",
-        "pl_word": "nosić (1.os.lm, ter.)",
+        "pl_word": "nosimy",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +325,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[llevamos::nosić (1.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy nosić w weekendy?"
+            "es_form": "¿[llevamos::nosimy] los fines de semana?",
+            "pl_translation": "Czy nosimy w weekendy?"
           },
           {
-            "es_form": "[llevamos::nosić (1.os.lm, ter.)] todos los días.",
-            "pl_translation": "Nosić codziennie."
+            "es_form": "[llevamos::nosimy] todos los días.",
+            "pl_translation": "Nosimy codziennie."
           },
           {
-            "es_form": "Normalmente [llevamos::nosić (1.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj nosić rano."
+            "es_form": "Normalmente [llevamos::nosimy] por la mañana.",
+            "pl_translation": "Zazwyczaj nosimy rano."
           }
         ]
       },
       {
         "es_word": "lleváis",
-        "pl_word": "nosić (2.os.lm, ter.)",
+        "pl_word": "nosicie",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +348,22 @@
         },
         "examples": [
           {
-            "es_form": "[lleváis::nosić (2.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Nosić tak jak mnie nauczyłeś/aś."
+            "es_form": "[lleváis::nosicie] como me enseñaste.",
+            "pl_translation": "Nosicie tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "¿[lleváis::nosić (2.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy nosić w weekendy?"
+            "es_form": "¿[lleváis::nosicie] los fines de semana?",
+            "pl_translation": "Czy nosicie w weekendy?"
           },
           {
-            "es_form": "Siempre [lleváis::nosić (2.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze nosić z uwagą."
+            "es_form": "Siempre [lleváis::nosicie] con atencion.",
+            "pl_translation": "Zawsze nosicie z uwagą."
           }
         ]
       },
       {
         "es_word": "llevan",
-        "pl_word": "nosić (3.os.lm, ter.)",
+        "pl_word": "noszą",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +371,22 @@
         },
         "examples": [
           {
-            "es_form": "No [llevan::nosić (3.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie nosić zbyt dobrze."
+            "es_form": "No [llevan::noszą] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie noszą zbyt dobrze."
           },
           {
-            "es_form": "[llevan::nosić (3.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Nosić tak jak mnie nauczyłeś/aś."
+            "es_form": "[llevan::noszą] como me enseñaste.",
+            "pl_translation": "Noszą tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "Normalmente [llevan::nosić (3.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj nosić rano."
+            "es_form": "Normalmente [llevan::noszą] por la mañana.",
+            "pl_translation": "Zazwyczaj noszą rano."
           }
         ]
       },
       {
         "es_word": "llevé",
-        "pl_word": "nosić (1.os.lp, przesz.)",
+        "pl_word": "nosiłem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [llevé::nosić (1.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj nosić cały dzień."
+            "es_form": "Ayer [llevé::nosiłem] todo el día.",
+            "pl_translation": "Wczoraj nosiłem cały dzień."
           },
           {
-            "es_form": "¿[llevé::nosić (1.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy nosić dobrze egzamin?"
+            "es_form": "¿[llevé::nosiłem] bien el examen?",
+            "pl_translation": "Czy nosiłem dobrze egzamin?"
           },
           {
-            "es_form": "Nunca [llevé::nosić (1.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie nosić czegoś takiego."
+            "es_form": "Nunca [llevé::nosiłem] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie nosiłem czegoś takiego."
           }
         ]
       },
       {
         "es_word": "llevaste",
-        "pl_word": "nosić (2.os.lp, przesz.)",
+        "pl_word": "nosiłeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [llevaste::nosić (2.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj nosić cały dzień."
+            "es_form": "Ayer [llevaste::nosiłeś] todo el día.",
+            "pl_translation": "Wczoraj nosiłeś cały dzień."
           },
           {
-            "es_form": "¿[llevaste::nosić (2.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy nosić dobrze egzamin?"
+            "es_form": "¿[llevaste::nosiłeś] bien el examen?",
+            "pl_translation": "Czy nosiłeś dobrze egzamin?"
           },
           {
-            "es_form": "Nunca [llevaste::nosić (2.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie nosić czegoś takiego."
+            "es_form": "Nunca [llevaste::nosiłeś] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie nosiłeś czegoś takiego."
           }
         ]
       },
       {
         "es_word": "llevó",
-        "pl_word": "nosić (3.os.lp, przesz.)",
+        "pl_word": "nosił",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[llevó::nosić (3.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy nosić dobrze egzamin?"
+            "es_form": "¿[llevó::nosił] bien el examen?",
+            "pl_translation": "Czy nosił dobrze egzamin?"
           },
           {
-            "es_form": "Ayer [llevó::nosić (3.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj nosić cały dzień."
+            "es_form": "Ayer [llevó::nosił] todo el día.",
+            "pl_translation": "Wczoraj nosił cały dzień."
           },
           {
-            "es_form": "El mes pasado no [llevó::nosić (3.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie nosić."
+            "es_form": "El mes pasado no [llevó::nosił] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie nosił."
           }
         ]
       },
       {
         "es_word": "llevamos",
-        "pl_word": "nosić (1.os.lm, przesz.)",
+        "pl_word": "nosiliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "[llevamos::nosić (1.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Nosić bez przerwy przez wiele godzin."
+            "es_form": "[llevamos::nosiliśmy] sin parar durante horas.",
+            "pl_translation": "Nosiliśmy bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "[llevamos::nosić (1.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Nosić w zeszłym tygodniu."
+            "es_form": "[llevamos::nosiliśmy] la semana pasada.",
+            "pl_translation": "Nosiliśmy w zeszłym tygodniu."
           },
           {
-            "es_form": "Ayer [llevamos::nosić (1.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj nosić cały dzień."
+            "es_form": "Ayer [llevamos::nosiliśmy] todo el día.",
+            "pl_translation": "Wczoraj nosiliśmy cały dzień."
           }
         ]
       },
       {
         "es_word": "llevasteis",
-        "pl_word": "nosić (2.os.lm, przesz.)",
+        "pl_word": "nosiliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "[llevasteis::nosić (2.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Nosić w zeszłym tygodniu."
+            "es_form": "[llevasteis::nosiliście] la semana pasada.",
+            "pl_translation": "Nosiliście w zeszłym tygodniu."
           },
           {
-            "es_form": "El mes pasado no [llevasteis::nosić (2.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie nosić."
+            "es_form": "El mes pasado no [llevasteis::nosiliście] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie nosiliście."
           },
           {
-            "es_form": "[llevasteis::nosić (2.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Nosić bez przerwy przez wiele godzin."
+            "es_form": "[llevasteis::nosiliście] sin parar durante horas.",
+            "pl_translation": "Nosiliście bez przerwy przez wiele godzin."
           }
         ]
       },
       {
         "es_word": "llevaron",
-        "pl_word": "nosić (3.os.lm, przesz.)",
+        "pl_word": "nosili",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +509,22 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [llevaron::nosić (3.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie nosić czegoś takiego."
+            "es_form": "Nunca [llevaron::nosili] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie nosili czegoś takiego."
           },
           {
-            "es_form": "[llevaron::nosić (3.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Nosić bez przerwy przez wiele godzin."
+            "es_form": "[llevaron::nosili] sin parar durante horas.",
+            "pl_translation": "Nosili bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "El mes pasado no [llevaron::nosić (3.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie nosić."
+            "es_form": "El mes pasado no [llevaron::nosili] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie nosili."
           }
         ]
       },
       {
         "es_word": "llevé",
-        "pl_word": "nosić (1.os.lp, przysz.)",
+        "pl_word": "będę nosić",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +532,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [llevé::nosić (1.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że nosić dobrze."
+            "es_form": "Creo que [llevé::będę nosić] bien.",
+            "pl_translation": "Myślę, że będę nosić dobrze."
           },
           {
-            "es_form": "¿[llevé::nosić (1.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy nosić z nami jutro?"
+            "es_form": "¿[llevé::będę nosić] con nosotros mañana?",
+            "pl_translation": "Czy będę nosić z nami jutro?"
           },
           {
-            "es_form": "El año que viene [llevé::nosić (1.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku nosić w Hiszpanii."
+            "es_form": "El año que viene [llevé::będę nosić] en España.",
+            "pl_translation": "W przyszłym roku będę nosić w Hiszpanii."
           }
         ]
       },
       {
         "es_word": "llevás",
-        "pl_word": "nosić (2.os.lp, przysz.)",
+        "pl_word": "będziesz nosić",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +555,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [llevás::nosić (2.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że nosić dobrze."
+            "es_form": "Creo que [llevás::będziesz nosić] bien.",
+            "pl_translation": "Myślę, że będziesz nosić dobrze."
           },
           {
-            "es_form": "¿[llevás::nosić (2.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy nosić z nami jutro?"
+            "es_form": "¿[llevás::będziesz nosić] con nosotros mañana?",
+            "pl_translation": "Czy będziesz nosić z nami jutro?"
           },
           {
-            "es_form": "Mañana [llevás::nosić (2.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro nosić wcześniej."
+            "es_form": "Mañana [llevás::będziesz nosić] más temprano.",
+            "pl_translation": "Jutro będziesz nosić wcześniej."
           }
         ]
       },
       {
         "es_word": "llevá",
-        "pl_word": "nosić (3.os.lp, przysz.)",
+        "pl_word": "będzie nosić",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +578,22 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [llevá::nosić (3.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że nosić na czas."
+            "es_form": "Te prometo que [llevá::będzie nosić] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będzie nosić na czas."
           },
           {
-            "es_form": "Mañana [llevá::nosić (3.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro nosić wcześniej."
+            "es_form": "Mañana [llevá::będzie nosić] más temprano.",
+            "pl_translation": "Jutro będzie nosić wcześniej."
           },
           {
-            "es_form": "¿[llevá::nosić (3.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy nosić z nami jutro?"
+            "es_form": "¿[llevá::będzie nosić] con nosotros mañana?",
+            "pl_translation": "Czy będzie nosić z nami jutro?"
           }
         ]
       },
       {
         "es_word": "llevemos",
-        "pl_word": "nosić (1.os.lm, przysz.)",
+        "pl_word": "będziemy nosić",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +601,22 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [llevemos::nosić (1.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że nosić na czas."
+            "es_form": "Te prometo que [llevemos::będziemy nosić] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziemy nosić na czas."
           },
           {
-            "es_form": "[llevemos::nosić (1.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Nosić w przyszłym tygodniu."
+            "es_form": "[llevemos::będziemy nosić] la proxima semana.",
+            "pl_translation": "Będziemy nosić w przyszłym tygodniu."
           },
           {
-            "es_form": "Creo que [llevemos::nosić (1.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że nosić dobrze."
+            "es_form": "Creo que [llevemos::będziemy nosić] bien.",
+            "pl_translation": "Myślę, że będziemy nosić dobrze."
           }
         ]
       },
       {
         "es_word": "llevéis",
-        "pl_word": "nosić (2.os.lm, przysz.)",
+        "pl_word": "będziecie nosić",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +624,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [llevéis::nosić (2.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że nosić dobrze."
+            "es_form": "Creo que [llevéis::będziecie nosić] bien.",
+            "pl_translation": "Myślę, że będziecie nosić dobrze."
           },
           {
-            "es_form": "[llevéis::nosić (2.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Nosić w przyszłym tygodniu."
+            "es_form": "[llevéis::będziecie nosić] la proxima semana.",
+            "pl_translation": "Będziecie nosić w przyszłym tygodniu."
           },
           {
-            "es_form": "El año que viene [llevéis::nosić (2.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku nosić w Hiszpanii."
+            "es_form": "El año que viene [llevéis::będziecie nosić] en España.",
+            "pl_translation": "W przyszłym roku będziecie nosić w Hiszpanii."
           }
         ]
       },
       {
         "es_word": "lleván",
-        "pl_word": "nosić (3.os.lm, przysz.)",
+        "pl_word": "będą nosić",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +647,16 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [lleván::nosić (3.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że nosić dobrze."
+            "es_form": "Creo que [lleván::będą nosić] bien.",
+            "pl_translation": "Myślę, że będą nosić dobrze."
           },
           {
-            "es_form": "Te prometo que [lleván::nosić (3.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że nosić na czas."
+            "es_form": "Te prometo que [lleván::będą nosić] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będą nosić na czas."
           },
           {
-            "es_form": "Mañana [lleván::nosić (3.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro nosić wcześniej."
+            "es_form": "Mañana [lleván::będą nosić] más temprano.",
+            "pl_translation": "Jutro będą nosić wcześniej."
           }
         ]
       }

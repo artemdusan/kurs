@@ -6,11 +6,11 @@
     "examples": [
       {
         "es_form": "Esperé [el pasado::przeszłość] entero.",
-        "pl_translation": "Czekałem/am cały/całą przeszłość."
+        "pl_translation": "Czekałem"
       },
       {
         "es_form": "[El pasado::przeszłość] se me hizo eterno.",
-        "pl_translation": "Przeszłość mi się dłużył/a."
+        "pl_translation": "Przeszłość mi się dłużył"
       },
       {
         "es_form": "[El pasado::przeszłość] es oro.",
@@ -33,7 +33,7 @@
       },
       {
         "es_form": "Esperé [el futuro::przyszłość] entero.",
-        "pl_translation": "Czekałem/am cały/całą przyszłość."
+        "pl_translation": "Czekałem"
       }
     ]
   },
@@ -44,11 +44,11 @@
     "examples": [
       {
         "es_form": "Esperé [el siglo::wiek (stulecie)] entero.",
-        "pl_translation": "Czekałem/am cały/całą wiek."
+        "pl_translation": "Czekałem"
       },
       {
         "es_form": "[El siglo::wiek (stulecie)] se me hizo eterno.",
-        "pl_translation": "Wiek mi się dłużył/a."
+        "pl_translation": "Wiek mi się dłużył"
       },
       {
         "es_form": "Llego [el siglo::wiek (stulecie)] de la boda.",
@@ -86,7 +86,7 @@
       },
       {
         "es_form": "Necesito [la paz::pokój (zgoda)] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową pokój."
+        "pl_translation": "Potrzebuję nowy"
       },
       {
         "es_form": "Se me rompio [la paz::pokój (zgoda)].",
@@ -105,11 +105,11 @@
       },
       {
         "es_form": "Compré [el revolución::rewolucja] ayer.",
-        "pl_translation": "Kupiłem/am rewolucja wczoraj."
+        "pl_translation": "Kupiłem"
       },
       {
         "es_form": "Necesito [el revolución::rewolucja] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową rewolucja."
+        "pl_translation": "Potrzebuję nowy"
       }
     ]
   },
@@ -128,7 +128,7 @@
       },
       {
         "es_form": "Esta es [el rey::król] de la que hablé.",
-        "pl_translation": "To jest król, o której mówiłem/am."
+        "pl_translation": "To jest król, o której mówiłem"
       }
     ]
   },
@@ -139,7 +139,7 @@
     "examples": [
       {
         "es_form": "[La reina::królowa] es muy amable.",
-        "pl_translation": "Królowa jest bardzo miły/a."
+        "pl_translation": "Królowa jest bardzo miły"
       },
       {
         "es_form": "Conozco a [la reina::królowa].",
@@ -147,7 +147,7 @@
       },
       {
         "es_form": "Hablé con [la reina::królowa] ayer.",
-        "pl_translation": "Rozmawiałem/am wczoraj z królowa."
+        "pl_translation": "Rozmawiałem"
       }
     ]
   },
@@ -158,7 +158,7 @@
     "examples": [
       {
         "es_form": "[El caballero::rycerz] me ayudo mucho.",
-        "pl_translation": "Rycerz bardzo mi pomógł/pomogła."
+        "pl_translation": "Rycerz bardzo mi pomógł"
       },
       {
         "es_form": "Mi [hermano::brat] es [el caballero::rycerz].",
@@ -177,7 +177,7 @@
     "examples": [
       {
         "es_form": "Compré [el monumento::zabytek, pomnik] ayer.",
-        "pl_translation": "Kupiłem/am zabytek, pomnik wczoraj."
+        "pl_translation": "Kupiłem"
       },
       {
         "es_form": "[El monumento::zabytek, pomnik] cuesta diez euros.",
@@ -248,7 +248,7 @@
     "forms": [
       {
         "es_word": "recuerdo",
-        "pl_word": "pamiętać (1.os.lp, ter.)",
+        "pl_word": "pamiętam",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +256,22 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [recuerdo::pamiętać (1.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze pamiętać z uwagą."
+            "es_form": "Siempre [recuerdo::pamiętam] con atencion.",
+            "pl_translation": "Zawsze pamiętam z uwagą."
           },
           {
-            "es_form": "[recuerdo::pamiętać (1.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Pamiętać tak jak mnie nauczyłeś/aś."
+            "es_form": "[recuerdo::pamiętam] como me enseñaste.",
+            "pl_translation": "Pamiętam tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "Normalmente [recuerdo::pamiętać (1.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj pamiętać rano."
+            "es_form": "Normalmente [recuerdo::pamiętam] por la mañana.",
+            "pl_translation": "Zazwyczaj pamiętam rano."
           }
         ]
       },
       {
         "es_word": "recuerdas",
-        "pl_word": "pamiętać (2.os.lp, ter.)",
+        "pl_word": "pamiętasz",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +279,22 @@
         },
         "examples": [
           {
-            "es_form": "[recuerdas::pamiętać (2.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Pamiętać tak jak mnie nauczyłeś/aś."
+            "es_form": "[recuerdas::pamiętasz] como me enseñaste.",
+            "pl_translation": "Pamiętasz tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "No [recuerdas::pamiętać (2.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie pamiętać zbyt dobrze."
+            "es_form": "No [recuerdas::pamiętasz] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie pamiętasz zbyt dobrze."
           },
           {
-            "es_form": "[recuerdas::pamiętać (2.os.lp, ter.)] todos los días.",
-            "pl_translation": "Pamiętać codziennie."
+            "es_form": "[recuerdas::pamiętasz] todos los días.",
+            "pl_translation": "Pamiętasz codziennie."
           }
         ]
       },
       {
         "es_word": "recuerda",
-        "pl_word": "pamiętać (3.os.lp, ter.)",
+        "pl_word": "pamięta",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +302,22 @@
         },
         "examples": [
           {
-            "es_form": "[recuerda::pamiętać (3.os.lp, ter.)] todos los días.",
-            "pl_translation": "Pamiętać codziennie."
+            "es_form": "[recuerda::pamięta] todos los días.",
+            "pl_translation": "Pamięta codziennie."
           },
           {
-            "es_form": "¿[recuerda::pamiętać (3.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy pamiętać w weekendy?"
+            "es_form": "¿[recuerda::pamięta] los fines de semana?",
+            "pl_translation": "Czy pamięta w weekendy?"
           },
           {
-            "es_form": "No [recuerda::pamiętać (3.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie pamiętać zbyt dobrze."
+            "es_form": "No [recuerda::pamięta] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie pamięta zbyt dobrze."
           }
         ]
       },
       {
         "es_word": "recordamos",
-        "pl_word": "pamiętać (1.os.lm, ter.)",
+        "pl_word": "pamiętamy",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +325,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [recordamos::pamiętać (1.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj pamiętać rano."
+            "es_form": "Normalmente [recordamos::pamiętamy] por la mañana.",
+            "pl_translation": "Zazwyczaj pamiętamy rano."
           },
           {
-            "es_form": "No [recordamos::pamiętać (1.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie pamiętać zbyt dobrze."
+            "es_form": "No [recordamos::pamiętamy] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie pamiętamy zbyt dobrze."
           },
           {
-            "es_form": "Siempre [recordamos::pamiętać (1.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze pamiętać z uwagą."
+            "es_form": "Siempre [recordamos::pamiętamy] con atencion.",
+            "pl_translation": "Zawsze pamiętamy z uwagą."
           }
         ]
       },
       {
         "es_word": "recordáis",
-        "pl_word": "pamiętać (2.os.lm, ter.)",
+        "pl_word": "pamiętacie",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +348,22 @@
         },
         "examples": [
           {
-            "es_form": "[recordáis::pamiętać (2.os.lm, ter.)] todos los días.",
-            "pl_translation": "Pamiętać codziennie."
+            "es_form": "[recordáis::pamiętacie] todos los días.",
+            "pl_translation": "Pamiętacie codziennie."
           },
           {
-            "es_form": "¿[recordáis::pamiętać (2.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy pamiętać w weekendy?"
+            "es_form": "¿[recordáis::pamiętacie] los fines de semana?",
+            "pl_translation": "Czy pamiętacie w weekendy?"
           },
           {
-            "es_form": "Normalmente [recordáis::pamiętać (2.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj pamiętać rano."
+            "es_form": "Normalmente [recordáis::pamiętacie] por la mañana.",
+            "pl_translation": "Zazwyczaj pamiętacie rano."
           }
         ]
       },
       {
         "es_word": "recuerdan",
-        "pl_word": "pamiętać (3.os.lm, ter.)",
+        "pl_word": "pamiętają",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +371,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [recuerdan::pamiętać (3.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj pamiętać rano."
+            "es_form": "Normalmente [recuerdan::pamiętają] por la mañana.",
+            "pl_translation": "Zazwyczaj pamiętają rano."
           },
           {
-            "es_form": "Siempre [recuerdan::pamiętać (3.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze pamiętać z uwagą."
+            "es_form": "Siempre [recuerdan::pamiętają] con atencion.",
+            "pl_translation": "Zawsze pamiętają z uwagą."
           },
           {
-            "es_form": "[recuerdan::pamiętać (3.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Pamiętać tak jak mnie nauczyłeś/aś."
+            "es_form": "[recuerdan::pamiętają] como me enseñaste.",
+            "pl_translation": "Pamiętają tak jak mnie nauczyłeś"
           }
         ]
       },
       {
         "es_word": "recordé",
-        "pl_word": "pamiętać (1.os.lp, przesz.)",
+        "pl_word": "pamiętałem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "[recordé::pamiętać (1.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Pamiętać w zeszłym tygodniu."
+            "es_form": "[recordé::pamiętałem] la semana pasada.",
+            "pl_translation": "Pamiętałem w zeszłym tygodniu."
           },
           {
-            "es_form": "[recordé::pamiętać (1.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Pamiętać bez przerwy przez wiele godzin."
+            "es_form": "[recordé::pamiętałem] sin parar durante horas.",
+            "pl_translation": "Pamiętałem bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "Ayer [recordé::pamiętać (1.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj pamiętać cały dzień."
+            "es_form": "Ayer [recordé::pamiętałem] todo el día.",
+            "pl_translation": "Wczoraj pamiętałem cały dzień."
           }
         ]
       },
       {
         "es_word": "recordaste",
-        "pl_word": "pamiętać (2.os.lp, przesz.)",
+        "pl_word": "pamiętałeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [recordaste::pamiętać (2.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj pamiętać cały dzień."
+            "es_form": "Ayer [recordaste::pamiętałeś] todo el día.",
+            "pl_translation": "Wczoraj pamiętałeś cały dzień."
           },
           {
-            "es_form": "El mes pasado no [recordaste::pamiętać (2.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie pamiętać."
+            "es_form": "El mes pasado no [recordaste::pamiętałeś] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie pamiętałeś."
           },
           {
-            "es_form": "¿[recordaste::pamiętać (2.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy pamiętać dobrze egzamin?"
+            "es_form": "¿[recordaste::pamiętałeś] bien el examen?",
+            "pl_translation": "Czy pamiętałeś dobrze egzamin?"
           }
         ]
       },
       {
         "es_word": "recordó",
-        "pl_word": "pamiętać (3.os.lp, przesz.)",
+        "pl_word": "pamiętał",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [recordó::pamiętać (3.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj pamiętać cały dzień."
+            "es_form": "Ayer [recordó::pamiętał] todo el día.",
+            "pl_translation": "Wczoraj pamiętał cały dzień."
           },
           {
-            "es_form": "[recordó::pamiętać (3.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Pamiętać bez przerwy przez wiele godzin."
+            "es_form": "[recordó::pamiętał] sin parar durante horas.",
+            "pl_translation": "Pamiętał bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "[recordó::pamiętać (3.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Pamiętać w zeszłym tygodniu."
+            "es_form": "[recordó::pamiętał] la semana pasada.",
+            "pl_translation": "Pamiętał w zeszłym tygodniu."
           }
         ]
       },
       {
         "es_word": "recordamos",
-        "pl_word": "pamiętać (1.os.lm, przesz.)",
+        "pl_word": "pamiętaliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [recordamos::pamiętać (1.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj pamiętać cały dzień."
+            "es_form": "Ayer [recordamos::pamiętaliśmy] todo el día.",
+            "pl_translation": "Wczoraj pamiętaliśmy cały dzień."
           },
           {
-            "es_form": "[recordamos::pamiętać (1.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Pamiętać bez przerwy przez wiele godzin."
+            "es_form": "[recordamos::pamiętaliśmy] sin parar durante horas.",
+            "pl_translation": "Pamiętaliśmy bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "[recordamos::pamiętać (1.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Pamiętać w zeszłym tygodniu."
+            "es_form": "[recordamos::pamiętaliśmy] la semana pasada.",
+            "pl_translation": "Pamiętaliśmy w zeszłym tygodniu."
           }
         ]
       },
       {
         "es_word": "recordasteis",
-        "pl_word": "pamiętać (2.os.lm, przesz.)",
+        "pl_word": "pamiętaliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[recordasteis::pamiętać (2.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy pamiętać dobrze egzamin?"
+            "es_form": "¿[recordasteis::pamiętaliście] bien el examen?",
+            "pl_translation": "Czy pamiętaliście dobrze egzamin?"
           },
           {
-            "es_form": "El mes pasado no [recordasteis::pamiętać (2.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie pamiętać."
+            "es_form": "El mes pasado no [recordasteis::pamiętaliście] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie pamiętaliście."
           },
           {
-            "es_form": "Ayer [recordasteis::pamiętać (2.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj pamiętać cały dzień."
+            "es_form": "Ayer [recordasteis::pamiętaliście] todo el día.",
+            "pl_translation": "Wczoraj pamiętaliście cały dzień."
           }
         ]
       },
       {
         "es_word": "recordaron",
-        "pl_word": "pamiętać (3.os.lm, przesz.)",
+        "pl_word": "pamiętali",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +509,22 @@
         },
         "examples": [
           {
-            "es_form": "[recordaron::pamiętać (3.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Pamiętać bez przerwy przez wiele godzin."
+            "es_form": "[recordaron::pamiętali] sin parar durante horas.",
+            "pl_translation": "Pamiętali bez przerwy przez wiele godzin."
           },
           {
-            "es_form": "El mes pasado no [recordaron::pamiętać (3.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie pamiętać."
+            "es_form": "El mes pasado no [recordaron::pamiętali] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie pamiętali."
           },
           {
-            "es_form": "[recordaron::pamiętać (3.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Pamiętać w zeszłym tygodniu."
+            "es_form": "[recordaron::pamiętali] la semana pasada.",
+            "pl_translation": "Pamiętali w zeszłym tygodniu."
           }
         ]
       },
       {
         "es_word": "recordaré",
-        "pl_word": "pamiętać (1.os.lp, przysz.)",
+        "pl_word": "będę pamiętać",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +532,22 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [recordaré::pamiętać (1.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że pamiętać na czas."
+            "es_form": "Te prometo que [recordaré::będę pamiętać] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będę pamiętać na czas."
           },
           {
-            "es_form": "¿[recordaré::pamiętać (1.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy pamiętać z nami jutro?"
+            "es_form": "¿[recordaré::będę pamiętać] con nosotros mañana?",
+            "pl_translation": "Czy będę pamiętać z nami jutro?"
           },
           {
-            "es_form": "Mañana [recordaré::pamiętać (1.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro pamiętać wcześniej."
+            "es_form": "Mañana [recordaré::będę pamiętać] más temprano.",
+            "pl_translation": "Jutro będę pamiętać wcześniej."
           }
         ]
       },
       {
         "es_word": "recordarás",
-        "pl_word": "pamiętać (2.os.lp, przysz.)",
+        "pl_word": "będziesz pamiętać",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +555,22 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [recordarás::pamiętać (2.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że pamiętać na czas."
+            "es_form": "Te prometo que [recordarás::będziesz pamiętać] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziesz pamiętać na czas."
           },
           {
-            "es_form": "Mañana [recordarás::pamiętać (2.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro pamiętać wcześniej."
+            "es_form": "Mañana [recordarás::będziesz pamiętać] más temprano.",
+            "pl_translation": "Jutro będziesz pamiętać wcześniej."
           },
           {
-            "es_form": "Creo que [recordarás::pamiętać (2.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że pamiętać dobrze."
+            "es_form": "Creo que [recordarás::będziesz pamiętać] bien.",
+            "pl_translation": "Myślę, że będziesz pamiętać dobrze."
           }
         ]
       },
       {
         "es_word": "recordará",
-        "pl_word": "pamiętać (3.os.lp, przysz.)",
+        "pl_word": "będzie pamiętać",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +578,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [recordará::pamiętać (3.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że pamiętać dobrze."
+            "es_form": "Creo que [recordará::będzie pamiętać] bien.",
+            "pl_translation": "Myślę, że będzie pamiętać dobrze."
           },
           {
-            "es_form": "Mañana [recordará::pamiętać (3.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro pamiętać wcześniej."
+            "es_form": "Mañana [recordará::będzie pamiętać] más temprano.",
+            "pl_translation": "Jutro będzie pamiętać wcześniej."
           },
           {
-            "es_form": "¿[recordará::pamiętać (3.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy pamiętać z nami jutro?"
+            "es_form": "¿[recordará::będzie pamiętać] con nosotros mañana?",
+            "pl_translation": "Czy będzie pamiętać z nami jutro?"
           }
         ]
       },
       {
         "es_word": "recordaremos",
-        "pl_word": "pamiętać (1.os.lm, przysz.)",
+        "pl_word": "będziemy pamiętać",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +601,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[recordaremos::pamiętać (1.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy pamiętać z nami jutro?"
+            "es_form": "¿[recordaremos::będziemy pamiętać] con nosotros mañana?",
+            "pl_translation": "Czy będziemy pamiętać z nami jutro?"
           },
           {
-            "es_form": "Mañana [recordaremos::pamiętać (1.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro pamiętać wcześniej."
+            "es_form": "Mañana [recordaremos::będziemy pamiętać] más temprano.",
+            "pl_translation": "Jutro będziemy pamiętać wcześniej."
           },
           {
-            "es_form": "[recordaremos::pamiętać (1.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Pamiętać w przyszłym tygodniu."
+            "es_form": "[recordaremos::będziemy pamiętać] la proxima semana.",
+            "pl_translation": "Będziemy pamiętać w przyszłym tygodniu."
           }
         ]
       },
       {
         "es_word": "recordaréis",
-        "pl_word": "pamiętać (2.os.lm, przysz.)",
+        "pl_word": "będziecie pamiętać",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +624,22 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [recordaréis::pamiętać (2.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że pamiętać na czas."
+            "es_form": "Te prometo que [recordaréis::będziecie pamiętać] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziecie pamiętać na czas."
           },
           {
-            "es_form": "Mañana [recordaréis::pamiętać (2.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro pamiętać wcześniej."
+            "es_form": "Mañana [recordaréis::będziecie pamiętać] más temprano.",
+            "pl_translation": "Jutro będziecie pamiętać wcześniej."
           },
           {
-            "es_form": "[recordaréis::pamiętać (2.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Pamiętać w przyszłym tygodniu."
+            "es_form": "[recordaréis::będziecie pamiętać] la proxima semana.",
+            "pl_translation": "Będziecie pamiętać w przyszłym tygodniu."
           }
         ]
       },
       {
         "es_word": "recordarán",
-        "pl_word": "pamiętać (3.os.lm, przysz.)",
+        "pl_word": "będą pamiętać",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +647,16 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [recordarán::pamiętać (3.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku pamiętać w Hiszpanii."
+            "es_form": "El año que viene [recordarán::będą pamiętać] en España.",
+            "pl_translation": "W przyszłym roku będą pamiętać w Hiszpanii."
           },
           {
-            "es_form": "[recordarán::pamiętać (3.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Pamiętać w przyszłym tygodniu."
+            "es_form": "[recordarán::będą pamiętać] la proxima semana.",
+            "pl_translation": "Będą pamiętać w przyszłym tygodniu."
           },
           {
-            "es_form": "Te prometo que [recordarán::pamiętać (3.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że pamiętać na czas."
+            "es_form": "Te prometo que [recordarán::będą pamiętać] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będą pamiętać na czas."
           }
         ]
       }

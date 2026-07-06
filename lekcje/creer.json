@@ -1,76 +1,76 @@
 [
   {
     "type": "noun",
-    "es_word": "El fe",
+    "es_word": "La fe",
     "pl_word": "wiara",
     "examples": [
       {
-        "es_form": "Tienes que aceptar [el fe::wiara].",
-        "pl_translation": "Musisz zaakceptować wiara."
+        "es_form": "Tienes que aceptar [la fe::wiara].",
+        "pl_translation": "Musisz zaakceptować wiarę."
       },
       {
-        "es_form": "[El fe::wiara] es muy importante.",
-        "pl_translation": "Wiara jest bardzo ważny/a."
+        "es_form": "[La fe::wiara] es muy importante.",
+        "pl_translation": "Wiara jest bardzo ważna."
       },
       {
-        "es_form": "[El fe::wiara] cambio mi vida.",
-        "pl_translation": "Wiara zmienił/a moje życie."
+        "es_form": "[La fe::wiara] cambió mi vida.",
+        "pl_translation": "Wiara zmieniła moje życie."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El religión",
+    "es_word": "La religión",
     "pl_word": "religia",
     "examples": [
       {
-        "es_form": "[El religión::religia] cambio mi vida.",
-        "pl_translation": "Religia zmienił/a moje życie."
+        "es_form": "[La religión::religia] cambió mi vida.",
+        "pl_translation": "Religia zmieniła moje życie."
       },
       {
-        "es_form": "[El religión::religia] es muy importante.",
-        "pl_translation": "Religia jest bardzo ważny/a."
+        "es_form": "[La religión::religia] es muy importante.",
+        "pl_translation": "Religia jest bardzo ważna."
       },
       {
-        "es_form": "[El religión::religia] es la clave del éxito.",
+        "es_form": "[La religión::religia] es la clave del éxito.",
         "pl_translation": "Religia jest kluczem do sukcesu."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El Dios",
+    "es_word": "Dios",
     "pl_word": "Bóg",
     "examples": [
       {
-        "es_form": "Se me rompio [el Dios::Bóg].",
-        "pl_translation": "Zepsuł mi się Bóg."
+        "es_form": "Rezo a [Dios::Bóg] cada día.",
+        "pl_translation": "Modlę się do Boga codziennie."
       },
       {
-        "es_form": "Guarda [el Dios::Bóg] en el armario.",
-        "pl_translation": "Schowaj Bóg do szafy."
+        "es_form": "Creo en [Dios::Bóg].",
+        "pl_translation": "Wierzę w Boga."
       },
       {
-        "es_form": "Necesito [el Dios::Bóg] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową Bóg."
+        "es_form": "[Dios::Bóg] es misericordioso.",
+        "pl_translation": "Bóg jest miłosierny."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El oración",
+    "es_word": "La oración",
     "pl_word": "modlitwa",
     "examples": [
       {
-        "es_form": "Tienes que aceptar [el oración::modlitwa].",
-        "pl_translation": "Musisz zaakceptować modlitwa."
+        "es_form": "Tienes que aceptar [la oración::modlitwa].",
+        "pl_translation": "Musisz zaakceptować modlitwę."
       },
       {
-        "es_form": "[El oración::modlitwa] es muy importante.",
-        "pl_translation": "Modlitwa jest bardzo ważny/a."
+        "es_form": "[La oración::modlitwa] es muy importante.",
+        "pl_translation": "Modlitwa jest bardzo ważna."
       },
       {
-        "es_form": "[El oración::modlitwa] es la clave del éxito.",
+        "es_form": "[La oración::modlitwa] es la clave del éxito.",
         "pl_translation": "Modlitwa jest kluczem do sukcesu."
       }
     ]
@@ -81,16 +81,16 @@
     "pl_word": "ksiądz",
     "examples": [
       {
-        "es_form": "Compré [el sacerdote::ksiądz] ayer.",
-        "pl_translation": "Kupiłem/am ksiądz wczoraj."
+        "es_form": "Hablé con [el sacerdote::ksiądz] ayer.",
+        "pl_translation": "Rozmawiałem"
       },
       {
-        "es_form": "¿Has visto [el sacerdote::ksiądz]?",
-        "pl_translation": "Widziałeś/aś ksiądz?"
+        "es_form": "[El sacerdote::ksiądz] vive en mi calle.",
+        "pl_translation": "Ksiądz mieszka na mojej ulicy."
       },
       {
-        "es_form": "[El sacerdote::ksiądz] es de madera.",
-        "pl_translation": "Ksiądz jest z drewna."
+        "es_form": "[El sacerdote::ksiądz] trabaja aquí.",
+        "pl_translation": "Ksiądz tu pracuje."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "msza",
     "examples": [
       {
-        "es_form": "[La misa::msza] está sobre la mesa.",
-        "pl_translation": "Msza jest na stole."
+        "es_form": "[La misa::msza] es los domingos.",
+        "pl_translation": "Msza jest w niedziele."
       },
       {
-        "es_form": "Necesito [la misa::msza] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową msza."
+        "es_form": "Voy a [la misa::msza] cada domingo.",
+        "pl_translation": "Chodzę na mszę w każdą niedzielę."
       },
       {
-        "es_form": "[La misa::msza] es de madera.",
-        "pl_translation": "Msza jest z drewna."
+        "es_form": "[La misa::msza] empieza a las diez.",
+        "pl_translation": "Msza zaczyna się o dziesiątej."
       }
     ]
   },
@@ -120,7 +120,7 @@
     "examples": [
       {
         "es_form": "Hablé con [el santo::święty] ayer.",
-        "pl_translation": "Rozmawiałem/am wczoraj z święty."
+        "pl_translation": "Rozmawiałem"
       },
       {
         "es_form": "[El santo::święty] vive en mi calle.",
@@ -142,8 +142,8 @@
         "pl_translation": "Grzech jest kluczem do sukcesu."
       },
       {
-        "es_form": "[El pecado::grzech] cambio mi vida.",
-        "pl_translation": "Grzech zmienił/a moje życie."
+        "es_form": "[El pecado::grzech] cambió mi vida.",
+        "pl_translation": "Grzech zmienił moje życie."
       },
       {
         "es_form": "Tienes que aceptar [el pecado::grzech].",
@@ -154,19 +154,19 @@
   {
     "type": "noun",
     "es_word": "El cielo",
-    "pl_word": "niebo (raj)",
+    "pl_word": "niebo",
     "examples": [
       {
-        "es_form": "Se me rompio [el cielo::niebo (raj)].",
-        "pl_translation": "Zepsuł mi się niebo."
+        "es_form": "[El cielo::niebo] es azul.",
+        "pl_translation": "Niebo jest niebieskie."
       },
       {
-        "es_form": "Guarda [el cielo::niebo (raj)] en el armario.",
-        "pl_translation": "Schowaj niebo do szafy."
+        "es_form": "Creo en [el cielo::niebo].",
+        "pl_translation": "Wierzę w niebo."
       },
       {
-        "es_form": "¿Has visto [el cielo::niebo (raj)]?",
-        "pl_translation": "Widziałeś/aś niebo?"
+        "es_form": "Todos queremos ir al [cielo::niebo].",
+        "pl_translation": "Wszyscy chcemy iść do nieba."
       }
     ]
   },
@@ -176,35 +176,35 @@
     "pl_word": "piekło",
     "examples": [
       {
-        "es_form": "[El infierno::piekło] cuesta diez euros.",
-        "pl_translation": "Piekło kosztuje dziesięć euro."
+        "es_form": "[El infierno::piekło] es un lugar terrible.",
+        "pl_translation": "Piekło jest strasznym miejscem."
       },
       {
-        "es_form": "¿Has visto [el infierno::piekło]?",
-        "pl_translation": "Widziałeś/aś piekło?"
+        "es_form": "¿Has visto el [infierno::piekło]?",
+        "pl_translation": "Widziałeś"
       },
       {
-        "es_form": "Necesito [el infierno::piekło] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową piekło."
+        "es_form": "Nadie quiere ir al [infierno::piekło].",
+        "pl_translation": "Nikt nie chce iść do piekła."
       }
     ]
   },
   {
     "type": "adjective",
     "es_word": "religioso",
-    "pl_word": "wierzący, religijny",
+    "pl_word": "religijny",
     "examples": [
       {
-        "es_form": "Es un lugar [religioso::wierzący, religijny] para vivir.",
-        "pl_translation": "To jest wierzący, religijny miejsce do życia."
+        "es_form": "Es un lugar [religioso::religijny] para vivir.",
+        "pl_translation": "To jest religijne miejsce do życia."
       },
       {
-        "es_form": "Hace un día [religioso::wierzący, religijny].",
-        "pl_translation": "Jest wierzący, religijny dzień."
+        "es_form": "Hace un día [religioso::religijny].",
+        "pl_translation": "Jest religijny dzień."
       },
       {
-        "es_form": "Este coche es [religioso::wierzący, religijny].",
-        "pl_translation": "Ten samochód jest wierzący, religijny."
+        "es_form": "Este coche es [religioso::religijny].",
+        "pl_translation": "Ten samochód jest religijny."
       }
     ]
   },
@@ -218,37 +218,37 @@
         "pl_translation": "Mam święty dom."
       },
       {
-        "es_form": "Se compro un vestido [sagrado::święty].",
-        "pl_translation": "Kupiła sobie święty sukienkę."
+        "es_form": "Se compró un vestido [sagrado::święty].",
+        "pl_translation": "Kupiła sobie świętą sukienkę."
       },
       {
-        "es_form": "Es una persona muy [sagrado::święty].",
-        "pl_translation": "To jest bardzo święty osoba."
+        "es_form": "Es una persona muy [sagrada::święty].",
+        "pl_translation": "To jest bardzo święta osoba."
       }
     ]
   },
   {
     "type": "verb",
     "es_word": "creer",
-    "pl_word": "wierzyć, sądzić",
+    "pl_word": "wierzyć",
     "examples": [
       {
-        "es_form": "Quiero [creer::wierzyć, sądzić] ahora.",
-        "pl_translation": "Chcę wierzyć, sądzić teraz."
+        "es_form": "Quiero [creer::wierzyć] ahora.",
+        "pl_translation": "Chcę teraz wierzyć."
       },
       {
-        "es_form": "Hay que [creer::wierzyć, sądzić] con cuidado.",
-        "pl_translation": "Trzeba wierzyć, sądzić ostrożnie."
+        "es_form": "Hay que [creer::wierzyć] con cuidado.",
+        "pl_translation": "Trzeba wierzyć ostrożnie."
       },
       {
-        "es_form": "Es importante [creer::wierzyć, sądzić] todos los días.",
-        "pl_translation": "Ważne jest wierzyć, sądzić codziennie."
+        "es_form": "Es importante [creer::wierzyć] todos los días.",
+        "pl_translation": "Ważne jest wierzyć codziennie."
       }
     ],
     "forms": [
       {
         "es_word": "creo",
-        "pl_word": "wierzyć (1.os.lp, ter.)",
+        "pl_word": "wierzę",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +256,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [creo::wierzyć (1.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj wierzyć rano."
+            "es_form": "Normalmente [creo::wierzę] por la mañana.",
+            "pl_translation": "Zazwyczaj wierzę rano."
           },
           {
-            "es_form": "[creo::wierzyć (1.os.lp, ter.)] todos los días.",
-            "pl_translation": "Wierzyć codziennie."
+            "es_form": "[creo::wierzę] todos los días.",
+            "pl_translation": "Wierzę codziennie."
           },
           {
-            "es_form": "[creo::wierzyć (1.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Wierzyć tak jak mnie nauczyłeś/aś."
+            "es_form": "[creo::wierzę] como me enseñaste.",
+            "pl_translation": "Wierzę tak, jak mnie nauczyłeś"
           }
         ]
       },
       {
         "es_word": "crees",
-        "pl_word": "wierzyć (2.os.lp, ter.)",
+        "pl_word": "wierzysz",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +279,22 @@
         },
         "examples": [
           {
-            "es_form": "No [crees::wierzyć (2.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie wierzyć zbyt dobrze."
+            "es_form": "No [crees::wierzysz] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie wierzysz zbyt dobrze."
           },
           {
-            "es_form": "[crees::wierzyć (2.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Wierzyć tak jak mnie nauczyłeś/aś."
+            "es_form": "[crees::wierzysz] como me enseñaste.",
+            "pl_translation": "Wierzysz tak, jak cię nauczono."
           },
           {
-            "es_form": "¿[crees::wierzyć (2.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy wierzyć w weekendy?"
+            "es_form": "¿[crees::wierzysz] los fines de semana?",
+            "pl_translation": "Czy wierzysz w weekendy?"
           }
         ]
       },
       {
         "es_word": "cree",
-        "pl_word": "wierzyć (3.os.lp, ter.)",
+        "pl_word": "wierzy",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +302,22 @@
         },
         "examples": [
           {
-            "es_form": "[cree::wierzyć (3.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Wierzyć tak jak mnie nauczyłeś/aś."
+            "es_form": "[cree::wierzy] como me enseñaste.",
+            "pl_translation": "Wierzy tak, jak go nauczono."
           },
           {
-            "es_form": "No [cree::wierzyć (3.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie wierzyć zbyt dobrze."
+            "es_form": "No [cree::wierzy] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie wierzy zbyt dobrze."
           },
           {
-            "es_form": "Siempre [cree::wierzyć (3.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze wierzyć z uwagą."
+            "es_form": "Siempre [cree::wierzy] con atención.",
+            "pl_translation": "Zawsze wierzy z uwagą."
           }
         ]
       },
       {
         "es_word": "creemos",
-        "pl_word": "wierzyć (1.os.lm, ter.)",
+        "pl_word": "wierzymy",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +325,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[creemos::wierzyć (1.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy wierzyć w weekendy?"
+            "es_form": "¿[creemos::wierzymy] los fines de semana?",
+            "pl_translation": "Czy wierzymy w weekendy?"
           },
           {
-            "es_form": "Siempre [creemos::wierzyć (1.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze wierzyć z uwagą."
+            "es_form": "Siempre [creemos::wierzymy] con atención.",
+            "pl_translation": "Zawsze wierzymy z uwagą."
           },
           {
-            "es_form": "[creemos::wierzyć (1.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Wierzyć tak jak mnie nauczyłeś/aś."
+            "es_form": "[creemos::wierzymy] como me enseñaste.",
+            "pl_translation": "Wierzymy tak, jak nas nauczono."
           }
         ]
       },
       {
         "es_word": "creéis",
-        "pl_word": "wierzyć (2.os.lm, ter.)",
+        "pl_word": "wierzycie",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +348,22 @@
         },
         "examples": [
           {
-            "es_form": "[creéis::wierzyć (2.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Wierzyć tak jak mnie nauczyłeś/aś."
+            "es_form": "[creéis::wierzycie] como me enseñaste.",
+            "pl_translation": "Wierzycie tak, jak was nauczono."
           },
           {
-            "es_form": "No [creéis::wierzyć (2.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie wierzyć zbyt dobrze."
+            "es_form": "No [creéis::wierzycie] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie wierzycie zbyt dobrze."
           },
           {
-            "es_form": "Siempre [creéis::wierzyć (2.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze wierzyć z uwagą."
+            "es_form": "Siempre [creéis::wierzycie] con atención.",
+            "pl_translation": "Zawsze wierzycie z uwagą."
           }
         ]
       },
       {
         "es_word": "creen",
-        "pl_word": "wierzyć (3.os.lm, ter.)",
+        "pl_word": "wierzą",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +371,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [creen::wierzyć (3.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj wierzyć rano."
+            "es_form": "Normalmente [creen::wierzą] por la mañana.",
+            "pl_translation": "Zazwyczaj wierzą rano."
           },
           {
-            "es_form": "[creen::wierzyć (3.os.lm, ter.)] todos los días.",
-            "pl_translation": "Wierzyć codziennie."
+            "es_form": "[creen::wierzą] todos los días.",
+            "pl_translation": "Wierzą codziennie."
           },
           {
-            "es_form": "[creen::wierzyć (3.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Wierzyć tak jak mnie nauczyłeś/aś."
+            "es_form": "[creen::wierzą] como me enseñaste.",
+            "pl_translation": "Wierzą tak, jak ich nauczono."
           }
         ]
       },
       {
         "es_word": "creí",
-        "pl_word": "wierzyć (1.os.lp, przesz.)",
+        "pl_word": "wierzyłem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "[creí::wierzyć (1.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Wierzyć w zeszłym tygodniu."
+            "es_form": "[creí::wierzyłem] la semana pasada.",
+            "pl_translation": "Wierzyłem"
           },
           {
-            "es_form": "Ayer [creí::wierzyć (1.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj wierzyć cały dzień."
+            "es_form": "Ayer [creí::wierzyłem] todo el día.",
+            "pl_translation": "Wczoraj wierzyłem"
           },
           {
-            "es_form": "¿[creí::wierzyć (1.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy wierzyć dobrze egzamin?"
+            "es_form": "¿[creí::wierzyłem] bien el examen?",
+            "pl_translation": "Czy dobrze wierzyłem"
           }
         ]
       },
       {
         "es_word": "creíste",
-        "pl_word": "wierzyć (2.os.lp, przesz.)",
+        "pl_word": "wierzyłeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [creíste::wierzyć (2.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie wierzyć czegoś takiego."
+            "es_form": "Nunca [creíste::wierzyłeś] algo así antes.",
+            "pl_translation": "Nigdy wcześniej w coś takiego nie wierzyłeś"
           },
           {
-            "es_form": "[creíste::wierzyć (2.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Wierzyć w zeszłym tygodniu."
+            "es_form": "[creíste::wierzyłeś] la semana pasada.",
+            "pl_translation": "Wierzyłeś"
           },
           {
-            "es_form": "¿[creíste::wierzyć (2.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy wierzyć dobrze egzamin?"
+            "es_form": "¿[creíste::wierzyłeś] bien el examen?",
+            "pl_translation": "Czy dobrze wierzyłeś"
           }
         ]
       },
       {
         "es_word": "creyó",
-        "pl_word": "wierzyć (3.os.lp, przesz.)",
+        "pl_word": "wierzył",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [creyó::wierzyć (3.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie wierzyć czegoś takiego."
+            "es_form": "Nunca [creyó::wierzył] algo así antes.",
+            "pl_translation": "Nigdy wcześniej w coś takiego nie wierzył"
           },
           {
-            "es_form": "[creyó::wierzyć (3.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Wierzyć bez przerwy przez wiele godzin."
+            "es_form": "[creyó::wierzył] sin parar durante horas.",
+            "pl_translation": "Wierzył"
           },
           {
-            "es_form": "[creyó::wierzyć (3.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Wierzyć w zeszłym tygodniu."
+            "es_form": "[creyó::wierzył] la semana pasada.",
+            "pl_translation": "Wierzył"
           }
         ]
       },
       {
         "es_word": "creímos",
-        "pl_word": "wierzyć (1.os.lm, przesz.)",
+        "pl_word": "wierzyliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [creímos::wierzyć (1.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj wierzyć cały dzień."
+            "es_form": "Ayer [creímos::wierzyliśmy] todo el día.",
+            "pl_translation": "Wczoraj wierzyliśmy"
           },
           {
-            "es_form": "El mes pasado no [creímos::wierzyć (1.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie wierzyć."
+            "es_form": "El mes pasado no [creímos::wierzyliśmy] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie wierzyliśmy"
           },
           {
-            "es_form": "¿[creímos::wierzyć (1.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy wierzyć dobrze egzamin?"
+            "es_form": "¿[creímos::wierzyliśmy] bien el examen?",
+            "pl_translation": "Czy dobrze wierzyliśmy"
           }
         ]
       },
       {
         "es_word": "creísteis",
-        "pl_word": "wierzyć (2.os.lm, przesz.)",
+        "pl_word": "wierzyliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "[creísteis::wierzyć (2.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Wierzyć w zeszłym tygodniu."
+            "es_form": "[creísteis::wierzyliście] la semana pasada.",
+            "pl_translation": "Wierzyliście"
           },
           {
-            "es_form": "¿[creísteis::wierzyć (2.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy wierzyć dobrze egzamin?"
+            "es_form": "¿[creísteis::wierzyliście] bien el examen?",
+            "pl_translation": "Czy dobrze wierzyliście"
           },
           {
-            "es_form": "Ayer [creísteis::wierzyć (2.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj wierzyć cały dzień."
+            "es_form": "Ayer [creísteis::wierzyliście] todo el día.",
+            "pl_translation": "Wczoraj wierzyliście"
           }
         ]
       },
       {
         "es_word": "creyeron",
-        "pl_word": "wierzyć (3.os.lm, przesz.)",
+        "pl_word": "wierzyli",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +509,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [creyeron::wierzyć (3.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj wierzyć cały dzień."
+            "es_form": "Ayer [creyeron::wierzyli] todo el día.",
+            "pl_translation": "Wczoraj wierzyli"
           },
           {
-            "es_form": "[creyeron::wierzyć (3.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Wierzyć w zeszłym tygodniu."
+            "es_form": "[creyeron::wierzyli] la semana pasada.",
+            "pl_translation": "Wierzyli"
           },
           {
-            "es_form": "Nunca [creyeron::wierzyć (3.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie wierzyć czegoś takiego."
+            "es_form": "Nunca [creyeron::wierzyli] algo así antes.",
+            "pl_translation": "Nigdy wcześniej w coś takiego nie wierzyli"
           }
         ]
       },
       {
         "es_word": "creeré",
-        "pl_word": "wierzyć (1.os.lp, przysz.)",
+        "pl_word": "będę wierzył",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +532,22 @@
         },
         "examples": [
           {
-            "es_form": "Te prometo que [creeré::wierzyć (1.os.lp, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że wierzyć na czas."
+            "es_form": "Te prometo que [creeré::będę wierzył] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będę wierzył"
           },
           {
-            "es_form": "Creo que [creeré::wierzyć (1.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że wierzyć dobrze."
+            "es_form": "Creo que [creeré::będę wierzył] bien.",
+            "pl_translation": "Myślę, że będę wierzył"
           },
           {
-            "es_form": "Mañana [creeré::wierzyć (1.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro wierzyć wcześniej."
+            "es_form": "Mañana [creeré::będę wierzył] más temprano.",
+            "pl_translation": "Jutro będę wierzył"
           }
         ]
       },
       {
         "es_word": "creerás",
-        "pl_word": "wierzyć (2.os.lp, przysz.)",
+        "pl_word": "będziesz wierzył",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +555,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [creerás::wierzyć (2.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że wierzyć dobrze."
+            "es_form": "Creo que [creerás::będziesz wierzył] bien.",
+            "pl_translation": "Myślę, że będziesz wierzył"
           },
           {
-            "es_form": "¿[creerás::wierzyć (2.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy wierzyć z nami jutro?"
+            "es_form": "¿[creerás::będziesz wierzył] con nosotros mañana?",
+            "pl_translation": "Czy będziesz wierzył"
           },
           {
-            "es_form": "[creerás::wierzyć (2.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Wierzyć w przyszłym tygodniu."
+            "es_form": "[creerás::będziesz wierzył] la próxima semana.",
+            "pl_translation": "Będziesz wierzył"
           }
         ]
       },
       {
         "es_word": "creerá",
-        "pl_word": "wierzyć (3.os.lp, przysz.)",
+        "pl_word": "będzie wierzył",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +578,22 @@
         },
         "examples": [
           {
-            "es_form": "[creerá::wierzyć (3.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Wierzyć w przyszłym tygodniu."
+            "es_form": "[creerá::będzie wierzył] la próxima semana.",
+            "pl_translation": "Będzie wierzył"
           },
           {
-            "es_form": "El año que viene [creerá::wierzyć (3.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku wierzyć w Hiszpanii."
+            "es_form": "El año que viene [creerá::będzie wierzył] en España.",
+            "pl_translation": "W przyszłym roku będzie wierzył"
           },
           {
-            "es_form": "¿[creerá::wierzyć (3.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy wierzyć z nami jutro?"
+            "es_form": "¿[creerá::będzie wierzył] con nosotros mañana?",
+            "pl_translation": "Czy będzie wierzył"
           }
         ]
       },
       {
         "es_word": "creeremos",
-        "pl_word": "wierzyć (1.os.lm, przysz.)",
+        "pl_word": "będziemy wierzyli",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +601,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [creeremos::wierzyć (1.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że wierzyć dobrze."
+            "es_form": "Creo que [creeremos::będziemy wierzyli] bien.",
+            "pl_translation": "Myślę, że będziemy wierzyli"
           },
           {
-            "es_form": "Mañana [creeremos::wierzyć (1.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro wierzyć wcześniej."
+            "es_form": "Mañana [creeremos::będziemy wierzyli] más temprano.",
+            "pl_translation": "Jutro będziemy wierzyli"
           },
           {
-            "es_form": "El año que viene [creeremos::wierzyć (1.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku wierzyć w Hiszpanii."
+            "es_form": "El año que viene [creeremos::będziemy wierzyli] en España.",
+            "pl_translation": "W przyszłym roku będziemy wierzyli"
           }
         ]
       },
       {
         "es_word": "creeréis",
-        "pl_word": "wierzyć (2.os.lm, przysz.)",
+        "pl_word": "będziecie wierzyli",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +624,22 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [creeréis::wierzyć (2.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro wierzyć wcześniej."
+            "es_form": "Mañana [creeréis::będziecie wierzyli] más temprano.",
+            "pl_translation": "Jutro będziecie wierzyli"
           },
           {
-            "es_form": "Te prometo que [creeréis::wierzyć (2.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że wierzyć na czas."
+            "es_form": "Te prometo que [creeréis::będziecie wierzyli] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziecie wierzyli"
           },
           {
-            "es_form": "Creo que [creeréis::wierzyć (2.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że wierzyć dobrze."
+            "es_form": "Creo que [creeréis::będziecie wierzyli] bien.",
+            "pl_translation": "Myślę, że będziecie wierzyli"
           }
         ]
       },
       {
         "es_word": "creerán",
-        "pl_word": "wierzyć (3.os.lm, przysz.)",
+        "pl_word": "będą wierzyli",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +647,16 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [creerán::wierzyć (3.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że wierzyć dobrze."
+            "es_form": "Creo que [creerán::będą wierzyli] bien.",
+            "pl_translation": "Myślę, że będą wierzyli"
           },
           {
-            "es_form": "Te prometo que [creerán::wierzyć (3.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że wierzyć na czas."
+            "es_form": "Te prometo que [creerán::będą wierzyli] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będą wierzyli"
           },
           {
-            "es_form": "¿[creerán::wierzyć (3.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy wierzyć z nami jutro?"
+            "es_form": "¿[creerán::będą wierzyli] con nosotros mañana?",
+            "pl_translation": "Czy będą wierzyli"
           }
         ]
       }

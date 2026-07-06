@@ -1,19 +1,19 @@
 [
   {
     "type": "noun",
-    "es_word": "El colección",
+    "es_word": "La colección",
     "pl_word": "kolekcja",
     "examples": [
       {
-        "es_form": "Se me rompio [el colección::kolekcja].",
-        "pl_translation": "Zepsuł mi się kolekcja."
+        "es_form": "Se me rompió [el colección::kolekcja].",
+        "pl_translation": "Zepsuła mi się kolekcja."
       },
       {
-        "es_form": "[El colección::kolekcja] cuesta diez euros.",
+        "es_form": "[La colección::kolekcja] cuesta diez euros.",
         "pl_translation": "Kolekcja kosztuje dziesięć euro."
       },
       {
-        "es_form": "[El colección::kolekcja] es de madera.",
+        "es_form": "[La colección::kolekcja] es de madera.",
         "pl_translation": "Kolekcja jest z drewna."
       }
     ]
@@ -24,8 +24,8 @@
     "pl_word": "fotografia",
     "examples": [
       {
-        "es_form": "Necesito [la fotografía::fotografia] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową fotografia."
+        "es_form": "Necesito [la fotografía::fotografia] nueva.",
+        "pl_translation": "Potrzebuję nową fotografię."
       },
       {
         "es_form": "[La fotografía::fotografia] está sobre la mesa.",
@@ -43,8 +43,8 @@
     "pl_word": "rysunek",
     "examples": [
       {
-        "es_form": "Se me rompio [el dibujo::rysunek].",
-        "pl_translation": "Zepsuł mi się rysunek."
+        "es_form": "Se me rompió [el dibujo::rysunek].",
+        "pl_translation": "Zniszczył mi się rysunek."
       },
       {
         "es_form": "Guarda [el dibujo::rysunek] en el armario.",
@@ -52,7 +52,7 @@
       },
       {
         "es_form": "Necesito [el dibujo::rysunek] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową rysunek."
+        "pl_translation": "Potrzebuję nowy rysunek."
       }
     ]
   },
@@ -67,11 +67,11 @@
       },
       {
         "es_form": "Necesito [el baile::taniec] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową taniec."
+        "pl_translation": "Potrzebuję nowy taniec."
       },
       {
         "es_form": "Compré [el baile::taniec] ayer.",
-        "pl_translation": "Kupiłem/am taniec wczoraj."
+        "pl_translation": "Kupiłem"
       }
     ]
   },
@@ -81,7 +81,7 @@
     "pl_word": "śpiew",
     "examples": [
       {
-        "es_form": "Se me rompio [el canto::śpiew].",
+        "es_form": "Se me rompió [el canto::śpiew].",
         "pl_translation": "Zepsuł mi się śpiew."
       },
       {
@@ -90,7 +90,7 @@
       },
       {
         "es_form": "Compré [el canto::śpiew] ayer.",
-        "pl_translation": "Kupiłem/am śpiew wczoraj."
+        "pl_translation": "Kupiłem"
       }
     ]
   },
@@ -108,7 +108,7 @@
         "pl_translation": "Wędkarstwo kosztuje dziesięć euro."
       },
       {
-        "es_form": "Se me rompio [la pesca::wędkarstwo].",
+        "es_form": "Se me rompió [la pesca::wędkarstwo].",
         "pl_translation": "Zepsuł mi się wędkarstwo."
       }
     ]
@@ -119,12 +119,12 @@
     "pl_word": "ogrodnictwo",
     "examples": [
       {
-        "es_form": "Se me rompio [la jardinería::ogrodnictwo].",
+        "es_form": "Se me rompió [la jardinería::ogrodnictwo].",
         "pl_translation": "Zepsuł mi się ogrodnictwo."
       },
       {
         "es_form": "¿Has visto [la jardinería::ogrodnictwo]?",
-        "pl_translation": "Widziałeś/aś ogrodnictwo?"
+        "pl_translation": "Widziałeś"
       },
       {
         "es_form": "[La jardinería::ogrodnictwo] es de madera.",
@@ -143,7 +143,7 @@
       },
       {
         "es_form": "Necesito [el bricolaje::majsterkowanie] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową majsterkowanie."
+        "pl_translation": "Potrzebuję nowe majsterkowanie."
       },
       {
         "es_form": "Guarda [el bricolaje::majsterkowanie] en el armario.",
@@ -166,7 +166,7 @@
       },
       {
         "es_form": "Compré [la crucigrama::krzyżówka] ayer.",
-        "pl_translation": "Kupiłem/am krzyżówka wczoraj."
+        "pl_translation": "Kupiłem"
       }
     ]
   },
@@ -177,15 +177,15 @@
     "examples": [
       {
         "es_form": "Necesito [la ajedrez::szachy] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową szachy."
+        "pl_translation": "Potrzebuję nowe szachy."
       },
       {
         "es_form": "¿Has visto [la ajedrez::szachy]?",
-        "pl_translation": "Widziałeś/aś szachy?"
+        "pl_translation": "Widziałeś"
       },
       {
         "es_form": "[La ajedrez::szachy] es de madera.",
-        "pl_translation": "Szachy jest z drewna."
+        "pl_translation": "Szachy są z drewna."
       }
     ]
   },
@@ -204,7 +204,7 @@
       },
       {
         "es_form": "Es una persona muy [creativo::kreatywny].",
-        "pl_translation": "To jest bardzo kreatywny osoba."
+        "pl_translation": "To jest bardzo kreatywna osoba."
       }
     ]
   },
@@ -219,11 +219,11 @@
       },
       {
         "es_form": "La comida está [relajante::relaksujący].",
-        "pl_translation": "Jedzenie jest relaksujący."
+        "pl_translation": "Jedzenie jest relaksujące."
       },
       {
         "es_form": "Nada es más [relajante::relaksujący] que la familia.",
-        "pl_translation": "Nic nie jest relaksujący od rodziny."
+        "pl_translation": "Nic nie jest bardziej relaksujące niż rodzina."
       }
     ]
   },
@@ -248,7 +248,7 @@
     "forms": [
       {
         "es_word": "colecciono",
-        "pl_word": "zbierać (1.os.lp, ter.)",
+        "pl_word": "zbieram",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +256,22 @@
         },
         "examples": [
           {
-            "es_form": "Siempre [colecciono::zbierać (1.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze zbierać z uwagą."
+            "es_form": "Siempre [colecciono::zbieram] con atencion.",
+            "pl_translation": "Zawsze zbieram z uwagą."
           },
           {
-            "es_form": "[colecciono::zbierać (1.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Zbierać tak jak mnie nauczyłeś/aś."
+            "es_form": "[colecciono::zbieram] como me enseñaste.",
+            "pl_translation": "Zbieram tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "¿[colecciono::zbierać (1.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy zbierać w weekendy?"
+            "es_form": "¿[colecciono::zbieram] los fines de semana?",
+            "pl_translation": "Czy zbieram w weekendy?"
           }
         ]
       },
       {
         "es_word": "coleccionas",
-        "pl_word": "zbierać (2.os.lp, ter.)",
+        "pl_word": "zbierasz",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +279,22 @@
         },
         "examples": [
           {
-            "es_form": "No [coleccionas::zbierać (2.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie zbierać zbyt dobrze."
+            "es_form": "No [coleccionas::zbierasz] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie zbierasz zbyt dobrze."
           },
           {
-            "es_form": "¿[coleccionas::zbierać (2.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy zbierać w weekendy?"
+            "es_form": "¿[coleccionas::zbierasz] los fines de semana?",
+            "pl_translation": "Czy zbierasz w weekendy?"
           },
           {
-            "es_form": "Siempre [coleccionas::zbierać (2.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze zbierać z uwagą."
+            "es_form": "Siempre [coleccionas::zbierasz] con atencion.",
+            "pl_translation": "Zawsze zbierasz z uwagą."
           }
         ]
       },
       {
         "es_word": "colecciona",
-        "pl_word": "zbierać (3.os.lp, ter.)",
+        "pl_word": "zbiera",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +302,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[colecciona::zbierać (3.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy zbierać w weekendy?"
+            "es_form": "¿[colecciona::zbiera] los fines de semana?",
+            "pl_translation": "Czy zbiera w weekendy?"
           },
           {
-            "es_form": "No [colecciona::zbierać (3.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie zbierać zbyt dobrze."
+            "es_form": "No [colecciona::zbiera] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie zbiera zbyt dobrze."
           },
           {
-            "es_form": "[colecciona::zbierać (3.os.lp, ter.)] como me enseñaste.",
-            "pl_translation": "Zbierać tak jak mnie nauczyłeś/aś."
+            "es_form": "[colecciona::zbiera] como me enseñaste.",
+            "pl_translation": "Zbiera tak jak mnie nauczyłeś"
           }
         ]
       },
       {
         "es_word": "coleccionamos",
-        "pl_word": "zbierać (1.os.lm, ter.)",
+        "pl_word": "zbieramy",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +325,22 @@
         },
         "examples": [
           {
-            "es_form": "No [coleccionamos::zbierać (1.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie zbierać zbyt dobrze."
+            "es_form": "No [coleccionamos::zbieramy] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie zbieramy zbyt dobrze."
           },
           {
-            "es_form": "[coleccionamos::zbierać (1.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Zbierać tak jak mnie nauczyłeś/aś."
+            "es_form": "[coleccionamos::zbieramy] como me enseñaste.",
+            "pl_translation": "Zbieramy tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "[coleccionamos::zbierać (1.os.lm, ter.)] todos los días.",
-            "pl_translation": "Zbierać codziennie."
+            "es_form": "[coleccionamos::zbieramy] todos los días.",
+            "pl_translation": "Zbieramy codziennie."
           }
         ]
       },
       {
         "es_word": "coleccionáis",
-        "pl_word": "zbierać (2.os.lm, ter.)",
+        "pl_word": "zbieracie",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +348,22 @@
         },
         "examples": [
           {
-            "es_form": "[coleccionáis::zbierać (2.os.lm, ter.)] todos los días.",
-            "pl_translation": "Zbierać codziennie."
+            "es_form": "[coleccionáis::zbieracie] todos los días.",
+            "pl_translation": "Zbieracie codziennie."
           },
           {
-            "es_form": "¿[coleccionáis::zbierać (2.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy zbierać w weekendy?"
+            "es_form": "¿[coleccionáis::zbieracie] los fines de semana?",
+            "pl_translation": "Czy zbieracie w weekendy?"
           },
           {
-            "es_form": "No [coleccionáis::zbierać (2.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie zbierać zbyt dobrze."
+            "es_form": "No [coleccionáis::zbieracie] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie zbieracie zbyt dobrze."
           }
         ]
       },
       {
         "es_word": "coleccionan",
-        "pl_word": "zbierać (3.os.lm, ter.)",
+        "pl_word": "zbierają",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +371,22 @@
         },
         "examples": [
           {
-            "es_form": "[coleccionan::zbierać (3.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Zbierać tak jak mnie nauczyłeś/aś."
+            "es_form": "[coleccionan::zbierają] como me enseñaste.",
+            "pl_translation": "Zbierają tak jak mnie nauczyłeś"
           },
           {
-            "es_form": "No [coleccionan::zbierać (3.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie zbierać zbyt dobrze."
+            "es_form": "No [coleccionan::zbierają] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie zbierają zbyt dobrze."
           },
           {
-            "es_form": "[coleccionan::zbierać (3.os.lm, ter.)] todos los días.",
-            "pl_translation": "Zbierać codziennie."
+            "es_form": "[coleccionan::zbierają] todos los días.",
+            "pl_translation": "Zbierają codziennie."
           }
         ]
       },
       {
         "es_word": "coleccioné",
-        "pl_word": "zbierać (1.os.lp, przesz.)",
+        "pl_word": "zbierałem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [coleccioné::zbierać (1.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie zbierać czegoś takiego."
+            "es_form": "Nunca [coleccioné::zbierałem] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie zbierałem"
           },
           {
-            "es_form": "[coleccioné::zbierać (1.os.lp, przesz.)] sin parar durante horas.",
-            "pl_translation": "Zbierać bez przerwy przez wiele godzin."
+            "es_form": "[coleccioné::zbierałem] sin parar durante horas.",
+            "pl_translation": "Zbierałem"
           },
           {
-            "es_form": "Ayer [coleccioné::zbierać (1.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj zbierać cały dzień."
+            "es_form": "Ayer [coleccioné::zbierałem] todo el día.",
+            "pl_translation": "Wczoraj zbierałem"
           }
         ]
       },
       {
         "es_word": "coleccionaste",
-        "pl_word": "zbierać (2.os.lp, przesz.)",
+        "pl_word": "zbierałeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [coleccionaste::zbierać (2.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie zbierać czegoś takiego."
+            "es_form": "Nunca [coleccionaste::zbierałeś] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie zbierałeś"
           },
           {
-            "es_form": "[coleccionaste::zbierać (2.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Zbierać w zeszłym tygodniu."
+            "es_form": "[coleccionaste::zbierałeś] la semana pasada.",
+            "pl_translation": "Zbierałeś"
           },
           {
-            "es_form": "¿[coleccionaste::zbierać (2.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy zbierać dobrze egzamin?"
+            "es_form": "¿[coleccionaste::zbierałeś] bien el examen?",
+            "pl_translation": "Czy zbierałeś"
           }
         ]
       },
       {
         "es_word": "coleccionó",
-        "pl_word": "zbierać (3.os.lp, przesz.)",
+        "pl_word": "zbierał",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[coleccionó::zbierać (3.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy zbierać dobrze egzamin?"
+            "es_form": "¿[coleccionó::zbierał] bien el examen?",
+            "pl_translation": "Czy zbierał"
           },
           {
-            "es_form": "Ayer [coleccionó::zbierać (3.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj zbierać cały dzień."
+            "es_form": "Ayer [coleccionó::zbierał] todo el día.",
+            "pl_translation": "Wczoraj zbierał"
           },
           {
-            "es_form": "Nunca [coleccionó::zbierać (3.os.lp, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie zbierać czegoś takiego."
+            "es_form": "Nunca [coleccionó::zbierał] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie zbierał"
           }
         ]
       },
       {
         "es_word": "coleccionamos",
-        "pl_word": "zbierać (1.os.lm, przesz.)",
+        "pl_word": "zbieraliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "[coleccionamos::zbierać (1.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Zbierać w zeszłym tygodniu."
+            "es_form": "[coleccionamos::zbieraliśmy] la semana pasada.",
+            "pl_translation": "Zbieraliśmy"
           },
           {
-            "es_form": "[coleccionamos::zbierać (1.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Zbierać bez przerwy przez wiele godzin."
+            "es_form": "[coleccionamos::zbieraliśmy] sin parar durante horas.",
+            "pl_translation": "Zbieraliśmy"
           },
           {
-            "es_form": "El mes pasado no [coleccionamos::zbierać (1.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie zbierać."
+            "es_form": "El mes pasado no [coleccionamos::zbieraliśmy] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie zbieraliśmy"
           }
         ]
       },
       {
         "es_word": "coleccionasteis",
-        "pl_word": "zbierać (2.os.lm, przesz.)",
+        "pl_word": "zbieraliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [coleccionasteis::zbierać (2.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj zbierać cały dzień."
+            "es_form": "Ayer [coleccionasteis::zbieraliście] todo el día.",
+            "pl_translation": "Wczoraj zbieraliście"
           },
           {
-            "es_form": "[coleccionasteis::zbierać (2.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Zbierać bez przerwy przez wiele godzin."
+            "es_form": "[coleccionasteis::zbieraliście] sin parar durante horas.",
+            "pl_translation": "Zbieraliście"
           },
           {
-            "es_form": "¿[coleccionasteis::zbierać (2.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy zbierać dobrze egzamin?"
+            "es_form": "¿[coleccionasteis::zbieraliście] bien el examen?",
+            "pl_translation": "Czy zbieraliście"
           }
         ]
       },
       {
         "es_word": "coleccionaron",
-        "pl_word": "zbierać (3.os.lm, przesz.)",
+        "pl_word": "zbierali",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +509,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [coleccionaron::zbierać (3.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj zbierać cały dzień."
+            "es_form": "Ayer [coleccionaron::zbierali] todo el día.",
+            "pl_translation": "Wczoraj zbierali"
           },
           {
-            "es_form": "El mes pasado no [coleccionaron::zbierać (3.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie zbierać."
+            "es_form": "El mes pasado no [coleccionaron::zbierali] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie zbierali"
           },
           {
-            "es_form": "[coleccionaron::zbierać (3.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Zbierać bez przerwy przez wiele godzin."
+            "es_form": "[coleccionaron::zbierali] sin parar durante horas.",
+            "pl_translation": "Zbierali"
           }
         ]
       },
       {
         "es_word": "coleccioné",
-        "pl_word": "zbierać (1.os.lp, przysz.)",
+        "pl_word": "będę zbierał",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +532,22 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [coleccioné::zbierać (1.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku zbierać w Hiszpanii."
+            "es_form": "El año que viene [coleccioné::będę zbierał] en España.",
+            "pl_translation": "W przyszłym roku będę zbierał"
           },
           {
-            "es_form": "Mañana [coleccioné::zbierać (1.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro zbierać wcześniej."
+            "es_form": "Mañana [coleccioné::będę zbierał] más temprano.",
+            "pl_translation": "Jutro będę zbierał"
           },
           {
-            "es_form": "¿[coleccioné::zbierać (1.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy zbierać z nami jutro?"
+            "es_form": "¿[coleccioné::będę zbierał] con nosotros mañana?",
+            "pl_translation": "Czy będę zbierał"
           }
         ]
       },
       {
         "es_word": "coleccionás",
-        "pl_word": "zbierać (2.os.lp, przysz.)",
+        "pl_word": "będziesz zbierał",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +555,22 @@
         },
         "examples": [
           {
-            "es_form": "[coleccionás::zbierać (2.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Zbierać w przyszłym tygodniu."
+            "es_form": "[coleccionás::będziesz zbierał] la proxima semana.",
+            "pl_translation": "Będziesz zbierał"
           },
           {
-            "es_form": "Mañana [coleccionás::zbierać (2.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro zbierać wcześniej."
+            "es_form": "Mañana [coleccionás::będziesz zbierał] más temprano.",
+            "pl_translation": "Jutro będziesz zbierał"
           },
           {
-            "es_form": "El año que viene [coleccionás::zbierać (2.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku zbierać w Hiszpanii."
+            "es_form": "El año que viene [coleccionás::będziesz zbierał] en España.",
+            "pl_translation": "W przyszłym roku będziesz zbierał"
           }
         ]
       },
       {
         "es_word": "coleccioná",
-        "pl_word": "zbierać (3.os.lp, przysz.)",
+        "pl_word": "będzie zbierał",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +578,22 @@
         },
         "examples": [
           {
-            "es_form": "El año que viene [coleccioná::zbierać (3.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku zbierać w Hiszpanii."
+            "es_form": "El año que viene [coleccioná::będzie zbierał] en España.",
+            "pl_translation": "W przyszłym roku będzie zbierał"
           },
           {
-            "es_form": "Creo que [coleccioná::zbierać (3.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że zbierać dobrze."
+            "es_form": "Creo que [coleccioná::będzie zbierał] bien.",
+            "pl_translation": "Myślę, że będzie zbierał"
           },
           {
-            "es_form": "Mañana [coleccioná::zbierać (3.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro zbierać wcześniej."
+            "es_form": "Mañana [coleccioná::będzie zbierał] más temprano.",
+            "pl_translation": "Jutro będzie zbierał"
           }
         ]
       },
       {
         "es_word": "coleccionemos",
-        "pl_word": "zbierać (1.os.lm, przysz.)",
+        "pl_word": "będziemy zbierali",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +601,22 @@
         },
         "examples": [
           {
-            "es_form": "[coleccionemos::zbierać (1.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Zbierać w przyszłym tygodniu."
+            "es_form": "[coleccionemos::będziemy zbierali] la proxima semana.",
+            "pl_translation": "Będziemy zbierali"
           },
           {
-            "es_form": "¿[coleccionemos::zbierać (1.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy zbierać z nami jutro?"
+            "es_form": "¿[coleccionemos::będziemy zbierali] con nosotros mañana?",
+            "pl_translation": "Czy będziemy zbierali"
           },
           {
-            "es_form": "Creo que [coleccionemos::zbierać (1.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że zbierać dobrze."
+            "es_form": "Creo que [coleccionemos::będziemy zbierali] bien.",
+            "pl_translation": "Myślę, że będziemy zbierali"
           }
         ]
       },
       {
         "es_word": "coleccionéis",
-        "pl_word": "zbierać (2.os.lm, przysz.)",
+        "pl_word": "będziecie zbierali",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +624,22 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [coleccionéis::zbierać (2.os.lm, przysz.)] más temprano.",
-            "pl_translation": "Jutro zbierać wcześniej."
+            "es_form": "Mañana [coleccionéis::będziecie zbierali] más temprano.",
+            "pl_translation": "Jutro będziecie zbierali"
           },
           {
-            "es_form": "El año que viene [coleccionéis::zbierać (2.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku zbierać w Hiszpanii."
+            "es_form": "El año que viene [coleccionéis::będziecie zbierali] en España.",
+            "pl_translation": "W przyszłym roku będziecie zbierali"
           },
           {
-            "es_form": "[coleccionéis::zbierać (2.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Zbierać w przyszłym tygodniu."
+            "es_form": "[coleccionéis::będziecie zbierali] la proxima semana.",
+            "pl_translation": "Będziecie zbierali"
           }
         ]
       },
       {
         "es_word": "coleccionán",
-        "pl_word": "zbierać (3.os.lm, przysz.)",
+        "pl_word": "będą zbierali",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +647,16 @@
         },
         "examples": [
           {
-            "es_form": "[coleccionán::zbierać (3.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Zbierać w przyszłym tygodniu."
+            "es_form": "[coleccionán::będą zbierali] la proxima semana.",
+            "pl_translation": "Będą zbierali"
           },
           {
-            "es_form": "Te prometo que [coleccionán::zbierać (3.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że zbierać na czas."
+            "es_form": "Te prometo que [coleccionán::będą zbierali] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będą zbierali"
           },
           {
-            "es_form": "Creo que [coleccionán::zbierać (3.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że zbierać dobrze."
+            "es_form": "Creo que [coleccionán::będą zbierali] bien.",
+            "pl_translation": "Myślę, że będą zbierali"
           }
         ]
       }

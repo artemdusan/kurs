@@ -10,7 +10,7 @@
       },
       {
         "es_form": "Tienes [la cabeza::głowa] muy fuerte.",
-        "pl_translation": "Masz bardzo silny/a głowa."
+        "pl_translation": "Masz bardzo silny"
       },
       {
         "es_form": "Me duele [la cabeza::głowa].",
@@ -33,7 +33,7 @@
       },
       {
         "es_form": "Tienes [la mano::ręka, dłoń] muy fuerte.",
-        "pl_translation": "Masz bardzo silny/a ręka, dłoń."
+        "pl_translation": "Masz bardzo silny"
       }
     ]
   },
@@ -52,7 +52,7 @@
       },
       {
         "es_form": "¿Has visto [el brazo::ramię]?",
-        "pl_translation": "Widziałeś/aś ramię?"
+        "pl_translation": "Widziałeś"
       }
     ]
   },
@@ -67,7 +67,7 @@
       },
       {
         "es_form": "Tienes [la pierna::noga] muy fuerte.",
-        "pl_translation": "Masz bardzo silny/a noga."
+        "pl_translation": "Masz bardzo silny"
       },
       {
         "es_form": "[La pierna::noga] es una parte importante del cuerpo.",
@@ -86,7 +86,7 @@
       },
       {
         "es_form": "Tienes [el ojo::oko] muy fuerte.",
-        "pl_translation": "Masz bardzo silny/a oko."
+        "pl_translation": "Masz bardzo silny"
       },
       {
         "es_form": "El médico me reviso [el ojo::oko].",
@@ -124,7 +124,7 @@
       },
       {
         "es_form": "Tienes [la nariz::nos] muy fuerte.",
-        "pl_translation": "Masz bardzo silny/a nos."
+        "pl_translation": "Masz bardzo silny"
       },
       {
         "es_form": "El médico me reviso [la nariz::nos].",
@@ -147,7 +147,7 @@
       },
       {
         "es_form": "Tienes [la boca::usta] muy fuerte.",
-        "pl_translation": "Masz bardzo silny/a usta."
+        "pl_translation": "Masz bardzo silny"
       }
     ]
   },
@@ -185,7 +185,7 @@
       },
       {
         "es_form": "Tienes [el pelo::włosy] muy fuerte.",
-        "pl_translation": "Masz bardzo silny/a włosy."
+        "pl_translation": "Masz bardzo silny"
       }
     ]
   },
@@ -257,7 +257,7 @@
         "examples": [
           {
             "es_form": "[veo::widzę] como me enseñaste.",
-            "pl_translation": "Widzę tak jak mnie nauczyłeś/aś."
+            "pl_translation": "Widzę tak jak mnie nauczyłeś"
           },
           {
             "es_form": "No [veo::widzę] muy bien últimamente.",
@@ -284,7 +284,7 @@
           },
           {
             "es_form": "[ves::widzisz] como me enseñaste.",
-            "pl_translation": "Widzisz tak jak mnie nauczyłeś/aś."
+            "pl_translation": "Widzisz tak jak mnie nauczyłeś"
           },
           {
             "es_form": "[ves::widzisz] todos los días.",
@@ -326,7 +326,7 @@
         "examples": [
           {
             "es_form": "[vemos::widzimy] como me enseñaste.",
-            "pl_translation": "Widzimy tak jak mnie nauczyłeś/aś."
+            "pl_translation": "Widzimy tak jak mnie nauczyłeś"
           },
           {
             "es_form": "Siempre [vemos::widzimy] con atencion.",
@@ -353,7 +353,7 @@
           },
           {
             "es_form": "[veis::widzicie] como me enseñaste.",
-            "pl_translation": "Widzicie tak jak mnie nauczyłeś/aś."
+            "pl_translation": "Widzicie tak jak mnie nauczyłeś"
           },
           {
             "es_form": "Normalmente [veis::widzicie] por la mañana.",
@@ -372,7 +372,7 @@
         "examples": [
           {
             "es_form": "[ven::widzą] como me enseñaste.",
-            "pl_translation": "Widzą tak jak mnie nauczyłeś/aś."
+            "pl_translation": "Widzą tak jak mnie nauczyłeś"
           },
           {
             "es_form": "Siempre [ven::widzą] con atencion.",
@@ -386,7 +386,7 @@
       },
       {
         "es_word": "vi",
-        "pl_word": "widzialem/widzialam",
+        "pl_word": "widziałem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [vi::widzialem/widzialam] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie widzialem/widzialam."
+            "es_form": "El mes pasado no [vi::widziałem] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie widziałem"
           },
           {
-            "es_form": "Nunca [vi::widzialem/widzialam] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie widzialem/widzialam czegoś takiego."
+            "es_form": "Nunca [vi::widziałem] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie widziałem"
           },
           {
-            "es_form": "¿[vi::widzialem/widzialam] bien el examen?",
-            "pl_translation": "Czy widzialem/widzialam dobrze egzamin?"
+            "es_form": "¿[vi::widziałem] bien el examen?",
+            "pl_translation": "Czy widziałem"
           }
         ]
       },
       {
         "es_word": "viste",
-        "pl_word": "widziales/widzialas",
+        "pl_word": "widziałeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [viste::widziales/widzialas] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie widziales/widzialas."
+            "es_form": "El mes pasado no [viste::widziałeś] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie widziałeś"
           },
           {
-            "es_form": "¿[viste::widziales/widzialas] bien el examen?",
-            "pl_translation": "Czy widziales/widzialas dobrze egzamin?"
+            "es_form": "¿[viste::widziałeś] bien el examen?",
+            "pl_translation": "Czy widziałeś"
           },
           {
-            "es_form": "Nunca [viste::widziales/widzialas] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie widziales/widzialas czegoś takiego."
+            "es_form": "Nunca [viste::widziałeś] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie widziałeś"
           }
         ]
       },
       {
         "es_word": "vio",
-        "pl_word": "widzial/widziala/widzialo",
+        "pl_word": "widział",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [vio::widzial/widziala/widzialo] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie widzial/widziala/widzialo."
+            "es_form": "El mes pasado no [vio::widział] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie widział"
           },
           {
-            "es_form": "[vio::widzial/widziala/widzialo] sin parar durante horas.",
-            "pl_translation": "Widzial/widziala/widzialo bez przerwy przez wiele godzin."
+            "es_form": "[vio::widział] sin parar durante horas.",
+            "pl_translation": "widział"
           },
           {
-            "es_form": "[vio::widzial/widziala/widzialo] la semana pasada.",
-            "pl_translation": "Widzial/widziala/widzialo w zeszłym tygodniu."
+            "es_form": "[vio::widział] la semana pasada.",
+            "pl_translation": "widział"
           }
         ]
       },
       {
         "es_word": "vimos",
-        "pl_word": "widzielismy/widzialysmy",
+        "pl_word": "widzieliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "[vimos::widzielismy/widzialysmy] la semana pasada.",
-            "pl_translation": "Widzielismy/widzialysmy w zeszłym tygodniu."
+            "es_form": "[vimos::widzieliśmy] la semana pasada.",
+            "pl_translation": "widzieliśmy"
           },
           {
-            "es_form": "¿[vimos::widzielismy/widzialysmy] bien el examen?",
-            "pl_translation": "Czy widzielismy/widzialysmy dobrze egzamin?"
+            "es_form": "¿[vimos::widzieliśmy] bien el examen?",
+            "pl_translation": "Czy widzieliśmy"
           },
           {
-            "es_form": "Nunca [vimos::widzielismy/widzialysmy] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie widzielismy/widzialysmy czegoś takiego."
+            "es_form": "Nunca [vimos::widzieliśmy] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie widzieliśmy"
           }
         ]
       },
       {
         "es_word": "visteis",
-        "pl_word": "widzieliscie/widzialyscie",
+        "pl_word": "widzieliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[visteis::widzieliscie/widzialyscie] bien el examen?",
-            "pl_translation": "Czy widzieliscie/widzialyscie dobrze egzamin?"
+            "es_form": "¿[visteis::widzieliście] bien el examen?",
+            "pl_translation": "Czy widzieliście"
           },
           {
-            "es_form": "Nunca [visteis::widzieliscie/widzialyscie] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie widzieliscie/widzialyscie czegoś takiego."
+            "es_form": "Nunca [visteis::widzieliście] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie widzieliście"
           },
           {
-            "es_form": "[visteis::widzieliscie/widzialyscie] la semana pasada.",
-            "pl_translation": "Widzieliscie/widzialyscie w zeszłym tygodniu."
+            "es_form": "[visteis::widzieliście] la semana pasada.",
+            "pl_translation": "widzieliście"
           }
         ]
       },
       {
         "es_word": "vieron",
-        "pl_word": "widzieli/widzialy",
+        "pl_word": "widzieli",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,16 +509,16 @@
         },
         "examples": [
           {
-            "es_form": "[vieron::widzieli/widzialy] sin parar durante horas.",
-            "pl_translation": "Widzieli/widzialy bez przerwy przez wiele godzin."
+            "es_form": "[vieron::widzieli] sin parar durante horas.",
+            "pl_translation": "widzieli"
           },
           {
-            "es_form": "El mes pasado no [vieron::widzieli/widzialy] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie widzieli/widzialy."
+            "es_form": "El mes pasado no [vieron::widzieli] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie widzieli"
           },
           {
-            "es_form": "¿[vieron::widzieli/widzialy] bien el examen?",
-            "pl_translation": "Czy widzieli/widzialy dobrze egzamin?"
+            "es_form": "¿[vieron::widzieli] bien el examen?",
+            "pl_translation": "Czy widzieli"
           }
         ]
       },

@@ -6,7 +6,7 @@
     "examples": [
       {
         "es_form": "Necesito [la olla::garnek] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową garnek."
+        "pl_translation": "Potrzebuję nowy garnek."
       },
       {
         "es_form": "Guarda [la olla::garnek] en el armario.",
@@ -20,19 +20,19 @@
   },
   {
     "type": "noun",
-    "es_word": "El sartén",
+    "es_word": "La sartén",
     "pl_word": "patelnia",
     "examples": [
       {
-        "es_form": "Necesito [el sartén::patelnia] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową patelnia."
+        "es_form": "Necesito [la sartén::patelnia] nuevo.",
+        "pl_translation": "Potrzebuję nową patelnię."
       },
       {
-        "es_form": "[El sartén::patelnia] es de madera.",
+        "es_form": "[La sartén::patelnia] es de madera.",
         "pl_translation": "Patelnia jest z drewna."
       },
       {
-        "es_form": "[El sartén::patelnia] cuesta diez euros.",
+        "es_form": "[La sartén::patelnia] cuesta diez euros.",
         "pl_translation": "Patelnia kosztuje dziesięć euro."
       }
     ]
@@ -44,7 +44,7 @@
     "examples": [
       {
         "es_form": "Necesito [el plato::talerz] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową talerz."
+        "pl_translation": "Potrzebuję nowy talerz."
       },
       {
         "es_form": "Guarda [el plato::talerz] en el armario.",
@@ -63,7 +63,7 @@
     "examples": [
       {
         "es_form": "Guarda [el vaso::szklanka] en el armario.",
-        "pl_translation": "Schowaj szklanka do szafy."
+        "pl_translation": "Schowaj szklankę do szafy."
       },
       {
         "es_form": "[El vaso::szklanka] está sobre la mesa.",
@@ -71,7 +71,7 @@
       },
       {
         "es_form": "Se me rompio [el vaso::szklanka].",
-        "pl_translation": "Zepsuł mi się szklanka."
+        "pl_translation": "Zepsuła mi się szklanka."
       }
     ]
   },
@@ -82,7 +82,7 @@
     "examples": [
       {
         "es_form": "Compré [la taza::kubek] ayer.",
-        "pl_translation": "Kupiłem/am kubek wczoraj."
+        "pl_translation": "Kupiłem"
       },
       {
         "es_form": "[La taza::kubek] cuesta diez euros.",
@@ -96,20 +96,20 @@
   },
   {
     "type": "noun",
-    "es_word": "El cubiertos",
+    "es_word": "Los cubiertos",
     "pl_word": "sztućce",
     "examples": [
       {
-        "es_form": "[El cubiertos::sztućce] es de madera.",
-        "pl_translation": "Sztućce jest z drewna."
+        "es_form": "[Los cubiertos::sztućce] es de madera.",
+        "pl_translation": "Sztućce są z drewna."
       },
       {
-        "es_form": "¿Has visto [el cubiertos::sztućce]?",
-        "pl_translation": "Widziałeś/aś sztućce?"
+        "es_form": "¿Has visto [los cubiertos::sztućce]?",
+        "pl_translation": "Widziałeś"
       },
       {
-        "es_form": "Necesito [el cubiertos::sztućce] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową sztućce."
+        "es_form": "Necesito [los cubiertos::sztućce] nuevo.",
+        "pl_translation": "Potrzebuję nowe sztućce."
       }
     ]
   },
@@ -128,7 +128,7 @@
       },
       {
         "es_form": "Necesito [el cuchillo::nóż] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową nóż."
+        "pl_translation": "Potrzebuję nowy nóż."
       }
     ]
   },
@@ -139,7 +139,7 @@
     "examples": [
       {
         "es_form": "Necesito [el tenedor::widelec] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową widelec."
+        "pl_translation": "Potrzebuję nowy widelec."
       },
       {
         "es_form": "Se me rompio [el tenedor::widelec].",
@@ -147,7 +147,7 @@
       },
       {
         "es_form": "¿Has visto [el tenedor::widelec]?",
-        "pl_translation": "Widziałeś/aś widelec?"
+        "pl_translation": "Widziałeś"
       }
     ]
   },
@@ -162,11 +162,11 @@
       },
       {
         "es_form": "¿Has visto [la cuchara::łyżka]?",
-        "pl_translation": "Widziałeś/aś łyżka?"
+        "pl_translation": "Widziałeś"
       },
       {
         "es_form": "Guarda [la cuchara::łyżka] en el armario.",
-        "pl_translation": "Schowaj łyżka do szafy."
+        "pl_translation": "Schowaj łyżkę do szafy."
       }
     ]
   },
@@ -181,7 +181,7 @@
       },
       {
         "es_form": "Necesito [el horno::piekarnik] nuevo.",
-        "pl_translation": "Potrzebuję nowy/nową piekarnik."
+        "pl_translation": "Potrzebuję nowy piekarnik."
       },
       {
         "es_form": "[El horno::piekarnik] está sobre la mesa.",
@@ -200,7 +200,7 @@
       },
       {
         "es_form": "Nada es más [afilado::ostry] que la familia.",
-        "pl_translation": "Nic nie jest ostry od rodziny."
+        "pl_translation": "Nic nie jest ostrzejsze od rodziny."
       },
       {
         "es_form": "El examen fue [afilado::ostry].",
@@ -223,7 +223,7 @@
       },
       {
         "es_form": "La comida está [caliente::gorący].",
-        "pl_translation": "Jedzenie jest gorący."
+        "pl_translation": "Jedzenie jest gorące."
       }
     ]
   },
@@ -248,7 +248,7 @@
     "forms": [
       {
         "es_word": "cocino",
-        "pl_word": "gotować (1.os.lp, ter.)",
+        "pl_word": "gotuję",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -256,22 +256,22 @@
         },
         "examples": [
           {
-            "es_form": "No [cocino::gotować (1.os.lp, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie gotować zbyt dobrze."
+            "es_form": "No [cocino::gotuję] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie gotuję zbyt dobrze."
           },
           {
-            "es_form": "¿[cocino::gotować (1.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy gotować w weekendy?"
+            "es_form": "¿[cocino::gotuję] los fines de semana?",
+            "pl_translation": "Czy gotuję w weekendy?"
           },
           {
-            "es_form": "Normalmente [cocino::gotować (1.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj gotować rano."
+            "es_form": "Normalmente [cocino::gotuję] por la mañana.",
+            "pl_translation": "Zazwyczaj gotuję rano."
           }
         ]
       },
       {
         "es_word": "cocinas",
-        "pl_word": "gotować (2.os.lp, ter.)",
+        "pl_word": "gotujesz",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -279,22 +279,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [cocinas::gotować (2.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj gotować rano."
+            "es_form": "Normalmente [cocinas::gotujesz] por la mañana.",
+            "pl_translation": "Zazwyczaj gotujesz rano."
           },
           {
-            "es_form": "Siempre [cocinas::gotować (2.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze gotować z uwagą."
+            "es_form": "Siempre [cocinas::gotujesz] con atencion.",
+            "pl_translation": "Zawsze gotujesz z uwagą."
           },
           {
-            "es_form": "¿[cocinas::gotować (2.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy gotować w weekendy?"
+            "es_form": "¿[cocinas::gotujesz] los fines de semana?",
+            "pl_translation": "Czy gotujesz w weekendy?"
           }
         ]
       },
       {
         "es_word": "cocina",
-        "pl_word": "gotować (3.os.lp, ter.)",
+        "pl_word": "gotuje",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -302,22 +302,22 @@
         },
         "examples": [
           {
-            "es_form": "Normalmente [cocina::gotować (3.os.lp, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj gotować rano."
+            "es_form": "Normalmente [cocina::gotuje] por la mañana.",
+            "pl_translation": "Zazwyczaj gotuje rano."
           },
           {
-            "es_form": "¿[cocina::gotować (3.os.lp, ter.)] los fines de semana?",
-            "pl_translation": "Czy gotować w weekendy?"
+            "es_form": "¿[cocina::gotuje] los fines de semana?",
+            "pl_translation": "Czy gotuje w weekendy?"
           },
           {
-            "es_form": "Siempre [cocina::gotować (3.os.lp, ter.)] con atencion.",
-            "pl_translation": "Zawsze gotować z uwagą."
+            "es_form": "Siempre [cocina::gotuje] con atencion.",
+            "pl_translation": "Zawsze gotuje z uwagą."
           }
         ]
       },
       {
         "es_word": "cocinamos",
-        "pl_word": "gotować (1.os.lm, ter.)",
+        "pl_word": "gotujemy",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -325,22 +325,22 @@
         },
         "examples": [
           {
-            "es_form": "No [cocinamos::gotować (1.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie gotować zbyt dobrze."
+            "es_form": "No [cocinamos::gotujemy] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie gotujemy zbyt dobrze."
           },
           {
-            "es_form": "Normalmente [cocinamos::gotować (1.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj gotować rano."
+            "es_form": "Normalmente [cocinamos::gotujemy] por la mañana.",
+            "pl_translation": "Zazwyczaj gotujemy rano."
           },
           {
-            "es_form": "Siempre [cocinamos::gotować (1.os.lm, ter.)] con atencion.",
-            "pl_translation": "Zawsze gotować z uwagą."
+            "es_form": "Siempre [cocinamos::gotujemy] con atencion.",
+            "pl_translation": "Zawsze gotujemy z uwagą."
           }
         ]
       },
       {
         "es_word": "cocináis",
-        "pl_word": "gotować (2.os.lm, ter.)",
+        "pl_word": "gotujecie",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -348,22 +348,22 @@
         },
         "examples": [
           {
-            "es_form": "No [cocináis::gotować (2.os.lm, ter.)] muy bien últimamente.",
-            "pl_translation": "Ostatnio nie gotować zbyt dobrze."
+            "es_form": "No [cocináis::gotujecie] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie gotujecie zbyt dobrze."
           },
           {
-            "es_form": "Normalmente [cocináis::gotować (2.os.lm, ter.)] por la mañana.",
-            "pl_translation": "Zazwyczaj gotować rano."
+            "es_form": "Normalmente [cocináis::gotujecie] por la mañana.",
+            "pl_translation": "Zazwyczaj gotujecie rano."
           },
           {
-            "es_form": "[cocináis::gotować (2.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Gotować tak jak mnie nauczyłeś/aś."
+            "es_form": "[cocináis::gotujecie] como me enseñaste.",
+            "pl_translation": "Gotujecie tak jak mnie nauczyłeś"
           }
         ]
       },
       {
         "es_word": "cocinan",
-        "pl_word": "gotować (3.os.lm, ter.)",
+        "pl_word": "gotują",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -371,22 +371,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[cocinan::gotować (3.os.lm, ter.)] los fines de semana?",
-            "pl_translation": "Czy gotować w weekendy?"
+            "es_form": "¿[cocinan::gotują] los fines de semana?",
+            "pl_translation": "Czy gotują w weekendy?"
           },
           {
-            "es_form": "[cocinan::gotować (3.os.lm, ter.)] todos los días.",
-            "pl_translation": "Gotować codziennie."
+            "es_form": "[cocinan::gotują] todos los días.",
+            "pl_translation": "Gotują codziennie."
           },
           {
-            "es_form": "[cocinan::gotować (3.os.lm, ter.)] como me enseñaste.",
-            "pl_translation": "Gotować tak jak mnie nauczyłeś/aś."
+            "es_form": "[cocinan::gotują] como me enseñaste.",
+            "pl_translation": "Gotują tak jak mnie nauczyłeś"
           }
         ]
       },
       {
         "es_word": "cociné",
-        "pl_word": "gotować (1.os.lp, przesz.)",
+        "pl_word": "gotowałem",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -394,22 +394,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[cociné::gotować (1.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy gotować dobrze egzamin?"
+            "es_form": "¿[cociné::gotowałem] bien el examen?",
+            "pl_translation": "Czy dobrze gotowałem egzamin?"
           },
           {
-            "es_form": "[cociné::gotować (1.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Gotować w zeszłym tygodniu."
+            "es_form": "[cociné::gotowałem] la semana pasada.",
+            "pl_translation": "Gotowałem w zeszłym tygodniu."
           },
           {
-            "es_form": "El mes pasado no [cociné::gotować (1.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie gotować."
+            "es_form": "El mes pasado no [cociné::gotowałem] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie gotowałem."
           }
         ]
       },
       {
         "es_word": "cocinaste",
-        "pl_word": "gotować (2.os.lp, przesz.)",
+        "pl_word": "gotowałeś",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -417,22 +417,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [cocinaste::gotować (2.os.lp, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie gotować."
+            "es_form": "El mes pasado no [cocinaste::gotowałeś] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie gotowałeś."
           },
           {
-            "es_form": "¿[cocinaste::gotować (2.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy gotować dobrze egzamin?"
+            "es_form": "¿[cocinaste::gotowałeś] bien el examen?",
+            "pl_translation": "Czy dobrze gotowałeś egzamin?"
           },
           {
-            "es_form": "[cocinaste::gotować (2.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Gotować w zeszłym tygodniu."
+            "es_form": "[cocinaste::gotowałeś] la semana pasada.",
+            "pl_translation": "Gotowałeś w zeszłym tygodniu."
           }
         ]
       },
       {
         "es_word": "cocinó",
-        "pl_word": "gotować (3.os.lp, przesz.)",
+        "pl_word": "gotował",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -440,22 +440,22 @@
         },
         "examples": [
           {
-            "es_form": "Ayer [cocinó::gotować (3.os.lp, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj gotować cały dzień."
+            "es_form": "Ayer [cocinó::gotował] todo el día.",
+            "pl_translation": "Wczoraj gotował cały dzień."
           },
           {
-            "es_form": "[cocinó::gotować (3.os.lp, przesz.)] la semana pasada.",
-            "pl_translation": "Gotować w zeszłym tygodniu."
+            "es_form": "[cocinó::gotował] la semana pasada.",
+            "pl_translation": "Gotował w zeszłym tygodniu."
           },
           {
-            "es_form": "¿[cocinó::gotować (3.os.lp, przesz.)] bien el examen?",
-            "pl_translation": "Czy gotować dobrze egzamin?"
+            "es_form": "¿[cocinó::gotował] bien el examen?",
+            "pl_translation": "Czy dobrze gotował egzamin?"
           }
         ]
       },
       {
         "es_word": "cocinamos",
-        "pl_word": "gotować (1.os.lm, przesz.)",
+        "pl_word": "gotowaliśmy",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -463,22 +463,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [cocinamos::gotować (1.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie gotować."
+            "es_form": "El mes pasado no [cocinamos::gotowaliśmy] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie gotowaliśmy."
           },
           {
-            "es_form": "¿[cocinamos::gotować (1.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy gotować dobrze egzamin?"
+            "es_form": "¿[cocinamos::gotowaliśmy] bien el examen?",
+            "pl_translation": "Czy dobrze gotowaliśmy egzamin?"
           },
           {
-            "es_form": "Ayer [cocinamos::gotować (1.os.lm, przesz.)] todo el día.",
-            "pl_translation": "Wczoraj gotować cały dzień."
+            "es_form": "Ayer [cocinamos::gotowaliśmy] todo el día.",
+            "pl_translation": "Wczoraj gotowaliśmy cały dzień."
           }
         ]
       },
       {
         "es_word": "cocinasteis",
-        "pl_word": "gotować (2.os.lm, przesz.)",
+        "pl_word": "gotowaliście",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -486,22 +486,22 @@
         },
         "examples": [
           {
-            "es_form": "El mes pasado no [cocinasteis::gotować (2.os.lm, przesz.)] nada.",
-            "pl_translation": "W zeszłym miesiącu nic nie gotować."
+            "es_form": "El mes pasado no [cocinasteis::gotowaliście] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie gotowaliście."
           },
           {
-            "es_form": "[cocinasteis::gotować (2.os.lm, przesz.)] la semana pasada.",
-            "pl_translation": "Gotować w zeszłym tygodniu."
+            "es_form": "[cocinasteis::gotowaliście] la semana pasada.",
+            "pl_translation": "Gotowaliście w zeszłym tygodniu."
           },
           {
-            "es_form": "Nunca [cocinasteis::gotować (2.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie gotować czegoś takiego."
+            "es_form": "Nunca [cocinasteis::gotowaliście] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie gotowaliście czegoś takiego."
           }
         ]
       },
       {
         "es_word": "cocinaron",
-        "pl_word": "gotować (3.os.lm, przesz.)",
+        "pl_word": "gotowali",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -509,22 +509,22 @@
         },
         "examples": [
           {
-            "es_form": "Nunca [cocinaron::gotować (3.os.lm, przesz.)] algo así antes.",
-            "pl_translation": "Nigdy wcześniej nie gotować czegoś takiego."
+            "es_form": "Nunca [cocinaron::gotowali] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie gotowali czegoś takiego."
           },
           {
-            "es_form": "¿[cocinaron::gotować (3.os.lm, przesz.)] bien el examen?",
-            "pl_translation": "Czy gotować dobrze egzamin?"
+            "es_form": "¿[cocinaron::gotowali] bien el examen?",
+            "pl_translation": "Czy dobrze gotowali egzamin?"
           },
           {
-            "es_form": "[cocinaron::gotować (3.os.lm, przesz.)] sin parar durante horas.",
-            "pl_translation": "Gotować bez przerwy przez wiele godzin."
+            "es_form": "[cocinaron::gotowali] sin parar durante horas.",
+            "pl_translation": "Gotowali bez przerwy przez wiele godzin."
           }
         ]
       },
       {
         "es_word": "cociné",
-        "pl_word": "gotować (1.os.lp, przysz.)",
+        "pl_word": "będę gotować",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -532,22 +532,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[cociné::gotować (1.os.lp, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy gotować z nami jutro?"
+            "es_form": "¿[cociné::będę gotować] con nosotros mañana?",
+            "pl_translation": "Czy będę gotować z nami jutro?"
           },
           {
-            "es_form": "[cociné::gotować (1.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Gotować w przyszłym tygodniu."
+            "es_form": "[cociné::będę gotować] la proxima semana.",
+            "pl_translation": "Będę gotować w przyszłym tygodniu."
           },
           {
-            "es_form": "Creo que [cociné::gotować (1.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że gotować dobrze."
+            "es_form": "Creo que [cociné::będę gotować] bien.",
+            "pl_translation": "Myślę, że będę gotować dobrze."
           }
         ]
       },
       {
         "es_word": "cocinás",
-        "pl_word": "gotować (2.os.lp, przysz.)",
+        "pl_word": "będziesz gotować",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -555,22 +555,22 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [cocinás::gotować (2.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro gotować wcześniej."
+            "es_form": "Mañana [cocinás::będziesz gotować] más temprano.",
+            "pl_translation": "Jutro będziesz gotować wcześniej."
           },
           {
-            "es_form": "[cocinás::gotować (2.os.lp, przysz.)] la proxima semana.",
-            "pl_translation": "Gotować w przyszłym tygodniu."
+            "es_form": "[cocinás::będziesz gotować] la proxima semana.",
+            "pl_translation": "Będziesz gotować w przyszłym tygodniu."
           },
           {
-            "es_form": "El año que viene [cocinás::gotować (2.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku gotować w Hiszpanii."
+            "es_form": "El año que viene [cocinás::będziesz gotować] en España.",
+            "pl_translation": "W przyszłym roku będziesz gotować w Hiszpanii."
           }
         ]
       },
       {
         "es_word": "cociná",
-        "pl_word": "gotować (3.os.lp, przysz.)",
+        "pl_word": "będzie gotować",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -578,22 +578,22 @@
         },
         "examples": [
           {
-            "es_form": "Mañana [cociná::gotować (3.os.lp, przysz.)] más temprano.",
-            "pl_translation": "Jutro gotować wcześniej."
+            "es_form": "Mañana [cociná::będzie gotować] más temprano.",
+            "pl_translation": "Jutro będzie gotować wcześniej."
           },
           {
-            "es_form": "Creo que [cociná::gotować (3.os.lp, przysz.)] bien.",
-            "pl_translation": "Myślę, że gotować dobrze."
+            "es_form": "Creo que [cociná::będzie gotować] bien.",
+            "pl_translation": "Myślę, że będzie gotować dobrze."
           },
           {
-            "es_form": "El año que viene [cociná::gotować (3.os.lp, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku gotować w Hiszpanii."
+            "es_form": "El año que viene [cociná::będzie gotować] en España.",
+            "pl_translation": "W przyszłym roku będzie gotować w Hiszpanii."
           }
         ]
       },
       {
         "es_word": "cocinemos",
-        "pl_word": "gotować (1.os.lm, przysz.)",
+        "pl_word": "będziemy gotować",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -601,22 +601,22 @@
         },
         "examples": [
           {
-            "es_form": "¿[cocinemos::gotować (1.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy gotować z nami jutro?"
+            "es_form": "¿[cocinemos::będziemy gotować] con nosotros mañana?",
+            "pl_translation": "Czy będziemy gotować z nami jutro?"
           },
           {
-            "es_form": "Creo que [cocinemos::gotować (1.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że gotować dobrze."
+            "es_form": "Creo que [cocinemos::będziemy gotować] bien.",
+            "pl_translation": "Myślę, że będziemy gotować dobrze."
           },
           {
-            "es_form": "El año que viene [cocinemos::gotować (1.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku gotować w Hiszpanii."
+            "es_form": "El año que viene [cocinemos::będziemy gotować] en España.",
+            "pl_translation": "W przyszłym roku będziemy gotować w Hiszpanii."
           }
         ]
       },
       {
         "es_word": "cocinéis",
-        "pl_word": "gotować (2.os.lm, przysz.)",
+        "pl_word": "będziecie gotować",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -624,22 +624,22 @@
         },
         "examples": [
           {
-            "es_form": "Creo que [cocinéis::gotować (2.os.lm, przysz.)] bien.",
-            "pl_translation": "Myślę, że gotować dobrze."
+            "es_form": "Creo que [cocinéis::będziecie gotować] bien.",
+            "pl_translation": "Myślę, że będziecie gotować dobrze."
           },
           {
-            "es_form": "El año que viene [cocinéis::gotować (2.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku gotować w Hiszpanii."
+            "es_form": "El año que viene [cocinéis::będziecie gotować] en España.",
+            "pl_translation": "W przyszłym roku będziecie gotować w Hiszpanii."
           },
           {
-            "es_form": "Te prometo que [cocinéis::gotować (2.os.lm, przysz.)] a tiempo.",
-            "pl_translation": "Obiecuję ci, że gotować na czas."
+            "es_form": "Te prometo que [cocinéis::będziecie gotować] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziecie gotować na czas."
           }
         ]
       },
       {
         "es_word": "cocinán",
-        "pl_word": "gotować (3.os.lm, przysz.)",
+        "pl_word": "będą gotować",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -647,16 +647,16 @@
         },
         "examples": [
           {
-            "es_form": "¿[cocinán::gotować (3.os.lm, przysz.)] con nosotros mañana?",
-            "pl_translation": "Czy gotować z nami jutro?"
+            "es_form": "¿[cocinán::będą gotować] con nosotros mañana?",
+            "pl_translation": "Czy będą gotować z nami jutro?"
           },
           {
-            "es_form": "[cocinán::gotować (3.os.lm, przysz.)] la proxima semana.",
-            "pl_translation": "Gotować w przyszłym tygodniu."
+            "es_form": "[cocinán::będą gotować] la proxima semana.",
+            "pl_translation": "Będą gotować w przyszłym tygodniu."
           },
           {
-            "es_form": "El año que viene [cocinán::gotować (3.os.lm, przysz.)] en España.",
-            "pl_translation": "W przyszłym roku gotować w Hiszpanii."
+            "es_form": "El año que viene [cocinán::będą gotować] en España.",
+            "pl_translation": "W przyszłym roku będą gotować w Hiszpanii."
           }
         ]
       }
