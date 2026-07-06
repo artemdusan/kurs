@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "El cumpleaños",
+    "pl_word": "urodziny",
+    "examples": [
+      {
+        "es_form": "Compré [el cumpleaños::urodziny] ayer.",
+        "pl_translation": "Kupiłem/am urodziny wczoraj."
+      },
+      {
+        "es_form": "[El cumpleaños::urodziny] es de madera.",
+        "pl_translation": "Urodziny jest z drewna."
+      },
+      {
+        "es_form": "¿Has visto [el cumpleaños::urodziny]?",
+        "pl_translation": "Widziałeś/aś urodziny?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El regalo",
+    "pl_word": "prezent",
+    "examples": [
+      {
+        "es_form": "Necesito [el regalo::prezent] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową prezent."
+      },
+      {
+        "es_form": "¿Has visto [el regalo::prezent]?",
+        "pl_translation": "Widziałeś/aś prezent?"
+      },
+      {
+        "es_form": "[El regalo::prezent] está sobre la mesa.",
+        "pl_translation": "Prezent jest na stole."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La tarta",
+    "pl_word": "tort",
+    "examples": [
+      {
+        "es_form": "¿Has visto [la tarta::tort]?",
+        "pl_translation": "Widziałeś/aś tort?"
+      },
+      {
+        "es_form": "Necesito [la tarta::tort] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową tort."
+      },
+      {
+        "es_form": "[La tarta::tort] es de madera.",
+        "pl_translation": "Tort jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El diversión",
+    "pl_word": "zabawa",
+    "examples": [
+      {
+        "es_form": "Compré [el diversión::zabawa] ayer.",
+        "pl_translation": "Kupiłem/am zabawa wczoraj."
+      },
+      {
+        "es_form": "¿Has visto [el diversión::zabawa]?",
+        "pl_translation": "Widziałeś/aś zabawa?"
+      },
+      {
+        "es_form": "[El diversión::zabawa] es de madera.",
+        "pl_translation": "Zabawa jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El invitado",
+    "pl_word": "gość",
+    "examples": [
+      {
+        "es_form": "[El invitado::gość] vive en mi calle.",
+        "pl_translation": "Gość mieszka na mojej ulicy."
+      },
+      {
+        "es_form": "[El invitado::gość] es muy amable.",
+        "pl_translation": "Gość jest bardzo miły/a."
+      },
+      {
+        "es_form": "Conozco a [el invitado::gość].",
+        "pl_translation": "Znam gość."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El invitación",
+    "pl_word": "zaproszenie",
+    "examples": [
+      {
+        "es_form": "Compré [el invitación::zaproszenie] ayer.",
+        "pl_translation": "Kupiłem/am zaproszenie wczoraj."
+      },
+      {
+        "es_form": "Necesito [el invitación::zaproszenie] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową zaproszenie."
+      },
+      {
+        "es_form": "[El invitación::zaproszenie] es de madera.",
+        "pl_translation": "Zaproszenie jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El deseos",
+    "pl_word": "życzenia",
+    "examples": [
+      {
+        "es_form": "Compré [el deseos::życzenia] ayer.",
+        "pl_translation": "Kupiłem/am życzenia wczoraj."
+      },
+      {
+        "es_form": "[El deseos::życzenia] está sobre la mesa.",
+        "pl_translation": "Życzenia jest na stole."
+      },
+      {
+        "es_form": "Necesito [el deseos::życzenia] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową życzenia."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El tradición",
+    "pl_word": "tradycja",
+    "examples": [
+      {
+        "es_form": "Hablamos sobre [el tradición::tradycja].",
+        "pl_translation": "Rozmawialiśmy o tradycja."
+      },
+      {
+        "es_form": "[El tradición::tradycja] es la clave del éxito.",
+        "pl_translation": "Tradycja jest kluczem do sukcesu."
+      },
+      {
+        "es_form": "[El tradición::tradycja] es muy importante.",
+        "pl_translation": "Tradycja jest bardzo ważny/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La Navidad",
+    "pl_word": "Boże Narodzenie",
+    "examples": [
+      {
+        "es_form": "[La Navidad::Boże Narodzenie] cuesta diez euros.",
+        "pl_translation": "Boże Narodzenie kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Guarda [la Navidad::Boże Narodzenie] en el armario.",
+        "pl_translation": "Schowaj Boże Narodzenie do szafy."
+      },
+      {
+        "es_form": "Necesito [la Navidad::Boże Narodzenie] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową Boże Narodzenie."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El Año Nuevo",
+    "pl_word": "Nowy Rok, Sylwester",
+    "examples": [
+      {
+        "es_form": "Llego [El Año Nuevo::Nowy Rok, Sylwester] de la boda.",
+        "pl_translation": "Nadszedł Nowy Rok, Sylwester ślubu."
+      },
+      {
+        "es_form": "[El Año Nuevo::Nowy Rok, Sylwester] se me hizo eterno.",
+        "pl_translation": "Nowy Rok, Sylwester mi się dłużył/a."
+      },
+      {
+        "es_form": "No tengo [El Año Nuevo::Nowy Rok, Sylwester] suficiente.",
+        "pl_translation": "Nie mam wystarczająco Nowy Rok, Sylwester."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "alegre",
+    "pl_word": "wesoły",
+    "examples": [
+      {
+        "es_form": "Nada es más [alegre::wesoły] que la familia.",
+        "pl_translation": "Nic nie jest wesoły od rodziny."
+      },
+      {
+        "es_form": "El examen fue [alegre::wesoły].",
+        "pl_translation": "Egzamin był wesoły."
+      },
+      {
+        "es_form": "Tengo una casa [alegre::wesoły].",
+        "pl_translation": "Mam wesoły dom."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "especial",
+    "pl_word": "wyjątkowy, uroczysty",
+    "examples": [
+      {
+        "es_form": "La comida está [especial::wyjątkowy, uroczysty].",
+        "pl_translation": "Jedzenie jest wyjątkowy, uroczysty."
+      },
+      {
+        "es_form": "Se compro un vestido [especial::wyjątkowy, uroczysty].",
+        "pl_translation": "Kupiła sobie wyjątkowy, uroczysty sukienkę."
+      },
+      {
+        "es_form": "Es un lugar [especial::wyjątkowy, uroczysty] para vivir.",
+        "pl_translation": "To jest wyjątkowy, uroczysty miejsce do życia."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "celebrar",
+    "pl_word": "świętować, obchodzić",
+    "examples": [
+      {
+        "es_form": "Quiero [celebrar::świętować, obchodzić] ahora.",
+        "pl_translation": "Chcę świętować, obchodzić teraz."
+      },
+      {
+        "es_form": "Voy a [celebrar::świętować, obchodzić] mañana.",
+        "pl_translation": "Będę świętować, obchodzić jutro."
+      },
+      {
+        "es_form": "Prefiero [celebrar::świętować, obchodzić] en casa.",
+        "pl_translation": "Wolę świętować, obchodzić w domu."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "celebro",
+        "pl_word": "świętować (1.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "No [celebro::świętować (1.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie świętować (1.os.lp, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "[celebro::świętować (1.os.lp, ter.)] todos los días.",
+            "pl_translation": "Świętować (1.os.lp, ter.) codziennie."
+          },
+          {
+            "es_form": "Normalmente [celebro::świętować (1.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj świętować (1.os.lp, ter.) rano."
+          }
+        ]
+      },
+      {
+        "es_word": "celebras",
+        "pl_word": "świętować (2.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "No [celebras::świętować (2.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie świętować (2.os.lp, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "Siempre [celebras::świętować (2.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze świętować (2.os.lp, ter.) z uwagą."
+          },
+          {
+            "es_form": "[celebras::świętować (2.os.lp, ter.)] todos los días.",
+            "pl_translation": "Świętować (2.os.lp, ter.) codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "celebra",
+        "pl_word": "świętować (3.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [celebra::świętować (3.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze świętować (3.os.lp, ter.) z uwagą."
+          },
+          {
+            "es_form": "Normalmente [celebra::świętować (3.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj świętować (3.os.lp, ter.) rano."
+          },
+          {
+            "es_form": "¿[celebra::świętować (3.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy świętować (3.os.lp, ter.) w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "celebramos",
+        "pl_word": "świętować (1.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[celebramos::świętować (1.os.lm, ter.)] todos los días.",
+            "pl_translation": "Świętować (1.os.lm, ter.) codziennie."
+          },
+          {
+            "es_form": "¿[celebramos::świętować (1.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy świętować (1.os.lm, ter.) w weekendy?"
+          },
+          {
+            "es_form": "[celebramos::świętować (1.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Świętować (1.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "celebráis",
+        "pl_word": "świętować (2.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "No [celebráis::świętować (2.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie świętować (2.os.lm, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "[celebráis::świętować (2.os.lm, ter.)] todos los días.",
+            "pl_translation": "Świętować (2.os.lm, ter.) codziennie."
+          },
+          {
+            "es_form": "Normalmente [celebráis::świętować (2.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj świętować (2.os.lm, ter.) rano."
+          }
+        ]
+      },
+      {
+        "es_word": "celebran",
+        "pl_word": "świętować (3.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "No [celebran::świętować (3.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie świętować (3.os.lm, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "¿[celebran::świętować (3.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy świętować (3.os.lm, ter.) w weekendy?"
+          },
+          {
+            "es_form": "Normalmente [celebran::świętować (3.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj świętować (3.os.lm, ter.) rano."
+          }
+        ]
+      },
+      {
+        "es_word": "celebré",
+        "pl_word": "świętować (1.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[celebré::świętować (1.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy świętować (1.os.lp, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "El mes pasado no [celebré::świętować (1.os.lp, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie świętować (1.os.lp, przesz.)."
+          },
+          {
+            "es_form": "Ayer [celebré::świętować (1.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj świętować (1.os.lp, przesz.) cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "celebraste",
+        "pl_word": "świętować (2.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[celebraste::świętować (2.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy świętować (2.os.lp, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "Nunca [celebraste::świętować (2.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie świętować (2.os.lp, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "Ayer [celebraste::świętować (2.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj świętować (2.os.lp, przesz.) cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "celebró",
+        "pl_word": "świętować (3.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [celebró::świętować (3.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj świętować (3.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "¿[celebró::świętować (3.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy świętować (3.os.lp, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "[celebró::świętować (3.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Świętować (3.os.lp, przesz.) bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "celebramos",
+        "pl_word": "świętować (1.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[celebramos::świętować (1.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Świętować (1.os.lm, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Ayer [celebramos::świętować (1.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj świętować (1.os.lm, przesz.) cały dzień."
+          },
+          {
+            "es_form": "Nunca [celebramos::świętować (1.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie świętować (1.os.lm, przesz.) czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "celebrasteis",
+        "pl_word": "świętować (2.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [celebrasteis::świętować (2.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie świętować (2.os.lm, przesz.)."
+          },
+          {
+            "es_form": "[celebrasteis::świętować (2.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Świętować (2.os.lm, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "[celebrasteis::świętować (2.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Świętować (2.os.lm, przesz.) w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "celebraron",
+        "pl_word": "świętować (3.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [celebraron::świętować (3.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie świętować (3.os.lm, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "¿[celebraron::świętować (3.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy świętować (3.os.lm, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "El mes pasado no [celebraron::świętować (3.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie świętować (3.os.lm, przesz.)."
+          }
+        ]
+      },
+      {
+        "es_word": "celebré",
+        "pl_word": "świętować (1.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [celebré::świętować (1.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku świętować (1.os.lp, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Mañana [celebré::świętować (1.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro świętować (1.os.lp, przysz.) wcześniej."
+          },
+          {
+            "es_form": "[celebré::świętować (1.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Świętować (1.os.lp, przysz.) w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "celebrás",
+        "pl_word": "świętować (2.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [celebrás::świętować (2.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że świętować (2.os.lp, przysz.) dobrze."
+          },
+          {
+            "es_form": "El año que viene [celebrás::świętować (2.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku świętować (2.os.lp, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "¿[celebrás::świętować (2.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy świętować (2.os.lp, przysz.) z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "celebrá",
+        "pl_word": "świętować (3.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[celebrá::świętować (3.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy świętować (3.os.lp, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "Creo que [celebrá::świętować (3.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że świętować (3.os.lp, przysz.) dobrze."
+          },
+          {
+            "es_form": "Te prometo que [celebrá::świętować (3.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że świętować (3.os.lp, przysz.) na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "celebremos",
+        "pl_word": "świętować (1.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [celebremos::świętować (1.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że świętować (1.os.lm, przysz.) na czas."
+          },
+          {
+            "es_form": "El año que viene [celebremos::świętować (1.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku świętować (1.os.lm, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Creo que [celebremos::świętować (1.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że świętować (1.os.lm, przysz.) dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "celebréis",
+        "pl_word": "świętować (2.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [celebréis::świętować (2.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro świętować (2.os.lm, przysz.) wcześniej."
+          },
+          {
+            "es_form": "Te prometo que [celebréis::świętować (2.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że świętować (2.os.lm, przysz.) na czas."
+          },
+          {
+            "es_form": "[celebréis::świętować (2.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Świętować (2.os.lm, przysz.) w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "celebrán",
+        "pl_word": "świętować (3.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [celebrán::świętować (3.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro świętować (3.os.lm, przysz.) wcześniej."
+          },
+          {
+            "es_form": "El año que viene [celebrán::świętować (3.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku świętować (3.os.lm, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Te prometo que [celebrán::świętować (3.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że świętować (3.os.lm, przysz.) na czas."
+          }
+        ]
+      }
+    ]
+  }
+]

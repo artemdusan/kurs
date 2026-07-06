@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "El centro",
+    "pl_word": "centrum (miasta)",
+    "examples": [
+      {
+        "es_form": "[El centro::centrum (miasta)] abre a las ocho.",
+        "pl_translation": "Centrum (miasta) otwiera się o ósmej."
+      },
+      {
+        "es_form": "Trabajo en [el centro::centrum (miasta)].",
+        "pl_translation": "Pracuję w centrum (miasta)."
+      },
+      {
+        "es_form": "[El centro::centrum (miasta)] es muy grande.",
+        "pl_translation": "Centrum (miasta) jest bardzo duży/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El parque",
+    "pl_word": "park",
+    "examples": [
+      {
+        "es_form": "Visitamos [el parque::park] la semana pasada.",
+        "pl_translation": "Odwiedziliśmy park w zeszłym tygodniu."
+      },
+      {
+        "es_form": "Trabajo en [el parque::park].",
+        "pl_translation": "Pracuję w park."
+      },
+      {
+        "es_form": "[El parque::park] está cerca de aquí.",
+        "pl_translation": "Park jest niedaleko stąd."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La iglesia",
+    "pl_word": "kościół",
+    "examples": [
+      {
+        "es_form": "Visitamos [la iglesia::kościół] la semana pasada.",
+        "pl_translation": "Odwiedziliśmy kościół w zeszłym tygodniu."
+      },
+      {
+        "es_form": "Trabajo en [la iglesia::kościół].",
+        "pl_translation": "Pracuję w kościół."
+      },
+      {
+        "es_form": "[La iglesia::kościół] es muy grande.",
+        "pl_translation": "Kościół jest bardzo duży/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El restaurante",
+    "pl_word": "restauracja",
+    "examples": [
+      {
+        "es_form": "Voy a [el restaurante::restauracja] cada día.",
+        "pl_translation": "Chodzę do restauracja codziennie."
+      },
+      {
+        "es_form": "[El restaurante::restauracja] abre a las ocho.",
+        "pl_translation": "Restauracja otwiera się o ósmej."
+      },
+      {
+        "es_form": "Trabajo en [el restaurante::restauracja].",
+        "pl_translation": "Pracuję w restauracja."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El cine",
+    "pl_word": "kino",
+    "examples": [
+      {
+        "es_form": "¿Donde está [el cine::kino]?",
+        "pl_translation": "Gdzie jest kino?"
+      },
+      {
+        "es_form": "[El cine::kino] es muy grande.",
+        "pl_translation": "Kino jest bardzo duży/a."
+      },
+      {
+        "es_form": "Trabajo en [el cine::kino].",
+        "pl_translation": "Pracuję w kino."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El teatro",
+    "pl_word": "teatr",
+    "examples": [
+      {
+        "es_form": "[El teatro::teatr] está cerca de aquí.",
+        "pl_translation": "Teatr jest niedaleko stąd."
+      },
+      {
+        "es_form": "Visitamos [el teatro::teatr] la semana pasada.",
+        "pl_translation": "Odwiedziliśmy teatr w zeszłym tygodniu."
+      },
+      {
+        "es_form": "Voy a [el teatro::teatr] cada día.",
+        "pl_translation": "Chodzę do teatr codziennie."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El museo",
+    "pl_word": "muzeum",
+    "examples": [
+      {
+        "es_form": "¿Donde está [el museo::muzeum]?",
+        "pl_translation": "Gdzie jest muzeum?"
+      },
+      {
+        "es_form": "[El museo::muzeum] está cerca de aquí.",
+        "pl_translation": "Muzeum jest niedaleko stąd."
+      },
+      {
+        "es_form": "Voy a [el museo::muzeum] cada día.",
+        "pl_translation": "Chodzę do muzeum codziennie."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La biblioteca",
+    "pl_word": "biblioteka",
+    "examples": [
+      {
+        "es_form": "¿Donde está [la biblioteca::biblioteka]?",
+        "pl_translation": "Gdzie jest biblioteka?"
+      },
+      {
+        "es_form": "Trabajo en [la biblioteca::biblioteka].",
+        "pl_translation": "Pracuję w biblioteka."
+      },
+      {
+        "es_form": "[La biblioteca::biblioteka] abre a las ocho.",
+        "pl_translation": "Biblioteka otwiera się o ósmej."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El correos",
+    "pl_word": "poczta",
+    "examples": [
+      {
+        "es_form": "[El correos::poczta] está cerca de aquí.",
+        "pl_translation": "Poczta jest niedaleko stąd."
+      },
+      {
+        "es_form": "[El correos::poczta] abre a las ocho.",
+        "pl_translation": "Poczta otwiera się o ósmej."
+      },
+      {
+        "es_form": "[El correos::poczta] es muy grande.",
+        "pl_translation": "Poczta jest bardzo duży/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El banco",
+    "pl_word": "bank",
+    "examples": [
+      {
+        "es_form": "[El banco::bank] es muy grande.",
+        "pl_translation": "Bank jest bardzo duży/a."
+      },
+      {
+        "es_form": "Voy a [el banco::bank] cada día.",
+        "pl_translation": "Chodzę do bank codziennie."
+      },
+      {
+        "es_form": "¿Donde está [el banco::bank]?",
+        "pl_translation": "Gdzie jest bank?"
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "ruidoso",
+    "pl_word": "głośny",
+    "examples": [
+      {
+        "es_form": "Es un lugar [ruidoso::głośny] para vivir.",
+        "pl_translation": "To jest głośny miejsce do życia."
+      },
+      {
+        "es_form": "Tengo una casa [ruidosa::głośny].",
+        "pl_translation": "Mam głośny dom."
+      },
+      {
+        "es_form": "El examen fue [ruidoso::głośny].",
+        "pl_translation": "Egzamin był głośny."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "tranquilo",
+    "pl_word": "cichy, spokojny",
+    "examples": [
+      {
+        "es_form": "Se compro un vestido [tranquilo::cichy, spokojny].",
+        "pl_translation": "Kupiła sobie cichy, spokojny sukienkę."
+      },
+      {
+        "es_form": "La comida está [tranquila::cichy, spokojny].",
+        "pl_translation": "Jedzenie jest cichy, spokojny."
+      },
+      {
+        "es_form": "Nada es más [tranquilo::cichy, spokojny] que la familia.",
+        "pl_translation": "Nic nie jest cichy, spokojny od rodziny."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "visitar",
+    "pl_word": "zwiedzać, odwiedzać",
+    "examples": [
+      {
+        "es_form": "Es importante [visitar::zwiedzać, odwiedzać] todos los días.",
+        "pl_translation": "Ważne jest zwiedzać, odwiedzać codziennie."
+      },
+      {
+        "es_form": "Quiero [visitar::zwiedzać, odwiedzać] ahora.",
+        "pl_translation": "Chcę zwiedzać, odwiedzać teraz."
+      },
+      {
+        "es_form": "Me gusta [visitar::zwiedzać, odwiedzać] por la mañana.",
+        "pl_translation": "Lubię zwiedzać, odwiedzać rano."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "visito",
+        "pl_word": "zwiedząć (1.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[visito::zwiedząć (1.os.lp, ter.)] todos los días.",
+            "pl_translation": "Zwiedząć (1.os.lp, ter.) codziennie."
+          },
+          {
+            "es_form": "Normalmente [visito::zwiedząć (1.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj zwiedząć (1.os.lp, ter.) rano."
+          },
+          {
+            "es_form": "No [visito::zwiedząć (1.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie zwiedząć (1.os.lp, ter.) zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "visitas",
+        "pl_word": "zwiedząć (2.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[visitas::zwiedząć (2.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy zwiedząć (2.os.lp, ter.) w weekendy?"
+          },
+          {
+            "es_form": "Siempre [visitas::zwiedząć (2.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze zwiedząć (2.os.lp, ter.) z uwagą."
+          },
+          {
+            "es_form": "[visitas::zwiedząć (2.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Zwiedząć (2.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "visita",
+        "pl_word": "zwiedząć (3.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[visita::zwiedząć (3.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Zwiedząć (3.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "¿[visita::zwiedząć (3.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy zwiedząć (3.os.lp, ter.) w weekendy?"
+          },
+          {
+            "es_form": "No [visita::zwiedząć (3.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie zwiedząć (3.os.lp, ter.) zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "visitamos",
+        "pl_word": "zwiedząć (1.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "No [visitamos::zwiedząć (1.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie zwiedząć (1.os.lm, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "[visitamos::zwiedząć (1.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Zwiedząć (1.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [visitamos::zwiedząć (1.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj zwiedząć (1.os.lm, ter.) rano."
+          }
+        ]
+      },
+      {
+        "es_word": "visitáis",
+        "pl_word": "zwiedząć (2.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[visitáis::zwiedząć (2.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Zwiedząć (2.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "¿[visitáis::zwiedząć (2.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy zwiedząć (2.os.lm, ter.) w weekendy?"
+          },
+          {
+            "es_form": "[visitáis::zwiedząć (2.os.lm, ter.)] todos los días.",
+            "pl_translation": "Zwiedząć (2.os.lm, ter.) codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "visitan",
+        "pl_word": "zwiedząć (3.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [visitan::zwiedząć (3.os.lm, ter.)] con atencion.",
+            "pl_translation": "Zawsze zwiedząć (3.os.lm, ter.) z uwagą."
+          },
+          {
+            "es_form": "Normalmente [visitan::zwiedząć (3.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj zwiedząć (3.os.lm, ter.) rano."
+          },
+          {
+            "es_form": "¿[visitan::zwiedząć (3.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy zwiedząć (3.os.lm, ter.) w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "visité",
+        "pl_word": "zwiedząć (1.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[visité::zwiedząć (1.os.lp, przesz.)] la semana pasada.",
+            "pl_translation": "Zwiedząć (1.os.lp, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "[visité::zwiedząć (1.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Zwiedząć (1.os.lp, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "El mes pasado no [visité::zwiedząć (1.os.lp, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie zwiedząć (1.os.lp, przesz.)."
+          }
+        ]
+      },
+      {
+        "es_word": "visitaste",
+        "pl_word": "zwiedząć (2.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[visitaste::zwiedząć (2.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy zwiedząć (2.os.lp, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "[visitaste::zwiedząć (2.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Zwiedząć (2.os.lp, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [visitaste::zwiedząć (2.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie zwiedząć (2.os.lp, przesz.) czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "visitó",
+        "pl_word": "zwiedząć (3.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [visitó::zwiedząć (3.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie zwiedząć (3.os.lp, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "Ayer [visitó::zwiedząć (3.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj zwiedząć (3.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "El mes pasado no [visitó::zwiedząć (3.os.lp, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie zwiedząć (3.os.lp, przesz.)."
+          }
+        ]
+      },
+      {
+        "es_word": "visitamos",
+        "pl_word": "zwiedząć (1.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [visitamos::zwiedząć (1.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie zwiedząć (1.os.lm, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "¿[visitamos::zwiedząć (1.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy zwiedząć (1.os.lm, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "[visitamos::zwiedząć (1.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Zwiedząć (1.os.lm, przesz.) w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "visitasteis",
+        "pl_word": "zwiedząć (2.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [visitasteis::zwiedząć (2.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj zwiedząć (2.os.lm, przesz.) cały dzień."
+          },
+          {
+            "es_form": "[visitasteis::zwiedząć (2.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Zwiedząć (2.os.lm, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "¿[visitasteis::zwiedząć (2.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy zwiedząć (2.os.lm, przesz.) dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "visitaron",
+        "pl_word": "zwiedząć (3.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [visitaron::zwiedząć (3.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj zwiedząć (3.os.lm, przesz.) cały dzień."
+          },
+          {
+            "es_form": "¿[visitaron::zwiedząć (3.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy zwiedząć (3.os.lm, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "[visitaron::zwiedząć (3.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Zwiedząć (3.os.lm, przesz.) bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "visité",
+        "pl_word": "zwiedząć (1.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[visité::zwiedząć (1.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy zwiedząć (1.os.lp, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "Mañana [visité::zwiedząć (1.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro zwiedząć (1.os.lp, przysz.) wcześniej."
+          },
+          {
+            "es_form": "El año que viene [visité::zwiedząć (1.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku zwiedząć (1.os.lp, przysz.) w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "visitás",
+        "pl_word": "zwiedząć (2.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [visitás::zwiedząć (2.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że zwiedząć (2.os.lp, przysz.) na czas."
+          },
+          {
+            "es_form": "[visitás::zwiedząć (2.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Zwiedząć (2.os.lp, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Mañana [visitás::zwiedząć (2.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro zwiedząć (2.os.lp, przysz.) wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "visitá",
+        "pl_word": "zwiedząć (3.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [visitá::zwiedząć (3.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro zwiedząć (3.os.lp, przysz.) wcześniej."
+          },
+          {
+            "es_form": "Te prometo que [visitá::zwiedząć (3.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że zwiedząć (3.os.lp, przysz.) na czas."
+          },
+          {
+            "es_form": "[visitá::zwiedząć (3.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Zwiedząć (3.os.lp, przysz.) w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "visitemos",
+        "pl_word": "zwiedząć (1.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [visitemos::zwiedząć (1.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że zwiedząć (1.os.lm, przysz.) na czas."
+          },
+          {
+            "es_form": "Mañana [visitemos::zwiedząć (1.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro zwiedząć (1.os.lm, przysz.) wcześniej."
+          },
+          {
+            "es_form": "[visitemos::zwiedząć (1.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Zwiedząć (1.os.lm, przysz.) w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "visitéis",
+        "pl_word": "zwiedząć (2.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [visitéis::zwiedząć (2.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że zwiedząć (2.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "El año que viene [visitéis::zwiedząć (2.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku zwiedząć (2.os.lm, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "¿[visitéis::zwiedząć (2.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy zwiedząć (2.os.lm, przysz.) z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "visitán",
+        "pl_word": "zwiedząć (3.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[visitán::zwiedząć (3.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy zwiedząć (3.os.lm, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "Te prometo que [visitán::zwiedząć (3.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że zwiedząć (3.os.lm, przysz.) na czas."
+          },
+          {
+            "es_form": "El año que viene [visitán::zwiedząć (3.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku zwiedząć (3.os.lm, przysz.) w Hiszpanii."
+          }
+        ]
+      }
+    ]
+  }
+]

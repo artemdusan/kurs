@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "El prado",
+    "pl_word": "łąka",
+    "examples": [
+      {
+        "es_form": "[El prado::łąka] está cerca de aquí.",
+        "pl_translation": "Łąka jest niedaleko stąd."
+      },
+      {
+        "es_form": "[El prado::łąka] abre a las ocho.",
+        "pl_translation": "Łąka otwiera się o ósmej."
+      },
+      {
+        "es_form": "[El prado::łąka] es muy grande.",
+        "pl_translation": "Łąka jest bardzo duży/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El campo",
+    "pl_word": "pole",
+    "examples": [
+      {
+        "es_form": "[El campo::pole] está cerca de aquí.",
+        "pl_translation": "Pole jest niedaleko stąd."
+      },
+      {
+        "es_form": "Visitamos [el campo::pole] la semana pasada.",
+        "pl_translation": "Odwiedziliśmy pole w zeszłym tygodniu."
+      },
+      {
+        "es_form": "¿Donde está [el campo::pole]?",
+        "pl_translation": "Gdzie jest pole?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El estanque",
+    "pl_word": "staw",
+    "examples": [
+      {
+        "es_form": "Tienes [el estanque::staw] muy fuerte.",
+        "pl_translation": "Masz bardzo silny/a staw."
+      },
+      {
+        "es_form": "El médico me reviso [el estanque::staw].",
+        "pl_translation": "Lekarz zbadał mi staw."
+      },
+      {
+        "es_form": "[El estanque::staw] es una parte importante del cuerpo.",
+        "pl_translation": "Staw jest ważną częścią ciała."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La cascada",
+    "pl_word": "wodospad",
+    "examples": [
+      {
+        "es_form": "Visitamos [la cascada::wodospad] la semana pasada.",
+        "pl_translation": "Odwiedziliśmy wodospad w zeszłym tygodniu."
+      },
+      {
+        "es_form": "Voy a [la cascada::wodospad] cada día.",
+        "pl_translation": "Chodzę do wodospad codziennie."
+      },
+      {
+        "es_form": "[La cascada::wodospad] abre a las ocho.",
+        "pl_translation": "Wodospad otwiera się o ósmej."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La cueva",
+    "pl_word": "jaskinia",
+    "examples": [
+      {
+        "es_form": "Trabajo en [la cueva::jaskinia].",
+        "pl_translation": "Pracuję w jaskinia."
+      },
+      {
+        "es_form": "¿Donde está [la cueva::jaskinia]?",
+        "pl_translation": "Gdzie jest jaskinia?"
+      },
+      {
+        "es_form": "Visitamos [la cueva::jaskinia] la semana pasada.",
+        "pl_translation": "Odwiedziliśmy jaskinia w zeszłym tygodniu."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El acantilado",
+    "pl_word": "klif, urwisko",
+    "examples": [
+      {
+        "es_form": "Compré [el acantilado::klif, urwisko] ayer.",
+        "pl_translation": "Kupiłem/am klif, urwisko wczoraj."
+      },
+      {
+        "es_form": "¿Has visto [el acantilado::klif, urwisko]?",
+        "pl_translation": "Widziałeś/aś klif, urwisko?"
+      },
+      {
+        "es_form": "Guarda [el acantilado::klif, urwisko] en el armario.",
+        "pl_translation": "Schowaj klif, urwisko do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La costa",
+    "pl_word": "wybrzeże",
+    "examples": [
+      {
+        "es_form": "[La costa::wybrzeże] está cerca de aquí.",
+        "pl_translation": "Wybrzeże jest niedaleko stąd."
+      },
+      {
+        "es_form": "Visitamos [la costa::wybrzeże] la semana pasada.",
+        "pl_translation": "Odwiedziliśmy wybrzeże w zeszłym tygodniu."
+      },
+      {
+        "es_form": "[La costa::wybrzeże] abre a las ocho.",
+        "pl_translation": "Wybrzeże otwiera się o ósmej."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La ola",
+    "pl_word": "fala",
+    "examples": [
+      {
+        "es_form": "[La ola::fala] es de madera.",
+        "pl_translation": "Fala jest z drewna."
+      },
+      {
+        "es_form": "[La ola::fala] cuesta diez euros.",
+        "pl_translation": "Fala kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Guarda [la ola::fala] en el armario.",
+        "pl_translation": "Schowaj fala do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La arena",
+    "pl_word": "piasek",
+    "examples": [
+      {
+        "es_form": "[La arena::piasek] está sobre la mesa.",
+        "pl_translation": "Piasek jest na stole."
+      },
+      {
+        "es_form": "Compré [la arena::piasek] ayer.",
+        "pl_translation": "Kupiłem/am piasek wczoraj."
+      },
+      {
+        "es_form": "Se me rompio [la arena::piasek].",
+        "pl_translation": "Zepsuł mi się piasek."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El barro",
+    "pl_word": "błoto",
+    "examples": [
+      {
+        "es_form": "Necesito [el barro::błoto] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową błoto."
+      },
+      {
+        "es_form": "¿Has visto [el barro::błoto]?",
+        "pl_translation": "Widziałeś/aś błoto?"
+      },
+      {
+        "es_form": "[El barro::błoto] está sobre la mesa.",
+        "pl_translation": "Błoto jest na stole."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "pintoresco",
+    "pl_word": "malowniczy",
+    "examples": [
+      {
+        "es_form": "Es un lugar [pintoresco::malowniczy] para vivir.",
+        "pl_translation": "To jest malowniczy miejsce do życia."
+      },
+      {
+        "es_form": "Hace un día [pintoresco::malowniczy].",
+        "pl_translation": "Jest malowniczy dzień."
+      },
+      {
+        "es_form": "Se compro un vestido [pintoresco::malowniczy].",
+        "pl_translation": "Kupiła sobie malowniczy sukienkę."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "virgen",
+    "pl_word": "dziewiczy, nietknięty",
+    "examples": [
+      {
+        "es_form": "Este coche es [virgen::dziewiczy, nietknięty].",
+        "pl_translation": "Ten samochód jest dziewiczy, nietknięty."
+      },
+      {
+        "es_form": "Se compro un vestido [virgen::dziewiczy, nietknięty].",
+        "pl_translation": "Kupiła sobie dziewiczy, nietknięty sukienkę."
+      },
+      {
+        "es_form": "Mi amigo es [virgen::dziewiczy, nietknięty] y simpático.",
+        "pl_translation": "Mój przyjaciel jest dziewiczy, nietknięty i sympatyczny."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "florecer",
+    "pl_word": "kwitnąć, rozkwitać",
+    "examples": [
+      {
+        "es_form": "Quiero [florecer::kwitnąć, rozkwitać] ahora.",
+        "pl_translation": "Chcę kwitnąć, rozkwitać teraz."
+      },
+      {
+        "es_form": "¿Puedes [florecer::kwitnąć, rozkwitać] más rápido?",
+        "pl_translation": "Możesz kwitnąć, rozkwitać szybciej?"
+      },
+      {
+        "es_form": "Prefiero [florecer::kwitnąć, rozkwitać] en casa.",
+        "pl_translation": "Wolę kwitnąć, rozkwitać w domu."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "florezco",
+        "pl_word": "kwitnąć (1.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[florezco::kwitnąć (1.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy kwitnąć (1.os.lp, ter.) w weekendy?"
+          },
+          {
+            "es_form": "Normalmente [florezco::kwitnąć (1.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj kwitnąć (1.os.lp, ter.) rano."
+          },
+          {
+            "es_form": "[florezco::kwitnąć (1.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Kwitnąć (1.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "floreces",
+        "pl_word": "kwitnąć (2.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[floreces::kwitnąć (2.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy kwitnąć (2.os.lp, ter.) w weekendy?"
+          },
+          {
+            "es_form": "[floreces::kwitnąć (2.os.lp, ter.)] todos los días.",
+            "pl_translation": "Kwitnąć (2.os.lp, ter.) codziennie."
+          },
+          {
+            "es_form": "Normalmente [floreces::kwitnąć (2.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj kwitnąć (2.os.lp, ter.) rano."
+          }
+        ]
+      },
+      {
+        "es_word": "florece",
+        "pl_word": "kwitnąć (3.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [florece::kwitnąć (3.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze kwitnąć (3.os.lp, ter.) z uwagą."
+          },
+          {
+            "es_form": "[florece::kwitnąć (3.os.lp, ter.)] todos los días.",
+            "pl_translation": "Kwitnąć (3.os.lp, ter.) codziennie."
+          },
+          {
+            "es_form": "[florece::kwitnąć (3.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Kwitnąć (3.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "florecemos",
+        "pl_word": "kwitnąć (1.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[florecemos::kwitnąć (1.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy kwitnąć (1.os.lm, ter.) w weekendy?"
+          },
+          {
+            "es_form": "No [florecemos::kwitnąć (1.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie kwitnąć (1.os.lm, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "Normalmente [florecemos::kwitnąć (1.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj kwitnąć (1.os.lm, ter.) rano."
+          }
+        ]
+      },
+      {
+        "es_word": "florecéis",
+        "pl_word": "kwitnąć (2.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[florecéis::kwitnąć (2.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy kwitnąć (2.os.lm, ter.) w weekendy?"
+          },
+          {
+            "es_form": "Siempre [florecéis::kwitnąć (2.os.lm, ter.)] con atencion.",
+            "pl_translation": "Zawsze kwitnąć (2.os.lm, ter.) z uwagą."
+          },
+          {
+            "es_form": "No [florecéis::kwitnąć (2.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie kwitnąć (2.os.lm, ter.) zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "florecen",
+        "pl_word": "kwitnąć (3.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[florecen::kwitnąć (3.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy kwitnąć (3.os.lm, ter.) w weekendy?"
+          },
+          {
+            "es_form": "Normalmente [florecen::kwitnąć (3.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj kwitnąć (3.os.lm, ter.) rano."
+          },
+          {
+            "es_form": "No [florecen::kwitnąć (3.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie kwitnąć (3.os.lm, ter.) zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "florecí",
+        "pl_word": "kwitnąć (1.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [florecí::kwitnąć (1.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj kwitnąć (1.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "El mes pasado no [florecí::kwitnąć (1.os.lp, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie kwitnąć (1.os.lp, przesz.)."
+          },
+          {
+            "es_form": "¿[florecí::kwitnąć (1.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy kwitnąć (1.os.lp, przesz.) dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "floreciste",
+        "pl_word": "kwitnąć (2.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[floreciste::kwitnąć (2.os.lp, przesz.)] la semana pasada.",
+            "pl_translation": "Kwitnąć (2.os.lp, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "¿[floreciste::kwitnąć (2.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy kwitnąć (2.os.lp, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "Ayer [floreciste::kwitnąć (2.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj kwitnąć (2.os.lp, przesz.) cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "floreció",
+        "pl_word": "kwitnąć (3.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[floreció::kwitnąć (3.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Kwitnąć (3.os.lp, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "El mes pasado no [floreció::kwitnąć (3.os.lp, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie kwitnąć (3.os.lp, przesz.)."
+          },
+          {
+            "es_form": "¿[floreció::kwitnąć (3.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy kwitnąć (3.os.lp, przesz.) dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "florecimos",
+        "pl_word": "kwitnąć (1.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [florecimos::kwitnąć (1.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie kwitnąć (1.os.lm, przesz.)."
+          },
+          {
+            "es_form": "Ayer [florecimos::kwitnąć (1.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj kwitnąć (1.os.lm, przesz.) cały dzień."
+          },
+          {
+            "es_form": "[florecimos::kwitnąć (1.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Kwitnąć (1.os.lm, przesz.) bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "florecisteis",
+        "pl_word": "kwitnąć (2.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[florecisteis::kwitnąć (2.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Kwitnąć (2.os.lm, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "El mes pasado no [florecisteis::kwitnąć (2.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie kwitnąć (2.os.lm, przesz.)."
+          },
+          {
+            "es_form": "Ayer [florecisteis::kwitnąć (2.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj kwitnąć (2.os.lm, przesz.) cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "florecieron",
+        "pl_word": "kwitnąć (3.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[florecieron::kwitnąć (3.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Kwitnąć (3.os.lm, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "El mes pasado no [florecieron::kwitnąć (3.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie kwitnąć (3.os.lm, przesz.)."
+          },
+          {
+            "es_form": "¿[florecieron::kwitnąć (3.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy kwitnąć (3.os.lm, przesz.) dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "floreceré",
+        "pl_word": "kwitnąć (1.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [floreceré::kwitnąć (1.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że kwitnąć (1.os.lp, przysz.) na czas."
+          },
+          {
+            "es_form": "[floreceré::kwitnąć (1.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Kwitnąć (1.os.lp, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Mañana [floreceré::kwitnąć (1.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro kwitnąć (1.os.lp, przysz.) wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "florecerás",
+        "pl_word": "kwitnąć (2.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[florecerás::kwitnąć (2.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy kwitnąć (2.os.lp, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "El año que viene [florecerás::kwitnąć (2.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku kwitnąć (2.os.lp, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "[florecerás::kwitnąć (2.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Kwitnąć (2.os.lp, przysz.) w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "florecerá",
+        "pl_word": "kwitnąć (3.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [florecerá::kwitnąć (3.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro kwitnąć (3.os.lp, przysz.) wcześniej."
+          },
+          {
+            "es_form": "Te prometo que [florecerá::kwitnąć (3.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że kwitnąć (3.os.lp, przysz.) na czas."
+          },
+          {
+            "es_form": "El año que viene [florecerá::kwitnąć (3.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku kwitnąć (3.os.lp, przysz.) w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "floreceremos",
+        "pl_word": "kwitnąć (1.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [floreceremos::kwitnąć (1.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że kwitnąć (1.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "Mañana [floreceremos::kwitnąć (1.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro kwitnąć (1.os.lm, przysz.) wcześniej."
+          },
+          {
+            "es_form": "El año que viene [floreceremos::kwitnąć (1.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku kwitnąć (1.os.lm, przysz.) w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "floreceréis",
+        "pl_word": "kwitnąć (2.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[floreceréis::kwitnąć (2.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Kwitnąć (2.os.lm, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Creo que [floreceréis::kwitnąć (2.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że kwitnąć (2.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "El año que viene [floreceréis::kwitnąć (2.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku kwitnąć (2.os.lm, przysz.) w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "florecerán",
+        "pl_word": "kwitnąć (3.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [florecerán::kwitnąć (3.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku kwitnąć (3.os.lm, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Creo que [florecerán::kwitnąć (3.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że kwitnąć (3.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "Mañana [florecerán::kwitnąć (3.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro kwitnąć (3.os.lm, przysz.) wcześniej."
+          }
+        ]
+      }
+    ]
+  }
+]

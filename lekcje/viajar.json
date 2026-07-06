@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "El viaje",
+    "pl_word": "podróż",
+    "examples": [
+      {
+        "es_form": "Se me rompio [el viaje::podróż].",
+        "pl_translation": "Zepsuł mi się podróż."
+      },
+      {
+        "es_form": "Guarda [el viaje::podróż] en el armario.",
+        "pl_translation": "Schowaj podróż do szafy."
+      },
+      {
+        "es_form": "[El viaje::podróż] es de madera.",
+        "pl_translation": "Podróż jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El hotel",
+    "pl_word": "hotel",
+    "examples": [
+      {
+        "es_form": "[El hotel::hotel] es muy grande.",
+        "pl_translation": "Hotel jest bardzo duży/a."
+      },
+      {
+        "es_form": "[El hotel::hotel] está cerca de aquí.",
+        "pl_translation": "Hotel jest niedaleko stąd."
+      },
+      {
+        "es_form": "¿Donde está [el hotel::hotel]?",
+        "pl_translation": "Gdzie jest hotel?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La maleta",
+    "pl_word": "walizka",
+    "examples": [
+      {
+        "es_form": "[La maleta::walizka] está sobre la mesa.",
+        "pl_translation": "Walizka jest na stole."
+      },
+      {
+        "es_form": "[La maleta::walizka] cuesta diez euros.",
+        "pl_translation": "Walizka kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Guarda [la maleta::walizka] en el armario.",
+        "pl_translation": "Schowaj walizka do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El pasaporte",
+    "pl_word": "paszport",
+    "examples": [
+      {
+        "es_form": "Se me rompio [el pasaporte::paszport].",
+        "pl_translation": "Zepsuł mi się paszport."
+      },
+      {
+        "es_form": "Necesito [el pasaporte::paszport] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową paszport."
+      },
+      {
+        "es_form": "[El pasaporte::paszport] es de madera.",
+        "pl_translation": "Paszport jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La frontera",
+    "pl_word": "granica",
+    "examples": [
+      {
+        "es_form": "Compré [la frontera::granica] ayer.",
+        "pl_translation": "Kupiłem/am granica wczoraj."
+      },
+      {
+        "es_form": "Se me rompio [la frontera::granica].",
+        "pl_translation": "Zepsuł mi się granica."
+      },
+      {
+        "es_form": "Necesito [la frontera::granica] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową granica."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El mar",
+    "pl_word": "morze",
+    "examples": [
+      {
+        "es_form": "Voy a [el mar::morze] cada día.",
+        "pl_translation": "Chodzę do morze codziennie."
+      },
+      {
+        "es_form": "[El mar::morze] está cerca de aquí.",
+        "pl_translation": "Morze jest niedaleko stąd."
+      },
+      {
+        "es_form": "¿Donde está [el mar::morze]?",
+        "pl_translation": "Gdzie jest morze?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La montaña",
+    "pl_word": "góra",
+    "examples": [
+      {
+        "es_form": "Guarda [la montaña::góra] en el armario.",
+        "pl_translation": "Schowaj góra do szafy."
+      },
+      {
+        "es_form": "¿Has visto [la montaña::góra]?",
+        "pl_translation": "Widziałeś/aś góra?"
+      },
+      {
+        "es_form": "[La montaña::góra] cuesta diez euros.",
+        "pl_translation": "Góra kosztuje dziesięć euro."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La playa",
+    "pl_word": "plaża",
+    "examples": [
+      {
+        "es_form": "[La playa::plaża] abre a las ocho.",
+        "pl_translation": "Plaża otwiera się o ósmej."
+      },
+      {
+        "es_form": "¿Donde está [la playa::plaża]?",
+        "pl_translation": "Gdzie jest plaża?"
+      },
+      {
+        "es_form": "[La playa::plaża] está cerca de aquí.",
+        "pl_translation": "Plaża jest niedaleko stąd."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El mapa",
+    "pl_word": "mapa",
+    "examples": [
+      {
+        "es_form": "[El mapa::mapa] está sobre la mesa.",
+        "pl_translation": "Mapa jest na stole."
+      },
+      {
+        "es_form": "¿Has visto [el mapa::mapa]?",
+        "pl_translation": "Widziałeś/aś mapa?"
+      },
+      {
+        "es_form": "Guarda [el mapa::mapa] en el armario.",
+        "pl_translation": "Schowaj mapa do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El excursión",
+    "pl_word": "wycieczka",
+    "examples": [
+      {
+        "es_form": "Compré [el excursión::wycieczka] ayer.",
+        "pl_translation": "Kupiłem/am wycieczka wczoraj."
+      },
+      {
+        "es_form": "¿Has visto [el excursión::wycieczka]?",
+        "pl_translation": "Widziałeś/aś wycieczka?"
+      },
+      {
+        "es_form": "Guarda [el excursión::wycieczka] en el armario.",
+        "pl_translation": "Schowaj wycieczka do szafy."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "lejano",
+    "pl_word": "daleki",
+    "examples": [
+      {
+        "es_form": "Es un lugar [lejano::daleki] para vivir.",
+        "pl_translation": "To jest daleki miejsce do życia."
+      },
+      {
+        "es_form": "El examen fue [lejano::daleki].",
+        "pl_translation": "Egzamin był daleki."
+      },
+      {
+        "es_form": "La comida está [lejana::daleki].",
+        "pl_translation": "Jedzenie jest daleki."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "cercano",
+    "pl_word": "bliski",
+    "examples": [
+      {
+        "es_form": "Tengo una casa [cercana::bliski].",
+        "pl_translation": "Mam bliski dom."
+      },
+      {
+        "es_form": "Es un lugar [cercano::bliski] para vivir.",
+        "pl_translation": "To jest bliski miejsce do życia."
+      },
+      {
+        "es_form": "Hace un día [cercano::bliski].",
+        "pl_translation": "Jest bliski dzień."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "viajar",
+    "pl_word": "podróżować",
+    "examples": [
+      {
+        "es_form": "No puedo [viajar::podróżować] sin tu ayuda.",
+        "pl_translation": "Nie mogę podróżować bez twojej pomocy."
+      },
+      {
+        "es_form": "Prefiero [viajar::podróżować] en casa.",
+        "pl_translation": "Wolę podróżować w domu."
+      },
+      {
+        "es_form": "Me gusta [viajar::podróżować] por la mañana.",
+        "pl_translation": "Lubię podróżować rano."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "viajo",
+        "pl_word": "podróżować (1.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "No [viajo::podróżować (1.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie podróżować (1.os.lp, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "Normalmente [viajo::podróżować (1.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj podróżować (1.os.lp, ter.) rano."
+          },
+          {
+            "es_form": "Siempre [viajo::podróżować (1.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze podróżować (1.os.lp, ter.) z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "viajas",
+        "pl_word": "podróżować (2.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [viajas::podróżować (2.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze podróżować (2.os.lp, ter.) z uwagą."
+          },
+          {
+            "es_form": "[viajas::podróżować (2.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Podróżować (2.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [viajas::podróżować (2.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj podróżować (2.os.lp, ter.) rano."
+          }
+        ]
+      },
+      {
+        "es_word": "viaja",
+        "pl_word": "podróżować (3.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "No [viaja::podróżować (3.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie podróżować (3.os.lp, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "¿[viaja::podróżować (3.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy podróżować (3.os.lp, ter.) w weekendy?"
+          },
+          {
+            "es_form": "Siempre [viaja::podróżować (3.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze podróżować (3.os.lp, ter.) z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "viajamos",
+        "pl_word": "podróżować (1.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[viajamos::podróżować (1.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Podróżować (1.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [viajamos::podróżować (1.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj podróżować (1.os.lm, ter.) rano."
+          },
+          {
+            "es_form": "¿[viajamos::podróżować (1.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy podróżować (1.os.lm, ter.) w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "viajáis",
+        "pl_word": "podróżować (2.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "No [viajáis::podróżować (2.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie podróżować (2.os.lm, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "Siempre [viajáis::podróżować (2.os.lm, ter.)] con atencion.",
+            "pl_translation": "Zawsze podróżować (2.os.lm, ter.) z uwagą."
+          },
+          {
+            "es_form": "[viajáis::podróżować (2.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Podróżować (2.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "viajan",
+        "pl_word": "podróżować (3.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[viajan::podróżować (3.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy podróżować (3.os.lm, ter.) w weekendy?"
+          },
+          {
+            "es_form": "[viajan::podróżować (3.os.lm, ter.)] todos los días.",
+            "pl_translation": "Podróżować (3.os.lm, ter.) codziennie."
+          },
+          {
+            "es_form": "[viajan::podróżować (3.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Podróżować (3.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "viajé",
+        "pl_word": "podróżować (1.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [viajé::podróżować (1.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj podróżować (1.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "[viajé::podróżować (1.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Podróżować (1.os.lp, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "¿[viajé::podróżować (1.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy podróżować (1.os.lp, przesz.) dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "viajaste",
+        "pl_word": "podróżować (2.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[viajaste::podróżować (2.os.lp, przesz.)] la semana pasada.",
+            "pl_translation": "Podróżować (2.os.lp, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "[viajaste::podróżować (2.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Podróżować (2.os.lp, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [viajaste::podróżować (2.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie podróżować (2.os.lp, przesz.) czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "viajó",
+        "pl_word": "podróżować (3.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [viajó::podróżować (3.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie podróżować (3.os.lp, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "[viajó::podróżować (3.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Podróżować (3.os.lp, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "¿[viajó::podróżować (3.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy podróżować (3.os.lp, przesz.) dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "viajamos",
+        "pl_word": "podróżować (1.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[viajamos::podróżować (1.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Podróżować (1.os.lm, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Nunca [viajamos::podróżować (1.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie podróżować (1.os.lm, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "Ayer [viajamos::podróżować (1.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj podróżować (1.os.lm, przesz.) cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "viajasteis",
+        "pl_word": "podróżować (2.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[viajasteis::podróżować (2.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Podróżować (2.os.lm, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [viajasteis::podróżować (2.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie podróżować (2.os.lm, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "Ayer [viajasteis::podróżować (2.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj podróżować (2.os.lm, przesz.) cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "viajaron",
+        "pl_word": "podróżować (3.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[viajaron::podróżować (3.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Podróżować (3.os.lm, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Ayer [viajaron::podróżować (3.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj podróżować (3.os.lm, przesz.) cały dzień."
+          },
+          {
+            "es_form": "¿[viajaron::podróżować (3.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy podróżować (3.os.lm, przesz.) dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "viajé",
+        "pl_word": "podróżować (1.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [viajé::podróżować (1.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku podróżować (1.os.lp, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Creo que [viajé::podróżować (1.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że podróżować (1.os.lp, przysz.) dobrze."
+          },
+          {
+            "es_form": "[viajé::podróżować (1.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Podróżować (1.os.lp, przysz.) w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "viajás",
+        "pl_word": "podróżować (2.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [viajás::podróżować (2.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że podróżować (2.os.lp, przysz.) dobrze."
+          },
+          {
+            "es_form": "Te prometo que [viajás::podróżować (2.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że podróżować (2.os.lp, przysz.) na czas."
+          },
+          {
+            "es_form": "[viajás::podróżować (2.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Podróżować (2.os.lp, przysz.) w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "viajá",
+        "pl_word": "podróżować (3.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [viajá::podróżować (3.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że podróżować (3.os.lp, przysz.) dobrze."
+          },
+          {
+            "es_form": "¿[viajá::podróżować (3.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy podróżować (3.os.lp, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "Te prometo que [viajá::podróżować (3.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że podróżować (3.os.lp, przysz.) na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "viajemos",
+        "pl_word": "podróżować (1.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [viajemos::podróżować (1.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że podróżować (1.os.lm, przysz.) na czas."
+          },
+          {
+            "es_form": "Mañana [viajemos::podróżować (1.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro podróżować (1.os.lm, przysz.) wcześniej."
+          },
+          {
+            "es_form": "[viajemos::podróżować (1.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Podróżować (1.os.lm, przysz.) w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "viajéis",
+        "pl_word": "podróżować (2.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[viajéis::podróżować (2.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy podróżować (2.os.lm, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "[viajéis::podróżować (2.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Podróżować (2.os.lm, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "El año que viene [viajéis::podróżować (2.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku podróżować (2.os.lm, przysz.) w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "viaján",
+        "pl_word": "podróżować (3.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [viaján::podróżować (3.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że podróżować (3.os.lm, przysz.) na czas."
+          },
+          {
+            "es_form": "Creo que [viaján::podróżować (3.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że podróżować (3.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "¿[viaján::podróżować (3.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy podróżować (3.os.lm, przysz.) z nami jutro?"
+          }
+        ]
+      }
+    ]
+  }
+]

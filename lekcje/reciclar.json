@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "La basura",
+    "pl_word": "śmieci",
+    "examples": [
+      {
+        "es_form": "Compré [la basura::śmieci] ayer.",
+        "pl_translation": "Kupiłem/am śmieci wczoraj."
+      },
+      {
+        "es_form": "Guarda [la basura::śmieci] en el armario.",
+        "pl_translation": "Schowaj śmieci do szafy."
+      },
+      {
+        "es_form": "¿Has visto [la basura::śmieci]?",
+        "pl_translation": "Widziałeś/aś śmieci?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El reciclaje",
+    "pl_word": "recykling",
+    "examples": [
+      {
+        "es_form": "Compré [el reciclaje::recykling] ayer.",
+        "pl_translation": "Kupiłem/am recykling wczoraj."
+      },
+      {
+        "es_form": "Necesito [el reciclaje::recykling] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową recykling."
+      },
+      {
+        "es_form": "¿Has visto [el reciclaje::recykling]?",
+        "pl_translation": "Widziałeś/aś recykling?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El residuo",
+    "pl_word": "odpad",
+    "examples": [
+      {
+        "es_form": "Guarda [el residuo::odpad] en el armario.",
+        "pl_translation": "Schowaj odpad do szafy."
+      },
+      {
+        "es_form": "[El residuo::odpad] es de madera.",
+        "pl_translation": "Odpad jest z drewna."
+      },
+      {
+        "es_form": "[El residuo::odpad] cuesta diez euros.",
+        "pl_translation": "Odpad kosztuje dziesięć euro."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La energía",
+    "pl_word": "energia",
+    "examples": [
+      {
+        "es_form": "Tienes que aceptar [la energía::energia].",
+        "pl_translation": "Musisz zaakceptować energia."
+      },
+      {
+        "es_form": "No entiendo [la energía::energia].",
+        "pl_translation": "Nie rozumiem energia."
+      },
+      {
+        "es_form": "[La energía::energia] cambio mi vida.",
+        "pl_translation": "Energia zmienił/a moje życie."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El calentamiento global",
+    "pl_word": "globalne ocieplenie",
+    "examples": [
+      {
+        "es_form": "Necesito [El calentamiento global::globalne ocieplenie] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową globalne ocieplenie."
+      },
+      {
+        "es_form": "Guarda [El calentamiento global::globalne ocieplenie] en el armario.",
+        "pl_translation": "Schowaj globalne ocieplenie do szafy."
+      },
+      {
+        "es_form": "Compré [El calentamiento global::globalne ocieplenie] ayer.",
+        "pl_translation": "Kupiłem/am globalne ocieplenie wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El desastre",
+    "pl_word": "katastrofa",
+    "examples": [
+      {
+        "es_form": "Necesito [el desastre::katastrofa] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową katastrofa."
+      },
+      {
+        "es_form": "¿Has visto [el desastre::katastrofa]?",
+        "pl_translation": "Widziałeś/aś katastrofa?"
+      },
+      {
+        "es_form": "Compré [el desastre::katastrofa] ayer.",
+        "pl_translation": "Kupiłem/am katastrofa wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El protección",
+    "pl_word": "ochrona",
+    "examples": [
+      {
+        "es_form": "Guarda [el protección::ochrona] en el armario.",
+        "pl_translation": "Schowaj ochrona do szafy."
+      },
+      {
+        "es_form": "Se me rompio [el protección::ochrona].",
+        "pl_translation": "Zepsuł mi się ochrona."
+      },
+      {
+        "es_form": "[El protección::ochrona] está sobre la mesa.",
+        "pl_translation": "Ochrona jest na stole."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La naturaleza",
+    "pl_word": "natura, przyroda",
+    "examples": [
+      {
+        "es_form": "Necesito [la naturaleza::natura, przyroda] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową natura, przyroda."
+      },
+      {
+        "es_form": "Guarda [la naturaleza::natura, przyroda] en el armario.",
+        "pl_translation": "Schowaj natura, przyroda do szafy."
+      },
+      {
+        "es_form": "Compré [la naturaleza::natura, przyroda] ayer.",
+        "pl_translation": "Kupiłem/am natura, przyroda wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El recursos",
+    "pl_word": "zasoby",
+    "examples": [
+      {
+        "es_form": "Necesito [el recursos::zasoby] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową zasoby."
+      },
+      {
+        "es_form": "[El recursos::zasoby] es de madera.",
+        "pl_translation": "Zasoby jest z drewna."
+      },
+      {
+        "es_form": "Se me rompio [el recursos::zasoby].",
+        "pl_translation": "Zepsuł mi się zasoby."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La ecología",
+    "pl_word": "ekologia",
+    "examples": [
+      {
+        "es_form": "[La ecología::ekologia] cambio mi vida.",
+        "pl_translation": "Ekologia zmienił/a moje życie."
+      },
+      {
+        "es_form": "Tienes que aceptar [la ecología::ekologia].",
+        "pl_translation": "Musisz zaakceptować ekologia."
+      },
+      {
+        "es_form": "[La ecología::ekologia] es la clave del éxito.",
+        "pl_translation": "Ekologia jest kluczem do sukcesu."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "ecológico",
+    "pl_word": "ekologiczny",
+    "examples": [
+      {
+        "es_form": "Hace un día [ecológico::ekologiczny].",
+        "pl_translation": "Jest ekologiczny dzień."
+      },
+      {
+        "es_form": "Nada es más [ecológico::ekologiczny] que la familia.",
+        "pl_translation": "Nic nie jest ekologiczny od rodziny."
+      },
+      {
+        "es_form": "Mi amigo es [ecológico::ekologiczny] y simpático.",
+        "pl_translation": "Mój przyjaciel jest ekologiczny i sympatyczny."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "dañino",
+    "pl_word": "szkodliwy",
+    "examples": [
+      {
+        "es_form": "Se compro un vestido [dañino::szkodliwy].",
+        "pl_translation": "Kupiła sobie szkodliwy sukienkę."
+      },
+      {
+        "es_form": "Tengo una casa [dañina::szkodliwy].",
+        "pl_translation": "Mam szkodliwy dom."
+      },
+      {
+        "es_form": "Hace un día [dañino::szkodliwy].",
+        "pl_translation": "Jest szkodliwy dzień."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "reciclar",
+    "pl_word": "segregować (śmieci), przetwarzać",
+    "examples": [
+      {
+        "es_form": "Hay que [reciclar::segregować (śmieci), przetwarzać] con cuidado.",
+        "pl_translation": "Trzeba segregować (śmieci), przetwarzać ostrożnie."
+      },
+      {
+        "es_form": "¿Puedes [reciclar::segregować (śmieci), przetwarzać] más rápido?",
+        "pl_translation": "Możesz segregować (śmieci), przetwarzać szybciej?"
+      },
+      {
+        "es_form": "Es importante [reciclar::segregować (śmieci), przetwarzać] todos los días.",
+        "pl_translation": "Ważne jest segregować (śmieci), przetwarzać codziennie."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "reciclo",
+        "pl_word": "segregować (1.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "No [reciclo::segregować (1.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie segregować (1.os.lp, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "[reciclo::segregować (1.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Segregować (1.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Siempre [reciclo::segregować (1.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze segregować (1.os.lp, ter.) z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "reciclas",
+        "pl_word": "segregować (2.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[reciclas::segregować (2.os.lp, ter.)] todos los días.",
+            "pl_translation": "Segregować (2.os.lp, ter.) codziennie."
+          },
+          {
+            "es_form": "Normalmente [reciclas::segregować (2.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj segregować (2.os.lp, ter.) rano."
+          },
+          {
+            "es_form": "[reciclas::segregować (2.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Segregować (2.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "recicla",
+        "pl_word": "segregować (3.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "No [recicla::segregować (3.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie segregować (3.os.lp, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "[recicla::segregować (3.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Segregować (3.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [recicla::segregować (3.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj segregować (3.os.lp, ter.) rano."
+          }
+        ]
+      },
+      {
+        "es_word": "reciclamos",
+        "pl_word": "segregować (1.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "No [reciclamos::segregować (1.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie segregować (1.os.lm, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "¿[reciclamos::segregować (1.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy segregować (1.os.lm, ter.) w weekendy?"
+          },
+          {
+            "es_form": "[reciclamos::segregować (1.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Segregować (1.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "recicláis",
+        "pl_word": "segregować (2.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[recicláis::segregować (2.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Segregować (2.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [recicláis::segregować (2.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj segregować (2.os.lm, ter.) rano."
+          },
+          {
+            "es_form": "[recicláis::segregować (2.os.lm, ter.)] todos los días.",
+            "pl_translation": "Segregować (2.os.lm, ter.) codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "reciclan",
+        "pl_word": "segregować (3.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "No [reciclan::segregować (3.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie segregować (3.os.lm, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "[reciclan::segregować (3.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Segregować (3.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "¿[reciclan::segregować (3.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy segregować (3.os.lm, ter.) w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "reciclé",
+        "pl_word": "segregować (1.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [reciclé::segregować (1.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj segregować (1.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "Nunca [reciclé::segregować (1.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie segregować (1.os.lp, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "[reciclé::segregować (1.os.lp, przesz.)] la semana pasada.",
+            "pl_translation": "Segregować (1.os.lp, przesz.) w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "reciclaste",
+        "pl_word": "segregować (2.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [reciclaste::segregować (2.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj segregować (2.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "El mes pasado no [reciclaste::segregować (2.os.lp, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie segregować (2.os.lp, przesz.)."
+          },
+          {
+            "es_form": "[reciclaste::segregować (2.os.lp, przesz.)] la semana pasada.",
+            "pl_translation": "Segregować (2.os.lp, przesz.) w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "recicló",
+        "pl_word": "segregować (3.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [recicló::segregować (3.os.lp, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie segregować (3.os.lp, przesz.)."
+          },
+          {
+            "es_form": "[recicló::segregować (3.os.lp, przesz.)] la semana pasada.",
+            "pl_translation": "Segregować (3.os.lp, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "[recicló::segregować (3.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Segregować (3.os.lp, przesz.) bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "reciclamos",
+        "pl_word": "segregować (1.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[reciclamos::segregować (1.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy segregować (1.os.lm, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "Ayer [reciclamos::segregować (1.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj segregować (1.os.lm, przesz.) cały dzień."
+          },
+          {
+            "es_form": "[reciclamos::segregować (1.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Segregować (1.os.lm, przesz.) w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "reciclasteis",
+        "pl_word": "segregować (2.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[reciclasteis::segregować (2.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy segregować (2.os.lm, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "Nunca [reciclasteis::segregować (2.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie segregować (2.os.lm, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "El mes pasado no [reciclasteis::segregować (2.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie segregować (2.os.lm, przesz.)."
+          }
+        ]
+      },
+      {
+        "es_word": "reciclaron",
+        "pl_word": "segregować (3.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [reciclaron::segregować (3.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie segregować (3.os.lm, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "[reciclaron::segregować (3.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Segregować (3.os.lm, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "El mes pasado no [reciclaron::segregować (3.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie segregować (3.os.lm, przesz.)."
+          }
+        ]
+      },
+      {
+        "es_word": "reciclé",
+        "pl_word": "segregować (1.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [reciclé::segregować (1.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że segregować (1.os.lp, przysz.) na czas."
+          },
+          {
+            "es_form": "Creo que [reciclé::segregować (1.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że segregować (1.os.lp, przysz.) dobrze."
+          },
+          {
+            "es_form": "El año que viene [reciclé::segregować (1.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku segregować (1.os.lp, przysz.) w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "reciclás",
+        "pl_word": "segregować (2.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [reciclás::segregować (2.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że segregować (2.os.lp, przysz.) dobrze."
+          },
+          {
+            "es_form": "Te prometo que [reciclás::segregować (2.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że segregować (2.os.lp, przysz.) na czas."
+          },
+          {
+            "es_form": "¿[reciclás::segregować (2.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy segregować (2.os.lp, przysz.) z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "reciclá",
+        "pl_word": "segregować (3.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [reciclá::segregować (3.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że segregować (3.os.lp, przysz.) dobrze."
+          },
+          {
+            "es_form": "¿[reciclá::segregować (3.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy segregować (3.os.lp, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "El año que viene [reciclá::segregować (3.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku segregować (3.os.lp, przysz.) w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "reciclemos",
+        "pl_word": "segregować (1.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[reciclemos::segregować (1.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Segregować (1.os.lm, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Creo que [reciclemos::segregować (1.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że segregować (1.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "Mañana [reciclemos::segregować (1.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro segregować (1.os.lm, przysz.) wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "recicléis",
+        "pl_word": "segregować (2.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [recicléis::segregować (2.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro segregować (2.os.lm, przysz.) wcześniej."
+          },
+          {
+            "es_form": "El año que viene [recicléis::segregować (2.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku segregować (2.os.lm, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Creo que [recicléis::segregować (2.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że segregować (2.os.lm, przysz.) dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "reciclán",
+        "pl_word": "segregować (3.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [reciclán::segregować (3.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że segregować (3.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "[reciclán::segregować (3.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Segregować (3.os.lm, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Te prometo que [reciclán::segregować (3.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że segregować (3.os.lm, przysz.) na czas."
+          }
+        ]
+      }
+    ]
+  }
+]

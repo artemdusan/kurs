@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "El director",
+    "pl_word": "dyrektor",
+    "examples": [
+      {
+        "es_form": "[El director::dyrektor] trabaja aquí.",
+        "pl_translation": "Dyrektor tu pracuje."
+      },
+      {
+        "es_form": "[El director::dyrektor] me ayudo mucho.",
+        "pl_translation": "Dyrektor bardzo mi pomógł/pomogła."
+      },
+      {
+        "es_form": "Conozco a [el director::dyrektor].",
+        "pl_translation": "Znam dyrektor."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El gerente",
+    "pl_word": "menadżer",
+    "examples": [
+      {
+        "es_form": "[El gerente::menadżer] trabaja aquí.",
+        "pl_translation": "Menadżer tu pracuje."
+      },
+      {
+        "es_form": "Conozco a [el gerente::menadżer].",
+        "pl_translation": "Znam menadżer."
+      },
+      {
+        "es_form": "[El gerente::menadżer] vive en mi calle.",
+        "pl_translation": "Menadżer mieszka na mojej ulicy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El empleado",
+    "pl_word": "pracownik",
+    "examples": [
+      {
+        "es_form": "[El empleado::pracownik] vive en mi calle.",
+        "pl_translation": "Pracownik mieszka na mojej ulicy."
+      },
+      {
+        "es_form": "Hablé con [el empleado::pracownik] ayer.",
+        "pl_translation": "Rozmawiałem/am wczoraj z pracownik."
+      },
+      {
+        "es_form": "[El empleado::pracownik] trabaja aquí.",
+        "pl_translation": "Pracownik tu pracuje."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El empleador",
+    "pl_word": "pracodawca",
+    "examples": [
+      {
+        "es_form": "Guarda [el empleador::pracodawca] en el armario.",
+        "pl_translation": "Schowaj pracodawca do szafy."
+      },
+      {
+        "es_form": "¿Has visto [el empleador::pracodawca]?",
+        "pl_translation": "Widziałeś/aś pracodawca?"
+      },
+      {
+        "es_form": "[El empleador::pracodawca] está sobre la mesa.",
+        "pl_translation": "Pracodawca jest na stole."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La carrera",
+    "pl_word": "kariera",
+    "examples": [
+      {
+        "es_form": "No entiendo [la carrera::kariera].",
+        "pl_translation": "Nie rozumiem kariera."
+      },
+      {
+        "es_form": "Tienes que aceptar [la carrera::kariera].",
+        "pl_translation": "Musisz zaakceptować kariera."
+      },
+      {
+        "es_form": "Hablamos sobre [la carrera::kariera].",
+        "pl_translation": "Rozmawialiśmy o kariera."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El prácticas",
+    "pl_word": "staż",
+    "examples": [
+      {
+        "es_form": "Guarda [el prácticas::staż] en el armario.",
+        "pl_translation": "Schowaj staż do szafy."
+      },
+      {
+        "es_form": "Compré [el prácticas::staż] ayer.",
+        "pl_translation": "Kupiłem/am staż wczoraj."
+      },
+      {
+        "es_form": "[El prácticas::staż] es de madera.",
+        "pl_translation": "Staż jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El desempleo",
+    "pl_word": "bezrobocie",
+    "examples": [
+      {
+        "es_form": "Guarda [el desempleo::bezrobocie] en el armario.",
+        "pl_translation": "Schowaj bezrobocie do szafy."
+      },
+      {
+        "es_form": "¿Has visto [el desempleo::bezrobocie]?",
+        "pl_translation": "Widziałeś/aś bezrobocie?"
+      },
+      {
+        "es_form": "Necesito [el desempleo::bezrobocie] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową bezrobocie."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El jubilación",
+    "pl_word": "emerytura",
+    "examples": [
+      {
+        "es_form": "[El jubilación::emerytura] me ayudo mucho.",
+        "pl_translation": "Emerytura bardzo mi pomógł/pomogła."
+      },
+      {
+        "es_form": "Conozco a [el jubilación::emerytura].",
+        "pl_translation": "Znam emerytura."
+      },
+      {
+        "es_form": "[El jubilación::emerytura] trabaja aquí.",
+        "pl_translation": "Emerytura tu pracuje."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El currículum",
+    "pl_word": "CV",
+    "examples": [
+      {
+        "es_form": "[El currículum::CV] es de madera.",
+        "pl_translation": "CV jest z drewna."
+      },
+      {
+        "es_form": "Compré [el currículum::CV] ayer.",
+        "pl_translation": "Kupiłem/am CV wczoraj."
+      },
+      {
+        "es_form": "Necesito [el currículum::CV] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową CV."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La entrevista de trabajo",
+    "pl_word": "rozmowa o pracę",
+    "examples": [
+      {
+        "es_form": "Necesito [La entrevista de trabajo::rozmowa o pracę] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową rozmowa o pracę."
+      },
+      {
+        "es_form": "¿Has visto [La entrevista de trabajo::rozmowa o pracę]?",
+        "pl_translation": "Widziałeś/aś rozmowa o pracę?"
+      },
+      {
+        "es_form": "[La entrevista de trabajo::rozmowa o pracę] está sobre la mesa.",
+        "pl_translation": "Rozmowa o pracę jest na stole."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "experimentado",
+    "pl_word": "doświadczony",
+    "examples": [
+      {
+        "es_form": "Nada es más [experimentado::doświadczony] que la familia.",
+        "pl_translation": "Nic nie jest doświadczony od rodziny."
+      },
+      {
+        "es_form": "El examen fue [experimentado::doświadczony].",
+        "pl_translation": "Egzamin był doświadczony."
+      },
+      {
+        "es_form": "Hace un día [experimentado::doświadczony].",
+        "pl_translation": "Jest doświadczony dzień."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "cualificado",
+    "pl_word": "wykwalifikowany",
+    "examples": [
+      {
+        "es_form": "El examen fue [cualificado::wykwalifikowany].",
+        "pl_translation": "Egzamin był wykwalifikowany."
+      },
+      {
+        "es_form": "La comida está [cualificada::wykwalifikowany].",
+        "pl_translation": "Jedzenie jest wykwalifikowany."
+      },
+      {
+        "es_form": "Nada es más [cualificado::wykwalifikowany] que la familia.",
+        "pl_translation": "Nic nie jest wykwalifikowany od rodziny."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "dirigir",
+    "pl_word": "kierować, zarządzać",
+    "examples": [
+      {
+        "es_form": "No puedo [dirigir::kierować, zarządzać] sin tu ayuda.",
+        "pl_translation": "Nie mogę kierować, zarządzać bez twojej pomocy."
+      },
+      {
+        "es_form": "Voy a [dirigir::kierować, zarządzać] mañana.",
+        "pl_translation": "Będę kierować, zarządzać jutro."
+      },
+      {
+        "es_form": "Me gusta [dirigir::kierować, zarządzać] por la mañana.",
+        "pl_translation": "Lubię kierować, zarządzać rano."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "dirijo",
+        "pl_word": "kierować (1.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [dirijo::kierować (1.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj kierować (1.os.lp, ter.) rano."
+          },
+          {
+            "es_form": "[dirijo::kierować (1.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Kierować (1.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "[dirijo::kierować (1.os.lp, ter.)] todos los días.",
+            "pl_translation": "Kierować (1.os.lp, ter.) codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "diriges",
+        "pl_word": "kierować (2.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[diriges::kierować (2.os.lp, ter.)] todos los días.",
+            "pl_translation": "Kierować (2.os.lp, ter.) codziennie."
+          },
+          {
+            "es_form": "[diriges::kierować (2.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Kierować (2.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Siempre [diriges::kierować (2.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze kierować (2.os.lp, ter.) z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "dirige",
+        "pl_word": "kierować (3.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[dirige::kierować (3.os.lp, ter.)] todos los días.",
+            "pl_translation": "Kierować (3.os.lp, ter.) codziennie."
+          },
+          {
+            "es_form": "Normalmente [dirige::kierować (3.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj kierować (3.os.lp, ter.) rano."
+          },
+          {
+            "es_form": "No [dirige::kierować (3.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie kierować (3.os.lp, ter.) zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "dirigimos",
+        "pl_word": "kierować (1.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[dirigimos::kierować (1.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Kierować (1.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [dirigimos::kierować (1.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj kierować (1.os.lm, ter.) rano."
+          },
+          {
+            "es_form": "No [dirigimos::kierować (1.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie kierować (1.os.lm, ter.) zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "dirigís",
+        "pl_word": "kierować (2.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "No [dirigís::kierować (2.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie kierować (2.os.lm, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "Normalmente [dirigís::kierować (2.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj kierować (2.os.lm, ter.) rano."
+          },
+          {
+            "es_form": "[dirigís::kierować (2.os.lm, ter.)] todos los días.",
+            "pl_translation": "Kierować (2.os.lm, ter.) codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "dirigen",
+        "pl_word": "kierować (3.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [dirigen::kierować (3.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj kierować (3.os.lm, ter.) rano."
+          },
+          {
+            "es_form": "[dirigen::kierować (3.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Kierować (3.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "¿[dirigen::kierować (3.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy kierować (3.os.lm, ter.) w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "dirigí",
+        "pl_word": "kierować (1.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[dirigí::kierować (1.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Kierować (1.os.lp, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Ayer [dirigí::kierować (1.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj kierować (1.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "¿[dirigí::kierować (1.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy kierować (1.os.lp, przesz.) dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "dirigiste",
+        "pl_word": "kierować (2.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [dirigiste::kierować (2.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj kierować (2.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "El mes pasado no [dirigiste::kierować (2.os.lp, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie kierować (2.os.lp, przesz.)."
+          },
+          {
+            "es_form": "Nunca [dirigiste::kierować (2.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie kierować (2.os.lp, przesz.) czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "dirigió",
+        "pl_word": "kierować (3.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [dirigió::kierować (3.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj kierować (3.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "[dirigió::kierować (3.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Kierować (3.os.lp, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "[dirigió::kierować (3.os.lp, przesz.)] la semana pasada.",
+            "pl_translation": "Kierować (3.os.lp, przesz.) w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "dirigimos",
+        "pl_word": "kierować (1.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[dirigimos::kierować (1.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Kierować (1.os.lm, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "[dirigimos::kierować (1.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Kierować (1.os.lm, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Nunca [dirigimos::kierować (1.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie kierować (1.os.lm, przesz.) czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "dirigisteis",
+        "pl_word": "kierować (2.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [dirigisteis::kierować (2.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie kierować (2.os.lm, przesz.)."
+          },
+          {
+            "es_form": "Ayer [dirigisteis::kierować (2.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj kierować (2.os.lm, przesz.) cały dzień."
+          },
+          {
+            "es_form": "[dirigisteis::kierować (2.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Kierować (2.os.lm, przesz.) w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "dirigieron",
+        "pl_word": "kierować (3.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [dirigieron::kierować (3.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie kierować (3.os.lm, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "El mes pasado no [dirigieron::kierować (3.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie kierować (3.os.lm, przesz.)."
+          },
+          {
+            "es_form": "[dirigieron::kierować (3.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Kierować (3.os.lm, przesz.) bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "dirigiré",
+        "pl_word": "kierować (1.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [dirigiré::kierować (1.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku kierować (1.os.lp, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "[dirigiré::kierować (1.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Kierować (1.os.lp, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "¿[dirigiré::kierować (1.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy kierować (1.os.lp, przysz.) z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "dirigirás",
+        "pl_word": "kierować (2.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [dirigirás::kierować (2.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że kierować (2.os.lp, przysz.) na czas."
+          },
+          {
+            "es_form": "¿[dirigirás::kierować (2.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy kierować (2.os.lp, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "[dirigirás::kierować (2.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Kierować (2.os.lp, przysz.) w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "dirigirá",
+        "pl_word": "kierować (3.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[dirigirá::kierować (3.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy kierować (3.os.lp, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "Mañana [dirigirá::kierować (3.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro kierować (3.os.lp, przysz.) wcześniej."
+          },
+          {
+            "es_form": "[dirigirá::kierować (3.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Kierować (3.os.lp, przysz.) w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "dirigiremos",
+        "pl_word": "kierować (1.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [dirigiremos::kierować (1.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że kierować (1.os.lm, przysz.) na czas."
+          },
+          {
+            "es_form": "[dirigiremos::kierować (1.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Kierować (1.os.lm, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "El año que viene [dirigiremos::kierować (1.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku kierować (1.os.lm, przysz.) w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "dirigiréis",
+        "pl_word": "kierować (2.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[dirigiréis::kierować (2.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Kierować (2.os.lm, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "¿[dirigiréis::kierować (2.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy kierować (2.os.lm, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "Mañana [dirigiréis::kierować (2.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro kierować (2.os.lm, przysz.) wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "dirigirán",
+        "pl_word": "kierować (3.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [dirigirán::kierować (3.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że kierować (3.os.lm, przysz.) na czas."
+          },
+          {
+            "es_form": "Mañana [dirigirán::kierować (3.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro kierować (3.os.lm, przysz.) wcześniej."
+          },
+          {
+            "es_form": "[dirigirán::kierować (3.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Kierować (3.os.lm, przysz.) w przyszłym tygodniu."
+          }
+        ]
+      }
+    ]
+  }
+]

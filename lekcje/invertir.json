@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "La economía",
+    "pl_word": "gospodarka",
+    "examples": [
+      {
+        "es_form": "Compré [la economía::gospodarka] ayer.",
+        "pl_translation": "Kupiłem/am gospodarka wczoraj."
+      },
+      {
+        "es_form": "[La economía::gospodarka] cuesta diez euros.",
+        "pl_translation": "Gospodarka kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "[La economía::gospodarka] está sobre la mesa.",
+        "pl_translation": "Gospodarka jest na stole."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El negocio",
+    "pl_word": "biznes",
+    "examples": [
+      {
+        "es_form": "¿Has visto [el negocio::biznes]?",
+        "pl_translation": "Widziałeś/aś biznes?"
+      },
+      {
+        "es_form": "Necesito [el negocio::biznes] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową biznes."
+      },
+      {
+        "es_form": "[El negocio::biznes] es de madera.",
+        "pl_translation": "Biznes jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La ganancia",
+    "pl_word": "zysk",
+    "examples": [
+      {
+        "es_form": "¿Has visto [la ganancia::zysk]?",
+        "pl_translation": "Widziałeś/aś zysk?"
+      },
+      {
+        "es_form": "[La ganancia::zysk] está sobre la mesa.",
+        "pl_translation": "Zysk jest na stole."
+      },
+      {
+        "es_form": "Compré [la ganancia::zysk] ayer.",
+        "pl_translation": "Kupiłem/am zysk wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La pérdida",
+    "pl_word": "strata",
+    "examples": [
+      {
+        "es_form": "Necesito [la pérdida::strata] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową strata."
+      },
+      {
+        "es_form": "[La pérdida::strata] está sobre la mesa.",
+        "pl_translation": "Strata jest na stole."
+      },
+      {
+        "es_form": "¿Has visto [la pérdida::strata]?",
+        "pl_translation": "Widziałeś/aś strata?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El impuesto",
+    "pl_word": "podatek",
+    "examples": [
+      {
+        "es_form": "Necesito [el impuesto::podatek] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową podatek."
+      },
+      {
+        "es_form": "Se me rompio [el impuesto::podatek].",
+        "pl_translation": "Zepsuł mi się podatek."
+      },
+      {
+        "es_form": "[El impuesto::podatek] es de madera.",
+        "pl_translation": "Podatek jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El mercado",
+    "pl_word": "rynek",
+    "examples": [
+      {
+        "es_form": "Compré [el mercado::rynek] ayer.",
+        "pl_translation": "Kupiłem/am rynek wczoraj."
+      },
+      {
+        "es_form": "¿Has visto [el mercado::rynek]?",
+        "pl_translation": "Widziałeś/aś rynek?"
+      },
+      {
+        "es_form": "[El mercado::rynek] cuesta diez euros.",
+        "pl_translation": "Rynek kosztuje dziesięć euro."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El cliente",
+    "pl_word": "klient",
+    "examples": [
+      {
+        "es_form": "Conozco a [el cliente::klient].",
+        "pl_translation": "Znam klient."
+      },
+      {
+        "es_form": "Hablé con [el cliente::klient] ayer.",
+        "pl_translation": "Rozmawiałem/am wczoraj z klient."
+      },
+      {
+        "es_form": "Mi [hermano::brat] es [el cliente::klient].",
+        "pl_translation": "Mój brat jest klient."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La competencia",
+    "pl_word": "konkurencja",
+    "examples": [
+      {
+        "es_form": "[La competencia::konkurencja] es de madera.",
+        "pl_translation": "Konkurencja jest z drewna."
+      },
+      {
+        "es_form": "[La competencia::konkurencja] cuesta diez euros.",
+        "pl_translation": "Konkurencja kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "¿Has visto [la competencia::konkurencja]?",
+        "pl_translation": "Widziałeś/aś konkurencja?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La publicidad",
+    "pl_word": "reklama",
+    "examples": [
+      {
+        "es_form": "[La publicidad::reklama] está sobre la mesa.",
+        "pl_translation": "Reklama jest na stole."
+      },
+      {
+        "es_form": "¿Has visto [la publicidad::reklama]?",
+        "pl_translation": "Widziałeś/aś reklama?"
+      },
+      {
+        "es_form": "Compré [la publicidad::reklama] ayer.",
+        "pl_translation": "Kupiłem/am reklama wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El éxito",
+    "pl_word": "sukces",
+    "examples": [
+      {
+        "es_form": "Tienes que aceptar [el éxito::sukces].",
+        "pl_translation": "Musisz zaakceptować sukces."
+      },
+      {
+        "es_form": "[El éxito::sukces] es muy importante.",
+        "pl_translation": "Sukces jest bardzo ważny/a."
+      },
+      {
+        "es_form": "[El éxito::sukces] es la clave del éxito.",
+        "pl_translation": "Sukces jest kluczem do sukcesu."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "rentable",
+    "pl_word": "dochodowy",
+    "examples": [
+      {
+        "es_form": "Hace un día [rentable::dochodowy].",
+        "pl_translation": "Jest dochodowy dzień."
+      },
+      {
+        "es_form": "El examen fue [rentable::dochodowy].",
+        "pl_translation": "Egzamin był dochodowy."
+      },
+      {
+        "es_form": "Tengo una casa [rentable::dochodowy].",
+        "pl_translation": "Mam dochodowy dom."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "competitivo",
+    "pl_word": "konkurencyjny",
+    "examples": [
+      {
+        "es_form": "Es una persona muy [competitivo::konkurencyjny].",
+        "pl_translation": "To jest bardzo konkurencyjny osoba."
+      },
+      {
+        "es_form": "Se compro un vestido [competitivo::konkurencyjny].",
+        "pl_translation": "Kupiła sobie konkurencyjny sukienkę."
+      },
+      {
+        "es_form": "Mi amigo es [competitivo::konkurencyjny] y simpático.",
+        "pl_translation": "Mój przyjaciel jest konkurencyjny i sympatyczny."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "invertir",
+    "pl_word": "inwestować",
+    "examples": [
+      {
+        "es_form": "¿Puedes [invertir::inwestować] más rápido?",
+        "pl_translation": "Możesz inwestować szybciej?"
+      },
+      {
+        "es_form": "Es importante [invertir::inwestować] todos los días.",
+        "pl_translation": "Ważne jest inwestować codziennie."
+      },
+      {
+        "es_form": "No puedo [invertir::inwestować] sin tu ayuda.",
+        "pl_translation": "Nie mogę inwestować bez twojej pomocy."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "invierto",
+        "pl_word": "inwestować (1.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[invierto::inwestować (1.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy inwestować (1.os.lp, ter.) w weekendy?"
+          },
+          {
+            "es_form": "[invierto::inwestować (1.os.lp, ter.)] todos los días.",
+            "pl_translation": "Inwestować (1.os.lp, ter.) codziennie."
+          },
+          {
+            "es_form": "No [invierto::inwestować (1.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie inwestować (1.os.lp, ter.) zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "inviertes",
+        "pl_word": "inwestować (2.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[inviertes::inwestować (2.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Inwestować (2.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "[inviertes::inwestować (2.os.lp, ter.)] todos los días.",
+            "pl_translation": "Inwestować (2.os.lp, ter.) codziennie."
+          },
+          {
+            "es_form": "Siempre [inviertes::inwestować (2.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze inwestować (2.os.lp, ter.) z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "invierte",
+        "pl_word": "inwestować (3.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [invierte::inwestować (3.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj inwestować (3.os.lp, ter.) rano."
+          },
+          {
+            "es_form": "[invierte::inwestować (3.os.lp, ter.)] todos los días.",
+            "pl_translation": "Inwestować (3.os.lp, ter.) codziennie."
+          },
+          {
+            "es_form": "[invierte::inwestować (3.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Inwestować (3.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "invertimos",
+        "pl_word": "inwestować (1.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "No [invertimos::inwestować (1.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie inwestować (1.os.lm, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "[invertimos::inwestować (1.os.lm, ter.)] todos los días.",
+            "pl_translation": "Inwestować (1.os.lm, ter.) codziennie."
+          },
+          {
+            "es_form": "[invertimos::inwestować (1.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Inwestować (1.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "invertís",
+        "pl_word": "inwestować (2.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [invertís::inwestować (2.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj inwestować (2.os.lm, ter.) rano."
+          },
+          {
+            "es_form": "[invertís::inwestować (2.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Inwestować (2.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Siempre [invertís::inwestować (2.os.lm, ter.)] con atencion.",
+            "pl_translation": "Zawsze inwestować (2.os.lm, ter.) z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "invierten",
+        "pl_word": "inwestować (3.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [invierten::inwestować (3.os.lm, ter.)] con atencion.",
+            "pl_translation": "Zawsze inwestować (3.os.lm, ter.) z uwagą."
+          },
+          {
+            "es_form": "[invierten::inwestować (3.os.lm, ter.)] todos los días.",
+            "pl_translation": "Inwestować (3.os.lm, ter.) codziennie."
+          },
+          {
+            "es_form": "No [invierten::inwestować (3.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie inwestować (3.os.lm, ter.) zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "invertí",
+        "pl_word": "inwestować (1.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [invertí::inwestować (1.os.lp, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie inwestować (1.os.lp, przesz.)."
+          },
+          {
+            "es_form": "[invertí::inwestować (1.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Inwestować (1.os.lp, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "¿[invertí::inwestować (1.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy inwestować (1.os.lp, przesz.) dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "invertiste",
+        "pl_word": "inwestować (2.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [invertiste::inwestować (2.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj inwestować (2.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "Nunca [invertiste::inwestować (2.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie inwestować (2.os.lp, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "[invertiste::inwestować (2.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Inwestować (2.os.lp, przesz.) bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "invirtió",
+        "pl_word": "inwestować (3.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[invirtió::inwestować (3.os.lp, przesz.)] la semana pasada.",
+            "pl_translation": "Inwestować (3.os.lp, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Ayer [invirtió::inwestować (3.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj inwestować (3.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "¿[invirtió::inwestować (3.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy inwestować (3.os.lp, przesz.) dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "invertimos",
+        "pl_word": "inwestować (1.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[invertimos::inwestować (1.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Inwestować (1.os.lm, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Ayer [invertimos::inwestować (1.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj inwestować (1.os.lm, przesz.) cały dzień."
+          },
+          {
+            "es_form": "[invertimos::inwestować (1.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Inwestować (1.os.lm, przesz.) w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "invertisteis",
+        "pl_word": "inwestować (2.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [invertisteis::inwestować (2.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie inwestować (2.os.lm, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "¿[invertisteis::inwestować (2.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy inwestować (2.os.lm, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "[invertisteis::inwestować (2.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Inwestować (2.os.lm, przesz.) bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "invirtieron",
+        "pl_word": "inwestować (3.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[invirtieron::inwestować (3.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Inwestować (3.os.lm, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "El mes pasado no [invirtieron::inwestować (3.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie inwestować (3.os.lm, przesz.)."
+          },
+          {
+            "es_form": "¿[invirtieron::inwestować (3.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy inwestować (3.os.lm, przesz.) dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "invertiré",
+        "pl_word": "inwestować (1.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[invertiré::inwestować (1.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Inwestować (1.os.lp, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Te prometo que [invertiré::inwestować (1.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że inwestować (1.os.lp, przysz.) na czas."
+          },
+          {
+            "es_form": "El año que viene [invertiré::inwestować (1.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku inwestować (1.os.lp, przysz.) w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "invertirás",
+        "pl_word": "inwestować (2.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[invertirás::inwestować (2.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Inwestować (2.os.lp, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Mañana [invertirás::inwestować (2.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro inwestować (2.os.lp, przysz.) wcześniej."
+          },
+          {
+            "es_form": "El año que viene [invertirás::inwestować (2.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku inwestować (2.os.lp, przysz.) w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "invertirá",
+        "pl_word": "inwestować (3.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[invertirá::inwestować (3.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Inwestować (3.os.lp, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Mañana [invertirá::inwestować (3.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro inwestować (3.os.lp, przysz.) wcześniej."
+          },
+          {
+            "es_form": "Te prometo que [invertirá::inwestować (3.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że inwestować (3.os.lp, przysz.) na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "invertiremos",
+        "pl_word": "inwestować (1.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [invertiremos::inwestować (1.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że inwestować (1.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "[invertiremos::inwestować (1.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Inwestować (1.os.lm, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Mañana [invertiremos::inwestować (1.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro inwestować (1.os.lm, przysz.) wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "invertiréis",
+        "pl_word": "inwestować (2.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [invertiréis::inwestować (2.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że inwestować (2.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "¿[invertiréis::inwestować (2.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy inwestować (2.os.lm, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "Mañana [invertiréis::inwestować (2.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro inwestować (2.os.lm, przysz.) wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "invertirán",
+        "pl_word": "inwestować (3.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [invertirán::inwestować (3.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że inwestować (3.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "[invertirán::inwestować (3.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Inwestować (3.os.lm, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "¿[invertirán::inwestować (3.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy inwestować (3.os.lm, przysz.) z nami jutro?"
+          }
+        ]
+      }
+    ]
+  }
+]

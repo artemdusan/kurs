@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "El camión",
+    "pl_word": "ciężarówka",
+    "examples": [
+      {
+        "es_form": "[El camión::ciężarówka] está sobre la mesa.",
+        "pl_translation": "Ciężarówka jest na stole."
+      },
+      {
+        "es_form": "[El camión::ciężarówka] cuesta diez euros.",
+        "pl_translation": "Ciężarówka kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Se me rompio [el camión::ciężarówka].",
+        "pl_translation": "Zepsuł mi się ciężarówka."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El repartidor",
+    "pl_word": "dostawca",
+    "examples": [
+      {
+        "es_form": "Esta es [el repartidor::dostawca] de la que hablé.",
+        "pl_translation": "To jest dostawca, o której mówiłem/am."
+      },
+      {
+        "es_form": "Mi [hermano::brat] es [el repartidor::dostawca].",
+        "pl_translation": "Mój brat jest dostawca."
+      },
+      {
+        "es_form": "[El repartidor::dostawca] vive en mi calle.",
+        "pl_translation": "Dostawca mieszka na mojej ulicy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El paquete",
+    "pl_word": "przesyłka",
+    "examples": [
+      {
+        "es_form": "[El paquete::przesyłka] está sobre la mesa.",
+        "pl_translation": "Przesyłka jest na stole."
+      },
+      {
+        "es_form": "[El paquete::przesyłka] es de madera.",
+        "pl_translation": "Przesyłka jest z drewna."
+      },
+      {
+        "es_form": "[El paquete::przesyłka] cuesta diez euros.",
+        "pl_translation": "Przesyłka kosztuje dziesięć euro."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El almacén",
+    "pl_word": "magazyn",
+    "examples": [
+      {
+        "es_form": "[El almacén::magazyn] es muy grande.",
+        "pl_translation": "Magazyn jest bardzo duży/a."
+      },
+      {
+        "es_form": "[El almacén::magazyn] está cerca de aquí.",
+        "pl_translation": "Magazyn jest niedaleko stąd."
+      },
+      {
+        "es_form": "[El almacén::magazyn] abre a las ocho.",
+        "pl_translation": "Magazyn otwiera się o ósmej."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La ruta",
+    "pl_word": "trasa",
+    "examples": [
+      {
+        "es_form": "[La ruta::trasa] está sobre la mesa.",
+        "pl_translation": "Trasa jest na stole."
+      },
+      {
+        "es_form": "[La ruta::trasa] cuesta diez euros.",
+        "pl_translation": "Trasa kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "[La ruta::trasa] es de madera.",
+        "pl_translation": "Trasa jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El transbordo",
+    "pl_word": "przesiadka",
+    "examples": [
+      {
+        "es_form": "Necesito [el transbordo::przesiadka] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową przesiadka."
+      },
+      {
+        "es_form": "[El transbordo::przesiadka] cuesta diez euros.",
+        "pl_translation": "Przesiadka kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "¿Has visto [el transbordo::przesiadka]?",
+        "pl_translation": "Widziałeś/aś przesiadka?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La salida",
+    "pl_word": "odlot, wyjazd",
+    "examples": [
+      {
+        "es_form": "Guarda [la salida::odlot, wyjazd] en el armario.",
+        "pl_translation": "Schowaj odlot, wyjazd do szafy."
+      },
+      {
+        "es_form": "Se me rompio [la salida::odlot, wyjazd].",
+        "pl_translation": "Zepsuł mi się odlot, wyjazd."
+      },
+      {
+        "es_form": "Necesito [la salida::odlot, wyjazd] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową odlot, wyjazd."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La llegada",
+    "pl_word": "przylot, przyjazd",
+    "examples": [
+      {
+        "es_form": "Necesito [la llegada::przylot, przyjazd] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową przylot, przyjazd."
+      },
+      {
+        "es_form": "[La llegada::przylot, przyjazd] está sobre la mesa.",
+        "pl_translation": "Przylot, przyjazd jest na stole."
+      },
+      {
+        "es_form": "Compré [la llegada::przylot, przyjazd] ayer.",
+        "pl_translation": "Kupiłem/am przylot, przyjazd wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El facturación",
+    "pl_word": "odprawa bagażowa",
+    "examples": [
+      {
+        "es_form": "[El facturación::odprawa bagażowa] es de madera.",
+        "pl_translation": "Odprawa bagażowa jest z drewna."
+      },
+      {
+        "es_form": "[El facturación::odprawa bagażowa] está sobre la mesa.",
+        "pl_translation": "Odprawa bagażowa jest na stole."
+      },
+      {
+        "es_form": "Guarda [el facturación::odprawa bagażowa] en el armario.",
+        "pl_translation": "Schowaj odprawa bagażowa do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La aduana",
+    "pl_word": "odprawa celna",
+    "examples": [
+      {
+        "es_form": "Hablamos sobre [la aduana::odprawa celna].",
+        "pl_translation": "Rozmawialiśmy o odprawa celna."
+      },
+      {
+        "es_form": "No entiendo [la aduana::odprawa celna].",
+        "pl_translation": "Nie rozumiem odprawa celna."
+      },
+      {
+        "es_form": "[La aduana::odprawa celna] es muy importante.",
+        "pl_translation": "Odprawa celna jest bardzo ważny/a."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "puntual",
+    "pl_word": "punktualny",
+    "examples": [
+      {
+        "es_form": "Nada es más [puntual::punktualny] que la familia.",
+        "pl_translation": "Nic nie jest punktualny od rodziny."
+      },
+      {
+        "es_form": "Mi amigo es [puntual::punktualny] y simpático.",
+        "pl_translation": "Mój przyjaciel jest punktualny i sympatyczny."
+      },
+      {
+        "es_form": "El examen fue [puntual::punktualny].",
+        "pl_translation": "Egzamin był punktualny."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "retrasado",
+    "pl_word": "spóźniony",
+    "examples": [
+      {
+        "es_form": "Es una persona muy [retrasado::spóźniony].",
+        "pl_translation": "To jest bardzo spóźniony osoba."
+      },
+      {
+        "es_form": "El examen fue [retrasado::spóźniony].",
+        "pl_translation": "Egzamin był spóźniony."
+      },
+      {
+        "es_form": "Se compro un vestido [retrasado::spóźniony].",
+        "pl_translation": "Kupiła sobie spóźniony sukienkę."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "transportar",
+    "pl_word": "przewozić, transportować",
+    "examples": [
+      {
+        "es_form": "¿Puedes [transportar::przewozić, transportować] más rápido?",
+        "pl_translation": "Możesz przewozić, transportować szybciej?"
+      },
+      {
+        "es_form": "Es importante [transportar::przewozić, transportować] todos los días.",
+        "pl_translation": "Ważne jest przewozić, transportować codziennie."
+      },
+      {
+        "es_form": "Prefiero [transportar::przewozić, transportować] en casa.",
+        "pl_translation": "Wolę przewozić, transportować w domu."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "transporto",
+        "pl_word": "przewozić (1.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [transporto::przewozić (1.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj przewozić (1.os.lp, ter.) rano."
+          },
+          {
+            "es_form": "[transporto::przewozić (1.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Przewozić (1.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "No [transporto::przewozić (1.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie przewozić (1.os.lp, ter.) zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "transportas",
+        "pl_word": "przewozić (2.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[transportas::przewozić (2.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy przewozić (2.os.lp, ter.) w weekendy?"
+          },
+          {
+            "es_form": "Normalmente [transportas::przewozić (2.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj przewozić (2.os.lp, ter.) rano."
+          },
+          {
+            "es_form": "No [transportas::przewozić (2.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie przewozić (2.os.lp, ter.) zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "transporta",
+        "pl_word": "przewozić (3.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [transporta::przewozić (3.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze przewozić (3.os.lp, ter.) z uwagą."
+          },
+          {
+            "es_form": "[transporta::przewozić (3.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Przewozić (3.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [transporta::przewozić (3.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj przewozić (3.os.lp, ter.) rano."
+          }
+        ]
+      },
+      {
+        "es_word": "transportamos",
+        "pl_word": "przewozić (1.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[transportamos::przewozić (1.os.lm, ter.)] todos los días.",
+            "pl_translation": "Przewozić (1.os.lm, ter.) codziennie."
+          },
+          {
+            "es_form": "Normalmente [transportamos::przewozić (1.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj przewozić (1.os.lm, ter.) rano."
+          },
+          {
+            "es_form": "No [transportamos::przewozić (1.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie przewozić (1.os.lm, ter.) zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "transportáis",
+        "pl_word": "przewozić (2.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [transportáis::przewozić (2.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj przewozić (2.os.lm, ter.) rano."
+          },
+          {
+            "es_form": "Siempre [transportáis::przewozić (2.os.lm, ter.)] con atencion.",
+            "pl_translation": "Zawsze przewozić (2.os.lm, ter.) z uwagą."
+          },
+          {
+            "es_form": "¿[transportáis::przewozić (2.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy przewozić (2.os.lm, ter.) w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "transportan",
+        "pl_word": "przewozić (3.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[transportan::przewozić (3.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Przewozić (3.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "No [transportan::przewozić (3.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie przewozić (3.os.lm, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "Normalmente [transportan::przewozić (3.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj przewozić (3.os.lm, ter.) rano."
+          }
+        ]
+      },
+      {
+        "es_word": "transporté",
+        "pl_word": "przewozić (1.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [transporté::przewozić (1.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj przewozić (1.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "Nunca [transporté::przewozić (1.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie przewozić (1.os.lp, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "[transporté::przewozić (1.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Przewozić (1.os.lp, przesz.) bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "transportaste",
+        "pl_word": "przewozić (2.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [transportaste::przewozić (2.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj przewozić (2.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "El mes pasado no [transportaste::przewozić (2.os.lp, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie przewozić (2.os.lp, przesz.)."
+          },
+          {
+            "es_form": "¿[transportaste::przewozić (2.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy przewozić (2.os.lp, przesz.) dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "transportó",
+        "pl_word": "przewozić (3.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[transportó::przewozić (3.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy przewozić (3.os.lp, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "Ayer [transportó::przewozić (3.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj przewozić (3.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "[transportó::przewozić (3.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Przewozić (3.os.lp, przesz.) bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "transportamos",
+        "pl_word": "przewozić (1.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[transportamos::przewozić (1.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy przewozić (1.os.lm, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "[transportamos::przewozić (1.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Przewozić (1.os.lm, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "[transportamos::przewozić (1.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Przewozić (1.os.lm, przesz.) bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "transportasteis",
+        "pl_word": "przewozić (2.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [transportasteis::przewozić (2.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie przewozić (2.os.lm, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "[transportasteis::przewozić (2.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Przewozić (2.os.lm, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Ayer [transportasteis::przewozić (2.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj przewozić (2.os.lm, przesz.) cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "transportaron",
+        "pl_word": "przewozić (3.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[transportaron::przewozić (3.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy przewozić (3.os.lm, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "[transportaron::przewozić (3.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Przewozić (3.os.lm, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Ayer [transportaron::przewozić (3.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj przewozić (3.os.lm, przesz.) cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "transporté",
+        "pl_word": "przewozić (1.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [transporté::przewozić (1.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku przewozić (1.os.lp, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Te prometo que [transporté::przewozić (1.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że przewozić (1.os.lp, przysz.) na czas."
+          },
+          {
+            "es_form": "Mañana [transporté::przewozić (1.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro przewozić (1.os.lp, przysz.) wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "transportás",
+        "pl_word": "przewozić (2.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [transportás::przewozić (2.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że przewozić (2.os.lp, przysz.) dobrze."
+          },
+          {
+            "es_form": "¿[transportás::przewozić (2.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy przewozić (2.os.lp, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "El año que viene [transportás::przewozić (2.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku przewozić (2.os.lp, przysz.) w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "transportá",
+        "pl_word": "przewozić (3.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[transportá::przewozić (3.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy przewozić (3.os.lp, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "[transportá::przewozić (3.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Przewozić (3.os.lp, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Mañana [transportá::przewozić (3.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro przewozić (3.os.lp, przysz.) wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "transportemos",
+        "pl_word": "przewozić (1.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [transportemos::przewozić (1.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro przewozić (1.os.lm, przysz.) wcześniej."
+          },
+          {
+            "es_form": "¿[transportemos::przewozić (1.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy przewozić (1.os.lm, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "Te prometo que [transportemos::przewozić (1.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że przewozić (1.os.lm, przysz.) na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "transportéis",
+        "pl_word": "przewozić (2.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [transportéis::przewozić (2.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro przewozić (2.os.lm, przysz.) wcześniej."
+          },
+          {
+            "es_form": "¿[transportéis::przewozić (2.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy przewozić (2.os.lm, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "[transportéis::przewozić (2.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Przewozić (2.os.lm, przysz.) w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "transportán",
+        "pl_word": "przewozić (3.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[transportán::przewozić (3.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy przewozić (3.os.lm, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "[transportán::przewozić (3.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Przewozić (3.os.lm, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Te prometo que [transportán::przewozić (3.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że przewozić (3.os.lm, przysz.) na czas."
+          }
+        ]
+      }
+    ]
+  }
+]

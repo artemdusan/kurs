@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "La literatura",
+    "pl_word": "literatura",
+    "examples": [
+      {
+        "es_form": "[La literatura::literatura] es muy importante.",
+        "pl_translation": "Literatura jest bardzo ważny/a."
+      },
+      {
+        "es_form": "[La literatura::literatura] es la clave del éxito.",
+        "pl_translation": "Literatura jest kluczem do sukcesu."
+      },
+      {
+        "es_form": "[La literatura::literatura] cambio mi vida.",
+        "pl_translation": "Literatura zmienił/a moje życie."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La poema",
+    "pl_word": "wiersz",
+    "examples": [
+      {
+        "es_form": "Guarda [la poema::wiersz] en el armario.",
+        "pl_translation": "Schowaj wiersz do szafy."
+      },
+      {
+        "es_form": "[La poema::wiersz] cuesta diez euros.",
+        "pl_translation": "Wiersz kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Se me rompio [la poema::wiersz].",
+        "pl_translation": "Zepsuł mi się wiersz."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El cuento",
+    "pl_word": "opowiadanie",
+    "examples": [
+      {
+        "es_form": "¿Quieres [el cuento::opowiadanie]?",
+        "pl_translation": "Chcesz opowiadanie?"
+      },
+      {
+        "es_form": "Me gusta mucho [el cuento::opowiadanie].",
+        "pl_translation": "Bardzo lubię opowiadanie."
+      },
+      {
+        "es_form": "[El cuento::opowiadanie] está muy rico.",
+        "pl_translation": "Opowiadanie jest bardzo smaczny/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La novela",
+    "pl_word": "powieść",
+    "examples": [
+      {
+        "es_form": "[La novela::powieść] está sobre la mesa.",
+        "pl_translation": "Powieść jest na stole."
+      },
+      {
+        "es_form": "Necesito [la novela::powieść] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową powieść."
+      },
+      {
+        "es_form": "[La novela::powieść] cuesta diez euros.",
+        "pl_translation": "Powieść kosztuje dziesięć euro."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La fábula",
+    "pl_word": "bajka",
+    "examples": [
+      {
+        "es_form": "Necesito [la fábula::bajka] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową bajka."
+      },
+      {
+        "es_form": "¿Has visto [la fábula::bajka]?",
+        "pl_translation": "Widziałeś/aś bajka?"
+      },
+      {
+        "es_form": "[La fábula::bajka] es de madera.",
+        "pl_translation": "Bajka jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El héroe",
+    "pl_word": "bohater",
+    "examples": [
+      {
+        "es_form": "Conozco a [el héroe::bohater].",
+        "pl_translation": "Znam bohater."
+      },
+      {
+        "es_form": "[El héroe::bohater] trabaja aquí.",
+        "pl_translation": "Bohater tu pracuje."
+      },
+      {
+        "es_form": "Hablé con [el héroe::bohater] ayer.",
+        "pl_translation": "Rozmawiałem/am wczoraj z bohater."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El autor",
+    "pl_word": "autor",
+    "examples": [
+      {
+        "es_form": "Hablé con [el autor::autor] ayer.",
+        "pl_translation": "Rozmawiałem/am wczoraj z autor."
+      },
+      {
+        "es_form": "Mi [hermano::brat] es [el autor::autor].",
+        "pl_translation": "Mój brat jest autor."
+      },
+      {
+        "es_form": "[El autor::autor] trabaja aquí.",
+        "pl_translation": "Autor tu pracuje."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La lectura",
+    "pl_word": "lektura",
+    "examples": [
+      {
+        "es_form": "Compré [la lectura::lektura] ayer.",
+        "pl_translation": "Kupiłem/am lektura wczoraj."
+      },
+      {
+        "es_form": "Se me rompio [la lectura::lektura].",
+        "pl_translation": "Zepsuł mi się lektura."
+      },
+      {
+        "es_form": "[La lectura::lektura] es de madera.",
+        "pl_translation": "Lektura jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El capítulo",
+    "pl_word": "rozdział",
+    "examples": [
+      {
+        "es_form": "Guarda [el capítulo::rozdział] en el armario.",
+        "pl_translation": "Schowaj rozdział do szafy."
+      },
+      {
+        "es_form": "Se me rompio [el capítulo::rozdział].",
+        "pl_translation": "Zepsuł mi się rozdział."
+      },
+      {
+        "es_form": "¿Has visto [el capítulo::rozdział]?",
+        "pl_translation": "Widziałeś/aś rozdział?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El título",
+    "pl_word": "tytuł",
+    "examples": [
+      {
+        "es_form": "Necesito [el título::tytuł] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową tytuł."
+      },
+      {
+        "es_form": "Se me rompio [el título::tytuł].",
+        "pl_translation": "Zepsuł mi się tytuł."
+      },
+      {
+        "es_form": "[El título::tytuł] está sobre la mesa.",
+        "pl_translation": "Tytuł jest na stole."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "interesante",
+    "pl_word": "ciekawy",
+    "examples": [
+      {
+        "es_form": "Tengo una casa [interesante::ciekawy].",
+        "pl_translation": "Mam ciekawy dom."
+      },
+      {
+        "es_form": "El examen fue [interesante::ciekawy].",
+        "pl_translation": "Egzamin był ciekawy."
+      },
+      {
+        "es_form": "Es una persona muy [interesante::ciekawy].",
+        "pl_translation": "To jest bardzo ciekawy osoba."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "emocionante",
+    "pl_word": "wzruszający, ekscytujący",
+    "examples": [
+      {
+        "es_form": "Hace un día [emocionante::wzruszający, ekscytujący].",
+        "pl_translation": "Jest wzruszający, ekscytujący dzień."
+      },
+      {
+        "es_form": "La comida está [emocionante::wzruszający, ekscytujący].",
+        "pl_translation": "Jedzenie jest wzruszający, ekscytujący."
+      },
+      {
+        "es_form": "Nada es más [emocionante::wzruszający, ekscytujący] que la familia.",
+        "pl_translation": "Nic nie jest wzruszający, ekscytujący od rodziny."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "narrar",
+    "pl_word": "opowiadać",
+    "examples": [
+      {
+        "es_form": "Es importante [narrar::opowiadać] todos los días.",
+        "pl_translation": "Ważne jest opowiadać codziennie."
+      },
+      {
+        "es_form": "Prefiero [narrar::opowiadać] en casa.",
+        "pl_translation": "Wolę opowiadać w domu."
+      },
+      {
+        "es_form": "¿Puedes [narrar::opowiadać] más rápido?",
+        "pl_translation": "Możesz opowiadać szybciej?"
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "narro",
+        "pl_word": "opowiadać (1.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[narro::opowiadać (1.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy opowiadać (1.os.lp, ter.) w weekendy?"
+          },
+          {
+            "es_form": "No [narro::opowiadać (1.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie opowiadać (1.os.lp, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "[narro::opowiadać (1.os.lp, ter.)] todos los días.",
+            "pl_translation": "Opowiadać (1.os.lp, ter.) codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "narras",
+        "pl_word": "opowiadać (2.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[narras::opowiadać (2.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Opowiadać (2.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "No [narras::opowiadać (2.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie opowiadać (2.os.lp, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "Normalmente [narras::opowiadać (2.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj opowiadać (2.os.lp, ter.) rano."
+          }
+        ]
+      },
+      {
+        "es_word": "narra",
+        "pl_word": "opowiadać (3.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[narra::opowiadać (3.os.lp, ter.)] todos los días.",
+            "pl_translation": "Opowiadać (3.os.lp, ter.) codziennie."
+          },
+          {
+            "es_form": "¿[narra::opowiadać (3.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy opowiadać (3.os.lp, ter.) w weekendy?"
+          },
+          {
+            "es_form": "No [narra::opowiadać (3.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie opowiadać (3.os.lp, ter.) zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "narramos",
+        "pl_word": "opowiadać (1.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[narramos::opowiadać (1.os.lm, ter.)] todos los días.",
+            "pl_translation": "Opowiadać (1.os.lm, ter.) codziennie."
+          },
+          {
+            "es_form": "¿[narramos::opowiadać (1.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy opowiadać (1.os.lm, ter.) w weekendy?"
+          },
+          {
+            "es_form": "[narramos::opowiadać (1.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Opowiadać (1.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "narráis",
+        "pl_word": "opowiadać (2.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [narráis::opowiadać (2.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj opowiadać (2.os.lm, ter.) rano."
+          },
+          {
+            "es_form": "No [narráis::opowiadać (2.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie opowiadać (2.os.lm, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "[narráis::opowiadać (2.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Opowiadać (2.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "narran",
+        "pl_word": "opowiadać (3.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [narran::opowiadać (3.os.lm, ter.)] con atencion.",
+            "pl_translation": "Zawsze opowiadać (3.os.lm, ter.) z uwagą."
+          },
+          {
+            "es_form": "Normalmente [narran::opowiadać (3.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj opowiadać (3.os.lm, ter.) rano."
+          },
+          {
+            "es_form": "¿[narran::opowiadać (3.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy opowiadać (3.os.lm, ter.) w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "narré",
+        "pl_word": "opowiadać (1.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [narré::opowiadać (1.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie opowiadać (1.os.lp, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "El mes pasado no [narré::opowiadać (1.os.lp, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie opowiadać (1.os.lp, przesz.)."
+          },
+          {
+            "es_form": "¿[narré::opowiadać (1.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy opowiadać (1.os.lp, przesz.) dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "narraste",
+        "pl_word": "opowiadać (2.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [narraste::opowiadać (2.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj opowiadać (2.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "¿[narraste::opowiadać (2.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy opowiadać (2.os.lp, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "[narraste::opowiadać (2.os.lp, przesz.)] la semana pasada.",
+            "pl_translation": "Opowiadać (2.os.lp, przesz.) w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "narró",
+        "pl_word": "opowiadać (3.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [narró::opowiadać (3.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie opowiadać (3.os.lp, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "Ayer [narró::opowiadać (3.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj opowiadać (3.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "¿[narró::opowiadać (3.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy opowiadać (3.os.lp, przesz.) dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "narramos",
+        "pl_word": "opowiadać (1.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [narramos::opowiadać (1.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie opowiadać (1.os.lm, przesz.)."
+          },
+          {
+            "es_form": "[narramos::opowiadać (1.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Opowiadać (1.os.lm, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Nunca [narramos::opowiadać (1.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie opowiadać (1.os.lm, przesz.) czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "narrasteis",
+        "pl_word": "opowiadać (2.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [narrasteis::opowiadać (2.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie opowiadać (2.os.lm, przesz.)."
+          },
+          {
+            "es_form": "¿[narrasteis::opowiadać (2.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy opowiadać (2.os.lm, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "[narrasteis::opowiadać (2.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Opowiadać (2.os.lm, przesz.) bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "narraron",
+        "pl_word": "opowiadać (3.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [narraron::opowiadać (3.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj opowiadać (3.os.lm, przesz.) cały dzień."
+          },
+          {
+            "es_form": "[narraron::opowiadać (3.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Opowiadać (3.os.lm, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [narraron::opowiadać (3.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie opowiadać (3.os.lm, przesz.) czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "narré",
+        "pl_word": "opowiadać (1.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [narré::opowiadać (1.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że opowiadać (1.os.lp, przysz.) dobrze."
+          },
+          {
+            "es_form": "Te prometo que [narré::opowiadać (1.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że opowiadać (1.os.lp, przysz.) na czas."
+          },
+          {
+            "es_form": "Mañana [narré::opowiadać (1.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro opowiadać (1.os.lp, przysz.) wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "narrás",
+        "pl_word": "opowiadać (2.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[narrás::opowiadać (2.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy opowiadać (2.os.lp, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "[narrás::opowiadać (2.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Opowiadać (2.os.lp, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Mañana [narrás::opowiadać (2.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro opowiadać (2.os.lp, przysz.) wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "narrá",
+        "pl_word": "opowiadać (3.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [narrá::opowiadać (3.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że opowiadać (3.os.lp, przysz.) dobrze."
+          },
+          {
+            "es_form": "Te prometo que [narrá::opowiadać (3.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że opowiadać (3.os.lp, przysz.) na czas."
+          },
+          {
+            "es_form": "Mañana [narrá::opowiadać (3.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro opowiadać (3.os.lp, przysz.) wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "narremos",
+        "pl_word": "opowiadać (1.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[narremos::opowiadać (1.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy opowiadać (1.os.lm, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "El año que viene [narremos::opowiadać (1.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku opowiadać (1.os.lm, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Te prometo que [narremos::opowiadać (1.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że opowiadać (1.os.lm, przysz.) na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "narréis",
+        "pl_word": "opowiadać (2.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [narréis::opowiadać (2.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku opowiadać (2.os.lm, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Creo que [narréis::opowiadać (2.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że opowiadać (2.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "Mañana [narréis::opowiadać (2.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro opowiadać (2.os.lm, przysz.) wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "narrán",
+        "pl_word": "opowiadać (3.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [narrán::opowiadać (3.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że opowiadać (3.os.lm, przysz.) na czas."
+          },
+          {
+            "es_form": "Mañana [narrán::opowiadać (3.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro opowiadać (3.os.lm, przysz.) wcześniej."
+          },
+          {
+            "es_form": "El año que viene [narrán::opowiadać (3.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku opowiadać (3.os.lm, przysz.) w Hiszpanii."
+          }
+        ]
+      }
+    ]
+  }
+]

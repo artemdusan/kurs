@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "La propiedad",
+    "pl_word": "nieruchomość, własność",
+    "examples": [
+      {
+        "es_form": "Tienes [la propiedad::nieruchomość, własność] muy fuerte.",
+        "pl_translation": "Masz bardzo silny/a nieruchomość, własność."
+      },
+      {
+        "es_form": "[La propiedad::nieruchomość, własność] es una parte importante del cuerpo.",
+        "pl_translation": "Nieruchomość, własność jest ważną częścią ciała."
+      },
+      {
+        "es_form": "El médico me reviso [la propiedad::nieruchomość, własność].",
+        "pl_translation": "Lekarz zbadał mi nieruchomość, własność."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El alquiler",
+    "pl_word": "czynsz",
+    "examples": [
+      {
+        "es_form": "[El alquiler::czynsz] cuesta diez euros.",
+        "pl_translation": "Czynsz kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "¿Has visto [el alquiler::czynsz]?",
+        "pl_translation": "Widziałeś/aś czynsz?"
+      },
+      {
+        "es_form": "[El alquiler::czynsz] está sobre la mesa.",
+        "pl_translation": "Czynsz jest na stole."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El propietario",
+    "pl_word": "właściciel",
+    "examples": [
+      {
+        "es_form": "[El propietario::właściciel] trabaja aquí.",
+        "pl_translation": "Właściciel tu pracuje."
+      },
+      {
+        "es_form": "Esta es [el propietario::właściciel] de la que hablé.",
+        "pl_translation": "To jest właściciel, o której mówiłem/am."
+      },
+      {
+        "es_form": "[El propietario::właściciel] me ayudo mucho.",
+        "pl_translation": "Właściciel bardzo mi pomógł/pomogła."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El inquilino",
+    "pl_word": "najemca",
+    "examples": [
+      {
+        "es_form": "Esta es [el inquilino::najemca] de la que hablé.",
+        "pl_translation": "To jest najemca, o której mówiłem/am."
+      },
+      {
+        "es_form": "Conozco a [el inquilino::najemca].",
+        "pl_translation": "Znam najemca."
+      },
+      {
+        "es_form": "Hablé con [el inquilino::najemca] ayer.",
+        "pl_translation": "Rozmawiałem/am wczoraj z najemca."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La hipoteca",
+    "pl_word": "kredyt hipoteczny",
+    "examples": [
+      {
+        "es_form": "El médico me reviso [la hipoteca::kredyt hipoteczny].",
+        "pl_translation": "Lekarz zbadał mi kredyt hipoteczny."
+      },
+      {
+        "es_form": "Tienes [la hipoteca::kredyt hipoteczny] muy fuerte.",
+        "pl_translation": "Masz bardzo silny/a kredyt hipoteczny."
+      },
+      {
+        "es_form": "Me duele [la hipoteca::kredyt hipoteczny].",
+        "pl_translation": "Boli mnie kredyt hipoteczny."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La escritura",
+    "pl_word": "akt notarialny",
+    "examples": [
+      {
+        "es_form": "Necesito [la escritura::akt notarialny] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową akt notarialny."
+      },
+      {
+        "es_form": "Guarda [la escritura::akt notarialny] en el armario.",
+        "pl_translation": "Schowaj akt notarialny do szafy."
+      },
+      {
+        "es_form": "¿Has visto [la escritura::akt notarialny]?",
+        "pl_translation": "Widziałeś/aś akt notarialny?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El agente inmobiliario",
+    "pl_word": "pośrednik nieruchomości",
+    "examples": [
+      {
+        "es_form": "El médico me reviso [El agente inmobiliario::pośrednik nieruchomości].",
+        "pl_translation": "Lekarz zbadał mi pośrednik nieruchomości."
+      },
+      {
+        "es_form": "[El agente inmobiliario::pośrednik nieruchomości] es una parte importante del cuerpo.",
+        "pl_translation": "Pośrednik nieruchomości jest ważną częścią ciała."
+      },
+      {
+        "es_form": "Tienes [El agente inmobiliario::pośrednik nieruchomości] muy fuerte.",
+        "pl_translation": "Masz bardzo silny/a pośrednik nieruchomości."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El calefacción",
+    "pl_word": "ogrzewanie",
+    "examples": [
+      {
+        "es_form": "Se me rompio [el calefacción::ogrzewanie].",
+        "pl_translation": "Zepsuł mi się ogrzewanie."
+      },
+      {
+        "es_form": "[El calefacción::ogrzewanie] está sobre la mesa.",
+        "pl_translation": "Ogrzewanie jest na stole."
+      },
+      {
+        "es_form": "¿Has visto [el calefacción::ogrzewanie]?",
+        "pl_translation": "Widziałeś/aś ogrzewanie?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El suministros",
+    "pl_word": "media (prąd, gaz, woda)",
+    "examples": [
+      {
+        "es_form": "[El suministros::media (prąd, gaz, woda)] es típico de España.",
+        "pl_translation": "Media (prąd, gaz, woda) jest typowy/a dla Hiszpanii."
+      },
+      {
+        "es_form": "[El suministros::media (prąd, gaz, woda)] está muy rico.",
+        "pl_translation": "Media (prąd, gaz, woda) jest bardzo smaczny/a."
+      },
+      {
+        "es_form": "[El suministros::media (prąd, gaz, woda)] se hace con leche.",
+        "pl_translation": "Media (prąd, gaz, woda) robi się z mleka."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La comunidad de vecinos",
+    "pl_word": "wspólnota mieszkaniowa",
+    "examples": [
+      {
+        "es_form": "[La comunidad de vecinos::wspólnota mieszkaniowa] es de madera.",
+        "pl_translation": "Wspólnota mieszkaniowa jest z drewna."
+      },
+      {
+        "es_form": "Se me rompio [La comunidad de vecinos::wspólnota mieszkaniowa].",
+        "pl_translation": "Zepsuł mi się wspólnota mieszkaniowa."
+      },
+      {
+        "es_form": "¿Has visto [La comunidad de vecinos::wspólnota mieszkaniowa]?",
+        "pl_translation": "Widziałeś/aś wspólnota mieszkaniowa?"
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "lujoso",
+    "pl_word": "luksusowy, komfortowy",
+    "examples": [
+      {
+        "es_form": "La comida está [lujosa::luksusowy, komfortowy].",
+        "pl_translation": "Jedzenie jest luksusowy, komfortowy."
+      },
+      {
+        "es_form": "El examen fue [lujoso::luksusowy, komfortowy].",
+        "pl_translation": "Egzamin był luksusowy, komfortowy."
+      },
+      {
+        "es_form": "Mi amigo es [lujoso::luksusowy, komfortowy] y simpático.",
+        "pl_translation": "Mój przyjaciel jest luksusowy, komfortowy i sympatyczny."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "costoso",
+    "pl_word": "kosztowny",
+    "examples": [
+      {
+        "es_form": "Nada es más [costoso::kosztowny] que la familia.",
+        "pl_translation": "Nic nie jest kosztowny od rodziny."
+      },
+      {
+        "es_form": "La comida está [costosa::kosztowny].",
+        "pl_translation": "Jedzenie jest kosztowny."
+      },
+      {
+        "es_form": "Se compro un vestido [costoso::kosztowny].",
+        "pl_translation": "Kupiła sobie kosztowny sukienkę."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "adquirir",
+    "pl_word": "nabywać, kupować (nieruchomość)",
+    "examples": [
+      {
+        "es_form": "Es importante [adquirir::nabywać, kupować (nieruchomość)] todos los días.",
+        "pl_translation": "Ważne jest nabywać, kupować (nieruchomość) codziennie."
+      },
+      {
+        "es_form": "Prefiero [adquirir::nabywać, kupować (nieruchomość)] en casa.",
+        "pl_translation": "Wolę nabywać, kupować (nieruchomość) w domu."
+      },
+      {
+        "es_form": "¿Puedes [adquirir::nabywać, kupować (nieruchomość)] más rápido?",
+        "pl_translation": "Możesz nabywać, kupować (nieruchomość) szybciej?"
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "adquiero",
+        "pl_word": "nabywać (1.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[adquiero::nabywać (1.os.lp, ter.)] todos los días.",
+            "pl_translation": "Nabywać (1.os.lp, ter.) codziennie."
+          },
+          {
+            "es_form": "Normalmente [adquiero::nabywać (1.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj nabywać (1.os.lp, ter.) rano."
+          },
+          {
+            "es_form": "[adquiero::nabywać (1.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Nabywać (1.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "adquieres",
+        "pl_word": "nabywać (2.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[adquieres::nabywać (2.os.lp, ter.)] todos los días.",
+            "pl_translation": "Nabywać (2.os.lp, ter.) codziennie."
+          },
+          {
+            "es_form": "Siempre [adquieres::nabywać (2.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze nabywać (2.os.lp, ter.) z uwagą."
+          },
+          {
+            "es_form": "No [adquieres::nabywać (2.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie nabywać (2.os.lp, ter.) zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "adquiere",
+        "pl_word": "nabywać (3.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "No [adquiere::nabywać (3.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie nabywać (3.os.lp, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "[adquiere::nabywać (3.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Nabywać (3.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "¿[adquiere::nabywać (3.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy nabywać (3.os.lp, ter.) w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "adquirimos",
+        "pl_word": "nabywać (1.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [adquirimos::nabywać (1.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj nabywać (1.os.lm, ter.) rano."
+          },
+          {
+            "es_form": "[adquirimos::nabywać (1.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Nabywać (1.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "[adquirimos::nabywać (1.os.lm, ter.)] todos los días.",
+            "pl_translation": "Nabywać (1.os.lm, ter.) codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "adquirís",
+        "pl_word": "nabywać (2.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [adquirís::nabywać (2.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj nabywać (2.os.lm, ter.) rano."
+          },
+          {
+            "es_form": "Siempre [adquirís::nabywać (2.os.lm, ter.)] con atencion.",
+            "pl_translation": "Zawsze nabywać (2.os.lm, ter.) z uwagą."
+          },
+          {
+            "es_form": "No [adquirís::nabywać (2.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie nabywać (2.os.lm, ter.) zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "adquieren",
+        "pl_word": "nabywać (3.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [adquieren::nabywać (3.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj nabywać (3.os.lm, ter.) rano."
+          },
+          {
+            "es_form": "Siempre [adquieren::nabywać (3.os.lm, ter.)] con atencion.",
+            "pl_translation": "Zawsze nabywać (3.os.lm, ter.) z uwagą."
+          },
+          {
+            "es_form": "¿[adquieren::nabywać (3.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy nabywać (3.os.lm, ter.) w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "adquirí",
+        "pl_word": "nabywać (1.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[adquirí::nabywać (1.os.lp, przesz.)] la semana pasada.",
+            "pl_translation": "Nabywać (1.os.lp, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "¿[adquirí::nabywać (1.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy nabywać (1.os.lp, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "Nunca [adquirí::nabywać (1.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie nabywać (1.os.lp, przesz.) czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "adquiriste",
+        "pl_word": "nabywać (2.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [adquiriste::nabywać (2.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj nabywać (2.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "El mes pasado no [adquiriste::nabywać (2.os.lp, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie nabywać (2.os.lp, przesz.)."
+          },
+          {
+            "es_form": "Nunca [adquiriste::nabywać (2.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie nabywać (2.os.lp, przesz.) czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "adquirió",
+        "pl_word": "nabywać (3.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[adquirió::nabywać (3.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Nabywać (3.os.lp, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Ayer [adquirió::nabywać (3.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj nabywać (3.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "[adquirió::nabywać (3.os.lp, przesz.)] la semana pasada.",
+            "pl_translation": "Nabywać (3.os.lp, przesz.) w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "adquirimos",
+        "pl_word": "nabywać (1.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[adquirimos::nabywać (1.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Nabywać (1.os.lm, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Ayer [adquirimos::nabywać (1.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj nabywać (1.os.lm, przesz.) cały dzień."
+          },
+          {
+            "es_form": "¿[adquirimos::nabywać (1.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy nabywać (1.os.lm, przesz.) dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "adquiristeis",
+        "pl_word": "nabywać (2.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[adquiristeis::nabywać (2.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Nabywać (2.os.lm, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "El mes pasado no [adquiristeis::nabywać (2.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie nabywać (2.os.lm, przesz.)."
+          },
+          {
+            "es_form": "¿[adquiristeis::nabywać (2.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy nabywać (2.os.lm, przesz.) dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "adquirieron",
+        "pl_word": "nabywać (3.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[adquirieron::nabywać (3.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy nabywać (3.os.lm, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "El mes pasado no [adquirieron::nabywać (3.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie nabywać (3.os.lm, przesz.)."
+          },
+          {
+            "es_form": "[adquirieron::nabywać (3.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Nabywać (3.os.lm, przesz.) bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "adquiriré",
+        "pl_word": "nabywać (1.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [adquiriré::nabywać (1.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że nabywać (1.os.lp, przysz.) dobrze."
+          },
+          {
+            "es_form": "El año que viene [adquiriré::nabywać (1.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku nabywać (1.os.lp, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Te prometo que [adquiriré::nabywać (1.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że nabywać (1.os.lp, przysz.) na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "adquirirás",
+        "pl_word": "nabywać (2.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [adquirirás::nabywać (2.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku nabywać (2.os.lp, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "[adquirirás::nabywać (2.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Nabywać (2.os.lp, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Te prometo que [adquirirás::nabywać (2.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że nabywać (2.os.lp, przysz.) na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "adquirirá",
+        "pl_word": "nabywać (3.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [adquirirá::nabywać (3.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że nabywać (3.os.lp, przysz.) dobrze."
+          },
+          {
+            "es_form": "¿[adquirirá::nabywać (3.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy nabywać (3.os.lp, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "Mañana [adquirirá::nabywać (3.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro nabywać (3.os.lp, przysz.) wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "adquiriremos",
+        "pl_word": "nabywać (1.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [adquiriremos::nabywać (1.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku nabywać (1.os.lm, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Mañana [adquiriremos::nabywać (1.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro nabywać (1.os.lm, przysz.) wcześniej."
+          },
+          {
+            "es_form": "Creo que [adquiriremos::nabywać (1.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że nabywać (1.os.lm, przysz.) dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "adquiriréis",
+        "pl_word": "nabywać (2.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [adquiriréis::nabywać (2.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że nabywać (2.os.lm, przysz.) na czas."
+          },
+          {
+            "es_form": "Creo que [adquiriréis::nabywać (2.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że nabywać (2.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "[adquiriréis::nabywać (2.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Nabywać (2.os.lm, przysz.) w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "adquirirán",
+        "pl_word": "nabywać (3.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [adquirirán::nabywać (3.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro nabywać (3.os.lm, przysz.) wcześniej."
+          },
+          {
+            "es_form": "¿[adquirirán::nabywać (3.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy nabywać (3.os.lm, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "El año que viene [adquirirán::nabywać (3.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku nabywać (3.os.lm, przysz.) w Hiszpanii."
+          }
+        ]
+      }
+    ]
+  }
+]

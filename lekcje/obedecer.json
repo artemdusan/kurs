@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "La norma",
+    "pl_word": "przepis, norma",
+    "examples": [
+      {
+        "es_form": "[La norma::przepis, norma] está muy rico.",
+        "pl_translation": "Przepis, norma jest bardzo smaczny/a."
+      },
+      {
+        "es_form": "¿Quieres [la norma::przepis, norma]?",
+        "pl_translation": "Chcesz przepis, norma?"
+      },
+      {
+        "es_form": "[La norma::przepis, norma] se hace con leche.",
+        "pl_translation": "Przepis, norma robi się z mleka."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La regla",
+    "pl_word": "zasada",
+    "examples": [
+      {
+        "es_form": "Necesito [la regla::zasada] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową zasada."
+      },
+      {
+        "es_form": "[La regla::zasada] es de madera.",
+        "pl_translation": "Zasada jest z drewna."
+      },
+      {
+        "es_form": "Guarda [la regla::zasada] en el armario.",
+        "pl_translation": "Schowaj zasada do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El prohibición",
+    "pl_word": "zakaz",
+    "examples": [
+      {
+        "es_form": "Necesito [el prohibición::zakaz] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową zakaz."
+      },
+      {
+        "es_form": "Guarda [el prohibición::zakaz] en el armario.",
+        "pl_translation": "Schowaj zakaz do szafy."
+      },
+      {
+        "es_form": "¿Has visto [el prohibición::zakaz]?",
+        "pl_translation": "Widziałeś/aś zakaz?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El orden",
+    "pl_word": "nakaz, rozkaz",
+    "examples": [
+      {
+        "es_form": "[El orden::nakaz, rozkaz] está sobre la mesa.",
+        "pl_translation": "Nakaz, rozkaz jest na stole."
+      },
+      {
+        "es_form": "Necesito [el orden::nakaz, rozkaz] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową nakaz, rozkaz."
+      },
+      {
+        "es_form": "Compré [el orden::nakaz, rozkaz] ayer.",
+        "pl_translation": "Kupiłem/am nakaz, rozkaz wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La multa",
+    "pl_word": "mandat, grzywna",
+    "examples": [
+      {
+        "es_form": "Compré [la multa::mandat, grzywna] ayer.",
+        "pl_translation": "Kupiłem/am mandat, grzywna wczoraj."
+      },
+      {
+        "es_form": "Se me rompio [la multa::mandat, grzywna].",
+        "pl_translation": "Zepsuł mi się mandat, grzywna."
+      },
+      {
+        "es_form": "[La multa::mandat, grzywna] está sobre la mesa.",
+        "pl_translation": "Mandat, grzywna jest na stole."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El castigo",
+    "pl_word": "kara",
+    "examples": [
+      {
+        "es_form": "Guarda [el castigo::kara] en el armario.",
+        "pl_translation": "Schowaj kara do szafy."
+      },
+      {
+        "es_form": "[El castigo::kara] está sobre la mesa.",
+        "pl_translation": "Kara jest na stole."
+      },
+      {
+        "es_form": "Compré [el castigo::kara] ayer.",
+        "pl_translation": "Kupiłem/am kara wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El tribunal",
+    "pl_word": "sąd",
+    "examples": [
+      {
+        "es_form": "Guarda [el tribunal::sąd] en el armario.",
+        "pl_translation": "Schowaj sąd do szafy."
+      },
+      {
+        "es_form": "¿Has visto [el tribunal::sąd]?",
+        "pl_translation": "Widziałeś/aś sąd?"
+      },
+      {
+        "es_form": "[El tribunal::sąd] cuesta diez euros.",
+        "pl_translation": "Sąd kosztuje dziesięć euro."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La juez",
+    "pl_word": "sędzia",
+    "examples": [
+      {
+        "es_form": "[La juez::sędzia] es muy amable.",
+        "pl_translation": "Sędzia jest bardzo miły/a."
+      },
+      {
+        "es_form": "Hablé con [la juez::sędzia] ayer.",
+        "pl_translation": "Rozmawiałem/am wczoraj z sędzia."
+      },
+      {
+        "es_form": "[La juez::sędzia] vive en mi calle.",
+        "pl_translation": "Sędzia mieszka na mojej ulicy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El abogado",
+    "pl_word": "adwokat",
+    "examples": [
+      {
+        "es_form": "[El abogado::adwokat] es muy amable.",
+        "pl_translation": "Adwokat jest bardzo miły/a."
+      },
+      {
+        "es_form": "[El abogado::adwokat] trabaja aquí.",
+        "pl_translation": "Adwokat tu pracuje."
+      },
+      {
+        "es_form": "Esta es [el abogado::adwokat] de la que hablé.",
+        "pl_translation": "To jest adwokat, o której mówiłem/am."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La demanda",
+    "pl_word": "pozew",
+    "examples": [
+      {
+        "es_form": "Necesito [la demanda::pozew] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową pozew."
+      },
+      {
+        "es_form": "[La demanda::pozew] es de madera.",
+        "pl_translation": "Pozew jest z drewna."
+      },
+      {
+        "es_form": "Se me rompio [la demanda::pozew].",
+        "pl_translation": "Zepsuł mi się pozew."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "legal",
+    "pl_word": "legalny",
+    "examples": [
+      {
+        "es_form": "La comida está [legal::legalny].",
+        "pl_translation": "Jedzenie jest legalny."
+      },
+      {
+        "es_form": "Mi amigo es [legal::legalny] y simpático.",
+        "pl_translation": "Mój przyjaciel jest legalny i sympatyczny."
+      },
+      {
+        "es_form": "Tengo una casa [legal::legalny].",
+        "pl_translation": "Mam legalny dom."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "prohibido",
+    "pl_word": "zabroniony",
+    "examples": [
+      {
+        "es_form": "Este coche es [prohibido::zabroniony].",
+        "pl_translation": "Ten samochód jest zabroniony."
+      },
+      {
+        "es_form": "Es una persona muy [prohibido::zabroniony].",
+        "pl_translation": "To jest bardzo zabroniony osoba."
+      },
+      {
+        "es_form": "Mi amigo es [prohibido::zabroniony] y simpático.",
+        "pl_translation": "Mój przyjaciel jest zabroniony i sympatyczny."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "obedecer",
+    "pl_word": "przestrzegać, być posłusznym",
+    "examples": [
+      {
+        "es_form": "Voy a [obedecer::przestrzegać, być posłusznym] mañana.",
+        "pl_translation": "Będę przestrzegać, być posłusznym jutro."
+      },
+      {
+        "es_form": "Hay que [obedecer::przestrzegać, być posłusznym] con cuidado.",
+        "pl_translation": "Trzeba przestrzegać, być posłusznym ostrożnie."
+      },
+      {
+        "es_form": "Me gusta [obedecer::przestrzegać, być posłusznym] por la mañana.",
+        "pl_translation": "Lubię przestrzegać, być posłusznym rano."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "obedezco",
+        "pl_word": "przestrzegać (1.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[obędęzco::przestrzegać (1.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Przestrzegać (1.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "[obędęzco::przestrzegać (1.os.lp, ter.)] todos los días.",
+            "pl_translation": "Przestrzegać (1.os.lp, ter.) codziennie."
+          },
+          {
+            "es_form": "Normalmente [obędęzco::przestrzegać (1.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj przestrzegać (1.os.lp, ter.) rano."
+          }
+        ]
+      },
+      {
+        "es_word": "obedeces",
+        "pl_word": "przestrzegać (2.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [obędęces::przestrzegać (2.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze przestrzegać (2.os.lp, ter.) z uwagą."
+          },
+          {
+            "es_form": "No [obędęces::przestrzegać (2.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie przestrzegać (2.os.lp, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "[obędęces::przestrzegać (2.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Przestrzegać (2.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "obedece",
+        "pl_word": "przestrzegać (3.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [obędęce::przestrzegać (3.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze przestrzegać (3.os.lp, ter.) z uwagą."
+          },
+          {
+            "es_form": "[obędęce::przestrzegać (3.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Przestrzegać (3.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "¿[obędęce::przestrzegać (3.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy przestrzegać (3.os.lp, ter.) w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "obedecemos",
+        "pl_word": "przestrzegać (1.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[obędęcemos::przestrzegać (1.os.lm, ter.)] todos los días.",
+            "pl_translation": "Przestrzegać (1.os.lm, ter.) codziennie."
+          },
+          {
+            "es_form": "Siempre [obędęcemos::przestrzegać (1.os.lm, ter.)] con atencion.",
+            "pl_translation": "Zawsze przestrzegać (1.os.lm, ter.) z uwagą."
+          },
+          {
+            "es_form": "[obędęcemos::przestrzegać (1.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Przestrzegać (1.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "obedecéis",
+        "pl_word": "przestrzegać (2.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [obędęcéis::przestrzegać (2.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj przestrzegać (2.os.lm, ter.) rano."
+          },
+          {
+            "es_form": "Siempre [obędęcéis::przestrzegać (2.os.lm, ter.)] con atencion.",
+            "pl_translation": "Zawsze przestrzegać (2.os.lm, ter.) z uwagą."
+          },
+          {
+            "es_form": "¿[obędęcéis::przestrzegać (2.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy przestrzegać (2.os.lm, ter.) w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "obedecen",
+        "pl_word": "przestrzegać (3.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[obędęcen::przestrzegać (3.os.lm, ter.)] todos los días.",
+            "pl_translation": "Przestrzegać (3.os.lm, ter.) codziennie."
+          },
+          {
+            "es_form": "No [obędęcen::przestrzegać (3.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie przestrzegać (3.os.lm, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "Siempre [obędęcen::przestrzegać (3.os.lm, ter.)] con atencion.",
+            "pl_translation": "Zawsze przestrzegać (3.os.lm, ter.) z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "obedecí",
+        "pl_word": "przestrzegać (1.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[obędęcí::przestrzegać (1.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Przestrzegać (1.os.lp, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "¿[obędęcí::przestrzegać (1.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy przestrzegać (1.os.lp, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "Ayer [obędęcí::przestrzegać (1.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj przestrzegać (1.os.lp, przesz.) cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "obedeciste",
+        "pl_word": "przestrzegać (2.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[obędęciste::przestrzegać (2.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy przestrzegać (2.os.lp, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "El mes pasado no [obędęciste::przestrzegać (2.os.lp, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie przestrzegać (2.os.lp, przesz.)."
+          },
+          {
+            "es_form": "[obędęciste::przestrzegać (2.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Przestrzegać (2.os.lp, przesz.) bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "obedeció",
+        "pl_word": "przestrzegać (3.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[obędęció::przestrzegać (3.os.lp, przesz.)] la semana pasada.",
+            "pl_translation": "Przestrzegać (3.os.lp, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "¿[obędęció::przestrzegać (3.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy przestrzegać (3.os.lp, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "Nunca [obędęció::przestrzegać (3.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie przestrzegać (3.os.lp, przesz.) czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "obedecimos",
+        "pl_word": "przestrzegać (1.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[obędęcimos::przestrzegać (1.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy przestrzegać (1.os.lm, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "Ayer [obędęcimos::przestrzegać (1.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj przestrzegać (1.os.lm, przesz.) cały dzień."
+          },
+          {
+            "es_form": "[obędęcimos::przestrzegać (1.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Przestrzegać (1.os.lm, przesz.) bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "obedecisteis",
+        "pl_word": "przestrzegać (2.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [obędęcisteis::przestrzegać (2.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie przestrzegać (2.os.lm, przesz.)."
+          },
+          {
+            "es_form": "¿[obędęcisteis::przestrzegać (2.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy przestrzegać (2.os.lm, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "Nunca [obędęcisteis::przestrzegać (2.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie przestrzegać (2.os.lm, przesz.) czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "obedecieron",
+        "pl_word": "przestrzegać (3.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[obędęcieron::przestrzegać (3.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Przestrzegać (3.os.lm, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Nunca [obędęcieron::przestrzegać (3.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie przestrzegać (3.os.lm, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "¿[obędęcieron::przestrzegać (3.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy przestrzegać (3.os.lm, przesz.) dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "obedeceré",
+        "pl_word": "przestrzegać (1.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[obędęceré::przestrzegać (1.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy przestrzegać (1.os.lp, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "Te prometo que [obędęceré::przestrzegać (1.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że przestrzegać (1.os.lp, przysz.) na czas."
+          },
+          {
+            "es_form": "Mañana [obędęceré::przestrzegać (1.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro przestrzegać (1.os.lp, przysz.) wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "obedecerás",
+        "pl_word": "przestrzegać (2.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [obędęcerás::przestrzegać (2.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku przestrzegać (2.os.lp, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Creo que [obędęcerás::przestrzegać (2.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że przestrzegać (2.os.lp, przysz.) dobrze."
+          },
+          {
+            "es_form": "Mañana [obędęcerás::przestrzegać (2.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro przestrzegać (2.os.lp, przysz.) wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "obedecerá",
+        "pl_word": "przestrzegać (3.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [obędęcerá::przestrzegać (3.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że przestrzegać (3.os.lp, przysz.) dobrze."
+          },
+          {
+            "es_form": "El año que viene [obędęcerá::przestrzegać (3.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku przestrzegać (3.os.lp, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "[obędęcerá::przestrzegać (3.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Przestrzegać (3.os.lp, przysz.) w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "obedeceremos",
+        "pl_word": "przestrzegać (1.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[obędęceremos::przestrzegać (1.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Przestrzegać (1.os.lm, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Te prometo que [obędęceremos::przestrzegać (1.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że przestrzegać (1.os.lm, przysz.) na czas."
+          },
+          {
+            "es_form": "El año que viene [obędęceremos::przestrzegać (1.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku przestrzegać (1.os.lm, przysz.) w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "obedeceréis",
+        "pl_word": "przestrzegać (2.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[obędęceréis::przestrzegać (2.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Przestrzegać (2.os.lm, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "¿[obędęceréis::przestrzegać (2.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy przestrzegać (2.os.lm, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "Creo que [obędęceréis::przestrzegać (2.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że przestrzegać (2.os.lm, przysz.) dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "obedecerán",
+        "pl_word": "przestrzegać (3.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [obędęcerán::przestrzegać (3.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku przestrzegać (3.os.lm, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "¿[obędęcerán::przestrzegać (3.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy przestrzegać (3.os.lm, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "Mañana [obędęcerán::przestrzegać (3.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro przestrzegać (3.os.lm, przysz.) wcześniej."
+          }
+        ]
+      }
+    ]
+  }
+]

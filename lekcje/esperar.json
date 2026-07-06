@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "La semana",
+    "pl_word": "tydzień",
+    "examples": [
+      {
+        "es_form": "[La semana::tydzień] se me hizo eterno.",
+        "pl_translation": "Tydzień mi się dłużył/a."
+      },
+      {
+        "es_form": "[La semana::tydzień] es oro.",
+        "pl_translation": "Tydzień jest na wagę złota."
+      },
+      {
+        "es_form": "No tengo [la semana::tydzień] suficiente.",
+        "pl_translation": "Nie mam wystarczająco tydzień."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El mes",
+    "pl_word": "miesiąc",
+    "examples": [
+      {
+        "es_form": "[El mes::miesiąc] pasa muy rápido.",
+        "pl_translation": "Miesiąc mija bardzo szybko."
+      },
+      {
+        "es_form": "[El mes::miesiąc] se me hizo eterno.",
+        "pl_translation": "Miesiąc mi się dłużył/a."
+      },
+      {
+        "es_form": "[El mes::miesiąc] es oro.",
+        "pl_translation": "Miesiąc jest na wagę złota."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El lunes",
+    "pl_word": "poniedziałek",
+    "examples": [
+      {
+        "es_form": "[El lunes::poniedziałek] es oro.",
+        "pl_translation": "Poniedziałek jest na wagę złota."
+      },
+      {
+        "es_form": "Esperé [el lunes::poniedziałek] entero.",
+        "pl_translation": "Czekałem/am cały/całą poniedziałek."
+      },
+      {
+        "es_form": "[El lunes::poniedziałek] se me hizo eterno.",
+        "pl_translation": "Poniedziałek mi się dłużył/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El martes",
+    "pl_word": "wtorek",
+    "examples": [
+      {
+        "es_form": "No tengo [el martes::wtorek] suficiente.",
+        "pl_translation": "Nie mam wystarczająco wtorek."
+      },
+      {
+        "es_form": "Esperé [el martes::wtorek] entero.",
+        "pl_translation": "Czekałem/am cały/całą wtorek."
+      },
+      {
+        "es_form": "[El martes::wtorek] se me hizo eterno.",
+        "pl_translation": "Wtorek mi się dłużył/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El miércoles",
+    "pl_word": "środa",
+    "examples": [
+      {
+        "es_form": "Llego [el miércoles::środa] de la boda.",
+        "pl_translation": "Nadszedł środa ślubu."
+      },
+      {
+        "es_form": "Esperé [el miércoles::środa] entero.",
+        "pl_translation": "Czekałem/am cały/całą środa."
+      },
+      {
+        "es_form": "[El miércoles::środa] es oro.",
+        "pl_translation": "Środa jest na wagę złota."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El jueves",
+    "pl_word": "czwartek",
+    "examples": [
+      {
+        "es_form": "[El jueves::czwartek] pasa muy rápido.",
+        "pl_translation": "Czwartek mija bardzo szybko."
+      },
+      {
+        "es_form": "Llego [el jueves::czwartek] de la boda.",
+        "pl_translation": "Nadszedł czwartek ślubu."
+      },
+      {
+        "es_form": "[El jueves::czwartek] se me hizo eterno.",
+        "pl_translation": "Czwartek mi się dłużył/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El viernes",
+    "pl_word": "piątek",
+    "examples": [
+      {
+        "es_form": "[El viernes::piątek] pasa muy rápido.",
+        "pl_translation": "Piątek mija bardzo szybko."
+      },
+      {
+        "es_form": "No tengo [el viernes::piątek] suficiente.",
+        "pl_translation": "Nie mam wystarczająco piątek."
+      },
+      {
+        "es_form": "Llego [el viernes::piątek] de la boda.",
+        "pl_translation": "Nadszedł piątek ślubu."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El sábado",
+    "pl_word": "sobota",
+    "examples": [
+      {
+        "es_form": "[El sábado::sobota] es oro.",
+        "pl_translation": "Sobota jest na wagę złota."
+      },
+      {
+        "es_form": "No tengo [el sábado::sobota] suficiente.",
+        "pl_translation": "Nie mam wystarczająco sobota."
+      },
+      {
+        "es_form": "[El sábado::sobota] pasa muy rápido.",
+        "pl_translation": "Sobota mija bardzo szybko."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El domingo",
+    "pl_word": "niedziela",
+    "examples": [
+      {
+        "es_form": "[El domingo::niedziela] es oro.",
+        "pl_translation": "Niedziela jest na wagę złota."
+      },
+      {
+        "es_form": "Llego [el domingo::niedziela] de la boda.",
+        "pl_translation": "Nadszedł niedziela ślubu."
+      },
+      {
+        "es_form": "No tengo [el domingo::niedziela] suficiente.",
+        "pl_translation": "Nie mam wystarczająco niedziela."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El fin de semana",
+    "pl_word": "weekend",
+    "examples": [
+      {
+        "es_form": "Llego [El fin de semana::weekend] de la boda.",
+        "pl_translation": "Nadszedł weekend ślubu."
+      },
+      {
+        "es_form": "[El fin de semana::weekend] es oro.",
+        "pl_translation": "Weekend jest na wagę złota."
+      },
+      {
+        "es_form": "Esperé [El fin de semana::weekend] entero.",
+        "pl_translation": "Czekałem/am cały/całą weekend."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "temprano",
+    "pl_word": "wczesny",
+    "examples": [
+      {
+        "es_form": "Es un lugar [temprano::wczesny] para vivir.",
+        "pl_translation": "To jest wczesny miejsce do życia."
+      },
+      {
+        "es_form": "Es una persona muy [temprano::wczesny].",
+        "pl_translation": "To jest bardzo wczesny osoba."
+      },
+      {
+        "es_form": "Hace un día [temprano::wczesny].",
+        "pl_translation": "Jest wczesny dzień."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "tarde",
+    "pl_word": "późny",
+    "examples": [
+      {
+        "es_form": "El examen fue [tarde::późny].",
+        "pl_translation": "Egzamin był późny."
+      },
+      {
+        "es_form": "Mi amigo es [tarde::późny] y simpático.",
+        "pl_translation": "Mój przyjaciel jest późny i sympatyczny."
+      },
+      {
+        "es_form": "Es una persona muy [tarde::późny].",
+        "pl_translation": "To jest bardzo późny osoba."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "esperar",
+    "pl_word": "czekać, mieć nadzieję",
+    "examples": [
+      {
+        "es_form": "Es importante [esperar::czekać, mieć nadzieję] todos los días.",
+        "pl_translation": "Ważne jest czekać, mieć nadzieję codziennie."
+      },
+      {
+        "es_form": "Prefiero [esperar::czekać, mieć nadzieję] en casa.",
+        "pl_translation": "Wolę czekać, mieć nadzieję w domu."
+      },
+      {
+        "es_form": "Me gusta [esperar::czekać, mieć nadzieję] por la mañana.",
+        "pl_translation": "Lubię czekać, mieć nadzieję rano."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "espero",
+        "pl_word": "czekać (1.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[espero::czekać (1.os.lp, ter.)] todos los días.",
+            "pl_translation": "Czekać (1.os.lp, ter.) codziennie."
+          },
+          {
+            "es_form": "No [espero::czekać (1.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie czekać (1.os.lp, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "[espero::czekać (1.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Czekać (1.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "esperas",
+        "pl_word": "czekać (2.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[esperas::czekać (2.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy czekać (2.os.lp, ter.) w weekendy?"
+          },
+          {
+            "es_form": "[esperas::czekać (2.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Czekać (2.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Siempre [esperas::czekać (2.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze czekać (2.os.lp, ter.) z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "espera",
+        "pl_word": "czekać (3.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[espera::czekać (3.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Czekać (3.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [espera::czekać (3.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj czekać (3.os.lp, ter.) rano."
+          },
+          {
+            "es_form": "Siempre [espera::czekać (3.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze czekać (3.os.lp, ter.) z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "esperamos",
+        "pl_word": "czekać (1.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [esperamos::czekać (1.os.lm, ter.)] con atencion.",
+            "pl_translation": "Zawsze czekać (1.os.lm, ter.) z uwagą."
+          },
+          {
+            "es_form": "¿[esperamos::czekać (1.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy czekać (1.os.lm, ter.) w weekendy?"
+          },
+          {
+            "es_form": "[esperamos::czekać (1.os.lm, ter.)] todos los días.",
+            "pl_translation": "Czekać (1.os.lm, ter.) codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "esperáis",
+        "pl_word": "czekać (2.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[esperáis::czekać (2.os.lm, ter.)] todos los días.",
+            "pl_translation": "Czekać (2.os.lm, ter.) codziennie."
+          },
+          {
+            "es_form": "No [esperáis::czekać (2.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie czekać (2.os.lm, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "[esperáis::czekać (2.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Czekać (2.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "esperan",
+        "pl_word": "czekać (3.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[esperan::czekać (3.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy czekać (3.os.lm, ter.) w weekendy?"
+          },
+          {
+            "es_form": "Siempre [esperan::czekać (3.os.lm, ter.)] con atencion.",
+            "pl_translation": "Zawsze czekać (3.os.lm, ter.) z uwagą."
+          },
+          {
+            "es_form": "No [esperan::czekać (3.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie czekać (3.os.lm, ter.) zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "esperé",
+        "pl_word": "czekać (1.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [esperé::czekać (1.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie czekać (1.os.lp, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "[esperé::czekać (1.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Czekać (1.os.lp, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "¿[esperé::czekać (1.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy czekać (1.os.lp, przesz.) dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "esperaste",
+        "pl_word": "czekać (2.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[esperaste::czekać (2.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Czekać (2.os.lp, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [esperaste::czekać (2.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie czekać (2.os.lp, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "[esperaste::czekać (2.os.lp, przesz.)] la semana pasada.",
+            "pl_translation": "Czekać (2.os.lp, przesz.) w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "esperó",
+        "pl_word": "czekać (3.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[esperó::czekać (3.os.lp, przesz.)] la semana pasada.",
+            "pl_translation": "Czekać (3.os.lp, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Nunca [esperó::czekać (3.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie czekać (3.os.lp, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "[esperó::czekać (3.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Czekać (3.os.lp, przesz.) bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "esperamos",
+        "pl_word": "czekać (1.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [esperamos::czekać (1.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj czekać (1.os.lm, przesz.) cały dzień."
+          },
+          {
+            "es_form": "[esperamos::czekać (1.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Czekać (1.os.lm, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "¿[esperamos::czekać (1.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy czekać (1.os.lm, przesz.) dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "esperasteis",
+        "pl_word": "czekać (2.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[esperasteis::czekać (2.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Czekać (2.os.lm, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [esperasteis::czekać (2.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie czekać (2.os.lm, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "El mes pasado no [esperasteis::czekać (2.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie czekać (2.os.lm, przesz.)."
+          }
+        ]
+      },
+      {
+        "es_word": "esperaron",
+        "pl_word": "czekać (3.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [esperaron::czekać (3.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj czekać (3.os.lm, przesz.) cały dzień."
+          },
+          {
+            "es_form": "[esperaron::czekać (3.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Czekać (3.os.lm, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "[esperaron::czekać (3.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Czekać (3.os.lm, przesz.) w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "esperé",
+        "pl_word": "czekać (1.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[esperé::czekać (1.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy czekać (1.os.lp, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "[esperé::czekać (1.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Czekać (1.os.lp, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "El año que viene [esperé::czekać (1.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku czekać (1.os.lp, przysz.) w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "esperás",
+        "pl_word": "czekać (2.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[esperás::czekać (2.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy czekać (2.os.lp, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "Creo que [esperás::czekać (2.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że czekać (2.os.lp, przysz.) dobrze."
+          },
+          {
+            "es_form": "Mañana [esperás::czekać (2.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro czekać (2.os.lp, przysz.) wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "esperá",
+        "pl_word": "czekać (3.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [esperá::czekać (3.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że czekać (3.os.lp, przysz.) na czas."
+          },
+          {
+            "es_form": "[esperá::czekać (3.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Czekać (3.os.lp, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "¿[esperá::czekać (3.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy czekać (3.os.lp, przysz.) z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "esperemos",
+        "pl_word": "czekać (1.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [esperemos::czekać (1.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że czekać (1.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "Mañana [esperemos::czekać (1.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro czekać (1.os.lm, przysz.) wcześniej."
+          },
+          {
+            "es_form": "¿[esperemos::czekać (1.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy czekać (1.os.lm, przysz.) z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "esperéis",
+        "pl_word": "czekać (2.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [esperéis::czekać (2.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że czekać (2.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "Mañana [esperéis::czekać (2.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro czekać (2.os.lm, przysz.) wcześniej."
+          },
+          {
+            "es_form": "[esperéis::czekać (2.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Czekać (2.os.lm, przysz.) w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "esperán",
+        "pl_word": "czekać (3.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[esperán::czekać (3.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy czekać (3.os.lm, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "Creo que [esperán::czekać (3.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że czekać (3.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "Mañana [esperán::czekać (3.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro czekać (3.os.lm, przysz.) wcześniej."
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "La casa",
+    "pl_word": "dom",
+    "examples": [
+      {
+        "es_form": "[La casa::dom] es muy grande.",
+        "pl_translation": "Dom jest bardzo duży/a."
+      },
+      {
+        "es_form": "Voy a [la casa::dom] cada día.",
+        "pl_translation": "Chodzę do dom codziennie."
+      },
+      {
+        "es_form": "Trabajo en [la casa::dom].",
+        "pl_translation": "Pracuję w dom."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El lugar",
+    "pl_word": "miejsce",
+    "examples": [
+      {
+        "es_form": "[El lugar::miejsce] abre a las ocho.",
+        "pl_translation": "Miejsce otwiera się o ósmej."
+      },
+      {
+        "es_form": "[El lugar::miejsce] es muy grande.",
+        "pl_translation": "Miejsce jest bardzo duży/a."
+      },
+      {
+        "es_form": "Trabajo en [el lugar::miejsce].",
+        "pl_translation": "Pracuję w miejsce."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El país",
+    "pl_word": "kraj",
+    "examples": [
+      {
+        "es_form": "[El país::kraj] abre a las ocho.",
+        "pl_translation": "Kraj otwiera się o ósmej."
+      },
+      {
+        "es_form": "¿Donde está [el país::kraj]?",
+        "pl_translation": "Gdzie jest kraj?"
+      },
+      {
+        "es_form": "[El país::kraj] es muy grande.",
+        "pl_translation": "Kraj jest bardzo duży/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La ciudad",
+    "pl_word": "miasto",
+    "examples": [
+      {
+        "es_form": "Voy a [la ciudad::miasto] cada día.",
+        "pl_translation": "Chodzę do miasto codziennie."
+      },
+      {
+        "es_form": "[La ciudad::miasto] abre a las ocho.",
+        "pl_translation": "Miasto otwiera się o ósmej."
+      },
+      {
+        "es_form": "¿Donde está [la ciudad::miasto]?",
+        "pl_translation": "Gdzie jest miasto?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La calle",
+    "pl_word": "ulica",
+    "examples": [
+      {
+        "es_form": "[La calle::ulica] está cerca de aquí.",
+        "pl_translation": "Ulica jest niedaleko stąd."
+      },
+      {
+        "es_form": "Visitamos [la calle::ulica] la semana pasada.",
+        "pl_translation": "Odwiedziliśmy ulica w zeszłym tygodniu."
+      },
+      {
+        "es_form": "Voy a [la calle::ulica] cada día.",
+        "pl_translation": "Chodzę do ulica codziennie."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El mundo",
+    "pl_word": "świat",
+    "examples": [
+      {
+        "es_form": "Trabajo en [el mundo::świat].",
+        "pl_translation": "Pracuję w świat."
+      },
+      {
+        "es_form": "Voy a [el mundo::świat] cada día.",
+        "pl_translation": "Chodzę do świat codziennie."
+      },
+      {
+        "es_form": "Visitamos [el mundo::świat] la semana pasada.",
+        "pl_translation": "Odwiedziliśmy świat w zeszłym tygodniu."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El dirección",
+    "pl_word": "adres",
+    "examples": [
+      {
+        "es_form": "[El dirección::adres] es de madera.",
+        "pl_translation": "Adres jest z drewna."
+      },
+      {
+        "es_form": "Necesito [el dirección::adres] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową adres."
+      },
+      {
+        "es_form": "Compré [el dirección::adres] ayer.",
+        "pl_translation": "Kupiłem/am adres wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El estado",
+    "pl_word": "stan",
+    "examples": [
+      {
+        "es_form": "Se me rompio [el estado::stan].",
+        "pl_translation": "Zepsuł mi się stan."
+      },
+      {
+        "es_form": "[El estado::stan] está sobre la mesa.",
+        "pl_translation": "Stan jest na stole."
+      },
+      {
+        "es_form": "Necesito [el estado::stan] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową stan."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El habitación",
+    "pl_word": "pokój",
+    "examples": [
+      {
+        "es_form": "Se me rompio [el habitación::pokój].",
+        "pl_translation": "Zepsuł mi się pokój."
+      },
+      {
+        "es_form": "Guarda [el habitación::pokój] en el armario.",
+        "pl_translation": "Schowaj pokój do szafy."
+      },
+      {
+        "es_form": "Necesito [el habitación::pokój] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową pokój."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La cocina",
+    "pl_word": "kuchnia",
+    "examples": [
+      {
+        "es_form": "[La cocina::kuchnia] es muy grande.",
+        "pl_translation": "Kuchnia jest bardzo duży/a."
+      },
+      {
+        "es_form": "¿Donde está [la cocina::kuchnia]?",
+        "pl_translation": "Gdzie jest kuchnia?"
+      },
+      {
+        "es_form": "Voy a [la cocina::kuchnia] cada día.",
+        "pl_translation": "Chodzę do kuchnia codziennie."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "grande",
+    "pl_word": "duży",
+    "examples": [
+      {
+        "es_form": "Nada es más [grande::duży] que la familia.",
+        "pl_translation": "Nic nie jest duży od rodziny."
+      },
+      {
+        "es_form": "Es una persona muy [grande::duży].",
+        "pl_translation": "To jest bardzo duży osoba."
+      },
+      {
+        "es_form": "Hace un día [grande::duży].",
+        "pl_translation": "Jest duży dzień."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "pequeño",
+    "pl_word": "mały",
+    "examples": [
+      {
+        "es_form": "Se compro un vestido [pequeño::mały].",
+        "pl_translation": "Kupiła sobie mały sukienkę."
+      },
+      {
+        "es_form": "La comida está [pequeña::mały].",
+        "pl_translation": "Jedzenie jest mały."
+      },
+      {
+        "es_form": "Este coche es [pequeño::mały].",
+        "pl_translation": "Ten samochód jest mały."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "estar",
+    "pl_word": "być (stan, miejsce)",
+    "examples": [
+      {
+        "es_form": "Me gusta [estar::być (stan, miejsce)] por la mañana.",
+        "pl_translation": "Lubię być (stan, miejsce) rano."
+      },
+      {
+        "es_form": "¿Puedes [estar::być (stan, miejsce)] más rápido?",
+        "pl_translation": "Możesz być (stan, miejsce) szybciej?"
+      },
+      {
+        "es_form": "Voy a [estar::być (stan, miejsce)] mañana.",
+        "pl_translation": "Będę być (stan, miejsce) jutro."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "estoy",
+        "pl_word": "jestem (chwil.) (estar)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [estoy::jestem (chwil.) (estar)] con atencion.",
+            "pl_translation": "Zawsze jestem (chwil.) z uwagą."
+          },
+          {
+            "es_form": "[estoy::jestem (chwil.) (estar)] todos los días.",
+            "pl_translation": "Jestem (chwil.) codziennie."
+          },
+          {
+            "es_form": "¿[estoy::jestem (chwil.) (estar)] los fines de semana?",
+            "pl_translation": "Czy jestem (chwil.) w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "estás",
+        "pl_word": "jesteś (estar)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[estás::jesteś (estar)] los fines de semana?",
+            "pl_translation": "Czy jesteś w weekendy?"
+          },
+          {
+            "es_form": "Normalmente [estás::jesteś (estar)] por la mañana.",
+            "pl_translation": "Zazwyczaj jesteś rano."
+          },
+          {
+            "es_form": "Siempre [estás::jesteś (estar)] con atencion.",
+            "pl_translation": "Zawsze jesteś z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "está",
+        "pl_word": "jest (estar)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "No [está::jest (estar)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie jest zbyt dobrze."
+          },
+          {
+            "es_form": "Normalmente [está::jest (estar)] por la mañana.",
+            "pl_translation": "Zazwyczaj jest rano."
+          },
+          {
+            "es_form": "Siempre [está::jest (estar)] con atencion.",
+            "pl_translation": "Zawsze jest z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "estamos",
+        "pl_word": "jesteśmy (estar)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [estamos::jesteśmy (estar)] con atencion.",
+            "pl_translation": "Zawsze jesteśmy z uwagą."
+          },
+          {
+            "es_form": "[estamos::jesteśmy (estar)] todos los días.",
+            "pl_translation": "Jesteśmy codziennie."
+          },
+          {
+            "es_form": "Normalmente [estamos::jesteśmy (estar)] por la mañana.",
+            "pl_translation": "Zazwyczaj jesteśmy rano."
+          }
+        ]
+      },
+      {
+        "es_word": "estáis",
+        "pl_word": "jesteście (estar)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[estáis::jesteście (estar)] todos los días.",
+            "pl_translation": "Jesteście codziennie."
+          },
+          {
+            "es_form": "¿[estáis::jesteście (estar)] los fines de semana?",
+            "pl_translation": "Czy jesteście w weekendy?"
+          },
+          {
+            "es_form": "Normalmente [estáis::jesteście (estar)] por la mañana.",
+            "pl_translation": "Zazwyczaj jesteście rano."
+          }
+        ]
+      },
+      {
+        "es_word": "están",
+        "pl_word": "są (estar)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [están::są (estar)] por la mañana.",
+            "pl_translation": "Zazwyczaj są rano."
+          },
+          {
+            "es_form": "[están::są (estar)] como me enseñaste.",
+            "pl_translation": "Są tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "No [están::są (estar)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie są zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "estuve",
+        "pl_word": "byłem/byłam (chwil.) (estar)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [estuve::byłem/byłam (chwil.) (estar)] todo el día.",
+            "pl_translation": "Wczoraj byłem/byłam (chwil.) cały dzień."
+          },
+          {
+            "es_form": "[estuve::byłem/byłam (chwil.) (estar)] sin parar durante horas.",
+            "pl_translation": "Byłem/byłam (chwil.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "[estuve::byłem/byłam (chwil.) (estar)] la semana pasada.",
+            "pl_translation": "Byłem/byłam (chwil.) w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "estuviste",
+        "pl_word": "byłeś/byłaś (estar)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[estuviste::byłeś/byłaś (estar)] la semana pasada.",
+            "pl_translation": "Byłeś/byłaś w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Nunca [estuviste::byłeś/byłaś (estar)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie byłeś/byłaś czegoś takiego."
+          },
+          {
+            "es_form": "¿[estuviste::byłeś/byłaś (estar)] bien el examen?",
+            "pl_translation": "Czy byłeś/byłaś dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "estuvo",
+        "pl_word": "był/była/było (estar)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[estuvo::był/była/było (estar)] sin parar durante horas.",
+            "pl_translation": "Był/była/było bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "[estuvo::był/była/było (estar)] la semana pasada.",
+            "pl_translation": "Był/była/było w zeszłym tygodniu."
+          },
+          {
+            "es_form": "El mes pasado no [estuvo::był/była/było (estar)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie był/była/było."
+          }
+        ]
+      },
+      {
+        "es_word": "estuvimos",
+        "pl_word": "byliśmy/byłyśmy (estar)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[estuvimos::byłismy/byłysimy (estar)] sin parar durante horas.",
+            "pl_translation": "Byliśmy/byłyśmy bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "¿[estuvimos::byłismy/byłysimy (estar)] bien el examen?",
+            "pl_translation": "Czy byliśmy/byłyśmy dobrze egzamin?"
+          },
+          {
+            "es_form": "[estuvimos::byłismy/byłysimy (estar)] la semana pasada.",
+            "pl_translation": "Byliśmy/byłyśmy w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "estuvisteis",
+        "pl_word": "byliście/byłyście (estar)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[estuvisteis::byłiscie/byłyscie (estar)] sin parar durante horas.",
+            "pl_translation": "Byliście/byłyście bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [estuvisteis::byłiscie/byłyscie (estar)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie byliście/byłyście czegoś takiego."
+          },
+          {
+            "es_form": "[estuvisteis::byłiscie/byłyscie (estar)] la semana pasada.",
+            "pl_translation": "Byliście/byłyście w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "estuvieron",
+        "pl_word": "byli/były (estar)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [estuvieron::byłi/były (estar)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie byli/były czegoś takiego."
+          },
+          {
+            "es_form": "El mes pasado no [estuvieron::byłi/były (estar)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie byli/były."
+          },
+          {
+            "es_form": "¿[estuvieron::byłi/były (estar)] bien el examen?",
+            "pl_translation": "Czy byli/były dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "estaré",
+        "pl_word": "będę (chwil.) (estar)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [estaré::będę (chwil.) (estar)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będę (chwil.) na czas."
+          },
+          {
+            "es_form": "El año que viene [estaré::będę (chwil.) (estar)] en España.",
+            "pl_translation": "W przyszłym roku będę (chwil.) w Hiszpanii."
+          },
+          {
+            "es_form": "Creo que [estaré::będę (chwil.) (estar)] bien.",
+            "pl_translation": "Myślę, że będę (chwil.) dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "estarás",
+        "pl_word": "będziesz (estar)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[estarás::będziesz (estar)] con nosotros mañana?",
+            "pl_translation": "Czy będziesz z nami jutro?"
+          },
+          {
+            "es_form": "Creo que [estarás::będziesz (estar)] bien.",
+            "pl_translation": "Myślę, że będziesz dobrze."
+          },
+          {
+            "es_form": "Mañana [estarás::będziesz (estar)] más temprano.",
+            "pl_translation": "Jutro będziesz wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "estará",
+        "pl_word": "będzie (estar)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[estará::będzie (estar)] la proxima semana.",
+            "pl_translation": "Będzie w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Mañana [estará::będzie (estar)] más temprano.",
+            "pl_translation": "Jutro będzie wcześniej."
+          },
+          {
+            "es_form": "El año que viene [estará::będzie (estar)] en España.",
+            "pl_translation": "W przyszłym roku będzie w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "estaremos",
+        "pl_word": "będziemy (estar)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [estaremos::będziemy (estar)] más temprano.",
+            "pl_translation": "Jutro będziemy wcześniej."
+          },
+          {
+            "es_form": "¿[estaremos::będziemy (estar)] con nosotros mañana?",
+            "pl_translation": "Czy będziemy z nami jutro?"
+          },
+          {
+            "es_form": "[estaremos::będziemy (estar)] la proxima semana.",
+            "pl_translation": "Będziemy w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "estaréis",
+        "pl_word": "będziecie (estar)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[estaréis::będziecie (estar)] con nosotros mañana?",
+            "pl_translation": "Czy będziecie z nami jutro?"
+          },
+          {
+            "es_form": "[estaréis::będziecie (estar)] la proxima semana.",
+            "pl_translation": "Będziecie w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Mañana [estaréis::będziecie (estar)] más temprano.",
+            "pl_translation": "Jutro będziecie wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "estarán",
+        "pl_word": "będą (estar)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [estarán::będą (estar)] más temprano.",
+            "pl_translation": "Jutro będą wcześniej."
+          },
+          {
+            "es_form": "Te prometo que [estarán::będą (estar)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będą na czas."
+          },
+          {
+            "es_form": "[estarán::będą (estar)] la proxima semana.",
+            "pl_translation": "Będą w przyszłym tygodniu."
+          }
+        ]
+      }
+    ]
+  }
+]

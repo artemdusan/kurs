@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "La alegría",
+    "pl_word": "radość",
+    "examples": [
+      {
+        "es_form": "No entiendo [la alegría::radość].",
+        "pl_translation": "Nie rozumiem radość."
+      },
+      {
+        "es_form": "[La alegría::radość] es la clave del éxito.",
+        "pl_translation": "Radość jest kluczem do sukcesu."
+      },
+      {
+        "es_form": "[La alegría::radość] es muy importante.",
+        "pl_translation": "Radość jest bardzo ważny/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La tristeza",
+    "pl_word": "smutek",
+    "examples": [
+      {
+        "es_form": "[La tristeza::smutek] cambio mi vida.",
+        "pl_translation": "Smutek zmienił/a moje życie."
+      },
+      {
+        "es_form": "[La tristeza::smutek] es la clave del éxito.",
+        "pl_translation": "Smutek jest kluczem do sukcesu."
+      },
+      {
+        "es_form": "Tienes que aceptar [la tristeza::smutek].",
+        "pl_translation": "Musisz zaakceptować smutek."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El enojo",
+    "pl_word": "złość",
+    "examples": [
+      {
+        "es_form": "[El enojo::złość] es muy importante.",
+        "pl_translation": "Złość jest bardzo ważny/a."
+      },
+      {
+        "es_form": "Hablamos sobre [el enojo::złość].",
+        "pl_translation": "Rozmawialiśmy o złość."
+      },
+      {
+        "es_form": "[El enojo::złość] es la clave del éxito.",
+        "pl_translation": "Złość jest kluczem do sukcesu."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El miedo",
+    "pl_word": "strach",
+    "examples": [
+      {
+        "es_form": "Tienes que aceptar [el miedo::strach].",
+        "pl_translation": "Musisz zaakceptować strach."
+      },
+      {
+        "es_form": "[El miedo::strach] es muy importante.",
+        "pl_translation": "Strach jest bardzo ważny/a."
+      },
+      {
+        "es_form": "Hablamos sobre [el miedo::strach].",
+        "pl_translation": "Rozmawialiśmy o strach."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El amor",
+    "pl_word": "miłość",
+    "examples": [
+      {
+        "es_form": "[El amor::miłość] cambio mi vida.",
+        "pl_translation": "Miłość zmienił/a moje życie."
+      },
+      {
+        "es_form": "[El amor::miłość] es muy importante.",
+        "pl_translation": "Miłość jest bardzo ważny/a."
+      },
+      {
+        "es_form": "Tienes que aceptar [el amor::miłość].",
+        "pl_translation": "Musisz zaakceptować miłość."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El odio",
+    "pl_word": "nienawiść",
+    "examples": [
+      {
+        "es_form": "[El odio::nienawiść] es la clave del éxito.",
+        "pl_translation": "Nienawiść jest kluczem do sukcesu."
+      },
+      {
+        "es_form": "Hablamos sobre [el odio::nienawiść].",
+        "pl_translation": "Rozmawialiśmy o nienawiść."
+      },
+      {
+        "es_form": "[El odio::nienawiść] es muy importante.",
+        "pl_translation": "Nienawiść jest bardzo ważny/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La sorpresa",
+    "pl_word": "zaskoczenie",
+    "examples": [
+      {
+        "es_form": "Se me rompio [la sorpresa::zaskoczenie].",
+        "pl_translation": "Zepsuł mi się zaskoczenie."
+      },
+      {
+        "es_form": "[La sorpresa::zaskoczenie] cuesta diez euros.",
+        "pl_translation": "Zaskoczenie kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Guarda [la sorpresa::zaskoczenie] en el armario.",
+        "pl_translation": "Schowaj zaskoczenie do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La vergüenza",
+    "pl_word": "wstyd",
+    "examples": [
+      {
+        "es_form": "No entiendo [la vergüenza::wstyd].",
+        "pl_translation": "Nie rozumiem wstyd."
+      },
+      {
+        "es_form": "Hablamos sobre [la vergüenza::wstyd].",
+        "pl_translation": "Rozmawialiśmy o wstyd."
+      },
+      {
+        "es_form": "Tienes que aceptar [la vergüenza::wstyd].",
+        "pl_translation": "Musisz zaakceptować wstyd."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El orgullo",
+    "pl_word": "duma",
+    "examples": [
+      {
+        "es_form": "Hablamos sobre [el orgullo::duma].",
+        "pl_translation": "Rozmawialiśmy o duma."
+      },
+      {
+        "es_form": "[El orgullo::duma] cambio mi vida.",
+        "pl_translation": "Duma zmienił/a moje życie."
+      },
+      {
+        "es_form": "[El orgullo::duma] es la clave del éxito.",
+        "pl_translation": "Duma jest kluczem do sukcesu."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El celos",
+    "pl_word": "zazdrość",
+    "examples": [
+      {
+        "es_form": "[El celos::zazdrość] es muy importante.",
+        "pl_translation": "Zazdrość jest bardzo ważny/a."
+      },
+      {
+        "es_form": "Hablamos sobre [el celos::zazdrość].",
+        "pl_translation": "Rozmawialiśmy o zazdrość."
+      },
+      {
+        "es_form": "No entiendo [el celos::zazdrość].",
+        "pl_translation": "Nie rozumiem zazdrość."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "feliz",
+    "pl_word": "szczęśliwy",
+    "examples": [
+      {
+        "es_form": "La comida está [feliz::szczęśliwy].",
+        "pl_translation": "Jedzenie jest szczęśliwy."
+      },
+      {
+        "es_form": "Hace un día [feliz::szczęśliwy].",
+        "pl_translation": "Jest szczęśliwy dzień."
+      },
+      {
+        "es_form": "Este coche es [feliz::szczęśliwy].",
+        "pl_translation": "Ten samochód jest szczęśliwy."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "triste",
+    "pl_word": "smutny",
+    "examples": [
+      {
+        "es_form": "Es una persona muy [triste::smutny].",
+        "pl_translation": "To jest bardzo smutny osoba."
+      },
+      {
+        "es_form": "Es un lugar [triste::smutny] para vivir.",
+        "pl_translation": "To jest smutny miejsce do życia."
+      },
+      {
+        "es_form": "Se compro un vestido [triste::smutny].",
+        "pl_translation": "Kupiła sobie smutny sukienkę."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "preocuparse",
+    "pl_word": "martwić się",
+    "examples": [
+      {
+        "es_form": "Es importante [preocuparse::martwić się] todos los días.",
+        "pl_translation": "Ważne jest martwić się codziennie."
+      },
+      {
+        "es_form": "¿Puedes [preocuparse::martwić się] más rápido?",
+        "pl_translation": "Możesz martwić się szybciej?"
+      },
+      {
+        "es_form": "No puedo [preocuparse::martwić się] sin tu ayuda.",
+        "pl_translation": "Nie mogę martwić się bez twojej pomocy."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "me preocupo",
+        "pl_word": "martwić się (1.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[me preocupo::martwić się (1.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy martwić się (1.os.lp, ter.) w weekendy?"
+          },
+          {
+            "es_form": "Siempre [me preocupo::martwić się (1.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze martwić się (1.os.lp, ter.) z uwagą."
+          },
+          {
+            "es_form": "[me preocupo::martwić się (1.os.lp, ter.)] todos los días.",
+            "pl_translation": "Martwić się (1.os.lp, ter.) codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "te preocupas",
+        "pl_word": "martwić się (2.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[te preocupas::martwić się (2.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Martwić się (2.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Siempre [te preocupas::martwić się (2.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze martwić się (2.os.lp, ter.) z uwagą."
+          },
+          {
+            "es_form": "¿[te preocupas::martwić się (2.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy martwić się (2.os.lp, ter.) w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "se preocupa",
+        "pl_word": "martwić się (3.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[se preocupa::martwić się (3.os.lp, ter.)] todos los días.",
+            "pl_translation": "Martwić się (3.os.lp, ter.) codziennie."
+          },
+          {
+            "es_form": "Normalmente [se preocupa::martwić się (3.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj martwić się (3.os.lp, ter.) rano."
+          },
+          {
+            "es_form": "Siempre [se preocupa::martwić się (3.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze martwić się (3.os.lp, ter.) z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "nos preocupamos",
+        "pl_word": "martwić się (1.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[nos preocupamos::martwić się (1.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy martwić się (1.os.lm, ter.) w weekendy?"
+          },
+          {
+            "es_form": "Siempre [nos preocupamos::martwić się (1.os.lm, ter.)] con atencion.",
+            "pl_translation": "Zawsze martwić się (1.os.lm, ter.) z uwagą."
+          },
+          {
+            "es_form": "No [nos preocupamos::martwić się (1.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie martwić się (1.os.lm, ter.) zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "os preocupáis",
+        "pl_word": "martwić się (2.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [os preocupáis::martwić się (2.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj martwić się (2.os.lm, ter.) rano."
+          },
+          {
+            "es_form": "[os preocupáis::martwić się (2.os.lm, ter.)] todos los días.",
+            "pl_translation": "Martwić się (2.os.lm, ter.) codziennie."
+          },
+          {
+            "es_form": "No [os preocupáis::martwić się (2.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie martwić się (2.os.lm, ter.) zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "se preocupan",
+        "pl_word": "martwić się (3.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[se preocupan::martwić się (3.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Martwić się (3.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [se preocupan::martwić się (3.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj martwić się (3.os.lm, ter.) rano."
+          },
+          {
+            "es_form": "No [se preocupan::martwić się (3.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie martwić się (3.os.lm, ter.) zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "me preocupé",
+        "pl_word": "martwić się (1.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [me preocupé::martwić się (1.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj martwić się (1.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "¿[me preocupé::martwić się (1.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy martwić się (1.os.lp, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "[me preocupé::martwić się (1.os.lp, przesz.)] la semana pasada.",
+            "pl_translation": "Martwić się (1.os.lp, przesz.) w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "te preocupaste",
+        "pl_word": "martwić się (2.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [te preocupaste::martwić się (2.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie martwić się (2.os.lp, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "[te preocupaste::martwić się (2.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Martwić się (2.os.lp, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "¿[te preocupaste::martwić się (2.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy martwić się (2.os.lp, przesz.) dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "se preocupó",
+        "pl_word": "martwić się (3.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[se preocupó::martwić się (3.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Martwić się (3.os.lp, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "El mes pasado no [se preocupó::martwić się (3.os.lp, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie martwić się (3.os.lp, przesz.)."
+          },
+          {
+            "es_form": "[se preocupó::martwić się (3.os.lp, przesz.)] la semana pasada.",
+            "pl_translation": "Martwić się (3.os.lp, przesz.) w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "nos preocupamos",
+        "pl_word": "martwić się (1.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [nos preocupamos::martwić się (1.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie martwić się (1.os.lm, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "[nos preocupamos::martwić się (1.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Martwić się (1.os.lm, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Ayer [nos preocupamos::martwić się (1.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj martwić się (1.os.lm, przesz.) cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "os preocupasteis",
+        "pl_word": "martwić się (2.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[os preocupasteis::martwić się (2.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy martwić się (2.os.lm, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "[os preocupasteis::martwić się (2.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Martwić się (2.os.lm, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "[os preocupasteis::martwić się (2.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Martwić się (2.os.lm, przesz.) w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "se preocuparon",
+        "pl_word": "martwić się (3.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [se preocuparon::martwić się (3.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj martwić się (3.os.lm, przesz.) cały dzień."
+          },
+          {
+            "es_form": "Nunca [se preocuparon::martwić się (3.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie martwić się (3.os.lm, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "¿[se preocuparon::martwić się (3.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy martwić się (3.os.lm, przesz.) dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "me preocupé",
+        "pl_word": "martwić się (1.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [me preocupé::martwić się (1.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro martwić się (1.os.lp, przysz.) wcześniej."
+          },
+          {
+            "es_form": "Creo que [me preocupé::martwić się (1.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że martwić się (1.os.lp, przysz.) dobrze."
+          },
+          {
+            "es_form": "El año que viene [me preocupé::martwić się (1.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku martwić się (1.os.lp, przysz.) w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "te preocupás",
+        "pl_word": "martwić się (2.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [te preocupás::martwić się (2.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że martwić się (2.os.lp, przysz.) na czas."
+          },
+          {
+            "es_form": "Creo que [te preocupás::martwić się (2.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że martwić się (2.os.lp, przysz.) dobrze."
+          },
+          {
+            "es_form": "[te preocupás::martwić się (2.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Martwić się (2.os.lp, przysz.) w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "se preocupá",
+        "pl_word": "martwić się (3.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[se preocupá::martwić się (3.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Martwić się (3.os.lp, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "¿[se preocupá::martwić się (3.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy martwić się (3.os.lp, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "El año que viene [se preocupá::martwić się (3.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku martwić się (3.os.lp, przysz.) w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "nos preocupemos",
+        "pl_word": "martwić się (1.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [nos preocupemos::martwić się (1.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku martwić się (1.os.lm, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Creo que [nos preocupemos::martwić się (1.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że martwić się (1.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "[nos preocupemos::martwić się (1.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Martwić się (1.os.lm, przysz.) w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "os preocupéis",
+        "pl_word": "martwić się (2.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [os preocupéis::martwić się (2.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że martwić się (2.os.lm, przysz.) na czas."
+          },
+          {
+            "es_form": "El año que viene [os preocupéis::martwić się (2.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku martwić się (2.os.lm, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Creo que [os preocupéis::martwić się (2.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że martwić się (2.os.lm, przysz.) dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "se preocupán",
+        "pl_word": "martwić się (3.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [se preocupán::martwić się (3.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że martwić się (3.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "Mañana [se preocupán::martwić się (3.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro martwić się (3.os.lm, przysz.) wcześniej."
+          },
+          {
+            "es_form": "El año que viene [se preocupán::martwić się (3.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku martwić się (3.os.lm, przysz.) w Hiszpanii."
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "El corazón",
+    "pl_word": "serce",
+    "examples": [
+      {
+        "es_form": "Me gusta mucho [el corazón::serce].",
+        "pl_translation": "Bardzo lubię serce."
+      },
+      {
+        "es_form": "[El corazón::serce] es típico de España.",
+        "pl_translation": "Serce jest typowy/a dla Hiszpanii."
+      },
+      {
+        "es_form": "¿Quieres [el corazón::serce]?",
+        "pl_translation": "Chcesz serce?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El cerebro",
+    "pl_word": "mózg",
+    "examples": [
+      {
+        "es_form": "[El cerebro::mózg] es una parte importante del cuerpo.",
+        "pl_translation": "Mózg jest ważną częścią ciała."
+      },
+      {
+        "es_form": "El médico me reviso [el cerebro::mózg].",
+        "pl_translation": "Lekarz zbadał mi mózg."
+      },
+      {
+        "es_form": "Tienes [el cerebro::mózg] muy fuerte.",
+        "pl_translation": "Masz bardzo silny/a mózg."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El estómago",
+    "pl_word": "żołądek",
+    "examples": [
+      {
+        "es_form": "Me duele [el estómago::żołądek].",
+        "pl_translation": "Boli mnie żołądek."
+      },
+      {
+        "es_form": "El médico me reviso [el estómago::żołądek].",
+        "pl_translation": "Lekarz zbadał mi żołądek."
+      },
+      {
+        "es_form": "Tienes [el estómago::żołądek] muy fuerte.",
+        "pl_translation": "Masz bardzo silny/a żołądek."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La espalda",
+    "pl_word": "plecy",
+    "examples": [
+      {
+        "es_form": "[La espalda::plecy] es una parte importante del cuerpo.",
+        "pl_translation": "Plecy jest ważną częścią ciała."
+      },
+      {
+        "es_form": "Tienes [la espalda::plecy] muy fuerte.",
+        "pl_translation": "Masz bardzo silny/a plecy."
+      },
+      {
+        "es_form": "Me duele [la espalda::plecy].",
+        "pl_translation": "Boli mnie plecy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El cuello",
+    "pl_word": "szyja",
+    "examples": [
+      {
+        "es_form": "Me duele [el cuello::szyja].",
+        "pl_translation": "Boli mnie szyja."
+      },
+      {
+        "es_form": "[El cuello::szyja] es una parte importante del cuerpo.",
+        "pl_translation": "Szyja jest ważną częścią ciała."
+      },
+      {
+        "es_form": "El médico me reviso [el cuello::szyja].",
+        "pl_translation": "Lekarz zbadał mi szyja."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El dedo",
+    "pl_word": "palec",
+    "examples": [
+      {
+        "es_form": "Me duele [el dedo::palec].",
+        "pl_translation": "Boli mnie palec."
+      },
+      {
+        "es_form": "El médico me reviso [el dedo::palec].",
+        "pl_translation": "Lekarz zbadał mi palec."
+      },
+      {
+        "es_form": "[El dedo::palec] es una parte importante del cuerpo.",
+        "pl_translation": "Palec jest ważną częścią ciała."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La rodilla",
+    "pl_word": "kolano",
+    "examples": [
+      {
+        "es_form": "El médico me reviso [la rodilla::kolano].",
+        "pl_translation": "Lekarz zbadał mi kolano."
+      },
+      {
+        "es_form": "[La rodilla::kolano] es una parte importante del cuerpo.",
+        "pl_translation": "Kolano jest ważną częścią ciała."
+      },
+      {
+        "es_form": "Tienes [la rodilla::kolano] muy fuerte.",
+        "pl_translation": "Masz bardzo silny/a kolano."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El pie",
+    "pl_word": "stopa",
+    "examples": [
+      {
+        "es_form": "Tienes [el pie::stopa] muy fuerte.",
+        "pl_translation": "Masz bardzo silny/a stopa."
+      },
+      {
+        "es_form": "Me duele [el pie::stopa].",
+        "pl_translation": "Boli mnie stopa."
+      },
+      {
+        "es_form": "El médico me reviso [el pie::stopa].",
+        "pl_translation": "Lekarz zbadał mi stopa."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La barriga",
+    "pl_word": "brzuch",
+    "examples": [
+      {
+        "es_form": "El médico me reviso [la barriga::brzuch].",
+        "pl_translation": "Lekarz zbadał mi brzuch."
+      },
+      {
+        "es_form": "Me duele [la barriga::brzuch].",
+        "pl_translation": "Boli mnie brzuch."
+      },
+      {
+        "es_form": "Tienes [la barriga::brzuch] muy fuerte.",
+        "pl_translation": "Masz bardzo silny/a brzuch."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El hueso",
+    "pl_word": "kość",
+    "examples": [
+      {
+        "es_form": "[El hueso::kość] es una parte importante del cuerpo.",
+        "pl_translation": "Kość jest ważną częścią ciała."
+      },
+      {
+        "es_form": "Tienes [el hueso::kość] muy fuerte.",
+        "pl_translation": "Masz bardzo silny/a kość."
+      },
+      {
+        "es_form": "Me duele [el hueso::kość].",
+        "pl_translation": "Boli mnie kość."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "alto",
+    "pl_word": "wysoki",
+    "examples": [
+      {
+        "es_form": "Mi amigo es [alto::wysoki] y simpático.",
+        "pl_translation": "Mój przyjaciel jest wysoki i sympatyczny."
+      },
+      {
+        "es_form": "Hace un día [alto::wysoki].",
+        "pl_translation": "Jest wysoki dzień."
+      },
+      {
+        "es_form": "Es una persona muy [alto::wysoki].",
+        "pl_translation": "To jest bardzo wysoki osoba."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "bajo",
+    "pl_word": "niski",
+    "examples": [
+      {
+        "es_form": "Nada es más [bajo::niski] que la familia.",
+        "pl_translation": "Nic nie jest niski od rodziny."
+      },
+      {
+        "es_form": "Hace un día [bajo::niski].",
+        "pl_translation": "Jest niski dzień."
+      },
+      {
+        "es_form": "El examen fue [bajo::niski].",
+        "pl_translation": "Egzamin był niski."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "oír",
+    "pl_word": "słyszeć",
+    "examples": [
+      {
+        "es_form": "Es importante [oír::słyszeć] todos los días.",
+        "pl_translation": "Ważne jest słyszeć codziennie."
+      },
+      {
+        "es_form": "Prefiero [oír::słyszeć] en casa.",
+        "pl_translation": "Wolę słyszeć w domu."
+      },
+      {
+        "es_form": "¿Puedes [oír::słyszeć] más rápido?",
+        "pl_translation": "Możesz słyszeć szybciej?"
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "oigo",
+        "pl_word": "oir (1.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[oigo::oir (1.os.lp, ter.)] todos los días.",
+            "pl_translation": "Oir (1.os.lp, ter.) codziennie."
+          },
+          {
+            "es_form": "[oigo::oir (1.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Oir (1.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "¿[oigo::oir (1.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy oir (1.os.lp, ter.) w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "oyes",
+        "pl_word": "oir (2.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[oyes::oir (2.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Oir (2.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Siempre [oyes::oir (2.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze oir (2.os.lp, ter.) z uwagą."
+          },
+          {
+            "es_form": "¿[oyes::oir (2.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy oir (2.os.lp, ter.) w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "oye",
+        "pl_word": "oir (3.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[oye::oir (3.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Oir (3.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "No [oye::oir (3.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie oir (3.os.lp, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "[oye::oir (3.os.lp, ter.)] todos los días.",
+            "pl_translation": "Oir (3.os.lp, ter.) codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "oímos",
+        "pl_word": "oir (1.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[oímos::oir (1.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy oir (1.os.lm, ter.) w weekendy?"
+          },
+          {
+            "es_form": "[oímos::oir (1.os.lm, ter.)] todos los días.",
+            "pl_translation": "Oir (1.os.lm, ter.) codziennie."
+          },
+          {
+            "es_form": "Normalmente [oímos::oir (1.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj oir (1.os.lm, ter.) rano."
+          }
+        ]
+      },
+      {
+        "es_word": "oís",
+        "pl_word": "oir (2.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[oís::oir (2.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy oir (2.os.lm, ter.) w weekendy?"
+          },
+          {
+            "es_form": "Siempre [oís::oir (2.os.lm, ter.)] con atencion.",
+            "pl_translation": "Zawsze oir (2.os.lm, ter.) z uwagą."
+          },
+          {
+            "es_form": "[oís::oir (2.os.lm, ter.)] todos los días.",
+            "pl_translation": "Oir (2.os.lm, ter.) codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "oyen",
+        "pl_word": "oir (3.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [oyen::oir (3.os.lm, ter.)] con atencion.",
+            "pl_translation": "Zawsze oir (3.os.lm, ter.) z uwagą."
+          },
+          {
+            "es_form": "[oyen::oir (3.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Oir (3.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "¿[oyen::oir (3.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy oir (3.os.lm, ter.) w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "oí",
+        "pl_word": "oir (1.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [oí::oir (1.os.lp, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie oir (1.os.lp, przesz.)."
+          },
+          {
+            "es_form": "[oí::oir (1.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Oir (1.os.lp, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [oí::oir (1.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie oir (1.os.lp, przesz.) czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "oíste",
+        "pl_word": "oir (2.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [oíste::oir (2.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj oir (2.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "[oíste::oir (2.os.lp, przesz.)] la semana pasada.",
+            "pl_translation": "Oir (2.os.lp, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "¿[oíste::oir (2.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy oir (2.os.lp, przesz.) dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "oyó",
+        "pl_word": "oir (3.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [oyó::oir (3.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj oir (3.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "El mes pasado no [oyó::oir (3.os.lp, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie oir (3.os.lp, przesz.)."
+          },
+          {
+            "es_form": "Nunca [oyó::oir (3.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie oir (3.os.lp, przesz.) czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "oímos",
+        "pl_word": "oir (1.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[oímos::oir (1.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Oir (1.os.lm, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Nunca [oímos::oir (1.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie oir (1.os.lm, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "El mes pasado no [oímos::oir (1.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie oir (1.os.lm, przesz.)."
+          }
+        ]
+      },
+      {
+        "es_word": "oísteis",
+        "pl_word": "oir (2.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[oísteis::oir (2.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Oir (2.os.lm, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Nunca [oísteis::oir (2.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie oir (2.os.lm, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "¿[oísteis::oir (2.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy oir (2.os.lm, przesz.) dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "oyeron",
+        "pl_word": "oir (3.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[oyeron::oir (3.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy oir (3.os.lm, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "[oyeron::oir (3.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Oir (3.os.lm, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "[oyeron::oir (3.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Oir (3.os.lm, przesz.) bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "oiré",
+        "pl_word": "oir (1.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [oiré::oir (1.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że oir (1.os.lp, przysz.) na czas."
+          },
+          {
+            "es_form": "El año que viene [oiré::oir (1.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku oir (1.os.lp, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Creo que [oiré::oir (1.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że oir (1.os.lp, przysz.) dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "oirás",
+        "pl_word": "oir (2.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [oirás::oir (2.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że oir (2.os.lp, przysz.) dobrze."
+          },
+          {
+            "es_form": "Mañana [oirás::oir (2.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro oir (2.os.lp, przysz.) wcześniej."
+          },
+          {
+            "es_form": "Te prometo que [oirás::oir (2.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że oir (2.os.lp, przysz.) na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "oirá",
+        "pl_word": "oir (3.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [oirá::oir (3.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro oir (3.os.lp, przysz.) wcześniej."
+          },
+          {
+            "es_form": "Creo que [oirá::oir (3.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że oir (3.os.lp, przysz.) dobrze."
+          },
+          {
+            "es_form": "¿[oirá::oir (3.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy oir (3.os.lp, przysz.) z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "oiremos",
+        "pl_word": "oir (1.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [oiremos::oir (1.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że oir (1.os.lm, przysz.) na czas."
+          },
+          {
+            "es_form": "El año que viene [oiremos::oir (1.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku oir (1.os.lm, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Creo que [oiremos::oir (1.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że oir (1.os.lm, przysz.) dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "oiréis",
+        "pl_word": "oir (2.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [oiréis::oir (2.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że oir (2.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "El año que viene [oiréis::oir (2.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku oir (2.os.lm, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "¿[oiréis::oir (2.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy oir (2.os.lm, przysz.) z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "oirán",
+        "pl_word": "oir (3.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [oirán::oir (3.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro oir (3.os.lm, przysz.) wcześniej."
+          },
+          {
+            "es_form": "Te prometo que [oirán::oir (3.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że oir (3.os.lm, przysz.) na czas."
+          },
+          {
+            "es_form": "Creo que [oirán::oir (3.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że oir (3.os.lm, przysz.) dobrze."
+          }
+        ]
+      }
+    ]
+  }
+]

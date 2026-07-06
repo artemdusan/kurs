@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "La madre",
+    "pl_word": "mama, matka",
+    "examples": [
+      {
+        "es_form": "Guarda [la madre::mama, matka] en el armario.",
+        "pl_translation": "Schowaj mama, matka do szafy."
+      },
+      {
+        "es_form": "[La madre::mama, matka] es de madera.",
+        "pl_translation": "Mama, matka jest z drewna."
+      },
+      {
+        "es_form": "Se me rompio [la madre::mama, matka].",
+        "pl_translation": "Zepsuł mi się mama, matka."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El padre",
+    "pl_word": "tata, ojciec",
+    "examples": [
+      {
+        "es_form": "Guarda [el padre::tata, ojciec] en el armario.",
+        "pl_translation": "Schowaj tata, ojciec do szafy."
+      },
+      {
+        "es_form": "¿Has visto [el padre::tata, ojciec]?",
+        "pl_translation": "Widziałeś/aś tata, ojciec?"
+      },
+      {
+        "es_form": "Compré [el padre::tata, ojciec] ayer.",
+        "pl_translation": "Kupiłem/am tata, ojciec wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El hermano",
+    "pl_word": "brat",
+    "examples": [
+      {
+        "es_form": "Necesito [el hermano::brat] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową brat."
+      },
+      {
+        "es_form": "[El hermano::brat] es de madera.",
+        "pl_translation": "Brat jest z drewna."
+      },
+      {
+        "es_form": "Guarda [el hermano::brat] en el armario.",
+        "pl_translation": "Schowaj brat do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La hermana",
+    "pl_word": "siostra",
+    "examples": [
+      {
+        "es_form": "¿Has visto [la hermana::siostra]?",
+        "pl_translation": "Widziałeś/aś siostra?"
+      },
+      {
+        "es_form": "[La hermana::siostra] está sobre la mesa.",
+        "pl_translation": "Siostra jest na stole."
+      },
+      {
+        "es_form": "Guarda [la hermana::siostra] en el armario.",
+        "pl_translation": "Schowaj siostra do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El hijo",
+    "pl_word": "syn",
+    "examples": [
+      {
+        "es_form": "Necesito [el hijo::syn] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową syn."
+      },
+      {
+        "es_form": "[El hijo::syn] es de madera.",
+        "pl_translation": "Syn jest z drewna."
+      },
+      {
+        "es_form": "Guarda [el hijo::syn] en el armario.",
+        "pl_translation": "Schowaj syn do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La hija",
+    "pl_word": "córka",
+    "examples": [
+      {
+        "es_form": "[La hija::córka] es de madera.",
+        "pl_translation": "Córka jest z drewna."
+      },
+      {
+        "es_form": "[La hija::córka] está sobre la mesa.",
+        "pl_translation": "Córka jest na stole."
+      },
+      {
+        "es_form": "Se me rompio [la hija::córka].",
+        "pl_translation": "Zepsuł mi się córka."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La abuela",
+    "pl_word": "babcia",
+    "examples": [
+      {
+        "es_form": "Se me rompio [la abuela::babcia].",
+        "pl_translation": "Zepsuł mi się babcia."
+      },
+      {
+        "es_form": "Guarda [la abuela::babcia] en el armario.",
+        "pl_translation": "Schowaj babcia do szafy."
+      },
+      {
+        "es_form": "Necesito [la abuela::babcia] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową babcia."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El abuelo",
+    "pl_word": "dziadek",
+    "examples": [
+      {
+        "es_form": "[El abuelo::dziadek] cuesta diez euros.",
+        "pl_translation": "Dziadek kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "¿Has visto [el abuelo::dziadek]?",
+        "pl_translation": "Widziałeś/aś dziadek?"
+      },
+      {
+        "es_form": "Compré [el abuelo::dziadek] ayer.",
+        "pl_translation": "Kupiłem/am dziadek wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El marido",
+    "pl_word": "mąż",
+    "examples": [
+      {
+        "es_form": "[El marido::mąż] cuesta diez euros.",
+        "pl_translation": "Mąż kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Necesito [el marido::mąż] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową mąż."
+      },
+      {
+        "es_form": "Guarda [el marido::mąż] en el armario.",
+        "pl_translation": "Schowaj mąż do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La mujer",
+    "pl_word": "żona",
+    "examples": [
+      {
+        "es_form": "Guarda [la mujer::żona] en el armario.",
+        "pl_translation": "Schowaj żona do szafy."
+      },
+      {
+        "es_form": "Necesito [la mujer::żona] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową żona."
+      },
+      {
+        "es_form": "Se me rompio [la mujer::żona].",
+        "pl_translation": "Zepsuł mi się żona."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "viejo",
+    "pl_word": "stary",
+    "examples": [
+      {
+        "es_form": "Es un lugar [viejo::stary] para vivir.",
+        "pl_translation": "To jest stary miejsce do życia."
+      },
+      {
+        "es_form": "Mi amigo es [viejo::stary] y simpático.",
+        "pl_translation": "Mój przyjaciel jest stary i sympatyczny."
+      },
+      {
+        "es_form": "Tengo una casa [vieja::stary].",
+        "pl_translation": "Mam stary dom."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "joven",
+    "pl_word": "młody",
+    "examples": [
+      {
+        "es_form": "Se compro un vestido [joven::młody].",
+        "pl_translation": "Kupiła sobie młody sukienkę."
+      },
+      {
+        "es_form": "Es un lugar [joven::młody] para vivir.",
+        "pl_translation": "To jest młody miejsce do życia."
+      },
+      {
+        "es_form": "Es una persona muy [joven::młody].",
+        "pl_translation": "To jest bardzo młody osoba."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "querer",
+    "pl_word": "kochać, chcieć",
+    "examples": [
+      {
+        "es_form": "Me gusta [querer::kochać, chcieć] por la mañana.",
+        "pl_translation": "Lubię kochać, chcieć rano."
+      },
+      {
+        "es_form": "Quiero [querer::kochać, chcieć] ahora.",
+        "pl_translation": "Chcę kochać, chcieć teraz."
+      },
+      {
+        "es_form": "Voy a [querer::kochać, chcieć] mañana.",
+        "pl_translation": "Będę kochać, chcieć jutro."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "quiero",
+        "pl_word": "chcę",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [quiero::chcę] con atencion.",
+            "pl_translation": "Zawsze chcę z uwagą."
+          },
+          {
+            "es_form": "[quiero::chcę] como me enseñaste.",
+            "pl_translation": "Chcę tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [quiero::chcę] por la mañana.",
+            "pl_translation": "Zazwyczaj chcę rano."
+          }
+        ]
+      },
+      {
+        "es_word": "quieres",
+        "pl_word": "chcęsz",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[quieres::chcęsz] todos los días.",
+            "pl_translation": "Chcęsz codziennie."
+          },
+          {
+            "es_form": "¿[quieres::chcęsz] los fines de semana?",
+            "pl_translation": "Czy chcęsz w weekendy?"
+          },
+          {
+            "es_form": "[quieres::chcęsz] como me enseñaste.",
+            "pl_translation": "Chcęsz tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "quiere",
+        "pl_word": "chcę",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "No [quiere::chcę] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie chcę zbyt dobrze."
+          },
+          {
+            "es_form": "Normalmente [quiere::chcę] por la mañana.",
+            "pl_translation": "Zazwyczaj chcę rano."
+          },
+          {
+            "es_form": "[quiere::chcę] todos los días.",
+            "pl_translation": "Chcę codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "queremos",
+        "pl_word": "chcęmy",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[queremos::chcęmy] como me enseñaste.",
+            "pl_translation": "Chcęmy tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [queremos::chcęmy] por la mañana.",
+            "pl_translation": "Zazwyczaj chcęmy rano."
+          },
+          {
+            "es_form": "¿[queremos::chcęmy] los fines de semana?",
+            "pl_translation": "Czy chcęmy w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "queréis",
+        "pl_word": "chcęcie",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[queréis::chcęcie] todos los días.",
+            "pl_translation": "Chcęcie codziennie."
+          },
+          {
+            "es_form": "No [queréis::chcęcie] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie chcęcie zbyt dobrze."
+          },
+          {
+            "es_form": "Siempre [queréis::chcęcie] con atencion.",
+            "pl_translation": "Zawsze chcęcie z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "quieren",
+        "pl_word": "chcą",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[quieren::chcą] todos los días.",
+            "pl_translation": "Chcą codziennie."
+          },
+          {
+            "es_form": "Siempre [quieren::chcą] con atencion.",
+            "pl_translation": "Zawsze chcą z uwagą."
+          },
+          {
+            "es_form": "[quieren::chcą] como me enseñaste.",
+            "pl_translation": "Chcą tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "quise",
+        "pl_word": "chcialem/chcialam",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [quise::chcialem/chcialam] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie chcialem/chcialam."
+          },
+          {
+            "es_form": "[quise::chcialem/chcialam] sin parar durante horas.",
+            "pl_translation": "Chcialem/chcialam bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Ayer [quise::chcialem/chcialam] todo el día.",
+            "pl_translation": "Wczoraj chcialem/chcialam cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "quisiste",
+        "pl_word": "chciales/chcialas",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [quisiste::chciales/chcialas] todo el día.",
+            "pl_translation": "Wczoraj chciales/chcialas cały dzień."
+          },
+          {
+            "es_form": "[quisiste::chciales/chcialas] la semana pasada.",
+            "pl_translation": "Chciales/chcialas w zeszłym tygodniu."
+          },
+          {
+            "es_form": "[quisiste::chciales/chcialas] sin parar durante horas.",
+            "pl_translation": "Chciales/chcialas bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "quiso",
+        "pl_word": "chcial/chciala/chcialo",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [quiso::chcial/chciala/chcialo] todo el día.",
+            "pl_translation": "Wczoraj chcial/chciala/chcialo cały dzień."
+          },
+          {
+            "es_form": "Nunca [quiso::chcial/chciala/chcialo] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie chcial/chciala/chcialo czegoś takiego."
+          },
+          {
+            "es_form": "El mes pasado no [quiso::chcial/chciala/chcialo] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie chcial/chciala/chcialo."
+          }
+        ]
+      },
+      {
+        "es_word": "quisimos",
+        "pl_word": "chcielismy/chcialysmy",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[quisimos::chcielismy/chcialysmy] bien el examen?",
+            "pl_translation": "Czy chcielismy/chcialysmy dobrze egzamin?"
+          },
+          {
+            "es_form": "Nunca [quisimos::chcielismy/chcialysmy] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie chcielismy/chcialysmy czegoś takiego."
+          },
+          {
+            "es_form": "[quisimos::chcielismy/chcialysmy] sin parar durante horas.",
+            "pl_translation": "Chcielismy/chcialysmy bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "quisisteis",
+        "pl_word": "chcieliscie/chcialyscie",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[quisisteis::chcieliscie/chcialyscie] bien el examen?",
+            "pl_translation": "Czy chcieliscie/chcialyscie dobrze egzamin?"
+          },
+          {
+            "es_form": "El mes pasado no [quisisteis::chcieliscie/chcialyscie] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie chcieliscie/chcialyscie."
+          },
+          {
+            "es_form": "[quisisteis::chcieliscie/chcialyscie] la semana pasada.",
+            "pl_translation": "Chcieliscie/chcialyscie w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "quisieron",
+        "pl_word": "chcieli/chcialy",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[quisieron::chcieli/chcialy] sin parar durante horas.",
+            "pl_translation": "Chcieli/chcialy bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Ayer [quisieron::chcieli/chcialy] todo el día.",
+            "pl_translation": "Wczoraj chcieli/chcialy cały dzień."
+          },
+          {
+            "es_form": "El mes pasado no [quisieron::chcieli/chcialy] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie chcieli/chcialy."
+          }
+        ]
+      },
+      {
+        "es_word": "querré",
+        "pl_word": "będę chciec",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [querré::będę chciec] bien.",
+            "pl_translation": "Myślę, że będę chciec dobrze."
+          },
+          {
+            "es_form": "Mañana [querré::będę chciec] más temprano.",
+            "pl_translation": "Jutro będę chciec wcześniej."
+          },
+          {
+            "es_form": "El año que viene [querré::będę chciec] en España.",
+            "pl_translation": "W przyszłym roku będę chciec w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "querrás",
+        "pl_word": "będziesz chciec",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [querrás::będziesz chciec] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziesz chciec na czas."
+          },
+          {
+            "es_form": "¿[querrás::będziesz chciec] con nosotros mañana?",
+            "pl_translation": "Czy będziesz chciec z nami jutro?"
+          },
+          {
+            "es_form": "Creo que [querrás::będziesz chciec] bien.",
+            "pl_translation": "Myślę, że będziesz chciec dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "querrá",
+        "pl_word": "będzie chciec",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[querrá::będzie chciec] con nosotros mañana?",
+            "pl_translation": "Czy będzie chciec z nami jutro?"
+          },
+          {
+            "es_form": "Te prometo que [querrá::będzie chciec] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będzie chciec na czas."
+          },
+          {
+            "es_form": "El año que viene [querrá::będzie chciec] en España.",
+            "pl_translation": "W przyszłym roku będzie chciec w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "querremos",
+        "pl_word": "będziemy chciec",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [querremos::będziemy chciec] más temprano.",
+            "pl_translation": "Jutro będziemy chciec wcześniej."
+          },
+          {
+            "es_form": "[querremos::będziemy chciec] la proxima semana.",
+            "pl_translation": "Będziemy chciec w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Creo que [querremos::będziemy chciec] bien.",
+            "pl_translation": "Myślę, że będziemy chciec dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "querréis",
+        "pl_word": "będziecie chciec",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[querréis::będziecie chciec] con nosotros mañana?",
+            "pl_translation": "Czy będziecie chciec z nami jutro?"
+          },
+          {
+            "es_form": "Mañana [querréis::będziecie chciec] más temprano.",
+            "pl_translation": "Jutro będziecie chciec wcześniej."
+          },
+          {
+            "es_form": "[querréis::będziecie chciec] la proxima semana.",
+            "pl_translation": "Będziecie chciec w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "querrán",
+        "pl_word": "będą chciec",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [querrán::będą chciec] en España.",
+            "pl_translation": "W przyszłym roku będą chciec w Hiszpanii."
+          },
+          {
+            "es_form": "[querrán::będą chciec] la proxima semana.",
+            "pl_translation": "Będą chciec w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Mañana [querrán::będą chciec] más temprano.",
+            "pl_translation": "Jutro będą chciec wcześniej."
+          }
+        ]
+      }
+    ]
+  }
+]

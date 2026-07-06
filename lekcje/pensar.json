@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "El carácter",
+    "pl_word": "charakter",
+    "examples": [
+      {
+        "es_form": "No entiendo [el carácter::charakter].",
+        "pl_translation": "Nie rozumiem charakter."
+      },
+      {
+        "es_form": "Hablamos sobre [el carácter::charakter].",
+        "pl_translation": "Rozmawialiśmy o charakter."
+      },
+      {
+        "es_form": "[El carácter::charakter] es muy importante.",
+        "pl_translation": "Charakter jest bardzo ważny/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La personalidad",
+    "pl_word": "osobowość",
+    "examples": [
+      {
+        "es_form": "[La personalidad::osobowość] es muy importante.",
+        "pl_translation": "Osobowość jest bardzo ważny/a."
+      },
+      {
+        "es_form": "No entiendo [la personalidad::osobowość].",
+        "pl_translation": "Nie rozumiem osobowość."
+      },
+      {
+        "es_form": "Tienes que aceptar [la personalidad::osobowość].",
+        "pl_translation": "Musisz zaakceptować osobowość."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El rasgo",
+    "pl_word": "cecha",
+    "examples": [
+      {
+        "es_form": "[El rasgo::cecha] es la clave del éxito.",
+        "pl_translation": "Cecha jest kluczem do sukcesu."
+      },
+      {
+        "es_form": "No entiendo [el rasgo::cecha].",
+        "pl_translation": "Nie rozumiem cecha."
+      },
+      {
+        "es_form": "[El rasgo::cecha] es muy importante.",
+        "pl_translation": "Cecha jest bardzo ważny/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La virtud",
+    "pl_word": "zaleta",
+    "examples": [
+      {
+        "es_form": "Tienes que aceptar [la virtud::zaleta].",
+        "pl_translation": "Musisz zaakceptować zaleta."
+      },
+      {
+        "es_form": "Hablamos sobre [la virtud::zaleta].",
+        "pl_translation": "Rozmawialiśmy o zaleta."
+      },
+      {
+        "es_form": "[La virtud::zaleta] es muy importante.",
+        "pl_translation": "Zaleta jest bardzo ważny/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El defecto",
+    "pl_word": "wada",
+    "examples": [
+      {
+        "es_form": "Hablamos sobre [el defecto::wada].",
+        "pl_translation": "Rozmawialiśmy o wada."
+      },
+      {
+        "es_form": "[El defecto::wada] es la clave del éxito.",
+        "pl_translation": "Wada jest kluczem do sukcesu."
+      },
+      {
+        "es_form": "[El defecto::wada] cambio mi vida.",
+        "pl_translation": "Wada zmienił/a moje życie."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El humor",
+    "pl_word": "humor, nastrój",
+    "examples": [
+      {
+        "es_form": "Tienes que aceptar [el humor::humor, nastrój].",
+        "pl_translation": "Musisz zaakceptować humor, nastrój."
+      },
+      {
+        "es_form": "[El humor::humor, nastrój] es muy importante.",
+        "pl_translation": "Humor, nastrój jest bardzo ważny/a."
+      },
+      {
+        "es_form": "Hablamos sobre [el humor::humor, nastrój].",
+        "pl_translation": "Rozmawialiśmy o humor, nastrój."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La valentía",
+    "pl_word": "odwaga",
+    "examples": [
+      {
+        "es_form": "Hablamos sobre [la valentía::odwaga].",
+        "pl_translation": "Rozmawialiśmy o odwaga."
+      },
+      {
+        "es_form": "No entiendo [la valentía::odwaga].",
+        "pl_translation": "Nie rozumiem odwaga."
+      },
+      {
+        "es_form": "[La valentía::odwaga] es la clave del éxito.",
+        "pl_translation": "Odwaga jest kluczem do sukcesu."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La paciencia",
+    "pl_word": "cierpliwość",
+    "examples": [
+      {
+        "es_form": "[La paciencia::cierpliwość] cambio mi vida.",
+        "pl_translation": "Cierpliwość zmienił/a moje życie."
+      },
+      {
+        "es_form": "[La paciencia::cierpliwość] es la clave del éxito.",
+        "pl_translation": "Cierpliwość jest kluczem do sukcesu."
+      },
+      {
+        "es_form": "Hablamos sobre [la paciencia::cierpliwość].",
+        "pl_translation": "Rozmawialiśmy o cierpliwość."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La pereza",
+    "pl_word": "lenistwo",
+    "examples": [
+      {
+        "es_form": "No entiendo [la pereza::lenistwo].",
+        "pl_translation": "Nie rozumiem lenistwo."
+      },
+      {
+        "es_form": "[La pereza::lenistwo] es la clave del éxito.",
+        "pl_translation": "Lenistwo jest kluczem do sukcesu."
+      },
+      {
+        "es_form": "Tienes que aceptar [la pereza::lenistwo].",
+        "pl_translation": "Musisz zaakceptować lenistwo."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El comportamiento",
+    "pl_word": "zachowanie",
+    "examples": [
+      {
+        "es_form": "[El comportamiento::zachowanie] es la clave del éxito.",
+        "pl_translation": "Zachowanie jest kluczem do sukcesu."
+      },
+      {
+        "es_form": "Tienes que aceptar [el comportamiento::zachowanie].",
+        "pl_translation": "Musisz zaakceptować zachowanie."
+      },
+      {
+        "es_form": "Hablamos sobre [el comportamiento::zachowanie].",
+        "pl_translation": "Rozmawialiśmy o zachowanie."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "amable",
+    "pl_word": "miły, uprzejmy",
+    "examples": [
+      {
+        "es_form": "Mi amigo es [amable::miły, uprzejmy] y simpático.",
+        "pl_translation": "Mój przyjaciel jest miły, uprzejmy i sympatyczny."
+      },
+      {
+        "es_form": "Es un lugar [amable::miły, uprzejmy] para vivir.",
+        "pl_translation": "To jest miły, uprzejmy miejsce do życia."
+      },
+      {
+        "es_form": "La comida está [amable::miły, uprzejmy].",
+        "pl_translation": "Jedzenie jest miły, uprzejmy."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "antipático",
+    "pl_word": "niesympatyczny",
+    "examples": [
+      {
+        "es_form": "Tengo una casa [antipática::niesympatyczny].",
+        "pl_translation": "Mam niesympatyczny dom."
+      },
+      {
+        "es_form": "Hace un día [antipático::niesympatyczny].",
+        "pl_translation": "Jest niesympatyczny dzień."
+      },
+      {
+        "es_form": "La comida está [antipática::niesympatyczny].",
+        "pl_translation": "Jedzenie jest niesympatyczny."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "pensar",
+    "pl_word": "myśleć",
+    "examples": [
+      {
+        "es_form": "Voy a [pensar::myśleć] mañana.",
+        "pl_translation": "Będę myśleć jutro."
+      },
+      {
+        "es_form": "Quiero [pensar::myśleć] ahora.",
+        "pl_translation": "Chcę myśleć teraz."
+      },
+      {
+        "es_form": "Hay que [pensar::myśleć] con cuidado.",
+        "pl_translation": "Trzeba myśleć ostrożnie."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "pienso",
+        "pl_word": "myślę",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[pienso::myślę] los fines de semana?",
+            "pl_translation": "Czy myślę w weekendy?"
+          },
+          {
+            "es_form": "Normalmente [pienso::myślę] por la mañana.",
+            "pl_translation": "Zazwyczaj myślę rano."
+          },
+          {
+            "es_form": "[pienso::myślę] todos los días.",
+            "pl_translation": "Myślę codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "piensas",
+        "pl_word": "myślisz",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[piensąs::myślisz] los fines de semana?",
+            "pl_translation": "Czy myślisz w weekendy?"
+          },
+          {
+            "es_form": "Siempre [piensąs::myślisz] con atencion.",
+            "pl_translation": "Zawsze myślisz z uwagą."
+          },
+          {
+            "es_form": "[piensąs::myślisz] todos los días.",
+            "pl_translation": "Myślisz codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "piensa",
+        "pl_word": "myśli",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[piensą::myśli] como me enseñaste.",
+            "pl_translation": "Myśli tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "¿[piensą::myśli] los fines de semana?",
+            "pl_translation": "Czy myśli w weekendy?"
+          },
+          {
+            "es_form": "Normalmente [piensą::myśli] por la mañana.",
+            "pl_translation": "Zazwyczaj myśli rano."
+          }
+        ]
+      },
+      {
+        "es_word": "pensamos",
+        "pl_word": "myślimy",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "No [pensąmos::myślimy] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie myślimy zbyt dobrze."
+          },
+          {
+            "es_form": "[pensąmos::myślimy] todos los días.",
+            "pl_translation": "Myślimy codziennie."
+          },
+          {
+            "es_form": "Siempre [pensąmos::myślimy] con atencion.",
+            "pl_translation": "Zawsze myślimy z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "pensáis",
+        "pl_word": "myślicie",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[pensáis::myślicie] como me enseñaste.",
+            "pl_translation": "Myślicie tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [pensáis::myślicie] por la mañana.",
+            "pl_translation": "Zazwyczaj myślicie rano."
+          },
+          {
+            "es_form": "[pensáis::myślicie] todos los días.",
+            "pl_translation": "Myślicie codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "piensan",
+        "pl_word": "myślą",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [piensąn::myślą] con atencion.",
+            "pl_translation": "Zawsze myślą z uwagą."
+          },
+          {
+            "es_form": "[piensąn::myślą] todos los días.",
+            "pl_translation": "Myślą codziennie."
+          },
+          {
+            "es_form": "[piensąn::myślą] como me enseñaste.",
+            "pl_translation": "Myślą tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "pensé",
+        "pl_word": "myśląlem/myśląlam",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [pensé::myśląlem/myśląlam] todo el día.",
+            "pl_translation": "Wczoraj myśląlem/myśląlam cały dzień."
+          },
+          {
+            "es_form": "Nunca [pensé::myśląlem/myśląlam] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie myśląlem/myśląlam czegoś takiego."
+          },
+          {
+            "es_form": "El mes pasado no [pensé::myśląlem/myśląlam] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie myśląlem/myśląlam."
+          }
+        ]
+      },
+      {
+        "es_word": "pensaste",
+        "pl_word": "myśląles/myśląlas",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[pensąste::myśląles/myśląlas] bien el examen?",
+            "pl_translation": "Czy myśląles/myśląlas dobrze egzamin?"
+          },
+          {
+            "es_form": "Ayer [pensąste::myśląles/myśląlas] todo el día.",
+            "pl_translation": "Wczoraj myśląles/myśląlas cały dzień."
+          },
+          {
+            "es_form": "El mes pasado no [pensąste::myśląles/myśląlas] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie myśląles/myśląlas."
+          }
+        ]
+      },
+      {
+        "es_word": "pensó",
+        "pl_word": "myśląl/myśląla/myśląlo",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[pensó::myśląl/myśląla/myśląlo] la semana pasada.",
+            "pl_translation": "Myśląl/myśląla/myśląlo w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Nunca [pensó::myśląl/myśląla/myśląlo] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie myśląl/myśląla/myśląlo czegoś takiego."
+          },
+          {
+            "es_form": "Ayer [pensó::myśląl/myśląla/myśląlo] todo el día.",
+            "pl_translation": "Wczoraj myśląl/myśląla/myśląlo cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "pensamos",
+        "pl_word": "myślęlismy/myśląlysmy",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [pensąmos::myślęlismy/myśląlysmy] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie myślęlismy/myśląlysmy."
+          },
+          {
+            "es_form": "Ayer [pensąmos::myślęlismy/myśląlysmy] todo el día.",
+            "pl_translation": "Wczoraj myślęlismy/myśląlysmy cały dzień."
+          },
+          {
+            "es_form": "Nunca [pensąmos::myślęlismy/myśląlysmy] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie myślęlismy/myśląlysmy czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "pensasteis",
+        "pl_word": "myślęlicie/myśląlyscie",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [pensąsteis::myślęlicie/myśląlyscie] todo el día.",
+            "pl_translation": "Wczoraj myślęlicie/myśląlyscie cały dzień."
+          },
+          {
+            "es_form": "¿[pensąsteis::myślęlicie/myśląlyscie] bien el examen?",
+            "pl_translation": "Czy myślęlicie/myśląlyscie dobrze egzamin?"
+          },
+          {
+            "es_form": "Nunca [pensąsteis::myślęlicie/myśląlyscie] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie myślęlicie/myśląlyscie czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "pensaron",
+        "pl_word": "myślęli/myśląly",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[pensąron::myślęli/myśląly] bien el examen?",
+            "pl_translation": "Czy myślęli/myśląly dobrze egzamin?"
+          },
+          {
+            "es_form": "[pensąron::myślęli/myśląly] la semana pasada.",
+            "pl_translation": "Myślęli/myśląly w zeszłym tygodniu."
+          },
+          {
+            "es_form": "El mes pasado no [pensąron::myślęli/myśląly] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie myślęli/myśląly."
+          }
+        ]
+      },
+      {
+        "es_word": "pensaré",
+        "pl_word": "będę myślęc",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[pensąré::będę myślęc] con nosotros mañana?",
+            "pl_translation": "Czy będę myślęc z nami jutro?"
+          },
+          {
+            "es_form": "Creo que [pensąré::będę myślęc] bien.",
+            "pl_translation": "Myślę, że będę myślęc dobrze."
+          },
+          {
+            "es_form": "Mañana [pensąré::będę myślęc] más temprano.",
+            "pl_translation": "Jutro będę myślęc wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "pensarás",
+        "pl_word": "będziesz myślęc",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [pensąrás::będziesz myślęc] bien.",
+            "pl_translation": "Myślę, że będziesz myślęc dobrze."
+          },
+          {
+            "es_form": "¿[pensąrás::będziesz myślęc] con nosotros mañana?",
+            "pl_translation": "Czy będziesz myślęc z nami jutro?"
+          },
+          {
+            "es_form": "Te prometo que [pensąrás::będziesz myślęc] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziesz myślęc na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "pensará",
+        "pl_word": "będzie myślęc",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [pensąrá::będzie myślęc] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będzie myślęc na czas."
+          },
+          {
+            "es_form": "[pensąrá::będzie myślęc] la proxima semana.",
+            "pl_translation": "Będzie myślęc w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Creo que [pensąrá::będzie myślęc] bien.",
+            "pl_translation": "Myślę, że będzie myślęc dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "pensaremos",
+        "pl_word": "będziemy myślęc",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [pensąremos::będziemy myślęc] más temprano.",
+            "pl_translation": "Jutro będziemy myślęc wcześniej."
+          },
+          {
+            "es_form": "El año que viene [pensąremos::będziemy myślęc] en España.",
+            "pl_translation": "W przyszłym roku będziemy myślęc w Hiszpanii."
+          },
+          {
+            "es_form": "[pensąremos::będziemy myślęc] la proxima semana.",
+            "pl_translation": "Będziemy myślęc w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "pensaréis",
+        "pl_word": "będziecie myślęc",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [pensąréis::będziecie myślęc] bien.",
+            "pl_translation": "Myślę, że będziecie myślęc dobrze."
+          },
+          {
+            "es_form": "[pensąréis::będziecie myślęc] la proxima semana.",
+            "pl_translation": "Będziecie myślęc w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Te prometo que [pensąréis::będziecie myślęc] a tiempo.",
+            "pl_translation": "Obiecuję ci, że będziecie myślęc na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "pensarán",
+        "pl_word": "będą myślęc",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [pensąrán::będą myślęc] más temprano.",
+            "pl_translation": "Jutro będą myślęc wcześniej."
+          },
+          {
+            "es_form": "¿[pensąrán::będą myślęc] con nosotros mañana?",
+            "pl_translation": "Czy będą myślęc z nami jutro?"
+          },
+          {
+            "es_form": "El año que viene [pensąrán::będą myślęc] en España.",
+            "pl_translation": "W przyszłym roku będą myślęc w Hiszpanii."
+          }
+        ]
+      }
+    ]
+  }
+]

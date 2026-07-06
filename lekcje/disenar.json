@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "El edificio",
+    "pl_word": "budynek",
+    "examples": [
+      {
+        "es_form": "Guarda [el edificio::budynek] en el armario.",
+        "pl_translation": "Schowaj budynek do szafy."
+      },
+      {
+        "es_form": "[El edificio::budynek] está sobre la mesa.",
+        "pl_translation": "Budynek jest na stole."
+      },
+      {
+        "es_form": "Se me rompio [el edificio::budynek].",
+        "pl_translation": "Zepsuł mi się budynek."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La arquitectura",
+    "pl_word": "architektura",
+    "examples": [
+      {
+        "es_form": "Esta es [la arquitectura::architektura] de la que hablé.",
+        "pl_translation": "To jest architektura, o której mówiłem/am."
+      },
+      {
+        "es_form": "Hablé con [la arquitectura::architektura] ayer.",
+        "pl_translation": "Rozmawiałem/am wczoraj z architektura."
+      },
+      {
+        "es_form": "[La arquitectura::architektura] me ayudo mucho.",
+        "pl_translation": "Architektura bardzo mi pomógł/pomogła."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El castillo",
+    "pl_word": "zamek (budynek)",
+    "examples": [
+      {
+        "es_form": "Necesito [el castillo::zamek (budynek)] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową zamek (budynek)."
+      },
+      {
+        "es_form": "Guarda [el castillo::zamek (budynek)] en el armario.",
+        "pl_translation": "Schowaj zamek (budynek) do szafy."
+      },
+      {
+        "es_form": "[El castillo::zamek (budynek)] está sobre la mesa.",
+        "pl_translation": "Zamek (budynek) jest na stole."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El palacio",
+    "pl_word": "pałac",
+    "examples": [
+      {
+        "es_form": "Guarda [el palacio::pałac] en el armario.",
+        "pl_translation": "Schowaj pałac do szafy."
+      },
+      {
+        "es_form": "[El palacio::pałac] está sobre la mesa.",
+        "pl_translation": "Pałac jest na stole."
+      },
+      {
+        "es_form": "Necesito [el palacio::pałac] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową pałac."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La torre",
+    "pl_word": "wieża",
+    "examples": [
+      {
+        "es_form": "[La torre::wieża] es de madera.",
+        "pl_translation": "Wieża jest z drewna."
+      },
+      {
+        "es_form": "Guarda [la torre::wieża] en el armario.",
+        "pl_translation": "Schowaj wieża do szafy."
+      },
+      {
+        "es_form": "Compré [la torre::wieża] ayer.",
+        "pl_translation": "Kupiłem/am wieża wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El puente",
+    "pl_word": "most",
+    "examples": [
+      {
+        "es_form": "[El puente::most] está sobre la mesa.",
+        "pl_translation": "Most jest na stole."
+      },
+      {
+        "es_form": "Guarda [el puente::most] en el armario.",
+        "pl_translation": "Schowaj most do szafy."
+      },
+      {
+        "es_form": "¿Has visto [el puente::most]?",
+        "pl_translation": "Widziałeś/aś most?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El tejado",
+    "pl_word": "dach",
+    "examples": [
+      {
+        "es_form": "Necesito [el tejado::dach] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową dach."
+      },
+      {
+        "es_form": "[El tejado::dach] cuesta diez euros.",
+        "pl_translation": "Dach kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "¿Has visto [el tejado::dach]?",
+        "pl_translation": "Widziałeś/aś dach?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El cimientos",
+    "pl_word": "fundament",
+    "examples": [
+      {
+        "es_form": "Guarda [el cimientos::fundament] en el armario.",
+        "pl_translation": "Schowaj fundament do szafy."
+      },
+      {
+        "es_form": "[El cimientos::fundament] cuesta diez euros.",
+        "pl_translation": "Fundament kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Necesito [el cimientos::fundament] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową fundament."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La chimenea",
+    "pl_word": "komin",
+    "examples": [
+      {
+        "es_form": "Compré [la chimenea::komin] ayer.",
+        "pl_translation": "Kupiłem/am komin wczoraj."
+      },
+      {
+        "es_form": "[La chimenea::komin] cuesta diez euros.",
+        "pl_translation": "Komin kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Guarda [la chimenea::komin] en el armario.",
+        "pl_translation": "Schowaj komin do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La valla",
+    "pl_word": "ogrodzenie",
+    "examples": [
+      {
+        "es_form": "Guarda [la valla::ogrodzenie] en el armario.",
+        "pl_translation": "Schowaj ogrodzenie do szafy."
+      },
+      {
+        "es_form": "Se me rompio [la valla::ogrodzenie].",
+        "pl_translation": "Zepsuł mi się ogrodzenie."
+      },
+      {
+        "es_form": "[La valla::ogrodzenie] es de madera.",
+        "pl_translation": "Ogrodzenie jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "moderno",
+    "pl_word": "nowoczesny",
+    "examples": [
+      {
+        "es_form": "Hace un día [moderno::nowoczesny].",
+        "pl_translation": "Jest nowoczesny dzień."
+      },
+      {
+        "es_form": "Es una persona muy [moderno::nowoczesny].",
+        "pl_translation": "To jest bardzo nowoczesny osoba."
+      },
+      {
+        "es_form": "Este coche es [moderno::nowoczesny].",
+        "pl_translation": "Ten samochód jest nowoczesny."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "histórico",
+    "pl_word": "zabytkowy, historyczny",
+    "examples": [
+      {
+        "es_form": "El examen fue [histórico::zabytkowy, historyczny].",
+        "pl_translation": "Egzamin był zabytkowy, historyczny."
+      },
+      {
+        "es_form": "Nada es más [histórico::zabytkowy, historyczny] que la familia.",
+        "pl_translation": "Nic nie jest zabytkowy, historyczny od rodziny."
+      },
+      {
+        "es_form": "Se compro un vestido [histórico::zabytkowy, historyczny].",
+        "pl_translation": "Kupiła sobie zabytkowy, historyczny sukienkę."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "diseñar",
+    "pl_word": "projektować",
+    "examples": [
+      {
+        "es_form": "Es importante [diseñar::projektować] todos los días.",
+        "pl_translation": "Ważne jest projektować codziennie."
+      },
+      {
+        "es_form": "Prefiero [diseñar::projektować] en casa.",
+        "pl_translation": "Wolę projektować w domu."
+      },
+      {
+        "es_form": "Me gusta [diseñar::projektować] por la mañana.",
+        "pl_translation": "Lubię projektować rano."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "diseño",
+        "pl_word": "disenar (1.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "No [diseño::disenar (1.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie disenar (1.os.lp, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "¿[diseño::disenar (1.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy disenar (1.os.lp, ter.) w weekendy?"
+          },
+          {
+            "es_form": "Siempre [diseño::disenar (1.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze disenar (1.os.lp, ter.) z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "diseñas",
+        "pl_word": "disenar (2.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[diseñas::disenar (2.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Disenar (2.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [diseñas::disenar (2.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj disenar (2.os.lp, ter.) rano."
+          },
+          {
+            "es_form": "[diseñas::disenar (2.os.lp, ter.)] todos los días.",
+            "pl_translation": "Disenar (2.os.lp, ter.) codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "diseña",
+        "pl_word": "disenar (3.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "No [diseña::disenar (3.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie disenar (3.os.lp, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "Normalmente [diseña::disenar (3.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj disenar (3.os.lp, ter.) rano."
+          },
+          {
+            "es_form": "[diseña::disenar (3.os.lp, ter.)] todos los días.",
+            "pl_translation": "Disenar (3.os.lp, ter.) codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "diseñamos",
+        "pl_word": "disenar (1.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [diseñamos::disenar (1.os.lm, ter.)] con atencion.",
+            "pl_translation": "Zawsze disenar (1.os.lm, ter.) z uwagą."
+          },
+          {
+            "es_form": "Normalmente [diseñamos::disenar (1.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj disenar (1.os.lm, ter.) rano."
+          },
+          {
+            "es_form": "[diseñamos::disenar (1.os.lm, ter.)] todos los días.",
+            "pl_translation": "Disenar (1.os.lm, ter.) codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "diseñáis",
+        "pl_word": "disenar (2.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [diseñáis::disenar (2.os.lm, ter.)] con atencion.",
+            "pl_translation": "Zawsze disenar (2.os.lm, ter.) z uwagą."
+          },
+          {
+            "es_form": "Normalmente [diseñáis::disenar (2.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj disenar (2.os.lm, ter.) rano."
+          },
+          {
+            "es_form": "[diseñáis::disenar (2.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Disenar (2.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "diseñan",
+        "pl_word": "disenar (3.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[diseñan::disenar (3.os.lm, ter.)] todos los días.",
+            "pl_translation": "Disenar (3.os.lm, ter.) codziennie."
+          },
+          {
+            "es_form": "No [diseñan::disenar (3.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie disenar (3.os.lm, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "¿[diseñan::disenar (3.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy disenar (3.os.lm, ter.) w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "diseñé",
+        "pl_word": "disenar (1.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [diseñé::disenar (1.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie disenar (1.os.lp, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "Ayer [diseñé::disenar (1.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj disenar (1.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "El mes pasado no [diseñé::disenar (1.os.lp, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie disenar (1.os.lp, przesz.)."
+          }
+        ]
+      },
+      {
+        "es_word": "diseñaste",
+        "pl_word": "disenar (2.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[diseñaste::disenar (2.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy disenar (2.os.lp, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "Nunca [diseñaste::disenar (2.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie disenar (2.os.lp, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "[diseñaste::disenar (2.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Disenar (2.os.lp, przesz.) bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "diseñó",
+        "pl_word": "disenar (3.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[diseñó::disenar (3.os.lp, przesz.)] la semana pasada.",
+            "pl_translation": "Disenar (3.os.lp, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "¿[diseñó::disenar (3.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy disenar (3.os.lp, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "El mes pasado no [diseñó::disenar (3.os.lp, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie disenar (3.os.lp, przesz.)."
+          }
+        ]
+      },
+      {
+        "es_word": "diseñamos",
+        "pl_word": "disenar (1.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[diseñamos::disenar (1.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy disenar (1.os.lm, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "Nunca [diseñamos::disenar (1.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie disenar (1.os.lm, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "Ayer [diseñamos::disenar (1.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj disenar (1.os.lm, przesz.) cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "diseñasteis",
+        "pl_word": "disenar (2.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [diseñasteis::disenar (2.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie disenar (2.os.lm, przesz.)."
+          },
+          {
+            "es_form": "[diseñasteis::disenar (2.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Disenar (2.os.lm, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Ayer [diseñasteis::disenar (2.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj disenar (2.os.lm, przesz.) cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "diseñaron",
+        "pl_word": "disenar (3.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [diseñaron::disenar (3.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj disenar (3.os.lm, przesz.) cały dzień."
+          },
+          {
+            "es_form": "[diseñaron::disenar (3.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Disenar (3.os.lm, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "[diseñaron::disenar (3.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Disenar (3.os.lm, przesz.) bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "diseñé",
+        "pl_word": "disenar (1.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [diseñé::disenar (1.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że disenar (1.os.lp, przysz.) na czas."
+          },
+          {
+            "es_form": "El año que viene [diseñé::disenar (1.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku disenar (1.os.lp, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Creo que [diseñé::disenar (1.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że disenar (1.os.lp, przysz.) dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "diseñás",
+        "pl_word": "disenar (2.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[diseñás::disenar (2.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy disenar (2.os.lp, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "El año que viene [diseñás::disenar (2.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku disenar (2.os.lp, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Te prometo que [diseñás::disenar (2.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że disenar (2.os.lp, przysz.) na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "diseñá",
+        "pl_word": "disenar (3.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [diseñá::disenar (3.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że disenar (3.os.lp, przysz.) na czas."
+          },
+          {
+            "es_form": "El año que viene [diseñá::disenar (3.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku disenar (3.os.lp, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Creo que [diseñá::disenar (3.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że disenar (3.os.lp, przysz.) dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "diseñemos",
+        "pl_word": "disenar (1.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[diseñemos::disenar (1.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy disenar (1.os.lm, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "Te prometo que [diseñemos::disenar (1.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że disenar (1.os.lm, przysz.) na czas."
+          },
+          {
+            "es_form": "Creo que [diseñemos::disenar (1.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że disenar (1.os.lm, przysz.) dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "diseñéis",
+        "pl_word": "disenar (2.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [diseñéis::disenar (2.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że disenar (2.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "El año que viene [diseñéis::disenar (2.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku disenar (2.os.lm, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "¿[diseñéis::disenar (2.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy disenar (2.os.lm, przysz.) z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "diseñán",
+        "pl_word": "disenar (3.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[diseñán::disenar (3.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Disenar (3.os.lm, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "El año que viene [diseñán::disenar (3.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku disenar (3.os.lm, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Creo que [diseñán::disenar (3.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że disenar (3.os.lm, przysz.) dobrze."
+          }
+        ]
+      }
+    ]
+  }
+]

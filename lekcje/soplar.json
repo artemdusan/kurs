@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "La niebla",
+    "pl_word": "mgła",
+    "examples": [
+      {
+        "es_form": "[La niebla::mgła] es de madera.",
+        "pl_translation": "Mgła jest z drewna."
+      },
+      {
+        "es_form": "[La niebla::mgła] cuesta diez euros.",
+        "pl_translation": "Mgła kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "¿Has visto [la niebla::mgła]?",
+        "pl_translation": "Widziałeś/aś mgła?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El granizo",
+    "pl_word": "grad",
+    "examples": [
+      {
+        "es_form": "[El granizo::grad] es de madera.",
+        "pl_translation": "Grad jest z drewna."
+      },
+      {
+        "es_form": "Necesito [el granizo::grad] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową grad."
+      },
+      {
+        "es_form": "Guarda [el granizo::grad] en el armario.",
+        "pl_translation": "Schowaj grad do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El relámpago",
+    "pl_word": "błyskawica",
+    "examples": [
+      {
+        "es_form": "Compré [el relámpago::błyskawica] ayer.",
+        "pl_translation": "Kupiłem/am błyskawica wczoraj."
+      },
+      {
+        "es_form": "[El relámpago::błyskawica] es de madera.",
+        "pl_translation": "Błyskawica jest z drewna."
+      },
+      {
+        "es_form": "Necesito [el relámpago::błyskawica] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową błyskawica."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El trueno",
+    "pl_word": "grzmot",
+    "examples": [
+      {
+        "es_form": "¿Has visto [el trueno::grzmot]?",
+        "pl_translation": "Widziałeś/aś grzmot?"
+      },
+      {
+        "es_form": "[El trueno::grzmot] es de madera.",
+        "pl_translation": "Grzmot jest z drewna."
+      },
+      {
+        "es_form": "Guarda [el trueno::grzmot] en el armario.",
+        "pl_translation": "Schowaj grzmot do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La helada",
+    "pl_word": "mróz",
+    "examples": [
+      {
+        "es_form": "¿Has visto [la helada::mróz]?",
+        "pl_translation": "Widziałeś/aś mróz?"
+      },
+      {
+        "es_form": "Compré [la helada::mróz] ayer.",
+        "pl_translation": "Kupiłem/am mróz wczoraj."
+      },
+      {
+        "es_form": "Guarda [la helada::mróz] en el armario.",
+        "pl_translation": "Schowaj mróz do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El calor",
+    "pl_word": "upał",
+    "examples": [
+      {
+        "es_form": "Guarda [el calor::upał] en el armario.",
+        "pl_translation": "Schowaj upał do szafy."
+      },
+      {
+        "es_form": "[El calor::upał] es de madera.",
+        "pl_translation": "Upał jest z drewna."
+      },
+      {
+        "es_form": "[El calor::upał] cuesta diez euros.",
+        "pl_translation": "Upał kosztuje dziesięć euro."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La humedad",
+    "pl_word": "wilgotność",
+    "examples": [
+      {
+        "es_form": "[La humedad::wilgotność] cuesta diez euros.",
+        "pl_translation": "Wilgotność kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "[La humedad::wilgotność] es de madera.",
+        "pl_translation": "Wilgotność jest z drewna."
+      },
+      {
+        "es_form": "Se me rompio [la humedad::wilgotność].",
+        "pl_translation": "Zepsuł mi się wilgotność."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La temperatura",
+    "pl_word": "temperatura",
+    "examples": [
+      {
+        "es_form": "Guarda [la temperatura::temperatura] en el armario.",
+        "pl_translation": "Schowaj temperatura do szafy."
+      },
+      {
+        "es_form": "Compré [la temperatura::temperatura] ayer.",
+        "pl_translation": "Kupiłem/am temperatura wczoraj."
+      },
+      {
+        "es_form": "[La temperatura::temperatura] es de madera.",
+        "pl_translation": "Temperatura jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El grado",
+    "pl_word": "stopień",
+    "examples": [
+      {
+        "es_form": "[El grado::stopień] está sobre la mesa.",
+        "pl_translation": "Stopień jest na stole."
+      },
+      {
+        "es_form": "Se me rompio [el grado::stopień].",
+        "pl_translation": "Zepsuł mi się stopień."
+      },
+      {
+        "es_form": "¿Has visto [el grado::stopień]?",
+        "pl_translation": "Widziałeś/aś stopień?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El pronóstico",
+    "pl_word": "prognoza",
+    "examples": [
+      {
+        "es_form": "Se me rompio [el pronóstico::prognoza].",
+        "pl_translation": "Zepsuł mi się prognoza."
+      },
+      {
+        "es_form": "[El pronóstico::prognoza] está sobre la mesa.",
+        "pl_translation": "Prognoza jest na stole."
+      },
+      {
+        "es_form": "[El pronóstico::prognoza] cuesta diez euros.",
+        "pl_translation": "Prognoza kosztuje dziesięć euro."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "nublado",
+    "pl_word": "pochmurny",
+    "examples": [
+      {
+        "es_form": "Mi amigo es [nublado::pochmurny] y simpático.",
+        "pl_translation": "Mój przyjaciel jest pochmurny i sympatyczny."
+      },
+      {
+        "es_form": "El examen fue [nublado::pochmurny].",
+        "pl_translation": "Egzamin był pochmurny."
+      },
+      {
+        "es_form": "Es una persona muy [nublado::pochmurny].",
+        "pl_translation": "To jest bardzo pochmurny osoba."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "lluvioso",
+    "pl_word": "deszczowy",
+    "examples": [
+      {
+        "es_form": "Hace un día [lluvioso::deszczowy].",
+        "pl_translation": "Jest deszczowy dzień."
+      },
+      {
+        "es_form": "Se compro un vestido [lluvioso::deszczowy].",
+        "pl_translation": "Kupiła sobie deszczowy sukienkę."
+      },
+      {
+        "es_form": "Es un lugar [lluvioso::deszczowy] para vivir.",
+        "pl_translation": "To jest deszczowy miejsce do życia."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "soplar",
+    "pl_word": "wiać, dmuchać",
+    "examples": [
+      {
+        "es_form": "Voy a [soplar::wiać, dmuchać] mañana.",
+        "pl_translation": "Będę wiać, dmuchać jutro."
+      },
+      {
+        "es_form": "Es importante [soplar::wiać, dmuchać] todos los días.",
+        "pl_translation": "Ważne jest wiać, dmuchać codziennie."
+      },
+      {
+        "es_form": "Quiero [soplar::wiać, dmuchać] ahora.",
+        "pl_translation": "Chcę wiać, dmuchać teraz."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "soplo",
+        "pl_word": "wiać (1.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "No [soplo::wiać (1.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie wiać (1.os.lp, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "Siempre [soplo::wiać (1.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze wiać (1.os.lp, ter.) z uwagą."
+          },
+          {
+            "es_form": "[soplo::wiać (1.os.lp, ter.)] todos los días.",
+            "pl_translation": "Wiać (1.os.lp, ter.) codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "soplas",
+        "pl_word": "wiać (2.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[soplas::wiać (2.os.lp, ter.)] todos los días.",
+            "pl_translation": "Wiać (2.os.lp, ter.) codziennie."
+          },
+          {
+            "es_form": "Siempre [soplas::wiać (2.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze wiać (2.os.lp, ter.) z uwagą."
+          },
+          {
+            "es_form": "¿[soplas::wiać (2.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy wiać (2.os.lp, ter.) w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "sopla",
+        "pl_word": "wiać (3.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[sopla::wiać (3.os.lp, ter.)] todos los días.",
+            "pl_translation": "Wiać (3.os.lp, ter.) codziennie."
+          },
+          {
+            "es_form": "Siempre [sopla::wiać (3.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze wiać (3.os.lp, ter.) z uwagą."
+          },
+          {
+            "es_form": "Normalmente [sopla::wiać (3.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj wiać (3.os.lp, ter.) rano."
+          }
+        ]
+      },
+      {
+        "es_word": "soplamos",
+        "pl_word": "wiać (1.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[soplamos::wiać (1.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy wiać (1.os.lm, ter.) w weekendy?"
+          },
+          {
+            "es_form": "No [soplamos::wiać (1.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie wiać (1.os.lm, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "[soplamos::wiać (1.os.lm, ter.)] todos los días.",
+            "pl_translation": "Wiać (1.os.lm, ter.) codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "sopláis",
+        "pl_word": "wiać (2.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[sopláis::wiać (2.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Wiać (2.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [sopláis::wiać (2.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj wiać (2.os.lm, ter.) rano."
+          },
+          {
+            "es_form": "Siempre [sopláis::wiać (2.os.lm, ter.)] con atencion.",
+            "pl_translation": "Zawsze wiać (2.os.lm, ter.) z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "soplan",
+        "pl_word": "wiać (3.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "No [soplan::wiać (3.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie wiać (3.os.lm, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "[soplan::wiać (3.os.lm, ter.)] todos los días.",
+            "pl_translation": "Wiać (3.os.lm, ter.) codziennie."
+          },
+          {
+            "es_form": "[soplan::wiać (3.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Wiać (3.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "soplé",
+        "pl_word": "wiać (1.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [soplé::wiać (1.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie wiać (1.os.lp, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "[soplé::wiać (1.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Wiać (1.os.lp, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Ayer [soplé::wiać (1.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj wiać (1.os.lp, przesz.) cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "soplaste",
+        "pl_word": "wiać (2.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[soplaste::wiać (2.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Wiać (2.os.lp, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [soplaste::wiać (2.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie wiać (2.os.lp, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "El mes pasado no [soplaste::wiać (2.os.lp, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie wiać (2.os.lp, przesz.)."
+          }
+        ]
+      },
+      {
+        "es_word": "sopló",
+        "pl_word": "wiać (3.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [sopló::wiać (3.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj wiać (3.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "Nunca [sopló::wiać (3.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie wiać (3.os.lp, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "[sopló::wiać (3.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Wiać (3.os.lp, przesz.) bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "soplamos",
+        "pl_word": "wiać (1.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[soplamos::wiać (1.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy wiać (1.os.lm, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "Ayer [soplamos::wiać (1.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj wiać (1.os.lm, przesz.) cały dzień."
+          },
+          {
+            "es_form": "El mes pasado no [soplamos::wiać (1.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie wiać (1.os.lm, przesz.)."
+          }
+        ]
+      },
+      {
+        "es_word": "soplasteis",
+        "pl_word": "wiać (2.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [soplasteis::wiać (2.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie wiać (2.os.lm, przesz.)."
+          },
+          {
+            "es_form": "¿[soplasteis::wiać (2.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy wiać (2.os.lm, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "Ayer [soplasteis::wiać (2.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj wiać (2.os.lm, przesz.) cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "soplaron",
+        "pl_word": "wiać (3.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[soplaron::wiać (3.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Wiać (3.os.lm, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Nunca [soplaron::wiać (3.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie wiać (3.os.lm, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "[soplaron::wiać (3.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Wiać (3.os.lm, przesz.) bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "soplé",
+        "pl_word": "wiać (1.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [soplé::wiać (1.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro wiać (1.os.lp, przysz.) wcześniej."
+          },
+          {
+            "es_form": "Te prometo que [soplé::wiać (1.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że wiać (1.os.lp, przysz.) na czas."
+          },
+          {
+            "es_form": "Creo que [soplé::wiać (1.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że wiać (1.os.lp, przysz.) dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "soplás",
+        "pl_word": "wiać (2.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [soplás::wiać (2.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro wiać (2.os.lp, przysz.) wcześniej."
+          },
+          {
+            "es_form": "El año que viene [soplás::wiać (2.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku wiać (2.os.lp, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "¿[soplás::wiać (2.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy wiać (2.os.lp, przysz.) z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "soplá",
+        "pl_word": "wiać (3.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [soplá::wiać (3.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro wiać (3.os.lp, przysz.) wcześniej."
+          },
+          {
+            "es_form": "El año que viene [soplá::wiać (3.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku wiać (3.os.lp, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "¿[soplá::wiać (3.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy wiać (3.os.lp, przysz.) z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "soplemos",
+        "pl_word": "wiać (1.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[soplemos::wiać (1.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy wiać (1.os.lm, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "[soplemos::wiać (1.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Wiać (1.os.lm, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "El año que viene [soplemos::wiać (1.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku wiać (1.os.lm, przysz.) w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "sopléis",
+        "pl_word": "wiać (2.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[sopléis::wiać (2.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy wiać (2.os.lm, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "Te prometo que [sopléis::wiać (2.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że wiać (2.os.lm, przysz.) na czas."
+          },
+          {
+            "es_form": "[sopléis::wiać (2.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Wiać (2.os.lm, przysz.) w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "soplán",
+        "pl_word": "wiać (3.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[soplán::wiać (3.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Wiać (3.os.lm, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Mañana [soplán::wiać (3.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro wiać (3.os.lm, przysz.) wcześniej."
+          },
+          {
+            "es_form": "Te prometo que [soplán::wiać (3.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że wiać (3.os.lm, przysz.) na czas."
+          }
+        ]
+      }
+    ]
+  }
+]

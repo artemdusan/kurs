@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "El perro",
+    "pl_word": "pies",
+    "examples": [
+      {
+        "es_form": "[El perro::pies] está sobre la mesa.",
+        "pl_translation": "Pies jest na stole."
+      },
+      {
+        "es_form": "Compré [el perro::pies] ayer.",
+        "pl_translation": "Kupiłem/am pies wczoraj."
+      },
+      {
+        "es_form": "[El perro::pies] es de madera.",
+        "pl_translation": "Pies jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El gato",
+    "pl_word": "kot",
+    "examples": [
+      {
+        "es_form": "¿Has visto [el gato::kot]?",
+        "pl_translation": "Widziałeś/aś kot?"
+      },
+      {
+        "es_form": "[El gato::kot] es de madera.",
+        "pl_translation": "Kot jest z drewna."
+      },
+      {
+        "es_form": "[El gato::kot] cuesta diez euros.",
+        "pl_translation": "Kot kosztuje dziesięć euro."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El pájaro",
+    "pl_word": "ptak",
+    "examples": [
+      {
+        "es_form": "Guarda [el pájaro::ptak] en el armario.",
+        "pl_translation": "Schowaj ptak do szafy."
+      },
+      {
+        "es_form": "Necesito [el pájaro::ptak] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową ptak."
+      },
+      {
+        "es_form": "[El pájaro::ptak] es de madera.",
+        "pl_translation": "Ptak jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El pez",
+    "pl_word": "ryba (zwierzę)",
+    "examples": [
+      {
+        "es_form": "[El pez::ryba (zwierzę)] se hace con leche.",
+        "pl_translation": "Ryba (zwierzę) robi się z mleka."
+      },
+      {
+        "es_form": "[El pez::ryba (zwierzę)] está muy rico.",
+        "pl_translation": "Ryba (zwierzę) jest bardzo smaczny/a."
+      },
+      {
+        "es_form": "[El pez::ryba (zwierzę)] es típico de España.",
+        "pl_translation": "Ryba (zwierzę) jest typowy/a dla Hiszpanii."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El caballo",
+    "pl_word": "koń",
+    "examples": [
+      {
+        "es_form": "[El caballo::koń] está sobre la mesa.",
+        "pl_translation": "Koń jest na stole."
+      },
+      {
+        "es_form": "Compré [el caballo::koń] ayer.",
+        "pl_translation": "Kupiłem/am koń wczoraj."
+      },
+      {
+        "es_form": "Necesito [el caballo::koń] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową koń."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La vaca",
+    "pl_word": "krowa",
+    "examples": [
+      {
+        "es_form": "Guarda [la vaca::krowa] en el armario.",
+        "pl_translation": "Schowaj krowa do szafy."
+      },
+      {
+        "es_form": "[La vaca::krowa] es de madera.",
+        "pl_translation": "Krowa jest z drewna."
+      },
+      {
+        "es_form": "Se me rompio [la vaca::krowa].",
+        "pl_translation": "Zepsuł mi się krowa."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El cerdo",
+    "pl_word": "świnia",
+    "examples": [
+      {
+        "es_form": "Necesito [el cerdo::świnia] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową świnia."
+      },
+      {
+        "es_form": "[El cerdo::świnia] es de madera.",
+        "pl_translation": "Świnia jest z drewna."
+      },
+      {
+        "es_form": "[El cerdo::świnia] está sobre la mesa.",
+        "pl_translation": "Świnia jest na stole."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El ratón",
+    "pl_word": "mysz",
+    "examples": [
+      {
+        "es_form": "Guarda [el ratón::mysz] en el armario.",
+        "pl_translation": "Schowaj mysz do szafy."
+      },
+      {
+        "es_form": "¿Has visto [el ratón::mysz]?",
+        "pl_translation": "Widziałeś/aś mysz?"
+      },
+      {
+        "es_form": "Compré [el ratón::mysz] ayer.",
+        "pl_translation": "Kupiłem/am mysz wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El conejo",
+    "pl_word": "królik",
+    "examples": [
+      {
+        "es_form": "[El conejo::królik] vive en mi calle.",
+        "pl_translation": "Królik mieszka na mojej ulicy."
+      },
+      {
+        "es_form": "[El conejo::królik] trabaja aquí.",
+        "pl_translation": "Królik tu pracuje."
+      },
+      {
+        "es_form": "Esta es [el conejo::królik] de la que hablé.",
+        "pl_translation": "To jest królik, o której mówiłem/am."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El animal",
+    "pl_word": "zwierzę",
+    "examples": [
+      {
+        "es_form": "Necesito [el animal::zwierzę] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową zwierzę."
+      },
+      {
+        "es_form": "[El animal::zwierzę] cuesta diez euros.",
+        "pl_translation": "Zwierzę kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "[El animal::zwierzę] es de madera.",
+        "pl_translation": "Zwierzę jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "simpático",
+    "pl_word": "miły, sympatyczny",
+    "examples": [
+      {
+        "es_form": "Es un lugar [simpático::miły, sympatyczny] para vivir.",
+        "pl_translation": "To jest miły, sympatyczny miejsce do życia."
+      },
+      {
+        "es_form": "Tengo una casa [simpática::miły, sympatyczny].",
+        "pl_translation": "Mam miły, sympatyczny dom."
+      },
+      {
+        "es_form": "Se compro un vestido [simpático::miły, sympatyczny].",
+        "pl_translation": "Kupiła sobie miły, sympatyczny sukienkę."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "salvaje",
+    "pl_word": "dziki",
+    "examples": [
+      {
+        "es_form": "Este coche es [salvaje::dziki].",
+        "pl_translation": "Ten samochód jest dziki."
+      },
+      {
+        "es_form": "Tengo una casa [salvaje::dziki].",
+        "pl_translation": "Mam dziki dom."
+      },
+      {
+        "es_form": "Hace un día [salvaje::dziki].",
+        "pl_translation": "Jest dziki dzień."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "gustar",
+    "pl_word": "lubić, podobać się",
+    "examples": [
+      {
+        "es_form": "No puedo [gustar::lubić, podobać się] sin tu ayuda.",
+        "pl_translation": "Nie mogę lubić, podobać się bez twojej pomocy."
+      },
+      {
+        "es_form": "¿Puedes [gustar::lubić, podobać się] más rápido?",
+        "pl_translation": "Możesz lubić, podobać się szybciej?"
+      },
+      {
+        "es_form": "Voy a [gustar::lubić, podobać się] mañana.",
+        "pl_translation": "Będę lubić, podobać się jutro."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "gusto",
+        "pl_word": "lubić (1.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [gusto::lubić (1.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj lubić (1.os.lp, ter.) rano."
+          },
+          {
+            "es_form": "¿[gusto::lubić (1.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy lubić (1.os.lp, ter.) w weekendy?"
+          },
+          {
+            "es_form": "[gusto::lubić (1.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Lubić (1.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "gustas",
+        "pl_word": "lubić (2.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [gustas::lubić (2.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj lubić (2.os.lp, ter.) rano."
+          },
+          {
+            "es_form": "¿[gustas::lubić (2.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy lubić (2.os.lp, ter.) w weekendy?"
+          },
+          {
+            "es_form": "[gustas::lubić (2.os.lp, ter.)] todos los días.",
+            "pl_translation": "Lubić (2.os.lp, ter.) codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "gusta",
+        "pl_word": "lubić (3.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [gusta::lubić (3.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze lubić (3.os.lp, ter.) z uwagą."
+          },
+          {
+            "es_form": "[gusta::lubić (3.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Lubić (3.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "[gusta::lubić (3.os.lp, ter.)] todos los días.",
+            "pl_translation": "Lubić (3.os.lp, ter.) codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "gustamos",
+        "pl_word": "lubić (1.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[gustamos::lubić (1.os.lm, ter.)] todos los días.",
+            "pl_translation": "Lubić (1.os.lm, ter.) codziennie."
+          },
+          {
+            "es_form": "Normalmente [gustamos::lubić (1.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj lubić (1.os.lm, ter.) rano."
+          },
+          {
+            "es_form": "Siempre [gustamos::lubić (1.os.lm, ter.)] con atencion.",
+            "pl_translation": "Zawsze lubić (1.os.lm, ter.) z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "gustáis",
+        "pl_word": "lubić (2.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[gustáis::lubić (2.os.lm, ter.)] todos los días.",
+            "pl_translation": "Lubić (2.os.lm, ter.) codziennie."
+          },
+          {
+            "es_form": "¿[gustáis::lubić (2.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy lubić (2.os.lm, ter.) w weekendy?"
+          },
+          {
+            "es_form": "[gustáis::lubić (2.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Lubić (2.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "gustan",
+        "pl_word": "lubić (3.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [gustan::lubić (3.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj lubić (3.os.lm, ter.) rano."
+          },
+          {
+            "es_form": "[gustan::lubić (3.os.lm, ter.)] todos los días.",
+            "pl_translation": "Lubić (3.os.lm, ter.) codziennie."
+          },
+          {
+            "es_form": "[gustan::lubić (3.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Lubić (3.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "gusté",
+        "pl_word": "lubić (1.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[gusté::lubić (1.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy lubić (1.os.lp, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "[gusté::lubić (1.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Lubić (1.os.lp, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [gusté::lubić (1.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie lubić (1.os.lp, przesz.) czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "gustaste",
+        "pl_word": "lubić (2.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[gustaste::lubić (2.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Lubić (2.os.lp, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [gustaste::lubić (2.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie lubić (2.os.lp, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "El mes pasado no [gustaste::lubić (2.os.lp, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie lubić (2.os.lp, przesz.)."
+          }
+        ]
+      },
+      {
+        "es_word": "gustó",
+        "pl_word": "lubić (3.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [gustó::lubić (3.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie lubić (3.os.lp, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "El mes pasado no [gustó::lubić (3.os.lp, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie lubić (3.os.lp, przesz.)."
+          },
+          {
+            "es_form": "[gustó::lubić (3.os.lp, przesz.)] la semana pasada.",
+            "pl_translation": "Lubić (3.os.lp, przesz.) w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "gustamos",
+        "pl_word": "lubić (1.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[gustamos::lubić (1.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy lubić (1.os.lm, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "Ayer [gustamos::lubić (1.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj lubić (1.os.lm, przesz.) cały dzień."
+          },
+          {
+            "es_form": "Nunca [gustamos::lubić (1.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie lubić (1.os.lm, przesz.) czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "gustasteis",
+        "pl_word": "lubić (2.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [gustasteis::lubić (2.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie lubić (2.os.lm, przesz.)."
+          },
+          {
+            "es_form": "[gustasteis::lubić (2.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Lubić (2.os.lm, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Ayer [gustasteis::lubić (2.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj lubić (2.os.lm, przesz.) cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "gustaron",
+        "pl_word": "lubić (3.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [gustaron::lubić (3.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie lubić (3.os.lm, przesz.)."
+          },
+          {
+            "es_form": "[gustaron::lubić (3.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Lubić (3.os.lm, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Ayer [gustaron::lubić (3.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj lubić (3.os.lm, przesz.) cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "gusté",
+        "pl_word": "lubić (1.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [gusté::lubić (1.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku lubić (1.os.lp, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Creo que [gusté::lubić (1.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że lubić (1.os.lp, przysz.) dobrze."
+          },
+          {
+            "es_form": "Mañana [gusté::lubić (1.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro lubić (1.os.lp, przysz.) wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "gustás",
+        "pl_word": "lubić (2.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [gustás::lubić (2.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro lubić (2.os.lp, przysz.) wcześniej."
+          },
+          {
+            "es_form": "El año que viene [gustás::lubić (2.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku lubić (2.os.lp, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Te prometo que [gustás::lubić (2.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że lubić (2.os.lp, przysz.) na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "gustá",
+        "pl_word": "lubić (3.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [gustá::lubić (3.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro lubić (3.os.lp, przysz.) wcześniej."
+          },
+          {
+            "es_form": "¿[gustá::lubić (3.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy lubić (3.os.lp, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "Creo que [gustá::lubić (3.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że lubić (3.os.lp, przysz.) dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "gustemos",
+        "pl_word": "lubić (1.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [gustemos::lubić (1.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że lubić (1.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "¿[gustemos::lubić (1.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy lubić (1.os.lm, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "Te prometo que [gustemos::lubić (1.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że lubić (1.os.lm, przysz.) na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "gustéis",
+        "pl_word": "lubić (2.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Mañana [gustéis::lubić (2.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro lubić (2.os.lm, przysz.) wcześniej."
+          },
+          {
+            "es_form": "Creo que [gustéis::lubić (2.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że lubić (2.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "¿[gustéis::lubić (2.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy lubić (2.os.lm, przysz.) z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "gustán",
+        "pl_word": "lubić (3.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [gustán::lubić (3.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że lubić (3.os.lm, przysz.) na czas."
+          },
+          {
+            "es_form": "[gustán::lubić (3.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Lubić (3.os.lm, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "El año que viene [gustán::lubić (3.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku lubić (3.os.lm, przysz.) w Hiszpanii."
+          }
+        ]
+      }
+    ]
+  }
+]

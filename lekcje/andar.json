@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "El camino",
+    "pl_word": "droga, ścieżka",
+    "examples": [
+      {
+        "es_form": "Guarda [el camino::droga, ścieżka] en el armario.",
+        "pl_translation": "Schowaj droga, ścieżka do szafy."
+      },
+      {
+        "es_form": "¿Has visto [el camino::droga, ścieżka]?",
+        "pl_translation": "Widziałeś/aś droga, ścieżka?"
+      },
+      {
+        "es_form": "Compré [el camino::droga, ścieżka] ayer.",
+        "pl_translation": "Kupiłem/am droga, ścieżka wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El dirección",
+    "pl_word": "kierunek",
+    "examples": [
+      {
+        "es_form": "¿Has visto [el dirección::kierunek]?",
+        "pl_translation": "Widziałeś/aś kierunek?"
+      },
+      {
+        "es_form": "[El dirección::kierunek] está sobre la mesa.",
+        "pl_translation": "Kierunek jest na stole."
+      },
+      {
+        "es_form": "Necesito [el dirección::kierunek] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową kierunek."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El lado",
+    "pl_word": "strona",
+    "examples": [
+      {
+        "es_form": "[El lado::strona] está sobre la mesa.",
+        "pl_translation": "Strona jest na stole."
+      },
+      {
+        "es_form": "[El lado::strona] es de madera.",
+        "pl_translation": "Strona jest z drewna."
+      },
+      {
+        "es_form": "¿Has visto [el lado::strona]?",
+        "pl_translation": "Widziałeś/aś strona?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El centro",
+    "pl_word": "środek, centrum",
+    "examples": [
+      {
+        "es_form": "Visitamos [el centro::środek, centrum] la semana pasada.",
+        "pl_translation": "Odwiedziliśmy środek, centrum w zeszłym tygodniu."
+      },
+      {
+        "es_form": "Trabajo en [el centro::środek, centrum].",
+        "pl_translation": "Pracuję w środek, centrum."
+      },
+      {
+        "es_form": "Voy a [el centro::środek, centrum] cada día.",
+        "pl_translation": "Chodzę do środek, centrum codziennie."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El principio",
+    "pl_word": "początek",
+    "examples": [
+      {
+        "es_form": "Necesito [el principio::początek] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową początek."
+      },
+      {
+        "es_form": "¿Has visto [el principio::początek]?",
+        "pl_translation": "Widziałeś/aś początek?"
+      },
+      {
+        "es_form": "[El principio::początek] está sobre la mesa.",
+        "pl_translation": "Początek jest na stole."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El final",
+    "pl_word": "koniec",
+    "examples": [
+      {
+        "es_form": "[El final::koniec] cuesta diez euros.",
+        "pl_translation": "Koniec kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Compré [el final::koniec] ayer.",
+        "pl_translation": "Kupiłem/am koniec wczoraj."
+      },
+      {
+        "es_form": "Guarda [el final::koniec] en el armario.",
+        "pl_translation": "Schowaj koniec do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El semáforo",
+    "pl_word": "światła (sygnalizacja)",
+    "examples": [
+      {
+        "es_form": "[El semáforo::światła (sygnalizacja)] está cerca de aquí.",
+        "pl_translation": "Światła (sygnalizacja) jest niedaleko stąd."
+      },
+      {
+        "es_form": "[El semáforo::światła (sygnalizacja)] abre a las ocho.",
+        "pl_translation": "Światła (sygnalizacja) otwiera się o ósmej."
+      },
+      {
+        "es_form": "Trabajo en [el semáforo::światła (sygnalizacja)].",
+        "pl_translation": "Pracuję w światła (sygnalizacja)."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La acera",
+    "pl_word": "chodnik",
+    "examples": [
+      {
+        "es_form": "Compré [la acera::chodnik] ayer.",
+        "pl_translation": "Kupiłem/am chodnik wczoraj."
+      },
+      {
+        "es_form": "[La acera::chodnik] está sobre la mesa.",
+        "pl_translation": "Chodnik jest na stole."
+      },
+      {
+        "es_form": "[La acera::chodnik] es de madera.",
+        "pl_translation": "Chodnik jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La esquina",
+    "pl_word": "róg",
+    "examples": [
+      {
+        "es_form": "[La esquina::róg] está sobre la mesa.",
+        "pl_translation": "Róg jest na stole."
+      },
+      {
+        "es_form": "Se me rompio [la esquina::róg].",
+        "pl_translation": "Zepsuł mi się róg."
+      },
+      {
+        "es_form": "[La esquina::róg] es de madera.",
+        "pl_translation": "Róg jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El paso",
+    "pl_word": "krok, przejście",
+    "examples": [
+      {
+        "es_form": "No tengo [el paso::krok, przejście] suficiente.",
+        "pl_translation": "Nie mam wystarczająco krok, przejście."
+      },
+      {
+        "es_form": "[El paso::krok, przejście] pasa muy rápido.",
+        "pl_translation": "Krok, przejście mija bardzo szybko."
+      },
+      {
+        "es_form": "Esperé [el paso::krok, przejście] entero.",
+        "pl_translation": "Czekałem/am cały/całą krok, przejście."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "recto",
+    "pl_word": "prosty",
+    "examples": [
+      {
+        "es_form": "La comida está [recta::prosty].",
+        "pl_translation": "Jedzenie jest prosty."
+      },
+      {
+        "es_form": "Mi amigo es [recto::prosty] y simpático.",
+        "pl_translation": "Mój przyjaciel jest prosty i sympatyczny."
+      },
+      {
+        "es_form": "Es un lugar [recto::prosty] para vivir.",
+        "pl_translation": "To jest prosty miejsce do życia."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "izquierdo",
+    "pl_word": "lewy",
+    "examples": [
+      {
+        "es_form": "Se compro un vestido [izquierdo::lewy].",
+        "pl_translation": "Kupiła sobie lewy sukienkę."
+      },
+      {
+        "es_form": "Hace un día [izquierdo::lewy].",
+        "pl_translation": "Jest lewy dzień."
+      },
+      {
+        "es_form": "El examen fue [izquierdo::lewy].",
+        "pl_translation": "Egzamin był lewy."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "andar",
+    "pl_word": "chodzić, iść pieszo",
+    "examples": [
+      {
+        "es_form": "Me gusta [andar::chodzić, iść pieszo] por la mañana.",
+        "pl_translation": "Lubię chodzić, iść pieszo rano."
+      },
+      {
+        "es_form": "Hay que [andar::chodzić, iść pieszo] con cuidado.",
+        "pl_translation": "Trzeba chodzić, iść pieszo ostrożnie."
+      },
+      {
+        "es_form": "Es importante [andar::chodzić, iść pieszo] todos los días.",
+        "pl_translation": "Ważne jest chodzić, iść pieszo codziennie."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "ando",
+        "pl_word": "chodzić (1.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [ando::chodzić (1.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze chodzić (1.os.lp, ter.) z uwagą."
+          },
+          {
+            "es_form": "No [ando::chodzić (1.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie chodzić (1.os.lp, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "¿[ando::chodzić (1.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy chodzić (1.os.lp, ter.) w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "andas",
+        "pl_word": "chodzić (2.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[andas::chodzić (2.os.lp, ter.)] todos los días.",
+            "pl_translation": "Chodzić (2.os.lp, ter.) codziennie."
+          },
+          {
+            "es_form": "[andas::chodzić (2.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Chodzić (2.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Siempre [andas::chodzić (2.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze chodzić (2.os.lp, ter.) z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "anda",
+        "pl_word": "chodzić (3.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[anda::chodzić (3.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Chodzić (3.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [anda::chodzić (3.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj chodzić (3.os.lp, ter.) rano."
+          },
+          {
+            "es_form": "No [anda::chodzić (3.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie chodzić (3.os.lp, ter.) zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "andamos",
+        "pl_word": "chodzić (1.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "No [andamos::chodzić (1.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie chodzić (1.os.lm, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "¿[andamos::chodzić (1.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy chodzić (1.os.lm, ter.) w weekendy?"
+          },
+          {
+            "es_form": "Normalmente [andamos::chodzić (1.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj chodzić (1.os.lm, ter.) rano."
+          }
+        ]
+      },
+      {
+        "es_word": "andáis",
+        "pl_word": "chodzić (2.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[andáis::chodzić (2.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Chodzić (2.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [andáis::chodzić (2.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj chodzić (2.os.lm, ter.) rano."
+          },
+          {
+            "es_form": "[andáis::chodzić (2.os.lm, ter.)] todos los días.",
+            "pl_translation": "Chodzić (2.os.lm, ter.) codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "andan",
+        "pl_word": "chodzić (3.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [andan::chodzić (3.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj chodzić (3.os.lm, ter.) rano."
+          },
+          {
+            "es_form": "No [andan::chodzić (3.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie chodzić (3.os.lm, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "[andan::chodzić (3.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Chodzić (3.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "anduve",
+        "pl_word": "chodzić (1.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [anduve::chodzić (1.os.lp, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie chodzić (1.os.lp, przesz.)."
+          },
+          {
+            "es_form": "[anduve::chodzić (1.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Chodzić (1.os.lp, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Ayer [anduve::chodzić (1.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj chodzić (1.os.lp, przesz.) cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "anduviste",
+        "pl_word": "chodzić (2.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[anduviste::chodzić (2.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Chodzić (2.os.lp, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Ayer [anduviste::chodzić (2.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj chodzić (2.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "[anduviste::chodzić (2.os.lp, przesz.)] la semana pasada.",
+            "pl_translation": "Chodzić (2.os.lp, przesz.) w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "anduvo",
+        "pl_word": "chodzić (3.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[anduvo::chodzić (3.os.lp, przesz.)] la semana pasada.",
+            "pl_translation": "Chodzić (3.os.lp, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Nunca [anduvo::chodzić (3.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie chodzić (3.os.lp, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "[anduvo::chodzić (3.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Chodzić (3.os.lp, przesz.) bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "anduvimos",
+        "pl_word": "chodzić (1.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[anduvimos::chodzić (1.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy chodzić (1.os.lm, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "El mes pasado no [anduvimos::chodzić (1.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie chodzić (1.os.lm, przesz.)."
+          },
+          {
+            "es_form": "Ayer [anduvimos::chodzić (1.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj chodzić (1.os.lm, przesz.) cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "anduvisteis",
+        "pl_word": "chodzić (2.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [anduvisteis::chodzić (2.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj chodzić (2.os.lm, przesz.) cały dzień."
+          },
+          {
+            "es_form": "Nunca [anduvisteis::chodzić (2.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie chodzić (2.os.lm, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "El mes pasado no [anduvisteis::chodzić (2.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie chodzić (2.os.lm, przesz.)."
+          }
+        ]
+      },
+      {
+        "es_word": "anduvieron",
+        "pl_word": "chodzić (3.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[anduvieron::chodzić (3.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Chodzić (3.os.lm, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [anduvieron::chodzić (3.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie chodzić (3.os.lm, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "Ayer [anduvieron::chodzić (3.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj chodzić (3.os.lm, przesz.) cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "andaré",
+        "pl_word": "chodzić (1.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[andaré::chodzić (1.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Chodzić (1.os.lp, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "El año que viene [andaré::chodzić (1.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku chodzić (1.os.lp, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Mañana [andaré::chodzić (1.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro chodzić (1.os.lp, przysz.) wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "andarás",
+        "pl_word": "chodzić (2.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[andarás::chodzić (2.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Chodzić (2.os.lp, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "¿[andarás::chodzić (2.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy chodzić (2.os.lp, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "Te prometo que [andarás::chodzić (2.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że chodzić (2.os.lp, przysz.) na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "andará",
+        "pl_word": "chodzić (3.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [andará::chodzić (3.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że chodzić (3.os.lp, przysz.) dobrze."
+          },
+          {
+            "es_form": "Mañana [andará::chodzić (3.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro chodzić (3.os.lp, przysz.) wcześniej."
+          },
+          {
+            "es_form": "El año que viene [andará::chodzić (3.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku chodzić (3.os.lp, przysz.) w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "andaremos",
+        "pl_word": "chodzić (1.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[andaremos::chodzić (1.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Chodzić (1.os.lm, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "¿[andaremos::chodzić (1.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy chodzić (1.os.lm, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "Creo que [andaremos::chodzić (1.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że chodzić (1.os.lm, przysz.) dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "andaréis",
+        "pl_word": "chodzić (2.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [andaréis::chodzić (2.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że chodzić (2.os.lm, przysz.) na czas."
+          },
+          {
+            "es_form": "¿[andaréis::chodzić (2.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy chodzić (2.os.lm, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "El año que viene [andaréis::chodzić (2.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku chodzić (2.os.lm, przysz.) w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "andarán",
+        "pl_word": "chodzić (3.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [andarán::chodzić (3.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że chodzić (3.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "Te prometo que [andarán::chodzić (3.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że chodzić (3.os.lm, przysz.) na czas."
+          },
+          {
+            "es_form": "[andarán::chodzić (3.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Chodzić (3.os.lm, przysz.) w przyszłym tygodniu."
+          }
+        ]
+      }
+    ]
+  }
+]

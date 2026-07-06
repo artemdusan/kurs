@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "El servicio",
+    "pl_word": "usługa",
+    "examples": [
+      {
+        "es_form": "[El servicio::usługa] cuesta diez euros.",
+        "pl_translation": "Usługa kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "¿Has visto [el servicio::usługa]?",
+        "pl_translation": "Widziałeś/aś usługa?"
+      },
+      {
+        "es_form": "Compré [el servicio::usługa] ayer.",
+        "pl_translation": "Kupiłem/am usługa wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El peluquero",
+    "pl_word": "fryzjer",
+    "examples": [
+      {
+        "es_form": "¿Has visto [el peluquero::fryzjer]?",
+        "pl_translation": "Widziałeś/aś fryzjer?"
+      },
+      {
+        "es_form": "Compré [el peluquero::fryzjer] ayer.",
+        "pl_translation": "Kupiłem/am fryzjer wczoraj."
+      },
+      {
+        "es_form": "Guarda [el peluquero::fryzjer] en el armario.",
+        "pl_translation": "Schowaj fryzjer do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El mecánico",
+    "pl_word": "mechanik",
+    "examples": [
+      {
+        "es_form": "[El mecánico::mechanik] está sobre la mesa.",
+        "pl_translation": "Mechanik jest na stole."
+      },
+      {
+        "es_form": "[El mecánico::mechanik] cuesta diez euros.",
+        "pl_translation": "Mechanik kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Compré [el mecánico::mechanik] ayer.",
+        "pl_translation": "Kupiłem/am mechanik wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El taller",
+    "pl_word": "warsztat",
+    "examples": [
+      {
+        "es_form": "Voy a [el taller::warsztat] cada día.",
+        "pl_translation": "Chodzę do warsztat codziennie."
+      },
+      {
+        "es_form": "[El taller::warsztat] está cerca de aquí.",
+        "pl_translation": "Warsztat jest niedaleko stąd."
+      },
+      {
+        "es_form": "[El taller::warsztat] es muy grande.",
+        "pl_translation": "Warsztat jest bardzo duży/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La herramienta",
+    "pl_word": "narzędzie",
+    "examples": [
+      {
+        "es_form": "Guarda [la herramienta::narzędzie] en el armario.",
+        "pl_translation": "Schowaj narzędzie do szafy."
+      },
+      {
+        "es_form": "[La herramienta::narzędzie] cuesta diez euros.",
+        "pl_translation": "Narzędzie kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "[La herramienta::narzędzie] está sobre la mesa.",
+        "pl_translation": "Narzędzie jest na stole."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El destornillador",
+    "pl_word": "śrubokręt",
+    "examples": [
+      {
+        "es_form": "[El destornillador::śrubokręt] cuesta diez euros.",
+        "pl_translation": "Śrubokręt kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Guarda [el destornillador::śrubokręt] en el armario.",
+        "pl_translation": "Schowaj śrubokręt do szafy."
+      },
+      {
+        "es_form": "[El destornillador::śrubokręt] es de madera.",
+        "pl_translation": "Śrubokręt jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El martillo",
+    "pl_word": "młotek",
+    "examples": [
+      {
+        "es_form": "Compré [el martillo::młotek] ayer.",
+        "pl_translation": "Kupiłem/am młotek wczoraj."
+      },
+      {
+        "es_form": "[El martillo::młotek] está sobre la mesa.",
+        "pl_translation": "Młotek jest na stole."
+      },
+      {
+        "es_form": "Guarda [el martillo::młotek] en el armario.",
+        "pl_translation": "Schowaj młotek do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La avería",
+    "pl_word": "usterka",
+    "examples": [
+      {
+        "es_form": "Necesito [la avería::usterka] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową usterka."
+      },
+      {
+        "es_form": "Se me rompio [la avería::usterka].",
+        "pl_translation": "Zepsuł mi się usterka."
+      },
+      {
+        "es_form": "¿Has visto [la avería::usterka]?",
+        "pl_translation": "Widziałeś/aś usterka?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El repuesto",
+    "pl_word": "część zamienna",
+    "examples": [
+      {
+        "es_form": "[El repuesto::część zamienna] es de madera.",
+        "pl_translation": "Część zamienna jest z drewna."
+      },
+      {
+        "es_form": "Guarda [el repuesto::część zamienna] en el armario.",
+        "pl_translation": "Schowaj część zamienna do szafy."
+      },
+      {
+        "es_form": "Necesito [el repuesto::część zamienna] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową część zamienna."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El arreglo",
+    "pl_word": "naprawa",
+    "examples": [
+      {
+        "es_form": "Se me rompio [el arreglo::naprawa].",
+        "pl_translation": "Zepsuł mi się naprawa."
+      },
+      {
+        "es_form": "[El arreglo::naprawa] es de madera.",
+        "pl_translation": "Naprawa jest z drewna."
+      },
+      {
+        "es_form": "[El arreglo::naprawa] cuesta diez euros.",
+        "pl_translation": "Naprawa kosztuje dziesięć euro."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "dañado",
+    "pl_word": "uszkodzony",
+    "examples": [
+      {
+        "es_form": "Se compro un vestido [dañado::uszkodzony].",
+        "pl_translation": "Kupiła sobie uszkodzony sukienkę."
+      },
+      {
+        "es_form": "Tengo una casa [dañada::uszkodzony].",
+        "pl_translation": "Mam uszkodzony dom."
+      },
+      {
+        "es_form": "El examen fue [dañado::uszkodzony].",
+        "pl_translation": "Egzamin był uszkodzony."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "útil",
+    "pl_word": "sprawny, użyteczny",
+    "examples": [
+      {
+        "es_form": "El examen fue [útil::sprawny, użyteczny].",
+        "pl_translation": "Egzamin był sprawny, użyteczny."
+      },
+      {
+        "es_form": "Nada es más [útil::sprawny, użyteczny] que la familia.",
+        "pl_translation": "Nic nie jest sprawny, użyteczny od rodziny."
+      },
+      {
+        "es_form": "Es un lugar [útil::sprawny, użyteczny] para vivir.",
+        "pl_translation": "To jest sprawny, użyteczny miejsce do życia."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "reparar",
+    "pl_word": "naprawiać",
+    "examples": [
+      {
+        "es_form": "Quiero [reparar::naprawiać] ahora.",
+        "pl_translation": "Chcę naprawiać teraz."
+      },
+      {
+        "es_form": "Voy a [reparar::naprawiać] mañana.",
+        "pl_translation": "Będę naprawiać jutro."
+      },
+      {
+        "es_form": "Prefiero [reparar::naprawiać] en casa.",
+        "pl_translation": "Wolę naprawiać w domu."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "reparo",
+        "pl_word": "naprawiać (1.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[reparo::naprawiać (1.os.lp, ter.)] todos los días.",
+            "pl_translation": "Naprawiać (1.os.lp, ter.) codziennie."
+          },
+          {
+            "es_form": "Normalmente [reparo::naprawiać (1.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj naprawiać (1.os.lp, ter.) rano."
+          },
+          {
+            "es_form": "¿[reparo::naprawiać (1.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy naprawiać (1.os.lp, ter.) w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "reparas",
+        "pl_word": "naprawiać (2.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[reparas::naprawiać (2.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Naprawiać (2.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Siempre [reparas::naprawiać (2.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze naprawiać (2.os.lp, ter.) z uwagą."
+          },
+          {
+            "es_form": "[reparas::naprawiać (2.os.lp, ter.)] todos los días.",
+            "pl_translation": "Naprawiać (2.os.lp, ter.) codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "repara",
+        "pl_word": "naprawiać (3.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[repara::naprawiać (3.os.lp, ter.)] todos los días.",
+            "pl_translation": "Naprawiać (3.os.lp, ter.) codziennie."
+          },
+          {
+            "es_form": "Siempre [repara::naprawiać (3.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze naprawiać (3.os.lp, ter.) z uwagą."
+          },
+          {
+            "es_form": "¿[repara::naprawiać (3.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy naprawiać (3.os.lp, ter.) w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "reparamos",
+        "pl_word": "naprawiać (1.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[reparamos::naprawiać (1.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Naprawiać (1.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [reparamos::naprawiać (1.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj naprawiać (1.os.lm, ter.) rano."
+          },
+          {
+            "es_form": "[reparamos::naprawiać (1.os.lm, ter.)] todos los días.",
+            "pl_translation": "Naprawiać (1.os.lm, ter.) codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "reparáis",
+        "pl_word": "naprawiać (2.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "No [reparáis::naprawiać (2.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie naprawiać (2.os.lm, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "Siempre [reparáis::naprawiać (2.os.lm, ter.)] con atencion.",
+            "pl_translation": "Zawsze naprawiać (2.os.lm, ter.) z uwagą."
+          },
+          {
+            "es_form": "[reparáis::naprawiać (2.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Naprawiać (2.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "reparan",
+        "pl_word": "naprawiać (3.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [reparan::naprawiać (3.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj naprawiać (3.os.lm, ter.) rano."
+          },
+          {
+            "es_form": "No [reparan::naprawiać (3.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie naprawiać (3.os.lm, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "[reparan::naprawiać (3.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Naprawiać (3.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "reparé",
+        "pl_word": "naprawiać (1.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[reparé::naprawiać (1.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy naprawiać (1.os.lp, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "[reparé::naprawiać (1.os.lp, przesz.)] la semana pasada.",
+            "pl_translation": "Naprawiać (1.os.lp, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "[reparé::naprawiać (1.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Naprawiać (1.os.lp, przesz.) bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "reparaste",
+        "pl_word": "naprawiać (2.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[reparaste::naprawiać (2.os.lp, przesz.)] la semana pasada.",
+            "pl_translation": "Naprawiać (2.os.lp, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Nunca [reparaste::naprawiać (2.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie naprawiać (2.os.lp, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "¿[reparaste::naprawiać (2.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy naprawiać (2.os.lp, przesz.) dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "reparó",
+        "pl_word": "naprawiać (3.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [reparó::naprawiać (3.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj naprawiać (3.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "[reparó::naprawiać (3.os.lp, przesz.)] la semana pasada.",
+            "pl_translation": "Naprawiać (3.os.lp, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "[reparó::naprawiać (3.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Naprawiać (3.os.lp, przesz.) bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "reparamos",
+        "pl_word": "naprawiać (1.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[reparamos::naprawiać (1.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Naprawiać (1.os.lm, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "[reparamos::naprawiać (1.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Naprawiać (1.os.lm, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Nunca [reparamos::naprawiać (1.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie naprawiać (1.os.lm, przesz.) czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "reparasteis",
+        "pl_word": "naprawiać (2.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[reparasteis::naprawiać (2.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Naprawiać (2.os.lm, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Ayer [reparasteis::naprawiać (2.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj naprawiać (2.os.lm, przesz.) cały dzień."
+          },
+          {
+            "es_form": "[reparasteis::naprawiać (2.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Naprawiać (2.os.lm, przesz.) w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "repararon",
+        "pl_word": "naprawiać (3.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [repararon::naprawiać (3.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj naprawiać (3.os.lm, przesz.) cały dzień."
+          },
+          {
+            "es_form": "[repararon::naprawiać (3.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Naprawiać (3.os.lm, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "El mes pasado no [repararon::naprawiać (3.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie naprawiać (3.os.lm, przesz.)."
+          }
+        ]
+      },
+      {
+        "es_word": "reparé",
+        "pl_word": "naprawiać (1.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[reparé::naprawiać (1.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Naprawiać (1.os.lp, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "¿[reparé::naprawiać (1.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy naprawiać (1.os.lp, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "Creo que [reparé::naprawiać (1.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że naprawiać (1.os.lp, przysz.) dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "reparás",
+        "pl_word": "naprawiać (2.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[reparás::naprawiać (2.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy naprawiać (2.os.lp, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "Te prometo que [reparás::naprawiać (2.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że naprawiać (2.os.lp, przysz.) na czas."
+          },
+          {
+            "es_form": "Mañana [reparás::naprawiać (2.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro naprawiać (2.os.lp, przysz.) wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "repará",
+        "pl_word": "naprawiać (3.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [repará::naprawiać (3.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że naprawiać (3.os.lp, przysz.) na czas."
+          },
+          {
+            "es_form": "El año que viene [repará::naprawiać (3.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku naprawiać (3.os.lp, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Mañana [repará::naprawiać (3.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro naprawiać (3.os.lp, przysz.) wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "reparemos",
+        "pl_word": "naprawiać (1.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[reparemos::naprawiać (1.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Naprawiać (1.os.lm, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Creo que [reparemos::naprawiać (1.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że naprawiać (1.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "¿[reparemos::naprawiać (1.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy naprawiać (1.os.lm, przysz.) z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "reparéis",
+        "pl_word": "naprawiać (2.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [reparéis::naprawiać (2.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że naprawiać (2.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "[reparéis::naprawiać (2.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Naprawiać (2.os.lm, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "¿[reparéis::naprawiać (2.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy naprawiać (2.os.lm, przysz.) z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "reparán",
+        "pl_word": "naprawiać (3.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[reparán::naprawiać (3.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Naprawiać (3.os.lm, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "¿[reparán::naprawiać (3.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy naprawiać (3.os.lm, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "Te prometo que [reparán::naprawiać (3.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że naprawiać (3.os.lm, przysz.) na czas."
+          }
+        ]
+      }
+    ]
+  }
+]

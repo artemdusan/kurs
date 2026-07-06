@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "La mañana",
+    "pl_word": "rano; jutro",
+    "examples": [
+      {
+        "es_form": "Esperé [la mañana::rano; jutro] entero.",
+        "pl_translation": "Czekałem/am cały/całą rano; jutro."
+      },
+      {
+        "es_form": "Llego [la mañana::rano; jutro] de la boda.",
+        "pl_translation": "Nadszedł rano; jutro ślubu."
+      },
+      {
+        "es_form": "[La mañana::rano; jutro] se me hizo eterno.",
+        "pl_translation": "Rano; jutro mi się dłużył/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La mediodía",
+    "pl_word": "południe",
+    "examples": [
+      {
+        "es_form": "[La mediodía::południe] es oro.",
+        "pl_translation": "Południe jest na wagę złota."
+      },
+      {
+        "es_form": "[La mediodía::południe] se me hizo eterno.",
+        "pl_translation": "Południe mi się dłużył/a."
+      },
+      {
+        "es_form": "[La mediodía::południe] pasa muy rápido.",
+        "pl_translation": "Południe mija bardzo szybko."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El tarde",
+    "pl_word": "popołudnie",
+    "examples": [
+      {
+        "es_form": "Llego [el tarde::popołudnie] de la boda.",
+        "pl_translation": "Nadszedł popołudnie ślubu."
+      },
+      {
+        "es_form": "[El tarde::popołudnie] es oro.",
+        "pl_translation": "Popołudnie jest na wagę złota."
+      },
+      {
+        "es_form": "[El tarde::popołudnie] pasa muy rápido.",
+        "pl_translation": "Popołudnie mija bardzo szybko."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La noche",
+    "pl_word": "noc, wieczór",
+    "examples": [
+      {
+        "es_form": "[La noche::noc, wieczór] se me hizo eterno.",
+        "pl_translation": "Noc, wieczór mi się dłużył/a."
+      },
+      {
+        "es_form": "No tengo [la noche::noc, wieczór] suficiente.",
+        "pl_translation": "Nie mam wystarczająco noc, wieczór."
+      },
+      {
+        "es_form": "Esperé [la noche::noc, wieczór] entero.",
+        "pl_translation": "Czekałem/am cały/całą noc, wieczór."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La primavera",
+    "pl_word": "wiosna",
+    "examples": [
+      {
+        "es_form": "[La primavera::wiosna] pasa muy rápido.",
+        "pl_translation": "Wiosna mija bardzo szybko."
+      },
+      {
+        "es_form": "Llego [la primavera::wiosna] de la boda.",
+        "pl_translation": "Nadszedł wiosna ślubu."
+      },
+      {
+        "es_form": "[La primavera::wiosna] es oro.",
+        "pl_translation": "Wiosna jest na wagę złota."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El verano",
+    "pl_word": "lato",
+    "examples": [
+      {
+        "es_form": "[El verano::lato] se me hizo eterno.",
+        "pl_translation": "Lato mi się dłużył/a."
+      },
+      {
+        "es_form": "[El verano::lato] pasa muy rápido.",
+        "pl_translation": "Lato mija bardzo szybko."
+      },
+      {
+        "es_form": "Esperé [el verano::lato] entero.",
+        "pl_translation": "Czekałem/am cały/całą lato."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El otoño",
+    "pl_word": "jesień",
+    "examples": [
+      {
+        "es_form": "[El otoño::jesień] pasa muy rápido.",
+        "pl_translation": "Jesień mija bardzo szybko."
+      },
+      {
+        "es_form": "Llego [el otoño::jesień] de la boda.",
+        "pl_translation": "Nadszedł jesień ślubu."
+      },
+      {
+        "es_form": "[El otoño::jesień] es oro.",
+        "pl_translation": "Jesień jest na wagę złota."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El invierno",
+    "pl_word": "zima",
+    "examples": [
+      {
+        "es_form": "Llego [el invierno::zima] de la boda.",
+        "pl_translation": "Nadszedł zima ślubu."
+      },
+      {
+        "es_form": "No tengo [el invierno::zima] suficiente.",
+        "pl_translation": "Nie mam wystarczająco zima."
+      },
+      {
+        "es_form": "[El invierno::zima] se me hizo eterno.",
+        "pl_translation": "Zima mi się dłużył/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La temporada",
+    "pl_word": "sezon, pora",
+    "examples": [
+      {
+        "es_form": "[La temporada::sezon, pora] se me hizo eterno.",
+        "pl_translation": "Sezon, pora mi się dłużył/a."
+      },
+      {
+        "es_form": "Llego [la temporada::sezon, pora] de la boda.",
+        "pl_translation": "Nadszedł sezon, pora ślubu."
+      },
+      {
+        "es_form": "[La temporada::sezon, pora] es oro.",
+        "pl_translation": "Sezon, pora jest na wagę złota."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La madrugada",
+    "pl_word": "świt, wczesny ranek",
+    "examples": [
+      {
+        "es_form": "[La madrugada::świt, wczesny ranek] es de madera.",
+        "pl_translation": "Świt, wczesny ranek jest z drewna."
+      },
+      {
+        "es_form": "Compré [la madrugada::świt, wczesny ranek] ayer.",
+        "pl_translation": "Kupiłem/am świt, wczesny ranek wczoraj."
+      },
+      {
+        "es_form": "Necesito [la madrugada::świt, wczesny ranek] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową świt, wczesny ranek."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "claro",
+    "pl_word": "jasny",
+    "examples": [
+      {
+        "es_form": "Se compro un vestido [claro::jasny].",
+        "pl_translation": "Kupiła sobie jasny sukienkę."
+      },
+      {
+        "es_form": "La comida está [clara::jasny].",
+        "pl_translation": "Jedzenie jest jasny."
+      },
+      {
+        "es_form": "El examen fue [claro::jasny].",
+        "pl_translation": "Egzamin był jasny."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "oscuro",
+    "pl_word": "ciemny",
+    "examples": [
+      {
+        "es_form": "Este coche es [oscuro::ciemny].",
+        "pl_translation": "Ten samochód jest ciemny."
+      },
+      {
+        "es_form": "La comida está [oscura::ciemny].",
+        "pl_translation": "Jedzenie jest ciemny."
+      },
+      {
+        "es_form": "Se compro un vestido [oscuro::ciemny].",
+        "pl_translation": "Kupiła sobie ciemny sukienkę."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "levantarse",
+    "pl_word": "wstawać",
+    "examples": [
+      {
+        "es_form": "Hay que [levantarse::wstawać] con cuidado.",
+        "pl_translation": "Trzeba wstawać ostrożnie."
+      },
+      {
+        "es_form": "Voy a [levantarse::wstawać] mañana.",
+        "pl_translation": "Będę wstawać jutro."
+      },
+      {
+        "es_form": "¿Puedes [levantarse::wstawać] más rápido?",
+        "pl_translation": "Możesz wstawać szybciej?"
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "me levanto",
+        "pl_word": "wstawać (1.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [me levanto::wstawać (1.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj wstawać (1.os.lp, ter.) rano."
+          },
+          {
+            "es_form": "Siempre [me levanto::wstawać (1.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze wstawać (1.os.lp, ter.) z uwagą."
+          },
+          {
+            "es_form": "No [me levanto::wstawać (1.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie wstawać (1.os.lp, ter.) zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "te levantas",
+        "pl_word": "wstawać (2.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[te levantas::wstawać (2.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Wstawać (2.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "¿[te levantas::wstawać (2.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy wstawać (2.os.lp, ter.) w weekendy?"
+          },
+          {
+            "es_form": "No [te levantas::wstawać (2.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie wstawać (2.os.lp, ter.) zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "se levanta",
+        "pl_word": "wstawać (3.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[se levanta::wstawać (3.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy wstawać (3.os.lp, ter.) w weekendy?"
+          },
+          {
+            "es_form": "No [se levanta::wstawać (3.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie wstawać (3.os.lp, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "[se levanta::wstawać (3.os.lp, ter.)] todos los días.",
+            "pl_translation": "Wstawać (3.os.lp, ter.) codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "nos levantamos",
+        "pl_word": "wstawać (1.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[nos levantamos::wstawać (1.os.lm, ter.)] todos los días.",
+            "pl_translation": "Wstawać (1.os.lm, ter.) codziennie."
+          },
+          {
+            "es_form": "No [nos levantamos::wstawać (1.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie wstawać (1.os.lm, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "Siempre [nos levantamos::wstawać (1.os.lm, ter.)] con atencion.",
+            "pl_translation": "Zawsze wstawać (1.os.lm, ter.) z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "os levantáis",
+        "pl_word": "wstawać (2.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[os levantáis::wstawać (2.os.lm, ter.)] todos los días.",
+            "pl_translation": "Wstawać (2.os.lm, ter.) codziennie."
+          },
+          {
+            "es_form": "Siempre [os levantáis::wstawać (2.os.lm, ter.)] con atencion.",
+            "pl_translation": "Zawsze wstawać (2.os.lm, ter.) z uwagą."
+          },
+          {
+            "es_form": "[os levantáis::wstawać (2.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Wstawać (2.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "se levantan",
+        "pl_word": "wstawać (3.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [se levantan::wstawać (3.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj wstawać (3.os.lm, ter.) rano."
+          },
+          {
+            "es_form": "[se levantan::wstawać (3.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Wstawać (3.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "No [se levantan::wstawać (3.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie wstawać (3.os.lm, ter.) zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "me levanté",
+        "pl_word": "wstawać (1.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[me levanté::wstawać (1.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Wstawać (1.os.lp, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Ayer [me levanté::wstawać (1.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj wstawać (1.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "[me levanté::wstawać (1.os.lp, przesz.)] la semana pasada.",
+            "pl_translation": "Wstawać (1.os.lp, przesz.) w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "te levantaste",
+        "pl_word": "wstawać (2.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[te levantaste::wstawać (2.os.lp, przesz.)] la semana pasada.",
+            "pl_translation": "Wstawać (2.os.lp, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Ayer [te levantaste::wstawać (2.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj wstawać (2.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "[te levantaste::wstawać (2.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Wstawać (2.os.lp, przesz.) bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "se levantó",
+        "pl_word": "wstawać (3.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [se levantó::wstawać (3.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj wstawać (3.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "¿[se levantó::wstawać (3.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy wstawać (3.os.lp, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "[se levantó::wstawać (3.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Wstawać (3.os.lp, przesz.) bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "nos levantamos",
+        "pl_word": "wstawać (1.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [nos levantamos::wstawać (1.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie wstawać (1.os.lm, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "Ayer [nos levantamos::wstawać (1.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj wstawać (1.os.lm, przesz.) cały dzień."
+          },
+          {
+            "es_form": "[nos levantamos::wstawać (1.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Wstawać (1.os.lm, przesz.) w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "os levantasteis",
+        "pl_word": "wstawać (2.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [os levantasteis::wstawać (2.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie wstawać (2.os.lm, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "Ayer [os levantasteis::wstawać (2.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj wstawać (2.os.lm, przesz.) cały dzień."
+          },
+          {
+            "es_form": "¿[os levantasteis::wstawać (2.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy wstawać (2.os.lm, przesz.) dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "se levantaron",
+        "pl_word": "wstawać (3.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[se levantaron::wstawać (3.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy wstawać (3.os.lm, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "[se levantaron::wstawać (3.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Wstawać (3.os.lm, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "[se levantaron::wstawać (3.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Wstawać (3.os.lm, przesz.) bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "me levanté",
+        "pl_word": "wstawać (1.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[me levanté::wstawać (1.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Wstawać (1.os.lp, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Mañana [me levanté::wstawać (1.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro wstawać (1.os.lp, przysz.) wcześniej."
+          },
+          {
+            "es_form": "¿[me levanté::wstawać (1.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy wstawać (1.os.lp, przysz.) z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "te levantás",
+        "pl_word": "wstawać (2.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [te levantás::wstawać (2.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku wstawać (2.os.lp, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "[te levantás::wstawać (2.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Wstawać (2.os.lp, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Te prometo que [te levantás::wstawać (2.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że wstawać (2.os.lp, przysz.) na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "se levantá",
+        "pl_word": "wstawać (3.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[se levantá::wstawać (3.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy wstawać (3.os.lp, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "El año que viene [se levantá::wstawać (3.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku wstawać (3.os.lp, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Te prometo que [se levantá::wstawać (3.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że wstawać (3.os.lp, przysz.) na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "nos levantemos",
+        "pl_word": "wstawać (1.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [nos levantemos::wstawać (1.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku wstawać (1.os.lm, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "[nos levantemos::wstawać (1.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Wstawać (1.os.lm, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Te prometo que [nos levantemos::wstawać (1.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że wstawać (1.os.lm, przysz.) na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "os levantéis",
+        "pl_word": "wstawać (2.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[os levantéis::wstawać (2.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy wstawać (2.os.lm, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "[os levantéis::wstawać (2.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Wstawać (2.os.lm, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Creo que [os levantéis::wstawać (2.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że wstawać (2.os.lm, przysz.) dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "se levantán",
+        "pl_word": "wstawać (3.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [se levantán::wstawać (3.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku wstawać (3.os.lm, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Mañana [se levantán::wstawać (3.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro wstawać (3.os.lm, przysz.) wcześniej."
+          },
+          {
+            "es_form": "¿[se levantán::wstawać (3.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy wstawać (3.os.lm, przysz.) z nami jutro?"
+          }
+        ]
+      }
+    ]
+  }
+]

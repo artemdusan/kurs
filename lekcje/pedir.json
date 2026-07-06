@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "El camarero",
+    "pl_word": "kelner",
+    "examples": [
+      {
+        "es_form": "Hablé con [el camarero::kelner] ayer.",
+        "pl_translation": "Rozmawiałem/am wczoraj z kelner."
+      },
+      {
+        "es_form": "[El camarero::kelner] vive en mi calle.",
+        "pl_translation": "Kelner mieszka na mojej ulicy."
+      },
+      {
+        "es_form": "[El camarero::kelner] trabaja aquí.",
+        "pl_translation": "Kelner tu pracuje."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El menú",
+    "pl_word": "menu",
+    "examples": [
+      {
+        "es_form": "[El menú::menu] está sobre la mesa.",
+        "pl_translation": "Menu jest na stole."
+      },
+      {
+        "es_form": "¿Has visto [el menú::menu]?",
+        "pl_translation": "Widziałeś/aś menu?"
+      },
+      {
+        "es_form": "Compré [el menú::menu] ayer.",
+        "pl_translation": "Kupiłem/am menu wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El plato",
+    "pl_word": "danie",
+    "examples": [
+      {
+        "es_form": "Me gusta mucho [el plato::danie].",
+        "pl_translation": "Bardzo lubię danie."
+      },
+      {
+        "es_form": "[El plato::danie] se hace con leche.",
+        "pl_translation": "Danie robi się z mleka."
+      },
+      {
+        "es_form": "[El plato::danie] es típico de España.",
+        "pl_translation": "Danie jest typowy/a dla Hiszpanii."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La entrada",
+    "pl_word": "przystawka",
+    "examples": [
+      {
+        "es_form": "[La entrada::przystawka] está muy rico.",
+        "pl_translation": "Przystawka jest bardzo smaczny/a."
+      },
+      {
+        "es_form": "¿Quieres [la entrada::przystawka]?",
+        "pl_translation": "Chcesz przystawka?"
+      },
+      {
+        "es_form": "Compramos [la entrada::przystawka] en el mercado.",
+        "pl_translation": "Kupiliśmy przystawka na targu."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El postre",
+    "pl_word": "deser",
+    "examples": [
+      {
+        "es_form": "Me gusta mucho [el postre::deser].",
+        "pl_translation": "Bardzo lubię deser."
+      },
+      {
+        "es_form": "[El postre::deser] está muy rico.",
+        "pl_translation": "Deser jest bardzo smaczny/a."
+      },
+      {
+        "es_form": "[El postre::deser] es típico de España.",
+        "pl_translation": "Deser jest typowy/a dla Hiszpanii."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La propina",
+    "pl_word": "napiwek",
+    "examples": [
+      {
+        "es_form": "[La propina::napiwek] cuesta diez euros.",
+        "pl_translation": "Napiwek kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Compré [la propina::napiwek] ayer.",
+        "pl_translation": "Kupiłem/am napiwek wczoraj."
+      },
+      {
+        "es_form": "Guarda [la propina::napiwek] en el armario.",
+        "pl_translation": "Schowaj napiwek do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La cuenta",
+    "pl_word": "rachunek",
+    "examples": [
+      {
+        "es_form": "Necesito [la cuenta::rachunek] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową rachunek."
+      },
+      {
+        "es_form": "[La cuenta::rachunek] es de madera.",
+        "pl_translation": "Rachunek jest z drewna."
+      },
+      {
+        "es_form": "[La cuenta::rachunek] está sobre la mesa.",
+        "pl_translation": "Rachunek jest na stole."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La reserva",
+    "pl_word": "rezerwacja",
+    "examples": [
+      {
+        "es_form": "Necesito [la reserva::rezerwacja] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową rezerwacja."
+      },
+      {
+        "es_form": "Compré [la reserva::rezerwacja] ayer.",
+        "pl_translation": "Kupiłem/am rezerwacja wczoraj."
+      },
+      {
+        "es_form": "¿Has visto [la reserva::rezerwacja]?",
+        "pl_translation": "Widziałeś/aś rezerwacja?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El bar",
+    "pl_word": "bar",
+    "examples": [
+      {
+        "es_form": "¿Donde está [el bar::bar]?",
+        "pl_translation": "Gdzie jest bar?"
+      },
+      {
+        "es_form": "[El bar::bar] está cerca de aquí.",
+        "pl_translation": "Bar jest niedaleko stąd."
+      },
+      {
+        "es_form": "[El bar::bar] abre a las ocho.",
+        "pl_translation": "Bar otwiera się o ósmej."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La cafetería",
+    "pl_word": "kawiarnia",
+    "examples": [
+      {
+        "es_form": "Trabajo en [la cafetería::kawiarnia].",
+        "pl_translation": "Pracuję w kawiarnia."
+      },
+      {
+        "es_form": "[La cafetería::kawiarnia] está cerca de aquí.",
+        "pl_translation": "Kawiarnia jest niedaleko stąd."
+      },
+      {
+        "es_form": "[La cafetería::kawiarnia] abre a las ocho.",
+        "pl_translation": "Kawiarnia otwiera się o ósmej."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "frito",
+    "pl_word": "smażony",
+    "examples": [
+      {
+        "es_form": "Tengo una casa [frita::smażony].",
+        "pl_translation": "Mam smażony dom."
+      },
+      {
+        "es_form": "Es un lugar [frito::smażony] para vivir.",
+        "pl_translation": "To jest smażony miejsce do życia."
+      },
+      {
+        "es_form": "Nada es más [frito::smażony] que la familia.",
+        "pl_translation": "Nic nie jest smażony od rodziny."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "hervido",
+    "pl_word": "gotowany",
+    "examples": [
+      {
+        "es_form": "Se compro un vestido [hervido::gotowany].",
+        "pl_translation": "Kupiła sobie gotowany sukienkę."
+      },
+      {
+        "es_form": "La comida está [hervida::gotowany].",
+        "pl_translation": "Jedzenie jest gotowany."
+      },
+      {
+        "es_form": "Es un lugar [hervido::gotowany] para vivir.",
+        "pl_translation": "To jest gotowany miejsce do życia."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "pedir",
+    "pl_word": "prosić, zamawiać",
+    "examples": [
+      {
+        "es_form": "Voy a [pedir::prosić, zamawiać] mañana.",
+        "pl_translation": "Będę prosić, zamawiać jutro."
+      },
+      {
+        "es_form": "Es importante [pedir::prosić, zamawiać] todos los días.",
+        "pl_translation": "Ważne jest prosić, zamawiać codziennie."
+      },
+      {
+        "es_form": "Hay que [pedir::prosić, zamawiać] con cuidado.",
+        "pl_translation": "Trzeba prosić, zamawiać ostrożnie."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "pido",
+        "pl_word": "prosić (1.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[pido::prosić (1.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Prosić (1.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "¿[pido::prosić (1.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy prosić (1.os.lp, ter.) w weekendy?"
+          },
+          {
+            "es_form": "Siempre [pido::prosić (1.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze prosić (1.os.lp, ter.) z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "pides",
+        "pl_word": "prosić (2.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[pidęs::prosić (2.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy prosić (2.os.lp, ter.) w weekendy?"
+          },
+          {
+            "es_form": "No [pidęs::prosić (2.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie prosić (2.os.lp, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "[pidęs::prosić (2.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Prosić (2.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "pide",
+        "pl_word": "prosić (3.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[pidę::prosić (3.os.lp, ter.)] todos los días.",
+            "pl_translation": "Prosić (3.os.lp, ter.) codziennie."
+          },
+          {
+            "es_form": "Siempre [pidę::prosić (3.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze prosić (3.os.lp, ter.) z uwagą."
+          },
+          {
+            "es_form": "No [pidę::prosić (3.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie prosić (3.os.lp, ter.) zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "pedimos",
+        "pl_word": "prosić (1.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [pedimos::prosić (1.os.lm, ter.)] con atencion.",
+            "pl_translation": "Zawsze prosić (1.os.lm, ter.) z uwagą."
+          },
+          {
+            "es_form": "No [pedimos::prosić (1.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie prosić (1.os.lm, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "[pedimos::prosić (1.os.lm, ter.)] todos los días.",
+            "pl_translation": "Prosić (1.os.lm, ter.) codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "pedís",
+        "pl_word": "prosić (2.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[pedís::prosić (2.os.lm, ter.)] todos los días.",
+            "pl_translation": "Prosić (2.os.lm, ter.) codziennie."
+          },
+          {
+            "es_form": "No [pedís::prosić (2.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie prosić (2.os.lm, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "¿[pedís::prosić (2.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy prosić (2.os.lm, ter.) w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "piden",
+        "pl_word": "prosić (3.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[pidęn::prosić (3.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Prosić (3.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "¿[pidęn::prosić (3.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy prosić (3.os.lm, ter.) w weekendy?"
+          },
+          {
+            "es_form": "Siempre [pidęn::prosić (3.os.lm, ter.)] con atencion.",
+            "pl_translation": "Zawsze prosić (3.os.lm, ter.) z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "pedí",
+        "pl_word": "prosić (1.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [pedí::prosić (1.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie prosić (1.os.lp, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "[pedí::prosić (1.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Prosić (1.os.lp, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "El mes pasado no [pedí::prosić (1.os.lp, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie prosić (1.os.lp, przesz.)."
+          }
+        ]
+      },
+      {
+        "es_word": "pediste",
+        "pl_word": "prosić (2.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [pediste::prosić (2.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie prosić (2.os.lp, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "[pediste::prosić (2.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Prosić (2.os.lp, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "[pediste::prosić (2.os.lp, przesz.)] la semana pasada.",
+            "pl_translation": "Prosić (2.os.lp, przesz.) w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "pidió",
+        "pl_word": "prosić (3.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[pidió::prosić (3.os.lp, przesz.)] la semana pasada.",
+            "pl_translation": "Prosić (3.os.lp, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "[pidió::prosić (3.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Prosić (3.os.lp, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [pidió::prosić (3.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie prosić (3.os.lp, przesz.) czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "pedimos",
+        "pl_word": "prosić (1.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [pedimos::prosić (1.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie prosić (1.os.lm, przesz.)."
+          },
+          {
+            "es_form": "Nunca [pedimos::prosić (1.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie prosić (1.os.lm, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "[pedimos::prosić (1.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Prosić (1.os.lm, przesz.) w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "pedisteis",
+        "pl_word": "prosić (2.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [pedisteis::prosić (2.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie prosić (2.os.lm, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "[pedisteis::prosić (2.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Prosić (2.os.lm, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "[pedisteis::prosić (2.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Prosić (2.os.lm, przesz.) bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "pidieron",
+        "pl_word": "prosić (3.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[pidieron::prosić (3.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Prosić (3.os.lm, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [pidieron::prosić (3.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie prosić (3.os.lm, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "El mes pasado no [pidieron::prosić (3.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie prosić (3.os.lm, przesz.)."
+          }
+        ]
+      },
+      {
+        "es_word": "pediré",
+        "pl_word": "prosić (1.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [pediré::prosić (1.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że prosić (1.os.lp, przysz.) na czas."
+          },
+          {
+            "es_form": "Mañana [pediré::prosić (1.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro prosić (1.os.lp, przysz.) wcześniej."
+          },
+          {
+            "es_form": "El año que viene [pediré::prosić (1.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku prosić (1.os.lp, przysz.) w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "pedirás",
+        "pl_word": "prosić (2.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[pedirás::prosić (2.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy prosić (2.os.lp, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "Creo que [pedirás::prosić (2.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że prosić (2.os.lp, przysz.) dobrze."
+          },
+          {
+            "es_form": "Te prometo que [pedirás::prosić (2.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że prosić (2.os.lp, przysz.) na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "pedirá",
+        "pl_word": "prosić (3.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [pedirá::prosić (3.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że prosić (3.os.lp, przysz.) na czas."
+          },
+          {
+            "es_form": "Creo que [pedirá::prosić (3.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że prosić (3.os.lp, przysz.) dobrze."
+          },
+          {
+            "es_form": "¿[pedirá::prosić (3.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy prosić (3.os.lp, przysz.) z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "pediremos",
+        "pl_word": "prosić (1.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [pediremos::prosić (1.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku prosić (1.os.lm, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Creo que [pediremos::prosić (1.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że prosić (1.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "Mañana [pediremos::prosić (1.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro prosić (1.os.lm, przysz.) wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "pediréis",
+        "pl_word": "prosić (2.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[pediréis::prosić (2.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy prosić (2.os.lm, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "Mañana [pediréis::prosić (2.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro prosić (2.os.lm, przysz.) wcześniej."
+          },
+          {
+            "es_form": "Creo que [pediréis::prosić (2.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że prosić (2.os.lm, przysz.) dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "pedirán",
+        "pl_word": "prosić (3.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[pedirán::prosić (3.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Prosić (3.os.lm, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Mañana [pedirán::prosić (3.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro prosić (3.os.lm, przysz.) wcześniej."
+          },
+          {
+            "es_form": "Te prometo que [pedirán::prosić (3.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że prosić (3.os.lm, przysz.) na czas."
+          }
+        ]
+      }
+    ]
+  }
+]

@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "La salud",
+    "pl_word": "zdrowie",
+    "examples": [
+      {
+        "es_form": "Tienes que aceptar [la salud::zdrowie].",
+        "pl_translation": "Musisz zaakceptować zdrowie."
+      },
+      {
+        "es_form": "[La salud::zdrowie] es muy importante.",
+        "pl_translation": "Zdrowie jest bardzo ważny/a."
+      },
+      {
+        "es_form": "[La salud::zdrowie] es la clave del éxito.",
+        "pl_translation": "Zdrowie jest kluczem do sukcesu."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El médico",
+    "pl_word": "lekarz",
+    "examples": [
+      {
+        "es_form": "[El médico::lekarz] me ayudo mucho.",
+        "pl_translation": "Lekarz bardzo mi pomógł/pomogła."
+      },
+      {
+        "es_form": "Conozco a [el médico::lekarz].",
+        "pl_translation": "Znam lekarz."
+      },
+      {
+        "es_form": "Hablé con [el médico::lekarz] ayer.",
+        "pl_translation": "Rozmawiałem/am wczoraj z lekarz."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El hospital",
+    "pl_word": "szpital",
+    "examples": [
+      {
+        "es_form": "¿Donde está [el hospital::szpital]?",
+        "pl_translation": "Gdzie jest szpital?"
+      },
+      {
+        "es_form": "[El hospital::szpital] está cerca de aquí.",
+        "pl_translation": "Szpital jest niedaleko stąd."
+      },
+      {
+        "es_form": "[El hospital::szpital] abre a las ocho.",
+        "pl_translation": "Szpital otwiera się o ósmej."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La farmacia",
+    "pl_word": "apteka",
+    "examples": [
+      {
+        "es_form": "[La farmacia::apteka] es muy grande.",
+        "pl_translation": "Apteka jest bardzo duży/a."
+      },
+      {
+        "es_form": "Voy a [la farmacia::apteka] cada día.",
+        "pl_translation": "Chodzę do apteka codziennie."
+      },
+      {
+        "es_form": "[La farmacia::apteka] abre a las ocho.",
+        "pl_translation": "Apteka otwiera się o ósmej."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La medicina",
+    "pl_word": "lekarstwo",
+    "examples": [
+      {
+        "es_form": "[La medicina::lekarstwo] es de madera.",
+        "pl_translation": "Lekarstwo jest z drewna."
+      },
+      {
+        "es_form": "¿Has visto [la medicina::lekarstwo]?",
+        "pl_translation": "Widziałeś/aś lekarstwo?"
+      },
+      {
+        "es_form": "Necesito [la medicina::lekarstwo] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową lekarstwo."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El dolor",
+    "pl_word": "ból",
+    "examples": [
+      {
+        "es_form": "Guarda [el dolor::ból] en el armario.",
+        "pl_translation": "Schowaj ból do szafy."
+      },
+      {
+        "es_form": "Necesito [el dolor::ból] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową ból."
+      },
+      {
+        "es_form": "[El dolor::ból] está sobre la mesa.",
+        "pl_translation": "Ból jest na stole."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La fiebre",
+    "pl_word": "gorączka",
+    "examples": [
+      {
+        "es_form": "[La fiebre::gorączka] es de madera.",
+        "pl_translation": "Gorączka jest z drewna."
+      },
+      {
+        "es_form": "Compré [la fiebre::gorączka] ayer.",
+        "pl_translation": "Kupiłem/am gorączka wczoraj."
+      },
+      {
+        "es_form": "[La fiebre::gorączka] está sobre la mesa.",
+        "pl_translation": "Gorączka jest na stole."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La sangre",
+    "pl_word": "krew",
+    "examples": [
+      {
+        "es_form": "Tienes [la sangre::krew] muy fuerte.",
+        "pl_translation": "Masz bardzo silny/a krew."
+      },
+      {
+        "es_form": "El médico me reviso [la sangre::krew].",
+        "pl_translation": "Lekarz zbadał mi krew."
+      },
+      {
+        "es_form": "Me duele [la sangre::krew].",
+        "pl_translation": "Boli mnie krew."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La visita",
+    "pl_word": "wizyta",
+    "examples": [
+      {
+        "es_form": "Guarda [la visita::wizyta] en el armario.",
+        "pl_translation": "Schowaj wizyta do szafy."
+      },
+      {
+        "es_form": "Necesito [la visita::wizyta] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową wizyta."
+      },
+      {
+        "es_form": "[La visita::wizyta] cuesta diez euros.",
+        "pl_translation": "Wizyta kosztuje dziesięć euro."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La receta",
+    "pl_word": "recepta",
+    "examples": [
+      {
+        "es_form": "Necesito [la receta::recepta] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową recepta."
+      },
+      {
+        "es_form": "Guarda [la receta::recepta] en el armario.",
+        "pl_translation": "Schowaj recepta do szafy."
+      },
+      {
+        "es_form": "¿Has visto [la receta::recepta]?",
+        "pl_translation": "Widziałeś/aś recepta?"
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "fuerte",
+    "pl_word": "silny",
+    "examples": [
+      {
+        "es_form": "Es una persona muy [fuerte::silny].",
+        "pl_translation": "To jest bardzo silny osoba."
+      },
+      {
+        "es_form": "El examen fue [fuerte::silny].",
+        "pl_translation": "Egzamin był silny."
+      },
+      {
+        "es_form": "Se compro un vestido [fuerte::silny].",
+        "pl_translation": "Kupiła sobie silny sukienkę."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "débil",
+    "pl_word": "słaby",
+    "examples": [
+      {
+        "es_form": "El examen fue [débil::słaby].",
+        "pl_translation": "Egzamin był słaby."
+      },
+      {
+        "es_form": "La comida está [débil::słaby].",
+        "pl_translation": "Jedzenie jest słaby."
+      },
+      {
+        "es_form": "Nada es más [débil::słaby] que la familia.",
+        "pl_translation": "Nic nie jest słaby od rodziny."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "sentirse",
+    "pl_word": "czuć się",
+    "examples": [
+      {
+        "es_form": "Prefiero [sentirse::czuć się] en casa.",
+        "pl_translation": "Wolę czuć się w domu."
+      },
+      {
+        "es_form": "Voy a [sentirse::czuć się] mañana.",
+        "pl_translation": "Będę czuć się jutro."
+      },
+      {
+        "es_form": "Es importante [sentirse::czuć się] todos los días.",
+        "pl_translation": "Ważne jest czuć się codziennie."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "me sento",
+        "pl_word": "czuć się (1.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[me sento::czuć się (1.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Czuć się (1.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "No [me sento::czuć się (1.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie czuć się (1.os.lp, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "Normalmente [me sento::czuć się (1.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj czuć się (1.os.lp, ter.) rano."
+          }
+        ]
+      },
+      {
+        "es_word": "te sentes",
+        "pl_word": "czuć się (2.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [te sentes::czuć się (2.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze czuć się (2.os.lp, ter.) z uwagą."
+          },
+          {
+            "es_form": "[te sentes::czuć się (2.os.lp, ter.)] todos los días.",
+            "pl_translation": "Czuć się (2.os.lp, ter.) codziennie."
+          },
+          {
+            "es_form": "Normalmente [te sentes::czuć się (2.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj czuć się (2.os.lp, ter.) rano."
+          }
+        ]
+      },
+      {
+        "es_word": "se sente",
+        "pl_word": "czuć się (3.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[se sente::czuć się (3.os.lp, ter.)] todos los días.",
+            "pl_translation": "Czuć się (3.os.lp, ter.) codziennie."
+          },
+          {
+            "es_form": "Normalmente [se sente::czuć się (3.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj czuć się (3.os.lp, ter.) rano."
+          },
+          {
+            "es_form": "Siempre [se sente::czuć się (3.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze czuć się (3.os.lp, ter.) z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "nos sentimos",
+        "pl_word": "czuć się (1.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [nos sentimos::czuć się (1.os.lm, ter.)] con atencion.",
+            "pl_translation": "Zawsze czuć się (1.os.lm, ter.) z uwagą."
+          },
+          {
+            "es_form": "¿[nos sentimos::czuć się (1.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy czuć się (1.os.lm, ter.) w weekendy?"
+          },
+          {
+            "es_form": "No [nos sentimos::czuć się (1.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie czuć się (1.os.lm, ter.) zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "os sentís",
+        "pl_word": "czuć się (2.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[os sentís::czuć się (2.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy czuć się (2.os.lm, ter.) w weekendy?"
+          },
+          {
+            "es_form": "No [os sentís::czuć się (2.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie czuć się (2.os.lm, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "Siempre [os sentís::czuć się (2.os.lm, ter.)] con atencion.",
+            "pl_translation": "Zawsze czuć się (2.os.lm, ter.) z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "se senten",
+        "pl_word": "czuć się (3.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [se senten::czuć się (3.os.lm, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj czuć się (3.os.lm, ter.) rano."
+          },
+          {
+            "es_form": "[se senten::czuć się (3.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Czuć się (3.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "[se senten::czuć się (3.os.lm, ter.)] todos los días.",
+            "pl_translation": "Czuć się (3.os.lm, ter.) codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "me sentí",
+        "pl_word": "czuć się (1.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [me sentí::czuć się (1.os.lp, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie czuć się (1.os.lp, przesz.)."
+          },
+          {
+            "es_form": "Ayer [me sentí::czuć się (1.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj czuć się (1.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "Nunca [me sentí::czuć się (1.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie czuć się (1.os.lp, przesz.) czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "te sentiste",
+        "pl_word": "czuć się (2.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [te sentiste::czuć się (2.os.lp, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie czuć się (2.os.lp, przesz.)."
+          },
+          {
+            "es_form": "Ayer [te sentiste::czuć się (2.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj czuć się (2.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "¿[te sentiste::czuć się (2.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy czuć się (2.os.lp, przesz.) dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "se sentió",
+        "pl_word": "czuć się (3.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[se sentió::czuć się (3.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy czuć się (3.os.lp, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "Nunca [se sentió::czuć się (3.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie czuć się (3.os.lp, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "El mes pasado no [se sentió::czuć się (3.os.lp, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie czuć się (3.os.lp, przesz.)."
+          }
+        ]
+      },
+      {
+        "es_word": "nos sentimos",
+        "pl_word": "czuć się (1.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[nos sentimos::czuć się (1.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Czuć się (1.os.lm, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "¿[nos sentimos::czuć się (1.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy czuć się (1.os.lm, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "Nunca [nos sentimos::czuć się (1.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie czuć się (1.os.lm, przesz.) czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "os sentisteis",
+        "pl_word": "czuć się (2.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[os sentisteis::czuć się (2.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy czuć się (2.os.lm, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "El mes pasado no [os sentisteis::czuć się (2.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie czuć się (2.os.lm, przesz.)."
+          },
+          {
+            "es_form": "[os sentisteis::czuć się (2.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Czuć się (2.os.lm, przesz.) bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "se sentieron",
+        "pl_word": "czuć się (3.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [se sentieron::czuć się (3.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie czuć się (3.os.lm, przesz.)."
+          },
+          {
+            "es_form": "Ayer [se sentieron::czuć się (3.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj czuć się (3.os.lm, przesz.) cały dzień."
+          },
+          {
+            "es_form": "Nunca [se sentieron::czuć się (3.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie czuć się (3.os.lm, przesz.) czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "me senté",
+        "pl_word": "czuć się (1.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [me senté::czuć się (1.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że czuć się (1.os.lp, przysz.) dobrze."
+          },
+          {
+            "es_form": "Mañana [me senté::czuć się (1.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro czuć się (1.os.lp, przysz.) wcześniej."
+          },
+          {
+            "es_form": "¿[me senté::czuć się (1.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy czuć się (1.os.lp, przysz.) z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "te sentás",
+        "pl_word": "czuć się (2.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[te sentás::czuć się (2.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Czuć się (2.os.lp, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "¿[te sentás::czuć się (2.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy czuć się (2.os.lp, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "El año que viene [te sentás::czuć się (2.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku czuć się (2.os.lp, przysz.) w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "se sentá",
+        "pl_word": "czuć się (3.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [se sentá::czuć się (3.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku czuć się (3.os.lp, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Mañana [se sentá::czuć się (3.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro czuć się (3.os.lp, przysz.) wcześniej."
+          },
+          {
+            "es_form": "Te prometo que [se sentá::czuć się (3.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że czuć się (3.os.lp, przysz.) na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "nos sentemos",
+        "pl_word": "czuć się (1.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [nos sentemos::czuć się (1.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku czuć się (1.os.lm, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Creo que [nos sentemos::czuć się (1.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że czuć się (1.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "¿[nos sentemos::czuć się (1.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy czuć się (1.os.lm, przysz.) z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "os sentéis",
+        "pl_word": "czuć się (2.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [os sentéis::czuć się (2.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że czuć się (2.os.lm, przysz.) na czas."
+          },
+          {
+            "es_form": "Creo que [os sentéis::czuć się (2.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że czuć się (2.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "[os sentéis::czuć się (2.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Czuć się (2.os.lm, przysz.) w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "se sentán",
+        "pl_word": "czuć się (3.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [se sentán::czuć się (3.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że czuć się (3.os.lm, przysz.) na czas."
+          },
+          {
+            "es_form": "Creo que [se sentán::czuć się (3.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że czuć się (3.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "El año que viene [se sentán::czuć się (3.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku czuć się (3.os.lm, przysz.) w Hiszpanii."
+          }
+        ]
+      }
+    ]
+  }
+]

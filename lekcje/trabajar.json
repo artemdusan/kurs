@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "El trabajo",
+    "pl_word": "praca",
+    "examples": [
+      {
+        "es_form": "¿Has visto [el trabajo::praca]?",
+        "pl_translation": "Widziałeś/aś praca?"
+      },
+      {
+        "es_form": "[El trabajo::praca] es de madera.",
+        "pl_translation": "Praca jest z drewna."
+      },
+      {
+        "es_form": "Compré [el trabajo::praca] ayer.",
+        "pl_translation": "Kupiłem/am praca wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El jefe",
+    "pl_word": "szef",
+    "examples": [
+      {
+        "es_form": "[El jefe::szef] es muy amable.",
+        "pl_translation": "Szef jest bardzo miły/a."
+      },
+      {
+        "es_form": "[El jefe::szef] vive en mi calle.",
+        "pl_translation": "Szef mieszka na mojej ulicy."
+      },
+      {
+        "es_form": "Esta es [el jefe::szef] de la que hablé.",
+        "pl_translation": "To jest szef, o której mówiłem/am."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La empresa",
+    "pl_word": "firma",
+    "examples": [
+      {
+        "es_form": "Guarda [la empresa::firma] en el armario.",
+        "pl_translation": "Schowaj firma do szafy."
+      },
+      {
+        "es_form": "[La empresa::firma] es de madera.",
+        "pl_translation": "Firma jest z drewna."
+      },
+      {
+        "es_form": "¿Has visto [la empresa::firma]?",
+        "pl_translation": "Widziałeś/aś firma?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La oficina",
+    "pl_word": "biuro",
+    "examples": [
+      {
+        "es_form": "[La oficina::biuro] es muy grande.",
+        "pl_translation": "Biuro jest bardzo duży/a."
+      },
+      {
+        "es_form": "¿Donde está [la oficina::biuro]?",
+        "pl_translation": "Gdzie jest biuro?"
+      },
+      {
+        "es_form": "Voy a [la oficina::biuro] cada día.",
+        "pl_translation": "Chodzę do biuro codziennie."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El sueldo",
+    "pl_word": "pensja",
+    "examples": [
+      {
+        "es_form": "Compré [el sueldo::pensja] ayer.",
+        "pl_translation": "Kupiłem/am pensja wczoraj."
+      },
+      {
+        "es_form": "[El sueldo::pensja] cuesta diez euros.",
+        "pl_translation": "Pensja kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Se me rompio [el sueldo::pensja].",
+        "pl_translation": "Zepsuł mi się pensja."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El compañero",
+    "pl_word": "kolega (z pracy)",
+    "examples": [
+      {
+        "es_form": "Conozco a [el compañero::kolega (z pracy)].",
+        "pl_translation": "Znam kolega (z pracy)."
+      },
+      {
+        "es_form": "Mi [hermano::brat] es [el compañero::kolega (z pracy)].",
+        "pl_translation": "Mój brat jest kolega (z pracy)."
+      },
+      {
+        "es_form": "[El compañero::kolega (z pracy)] es muy amable.",
+        "pl_translation": "Kolega (z pracy) jest bardzo miły/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El reunión",
+    "pl_word": "spotkanie",
+    "examples": [
+      {
+        "es_form": "Tienes [el reunión::spotkanie] muy fuerte.",
+        "pl_translation": "Masz bardzo silny/a spotkanie."
+      },
+      {
+        "es_form": "[El reunión::spotkanie] es una parte importante del cuerpo.",
+        "pl_translation": "Spotkanie jest ważną częścią ciała."
+      },
+      {
+        "es_form": "El médico me reviso [el reunión::spotkanie].",
+        "pl_translation": "Lekarz zbadał mi spotkanie."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El vacaciones",
+    "pl_word": "urlop",
+    "examples": [
+      {
+        "es_form": "[El vacaciones::urlop] cuesta diez euros.",
+        "pl_translation": "Urlop kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Guarda [el vacaciones::urlop] en el armario.",
+        "pl_translation": "Schowaj urlop do szafy."
+      },
+      {
+        "es_form": "Necesito [el vacaciones::urlop] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową urlop."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El profesión",
+    "pl_word": "zawód",
+    "examples": [
+      {
+        "es_form": "Compré [el profesión::zawód] ayer.",
+        "pl_translation": "Kupiłem/am zawód wczoraj."
+      },
+      {
+        "es_form": "Guarda [el profesión::zawód] en el armario.",
+        "pl_translation": "Schowaj zawód do szafy."
+      },
+      {
+        "es_form": "Necesito [el profesión::zawód] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową zawód."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La experiencia",
+    "pl_word": "doświadczenie",
+    "examples": [
+      {
+        "es_form": "Tienes que aceptar [la experiencia::doświadczenie].",
+        "pl_translation": "Musisz zaakceptować doświadczenie."
+      },
+      {
+        "es_form": "[La experiencia::doświadczenie] es la clave del éxito.",
+        "pl_translation": "Doświadczenie jest kluczem do sukcesu."
+      },
+      {
+        "es_form": "No entiendo [la experiencia::doświadczenie].",
+        "pl_translation": "Nie rozumiem doświadczenie."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "importante",
+    "pl_word": "ważny",
+    "examples": [
+      {
+        "es_form": "Es una persona muy [importante::ważny].",
+        "pl_translation": "To jest bardzo ważny osoba."
+      },
+      {
+        "es_form": "Hace un día [importante::ważny].",
+        "pl_translation": "Jest ważny dzień."
+      },
+      {
+        "es_form": "Tengo una casa [importante::ważny].",
+        "pl_translation": "Mam ważny dom."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "trabajador",
+    "pl_word": "pracowity",
+    "examples": [
+      {
+        "es_form": "Es un lugar [trabajador::pracowity] para vivir.",
+        "pl_translation": "To jest pracowity miejsce do życia."
+      },
+      {
+        "es_form": "Es una persona muy [trabajador::pracowity].",
+        "pl_translation": "To jest bardzo pracowity osoba."
+      },
+      {
+        "es_form": "Este coche es [trabajador::pracowity].",
+        "pl_translation": "Ten samochód jest pracowity."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "trabajar",
+    "pl_word": "pracować",
+    "examples": [
+      {
+        "es_form": "¿Puedes [trabajar::pracować] más rápido?",
+        "pl_translation": "Możesz pracować szybciej?"
+      },
+      {
+        "es_form": "Prefiero [trabajar::pracować] en casa.",
+        "pl_translation": "Wolę pracować w domu."
+      },
+      {
+        "es_form": "No puedo [trabajar::pracować] sin tu ayuda.",
+        "pl_translation": "Nie mogę pracować bez twojej pomocy."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "trabajo",
+        "pl_word": "pracować (1.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [trabajo::pracować (1.os.lp, ter.)] con atencion.",
+            "pl_translation": "Zawsze pracować (1.os.lp, ter.) z uwagą."
+          },
+          {
+            "es_form": "Normalmente [trabajo::pracować (1.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj pracować (1.os.lp, ter.) rano."
+          },
+          {
+            "es_form": "[trabajo::pracować (1.os.lp, ter.)] todos los días.",
+            "pl_translation": "Pracować (1.os.lp, ter.) codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "trabajas",
+        "pl_word": "pracować (2.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[trabajas::pracować (2.os.lp, ter.)] todos los días.",
+            "pl_translation": "Pracować (2.os.lp, ter.) codziennie."
+          },
+          {
+            "es_form": "[trabajas::pracować (2.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Pracować (2.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Normalmente [trabajas::pracować (2.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj pracować (2.os.lp, ter.) rano."
+          }
+        ]
+      },
+      {
+        "es_word": "trabaja",
+        "pl_word": "pracować (3.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[trabaja::pracować (3.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Pracować (3.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "No [trabaja::pracować (3.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie pracować (3.os.lp, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "[trabaja::pracować (3.os.lp, ter.)] todos los días.",
+            "pl_translation": "Pracować (3.os.lp, ter.) codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "trabajamos",
+        "pl_word": "pracować (1.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[trabajamos::pracować (1.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Pracować (1.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "¿[trabajamos::pracować (1.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy pracować (1.os.lm, ter.) w weekendy?"
+          },
+          {
+            "es_form": "[trabajamos::pracować (1.os.lm, ter.)] todos los días.",
+            "pl_translation": "Pracować (1.os.lm, ter.) codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "trabajáis",
+        "pl_word": "pracować (2.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "No [trabajáis::pracować (2.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie pracować (2.os.lm, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "[trabajáis::pracować (2.os.lm, ter.)] todos los días.",
+            "pl_translation": "Pracować (2.os.lm, ter.) codziennie."
+          },
+          {
+            "es_form": "¿[trabajáis::pracować (2.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy pracować (2.os.lm, ter.) w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "trabajan",
+        "pl_word": "pracować (3.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Siempre [trabajan::pracować (3.os.lm, ter.)] con atencion.",
+            "pl_translation": "Zawsze pracować (3.os.lm, ter.) z uwagą."
+          },
+          {
+            "es_form": "No [trabajan::pracować (3.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie pracować (3.os.lm, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "¿[trabajan::pracować (3.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy pracować (3.os.lm, ter.) w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "trabajé",
+        "pl_word": "pracować (1.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [trabajé::pracować (1.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie pracować (1.os.lp, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "El mes pasado no [trabajé::pracować (1.os.lp, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie pracować (1.os.lp, przesz.)."
+          },
+          {
+            "es_form": "[trabajé::pracować (1.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Pracować (1.os.lp, przesz.) bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "trabajaste",
+        "pl_word": "pracować (2.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[trabajaste::pracować (2.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy pracować (2.os.lp, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "Ayer [trabajaste::pracować (2.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj pracować (2.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "Nunca [trabajaste::pracować (2.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie pracować (2.os.lp, przesz.) czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "trabajó",
+        "pl_word": "pracować (3.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[trabajó::pracować (3.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy pracować (3.os.lp, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "El mes pasado no [trabajó::pracować (3.os.lp, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie pracować (3.os.lp, przesz.)."
+          },
+          {
+            "es_form": "[trabajó::pracować (3.os.lp, przesz.)] la semana pasada.",
+            "pl_translation": "Pracować (3.os.lp, przesz.) w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "trabajamos",
+        "pl_word": "pracować (1.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [trabajamos::pracować (1.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie pracować (1.os.lm, przesz.)."
+          },
+          {
+            "es_form": "¿[trabajamos::pracować (1.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy pracować (1.os.lm, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "Ayer [trabajamos::pracować (1.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj pracować (1.os.lm, przesz.) cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "trabajasteis",
+        "pl_word": "pracować (2.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[trabajasteis::pracować (2.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Pracować (2.os.lm, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "[trabajasteis::pracować (2.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Pracować (2.os.lm, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Nunca [trabajasteis::pracować (2.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie pracować (2.os.lm, przesz.) czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "trabajaron",
+        "pl_word": "pracować (3.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[trabajaron::pracować (3.os.lm, przesz.)] la semana pasada.",
+            "pl_translation": "Pracować (3.os.lm, przesz.) w zeszłym tygodniu."
+          },
+          {
+            "es_form": "Ayer [trabajaron::pracować (3.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj pracować (3.os.lm, przesz.) cały dzień."
+          },
+          {
+            "es_form": "El mes pasado no [trabajaron::pracować (3.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie pracować (3.os.lm, przesz.)."
+          }
+        ]
+      },
+      {
+        "es_word": "trabajé",
+        "pl_word": "pracować (1.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[trabajé::pracować (1.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy pracować (1.os.lp, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "Te prometo que [trabajé::pracować (1.os.lp, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że pracować (1.os.lp, przysz.) na czas."
+          },
+          {
+            "es_form": "Creo que [trabajé::pracować (1.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że pracować (1.os.lp, przysz.) dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "trabajás",
+        "pl_word": "pracować (2.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [trabajás::pracować (2.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku pracować (2.os.lp, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "[trabajás::pracować (2.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Pracować (2.os.lp, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Creo que [trabajás::pracować (2.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że pracować (2.os.lp, przysz.) dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "trabajá",
+        "pl_word": "pracować (3.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[trabajá::pracować (3.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy pracować (3.os.lp, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "[trabajá::pracować (3.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Pracować (3.os.lp, przysz.) w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Creo que [trabajá::pracować (3.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że pracować (3.os.lp, przysz.) dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "trabajemos",
+        "pl_word": "pracować (1.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[trabajemos::pracować (1.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy pracować (1.os.lm, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "Te prometo que [trabajemos::pracować (1.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że pracować (1.os.lm, przysz.) na czas."
+          },
+          {
+            "es_form": "El año que viene [trabajemos::pracować (1.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku pracować (1.os.lm, przysz.) w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "trabajéis",
+        "pl_word": "pracować (2.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [trabajéis::pracować (2.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku pracować (2.os.lm, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Creo que [trabajéis::pracować (2.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że pracować (2.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "Te prometo que [trabajéis::pracować (2.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że pracować (2.os.lm, przysz.) na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "trabaján",
+        "pl_word": "pracować (3.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [trabaján::pracować (3.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że pracować (3.os.lm, przysz.) na czas."
+          },
+          {
+            "es_form": "Creo que [trabaján::pracować (3.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że pracować (3.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "[trabaján::pracować (3.os.lm, przysz.)] la proxima semana.",
+            "pl_translation": "Pracować (3.os.lm, przysz.) w przyszłym tygodniu."
+          }
+        ]
+      }
+    ]
+  }
+]

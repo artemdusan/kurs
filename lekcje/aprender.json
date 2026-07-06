@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "La escuela",
+    "pl_word": "szkoła",
+    "examples": [
+      {
+        "es_form": "¿Donde está [la escuela::szkoła]?",
+        "pl_translation": "Gdzie jest szkoła?"
+      },
+      {
+        "es_form": "[La escuela::szkoła] está cerca de aquí.",
+        "pl_translation": "Szkoła jest niedaleko stąd."
+      },
+      {
+        "es_form": "Voy a [la escuela::szkoła] cada día.",
+        "pl_translation": "Chodzę do szkoła codziennie."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El profesor",
+    "pl_word": "nauczyciel",
+    "examples": [
+      {
+        "es_form": "[El profesor::nauczyciel] vive en mi calle.",
+        "pl_translation": "Nauczyciel mieszka na mojej ulicy."
+      },
+      {
+        "es_form": "[El profesor::nauczyciel] trabaja aquí.",
+        "pl_translation": "Nauczyciel tu pracuje."
+      },
+      {
+        "es_form": "Mi [hermano::brat] es [el profesor::nauczyciel].",
+        "pl_translation": "Mój brat jest nauczyciel."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La profesora",
+    "pl_word": "nauczycielka",
+    "examples": [
+      {
+        "es_form": "[La profesora::nauczycielka] trabaja aquí.",
+        "pl_translation": "Nauczycielka tu pracuje."
+      },
+      {
+        "es_form": "Mi [hermano::brat] es [la profesora::nauczycielka].",
+        "pl_translation": "Mój brat jest nauczycielka."
+      },
+      {
+        "es_form": "[La profesora::nauczycielka] es muy amable.",
+        "pl_translation": "Nauczycielka jest bardzo miły/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El alumno",
+    "pl_word": "uczeń",
+    "examples": [
+      {
+        "es_form": "Conozco a [el alumno::uczeń].",
+        "pl_translation": "Znam uczeń."
+      },
+      {
+        "es_form": "Esta es [el alumno::uczeń] de la que hablé.",
+        "pl_translation": "To jest uczeń, o której mówiłem/am."
+      },
+      {
+        "es_form": "[El alumno::uczeń] trabaja aquí.",
+        "pl_translation": "Uczeń tu pracuje."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El lección",
+    "pl_word": "lekcja",
+    "examples": [
+      {
+        "es_form": "Compré [el lección::lekcja] ayer.",
+        "pl_translation": "Kupiłem/am lekcja wczoraj."
+      },
+      {
+        "es_form": "Se me rompio [el lección::lekcja].",
+        "pl_translation": "Zepsuł mi się lekcja."
+      },
+      {
+        "es_form": "Guarda [el lección::lekcja] en el armario.",
+        "pl_translation": "Schowaj lekcja do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El libro",
+    "pl_word": "książka",
+    "examples": [
+      {
+        "es_form": "[El libro::książka] es de madera.",
+        "pl_translation": "Książka jest z drewna."
+      },
+      {
+        "es_form": "Necesito [el libro::książka] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową książka."
+      },
+      {
+        "es_form": "Guarda [el libro::książka] en el armario.",
+        "pl_translation": "Schowaj książka do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El cuaderno",
+    "pl_word": "zeszyt",
+    "examples": [
+      {
+        "es_form": "[El cuaderno::zeszyt] es de madera.",
+        "pl_translation": "Zeszyt jest z drewna."
+      },
+      {
+        "es_form": "Guarda [el cuaderno::zeszyt] en el armario.",
+        "pl_translation": "Schowaj zeszyt do szafy."
+      },
+      {
+        "es_form": "Compré [el cuaderno::zeszyt] ayer.",
+        "pl_translation": "Kupiłem/am zeszyt wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El bolígrafo",
+    "pl_word": "długopis",
+    "examples": [
+      {
+        "es_form": "Tienes que aceptar [el bolígrafo::długopis].",
+        "pl_translation": "Musisz zaakceptować długopis."
+      },
+      {
+        "es_form": "[El bolígrafo::długopis] es muy importante.",
+        "pl_translation": "Długopis jest bardzo ważny/a."
+      },
+      {
+        "es_form": "No entiendo [el bolígrafo::długopis].",
+        "pl_translation": "Nie rozumiem długopis."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El lápiz",
+    "pl_word": "ołówek",
+    "examples": [
+      {
+        "es_form": "Se me rompio [el lápiz::ołówek].",
+        "pl_translation": "Zepsuł mi się ołówek."
+      },
+      {
+        "es_form": "[El lápiz::ołówek] cuesta diez euros.",
+        "pl_translation": "Ołówek kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Necesito [el lápiz::ołówek] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową ołówek."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La mochila",
+    "pl_word": "plecak",
+    "examples": [
+      {
+        "es_form": "[La mochila::plecak] es de madera.",
+        "pl_translation": "Plecak jest z drewna."
+      },
+      {
+        "es_form": "Necesito [la mochila::plecak] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową plecak."
+      },
+      {
+        "es_form": "Compré [la mochila::plecak] ayer.",
+        "pl_translation": "Kupiłem/am plecak wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "inteligente",
+    "pl_word": "mądry, inteligentny",
+    "examples": [
+      {
+        "es_form": "La comida está [inteligente::mądry, inteligentny].",
+        "pl_translation": "Jedzenie jest mądry, inteligentny."
+      },
+      {
+        "es_form": "Hace un día [inteligente::mądry, inteligentny].",
+        "pl_translation": "Jest mądry, inteligentny dzień."
+      },
+      {
+        "es_form": "Es una persona muy [inteligente::mądry, inteligentny].",
+        "pl_translation": "To jest bardzo mądry, inteligentny osoba."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "difícil",
+    "pl_word": "trudny",
+    "examples": [
+      {
+        "es_form": "Es una persona muy [difícil::trudny].",
+        "pl_translation": "To jest bardzo trudny osoba."
+      },
+      {
+        "es_form": "El examen fue [difícil::trudny].",
+        "pl_translation": "Egzamin był trudny."
+      },
+      {
+        "es_form": "Hace un día [difícil::trudny].",
+        "pl_translation": "Jest trudny dzień."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "aprender",
+    "pl_word": "uczyć się",
+    "examples": [
+      {
+        "es_form": "No puedo [aprender::uczyć się] sin tu ayuda.",
+        "pl_translation": "Nie mogę uczyć się bez twojej pomocy."
+      },
+      {
+        "es_form": "Hay que [aprender::uczyć się] con cuidado.",
+        "pl_translation": "Trzeba uczyć się ostrożnie."
+      },
+      {
+        "es_form": "Voy a [aprender::uczyć się] mañana.",
+        "pl_translation": "Będę uczyć się jutro."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "aprendo",
+        "pl_word": "uczyć się (1.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[aprendo::uczyć się (1.os.lp, ter.)] todos los días.",
+            "pl_translation": "Uczyć się (1.os.lp, ter.) codziennie."
+          },
+          {
+            "es_form": "¿[aprendo::uczyć się (1.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy uczyć się (1.os.lp, ter.) w weekendy?"
+          },
+          {
+            "es_form": "No [aprendo::uczyć się (1.os.lp, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie uczyć się (1.os.lp, ter.) zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "aprendes",
+        "pl_word": "uczyć się (2.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[aprendes::uczyć się (2.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy uczyć się (2.os.lp, ter.) w weekendy?"
+          },
+          {
+            "es_form": "[aprendes::uczyć się (2.os.lp, ter.)] como me enseñaste.",
+            "pl_translation": "Uczyć się (2.os.lp, ter.) tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "[aprendes::uczyć się (2.os.lp, ter.)] todos los días.",
+            "pl_translation": "Uczyć się (2.os.lp, ter.) codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "aprende",
+        "pl_word": "uczyć się (3.os.lp, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[aprende::uczyć się (3.os.lp, ter.)] todos los días.",
+            "pl_translation": "Uczyć się (3.os.lp, ter.) codziennie."
+          },
+          {
+            "es_form": "Normalmente [aprende::uczyć się (3.os.lp, ter.)] por la mañana.",
+            "pl_translation": "Zazwyczaj uczyć się (3.os.lp, ter.) rano."
+          },
+          {
+            "es_form": "¿[aprende::uczyć się (3.os.lp, ter.)] los fines de semana?",
+            "pl_translation": "Czy uczyć się (3.os.lp, ter.) w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "aprendemos",
+        "pl_word": "uczyć się (1.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "No [aprendemos::uczyć się (1.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie uczyć się (1.os.lm, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "¿[aprendemos::uczyć się (1.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy uczyć się (1.os.lm, ter.) w weekendy?"
+          },
+          {
+            "es_form": "[aprendemos::uczyć się (1.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Uczyć się (1.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "aprendéis",
+        "pl_word": "uczyć się (2.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[aprendéis::uczyć się (2.os.lm, ter.)] todos los días.",
+            "pl_translation": "Uczyć się (2.os.lm, ter.) codziennie."
+          },
+          {
+            "es_form": "No [aprendéis::uczyć się (2.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie uczyć się (2.os.lm, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "¿[aprendéis::uczyć się (2.os.lm, ter.)] los fines de semana?",
+            "pl_translation": "Czy uczyć się (2.os.lm, ter.) w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "aprenden",
+        "pl_word": "uczyć się (3.os.lm, ter.)",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[aprenden::uczyć się (3.os.lm, ter.)] todos los días.",
+            "pl_translation": "Uczyć się (3.os.lm, ter.) codziennie."
+          },
+          {
+            "es_form": "No [aprenden::uczyć się (3.os.lm, ter.)] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie uczyć się (3.os.lm, ter.) zbyt dobrze."
+          },
+          {
+            "es_form": "[aprenden::uczyć się (3.os.lm, ter.)] como me enseñaste.",
+            "pl_translation": "Uczyć się (3.os.lm, ter.) tak jak mnie nauczyłeś/aś."
+          }
+        ]
+      },
+      {
+        "es_word": "aprendí",
+        "pl_word": "uczyć się (1.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [aprendí::uczyć się (1.os.lp, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie uczyć się (1.os.lp, przesz.)."
+          },
+          {
+            "es_form": "¿[aprendí::uczyć się (1.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy uczyć się (1.os.lp, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "Nunca [aprendí::uczyć się (1.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie uczyć się (1.os.lp, przesz.) czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "aprendiste",
+        "pl_word": "uczyć się (2.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [aprendiste::uczyć się (2.os.lp, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj uczyć się (2.os.lp, przesz.) cały dzień."
+          },
+          {
+            "es_form": "¿[aprendiste::uczyć się (2.os.lp, przesz.)] bien el examen?",
+            "pl_translation": "Czy uczyć się (2.os.lp, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "El mes pasado no [aprendiste::uczyć się (2.os.lp, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie uczyć się (2.os.lp, przesz.)."
+          }
+        ]
+      },
+      {
+        "es_word": "aprendió",
+        "pl_word": "uczyć się (3.os.lp, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Nunca [aprendió::uczyć się (3.os.lp, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie uczyć się (3.os.lp, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "[aprendió::uczyć się (3.os.lp, przesz.)] sin parar durante horas.",
+            "pl_translation": "Uczyć się (3.os.lp, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "[aprendió::uczyć się (3.os.lp, przesz.)] la semana pasada.",
+            "pl_translation": "Uczyć się (3.os.lp, przesz.) w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "aprendimos",
+        "pl_word": "uczyć się (1.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [aprendimos::uczyć się (1.os.lm, przesz.)] todo el día.",
+            "pl_translation": "Wczoraj uczyć się (1.os.lm, przesz.) cały dzień."
+          },
+          {
+            "es_form": "¿[aprendimos::uczyć się (1.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy uczyć się (1.os.lm, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "El mes pasado no [aprendimos::uczyć się (1.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie uczyć się (1.os.lm, przesz.)."
+          }
+        ]
+      },
+      {
+        "es_word": "aprendisteis",
+        "pl_word": "uczyć się (2.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[aprendisteis::uczyć się (2.os.lm, przesz.)] sin parar durante horas.",
+            "pl_translation": "Uczyć się (2.os.lm, przesz.) bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "El mes pasado no [aprendisteis::uczyć się (2.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie uczyć się (2.os.lm, przesz.)."
+          },
+          {
+            "es_form": "Nunca [aprendisteis::uczyć się (2.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie uczyć się (2.os.lm, przesz.) czegoś takiego."
+          }
+        ]
+      },
+      {
+        "es_word": "aprendieron",
+        "pl_word": "uczyć się (3.os.lm, przesz.)",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[aprendieron::uczyć się (3.os.lm, przesz.)] bien el examen?",
+            "pl_translation": "Czy uczyć się (3.os.lm, przesz.) dobrze egzamin?"
+          },
+          {
+            "es_form": "Nunca [aprendieron::uczyć się (3.os.lm, przesz.)] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie uczyć się (3.os.lm, przesz.) czegoś takiego."
+          },
+          {
+            "es_form": "El mes pasado no [aprendieron::uczyć się (3.os.lm, przesz.)] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie uczyć się (3.os.lm, przesz.)."
+          }
+        ]
+      },
+      {
+        "es_word": "aprendé",
+        "pl_word": "uczyć się (1.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [aprendé::uczyć się (1.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że uczyć się (1.os.lp, przysz.) dobrze."
+          },
+          {
+            "es_form": "El año que viene [aprendé::uczyć się (1.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku uczyć się (1.os.lp, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "[aprendé::uczyć się (1.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Uczyć się (1.os.lp, przysz.) w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "aprendás",
+        "pl_word": "uczyć się (2.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [aprendás::uczyć się (2.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że uczyć się (2.os.lp, przysz.) dobrze."
+          },
+          {
+            "es_form": "Mañana [aprendás::uczyć się (2.os.lp, przysz.)] más temprano.",
+            "pl_translation": "Jutro uczyć się (2.os.lp, przysz.) wcześniej."
+          },
+          {
+            "es_form": "[aprendás::uczyć się (2.os.lp, przysz.)] la proxima semana.",
+            "pl_translation": "Uczyć się (2.os.lp, przysz.) w przyszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "aprendá",
+        "pl_word": "uczyć się (3.os.lp, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [aprendá::uczyć się (3.os.lp, przysz.)] bien.",
+            "pl_translation": "Myślę, że uczyć się (3.os.lp, przysz.) dobrze."
+          },
+          {
+            "es_form": "¿[aprendá::uczyć się (3.os.lp, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy uczyć się (3.os.lp, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "El año que viene [aprendá::uczyć się (3.os.lp, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku uczyć się (3.os.lp, przysz.) w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "aprendemos",
+        "pl_word": "uczyć się (1.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[aprendemos::uczyć się (1.os.lm, przysz.)] con nosotros mañana?",
+            "pl_translation": "Czy uczyć się (1.os.lm, przysz.) z nami jutro?"
+          },
+          {
+            "es_form": "El año que viene [aprendemos::uczyć się (1.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku uczyć się (1.os.lm, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Te prometo que [aprendemos::uczyć się (1.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że uczyć się (1.os.lm, przysz.) na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "aprendéis",
+        "pl_word": "uczyć się (2.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [aprendéis::uczyć się (2.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku uczyć się (2.os.lm, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Mañana [aprendéis::uczyć się (2.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro uczyć się (2.os.lm, przysz.) wcześniej."
+          },
+          {
+            "es_form": "Te prometo que [aprendéis::uczyć się (2.os.lm, przysz.)] a tiempo.",
+            "pl_translation": "Obiecuję ci, że uczyć się (2.os.lm, przysz.) na czas."
+          }
+        ]
+      },
+      {
+        "es_word": "aprendán",
+        "pl_word": "uczyć się (3.os.lm, przysz.)",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [aprendán::uczyć się (3.os.lm, przysz.)] bien.",
+            "pl_translation": "Myślę, że uczyć się (3.os.lm, przysz.) dobrze."
+          },
+          {
+            "es_form": "El año que viene [aprendán::uczyć się (3.os.lm, przysz.)] en España.",
+            "pl_translation": "W przyszłym roku uczyć się (3.os.lm, przysz.) w Hiszpanii."
+          },
+          {
+            "es_form": "Mañana [aprendán::uczyć się (3.os.lm, przysz.)] más temprano.",
+            "pl_translation": "Jutro uczyć się (3.os.lm, przysz.) wcześniej."
+          }
+        ]
+      }
+    ]
+  }
+]

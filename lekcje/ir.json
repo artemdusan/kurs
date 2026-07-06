@@ -1,0 +1,665 @@
+[
+  {
+    "type": "noun",
+    "es_word": "El coche",
+    "pl_word": "samochód",
+    "examples": [
+      {
+        "es_form": "[El coche::samochód] es de madera.",
+        "pl_translation": "Samochód jest z drewna."
+      },
+      {
+        "es_form": "Compré [el coche::samochód] ayer.",
+        "pl_translation": "Kupiłem/am samochód wczoraj."
+      },
+      {
+        "es_form": "Se me rompio [el coche::samochód].",
+        "pl_translation": "Zepsuł mi się samochód."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El autobús",
+    "pl_word": "autobus",
+    "examples": [
+      {
+        "es_form": "[El autobús::autobus] es de madera.",
+        "pl_translation": "Autobus jest z drewna."
+      },
+      {
+        "es_form": "[El autobús::autobus] está sobre la mesa.",
+        "pl_translation": "Autobus jest na stole."
+      },
+      {
+        "es_form": "Compré [el autobús::autobus] ayer.",
+        "pl_translation": "Kupiłem/am autobus wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El tren",
+    "pl_word": "pociąg",
+    "examples": [
+      {
+        "es_form": "Necesito [el tren::pociąg] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową pociąg."
+      },
+      {
+        "es_form": "Guarda [el tren::pociąg] en el armario.",
+        "pl_translation": "Schowaj pociąg do szafy."
+      },
+      {
+        "es_form": "Se me rompio [el tren::pociąg].",
+        "pl_translation": "Zepsuł mi się pociąg."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El avión",
+    "pl_word": "samolot",
+    "examples": [
+      {
+        "es_form": "Guarda [el avión::samolot] en el armario.",
+        "pl_translation": "Schowaj samolot do szafy."
+      },
+      {
+        "es_form": "Necesito [el avión::samolot] nuevo.",
+        "pl_translation": "Potrzebuję nowy/nową samolot."
+      },
+      {
+        "es_form": "[El avión::samolot] es de madera.",
+        "pl_translation": "Samolot jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La bicicleta",
+    "pl_word": "rower",
+    "examples": [
+      {
+        "es_form": "[La bicicleta::rower] está sobre la mesa.",
+        "pl_translation": "Rower jest na stole."
+      },
+      {
+        "es_form": "Compré [la bicicleta::rower] ayer.",
+        "pl_translation": "Kupiłem/am rower wczoraj."
+      },
+      {
+        "es_form": "[La bicicleta::rower] es de madera.",
+        "pl_translation": "Rower jest z drewna."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El billete",
+    "pl_word": "bilet",
+    "examples": [
+      {
+        "es_form": "[El billete::bilet] está sobre la mesa.",
+        "pl_translation": "Bilet jest na stole."
+      },
+      {
+        "es_form": "[El billete::bilet] cuesta diez euros.",
+        "pl_translation": "Bilet kosztuje dziesięć euro."
+      },
+      {
+        "es_form": "Guarda [el billete::bilet] en el armario.",
+        "pl_translation": "Schowaj bilet do szafy."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La parada",
+    "pl_word": "przystanek",
+    "examples": [
+      {
+        "es_form": "[La parada::przystanek] abre a las ocho.",
+        "pl_translation": "Przystanek otwiera się o ósmej."
+      },
+      {
+        "es_form": "Visitamos [la parada::przystanek] la semana pasada.",
+        "pl_translation": "Odwiedziliśmy przystanek w zeszłym tygodniu."
+      },
+      {
+        "es_form": "¿Donde está [la parada::przystanek]?",
+        "pl_translation": "Gdzie jest przystanek?"
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El estación",
+    "pl_word": "dworzec, stacja",
+    "examples": [
+      {
+        "es_form": "Trabajo en [el estación::dworzec, stacja].",
+        "pl_translation": "Pracuję w dworzec, stacja."
+      },
+      {
+        "es_form": "¿Donde está [el estación::dworzec, stacja]?",
+        "pl_translation": "Gdzie jest dworzec, stacja?"
+      },
+      {
+        "es_form": "Visitamos [el estación::dworzec, stacja] la semana pasada.",
+        "pl_translation": "Odwiedziliśmy dworzec, stacja w zeszłym tygodniu."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "El aeropuerto",
+    "pl_word": "lotnisko",
+    "examples": [
+      {
+        "es_form": "[El aeropuerto::lotnisko] está cerca de aquí.",
+        "pl_translation": "Lotnisko jest niedaleko stąd."
+      },
+      {
+        "es_form": "Voy a [el aeropuerto::lotnisko] cada día.",
+        "pl_translation": "Chodzę do lotnisko codziennie."
+      },
+      {
+        "es_form": "[El aeropuerto::lotnisko] es muy grande.",
+        "pl_translation": "Lotnisko jest bardzo duży/a."
+      }
+    ]
+  },
+  {
+    "type": "noun",
+    "es_word": "La carretera",
+    "pl_word": "droga, szosa",
+    "examples": [
+      {
+        "es_form": "¿Has visto [la carretera::droga, szosa]?",
+        "pl_translation": "Widziałeś/aś droga, szosa?"
+      },
+      {
+        "es_form": "Se me rompio [la carretera::droga, szosa].",
+        "pl_translation": "Zepsuł mi się droga, szosa."
+      },
+      {
+        "es_form": "Compré [la carretera::droga, szosa] ayer.",
+        "pl_translation": "Kupiłem/am droga, szosa wczoraj."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "rápido",
+    "pl_word": "szybki",
+    "examples": [
+      {
+        "es_form": "Nada es más [rápido::szybki] que la familia.",
+        "pl_translation": "Nic nie jest szybki od rodziny."
+      },
+      {
+        "es_form": "Este coche es [rápido::szybki].",
+        "pl_translation": "Ten samochód jest szybki."
+      },
+      {
+        "es_form": "Es una persona muy [rápido::szybki].",
+        "pl_translation": "To jest bardzo szybki osoba."
+      }
+    ]
+  },
+  {
+    "type": "adjective",
+    "es_word": "lento",
+    "pl_word": "wolny (powolny)",
+    "examples": [
+      {
+        "es_form": "Es un lugar [lento::wolny (powolny)] para vivir.",
+        "pl_translation": "To jest wolny (powolny) miejsce do życia."
+      },
+      {
+        "es_form": "Mi amigo es [lento::wolny (powolny)] y simpático.",
+        "pl_translation": "Mój przyjaciel jest wolny (powolny) i sympatyczny."
+      },
+      {
+        "es_form": "La comida está [lenta::wolny (powolny)].",
+        "pl_translation": "Jedzenie jest wolny (powolny)."
+      }
+    ]
+  },
+  {
+    "type": "verb",
+    "es_word": "ir",
+    "pl_word": "iść, jechać",
+    "examples": [
+      {
+        "es_form": "Me gusta [ir::iść, jechać] por la mañana.",
+        "pl_translation": "Lubię iść, jechać rano."
+      },
+      {
+        "es_form": "Quiero [ir::iść, jechać] ahora.",
+        "pl_translation": "Chcę iść, jechać teraz."
+      },
+      {
+        "es_form": "Hay que [ir::iść, jechać] con cuidado.",
+        "pl_translation": "Trzeba iść, jechać ostrożnie."
+      }
+    ],
+    "forms": [
+      {
+        "es_word": "voy",
+        "pl_word": "idę/jadę",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [voy::idę/jadę] por la mañana.",
+            "pl_translation": "Zazwyczaj idę/jadę rano."
+          },
+          {
+            "es_form": "[voy::idę/jadę] todos los días.",
+            "pl_translation": "Idę/jadę codziennie."
+          },
+          {
+            "es_form": "No [voy::idę/jadę] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie idę/jadę zbyt dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "vas",
+        "pl_word": "idziesz/jedziesz",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Normalmente [vas::idziesz/jedziesz] por la mañana.",
+            "pl_translation": "Zazwyczaj idziesz/jedziesz rano."
+          },
+          {
+            "es_form": "[vas::idziesz/jedziesz] como me enseñaste.",
+            "pl_translation": "Idziesz/jedziesz tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "[vas::idziesz/jedziesz] todos los días.",
+            "pl_translation": "Idziesz/jedziesz codziennie."
+          }
+        ]
+      },
+      {
+        "es_word": "va",
+        "pl_word": "idzie/jedzie",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "No [va::idzie/jedzie] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie idzie/jedzie zbyt dobrze."
+          },
+          {
+            "es_form": "[va::idzie/jedzie] como me enseñaste.",
+            "pl_translation": "Idzie/jedzie tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Siempre [va::idzie/jedzie] con atencion.",
+            "pl_translation": "Zawsze idzie/jedzie z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "vamos",
+        "pl_word": "idziemy/jedziemy",
+        "grammar": {
+          "tense": "present",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "¿[vamos::idziemy/jedziemy] los fines de semana?",
+            "pl_translation": "Czy idziemy/jedziemy w weekendy?"
+          },
+          {
+            "es_form": "[vamos::idziemy/jedziemy] como me enseñaste.",
+            "pl_translation": "Idziemy/jedziemy tak jak mnie nauczyłeś/aś."
+          },
+          {
+            "es_form": "Siempre [vamos::idziemy/jedziemy] con atencion.",
+            "pl_translation": "Zawsze idziemy/jedziemy z uwagą."
+          }
+        ]
+      },
+      {
+        "es_word": "vais",
+        "pl_word": "idziecie/jedziecie",
+        "grammar": {
+          "tense": "present",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "No [vais::idziecie/jedziecie] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie idziecie/jedziecie zbyt dobrze."
+          },
+          {
+            "es_form": "[vais::idziecie/jedziecie] todos los días.",
+            "pl_translation": "Idziecie/jedziecie codziennie."
+          },
+          {
+            "es_form": "¿[vais::idziecie/jedziecie] los fines de semana?",
+            "pl_translation": "Czy idziecie/jedziecie w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "van",
+        "pl_word": "idą/jadą",
+        "grammar": {
+          "tense": "present",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[van::idą/jadą] todos los días.",
+            "pl_translation": "Idą/jadą codziennie."
+          },
+          {
+            "es_form": "No [van::idą/jadą] muy bien últimamente.",
+            "pl_translation": "Ostatnio nie idą/jadą zbyt dobrze."
+          },
+          {
+            "es_form": "¿[van::idą/jadą] los fines de semana?",
+            "pl_translation": "Czy idą/jadą w weekendy?"
+          }
+        ]
+      },
+      {
+        "es_word": "fui",
+        "pl_word": "poszedlem/poszlam",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[fui::poszedlem/poszlam] sin parar durante horas.",
+            "pl_translation": "Poszedlem/poszlam bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [fui::poszedlem/poszlam] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie poszedlem/poszlam czegoś takiego."
+          },
+          {
+            "es_form": "[fui::poszedlem/poszlam] la semana pasada.",
+            "pl_translation": "Poszedlem/poszlam w zeszłym tygodniu."
+          }
+        ]
+      },
+      {
+        "es_word": "fuiste",
+        "pl_word": "poszedles/poszlas",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Ayer [fuiste::poszedles/poszlas] todo el día.",
+            "pl_translation": "Wczoraj poszedles/poszlas cały dzień."
+          },
+          {
+            "es_form": "El mes pasado no [fuiste::poszedles/poszlas] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie poszedles/poszlas."
+          },
+          {
+            "es_form": "¿[fuiste::poszedles/poszlas] bien el examen?",
+            "pl_translation": "Czy poszedles/poszlas dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "fue",
+        "pl_word": "poszedl/poszla/poszlo",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [fue::poszedl/poszla/poszlo] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie poszedl/poszla/poszlo."
+          },
+          {
+            "es_form": "[fue::poszedl/poszla/poszlo] sin parar durante horas.",
+            "pl_translation": "Poszedl/poszla/poszlo bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Ayer [fue::poszedl/poszla/poszlo] todo el día.",
+            "pl_translation": "Wczoraj poszedl/poszla/poszlo cały dzień."
+          }
+        ]
+      },
+      {
+        "es_word": "fuimos",
+        "pl_word": "poszlismy/poszlysmy",
+        "grammar": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El mes pasado no [fuimos::poszlismy/poszlysmy] nada.",
+            "pl_translation": "W zeszłym miesiącu nic nie poszlismy/poszlysmy."
+          },
+          {
+            "es_form": "Nunca [fuimos::poszlismy/poszlysmy] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie poszlismy/poszlysmy czegoś takiego."
+          },
+          {
+            "es_form": "[fuimos::poszlismy/poszlysmy] sin parar durante horas.",
+            "pl_translation": "Poszlismy/poszlysmy bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "fuisteis",
+        "pl_word": "poszliscie/poszlyscie",
+        "grammar": {
+          "tense": "preterite",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[fuisteis::poszliscie/poszlyscie] sin parar durante horas.",
+            "pl_translation": "Poszliscie/poszlyscie bez przerwy przez wiele godzin."
+          },
+          {
+            "es_form": "Nunca [fuisteis::poszliscie/poszlyscie] algo así antes.",
+            "pl_translation": "Nigdy wcześniej nie poszliscie/poszlyscie czegoś takiego."
+          },
+          {
+            "es_form": "¿[fuisteis::poszliscie/poszlyscie] bien el examen?",
+            "pl_translation": "Czy poszliscie/poszlyscie dobrze egzamin?"
+          }
+        ]
+      },
+      {
+        "es_word": "fueron",
+        "pl_word": "poszli/poszly",
+        "grammar": {
+          "tense": "preterite",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "[fueron::poszli/poszly] la semana pasada.",
+            "pl_translation": "Poszli/poszly w zeszłym tygodniu."
+          },
+          {
+            "es_form": "¿[fueron::poszli/poszly] bien el examen?",
+            "pl_translation": "Czy poszli/poszly dobrze egzamin?"
+          },
+          {
+            "es_form": "[fueron::poszli/poszly] sin parar durante horas.",
+            "pl_translation": "Poszli/poszly bez przerwy przez wiele godzin."
+          }
+        ]
+      },
+      {
+        "es_word": "iré",
+        "pl_word": "pójdę/pojadę",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [iré::pojde/pojadę] bien.",
+            "pl_translation": "Myślę, że pójdę/pojadę dobrze."
+          },
+          {
+            "es_form": "El año que viene [iré::pojde/pojadę] en España.",
+            "pl_translation": "W przyszłym roku pójdę/pojadę w Hiszpanii."
+          },
+          {
+            "es_form": "¿[iré::pojde/pojadę] con nosotros mañana?",
+            "pl_translation": "Czy pójdę/pojadę z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "irás",
+        "pl_word": "pojdziesz/pojedziesz",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "¿[irás::pojdziesz/pojedziesz] con nosotros mañana?",
+            "pl_translation": "Czy pojdziesz/pojedziesz z nami jutro?"
+          },
+          {
+            "es_form": "Creo que [irás::pojdziesz/pojedziesz] bien.",
+            "pl_translation": "Myślę, że pojdziesz/pojedziesz dobrze."
+          },
+          {
+            "es_form": "El año que viene [irás::pojdziesz/pojedziesz] en España.",
+            "pl_translation": "W przyszłym roku pojdziesz/pojedziesz w Hiszpanii."
+          }
+        ]
+      },
+      {
+        "es_word": "irá",
+        "pl_word": "pojdzie/pojedzie",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "singular"
+        },
+        "examples": [
+          {
+            "es_form": "[irá::pojdzie/pojedzie] la proxima semana.",
+            "pl_translation": "Pojdzie/pojedzie w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Te prometo que [irá::pojdzie/pojedzie] a tiempo.",
+            "pl_translation": "Obiecuję ci, że pojdzie/pojedzie na czas."
+          },
+          {
+            "es_form": "¿[irá::pojdzie/pojedzie] con nosotros mañana?",
+            "pl_translation": "Czy pojdzie/pojedzie z nami jutro?"
+          }
+        ]
+      },
+      {
+        "es_word": "iremos",
+        "pl_word": "pojdziemy/pojedziemy",
+        "grammar": {
+          "tense": "future",
+          "person": 1,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Creo que [iremos::pojdziemy/pojedziemy] bien.",
+            "pl_translation": "Myślę, że pojdziemy/pojedziemy dobrze."
+          },
+          {
+            "es_form": "[iremos::pojdziemy/pojedziemy] la proxima semana.",
+            "pl_translation": "Pojdziemy/pojedziemy w przyszłym tygodniu."
+          },
+          {
+            "es_form": "Mañana [iremos::pojdziemy/pojedziemy] más temprano.",
+            "pl_translation": "Jutro pojdziemy/pojedziemy wcześniej."
+          }
+        ]
+      },
+      {
+        "es_word": "iréis",
+        "pl_word": "pojdziecie/pojedziecie",
+        "grammar": {
+          "tense": "future",
+          "person": 2,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "El año que viene [iréis::pojdziecie/pojedziecie] en España.",
+            "pl_translation": "W przyszłym roku pojdziecie/pojedziecie w Hiszpanii."
+          },
+          {
+            "es_form": "Te prometo que [iréis::pojdziecie/pojedziecie] a tiempo.",
+            "pl_translation": "Obiecuję ci, że pojdziecie/pojedziecie na czas."
+          },
+          {
+            "es_form": "Creo que [iréis::pojdziecie/pojedziecie] bien.",
+            "pl_translation": "Myślę, że pojdziecie/pojedziecie dobrze."
+          }
+        ]
+      },
+      {
+        "es_word": "irán",
+        "pl_word": "pojda/pojadą",
+        "grammar": {
+          "tense": "future",
+          "person": 3,
+          "number": "plural"
+        },
+        "examples": [
+          {
+            "es_form": "Te prometo que [irán::pojda/pojadą] a tiempo.",
+            "pl_translation": "Obiecuję ci, że pojda/pojadą na czas."
+          },
+          {
+            "es_form": "Creo que [irán::pojda/pojadą] bien.",
+            "pl_translation": "Myślę, że pojda/pojadą dobrze."
+          },
+          {
+            "es_form": "[irán::pojda/pojadą] la proxima semana.",
+            "pl_translation": "Pojda/pojadą w przyszłym tygodniu."
+          }
+        ]
+      }
+    ]
+  }
+]
