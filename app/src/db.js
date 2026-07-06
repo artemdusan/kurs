@@ -11,6 +11,15 @@ db.version(1).stores({
   meta: 'key',
 });
 
+// v2: id jest teraz deterministyczny (lekcja+typ+pozycja), identyczny na każdym
+// urządzeniu — naturalKey przestaje być unikalnym identyfikatorem (służy tylko
+// do jednorazowej migracji starych losowych UUID), więc zdejmujemy indeks &.
+db.version(2).stores({
+  words: 'id, naturalKey, lesson, parentId, updated_at',
+  progress: 'wordId, level, updated_at',
+  meta: 'key',
+});
+
 export async function getMeta(key, fallback = null) {
   const row = await db.meta.get(key);
   return row ? row.value : fallback;

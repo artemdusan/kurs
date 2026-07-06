@@ -52,9 +52,12 @@ export async function syncNow() {
         if (remote.updated_at > local.updated_at) await db.words.put(remote);
         continue;
       }
-      // To samo słowo mogło dostać inny UUID na innym urządzeniu (import lokalny).
-      // Kanoniczny jest mniejszy id (deterministycznie — oba urządzenia zbiegną
-      // do tego samego), postęp przegranego rekordu przenosimy na zwycięzcę.
+      // Id słów są teraz deterministyczne (course.js), więc ta gałąź to głównie
+      // siatka bezpieczeństwa na czas przejściowy — urządzenie, które nie
+      // zdążyło jeszcze zmigrować starych losowych UUID, mogło wysłać rekord
+      // tej samej treści pod innym id. Kanoniczny jest mniejszy id
+      // (deterministycznie — oba urządzenia zbiegną do tego samego), postęp
+      // przegranego rekordu przenosimy na zwycięzcę.
       const clash = remote.naturalKey
         ? await db.words.where('naturalKey').equals(remote.naturalKey).first()
         : null;
