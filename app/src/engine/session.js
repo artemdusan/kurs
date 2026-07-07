@@ -31,15 +31,30 @@ export function drawWeight(level) {
   return 1 / (level * level);
 }
 
-/** Losuje następne słowo z puli (elementy: {word, progress, sessionStreak}), unikając powtórki poprzedniego. */
+/**
+ * Ile poprawnych odpowiedzi z rzędu zalicza słowo w tej sesji. Zwykle 2, ale
+ * gdy poziom już się dziś zmienił (cooldown 24h aktywny — i tak nie zmieni
+ * się ponownie dzisiaj), wystarczy 1: dodatkowy streak nie daje wtedy nic.
+ */
+export function requiredStreak(progress, now = Date.now()) {
+  return now - progress.lastLevelChangeAt < LEVEL_COOLDOWN_MS ? 1 : SESSION_DONE_STREAK;
+}
+
+/**
+ * Losuje następne słowo z puli (elementy: {word, progress, sessionStreak}),
+ * unikając powtórki poprzedniego. Słowa z poziomem 1 mają bezwzględne
+ * pierwszeństwo — dopóki są nieukończone, losujemy tylko spośród nich.
+ */
 export function pickNext(pool, previousWordId = null, rng = Math.random) {
   const candidates = pool.filter(
-    (e) => e.sessionStreak < SESSION_DONE_STREAK && e.word.id !== previousWordId
+    (e) => e.sessionStreak < requiredStreak(e.progress) && e.word.id !== previousWordId
   );
-  const list = candidates.length
+  let list = candidates.length
     ? candidates
-    : pool.filter((e) => e.sessionStreak < SESSION_DONE_STREAK);
+    : pool.filter((e) => e.sessionStreak < requiredStreak(e.progress));
   if (!list.length) return null;
+  const level1 = list.filter((e) => e.progress.level === 1);
+  if (level1.length) list = level1;
   const total = list.reduce((s, e) => s + drawWeight(e.progress.level), 0);
   let r = rng() * total;
   for (const e of list) {
@@ -91,11 +106,11 @@ export async function recordAnswer(entry, correct) {
  * Sesja skupia się na słabych/nowych słowach dzięki wadze 1/level^2;
  * dodatkowo pula jest przycinana do `poolSize` słów o najniższym poziomie.
  */
-export async function buildSessionPool(maxLesson, poolSize = 25) {
+export async function buildSessionPool(maxLesson, poolSize = 25, excludeIds = null) {
   const words = await db.words
     .where('lesson')
     .belowOrEqual(maxLesson)
-    .filter((w) => !w.deleted)
+    .filter((w) => !w.deleted && !(excludeIds && excludeIds.has(w.id)))
     .toArray();
   const progressMap = await getProgressMap(words.map((w) => w.id));
   const entries = words.map((word) => ({
@@ -164,14 +179,21 @@ export async function lessonFloorReached(lesson, floorLevel) {
   return words.every((w) => (progressMap.get(w.id)?.level || 1) >= floorLevel);
 }
 
-/** Statystyki dzienne + streak dni nauki. */
-export async function bumpDailyStats({ correct = 0, wrong = 0, finishedSession = false }) {
+/**
+ * Statystyki dzienne (odpowiedzi, sekundy nauki, sesje) + streak dni nauki.
+ * Każdy dzień ma własny `updated_at` — przy synchronizacji dwóch urządzeń
+ * scalanie odbywa się per dzień (nowszy zapis danego dnia wygrywa), więc
+ * nauka na jednym urządzeniu nie nadpisuje dni zapisanych na drugim.
+ */
+export async function bumpDailyStats({ correct = 0, wrong = 0, seconds = 0, finishedSession = false }) {
   const today = new Date().toISOString().slice(0, 10);
   const stats = await getMeta('dailyStats', {});
-  const day = stats[today] || { correct: 0, wrong: 0, sessions: 0 };
+  const day = stats[today] || { correct: 0, wrong: 0, sessions: 0, seconds: 0 };
   day.correct += correct;
   day.wrong += wrong;
+  day.seconds = (day.seconds || 0) + seconds;
   if (finishedSession) day.sessions++;
+  day.updated_at = Date.now();
   stats[today] = day;
   await setMeta('dailyStats', stats);
 

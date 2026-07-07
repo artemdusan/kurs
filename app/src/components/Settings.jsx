@@ -3,7 +3,7 @@ import { saveSettings } from '../db.js';
 import { syncNow, DEFAULT_SYNC_URL, resolveSyncUrl } from '../sync.js';
 import Icon from './Icon.jsx';
 
-export default function Settings({ settings, onChange, onBack }) {
+export default function Settings({ settings, onChange, onSynced, onBack }) {
   const [form, setForm] = useState(settings);
   const [syncMsg, setSyncMsg] = useState('');
   const [syncing, setSyncing] = useState(false);
@@ -21,6 +21,7 @@ export default function Settings({ settings, onChange, onBack }) {
     try {
       const r = await syncNow();
       setSyncMsg(`Zsynchronizowano: wysłano ${r.sent}, odebrano ${r.received}`);
+      onSynced?.(); // odśwież stan aplikacji bez przeładowania strony
     } catch (e) {
       setSyncMsg(e.message);
     } finally {
@@ -71,17 +72,18 @@ export default function Settings({ settings, onChange, onBack }) {
       </label>
 
       <h3>Synchronizacja (opcjonalna)</h3>
-      <label className="field">
-        Adres serwera (Cloudflare Worker)
-        <input
-          type="url"
-          placeholder={DEFAULT_SYNC_URL || 'https://kurs.example.workers.dev'}
-          value={form.syncUrl} onChange={(e) => set('syncUrl', e.target.value)}
-        />
-        {DEFAULT_SYNC_URL && !form.syncUrl && (
-          <small className="hint">Używany domyślny adres z konfiguracji: {DEFAULT_SYNC_URL}</small>
-        )}
-      </label>
+      {/* Adres serwera jest wstrzykiwany przy buildzie (VITE_SYNC_URL) — pole
+          pokazujemy tylko, gdy build nie ma skonfigurowanego adresu. */}
+      {!DEFAULT_SYNC_URL && (
+        <label className="field">
+          Adres serwera (Cloudflare Worker)
+          <input
+            type="url"
+            placeholder="https://kurs.example.workers.dev"
+            value={form.syncUrl} onChange={(e) => set('syncUrl', e.target.value)}
+          />
+        </label>
+      )}
       <label className="field">
         Login
         <input value={form.syncLogin} onChange={(e) => set('syncLogin', e.target.value)} />

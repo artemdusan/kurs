@@ -53,6 +53,13 @@ body::after {
   animation: screenIn 0.22s steps(5);
 }
 
+/* Ekran główny: wysokość ekranu jest stała (karta lekcji + przycisk sesji
+   zawsze widoczne), a scroll dłuższej treści ogranicza się do .preview-body. */
+.screen.home {
+  height: 100dvh;
+  overflow: hidden;
+}
+
 .center { align-items: center; justify-content: center; text-align: center; }
 
 h1, h2, h3 {
@@ -109,43 +116,171 @@ h3 { font-size: 11px; margin: 12px 0 0; color: var(--muted); text-transform: upp
 .btn.ghost:active { transform: translateY(2px); }
 
 /* --- ekran główny --- */
-.home-header { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+/* mniejsze odstępy niż w innych ekranach — karta słownictwa ma zmieścić się
+   pod kartą lekcji bez przewijania całej strony na typowym telefonie */
+.screen.home { gap: 10px; padding: 12px 16px; padding-bottom: calc(12px + env(safe-area-inset-bottom)); }
 
-.stats-bar {
+.home-header { display: flex; justify-content: space-between; align-items: center; gap: 6px; }
+
+/* specificity .btn.X: nadpisuje .btn.ghost (obie mają dwie klasy, ta reguła
+   jest zdefiniowana później w pliku) — wszystkie trzy przyciski paska
+   górnego (streak, lekcja, ustawienia) wyglądają tak samo */
+.btn.stats-bar, .btn.lesson-select-btn, .btn.settings-btn {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 6px;
   background: var(--card);
-  padding: 10px 14px;
+  padding: 8px 10px;
   font-family: var(--pixel);
   font-size: 11px;
   line-height: 1.6;
   box-shadow: inset 2px 2px 0 var(--edge-light), inset -2px -2px 0 var(--edge-dark);
 }
-.stats-bar span { display: inline-flex; align-items: center; gap: 6px; }
 .stats-bar svg { color: var(--amber); }
+.lesson-select-btn { flex: 1; justify-content: center; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.btn.settings-btn { flex: none; }
 
-/* kafel bieżącej lekcji */
+/* kafel bieżącej lekcji: wysokość stała, żeby przycisk sesji nie skakał
+   między lekcjami o różnej długości tytułu (patrz też line-clamp tytułu) */
 .lesson-card {
   display: flex;
   flex-direction: column;
-  gap: 8px;
+  gap: 6px;
+  height: 72px;
+  justify-content: center;
+  flex: none;
   background: var(--card);
-  padding: 18px 16px;
+  padding: 10px 14px;
   box-shadow:
     inset 2px 2px 0 var(--edge-light),
     inset -2px -2px 0 var(--edge-dark),
     5px 5px 0 rgba(0, 0, 0, 0.35);
+  touch-action: pan-y;
 }
-.lesson-card-label { font-family: var(--pixel); font-size: 9px; line-height: 1.6; color: var(--amber); }
-.lesson-card-title { font-size: 20px; font-weight: 800; line-height: 1.3; }
-.lesson-card-sub { color: var(--muted); font-size: 14px; }
+.lesson-nav { display: flex; align-items: center; gap: 8px; }
+.btn.lesson-nav-btn { padding: 4px 6px; flex: none; }
+.lesson-nav-next svg { transform: scaleX(-1); }
+.lesson-card-title {
+  flex: 1;
+  text-align: center;
+  font-size: 17px;
+  font-weight: 800;
+  line-height: 1.2;
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
 .lesson-card-track {
-  height: 10px;
+  height: 8px;
   background: var(--bg);
   box-shadow: inset 1px 1px 0 var(--edge-dark), inset -1px -1px 0 var(--edge-light);
 }
 .lesson-card-fill { height: 100%; background: var(--green); transition: width 0.3s steps(8); }
+
+/* --- lista lekcji --- */
+.lesson-list-items { display: flex; flex-direction: column; gap: 8px; overflow-y: auto; flex: 1; }
+.lesson-list-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--card);
+  padding: 10px 12px;
+  text-align: left;
+  box-shadow: inset 2px 2px 0 var(--edge-light), inset -2px -2px 0 var(--edge-dark);
+}
+.lesson-list-item.active { outline: 2px solid var(--amber); outline-offset: -2px; }
+.lesson-list-num {
+  flex: none;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: var(--pixel);
+  font-size: 11px;
+  background: var(--card2);
+  color: var(--amber);
+}
+.lesson-list-info { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.lesson-list-title { font-weight: 700; font-size: 15px; }
+.lesson-list-sub { font-size: 12px; color: var(--muted); }
+
+/* podgląd lekcji: zakładki Słówka / Odmiana / Gramatyka */
+.preview {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  flex: 1;
+}
+.preview-tabs { display: flex; gap: 6px; margin-bottom: 8px; }
+.preview-tab {
+  flex: 1;
+  border: none;
+  border-radius: 0;
+  padding: 10px 4px;
+  font-family: var(--pixel);
+  font-size: 9px;
+  line-height: 1.6;
+  background: var(--card);
+  color: var(--muted);
+  cursor: pointer;
+  box-shadow: inset 2px 2px 0 var(--edge-light), inset -2px -2px 0 var(--edge-dark);
+}
+.preview-tab.active { background: var(--card2); color: var(--amber); }
+.preview-body {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  background: var(--card);
+  padding: 12px 14px;
+  box-shadow: inset 2px 2px 0 var(--edge-light), inset -2px -2px 0 var(--edge-dark);
+}
+.preview-h {
+  margin: 10px 0 6px;
+  font-family: var(--pixel);
+  font-size: 9px;
+  line-height: 1.6;
+  color: var(--amber);
+  text-transform: uppercase;
+}
+.preview-h:first-child { margin-top: 0; }
+.vocab-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  font-size: 15px;
+}
+.vocab-row:last-child { border-bottom: none; }
+.vocab-es { font-weight: 700; }
+.vocab-verb .vocab-es { color: var(--green); }
+.vocab-pron { color: var(--muted); font-weight: 400; font-size: 13px; }
+.vocab-pl { color: var(--muted); text-align: right; font-size: 14px; }
+
+/* odmiana: dwie kolumny (l.poj. / l.mn.) na czas — bez tłumaczenia formy,
+   żeby wszystko mieściło się bez przewijania; forma ważniejsza niż zaimek */
+.tense-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 14px; }
+.tense-cell {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  min-width: 0;
+}
+.tense-cell .vocab-pron {
+  flex: none;
+  max-width: 4.2em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+}
+.tense-cell .vocab-es { font-size: 15px; overflow-wrap: anywhere; }
+.grammar-note p { margin: 0; font-size: 15px; line-height: 1.65; }
 
 /* dolna strefa akcji — duże przyciski w zasięgu kciuka */
 .home-bottom {
@@ -356,7 +491,23 @@ h3 { font-size: 11px; margin: 12px 0 0; color: var(--muted); text-transform: upp
 }
 .day-col-correct { background: var(--green); width: 100%; }
 .day-col-wrong { background: var(--red); width: 100%; }
+.day-col-minutes { background: var(--blue); width: 100%; }
 .day-col-label { font-size: 10px; color: var(--muted); }
+.day-bars-short { height: 90px; }
+
+/* siatka statystyk czasu nauki */
+.time-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.time-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  background: var(--card);
+  padding: 12px 6px;
+  box-shadow: inset 2px 2px 0 var(--edge-light), inset -2px -2px 0 var(--edge-dark);
+}
+.time-num { font-family: var(--pixel); font-size: 13px; color: var(--amber); }
+.time-label { font-size: 11px; color: var(--muted); }
 
 /* --- animacje --- */
 @keyframes screenIn {

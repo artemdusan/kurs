@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { saveSettings } from '../db.js';
-import { buildSessionPool, buildMistakesPool, pickNext, recordAnswer, bumpDailyStats, SESSION_DONE_STREAK } from '../engine/session.js';
+import { buildSessionPool, buildMistakesPool, pickNext, recordAnswer, bumpDailyStats, requiredStreak } from '../engine/session.js';
 import { checkAnswer, splitArticle } from '../engine/answer.js';
 import { buildKeyboard, articleButtons } from '../engine/keyboard.js';
 import { buildMcqOptions } from '../engine/mcq.js';
@@ -26,12 +26,20 @@ export default function Session({ settings, maxLesson, mode = 'normal', onExit, 
   const [task, setTask] = useState(null);
   const [typed, setTyped] = useState('');
   const [article, setArticle] = useState('');
-  const [phase, setPhase] = useState('answer'); // 'answer' | 'feedback' | 'done'
+  const [phase, setPhase] = useState('answer'); // 'answer' | 'feedback' | 'more' | 'done'
   const [wasCorrect, setWasCorrect] = useState(false);
   const [counts, setCounts] = useState({ correct: 0, wrong: 0, done: 0 });
   const [remaining, setRemaining] = useState(settings.sessionMinutes * 60);
   const endAtRef = useRef(Date.now() + settings.sessionMinutes * 60 * 1000);
+  // sekundy nauki liczone tylko, gdy karta jest widoczna — apka w tle (albo
+  // ekran zablokowany) nie ma wliczać się do czasu nauki w statystykach
+  const activeSecondsRef = useRef(0);
+  const finishedRef = useRef(false);
   const prevWordRef = useRef(null);
+  const poolRef = useRef(null);
+  const phaseRef = useRef(phase);
+  poolRef.current = pool;
+  phaseRef.current = phase;
 
   useEffect(() => {
     let cancelled = false;
@@ -50,14 +58,42 @@ export default function Session({ settings, maxLesson, mode = 'normal', onExit, 
   useEffect(() => {
     const t = setInterval(() => {
       setRemaining(Math.max(0, Math.round((endAtRef.current - Date.now()) / 1000)));
+      // liczy się tylko czas z kartą widoczną na pierwszym planie
+      if (document.visibilityState !== 'hidden') activeSecondsRef.current++;
     }, 1000);
     return () => clearInterval(t);
+  }, []);
+
+  // czas minął (w dowolnej fazie) — zakończ sesję; obejmuje też powrót
+  // z tła po dłuższej nieaktywności, gdy limit czasu już minął
+  useEffect(() => {
+    if (remaining === 0 && phase !== 'done') finish(pool);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [remaining, phase]);
+
+  // wracając z tła sprawdź od razu, czy limit czasu minął — przeglądarka
+  // wstrzymuje/spowalnia interwały w ukrytej karcie, więc kolejny tick mógłby
+  // przyjść z dużym opóźnieniem
+  useEffect(() => {
+    function onVisibilityChange() {
+      if (
+        document.visibilityState === 'visible' &&
+        Date.now() >= endAtRef.current &&
+        phaseRef.current !== 'done'
+      ) {
+        finish(poolRef.current);
+      }
+    }
+    document.addEventListener('visibilitychange', onVisibilityChange);
+    return () => document.removeEventListener('visibilitychange', onVisibilityChange);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   async function makeTask(currentPool) {
     if (Date.now() >= endAtRef.current) return finish(currentPool);
     const entry = pickNext(currentPool, prevWordRef.current);
-    if (!entry) return finish(currentPool);
+    // pula wyczerpana, ale czas jeszcze biegnie — zapytaj o dolosowanie słów
+    if (!entry) return setPhase('more');
     prevWordRef.current = entry.word.id;
 
     const examples = entry.word.examples?.length
@@ -102,7 +138,7 @@ export default function Session({ settings, maxLesson, mode = 'normal', onExit, 
     setCounts((c) => ({
       correct: c.correct + (correct ? 1 : 0),
       wrong: c.wrong + (correct ? 0 : 1),
-      done: newPool.filter((e) => e.sessionStreak >= SESSION_DONE_STREAK).length,
+      done: newPool.filter((e) => e.sessionStreak >= requiredStreak(e.progress)).length,
     }));
     await bumpDailyStats({ correct: correct ? 1 : 0, wrong: correct ? 0 : 1 });
     if (!correct) navigator.vibrate?.(150);
@@ -119,13 +155,31 @@ export default function Session({ settings, maxLesson, mode = 'normal', onExit, 
     onSettingsChange?.(updated);
   }
 
+  // Dolosowanie nowych słów, gdy pula skończyła się przed czasem —
+  // najpierw z pominięciem słów już zaliczonych w tej sesji.
+  async function drawMore() {
+    const doneIds = new Set(pool.map((e) => e.word.id));
+    let extra = await buildSessionPool(maxLesson, 25, doneIds);
+    if (!extra.length) extra = await buildSessionPool(maxLesson, 25);
+    if (!extra.length) return finish(pool);
+    const merged = [...pool, ...extra.filter((e) => !doneIds.has(e.word.id))];
+    if (merged.length === pool.length) return finish(pool);
+    setPool(merged);
+    await makeTask(merged);
+  }
+
   async function finish(currentPool) {
-    await bumpDailyStats({ finishedSession: true });
+    if (!finishedRef.current) {
+      finishedRef.current = true;
+      await bumpDailyStats({ finishedSession: true, seconds: activeSecondsRef.current });
+    }
     setPhase('done');
     onFinished?.(currentPool || pool);
   }
 
-  if (!pool || (!task && phase !== 'done')) return <div className="screen center">Ładowanie sesji…</div>;
+  if (!pool || (!task && phase !== 'done' && phase !== 'more')) {
+    return <div className="screen center">Ładowanie sesji…</div>;
+  }
 
   if (phase === 'done') {
     return (
@@ -136,6 +190,20 @@ export default function Session({ settings, maxLesson, mode = 'normal', onExit, 
         </p>
         <p>Zaliczone w tej sesji słowa: {counts.done}</p>
         <button className="btn primary" onClick={onExit}>Wróć do kursu</button>
+      </div>
+    );
+  }
+
+  if (phase === 'more') {
+    const minsLeft = Math.floor(remaining / 60);
+    const secsLeft = String(remaining % 60).padStart(2, '0');
+    return (
+      <div className="screen center session-summary">
+        <h2>Pula słów ukończona 💪</h2>
+        <p>Do końca sesji zostało {minsLeft}:{secsLeft}.</p>
+        <p>Dolosować kolejne słowa i kontynuować naukę?</p>
+        <button className="btn primary" onClick={drawMore}>Dolosuj słowa</button>
+        <button className="btn" onClick={() => finish(pool)}>Zakończ sesję</button>
       </div>
     );
   }
@@ -154,9 +222,6 @@ export default function Session({ settings, maxLesson, mode = 'normal', onExit, 
           <Icon name="close" />
         </button>
         <span className="timer">{mins}:{secs}</span>
-        <span className="score">
-          <span className="num-ok">{counts.correct}</span> <span className="num-bad">{counts.wrong}</span>
-        </span>
         <button
           className="btn ghost"
           title={tts ? 'Wycisz czytanie na głos' : 'Włącz czytanie na głos'}

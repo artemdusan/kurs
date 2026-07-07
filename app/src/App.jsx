@@ -1,24 +1,26 @@
 import React, { useEffect, useState } from 'react';
 import { db, getMeta, setMeta, getSettings } from './db.js';
 import { loadIndex, ensureLessonImported } from './course.js';
-import { lessonFloorReached, getProgressMap, countRecentMistakes, levelDistribution } from './engine/session.js';
+import { lessonFloorReached, getProgressMap, countRecentMistakes } from './engine/session.js';
 import { syncNow, resolveSyncUrl } from './sync.js';
 import Session from './components/Session.jsx';
 import Settings from './components/Settings.jsx';
 import Stats from './components/Stats.jsx';
-import LevelBars from './components/LevelBars.jsx';
+import LessonPreview from './components/LessonPreview.jsx';
+import LessonList from './components/LessonList.jsx';
 import Icon from './components/Icon.jsx';
 
+const SWIPE_THRESHOLD = 50; // px
+
 export default function App() {
-  const [view, setView] = useState('loading'); // loading | tree | session | mistakes | settings | stats
+  const [view, setView] = useState('loading'); // loading | tree | session | mistakes | settings | stats | lessonList
   const [mistakeCount, setMistakeCount] = useState(0);
-  const [levels, setLevels] = useState(null);
+  const [browsingLesson, setBrowsingLesson] = useState(null); // przeglądana lekcja (null = bieżąca)
   const [index, setIndex] = useState(null);
   const [settings, setSettings] = useState(null);
   const [unlockedLesson, setUnlockedLesson] = useState(1);
   const [lessonStats, setLessonStats] = useState({});
   const [streak, setStreak] = useState({ count: 0 });
-  const [todayStats, setTodayStats] = useState({ correct: 0, wrong: 0 });
   const [toast, setToast] = useState('');
 
   useEffect(() => {
@@ -35,6 +37,12 @@ export default function App() {
       setUnlockedLesson(unlocked);
       await refreshStats(idx, unlocked);
       setView('tree');
+      // synchronizacja na starcie (w tle) — po niej odśwież widok bez przeładowania
+      if (resolveSyncUrl(s) && s.syncLogin) {
+        syncNow()
+          .then(() => refreshStats(idx, unlocked))
+          .catch(() => {});
+      }
     })();
   }, []);
 
@@ -50,11 +58,7 @@ export default function App() {
     }
     setLessonStats(stats);
     setMistakeCount(await countRecentMistakes(unlocked));
-    setLevels(await levelDistribution(unlocked));
     setStreak(await getMeta('streak', { count: 0 }));
-    const daily = await getMeta('dailyStats', {});
-    const today = daily[new Date().toISOString().slice(0, 10)] || { correct: 0, wrong: 0 };
-    setTodayStats(today);
   }
 
   async function handleSessionFinished() {
@@ -76,12 +80,15 @@ export default function App() {
     }
     await refreshStats(index, unlocked);
 
-    // automatyczna synchronizacja po sesji, jeśli skonfigurowana
+    // automatyczna synchronizacja po sesji, jeśli skonfigurowana;
+    // po niej odśwież widok (bez przeładowania strony)
     if (resolveSyncUrl(s) && s.syncLogin) {
       syncNow()
-        .then(() => setToast((t) => t || '🔄 Zsynchronizowano'))
-        .catch((e) => setToast((t) => t || `⚠️ Synchronizacja: ${e.message}`))
-        .finally(() => setTimeout(() => setToast(''), 5000));
+        .then(() => refreshStats(index, unlocked))
+        .catch((e) => {
+          setToast(`⚠️ Synchronizacja: ${e.message}`);
+          setTimeout(() => setToast(''), 5000);
+        });
     }
   }
 
@@ -111,46 +118,95 @@ export default function App() {
       <Settings
         settings={settings}
         onChange={setSettings}
+        onSynced={() => refreshStats(index, unlockedLesson)}
         onBack={() => setView('tree')}
       />
     );
   }
 
-  const current = index.lekcje.find((l) => l.numer === unlockedLesson);
-  const stat = lessonStats[unlockedLesson];
+  // przeglądać można lekcje 1..odblokowana; domyślnie pokazujemy bieżącą
+  const shownLesson = browsingLesson ?? unlockedLesson;
+
+  if (view === 'lessonList') {
+    return (
+      <LessonList
+        index={index}
+        unlockedLesson={unlockedLesson}
+        lessonStats={lessonStats}
+        current={shownLesson}
+        onSelect={(n) => {
+          setBrowsingLesson(n === unlockedLesson ? null : n);
+          setView('tree');
+        }}
+        onBack={() => setView('tree')}
+      />
+    );
+  }
+
+  const current = index.lekcje.find((l) => l.numer === shownLesson);
+  const stat = lessonStats[shownLesson];
   const pct = stat ? Math.round((stat.mastered / stat.total) * 100) : 0;
-  const totalWords = levels ? levels.reduce((s, n) => s + n, 0) : 0;
+
+  function goToLesson(n) {
+    if (n < 1 || n > unlockedLesson) return;
+    setBrowsingLesson(n === unlockedLesson ? null : n);
+  }
+
+  let touchStartX = null;
+  let touchStartY = null;
+  function onTouchStart(e) {
+    touchStartX = e.touches[0].clientX;
+    touchStartY = e.touches[0].clientY;
+  }
+  function onTouchEnd(e) {
+    if (touchStartX === null) return;
+    const dx = e.changedTouches[0].clientX - touchStartX;
+    const dy = e.changedTouches[0].clientY - touchStartY;
+    touchStartX = null;
+    if (Math.abs(dx) < SWIPE_THRESHOLD || Math.abs(dx) < Math.abs(dy)) return;
+    goToLesson(dx > 0 ? shownLesson - 1 : shownLesson + 1);
+  }
 
   return (
     <div className="screen home">
       <header className="home-header">
-        <div className="stats-bar">
-          <span title="Streak dni nauki"><Icon name="fire" size={16} /> {streak.count || 0}</span>
-          <span title="Dzisiejsze odpowiedzi: poprawne / błędne">
-            <span className="num-ok">{todayStats.correct}</span> <span className="num-bad">{todayStats.wrong}</span>
-          </span>
-        </div>
-        <div>
-          <button className="btn ghost" title="Statystyki" onClick={() => setView('stats')}>
-            <Icon name="chart" />
-          </button>
-          <button className="btn ghost" title="Ustawienia" onClick={() => setView('settings')}>
-            <Icon name="gear" />
-          </button>
-        </div>
+        <button className="btn ghost stats-bar" title="Statystyki" onClick={() => setView('stats')}>
+          <Icon name="fire" size={16} /> {streak.count || 0}
+        </button>
+        <button className="btn ghost lesson-select-btn" onClick={() => setView('lessonList')}>
+          <Icon name="list" size={14} /> Lekcja {shownLesson}
+        </button>
+        <button className="btn ghost settings-btn" title="Ustawienia" onClick={() => setView('settings')}>
+          <Icon name="gear" size={16} />
+        </button>
       </header>
 
-      <div className="lesson-card">
-        <span className="lesson-card-label">Lekcja {unlockedLesson} · {current?.poziom}</span>
-        <span className="lesson-card-title">{current?.temat}</span>
-        <span className="lesson-card-sub">{current?.czasownik} · opanowane {pct}%</span>
+      <div className="lesson-card" onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
+        <div className="lesson-nav">
+          <button
+            className="btn ghost lesson-nav-btn"
+            disabled={shownLesson <= 1}
+            aria-label="Poprzednia lekcja"
+            onClick={() => goToLesson(shownLesson - 1)}
+          >
+            <Icon name="back" size={16} />
+          </button>
+          <span className="lesson-card-title">{current?.temat}</span>
+          <button
+            className="btn ghost lesson-nav-btn lesson-nav-next"
+            disabled={shownLesson >= unlockedLesson}
+            aria-label="Następna lekcja"
+            onClick={() => goToLesson(shownLesson + 1)}
+          >
+            <Icon name="back" size={16} />
+          </button>
+        </div>
         <div className="lesson-card-track">
           <div className="lesson-card-fill" style={{ width: pct + '%' }} />
         </div>
       </div>
 
-      <h3>Słowa według poziomu ({totalWords})</h3>
-      {levels && <LevelBars levels={levels} />}
+      <LessonPreview lesson={shownLesson} grammarNote={current?.gramatyka} />
 
       {toast && <div className="toast">{toast}</div>}
 
