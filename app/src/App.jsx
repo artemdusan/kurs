@@ -176,8 +176,8 @@ export default function App() {
         <button className="btn ghost lesson-select-btn" onClick={() => setView('lessonList')}>
           <Icon name="list" size={14} /> Lekcja {shownLesson}
         </button>
-        <button className="btn ghost" title="Ustawienia" onClick={() => setView('settings')}>
-          <Icon name="gear" />
+        <button className="btn ghost settings-btn" title="Ustawienia" onClick={() => setView('settings')}>
+          <Icon name="gear" size={16} />
         </button>
       </header>
 

@@ -116,16 +116,21 @@ h3 { font-size: 11px; margin: 12px 0 0; color: var(--muted); text-transform: upp
 .btn.ghost:active { transform: translateY(2px); }
 
 /* --- ekran główny --- */
+/* mniejsze odstępy niż w innych ekranach — karta słownictwa ma zmieścić się
+   pod kartą lekcji bez przewijania całej strony na typowym telefonie */
+.screen.home { gap: 10px; padding: 12px 16px; padding-bottom: calc(12px + env(safe-area-inset-bottom)); }
+
 .home-header { display: flex; justify-content: space-between; align-items: center; gap: 6px; }
 
 /* specificity .btn.X: nadpisuje .btn.ghost (obie mają dwie klasy, ta reguła
-   jest zdefiniowana później w pliku) */
-.btn.stats-bar, .btn.lesson-select-btn {
+   jest zdefiniowana później w pliku) — wszystkie trzy przyciski paska
+   górnego (streak, lekcja, ustawienia) wyglądają tak samo */
+.btn.stats-bar, .btn.lesson-select-btn, .btn.settings-btn {
   display: flex;
   align-items: center;
   gap: 6px;
   background: var(--card);
-  padding: 10px 12px;
+  padding: 8px 10px;
   font-family: var(--pixel);
   font-size: 11px;
   line-height: 1.6;
@@ -133,18 +138,19 @@ h3 { font-size: 11px; margin: 12px 0 0; color: var(--muted); text-transform: upp
 }
 .stats-bar svg { color: var(--amber); }
 .lesson-select-btn { flex: 1; justify-content: center; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+.btn.settings-btn { flex: none; }
 
 /* kafel bieżącej lekcji: wysokość stała, żeby przycisk sesji nie skakał
    między lekcjami o różnej długości tytułu (patrz też line-clamp tytułu) */
 .lesson-card {
   display: flex;
   flex-direction: column;
-  gap: 8px;
-  height: 92px;
+  gap: 6px;
+  height: 72px;
   justify-content: center;
   flex: none;
   background: var(--card);
-  padding: 14px 16px;
+  padding: 10px 14px;
   box-shadow:
     inset 2px 2px 0 var(--edge-light),
     inset -2px -2px 0 var(--edge-dark),
@@ -157,16 +163,16 @@ h3 { font-size: 11px; margin: 12px 0 0; color: var(--muted); text-transform: upp
 .lesson-card-title {
   flex: 1;
   text-align: center;
-  font-size: 19px;
+  font-size: 17px;
   font-weight: 800;
-  line-height: 1.25;
+  line-height: 1.2;
   display: -webkit-box;
   -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
 }
 .lesson-card-track {
-  height: 10px;
+  height: 8px;
   background: var(--bg);
   box-shadow: inset 1px 1px 0 var(--edge-dark), inset -1px -1px 0 var(--edge-light);
 }
