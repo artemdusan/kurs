@@ -207,6 +207,27 @@ h3 { font-size: 11px; margin: 12px 0 0; color: var(--muted); text-transform: upp
 .vocab-verb .vocab-es { color: var(--green); }
 .vocab-pron { color: var(--muted); font-weight: 400; font-size: 13px; }
 .vocab-pl { color: var(--muted); text-align: right; font-size: 14px; }
+
+/* odmiana: dwie kolumny (l.poj. / l.mn.) na czas — bez tłumaczenia formy,
+   żeby wszystko mieściło się bez przewijania; forma ważniejsza niż zaimek */
+.tense-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 14px; }
+.tense-cell {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  min-width: 0;
+}
+.tense-cell .vocab-pron {
+  flex: none;
+  max-width: 4.2em;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  font-size: 12px;
+}
+.tense-cell .vocab-es { font-size: 15px; overflow-wrap: anywhere; }
 .grammar-note p { margin: 0; font-size: 15px; line-height: 1.65; }
 
 /* dolna strefa akcji — duże przyciski w zasięgu kciuka */

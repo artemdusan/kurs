@@ -10,11 +10,10 @@ const TENSES = [
   ['preterite', 'Przeszły'],
   ['future', 'Przyszły'],
 ];
-const PERSON_ORDER = ['singular-1', 'singular-2', 'singular-3', 'plural-1', 'plural-2', 'plural-3'];
-
-function stripHint(pl) {
-  return pl.replace(/\s*\([^)]*\)\s*$/, '');
-}
+// Dwie kolumny na czas: liczba pojedyncza i mnoga — bez tłumaczenia formy
+// (czasownik już jest znany, tłumaczenie zajmowałoby miejsce i wymuszało scroll).
+const COL1 = ['singular-1', 'singular-2', 'singular-3'];
+const COL2 = ['plural-1', 'plural-2', 'plural-3'];
 
 export default function LessonPreview({ lesson, grammarNote }) {
   const [words, setWords] = useState(null);
@@ -97,23 +96,38 @@ export default function LessonPreview({ lesson, grammarNote }) {
       {tab === 'forms' && (
         <div className="preview-body">
           {TENSES.map(([tense, label]) => {
-            const rows = PERSON_ORDER.map((p) =>
+            const byPerson = (p) =>
               forms.find(
                 (f) => f.grammar && f.grammar.tense === tense && `${f.grammar.number}-${f.grammar.person}` === p
-              )
-            ).filter(Boolean);
-            if (!rows.length) return null;
+              );
+            const col1 = COL1.map(byPerson).filter(Boolean);
+            const col2 = COL2.map(byPerson).filter(Boolean);
+            if (!col1.length && !col2.length) return null;
             return (
               <React.Fragment key={tense}>
                 <h4 className="preview-h">{label}</h4>
-                {rows.map((f) => (
-                  <div key={f.id} className="vocab-row">
-                    <span className="vocab-es">
-                      <span className="vocab-pron">{PRONOUNS[`${f.grammar.number}-${f.grammar.person}`]}</span> {f.es}
-                    </span>
-                    <span className="vocab-pl">{stripHint(f.pl)}</span>
+                <div className="tense-grid">
+                  <div className="tense-col">
+                    {col1.map((f) => (
+                      <div key={f.id} className="tense-cell">
+                        <span className="vocab-pron" title={PRONOUNS[`${f.grammar.number}-${f.grammar.person}`]}>
+                          {PRONOUNS[`${f.grammar.number}-${f.grammar.person}`]}
+                        </span>
+                        <span className="vocab-es">{f.es}</span>
+                      </div>
+                    ))}
                   </div>
-                ))}
+                  <div className="tense-col">
+                    {col2.map((f) => (
+                      <div key={f.id} className="tense-cell">
+                        <span className="vocab-pron" title={PRONOUNS[`${f.grammar.number}-${f.grammar.person}`]}>
+                          {PRONOUNS[`${f.grammar.number}-${f.grammar.person}`]}
+                        </span>
+                        <span className="vocab-es">{f.es}</span>
+                      </div>
+                    ))}
+                  </div>
+                </div>
               </React.Fragment>
             );
           })}
