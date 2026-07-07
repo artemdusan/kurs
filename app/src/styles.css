@@ -146,7 +146,10 @@ h3 { font-size: 11px; margin: 12px 0 0; color: var(--muted); text-transform: upp
 }
 .lesson-card-label { font-family: var(--pixel); font-size: 9px; line-height: 1.6; color: var(--amber); }
 .lesson-card-title { font-size: 20px; font-weight: 800; line-height: 1.3; }
-.lesson-card-sub { color: var(--muted); font-size: 14px; }
+.lesson-card-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; }
+.lesson-nav { display: flex; gap: 2px; }
+.lesson-nav-btn { padding: 4px 8px; }
+.lesson-nav-next svg { transform: scaleX(-1); }
 .lesson-card-track {
   height: 10px;
   background: var(--bg);
@@ -439,7 +442,23 @@ h3 { font-size: 11px; margin: 12px 0 0; color: var(--muted); text-transform: upp
 }
 .day-col-correct { background: var(--green); width: 100%; }
 .day-col-wrong { background: var(--red); width: 100%; }
+.day-col-minutes { background: var(--blue); width: 100%; }
 .day-col-label { font-size: 10px; color: var(--muted); }
+.day-bars-short { height: 90px; }
+
+/* siatka statystyk czasu nauki */
+.time-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }
+.time-cell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+  background: var(--card);
+  padding: 12px 6px;
+  box-shadow: inset 2px 2px 0 var(--edge-light), inset -2px -2px 0 var(--edge-dark);
+}
+.time-num { font-family: var(--pixel); font-size: 13px; color: var(--amber); }
+.time-label { font-size: 11px; color: var(--muted); }
 
 /* --- animacje --- */
 @keyframes screenIn {
