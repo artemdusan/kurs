@@ -26,6 +26,7 @@ const PATHS = {
     </>
   ),
   fire: <path d="M12 3c1 3-2 4.5-2 7a2 2 0 0 0 4 .4C15.5 9 16 7.5 16 6c2 2 4 4.7 4 8a8 8 0 1 1-16 0c0-4 3-6.5 4-8 .3 1.2 1 2 2 3 .5-2-.5-4 2-6Z" />,
+  book: <path d="M4 5a2 2 0 0 1 2-2h14v16H6a2 2 0 0 0-2 2V5ZM4 19a2 2 0 0 1 2-2h14M8 7h8M8 11h8" />,
 };
 
 export default function Icon({ name, size = 20 }) {

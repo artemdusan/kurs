@@ -154,9 +154,6 @@ export default function Session({ settings, maxLesson, mode = 'normal', onExit, 
           <Icon name="close" />
         </button>
         <span className="timer">{mins}:{secs}</span>
-        <span className="score">
-          <span className="num-ok">{counts.correct}</span> <span className="num-bad">{counts.wrong}</span>
-        </span>
         <button
           className="btn ghost"
           title={tts ? 'Wycisz czytanie na głos' : 'Włącz czytanie na głos'}

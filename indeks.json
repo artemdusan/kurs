@@ -14,700 +14,1100 @@
       "poziom": "A0",
       "temat": "Podstawowe pojęcia – tożsamość",
       "czasownik": "ser",
-      "plik": "lekcje/ser.json"
+      "plik": "lekcje/ser.json",
+      "gramatyka": {
+        "tytul": "Ser — być (cechy stałe)",
+        "tresc": "SER opisuje cechy stałe: tożsamość, zawód, narodowość, charakter. Soy polaco (jestem Polakiem), Es médico (jest lekarzem). Odmiana present: soy, eres, es, somos, sois, son — trzeba ją znać na pamięć, bo jest całkowicie nieregularna."
+      }
     },
     {
       "numer": 2,
       "poziom": "A0",
       "temat": "Podstawowe pojęcia – stany i miejsca",
       "czasownik": "estar",
-      "plik": "lekcje/estar.json"
+      "plik": "lekcje/estar.json",
+      "gramatyka": {
+        "tytul": "Estar — być (stany i miejsca)",
+        "tresc": "ESTAR opisuje stany chwilowe i położenie: Estoy cansado (jestem zmęczony — teraz), El libro está aquí (książka jest tutaj). Porównaj: Es feliz (jest szczęśliwy z natury) vs Está feliz (jest szczęśliwy w tej chwili)."
+      }
     },
     {
       "numer": 3,
       "poziom": "A0",
       "temat": "Posiadanie i cechy",
       "czasownik": "tener",
-      "plik": "lekcje/tener.json"
+      "plik": "lekcje/tener.json",
+      "gramatyka": {
+        "tytul": "Tener — mieć i zwroty z tener",
+        "tresc": "TENER znaczy „mieć”, ale tworzy też zwroty, które po polsku wyrażamy przez „być”: tener hambre (być głodnym), tener frío (marznąć), tener 20 años (mieć 20 lat). Uwaga: wiek po hiszpańsku się „ma”, nie „jest”: Tengo treinta años."
+      }
     },
     {
       "numer": 4,
       "poziom": "A0",
       "temat": "Komunikacja",
       "czasownik": "hablar",
-      "plik": "lekcje/hablar.json"
+      "plik": "lekcje/hablar.json",
+      "gramatyka": {
+        "tytul": "Koniugacja -AR (present)",
+        "tresc": "Czasowniki regularne na -ar odmieniają się przez końcówki: -o, -as, -a, -amos, -áis, -an. Hablar: hablo, hablas, habla, hablamos, habláis, hablan. To największa grupa czasowników hiszpańskich."
+      }
     },
     {
       "numer": 5,
       "poziom": "A0",
       "temat": "Zmysły – wzrok",
       "czasownik": "ver",
-      "plik": "lekcje/ver.json"
+      "plik": "lekcje/ver.json",
+      "gramatyka": {
+        "tytul": "Koniugacja -ER (present)",
+        "tresc": "Czasowniki na -er mają końcówki: -o, -es, -e, -emos, -éis, -en. Ver jest prawie regularne: veo, ves, ve, vemos, veis, ven — tylko forma „yo” dodaje e (veo zamiast vo)."
+      }
     },
     {
       "numer": 6,
       "poziom": "A0",
       "temat": "Dom i życie",
       "czasownik": "vivir",
-      "plik": "lekcje/vivir.json"
+      "plik": "lekcje/vivir.json",
+      "gramatyka": {
+        "tytul": "Koniugacja -IR (present)",
+        "tresc": "Czasowniki na -ir odmieniają się jak -er poza „nosotros/vosotros”: vivo, vives, vive, vivimos, vivís, viven. Zaimek osobowy zwykle się pomija — vivo en Madrid wystarczy, „yo” dodajemy tylko dla podkreślenia."
+      }
     },
     {
       "numer": 7,
       "poziom": "A0",
       "temat": "Jedzenie I",
       "czasownik": "comer",
-      "plik": "lekcje/comer.json"
+      "plik": "lekcje/comer.json",
+      "gramatyka": {
+        "tytul": "Rodzajnik określony: el/la/los/las",
+        "tresc": "Każdy rzeczownik ma rodzaj: el pan (męski), la fruta (żeński). Liczba mnoga: los, las. Rzeczowniki na -o są zwykle męskie, na -a żeńskie, ale są wyjątki (el día, la mano) — ucz się rzeczownika razem z rodzajnikiem."
+      }
     },
     {
       "numer": 8,
       "poziom": "A0",
       "temat": "Napoje i posiłki",
       "czasownik": "beber",
-      "plik": "lekcje/beber.json"
+      "plik": "lekcje/beber.json",
+      "gramatyka": {
+        "tytul": "Rodzajnik nieokreślony: un/una",
+        "tresc": "Un café (jakaś, jedna kawa) vs el café (ta konkretna kawa). Mnoga: unos/unas znaczy „kilka”. Po czasowniku ser z zawodem rodzajnik znika: Es camarero (jest kelnerem)."
+      }
     },
     {
       "numer": 9,
       "poziom": "A0",
       "temat": "Czynności codzienne",
       "czasownik": "hacer",
-      "plik": "lekcje/hacer.json"
+      "plik": "lekcje/hacer.json",
+      "gramatyka": {
+        "tytul": "Hacer — robić (nieregularne yo)",
+        "tresc": "Wiele czasowników jest nieregularnych tylko w formie „yo”: hago (robię), ale haces, hace... Podobnie: pongo, salgo, traigo. HACER tworzy też zwroty pogodowe: Hace calor (jest gorąco), Hace sol (jest słonecznie)."
+      }
     },
     {
       "numer": 10,
       "poziom": "A0",
       "temat": "Transport",
       "czasownik": "ir",
-      "plik": "lekcje/ir.json"
+      "plik": "lekcje/ir.json",
+      "gramatyka": {
+        "tytul": "Ir — iść + przyszłość „ir a”",
+        "tresc": "IR jest całkiem nieregularne: voy, vas, va, vamos, vais, van. Konstrukcja ir a + bezokolicznik wyraża bliską przyszłość: Voy a comer (zamierzam zjeść / zaraz zjem) — najczęstszy sposób mówienia o przyszłości w mowie potocznej."
+      }
     },
     {
       "numer": 11,
       "poziom": "A0",
       "temat": "Szkoła i nauka",
       "czasownik": "aprender",
-      "plik": "lekcje/aprender.json"
+      "plik": "lekcje/aprender.json",
+      "gramatyka": {
+        "tytul": "Przeczenie i pytania",
+        "tresc": "Przeczenie: „no” przed czasownikiem — No aprendo francés. Podwójne przeczenie jest poprawne: No veo nada (nic nie widzę). Pytanie tworzy sama intonacja i znaki ¿?: ¿Aprendes español?"
+      }
     },
     {
       "numer": 12,
       "poziom": "A0",
       "temat": "Pieniądze i zakupy",
       "czasownik": "comprar",
-      "plik": "lekcje/comprar.json"
+      "plik": "lekcje/comprar.json",
+      "gramatyka": {
+        "tytul": "Liczebniki i ceny",
+        "tresc": "Uno skraca się do „un” przed rzeczownikiem męskim: un euro, veintiún euros. Setki uzgadniają rodzaj: doscientos euros, doscientas personas. ¿Cuánto cuesta? — ile kosztuje?"
+      }
     },
     {
       "numer": 13,
       "poziom": "A0",
       "temat": "Ubrania",
       "czasownik": "llevar",
-      "plik": "lekcje/llevar.json"
+      "plik": "lekcje/llevar.json",
+      "gramatyka": {
+        "tytul": "Przymiotnik — zgodność i miejsce",
+        "tresc": "Przymiotnik stoi zwykle PO rzeczowniku i uzgadnia rodzaj oraz liczbę: el abrigo negro, la camisa negra, los zapatos negros. Przymiotniki na -e mają jedną formę dla obu rodzajów: el pantalón verde, la falda verde."
+      }
     },
     {
       "numer": 14,
       "poziom": "A0",
       "temat": "Rodzina i uczucia",
       "czasownik": "querer",
-      "plik": "lekcje/querer.json"
+      "plik": "lekcje/querer.json",
+      "gramatyka": {
+        "tytul": "Querer — chcieć i kochać (e→ie)",
+        "tresc": "QUERER należy do grupy z przegłosem e→ie: quiero, quieres, quiere, ale queremos, queréis (nosotros/vosotros bez zmiany). Querer a + osoba = kochać: Quiero a mi madre. Querer + bezokolicznik = chcieć: Quiero dormir."
+      }
     },
     {
       "numer": 15,
       "poziom": "A0",
       "temat": "Zwierzęta i upodobania",
       "czasownik": "gustar",
-      "plik": "lekcje/gustar.json"
+      "plik": "lekcje/gustar.json",
+      "gramatyka": {
+        "tytul": "Gustar — konstrukcja odwrócona",
+        "tresc": "GUSTAR działa odwrotnie niż polskie „lubić”: Me gusta el perro (dosł. „pies mi się podoba”). Podmiotem jest rzecz lubiana: Me gustan los gatos (liczba mnoga → gustan). Osoby: me, te, le, nos, os, les gusta(n)."
+      }
     },
     {
       "numer": 16,
       "poziom": "A0",
       "temat": "Pogoda i natura",
       "czasownik": "llover",
-      "plik": "lekcje/llover.json"
+      "plik": "lekcje/llover.json",
+      "gramatyka": {
+        "tytul": "Czasowniki bezosobowe (llover)",
+        "tresc": "Czasowniki pogodowe mają tylko 3. osobę liczby pojedynczej: llueve (pada deszcz), nieva (pada śnieg), llovió (padało), lloverá (będzie padać). Nie mają podmiotu — nie mówimy „ello llueve”."
+      }
     },
     {
       "numer": 17,
       "poziom": "A0",
       "temat": "Kolory i wygląd",
       "czasownik": "parecer",
-      "plik": "lekcje/parecer.json"
+      "plik": "lekcje/parecer.json",
+      "gramatyka": {
+        "tytul": "Parecer i zaimki z przyimkiem",
+        "tresc": "PARECER (wydawać się) często łączy się z zaimkiem celownika: Me parece bien (wydaje mi się w porządku). Po przyimkach zaimki mają inne formy: para mí, para ti, con él — a „conmigo/contigo” to formy specjalne."
+      }
     },
     {
       "numer": 18,
       "poziom": "A0",
       "temat": "Zdrowie i samopoczucie",
       "czasownik": "sentirse",
-      "plik": "lekcje/sentirse.json"
+      "plik": "lekcje/sentirse.json",
+      "gramatyka": {
+        "tytul": "Czasowniki zwrotne (sentirse)",
+        "tresc": "Czasowniki zwrotne mają zaimek przed formą osobową: me siento, te sientes, se siente, nos sentimos, os sentís, se sienten. W bezokoliczniku zaimek dokleja się na końcu: Quiero sentirme bien (chcę czuć SIĘ dobrze — zaimek uzgadnia osobę!)."
+      }
     },
     {
       "numer": 19,
       "poziom": "A0",
       "temat": "Sport i gry",
       "czasownik": "jugar",
-      "plik": "lekcje/jugar.json"
+      "plik": "lekcje/jugar.json",
+      "gramatyka": {
+        "tytul": "Jugar (u→ue) i „jugar a”",
+        "tresc": "JUGAR to jedyny czasownik z przegłosem u→ue: juego, juegas, juega, jugamos, jugáis, juegan. Gry i sporty wymagają przyimka a: jugar al fútbol, jugar a las cartas. Na instrumencie gra się przez TOCAR, nie jugar."
+      }
     },
     {
       "numer": 20,
       "poziom": "A0",
       "temat": "Czas wolny",
       "czasownik": "leer",
-      "plik": "lekcje/leer.json"
+      "plik": "lekcje/leer.json",
+      "gramatyka": {
+        "tytul": "Przegłos e→ie, o→ue — podsumowanie",
+        "tresc": "Wiele czasowników zmienia samogłoskę rdzenia we wszystkich osobach POZA nosotros/vosotros: pensar→pienso, poder→puedo, leer jest regularne. Przegłos dotyczy tylko czasu teraźniejszego — w przyszłym znika: pensaré, podré."
+      }
     },
     {
       "numer": 21,
       "poziom": "A0",
       "temat": "Podróżowanie",
       "czasownik": "viajar",
-      "plik": "lekcje/viajar.json"
+      "plik": "lekcje/viajar.json",
+      "gramatyka": {
+        "tytul": "Estar + gerundio (czynność trwająca)",
+        "tresc": "Odpowiednik angielskiego „-ing”: estar + gerundio. Gerundio: -ar→-ando, -er/-ir→-iendo. Estoy viajando (właśnie podróżuję), Está comiendo (właśnie je). Używaj tylko do czynności dziejących się w tej chwili."
+      }
     },
     {
       "numer": 22,
       "poziom": "A0",
       "temat": "Liczby i miary",
       "czasownik": "contar",
-      "plik": "lekcje/contar.json"
+      "plik": "lekcje/contar.json",
+      "gramatyka": {
+        "tytul": "Liczby 100+ i „hay”",
+        "tresc": "HAY (jest/są, znajduje się) to bezosobowa forma haber: Hay un banco aquí (jest tu bank), Hay muchas personas (jest dużo ludzi). Nie myl z está: hay = istnienie czegoś nieokreślonego, está = położenie czegoś konkretnego."
+      }
     },
     {
       "numer": 23,
       "poziom": "A0",
       "temat": "Dni tygodnia i miesiące",
       "czasownik": "esperar",
-      "plik": "lekcje/esperar.json"
+      "plik": "lekcje/esperar.json",
+      "gramatyka": {
+        "tytul": "Dni tygodnia i rodzajnik",
+        "tresc": "Dni tygodnia są męskie i „w poniedziałek” wyraża sam rodzajnik: el lunes (w poniedziałek), los lunes (w poniedziałki, co poniedziałek). Bez przyimka „en”! Nazwy dni i miesięcy piszemy małą literą."
+      }
     },
     {
       "numer": 24,
       "poziom": "A0",
       "temat": "Pory dnia i roku",
       "czasownik": "levantarse",
-      "plik": "lekcje/levantarse.json"
+      "plik": "lekcje/levantarse.json",
+      "gramatyka": {
+        "tytul": "Godziny i pory dnia",
+        "tresc": "Es la una (jest pierwsza — jedyna z „la”), Son las tres (jest trzecia). Pół: y media, kwadrans: y cuarto / menos cuarto. Pory dnia z „por”: por la mañana (rano), por la tarde, por la noche."
+      }
     },
     {
       "numer": 25,
       "poziom": "A0",
       "temat": "Zawody i praca",
       "czasownik": "trabajar",
-      "plik": "lekcje/trabajar.json"
+      "plik": "lekcje/trabajar.json",
+      "gramatyka": {
+        "tytul": "Zawody — bez rodzajnika po ser",
+        "tresc": "Zawód po ser występuje bez rodzajnika: Soy profesor, Es enfermera. Rodzajnik wraca z przymiotnikiem: Es UN profesor excelente. Wiele zawodów ma formę żeńską na -a: el médico / la médica."
+      }
     },
     {
       "numer": 26,
       "poziom": "A1",
       "temat": "Poruszanie się pieszo – ANDAR / CAMINAR (chodzić, iść pieszo)",
       "czasownik": "andar",
-      "plik": "lekcje/andar.json"
+      "plik": "lekcje/andar.json",
+      "gramatyka": {
+        "tytul": "Pretérito indefinido -AR",
+        "tresc": "Czas przeszły dokonany czasowników -ar: -é, -aste, -ó, -amos, -asteis, -aron. Anduve to wyjątek! ANDAR jest nieregularne: anduve, anduviste, anduvo... Indefinido opisuje zakończone zdarzenia: Ayer caminé mucho (wczoraj dużo chodziłem)."
+      }
     },
     {
       "numer": 27,
       "poziom": "A1",
       "temat": "Kuchnia i gotowanie",
       "czasownik": "cocinar",
-      "plik": "lekcje/cocinar.json"
+      "plik": "lekcje/cocinar.json",
+      "gramatyka": {
+        "tytul": "Pretérito indefinido -ER/-IR",
+        "tresc": "Końcówki: -í, -iste, -ió, -imos, -isteis, -ieron. Comí paella ayer (zjadłem wczoraj paellę). Sygnały czasu przeszłego: ayer, anoche, la semana pasada, el año pasado."
+      }
     },
     {
       "numer": 28,
       "poziom": "A1",
       "temat": "Owoce i warzywa",
       "czasownik": "lavar",
-      "plik": "lekcje/lavar.json"
+      "plik": "lekcje/lavar.json",
+      "gramatyka": {
+        "tytul": "Tryb rozkazujący (tú)",
+        "tresc": "Rozkaz dla „tú” = 3. os. l.poj. present: ¡Lava los platos! (umyj naczynia!), ¡Come! (jedz!). Nieregularne: haz (zrób), pon (połóż), ve (idź), di (powiedz), sal (wyjdź), ten (miej), ven (przyjdź)."
+      }
     },
     {
       "numer": 29,
       "poziom": "A1",
       "temat": "Produkty spożywcze",
       "czasownik": "freír",
-      "plik": "lekcje/freir.json"
+      "plik": "lekcje/freir.json",
+      "gramatyka": {
+        "tytul": "Zmiany pisowni w indefinido",
+        "tresc": "Czasowniki -car/-gar/-zar zmieniają pisownię w 1. os. indefinido, żeby zachować wymowę: tocar→toqué, pagar→pagué, empezar→empecé. FREÍR ma przegłos w 3. osobie: frio, frieron."
+      }
     },
     {
       "numer": 30,
       "poziom": "A1",
       "temat": "Zmysły – słuch",
       "czasownik": "oír",
-      "plik": "lekcje/oir.json"
+      "plik": "lekcje/oir.json",
+      "gramatyka": {
+        "tytul": "Oír i wstawka -y-",
+        "tresc": "OÍR: oigo, oyes, oye, oímos, oís, oyen — między samogłoskami pojawia się y. Podobnie w indefinido czasowników leer, creer, construir: leyó, creyeron, construyó. Akcent graficzny na í rozbija dwugłoskę: oí, oímos."
+      }
     },
     {
       "numer": 31,
       "poziom": "A1",
       "temat": "Higiena i kosmetyki",
       "czasownik": "lavarse",
-      "plik": "lekcje/lavarse.json"
+      "plik": "lekcje/lavarse.json",
+      "gramatyka": {
+        "tytul": "Zwrotne w codziennej rutynie",
+        "tresc": "Rutynę opisują czasowniki zwrotne: me despierto (budzę się), me levanto (wstaję), me lavo (myję się), me visto (ubieram się), me acuesto (kładę się). Zaimek się zmienia, końcówka też: te levantas, se levanta."
+      }
     },
     {
       "numer": 32,
       "poziom": "A1",
       "temat": "Miasto i miejsca",
       "czasownik": "visitar",
-      "plik": "lekcje/visitar.json"
+      "plik": "lekcje/visitar.json",
+      "gramatyka": {
+        "tytul": "Przyimki miejsca",
+        "tresc": "en (w, na): en el museo; a (do — kierunek): voy a la ciudad; de (z — pochodzenie): vengo del centro. Uwaga na ściągnięcia: a + el = AL (voy al parque), de + el = DEL (vengo del banco) — obowiązkowe!"
+      }
     },
     {
       "numer": 33,
       "poziom": "A1",
       "temat": "Dom – wyposażenie",
       "czasownik": "limpiar",
-      "plik": "lekcje/limpiar.json"
+      "plik": "lekcje/limpiar.json",
+      "gramatyka": {
+        "tytul": "Zaimki dopełnienia bliższego",
+        "tresc": "lo, la, los, las zastępują rzecz już znaną: ¿Limpias la casa? — Sí, LA limpio (tak, sprzątam JĄ). Zaimek stoi przed czasownikiem odmienionym, ale dokleja się do bezokolicznika: Voy a limpiarla."
+      }
     },
     {
       "numer": 34,
       "poziom": "A1",
       "temat": "Elektronika i sprzęty",
       "czasownik": "encender",
-      "plik": "lekcje/encender.json"
+      "plik": "lekcje/encender.json",
+      "gramatyka": {
+        "tytul": "Zaimki dopełnienia dalszego",
+        "tresc": "me, te, le, nos, os, les — komu?: Le enciendo la luz (włączam mu światło). Gdy występują oba zaimki, dalszy idzie pierwszy, a le/les zamienia się w SE: Se lo doy (daję mu to) — nie „le lo”."
+      }
     },
     {
       "numer": 35,
       "poziom": "A1",
       "temat": "Szkoła i edukacja",
       "czasownik": "escribir",
-      "plik": "lekcje/escribir.json"
+      "plik": "lekcje/escribir.json",
+      "gramatyka": {
+        "tytul": "Pretérito imperfecto",
+        "tresc": "Drugi czas przeszły — tło i zwyczaje: -aba (hablaba) / -ía (escribía, comía). Escribía cartas cada semana (pisywałem listy co tydzień). Nieregularne tylko trzy: era (ser), iba (ir), veía (ver). Indefinido = zdarzenie, imperfecto = tło."
+      }
     },
     {
       "numer": 36,
       "poziom": "A1",
       "temat": "Charakter i osobowość",
       "czasownik": "pensar",
-      "plik": "lekcje/pensar.json"
+      "plik": "lekcje/pensar.json",
+      "gramatyka": {
+        "tytul": "Ser + przymiotnik charakteru",
+        "tresc": "Cechy charakteru opisuje SER: Es amable (jest miły), Son inteligentes. Muy + przymiotnik: muy simpático. Porównania: más... que (bardziej niż), menos... que, tan... como (tak samo jak): Es más alto que yo."
+      }
     },
     {
       "numer": 37,
       "poziom": "A1",
       "temat": "Wiedza",
       "czasownik": "saber",
-      "plik": "lekcje/saber.json"
+      "plik": "lekcje/saber.json",
+      "gramatyka": {
+        "tytul": "Saber vs conocer",
+        "tresc": "Oba znaczą „znać/wiedzieć”: SABER — fakty i umiejętności: Sé la respuesta, Sé nadar (umiem pływać). CONOCER — osoby i miejsca: Conozco a María, Conozco Madrid. Saber ma nieregularne yo: sé."
+      }
     },
     {
       "numer": 38,
       "poziom": "A1",
       "temat": "Znajomości",
       "czasownik": "conocer",
-      "plik": "lekcje/conocer.json"
+      "plik": "lekcje/conocer.json",
+      "gramatyka": {
+        "tytul": "Osobowe „a”",
+        "tresc": "Gdy dopełnieniem jest OSOBA, obowiązkowo wstawiamy „a”: Conozco A tu hermano (znam twojego brata), Veo A la profesora. Przy rzeczach „a” nie ma: Conozco esta ciudad. To tzw. „a personal” — częsty błąd Polaków!"
+      }
     },
     {
       "numer": 39,
       "poziom": "A1",
       "temat": "Rośliny i ogród",
       "czasownik": "crecer",
-      "plik": "lekcje/crecer.json"
+      "plik": "lekcje/crecer.json",
+      "gramatyka": {
+        "tytul": "Czasowniki na -cer (crezco)",
+        "tresc": "Czasowniki na -cer/-cir po samogłosce mają -zco w 1. os.: crecer→crezco, conocer→conozco, parecer→parezco, conducir→conduzco. Pozostałe osoby są regularne: creces, crece..."
+      }
     },
     {
       "numer": 40,
       "poziom": "A1",
       "temat": "Geografia i środowisko",
       "czasownik": "proteger",
-      "plik": "lekcje/proteger.json"
+      "plik": "lekcje/proteger.json",
+      "gramatyka": {
+        "tytul": "Przymiotniki z -ger/-gir (protejo)",
+        "tresc": "Czasowniki na -ger/-gir zmieniają g→j w 1. os., żeby zachować wymowę: proteger→protejo, dirigir→dirijo, elegir→elijo. Wymowa g przed e/i to polskie „ch” — dlatego pisownia musi się dostosować."
+      }
     },
     {
       "numer": 41,
       "poziom": "A1",
       "temat": "Moda i ubiór",
       "czasownik": "vestirse",
-      "plik": "lekcje/vestirse.json"
+      "plik": "lekcje/vestirse.json",
+      "gramatyka": {
+        "tytul": "Vestirse (e→i) i odzież",
+        "tresc": "Grupa e→i (tylko -ir): vestirse→me visto, pedir→pido, elegir→elijo. W indefinido przegłos przechodzi do 3. osoby: se vistió, pidieron. Llevar = nosić na sobie: Llevo una chaqueta."
+      }
     },
     {
       "numer": 42,
       "poziom": "A1",
       "temat": "Święta i uroczystości",
       "czasownik": "celebrar",
-      "plik": "lekcje/celebrar.json"
+      "plik": "lekcje/celebrar.json",
+      "gramatyka": {
+        "tytul": "Daty i święta",
+        "tresc": "Data: el 25 de diciembre (bez „w”): La fiesta es el seis de enero. Święta z rodzajnikiem: la Navidad, la Nochevieja. ¿A cuántos estamos? — którego dziś mamy?"
+      }
     },
     {
       "numer": 43,
       "poziom": "A1",
       "temat": "Restauracja i jedzenie",
       "czasownik": "pedir",
-      "plik": "lekcje/pedir.json"
+      "plik": "lekcje/pedir.json",
+      "gramatyka": {
+        "tytul": "Pedir vs preguntar",
+        "tresc": "Oba tłumaczymy „prosić/pytać”: PEDIR — prosić o coś, zamawiać: Pido ayuda, Pedimos dos cafés. PREGUNTAR — zadawać pytanie: Pregunto al profesor. „Zapytać o kogoś”: preguntar por alguien."
+      }
     },
     {
       "numer": 44,
       "poziom": "A1",
       "temat": "Pytania",
       "czasownik": "preguntar",
-      "plik": "lekcje/preguntar.json"
+      "plik": "lekcje/preguntar.json",
+      "gramatyka": {
+        "tytul": "Słówka pytające",
+        "tresc": "¿Qué? (co), ¿Quién? (kto), ¿Dónde? (gdzie), ¿Cuándo? (kiedy), ¿Por qué? (dlaczego), ¿Cómo? (jak), ¿Cuánto? (ile). Wszystkie mają akcent graficzny w pytaniach. ¿Adónde vas? — dokąd idziesz?"
+      }
     },
     {
       "numer": 45,
       "poziom": "A1",
       "temat": "Sporty i aktywności",
       "czasownik": "entrenar",
-      "plik": "lekcje/entrenar.json"
+      "plik": "lekcje/entrenar.json",
+      "gramatyka": {
+        "tytul": "Przysłówki częstotliwości",
+        "tresc": "siempre (zawsze), a menudo (często), a veces (czasami), casi nunca (prawie nigdy), nunca (nigdy). Nunca może stać przed czasownikiem (Nunca entreno) albo po „no” (No entreno nunca) — oba poprawne."
+      }
     },
     {
       "numer": 46,
       "poziom": "A1",
       "temat": "Zakupy w sklepie",
       "czasownik": "pagar",
-      "plik": "lekcje/pagar.json"
+      "plik": "lekcje/pagar.json",
+      "gramatyka": {
+        "tytul": "Zmiana -gar → -gué (pagué)",
+        "tresc": "Pagar w 1. os. indefinido: pagué (zapłaciłem) — u chroni wymowę g. Por vs para przy płaceniu: Pago 10 euros POR el libro (za książkę). ¿Con tarjeta o en efectivo? — kartą czy gotówką?"
+      }
     },
     {
       "numer": 47,
       "poziom": "A1",
       "temat": "Usługi i naprawy",
       "czasownik": "reparar",
-      "plik": "lekcje/reparar.json"
+      "plik": "lekcje/reparar.json",
+      "gramatyka": {
+        "tytul": "Estar + participio (rezultat)",
+        "tresc": "Participio: -ado/-ido (reparado, roto). ESTAR + participio opisuje stan-rezultat: El coche está reparado (samochód jest naprawiony), La ventana está rota. Participio uzgadnia rodzaj i liczbę jak przymiotnik."
+      }
     },
     {
       "numer": 48,
       "poziom": "A1",
       "temat": "Sztuka i kultura",
       "czasownik": "pintar",
-      "plik": "lekcje/pintar.json"
+      "plik": "lekcje/pintar.json",
+      "gramatyka": {
+        "tytul": "Pretérito perfecto (he pintado)",
+        "tresc": "HABER (he, has, ha, hemos, habéis, han) + participio = czas przeszły „dzisiejszy”: Hoy he pintado un cuadro (dziś namalowałem obraz). Używany z hoy, esta semana, ya, todavía no. Participia nieregularne: hecho, visto, escrito, puesto."
+      }
     },
     {
       "numer": 49,
       "poziom": "A1",
       "temat": "Komunikacja i media",
       "czasownik": "llamar",
-      "plik": "lekcje/llamar.json"
+      "plik": "lekcje/llamar.json",
+      "gramatyka": {
+        "tytul": "Llamarse i telefonowanie",
+        "tresc": "Me llamo Ana = nazywam się (dosł. „wołam się”). Llamar a alguien = dzwonić do kogoś: Llamo a mi madre — z osobowym „a”. „Oddzwonić” to volver a llamar: Te vuelvo a llamar (jeszcze raz zadzwonię)."
+      }
     },
     {
       "numer": 50,
       "poziom": "A1",
       "temat": "Zdrowie – wizyta u lekarza",
       "czasownik": "curar",
-      "plik": "lekcje/curar.json"
+      "plik": "lekcje/curar.json",
+      "gramatyka": {
+        "tytul": "Doler — boleć (jak gustar)",
+        "tresc": "DOLER działa jak gustar: Me duele la cabeza (boli mnie głowa), Me duelen las piernas (bolą mnie nogi). Części ciała z rodzajnikiem, nie z zaimkiem dzierżawczym — nie mówimy „mi cabeza me duele”."
+      }
     },
     {
       "numer": 51,
       "poziom": "A1",
       "temat": "Lotnictwo",
       "czasownik": "volar",
-      "plik": "lekcje/volar.json"
+      "plik": "lekcje/volar.json",
+      "gramatyka": {
+        "tytul": "Futuro simple — regularne",
+        "tresc": "Czas przyszły: bezokolicznik + é, ás, á, emos, éis, án (wspólne dla -ar/-er/-ir): volaré, volarás... Mañana volaré a Madrid. Obok „ir a + bezokolicznik” to drugi sposób mówienia o przyszłości — bardziej formalny lub przypuszczający."
+      }
     },
     {
       "numer": 52,
       "poziom": "A1",
       "temat": "Pieniądze i finanse",
       "czasownik": "ahorrar",
-      "plik": "lekcje/ahorrar.json"
+      "plik": "lekcje/ahorrar.json",
+      "gramatyka": {
+        "tytul": "Futuro — rdzenie nieregularne",
+        "tresc": "Kilkanaście czasowników ma w futuro zmieniony rdzeń (końcówki te same): tener→tendré, hacer→haré, saber→sabré, poder→podré, querer→querré, salir→saldré, venir→vendré, decir→diré. Ahorraré dinero (zaoszczędzę pieniądze)."
+      }
     },
     {
       "numer": 53,
       "poziom": "A1",
       "temat": "Relacje międzyludzkie",
       "czasownik": "encontrarse",
-      "plik": "lekcje/encontrarse.json"
+      "plik": "lekcje/encontrarse.json",
+      "gramatyka": {
+        "tytul": "Quedar — umawiać się",
+        "tresc": "Quedar con alguien = umówić się z kimś: He quedado con Ana a las ocho. Quedarse = zostać: Me quedo en casa. Encontrarse con = spotkać się z: Me encuentro con amigos los viernes."
+      }
     },
     {
       "numer": 54,
       "poziom": "A1",
       "temat": "Materiały i substancje",
       "czasownik": "construir",
-      "plik": "lekcje/construir.json"
+      "plik": "lekcje/construir.json",
+      "gramatyka": {
+        "tytul": "Materiał: ser de",
+        "tresc": "Z czego coś jest zrobione wyraża ser + de: La mesa es de madera (stół jest z drewna), Es de metal. Pochodzenie też: Soy de Polonia. De nie łączy się z la/los/las — tylko de + el = del."
+      }
     },
     {
       "numer": 55,
       "poziom": "A1",
       "temat": "Pogoda – zjawiska",
       "czasownik": "soplar",
-      "plik": "lekcje/soplar.json"
+      "plik": "lekcje/soplar.json",
+      "gramatyka": {
+        "tytul": "Wykrzyknienia ¡Qué...!",
+        "tresc": "¡Qué frío! (ale zimno!), ¡Qué viento hace! (jaki wiatr!). ¡Qué + rzeczownik + tan/más + przymiotnik!: ¡Qué día tan bonito! (jaki piękny dzień!). Pamiętaj o odwróconym ¡ na początku."
+      }
     },
     {
       "numer": 56,
       "poziom": "A2",
       "temat": "Dom – pomieszczenia",
       "czasownik": "alquilar",
-      "plik": "lekcje/alquilar.json"
+      "plik": "lekcje/alquilar.json",
+      "gramatyka": {
+        "tytul": "Zaimki dzierżawcze",
+        "tresc": "mi/tu/su (casa), nuestro/a, vuestro/a, su. Uzgadniają liczbę: mis llaves, tus habitaciones. Su = jego/jej/ich/Pana — z kontekstu. Formy akcentowane po rzeczowniku: la casa mía. El piso es nuestro (mieszkanie jest nasze)."
+      }
     },
     {
       "numer": 57,
       "poziom": "A2",
       "temat": "Praca – więcej zawodów",
       "czasownik": "ganar",
-      "plik": "lekcje/ganar.json"
+      "plik": "lekcje/ganar.json",
+      "gramatyka": {
+        "tytul": "Llevar + czas (od jak dawna)",
+        "tresc": "Llevo cinco años trabajando aquí = pracuję tu od pięciu lat (dosł. „niosę 5 lat pracując”). Alternatywa: Hace cinco años que trabajo aquí. ¿Cuánto tiempo llevas en España? — od jak dawna jesteś w Hiszpanii?"
+      }
     },
     {
       "numer": 58,
       "poziom": "A2",
       "temat": "Formy i struktury",
       "czasownik": "crear",
-      "plik": "lekcje/crear.json"
+      "plik": "lekcje/crear.json",
+      "gramatyka": {
+        "tytul": "Lo + przymiotnik",
+        "tresc": "Rodzajnik nijaki LO tworzy pojęcia abstrakcyjne: lo importante (to, co ważne), lo mejor (to, co najlepsze), lo nuevo. Lo importante es crear algo nuevo — ważne jest tworzyć coś nowego."
+      }
     },
     {
       "numer": 59,
       "poziom": "A2",
       "temat": "Technologia i internet",
       "czasownik": "enviar",
-      "plik": "lekcje/enviar.json"
+      "plik": "lekcje/enviar.json",
+      "gramatyka": {
+        "tytul": "Acabar de — właśnie coś zrobić",
+        "tresc": "Acabar de + bezokolicznik = właśnie coś zrobić: Acabo de enviar el correo (właśnie wysłałem maila). Tylko w present i imperfecto: Acababa de llegar (właśnie był przyszedł). Nie używaj z indefinido!"
+      }
     },
     {
       "numer": 60,
       "poziom": "A2",
       "temat": "Biuro i dokumenty",
       "czasownik": "imprimir",
-      "plik": "lekcje/imprimir.json"
+      "plik": "lekcje/imprimir.json",
+      "gramatyka": {
+        "tytul": "Hay que / tener que (obowiązek)",
+        "tresc": "Tener que + bezokolicznik = musieć (konkretna osoba): Tengo que imprimir esto. Hay que + bezokolicznik = trzeba (ogólnie): Hay que firmar el documento. Deber = powinno się: Debes descansar."
+      }
     },
     {
       "numer": 61,
       "poziom": "A2",
       "temat": "Uczucia i emocje",
       "czasownik": "preocuparse",
-      "plik": "lekcje/preocuparse.json"
+      "plik": "lekcje/preocuparse.json",
+      "gramatyka": {
+        "tytul": "Subjuntivo — pierwsze spotkanie",
+        "tresc": "Po wyrażeniach emocji i woli używa się trybu subjuntivo: Espero que estés bien (mam nadzieję, że jesteś zdrowy), Quiero que vengas (chcę, żebyś przyszedł). Tworzenie: końcówki „odwrotne” (-ar→-e, -er/-ir→-a): hable, coma, viva."
+      }
     },
     {
       "numer": 62,
       "poziom": "A2",
       "temat": "Zdrowie i styl życia",
       "czasownik": "cuidar",
-      "plik": "lekcje/cuidar.json"
+      "plik": "lekcje/cuidar.json",
+      "gramatyka": {
+        "tytul": "Rada: deberías (condicional)",
+        "tresc": "Tryb przypuszczający: bezokolicznik + ía, ías, ía, íamos, íais, ían. Deberías cuidarte más (powinieneś bardziej o siebie dbać), Me gustaría... (chciałbym...). Rdzenie nieregularne jak w futuro: tendría, haría, podría."
+      }
     },
     {
       "numer": 63,
       "poziom": "A2",
       "temat": "Nauka i wiedza",
       "czasownik": "entender",
-      "plik": "lekcje/entender.json"
+      "plik": "lekcje/entender.json",
+      "gramatyka": {
+        "tytul": "Por vs para",
+        "tresc": "PARA — cel, przeznaczenie, termin: Estudio para entender (uczę się, ŻEBY zrozumieć), Es para ti. POR — przyczyna, wymiana, przez: Gracias por tu ayuda, Pago 10 por esto, Paseo por el parque (spaceruję PO parku)."
+      }
     },
     {
       "numer": 64,
       "poziom": "A2",
       "temat": "Kultura i rozrywka",
       "czasownik": "mirar",
-      "plik": "lekcje/mirar.json"
+      "plik": "lekcje/mirar.json",
+      "gramatyka": {
+        "tytul": "Zaimki wskazujące",
+        "tresc": "este/esta (ten — blisko), ese/esa (tamten — dalej), aquel/aquella (tamten — daleko). Mnoga: estos, esos, aquellos. Esto/eso/aquello (nijakie) wskazują coś nieokreślonego: ¿Qué es esto? — co to jest?"
+      }
     },
     {
       "numer": 65,
       "poziom": "A2",
       "temat": "Literatura",
       "czasownik": "narrar",
-      "plik": "lekcje/narrar.json"
+      "plik": "lekcje/narrar.json",
+      "gramatyka": {
+        "tytul": "Mowa zależna (present)",
+        "tresc": "Przekazywanie słów: Dice que... (mówi, że...): María dice que el libro es bueno. Pytanie zależne z „si”: Pregunta si me gusta la novela (pyta, CZY podoba mi się powieść). Zauważ: „że” = que, „czy” = si."
+      }
     },
     {
       "numer": 66,
       "poziom": "A2",
       "temat": "Państwo i społeczeństwo",
       "czasownik": "gobernar",
-      "plik": "lekcje/gobernar.json"
+      "plik": "lekcje/gobernar.json",
+      "gramatyka": {
+        "tytul": "Strona bierna z „se”",
+        "tresc": "Hiszpański unika strony biernej — używa „se”: Se habla español (mówi się po hiszpańsku), Se gobierna el país desde Madrid. Se + 3. osoba, liczba zgodna z rzeczownikiem: Se venden pisos (sprzedaje się mieszkania)."
+      }
     },
     {
       "numer": 67,
       "poziom": "A2",
       "temat": "Ekonomia i biznes",
       "czasownik": "invertir",
-      "plik": "lekcje/invertir.json"
+      "plik": "lekcje/invertir.json",
+      "gramatyka": {
+        "tytul": "Liczby wielkie i procenty",
+        "tresc": "mil (tysiąc — bez „un”!), un millón, dos millones DE euros (millón wymaga de). Procenty z rodzajnikiem: el 20 por ciento. Invertí mil euros en la bolsa — zainwestowałem tysiąc euro na giełdzie."
+      }
     },
     {
       "numer": 68,
       "poziom": "A2",
       "temat": "Jedzenie – bardziej szczegółowo",
       "czasownik": "hornear",
-      "plik": "lekcje/hornear.json"
+      "plik": "lekcje/hornear.json",
+      "gramatyka": {
+        "tytul": "Zdrobnienia -ito/-ita",
+        "tresc": "Hiszpański kocha zdrobnienia: pan→panecito/panecillo (chlebek), café→cafecito, ahora→ahorita (Ameryka Łac.). -ito/-ita wyraża też czułość, nie tylko mały rozmiar: mi abuelita (moja babcia)."
+      }
     },
     {
       "numer": 69,
       "poziom": "A2",
       "temat": "Budynki i architektura",
       "czasownik": "diseñar",
-      "plik": "lekcje/disenar.json"
+      "plik": "lekcje/disenar.json",
+      "gramatyka": {
+        "tytul": "Przyimki położenia",
+        "tresc": "encima de (na), debajo de (pod), delante de (przed), detrás de (za), al lado de (obok), entre (między), enfrente de (naprzeciwko). El edificio está al lado del banco — budynek jest obok banku."
+      }
     },
     {
       "numer": 70,
       "poziom": "A2",
       "temat": "Motoryzacja",
       "czasownik": "conducir",
-      "plik": "lekcje/conducir.json"
+      "plik": "lekcje/conducir.json",
+      "gramatyka": {
+        "tytul": "Conducir — nieregularne indefinido",
+        "tresc": "Czasowniki na -ducir mają indefinido z -j-: conduje, condujiste, condujo, condujimos, condujisteis, condujeron (bez i w 3. os. mn.!). Podobnie: traducir→traduje, producir→produje. Present: conduzco."
+      }
     },
     {
       "numer": 71,
       "poziom": "A2",
       "temat": "Edukacja zaawansowana",
       "czasownik": "aprobar",
-      "plik": "lekcje/aprobar.json"
+      "plik": "lekcje/aprobar.json",
+      "gramatyka": {
+        "tytul": "Aprobar vs suspender",
+        "tresc": "Aprobar (o→ue) = zdać: Apruebo el examen. Suspender = oblać. „Zdawać” (podchodzić do egzaminu) to presentarse al examen — hiszpański rozróżnia próbę i sukces inaczej niż polski."
+      }
     },
     {
       "numer": 72,
       "poziom": "A2",
       "temat": "Zawody zaawansowane",
       "czasownik": "dirigir",
-      "plik": "lekcje/dirigir.json"
+      "plik": "lekcje/dirigir.json",
+      "gramatyka": {
+        "tytul": "Przedrostki i rodzina słów",
+        "tresc": "Dirigir→el director→la dirección. Hiszpańskie słowotwórstwo jest regularne: -ción (czynność, żeńskie!), -dor/-dora (wykonawca), -miento (rezultat). Znając czasownik, rozpoznasz całą rodzinę słów."
+      }
     },
     {
       "numer": 73,
       "poziom": "A2",
       "temat": "Środowisko i ekologia",
       "czasownik": "reciclar",
-      "plik": "lekcje/reciclar.json"
+      "plik": "lekcje/reciclar.json",
+      "gramatyka": {
+        "tytul": "Se impersonal (ekologia)",
+        "tresc": "Se recicla el papel (papier się segreguje), Se debe proteger la naturaleza (należy chronić przyrodę). Se + 3. os. to najczęstszy sposób mówienia ogólnych zasad — bardzo przydatne w tekstach o ekologii i prawie."
+      }
     },
     {
       "numer": 74,
       "poziom": "A2",
       "temat": "Ciało człowieka – zaawansowane",
       "czasownik": "respirar",
-      "plik": "lekcje/respirar.json"
+      "plik": "lekcje/respirar.json",
+      "gramatyka": {
+        "tytul": "Rodzajnik z częściami ciała",
+        "tresc": "Z częściami ciała używamy rodzajnika, nie zaimka dzierżawczego: Me lavo LAS manos (myję ręce — nie „mis manos”), Respira por LA nariz. Posiadacza wskazuje zaimek zwrotny/celownikowy: Le duele el estómago."
+      }
     },
     {
       "numer": 75,
       "poziom": "A2",
       "temat": "Dom – zaawansowane wyposażenie",
       "czasownik": "renovar",
-      "plik": "lekcje/renovar.json"
+      "plik": "lekcje/renovar.json",
+      "gramatyka": {
+        "tytul": "Estar + participio vs ser + participio",
+        "tresc": "La cocina está renovada = kuchnia JEST wyremontowana (stan). La cocina fue renovada = kuchnia ZOSTAŁA wyremontowana (czynność, prawdziwa strona bierna z ser — częstsza w piśmie). W mowie wybieraj „se”: Se renovó la cocina."
+      }
     },
     {
       "numer": 76,
       "poziom": "A2",
       "temat": "Komunikacja i związki",
       "czasownik": "conversar",
-      "plik": "lekcje/conversar.json"
+      "plik": "lekcje/conversar.json",
+      "gramatyka": {
+        "tytul": "Llevarse bien/mal",
+        "tresc": "Llevarse bien con alguien = dobrze się z kimś dogadywać: Me llevo bien con mis vecinos. Conversar/charlar = rozmawiać/gawędzić. Tutear = mówić komuś na ty; w Hiszpanii „tú” jest domyślne wśród rówieśników."
+      }
     },
     {
       "numer": 77,
       "poziom": "A2",
       "temat": "Wydarzenia i sytuacje",
       "czasownik": "ocurrir",
-      "plik": "lekcje/ocurrir.json"
+      "plik": "lekcje/ocurrir.json",
+      "gramatyka": {
+        "tytul": "Indefinido vs imperfecto — praktyka",
+        "tresc": "Ocurrió algo extraño (WYDARZYŁO się coś dziwnego — zdarzenie, indefinido) mientras dormía (kiedy SPAŁEM — tło, imperfecto). Typowa para: imperfecto opisuje scenę, indefinido — co ją przerwało."
+      }
     },
     {
       "numer": 78,
       "poziom": "A2",
       "temat": "Zakupy i konsumpcja",
       "czasownik": "elegir",
-      "plik": "lekcje/elegir.json"
+      "plik": "lekcje/elegir.json",
+      "gramatyka": {
+        "tytul": "Elegir — e→i oraz g→j",
+        "tresc": "ELEGIR łączy dwie nieregularności: przegłos e→i (elijo, eliges) i pisownię g→j przed a/o (elijo, ale elegimos). Indefinido: eligió, eligieron. Escoger to synonim: escojo."
+      }
     },
     {
       "numer": 79,
       "poziom": "A2",
       "temat": "Prawo i przepisy",
       "czasownik": "obedecer",
-      "plik": "lekcje/obedecer.json"
+      "plik": "lekcje/obedecer.json",
+      "gramatyka": {
+        "tytul": "Obowiązek i zakaz",
+        "tresc": "Está prohibido + bezokolicznik (zabronione jest): Está prohibido fumar. Es obligatorio (obowiązkowe), No se puede (nie wolno): No se puede aparcar aquí. Hay que obedecer las reglas — trzeba przestrzegać zasad."
+      }
     },
     {
       "numer": 80,
       "poziom": "A2",
       "temat": "Religia i wiara",
       "czasownik": "creer",
-      "plik": "lekcje/creer.json"
+      "plik": "lekcje/creer.json",
+      "gramatyka": {
+        "tytul": "Creer que + indicativo/subjuntivo",
+        "tresc": "Creo que ES verdad (twierdzenie — indicativo), ale przeczenie wymaga subjuntivo: No creo que SEA verdad (nie sądzę, żeby to była prawda). Ta zmiana trybu po przeczeniu to klasyka hiszpańskiej gramatyki."
+      }
     },
     {
       "numer": 81,
       "poziom": "A2",
       "temat": "Historia i przeszłość",
       "czasownik": "recordar",
-      "plik": "lekcje/recordar.json"
+      "plik": "lekcje/recordar.json",
+      "gramatyka": {
+        "tytul": "Pretérito pluscuamperfecto",
+        "tresc": "Zaprzeszły: había + participio: Cuando llegué, la clase ya había empezado (kiedy przyszedłem, lekcja już SIĘ ZACZĘŁA — wcześniej). Había, habías, había, habíamos, habíais, habían + hecho/visto/dicho."
+      }
     },
     {
       "numer": 82,
       "poziom": "A2",
       "temat": "Media i rozrywka cyfrowa",
       "czasownik": "grabar",
-      "plik": "lekcje/grabar.json"
+      "plik": "lekcje/grabar.json",
+      "gramatyka": {
+        "tytul": "Participio nieregularne",
+        "tresc": "Najważniejsze: hecho (hacer), dicho (decir), escrito (escribir), visto (ver), puesto (poner), vuelto (volver), roto (romper), abierto (abrir), muerto (morir). He grabado un vídeo, ale He escrito un texto."
+      }
     },
     {
       "numer": 83,
       "poziom": "A2",
       "temat": "Hobby i czas wolny",
       "czasownik": "coleccionar",
-      "plik": "lekcje/coleccionar.json"
+      "plik": "lekcje/coleccionar.json",
+      "gramatyka": {
+        "tytul": "Desde / desde hace",
+        "tresc": "desde + moment: Colecciono sellos desde 2010 (od 2010). desde hace + okres: desde hace cinco años (od pięciu lat). ¿Desde cuándo...? — od kiedy...? Nie myl: hace cinco años (5 lat temu) bez desde!"
+      }
     },
     {
       "numer": 84,
       "poziom": "A2",
       "temat": "Natura – szczegółowo",
       "czasownik": "florecer",
-      "plik": "lekcje/florecer.json"
+      "plik": "lekcje/florecer.json",
+      "gramatyka": {
+        "tytul": "Rodzaj — wyjątki i pułapki",
+        "tresc": "Greckie -ma jest męskie: el problema, el tema, el clima. Żeńskie mimo -o: la mano, la foto. El agua, el águila — rodzajnik el przed akcentowanym a-, ale rzeczownik pozostaje żeński: el agua fría!"
+      }
     },
     {
       "numer": 85,
       "poziom": "A2",
       "temat": "Gotowanie zaawansowane",
       "czasownik": "guisar",
-      "plik": "lekcje/guisar.json"
+      "plik": "lekcje/guisar.json",
+      "gramatyka": {
+        "tytul": "Kuchenne czasowniki i „se me”",
+        "tresc": "Konstrukcja „se me” wyraża niezamierzone zdarzenia: Se me quemó la cena (kolacja mi się przypaliła), Se me olvidó (zapomniałem — „samo się zapomniało”). Winy nie ma nikt — bardzo hiszpańskie podejście."
+      }
     },
     {
       "numer": 86,
       "poziom": "B1",
       "temat": "Zdrowie – choroby i leczenie",
       "czasownik": "enfermar",
-      "plik": "lekcje/enfermar.json"
+      "plik": "lekcje/enfermar.json",
+      "gramatyka": {
+        "tytul": "Ponerse / volverse (stawać się)",
+        "tresc": "Zmianę stanu wyrażają: ponerse + przymiotnik (chwilowa): Se puso enfermo (zachorował), volverse (trwała): Se volvió pesimista. Enfermar = ponerse enfermo. Hacerse — o zawodzie/przekonaniach: Se hizo médico."
+      }
     },
     {
       "numer": 87,
       "poziom": "B1",
       "temat": "Transport i logistyka",
       "czasownik": "transportar",
-      "plik": "lekcje/transportar.json"
+      "plik": "lekcje/transportar.json",
+      "gramatyka": {
+        "tytul": "Przyimki ruchu i transportu",
+        "tresc": "en + środek transportu: en coche, en tren, en avión (ale: a pie — pieszo, a caballo — konno). Desde... hasta... (od... do...): El tren va desde Madrid hasta Sevilla. Hacia = w kierunku: hacia el norte."
+      }
     },
     {
       "numer": 88,
       "poziom": "B1",
       "temat": "Praca – zaawansowane pojęcia",
       "czasownik": "negociar",
-      "plik": "lekcje/negociar.json"
+      "plik": "lekcje/negociar.json",
+      "gramatyka": {
+        "tytul": "Condicional w negocjacjach",
+        "tresc": "Grzeczne propozycje w trybie przypuszczającym: ¿Podría bajar el precio? (czy mógłby Pan obniżyć cenę?), Querría hablar con el director (chciałbym rozmawiać z...). Usted + 3. osoba = forma grzecznościowa."
+      }
     },
     {
       "numer": 89,
       "poziom": "B1",
       "temat": "Psychologia i osobowość",
       "czasownik": "afrontar",
-      "plik": "lekcje/afrontar.json"
+      "plik": "lekcje/afrontar.json",
+      "gramatyka": {
+        "tytul": "Seguir / dejar de (fazy czynności)",
+        "tresc": "seguir + gerundio = nadal coś robić: Sigo aprendiendo (wciąż się uczę). dejar de + bezokolicznik = przestać: Dejé de fumar (rzuciłem palenie). empezar a + bezokolicznik = zacząć: Empecé a correr."
+      }
     },
     {
       "numer": 90,
       "poziom": "B1",
       "temat": "Społeczeństwo i problemy społeczne",
       "czasownik": "ayudar",
-      "plik": "lekcje/ayudar.json"
+      "plik": "lekcje/ayudar.json",
+      "gramatyka": {
+        "tytul": "Cada vez más (coraz bardziej)",
+        "tresc": "cada vez más = coraz więcej/bardziej: Hay cada vez más problemas sociales. cada vez menos = coraz mniej. La mayoría de la gente (większość ludzi) + liczba pojedyncza czasownika: La mayoría ayuda."
+      }
     },
     {
       "numer": 91,
       "poziom": "B1",
       "temat": "Nauka i technika",
       "czasownik": "investigar",
-      "plik": "lekcje/investigar.json"
+      "plik": "lekcje/investigar.json",
+      "gramatyka": {
+        "tytul": "Voz pasiva w tekstach naukowych",
+        "tresc": "W tekstach formalnych spotkasz pełną stronę bierną: El fenómeno fue investigado por los científicos (zjawisko zostało zbadane przez naukowców). Ser + participio + por. W mowie zamień na: Los científicos investigaron..."
+      }
     },
     {
       "numer": 92,
       "poziom": "B1",
       "temat": "Muzyka i instrumenty",
       "czasownik": "tocar",
-      "plik": "lekcje/tocar.json"
+      "plik": "lekcje/tocar.json",
+      "gramatyka": {
+        "tytul": "Tocar — grać i „wypadać”",
+        "tresc": "Tocar la guitarra = grać na gitarze (bez przyimka!). Tocar znaczy też „przypadać w udziale”: Me toca a mí (moja kolej), Te toca pagar (twoja kolej, żeby zapłacić). Dotykać: No toques eso."
+      }
     },
     {
       "numer": 93,
       "poziom": "B1",
       "temat": "Polityka i ustrój",
       "czasownik": "votar",
-      "plik": "lekcje/votar.json"
+      "plik": "lekcje/votar.json",
+      "gramatyka": {
+        "tytul": "Subjuntivo po „es importante que”",
+        "tresc": "Bezosobowe oceny wymagają subjuntivo: Es importante que votes (ważne, żebyś głosował), Es necesario que el gobierno actúe. Bez „que” — bezokolicznik: Es importante votar."
+      }
     },
     {
       "numer": 94,
       "poziom": "B1",
       "temat": "Gospodarka i finanse",
       "czasownik": "comerciar",
-      "plik": "lekcje/comerciar.json"
+      "plik": "lekcje/comerciar.json",
+      "gramatyka": {
+        "tytul": "Números y porcentajes en economía",
+        "tresc": "La economía creció un 3% (un przed procentem). Aumentar/subir = rosnąć, bajar/disminuir = spadać: Los precios subieron. El doble (dwukrotność), la mitad (połowa): La mitad de las empresas."
+      }
     },
     {
       "numer": 95,
       "poziom": "B1",
       "temat": "Mieszkanie i nieruchomości",
       "czasownik": "adquirir",
-      "plik": "lekcje/adquirir.json"
+      "plik": "lekcje/adquirir.json",
+      "gramatyka": {
+        "tytul": "Zaimki względne: que, donde, el cual",
+        "tresc": "que = który (uniwersalne): el piso que compré. donde = gdzie: la ciudad donde vivo. lo que = to, co: No entiendo lo que dices. Po przyimku: en el que / en la que: la casa en la que vivo."
+      }
     },
     {
       "numer": 96,
       "poziom": "B1",
       "temat": "Edukacja na poziomie zaawansowanym",
       "czasownik": "estudiar",
-      "plik": "lekcje/estudiar.json"
+      "plik": "lekcje/estudiar.json",
+      "gramatyka": {
+        "tytul": "Perífrasis: volver a, soler",
+        "tresc": "volver a + bezokolicznik = zrobić coś ponownie: Vuelvo a estudiar (znów studiuję). soler + bezokolicznik = mieć w zwyczaju: Suelo estudiar por la noche (zwykle uczę się wieczorem; suelo — o→ue)."
+      }
     },
     {
       "numer": 97,
       "poziom": "B1",
       "temat": "Zdrowie psychiczne",
       "czasownik": "descansar",
-      "plik": "lekcje/descansar.json"
+      "plik": "lekcje/descansar.json",
+      "gramatyka": {
+        "tytul": "Subjuntivo po „para que”",
+        "tresc": "Cel z inną osobą wymaga subjuntivo: Descanso para que mi mente funcione mejor (odpoczywam, żeby mój umysł działał lepiej). Ta sama osoba → bezokolicznik: Descanso para pensar mejor."
+      }
     },
     {
       "numer": 98,
       "poziom": "B1",
       "temat": "Fitness i zdrowy styl życia",
       "czasownik": "ejercitar",
-      "plik": "lekcje/ejercitar.json"
+      "plik": "lekcje/ejercitar.json",
+      "gramatyka": {
+        "tytul": "Imperativo z zaimkami",
+        "tresc": "W rozkazie twierdzącym zaimki doklejają się do czasownika: ¡Levántate! (wstań!), ¡Hazlo! (zrób to!). W przeczeniu wracają przed czasownik (i tryb zmienia się na subjuntivo): ¡No te levantes!, ¡No lo hagas!"
+      }
     },
     {
       "numer": 99,
       "poziom": "B1",
       "temat": "Kultura hiszpańskojęzyczna",
       "czasownik": "festejar",
-      "plik": "lekcje/festejar.json"
+      "plik": "lekcje/festejar.json",
+      "gramatyka": {
+        "tytul": "Hiszpański w Hiszpanii i Ameryce",
+        "tresc": "Vosotros używa się tylko w Hiszpanii; w Ameryce Łacińskiej zamiast tego ustedes + 3. os. mn.: ustedes festejan. W Argentynie „vos” zamiast tú (vos tenés). Słownictwo też się różni: coche/carro/auto, ordenador/computadora."
+      }
     },
     {
       "numer": 100,
       "poziom": "B1",
       "temat": "Podsumowanie – trudniejsze pojęcia abstrakcyjne",
       "czasownik": "lograr",
-      "plik": "lekcje/lograr.json"
+      "plik": "lekcje/lograr.json",
+      "gramatyka": {
+        "tytul": "Lograr + bezokolicznik i podsumowanie",
+        "tresc": "lograr + bezokolicznik = zdołać coś zrobić: Logré terminar el curso (udało mi się skończyć kurs). conseguir to synonim. Gratulacje — z tą lekcją znasz trzy czasy, oba tryby przeszłe i podstawy subjuntivo. ¡Lo has logrado!"
+      }
     }
   ]
 }
