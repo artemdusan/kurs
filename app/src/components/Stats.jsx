@@ -30,8 +30,41 @@ export default function Stats({ maxLesson, onBack }) {
         levels[(progressMap.get(w.id)?.level || 1) - 1]++;
       }
       const daily = await getMeta('dailyStats', {});
-      const days = lastNDays(14).map((day) => ({ day, ...(daily[day] || { correct: 0, wrong: 0 }) }));
-      setData({ levels, wordCount: words.length, days });
+      const days = lastNDays(14).map((day) => ({
+        day,
+        correct: 0,
+        wrong: 0,
+        seconds: 0,
+        ...(daily[day] || {}),
+      }));
+      // agregaty czasu i skuteczności ze WSZYSTKICH dni nauki
+      let totalSeconds = 0;
+      let totalSessions = 0;
+      let totalCorrect = 0;
+      let totalWrong = 0;
+      let activeDays = 0;
+      for (const d of Object.values(daily)) {
+        totalSeconds += d.seconds || 0;
+        totalSessions += d.sessions || 0;
+        totalCorrect += d.correct || 0;
+        totalWrong += d.wrong || 0;
+        if ((d.correct || 0) + (d.wrong || 0) > 0) activeDays++;
+      }
+      const today = daily[new Date().toISOString().slice(0, 10)] || {};
+      setData({
+        levels,
+        wordCount: words.length,
+        days,
+        time: {
+          todayMin: Math.round((today.seconds || 0) / 60),
+          avgMin: activeDays ? Math.round(totalSeconds / activeDays / 60) : 0,
+          totalMin: Math.round(totalSeconds / 60),
+          sessions: totalSessions,
+          accuracy: totalCorrect + totalWrong
+            ? Math.round((totalCorrect / (totalCorrect + totalWrong)) * 100)
+            : 0,
+        },
+      });
     })();
   }, [maxLesson]);
 
@@ -49,11 +82,55 @@ export default function Stats({ maxLesson, onBack }) {
         <span />
       </div>
 
+      <h3>Czas nauki</h3>
+      <div className="time-grid">
+        <div className="time-cell">
+          <span className="time-num">{data.time.todayMin}</span>
+          <span className="time-label">min dziś</span>
+        </div>
+        <div className="time-cell">
+          <span className="time-num">{data.time.avgMin}</span>
+          <span className="time-label">min/dzień śr.</span>
+        </div>
+        <div className="time-cell">
+          <span className="time-num">{Math.floor(data.time.totalMin / 60)}h {data.time.totalMin % 60}m</span>
+          <span className="time-label">łącznie</span>
+        </div>
+        <div className="time-cell">
+          <span className="time-num">{data.time.sessions}</span>
+          <span className="time-label">sesji</span>
+        </div>
+        <div className="time-cell">
+          <span className="time-num">{data.time.accuracy}%</span>
+          <span className="time-label">skuteczność</span>
+        </div>
+      </div>
+
+      <h3>Minuty nauki (14 dni)</h3>
+      <div className="day-bars day-bars-short">
+        {data.days.map((d) => {
+          const min = Math.round((d.seconds || 0) / 60);
+          return (
+            <div key={d.day} className="day-col" title={`${d.day}: ${min} min`}>
+              <div className="day-col-track">
+                {min > 0 && (
+                  <div
+                    className="day-col-minutes"
+                    style={{ height: (min / Math.max(1, ...data.days.map((x) => Math.round((x.seconds || 0) / 60)))) * 100 + '%' }}
+                  />
+                )}
+              </div>
+              <span className="day-col-label">{d.day.slice(8)}</span>
+            </div>
+          );
+        })}
+      </div>
+
       <h3>Poziomy słów ({data.wordCount})</h3>
       <LevelBars levels={data.levels} />
 
-      <h3>Ostatnie 14 dni</h3>
-      <div className="day-bars">
+      <h3>Odpowiedzi (14 dni)</h3>
+      <div className="day-bars day-bars-short">
         {data.days.map((d) => {
           const total = d.correct + d.wrong;
           return (

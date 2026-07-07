@@ -26,11 +26,13 @@ export default function Session({ settings, maxLesson, mode = 'normal', onExit, 
   const [task, setTask] = useState(null);
   const [typed, setTyped] = useState('');
   const [article, setArticle] = useState('');
-  const [phase, setPhase] = useState('answer'); // 'answer' | 'feedback' | 'done'
+  const [phase, setPhase] = useState('answer'); // 'answer' | 'feedback' | 'more' | 'done'
   const [wasCorrect, setWasCorrect] = useState(false);
   const [counts, setCounts] = useState({ correct: 0, wrong: 0, done: 0 });
   const [remaining, setRemaining] = useState(settings.sessionMinutes * 60);
   const endAtRef = useRef(Date.now() + settings.sessionMinutes * 60 * 1000);
+  const startAtRef = useRef(Date.now());
+  const finishedRef = useRef(false);
   const prevWordRef = useRef(null);
 
   useEffect(() => {
@@ -54,10 +56,17 @@ export default function Session({ settings, maxLesson, mode = 'normal', onExit, 
     return () => clearInterval(t);
   }, []);
 
+  // czas minął, gdy użytkownik stał na ekranie „dolosuj więcej" — zakończ
+  useEffect(() => {
+    if (remaining === 0 && phase === 'more') finish(pool);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [remaining, phase]);
+
   async function makeTask(currentPool) {
     if (Date.now() >= endAtRef.current) return finish(currentPool);
     const entry = pickNext(currentPool, prevWordRef.current);
-    if (!entry) return finish(currentPool);
+    // pula wyczerpana, ale czas jeszcze biegnie — zapytaj o dolosowanie słów
+    if (!entry) return setPhase('more');
     prevWordRef.current = entry.word.id;
 
     const examples = entry.word.examples?.length
@@ -119,13 +128,32 @@ export default function Session({ settings, maxLesson, mode = 'normal', onExit, 
     onSettingsChange?.(updated);
   }
 
+  // Dolosowanie nowych słów, gdy pula skończyła się przed czasem —
+  // najpierw z pominięciem słów już zaliczonych w tej sesji.
+  async function drawMore() {
+    const doneIds = new Set(pool.map((e) => e.word.id));
+    let extra = await buildSessionPool(maxLesson, 25, doneIds);
+    if (!extra.length) extra = await buildSessionPool(maxLesson, 25);
+    if (!extra.length) return finish(pool);
+    const merged = [...pool, ...extra.filter((e) => !doneIds.has(e.word.id))];
+    if (merged.length === pool.length) return finish(pool);
+    setPool(merged);
+    await makeTask(merged);
+  }
+
   async function finish(currentPool) {
-    await bumpDailyStats({ finishedSession: true });
+    if (!finishedRef.current) {
+      finishedRef.current = true;
+      const seconds = Math.round((Date.now() - startAtRef.current) / 1000);
+      await bumpDailyStats({ finishedSession: true, seconds });
+    }
     setPhase('done');
     onFinished?.(currentPool || pool);
   }
 
-  if (!pool || (!task && phase !== 'done')) return <div className="screen center">Ładowanie sesji…</div>;
+  if (!pool || (!task && phase !== 'done' && phase !== 'more')) {
+    return <div className="screen center">Ładowanie sesji…</div>;
+  }
 
   if (phase === 'done') {
     return (
@@ -136,6 +164,20 @@ export default function Session({ settings, maxLesson, mode = 'normal', onExit, 
         </p>
         <p>Zaliczone w tej sesji słowa: {counts.done}</p>
         <button className="btn primary" onClick={onExit}>Wróć do kursu</button>
+      </div>
+    );
+  }
+
+  if (phase === 'more') {
+    const minsLeft = Math.floor(remaining / 60);
+    const secsLeft = String(remaining % 60).padStart(2, '0');
+    return (
+      <div className="screen center session-summary">
+        <h2>Pula słów ukończona 💪</h2>
+        <p>Do końca sesji zostało {minsLeft}:{secsLeft}.</p>
+        <p>Dolosować kolejne słowa i kontynuować naukę?</p>
+        <button className="btn primary" onClick={drawMore}>Dolosuj słowa</button>
+        <button className="btn" onClick={() => finish(pool)}>Zakończ sesję</button>
       </div>
     );
   }

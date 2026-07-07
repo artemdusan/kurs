@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { db, getMeta, setMeta, getSettings } from './db.js';
 import { loadIndex, ensureLessonImported } from './course.js';
-import { lessonFloorReached, getProgressMap, countRecentMistakes, levelDistribution } from './engine/session.js';
+import { lessonFloorReached, getProgressMap, countRecentMistakes } from './engine/session.js';
 import { syncNow, resolveSyncUrl } from './sync.js';
 import Session from './components/Session.jsx';
 import Settings from './components/Settings.jsx';
@@ -12,7 +12,7 @@ import Icon from './components/Icon.jsx';
 export default function App() {
   const [view, setView] = useState('loading'); // loading | tree | session | mistakes | settings | stats
   const [mistakeCount, setMistakeCount] = useState(0);
-  const [levels, setLevels] = useState(null);
+  const [browsingLesson, setBrowsingLesson] = useState(null); // przeglądana lekcja (null = bieżąca)
   const [index, setIndex] = useState(null);
   const [settings, setSettings] = useState(null);
   const [unlockedLesson, setUnlockedLesson] = useState(1);
@@ -55,7 +55,6 @@ export default function App() {
     }
     setLessonStats(stats);
     setMistakeCount(await countRecentMistakes(unlocked));
-    setLevels(await levelDistribution(unlocked));
     setStreak(await getMeta('streak', { count: 0 }));
   }
 
@@ -122,19 +121,17 @@ export default function App() {
     );
   }
 
-  const current = index.lekcje.find((l) => l.numer === unlockedLesson);
-  const stat = lessonStats[unlockedLesson];
+  // przeglądać można lekcje 1..odblokowana; domyślnie pokazujemy bieżącą
+  const shownLesson = browsingLesson ?? unlockedLesson;
+  const current = index.lekcje.find((l) => l.numer === shownLesson);
+  const stat = lessonStats[shownLesson];
   const pct = stat ? Math.round((stat.mastered / stat.total) * 100) : 0;
-  // „poznane" = słowa, które wyszły z poziomu startowego (poziom >= 2)
-  const knownWords = levels ? levels.slice(1).reduce((s, n) => s + n, 0) : 0;
-  const totalWords = levels ? levels.reduce((s, n) => s + n, 0) : 0;
 
   return (
     <div className="screen home">
       <header className="home-header">
         <div className="stats-bar">
           <span title="Streak dni nauki"><Icon name="fire" size={16} /> {streak.count || 0}</span>
-          <span title="Poznane słowa (poziom 2+)"><Icon name="book" size={16} /> {knownWords}/{totalWords}</span>
         </div>
         <div>
           <button className="btn ghost" title="Statystyki" onClick={() => setView('stats')}>
@@ -147,15 +144,37 @@ export default function App() {
       </header>
 
       <div className="lesson-card">
-        <span className="lesson-card-label">Lekcja {unlockedLesson} · {current?.poziom}</span>
+        <div className="lesson-card-head">
+          <span className="lesson-card-label">
+            Lekcja {shownLesson} · {current?.poziom}
+            {shownLesson !== unlockedLesson && ' · archiwum'}
+          </span>
+          <div className="lesson-nav">
+            <button
+              className="btn ghost lesson-nav-btn"
+              disabled={shownLesson <= 1}
+              aria-label="Poprzednia lekcja"
+              onClick={() => setBrowsingLesson(shownLesson - 1)}
+            >
+              <Icon name="back" size={16} />
+            </button>
+            <button
+              className="btn ghost lesson-nav-btn lesson-nav-next"
+              disabled={shownLesson >= unlockedLesson}
+              aria-label="Następna lekcja"
+              onClick={() => setBrowsingLesson(shownLesson + 1 === unlockedLesson ? null : shownLesson + 1)}
+            >
+              <Icon name="back" size={16} />
+            </button>
+          </div>
+        </div>
         <span className="lesson-card-title">{current?.temat}</span>
-        <span className="lesson-card-sub">{current?.czasownik} · opanowane {pct}%</span>
         <div className="lesson-card-track">
           <div className="lesson-card-fill" style={{ width: pct + '%' }} />
         </div>
       </div>
 
-      <LessonPreview lesson={unlockedLesson} grammarNote={current?.gramatyka} />
+      <LessonPreview lesson={shownLesson} grammarNote={current?.gramatyka} />
 
       {toast && <div className="toast">{toast}</div>}
 
