@@ -53,6 +53,13 @@ body::after {
   animation: screenIn 0.22s steps(5);
 }
 
+/* Ekran główny: wysokość ekranu jest stała (karta lekcji + przycisk sesji
+   zawsze widoczne), a scroll dłuższej treści ogranicza się do .preview-body. */
+.screen.home {
+  height: 100dvh;
+  overflow: hidden;
+}
+
 .center { align-items: center; justify-content: center; text-align: center; }
 
 h1, h2, h3 {
