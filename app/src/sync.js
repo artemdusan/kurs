@@ -27,6 +27,10 @@ export async function syncNow() {
 
   const changedWords = await db.words.where('updated_at').above(lastSync).toArray();
   const changedProgress = await db.progress.where('updated_at').above(lastSync).toArray();
+  // dailyStats/streak są małymi blobami — wysyłamy i odbieramy zawsze całość
+  // (nie tylko delty), żeby serwer mógł scalić dane per dzień z obu urządzeń
+  const dailyStats = await getMeta('dailyStats', {});
+  const streak = await getMeta('streak', { count: 0, lastDay: '' });
 
   const res = await fetch(syncUrl + '/sync', {
     method: 'POST',
@@ -38,6 +42,8 @@ export async function syncNow() {
       since: lastSync,
       words: changedWords,
       progress: changedProgress,
+      dailyStats,
+      streak,
     }),
   });
   if (res.status === 401) throw new Error('Błędny login lub hasło');
@@ -54,6 +60,10 @@ export async function syncNow() {
       if (!local || remote.updated_at > local.updated_at) await db.progress.put(remote);
     }
   });
+
+  // serwer zwraca już scaloną (per dzień) wersję — staje się nowym stanem lokalnym
+  if (data.dailyStats) await setMeta('dailyStats', data.dailyStats);
+  if (data.streak) await setMeta('streak', data.streak);
 
   await setMeta('lastSync', data.serverTime || Date.now());
   return {

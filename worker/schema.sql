@@ -27,3 +27,14 @@ CREATE TABLE IF NOT EXISTS progress (
   PRIMARY KEY (user_id, word_id)
 );
 CREATE INDEX IF NOT EXISTS idx_progress_updated ON progress (user_id, updated_at);
+
+-- Statystyki (dailyStats, streak): mały JSON blob per klucz, scalany na
+-- serwerze (nie prostym LWW całego bloba — patrz worker/src/index.js),
+-- żeby nauka na dwóch urządzeniach w różne dni się nie kasowała.
+CREATE TABLE IF NOT EXISTS meta (
+  user_id INTEGER NOT NULL,
+  key TEXT NOT NULL,
+  data TEXT NOT NULL,
+  updated_at INTEGER NOT NULL,
+  PRIMARY KEY (user_id, key)
+);

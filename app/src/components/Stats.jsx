@@ -51,10 +51,12 @@ export default function Stats({ maxLesson, onBack }) {
         if ((d.correct || 0) + (d.wrong || 0) > 0) activeDays++;
       }
       const today = daily[new Date().toISOString().slice(0, 10)] || {};
+      const streak = await getMeta('streak', { count: 0 });
       setData({
         levels,
         wordCount: words.length,
         days,
+        streak: streak.count || 0,
         time: {
           todayMin: Math.round((today.seconds || 0) / 60),
           avgMin: activeDays ? Math.round(totalSeconds / activeDays / 60) : 0,
@@ -70,8 +72,6 @@ export default function Stats({ maxLesson, onBack }) {
 
   if (!data) return <div className="screen center">Liczenie statystyk…</div>;
 
-  const maxDayCount = Math.max(1, ...data.days.map((d) => d.correct + d.wrong));
-
   return (
     <div className="screen stats">
       <div className="session-top">
@@ -84,6 +84,10 @@ export default function Stats({ maxLesson, onBack }) {
 
       <h3>Czas nauki</h3>
       <div className="time-grid">
+        <div className="time-cell">
+          <span className="time-num"><Icon name="fire" size={13} /> {data.streak}</span>
+          <span className="time-label">dni z rzędu</span>
+        </div>
         <div className="time-cell">
           <span className="time-num">{data.time.todayMin}</span>
           <span className="time-label">min dziś</span>
@@ -128,26 +132,6 @@ export default function Stats({ maxLesson, onBack }) {
 
       <h3>Poziomy słów ({data.wordCount})</h3>
       <LevelBars levels={data.levels} />
-
-      <h3>Odpowiedzi (14 dni)</h3>
-      <div className="day-bars day-bars-short">
-        {data.days.map((d) => {
-          const total = d.correct + d.wrong;
-          return (
-            <div key={d.day} className="day-col" title={`${d.day}: ✅ ${d.correct} ❌ ${d.wrong}`}>
-              <div className="day-col-track">
-                {total > 0 && (
-                  <>
-                    <div className="day-col-wrong" style={{ height: (d.wrong / maxDayCount) * 100 + '%' }} />
-                    <div className="day-col-correct" style={{ height: (d.correct / maxDayCount) * 100 + '%' }} />
-                  </>
-                )}
-              </div>
-              <span className="day-col-label">{d.day.slice(8)}</span>
-            </div>
-          );
-        })}
-      </div>
     </div>
   );
 }
