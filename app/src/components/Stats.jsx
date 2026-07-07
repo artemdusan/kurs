@@ -26,18 +26,12 @@ export default function Stats({ maxLesson, onBack }) {
         .toArray();
       const progressMap = await getProgressMap(words.map((w) => w.id));
       const levels = Array.from({ length: MAX_LEVEL }, () => 0);
-      let correctTotal = 0;
-      let wrongTotal = 0;
       for (const w of words) {
-        const p = progressMap.get(w.id);
-        levels[(p?.level || 1) - 1]++;
-        correctTotal += p?.correctTotal || 0;
-        wrongTotal += p?.wrongTotal || 0;
+        levels[(progressMap.get(w.id)?.level || 1) - 1]++;
       }
       const daily = await getMeta('dailyStats', {});
       const days = lastNDays(14).map((day) => ({ day, ...(daily[day] || { correct: 0, wrong: 0 }) }));
-      const streak = await getMeta('streak', { count: 0 });
-      setData({ levels, wordCount: words.length, correctTotal, wrongTotal, days, streak });
+      setData({ levels, wordCount: words.length, days });
     })();
   }, [maxLesson]);
 
@@ -55,15 +49,7 @@ export default function Stats({ maxLesson, onBack }) {
         <span />
       </div>
 
-      <div className="stats-summary">
-        <span><Icon name="fire" size={14} /> {data.streak.count || 0}</span>
-        <span>słów: <strong>{data.wordCount}</strong></span>
-        <span>
-          <span className="num-ok">{data.correctTotal}</span> <span className="num-bad">{data.wrongTotal}</span>
-        </span>
-      </div>
-
-      <h3>Poziomy słów</h3>
+      <h3>Poziomy słów ({data.wordCount})</h3>
       <LevelBars levels={data.levels} />
 
       <h3>Ostatnie 14 dni</h3>
