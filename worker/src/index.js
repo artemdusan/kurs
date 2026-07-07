@@ -39,6 +39,28 @@ async function authenticate(request, env) {
   return user ? user.id : null;
 }
 
+// Scala dailyStats z dwóch urządzeń dzień po dniu — dzień z nowszym
+// `updated_at` wygrywa, więc równoległa nauka na obu urządzeniach w różne
+// dni sumuje się zamiast nadpisywać całą historię.
+function mergeDailyStats(existing, incoming) {
+  const merged = { ...(existing || {}) };
+  for (const [day, incDay] of Object.entries(incoming || {})) {
+    const cur = merged[day];
+    if (!cur || (incDay.updated_at || 0) > (cur.updated_at || 0)) merged[day] = incDay;
+  }
+  return merged;
+}
+
+// Streak to pojedynczy licznik (nie da się go sumować per dzień) — bierzemy
+// wersję z późniejszym `lastDay`, a przy remisie wyższy `count`.
+function mergeStreak(existing, incoming) {
+  if (!existing) return incoming || null;
+  if (!incoming) return existing;
+  if (incoming.lastDay > existing.lastDay) return incoming;
+  if (existing.lastDay > incoming.lastDay) return existing;
+  return (incoming.count || 0) >= (existing.count || 0) ? incoming : existing;
+}
+
 async function handleSync(request, env) {
   const userId = await authenticate(request, env);
   if (!userId) return json({ error: 'unauthorized' }, 401);
@@ -71,6 +93,32 @@ async function handleSync(request, env) {
       .run();
   }
 
+  // dailyStats/streak: scal przychodzące dane z tym, co serwer już ma,
+  // i odeślij WYNIK scalania — oba urządzenia zbiegają do tej samej sumy
+  const metaRows = await env.DB.prepare('SELECT key, data FROM meta WHERE user_id = ?')
+    .bind(userId)
+    .all();
+  const metaMap = {};
+  for (const r of metaRows.results) metaMap[r.key] = JSON.parse(r.data);
+
+  const mergedDailyStats = mergeDailyStats(metaMap.dailyStats, body.dailyStats);
+  const mergedStreak = mergeStreak(metaMap.streak, body.streak);
+
+  await env.DB.prepare(
+    `INSERT INTO meta (user_id, key, data, updated_at) VALUES (?, 'dailyStats', ?, ?)
+     ON CONFLICT (user_id, key) DO UPDATE SET data = excluded.data, updated_at = excluded.updated_at`
+  )
+    .bind(userId, JSON.stringify(mergedDailyStats), now)
+    .run();
+  if (mergedStreak) {
+    await env.DB.prepare(
+      `INSERT INTO meta (user_id, key, data, updated_at) VALUES (?, 'streak', ?, ?)
+       ON CONFLICT (user_id, key) DO UPDATE SET data = excluded.data, updated_at = excluded.updated_at`
+    )
+      .bind(userId, JSON.stringify(mergedStreak), now)
+      .run();
+  }
+
   // Zwrot zmian serwera od `since`
   const words = await env.DB.prepare(
     'SELECT data FROM words WHERE user_id = ? AND updated_at > ?'
@@ -87,6 +135,8 @@ async function handleSync(request, env) {
     serverTime: now,
     words: words.results.map((r) => JSON.parse(r.data)),
     progress: progress.results.map((r) => JSON.parse(r.data)),
+    dailyStats: mergedDailyStats,
+    streak: mergedStreak,
   });
 }
 
@@ -109,6 +159,7 @@ async function handleAdminUsers(request, env) {
     if (user) {
       await env.DB.prepare('DELETE FROM words WHERE user_id = ?').bind(user.id).run();
       await env.DB.prepare('DELETE FROM progress WHERE user_id = ?').bind(user.id).run();
+      await env.DB.prepare('DELETE FROM meta WHERE user_id = ?').bind(user.id).run();
       await env.DB.prepare('DELETE FROM users WHERE id = ?').bind(user.id).run();
     }
     return json({ ok: true });

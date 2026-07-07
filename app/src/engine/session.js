@@ -179,7 +179,12 @@ export async function lessonFloorReached(lesson, floorLevel) {
   return words.every((w) => (progressMap.get(w.id)?.level || 1) >= floorLevel);
 }
 
-/** Statystyki dzienne (odpowiedzi, sekundy nauki, sesje) + streak dni nauki. */
+/**
+ * Statystyki dzienne (odpowiedzi, sekundy nauki, sesje) + streak dni nauki.
+ * Każdy dzień ma własny `updated_at` — przy synchronizacji dwóch urządzeń
+ * scalanie odbywa się per dzień (nowszy zapis danego dnia wygrywa), więc
+ * nauka na jednym urządzeniu nie nadpisuje dni zapisanych na drugim.
+ */
 export async function bumpDailyStats({ correct = 0, wrong = 0, seconds = 0, finishedSession = false }) {
   const today = new Date().toISOString().slice(0, 10);
   const stats = await getMeta('dailyStats', {});
@@ -188,6 +193,7 @@ export async function bumpDailyStats({ correct = 0, wrong = 0, seconds = 0, fini
   day.wrong += wrong;
   day.seconds = (day.seconds || 0) + seconds;
   if (finishedSession) day.sessions++;
+  day.updated_at = Date.now();
   stats[today] = day;
   await setMeta('dailyStats', stats);
 

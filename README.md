@@ -41,7 +41,12 @@ npx wrangler deploy
 
 - Delty: klient wysyła tylko rekordy `updated_at > lastSync`, serwer zwraca swoje zmiany.
 - Konflikty: last-writer-wins po `updated_at`; usuwanie przez soft delete (`deleted`).
-- UUID słów są generowane na urządzeniu i niezmienne.
+- Id słów są deterministyczne (lekcja + pozycja), identyczne na każdym urządzeniu.
+- Statystyki (czas nauki, streak) synchronizują się osobno: serwer scala je
+  dzień po dniu (`meta` w schema.sql), więc nauka na dwóch urządzeniach w
+  różne dni się sumuje zamiast nadpisywać. Przy update z wcześniejszej wersji
+  puść ponownie `npx wrangler d1 execute kurs-db --file=schema.sql --remote`
+  (dodaje tylko nową tabelę `meta`, nic nie kasuje).
 - `GET /dashboard` — panel administratora (tworzenie/usuwanie użytkowników, token ADMIN_TOKEN).
 - W aplikacji: Ustawienia → adres Workera + login/hasło → „Synchronizuj teraz”.
 - Adres Workera można też wstrzyknąć przy buildzie zmienną `VITE_SYNC_URL` —

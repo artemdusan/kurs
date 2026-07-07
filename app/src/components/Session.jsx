@@ -31,9 +31,15 @@ export default function Session({ settings, maxLesson, mode = 'normal', onExit, 
   const [counts, setCounts] = useState({ correct: 0, wrong: 0, done: 0 });
   const [remaining, setRemaining] = useState(settings.sessionMinutes * 60);
   const endAtRef = useRef(Date.now() + settings.sessionMinutes * 60 * 1000);
-  const startAtRef = useRef(Date.now());
+  // sekundy nauki liczone tylko, gdy karta jest widoczna — apka w tle (albo
+  // ekran zablokowany) nie ma wliczać się do czasu nauki w statystykach
+  const activeSecondsRef = useRef(0);
   const finishedRef = useRef(false);
   const prevWordRef = useRef(null);
+  const poolRef = useRef(null);
+  const phaseRef = useRef(phase);
+  poolRef.current = pool;
+  phaseRef.current = phase;
 
   useEffect(() => {
     let cancelled = false;
@@ -52,15 +58,36 @@ export default function Session({ settings, maxLesson, mode = 'normal', onExit, 
   useEffect(() => {
     const t = setInterval(() => {
       setRemaining(Math.max(0, Math.round((endAtRef.current - Date.now()) / 1000)));
+      // liczy się tylko czas z kartą widoczną na pierwszym planie
+      if (document.visibilityState !== 'hidden') activeSecondsRef.current++;
     }, 1000);
     return () => clearInterval(t);
   }, []);
 
-  // czas minął, gdy użytkownik stał na ekranie „dolosuj więcej" — zakończ
+  // czas minął (w dowolnej fazie) — zakończ sesję; obejmuje też powrót
+  // z tła po dłuższej nieaktywności, gdy limit czasu już minął
   useEffect(() => {
-    if (remaining === 0 && phase === 'more') finish(pool);
+    if (remaining === 0 && phase !== 'done') finish(pool);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [remaining, phase]);
+
+  // wracając z tła sprawdź od razu, czy limit czasu minął — przeglądarka
+  // wstrzymuje/spowalnia interwały w ukrytej karcie, więc kolejny tick mógłby
+  // przyjść z dużym opóźnieniem
+  useEffect(() => {
+    function onVisibilityChange() {
+      if (
+        document.visibilityState === 'visible' &&
+        Date.now() >= endAtRef.current &&
+        phaseRef.current !== 'done'
+      ) {
+        finish(poolRef.current);
+      }
+    }
+    document.addEventListener('visibilitychange', onVisibilityChange);
+    return () => document.removeEventListener('visibilitychange', onVisibilityChange);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, []);
 
   async function makeTask(currentPool) {
     if (Date.now() >= endAtRef.current) return finish(currentPool);
@@ -144,8 +171,7 @@ export default function Session({ settings, maxLesson, mode = 'normal', onExit, 
   async function finish(currentPool) {
     if (!finishedRef.current) {
       finishedRef.current = true;
-      const seconds = Math.round((Date.now() - startAtRef.current) / 1000);
-      await bumpDailyStats({ finishedSession: true, seconds });
+      await bumpDailyStats({ finishedSession: true, seconds: activeSecondsRef.current });
     }
     setPhase('done');
     onFinished?.(currentPool || pool);
