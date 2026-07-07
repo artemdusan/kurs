@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { saveSettings } from '../db.js';
-import { buildSessionPool, buildMistakesPool, pickNext, recordAnswer, bumpDailyStats, SESSION_DONE_STREAK } from '../engine/session.js';
+import { buildSessionPool, buildMistakesPool, pickNext, recordAnswer, bumpDailyStats, requiredStreak } from '../engine/session.js';
 import { checkAnswer, splitArticle } from '../engine/answer.js';
 import { buildKeyboard, articleButtons } from '../engine/keyboard.js';
 import { buildMcqOptions } from '../engine/mcq.js';
@@ -111,7 +111,7 @@ export default function Session({ settings, maxLesson, mode = 'normal', onExit, 
     setCounts((c) => ({
       correct: c.correct + (correct ? 1 : 0),
       wrong: c.wrong + (correct ? 0 : 1),
-      done: newPool.filter((e) => e.sessionStreak >= SESSION_DONE_STREAK).length,
+      done: newPool.filter((e) => e.sessionStreak >= requiredStreak(e.progress)).length,
     }));
     await bumpDailyStats({ correct: correct ? 1 : 0, wrong: correct ? 0 : 1 });
     if (!correct) navigator.vibrate?.(150);
