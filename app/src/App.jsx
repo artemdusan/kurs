@@ -6,7 +6,7 @@ import { syncNow, resolveSyncUrl } from './sync.js';
 import Session from './components/Session.jsx';
 import Settings from './components/Settings.jsx';
 import Stats from './components/Stats.jsx';
-import LevelBars from './components/LevelBars.jsx';
+import LessonPreview from './components/LessonPreview.jsx';
 import Icon from './components/Icon.jsx';
 
 export default function App() {
@@ -18,7 +18,6 @@ export default function App() {
   const [unlockedLesson, setUnlockedLesson] = useState(1);
   const [lessonStats, setLessonStats] = useState({});
   const [streak, setStreak] = useState({ count: 0 });
-  const [todayStats, setTodayStats] = useState({ correct: 0, wrong: 0 });
   const [toast, setToast] = useState('');
 
   useEffect(() => {
@@ -35,6 +34,12 @@ export default function App() {
       setUnlockedLesson(unlocked);
       await refreshStats(idx, unlocked);
       setView('tree');
+      // synchronizacja na starcie (w tle) — po niej odśwież widok bez przeładowania
+      if (resolveSyncUrl(s) && s.syncLogin) {
+        syncNow()
+          .then(() => refreshStats(idx, unlocked))
+          .catch(() => {});
+      }
     })();
   }, []);
 
@@ -52,9 +57,6 @@ export default function App() {
     setMistakeCount(await countRecentMistakes(unlocked));
     setLevels(await levelDistribution(unlocked));
     setStreak(await getMeta('streak', { count: 0 }));
-    const daily = await getMeta('dailyStats', {});
-    const today = daily[new Date().toISOString().slice(0, 10)] || { correct: 0, wrong: 0 };
-    setTodayStats(today);
   }
 
   async function handleSessionFinished() {
@@ -76,12 +78,15 @@ export default function App() {
     }
     await refreshStats(index, unlocked);
 
-    // automatyczna synchronizacja po sesji, jeśli skonfigurowana
+    // automatyczna synchronizacja po sesji, jeśli skonfigurowana;
+    // po niej odśwież widok (bez przeładowania strony)
     if (resolveSyncUrl(s) && s.syncLogin) {
       syncNow()
-        .then(() => setToast((t) => t || '🔄 Zsynchronizowano'))
-        .catch((e) => setToast((t) => t || `⚠️ Synchronizacja: ${e.message}`))
-        .finally(() => setTimeout(() => setToast(''), 5000));
+        .then(() => refreshStats(index, unlocked))
+        .catch((e) => {
+          setToast(`⚠️ Synchronizacja: ${e.message}`);
+          setTimeout(() => setToast(''), 5000);
+        });
     }
   }
 
@@ -111,6 +116,7 @@ export default function App() {
       <Settings
         settings={settings}
         onChange={setSettings}
+        onSynced={() => refreshStats(index, unlockedLesson)}
         onBack={() => setView('tree')}
       />
     );
@@ -119,6 +125,8 @@ export default function App() {
   const current = index.lekcje.find((l) => l.numer === unlockedLesson);
   const stat = lessonStats[unlockedLesson];
   const pct = stat ? Math.round((stat.mastered / stat.total) * 100) : 0;
+  // „poznane" = słowa, które wyszły z poziomu startowego (poziom >= 2)
+  const knownWords = levels ? levels.slice(1).reduce((s, n) => s + n, 0) : 0;
   const totalWords = levels ? levels.reduce((s, n) => s + n, 0) : 0;
 
   return (
@@ -126,9 +134,7 @@ export default function App() {
       <header className="home-header">
         <div className="stats-bar">
           <span title="Streak dni nauki"><Icon name="fire" size={16} /> {streak.count || 0}</span>
-          <span title="Dzisiejsze odpowiedzi: poprawne / błędne">
-            <span className="num-ok">{todayStats.correct}</span> <span className="num-bad">{todayStats.wrong}</span>
-          </span>
+          <span title="Poznane słowa (poziom 2+)"><Icon name="book" size={16} /> {knownWords}/{totalWords}</span>
         </div>
         <div>
           <button className="btn ghost" title="Statystyki" onClick={() => setView('stats')}>
@@ -149,8 +155,7 @@ export default function App() {
         </div>
       </div>
 
-      <h3>Słowa według poziomu ({totalWords})</h3>
-      {levels && <LevelBars levels={levels} />}
+      <LessonPreview lesson={unlockedLesson} grammarNote={current?.gramatyka} />
 
       {toast && <div className="toast">{toast}</div>}
 

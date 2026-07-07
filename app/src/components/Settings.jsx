@@ -3,7 +3,7 @@ import { saveSettings } from '../db.js';
 import { syncNow, DEFAULT_SYNC_URL, resolveSyncUrl } from '../sync.js';
 import Icon from './Icon.jsx';
 
-export default function Settings({ settings, onChange, onBack }) {
+export default function Settings({ settings, onChange, onSynced, onBack }) {
   const [form, setForm] = useState(settings);
   const [syncMsg, setSyncMsg] = useState('');
   const [syncing, setSyncing] = useState(false);
@@ -21,6 +21,7 @@ export default function Settings({ settings, onChange, onBack }) {
     try {
       const r = await syncNow();
       setSyncMsg(`Zsynchronizowano: wysłano ${r.sent}, odebrano ${r.received}`);
+      onSynced?.(); // odśwież stan aplikacji bez przeładowania strony
     } catch (e) {
       setSyncMsg(e.message);
     } finally {

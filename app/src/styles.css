@@ -147,6 +147,61 @@ h3 { font-size: 11px; margin: 12px 0 0; color: var(--muted); text-transform: upp
 }
 .lesson-card-fill { height: 100%; background: var(--green); transition: width 0.3s steps(8); }
 
+/* podgląd lekcji: zakładki Słówka / Odmiana / Gramatyka */
+.preview {
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+  flex: 1;
+}
+.preview-tabs { display: flex; gap: 6px; margin-bottom: 8px; }
+.preview-tab {
+  flex: 1;
+  border: none;
+  border-radius: 0;
+  padding: 10px 4px;
+  font-family: var(--pixel);
+  font-size: 9px;
+  line-height: 1.6;
+  background: var(--card);
+  color: var(--muted);
+  cursor: pointer;
+  box-shadow: inset 2px 2px 0 var(--edge-light), inset -2px -2px 0 var(--edge-dark);
+}
+.preview-tab.active { background: var(--card2); color: var(--amber); }
+.preview-body {
+  flex: 1;
+  min-height: 0;
+  overflow-y: auto;
+  background: var(--card);
+  padding: 12px 14px;
+  box-shadow: inset 2px 2px 0 var(--edge-light), inset -2px -2px 0 var(--edge-dark);
+}
+.preview-h {
+  margin: 10px 0 6px;
+  font-family: var(--pixel);
+  font-size: 9px;
+  line-height: 1.6;
+  color: var(--amber);
+  text-transform: uppercase;
+}
+.preview-h:first-child { margin-top: 0; }
+.vocab-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+  padding: 5px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+  font-size: 15px;
+}
+.vocab-row:last-child { border-bottom: none; }
+.vocab-es { font-weight: 700; }
+.vocab-verb .vocab-es { color: var(--green); }
+.vocab-pron { color: var(--muted); font-weight: 400; font-size: 13px; }
+.vocab-pl { color: var(--muted); text-align: right; font-size: 14px; }
+.grammar-note p { margin: 0; font-size: 15px; line-height: 1.65; }
+
 /* dolna strefa akcji — duże przyciski w zasięgu kciuka */
 .home-bottom {
   margin-top: auto;
