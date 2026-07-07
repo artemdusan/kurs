@@ -32,17 +32,26 @@ export function drawWeight(level) {
 }
 
 /**
+ * Ile poprawnych odpowiedzi z rzędu zalicza słowo w tej sesji. Zwykle 2, ale
+ * gdy poziom już się dziś zmienił (cooldown 24h aktywny — i tak nie zmieni
+ * się ponownie dzisiaj), wystarczy 1: dodatkowy streak nie daje wtedy nic.
+ */
+export function requiredStreak(progress, now = Date.now()) {
+  return now - progress.lastLevelChangeAt < LEVEL_COOLDOWN_MS ? 1 : SESSION_DONE_STREAK;
+}
+
+/**
  * Losuje następne słowo z puli (elementy: {word, progress, sessionStreak}),
  * unikając powtórki poprzedniego. Słowa z poziomem 1 mają bezwzględne
  * pierwszeństwo — dopóki są nieukończone, losujemy tylko spośród nich.
  */
 export function pickNext(pool, previousWordId = null, rng = Math.random) {
   const candidates = pool.filter(
-    (e) => e.sessionStreak < SESSION_DONE_STREAK && e.word.id !== previousWordId
+    (e) => e.sessionStreak < requiredStreak(e.progress) && e.word.id !== previousWordId
   );
   let list = candidates.length
     ? candidates
-    : pool.filter((e) => e.sessionStreak < SESSION_DONE_STREAK);
+    : pool.filter((e) => e.sessionStreak < requiredStreak(e.progress));
   if (!list.length) return null;
   const level1 = list.filter((e) => e.progress.level === 1);
   if (level1.length) list = level1;
