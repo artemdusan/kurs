@@ -101,6 +101,7 @@ export default function App() {
       <Session
         settings={settings}
         maxLesson={unlockedLesson}
+        index={index}
         mode={view === 'mistakes' ? 'mistakes' : 'normal'}
         onExit={() => setView('tree')}
         onFinished={handleSessionFinished}

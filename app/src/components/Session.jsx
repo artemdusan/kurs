@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { saveSettings } from '../db.js';
-import { buildSessionPool, buildMistakesPool, pickNext, recordAnswer, bumpDailyStats, requiredStreak } from '../engine/session.js';
+import { buildSessionPool, buildMistakesPool, pickNext, recordAnswer, bumpDailyStats, requiredStreak, lessonFloorReached } from '../engine/session.js';
 import { checkAnswer, splitArticle } from '../engine/answer.js';
 import { buildKeyboard, articleButtons } from '../engine/keyboard.js';
 import { buildMcqOptions } from '../engine/mcq.js';
@@ -20,16 +20,18 @@ function speak(text, enabled) {
   }
 }
 
-export default function Session({ settings, maxLesson, mode = 'normal', onExit, onFinished, onSettingsChange }) {
+export default function Session({ settings, maxLesson, index, mode = 'normal', onExit, onFinished, onSettingsChange }) {
   const [pool, setPool] = useState(null);
   const [tts, setTts] = useState(settings.tts);
   const [task, setTask] = useState(null);
   const [typed, setTyped] = useState('');
   const [article, setArticle] = useState('');
-  const [phase, setPhase] = useState('answer'); // 'answer' | 'feedback' | 'more' | 'done'
+  const [phase, setPhase] = useState('answer'); // 'answer' | 'feedback' | 'done'
   const [wasCorrect, setWasCorrect] = useState(false);
   const [counts, setCounts] = useState({ correct: 0, wrong: 0, done: 0 });
   const [remaining, setRemaining] = useState(settings.sessionMinutes * 60);
+  const [toast, setToast] = useState('');
+  const unlockedToastedRef = useRef(new Set());
   const endAtRef = useRef(Date.now() + settings.sessionMinutes * 60 * 1000);
   // sekundy nauki liczone tylko, gdy karta jest widoczna — apka w tle (albo
   // ekran zablokowany) nie ma wliczać się do czasu nauki w statystykach
@@ -92,8 +94,8 @@ export default function Session({ settings, maxLesson, mode = 'normal', onExit, 
   async function makeTask(currentPool) {
     if (Date.now() >= endAtRef.current) return finish(currentPool);
     const entry = pickNext(currentPool, prevWordRef.current);
-    // pula wyczerpana, ale czas jeszcze biegnie — zapytaj o dolosowanie słów
-    if (!entry) return setPhase('more');
+    // pula wyczerpana, ale czas jeszcze biegnie — dolosuj automatycznie
+    if (!entry) return drawMore(currentPool);
     prevWordRef.current = entry.word.id;
 
     const examples = entry.word.examples?.length
@@ -142,6 +144,10 @@ export default function Session({ settings, maxLesson, mode = 'normal', onExit, 
     }));
     await bumpDailyStats({ correct: correct ? 1 : 0, wrong: correct ? 0 : 1 });
     if (!correct) navigator.vibrate?.(150);
+
+    // sprawdź, czy odblokowała się kolejna lekcja (wszystkie słowa 1..maxLesson na floorLevel)
+    checkLessonUnlock();
+
     speak(task.expected, tts);
     setPhase('feedback');
   }
@@ -157,15 +163,32 @@ export default function Session({ settings, maxLesson, mode = 'normal', onExit, 
 
   // Dolosowanie nowych słów, gdy pula skończyła się przed czasem —
   // najpierw z pominięciem słów już zaliczonych w tej sesji.
-  async function drawMore() {
-    const doneIds = new Set(pool.map((e) => e.word.id));
+  async function drawMore(currentPool) {
+    const p = currentPool || poolRef.current;
+    const doneIds = new Set(p.map((e) => e.word.id));
     let extra = await buildSessionPool(maxLesson, 25, doneIds);
     if (!extra.length) extra = await buildSessionPool(maxLesson, 25);
-    if (!extra.length) return finish(pool);
-    const merged = [...pool, ...extra.filter((e) => !doneIds.has(e.word.id))];
-    if (merged.length === pool.length) return finish(pool);
+    if (!extra.length) return finish(p);
+    const merged = [...p, ...extra.filter((e) => !doneIds.has(e.word.id))];
+    if (merged.length === p.length) return finish(p);
     setPool(merged);
     await makeTask(merged);
+  }
+
+  // Sprawdza, czy wszystkie słowa z lekcji 1..maxLesson osiągnęły floorLevel —
+  // jeśli tak, kolejna lekcja właśnie się odblokowała (toast raz na odblokowanie).
+  async function checkLessonUnlock() {
+    if (!index) return;
+    const nextLesson = maxLesson + 1;
+    if (nextLesson > (index.lekcje?.length || 0)) return;
+    if (unlockedToastedRef.current.has(nextLesson)) return;
+    const reached = await lessonFloorReached(maxLesson, settings.floorLevel);
+    if (reached) {
+      unlockedToastedRef.current.add(nextLesson);
+      const next = index.lekcje.find((l) => l.numer === nextLesson);
+      setToast(`🎉 Odblokowano lekcję ${nextLesson}: ${next?.temat || ''}`);
+      setTimeout(() => setToast(''), 5000);
+    }
   }
 
   async function finish(currentPool) {
@@ -177,7 +200,7 @@ export default function Session({ settings, maxLesson, mode = 'normal', onExit, 
     onFinished?.(currentPool || pool);
   }
 
-  if (!pool || (!task && phase !== 'done' && phase !== 'more')) {
+  if (!pool || (!task && phase !== 'done')) {
     return <div className="screen center">Ładowanie sesji…</div>;
   }
 
@@ -190,20 +213,6 @@ export default function Session({ settings, maxLesson, mode = 'normal', onExit, 
         </p>
         <p>Zaliczone w tej sesji słowa: {counts.done}</p>
         <button className="btn primary" onClick={onExit}>Wróć do kursu</button>
-      </div>
-    );
-  }
-
-  if (phase === 'more') {
-    const minsLeft = Math.floor(remaining / 60);
-    const secsLeft = String(remaining % 60).padStart(2, '0');
-    return (
-      <div className="screen center session-summary">
-        <h2>Pula słów ukończona 💪</h2>
-        <p>Do końca sesji zostało {minsLeft}:{secsLeft}.</p>
-        <p>Dolosować kolejne słowa i kontynuować naukę?</p>
-        <button className="btn primary" onClick={drawMore}>Dolosuj słowa</button>
-        <button className="btn" onClick={() => finish(pool)}>Zakończ sesję</button>
       </div>
     );
   }
@@ -290,6 +299,8 @@ export default function Session({ settings, maxLesson, mode = 'normal', onExit, 
           <button className="btn primary" onClick={() => makeTask(pool)}>Dalej</button>
         </div>
       )}
+
+      {toast && <div className="toast">{toast}</div>}
     </div>
   );
 }

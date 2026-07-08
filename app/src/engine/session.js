@@ -32,7 +32,7 @@ export function drawWeight(level) {
 }
 
 /** Udział powtórek (słowa poziomu 2+) w puli sesji i w losowaniu zadań. */
-export const REVIEW_SHARE = 0.3;
+export const REVIEW_SHARE = 0.5;
 
 /** Losowanie ważone poziomem (drawWeight) z listy wpisów puli. */
 function weightedDraw(list, rng = Math.random) {
