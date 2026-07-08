@@ -18,7 +18,12 @@ Skrypt `scripts/copy-data.mjs` kopiuje dane kursu do `app/public/data` przed dev
 
 - Każde słowo ma globalny **poziom** (1–6). Losowanie do sesji jest ważone `1/poziom²` —
   system skupia się na słabych i nowych słowach.
-- W sesji słowo znika z puli po **2 poprawnych odpowiedziach z rzędu**.
+- **~30% sesji to powtórki** słów z poziomów 2+ (rezerwowana kwota w puli i w losowaniu),
+  wybierane losowo z wagą `1/poziom²` — niższe poziomy wracają częściej, ale bez
+  sztywnych interwałów ("random repetition"). Dzięki temu nowa lekcja nie wypiera
+  całkowicie powtórek wcześniejszego materiału.
+- W sesji słowo znika z puli po **2 poprawnych odpowiedziach z rzędu**
+  (1, jeśli poziom słowa już się dziś zmienił).
 - Zmiana poziomu (awans po 2 z rzędu, spadek po błędzie) możliwa **max raz na 24 h**.
 - Odmiany czasowników: przy poziomie ≤ 2 tryb **MCQ** (dystraktory = inne czasy tej samej
   osoby/liczby tego samego czasownika), wyżej — wpisywanie.
