@@ -31,6 +31,20 @@ export function drawWeight(level) {
   return 1 / (level * level);
 }
 
+/** Udział powtórek (słowa poziomu 2+) w puli sesji i w losowaniu zadań. */
+export const REVIEW_SHARE = 0.3;
+
+/** Losowanie ważone poziomem (drawWeight) z listy wpisów puli. */
+function weightedDraw(list, rng = Math.random) {
+  const total = list.reduce((s, e) => s + drawWeight(e.progress.level), 0);
+  let r = rng() * total;
+  for (const e of list) {
+    r -= drawWeight(e.progress.level);
+    if (r <= 0) return e;
+  }
+  return list[list.length - 1];
+}
+
 /**
  * Ile poprawnych odpowiedzi z rzędu zalicza słowo w tej sesji. Zwykle 2, ale
  * gdy poziom już się dziś zmienił (cooldown 24h aktywny — i tak nie zmieni
@@ -42,26 +56,23 @@ export function requiredStreak(progress, now = Date.now()) {
 
 /**
  * Losuje następne słowo z puli (elementy: {word, progress, sessionStreak}),
- * unikając powtórki poprzedniego. Słowa z poziomem 1 mają bezwzględne
- * pierwszeństwo — dopóki są nieukończone, losujemy tylko spośród nich.
+ * unikając powtórki poprzedniego. Dwustopniowo: z prawdopodobieństwem
+ * 1-REVIEW_SHARE losujemy ze słów nowych/słabych (poziom 1), inaczej
+ * z powtórek (poziom 2+, wewnątrz ważone 1/poziom² — niższe wracają częściej).
  */
 export function pickNext(pool, previousWordId = null, rng = Math.random) {
   const candidates = pool.filter(
     (e) => e.sessionStreak < requiredStreak(e.progress) && e.word.id !== previousWordId
   );
-  let list = candidates.length
+  const list = candidates.length
     ? candidates
     : pool.filter((e) => e.sessionStreak < requiredStreak(e.progress));
   if (!list.length) return null;
-  const level1 = list.filter((e) => e.progress.level === 1);
-  if (level1.length) list = level1;
-  const total = list.reduce((s, e) => s + drawWeight(e.progress.level), 0);
-  let r = rng() * total;
-  for (const e of list) {
-    r -= drawWeight(e.progress.level);
-    if (r <= 0) return e;
-  }
-  return list[list.length - 1];
+  const weak = list.filter((e) => e.progress.level === 1);
+  const review = list.filter((e) => e.progress.level > 1);
+  if (!weak.length) return weightedDraw(review, rng);
+  if (!review.length) return weightedDraw(weak, rng);
+  return rng() < REVIEW_SHARE ? weightedDraw(review, rng) : weightedDraw(weak, rng);
 }
 
 /**
@@ -102,11 +113,12 @@ export async function recordAnswer(entry, correct) {
 }
 
 /**
- * Buduje pulę sesji: wszystkie nieskasowane słowa z lekcji 1..maxLesson.
- * Sesja skupia się na słabych/nowych słowach dzięki wadze 1/level^2;
- * dodatkowo pula jest przycinana do `poolSize` słów o najniższym poziomie.
+ * Buduje pulę sesji: ~70% miejsc dla słów nowych/słabych (poziom 1, najdawniej
+ * widziane najpierw) + ~30% zarezerwowane dla powtórek (poziom 2+, losowanych
+ * wagami 1/poziom² — "random repetition", bez sztywnych interwałów).
+ * Niedobór w jednej grupie dopełnia druga.
  */
-export async function buildSessionPool(maxLesson, poolSize = 25, excludeIds = null) {
+export async function buildSessionPool(maxLesson, poolSize = 25, excludeIds = null, rng = Math.random) {
   const words = await db.words
     .where('lesson')
     .belowOrEqual(maxLesson)
@@ -118,12 +130,30 @@ export async function buildSessionPool(maxLesson, poolSize = 25, excludeIds = nu
     progress: progressMap.get(word.id) || newProgress(word.id),
     sessionStreak: 0,
   }));
-  // najsłabsze i najdawniej widziane najpierw
-  entries.sort(
-    (a, b) =>
-      a.progress.level - b.progress.level || a.progress.lastSeenAt - b.progress.lastSeenAt
-  );
-  return entries.slice(0, poolSize);
+
+  const fresh = entries
+    .filter((e) => e.progress.level === 1)
+    .sort((a, b) => a.progress.lastSeenAt - b.progress.lastSeenAt);
+  const review = entries.filter((e) => e.progress.level > 1);
+
+  // powtórki: losowanie ważone bez zwracania
+  const reviewSlots = Math.min(review.length, Math.round(poolSize * REVIEW_SHARE));
+  const pickedReview = [];
+  const reviewLeft = [...review];
+  while (pickedReview.length < reviewSlots && reviewLeft.length) {
+    const e = weightedDraw(reviewLeft, rng);
+    pickedReview.push(e);
+    reviewLeft.splice(reviewLeft.indexOf(e), 1);
+  }
+
+  const pool = [...fresh.slice(0, poolSize - pickedReview.length), ...pickedReview];
+  // za mało świeżych — dopełnij kolejnymi powtórkami
+  while (pool.length < poolSize && reviewLeft.length) {
+    const e = weightedDraw(reviewLeft, rng);
+    pool.push(e);
+    reviewLeft.splice(reviewLeft.indexOf(e), 1);
+  }
+  return pool;
 }
 
 /**
