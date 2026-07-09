@@ -441,6 +441,7 @@ h3 { font-size: 11px; margin: 12px 0 0; color: var(--muted); text-transform: upp
 .row.gap { display: flex; gap: 10px; }
 .sync-msg { color: var(--amber); font-weight: 600; }
 .hint { color: var(--muted); font-weight: 400; font-size: 12px; }
+.about-versions { color: var(--muted); font-size: 13px; line-height: 1.6; }
 
 .mistakes-btn { background: var(--card); color: var(--amber); }
 .num-ok { color: var(--green); }

@@ -37,10 +37,11 @@ export default function App() {
       setUnlockedLesson(unlocked);
       await refreshStats(idx, unlocked);
       setView('tree');
-      // synchronizacja na starcie (w tle) — po niej odśwież widok bez przeładowania
+      // synchronizacja na starcie (w tle) — po niej sprawdź odblokowania
+      // (postępy z innego urządzenia mogą spełniać próg) i odśwież widok
       if (resolveSyncUrl(s) && s.syncLogin) {
         syncNow()
-          .then(() => refreshStats(idx, unlocked))
+          .then(async () => refreshStats(idx, await checkUnlocks(idx)))
           .catch(() => {});
       }
     })();
@@ -61,30 +62,40 @@ export default function App() {
     setStreak(await getMeta('streak', { count: 0 }));
   }
 
-  async function handleSessionFinished() {
-    // sprawdź „floor” — odblokowanie kolejnej lekcji wymaga minimalnego poziomu
-    // WSZYSTKICH dotychczas poznanych słów
+  // Sprawdza „floor” — odblokowanie kolejnej lekcji wymaga minimalnego poziomu
+  // WSZYSTKICH dotychczas poznanych słów. Pętla, bo po synchronizacji postępy
+  // z innego urządzenia mogą odblokować kilka lekcji naraz. Zwraca numer
+  // najwyższej odblokowanej lekcji.
+  async function checkUnlocks(idx) {
     const s = await getSettings();
     let unlocked = await getMeta('unlockedLesson', 1);
-    if (unlocked < (index?.lekcje.length || 100)) {
-      const reached = await lessonFloorReached(unlocked, s.floorLevel);
-      if (reached) {
-        unlocked++;
-        await setMeta('unlockedLesson', unlocked);
-        await ensureLessonImported(unlocked);
-        setUnlockedLesson(unlocked);
-        const next = index.lekcje.find((l) => l.numer === unlocked);
-        setToast(`🎉 Odblokowano lekcję ${unlocked}: ${next?.temat || ''}`);
-        setTimeout(() => setToast(''), 5000);
-      }
+    const total = idx?.lekcje.length || 100;
+    let lastUnlocked = null;
+    while (unlocked < total && (await lessonFloorReached(unlocked, s.floorLevel))) {
+      unlocked++;
+      await setMeta('unlockedLesson', unlocked);
+      await ensureLessonImported(unlocked);
+      lastUnlocked = unlocked;
     }
+    if (lastUnlocked) {
+      setUnlockedLesson(lastUnlocked);
+      const next = idx?.lekcje.find((l) => l.numer === lastUnlocked);
+      setToast(`🎉 Odblokowano lekcję ${lastUnlocked}: ${next?.temat || ''}`);
+      setTimeout(() => setToast(''), 5000);
+    }
+    return unlocked;
+  }
+
+  async function handleSessionFinished() {
+    const unlocked = await checkUnlocks(index);
     await refreshStats(index, unlocked);
 
-    // automatyczna synchronizacja po sesji, jeśli skonfigurowana;
-    // po niej odśwież widok (bez przeładowania strony)
+    // automatyczna synchronizacja po sesji, jeśli skonfigurowana; po niej
+    // ponownie sprawdź odblokowania i odśwież widok (bez przeładowania strony)
+    const s = await getSettings();
     if (resolveSyncUrl(s) && s.syncLogin) {
       syncNow()
-        .then(() => refreshStats(index, unlocked))
+        .then(async () => refreshStats(index, await checkUnlocks(index)))
         .catch((e) => {
           setToast(`⚠️ Synchronizacja: ${e.message}`);
           setTimeout(() => setToast(''), 5000);
@@ -118,8 +129,9 @@ export default function App() {
     return (
       <Settings
         settings={settings}
+        index={index}
         onChange={setSettings}
-        onSynced={() => refreshStats(index, unlockedLesson)}
+        onSynced={async () => refreshStats(index, await checkUnlocks(index))}
         onBack={() => setView('tree')}
       />
     );
