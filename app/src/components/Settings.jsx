@@ -1,9 +1,13 @@
 import React, { useState } from 'react';
 import { saveSettings } from '../db.js';
 import { syncNow, DEFAULT_SYNC_URL, resolveSyncUrl } from '../sync.js';
+import { CONTENT_VERSION } from '../course.js';
 import Icon from './Icon.jsx';
 
-export default function Settings({ settings, onChange, onSynced, onBack }) {
+// wstrzykiwana przy buildzie z package.json (vite.config.js: define)
+const APP_VERSION = typeof __APP_VERSION__ !== 'undefined' ? __APP_VERSION__ : 'dev';
+
+export default function Settings({ settings, index, onChange, onSynced, onBack }) {
   const [form, setForm] = useState(settings);
   const [syncMsg, setSyncMsg] = useState('');
   const [syncing, setSyncing] = useState(false);
@@ -110,6 +114,13 @@ export default function Settings({ settings, onChange, onSynced, onBack }) {
         )}
       </div>
       {syncMsg && <p className="sync-msg">{syncMsg}</p>}
+
+      <h3>O aplikacji</h3>
+      <p className="about-versions">
+        Aplikacja: v{APP_VERSION}
+        <br />
+        Baza kursu: v{index?.wersja || '?'} (schemat danych: {CONTENT_VERSION})
+      </p>
     </div>
   );
 }

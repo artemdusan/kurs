@@ -1,11 +1,11 @@
 import { splitArticle } from './answer.js';
 
 // Mini klawiatura ekranowa: litery występujące w odpowiedzi + 1-2 dodatkowe
-// znaki-dystraktory (samogłoska z akcentem i spółgłoska, w tym ñ/ü).
+// znaki-dystraktory. Maksymalnie JEDEN dodatkowy znak specjalny (akcent/ñ/ü)
+// nieobecny w słowie — resztę dystraktorów stanowią zwykłe litery.
 
-const ACCENT_VOWELS = ['á', 'é', 'í', 'ó', 'ú'];
-const EXTRA_CONSONANTS = ['ñ', 'b', 'v', 'g', 'j', 'z', 'x', 'h', 'q'];
-const SPECIALS = ['ñ', 'ü'];
+const PLAIN_LETTERS = 'abcdefghijklmnopqrstuvwxyz'.split('');
+const SPECIALS = ['á', 'é', 'í', 'ó', 'ú', 'ñ', 'ü'];
 
 function pick(arr, exclude, rng) {
   const pool = arr.filter((c) => !exclude.has(c));
@@ -24,12 +24,14 @@ export function buildKeyboard(target, { isNoun = false, rng = Math.random } = {}
   );
 
   const extras = [];
-  const accent = pick(ACCENT_VOWELS, chars, rng);
-  if (accent) extras.push(accent);
-  // spółgłoska lub znak specjalny, preferuj ñ/ü jeśli nieobecne
-  const special = pick(SPECIALS, chars, rng);
-  const consonant = special && rng() < 0.5 ? special : pick(EXTRA_CONSONANTS, chars, rng);
-  if (consonant && !extras.includes(consonant)) extras.push(consonant);
+  // zawsze jedna losowa zwykła litera spoza słowa
+  const plain = pick(PLAIN_LETTERS, chars, rng);
+  if (plain) extras.push(plain);
+  // co drugi raz dodatkowo jeden znak specjalny spoza słowa (nigdy więcej niż jeden)
+  if (rng() < 0.5) {
+    const special = pick(SPECIALS, chars, rng);
+    if (special) extras.push(special);
+  }
 
   // kolejność jak na klawiaturze QWERTY (litery akcentowane obok bazowych) —
   // stałe, przewidywalne pozycje ułatwiają trafianie palcem

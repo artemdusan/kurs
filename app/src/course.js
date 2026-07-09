@@ -36,7 +36,7 @@ function formSlotId(lesson, verbOrdinal, grammar) {
 // Podbij, gdy zmienia się sposób budowania rekordów z plików lekcji —
 // zaimportowane lekcje zostaną wtedy zaktualizowane (bez utraty postępów,
 // bo id słowa zależy tylko od jego pozycji w lekcji, nie od treści).
-const CONTENT_VERSION = 6;
+export const CONTENT_VERSION = 6;
 
 /** Importuje słowa lekcji do bazy (idempotentnie). Zwraca liczbę nowych słów. */
 export async function ensureLessonImported(lessonNumber) {
