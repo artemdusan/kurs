@@ -363,7 +363,9 @@ h3 { font-size: 11px; margin: 12px 0 0; color: var(--muted); text-transform: upp
   color: var(--blue);
   white-space: pre;
 }
-.cloze-gap.revealed { color: var(--green); border-bottom-style: solid; animation: popBlock 0.2s steps(3); }
+.cloze-gap.revealed { border-bottom-style: solid; animation: popBlock 0.2s steps(3); }
+.cloze-gap.revealed.ok { color: var(--green); }
+.cloze-gap.revealed.bad { color: var(--red); }
 
 .typed-preview {
   min-height: 34px;

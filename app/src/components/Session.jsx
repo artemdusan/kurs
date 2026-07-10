@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { saveSettings } from '../db.js';
-import { buildSessionPool, buildMistakesPool, pickNext, recordAnswer, bumpDailyStats, requiredStreak, lessonFloorReached } from '../engine/session.js';
+import { buildSessionPool, buildMistakesPool, pickNext, recordAnswer, bumpDailyStats, requiredStreak, lessonFloorReached, clearMistake } from '../engine/session.js';
 import { checkAnswer, splitArticle } from '../engine/answer.js';
 import { buildKeyboard, articleButtons } from '../engine/keyboard.js';
 import { buildMcqOptions } from '../engine/mcq.js';
@@ -32,7 +32,8 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
   const [remaining, setRemaining] = useState(settings.sessionMinutes * 60);
   const [toast, setToast] = useState('');
   const unlockedToastedRef = useRef(new Set());
-  const endAtRef = useRef(Date.now() + settings.sessionMinutes * 60 * 1000);
+  // powtórka błędów: bez limitu czasu — trwa, dopóki starczy słów w puli
+  const endAtRef = useRef(mode === 'mistakes' ? Infinity : Date.now() + settings.sessionMinutes * 60 * 1000);
   // sekundy nauki liczone tylko, gdy karta jest widoczna — apka w tle (albo
   // ekran zablokowany) nie ma wliczać się do czasu nauki w statystykach
   const activeSecondsRef = useRef(0);
@@ -59,16 +60,21 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
 
   useEffect(() => {
     const t = setInterval(() => {
-      setRemaining(Math.max(0, Math.round((endAtRef.current - Date.now()) / 1000)));
       // liczy się tylko czas z kartą widoczną na pierwszym planie
       if (document.visibilityState !== 'hidden') activeSecondsRef.current++;
+      if (mode !== 'mistakes') {
+        setRemaining(Math.max(0, Math.round((endAtRef.current - Date.now()) / 1000)));
+      }
     }, 1000);
     return () => clearInterval(t);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   // czas minął (w dowolnej fazie) — zakończ sesję; obejmuje też powrót
   // z tła po dłuższej nieaktywności, gdy limit czasu już minął
+  // (powtórka błędów nie ma limitu czasu, więc tu nigdy się nie kończy)
   useEffect(() => {
+    if (mode === 'mistakes') return;
     if (remaining === 0 && phase !== 'done') finish(pool);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [remaining, phase]);
@@ -94,8 +100,12 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
   async function makeTask(currentPool) {
     if (Date.now() >= endAtRef.current) return finish(currentPool);
     const entry = pickNext(currentPool, prevWordRef.current);
-    // pula wyczerpana, ale czas jeszcze biegnie — dolosuj automatycznie
-    if (!entry) return drawMore(currentPool);
+    if (!entry) {
+      // powtórka błędów: pula skończona = koniec sesji (bez dolosowywania obcych słów)
+      if (mode === 'mistakes') return finish(currentPool);
+      // tryb zwykły: pula wyczerpana, ale czas jeszcze biegnie — dolosuj automatycznie
+      return drawMore(currentPool);
+    }
     prevWordRef.current = entry.word.id;
 
     const examples = entry.word.examples?.length
@@ -134,6 +144,11 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
       accentTolerance: settings.accentTolerance,
     });
     const updated = await recordAnswer(task.entry, correct);
+    // powtórka błędów: słowo powtórzone poprawnie znika z puli do powtórki na stałe
+    // (dopóki znów nie spadnie poziom), więc poza sesją nie trzeba go już powtarzać
+    if (mode === 'mistakes' && correct && updated.sessionStreak >= requiredStreak(updated.progress)) {
+      await clearMistake(updated.word.id);
+    }
     const newPool = pool.map((e) => (e.word.id === updated.word.id ? updated : e));
     setPool(newPool);
     setWasCorrect(correct);
@@ -230,7 +245,11 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
         <button className="btn ghost" onClick={() => finish(pool)} aria-label="Zakończ sesję">
           <Icon name="close" />
         </button>
-        <span className="timer">{mins}:{secs}</span>
+        {mode === 'mistakes' ? (
+          <span className="timer" title="Powtórka bez limitu czasu"><Icon name="repeat" size={16} /></span>
+        ) : (
+          <span className="timer">{mins}:{secs}</span>
+        )}
         <button
           className="btn ghost"
           title={tts ? 'Wycisz czytanie na głos' : 'Włącz czytanie na głos'}
@@ -254,7 +273,7 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
           <div className="prompt-word">
             <span className="pl-word">{w.pl}</span>
           </div>
-          <Cloze parsed={task.parsed} revealed={phase === 'feedback'} userText={display} />
+          <Cloze parsed={task.parsed} revealed={phase === 'feedback'} userText={display} correct={wasCorrect} />
         </div>
       </div>
 
