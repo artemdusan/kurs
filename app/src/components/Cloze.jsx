@@ -19,12 +19,12 @@ export function parseExample(example) {
 /** Zdanie z luką (lub z odsłoniętą odpowiedzią po ocenie).
  *  Polskie tłumaczenie zdania pokazujemy dopiero po odpowiedzi — wcześniej
  *  zdradzałoby rozwiązanie i rozpraszało. */
-export default function Cloze({ parsed, revealed, userText }) {
+export default function Cloze({ parsed, revealed, userText, correct }) {
   return (
     <div className="cloze">
       <p className="cloze-es">
         {parsed.before}
-        <span className={'cloze-gap' + (revealed ? ' revealed' : '')}>
+        <span className={'cloze-gap' + (revealed ? ' revealed ' + (correct ? 'ok' : 'bad') : '')}>
           {revealed ? parsed.answer : userText || '____'}
         </span>
         {parsed.after}

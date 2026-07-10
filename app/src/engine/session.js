@@ -179,6 +179,18 @@ export async function buildMistakesPool(maxLesson, poolSize = 25) {
   return entries.slice(0, poolSize);
 }
 
+/**
+ * Usuwa słowo z puli powtórki błędów po udanym powtórzeniu w sesji „mistakes” —
+ * inaczej wracałoby w kółko przez resztę dnia mimo poprawnej odpowiedzi.
+ */
+export async function clearMistake(wordId) {
+  const p = await db.progress.get(wordId);
+  if (!p || !p.lastLevelDropAt) return;
+  p.lastLevelDropAt = 0;
+  p.updated_at = Date.now();
+  await db.progress.put(p);
+}
+
 /** Liczba słów kwalifikujących się do powtórki (dzisiejsze spadki poziomu). */
 export async function countRecentMistakes(maxLesson) {
   return (await buildMistakesPool(maxLesson, Infinity)).length;
