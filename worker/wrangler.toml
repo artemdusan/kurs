@@ -8,6 +8,18 @@ compatibility_date = "2025-01-01"
 # 3. npx wrangler d1 execute kurs-db --file=schema.sql --remote
 # 4. npx wrangler secret put ADMIN_TOKEN
 # 5. npx wrangler deploy
+#
+# Powiadomienia push (przypomnienie o 19:00, gdy nie było dziś sesji):
+# 6. npx web-push generate-vapid-keys
+# 7. npx wrangler secret put VAPID_PUBLIC_KEY    (Public Key z kroku 6)
+#    npx wrangler secret put VAPID_PRIVATE_KEY   (Private Key z kroku 6)
+#    npx wrangler secret put VAPID_SUBJECT       (np. mailto:twoj@email.pl)
+# 8. npx wrangler deploy (crony poniżej zarejestrują się przy deployu)
+
+# 19:00 w Polsce to 17:00 UTC (lato) lub 18:00 UTC (zima) — cron odpala
+# w obu terminach, a kod sprawdza, czy w Europe/Warsaw jest godzina 19.
+[triggers]
+crons = ["0 17 * * *", "0 18 * * *"]
 
 [[d1_databases]]
 binding = "DB"

@@ -1,14 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import { db, getMeta, setMeta, getSettings } from './db.js';
 import { loadIndex, ensureLessonImported } from './course.js';
-import { lessonFloorReached, getProgressMap, countRecentMistakes } from './engine/session.js';
+import { lessonFloorReached, getProgressMap, countRecentMistakes, dayStatus } from './engine/session.js';
 import { syncNow, resolveSyncUrl } from './sync.js';
 import Session from './components/Session.jsx';
 import Settings from './components/Settings.jsx';
 import Stats from './components/Stats.jsx';
 import LessonPreview from './components/LessonPreview.jsx';
 import LessonList from './components/LessonList.jsx';
-import Icon from './components/Icon.jsx';
+import Icon, { FaceIcon } from './components/Icon.jsx';
 
 const SWIPE_THRESHOLD = 50; // px
 
@@ -21,6 +21,7 @@ export default function App() {
   const [unlockedLesson, setUnlockedLesson] = useState(1);
   const [lessonStats, setLessonStats] = useState({});
   const [streak, setStreak] = useState({ count: 0 });
+  const [today, setToday] = useState({ status: 'red', minutes: 0 });
   const [toast, setToast] = useState('');
 
   useEffect(() => {
@@ -60,6 +61,15 @@ export default function App() {
     setLessonStats(stats);
     setMistakeCount(await countRecentMistakes(unlocked));
     setStreak(await getMeta('streak', { count: 0 }));
+    // status dnia do buźki w nagłówku (settings ze świeżego odczytu — stan
+    // `settings` może być jeszcze pusty przy pierwszym wywołaniu)
+    const s = await getSettings();
+    const daily = await getMeta('dailyStats', {});
+    const day = daily[new Date().toISOString().slice(0, 10)];
+    setToday({
+      status: dayStatus(day, s.dailyGoalMinutes),
+      minutes: Math.round((day?.seconds || 0) / 60),
+    });
   }
 
   // Sprawdza „floor” — odblokowanie kolejnej lekcji wymaga minimalnego poziomu
@@ -183,8 +193,12 @@ export default function App() {
   return (
     <div className="screen home">
       <header className="home-header">
-        <button className="btn ghost stats-bar" title="Statystyki" onClick={() => setView('stats')}>
-          <Icon name="fire" size={16} /> {streak.count || 0}
+        <button
+          className="btn ghost stats-bar"
+          title={`Statystyki — dziś ${today.minutes} min (cel ${settings.dailyGoalMinutes || 10}), seria ${streak.count || 0} dni`}
+          onClick={() => setView('stats')}
+        >
+          <FaceIcon status={today.status} size={18} />
         </button>
         <button className="btn ghost lesson-select-btn" onClick={() => setView('lessonList')}>
           <Icon name="list" size={14} /> Lekcja {shownLesson}

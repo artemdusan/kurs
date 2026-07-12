@@ -30,6 +30,35 @@ const PATHS = {
   list: <path d="M4 6h16M4 12h16M4 18h16" />,
 };
 
+// Buźka statusu dnia: zielona (cel minut osiągnięty), żółta (była nauka,
+// ale poniżej celu), czerwona (dziś jeszcze nic). Kolory z motywu aplikacji.
+const FACE_COLORS = { green: 'var(--green)', yellow: 'var(--amber)', red: 'var(--red)' };
+const FACE_MOUTHS = {
+  green: <path d="M8 14c1 2.2 2.5 3.2 4 3.2s3-1 4-3.2" />,
+  yellow: <path d="M8.5 15.2h7" />,
+  red: <path d="M8 16.8c1-2.2 2.5-3.2 4-3.2s3 1 4 3.2" />,
+};
+
+export function FaceIcon({ status = 'red', size = 20 }) {
+  return (
+    <svg
+      width={size}
+      height={size}
+      viewBox="0 0 24 24"
+      fill="none"
+      stroke={FACE_COLORS[status] || FACE_COLORS.red}
+      strokeWidth="2"
+      strokeLinecap="round"
+      strokeLinejoin="round"
+      aria-hidden="true"
+    >
+      <circle cx="12" cy="12" r="9.2" />
+      <path d="M8.6 9.4h.01M15.4 9.4h.01" strokeWidth="2.8" />
+      {FACE_MOUTHS[status] || FACE_MOUTHS.red}
+    </svg>
+  );
+}
+
 export default function Icon({ name, size = 20 }) {
   return (
     <svg
