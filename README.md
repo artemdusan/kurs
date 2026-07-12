@@ -57,6 +57,31 @@ npx wrangler deploy
 - Adres Workera można też wstrzyknąć przy buildzie zmienną `VITE_SYNC_URL` —
   wtedy pole w ustawieniach może zostać puste (ręczny wpis ma pierwszeństwo).
 
+### Przypomnienia push (opcjonalne)
+
+Buźka w nagłówku aplikacji pokazuje status dnia: **zielona** — dzienny cel minut
+osiągnięty (Ustawienia → „Dzienny cel nauki”), **żółta** — była nauka, ale krócej
+niż cel (dzień i tak liczy się do streaka), **czerwona** — dziś jeszcze nic.
+
+Worker o **19:00 czasu polskiego** (cron 17:00 i 18:00 UTC + sprawdzenie strefy
+Europe/Warsaw) wysyła powiadomienie push z przypomnieniem — tylko wtedy, gdy
+danego dnia nie było żadnej sesji. Konfiguracja:
+
+```bash
+cd worker
+npx wrangler d1 execute kurs-db --file=schema.sql --remote  # dodaje tabelę push_subscriptions
+npx web-push generate-vapid-keys
+npx wrangler secret put VAPID_PUBLIC_KEY    # Public Key z poprzedniej komendy
+npx wrangler secret put VAPID_PRIVATE_KEY   # Private Key
+npx wrangler secret put VAPID_SUBJECT       # np. mailto:twoj@email.pl
+npx wrangler deploy                          # rejestruje też crony z wrangler.toml
+```
+
+W aplikacji: Ustawienia → Przypomnienia → „Włącz przypomnienia” (wymaga
+skonfigurowanej synchronizacji; na iOS aplikacja musi być zainstalowana na
+ekranie głównym). Push jest bez payloadu — treść powiadomienia jest w
+service workerze (`app/public/push-sw.js`), więc nie trzeba szyfrowania.
+
 ## Hosting aplikacji (Cloudflare Pages)
 
 1. Cloudflare Dashboard → Workers & Pages → Create → Pages → połącz repo.

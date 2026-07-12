@@ -136,7 +136,7 @@ h3 { font-size: 11px; margin: 12px 0 0; color: var(--muted); text-transform: upp
   line-height: 1.6;
   box-shadow: inset 2px 2px 0 var(--edge-light), inset -2px -2px 0 var(--edge-dark);
 }
-.stats-bar svg { color: var(--amber); }
+/* buźka statusu dnia ma własny kolor (zielony/żółty/czerwony) w atrybutach SVG */
 .lesson-select-btn { flex: 1; justify-content: center; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
 .btn.settings-btn { flex: none; }
 
@@ -497,6 +497,35 @@ h3 { font-size: 11px; margin: 12px 0 0; color: var(--muted); text-transform: upp
 .day-col-minutes { background: var(--blue); width: 100%; }
 .day-col-label { font-size: 10px; color: var(--muted); }
 .day-bars-short { height: 90px; }
+
+/* słupki minut kolorowane statusem dnia (cel / poniżej celu) */
+.day-col-minutes.goal-green { background: var(--green); }
+.day-col-minutes.goal-yellow { background: var(--amber); }
+
+/* karta „dziś”: buźka + postęp dziennego celu minut */
+.today-card {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--card);
+  padding: 12px;
+  box-shadow: inset 2px 2px 0 var(--edge-light), inset -2px -2px 0 var(--edge-dark);
+}
+.today-card > svg { flex: none; }
+.today-info { flex: 1; display: flex; flex-direction: column; gap: 8px; }
+.today-line { font-family: var(--pixel); font-size: 11px; line-height: 1.6; }
+.goal-track {
+  height: 10px;
+  background: rgba(0, 0, 0, 0.35);
+  box-shadow: inset 1px 1px 0 var(--edge-dark), inset -1px -1px 0 var(--edge-light);
+  overflow: hidden;
+}
+.goal-fill { height: 100%; transition: width 0.3s; }
+.goal-fill.goal-green { background: var(--green); }
+.goal-fill.goal-yellow { background: var(--amber); }
+.goal-fill.goal-red { background: var(--red); }
+
+.hint { color: var(--muted); font-size: 13px; margin: 4px 0 8px; }
 
 /* siatka statystyk czasu nauki */
 .time-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; }

@@ -22,6 +22,7 @@ export async function setMeta(key, value) {
 
 export const DEFAULT_SETTINGS = {
   sessionMinutes: 10,
+  dailyGoalMinutes: 10, // dzienny cel minut nauki (zielona buźka)
   accentTolerance: false,
   tts: true,
   floorLevel: 2, // minimalny poziom wszystkich słów wymagany do odblokowania kolejnej lekcji

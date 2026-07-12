@@ -1,6 +1,10 @@
-// Cloudflare Worker: synchronizacja delt + prosty dashboard administratora.
+// Cloudflare Worker: synchronizacja delt + prosty dashboard administratora
+// + przypomnienia web push (cron 19:00 czasu polskiego).
 // Endpointy:
 //   POST /sync       — Basic Auth (login:hasło); przyjmuje i zwraca delty
+//   GET  /push/vapid — publiczny klucz VAPID (do subskrypcji w przeglądarce)
+//   POST /push/subscribe   — Basic Auth; zapis subskrypcji push urządzenia
+//   POST /push/unsubscribe — Basic Auth; usunięcie subskrypcji
 //   GET  /dashboard  — panel admina (zarządzanie użytkownikami), token w polu formularza
 //   POST /admin/users — tworzenie/usuwanie użytkowników (nagłówek X-Admin-Token)
 
@@ -140,6 +144,123 @@ async function handleSync(request, env) {
   });
 }
 
+async function handlePushSubscribe(request, env) {
+  const userId = await authenticate(request, env);
+  if (!userId) return json({ error: 'unauthorized' }, 401);
+  const sub = await request.json();
+  if (!sub || !sub.endpoint) return json({ error: 'bad subscription' }, 400);
+  await env.DB.prepare(
+    `INSERT INTO push_subscriptions (user_id, endpoint, data, created_at)
+     VALUES (?, ?, ?, ?)
+     ON CONFLICT (user_id, endpoint) DO UPDATE SET data = excluded.data`
+  )
+    .bind(userId, sub.endpoint, JSON.stringify(sub), Date.now())
+    .run();
+  return json({ ok: true });
+}
+
+async function handlePushUnsubscribe(request, env) {
+  const userId = await authenticate(request, env);
+  if (!userId) return json({ error: 'unauthorized' }, 401);
+  const body = await request.json();
+  if (!body?.endpoint) return json({ error: 'bad request' }, 400);
+  await env.DB.prepare('DELETE FROM push_subscriptions WHERE user_id = ? AND endpoint = ?')
+    .bind(userId, body.endpoint)
+    .run();
+  return json({ ok: true });
+}
+
+// --- Web push (VAPID, RFC 8292) ---
+// Push wysyłamy BEZ payloadu (nie trzeba szyfrowania RFC 8291) — treść
+// przypomnienia jest zaszyta w service workerze aplikacji (push-sw.js).
+// Klucze: `npx web-push generate-vapid-keys`, sekrety VAPID_PUBLIC_KEY,
+// VAPID_PRIVATE_KEY (base64url), VAPID_SUBJECT (mailto:...).
+
+function b64urlToBytes(s) {
+  const padded = s.replace(/-/g, '+').replace(/_/g, '/') + '='.repeat((4 - (s.length % 4)) % 4);
+  return Uint8Array.from(atob(padded), (c) => c.charCodeAt(0));
+}
+
+function bytesToB64url(bytes) {
+  return btoa(String.fromCharCode(...bytes)).replace(/\+/g, '-').replace(/\//g, '_').replace(/=+$/, '');
+}
+
+async function vapidJwt(audience, env) {
+  // klucz publiczny web-push to surowy punkt P-256 (0x04 || x || y)
+  const pub = b64urlToBytes(env.VAPID_PUBLIC_KEY);
+  const jwk = {
+    kty: 'EC',
+    crv: 'P-256',
+    x: bytesToB64url(pub.slice(1, 33)),
+    y: bytesToB64url(pub.slice(33, 65)),
+    d: env.VAPID_PRIVATE_KEY,
+  };
+  const key = await crypto.subtle.importKey('jwk', jwk, { name: 'ECDSA', namedCurve: 'P-256' }, false, ['sign']);
+  const enc = new TextEncoder();
+  const header = bytesToB64url(enc.encode(JSON.stringify({ typ: 'JWT', alg: 'ES256' })));
+  const payload = bytesToB64url(
+    enc.encode(
+      JSON.stringify({
+        aud: audience,
+        exp: Math.floor(Date.now() / 1000) + 12 * 3600,
+        sub: env.VAPID_SUBJECT || 'mailto:admin@example.com',
+      })
+    )
+  );
+  // WebCrypto zwraca podpis ECDSA w formacie raw r||s — dokładnie tym, którego wymaga JWT
+  const sig = new Uint8Array(
+    await crypto.subtle.sign({ name: 'ECDSA', hash: 'SHA-256' }, key, enc.encode(`${header}.${payload}`))
+  );
+  return `${header}.${payload}.${bytesToB64url(sig)}`;
+}
+
+async function sendPush(endpoint, env) {
+  const jwt = await vapidJwt(new URL(endpoint).origin, env);
+  return fetch(endpoint, {
+    method: 'POST',
+    headers: {
+      TTL: '86400',
+      Urgency: 'normal',
+      Authorization: `vapid t=${jwt}, k=${env.VAPID_PUBLIC_KEY}`,
+    },
+  });
+}
+
+// Cron (19:00 Europe/Warsaw): przypomnienie tylko dla użytkowników, którzy
+// dziś nie mieli żadnej aktywności (dailyStats z synchronizacji). Jeśli była
+// choć jedna odpowiedź — nic nie wysyłamy.
+async function sendReminders(env) {
+  if (!env.VAPID_PUBLIC_KEY || !env.VAPID_PRIVATE_KEY) return;
+  const warsawHour = Number(
+    new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Warsaw', hour: 'numeric', hour12: false }).format(new Date())
+  );
+  if (warsawHour !== 19) return; // cron odpala 17:00 i 18:00 UTC — trafia tylko jeden z nich
+
+  // klucz dnia identyczny jak w aplikacji (data UTC); o 17/18 UTC pokrywa się z datą polską
+  const today = new Date().toISOString().slice(0, 10);
+  const rows = await env.DB.prepare(
+    `SELECT s.user_id, s.endpoint, m.data AS stats
+     FROM push_subscriptions s
+     LEFT JOIN meta m ON m.user_id = s.user_id AND m.key = 'dailyStats'`
+  ).all();
+
+  for (const r of rows.results) {
+    let day = null;
+    try {
+      day = JSON.parse(r.stats || '{}')[today];
+    } catch {}
+    const active = day && ((day.correct || 0) + (day.wrong || 0) > 0 || (day.seconds || 0) > 0);
+    if (active) continue;
+    const res = await sendPush(r.endpoint, env).catch(() => null);
+    // 404/410 = subskrypcja wygasła (odinstalowana PWA itp.) — sprzątamy
+    if (res && (res.status === 404 || res.status === 410)) {
+      await env.DB.prepare('DELETE FROM push_subscriptions WHERE user_id = ? AND endpoint = ?')
+        .bind(r.user_id, r.endpoint)
+        .run();
+    }
+  }
+}
+
 async function handleAdminUsers(request, env) {
   const token = request.headers.get('X-Admin-Token');
   if (!token || token !== env.ADMIN_TOKEN) return json({ error: 'forbidden' }, 403);
@@ -222,10 +343,23 @@ export default {
     const url = new URL(request.url);
     if (request.method === 'OPTIONS') return new Response(null, { headers: CORS });
     if (url.pathname === '/sync' && request.method === 'POST') return handleSync(request, env);
+    if (url.pathname === '/push/vapid' && request.method === 'GET') {
+      return json({ key: env.VAPID_PUBLIC_KEY || '' });
+    }
+    if (url.pathname === '/push/subscribe' && request.method === 'POST') {
+      return handlePushSubscribe(request, env);
+    }
+    if (url.pathname === '/push/unsubscribe' && request.method === 'POST') {
+      return handlePushUnsubscribe(request, env);
+    }
     if (url.pathname === '/admin/users' && request.method === 'POST') return handleAdminUsers(request, env);
     if (url.pathname === '/dashboard') {
       return new Response(DASHBOARD_HTML, { headers: { 'Content-Type': 'text/html; charset=utf-8' } });
     }
     return json({ ok: true, service: 'kurs-sync' });
+  },
+
+  async scheduled(event, env, ctx) {
+    ctx.waitUntil(sendReminders(env));
   },
 };

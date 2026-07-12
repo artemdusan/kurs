@@ -1,6 +1,7 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { saveSettings } from '../db.js';
 import { syncNow, DEFAULT_SYNC_URL, resolveSyncUrl } from '../sync.js';
+import { getPushState, enablePush, disablePush } from '../push.js';
 import { CONTENT_VERSION } from '../course.js';
 import Icon from './Icon.jsx';
 
@@ -11,6 +12,31 @@ export default function Settings({ settings, index, onChange, onSynced, onBack }
   const [form, setForm] = useState(settings);
   const [syncMsg, setSyncMsg] = useState('');
   const [syncing, setSyncing] = useState(false);
+  const [pushState, setPushState] = useState('unsupported'); // unsupported | denied | on | off
+  const [pushMsg, setPushMsg] = useState('');
+  const [pushBusy, setPushBusy] = useState(false);
+
+  useEffect(() => {
+    getPushState().then(setPushState);
+  }, []);
+
+  async function togglePush() {
+    setPushBusy(true);
+    setPushMsg('');
+    try {
+      if (pushState === 'on') {
+        await disablePush();
+      } else {
+        await enablePush();
+      }
+      setPushState(await getPushState());
+    } catch (e) {
+      setPushMsg(e.message);
+      setPushState(await getPushState());
+    } finally {
+      setPushBusy(false);
+    }
+  }
 
   function set(key, value) {
     const next = { ...form, [key]: value };
@@ -48,6 +74,14 @@ export default function Settings({ settings, index, onChange, onSynced, onBack }
         <input
           type="number" min="3" max="60" value={form.sessionMinutes}
           onChange={(e) => set('sessionMinutes', Number(e.target.value) || 10)}
+        />
+      </label>
+
+      <label className="field">
+        Dzienny cel nauki (minuty — zielona buźka)
+        <input
+          type="number" min="1" max="120" value={form.dailyGoalMinutes}
+          onChange={(e) => set('dailyGoalMinutes', Number(e.target.value) || 10)}
         />
       </label>
 
@@ -114,6 +148,26 @@ export default function Settings({ settings, index, onChange, onSynced, onBack }
         )}
       </div>
       {syncMsg && <p className="sync-msg">{syncMsg}</p>}
+
+      <h3>Przypomnienia</h3>
+      <p className="hint">
+        Powiadomienie o 19:00, jeśli danego dnia nie było jeszcze sesji.
+        Wymaga skonfigurowanej synchronizacji.
+      </p>
+      {pushState === 'unsupported' ? (
+        <p className="sync-msg">Ta przeglądarka nie obsługuje powiadomień push.</p>
+      ) : pushState === 'denied' ? (
+        <p className="sync-msg">Powiadomienia zablokowane w ustawieniach przeglądarki.</p>
+      ) : (
+        <button className="btn" disabled={pushBusy} onClick={togglePush}>
+          {pushBusy
+            ? 'Chwileczkę…'
+            : pushState === 'on'
+              ? 'Wyłącz przypomnienia'
+              : 'Włącz przypomnienia'}
+        </button>
+      )}
+      {pushMsg && <p className="sync-msg">{pushMsg}</p>}
 
       <h3>O aplikacji</h3>
       <p className="about-versions">

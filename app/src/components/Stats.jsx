@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react';
-import { db, getMeta } from '../db.js';
-import { getProgressMap, MAX_LEVEL } from '../engine/session.js';
+import { db, getMeta, getSettings } from '../db.js';
+import { getProgressMap, MAX_LEVEL, dayStatus, bestStreak } from '../engine/session.js';
 import LevelBars from './LevelBars.jsx';
-import Icon from './Icon.jsx';
+import Icon, { FaceIcon } from './Icon.jsx';
 
-// Ekran statystyk: rozkład poziomów słów + historia ostatnich 14 dni.
+// Ekran statystyk: dzisiejszy cel + seria, kluczowe agregaty,
+// minuty z 14 dni (kolor słupka = status dnia) i rozkład poziomów słów.
 
 function lastNDays(n) {
   const days = [];
@@ -29,6 +30,8 @@ export default function Stats({ maxLesson, onBack }) {
       for (const w of words) {
         levels[(progressMap.get(w.id)?.level || 1) - 1]++;
       }
+      const settings = await getSettings();
+      const goalMin = settings.dailyGoalMinutes || 10;
       const daily = await getMeta('dailyStats', {});
       const days = lastNDays(14).map((day) => ({
         day,
@@ -56,7 +59,10 @@ export default function Stats({ maxLesson, onBack }) {
         levels,
         wordCount: words.length,
         days,
+        goalMin,
+        todayStatus: dayStatus(today, goalMin),
         streak: streak.count || 0,
+        bestStreak: Math.max(bestStreak(daily), streak.count || 0),
         time: {
           todayMin: Math.round((today.seconds || 0) / 60),
           avgMin: activeDays ? Math.round(totalSeconds / activeDays / 60) : 0,
@@ -72,6 +78,8 @@ export default function Stats({ maxLesson, onBack }) {
 
   if (!data) return <div className="screen center">Liczenie statystyk…</div>;
 
+  const goalPct = Math.min(100, Math.round((data.time.todayMin / data.goalMin) * 100));
+
   return (
     <div className="screen stats">
       <div className="session-top">
@@ -82,15 +90,27 @@ export default function Stats({ maxLesson, onBack }) {
         <span />
       </div>
 
-      <h3>Czas nauki</h3>
+      {/* dzisiejszy cel: buźka + pasek postępu, ten sam status co w nagłówku */}
+      <div className="today-card">
+        <FaceIcon status={data.todayStatus} size={36} />
+        <div className="today-info">
+          <span className="today-line">
+            Dziś: {data.time.todayMin} / {data.goalMin} min
+          </span>
+          <div className="goal-track">
+            <div className={`goal-fill goal-${data.todayStatus}`} style={{ width: goalPct + '%' }} />
+          </div>
+        </div>
+      </div>
+
       <div className="time-grid">
         <div className="time-cell">
           <span className="time-num"><Icon name="fire" size={13} /> {data.streak}</span>
-          <span className="time-label">dni z rzędu</span>
+          <span className="time-label">seria (dni)</span>
         </div>
         <div className="time-cell">
-          <span className="time-num">{data.time.todayMin}</span>
-          <span className="time-label">min dziś</span>
+          <span className="time-num">{data.bestStreak}</span>
+          <span className="time-label">rekord serii</span>
         </div>
         <div className="time-cell">
           <span className="time-num">{data.time.avgMin}</span>
@@ -114,13 +134,15 @@ export default function Stats({ maxLesson, onBack }) {
       <div className="day-bars day-bars-short">
         {data.days.map((d) => {
           const min = Math.round((d.seconds || 0) / 60);
+          const status = dayStatus(d, data.goalMin);
+          const max = Math.max(data.goalMin, ...data.days.map((x) => Math.round((x.seconds || 0) / 60)));
           return (
             <div key={d.day} className="day-col" title={`${d.day}: ${min} min`}>
               <div className="day-col-track">
                 {min > 0 && (
                   <div
-                    className="day-col-minutes"
-                    style={{ height: (min / Math.max(1, ...data.days.map((x) => Math.round((x.seconds || 0) / 60)))) * 100 + '%' }}
+                    className={`day-col-minutes goal-${status}`}
+                    style={{ height: (min / max) * 100 + '%' }}
                   />
                 )}
               </div>

@@ -17,6 +17,8 @@ export default defineConfig({
       includeAssets: ['icons/icon.svg'],
       workbox: {
         globPatterns: ['**/*.{js,css,html,svg,png,woff2}'],
+        // obsługa web push (przypomnienia o 19:00) — plik z public/, doklejany do SW
+        importScripts: ['push-sw.js'],
         runtimeCaching: [
           {
             // dane kursu — cache-first, offline-first

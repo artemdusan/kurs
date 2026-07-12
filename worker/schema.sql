@@ -31,6 +31,16 @@ CREATE INDEX IF NOT EXISTS idx_progress_updated ON progress (user_id, updated_at
 -- Statystyki (dailyStats, streak): mały JSON blob per klucz, scalany na
 -- serwerze (nie prostym LWW całego bloba — patrz worker/src/index.js),
 -- żeby nauka na dwóch urządzeniach w różne dni się nie kasowała.
+-- Subskrypcje web push (przypomnienia o 19:00 czasu polskiego, gdy danego
+-- dnia nie było sesji). Jedno urządzenie = jedna subskrypcja (endpoint).
+CREATE TABLE IF NOT EXISTS push_subscriptions (
+  user_id INTEGER NOT NULL,
+  endpoint TEXT NOT NULL,
+  data TEXT NOT NULL,          -- pełna subskrypcja JSON (endpoint + klucze)
+  created_at INTEGER NOT NULL,
+  PRIMARY KEY (user_id, endpoint)
+);
+
 CREATE TABLE IF NOT EXISTS meta (
   user_id INTEGER NOT NULL,
   key TEXT NOT NULL,

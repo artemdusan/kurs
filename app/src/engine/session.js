@@ -248,3 +248,30 @@ export async function bumpDailyStats({ correct = 0, wrong = 0, seconds = 0, fini
   }
   return { stats, streak: streakInfo };
 }
+
+/**
+ * Status dnia względem dziennego celu minut:
+ * 'green' — cel minut osiągnięty, 'yellow' — była nauka, ale poniżej celu
+ * (dzień i tak liczy się do streaka), 'red' — dziś jeszcze nic.
+ */
+export function dayStatus(day, goalMinutes = 10) {
+  const active = (day?.correct || 0) + (day?.wrong || 0) > 0 || (day?.seconds || 0) > 0;
+  if (!active) return 'red';
+  return (day.seconds || 0) >= goalMinutes * 60 ? 'green' : 'yellow';
+}
+
+/** Najdłuższa seria kolejnych dni z nauką, policzona z historii dailyStats. */
+export function bestStreak(daily) {
+  const days = Object.keys(daily || {})
+    .filter((d) => dayStatus(daily[d]) !== 'red')
+    .sort();
+  let best = 0;
+  let cur = 0;
+  let prev = null;
+  for (const d of days) {
+    cur = prev && new Date(d) - new Date(prev) === 86400000 ? cur + 1 : 1;
+    if (cur > best) best = cur;
+    prev = d;
+  }
+  return best;
+}
