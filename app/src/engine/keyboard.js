@@ -1,11 +1,14 @@
 import { splitArticle } from './answer.js';
 
 // Mini klawiatura ekranowa: litery występujące w odpowiedzi + 1-2 dodatkowe
-// znaki-dystraktory. Maksymalnie JEDEN dodatkowy znak specjalny (akcent/ñ/ü)
-// nieobecny w słowie — resztę dystraktorów stanowią zwykłe litery.
+// znaki-dystraktory. Dystraktor musi być wiarygodny — rzadkie w hiszpańskim
+// litery (k, w, x) czy ü od razu zdradzają, że nie ma ich w słowie, więc
+// nigdy ich nie dolosowujemy.
 
-const PLAIN_LETTERS = 'abcdefghijklmnopqrstuvwxyz'.split('');
-const SPECIALS = ['á', 'é', 'í', 'ó', 'ú', 'ñ', 'ü'];
+const PLAIN_LETTERS = 'abcdefghijlmnopqrstuvyz'.split(''); // bez k, w, x
+// akcent-dystraktor tylko jako wariant litery już obecnej w słowie
+// (np. é przy słowie z „e") — inaczej łatwo go odrzucić; ü celowo pominięte
+const SPECIAL_FOR_BASE = { a: 'á', e: 'é', i: 'í', o: 'ó', u: 'ú', n: 'ñ' };
 
 function pick(arr, exclude, rng) {
   const pool = arr.filter((c) => !exclude.has(c));
@@ -27,9 +30,13 @@ export function buildKeyboard(target, { isNoun = false, rng = Math.random } = {}
   // zawsze jedna losowa zwykła litera spoza słowa
   const plain = pick(PLAIN_LETTERS, chars, rng);
   if (plain) extras.push(plain);
-  // co drugi raz dodatkowo jeden znak specjalny spoza słowa (nigdy więcej niż jeden)
+  // co drugi raz dodatkowo jeden znak specjalny spoza słowa (nigdy więcej
+  // niż jeden) — wyłącznie akcentowany wariant litery obecnej w słowie
   if (rng() < 0.5) {
-    const special = pick(SPECIALS, chars, rng);
+    const candidates = Object.keys(SPECIAL_FOR_BASE)
+      .filter((base) => chars.has(base))
+      .map((base) => SPECIAL_FOR_BASE[base]);
+    const special = pick(candidates, chars, rng);
     if (special) extras.push(special);
   }
 

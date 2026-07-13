@@ -237,7 +237,17 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
   const w = task.entry.word;
   const display = task.isNoun ? (article ? article + ' ' + typed : typed) : typed;
 
-  const donePct = Math.round((counts.done / pool.length) * 100) || 0;
+  // pasek postępu pokazuje upływ czasu sesji; powtórka błędów nie ma limitu
+  // czasu, więc tam pokazuje odsetek zaliczonych słów z puli
+  const totalSeconds = settings.sessionMinutes * 60;
+  const progressPct =
+    mode === 'mistakes'
+      ? Math.round((counts.done / pool.length) * 100) || 0
+      : Math.min(100, Math.round(((totalSeconds - remaining) / totalSeconds) * 100));
+  const progressTitle =
+    mode === 'mistakes'
+      ? `Zaliczone słowa: ${counts.done}/${pool.length}`
+      : `Upływ czasu sesji — pozostało ${mins}:${secs}`;
 
   return (
     <div className="screen session">
@@ -259,8 +269,8 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
         </button>
       </div>
 
-      <div className="session-progress" title={`Zaliczone słowa: ${counts.done}/${pool.length}`}>
-        <div className="session-progress-fill" style={{ width: donePct + '%' }} />
+      <div className="session-progress" title={progressTitle}>
+        <div className="session-progress-fill" style={{ width: progressPct + '%' }} />
       </div>
 
       <div className="prompt-wrap">
