@@ -7,6 +7,9 @@ import { getProgressMap } from '../engine/session.js';
 // widoczny jest jego aktualny poziom (kropki).
 
 const PRONOUNS = { 'singular-1': 'yo', 'singular-2': 'tú', 'singular-3': 'él', 'plural-1': 'nosotros', 'plural-2': 'vosotros', 'plural-3': 'ellos' };
+// Skrócone etykiety dla dłuższych zaimków l.mn. — pełna forma zostaje w tooltipie (title),
+// żeby zostawić miejsce na formę czasownika i uniknąć łamania jej w środku słowa.
+const PRONOUNS_LABEL = { ...PRONOUNS, 'plural-1': 'nos.', 'plural-2': 'vos.' };
 const TENSES = [
   ['present', 'Teraźniejszy'],
   ['preterite', 'Przeszły'],
@@ -133,7 +136,7 @@ export default function LessonPreview({ lesson, grammarNote }) {
                     {col1.map((f) => (
                       <div key={f.id} className="tense-cell">
                         <span className="vocab-pron" title={PRONOUNS[`${f.grammar.number}-${f.grammar.person}`]}>
-                          {PRONOUNS[`${f.grammar.number}-${f.grammar.person}`]}
+                          {PRONOUNS_LABEL[`${f.grammar.number}-${f.grammar.person}`]}
                         </span>
                         <span className="vocab-es">{f.es}</span>
                         <LevelDots wordId={f.id} />
@@ -144,7 +147,7 @@ export default function LessonPreview({ lesson, grammarNote }) {
                     {col2.map((f) => (
                       <div key={f.id} className="tense-cell">
                         <span className="vocab-pron" title={PRONOUNS[`${f.grammar.number}-${f.grammar.person}`]}>
-                          {PRONOUNS[`${f.grammar.number}-${f.grammar.person}`]}
+                          {PRONOUNS_LABEL[`${f.grammar.number}-${f.grammar.person}`]}
                         </span>
                         <span className="vocab-es">{f.es}</span>
                         <LevelDots wordId={f.id} />
