@@ -268,13 +268,13 @@ h3 { font-size: 11px; margin: 12px 0 0; color: var(--muted); text-transform: upp
   background: var(--card2);
   box-shadow: inset 1px 1px 0 var(--edge-dark);
 }
-.preview-level-dot.on { background: var(--amber); }
-.preview-level-overflow {
-  font-family: var(--pixel);
-  font-size: 7px;
-  color: var(--amber);
-  line-height: 1;
-}
+.preview-level-dot.on { box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.35); }
+.preview-level-dot.on.dot-1 { background: var(--red); }
+.preview-level-dot.on.dot-2 { background: #f97316; }
+.preview-level-dot.on.dot-3 { background: var(--amber); }
+.preview-level-dot.on.dot-4 { background: #84cc16; }
+.preview-level-dot.on.dot-5 { background: var(--green); }
+.preview-level-dot.on.dot-6 { background: #10b981; }
 
 /* odmiana: dwie kolumny (l.poj. / l.mn.) na czas — bez tłumaczenia formy,
    żeby wszystko mieściło się bez przewijania; forma ważniejsza niż zaimek */
@@ -345,14 +345,13 @@ h3 { font-size: 11px; margin: 12px 0 0; color: var(--muted); text-transform: upp
   background: var(--card2);
   box-shadow: inset 1px 1px 0 var(--edge-dark);
 }
-.level-dot.on { background: var(--amber); box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.35); }
-/* poziom powyżej 6: sześć kropek + licznik */
-.level-dot-overflow {
-  font-family: var(--pixel);
-  font-size: 8px;
-  color: var(--amber);
-  margin-left: 2px;
-}
+.level-dot.on { box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.35); }
+.level-dot.on.dot-1 { background: var(--red); }
+.level-dot.on.dot-2 { background: #f97316; }
+.level-dot.on.dot-3 { background: var(--amber); }
+.level-dot.on.dot-4 { background: #84cc16; }
+.level-dot.on.dot-5 { background: var(--green); }
+.level-dot.on.dot-6 { background: #10b981; }
 
 /* karta zadania wyśrodkowana w dostępnej przestrzeni między paskiem góry a odpowiedzią */
 .prompt-wrap {

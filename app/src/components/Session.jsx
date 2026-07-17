@@ -288,12 +288,9 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
       <div className="prompt-wrap">
         <div className="prompt">
           <div className="level-dots" title={`Poziom słowa: ${task.entry.progress.level}`}>
-            {Array.from({ length: Math.min(task.entry.progress.level, 6) }, (_, i) => (
-              <span key={i} className="level-dot on" />
+            {Array.from({ length: 6 }, (_, i) => (
+              <span key={i} className={'level-dot' + (i < task.entry.progress.level ? ' on dot-' + (i + 1) : '')} />
             ))}
-            {task.entry.progress.level > 6 && (
-              <span className="level-dot-overflow">+{task.entry.progress.level - 6}</span>
-            )}
           </div>
           <div className="prompt-word">
             <span className="pl-word">{w.pl}</span>

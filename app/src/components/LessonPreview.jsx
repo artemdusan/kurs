@@ -42,17 +42,15 @@ export default function LessonPreview({ lesson, grammarNote }) {
 
   if (!words) return null;
 
-  /** Mały wskaźnik poziomu: kropki (max 6) + licznik dla poziomów 7+. */
+  /** Mały wskaźnik poziomu: 6 kropek, kolor gradientu czerwony→zielony. */
   function LevelDots({ wordId }) {
     const p = progressMap.get(wordId);
     const level = p?.level || 1;
-    const dots = Math.min(level, 6);
     return (
       <span className="preview-level" title={`Poziom ${level}`}>
-        {Array.from({ length: dots }, (_, i) => (
-          <span key={i} className="preview-level-dot on" />
+        {Array.from({ length: 6 }, (_, i) => (
+          <span key={i} className={'preview-level-dot' + (i < level ? ' on dot-' + (i + 1) : '')} />
         ))}
-        {level > 6 && <span className="preview-level-overflow">+{level - 6}</span>}
       </span>
     );
   }
