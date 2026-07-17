@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { saveSettings } from '../db.js';
+import { saveSettings, setMeta } from '../db.js';
 import { buildSessionPool, buildMistakesPool, pickNext, recordAnswer, bumpDailyStats, requiredStreak, lessonFloorReached, clearMistake } from '../engine/session.js';
+import { ensureLessonImported } from '../course.js';
 import { checkAnswer, splitArticle } from '../engine/answer.js';
 import { buildKeyboard, articleButtons } from '../engine/keyboard.js';
 import { buildMcqOptions } from '../engine/mcq.js';
@@ -73,24 +74,24 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // czas minął (w dowolnej fazie) — zakończ sesję; obejmuje też powrót
-  // z tła po dłuższej nieaktywności, gdy limit czasu już minął
-  // (powtórka błędów nie ma limitu czasu, więc tu nigdy się nie kończy)
+  // czas minął — zakończ sesję, ale pozwól dokończyć bieżące pytanie
+  // (gdy użytkownik właśnie wpisuje odpowiedź, sesja kończy się po jej sprawdzeniu)
   useEffect(() => {
     if (mode === 'mistakes') return;
-    if (remaining === 0 && phase !== 'done') finish(pool);
+    if (remaining === 0 && phase !== 'done' && phase !== 'answer') finish(pool);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [remaining, phase]);
 
   // wracając z tła sprawdź od razu, czy limit czasu minął — przeglądarka
   // wstrzymuje/spowalnia interwały w ukrytej karcie, więc kolejny tick mógłby
-  // przyjść z dużym opóźnieniem
+  // przyjść z dużym opóźnieniem. Nie przerywaj trwającego pytania.
   useEffect(() => {
     function onVisibilityChange() {
       if (
         document.visibilityState === 'visible' &&
         Date.now() >= endAtRef.current &&
-        phaseRef.current !== 'done'
+        phaseRef.current !== 'done' &&
+        phaseRef.current !== 'answer'
       ) {
         finish(poolRef.current);
       }
@@ -197,6 +198,8 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
 
   // Sprawdza, czy wszystkie słowa z lekcji 1..maxLesson osiągnęły floorLevel —
   // jeśli tak, kolejna lekcja właśnie się odblokowała (toast raz na odblokowanie).
+  // Odblokowanie jest NATYCHMIAST utrwalane w meta — nawet jeśli później w tej
+  // samej sesji jakieś słowo spadnie poniżej progu, lekcja pozostaje dostępna.
   async function checkLessonUnlock() {
     if (!index) return;
     const nextLesson = maxLesson + 1;
@@ -205,6 +208,8 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
     const reached = await lessonFloorReached(maxLesson, settings.floorLevel);
     if (reached) {
       unlockedToastedRef.current.add(nextLesson);
+      await setMeta('unlockedLesson', nextLesson);
+      await ensureLessonImported(nextLesson);
       const next = index.lekcje.find((l) => l.numer === nextLesson);
       setToast(`🎉 Odblokowano lekcję ${nextLesson}: ${next?.temat || ''}`);
       setTimeout(() => setToast(''), 5000);

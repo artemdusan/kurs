@@ -1,8 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import { db } from '../db.js';
+import { getProgressMap } from '../engine/session.js';
 
 // Karta zapoznawcza bieżącej lekcji: słownictwo, odmiana czasownika przez
-// czasy i krótka notatka gramatyczna (mini-podręcznik).
+// czasy i krótka notatka gramatyczna (mini-podręcznik). Przy każdym słowie
+// widoczny jest jego aktualny poziom (kropki).
 
 const PRONOUNS = { 'singular-1': 'yo', 'singular-2': 'tú', 'singular-3': 'él', 'plural-1': 'nosotros', 'plural-2': 'vosotros', 'plural-3': 'ellos' };
 const TENSES = [
@@ -17,6 +19,7 @@ const COL2 = ['plural-1', 'plural-2', 'plural-3'];
 
 export default function LessonPreview({ lesson, grammarNote }) {
   const [words, setWords] = useState(null);
+  const [progressMap, setProgressMap] = useState(new Map());
   const [tab, setTab] = useState('words'); // words | forms | grammar
 
   useEffect(() => {
@@ -26,8 +29,11 @@ export default function LessonPreview({ lesson, grammarNote }) {
       .equals(lesson)
       .filter((w) => !w.deleted)
       .toArray()
-      .then((ws) => {
-        if (!cancelled) setWords(ws);
+      .then(async (ws) => {
+        if (cancelled) return;
+        setWords(ws);
+        const map = await getProgressMap(ws.map((w) => w.id));
+        setProgressMap(map);
       });
     return () => {
       cancelled = true;
@@ -35,6 +41,21 @@ export default function LessonPreview({ lesson, grammarNote }) {
   }, [lesson]);
 
   if (!words) return null;
+
+  /** Mały wskaźnik poziomu: kropki (max 6) + licznik dla poziomów 7+. */
+  function LevelDots({ wordId }) {
+    const p = progressMap.get(wordId);
+    const level = p?.level || 1;
+    const dots = Math.min(level, 6);
+    return (
+      <span className="preview-level" title={`Poziom ${level}`}>
+        {Array.from({ length: dots }, (_, i) => (
+          <span key={i} className="preview-level-dot on" />
+        ))}
+        {level > 6 && <span className="preview-level-overflow">+{level - 6}</span>}
+      </span>
+    );
+  }
 
   const verb = words.find((w) => w.type === 'verb');
   const forms = words.filter((w) => w.type === 'verb_form');
@@ -69,6 +90,7 @@ export default function LessonPreview({ lesson, grammarNote }) {
               <div className="vocab-row vocab-verb">
                 <span className="vocab-es">{verb.es}</span>
                 <span className="vocab-pl">{verb.pl}</span>
+                <LevelDots wordId={verb.id} />
               </div>
             </>
           )}
@@ -77,6 +99,7 @@ export default function LessonPreview({ lesson, grammarNote }) {
             <div key={w.id} className="vocab-row">
               <span className="vocab-es">{w.es}</span>
               <span className="vocab-pl">{w.pl}</span>
+              <LevelDots wordId={w.id} />
             </div>
           ))}
           {adjectives.length > 0 && (
@@ -86,6 +109,7 @@ export default function LessonPreview({ lesson, grammarNote }) {
                 <div key={w.id} className="vocab-row">
                   <span className="vocab-es">{w.es}</span>
                   <span className="vocab-pl">{w.pl}</span>
+                  <LevelDots wordId={w.id} />
                 </div>
               ))}
             </>
@@ -114,6 +138,7 @@ export default function LessonPreview({ lesson, grammarNote }) {
                           {PRONOUNS[`${f.grammar.number}-${f.grammar.person}`]}
                         </span>
                         <span className="vocab-es">{f.es}</span>
+                        <LevelDots wordId={f.id} />
                       </div>
                     ))}
                   </div>
@@ -124,6 +149,7 @@ export default function LessonPreview({ lesson, grammarNote }) {
                           {PRONOUNS[`${f.grammar.number}-${f.grammar.person}`]}
                         </span>
                         <span className="vocab-es">{f.es}</span>
+                        <LevelDots wordId={f.id} />
                       </div>
                     ))}
                   </div>

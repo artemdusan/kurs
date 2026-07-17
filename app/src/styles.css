@@ -260,6 +260,22 @@ h3 { font-size: 11px; margin: 12px 0 0; color: var(--muted); text-transform: upp
 .vocab-pron { color: var(--muted); font-weight: 400; font-size: 13px; }
 .vocab-pl { color: var(--muted); text-align: right; font-size: 14px; }
 
+/* poziom słowa w podglądzie lekcji — miniaturowe kropki przy każdym słowie */
+.preview-level { display: flex; align-items: center; gap: 2px; flex: none; margin-left: auto; }
+.preview-level-dot {
+  width: 5px;
+  height: 5px;
+  background: var(--card2);
+  box-shadow: inset 1px 1px 0 var(--edge-dark);
+}
+.preview-level-dot.on { background: var(--amber); }
+.preview-level-overflow {
+  font-family: var(--pixel);
+  font-size: 7px;
+  color: var(--amber);
+  line-height: 1;
+}
+
 /* odmiana: dwie kolumny (l.poj. / l.mn.) na czas — bez tłumaczenia formy,
    żeby wszystko mieściło się bez przewijania; forma ważniejsza niż zaimek */
 .tense-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 14px; }
