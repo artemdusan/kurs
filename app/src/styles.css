@@ -185,6 +185,7 @@ h3 { font-size: 11px; margin: 12px 0 0; color: var(--muted); text-transform: upp
   align-items: center;
   gap: 12px;
   background: var(--card);
+  color: var(--text);
   padding: 10px 12px;
   text-align: left;
   box-shadow: inset 2px 2px 0 var(--edge-light), inset -2px -2px 0 var(--edge-dark);
