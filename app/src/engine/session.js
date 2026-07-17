@@ -1,11 +1,11 @@
 import { db, getMeta, setMeta } from '../db.js';
 
-// Silnik sesji: losowanie ważone poziomem, zaliczenie słowa po 2 poprawnych
-// odpowiedziach z rzędu, zmiana poziomu (awans/spadek) max raz na 24 h.
+// Silnik sesji: losowanie ważone poziomem, zaliczenie słowa po 1 poprawnej
+// odpowiedzi, zmiana poziomu (awans/spadek) max raz na 24 h.
+// Maksymalny poziom nieograniczony; karty poziomu 6+ po błędzie spadają na 5.
 
 export const LEVEL_COOLDOWN_MS = 24 * 60 * 60 * 1000;
-export const MAX_LEVEL = 6;
-export const SESSION_DONE_STREAK = 2;
+export const SESSION_DONE_STREAK = 1;
 
 export async function getProgressMap(wordIds) {
   const rows = await db.progress.where('wordId').anyOf(wordIds).toArray();
@@ -46,12 +46,11 @@ function weightedDraw(list, rng = Math.random) {
 }
 
 /**
- * Ile poprawnych odpowiedzi z rzędu zalicza słowo w tej sesji. Zwykle 2, ale
- * gdy poziom już się dziś zmienił (cooldown 24h aktywny — i tak nie zmieni
- * się ponownie dzisiaj), wystarczy 1: dodatkowy streak nie daje wtedy nic.
+ * Jedna poprawna odpowiedź wystarczy do zaliczenia słowa w sesji.
+ * Poziom i tak zmieni się max raz na 24 h (LEVEL_COOLDOWN_MS).
  */
 export function requiredStreak(progress, now = Date.now()) {
-  return now - progress.lastLevelChangeAt < LEVEL_COOLDOWN_MS ? 1 : SESSION_DONE_STREAK;
+  return SESSION_DONE_STREAK;
 }
 
 /**
@@ -77,7 +76,12 @@ export function pickNext(pool, previousWordId = null, rng = Math.random) {
 
 /**
  * Rejestruje odpowiedź. Aktualizuje streak sesyjny i (z poszanowaniem cooldownu 24 h)
- * poziom słowa. Zwraca zaktualizowany wpis puli.
+ * poziom słowa.
+ *
+ * - 1 poprawna odpowiedź = awans (jeśli cooldown minął)
+ * - Błędna odpowiedź = spadek (jeśli cooldown minął i poziom > 1)
+ * - Karty poziomu 6+ po błędzie spadają na poziom 5
+ * - Poziom 1 nie spada (jest to minimalny poziom)
  */
 export async function recordAnswer(entry, correct) {
   const now = Date.now();
@@ -91,7 +95,6 @@ export async function recordAnswer(entry, correct) {
     sessionStreak++;
     if (
       sessionStreak >= SESSION_DONE_STREAK &&
-      p.level < MAX_LEVEL &&
       now - p.lastLevelChangeAt >= LEVEL_COOLDOWN_MS
     ) {
       p.level++;
@@ -102,7 +105,12 @@ export async function recordAnswer(entry, correct) {
     p.lastWrongAt = now;
     sessionStreak = 0;
     if (p.level > 1 && now - p.lastLevelChangeAt >= LEVEL_COOLDOWN_MS) {
-      p.level--;
+      // karty poziomu 6+ spadają od razu na poziom 5
+      if (p.level >= 6) {
+        p.level = 5;
+      } else {
+        p.level--;
+      }
       p.lastLevelChangeAt = now;
       p.lastLevelDropAt = now;
     }
@@ -196,7 +204,7 @@ export async function countRecentMistakes(maxLesson) {
   return (await buildMistakesPool(maxLesson, Infinity)).length;
 }
 
-/** Rozkład poziomów słów z lekcji 1..maxLesson (indeks 0 = poziom 1). */
+/** Rozkład poziomów słów z lekcji 1..maxLesson (indeks 0 = poziom 1). Dynamiczny — bez górnego limitu. */
 export async function levelDistribution(maxLesson) {
   const words = await db.words
     .where('lesson')
@@ -204,8 +212,17 @@ export async function levelDistribution(maxLesson) {
     .filter((w) => !w.deleted)
     .toArray();
   const progressMap = await getProgressMap(words.map((w) => w.id));
-  const levels = Array.from({ length: MAX_LEVEL }, () => 0);
-  for (const w of words) levels[(progressMap.get(w.id)?.level || 1) - 1]++;
+  let maxLevel = 1;
+  const levelMap = new Map();
+  for (const w of words) {
+    const lvl = progressMap.get(w.id)?.level || 1;
+    levelMap.set(lvl, (levelMap.get(lvl) || 0) + 1);
+    if (lvl > maxLevel) maxLevel = lvl;
+  }
+  const levels = [];
+  for (let i = 1; i <= Math.max(maxLevel, 6); i++) {
+    levels.push(levelMap.get(i) || 0);
+  }
   return levels;
 }
 
@@ -226,9 +243,12 @@ export async function lessonFloorReached(lesson, floorLevel) {
  * Każdy dzień ma własny `updated_at` — przy synchronizacji dwóch urządzeń
  * scalanie odbywa się per dzień (nowszy zapis danego dnia wygrywa), więc
  * nauka na jednym urządzeniu nie nadpisuje dni zapisanych na drugim.
+ *
+ * Parametr `dayOverride` pozwala przypisać statystyki do konkretnego dnia
+ * (np. gdy sesja zaczęła się przed północą, a skończyła po).
  */
-export async function bumpDailyStats({ correct = 0, wrong = 0, seconds = 0, finishedSession = false }) {
-  const today = new Date().toISOString().slice(0, 10);
+export async function bumpDailyStats({ correct = 0, wrong = 0, seconds = 0, finishedSession = false, dayOverride = null }) {
+  const today = dayOverride || new Date().toISOString().slice(0, 10);
   const stats = await getMeta('dailyStats', {});
   const day = stats[today] || { correct: 0, wrong: 0, sessions: 0, seconds: 0 };
   day.correct += correct;
@@ -253,9 +273,11 @@ export async function bumpDailyStats({ correct = 0, wrong = 0, seconds = 0, fini
  * Status dnia względem dziennego celu minut:
  * 'green' — cel minut osiągnięty, 'yellow' — była nauka, ale poniżej celu
  * (dzień i tak liczy się do streaka), 'red' — dziś jeszcze nic.
+ * Dzień jest "aktywny" tylko gdy były odpowiedzi (correct/wrong) — same
+ * sekundy (np. z sesji przeciągniętej po północy) nie aktywują dnia.
  */
 export function dayStatus(day, goalMinutes = 10) {
-  const active = (day?.correct || 0) + (day?.wrong || 0) > 0 || (day?.seconds || 0) > 0;
+  const active = (day?.correct || 0) + (day?.wrong || 0) > 0;
   if (!active) return 'red';
   return (day.seconds || 0) >= goalMinutes * 60 ? 'green' : 'yellow';
 }

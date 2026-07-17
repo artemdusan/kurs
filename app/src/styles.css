@@ -330,6 +330,13 @@ h3 { font-size: 11px; margin: 12px 0 0; color: var(--muted); text-transform: upp
   box-shadow: inset 1px 1px 0 var(--edge-dark);
 }
 .level-dot.on { background: var(--amber); box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.35); }
+/* poziom powyżej 6: sześć kropek + licznik */
+.level-dot-overflow {
+  font-family: var(--pixel);
+  font-size: 8px;
+  color: var(--amber);
+  margin-left: 2px;
+}
 
 /* karta zadania wyśrodkowana w dostępnej przestrzeni między paskiem góry a odpowiedzią */
 .prompt-wrap {
@@ -479,6 +486,18 @@ h3 { font-size: 11px; margin: 12px 0 0; color: var(--muted); text-transform: upp
 .level-bar-fill.lvl-4 { background: #84cc16; }
 .level-bar-fill.lvl-5 { background: var(--green); }
 .level-bar-fill.lvl-6 { background: #10b981; }
+/* poziomy 7+ — odcień ciemniejszej zieleni */
+.level-bar-fill.lvl-7,
+.level-bar-fill.lvl-8,
+.level-bar-fill.lvl-9,
+.level-bar-fill.lvl-10,
+.level-bar-fill.lvl-11,
+.level-bar-fill.lvl-12,
+.level-bar-fill.lvl-13,
+.level-bar-fill.lvl-14,
+.level-bar-fill.lvl-15 { background: #06b6d4; }
+/* poziomy 16+ — fiolet */
+.level-bar-fill:not(.lvl-1):not(.lvl-2):not(.lvl-3):not(.lvl-4):not(.lvl-5):not(.lvl-6):not(.lvl-7):not(.lvl-8):not(.lvl-9):not(.lvl-10):not(.lvl-11):not(.lvl-12):not(.lvl-13):not(.lvl-14):not(.lvl-15) { background: #8b5cf6; }
 .level-bar-count { width: 36px; text-align: right; font-family: var(--pixel); font-size: 9px; }
 .day-bars { display: flex; align-items: flex-end; gap: 4px; height: 140px; }
 .day-col { flex: 1; display: flex; flex-direction: column; align-items: center; gap: 4px; height: 100%; }

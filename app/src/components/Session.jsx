@@ -41,6 +41,9 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
   const prevWordRef = useRef(null);
   const poolRef = useRef(null);
   const phaseRef = useRef(phase);
+  // dzień rozpoczęcia sesji — służy do przypisania statystyk (sekund, ukończenia)
+  // do właściwego dnia, nawet gdy sesja przeciągnie się po północy
+  const sessionDayRef = useRef(new Date().toISOString().slice(0, 10));
   poolRef.current = pool;
   phaseRef.current = phase;
 
@@ -139,9 +142,11 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
   }
 
   async function grade(userAnswer) {
+    // Tolerancja akcentów automatyczna: poziom ≤5 → tolerancja, >5 → perfekcyjnie
+    const accentTolerance = task.entry.progress.level <= 5;
     const correct = checkAnswer(userAnswer, task.expected, {
       isNoun: task.isNoun,
-      accentTolerance: settings.accentTolerance,
+      accentTolerance,
     });
     const updated = await recordAnswer(task.entry, correct);
     // powtórka błędów: słowo powtórzone poprawnie znika z puli do powtórki na stałe
@@ -209,7 +214,9 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
   async function finish(currentPool) {
     if (!finishedRef.current) {
       finishedRef.current = true;
-      await bumpDailyStats({ finishedSession: true, seconds: activeSecondsRef.current });
+      // Przypisz sekundy i ukończenie sesji do dnia, w którym sesja się zaczęła —
+      // dzięki temu sesja przeciągnięta po północy nie fałszuje dzisiejszych statystyk.
+      await bumpDailyStats({ finishedSession: true, seconds: activeSecondsRef.current, dayOverride: sessionDayRef.current });
     }
     setPhase('done');
     onFinished?.(currentPool || pool);
@@ -275,10 +282,13 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
 
       <div className="prompt-wrap">
         <div className="prompt">
-          <div className="level-dots" title={`Poziom słowa: ${task.entry.progress.level}/6`}>
-            {Array.from({ length: 6 }, (_, i) => (
-              <span key={i} className={'level-dot' + (i < task.entry.progress.level ? ' on' : '')} />
+          <div className="level-dots" title={`Poziom słowa: ${task.entry.progress.level}`}>
+            {Array.from({ length: Math.min(task.entry.progress.level, 6) }, (_, i) => (
+              <span key={i} className="level-dot on" />
             ))}
+            {task.entry.progress.level > 6 && (
+              <span className="level-dot-overflow">+{task.entry.progress.level - 6}</span>
+            )}
           </div>
           <div className="prompt-word">
             <span className="pl-word">{w.pl}</span>

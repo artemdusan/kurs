@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { db, getMeta, getSettings } from '../db.js';
-import { getProgressMap, MAX_LEVEL, dayStatus, bestStreak } from '../engine/session.js';
+import { getProgressMap, dayStatus, bestStreak } from '../engine/session.js';
 import LevelBars from './LevelBars.jsx';
 import Icon, { FaceIcon } from './Icon.jsx';
 
@@ -26,9 +26,16 @@ export default function Stats({ maxLesson, onBack }) {
         .filter((w) => !w.deleted)
         .toArray();
       const progressMap = await getProgressMap(words.map((w) => w.id));
-      const levels = Array.from({ length: MAX_LEVEL }, () => 0);
+      const levelsObj = {};
+      let maxLevel = 1;
       for (const w of words) {
-        levels[(progressMap.get(w.id)?.level || 1) - 1]++;
+        const lvl = progressMap.get(w.id)?.level || 1;
+        levelsObj[lvl] = (levelsObj[lvl] || 0) + 1;
+        if (lvl > maxLevel) maxLevel = lvl;
+      }
+      const levels = [];
+      for (let i = 1; i <= Math.max(maxLevel, 6); i++) {
+        levels.push(levelsObj[i] || 0);
       }
       const settings = await getSettings();
       const goalMin = settings.dailyGoalMinutes || 10;

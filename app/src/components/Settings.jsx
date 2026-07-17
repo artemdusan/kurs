@@ -85,30 +85,6 @@ export default function Settings({ settings, index, onChange, onSynced, onBack }
         />
       </label>
 
-      <label className="field row">
-        <input
-          type="checkbox" checked={form.accentTolerance}
-          onChange={(e) => set('accentTolerance', e.target.checked)}
-        />
-        Tolerancja błędów akcentów (á = a)
-      </label>
-
-      <label className="field row">
-        <input
-          type="checkbox" checked={form.tts}
-          onChange={(e) => set('tts', e.target.checked)}
-        />
-        Czytaj na głos poprawną odpowiedź
-      </label>
-
-      <label className="field">
-        Wymagany poziom do odblokowania lekcji (floor)
-        <input
-          type="number" min="2" max="5" value={form.floorLevel}
-          onChange={(e) => set('floorLevel', Number(e.target.value) || 2)}
-        />
-      </label>
-
       <h3>Synchronizacja (opcjonalna)</h3>
       {/* Adres serwera jest wstrzykiwany przy buildzie (VITE_SYNC_URL) — pole
           pokazujemy tylko, gdy build nie ma skonfigurowanego adresu. */}

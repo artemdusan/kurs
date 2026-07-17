@@ -23,10 +23,11 @@ export async function setMeta(key, value) {
 export const DEFAULT_SETTINGS = {
   sessionMinutes: 10,
   dailyGoalMinutes: 10, // dzienny cel minut nauki (zielona buźka)
-  accentTolerance: false,
-  tts: true,
-  floorLevel: 2, // minimalny poziom wszystkich słów wymagany do odblokowania kolejnej lekcji
-  mcqMaxLevel: 2, // do tego poziomu odmiany czasowników są w trybie MCQ
+  // accentTolerance — automatyczny: poziom ≤5 → tolerancja, >5 → perfekcyjnie
+  accentTolerance: false, // nieużywane bezpośrednio; zachowane dla kompatybilności wstecznej
+  tts: true,              // zawsze włączone; przycisk TTS w sesji pozostaje
+  floorLevel: 2,          // minimalny poziom wszystkich słów wymagany do odblokowania kolejnej lekcji (ukryte w UI)
+  mcqMaxLevel: 2,         // do tego poziomu odmiany czasowników są w trybie MCQ
   syncUrl: '',
   syncLogin: '',
   syncPassword: '',

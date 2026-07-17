@@ -46,6 +46,25 @@ export default function App() {
           .catch(() => {});
       }
     })();
+
+    // Przy powrocie do aplikacji (PWA / karta w tle) odśwież status dnia —
+    // inaczej buźka może pokazywać wczorajszy stan.
+    function onVisibilityChange() {
+      if (document.visibilityState === 'visible') {
+        (async () => {
+          const s = await getSettings();
+          const daily = await getMeta('dailyStats', {});
+          const day = daily[new Date().toISOString().slice(0, 10)];
+          setToday({
+            status: dayStatus(day, s.dailyGoalMinutes),
+            minutes: Math.round((day?.seconds || 0) / 60),
+          });
+          setStreak(await getMeta('streak', { count: 0 }));
+        })();
+      }
+    }
+    document.addEventListener('visibilitychange', onVisibilityChange);
+    return () => document.removeEventListener('visibilitychange', onVisibilityChange);
   }, []);
 
   async function refreshStats(idx, unlocked) {
