@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { saveSettings, setMeta } from '../db.js';
-import { buildSessionPool, buildMistakesPool, pickNext, recordAnswer, bumpDailyStats, requiredStreak, lessonFloorReached, clearMistake } from '../engine/session.js';
+import { buildSessionPool, buildMistakesPool, pickNext, recordAnswer, bumpDailyStats, requiredStreak, lessonFloorReached, clearMistake, SESSION_POOL_SIZE } from '../engine/session.js';
 import { ensureLessonImported } from '../course.js';
 import { checkAnswer, splitArticle } from '../engine/answer.js';
 import { buildKeyboard, articleButtons } from '../engine/keyboard.js';
@@ -32,7 +32,7 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
   const [counts, setCounts] = useState({ correct: 0, wrong: 0, done: 0 });
   const [remaining, setRemaining] = useState(settings.sessionMinutes * 60);
   const [toast, setToast] = useState('');
-  const unlockedToastedRef = useRef(new Set());
+  const pendingUnlockRef = useRef(0); // lekcja oczekująca na odblokowanie po sesji
   // powtórka błędów: bez limitu czasu — trwa, dopóki starczy słów w puli
   const endAtRef = useRef(mode === 'mistakes' ? Infinity : Date.now() + settings.sessionMinutes * 60 * 1000);
   // sekundy nauki liczone tylko, gdy karta jest widoczna — apka w tle (albo
@@ -152,7 +152,7 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
     const updated = await recordAnswer(task.entry, correct);
     // powtórka błędów: słowo powtórzone poprawnie znika z puli do powtórki na stałe
     // (dopóki znów nie spadnie poziom), więc poza sesją nie trzeba go już powtarzać
-    if (mode === 'mistakes' && correct && updated.sessionStreak >= requiredStreak(updated.progress)) {
+    if (mode === 'mistakes' && correct && updated.sessionStreak >= requiredStreak()) {
       await clearMistake(updated.word.id);
     }
     const newPool = pool.map((e) => (e.word.id === updated.word.id ? updated : e));
@@ -161,7 +161,7 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
     setCounts((c) => ({
       correct: c.correct + (correct ? 1 : 0),
       wrong: c.wrong + (correct ? 0 : 1),
-      done: newPool.filter((e) => e.sessionStreak >= requiredStreak(e.progress)).length,
+      done: newPool.filter((e) => e.sessionStreak >= requiredStreak()).length,
     }));
     await bumpDailyStats({ correct: correct ? 1 : 0, wrong: correct ? 0 : 1 });
     if (!correct) navigator.vibrate?.(150);
@@ -187,8 +187,8 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
   async function drawMore(currentPool) {
     const p = currentPool || poolRef.current;
     const doneIds = new Set(p.map((e) => e.word.id));
-    let extra = await buildSessionPool(maxLesson, 25, doneIds);
-    if (!extra.length) extra = await buildSessionPool(maxLesson, 25);
+    let extra = await buildSessionPool(maxLesson, SESSION_POOL_SIZE, doneIds);
+    if (!extra.length) extra = await buildSessionPool(maxLesson, SESSION_POOL_SIZE);
     if (!extra.length) return finish(p);
     const merged = [...p, ...extra.filter((e) => !doneIds.has(e.word.id))];
     if (merged.length === p.length) return finish(p);
@@ -196,23 +196,18 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
     await makeTask(merged);
   }
 
-  // Sprawdza, czy wszystkie słowa z lekcji 1..maxLesson osiągnęły floorLevel —
-  // jeśli tak, kolejna lekcja właśnie się odblokowała (toast raz na odblokowanie).
-  // Odblokowanie jest NATYCHMIAST utrwalane w meta — nawet jeśli później w tej
-  // samej sesji jakieś słowo spadnie poniżej progu, lekcja pozostaje dostępna.
+  // Sprawdza, czy wszystkie słowa z lekcji 1..maxLesson osiągnęły floorLevel,
+  // ale NIE wykonuje odblokowania — jedynie zapamiętuje, która lekcja powinna
+  // zostać odblokowana. Faktyczne odblokowanie (persist + import + toast)
+  // nastąpi w finish() po zakończeniu sesji.
   async function checkLessonUnlock() {
     if (!index) return;
     const nextLesson = maxLesson + 1;
     if (nextLesson > (index.lekcje?.length || 0)) return;
-    if (unlockedToastedRef.current.has(nextLesson)) return;
+    if (pendingUnlockRef.current >= nextLesson) return;
     const reached = await lessonFloorReached(maxLesson, settings.floorLevel);
     if (reached) {
-      unlockedToastedRef.current.add(nextLesson);
-      await setMeta('unlockedLesson', nextLesson);
-      await ensureLessonImported(nextLesson);
-      const next = index.lekcje.find((l) => l.numer === nextLesson);
-      setToast(`🎉 Odblokowano lekcję ${nextLesson}: ${next?.temat || ''}`);
-      setTimeout(() => setToast(''), 5000);
+      pendingUnlockRef.current = nextLesson;
     }
   }
 
@@ -222,6 +217,15 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
       // Przypisz sekundy i ukończenie sesji do dnia, w którym sesja się zaczęła —
       // dzięki temu sesja przeciągnięta po północy nie fałszuje dzisiejszych statystyk.
       await bumpDailyStats({ finishedSession: true, seconds: activeSecondsRef.current, dayOverride: sessionDayRef.current });
+
+      // Odroczone odblokowanie lekcji — persist + import + toast po sesji
+      if (pendingUnlockRef.current > 0) {
+        await setMeta('unlockedLesson', pendingUnlockRef.current);
+        await ensureLessonImported(pendingUnlockRef.current);
+        const next = index.lekcje.find((l) => l.numer === pendingUnlockRef.current);
+        setToast(`🎉 Odblokowano lekcję ${pendingUnlockRef.current}: ${next?.temat || ''}`);
+        setTimeout(() => setToast(''), 5000);
+      }
     }
     setPhase('done');
     onFinished?.(currentPool || pool);
@@ -240,6 +244,7 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
         </p>
         <p>Zaliczone w tej sesji słowa: {counts.done}</p>
         <button className="btn primary" onClick={onExit}>Wróć do kursu</button>
+        {toast && <div className="toast">{toast}</div>}
       </div>
     );
   }

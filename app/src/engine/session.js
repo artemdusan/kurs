@@ -6,6 +6,7 @@ import { db, getMeta, setMeta } from '../db.js';
 
 export const LEVEL_COOLDOWN_MS = 24 * 60 * 60 * 1000;
 export const SESSION_DONE_STREAK = 1;
+export const SESSION_POOL_SIZE = 25;
 
 export async function getProgressMap(wordIds) {
   const rows = await db.progress.where('wordId').anyOf(wordIds).toArray();
@@ -49,7 +50,7 @@ function weightedDraw(list, rng = Math.random) {
  * Jedna poprawna odpowiedź wystarczy do zaliczenia słowa w sesji.
  * Poziom i tak zmieni się max raz na 24 h (LEVEL_COOLDOWN_MS).
  */
-export function requiredStreak(progress, now = Date.now()) {
+export function requiredStreak() {
   return SESSION_DONE_STREAK;
 }
 
@@ -61,11 +62,11 @@ export function requiredStreak(progress, now = Date.now()) {
  */
 export function pickNext(pool, previousWordId = null, rng = Math.random) {
   const candidates = pool.filter(
-    (e) => e.sessionStreak < requiredStreak(e.progress) && e.word.id !== previousWordId
+    (e) => e.sessionStreak < requiredStreak() && e.word.id !== previousWordId
   );
   const list = candidates.length
     ? candidates
-    : pool.filter((e) => e.sessionStreak < requiredStreak(e.progress));
+    : pool.filter((e) => e.sessionStreak < requiredStreak());
   if (!list.length) return null;
   const weak = list.filter((e) => e.progress.level === 1);
   const review = list.filter((e) => e.progress.level > 1);
@@ -102,9 +103,12 @@ export async function recordAnswer(entry, correct) {
     }
   } else {
     p.wrongTotal++;
-    p.lastWrongAt = now;
     sessionStreak = 0;
-    if (p.level > 1 && now - p.lastLevelChangeAt >= LEVEL_COOLDOWN_MS) {
+    // Poziom 1 — nie spada niżej (minimum), ale dostaje cooldown 24 h,
+    // żeby nie mógł awansować przy kolejnej poprawnej odpowiedzi tego samego dnia.
+    if (p.level === 1) {
+      p.lastLevelChangeAt = now;
+    } else if (now - p.lastLevelChangeAt >= LEVEL_COOLDOWN_MS) {
       // karty poziomu 6+ spadają od razu na poziom 5
       if (p.level >= 6) {
         p.level = 5;
@@ -126,7 +130,7 @@ export async function recordAnswer(entry, correct) {
  * wagami 1/poziom² — "random repetition", bez sztywnych interwałów).
  * Niedobór w jednej grupie dopełnia druga.
  */
-export async function buildSessionPool(maxLesson, poolSize = 25, excludeIds = null, rng = Math.random) {
+export async function buildSessionPool(maxLesson, poolSize = SESSION_POOL_SIZE, excludeIds = null, rng = Math.random) {
   const words = await db.words
     .where('lesson')
     .belowOrEqual(maxLesson)
@@ -168,7 +172,7 @@ export async function buildSessionPool(maxLesson, poolSize = 25, excludeIds = nu
  * Pula trybu „powtórka błędów”: słowa, którym DZISIAJ spadł poziom,
  * najświeższe spadki najpierw.
  */
-export async function buildMistakesPool(maxLesson, poolSize = 25) {
+export async function buildMistakesPool(maxLesson, poolSize = SESSION_POOL_SIZE) {
   const words = await db.words
     .where('lesson')
     .belowOrEqual(maxLesson)

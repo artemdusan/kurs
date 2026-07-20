@@ -22,9 +22,8 @@ Skrypt `scripts/copy-data.mjs` kopiuje dane kursu do `app/public/data` przed dev
   wybierane losowo z wagą `1/poziom²` — niższe poziomy wracają częściej, ale bez
   sztywnych interwałów ("random repetition"). Dzięki temu nowa lekcja nie wypiera
   całkowicie powtórek wcześniejszego materiału.
-- W sesji słowo znika z puli po **2 poprawnych odpowiedziach z rzędu**
-  (1, jeśli poziom słowa już się dziś zmienił).
-- Zmiana poziomu (awans po 2 z rzędu, spadek po błędzie) możliwa **max raz na 24 h**.
+- W sesji słowo znika z puli po **1 poprawnej odpowiedzi**.
+- Zmiana poziomu (awans po 1 poprawnej, spadek po błędzie) możliwa **max raz na 24 h**.
 - Odmiany czasowników: przy poziomie ≤ 2 tryb **MCQ** (dystraktory = inne czasy tej samej
   osoby/liczby tego samego czasownika), wyżej — wpisywanie.
 - Wpisywanie zawsze przez **mini klawiaturę ekranową** (litery odpowiedzi + 1–2 dystraktory,

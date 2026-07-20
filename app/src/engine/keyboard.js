@@ -6,6 +6,7 @@ import { splitArticle } from './answer.js';
 // nigdy ich nie dolosowujemy.
 
 const PLAIN_LETTERS = 'abcdefghijlmnopqrstuvyz'.split(''); // bez k, w, x
+const MIN_KEYBOARD_KEYS = 5; // minimalna liczba klawiszy (dla krótkich słów)
 // akcent-dystraktor tylko jako wariant litery już obecnej w słowie
 // (np. é przy słowie z „e") — inaczej łatwo go odrzucić; ü celowo pominięte
 const SPECIAL_FOR_BASE = { a: 'á', e: 'é', i: 'í', o: 'ó', u: 'ú', n: 'ñ' };
@@ -38,6 +39,16 @@ export function buildKeyboard(target, { isNoun = false, rng = Math.random } = {}
       .map((base) => SPECIAL_FOR_BASE[base]);
     const special = pick(candidates, chars, rng);
     if (special) extras.push(special);
+  }
+
+  // Dopełnij do minimalnej liczby klawiszy — dla bardzo krótkich słów
+  // (np. "el", "ir") dokładamy dodatkowe dystraktory, żeby klawiatura
+  // nie zdradzała odpowiedzi
+  while (chars.size + extras.length < MIN_KEYBOARD_KEYS) {
+    const exclude = new Set([...chars, ...extras]);
+    const d = pick(PLAIN_LETTERS, exclude, rng);
+    if (!d) break; // safety — przy 23 literach nigdy nie powinno zabraknąć
+    extras.push(d);
   }
 
   // kolejność jak na klawiaturze QWERTY (litery akcentowane obok bazowych) —
