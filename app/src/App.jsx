@@ -106,8 +106,13 @@ export default function App() {
       await ensureLessonImported(unlocked);
       lastUnlocked = unlocked;
     }
+    // Zsynchronizuj stan z meta (idempotentnie) — obejmuje też przypadek, gdy
+    // odblokowania dokonała już sesja (Session.finish), a tutaj tylko dociągamy
+    // stan widoku. Toast pokazujemy wyłącznie, gdy odblokowanie nastąpiło w tej
+    // ścieżce (np. po synchronizacji z innym urządzeniem), by nie dublować go
+    // z toastem z ekranu podsumowania sesji.
+    setUnlockedLesson(unlocked);
     if (lastUnlocked) {
-      setUnlockedLesson(lastUnlocked);
       const next = idx?.lekcje.find((l) => l.numer === lastUnlocked);
       setToast(`🎉 Odblokowano lekcję ${lastUnlocked}: ${next?.temat || ''}`);
       setTimeout(() => setToast(''), 5000);
