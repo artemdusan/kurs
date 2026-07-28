@@ -32,7 +32,6 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
   const [counts, setCounts] = useState({ correct: 0, wrong: 0, done: 0 });
   const [remaining, setRemaining] = useState(settings.sessionMinutes * 60);
   const [toast, setToast] = useState('');
-  const pendingUnlockRef = useRef(0); // lekcja oczekująca na odblokowanie po sesji
   // powtórka błędów: bez limitu czasu — trwa, dopóki starczy słów w puli
   const endAtRef = useRef(mode === 'mistakes' ? Infinity : Date.now() + settings.sessionMinutes * 60 * 1000);
   // sekundy nauki liczone tylko, gdy karta jest widoczna — apka w tle (albo
@@ -166,9 +165,6 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
     await bumpDailyStats({ correct: correct ? 1 : 0, wrong: correct ? 0 : 1 });
     if (!correct) navigator.vibrate?.(150);
 
-    // sprawdź, czy odblokowała się kolejna lekcja (wszystkie słowa 1..maxLesson na floorLevel)
-    checkLessonUnlock();
-
     speak(task.expected, tts);
     setPhase('feedback');
   }
@@ -196,21 +192,6 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
     await makeTask(merged);
   }
 
-  // Sprawdza, czy wszystkie słowa z lekcji 1..maxLesson osiągnęły floorLevel,
-  // ale NIE wykonuje odblokowania — jedynie zapamiętuje, która lekcja powinna
-  // zostać odblokowana. Faktyczne odblokowanie (persist + import + toast)
-  // nastąpi w finish() po zakończeniu sesji.
-  async function checkLessonUnlock() {
-    if (!index) return;
-    const nextLesson = maxLesson + 1;
-    if (nextLesson > (index.lekcje?.length || 0)) return;
-    if (pendingUnlockRef.current >= nextLesson) return;
-    const reached = await lessonFloorReached(maxLesson, settings.floorLevel);
-    if (reached) {
-      pendingUnlockRef.current = nextLesson;
-    }
-  }
-
   async function finish(currentPool) {
     if (!finishedRef.current) {
       finishedRef.current = true;
@@ -218,12 +199,21 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
       // dzięki temu sesja przeciągnięta po północy nie fałszuje dzisiejszych statystyk.
       await bumpDailyStats({ finishedSession: true, seconds: activeSecondsRef.current, dayOverride: sessionDayRef.current });
 
-      // Odroczone odblokowanie lekcji — persist + import + toast po sesji
-      if (pendingUnlockRef.current > 0) {
-        await setMeta('unlockedLesson', pendingUnlockRef.current);
-        await ensureLessonImported(pendingUnlockRef.current);
-        const next = index.lekcje.find((l) => l.numer === pendingUnlockRef.current);
-        setToast(`🎉 Odblokowano lekcję ${pendingUnlockRef.current}: ${next?.temat || ''}`);
+      // Odblokowanie kolejnej lekcji — dopiero po sesji i tylko gdy WSZYSTKIE
+      // słowa ze wszystkich odblokowanych lekcji (1..maxLesson) są na floorLevel.
+      // Sprawdzamy świeżo tutaj (a nie w trakcie sesji), bo słowo z wcześniejszej
+      // lekcji mogło spaść na poziom 1 dopiero w trakcie tej samej sesji — wtedy
+      // materiał nie jest jeszcze opanowany i nowej lekcji nie odblokowujemy.
+      const nextLesson = maxLesson + 1;
+      if (
+        index &&
+        nextLesson <= (index.lekcje?.length || 0) &&
+        (await lessonFloorReached(maxLesson, settings.floorLevel))
+      ) {
+        await setMeta('unlockedLesson', nextLesson);
+        await ensureLessonImported(nextLesson);
+        const next = index.lekcje.find((l) => l.numer === nextLesson);
+        setToast(`🎉 Odblokowano lekcję ${nextLesson}: ${next?.temat || ''}`);
         setTimeout(() => setToast(''), 5000);
       }
     }
