@@ -40,12 +40,10 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
   const finishedRef = useRef(false);
   const prevWordRef = useRef(null);
   const poolRef = useRef(null);
-  const phaseRef = useRef(phase);
   // dzień rozpoczęcia sesji — służy do przypisania statystyk (sekund, ukończenia)
   // do właściwego dnia, nawet gdy sesja przeciągnie się po północy
   const sessionDayRef = useRef(new Date().toISOString().slice(0, 10));
   poolRef.current = pool;
-  phaseRef.current = phase;
 
   useEffect(() => {
     let cancelled = false;
@@ -73,32 +71,11 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  // czas minął — zakończ sesję, ale pozwól dokończyć bieżące pytanie
-  // (gdy użytkownik właśnie wpisuje odpowiedź, sesja kończy się po jej sprawdzeniu)
-  useEffect(() => {
-    if (mode === 'mistakes') return;
-    if (remaining === 0 && phase !== 'done' && phase !== 'answer') finish(pool);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [remaining, phase]);
-
-  // wracając z tła sprawdź od razu, czy limit czasu minął — przeglądarka
-  // wstrzymuje/spowalnia interwały w ukrytej karcie, więc kolejny tick mógłby
-  // przyjść z dużym opóźnieniem. Nie przerywaj trwającego pytania.
-  useEffect(() => {
-    function onVisibilityChange() {
-      if (
-        document.visibilityState === 'visible' &&
-        Date.now() >= endAtRef.current &&
-        phaseRef.current !== 'done' &&
-        phaseRef.current !== 'answer'
-      ) {
-        finish(poolRef.current);
-      }
-    }
-    document.addEventListener('visibilitychange', onVisibilityChange);
-    return () => document.removeEventListener('visibilitychange', onVisibilityChange);
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, []);
+  // Czas minął — nie kończymy sesji w trakcie pytania ani w trakcie feedbacku.
+  // Użytkownik zawsze ma dokończyć bieżące pytanie i zobaczyć, czy odpowiedział
+  // dobrze czy źle. Sesja kończy się dopiero po kliknięciu „Dalej", bo makeTask()
+  // sprawdza zegar (endAtRef) i wtedy woła finish(). Dzięki temu feedback dla
+  // ostatniej odpowiedzi nie jest pomijany na rzecz podsumowania sesji.
 
   async function makeTask(currentPool) {
     if (Date.now() >= endAtRef.current) return finish(currentPool);
