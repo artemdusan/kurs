@@ -20,6 +20,15 @@ export async function setMeta(key, value) {
   await db.meta.put({ key, value });
 }
 
+// unlockedLesson wymaga osobno śledzonego updated_at (obok samej wartości),
+// żeby dało się go synchronizować z serwerem metodą "ostatni zapis wygrywa"
+// (patrz sync.js) — inaczej admin zmieniający numer z dashboardu i urządzenie
+// legalnie odblokowujące kolejną lekcję nie miałyby jak rozstrzygnąć konfliktu.
+export async function setUnlockedLesson(value, updatedAt = Date.now()) {
+  await setMeta('unlockedLesson', value);
+  await setMeta('unlockedLessonUpdatedAt', updatedAt);
+}
+
 export const DEFAULT_SETTINGS = {
   sessionMinutes: 10,
   dailyGoalMinutes: 10, // dzienny cel minut nauki (zielona buźka)

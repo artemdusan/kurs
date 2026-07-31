@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { db, getMeta, setMeta, getSettings } from './db.js';
+import { db, getMeta, setUnlockedLesson, getSettings } from './db.js';
 import { loadIndex, ensureLessonImported } from './course.js';
 import { lessonFloorReached, getProgressMap, countRecentMistakes, dayStatus } from './engine/session.js';
 import { syncNow, resolveSyncUrl } from './sync.js';
@@ -102,7 +102,7 @@ export default function App() {
     let lastUnlocked = null;
     while (unlocked < total && (await lessonFloorReached(unlocked, s.floorLevel))) {
       unlocked++;
-      await setMeta('unlockedLesson', unlocked);
+      await setUnlockedLesson(unlocked);
       await ensureLessonImported(unlocked);
       lastUnlocked = unlocked;
     }
@@ -118,22 +118,6 @@ export default function App() {
       setTimeout(() => setToast(''), 5000);
     }
     return unlocked;
-  }
-
-  // Cofa odblokowanie ostatniej lekcji (np. po omyłkowym odblokowaniu dwóch
-  // naraz) — tylko zmienia meta.unlockedLesson, świadomie NIE woła checkUnlocks
-  // (który natychmiast odblokowałby ją z powrotem, gdyby próg mastery był już
-  // spełniony). Realne, ponowne odblokowanie i tak nastąpi normalną ścieżką
-  // (Session.finish) po kolejnej sesji, jeśli materiał faktycznie jest opanowany.
-  async function lockLastLesson() {
-    const current = await getMeta('unlockedLesson', 1);
-    if (current <= 1) return current;
-    const next = current - 1;
-    await setMeta('unlockedLesson', next);
-    setUnlockedLesson(next);
-    setBrowsingLesson((b) => (b !== null && b > next ? null : b));
-    await refreshStats(index, next);
-    return next;
   }
 
   async function handleSessionFinished() {
@@ -180,10 +164,8 @@ export default function App() {
       <Settings
         settings={settings}
         index={index}
-        unlockedLesson={unlockedLesson}
         onChange={setSettings}
         onSynced={async () => refreshStats(index, await checkUnlocks(index))}
-        onLockLastLesson={lockLastLesson}
         onBack={() => setView('tree')}
       />
     );
