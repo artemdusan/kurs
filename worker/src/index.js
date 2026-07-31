@@ -99,11 +99,15 @@ async function handleSync(request, env) {
 
   // dailyStats/streak: scal przychodzące dane z tym, co serwer już ma,
   // i odeślij WYNIK scalania — oba urządzenia zbiegają do tej samej sumy
-  const metaRows = await env.DB.prepare('SELECT key, data FROM meta WHERE user_id = ?')
+  const metaRows = await env.DB.prepare('SELECT key, data, updated_at FROM meta WHERE user_id = ?')
     .bind(userId)
     .all();
   const metaMap = {};
-  for (const r of metaRows.results) metaMap[r.key] = JSON.parse(r.data);
+  const metaUpdatedAt = {};
+  for (const r of metaRows.results) {
+    metaMap[r.key] = JSON.parse(r.data);
+    metaUpdatedAt[r.key] = r.updated_at;
+  }
 
   const mergedDailyStats = mergeDailyStats(metaMap.dailyStats, body.dailyStats);
   const mergedStreak = mergeStreak(metaMap.streak, body.streak);
@@ -120,6 +124,28 @@ async function handleSync(request, env) {
        ON CONFLICT (user_id, key) DO UPDATE SET data = excluded.data, updated_at = excluded.updated_at`
     )
       .bind(userId, JSON.stringify(mergedStreak), now)
+      .run();
+  }
+
+  // unlockedLesson: zwykłe LWW po updated_at (nie wymaga merge'a jak dailyStats) —
+  // dzięki temu admin może skorygować numer z dashboardu (dashboard zapisuje
+  // świeży updated_at), a kolejne legalne odblokowanie na urządzeniu i tak
+  // wygra przy następnej synchronizacji, bo jego updated_at będzie nowszy.
+  let unlockedLesson = metaMap.unlockedLesson ?? null;
+  let unlockedLessonUpdatedAt = metaUpdatedAt.unlockedLesson || 0;
+  const incomingUnlocked = body.unlockedLesson;
+  if (
+    incomingUnlocked &&
+    typeof incomingUnlocked.value === 'number' &&
+    (incomingUnlocked.updated_at || 0) > unlockedLessonUpdatedAt
+  ) {
+    unlockedLesson = incomingUnlocked.value;
+    unlockedLessonUpdatedAt = incomingUnlocked.updated_at;
+    await env.DB.prepare(
+      `INSERT INTO meta (user_id, key, data, updated_at) VALUES (?, 'unlockedLesson', ?, ?)
+       ON CONFLICT (user_id, key) DO UPDATE SET data = excluded.data, updated_at = excluded.updated_at`
+    )
+      .bind(userId, JSON.stringify(unlockedLesson), unlockedLessonUpdatedAt)
       .run();
   }
 
@@ -141,6 +167,8 @@ async function handleSync(request, env) {
     progress: progress.results.map((r) => JSON.parse(r.data)),
     dailyStats: mergedDailyStats,
     streak: mergedStreak,
+    unlockedLesson:
+      unlockedLesson !== null ? { value: unlockedLesson, updated_at: unlockedLessonUpdatedAt } : null,
   });
 }
 
@@ -286,8 +314,34 @@ async function handleAdminUsers(request, env) {
     return json({ ok: true });
   }
   if (body.action === 'list') {
-    const users = await env.DB.prepare('SELECT login, created_at FROM users').all();
-    return json({ users: users.results });
+    const users = await env.DB.prepare(
+      `SELECT u.login, u.created_at,
+              m.data AS unlocked_lesson_data
+       FROM users u
+       LEFT JOIN meta m ON m.user_id = u.id AND m.key = 'unlockedLesson'`
+    ).all();
+    return json({
+      users: users.results.map((u) => ({
+        login: u.login,
+        created_at: u.created_at,
+        unlockedLesson: u.unlocked_lesson_data ? JSON.parse(u.unlocked_lesson_data) : null,
+      })),
+    });
+  }
+  if (body.action === 'setUnlockedLesson') {
+    const lesson = Number(body.lesson);
+    if (!Number.isInteger(lesson) || lesson < 1) return json({ error: 'bad lesson number' }, 400);
+    const user = await env.DB.prepare('SELECT id FROM users WHERE login = ?').bind(body.login).first();
+    if (!user) return json({ error: 'user not found' }, 404);
+    // Świeży updated_at — wygrywa z tym, co urządzenie ma teraz, ale ustąpi
+    // kolejnemu legalnemu odblokowaniu na urządzeniu (patrz handleSync).
+    await env.DB.prepare(
+      `INSERT INTO meta (user_id, key, data, updated_at) VALUES (?, 'unlockedLesson', ?, ?)
+       ON CONFLICT (user_id, key) DO UPDATE SET data = excluded.data, updated_at = excluded.updated_at`
+    )
+      .bind(user.id, JSON.stringify(lesson), Date.now())
+      .run();
+    return json({ ok: true });
   }
   return json({ error: 'unknown action' }, 400);
 }
@@ -311,7 +365,7 @@ const DASHBOARD_HTML = `<!doctype html>
 <button onclick="createUser()">Utwórz / zmień hasło</button>
 <h2>Użytkownicy</h2>
 <button onclick="listUsers()">Odśwież listę</button>
-<table><tbody id="users"></tbody></table>
+<table><thead><tr><th>Login</th><th>Utworzono</th><th>Odblokowana lekcja</th><th></th></tr></thead><tbody id="users"></tbody></table>
 <script>
 async function api(action, extra) {
   const res = await fetch('/admin/users', {
@@ -322,6 +376,9 @@ async function api(action, extra) {
   if (!res.ok) { alert('Błąd: ' + res.status); throw new Error(res.status); }
   return res.json();
 }
+function escAttr(s) {
+  return String(s).replace(/&/g, '&amp;').replace(/"/g, '&quot;');
+}
 async function createUser() {
   await api('create', { login: login.value, password: password.value });
   alert('OK'); listUsers();
@@ -330,7 +387,18 @@ async function listUsers() {
   const data = await api('list');
   users.innerHTML = data.users.map(u =>
     '<tr><td>' + u.login + '</td><td>' + new Date(u.created_at).toLocaleDateString('pl') +
-    '</td><td><button class="danger" onclick="removeUser(\\'' + u.login + '\\')">Usuń</button></td></tr>').join('');
+    '</td><td><input type="number" min="1" class="lesson-input" data-login="' + escAttr(u.login) +
+    '" value="' + (u.unlockedLesson ?? '') + '" style="width:70px"></td>' +
+    '<td><button onclick="setLesson(this)">Ustaw</button> ' +
+    '<button class="danger" onclick="removeUser(\\'' + u.login + '\\')">Usuń</button></td></tr>').join('');
+}
+async function setLesson(btn) {
+  const input = btn.closest('tr').querySelector('.lesson-input');
+  const lesson = parseInt(input.value, 10);
+  if (!lesson || lesson < 1) { alert('Podaj poprawny numer lekcji (≥ 1)'); return; }
+  await api('setUnlockedLesson', { login: input.dataset.login, lesson });
+  alert('Ustawiono lekcję ' + lesson + ' dla ' + input.dataset.login);
+  listUsers();
 }
 async function removeUser(l) {
   if (!confirm('Usunąć ' + l + ' wraz z danymi?')) return;

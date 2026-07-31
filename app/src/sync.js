@@ -1,4 +1,4 @@
-import { db, getMeta, setMeta, getSettings } from './db.js';
+import { db, getMeta, setMeta, setUnlockedLesson, getSettings } from './db.js';
 
 // Synchronizacja delt z Cloudflare Workerem:
 // - wysyłamy tylko rekordy z updated_at > lastSync,
@@ -31,6 +31,11 @@ export async function syncNow() {
   // (nie tylko delty), żeby serwer mógł scalić dane per dzień z obu urządzeń
   const dailyStats = await getMeta('dailyStats', {});
   const streak = await getMeta('streak', { count: 0, lastDay: '' });
+  // unlockedLesson: zwykłe LWW po updated_at — pozwala adminowi skorygować
+  // numer z dashboardu (patrz worker/src/index.js), bez ryzyka, że kolejne
+  // legalne odblokowanie na urządzeniu zostanie trwale nadpisane starszym zapisem
+  const unlockedLesson = await getMeta('unlockedLesson', 1);
+  const unlockedLessonUpdatedAt = await getMeta('unlockedLessonUpdatedAt', 0);
 
   const res = await fetch(syncUrl + '/sync', {
     method: 'POST',
@@ -44,6 +49,7 @@ export async function syncNow() {
       progress: changedProgress,
       dailyStats,
       streak,
+      unlockedLesson: { value: unlockedLesson, updated_at: unlockedLessonUpdatedAt },
     }),
   });
   if (res.status === 401) throw new Error('Błędny login lub hasło');
@@ -64,6 +70,8 @@ export async function syncNow() {
   // serwer zwraca już scaloną (per dzień) wersję — staje się nowym stanem lokalnym
   if (data.dailyStats) await setMeta('dailyStats', data.dailyStats);
   if (data.streak) await setMeta('streak', data.streak);
+  // serwer zwraca zwycięzcę LWW (własny zapis urządzenia albo nowszy z dashboardu)
+  if (data.unlockedLesson) await setUnlockedLesson(data.unlockedLesson.value, data.unlockedLesson.updated_at);
 
   await setMeta('lastSync', data.serverTime || Date.now());
   return {

@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { saveSettings, setMeta } from '../db.js';
+import { saveSettings, setUnlockedLesson } from '../db.js';
 import { buildSessionPool, buildMistakesPool, pickNext, recordAnswer, bumpDailyStats, requiredStreak, lessonFloorReached, clearMistake, SESSION_POOL_SIZE } from '../engine/session.js';
 import { ensureLessonImported } from '../course.js';
 import { checkAnswer, splitArticle } from '../engine/answer.js';
@@ -194,7 +194,7 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
       nextLesson <= (index.lekcje?.length || 0) &&
       (await lessonFloorReached(maxLesson, settings.floorLevel))
     ) {
-      await setMeta('unlockedLesson', nextLesson);
+      await setUnlockedLesson(nextLesson);
       await ensureLessonImported(nextLesson);
       const next = index.lekcje.find((l) => l.numer === nextLesson);
       setToast(`🎉 Odblokowano lekcję ${nextLesson}: ${next?.temat || ''}`);
