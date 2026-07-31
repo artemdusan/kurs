@@ -8,13 +8,15 @@ import Icon from './Icon.jsx';
 // wstrzykiwana przy buildzie z package.json (vite.config.js: define)
 const APP_VERSION = typeof __APP_VERSION__ !== 'undefined' ? __APP_VERSION__ : 'dev';
 
-export default function Settings({ settings, index, onChange, onSynced, onBack }) {
+export default function Settings({ settings, index, unlockedLesson, onChange, onSynced, onLockLastLesson, onBack }) {
   const [form, setForm] = useState(settings);
   const [syncMsg, setSyncMsg] = useState('');
   const [syncing, setSyncing] = useState(false);
   const [pushState, setPushState] = useState('unsupported'); // unsupported | denied | on | off
   const [pushMsg, setPushMsg] = useState('');
   const [pushBusy, setPushBusy] = useState(false);
+  const [lockMsg, setLockMsg] = useState('');
+  const [locking, setLocking] = useState(false);
 
   useEffect(() => {
     getPushState().then(setPushState);
@@ -43,6 +45,18 @@ export default function Settings({ settings, index, onChange, onSynced, onBack }
     setForm(next);
     saveSettings(next);
     onChange(next);
+  }
+
+  async function doLockLastLesson() {
+    setLocking(true);
+    setLockMsg('');
+    try {
+      const next = await onLockLastLesson();
+      const lesson = index?.lekcje.find((l) => l.numer === next);
+      setLockMsg(`Cofnięto do lekcji ${next}${lesson ? `: ${lesson.temat}` : ''}.`);
+    } finally {
+      setLocking(false);
+    }
   }
 
   async function doSync() {
@@ -144,6 +158,23 @@ export default function Settings({ settings, index, onChange, onSynced, onBack }
         </button>
       )}
       {pushMsg && <p className="sync-msg">{pushMsg}</p>}
+
+      <h3>Odblokowane lekcje</h3>
+      <p className="hint">
+        Aktualnie odblokowana: lekcja {unlockedLesson}
+        {index?.lekcje.find((l) => l.numer === unlockedLesson)?.temat
+          ? ` — ${index.lekcje.find((l) => l.numer === unlockedLesson).temat}`
+          : ''}.
+        {' '}Cofnij, jeśli odblokowała się omyłkowo (np. dwie naraz po jednej sesji).
+      </p>
+      <button
+        className="btn"
+        disabled={locking || unlockedLesson <= 1}
+        onClick={doLockLastLesson}
+      >
+        {locking ? 'Cofam…' : 'Cofnij odblokowanie ostatniej lekcji'}
+      </button>
+      {lockMsg && <p className="sync-msg">{lockMsg}</p>}
 
       <h3>O aplikacji</h3>
       <p className="about-versions">
