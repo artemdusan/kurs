@@ -1,16 +1,17 @@
-import { db, getMeta, setMeta } from '../db.js';
+import { db } from '../db.js';
+import { addActivity } from '../activity.js';
+import { localDay, normalizeProgress, MAX_LEVEL } from '../../../shared/learning.js';
 
 // Silnik sesji: losowanie ważone poziomem, zaliczenie słowa po 1 poprawnej
-// odpowiedzi, zmiana poziomu (awans/spadek) max raz na 24 h.
-// Maksymalny poziom nieograniczony; karty poziomu 6+ po błędzie spadają na 5.
+// odpowiedzi, zmiana poziomu raz na lokalny dzień. Maksimum 10, minimum 1.
+// Karty poziomu 6+ po błędzie spadają na 5.
 
-export const LEVEL_COOLDOWN_MS = 24 * 60 * 60 * 1000;
 export const SESSION_DONE_STREAK = 1;
 export const SESSION_POOL_SIZE = 25;
 
 export async function getProgressMap(wordIds) {
   const rows = await db.progress.where('wordId').anyOf(wordIds).toArray();
-  const map = new Map(rows.filter((r) => !r.deleted).map((r) => [r.wordId, r]));
+  const map = new Map(rows.filter((r) => !r.deleted).map((r) => [r.wordId, normalizeProgress(r)]));
   return map;
 }
 
@@ -18,6 +19,7 @@ export function newProgress(wordId) {
   return {
     wordId,
     level: 1,
+    rulesVersion: 2,
     lastLevelChangeAt: 0,
     correctTotal: 0,
     wrongTotal: 0,
@@ -48,7 +50,7 @@ function weightedDraw(list, rng = Math.random) {
 
 /**
  * Jedna poprawna odpowiedź wystarczy do zaliczenia słowa w sesji.
- * Poziom i tak zmieni się max raz na 24 h (LEVEL_COOLDOWN_MS).
+ * Poziom zmienia się najwyżej raz na lokalny dzień.
  */
 export function requiredStreak() {
   return SESSION_DONE_STREAK;
@@ -75,58 +77,44 @@ export function pickNext(pool, previousWordId = null, rng = Math.random) {
   return rng() < REVIEW_SHARE ? weightedDraw(review, rng) : weightedDraw(weak, rng);
 }
 
-/**
- * Rejestruje odpowiedź. Aktualizuje streak sesyjny i (z poszanowaniem cooldownu 24 h)
- * poziom słowa.
- *
- * - 1 poprawna odpowiedź = awans (jeśli cooldown minął)
- * - Błędna odpowiedź = spadek (jeśli cooldown minął i poziom > 1)
- * - Karty poziomu 6+ po błędzie spadają na poziom 5
- * - Poziom 1 nie spada (jest to minimalny poziom)
- */
-export async function recordAnswer(entry, correct) {
+/** Odpowiedź, poziom i statystyki zapisują się w jednej transakcji. */
+export async function recordAnswer(entry, correct, { clearMistake = false } = {}) {
   const now = Date.now();
-  const p = { ...entry.progress };
-  p.lastSeenAt = now;
-  p.updated_at = now;
-
-  let sessionStreak = entry.sessionStreak;
-  if (correct) {
-    p.correctTotal++;
-    sessionStreak++;
-    if (
-      sessionStreak >= SESSION_DONE_STREAK &&
-      now - p.lastLevelChangeAt >= LEVEL_COOLDOWN_MS
-    ) {
-      p.level++;
+  const today = localDay(now);
+  return db.transaction('rw', db.progress, db.dailyCounters, db.meta, async () => {
+    const p = normalizeProgress(await db.progress.get(entry.word.id) || entry.progress);
+    const previousLevel = p.level;
+    const lastDay = p.lastLevelChangeDay || (p.lastLevelChangeAt ? localDay(p.lastLevelChangeAt) : '');
+    const canChange = !lastDay || lastDay < today;
+    const sessionStreak = correct ? entry.sessionStreak + 1 : 0;
+    p.lastSeenAt = now;
+    p.updated_at = Math.max(now, (p.updated_at || 0) + 1);
+    if (correct) {
+      p.correctTotal = (p.correctTotal || 0) + 1;
+      if (canChange && p.level < MAX_LEVEL) p.level++;
+    } else {
+      p.wrongTotal = (p.wrongTotal || 0) + 1;
+      if (canChange && p.level > 1) p.level = p.level >= 6 ? 5 : p.level - 1;
+    }
+    // At the ceiling, a correct answer also consumes today's change. At the
+    // floor a mistake blocks promotion until midnight, as in the old rules.
+    if (canChange || (!correct && p.level === 1)) {
+      p.lastLevelChangeDay = today;
       p.lastLevelChangeAt = now;
     }
-  } else {
-    p.wrongTotal++;
-    sessionStreak = 0;
-    // Poziom 1 — nie spada niżej (minimum), ale dostaje cooldown 24 h,
-    // żeby nie mógł awansować przy kolejnej poprawnej odpowiedzi tego samego dnia.
-    if (p.level === 1) {
-      p.lastLevelChangeAt = now;
-    } else if (now - p.lastLevelChangeAt >= LEVEL_COOLDOWN_MS) {
-      // karty poziomu 6+ spadają od razu na poziom 5
-      if (p.level >= 6) {
-        p.level = 5;
-      } else {
-        p.level--;
-      }
-      p.lastLevelChangeAt = now;
-      p.lastLevelDropAt = now;
-    }
-  }
-
-  await db.progress.put(p);
-  return { ...entry, progress: p, sessionStreak };
+    const advances = Number(p.level > previousLevel);
+    const drops = Number(p.level < previousLevel);
+    if (drops) p.lastLevelDropAt = now;
+    if (clearMistake && correct) p.lastLevelDropAt = 0;
+    await db.progress.put(p);
+    await addActivity({ correct: Number(correct), wrong: Number(!correct), advances, drops }, today, now);
+    return { ...entry, progress: p, sessionStreak };
+  });
 }
 
 /**
- * Buduje pulę sesji: ~70% miejsc dla słów nowych/słabych (poziom 1, najdawniej
- * widziane najpierw) + ~30% zarezerwowane dla powtórek (poziom 2+, losowanych
+ * Buduje pulę sesji: ~50% miejsc dla słów nowych/słabych (poziom 1, najdawniej
+ * widziane najpierw) + ~50% zarezerwowane dla powtórek (poziom 2+, losowanych
  * wagami 1/poziom² — "random repetition", bez sztywnych interwałów).
  * Niedobór w jednej grupie dopełnia druga.
  */
@@ -196,11 +184,13 @@ export async function buildMistakesPool(maxLesson, poolSize = SESSION_POOL_SIZE)
  * inaczej wracałoby w kółko przez resztę dnia mimo poprawnej odpowiedzi.
  */
 export async function clearMistake(wordId) {
-  const p = await db.progress.get(wordId);
-  if (!p || !p.lastLevelDropAt) return;
-  p.lastLevelDropAt = 0;
-  p.updated_at = Date.now();
-  await db.progress.put(p);
+  await db.transaction('rw', db.progress, async () => {
+    const p = await db.progress.get(wordId);
+    if (!p || !p.lastLevelDropAt) return;
+    p.lastLevelDropAt = 0;
+    p.updated_at = Math.max(Date.now(), (p.updated_at || 0) + 1);
+    await db.progress.put(p);
+  });
 }
 
 /** Liczba słów kwalifikujących się do powtórki (dzisiejsze spadki poziomu). */
@@ -208,7 +198,7 @@ export async function countRecentMistakes(maxLesson) {
   return (await buildMistakesPool(maxLesson, Infinity)).length;
 }
 
-/** Rozkład poziomów słów z lekcji 1..maxLesson (indeks 0 = poziom 1). Dynamiczny — bez górnego limitu. */
+/** Rozkład poziomów słów z lekcji 1..maxLesson (indeks 0 = poziom 1). Maksimum 10. */
 export async function levelDistribution(maxLesson) {
   const words = await db.words
     .where('lesson')
@@ -240,37 +230,6 @@ export async function lessonFloorReached(lesson, floorLevel) {
   if (!words.length) return false;
   const progressMap = await getProgressMap(words.map((w) => w.id));
   return words.every((w) => (progressMap.get(w.id)?.level || 1) >= floorLevel);
-}
-
-/**
- * Statystyki dzienne (odpowiedzi, sekundy nauki, sesje) + streak dni nauki.
- * Każdy dzień ma własny `updated_at` — przy synchronizacji dwóch urządzeń
- * scalanie odbywa się per dzień (nowszy zapis danego dnia wygrywa), więc
- * nauka na jednym urządzeniu nie nadpisuje dni zapisanych na drugim.
- *
- * Parametr `dayOverride` pozwala przypisać statystyki do konkretnego dnia
- * (np. gdy sesja zaczęła się przed północą, a skończyła po).
- */
-export async function bumpDailyStats({ correct = 0, wrong = 0, seconds = 0, finishedSession = false, dayOverride = null }) {
-  const today = dayOverride || new Date().toISOString().slice(0, 10);
-  const stats = await getMeta('dailyStats', {});
-  const day = stats[today] || { correct: 0, wrong: 0, sessions: 0, seconds: 0 };
-  day.correct += correct;
-  day.wrong += wrong;
-  day.seconds = (day.seconds || 0) + seconds;
-  if (finishedSession) day.sessions++;
-  day.updated_at = Date.now();
-  stats[today] = day;
-  await setMeta('dailyStats', stats);
-
-  const streakInfo = await getMeta('streak', { count: 0, lastDay: '' });
-  if (streakInfo.lastDay !== today && (correct || wrong)) {
-    const yesterday = new Date(Date.now() - 86400000).toISOString().slice(0, 10);
-    streakInfo.count = streakInfo.lastDay === yesterday ? streakInfo.count + 1 : 1;
-    streakInfo.lastDay = today;
-    await setMeta('streak', streakInfo);
-  }
-  return { stats, streak: streakInfo };
 }
 
 /**

@@ -28,12 +28,12 @@
         "pl_translation": "Bankomat otwiera się o ósmej."
       },
       {
-        "es_form": "¿Donde está [El cajero automático::bankomat]?",
+        "es_form": "¿Dónde está [el cajero automático::bankomat]?",
         "pl_translation": "Gdzie jest bankomat?"
       },
       {
-        "es_form": "Voy a [el cajero automático::bankomat] cada día.",
-        "pl_translation": "Chodzę do bankomatu codziennie."
+        "es_form": "Estoy en [el cajero automático::bankomat].",
+        "pl_translation": "Jestem przy bankomacie."
       }
     ]
   },
@@ -100,8 +100,8 @@
     "pl_word": "waluta",
     "examples": [
       {
-        "es_form": "Necesito [la moneda::waluta] nuevo.",
-        "pl_translation": "Potrzebuję nową walutę."
+        "es_form": "Necesito [la moneda::waluta] nueva.",
+        "pl_translation": "Potrzebuję nowej waluty."
       },
       {
         "es_form": "Compré [la moneda::waluta] ayer.",
@@ -177,15 +177,15 @@
     "examples": [
       {
         "es_form": "Este es [el ahorro::oszczędności].",
-        "pl_translation": "To jest oszczędności."
+        "pl_translation": "To są oszczędności."
       },
       {
         "es_form": "¿Dónde está [el ahorro::oszczędności]?",
-        "pl_translation": "Gdzie jest oszczędności?"
+        "pl_translation": "Gdzie są oszczędności?"
       },
       {
         "es_form": "No es [el ahorro::oszczędności].",
-        "pl_translation": "To nie jest oszczędności."
+        "pl_translation": "To nie są oszczędności."
       }
     ]
   },
@@ -238,7 +238,7 @@
       },
       {
         "es_form": "No puedo [ahorrar::oszczędzać] dinero hoy.",
-        "pl_translation": "Nie mogę dziś oszczędzać pieniądze."
+        "pl_translation": "Nie mogę dziś oszczędzać pieniędzy."
       }
     ],
     "forms": [

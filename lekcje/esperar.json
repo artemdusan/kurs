@@ -5,7 +5,7 @@
     "pl_word": "tydzień",
     "examples": [
       {
-        "es_form": "[La semana::tydzień] se me hizo eterno.",
+        "es_form": "[La semana::tydzień] se me hizo eterna.",
         "pl_translation": "Tydzień mi się dłużył."
       },
       {
@@ -13,8 +13,8 @@
         "pl_translation": "Tydzień jest na wagę złota."
       },
       {
-        "es_form": "No tengo [la semana::tydzień] suficiente.",
-        "pl_translation": "Nie mam wystarczająco czasu w tym tygodniu."
+        "es_form": "[La semana::tydzień] tiene siete días.",
+        "pl_translation": "Tydzień ma siedem dni."
       }
     ]
   },
@@ -89,7 +89,7 @@
         "pl_translation": "Gdzie jest środa?"
       },
       {
-        "es_form": "[El miércoles::środa] es oro.",
+        "es_form": "[El miércoles::środa] es un buen día.",
         "pl_translation": "Środa to dobry dzień."
       }
     ]
@@ -142,8 +142,8 @@
         "pl_translation": "Sobota jest na wagę złota."
       },
       {
-        "es_form": "No tengo [el sábado::sobota] suficiente.",
-        "pl_translation": "Nie mam czasu w sobotę."
+        "es_form": "[El sábado::sobota] es mi día libre.",
+        "pl_translation": "Sobota jest moim dniem wolnym."
       },
       {
         "es_form": "[El sábado::sobota] pasa muy rápido.",
@@ -165,8 +165,8 @@
         "pl_translation": "To jest niedziela."
       },
       {
-        "es_form": "No tengo [el domingo::niedziela] suficiente.",
-        "pl_translation": "Nie mam czasu w niedzielę."
+        "es_form": "[El domingo::niedziela] es mi día libre.",
+        "pl_translation": "Niedziela jest moim dniem wolnym."
       }
     ]
   },
@@ -211,19 +211,19 @@
   {
     "type": "adjective",
     "es_word": "tarde",
-    "pl_word": "późny",
+    "pl_word": "późno",
     "examples": [
       {
-        "es_form": "Es muy [tarde::późny].",
-        "pl_translation": "Jest bardzo późny."
+        "es_form": "Es muy [tarde::późno].",
+        "pl_translation": "Jest bardzo późno."
       },
       {
-        "es_form": "Parece [tarde::późny].",
-        "pl_translation": "Wydaje się późny."
+        "es_form": "Parece [tarde::późno].",
+        "pl_translation": "Wydaje się późno."
       },
       {
-        "es_form": "Es demasiado [tarde::późny].",
-        "pl_translation": "Jest zbyt późny."
+        "es_form": "Es demasiado [tarde::późno].",
+        "pl_translation": "Jest zbyt późno."
       }
     ]
   },

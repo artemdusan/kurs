@@ -43,7 +43,7 @@
     "pl_word": "szpital",
     "examples": [
       {
-        "es_form": "¿Donde está [el hospital::szpital]?",
+        "es_form": "¿Dónde está [el hospital::szpital]?",
         "pl_translation": "Gdzie jest szpital?"
       },
       {
@@ -233,18 +233,18 @@
     "pl_word": "czuć się",
     "examples": [
       {
-        "es_form": "Es importante [sentirse::czuć] bien.",
+        "es_form": "Es importante [sentirse::czuć się] bien.",
         "pl_translation": "Ważne jest czuć się dobrze."
       },
       {
-        "es_form": "Hay que [sentirse::czuć] bien.",
+        "es_form": "Hay que [sentirse::czuć się] bien.",
         "pl_translation": "Trzeba czuć się dobrze."
       }
     ],
     "forms": [
       {
         "es_word": "me siento",
-        "pl_word": "czuję (sentirse)",
+        "pl_word": "czuję się (sentirse)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -252,14 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "Yo [me siento::czuję] bien.",
+            "es_form": "Yo [me siento::czuję się] bien.",
             "pl_translation": "Czuję się dobrze."
           }
         ]
       },
       {
         "es_word": "te sientes",
-        "pl_word": "czujesz (sentirse)",
+        "pl_word": "czujesz się (sentirse)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -267,14 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "Tú [te sientes::czujesz] bien.",
+            "es_form": "Tú [te sientes::czujesz się] bien.",
             "pl_translation": "Czujesz się dobrze."
           }
         ]
       },
       {
         "es_word": "se siente",
-        "pl_word": "czuje (sentirse)",
+        "pl_word": "czuje się (sentirse)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -282,14 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "Él [se siente::czuje] bien.",
+            "es_form": "Él [se siente::czuje się] bien.",
             "pl_translation": "Czuje się dobrze."
           }
         ]
       },
       {
         "es_word": "nos sentimos",
-        "pl_word": "czujemy (sentirse)",
+        "pl_word": "czujemy się (sentirse)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -297,14 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [nos sentimos::czujemy] bien.",
+            "es_form": "Nosotros [nos sentimos::czujemy się] bien.",
             "pl_translation": "Czujemy się dobrze."
           }
         ]
       },
       {
         "es_word": "os sentís",
-        "pl_word": "czujecie (sentirse)",
+        "pl_word": "czujecie się (sentirse)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -312,14 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [os sentís::czujecie] bien.",
+            "es_form": "Vosotros [os sentís::czujecie się] bien.",
             "pl_translation": "Czujecie się dobrze."
           }
         ]
       },
       {
         "es_word": "se sienten",
-        "pl_word": "czują (sentirse)",
+        "pl_word": "czują się (sentirse)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -327,14 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [se sienten::czują] bien.",
+            "es_form": "Ellos [se sienten::czują się] bien.",
             "pl_translation": "Czują się dobrze."
           }
         ]
       },
       {
         "es_word": "me sentí",
-        "pl_word": "poczułem (sentirse)",
+        "pl_word": "poczułem się (sentirse)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -342,14 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "Yo [me sentí::poczułem] bien.",
+            "es_form": "Yo [me sentí::poczułem się] bien.",
             "pl_translation": "Poczułem się dobrze."
           }
         ]
       },
       {
         "es_word": "te sentiste",
-        "pl_word": "poczułeś (sentirse)",
+        "pl_word": "poczułeś się (sentirse)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -357,14 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "Tú [te sentiste::poczułeś] bien.",
+            "es_form": "Tú [te sentiste::poczułeś się] bien.",
             "pl_translation": "Poczułeś się dobrze."
           }
         ]
       },
       {
         "es_word": "se sintió",
-        "pl_word": "poczuł (sentirse)",
+        "pl_word": "poczuł się (sentirse)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -372,14 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "Él [se sintió::poczuł] bien.",
+            "es_form": "Él [se sintió::poczuł się] bien.",
             "pl_translation": "Poczuł się dobrze."
           }
         ]
       },
       {
         "es_word": "nos sentimos",
-        "pl_word": "poczuliśmy (sentirse)",
+        "pl_word": "poczuliśmy się (sentirse)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -387,14 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [nos sentimos::poczuliśmy] bien.",
+            "es_form": "Nosotros [nos sentimos::poczuliśmy się] bien.",
             "pl_translation": "Poczuliśmy się dobrze."
           }
         ]
       },
       {
         "es_word": "os sentisteis",
-        "pl_word": "poczuliście (sentirse)",
+        "pl_word": "poczuliście się (sentirse)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -402,14 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [os sentisteis::poczuliście] bien.",
+            "es_form": "Vosotros [os sentisteis::poczuliście się] bien.",
             "pl_translation": "Poczuliście się dobrze."
           }
         ]
       },
       {
         "es_word": "se sintieron",
-        "pl_word": "poczuli (sentirse)",
+        "pl_word": "poczuli się (sentirse)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -417,14 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [se sintieron::poczuli] bien.",
+            "es_form": "Ellos [se sintieron::poczuli się] bien.",
             "pl_translation": "Poczuli się dobrze."
           }
         ]
       },
       {
         "es_word": "me sentiré",
-        "pl_word": "będę czuć (sentirse)",
+        "pl_word": "będę czuć się (sentirse)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -432,14 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Yo [me sentiré::będę czuć] bien.",
+            "es_form": "Yo [me sentiré::będę czuć się] bien.",
             "pl_translation": "Będę czuć się dobrze."
           }
         ]
       },
       {
         "es_word": "te sentirás",
-        "pl_word": "będziesz czuć (sentirse)",
+        "pl_word": "będziesz czuć się (sentirse)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -447,14 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "Tú [te sentirás::będziesz czuć] bien.",
+            "es_form": "Tú [te sentirás::będziesz czuć się] bien.",
             "pl_translation": "Będziesz czuć się dobrze."
           }
         ]
       },
       {
         "es_word": "se sentirá",
-        "pl_word": "będzie czuć (sentirse)",
+        "pl_word": "będzie czuć się (sentirse)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -462,14 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "Él [se sentirá::będzie czuć] bien.",
+            "es_form": "Él [se sentirá::będzie czuć się] bien.",
             "pl_translation": "Będzie czuć się dobrze."
           }
         ]
       },
       {
         "es_word": "nos sentiremos",
-        "pl_word": "będziemy czuć (sentirse)",
+        "pl_word": "będziemy czuć się (sentirse)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -477,14 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [nos sentiremos::będziemy czuć] bien.",
+            "es_form": "Nosotros [nos sentiremos::będziemy czuć się] bien.",
             "pl_translation": "Będziemy czuć się dobrze."
           }
         ]
       },
       {
         "es_word": "os sentiréis",
-        "pl_word": "będziecie czuć (sentirse)",
+        "pl_word": "będziecie czuć się (sentirse)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -492,14 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [os sentiréis::będziecie czuć] bien.",
+            "es_form": "Vosotros [os sentiréis::będziecie czuć się] bien.",
             "pl_translation": "Będziecie czuć się dobrze."
           }
         ]
       },
       {
         "es_word": "se sentirán",
-        "pl_word": "będą czuć (sentirse)",
+        "pl_word": "będą czuć się (sentirse)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -507,7 +507,7 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [se sentirán::będą czuć] bien.",
+            "es_form": "Ellos [se sentirán::będą czuć się] bien.",
             "pl_translation": "Będą czuć się dobrze."
           }
         ]

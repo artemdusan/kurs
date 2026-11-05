@@ -5,7 +5,7 @@
     "pl_word": "szkoła",
     "examples": [
       {
-        "es_form": "¿Donde está [la escuela::szkoła]?",
+        "es_form": "¿Dónde está [la escuela::szkoła]?",
         "pl_translation": "Gdzie jest szkoła?"
       },
       {
@@ -32,8 +32,8 @@
         "pl_translation": "Nauczyciel tu pracuje."
       },
       {
-        "es_form": "Mi [hermano::brat] es [el profesor::nauczyciel].",
-        "pl_translation": "Mój brat jest nauczycielem."
+        "es_form": "[El profesor::nauczyciel] es mi hermano.",
+        "pl_translation": "Nauczyciel jest moim bratem."
       }
     ]
   },
@@ -47,8 +47,8 @@
         "pl_translation": "Nauczycielka tu pracuje."
       },
       {
-        "es_form": "Mi [hermano::brat] es [la profesora::nauczycielka].",
-        "pl_translation": "Mój brat jest nauczycielką."
+        "es_form": "[La profesora::nauczycielka] es mi hermana.",
+        "pl_translation": "Nauczycielka jest moją siostrą."
       },
       {
         "es_form": "[La profesora::nauczycielka] es muy amable.",
@@ -66,7 +66,7 @@
         "pl_translation": "Gdzie jest uczeń?"
       },
       {
-        "es_form": "Esta es [el alumno::uczeń] de la que hablé.",
+        "es_form": "Este es [el alumno::uczeń] del que hablé.",
         "pl_translation": "To jest uczeń, o którym mówiłem."
       },
       {
@@ -180,7 +180,7 @@
         "pl_translation": "To jest plecak."
       },
       {
-        "es_form": "Necesito [la mochila::plecak] nuevo.",
+        "es_form": "Necesito [la mochila::plecak] nueva.",
         "pl_translation": "Potrzebuję nowego plecaka."
       },
       {
@@ -233,18 +233,18 @@
     "pl_word": "uczyć się",
     "examples": [
       {
-        "es_form": "Quiero [aprender::uczyć] español.",
+        "es_form": "Quiero [aprender::uczyć się] español.",
         "pl_translation": "Chcę uczyć się hiszpańskiego."
       },
       {
-        "es_form": "No puedo [aprender::uczyć] español hoy.",
+        "es_form": "No puedo [aprender::uczyć się] español hoy.",
         "pl_translation": "Nie mogę dziś uczyć się hiszpańskiego."
       }
     ],
     "forms": [
       {
         "es_word": "aprendo",
-        "pl_word": "uczę (aprender)",
+        "pl_word": "uczę się (aprender)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -252,14 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "Yo [aprendo::uczę] español.",
+            "es_form": "Yo [aprendo::uczę się] español.",
             "pl_translation": "Uczę się hiszpańskiego."
           }
         ]
       },
       {
         "es_word": "aprendes",
-        "pl_word": "uczysz (aprender)",
+        "pl_word": "uczysz się (aprender)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -267,14 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "Tú [aprendes::uczysz] español.",
+            "es_form": "Tú [aprendes::uczysz się] español.",
             "pl_translation": "Uczysz się hiszpańskiego."
           }
         ]
       },
       {
         "es_word": "aprende",
-        "pl_word": "uczy (aprender)",
+        "pl_word": "uczy się (aprender)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -282,14 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "Él [aprende::uczy] español.",
+            "es_form": "Él [aprende::uczy się] español.",
             "pl_translation": "Uczy się hiszpańskiego."
           }
         ]
       },
       {
         "es_word": "aprendemos",
-        "pl_word": "uczymy (aprender)",
+        "pl_word": "uczymy się (aprender)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -297,14 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [aprendemos::uczymy] español.",
+            "es_form": "Nosotros [aprendemos::uczymy się] español.",
             "pl_translation": "Uczymy się hiszpańskiego."
           }
         ]
       },
       {
         "es_word": "aprendéis",
-        "pl_word": "uczycie (aprender)",
+        "pl_word": "uczycie się (aprender)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -312,14 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [aprendéis::uczycie] español.",
+            "es_form": "Vosotros [aprendéis::uczycie się] español.",
             "pl_translation": "Uczycie się hiszpańskiego."
           }
         ]
       },
       {
         "es_word": "aprenden",
-        "pl_word": "uczą (aprender)",
+        "pl_word": "uczą się (aprender)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -327,14 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [aprenden::uczą] español.",
+            "es_form": "Ellos [aprenden::uczą się] español.",
             "pl_translation": "Uczą się hiszpańskiego."
           }
         ]
       },
       {
         "es_word": "aprendí",
-        "pl_word": "nauczyłem (aprender)",
+        "pl_word": "nauczyłem się (aprender)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -342,14 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "Yo [aprendí::nauczyłem] español.",
+            "es_form": "Yo [aprendí::nauczyłem się] español.",
             "pl_translation": "Nauczyłem się hiszpańskiego."
           }
         ]
       },
       {
         "es_word": "aprendiste",
-        "pl_word": "nauczyłeś (aprender)",
+        "pl_word": "nauczyłeś się (aprender)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -357,14 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "Tú [aprendiste::nauczyłeś] español.",
+            "es_form": "Tú [aprendiste::nauczyłeś się] español.",
             "pl_translation": "Nauczyłeś się hiszpańskiego."
           }
         ]
       },
       {
         "es_word": "aprendió",
-        "pl_word": "nauczył (aprender)",
+        "pl_word": "nauczył się (aprender)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -372,14 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "Él [aprendió::nauczył] español.",
+            "es_form": "Él [aprendió::nauczył się] español.",
             "pl_translation": "Nauczył się hiszpańskiego."
           }
         ]
       },
       {
         "es_word": "aprendimos",
-        "pl_word": "nauczyliśmy (aprender)",
+        "pl_word": "nauczyliśmy się (aprender)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -387,14 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [aprendimos::nauczyliśmy] español.",
+            "es_form": "Nosotros [aprendimos::nauczyliśmy się] español.",
             "pl_translation": "Nauczyliśmy się hiszpańskiego."
           }
         ]
       },
       {
         "es_word": "aprendisteis",
-        "pl_word": "nauczyliście (aprender)",
+        "pl_word": "nauczyliście się (aprender)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -402,14 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [aprendisteis::nauczyliście] español.",
+            "es_form": "Vosotros [aprendisteis::nauczyliście się] español.",
             "pl_translation": "Nauczyliście się hiszpańskiego."
           }
         ]
       },
       {
         "es_word": "aprendieron",
-        "pl_word": "nauczyli (aprender)",
+        "pl_word": "nauczyli się (aprender)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -417,14 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [aprendieron::nauczyli] español.",
+            "es_form": "Ellos [aprendieron::nauczyli się] español.",
             "pl_translation": "Nauczyli się hiszpańskiego."
           }
         ]
       },
       {
         "es_word": "aprenderé",
-        "pl_word": "będę uczyć (aprender)",
+        "pl_word": "będę uczyć się (aprender)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -432,14 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Yo [aprenderé::będę uczyć] español.",
+            "es_form": "Yo [aprenderé::będę uczyć się] español.",
             "pl_translation": "Będę uczyć się hiszpańskiego."
           }
         ]
       },
       {
         "es_word": "aprenderás",
-        "pl_word": "będziesz uczyć (aprender)",
+        "pl_word": "będziesz uczyć się (aprender)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -447,14 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "Tú [aprenderás::będziesz uczyć] español.",
+            "es_form": "Tú [aprenderás::będziesz uczyć się] español.",
             "pl_translation": "Będziesz uczyć się hiszpańskiego."
           }
         ]
       },
       {
         "es_word": "aprenderá",
-        "pl_word": "będzie uczyć (aprender)",
+        "pl_word": "będzie uczyć się (aprender)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -462,14 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "Él [aprenderá::będzie uczyć] español.",
+            "es_form": "Él [aprenderá::będzie uczyć się] español.",
             "pl_translation": "Będzie uczyć się hiszpańskiego."
           }
         ]
       },
       {
         "es_word": "aprenderemos",
-        "pl_word": "będziemy uczyć (aprender)",
+        "pl_word": "będziemy uczyć się (aprender)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -477,14 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [aprenderemos::będziemy uczyć] español.",
+            "es_form": "Nosotros [aprenderemos::będziemy uczyć się] español.",
             "pl_translation": "Będziemy uczyć się hiszpańskiego."
           }
         ]
       },
       {
         "es_word": "aprenderéis",
-        "pl_word": "będziecie uczyć (aprender)",
+        "pl_word": "będziecie uczyć się (aprender)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -492,14 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [aprenderéis::będziecie uczyć] español.",
+            "es_form": "Vosotros [aprenderéis::będziecie uczyć się] español.",
             "pl_translation": "Będziecie uczyć się hiszpańskiego."
           }
         ]
       },
       {
         "es_word": "aprenderán",
-        "pl_word": "będą uczyć (aprender)",
+        "pl_word": "będą uczyć się (aprender)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -507,7 +507,7 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [aprenderán::będą uczyć] español.",
+            "es_form": "Ellos [aprenderán::będą uczyć się] español.",
             "pl_translation": "Będą uczyć się hiszpańskiego."
           }
         ]

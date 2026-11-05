@@ -48,3 +48,19 @@ CREATE TABLE IF NOT EXISTS meta (
   updated_at INTEGER NOT NULL,
   PRIMARY KEY (user_id, key)
 );
+
+-- Per-device monotone counters: retries do not duplicate totals and concurrent
+-- offline sessions on two devices add up. Safe to apply to an existing DB.
+CREATE TABLE IF NOT EXISTS daily_counters (
+  user_id INTEGER NOT NULL,
+  day TEXT NOT NULL,
+  device_id TEXT NOT NULL,
+  correct INTEGER NOT NULL DEFAULT 0,
+  wrong INTEGER NOT NULL DEFAULT 0,
+  seconds INTEGER NOT NULL DEFAULT 0,
+  sessions INTEGER NOT NULL DEFAULT 0,
+  advances INTEGER NOT NULL DEFAULT 0,
+  drops INTEGER NOT NULL DEFAULT 0,
+  updated_at INTEGER NOT NULL DEFAULT 0,
+  PRIMARY KEY (user_id, day, device_id)
+);

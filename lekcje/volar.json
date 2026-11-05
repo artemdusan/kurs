@@ -1,19 +1,19 @@
 [
   {
     "type": "noun",
-    "es_word": "La tranvía",
+    "es_word": "El tranvía",
     "pl_word": "tramwaj",
     "examples": [
       {
-        "es_form": "Esta es [la tranvía::tramwaj].",
+        "es_form": "Este es [el tranvía::tramwaj].",
         "pl_translation": "To jest tramwaj."
       },
       {
-        "es_form": "[La tranvía::tramwaj] está aquí.",
+        "es_form": "[El tranvía::tramwaj] está aquí.",
         "pl_translation": "Tramwaj jest tutaj."
       },
       {
-        "es_form": "No es [la tranvía::tramwaj].",
+        "es_form": "No es [el tranvía::tramwaj].",
         "pl_translation": "To nie jest tramwaj."
       }
     ]
@@ -70,8 +70,8 @@
         "pl_translation": "To jest kierowca."
       },
       {
-        "es_form": "Mi [hermano::brat] es [el conductor::kierowca].",
-        "pl_translation": "Mój brat jest kierowca."
+        "es_form": "[El conductor::kierowca] es mi hermano.",
+        "pl_translation": "Kierowca jest moim bratem."
       }
     ]
   },

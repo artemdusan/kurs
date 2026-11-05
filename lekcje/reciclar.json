@@ -6,15 +6,15 @@
     "examples": [
       {
         "es_form": "Esta es [la basura::śmieci].",
-        "pl_translation": "To jest śmieci."
+        "pl_translation": "To są śmieci."
       },
       {
         "es_form": "¿Dónde está [la basura::śmieci]?",
-        "pl_translation": "Gdzie jest śmieci?"
+        "pl_translation": "Gdzie są śmieci?"
       },
       {
         "es_form": "No es [la basura::śmieci].",
-        "pl_translation": "To nie jest śmieci."
+        "pl_translation": "To nie są śmieci."
       }
     ]
   },
@@ -230,21 +230,21 @@
   {
     "type": "verb",
     "es_word": "reciclar",
-    "pl_word": "segregować (śmieci), przetwarzać",
+    "pl_word": "poddawać recyklingowi, przetwarzać",
     "examples": [
       {
-        "es_form": "Quiero [reciclar::segregować] la basura.",
-        "pl_translation": "Chcę segregować śmieci."
+        "es_form": "Quiero [reciclar::przetwarzować] la basura.",
+        "pl_translation": "Chcę przetwarzować śmieci."
       },
       {
-        "es_form": "No puedo [reciclar::segregować] la basura hoy.",
-        "pl_translation": "Nie mogę dziś segregować śmieci."
+        "es_form": "No puedo [reciclar::przetwarzować] la basura hoy.",
+        "pl_translation": "Nie mogę dziś przetwarzować śmieci."
       }
     ],
     "forms": [
       {
         "es_word": "reciclo",
-        "pl_word": "segreguję (reciclar)",
+        "pl_word": "przetwarzuję (reciclar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -252,14 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "Yo [reciclo::segreguję] la basura.",
-            "pl_translation": "Segreguję śmieci."
+            "es_form": "Yo [reciclo::przetwarzuję] la basura.",
+            "pl_translation": "Przetwarzuję śmieci."
           }
         ]
       },
       {
         "es_word": "reciclas",
-        "pl_word": "segregujesz (reciclar)",
+        "pl_word": "przetwarzujesz (reciclar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -267,14 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "Tú [reciclas::segregujesz] la basura.",
-            "pl_translation": "Segregujesz śmieci."
+            "es_form": "Tú [reciclas::przetwarzujesz] la basura.",
+            "pl_translation": "Przetwarzujesz śmieci."
           }
         ]
       },
       {
         "es_word": "recicla",
-        "pl_word": "segreguje (reciclar)",
+        "pl_word": "przetwarzuje (reciclar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -282,14 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "Él [recicla::segreguje] la basura.",
-            "pl_translation": "Segreguje śmieci."
+            "es_form": "Él [recicla::przetwarzuje] la basura.",
+            "pl_translation": "Przetwarzuje śmieci."
           }
         ]
       },
       {
         "es_word": "reciclamos",
-        "pl_word": "segregujemy (reciclar)",
+        "pl_word": "przetwarzujemy (reciclar)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -297,14 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [reciclamos::segregujemy] la basura.",
-            "pl_translation": "Segregujemy śmieci."
+            "es_form": "Nosotros [reciclamos::przetwarzujemy] la basura.",
+            "pl_translation": "Przetwarzujemy śmieci."
           }
         ]
       },
       {
         "es_word": "recicláis",
-        "pl_word": "segregujecie (reciclar)",
+        "pl_word": "przetwarzujecie (reciclar)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -312,14 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [recicláis::segregujecie] la basura.",
-            "pl_translation": "Segregujecie śmieci."
+            "es_form": "Vosotros [recicláis::przetwarzujecie] la basura.",
+            "pl_translation": "Przetwarzujecie śmieci."
           }
         ]
       },
       {
         "es_word": "reciclan",
-        "pl_word": "segregują (reciclar)",
+        "pl_word": "przetwarzują (reciclar)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -327,14 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [reciclan::segregują] la basura.",
-            "pl_translation": "Segregują śmieci."
+            "es_form": "Ellos [reciclan::przetwarzują] la basura.",
+            "pl_translation": "Przetwarzują śmieci."
           }
         ]
       },
       {
         "es_word": "reciclé",
-        "pl_word": "posegregowałem (reciclar)",
+        "pl_word": "poprzetwarzowałem (reciclar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -343,13 +343,13 @@
         "examples": [
           {
             "es_form": "Yo [reciclé::posegregowałem] la basura.",
-            "pl_translation": "Posegregowałem śmieci."
+            "pl_translation": "Poprzetwarzowałem śmieci."
           }
         ]
       },
       {
         "es_word": "reciclaste",
-        "pl_word": "posegregowałeś (reciclar)",
+        "pl_word": "poprzetwarzowałeś (reciclar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -358,13 +358,13 @@
         "examples": [
           {
             "es_form": "Tú [reciclaste::posegregowałeś] la basura.",
-            "pl_translation": "Posegregowałeś śmieci."
+            "pl_translation": "Poprzetwarzowałeś śmieci."
           }
         ]
       },
       {
         "es_word": "recicló",
-        "pl_word": "posegregował (reciclar)",
+        "pl_word": "poprzetwarzował (reciclar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -373,13 +373,13 @@
         "examples": [
           {
             "es_form": "Él [recicló::posegregował] la basura.",
-            "pl_translation": "Posegregował śmieci."
+            "pl_translation": "Poprzetwarzował śmieci."
           }
         ]
       },
       {
         "es_word": "reciclamos",
-        "pl_word": "posegregowaliśmy (reciclar)",
+        "pl_word": "poprzetwarzowaliśmy (reciclar)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -388,13 +388,13 @@
         "examples": [
           {
             "es_form": "Nosotros [reciclamos::posegregowaliśmy] la basura.",
-            "pl_translation": "Posegregowaliśmy śmieci."
+            "pl_translation": "Poprzetwarzowaliśmy śmieci."
           }
         ]
       },
       {
         "es_word": "reciclasteis",
-        "pl_word": "posegregowaliście (reciclar)",
+        "pl_word": "poprzetwarzowaliście (reciclar)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -403,13 +403,13 @@
         "examples": [
           {
             "es_form": "Vosotros [reciclasteis::posegregowaliście] la basura.",
-            "pl_translation": "Posegregowaliście śmieci."
+            "pl_translation": "Poprzetwarzowaliście śmieci."
           }
         ]
       },
       {
         "es_word": "reciclaron",
-        "pl_word": "posegregowali (reciclar)",
+        "pl_word": "poprzetwarzowali (reciclar)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -418,13 +418,13 @@
         "examples": [
           {
             "es_form": "Ellos [reciclaron::posegregowali] la basura.",
-            "pl_translation": "Posegregowali śmieci."
+            "pl_translation": "Poprzetwarzowali śmieci."
           }
         ]
       },
       {
         "es_word": "reciclaré",
-        "pl_word": "będę segregować (reciclar)",
+        "pl_word": "będę przetwarzować (reciclar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -433,13 +433,13 @@
         "examples": [
           {
             "es_form": "Yo [reciclaré::będę segregować] la basura.",
-            "pl_translation": "Będę segregować śmieci."
+            "pl_translation": "Będę przetwarzować śmieci."
           }
         ]
       },
       {
         "es_word": "reciclarás",
-        "pl_word": "będziesz segregować (reciclar)",
+        "pl_word": "będziesz przetwarzować (reciclar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -448,13 +448,13 @@
         "examples": [
           {
             "es_form": "Tú [reciclarás::będziesz segregować] la basura.",
-            "pl_translation": "Będziesz segregować śmieci."
+            "pl_translation": "Będziesz przetwarzować śmieci."
           }
         ]
       },
       {
         "es_word": "reciclará",
-        "pl_word": "będzie segregować (reciclar)",
+        "pl_word": "będzie przetwarzować (reciclar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -463,13 +463,13 @@
         "examples": [
           {
             "es_form": "Él [reciclará::będzie segregować] la basura.",
-            "pl_translation": "Będzie segregować śmieci."
+            "pl_translation": "Będzie przetwarzować śmieci."
           }
         ]
       },
       {
         "es_word": "reciclaremos",
-        "pl_word": "będziemy segregować (reciclar)",
+        "pl_word": "będziemy przetwarzować (reciclar)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -478,13 +478,13 @@
         "examples": [
           {
             "es_form": "Nosotros [reciclaremos::będziemy segregować] la basura.",
-            "pl_translation": "Będziemy segregować śmieci."
+            "pl_translation": "Będziemy przetwarzować śmieci."
           }
         ]
       },
       {
         "es_word": "reciclaréis",
-        "pl_word": "będziecie segregować (reciclar)",
+        "pl_word": "będziecie przetwarzować (reciclar)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -493,13 +493,13 @@
         "examples": [
           {
             "es_form": "Vosotros [reciclaréis::będziecie segregować] la basura.",
-            "pl_translation": "Będziecie segregować śmieci."
+            "pl_translation": "Będziecie przetwarzować śmieci."
           }
         ]
       },
       {
         "es_word": "reciclarán",
-        "pl_word": "będą segregować (reciclar)",
+        "pl_word": "będą przetwarzować (reciclar)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -508,7 +508,7 @@
         "examples": [
           {
             "es_form": "Ellos [reciclarán::będą segregować] la basura.",
-            "pl_translation": "Będą segregować śmieci."
+            "pl_translation": "Będą przetwarzować śmieci."
           }
         ]
       }

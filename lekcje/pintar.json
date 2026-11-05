@@ -21,19 +21,19 @@
   {
     "type": "noun",
     "es_word": "La artista",
-    "pl_word": "artysta",
+    "pl_word": "artystka",
     "examples": [
       {
-        "es_form": "[La artista::artysta] vive en mi calle.",
-        "pl_translation": "Artysta mieszka na mojej ulicy."
+        "es_form": "[La artista::artystka] vive en mi calle.",
+        "pl_translation": "Artystka mieszka na mojej ulicy."
       },
       {
-        "es_form": "Mi [hermano::brat] es [la artista::artysta].",
-        "pl_translation": "Mój brat jest artysta."
+        "es_form": "[La artista::artystka] es mi hermana.",
+        "pl_translation": "Artystka jest moją siostrą."
       },
       {
-        "es_form": "[La artista::artysta] trabaja aquí.",
-        "pl_translation": "Artysta tu pracuje."
+        "es_form": "[La artista::artystka] trabaja aquí.",
+        "pl_translation": "Artystka tu pracuje."
       }
     ]
   },
@@ -127,8 +127,8 @@
         "pl_translation": "Aktor jest bardzo miły."
       },
       {
-        "es_form": "Esta es [el actor::aktor] de la que hablé.",
-        "pl_translation": "To jest aktor, o której mówiłem."
+        "es_form": "Este es [el actor::aktor] del que hablé.",
+        "pl_translation": "To jest aktor, o którym mówiłem."
       }
     ]
   },
@@ -138,8 +138,8 @@
     "pl_word": "reżyser",
     "examples": [
       {
-        "es_form": "Esta es [el director::reżyser] de la que hablé.",
-        "pl_translation": "To jest reżyser, o której mówiłem."
+        "es_form": "Este es [el director::reżyser] del que hablé.",
+        "pl_translation": "To jest reżyser, o którym mówiłem."
       },
       {
         "es_form": "[El director::reżyser] vive en mi calle.",
@@ -165,7 +165,7 @@
         "pl_translation": "Galeria otwiera się o ósmej."
       },
       {
-        "es_form": "¿Donde está [la galería::galeria]?",
+        "es_form": "¿Dónde está [la galería::galeria]?",
         "pl_translation": "Gdzie jest galeria?"
       }
     ]
@@ -238,7 +238,7 @@
       },
       {
         "es_form": "No puedo [pintar::malować] un cuadro hoy.",
-        "pl_translation": "Nie mogę dziś malować obraz."
+        "pl_translation": "Nie mogę dziś malować obrazu."
       }
     ],
     "forms": [

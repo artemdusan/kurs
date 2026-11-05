@@ -10,11 +10,11 @@
       },
       {
         "es_form": "Este es [el dinero::pieniądze].",
-        "pl_translation": "To jest pieniądze."
+        "pl_translation": "To są pieniądze."
       },
       {
         "es_form": "¿Dónde está [el dinero::pieniądze]?",
-        "pl_translation": "Gdzie jest pieniądze?"
+        "pl_translation": "Gdzie są pieniądze?"
       }
     ]
   },
@@ -43,12 +43,12 @@
     "pl_word": "cena",
     "examples": [
       {
-        "es_form": "Apuntá [el precio::cena] en el papel.",
-        "pl_translation": "Sprawdź cenę przed zakupem."
+        "es_form": "Apunta [el precio::cenę] en el papel.",
+        "pl_translation": "Zapisz cenę na kartce."
       },
       {
-        "es_form": "[El precio::cena] cuesta diez euros.",
-        "pl_translation": "Cena to dziesięć euro."
+        "es_form": "[El precio::cena] es de diez euros.",
+        "pl_translation": "Cena wynosi dziesięć euro."
       },
       {
         "es_form": "Este es [el precio::cena].",
@@ -67,7 +67,7 @@
       },
       {
         "es_form": "Necesito [la tarjeta::karta (płatnicza)] nueva.",
-        "pl_translation": "Potrzebuję nową kartę."
+        "pl_translation": "Potrzebuję nowej karty."
       },
       {
         "es_form": "No es [la tarjeta::karta].",
@@ -180,8 +180,8 @@
         "pl_translation": "To jest kasa."
       },
       {
-        "es_form": "Poné [la caja::kasa] en la mesa.",
-        "pl_translation": "Podejdź do kasy."
+        "es_form": "Cierra [la caja::kasę].",
+        "pl_translation": "Zamknij kasę."
       },
       {
         "es_form": "Necesito [la caja::kasa] nueva.",
@@ -238,7 +238,7 @@
       },
       {
         "es_form": "No puedo [comprar::kupować] fruta en el mercado hoy.",
-        "pl_translation": "Nie mogę dziś kupować owoce na targu."
+        "pl_translation": "Nie mogę dziś kupować owoców na targu."
       }
     ],
     "forms": [

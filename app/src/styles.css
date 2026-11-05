@@ -599,3 +599,13 @@ h3 { font-size: 11px; margin: 12px 0 0; color: var(--muted); text-transform: upp
 @media (prefers-reduced-motion: reduce) {
   .screen, .prompt, .feedback.ok, .feedback.bad, .toast, .cloze-gap.revealed, .session-summary h2 { animation: none; }
 }
+
+/* Awans/spadek: pary słupków zachowują styl istniejących statystyk. */
+.progress-legend { display: flex; gap: 20px; font-size: 13px; }
+.progress-days { display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 6px; }
+.progress-day { display: flex; flex-direction: column; gap: 6px; align-items: center; min-width: 0; }
+.progress-values { font-size: 11px; white-space: nowrap; }
+.progress-pair { height: 85px; width: 100%; background: var(--card); display: flex; align-items: flex-end; gap: 3px; padding: 0 4px; box-shadow: inset 1px 1px 0 var(--edge-dark); }
+.progress-pair.no-data { background: repeating-linear-gradient(135deg, var(--card), var(--card) 5px, transparent 5px, transparent 7px); }
+.progress-up { flex: 1; background: var(--green); }
+.progress-down { flex: 1; background: var(--red); }

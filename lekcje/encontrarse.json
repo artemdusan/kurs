@@ -62,8 +62,8 @@
     "pl_word": "zgoda / porozumienie",
     "examples": [
       {
-        "es_form": "Llegamos a [el acuerdo::zgoda ] ayer.",
-        "pl_translation": "Wczoraj doszliśmy do porozumienia."
+        "es_form": "[El acuerdo::porozumienie] es beneficioso para todos.",
+        "pl_translation": "Porozumienie jest korzystne dla wszystkich."
       },
       {
         "es_form": "[El acuerdo::zgoda ] es beneficioso para todos.",
@@ -233,18 +233,18 @@
     "pl_word": "spotykać się / znajdować się",
     "examples": [
       {
-        "es_form": "Es importante [encontrarse::spotykać] con amigos.",
+        "es_form": "Es importante [encontrarse::spotykać się] con amigos.",
         "pl_translation": "Ważne jest spotykać się z przyjaciółmi."
       },
       {
-        "es_form": "Hay que [encontrarse::spotykać] con amigos.",
+        "es_form": "Hay que [encontrarse::spotykać się] con amigos.",
         "pl_translation": "Trzeba spotykać się z przyjaciółmi."
       }
     ],
     "forms": [
       {
         "es_word": "me encuentro",
-        "pl_word": "spotykam (encontrarse)",
+        "pl_word": "spotykam się (encontrarse)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -252,14 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "Yo [me encuentro::spotykam] con amigos.",
+            "es_form": "Yo [me encuentro::spotykam się] con amigos.",
             "pl_translation": "Spotykam się z przyjaciółmi."
           }
         ]
       },
       {
         "es_word": "te encuentras",
-        "pl_word": "spotykasz (encontrarse)",
+        "pl_word": "spotykasz się (encontrarse)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -267,14 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "Tú [te encuentras::spotykasz] con amigos.",
+            "es_form": "Tú [te encuentras::spotykasz się] con amigos.",
             "pl_translation": "Spotykasz się z przyjaciółmi."
           }
         ]
       },
       {
         "es_word": "se encuentra",
-        "pl_word": "spotyka (encontrarse)",
+        "pl_word": "spotyka się (encontrarse)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -282,14 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "Él [se encuentra::spotyka] con amigos.",
+            "es_form": "Él [se encuentra::spotyka się] con amigos.",
             "pl_translation": "Spotyka się z przyjaciółmi."
           }
         ]
       },
       {
         "es_word": "nos encontramos",
-        "pl_word": "spotykamy (encontrarse)",
+        "pl_word": "spotykamy się (encontrarse)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -297,14 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [nos encontramos::spotykamy] con amigos.",
+            "es_form": "Nosotros [nos encontramos::spotykamy się] con amigos.",
             "pl_translation": "Spotykamy się z przyjaciółmi."
           }
         ]
       },
       {
         "es_word": "os encontráis",
-        "pl_word": "spotykacie (encontrarse)",
+        "pl_word": "spotykacie się (encontrarse)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -312,14 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [os encontráis::spotykacie] con amigos.",
+            "es_form": "Vosotros [os encontráis::spotykacie się] con amigos.",
             "pl_translation": "Spotykacie się z przyjaciółmi."
           }
         ]
       },
       {
         "es_word": "se encuentran",
-        "pl_word": "spotykają (encontrarse)",
+        "pl_word": "spotykają się (encontrarse)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -327,14 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [se encuentran::spotykają] con amigos.",
+            "es_form": "Ellos [se encuentran::spotykają się] con amigos.",
             "pl_translation": "Spotykają się z przyjaciółmi."
           }
         ]
       },
       {
         "es_word": "me encontré",
-        "pl_word": "spotkałem (encontrarse)",
+        "pl_word": "spotkałem się (encontrarse)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -342,14 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "Yo [me encontré::spotkałem] con amigos.",
+            "es_form": "Yo [me encontré::spotkałem się] con amigos.",
             "pl_translation": "Spotkałem się z przyjaciółmi."
           }
         ]
       },
       {
         "es_word": "te encontraste",
-        "pl_word": "spotkałeś (encontrarse)",
+        "pl_word": "spotkałeś się (encontrarse)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -357,14 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "Tú [te encontraste::spotkałeś] con amigos.",
+            "es_form": "Tú [te encontraste::spotkałeś się] con amigos.",
             "pl_translation": "Spotkałeś się z przyjaciółmi."
           }
         ]
       },
       {
         "es_word": "se encontró",
-        "pl_word": "spotkał (encontrarse)",
+        "pl_word": "spotkał się (encontrarse)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -372,14 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "Él [se encontró::spotkał] con amigos.",
+            "es_form": "Él [se encontró::spotkał się] con amigos.",
             "pl_translation": "Spotkał się z przyjaciółmi."
           }
         ]
       },
       {
         "es_word": "nos encontramos",
-        "pl_word": "spotkaliśmy (encontrarse)",
+        "pl_word": "spotkaliśmy się (encontrarse)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -387,14 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [nos encontramos::spotkaliśmy] con amigos.",
+            "es_form": "Nosotros [nos encontramos::spotkaliśmy się] con amigos.",
             "pl_translation": "Spotkaliśmy się z przyjaciółmi."
           }
         ]
       },
       {
         "es_word": "os encontrasteis",
-        "pl_word": "spotkaliście (encontrarse)",
+        "pl_word": "spotkaliście się (encontrarse)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -402,14 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [os encontrasteis::spotkaliście] con amigos.",
+            "es_form": "Vosotros [os encontrasteis::spotkaliście się] con amigos.",
             "pl_translation": "Spotkaliście się z przyjaciółmi."
           }
         ]
       },
       {
         "es_word": "se encontraron",
-        "pl_word": "spotkali (encontrarse)",
+        "pl_word": "spotkali się (encontrarse)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -417,14 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [se encontraron::spotkali] con amigos.",
+            "es_form": "Ellos [se encontraron::spotkali się] con amigos.",
             "pl_translation": "Spotkali się z przyjaciółmi."
           }
         ]
       },
       {
         "es_word": "me encontraré",
-        "pl_word": "będę spotykać (encontrarse)",
+        "pl_word": "będę spotykać się (encontrarse)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -432,14 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Yo [me encontraré::będę spotykać] con amigos.",
+            "es_form": "Yo [me encontraré::będę spotykać się] con amigos.",
             "pl_translation": "Będę spotykać się z przyjaciółmi."
           }
         ]
       },
       {
         "es_word": "te encontrarás",
-        "pl_word": "będziesz spotykać (encontrarse)",
+        "pl_word": "będziesz spotykać się (encontrarse)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -447,14 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "Tú [te encontrarás::będziesz spotykać] con amigos.",
+            "es_form": "Tú [te encontrarás::będziesz spotykać się] con amigos.",
             "pl_translation": "Będziesz spotykać się z przyjaciółmi."
           }
         ]
       },
       {
         "es_word": "se encontrará",
-        "pl_word": "będzie spotykać (encontrarse)",
+        "pl_word": "będzie spotykać się (encontrarse)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -462,14 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "Él [se encontrará::będzie spotykać] con amigos.",
+            "es_form": "Él [se encontrará::będzie spotykać się] con amigos.",
             "pl_translation": "Będzie spotykać się z przyjaciółmi."
           }
         ]
       },
       {
         "es_word": "nos encontraremos",
-        "pl_word": "będziemy spotykać (encontrarse)",
+        "pl_word": "będziemy spotykać się (encontrarse)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -477,14 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [nos encontraremos::będziemy spotykać] con amigos.",
+            "es_form": "Nosotros [nos encontraremos::będziemy spotykać się] con amigos.",
             "pl_translation": "Będziemy spotykać się z przyjaciółmi."
           }
         ]
       },
       {
         "es_word": "os encontraréis",
-        "pl_word": "będziecie spotykać (encontrarse)",
+        "pl_word": "będziecie spotykać się (encontrarse)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -492,14 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [os encontraréis::będziecie spotykać] con amigos.",
+            "es_form": "Vosotros [os encontraréis::będziecie spotykać się] con amigos.",
             "pl_translation": "Będziecie spotykać się z przyjaciółmi."
           }
         ]
       },
       {
         "es_word": "se encontrarán",
-        "pl_word": "będą spotykać (encontrarse)",
+        "pl_word": "będą spotykać się (encontrarse)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -507,7 +507,7 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [se encontrarán::będą spotykać] con amigos.",
+            "es_form": "Ellos [se encontrarán::będą spotykać się] con amigos.",
             "pl_translation": "Będą spotykać się z przyjaciółmi."
           }
         ]

@@ -25,15 +25,15 @@
     "examples": [
       {
         "es_form": "Esta es [la compra::zakupy].",
-        "pl_translation": "To jest zakupy."
+        "pl_translation": "To są zakupy."
       },
       {
         "es_form": "No es [la compra::zakupy].",
-        "pl_translation": "To nie jest zakupy."
+        "pl_translation": "To nie są zakupy."
       },
       {
         "es_form": "¿Dónde está [la compra::zakupy]?",
-        "pl_translation": "Gdzie jest zakupy?"
+        "pl_translation": "Gdzie są zakupy?"
       }
     ]
   },
@@ -195,11 +195,11 @@
     "pl_word": "zmęczony",
     "examples": [
       {
-        "es_form": "Es muy [cansado::zmęczony].",
+        "es_form": "Está muy [cansado::zmęczony].",
         "pl_translation": "Jest bardzo zmęczony."
       },
       {
-        "es_form": "No es [cansado::zmęczony].",
+        "es_form": "No está [cansado::zmęczony].",
         "pl_translation": "Nie jest zmęczony."
       },
       {
@@ -214,7 +214,7 @@
     "pl_word": "wolny (niezajęty)",
     "examples": [
       {
-        "es_form": "Es muy [libre::wolny].",
+        "es_form": "Está muy [libre::wolny].",
         "pl_translation": "Jest bardzo wolny."
       },
       {
@@ -222,7 +222,7 @@
         "pl_translation": "Wydaje się wolny."
       },
       {
-        "es_form": "Es demasiado [libre::wolny].",
+        "es_form": "Está demasiado [libre::wolny].",
         "pl_translation": "Jest zbyt wolny."
       }
     ]
@@ -238,7 +238,7 @@
       },
       {
         "es_form": "No puedo [hacer::robić] la tarea hoy.",
-        "pl_translation": "Nie mogę dziś robić zadanie."
+        "pl_translation": "Nie mogę dziś robić zadania."
       }
     ],
     "forms": [

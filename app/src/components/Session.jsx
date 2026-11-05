@@ -1,7 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { saveSettings, setUnlockedLesson } from '../db.js';
-import { buildSessionPool, buildMistakesPool, pickNext, recordAnswer, bumpDailyStats, requiredStreak, lessonFloorReached, clearMistake, SESSION_POOL_SIZE } from '../engine/session.js';
+import { buildSessionPool, buildMistakesPool, pickNext, recordAnswer, requiredStreak, lessonFloorReached, SESSION_POOL_SIZE } from '../engine/session.js';
 import { ensureLessonImported } from '../course.js';
+import { addActivity } from '../activity.js';
+import { localDay } from '../../../shared/learning.js';
 import { checkAnswer, splitArticle } from '../engine/answer.js';
 import { buildKeyboard, articleButtons } from '../engine/keyboard.js';
 import { buildMcqOptions } from '../engine/mcq.js';
@@ -36,13 +38,16 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
   const endAtRef = useRef(mode === 'mistakes' ? Infinity : Date.now() + settings.sessionMinutes * 60 * 1000);
   // sekundy nauki liczone tylko, gdy karta jest widoczna — apka w tle (albo
   // ekran zablokowany) nie ma wliczać się do czasu nauki w statystykach
-  const activeSecondsRef = useRef(0);
+  const timeSaveRef = useRef(Promise.resolve());
+  const gradingRef = useRef(null);
+  const answerLockedRef = useRef(false);
+  const [submitting, setSubmitting] = useState(false);
   const finishedRef = useRef(false);
   const prevWordRef = useRef(null);
   const poolRef = useRef(null);
-  // dzień rozpoczęcia sesji — służy do przypisania statystyk (sekund, ukończenia)
-  // do właściwego dnia, nawet gdy sesja przeciągnie się po północy
-  const sessionDayRef = useRef(new Date().toISOString().slice(0, 10));
+  // Ukończenie sesji przypisujemy do dnia rozpoczęcia; czas i odpowiedzi
+  // zapisujemy na bieżąco w dniu ich wystąpienia.
+  const sessionDayRef = useRef(localDay());
   poolRef.current = pool;
 
   useEffect(() => {
@@ -62,7 +67,11 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
   useEffect(() => {
     const t = setInterval(() => {
       // liczy się tylko czas z kartą widoczną na pierwszym planie
-      if (document.visibilityState !== 'hidden') activeSecondsRef.current++;
+      if (!finishedRef.current && poolRef.current && document.visibilityState !== 'hidden') {
+        const day = localDay();
+        timeSaveRef.current = timeSaveRef.current.then(() => addActivity({ seconds: 1 }, day))
+          .catch((e) => setToast(`Nie zapisano czasu nauki: ${e.message}`));
+      }
       if (mode !== 'mistakes') {
         setRemaining(Math.max(0, Math.round((endAtRef.current - Date.now()) / 1000)));
       }
@@ -103,6 +112,7 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
       if (mcqOptions) answerMode = 'mcq';
     }
 
+    answerLockedRef.current = false;
     setTask({
       entry,
       parsed,
@@ -119,18 +129,23 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
   }
 
   async function grade(userAnswer) {
+    if (answerLockedRef.current || finishedRef.current) return;
+    answerLockedRef.current = true;
+    setSubmitting(true);
+    gradingRef.current = saveAnswer(userAnswer);
+    try { await gradingRef.current; }
+    catch (e) { answerLockedRef.current = false; setToast(`Nie zapisano odpowiedzi: ${e.message}`); }
+    finally { gradingRef.current = null; setSubmitting(false); }
+  }
+
+  async function saveAnswer(userAnswer) {
     // Tolerancja akcentów automatyczna: poziom ≤5 → tolerancja, >5 → perfekcyjnie
     const accentTolerance = task.entry.progress.level <= 5;
     const correct = checkAnswer(userAnswer, task.expected, {
       isNoun: task.isNoun,
       accentTolerance,
     });
-    const updated = await recordAnswer(task.entry, correct);
-    // powtórka błędów: słowo powtórzone poprawnie znika z puli do powtórki na stałe
-    // (dopóki znów nie spadnie poziom), więc poza sesją nie trzeba go już powtarzać
-    if (mode === 'mistakes' && correct && updated.sessionStreak >= requiredStreak()) {
-      await clearMistake(updated.word.id);
-    }
+    const updated = await recordAnswer(task.entry, correct, { clearMistake: mode === 'mistakes' });
     const newPool = pool.map((e) => (e.word.id === updated.word.id ? updated : e));
     setPool(newPool);
     setWasCorrect(correct);
@@ -139,7 +154,6 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
       wrong: c.wrong + (correct ? 0 : 1),
       done: newPool.filter((e) => e.sessionStreak >= requiredStreak()).length,
     }));
-    await bumpDailyStats({ correct: correct ? 1 : 0, wrong: correct ? 0 : 1 });
     if (!correct) navigator.vibrate?.(150);
 
     speak(task.expected, tts);
@@ -178,10 +192,11 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
     // wykona to samo odblokowanie i pokaże duplikat komunikatu.
     if (finishedRef.current) return;
     finishedRef.current = true;
+    if (gradingRef.current) await gradingRef.current.catch(() => {});
+    await timeSaveRef.current;
 
-    // Przypisz sekundy i ukończenie sesji do dnia, w którym sesja się zaczęła —
-    // dzięki temu sesja przeciągnięta po północy nie fałszuje dzisiejszych statystyk.
-    await bumpDailyStats({ finishedSession: true, seconds: activeSecondsRef.current, dayOverride: sessionDayRef.current });
+    // Sekundy są już zapisane; tutaj zapisujemy jedynie ukończenie sesji.
+    await addActivity({ sessions: 1 }, sessionDayRef.current);
 
     // Odblokowanie kolejnej lekcji — dopiero po sesji i tylko gdy WSZYSTKIE
     // słowa ze wszystkich odblokowanych lekcji (1..maxLesson) są na floorLevel.
@@ -201,7 +216,7 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
       setTimeout(() => setToast(''), 5000);
     }
     setPhase('done');
-    onFinished?.(currentPool || pool);
+    onFinished?.(poolRef.current || currentPool || pool);
   }
 
   if (!pool || (!task && phase !== 'done')) {
@@ -280,7 +295,7 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
       {phase === 'answer' && task.mode === 'mcq' && (
         <div className="mcq">
           {task.mcqOptions.map((opt) => (
-            <button key={opt} className="btn mcq-option" onClick={() => grade(opt)}>
+            <button key={opt} className="btn mcq-option" disabled={submitting} onClick={() => grade(opt)}>
               {opt}
             </button>
           ))}
@@ -291,6 +306,7 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
         <>
           <div className="typed-preview">{display || ' '}</div>
           <Keyboard
+            disabled={submitting}
             layout={task.keyboard}
             isNoun={task.isNoun}
             articles={task.articles}
@@ -301,7 +317,7 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
           />
           <button
             className="btn primary check"
-            disabled={!typed && !article}
+            disabled={submitting || (!typed && !article)}
             onClick={() => grade(display)}
           >
             Sprawdź

@@ -32,8 +32,8 @@
         "pl_translation": "Szef mieszka na mojej ulicy."
       },
       {
-        "es_form": "Esta es [el jefe::szef] de la que hablé.",
-        "pl_translation": "To jest szef, o której mówiłem."
+        "es_form": "Este es [el jefe::szef] del que hablé.",
+        "pl_translation": "To jest szef, o którym mówiłem."
       }
     ]
   },
@@ -66,7 +66,7 @@
         "pl_translation": "To jest biuro."
       },
       {
-        "es_form": "¿Donde está [la oficina::biuro]?",
+        "es_form": "¿Dónde está [la oficina::biuro]?",
         "pl_translation": "Gdzie jest biuro?"
       },
       {
@@ -104,8 +104,8 @@
         "pl_translation": "To jest kolega."
       },
       {
-        "es_form": "Mi [hermano::brat] es [el compañero::kolega (z pracy)].",
-        "pl_translation": "Mój brat jest kolega."
+        "es_form": "[El compañero::kolega] es mi hermano.",
+        "pl_translation": "Kolega jest moim bratem."
       },
       {
         "es_form": "¿Dónde está [el compañero::kolega]?",
@@ -139,15 +139,15 @@
     "examples": [
       {
         "es_form": "Estas son [las vacaciones::urlop].",
-        "pl_translation": "To są urlop."
+        "pl_translation": "To jest urlop."
       },
       {
         "es_form": "¿Dónde están [las vacaciones::urlop]?",
-        "pl_translation": "Gdzie są urlop?"
+        "pl_translation": "Gdzie jest urlop?"
       },
       {
         "es_form": "[Las vacaciones::urlop] están aquí.",
-        "pl_translation": "Urlop są tutaj."
+        "pl_translation": "Urlop jest tutaj."
       }
     ]
   },

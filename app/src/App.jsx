@@ -1,4 +1,6 @@
 import React, { useEffect, useState } from 'react';
+import { migrateLearningState, getDailyStats } from './activity.js';
+import { localDay, currentStreak, FLOOR_LEVEL } from '../../shared/learning.js';
 import { db, getMeta, setUnlockedLesson, getSettings } from './db.js';
 import { loadIndex, ensureLessonImported } from './course.js';
 import { lessonFloorReached, getProgressMap, countRecentMistakes, dayStatus } from './engine/session.js';
@@ -13,6 +15,7 @@ import Icon, { FaceIcon } from './components/Icon.jsx';
 const SWIPE_THRESHOLD = 50; // px
 
 export default function App() {
+  const [startupError, setStartupError] = useState('');
   const [view, setView] = useState('loading'); // loading | tree | session | mistakes | settings | stats | lessonList
   const [mistakeCount, setMistakeCount] = useState(0);
   const [browsingLesson, setBrowsingLesson] = useState(null); // przeglądana lekcja (null = bieżąca)
@@ -26,6 +29,7 @@ export default function App() {
 
   useEffect(() => {
     (async () => {
+      await migrateLearningState();
       const [idx, s, unlocked] = await Promise.all([
         loadIndex(),
         getSettings(),
@@ -43,9 +47,9 @@ export default function App() {
       if (resolveSyncUrl(s) && s.syncLogin) {
         syncNow()
           .then(async () => refreshStats(idx, await checkUnlocks(idx)))
-          .catch(() => {});
+          .catch((e) => setToast(`Synchronizacja: ${e.message}`));
       }
-    })();
+    })().catch((e) => setStartupError(e.message));
 
     // Przy powrocie do aplikacji (PWA / karta w tle) odśwież status dnia —
     // inaczej buźka może pokazywać wczorajszy stan.
@@ -53,18 +57,22 @@ export default function App() {
       if (document.visibilityState === 'visible') {
         (async () => {
           const s = await getSettings();
-          const daily = await getMeta('dailyStats', {});
-          const day = daily[new Date().toISOString().slice(0, 10)];
+          const daily = await getDailyStats();
+          const day = daily[localDay()];
           setToday({
             status: dayStatus(day, s.dailyGoalMinutes),
-            minutes: Math.round((day?.seconds || 0) / 60),
+            minutes: Math.floor((day?.seconds || 0) / 60),
           });
-          setStreak(await getMeta('streak', { count: 0 }));
+          setStreak(currentStreak(await getDailyStats()));
         })();
       }
     }
+    const dayTimer = setInterval(onVisibilityChange, 60000);
     document.addEventListener('visibilitychange', onVisibilityChange);
-    return () => document.removeEventListener('visibilitychange', onVisibilityChange);
+    return () => {
+      clearInterval(dayTimer);
+      document.removeEventListener('visibilitychange', onVisibilityChange);
+    };
   }, []);
 
   async function refreshStats(idx, unlocked) {
@@ -75,19 +83,19 @@ export default function App() {
       const s = (stats[w.lesson] ||= { total: 0, mastered: 0 });
       s.total++;
       const level = progressMap.get(w.id)?.level || 1;
-      if (level >= (settings?.floorLevel || 2)) s.mastered++;
+      if (level >= FLOOR_LEVEL) s.mastered++;
     }
     setLessonStats(stats);
     setMistakeCount(await countRecentMistakes(unlocked));
-    setStreak(await getMeta('streak', { count: 0 }));
+    setStreak(currentStreak(await getDailyStats()));
     // status dnia do buźki w nagłówku (settings ze świeżego odczytu — stan
     // `settings` może być jeszcze pusty przy pierwszym wywołaniu)
     const s = await getSettings();
-    const daily = await getMeta('dailyStats', {});
-    const day = daily[new Date().toISOString().slice(0, 10)];
+    const daily = await getDailyStats();
+    const day = daily[localDay()];
     setToday({
       status: dayStatus(day, s.dailyGoalMinutes),
-      minutes: Math.round((day?.seconds || 0) / 60),
+      minutes: Math.floor((day?.seconds || 0) / 60),
     });
   }
 
@@ -98,6 +106,7 @@ export default function App() {
   async function checkUnlocks(idx) {
     const s = await getSettings();
     let unlocked = await getMeta('unlockedLesson', 1);
+    for (let n = 1; n <= unlocked; n++) await ensureLessonImported(n);
     const total = idx?.lekcje.length || 100;
     let lastUnlocked = null;
     while (unlocked < total && (await lessonFloorReached(unlocked, s.floorLevel))) {
@@ -136,6 +145,8 @@ export default function App() {
         });
     }
   }
+
+  if (startupError) return <div className="screen center"><p>Nie udało się wczytać kursu: {startupError}</p><button className="btn" onClick={() => window.location.reload()}>Spróbuj ponownie</button></div>;
 
   if (view === 'loading' || !settings) {
     return <div className="screen center">Wczytywanie kursu…</div>;
