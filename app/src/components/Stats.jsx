@@ -2,15 +2,17 @@ import React, { useEffect, useState } from 'react';
 import { db, getMeta, getSettings } from '../db.js';
 import { getProgressMap, dayStatus, bestStreak } from '../engine/session.js';
 import LevelBars from './LevelBars.jsx';
+import { getDailyStats } from '../activity.js';
+import { localDay, shiftDay, currentStreak } from '../../../shared/learning.js';
 import Icon, { FaceIcon } from './Icon.jsx';
 
 // Ekran statystyk: dzisiejszy cel + seria, kluczowe agregaty,
-// minuty z 14 dni (kolor słupka = status dnia) i rozkład poziomów słów.
+// awanse i spadki z 7 dni oraz rozkład poziomów kart.
 
 function lastNDays(n) {
   const days = [];
   for (let i = n - 1; i >= 0; i--) {
-    days.push(new Date(Date.now() - i * 86400000).toISOString().slice(0, 10));
+    days.push(shiftDay(localDay(), -i));
   }
   return days;
 }
@@ -19,7 +21,8 @@ export default function Stats({ maxLesson, onBack }) {
   const [data, setData] = useState(null);
 
   useEffect(() => {
-    (async () => {
+    let cancelled = false;
+    const refresh = async () => {
       const words = await db.words
         .where('lesson')
         .belowOrEqual(maxLesson)
@@ -39,12 +42,15 @@ export default function Stats({ maxLesson, onBack }) {
       }
       const settings = await getSettings();
       const goalMin = settings.dailyGoalMinutes || 10;
-      const daily = await getMeta('dailyStats', {});
-      const days = lastNDays(14).map((day) => ({
+      const daily = await getDailyStats();
+      const historySince = await getMeta('levelHistorySince');
+      const days = lastNDays(7).map((day) => ({
         day,
         correct: 0,
         wrong: 0,
         seconds: 0,
+        advances: 0, drops: 0,
+        known: Boolean(historySince && day >= historySince),
         ...(daily[day] || {}),
       }));
       // agregaty czasu i skuteczności ze WSZYSTKICH dni nauki
@@ -60,18 +66,20 @@ export default function Stats({ maxLesson, onBack }) {
         totalWrong += d.wrong || 0;
         if ((d.correct || 0) + (d.wrong || 0) > 0) activeDays++;
       }
-      const today = daily[new Date().toISOString().slice(0, 10)] || {};
-      const streak = await getMeta('streak', { count: 0 });
+      const today = daily[localDay()] || {};
+      const streak = currentStreak(daily);
+      if (cancelled) return;
       setData({
         levels,
         wordCount: words.length,
         days,
+        historySince,
         goalMin,
         todayStatus: dayStatus(today, goalMin),
         streak: streak.count || 0,
         bestStreak: Math.max(bestStreak(daily), streak.count || 0),
         time: {
-          todayMin: Math.round((today.seconds || 0) / 60),
+          todayMin: Math.floor((today.seconds || 0) / 60),
           avgMin: activeDays ? Math.round(totalSeconds / activeDays / 60) : 0,
           totalMin: Math.round(totalSeconds / 60),
           sessions: totalSessions,
@@ -80,7 +88,11 @@ export default function Stats({ maxLesson, onBack }) {
             : 0,
         },
       });
-    })();
+    };
+    refresh();
+    const timer = setInterval(refresh, 60000);
+    document.addEventListener('visibilitychange', refresh);
+    return () => { cancelled = true; clearInterval(timer); document.removeEventListener('visibilitychange', refresh); };
   }, [maxLesson]);
 
   if (!data) return <div className="screen center">Liczenie statystyk…</div>;
@@ -121,7 +133,7 @@ export default function Stats({ maxLesson, onBack }) {
         </div>
         <div className="time-cell">
           <span className="time-num">{data.time.avgMin}</span>
-          <span className="time-label">min/dzień śr.</span>
+          <span className="time-label">min/dzień nauki</span>
         </div>
         <div className="time-cell">
           <span className="time-num">{Math.floor(data.time.totalMin / 60)}h {data.time.totalMin % 60}m</span>
@@ -137,29 +149,32 @@ export default function Stats({ maxLesson, onBack }) {
         </div>
       </div>
 
-      <h3>Minuty nauki (14 dni)</h3>
-      <div className="day-bars day-bars-short">
+      <h3>Postęp (7 dni)</h3>
+      <div className="progress-legend">
+        <span className="num-ok">↑ {data.days.reduce((n, d) => n + d.advances, 0)} awansów</span>
+        <span className="num-bad">↓ {data.days.reduce((n, d) => n + d.drops, 0)} spadków</span>
+      </div>
+      <div className="progress-days">
         {data.days.map((d) => {
-          const min = Math.round((d.seconds || 0) / 60);
-          const status = dayStatus(d, data.goalMin);
-          const max = Math.max(data.goalMin, ...data.days.map((x) => Math.round((x.seconds || 0) / 60)));
+          const max = Math.max(1, ...data.days.flatMap((x) => [x.advances, x.drops]));
+          const label = d.known ? `${d.day}: ${d.advances} awansów, ${d.drops} spadków` : `${d.day}: brak danych`;
           return (
-            <div key={d.day} className="day-col" title={`${d.day}: ${min} min`}>
-              <div className="day-col-track">
-                {min > 0 && (
-                  <div
-                    className={`day-col-minutes goal-${status}`}
-                    style={{ height: (min / max) * 100 + '%' }}
-                  />
-                )}
+            <div className="progress-day" key={d.day} title={label} aria-label={label} tabIndex={0}>
+              <div className="progress-values">{d.known ? <><span className="num-ok">{d.advances}</span> / <span className="num-bad">{d.drops}</span></> : '—'}</div>
+              <div className={'progress-pair' + (d.known ? '' : ' no-data')}>
+                {d.known && <>
+                  <div className="progress-up" style={{ height: `${d.advances / max * 100}%` }} />
+                  <div className="progress-down" style={{ height: `${d.drops / max * 100}%` }} />
+                </>}
               </div>
-              <span className="day-col-label">{d.day.slice(8)}</span>
+              <span className="day-col-label">{d.day.slice(8)}.{d.day.slice(5, 7)}</span>
             </div>
           );
         })}
       </div>
+      {data.days.some((d) => !d.known) && <p className="hint">— brak danych sprzed rozpoczęcia zapisu zmian poziomów.</p>}
 
-      <h3>Poziomy słów ({data.wordCount})</h3>
+      <h3>Poziomy kart ({data.wordCount})</h3>
       <LevelBars levels={data.levels} />
     </div>
   );

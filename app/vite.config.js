@@ -16,20 +16,13 @@ export default defineConfig({
       registerType: 'autoUpdate',
       includeAssets: ['icons/icon.svg'],
       workbox: {
-        globPatterns: ['**/*.{js,css,html,svg,png,woff2}'],
+        globPatterns: ['**/*.{js,css,html,svg,png,woff2,json}'],
+        // Revisioned precache updates lessons together with the app. Query v
+        // bypasses the old runtime cache while the new worker is activating.
+        ignoreURLParametersMatching: [/^v$/, /^utm_/, /^fbclid$/],
         // obsługa web push (przypomnienia o 19:00) — plik z public/, doklejany do SW
         importScripts: ['push-sw.js'],
-        runtimeCaching: [
-          {
-            // dane kursu — cache-first, offline-first
-            urlPattern: /\/data\/.*\.json$/,
-            handler: 'CacheFirst',
-            options: {
-              cacheName: 'kurs-data',
-              expiration: { maxEntries: 200 },
-            },
-          },
-        ],
+
       },
       manifest: {
         name: 'Kurs hiszpańskiego',

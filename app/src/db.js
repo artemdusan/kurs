@@ -1,7 +1,8 @@
 import Dexie from 'dexie';
+import { FLOOR_LEVEL } from '../../shared/learning.js';
 
-// Offline-first: wszystko w IndexedDB. Tabele `words` i `progress` są lekkie
-// i synchronizowane deltami (updated_at > lastSync), soft delete przez `deleted`.
+// Offline-first: materiały, postępy i liczniki są w IndexedDB.
+// Synchronizacja v2 obejmuje postępy i liczniki, a materiały pochodzą z plików kursu.
 export const db = new Dexie('kurs-hiszpanski');
 
 db.version(1).stores({
@@ -10,6 +11,8 @@ db.version(1).stores({
   progress: 'wordId, level, updated_at',
   meta: 'key',
 });
+
+db.version(2).stores({ dailyCounters: '&id, day, deviceId' });
 
 export async function getMeta(key, fallback = null) {
   const row = await db.meta.get(key);
@@ -25,8 +28,10 @@ export async function setMeta(key, value) {
 // (patrz sync.js) — inaczej admin zmieniający numer z dashboardu i urządzenie
 // legalnie odblokowujące kolejną lekcję nie miałyby jak rozstrzygnąć konfliktu.
 export async function setUnlockedLesson(value, updatedAt = Date.now()) {
-  await setMeta('unlockedLesson', value);
-  await setMeta('unlockedLessonUpdatedAt', updatedAt);
+  await db.transaction('rw', db.meta, async () => {
+    await setMeta('unlockedLesson', value);
+    await setMeta('unlockedLessonUpdatedAt', updatedAt);
+  });
 }
 
 export const DEFAULT_SETTINGS = {
@@ -35,7 +40,7 @@ export const DEFAULT_SETTINGS = {
   // accentTolerance — automatyczny: poziom ≤5 → tolerancja, >5 → perfekcyjnie
   accentTolerance: false, // nieużywane bezpośrednio; zachowane dla kompatybilności wstecznej
   tts: true,              // zawsze włączone; przycisk TTS w sesji pozostaje
-  floorLevel: 2,          // minimalny poziom wszystkich słów wymagany do odblokowania kolejnej lekcji (ukryte w UI)
+  floorLevel: FLOOR_LEVEL,          // minimalny poziom wszystkich słów wymagany do odblokowania kolejnej lekcji (ukryte w UI)
   mcqMaxLevel: 2,         // do tego poziomu odmiany czasowników są w trybie MCQ
   syncUrl: '',
   syncLogin: '',
@@ -44,7 +49,7 @@ export const DEFAULT_SETTINGS = {
 
 export async function getSettings() {
   const saved = await getMeta('settings', {});
-  return { ...DEFAULT_SETTINGS, ...saved };
+  return { ...DEFAULT_SETTINGS, ...saved, floorLevel: FLOOR_LEVEL };
 }
 
 export async function saveSettings(settings) {

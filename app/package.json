@@ -1,14 +1,16 @@
 {
   "name": "kurs-hiszpanski",
   "private": true,
-  "version": "0.3.0",
+  "version": "0.4.0",
   "type": "module",
   "scripts": {
     "predev": "node scripts/copy-data.mjs",
     "dev": "vite",
     "prebuild": "node scripts/copy-data.mjs",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "test": "TZ=Europe/Warsaw node --test tests/*.test.mjs",
+    "test:browser": "node --test tests/browser.spec.mjs"
   },
   "dependencies": {
     "dexie": "^4.0.8",
@@ -17,7 +19,11 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@playwright/test": "^1.65.0",
     "@vitejs/plugin-react": "^4.3.4",
+    "esbuild": "^0.28.2",
+    "fake-indexeddb": "^6.2.7",
+    "miniflare": "^3.20250718.3",
     "vite": "^5.4.11",
     "vite-plugin-pwa": "^0.21.1"
   }

@@ -1,7 +1,9 @@
-// Cloudflare Worker: synchronizacja delt + prosty dashboard administratora
+import { syncV2 } from './sync-v2.js';
+
+// Cloudflare Worker: synchronizacja v2 + prosty dashboard administratora
 // + przypomnienia web push (cron 19:00 czasu polskiego).
 // Endpointy:
-//   POST /sync       — Basic Auth (login:hasło); przyjmuje i zwraca delty
+//   POST /sync       — Basic Auth (login:hasło); przyjmuje partie zmian i zwraca pełne postępy/liczniki
 //   GET  /push/vapid — publiczny klucz VAPID (do subskrypcji w przeglądarce)
 //   POST /push/subscribe   — Basic Auth; zapis subskrypcji push urządzenia
 //   POST /push/unsubscribe — Basic Auth; usunięcie subskrypcji
@@ -31,7 +33,11 @@ async function authenticate(request, env) {
   if (!header.startsWith('Basic ')) return null;
   let login, password;
   try {
-    [login, password] = atob(header.slice(6)).split(':');
+    const credentials = new TextDecoder().decode(Uint8Array.from(atob(header.slice(6)), (c) => c.charCodeAt(0)));
+    const separator = credentials.indexOf(':');
+    if (separator < 1) return null;
+    login = credentials.slice(0, separator);
+    password = credentials.slice(separator + 1);
   } catch {
     return null;
   }
@@ -43,133 +49,15 @@ async function authenticate(request, env) {
   return user ? user.id : null;
 }
 
-// Scala dailyStats z dwóch urządzeń dzień po dniu — dzień z nowszym
-// `updated_at` wygrywa, więc równoległa nauka na obu urządzeniach w różne
-// dni sumuje się zamiast nadpisywać całą historię.
-function mergeDailyStats(existing, incoming) {
-  const merged = { ...(existing || {}) };
-  for (const [day, incDay] of Object.entries(incoming || {})) {
-    const cur = merged[day];
-    if (!cur || (incDay.updated_at || 0) > (cur.updated_at || 0)) merged[day] = incDay;
-  }
-  return merged;
-}
-
-// Streak to pojedynczy licznik (nie da się go sumować per dzień) — bierzemy
-// wersję z późniejszym `lastDay`, a przy remisie wyższy `count`.
-function mergeStreak(existing, incoming) {
-  if (!existing) return incoming || null;
-  if (!incoming) return existing;
-  if (incoming.lastDay > existing.lastDay) return incoming;
-  if (existing.lastDay > incoming.lastDay) return existing;
-  return (incoming.count || 0) >= (existing.count || 0) ? incoming : existing;
-}
-
 async function handleSync(request, env) {
   const userId = await authenticate(request, env);
   if (!userId) return json({ error: 'unauthorized' }, 401);
-
-  const body = await request.json();
-  const since = Number(body.since) || 0;
-  const now = Date.now();
-
-  // Zapis przychodzących delt (LWW po updated_at)
-  for (const w of body.words || []) {
-    await env.DB.prepare(
-      `INSERT INTO words (user_id, id, data, updated_at, deleted)
-       VALUES (?, ?, ?, ?, ?)
-       ON CONFLICT (user_id, id) DO UPDATE SET
-         data = excluded.data, updated_at = excluded.updated_at, deleted = excluded.deleted
-       WHERE excluded.updated_at > words.updated_at`
-    )
-      .bind(userId, w.id, JSON.stringify(w), w.updated_at || now, w.deleted ? 1 : 0)
-      .run();
-  }
-  for (const p of body.progress || []) {
-    await env.DB.prepare(
-      `INSERT INTO progress (user_id, word_id, data, updated_at, deleted)
-       VALUES (?, ?, ?, ?, ?)
-       ON CONFLICT (user_id, word_id) DO UPDATE SET
-         data = excluded.data, updated_at = excluded.updated_at, deleted = excluded.deleted
-       WHERE excluded.updated_at > progress.updated_at`
-    )
-      .bind(userId, p.wordId, JSON.stringify(p), p.updated_at || now, p.deleted ? 1 : 0)
-      .run();
-  }
-
-  // dailyStats/streak: scal przychodzące dane z tym, co serwer już ma,
-  // i odeślij WYNIK scalania — oba urządzenia zbiegają do tej samej sumy
-  const metaRows = await env.DB.prepare('SELECT key, data, updated_at FROM meta WHERE user_id = ?')
-    .bind(userId)
-    .all();
-  const metaMap = {};
-  const metaUpdatedAt = {};
-  for (const r of metaRows.results) {
-    metaMap[r.key] = JSON.parse(r.data);
-    metaUpdatedAt[r.key] = r.updated_at;
-  }
-
-  const mergedDailyStats = mergeDailyStats(metaMap.dailyStats, body.dailyStats);
-  const mergedStreak = mergeStreak(metaMap.streak, body.streak);
-
-  await env.DB.prepare(
-    `INSERT INTO meta (user_id, key, data, updated_at) VALUES (?, 'dailyStats', ?, ?)
-     ON CONFLICT (user_id, key) DO UPDATE SET data = excluded.data, updated_at = excluded.updated_at`
-  )
-    .bind(userId, JSON.stringify(mergedDailyStats), now)
-    .run();
-  if (mergedStreak) {
-    await env.DB.prepare(
-      `INSERT INTO meta (user_id, key, data, updated_at) VALUES (?, 'streak', ?, ?)
-       ON CONFLICT (user_id, key) DO UPDATE SET data = excluded.data, updated_at = excluded.updated_at`
-    )
-      .bind(userId, JSON.stringify(mergedStreak), now)
-      .run();
-  }
-
-  // unlockedLesson: zwykłe LWW po updated_at (nie wymaga merge'a jak dailyStats) —
-  // dzięki temu admin może skorygować numer z dashboardu (dashboard zapisuje
-  // świeży updated_at), a kolejne legalne odblokowanie na urządzeniu i tak
-  // wygra przy następnej synchronizacji, bo jego updated_at będzie nowszy.
-  let unlockedLesson = metaMap.unlockedLesson ?? null;
-  let unlockedLessonUpdatedAt = metaUpdatedAt.unlockedLesson || 0;
-  const incomingUnlocked = body.unlockedLesson;
-  if (
-    incomingUnlocked &&
-    typeof incomingUnlocked.value === 'number' &&
-    (incomingUnlocked.updated_at || 0) > unlockedLessonUpdatedAt
-  ) {
-    unlockedLesson = incomingUnlocked.value;
-    unlockedLessonUpdatedAt = incomingUnlocked.updated_at;
-    await env.DB.prepare(
-      `INSERT INTO meta (user_id, key, data, updated_at) VALUES (?, 'unlockedLesson', ?, ?)
-       ON CONFLICT (user_id, key) DO UPDATE SET data = excluded.data, updated_at = excluded.updated_at`
-    )
-      .bind(userId, JSON.stringify(unlockedLesson), unlockedLessonUpdatedAt)
-      .run();
-  }
-
-  // Zwrot zmian serwera od `since`
-  const words = await env.DB.prepare(
-    'SELECT data FROM words WHERE user_id = ? AND updated_at > ?'
-  )
-    .bind(userId, since)
-    .all();
-  const progress = await env.DB.prepare(
-    'SELECT data FROM progress WHERE user_id = ? AND updated_at > ?'
-  )
-    .bind(userId, since)
-    .all();
-
-  return json({
-    serverTime: now,
-    words: words.results.map((r) => JSON.parse(r.data)),
-    progress: progress.results.map((r) => JSON.parse(r.data)),
-    dailyStats: mergedDailyStats,
-    streak: mergedStreak,
-    unlockedLesson:
-      unlockedLesson !== null ? { value: unlockedLesson, updated_at: unlockedLessonUpdatedAt } : null,
-  });
+  let body;
+  try { body = await request.json(); }
+  catch { return json({ error: 'invalid_json' }, 400); }
+  if (!body || typeof body !== 'object') return json({ error: 'invalid_json' }, 400);
+  const result = await syncV2(body, env.DB, userId);
+  return json(result.body, result.status);
 }
 
 async function handlePushSubscribe(request, env) {
@@ -264,20 +152,20 @@ async function sendReminders(env) {
   );
   if (warsawHour !== 19) return; // cron odpala 17:00 i 18:00 UTC — trafia tylko jeden z nich
 
-  // klucz dnia identyczny jak w aplikacji (data UTC); o 17/18 UTC pokrywa się z datą polską
-  const today = new Date().toISOString().slice(0, 10);
+  const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Warsaw', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
   const rows = await env.DB.prepare(
-    `SELECT s.user_id, s.endpoint, m.data AS stats
+    `SELECT s.user_id, s.endpoint, m.data AS stats,
+       (SELECT COALESCE(SUM(c.correct + c.wrong), 0) FROM daily_counters c WHERE c.user_id = s.user_id AND c.day = ?) AS answers
      FROM push_subscriptions s
      LEFT JOIN meta m ON m.user_id = s.user_id AND m.key = 'dailyStats'`
-  ).all();
+  ).bind(today).all();
 
   for (const r of rows.results) {
     let day = null;
     try {
       day = JSON.parse(r.stats || '{}')[today];
     } catch {}
-    const active = day && ((day.correct || 0) + (day.wrong || 0) > 0 || (day.seconds || 0) > 0);
+    const active = r.answers > 0 || day && ((day.correct || 0) + (day.wrong || 0) > 0 || (day.seconds || 0) > 0);
     if (active) continue;
     const res = await sendPush(r.endpoint, env).catch(() => null);
     // 404/410 = subskrypcja wygasła (odinstalowana PWA itp.) — sprzątamy
@@ -309,6 +197,8 @@ async function handleAdminUsers(request, env) {
       await env.DB.prepare('DELETE FROM words WHERE user_id = ?').bind(user.id).run();
       await env.DB.prepare('DELETE FROM progress WHERE user_id = ?').bind(user.id).run();
       await env.DB.prepare('DELETE FROM meta WHERE user_id = ?').bind(user.id).run();
+      await env.DB.prepare('DELETE FROM daily_counters WHERE user_id = ?').bind(user.id).run();
+      await env.DB.prepare('DELETE FROM push_subscriptions WHERE user_id = ?').bind(user.id).run();
       await env.DB.prepare('DELETE FROM users WHERE id = ?').bind(user.id).run();
     }
     return json({ ok: true });

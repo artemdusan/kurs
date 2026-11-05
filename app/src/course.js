@@ -10,7 +10,7 @@ let indexCache = null;
 
 export async function loadIndex() {
   if (indexCache) return indexCache;
-  const res = await fetch('/data/indeks.json');
+  const res = await fetch(`/data/indeks.json?v=${CONTENT_VERSION}`);
   if (!res.ok) throw new Error('Nie można wczytać indeksu kursu');
   indexCache = await res.json();
   return indexCache;
@@ -36,7 +36,7 @@ function formSlotId(lesson, verbOrdinal, grammar) {
 // Podbij, gdy zmienia się sposób budowania rekordów z plików lekcji —
 // zaimportowane lekcje zostaną wtedy zaktualizowane (bez utraty postępów,
 // bo id słowa zależy tylko od jego pozycji w lekcji, nie od treści).
-export const CONTENT_VERSION = 7;
+export const CONTENT_VERSION = 8;
 
 /** Importuje słowa lekcji do bazy (idempotentnie). Zwraca liczbę nowych słów. */
 export async function ensureLessonImported(lessonNumber) {
@@ -47,7 +47,7 @@ export async function ensureLessonImported(lessonNumber) {
   const entry = index.lekcje.find((l) => l.numer === lessonNumber);
   if (!entry) throw new Error(`Brak lekcji ${lessonNumber} w indeksie`);
 
-  const res = await fetch(`/data/${entry.plik}`);
+  const res = await fetch(`/data/${entry.plik}?v=${CONTENT_VERSION}`);
   if (!res.ok) throw new Error(`Nie można wczytać pliku lekcji ${entry.plik}`);
   const items = await res.json();
 
