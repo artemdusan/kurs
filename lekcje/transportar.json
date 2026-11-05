@@ -24,12 +24,12 @@
     "pl_word": "dostawca",
     "examples": [
       {
-        "es_form": "Esta es [el repartidor::dostawca] de la que hablé.",
-        "pl_translation": "To jest dostawca, o której mówiłem."
+        "es_form": "Este es [el repartidor::dostawca] del que hablé.",
+        "pl_translation": "To jest dostawca, o którym mówiłem."
       },
       {
-        "es_form": "Mi [hermano::brat] es [el repartidor::dostawca].",
-        "pl_translation": "Mój brat jest dostawca."
+        "es_form": "[El repartidor::dostawca] es mi hermano.",
+        "pl_translation": "Dostawca jest moim bratem."
       },
       {
         "es_form": "[El repartidor::dostawca] vive en mi calle.",
@@ -173,7 +173,7 @@
   {
     "type": "noun",
     "es_word": "La aduana",
-    "pl_word": "odprawa celna",
+    "pl_word": "urząd celny",
     "examples": [
       {
         "es_form": "Esta es [la aduana::odprawa celna].",
@@ -214,7 +214,7 @@
     "pl_word": "spóźniony",
     "examples": [
       {
-        "es_form": "No es [retrasado::spóźniony].",
+        "es_form": "No está [retrasado::spóźniony].",
         "pl_translation": "Nie jest spóźniony."
       },
       {
@@ -222,7 +222,7 @@
         "pl_translation": "Wydaje się spóźniony."
       },
       {
-        "es_form": "Es demasiado [retrasado::spóźniony].",
+        "es_form": "Está demasiado [retrasado::spóźniony].",
         "pl_translation": "Jest zbyt spóźniony."
       }
     ]
@@ -238,7 +238,7 @@
       },
       {
         "es_form": "No puedo [transportar::przewozić] mercancías hoy.",
-        "pl_translation": "Nie mogę dziś przewozić towary."
+        "pl_translation": "Nie mogę dziś przewozić towarów."
       }
     ],
     "forms": [

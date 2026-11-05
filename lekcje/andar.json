@@ -32,7 +32,7 @@
         "pl_translation": "To jest kierunek."
       },
       {
-        "es_form": "Necesito [la dirección::kierunek] nuevo.",
+        "es_form": "Necesito [la dirección::kierunek] nueva.",
         "pl_translation": "Potrzebuję nowego kierunku."
       }
     ]
@@ -70,8 +70,8 @@
         "pl_translation": "Pracuję w centrum."
       },
       {
-        "es_form": "Voy a [el centro::środek, centrum] cada día.",
-        "pl_translation": "Chodzę do centrum codziennie."
+        "es_form": "Estoy en [el centro::środek, centrum].",
+        "pl_translation": "Jestem w centrum."
       }
     ]
   },
@@ -176,12 +176,12 @@
     "pl_word": "krok, przejście",
     "examples": [
       {
-        "es_form": "No tengo [el paso::krok, przejście] suficiente.",
-        "pl_translation": "Nie mam wystarczająco dużo czasu."
+        "es_form": "[El paso::przejście] está cerrado.",
+        "pl_translation": "Przejście jest zamknięte."
       },
       {
-        "es_form": "[El paso::krok, przejście] pasa muy rápido.",
-        "pl_translation": "Czas mija bardzo szybko."
+        "es_form": "[El paso::przejście] está abierto.",
+        "pl_translation": "Przejście jest otwarte."
       },
       {
         "es_form": "¿Dónde está [el paso::krok]?",

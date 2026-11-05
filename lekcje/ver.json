@@ -25,7 +25,7 @@
     "examples": [
       {
         "es_form": "[La mano::ręka, dłoń] es una parte importante del cuerpo.",
-        "pl_translation": "Ręka, dłoń jest ważną częścią ciała."
+        "pl_translation": "Dłoń jest ważną częścią ciała."
       },
       {
         "es_form": "Esta es [la mano::ręka].",
@@ -139,15 +139,15 @@
     "examples": [
       {
         "es_form": "Esta es [la boca::usta].",
-        "pl_translation": "To jest usta."
+        "pl_translation": "To są usta."
       },
       {
         "es_form": "¿Dónde está [la boca::usta]?",
-        "pl_translation": "Gdzie jest usta?"
+        "pl_translation": "Gdzie są usta?"
       },
       {
         "es_form": "[La boca::usta] está aquí.",
-        "pl_translation": "Usta jest tutaj."
+        "pl_translation": "Usta są tutaj."
       }
     ]
   },
@@ -177,15 +177,15 @@
     "examples": [
       {
         "es_form": "Este es [el pelo::włosy].",
-        "pl_translation": "To jest włosy."
+        "pl_translation": "To są włosy."
       },
       {
         "es_form": "¿Dónde está [el pelo::włosy]?",
-        "pl_translation": "Gdzie jest włosy?"
+        "pl_translation": "Gdzie są włosy?"
       },
       {
         "es_form": "[El pelo::włosy] está aquí.",
-        "pl_translation": "Włosy jest tutaj."
+        "pl_translation": "Włosy są tutaj."
       }
     ]
   },
@@ -214,11 +214,11 @@
     "pl_word": "chory",
     "examples": [
       {
-        "es_form": "Es muy [enfermo::chory].",
+        "es_form": "Está muy [enfermo::chory].",
         "pl_translation": "Jest bardzo chory."
       },
       {
-        "es_form": "No es [enfermo::chory].",
+        "es_form": "No está [enfermo::chory].",
         "pl_translation": "Nie jest chory."
       },
       {
@@ -238,7 +238,7 @@
       },
       {
         "es_form": "No puedo [ver::widzieć] el mar hoy.",
-        "pl_translation": "Nie mogę dziś widzieć morze."
+        "pl_translation": "Nie mogę dziś widzieć morza."
       }
     ],
     "forms": [

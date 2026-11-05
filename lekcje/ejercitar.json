@@ -13,8 +13,8 @@
         "pl_translation": "To jest trening."
       },
       {
-        "es_form": "Después del [entrenamiento::trening] necesito descansar.",
-        "pl_translation": "Po treningu potrzebuję odpoczynku."
+        "es_form": "[El entrenamiento::trening] me cansa.",
+        "pl_translation": "Trening mnie męczy."
       }
     ]
   },
@@ -28,12 +28,12 @@
         "pl_translation": "Rozgrzewka jest ważna przed bieganiem."
       },
       {
-        "es_form": "Hicimos [calentamiento::rozgrzewka] de diez minutos.",
+        "es_form": "Hicimos [un calentamiento::rozgrzewkę] de diez minutos.",
         "pl_translation": "Zrobiliśmy dziesięciominutową rozgrzewkę."
       },
       {
-        "es_form": "Sin [calentamiento::rozgrzewka] te puedes lesionar.",
-        "pl_translation": "Bez rozgrzewki możesz się nabawić kontuzji."
+        "es_form": "[El calentamiento::rozgrzewka] prepara los músculos.",
+        "pl_translation": "Rozgrzewka przygotowuje mięśnie."
       }
     ]
   },
@@ -70,8 +70,8 @@
         "pl_translation": "To jest kondycja."
       },
       {
-        "es_form": "Tiene buena [condición física::kondycja].",
-        "pl_translation": "Ma dobrą kondycję."
+        "es_form": "[La condición física::kondycja] mejora con el ejercicio.",
+        "pl_translation": "Kondycja poprawia się dzięki ćwiczeniom."
       }
     ]
   },
@@ -85,8 +85,8 @@
         "pl_translation": "Wytrzymałość poprawia się dzięki treningowi."
       },
       {
-        "es_form": "Necesito más [resistencia::wytrzymałość] para correr.",
-        "pl_translation": "Potrzebuję więcej wytrzymałości do biegania."
+        "es_form": "[La resistencia::wytrzymałość] es importante para correr.",
+        "pl_translation": "Wytrzymałość jest ważna podczas biegania."
       },
       {
         "es_form": "Esta es [la resistencia::wytrzymałość].",
@@ -104,7 +104,7 @@
         "pl_translation": "Dieta jest zrównoważona."
       },
       {
-        "es_form": "Sigo una [dieta::dieta] saludable.",
+        "es_form": "Sigo [una dieta::dietę] saludable.",
         "pl_translation": "Stosuję zdrową dietę."
       },
       {
@@ -119,15 +119,15 @@
     "pl_word": "kaloria",
     "examples": [
       {
-        "es_form": "No consumo ni una [caloría::kaloria] más.",
+        "es_form": "No consumo ni [una caloría::jednej kalorii] más.",
         "pl_translation": "Nie spożywam ani jednej kalorii więcej."
       },
       {
-        "es_form": "Cuento cada [caloría::kaloria] que consumo.",
-        "pl_translation": "Liczę każdą kalorię, którą spożywam."
+        "es_form": "[La caloría::kaloria] es una unidad de energía.",
+        "pl_translation": "Kaloria jest jednostką energii."
       },
       {
-        "es_form": "Esta bebida no tiene ni una [caloría::kaloria].",
+        "es_form": "Esta bebida no tiene ni [una caloría::jednej kalorii].",
         "pl_translation": "Ten napój nie ma ani jednej kalorii."
       }
     ]
@@ -142,12 +142,12 @@
         "pl_translation": "Białko jest niezbędne dla mięśni."
       },
       {
-        "es_form": "Necesito más [proteína::białko] en mi dieta.",
-        "pl_translation": "Potrzebuję więcej białka w diecie."
+        "es_form": "[La proteína::białko] forma parte de mi dieta.",
+        "pl_translation": "Białko jest częścią mojej diety."
       },
       {
-        "es_form": "El pollo tiene mucha [proteína::białko].",
-        "pl_translation": "Kurczak ma dużo białka."
+        "es_form": "[La proteína::białko] ayuda a mantener los músculos.",
+        "pl_translation": "Białko pomaga utrzymać mięśnie."
       }
     ]
   },
@@ -157,15 +157,15 @@
     "pl_word": "tłuszcz",
     "examples": [
       {
-        "es_form": "Esta comida contiene demasiada [grasa::tłuszcz].",
-        "pl_translation": "To jedzenie zawiera za dużo tłuszczu."
+        "es_form": "[La grasa::tłuszcz] aporta energía.",
+        "pl_translation": "Tłuszcz dostarcza energii."
       },
       {
-        "es_form": "Hay exceso de [grasa::tłuszcz] en esta comida.",
-        "pl_translation": "W tym jedzeniu jest nadmiar tłuszczu."
+        "es_form": "[La grasa::tłuszcz] está presente en muchos alimentos.",
+        "pl_translation": "Tłuszcz występuje w wielu produktach spożywczych."
       },
       {
-        "es_form": "Evito la [grasa::tłuszcz] en mi dieta.",
+        "es_form": "Evito [la grasa::tłuszczu] en mi dieta.",
         "pl_translation": "Unikam tłuszczu w mojej diecie."
       }
     ]
@@ -238,7 +238,7 @@
       },
       {
         "es_form": "No puedo [ejercitar::ćwiczyć] el cuerpo hoy.",
-        "pl_translation": "Nie mogę dziś ćwiczyć ciało."
+        "pl_translation": "Nie mogę dziś ćwiczyć ciała."
       }
     ],
     "forms": [

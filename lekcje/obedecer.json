@@ -58,19 +58,19 @@
   },
   {
     "type": "noun",
-    "es_word": "El orden",
+    "es_word": "La orden",
     "pl_word": "nakaz, rozkaz",
     "examples": [
       {
-        "es_form": "No es [el orden::nakaz].",
+        "es_form": "No es [la orden::nakaz].",
         "pl_translation": "To nie jest nakaz."
       },
       {
-        "es_form": "Este es [el orden::nakaz].",
+        "es_form": "Esta es [la orden::nakaz].",
         "pl_translation": "To jest nakaz."
       },
       {
-        "es_form": "¿Dónde está [el orden::nakaz]?",
+        "es_form": "¿Dónde está [la orden::nakaz]?",
         "pl_translation": "Gdzie jest nakaz?"
       }
     ]
@@ -165,8 +165,8 @@
         "pl_translation": "Adwokat tu pracuje."
       },
       {
-        "es_form": "Esta es [el abogado::adwokat] de la que hablé.",
-        "pl_translation": "To jest adwokat, o której mówiłem."
+        "es_form": "Este es [el abogado::adwokat] del que hablé.",
+        "pl_translation": "To jest adwokat, o którym mówiłem."
       }
     ]
   },
@@ -214,7 +214,7 @@
     "pl_word": "zabroniony",
     "examples": [
       {
-        "es_form": "Es muy [prohibido::zabroniony].",
+        "es_form": "Está muy [prohibido::zabroniony].",
         "pl_translation": "Jest bardzo zabroniony."
       },
       {
@@ -222,7 +222,7 @@
         "pl_translation": "Wydaje się zabroniony."
       },
       {
-        "es_form": "Es demasiado [prohibido::zabroniony].",
+        "es_form": "Está demasiado [prohibido::zabroniony].",
         "pl_translation": "Jest zbyt zabroniony."
       }
     ]

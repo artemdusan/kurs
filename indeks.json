@@ -17,7 +17,7 @@
       "plik": "lekcje/ser.json",
       "gramatyka": {
         "tytul": "Ser — być (cechy stałe)",
-        "tresc": "SER opisuje cechy stałe: tożsamość, zawód, narodowość, charakter. Soy polaco (jestem Polakiem), Es médico (jest lekarzem). Odmiana present: soy, eres, es, somos, sois, son — trzeba ją znać na pamięć, bo jest całkowicie nieregularna."
+        "tresc": "SER służy m.in. do identyfikacji i opisu cech: tożsamość, zawód, narodowość, charakter. Soy polaco (jestem Polakiem), Es médico (jest lekarzem). Odmiana present: soy, eres, es, somos, sois, son — trzeba ją znać na pamięć, bo jest całkowicie nieregularna. Sam podział stałe/chwilowe nie wystarcza do wyboru ser/estar."
       }
     },
     {
@@ -28,7 +28,7 @@
       "plik": "lekcje/estar.json",
       "gramatyka": {
         "tytul": "Estar — być (stany i miejsca)",
-        "tresc": "ESTAR opisuje stany chwilowe i położenie: Estoy cansado (jestem zmęczony — teraz), El libro está aquí (książka jest tutaj). Porównaj: Es feliz (jest szczęśliwy z natury) vs Está feliz (jest szczęśliwy w tej chwili)."
+        "tresc": "ESTAR opisuje stany i położenie; stan nie musi być chwilowy: Estoy cansado (jestem zmęczony — teraz), El libro está aquí (książka jest tutaj). Porównaj: Es feliz (jest szczęśliwy z natury) vs Está feliz (jest szczęśliwy w tej chwili)."
       }
     },
     {
@@ -61,7 +61,7 @@
       "plik": "lekcje/ver.json",
       "gramatyka": {
         "tytul": "Koniugacja -ER (present)",
-        "tresc": "Czasowniki na -er mają końcówki: -o, -es, -e, -emos, -éis, -en. Ver jest prawie regularne: veo, ves, ve, vemos, veis, ven — tylko forma „yo” dodaje e (veo zamiast vo)."
+        "tresc": "Czasowniki na -er mają końcówki: -o, -es, -e, -emos, -éis, -en. Ver jest prawie regularne: veo, ves, ve, vemos, veis, ven — zapamiętaj szczególnie veo i vosotros veis."
       }
     },
     {
@@ -72,7 +72,7 @@
       "plik": "lekcje/vivir.json",
       "gramatyka": {
         "tytul": "Koniugacja -IR (present)",
-        "tresc": "Czasowniki na -ir odmieniają się jak -er poza „nosotros/vosotros”: vivo, vives, vive, vivimos, vivís, viven. Zaimek osobowy zwykle się pomija — vivo en Madrid wystarczy, „yo” dodajemy tylko dla podkreślenia."
+        "tresc": "Czasowniki na -ir odmieniają się jak -er poza „nosotros/vosotros”: vivo, vives, vive, vivimos, vivís, viven. Zaimek osobowy zwykle się pomija — vivo en Madrid wystarczy, zaimek dodajemy m.in. dla podkreślenia, kontrastu lub jasnego wskazania podmiotu."
       }
     },
     {
@@ -105,7 +105,7 @@
       "plik": "lekcje/hacer.json",
       "gramatyka": {
         "tytul": "Hacer — robić (nieregularne yo)",
-        "tresc": "Wiele czasowników jest nieregularnych tylko w formie „yo”: hago (robię), ale haces, hace... Podobnie: pongo, salgo, traigo. HACER tworzy też zwroty pogodowe: Hace calor (jest gorąco), Hace sol (jest słonecznie)."
+        "tresc": "W presente de indicativo niektóre czasowniki mają nieregularną tylko formę „yo”: hago (robię), ale haces, hace... Podobnie: pongo, salgo, traigo. HACER tworzy też zwroty pogodowe: Hace calor (jest gorąco), Hace sol (jest słonecznie)."
       }
     },
     {
@@ -116,7 +116,7 @@
       "plik": "lekcje/ir.json",
       "gramatyka": {
         "tytul": "Ir — iść + przyszłość „ir a”",
-        "tresc": "IR jest całkiem nieregularne: voy, vas, va, vamos, vais, van. Konstrukcja ir a + bezokolicznik wyraża bliską przyszłość: Voy a comer (zamierzam zjeść / zaraz zjem) — najczęstszy sposób mówienia o przyszłości w mowie potocznej."
+        "tresc": "IR jest całkiem nieregularne: voy, vas, va, vamos, vais, van. Konstrukcja ir a + bezokolicznik wyraża zamiar, przewidywanie lub przyszłe zdarzenie, niekoniecznie bliskie w czasie: Voy a comer (zamierzam zjeść / zaraz zjem) — najczęstszy sposób mówienia o przyszłości w mowie potocznej."
       }
     },
     {
@@ -182,7 +182,7 @@
       "plik": "lekcje/llover.json",
       "gramatyka": {
         "tytul": "Czasowniki bezosobowe (llover)",
-        "tresc": "Czasowniki pogodowe mają tylko 3. osobę liczby pojedynczej: llueve (pada deszcz), nieva (pada śnieg), llovió (padało), lloverá (będzie padać). Nie mają podmiotu — nie mówimy „ello llueve”."
+        "tresc": "W dosłownym użyciu pogodowym czasowniki te występują w 3. osobie liczby pojedynczej: llueve (pada deszcz), nieva (pada śnieg), llovió (padało), lloverá (będzie padać). Nie mają podmiotu — nie mówimy „ello llueve”."
       }
     },
     {
@@ -215,7 +215,7 @@
       "plik": "lekcje/jugar.json",
       "gramatyka": {
         "tytul": "Jugar (u→ue) i „jugar a”",
-        "tresc": "JUGAR to jedyny czasownik z przegłosem u→ue: juego, juegas, juega, jugamos, jugáis, juegan. Gry i sporty wymagają przyimka a: jugar al fútbol, jugar a las cartas. Na instrumencie gra się przez TOCAR, nie jugar."
+        "tresc": "JUGAR to jedyny czasownik z przegłosem u→ue: juego, juegas, juega, jugamos, jugáis, juegan. W Hiszpanii używamy przyimka a: jugar al fútbol, jugar a las cartas. W części Ameryki spotyka się też jugar fútbol. Na instrumencie gra się przez TOCAR, nie jugar."
       }
     },
     {
@@ -226,7 +226,7 @@
       "plik": "lekcje/leer.json",
       "gramatyka": {
         "tytul": "Przegłos e→ie, o→ue — podsumowanie",
-        "tresc": "Wiele czasowników zmienia samogłoskę rdzenia we wszystkich osobach POZA nosotros/vosotros: pensar→pienso, poder→puedo, leer jest regularne. Przegłos dotyczy tylko czasu teraźniejszego — w przyszłym znika: pensaré, podré."
+        "tresc": "W presente de indicativo wiele czasowników zmienia samogłoskę rdzenia we wszystkich osobach POZA nosotros/vosotros: pensar→pienso, poder→puedo, leer jest w tym czasie regularne. Zmiany rdzenia występują też w innych formach, np. piense (subjuntivo), durmió (indefinido). W futuro nie ma dyftongizacji e→ie/o→ue: pensaré; podré ma osobną nieregularność rdzenia."
       }
     },
     {
@@ -237,7 +237,7 @@
       "plik": "lekcje/viajar.json",
       "gramatyka": {
         "tytul": "Estar + gerundio (czynność trwająca)",
-        "tresc": "Odpowiednik angielskiego „-ing”: estar + gerundio. Gerundio: -ar→-ando, -er/-ir→-iendo. Estoy viajando (właśnie podróżuję), Está comiendo (właśnie je). Używaj tylko do czynności dziejących się w tej chwili."
+        "tresc": "Odpowiednik angielskiego „-ing”: estar + gerundio. Gerundio: -ar→-ando, -er/-ir→-iendo. Estoy viajando (właśnie podróżuję), Está comiendo (właśnie je). Konstrukcja opisuje czynność w toku w danym momencie lub okresie: Este año estoy estudiando español. Może dotyczyć przeszłości: Estaba comiendo cuando llamaste."
       }
     },
     {
@@ -292,7 +292,7 @@
       "plik": "lekcje/andar.json",
       "gramatyka": {
         "tytul": "Pretérito indefinido -AR",
-        "tresc": "Czas przeszły dokonany czasowników -ar: -é, -aste, -ó, -amos, -asteis, -aron. Anduve to wyjątek! ANDAR jest nieregularne: anduve, anduviste, anduvo... Indefinido opisuje zakończone zdarzenia: Ayer caminé mucho (wczoraj dużo chodziłem)."
+        "tresc": "Regularne końcówki pretérito indefinido czasowników -ar: -é, -aste, -ó, -amos, -asteis, -aron. Anduve to wyjątek! ANDAR jest nieregularne: anduve, anduviste, anduvo... Indefinido ujmuje przeszłe zdarzenia jako zamkniętą całość; nie odpowiada dokładnie polskiemu aspektowi dokonanemu: Ayer caminé mucho (wczoraj dużo chodziłem)."
       }
     },
     {
@@ -314,7 +314,7 @@
       "plik": "lekcje/lavar.json",
       "gramatyka": {
         "tytul": "Tryb rozkazujący (tú)",
-        "tresc": "Rozkaz dla „tú” = 3. os. l.poj. present: ¡Lava los platos! (umyj naczynia!), ¡Come! (jedz!). Nieregularne: haz (zrób), pon (połóż), ve (idź), di (powiedz), sal (wyjdź), ten (miej), ven (przyjdź)."
+        "tresc": "Regularny rozkaz twierdzący dla „tú” = 3. os. l.poj. present: ¡Lava los platos! (umyj naczynia!), ¡Come! (jedz!). Nieregularne: haz (zrób), pon (połóż), ve (idź), di (powiedz), sal (wyjdź), ten (miej), ven (przyjdź), sé (bądź). Rozkaz przeczący używa subjuntivo: No laves (nie myj)."
       }
     },
     {
@@ -424,7 +424,7 @@
       "plik": "lekcje/conocer.json",
       "gramatyka": {
         "tytul": "Osobowe „a”",
-        "tresc": "Gdy dopełnieniem jest OSOBA, obowiązkowo wstawiamy „a”: Conozco A tu hermano (znam twojego brata), Veo A la profesora. Przy rzeczach „a” nie ma: Conozco esta ciudad. To tzw. „a personal” — częsty błąd Polaków!"
+        "tresc": "Przed dopełnieniem bliższym oznaczającym konkretną osobę zwykle wstawiamy „a”: Conozco A tu hermano (znam twojego brata), Veo A la profesora. Przy rzeczach „a” nie ma: Conozco esta ciudad. To tzw. „a personal” — częsty błąd Polaków! Są wyjątki zależne od czasownika i określoności: Tengo dos hermanos, Busco un profesor (dowolnego)."
       }
     },
     {
@@ -435,7 +435,7 @@
       "plik": "lekcje/crecer.json",
       "gramatyka": {
         "tytul": "Czasowniki na -cer (crezco)",
-        "tresc": "Czasowniki na -cer/-cir po samogłosce mają -zco w 1. os.: crecer→crezco, conocer→conozco, parecer→parezco, conducir→conduzco. Pozostałe osoby są regularne: creces, crece..."
+        "tresc": "Wiele czasowników na -cer/-cir po samogłosce ma -zco w 1. os.: crecer→crezco, conocer→conozco, parecer→parezco, conducir→conduzco. Pozostałe osoby są regularne: creces, crece... Są wyjątki od reguły -zco: mecer→mezo, cocer→cuezo."
       }
     },
     {
@@ -445,7 +445,7 @@
       "czasownik": "proteger",
       "plik": "lekcje/proteger.json",
       "gramatyka": {
-        "tytul": "Przymiotniki z -ger/-gir (protejo)",
+        "tytul": "Czasowniki na -ger/-gir (protejo)",
         "tresc": "Czasowniki na -ger/-gir zmieniają g→j w 1. os., żeby zachować wymowę: proteger→protejo, dirigir→dirijo, elegir→elijo. Wymowa g przed e/i to polskie „ch” — dlatego pisownia musi się dostosować."
       }
     },
@@ -468,7 +468,7 @@
       "plik": "lekcje/celebrar.json",
       "gramatyka": {
         "tytul": "Daty i święta",
-        "tresc": "Data: el 25 de diciembre (bez „w”): La fiesta es el seis de enero. Święta z rodzajnikiem: la Navidad, la Nochevieja. ¿A cuántos estamos? — którego dziś mamy?"
+        "tresc": "Data: el 25 de diciembre (bez „w”): La fiesta es el seis de enero. Nazwy świąt mogą występować z rodzajnikiem: la Navidad, la Nochevieja. W częstych wyrażeniach rodzajnik pomijamy: en Navidad, en Nochevieja. ¿A cuántos estamos? — którego dziś mamy?"
       }
     },
     {
@@ -523,7 +523,7 @@
       "plik": "lekcje/reparar.json",
       "gramatyka": {
         "tytul": "Estar + participio (rezultat)",
-        "tresc": "Participio: -ado/-ido (reparado, roto). ESTAR + participio opisuje stan-rezultat: El coche está reparado (samochód jest naprawiony), La ventana está rota. Participio uzgadnia rodzaj i liczbę jak przymiotnik."
+        "tresc": "Regularne participio: -ado/-ido (reparado, comido). Roto to forma nieregularna od romper. ESTAR + participio opisuje stan-rezultat: El coche está reparado (samochód jest naprawiony), La ventana está rota. Participio uzgadnia rodzaj i liczbę jak przymiotnik."
       }
     },
     {
@@ -534,7 +534,7 @@
       "plik": "lekcje/pintar.json",
       "gramatyka": {
         "tytul": "Pretérito perfecto (he pintado)",
-        "tresc": "HABER (he, has, ha, hemos, habéis, han) + participio = czas przeszły „dzisiejszy”: Hoy he pintado un cuadro (dziś namalowałem obraz). Używany z hoy, esta semana, ya, todavía no. Participia nieregularne: hecho, visto, escrito, puesto."
+        "tresc": "HABER (he, has, ha, hemos, habéis, han) + participio = pretérito perfecto compuesto, często wiążące przeszłość z teraźniejszością: Hoy he pintado un cuadro (dziś namalowałem obraz). Używany z hoy, esta semana, ya, todavía no. Participia nieregularne: hecho, visto, escrito, puesto. Zakres użycia zależy od regionu i nie ogranicza się do dzisiaj: Nunca he estado en Perú."
       }
     },
     {
@@ -556,7 +556,7 @@
       "plik": "lekcje/curar.json",
       "gramatyka": {
         "tytul": "Doler — boleć (jak gustar)",
-        "tresc": "DOLER działa jak gustar: Me duele la cabeza (boli mnie głowa), Me duelen las piernas (bolą mnie nogi). Części ciała z rodzajnikiem, nie z zaimkiem dzierżawczym — nie mówimy „mi cabeza me duele”."
+        "tresc": "DOLER działa jak gustar: Me duele la cabeza (boli mnie głowa), Me duelen las piernas (bolą mnie nogi). W neutralnym zdaniu używamy rodzajnika: Me duele la cabeza. Zaimek dzierżawczy jest możliwy przy szczególnym podkreśleniu lub kontraście."
       }
     },
     {
@@ -600,7 +600,7 @@
       "plik": "lekcje/construir.json",
       "gramatyka": {
         "tytul": "Materiał: ser de",
-        "tresc": "Z czego coś jest zrobione wyraża ser + de: La mesa es de madera (stół jest z drewna), Es de metal. Pochodzenie też: Soy de Polonia. De nie łączy się z la/los/las — tylko de + el = del."
+        "tresc": "Z czego coś jest zrobione wyraża ser + de: La mesa es de madera (stół jest z drewna), Es de metal. Pochodzenie też: Soy de Polonia. De nie tworzy ściągnięcia z la/los/las: de la, de los, de las. Ściągnięcie zachodzi w de + el = del."
       }
     },
     {
@@ -655,7 +655,7 @@
       "plik": "lekcje/enviar.json",
       "gramatyka": {
         "tytul": "Acabar de — właśnie coś zrobić",
-        "tresc": "Acabar de + bezokolicznik = właśnie coś zrobić: Acabo de enviar el correo (właśnie wysłałem maila). Tylko w present i imperfecto: Acababa de llegar (właśnie był przyszedł). Nie używaj z indefinido!"
+        "tresc": "Acabar de + bezokolicznik = właśnie coś zrobić: Acabo de enviar el correo (właśnie wysłałem maila). Dla znaczenia niedawności podstawowe są presente i imperfecto: Acababa de llegar (właśnie był przyszedł). Acabé de leer też jest poprawne, ale oznacza skończyłem czytać — zakończenie czynności."
       }
     },
     {
@@ -732,7 +732,7 @@
       "plik": "lekcje/gobernar.json",
       "gramatyka": {
         "tytul": "Strona bierna z „se”",
-        "tresc": "Hiszpański unika strony biernej — używa „se”: Se habla español (mówi się po hiszpańsku), Se gobierna el país desde Madrid. Se + 3. osoba, liczba zgodna z rzeczownikiem: Se venden pisos (sprzedaje się mieszkania)."
+        "tresc": "W hiszpańskim częsta jest strona bierna z „se” (pasiva refleja): Se habla español (mówi się po hiszpańsku), Se gobierna el país desde Madrid. Se + 3. osoba, liczba zgodna z rzeczownikiem: Se venden pisos (sprzedaje się mieszkania)."
       }
     },
     {
@@ -808,8 +808,8 @@
       "czasownik": "reciclar",
       "plik": "lekcje/reciclar.json",
       "gramatyka": {
-        "tytul": "Se impersonal (ekologia)",
-        "tresc": "Se recicla el papel (papier się segreguje), Se debe proteger la naturaleza (należy chronić przyrodę). Se + 3. os. to najczęstszy sposób mówienia ogólnych zasad — bardzo przydatne w tekstach o ekologii i prawie."
+        "tytul": "Pasiva refleja i konstrukcje bezosobowe z se",
+        "tresc": "Se recicla el papel (papier poddaje się recyklingowi), Se debe proteger la naturaleza (należy chronić przyrodę). W pasiva refleja czasownik zgadza się z podmiotem: Se reciclan los papeles. Osobno istnieje bezosobowe se z 3. osobą liczby pojedynczej: Se vive bien aquí (dobrze się tu żyje)."
       }
     },
     {
@@ -820,7 +820,7 @@
       "plik": "lekcje/respirar.json",
       "gramatyka": {
         "tytul": "Rodzajnik z częściami ciała",
-        "tresc": "Z częściami ciała używamy rodzajnika, nie zaimka dzierżawczego: Me lavo LAS manos (myję ręce — nie „mis manos”), Respira por LA nariz. Posiadacza wskazuje zaimek zwrotny/celownikowy: Le duele el estómago."
+        "tresc": "Gdy posiadacz jest jasny, z częściami ciała zwykle używamy rodzajnika: Me lavo LAS manos (myję ręce — neutralny wzorzec), Respira por LA nariz. Posiadacza wskazuje zaimek zwrotny/celownikowy: Le duele el estómago. Dzierżawczy jest możliwy przy kontraście lub podkreśleniu."
       }
     },
     {
@@ -886,7 +886,7 @@
       "plik": "lekcje/creer.json",
       "gramatyka": {
         "tytul": "Creer que + indicativo/subjuntivo",
-        "tresc": "Creo que ES verdad (twierdzenie — indicativo), ale przeczenie wymaga subjuntivo: No creo que SEA verdad (nie sądzę, żeby to była prawda). Ta zmiana trybu po przeczeniu to klasyka hiszpańskiej gramatyki."
+        "tresc": "Creo que ES verdad (twierdzenie — indicativo), a po no creo que w neutralnym użyciu zwykle stosujemy subjuntivo: No creo que SEA verdad (nie sądzę, żeby to była prawda). Ta zmiana trybu po przeczeniu to klasyka hiszpańskiej gramatyki."
       }
     },
     {
@@ -930,7 +930,7 @@
       "plik": "lekcje/florecer.json",
       "gramatyka": {
         "tytul": "Rodzaj — wyjątki i pułapki",
-        "tresc": "Greckie -ma jest męskie: el problema, el tema, el clima. Żeńskie mimo -o: la mano, la foto. El agua, el águila — rodzajnik el przed akcentowanym a-, ale rzeczownik pozostaje żeński: el agua fría!"
+        "tresc": "Wiele rzeczowników greckiego pochodzenia na -ma jest męskich: el problema, el tema, el clima. Żeńskie mimo -o: la mano, la foto. El agua, el águila — rodzajnik el przed akcentowanym a-, ale rzeczownik pozostaje żeński: el agua fría! Istnieją wyjątki od tendencji -ma, np. la diadema."
       }
     },
     {
@@ -941,7 +941,7 @@
       "plik": "lekcje/guisar.json",
       "gramatyka": {
         "tytul": "Kuchenne czasowniki i „se me”",
-        "tresc": "Konstrukcja „se me” wyraża niezamierzone zdarzenia: Se me quemó la cena (kolacja mi się przypaliła), Se me olvidó (zapomniałem — „samo się zapomniało”). Winy nie ma nikt — bardzo hiszpańskie podejście."
+        "tresc": "Konstrukcja „se me” wyraża niezamierzone zdarzenia: Se me quemó la cena (kolacja mi się przypaliła), Se me olvidó (zapomniałem — „samo się zapomniało”). Konstrukcja wskazuje osobę, której dotyczy zdarzenie, i może przedstawiać je jako niezamierzone."
       }
     },
     {
@@ -1029,7 +1029,7 @@
       "plik": "lekcje/votar.json",
       "gramatyka": {
         "tytul": "Subjuntivo po „es importante que”",
-        "tresc": "Bezosobowe oceny wymagają subjuntivo: Es importante que votes (ważne, żebyś głosował), Es necesario que el gobierno actúe. Bez „que” — bezokolicznik: Es importante votar."
+        "tresc": "Wyrażenia oceny takie jak es importante/necesario que wymagają subjuntivo: Es importante que votes (ważne, żebyś głosował), Es necesario que el gobierno actúe. Bez „que” — bezokolicznik: Es importante votar."
       }
     },
     {
@@ -1106,7 +1106,7 @@
       "plik": "lekcje/lograr.json",
       "gramatyka": {
         "tytul": "Lograr + bezokolicznik i podsumowanie",
-        "tresc": "lograr + bezokolicznik = zdołać coś zrobić: Logré terminar el curso (udało mi się skończyć kurs). conseguir to synonim. Gratulacje — z tą lekcją znasz trzy czasy, oba tryby przeszłe i podstawy subjuntivo. ¡Lo has logrado!"
+        "tresc": "lograr + bezokolicznik = zdołać coś zrobić: Logré terminar el curso (udało mi się skończyć kurs). conseguir to synonim. W kursie ćwiczysz presente, indefinido i futuro; notatki omawiają również imperfecto i podstawy subjuntivo. Warto przećwiczyć te dodatkowe konstrukcje w zdaniach. ¡Lo has logrado!"
       }
     }
   ]

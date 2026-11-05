@@ -6,15 +6,15 @@
     "examples": [
       {
         "es_form": "Este es [el cumpleaños::urodziny].",
-        "pl_translation": "To jest urodziny."
+        "pl_translation": "To są urodziny."
       },
       {
         "es_form": "¿Dónde está [el cumpleaños::urodziny]?",
-        "pl_translation": "Gdzie jest urodziny?"
+        "pl_translation": "Gdzie są urodziny?"
       },
       {
         "es_form": "[El cumpleaños::urodziny] está aquí.",
-        "pl_translation": "Urodziny jest tutaj."
+        "pl_translation": "Urodziny są tutaj."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "życzenia",
     "examples": [
       {
-        "es_form": "Esta es [los deseos::życzenia].",
-        "pl_translation": "To jest życzenia."
+        "es_form": "Estos son [los deseos::życzenia].",
+        "pl_translation": "To są życzenia."
       },
       {
-        "es_form": "[Los deseos::życzenia] está sobre la mesa.",
+        "es_form": "[Los deseos::życzenia] están sobre la mesa.",
         "pl_translation": "Życzenia są na stole."
       },
       {
-        "es_form": "[Los deseos::życzenia] está aquí.",
-        "pl_translation": "Życzenia jest tutaj."
+        "es_form": "[Los deseos::życzenia] están aquí.",
+        "pl_translation": "Życzenia są tutaj."
       }
     ]
   },
@@ -173,19 +173,19 @@
   {
     "type": "noun",
     "es_word": "El Año Nuevo",
-    "pl_word": "Nowy Rok, Sylwester",
+    "pl_word": "Nowy Rok",
     "examples": [
       {
         "es_form": "Este es [el Año Nuevo::Nowy Rok].",
         "pl_translation": "To jest Nowy Rok."
       },
       {
-        "es_form": "[El Año Nuevo::Nowy Rok, Sylwester] se me hizo eterno.",
-        "pl_translation": "Nowy Rok, Sylwester mi się dłużył."
+        "es_form": "[El Año Nuevo::Nowy Rok] se me hizo eterno.",
+        "pl_translation": "Nowy Rok mi się dłużył."
       },
       {
-        "es_form": "No tengo [El Año Nuevo::Nowy Rok, Sylwester] suficiente.",
-        "pl_translation": "Nie mam wystarczająco Nowego Roku, Sylwestra."
+        "es_form": "Celebramos [el Año Nuevo::Nowy Rok] en casa.",
+        "pl_translation": "Świętujemy Nowy Rok w domu."
       }
     ]
   },
@@ -238,7 +238,7 @@
       },
       {
         "es_form": "No puedo [celebrar::świętować] el cumpleaños hoy.",
-        "pl_translation": "Nie mogę dziś świętować urodziny."
+        "pl_translation": "Nie mogę dziś świętować urodzin."
       }
     ],
     "forms": [

@@ -9,8 +9,8 @@
         "pl_translation": "To jest nieruchomość."
       },
       {
-        "es_form": "[La propiedad::nieruchomość, własność] es un derecho fundamental.",
-        "pl_translation": "Nieruchomość, własność jest podstawowym prawem."
+        "es_form": "[La propiedad::własność] es un derecho fundamental.",
+        "pl_translation": "Własność jest prawem podstawowym."
       },
       {
         "es_form": "No es [la propiedad::nieruchomość].",
@@ -119,16 +119,16 @@
     "pl_word": "pośrednik nieruchomości",
     "examples": [
       {
-        "es_form": "Llamé a [El agente inmobiliario::pośrednik nieruchomości] ayer.",
-        "pl_translation": "Zadzwoniłem wczoraj do pośrednika nieruchomości."
+        "es_form": "Hablé con [el agente inmobiliario::pośrednikiem nieruchomości] ayer.",
+        "pl_translation": "Rozmawiałem wczoraj z pośrednikiem nieruchomości."
       },
       {
         "es_form": "[El agente inmobiliario::pośrednik nieruchomości] me ayudó a encontrar piso.",
         "pl_translation": "Pośrednik nieruchomości pomógł mi znaleźć mieszkanie."
       },
       {
-        "es_form": "Contraté a [El agente inmobiliario::pośrednik nieruchomości] para la venta.",
-        "pl_translation": "Zatrudniłem pośrednika nieruchomości do sprzedaży."
+        "es_form": "[El agente inmobiliario::pośrednik nieruchomości] organizó la venta.",
+        "pl_translation": "Pośrednik nieruchomości zorganizował sprzedaż."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "media (prąd, gaz, woda)",
     "examples": [
       {
-        "es_form": "¿Dónde está [los suministros::media]?",
-        "pl_translation": "Gdzie jest media?"
+        "es_form": "¿Dónde están [los suministros::media]?",
+        "pl_translation": "Gdzie są media?"
       },
       {
-        "es_form": "[Los suministros::media] está aquí.",
-        "pl_translation": "Media jest tutaj."
+        "es_form": "[Los suministros::media] están aquí.",
+        "pl_translation": "Media są tutaj."
       },
       {
-        "es_form": "No es [los suministros::media].",
-        "pl_translation": "To nie jest media."
+        "es_form": "No son [los suministros::media].",
+        "pl_translation": "To nie są media."
       }
     ]
   },
@@ -180,11 +180,11 @@
         "pl_translation": "Wspólnota mieszkaniowa spotyka się w poniedziałki."
       },
       {
-        "es_form": "Pagué la cuota de [La comunidad de vecinos::wspólnota mieszkaniowa].",
+        "es_form": "Pagué la cuota de [la comunidad de vecinos::wspólnota mieszkaniowa].",
         "pl_translation": "Zapłaciłem składkę na wspólnotę mieszkaniową."
       },
       {
-        "es_form": "¿Has hablado con [La comunidad de vecinos::wspólnota mieszkaniowa]?",
+        "es_form": "¿Has hablado con [la comunidad de vecinos::wspólnota mieszkaniowa]?",
         "pl_translation": "Rozmawiałeś ze wspólnotą mieszkaniową?"
       }
     ]
@@ -238,7 +238,7 @@
       },
       {
         "es_form": "No puedo [adquirir::nabywać] una casa nueva hoy.",
-        "pl_translation": "Nie mogę dziś nabywać nowy dom."
+        "pl_translation": "Nie mogę dziś nabywać nowego domu."
       }
     ],
     "forms": [

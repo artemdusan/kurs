@@ -85,7 +85,7 @@
         "pl_translation": "To jest ręcznik."
       },
       {
-        "es_form": "Necesito [la toalla::ręcznik] nuevo.",
+        "es_form": "Necesito [la toalla::ręcznik] nueva.",
         "pl_translation": "Potrzebuję nowego ręcznika."
       },
       {
@@ -120,7 +120,7 @@
     "examples": [
       {
         "es_form": "¿Dónde está [el perfume::perfumy]?",
-        "pl_translation": "Gdzie jest perfumy?"
+        "pl_translation": "Gdzie są perfumy?"
       },
       {
         "es_form": "[El perfume::perfumy] está sobre la mesa.",
@@ -128,7 +128,7 @@
       },
       {
         "es_form": "[El perfume::perfumy] está aquí.",
-        "pl_translation": "Perfumy jest tutaj."
+        "pl_translation": "Perfumy są tutaj."
       }
     ]
   },
@@ -233,18 +233,18 @@
     "pl_word": "myć się",
     "examples": [
       {
-        "es_form": "Es importante [lavarse::myć] por la mañana.",
+        "es_form": "Es importante [lavarse::myć się] por la mañana.",
         "pl_translation": "Ważne jest myć się rano."
       },
       {
-        "es_form": "Hay que [lavarse::myć] por la mañana.",
+        "es_form": "Hay que [lavarse::myć się] por la mañana.",
         "pl_translation": "Trzeba myć się rano."
       }
     ],
     "forms": [
       {
         "es_word": "me lavo",
-        "pl_word": "myję (lavarse)",
+        "pl_word": "myję się (lavarse)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -252,14 +252,14 @@
         },
         "examples": [
           {
-            "es_form": "Yo [me lavo::myję] por la mañana.",
+            "es_form": "Yo [me lavo::myję się] por la mañana.",
             "pl_translation": "Myję się rano."
           }
         ]
       },
       {
         "es_word": "te lavas",
-        "pl_word": "myjesz (lavarse)",
+        "pl_word": "myjesz się (lavarse)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -267,14 +267,14 @@
         },
         "examples": [
           {
-            "es_form": "Tú [te lavas::myjesz] por la mañana.",
+            "es_form": "Tú [te lavas::myjesz się] por la mañana.",
             "pl_translation": "Myjesz się rano."
           }
         ]
       },
       {
         "es_word": "se lava",
-        "pl_word": "myje (lavarse)",
+        "pl_word": "myje się (lavarse)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -282,14 +282,14 @@
         },
         "examples": [
           {
-            "es_form": "Él [se lava::myje] por la mañana.",
+            "es_form": "Él [se lava::myje się] por la mañana.",
             "pl_translation": "Myje się rano."
           }
         ]
       },
       {
         "es_word": "nos lavamos",
-        "pl_word": "myjemy (lavarse)",
+        "pl_word": "myjemy się (lavarse)",
         "grammar": {
           "tense": "present",
           "person": 1,
@@ -297,14 +297,14 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [nos lavamos::myjemy] por la mañana.",
+            "es_form": "Nosotros [nos lavamos::myjemy się] por la mañana.",
             "pl_translation": "Myjemy się rano."
           }
         ]
       },
       {
         "es_word": "os laváis",
-        "pl_word": "myjecie (lavarse)",
+        "pl_word": "myjecie się (lavarse)",
         "grammar": {
           "tense": "present",
           "person": 2,
@@ -312,14 +312,14 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [os laváis::myjecie] por la mañana.",
+            "es_form": "Vosotros [os laváis::myjecie się] por la mañana.",
             "pl_translation": "Myjecie się rano."
           }
         ]
       },
       {
         "es_word": "se lavan",
-        "pl_word": "myją (lavarse)",
+        "pl_word": "myją się (lavarse)",
         "grammar": {
           "tense": "present",
           "person": 3,
@@ -327,14 +327,14 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [se lavan::myją] por la mañana.",
+            "es_form": "Ellos [se lavan::myją się] por la mañana.",
             "pl_translation": "Myją się rano."
           }
         ]
       },
       {
         "es_word": "me lavé",
-        "pl_word": "umyłem (lavarse)",
+        "pl_word": "umyłem się (lavarse)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -342,14 +342,14 @@
         },
         "examples": [
           {
-            "es_form": "Yo [me lavé::umyłem] por la mañana.",
+            "es_form": "Yo [me lavé::umyłem się] por la mañana.",
             "pl_translation": "Umyłem się rano."
           }
         ]
       },
       {
         "es_word": "te lavaste",
-        "pl_word": "umyłeś (lavarse)",
+        "pl_word": "umyłeś się (lavarse)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -357,14 +357,14 @@
         },
         "examples": [
           {
-            "es_form": "Tú [te lavaste::umyłeś] por la mañana.",
+            "es_form": "Tú [te lavaste::umyłeś się] por la mañana.",
             "pl_translation": "Umyłeś się rano."
           }
         ]
       },
       {
         "es_word": "se lavó",
-        "pl_word": "umył (lavarse)",
+        "pl_word": "umył się (lavarse)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -372,14 +372,14 @@
         },
         "examples": [
           {
-            "es_form": "Él [se lavó::umył] por la mañana.",
+            "es_form": "Él [se lavó::umył się] por la mañana.",
             "pl_translation": "Umył się rano."
           }
         ]
       },
       {
         "es_word": "nos lavamos",
-        "pl_word": "umyliśmy (lavarse)",
+        "pl_word": "umyliśmy się (lavarse)",
         "grammar": {
           "tense": "preterite",
           "person": 1,
@@ -387,14 +387,14 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [nos lavamos::umyliśmy] por la mañana.",
+            "es_form": "Nosotros [nos lavamos::umyliśmy się] por la mañana.",
             "pl_translation": "Umyliśmy się rano."
           }
         ]
       },
       {
         "es_word": "os lavasteis",
-        "pl_word": "umyliście (lavarse)",
+        "pl_word": "umyliście się (lavarse)",
         "grammar": {
           "tense": "preterite",
           "person": 2,
@@ -402,14 +402,14 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [os lavasteis::umyliście] por la mañana.",
+            "es_form": "Vosotros [os lavasteis::umyliście się] por la mañana.",
             "pl_translation": "Umyliście się rano."
           }
         ]
       },
       {
         "es_word": "se lavaron",
-        "pl_word": "umyli (lavarse)",
+        "pl_word": "umyli się (lavarse)",
         "grammar": {
           "tense": "preterite",
           "person": 3,
@@ -417,14 +417,14 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [se lavaron::umyli] por la mañana.",
+            "es_form": "Ellos [se lavaron::umyli się] por la mañana.",
             "pl_translation": "Umyli się rano."
           }
         ]
       },
       {
         "es_word": "me lavaré",
-        "pl_word": "będę myć (lavarse)",
+        "pl_word": "będę myć się (lavarse)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -432,14 +432,14 @@
         },
         "examples": [
           {
-            "es_form": "Yo [me lavaré::będę myć] por la mañana.",
+            "es_form": "Yo [me lavaré::będę myć się] por la mañana.",
             "pl_translation": "Będę myć się rano."
           }
         ]
       },
       {
         "es_word": "te lavarás",
-        "pl_word": "będziesz myć (lavarse)",
+        "pl_word": "będziesz myć się (lavarse)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -447,14 +447,14 @@
         },
         "examples": [
           {
-            "es_form": "Tú [te lavarás::będziesz myć] por la mañana.",
+            "es_form": "Tú [te lavarás::będziesz myć się] por la mañana.",
             "pl_translation": "Będziesz myć się rano."
           }
         ]
       },
       {
         "es_word": "se lavará",
-        "pl_word": "będzie myć (lavarse)",
+        "pl_word": "będzie myć się (lavarse)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -462,14 +462,14 @@
         },
         "examples": [
           {
-            "es_form": "Él [se lavará::będzie myć] por la mañana.",
+            "es_form": "Él [se lavará::będzie myć się] por la mañana.",
             "pl_translation": "Będzie myć się rano."
           }
         ]
       },
       {
         "es_word": "nos lavaremos",
-        "pl_word": "będziemy myć (lavarse)",
+        "pl_word": "będziemy myć się (lavarse)",
         "grammar": {
           "tense": "future",
           "person": 1,
@@ -477,14 +477,14 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [nos lavaremos::będziemy myć] por la mañana.",
+            "es_form": "Nosotros [nos lavaremos::będziemy myć się] por la mañana.",
             "pl_translation": "Będziemy myć się rano."
           }
         ]
       },
       {
         "es_word": "os lavaréis",
-        "pl_word": "będziecie myć (lavarse)",
+        "pl_word": "będziecie myć się (lavarse)",
         "grammar": {
           "tense": "future",
           "person": 2,
@@ -492,14 +492,14 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [os lavaréis::będziecie myć] por la mañana.",
+            "es_form": "Vosotros [os lavaréis::będziecie myć się] por la mañana.",
             "pl_translation": "Będziecie myć się rano."
           }
         ]
       },
       {
         "es_word": "se lavarán",
-        "pl_word": "będą myć (lavarse)",
+        "pl_word": "będą myć się (lavarse)",
         "grammar": {
           "tense": "future",
           "person": 3,
@@ -507,7 +507,7 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [se lavarán::będą myć] por la mañana.",
+            "es_form": "Ellos [se lavarán::będą myć się] por la mañana.",
             "pl_translation": "Będą myć się rano."
           }
         ]

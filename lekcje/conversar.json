@@ -13,7 +13,7 @@
         "pl_translation": "Potrzebuję nowego dialogu."
       },
       {
-        "es_form": "[El diálogo::dialog] es de madera.",
+        "es_form": "[El diálogo::dialog] es importante.",
         "pl_translation": "Dialog jest ważny."
       }
     ]
@@ -28,7 +28,7 @@
         "pl_translation": "Gdzie jest dyskusja?"
       },
       {
-        "es_form": "Necesito [la discusión::dyskusja] nuevo.",
+        "es_form": "Necesito [la discusión::dyskusja] nueva.",
         "pl_translation": "Potrzebuję nowej dyskusji."
       },
       {
@@ -59,7 +59,7 @@
   {
     "type": "noun",
     "es_word": "El compromiso",
-    "pl_word": "kompromis",
+    "pl_word": "zobowiązanie",
     "examples": [
       {
         "es_form": "Este es [el compromiso::kompromis].",
@@ -82,15 +82,15 @@
     "examples": [
       {
         "es_form": "Esta es [la disculpa::przeprosiny].",
-        "pl_translation": "To jest przeprosiny."
+        "pl_translation": "To są przeprosiny."
       },
       {
         "es_form": "[La disculpa::przeprosiny] es necesaria.",
-        "pl_translation": "Przeprosiny nic nie kosztują."
+        "pl_translation": "Przeprosiny są konieczne."
       },
       {
         "es_form": "[La disculpa::przeprosiny] está aquí.",
-        "pl_translation": "Przeprosiny jest tutaj."
+        "pl_translation": "Przeprosiny są tutaj."
       }
     ]
   },
@@ -123,8 +123,8 @@
         "pl_translation": "To jest rada."
       },
       {
-        "es_form": "No tengo [el consejo::rada] suficiente.",
-        "pl_translation": "Nie mam wystarczająco dobrej rady."
+        "es_form": "Necesito [un consejo::rady] mejor.",
+        "pl_translation": "Potrzebuję lepszej rady."
       },
       {
         "es_form": "[El consejo::rada] fue muy útil.",
