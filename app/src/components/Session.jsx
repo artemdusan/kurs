@@ -302,6 +302,7 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
           <div className="time-cell"><span className="time-num">{accuracy}%</span><span className="time-label">skuteczność</span></div>
           <div className="time-cell"><span className="time-num"><Icon name="up" size={12} /> {advances}</span><span className="time-label">awansów</span></div>
         </div>
+        {answered > 0 && <p className="summary-xp">+{counts.correct * 10 + advances * 20 + 50} XP</p>}
         {toast && <div className="toast">{toast}</div>}
         {news.map((label) => (
           <div className="milestone" key={label}><Icon name="star" size={14} /> {label}</div>

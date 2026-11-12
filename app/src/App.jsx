@@ -18,7 +18,7 @@ import HardWords from './components/HardWords.jsx';
 import Welcome from './components/Welcome.jsx';
 import {
   loadDeck, deckGoals, cardBuckets, claimMilestones, hardWords,
-  playerXp, playerLevel, dailyChallenge, challengeProgress, gamesToday, claimChallenge, challengeBonus, CHALLENGE_XP,
+  playerXp, playerLevel, dailyChallenge, challengeProgress, gamesToday, claimChallenge, challengeBonus, CHALLENGE_XP, claimLevelUp, rankFor, heartStock,
 } from './engine/insights.js';
 import { setSoundEnabled, sfx } from './sound.js';
 import { rain } from './particles.js';
@@ -51,6 +51,7 @@ export default function App() {
   const [today, setToday] = useState({ status: 'red', minutes: 0, advances: 0 });
   const [goals, setGoals] = useState({ total: 0, missing: 0, ready: 0 });
   const [player, setPlayer] = useState({ level: 1, into: 0, need: 200, xp: 0 });
+  const [hearts, setHearts] = useState(0); // zapas dodatkowych serc na bossa
   const [challenge, setChallenge] = useState(null); // { label, target, value, done }
   const [toast, setToast] = useState('');
   const [run, setRun] = useState(0); // kolejne podejście do tej samej sesji (np. rewanż z bossem)
@@ -132,6 +133,7 @@ export default function App() {
     updateBadge(status);
     setGoals(deckGoals(await loadDeck(unlocked)));
     setPlayer(playerLevel(playerXp(daily, await challengeBonus())));
+    setHearts(await heartStock());
     const ch = dailyChallenge(localDay(), s.dailyGoalMinutes || 10);
     setChallenge({ ...ch, ...challengeProgress(ch, day, await gamesToday(localDay())) });
   }
@@ -147,10 +149,7 @@ export default function App() {
     if (challengeProgress(ch, daily[today], await gamesToday(today)).done && (await claimChallenge(today))) {
       news.push(`Wyzwanie dnia: ${ch.label} (+${CHALLENGE_XP} XP)`);
     }
-    const level = playerLevel(playerXp(daily, await challengeBonus())).level;
-    const seen = await getMeta('playerLevelSeen', null);
-    if (seen !== level) await setMeta('playerLevelSeen', level);
-    if (seen !== null && level > seen) news.push(`Poziom gracza ${level}`);
+    news.push(...(await claimLevelUp(playerLevel(playerXp(daily, await challengeBonus())).level)));
     return [...news, ...(await collectMilestones(unlocked))];
   }
 
@@ -364,6 +363,10 @@ export default function App() {
           {streak.count > 0 && <span className="streak-chip"><Icon name="fire" size={12} />{streak.count}</span>}
           <span className="xp-level">LV {player.level}</span>
         </button>
+        <span className="rank-chip" title={`Ranga ${rankFor(player.level).label} — kolejna na poziomie ${rankFor(player.level).nextAt}. Dodatkowe serca na bossa: ${hearts}`}>
+          {rankFor(player.level).label}
+          {hearts > 0 && <span className="rank-hearts">{Array.from({ length: hearts }, (_, i) => <Icon key={i} name="heart" size={12} />)}</span>}
+        </span>
         <button className="btn ghost settings-btn" title="Ustawienia" aria-label="Ustawienia" onClick={() => setView('settings')}>
           <Icon name="gear" size={16} />
         </button>

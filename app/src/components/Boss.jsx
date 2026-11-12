@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { setUnlockedLesson } from '../db.js';
 import { ensureLessonImported } from '../course.js';
 import { addActivity } from '../activity.js';
-import { loadDeck } from '../engine/insights.js';
+import { loadDeck, heartStock, takeBossHeart } from '../engine/insights.js';
 import { bossFor, buildBossQuestions, finisherWords, applyHit, applyMiss, BOSS_HEARTS, CRIT_SHARE } from '../engine/boss.js';
 import { checkAnswer, splitArticle } from '../engine/answer.js';
 import { buildKeyboard, articleButtons } from '../engine/keyboard.js';
@@ -41,6 +41,8 @@ export default function Boss({ maxLesson, index, settings, onExit }) {
   const [typed, setTyped] = useState('');
   const [article, setArticle] = useState('');
   const [finWrong, setFinWrong] = useState(false);
+  const [maxHearts, setMaxHearts] = useState(BOSS_HEARTS); // z dodatkowym sercem za poziom gracza
+  const [spare, setSpare] = useState(0); // zapas dodatkowych serc
   const ref = useRef({ state, questions: [], pos: 0, finishers: [], finPos: 0, startedAt: 0, timer: 0, locked: false, alive: true });
   const statsRef = useRef({ hits: 0, mistakes: 0, seconds: 0, saved: false });
   const r = ref.current;
@@ -63,6 +65,7 @@ export default function Boss({ maxLesson, index, settings, onExit }) {
     r.questions = await buildBossQuestions(deck, maxLesson, boss);
     r.finishers = finisherWords(deck, maxLesson);
     r.pos = 0; r.finPos = 0;
+    if (r.alive) setSpare(await heartStock());
     return r.questions.length >= 4 && r.finishers.length > 0;
   }
 
@@ -87,9 +90,11 @@ export default function Boss({ maxLesson, index, settings, onExit }) {
     r.timer = later(() => answer(''), boss.time * 1000);
   }
 
-  function startFight() {
+  async function startFight() {
     statsRef.current = { hits: 0, mistakes: 0, seconds: 0, saved: false };
-    put({ hp: boss.hp, hearts: BOSS_HEARTS, shield: Boolean(boss.shield) });
+    const total = BOSS_HEARTS + (await takeBossHeart()); // dodatkowe serce zużywa się na tę walkę
+    setMaxHearts(total);
+    put({ hp: boss.hp, hearts: total, shield: Boolean(boss.shield) });
     setFx('');
     nextQuestion();
   }
@@ -97,7 +102,7 @@ export default function Boss({ maxLesson, index, settings, onExit }) {
   async function rematch() {
     setPhase('load');
     await prepare();
-    if (r.alive) startFight();
+    if (r.alive) await startFight();
   }
 
   function openFinisher() {
@@ -213,7 +218,7 @@ export default function Boss({ maxLesson, index, settings, onExit }) {
           <p className="boss-trait">{boss.trait}</p>
           <ul className="boss-rules">
             <li><Icon name="bolt" size={16} /><span>Odpowiedz, zanim pasek ataku się zapełni. Szybka odpowiedź to cios krytyczny.</span></li>
-            <li><Icon name="heart" size={16} /><span>Błąd albo spóźnienie kosztuje serce. Masz {BOSS_HEARTS}.</span></li>
+            <li><Icon name="heart" size={16} /><span>Błąd albo spóźnienie kosztuje serce. Masz {BOSS_HEARTS + (spare ? 1 : 0)}{spare ? ' (jedno dodatkowe za poziom gracza)' : ''}.</span></li>
             <li><Icon name="star" size={16} /><span>Na koniec cios kończący: wpisz słowo z lekcji.</span></li>
           </ul>
         </div>
@@ -235,7 +240,7 @@ export default function Boss({ maxLesson, index, settings, onExit }) {
         <p className={'boss-verdict' + (won ? ' won' : '')}>
           {won ? `Lekcja ${lesson} otwarta: ${next?.temat || ''}` : state.hp <= 1 ? 'Zabrakło ciosu kończącego.' : `Zostało mu ${state.hp} z ${boss.hp} punktów życia.`}
         </p>
-        <p className="hint">Trafienia: {s.hits} · błędy: {s.mistakes}{won && state.hearts === BOSS_HEARTS ? ' · bez straty serca!' : ''}</p>
+        <p className="hint">Trafienia: {s.hits} · błędy: {s.mistakes}{won && state.hearts === maxHearts ? ' · bez straty serca!' : ''}</p>
         {won ? (
           <button className="btn primary big" onClick={() => onExit()}>Otwórz lekcję {lesson}</button>
         ) : (
@@ -257,8 +262,8 @@ export default function Boss({ maxLesson, index, settings, onExit }) {
         <button className="btn ghost" onClick={async () => { await save(); onExit(); }} aria-label="Zakończ walkę">
           <Icon name="close" />
         </button>
-        <span className="hearts" aria-label={`Życia: ${state.hearts} z ${BOSS_HEARTS}`}>
-          {Array.from({ length: BOSS_HEARTS }, (_, i) => (
+        <span className="hearts" aria-label={`Życia: ${state.hearts} z ${maxHearts}`}>
+          {Array.from({ length: maxHearts }, (_, i) => (
             <span key={i} className={'heart' + (i < state.hearts ? '' : ' lost')}><Icon name="heart" size={20} /></span>
           ))}
         </span>
