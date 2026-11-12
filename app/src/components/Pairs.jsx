@@ -3,6 +3,7 @@ import { getMeta, setMeta } from '../db.js';
 import { addActivity } from '../activity.js';
 import { loadDeck, pairsDeck, dealBoard, pairPoints, PAIRS_PER_BOARD } from '../engine/insights.js';
 import Icon from './Icon.jsx';
+import { burst, floatText, rain, COLORS } from '../particles.js';
 
 // Mini gra „Pary na czas”: 60 sekund, łącz polskie słowo z hiszpańskim.
 // Nie zmienia poziomów kart (algorytm nauki zostaje nietknięty), ale liczy się
@@ -70,6 +71,7 @@ export default function Pairs({ maxLesson, settings, onExit }) {
     setBest(Math.max(previous, scoreRef.current));
     if (scoreRef.current > previous) {
       setRecord(previous > 0);
+      if (previous > 0) rain({ colors: COLORS.gold, seconds: 2 });
       await setMeta('pairsBest', scoreRef.current);
     }
     await save();
@@ -112,7 +114,7 @@ export default function Pairs({ maxLesson, settings, onExit }) {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [phase, board !== null]);
 
-  function tap(side, card) {
+  function tap(side, card, event) {
     if (phase !== 'play' || miss || gone.has(card.id)) return;
     if (!picked || picked.side === side) {
       setPicked(picked && picked.id === card.id ? null : { side, id: card.id });
@@ -122,6 +124,17 @@ export default function Pairs({ maxLesson, settings, onExit }) {
       const nextCombo = combo + 1;
       const nextGone = new Set(gone).add(card.id);
       scoreRef.current += pairPoints(nextCombo);
+      // wybuch z obu kafelków; im dłuższa seria, tym większy i bardziej złoty
+      const hot = nextCombo >= 3;
+      const tiles = [event?.currentTarget, document.querySelector(`.pair-tile.picked`)].filter(Boolean);
+      for (const el of tiles) {
+        const r = el.getBoundingClientRect();
+        burst({ x: r.left + r.width / 2, y: r.top + r.height / 2 }, { colors: hot ? COLORS.gold : COLORS.blue, power: 0.7 + Math.min(5, nextCombo) * 0.25 });
+      }
+      if (tiles[0]) {
+        const r = tiles[0].getBoundingClientRect();
+        floatText({ x: r.left + r.width / 2, y: r.top + 6 }, `+${pairPoints(nextCombo)}`, { color: hot ? '#ffd23f' : '#ffffff', size: hot ? 16 : 13 });
+      }
       statsRef.current.pairs++;
       setScore(scoreRef.current);
       setCombo(nextCombo);
@@ -171,7 +184,7 @@ export default function Pairs({ maxLesson, settings, onExit }) {
     if (picked && picked.side === side && picked.id === card.id) cls.push('picked');
     if (miss && miss[side] === card.id) cls.push('miss');
     return (
-      <button key={side + card.id} className={cls.join(' ')} disabled={gone.has(card.id)} onClick={() => tap(side, card)}>
+      <button key={side + card.id} className={cls.join(' ')} disabled={gone.has(card.id)} onClick={(e) => tap(side, card, e)}>
         {side === 'right' ? card.es : card.pl}
       </button>
     );

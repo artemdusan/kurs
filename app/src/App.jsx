@@ -36,8 +36,8 @@ export default function App() {
   const [unlockedLesson, setUnlockedLesson] = useState(1);
   const [lessonStats, setLessonStats] = useState({});
   const [streak, setStreak] = useState({ count: 0 });
-  const [today, setToday] = useState({ status: 'red', minutes: 0 });
-  const [goals, setGoals] = useState({ total: 0, missing: 0, ready: 0, promotable: 0 });
+  const [today, setToday] = useState({ status: 'red', minutes: 0, advances: 0 });
+  const [goals, setGoals] = useState({ total: 0, missing: 0, ready: 0 });
   const [toast, setToast] = useState('');
 
   useEffect(() => {
@@ -76,7 +76,7 @@ export default function App() {
           const daily = await getDailyStats();
           const day = daily[localDay()];
           const status = dayStatus(day, s.dailyGoalMinutes);
-          setToday({ status, minutes: Math.floor((day?.seconds || 0) / 60) });
+          setToday({ status, minutes: Math.floor((day?.seconds || 0) / 60), advances: day?.advances || 0 });
           updateBadge(status);
           setStreak(currentStreak(await getDailyStats()));
         })();
@@ -109,7 +109,7 @@ export default function App() {
     const daily = await getDailyStats();
     const day = daily[localDay()];
     const status = dayStatus(day, s.dailyGoalMinutes);
-    setToday({ status, minutes: Math.floor((day?.seconds || 0) / 60) });
+    setToday({ status, minutes: Math.floor((day?.seconds || 0) / 60), advances: day?.advances || 0 });
     updateBadge(status);
     setGoals(deckGoals(await loadDeck(unlocked)));
   }
@@ -310,7 +310,7 @@ export default function App() {
         </div>
       </div>
 
-      {/* cel na dziś: ile kart dzieli od kolejnej lekcji i ile może dziś awansować */}
+      {/* cel na dziś: ile kart dzieli od kolejnej lekcji i ile kart dziś awansowało */}
       <div className="goal-strip">
         {unlockedLesson < (index.lekcje.length || 100) ? (
           <div className="goal-cell" title="Kolejna lekcja otwiera się, gdy wszystkie karty mają co najmniej poziom 3">
@@ -324,8 +324,8 @@ export default function App() {
           </div>
         )}
         <div className="goal-cell">
-          <span className="goal-num goal-up"><Icon name="up" size={12} /> {goals.promotable}</span>
-          <span className="goal-label">kart do awansu dziś</span>
+          <span className="goal-num goal-up"><Icon name="up" size={12} /> {today.advances}</span>
+          <span className="goal-label">{today.advances === 1 ? 'awans dziś' : 'awansów dziś'}</span>
         </div>
       </div>
 

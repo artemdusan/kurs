@@ -10,15 +10,9 @@ after(async () => { await db.delete(); });
 
 const card = (id, level, extra = {}) => ({ word: { id, es: id, pl: 'pl-' + id, type: 'noun', ...extra.word }, level, progress: extra.progress === null ? null : { level, correctTotal: 1, wrongTotal: 0, lastSeenAt: 5, lastLevelChangeDay: '2026-11-04', ...extra.progress } });
 
-test('home goals: cards below the floor block the next lesson; only started, unchanged-today cards can still advance', () => {
-  const deck = [
-    card('a', 1, { progress: null }),                                // nowa, nietknięta
-    card('b', 2),                                                    // poniżej progu, do awansu
-    card('c', 3, { progress: { lastLevelChangeDay: '2026-11-05' } }),// zmieniona dziś
-    card('d', 10),                                                   // na maksimum
-    card('e', 6),
-  ];
-  assert.deepEqual(deckGoals(deck, '2026-11-05', 3), { total: 5, missing: 2, ready: 3, promotable: 2 });
+test('home goals: cards below the floor block the next lesson', () => {
+  const deck = [card('a', 1, { progress: null }), card('b', 2), card('c', 3), card('d', 10), card('e', 6)];
+  assert.deepEqual(deckGoals(deck, 3), { total: 5, missing: 2, ready: 3 });
   assert.deepEqual(cardBuckets(deck), { fresh: 2, learning: 1, gold: 2 });
 });
 

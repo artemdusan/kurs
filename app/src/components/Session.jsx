@@ -11,6 +11,7 @@ import Keyboard from './Keyboard.jsx';
 import Cloze, { parseExample } from './Cloze.jsx';
 import Icon from './Icon.jsx';
 import LevelDots from './LevelDots.jsx';
+import { burst, floatText, rain, centerOf, COLORS } from '../particles.js';
 
 function speak(text, enabled) {
   if (!enabled || !('speechSynthesis' in window)) return;
@@ -61,6 +62,8 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
   // zapisujemy na bieżąco w dniu ich wystąpienia.
   const sessionDayRef = useRef(localDay());
   poolRef.current = pool;
+  const countsRef = useRef(counts);
+  countsRef.current = counts;
 
   useEffect(() => {
     let cancelled = false;
@@ -179,7 +182,17 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
     const levelBefore = task.entry.progress.level;
     const updated = await recordAnswer(task.entry, correct, { clearMistake: mode === 'mistakes' });
     setUserAnswer(userAnswer);
-    if (updated.progress.level > levelBefore) setAdvances((n) => n + 1);
+    const advanced = updated.progress.level > levelBefore;
+    if (advanced) setAdvances((n) => n + 1);
+    // cząsteczki: mały wybuch za dobrą odpowiedź, większy za awans, złoty od poziomu 6
+    const at = centerOf('.cloze-gap');
+    if (correct) {
+      const gold = updated.progress.level >= 6;
+      burst(at, { colors: gold ? COLORS.gold : COLORS.ok, power: advanced ? (gold ? 2.2 : 1.6) : 0.8 });
+      if (advanced) floatText({ x: at.x, y: at.y - 18 }, `poz. ${updated.progress.level}`, { color: gold ? '#ffd23f' : '#3fb950', size: 12 });
+    } else {
+      burst(at, { colors: COLORS.bad, power: 0.5 });
+    }
     if (!correct) {
       setMistakes((list) => (list.some((m) => m.id === task.entry.word.id)
         ? list
@@ -244,12 +257,14 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
     // lekcji mogło spaść na poziom 1 dopiero w trakcie tej samej sesji — wtedy
     // materiał nie jest jeszcze opanowany i nowej lekcji nie odblokowujemy.
     const nextLesson = maxLesson + 1;
+    let unlockedNow = false;
     if (
       index &&
       nextLesson <= (index.lekcje?.length || 0) &&
       (await lessonFloorReached(maxLesson, settings.floorLevel))
     ) {
       await setUnlockedLesson(nextLesson);
+      unlockedNow = true;
       await ensureLessonImported(nextLesson);
       const next = index.lekcje.find((l) => l.numer === nextLesson);
       setToast(`🎉 Odblokowano lekcję ${nextLesson}: ${next?.temat || ''}`);
@@ -258,6 +273,10 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
     setPhase('done');
     const found = await onFinished?.(poolRef.current || currentPool || pool);
     if (Array.isArray(found)) setNews(found);
+    // duże chwile: nowa lekcja, kamień milowy albo sesja bez błędu
+    const unlocked = unlockedNow;
+    if (unlocked || (Array.isArray(found) && found.length)) rain({ seconds: 2 });
+    else if (countsRef.current.correct > 0 && countsRef.current.wrong === 0) rain({ colors: COLORS.ok, seconds: 1, density: 45 });
   }
 
   if (!pool || (!task && phase !== 'done')) {
