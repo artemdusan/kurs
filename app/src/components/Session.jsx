@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { saveSettings, setUnlockedLesson } from '../db.js';
-import { buildSessionPool, buildMistakesPool, buildHardPool, pickNext, recordAnswer, requiredStreak, lessonFloorReached, SESSION_POOL_SIZE } from '../engine/session.js';
+import { buildSessionPool, buildMistakesPool, buildHardPool, pickNext, recordAnswer, requiredStreak, SESSION_POOL_SIZE } from '../engine/session.js';
 import { ensureLessonImported } from '../course.js';
 import { addActivity } from '../activity.js';
 import { localDay } from '../../../shared/learning.js';
@@ -11,6 +11,7 @@ import Keyboard from './Keyboard.jsx';
 import Cloze, { parseExample } from './Cloze.jsx';
 import Icon from './Icon.jsx';
 import LevelDots from './LevelDots.jsx';
+import BossSprite from './BossSprite.jsx';
 import { burst, floatText, rain, centerOf, COLORS } from '../particles.js';
 import { sfx } from '../sound.js';
 
@@ -27,7 +28,11 @@ function speak(text, enabled) {
 }
 
 // Tryby: 'normal' (pełna sesja na czas), 'quick' (2 minuty, niski próg wejścia),
-// 'mistakes' (powtórka dzisiejszych spadków) i 'hard' (trudne słowa) — obie bez limitu czasu.
+// 'mistakes' (powtórka dzisiejszych spadków) i 'hard' (trudne słowa) — obie bez limitu czasu,
+// oraz 'boss': walka o kolejną lekcję. Dobra odpowiedź zabiera bossowi punkt życia,
+// błąd zabiera serce. Wygrana otwiera lekcję; poziomy kart zmieniają się jak w zwykłej sesji.
+export const BOSS_HP = 8;
+export const BOSS_HEARTS = 3;
 export const QUICK_MINUTES = 2;
 // Zadania ze słuchu: dla kart od tego poziomu co czwarte pytanie jest dyktandem.
 export const LISTEN_MIN_LEVEL = 4;
@@ -35,7 +40,15 @@ export const LISTEN_SHARE = 0.25;
 
 export default function Session({ settings, maxLesson, index, mode = 'normal', onExit, onFinished, onSettingsChange }) {
   const sessionMinutes = mode === 'quick' ? QUICK_MINUTES : settings.sessionMinutes;
-  const untimed = mode === 'mistakes' || mode === 'hard';
+  const boss = mode === 'boss';
+  const untimed = mode === 'mistakes' || mode === 'hard' || boss;
+  const [bossHp, setBossHp] = useState(BOSS_HP);
+  const [hearts, setHearts] = useState(BOSS_HEARTS);
+  const [bossFx, setBossFx] = useState(''); // '' | 'hit' | 'attack' — animacja po odpowiedzi
+  const [outcome, setOutcome] = useState(null); // wynik walki: 'won' | 'lost'
+  const fightRef = useRef({ hp: BOSS_HP, hearts: BOSS_HEARTS });
+  // lekcja, o którą toczy się walka — po wygranej maxLesson rośnie, a ekran ma dalej mówić o tej samej
+  const bossLesson = useRef(maxLesson + 1).current;
   const [pool, setPool] = useState(null);
   const [tts, setTts] = useState(settings.tts);
   const [task, setTask] = useState(null);
@@ -110,10 +123,11 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
 
   async function makeTask(currentPool) {
     if (Date.now() >= endAtRef.current) return finish(currentPool);
+    if (boss && (fightRef.current.hp <= 0 || fightRef.current.hearts <= 0)) return finish(currentPool);
     const entry = pickNext(currentPool, prevWordRef.current);
     if (!entry) {
       // powtórka błędów: pula skończona = koniec sesji (bez dolosowywania obcych słów)
-      if (untimed) return finish(currentPool);
+      if (untimed && !boss) return finish(currentPool);
       // tryb zwykły: pula wyczerpana, ale czas jeszcze biegnie — dolosuj automatycznie
       return drawMore(currentPool);
     }
@@ -207,6 +221,12 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
     if (advanced) setAdvances((n) => n + 1);
     // cząsteczki: mały wybuch za dobrą odpowiedź, większy za awans, złoty od poziomu 6
     const at = centerOf(task.listen ? '.typed-preview' : '.cloze-gap');
+    if (boss) {
+      const f = fightRef.current;
+      if (correct) { f.hp -= 1; setBossHp(f.hp); } else { f.hearts -= 1; setHearts(f.hearts); }
+      setBossFx('');
+      requestAnimationFrame(() => setBossFx(correct ? 'hit' : 'attack'));
+    }
     const nextStreak = correct ? streak + 1 : 0;
     setStreak(nextStreak);
     if (correct) {
@@ -278,24 +298,19 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
     // Sekundy są już zapisane; tutaj zapisujemy jedynie ukończenie sesji.
     await addActivity({ sessions: 1 }, sessionDayRef.current);
 
-    // Odblokowanie kolejnej lekcji — dopiero po sesji i tylko gdy WSZYSTKIE
-    // słowa ze wszystkich odblokowanych lekcji (1..maxLesson) są na floorLevel.
-    // Sprawdzamy świeżo tutaj (a nie w trakcie sesji), bo słowo z wcześniejszej
-    // lekcji mogło spaść na poziom 1 dopiero w trakcie tej samej sesji — wtedy
-    // materiał nie jest jeszcze opanowany i nowej lekcji nie odblokowujemy.
-    const nextLesson = maxLesson + 1;
+    // Kolejną lekcję otwiera wygrana z bossem. Walka jest dostępna dopiero, gdy
+    // wszystkie karty mają wymagany poziom, więc sama wygrana wystarcza —
+    // potknięcie w trakcie walki nie odbiera nagrody.
+    const nextLesson = bossLesson;
     let unlockedNow = false;
-    if (
-      index &&
-      nextLesson <= (index.lekcje?.length || 0) &&
-      (await lessonFloorReached(maxLesson, settings.floorLevel))
-    ) {
-      await setUnlockedLesson(nextLesson);
-      unlockedNow = true;
-      await ensureLessonImported(nextLesson);
-      const next = index.lekcje.find((l) => l.numer === nextLesson);
-      setToast(`🎉 Odblokowano lekcję ${nextLesson}: ${next?.temat || ''}`);
-      setTimeout(() => setToast(''), 5000);
+    if (boss) {
+      const won = fightRef.current.hp <= 0;
+      setOutcome(won ? 'won' : 'lost');
+      if (won && index && nextLesson <= (index.lekcje?.length || 0)) {
+        await setUnlockedLesson(nextLesson);
+        unlockedNow = true;
+        await ensureLessonImported(nextLesson);
+      }
     }
     setPhase('done');
     const found = await onFinished?.(poolRef.current || currentPool || pool);
@@ -315,7 +330,15 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
     const accuracy = answered ? Math.round((counts.correct / answered) * 100) : 0;
     return (
       <div className="screen session-summary">
-        <h2>{mode === 'quick' ? 'Szybka sesja zaliczona' : 'Sesja zakończona'}</h2>
+        {boss && <BossSprite seed={bossLesson} size={96} className={'boss-final ' + (outcome === 'won' ? 'defeated' : 'gloat')} />}
+        <h2>{boss ? (outcome === 'won' ? 'Boss pokonany!' : 'Boss wygrał tę rundę') : mode === 'quick' ? 'Szybka sesja zaliczona' : 'Sesja zakończona'}</h2>
+        {boss && (
+          <p className={'boss-verdict' + (outcome === 'won' ? ' won' : '')}>
+            {outcome === 'won'
+              ? `Lekcja ${bossLesson} otwarta: ${index?.lekcje.find((l) => l.numer === bossLesson)?.temat || ''}`
+              : `Zabrakło ${fightRef.current.hp} ${fightRef.current.hp === 1 ? 'trafienia' : 'trafień'}. Odpowiedzi i tak zapisały się w kartach.`}
+          </p>
+        )}
         <div className="summary-grid">
           <div className="time-cell"><span className="time-num num-ok">{counts.correct}</span><span className="time-label">dobrze</span></div>
           <div className="time-cell"><span className="time-num num-bad">{counts.wrong}</span><span className="time-label">źle</span></div>
@@ -342,9 +365,15 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
           answered > 0 && <p className="summary-clean">Bez ani jednego błędu!</p>
         )}
         <div className="home-bottom">
-          <button className="btn" onClick={() => onExit('pairs')}>
-            <Icon name="pairs" size={14} /> Runda bonusowa: Pary
-          </button>
+          {boss && outcome === 'lost' ? (
+            <button className="btn" onClick={() => onExit('boss')}>
+              <Icon name="repeat" size={14} /> Rewanż
+            </button>
+          ) : (
+            <button className="btn" onClick={() => onExit('pairs')}>
+              <Icon name="pairs" size={14} /> Runda bonusowa: Pary
+            </button>
+          )}
           <button className="btn primary big" onClick={() => onExit()}>Wróć do kursu</button>
         </div>
       </div>
@@ -374,7 +403,13 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
         <button className="btn ghost" onClick={() => finish(pool)} aria-label="Zakończ sesję">
           <Icon name="close" />
         </button>
-        {untimed ? (
+        {boss ? (
+          <span className="hearts" aria-label={`Życia: ${hearts} z ${BOSS_HEARTS}`}>
+            {Array.from({ length: BOSS_HEARTS }, (_, i) => (
+              <span key={i} className={'heart' + (i < hearts ? '' : ' lost')}><Icon name="heart" size={20} /></span>
+            ))}
+          </span>
+        ) : untimed ? (
           <span className="timer" title="Powtórka bez limitu czasu"><Icon name="repeat" size={16} /></span>
         ) : mode === 'quick' ? (
           <span className="timer"><Icon name="bolt" size={12} /> {mins}:{secs}</span>
@@ -390,9 +425,21 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
         </button>
       </div>
 
-      <div className="session-progress" title={progressTitle}>
-        <div className="session-progress-fill" style={{ width: progressPct + '%' }} />
-      </div>
+      {boss ? (
+        <div className="boss-row">
+          <BossSprite seed={bossLesson} size={56} className={bossFx ? 'boss-' + bossFx : ''} />
+          <div className="boss-info">
+            <span className="boss-name">Strażnik lekcji {bossLesson}</span>
+            <div className="boss-hp" aria-label={`Życie bossa: ${bossHp} z ${BOSS_HP}`}>
+              {Array.from({ length: BOSS_HP }, (_, i) => <span key={i} className={'boss-hp-seg' + (i < bossHp ? ' on' : '')} />)}
+            </div>
+          </div>
+        </div>
+      ) : (
+        <div className="session-progress" title={progressTitle}>
+          <div className="session-progress-fill" style={{ width: progressPct + '%' }} />
+        </div>
+      )}
 
       <div className="prompt-wrap">
         <div className="prompt">

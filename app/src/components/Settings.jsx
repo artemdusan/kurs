@@ -9,6 +9,22 @@ import Icon from './Icon.jsx';
 // wstrzykiwana przy buildzie z package.json (vite.config.js: define)
 const APP_VERSION = typeof __APP_VERSION__ !== 'undefined' ? __APP_VERSION__ : 'dev';
 
+// Wybór jednej z kilku wartości jednym dotknięciem (zamiast wpisywania liczby).
+// Wartość spoza listy (np. ustawiona w starszej wersji) dochodzi jako dodatkowa opcja.
+function Choice({ label, unit, options, value, onPick }) {
+  const all = options.includes(value) ? options : [...options, value].sort((a, b) => a - b);
+  return (
+    <div className="field">
+      <span>{label} <span className="hint-inline">({unit})</span></span>
+      <div className="choice" role="group" aria-label={label}>
+        {all.map((o) => (
+          <button key={o} className={'choice-btn' + (o === value ? ' active' : '')} aria-pressed={o === value} onClick={() => onPick(o)}>{o}</button>
+        ))}
+      </div>
+    </div>
+  );
+}
+
 export default function Settings({ settings, index, onChange, onSynced, onBack }) {
   const [form, setForm] = useState(settings);
   const [syncMsg, setSyncMsg] = useState('');
@@ -82,40 +98,30 @@ export default function Settings({ settings, index, onChange, onSynced, onBack }
         <span />
       </div>
 
-      <label className="field">
-        Długość sesji (minuty)
-        <input
-          type="number" min="3" max="60" value={form.sessionMinutes}
-          onChange={(e) => set('sessionMinutes', Number(e.target.value) || 10)}
-        />
-      </label>
-
-      <label className="field">
-        Dzienny cel nauki (minuty — zielona buźka)
-        <input
-          type="number" min="1" max="120" value={form.dailyGoalMinutes}
-          onChange={(e) => set('dailyGoalMinutes', Number(e.target.value) || 10)}
-        />
-      </label>
+      <Choice label="Długość sesji" unit="min" options={[5, 10, 15, 20]} value={form.sessionMinutes} onPick={(v) => set('sessionMinutes', v)} />
+      <Choice label="Dzienny cel nauki" unit="min" options={[5, 10, 15, 20, 30]} value={form.dailyGoalMinutes} onPick={(v) => set('dailyGoalMinutes', v)} />
 
       <label className="field row">
         <input
           type="checkbox" checked={form.sfx !== false}
           onChange={(e) => { setSoundEnabled(e.target.checked); set('sfx', e.target.checked); if (e.target.checked) sfx.levelUp(); }}
         />
-        Dźwięki (efekty 8-bit)
+        Dźwięki
       </label>
       <label className="field row">
         <input type="checkbox" checked={form.listening !== false} onChange={(e) => set('listening', e.target.checked)} />
-        Zadania ze słuchu (karty od poziomu 4)
+        Zadania ze słuchu
       </label>
 
-      <h3>Synchronizacja (opcjonalna)</h3>
+      {/* konto i przypomnienia są opcjonalne — zwinięte, dopóki nie są skonfigurowane */}
+      <details className="settings-more" open={Boolean(settings.syncLogin)}>
+      <summary>Synchronizacja i przypomnienia</summary>
+      <p className="hint">Opcjonalne: te same postępy na kilku urządzeniach.</p>
       {/* Adres serwera jest wstrzykiwany przy buildzie (VITE_SYNC_URL) — pole
           pokazujemy tylko, gdy build nie ma skonfigurowanego adresu. */}
       {!DEFAULT_SYNC_URL && (
         <label className="field">
-          Adres serwera (Cloudflare Worker)
+          Adres serwera
           <input
             type="url"
             placeholder="https://kurs.example.workers.dev"
@@ -156,9 +162,9 @@ export default function Settings({ settings, index, onChange, onSynced, onBack }
         Wymagają skonfigurowanej synchronizacji.
       </p>
       {pushState === 'unsupported' ? (
-        <p className="sync-msg">Ta przeglądarka nie obsługuje powiadomień push.</p>
+        <p className="hint">Ta przeglądarka nie obsługuje powiadomień push.</p>
       ) : pushState === 'denied' ? (
-        <p className="sync-msg">Powiadomienia zablokowane w ustawieniach przeglądarki.</p>
+        <p className="hint">Powiadomienia są zablokowane w ustawieniach przeglądarki.</p>
       ) : (
         <button className="btn" disabled={pushBusy} onClick={togglePush}>
           {pushBusy
@@ -185,8 +191,8 @@ export default function Settings({ settings, index, onChange, onSynced, onBack }
         </>
       )}
       {pushMsg && <p className="sync-msg">{pushMsg}</p>}
+      </details>
 
-      <h3>O aplikacji</h3>
       <p className="about-versions">
         Aplikacja: v{APP_VERSION}
         <br />
