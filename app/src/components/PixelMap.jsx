@@ -1,29 +1,9 @@
 import React from 'react';
+import { MAP_CELLS, ISLANDS } from '../engine/map.js';
 
 // Pikselowa mapa kursu: 100 pól w kształcie Półwyspu Iberyjskiego, jedno na lekcję.
 // Zamknięte lekcje to ciemna sylwetka, otwarte zielenieją wraz z postępem,
 // w pełni opanowane są złote. Pola idą wężykiem od północnego zachodu na południe.
-// X = pole lekcji, o = Baleary (ozdoba, bez lekcji).
-const SHAPE = [
-  '.XXXXXXXXX......',
-  'XXXXXXXXXXXXX...',
-  'XXXXXXXXXXXXXX..',
-  '.XXXXXXXXXXX....',
-  '.XXXXXXXXXXX..o.',
-  '.XXXXXXXXXX..o..',
-  'XXXXXXXXXXX.....',
-  '.XXXXXXXX.......',
-  '.XXXXXXX........',
-  '..XXXXX.........',
-  '....X...........',
-];
-const cellsOf = (ch) => SHAPE.flatMap((row, y) => {
-  const xs = [...row].map((c, x) => (c === ch ? x : -1)).filter((x) => x >= 0);
-  return (y % 2 ? xs.reverse() : xs).map((x) => ({ x, y }));
-});
-export const MAP_CELLS = cellsOf('X');
-const ISLANDS = cellsOf('o');
-
 export default function PixelMap({ unlockedLesson, lessonStats, current, onSelect }) {
   return (
     <svg className="pixel-map" viewBox="-0.5 -0.5 17 12" shapeRendering="crispEdges" role="img" aria-label={`Mapa kursu: otwarte ${unlockedLesson} z ${MAP_CELLS.length} lekcji`}>

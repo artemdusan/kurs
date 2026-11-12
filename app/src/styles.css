@@ -915,34 +915,67 @@ h3, .preview-h { font-family: var(--ui); font-size: 12px; font-weight: 800; lett
 /* --- sesja: karta bliżej klawiatury --- */
 .prompt-wrap { align-items: flex-end; padding-bottom: 14px; }
 
-/* --- walka z bossem --- */
+/* --- walka z bossem (Boss.jsx) --- */
 .hearts { display: inline-flex; gap: 4px; color: var(--red); }
 .heart.lost { color: var(--card2); }
-.boss-row { display: flex; align-items: center; gap: 12px; flex: none; }
+.screen.boss-screen { height: 100dvh; overflow: hidden; gap: 10px; }
 .boss-sprite { flex: none; image-rendering: pixelated; }
-.boss-info { flex: 1; min-width: 0; display: flex; flex-direction: column; gap: 6px; }
+.boss-stage { display: flex; flex-direction: column; align-items: center; gap: 6px; flex: none; }
+.boss-figure { position: relative; padding: 6px; }
+.boss-figure.shielded { outline: 3px solid var(--blue); outline-offset: 0; box-shadow: 0 0 14px rgba(76, 194, 255, 0.5); animation: shieldPulse 1s steps(2) infinite alternate; }
 .boss-name { font-size: 13px; font-weight: 700; color: var(--muted); }
-.boss-hp { display: flex; gap: 3px; height: 14px; }
+.boss-hp { display: flex; gap: 3px; height: 14px; width: 100%; }
 .boss-hp-seg { flex: 1; background: var(--card); box-shadow: inset 1px 1px 0 var(--edge-dark); }
 .boss-hp-seg.on { background: var(--red); box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.35), inset -1px -1px 0 rgba(0, 0, 0, 0.35); }
+.boss-charge { width: 100%; height: 6px; background: var(--card); }
+.boss-charge-fill { height: 100%; width: 0; background: var(--amber); }
+.boss-charge-fill.run { animation: bossCharge linear forwards; }
+.boss-note { min-height: 20px; font-size: 13px; font-weight: 700; color: var(--muted); text-align: center; }
+.boss-note.on { color: var(--gold); animation: popBlock 0.2s steps(3); }
+.boss-question { flex: 1; min-height: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 6px; background: var(--card); padding: 12px; text-align: center; box-shadow: inset 2px 2px 0 var(--edge-light), inset -2px -2px 0 var(--edge-dark); }
+.boss-question.finisher { flex: none; padding: 14px 12px; }
+.boss-question.bad { background: var(--red-dark); animation: shake 0.3s steps(6); }
+.boss-hint { font-size: 13px; color: var(--muted); }
+.boss-question.bad .boss-hint { color: #ffd0d0; }
+.boss-answer { font-size: 26px; font-weight: 800; }
+.boss-options { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; flex: none; }
+.boss-options.three { grid-template-columns: 1fr; }
+.btn.boss-option { min-height: 64px; padding: 10px 8px; font-size: 18px; overflow-wrap: anywhere; }
+.boss-options.kind-article .btn.boss-option { min-height: 84px; font-family: var(--pixel); font-weight: 400; font-size: 20px; }
+.btn.boss-option:disabled { opacity: 1; }
+.btn.boss-option.right { background: var(--green); color: #06230c; }
+.btn.boss-option.wrong { background: var(--red); color: #fff; }
+.btn.boss-option.dim { opacity: 0.35; }
+.boss-idle { animation: bossIdle 1.2s steps(2) infinite alternate; }
 .boss-hit { animation: bossHit 0.4s steps(6); }
-.boss-attack { animation: bossAttack 0.4s steps(6); }
-.boss-final { align-self: center; margin-top: 8px; }
+.boss-attack { animation: bossAttack 0.45s steps(6); }
+.boss-dizzy { animation: bossDizzy 0.8s steps(4) infinite; filter: saturate(0.5); }
+.boss-intro-body { flex: 1; min-height: 0; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; text-align: center; }
+.boss-intro-body h2 { font-family: var(--ui); font-size: 28px; font-weight: 800; margin-top: 8px; }
+.boss-sub { margin: 0; color: var(--muted); font-size: 14px; }
+.boss-trait { margin: 6px 0; padding: 10px 14px; background: var(--card); color: var(--gold); font-weight: 700; font-size: 15px; line-height: 1.4; box-shadow: inset 2px 2px 0 var(--edge-light), inset -2px -2px 0 var(--edge-dark); }
+.boss-rules { list-style: none; margin: 6px 0 0; padding: 0; display: flex; flex-direction: column; gap: 10px; text-align: left; font-size: 14px; line-height: 1.4; }
+.boss-rules li { display: flex; gap: 10px; align-items: flex-start; }
+.boss-rules svg { flex: none; margin-top: 1px; color: var(--amber); }
+.boss-end { gap: 12px; }
+.boss-end h2 { font-family: var(--ui); font-size: 24px; font-weight: 800; }
+.boss-end .btn { width: 100%; }
 .boss-final.defeated { filter: grayscale(1) brightness(0.7); transform: rotate(180deg); }
 .boss-final.gloat { animation: bossGloat 0.8s steps(4) infinite alternate; }
 .boss-verdict { margin: 0; text-align: center; font-size: 15px; line-height: 1.4; color: var(--muted); }
 .boss-verdict.won { color: var(--gold); font-weight: 700; }
+@keyframes bossCharge { from { width: 0; background: var(--amber); } 70% { background: var(--amber); } to { width: 100%; background: var(--red); } }
+@keyframes bossIdle { from { transform: translateY(0); } to { transform: translateY(-4px); } }
 @keyframes bossHit {
   0%, 100% { transform: translateX(0); filter: none; }
-  20% { transform: translateX(-6px); filter: brightness(3); }
-  50% { transform: translateX(6px); filter: brightness(3); }
-  80% { transform: translateX(-3px); }
+  20% { transform: translateX(-8px); filter: brightness(3); }
+  50% { transform: translateX(8px); filter: brightness(3); }
+  80% { transform: translateX(-4px); }
 }
-@keyframes bossAttack {
-  0%, 100% { transform: scale(1); }
-  50% { transform: scale(1.35) translateY(6px); }
-}
+@keyframes bossAttack { 0%, 100% { transform: scale(1); } 50% { transform: scale(1.4) translateY(14px); } }
+@keyframes bossDizzy { 0%, 100% { transform: rotate(-8deg); } 50% { transform: rotate(8deg); } }
 @keyframes bossGloat { from { transform: translateY(0); } to { transform: translateY(-8px); } }
+@keyframes shieldPulse { from { outline-color: var(--blue); } to { outline-color: #b9e6ff; } }
 
 /* --- lista lekcji: cała ścieżka kursu --- */
 .screen.lesson-list { height: 100dvh; overflow: hidden; }
@@ -1009,7 +1042,7 @@ h3, .preview-h { font-family: var(--ui); font-size: 12px; font-weight: 800; lett
 .welcome .home-bottom { align-items: stretch; }
 .welcome .link-btn { align-self: center; }
 
-@media (prefers-reduced-motion: reduce) { .boss-hit, .boss-attack, .boss-final.gloat { animation: none; } }
+@media (prefers-reduced-motion: reduce) { .boss-hit, .boss-attack, .boss-idle, .boss-dizzy, .boss-final.gloat, .boss-figure.shielded, .pair-tile.golden, .fever .pairs-combo { animation: none; } }
 
 /* --- pikselowa mapa kursu (lista lekcji) --- */
 .pixel-map { flex: none; width: 100%; max-height: 30dvh; background: #131a26; box-shadow: inset 2px 2px 0 var(--edge-dark), inset -2px -2px 0 var(--edge-light); }
@@ -1031,3 +1064,10 @@ h3, .preview-h { font-family: var(--ui); font-size: 12px; font-weight: 800; lett
 .btn.road-btn { padding: 18px 8px; font-size: 18px; opacity: 0.6; touch-action: manipulation; }
 .btn.road-btn.active { opacity: 1; outline: 3px solid var(--text); outline-offset: -3px; }
 @media (prefers-reduced-motion: reduce) { .road-card.bad { animation: none; } }
+
+/* --- „Pary”: złote słowo i gorączka --- */
+.pair-tile.golden { background: #6b5200; color: var(--gold); box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 0.4), inset -2px -2px 0 var(--gold-dark), 0 4px 0 #14101a, 0 0 12px rgba(255, 210, 63, 0.45); }
+.pair-tile.golden.picked { background: var(--gold); color: #3b2900; }
+.pairs.fever .pairs-combo { color: var(--gold); font-size: 15px; text-shadow: 0 0 8px rgba(255, 210, 63, 0.7); }
+.pairs.fever .pair-tile:not(.gone):not(.miss):not(.picked) { box-shadow: inset 2px 2px 0 var(--gold), inset -2px -2px 0 var(--gold-dark), 0 4px 0 #14101a; }
+.pairs.fever .session-progress-fill.pairs-time { background: var(--gold); }
