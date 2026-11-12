@@ -34,6 +34,10 @@ Skrypt `scripts/copy-data.mjs` kopiuje dane kursu do `app/public/data` przed dev
 - **Statystyki** mieszczą się na jednym ekranie telefonu: seria, dzisiejszy cel,
   kalendarz 5 tygodni, droga do kolejnej lekcji, stan talii (nowe / utrwalane / złote),
   skuteczność z 7 dni. Wykres awansów i pełny rozkład poziomów są pod „Szczegóły”.
+- **Cząsteczki** (`app/src/particles.js`): pikselowe wybuchy przy dobrej odpowiedzi,
+  większe przy awansie (złote od poziomu 6), unoszące się punkty w „Parach”, deszcz
+  konfetti przy nowej lekcji, kamieniu milowym, rekordzie i sesji bez błędu. Wyłączają
+  się przy systemowym „ogranicz ruch”.
 - **Znacznik na ikonie** aplikacji jest widoczny, dopóki dzienny cel nie jest zrobiony
   (Badging API; działa w zainstalowanej PWA).
 
