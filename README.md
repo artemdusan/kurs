@@ -17,7 +17,7 @@ Skrypt `scripts/copy-data.mjs` kopiuje dane kursu do `app/public/data` przed dev
 ## Co widać w aplikacji
 
 - **Ekran główny** pokazuje cel na dziś: ile kart dzieli od kolejnej lekcji
-  (karty poniżej poziomu 3) i ile kart może dziś jeszcze awansować.
+  (karty poniżej poziomu 3) i ile kart dziś awansowało.
 - **Szybka sesja 2 min** i **Pary na czas** są pod ręką obok pełnej sesji, a po
   przytrzymaniu ikony aplikacji działają jako skróty (`/?start=quick`, `/?start=pairs`).
 - **Nowe słowo** najpierw się przedstawia (słowo, zdanie, lektor), dopiero potem

@@ -1,9 +1,9 @@
 import { db, getMeta, setMeta } from '../db.js';
 import { getProgressMap } from './session.js';
-import { localDay, FLOOR_LEVEL, MAX_LEVEL } from '../../../shared/learning.js';
+import { FLOOR_LEVEL } from '../../../shared/learning.js';
 
-// Liczby, które zamieniają „ucz się” w konkretny cel na dziś: ile kart brakuje
-// do kolejnej lekcji, ile może dziś awansować, jak rozkłada się talia.
+// Liczby, które zamieniają „ucz się” w konkretny cel: ile kart brakuje do
+// kolejnej lekcji i jak rozkłada się talia.
 
 /** Karty z lekcji 1..maxLesson razem z poziomem (domyślnie 1). */
 export async function loadDeck(maxLesson) {
@@ -12,21 +12,11 @@ export async function loadDeck(maxLesson) {
   return words.map((word) => ({ word, progress: progressMap.get(word.id) || null, level: progressMap.get(word.id)?.level || 1 }));
 }
 
-/**
- * missing — karty poniżej progu odblokowania (tyle dzieli od następnej lekcji),
- * promotable — zaczęte karty, które dziś jeszcze nie zmieniły poziomu (awans
- * jest możliwy raz dziennie, więc to dzisiejsza „pula do zgarnięcia”).
- */
-export function deckGoals(deck, today = localDay(), floor = FLOOR_LEVEL) {
+/** missing — karty poniżej progu odblokowania (tyle dzieli od następnej lekcji). */
+export function deckGoals(deck, floor = FLOOR_LEVEL) {
   let missing = 0;
-  let promotable = 0;
-  for (const { progress, level } of deck) {
-    if (level < floor) missing++;
-    const seen = progress && ((progress.correctTotal || 0) + (progress.wrongTotal || 0) > 0);
-    const changedDay = progress?.lastLevelChangeDay || (progress?.lastLevelChangeAt ? localDay(progress.lastLevelChangeAt) : '');
-    if (seen && level < MAX_LEVEL && changedDay !== today) promotable++;
-  }
-  return { total: deck.length, missing, ready: deck.length - missing, promotable };
+  for (const { level } of deck) if (level < floor) missing++;
+  return { total: deck.length, missing, ready: deck.length - missing };
 }
 
 /** Trzy grupy zamiast dziesięciu poziomów: nowe (1–2), utrwalane (3–5), złote (6–10). */
