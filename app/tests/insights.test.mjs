@@ -2,7 +2,7 @@ import 'fake-indexeddb/auto';
 import { test, beforeEach, after } from 'node:test';
 import assert from 'node:assert/strict';
 import { db } from '../src/db.js';
-import { deckGoals, cardBuckets, reachedMilestones, claimMilestones, pairsDeck, dealBoard, pairPoints } from '../src/engine/insights.js';
+import { deckGoals, cardBuckets, reachedMilestones, claimMilestones, pairsDeck, dealBoard, pairPoints, playerXp, playerLevel, dailyChallenge, challengeProgress, saveGameScore, gamesToday, claimChallenge, challengeBonus, hardWords, sprintDeck } from '../src/engine/insights.js';
 import { diffAnswer } from '../src/engine/answer.js';
 
 beforeEach(async () => { await db.delete(); await db.open(); });
@@ -46,4 +46,43 @@ test('answer diff marks exactly the characters that do not belong to the expecte
   assert.equal(marks('la cassa', 'la casa'), 'la cas[s]a');
   assert.equal(marks('comi', 'comí'), 'com[i]');
   assert.equal(marks('', 'pan'), '');
+});
+
+test('player XP comes from synced counters; each level costs 200 XP more than the previous one', () => {
+  assert.equal(playerXp({ a: { correct: 10, advances: 2, sessions: 1 }, b: { correct: 5 } }, 100), 100 + 40 + 50 + 50 + 100);
+  assert.deepEqual(playerLevel(0), { level: 1, into: 0, need: 200, xp: 0 });
+  assert.deepEqual(playerLevel(199), { level: 1, into: 199, need: 200, xp: 199 });
+  assert.deepEqual(playerLevel(200), { level: 2, into: 0, need: 400, xp: 200 });
+  assert.deepEqual(playerLevel(600), { level: 3, into: 0, need: 600, xp: 600 });
+});
+
+test('daily challenge is stable for a date, measurable from today, and pays its bonus once', async () => {
+  const c = dailyChallenge('2026-11-12', 10);
+  assert.deepEqual(dailyChallenge('2026-11-12', 10), c);
+  assert(c.target > 0 && c.label);
+  const kinds = new Set(Array.from({ length: 60 }, (_, i) => dailyChallenge('2026-10-' + String(i).padStart(2, '0')).kind));
+  assert.equal(kinds.size, 5);
+  assert.deepEqual(challengeProgress({ kind: 'advances', target: 10 }, { advances: 4 }), { value: 4, done: false });
+  assert.deepEqual(challengeProgress({ kind: 'minutes', target: 15 }, { seconds: 16 * 60 }), { value: 15, done: true });
+  assert.equal(await saveGameScore('pairs', 120, '2026-11-12'), 0);
+  assert.equal(await saveGameScore('pairs', 90, '2026-11-12'), 120);
+  assert.deepEqual(challengeProgress({ kind: 'pairs', target: 100 }, {}, await gamesToday('2026-11-12')), { value: 100, done: true });
+  assert.deepEqual(await gamesToday('2026-11-13'), {});
+  assert.equal(await claimChallenge('2026-11-12'), true);
+  assert.equal(await claimChallenge('2026-11-12'), false);
+  assert.equal(await challengeBonus(), 100);
+});
+
+test('hard words need two mistakes and are ordered by error rate; sprint uses only nouns with an article', () => {
+  const deck = [
+    card('once', 2, { progress: { wrongTotal: 1, correctTotal: 0 } }),
+    card('often', 2, { progress: { wrongTotal: 4, correctTotal: 4 } }),
+    card('always', 1, { progress: { wrongTotal: 3, correctTotal: 0 } }),
+  ];
+  assert.deepEqual(hardWords(deck).map((c) => c.word.id), ['always', 'often']);
+  const nouns = [
+    card('a', 1, { word: { es: 'La casa' } }), card('b', 1, { word: { es: 'Los zapatos' } }),
+    card('c', 1, { word: { es: 'Dios' } }), card('d', 1, { word: { es: 'bueno', type: 'adjective' } }),
+  ];
+  assert.deepEqual(sprintDeck(nouns, () => 0).map((c) => [c.article, c.noun, c.plural]), [['la', 'casa', false], ['los', 'zapatos', true]]);
 });

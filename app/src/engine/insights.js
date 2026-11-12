@@ -116,3 +116,110 @@ export function dealBoard(cards, used, size = PAIRS_PER_BOARD) {
 export function pairPoints(combo) {
   return 10 * Math.min(5, Math.max(1, combo));
 }
+
+// --- punkty doświadczenia i poziom gracza ----------------------------------
+// XP wynika z liczników dni (które i tak się synchronizują), więc nie wymaga
+// osobnego zapisu: poprawna odpowiedź 10, awans karty 20, ukończona sesja 50.
+// Bonus za wyzwania dnia jest zapisany lokalnie (CHALLENGE_XP za każde).
+export const CHALLENGE_XP = 100;
+
+export function playerXp(daily, bonus = 0) {
+  let xp = bonus;
+  for (const d of Object.values(daily || {})) xp += (d.correct || 0) * 10 + (d.advances || 0) * 20 + (d.sessions || 0) * 50;
+  return xp;
+}
+
+/** Poziom L wymaga łącznie 100·L·(L−1) XP, czyli każdy kolejny kosztuje o 200 więcej. */
+export function playerLevel(xp) {
+  const level = Math.max(1, Math.floor((1 + Math.sqrt(1 + Math.max(0, xp) / 25)) / 2));
+  const base = 100 * level * (level - 1);
+  return { level, into: xp - base, need: 200 * level, xp };
+}
+
+// --- wyzwanie dnia ---------------------------------------------------------
+const CHALLENGES = [
+  { kind: 'advances', targets: [8, 10, 12], label: (n) => `${n} awansów kart` },
+  { kind: 'correct', targets: [30, 40, 50], label: (n) => `${n} poprawnych odpowiedzi` },
+  { kind: 'minutes', targets: [5, 8], label: (n) => `${n} min ponad dzienny cel` },
+  { kind: 'pairs', targets: [200, 300], label: (n) => `${n} punktów w „Parach”` },
+  { kind: 'sprint', targets: [150, 250], label: (n) => `${n} punktów w „el/la”` },
+];
+
+/** Jedno wyzwanie na dzień, wybierane z daty — to samo po każdym otwarciu aplikacji. */
+export function dailyChallenge(day, goalMinutes = 10) {
+  let h = 0;
+  for (const ch of day) h = (h * 31 + ch.charCodeAt(0)) >>> 0;
+  const c = CHALLENGES[h % CHALLENGES.length];
+  const n = c.targets[(h >>> 8) % c.targets.length];
+  const target = c.kind === 'minutes' ? goalMinutes + n : n;
+  return { kind: c.kind, target, label: c.kind === 'minutes' ? `${target} minut nauki` : c.label(n) };
+}
+
+/** Postęp wyzwania: liczniki dnia + najlepsze dzisiejsze wyniki gier. */
+export function challengeProgress(challenge, counters = {}, games = {}) {
+  const value = {
+    advances: counters.advances || 0,
+    correct: counters.correct || 0,
+    minutes: Math.floor((counters.seconds || 0) / 60),
+    pairs: games.pairs || 0,
+    sprint: games.sprint || 0,
+  }[challenge.kind] || 0;
+  return { value: Math.min(value, challenge.target), done: value >= challenge.target };
+}
+
+/** Najlepszy dzisiejszy wynik gry (do wyzwania dnia); zwraca rekord wszech czasów sprzed zapisu. */
+export async function saveGameScore(game, score, today) {
+  const row = await getMeta('gameToday', null);
+  const games = row && row.day === today ? row : { day: today };
+  games[game] = Math.max(games[game] || 0, score);
+  await setMeta('gameToday', games);
+  const key = game + 'Best';
+  const previous = await getMeta(key, 0);
+  if (score > previous) await setMeta(key, score);
+  return previous;
+}
+
+export async function gamesToday(today) {
+  const row = await getMeta('gameToday', null);
+  return row && row.day === today ? row : {};
+}
+
+/** Zalicza wyzwanie dnia (raz). Zwraca true, gdy właśnie teraz zostało zaliczone. */
+export async function claimChallenge(day) {
+  const done = await getMeta('challengeDone', {});
+  if (done[day]) return false;
+  await setMeta('challengeDone', { ...done, [day]: 1 });
+  return true;
+}
+
+export async function challengeBonus() {
+  return Object.keys(await getMeta('challengeDone', {})).length * CHALLENGE_XP;
+}
+
+// --- trudne słowa ----------------------------------------------------------
+/** Karty, na których najczęściej pada błąd (co najmniej 2 pomyłki), najgorsze najpierw. */
+export function hardWords(deck, limit = 25) {
+  return deck
+    .map(({ word, progress, level }) => {
+      const wrong = progress?.wrongTotal || 0;
+      const total = wrong + (progress?.correctTotal || 0);
+      return { word, progress, level, wrong, rate: total ? wrong / total : 0 };
+    })
+    .filter((c) => c.wrong >= 2)
+    .sort((a, b) => b.rate - a.rate || b.wrong - a.wrong)
+    .slice(0, limit);
+}
+
+// --- gra „Sprint el/la” ----------------------------------------------------
+/** Rzeczowniki z rodzajnikiem do zgadywania: { id, article, noun, pl, plural }. */
+export function sprintDeck(deck, rng = Math.random) {
+  const cards = [];
+  for (const { word } of deck) {
+    if (word.type !== 'noun') continue;
+    const m = word.es.trim().match(/^(el|la|los|las)\s+(.+)$/i);
+    if (!m) continue;
+    const article = m[1].toLowerCase();
+    cards.push({ id: word.id, article, noun: m[2], pl: word.pl, plural: article === 'los' || article === 'las', rank: rng() });
+  }
+  return cards.sort((a, b) => a.rank - b.rank);
+}

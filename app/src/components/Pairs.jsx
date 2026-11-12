@@ -1,7 +1,9 @@
 import React, { useEffect, useRef, useState } from 'react';
-import { getMeta, setMeta } from '../db.js';
+import { getMeta } from '../db.js';
 import { addActivity } from '../activity.js';
-import { loadDeck, pairsDeck, dealBoard, pairPoints, PAIRS_PER_BOARD } from '../engine/insights.js';
+import { loadDeck, pairsDeck, dealBoard, pairPoints, saveGameScore, PAIRS_PER_BOARD } from '../engine/insights.js';
+import { localDay } from '../../../shared/learning.js';
+import { sfx } from '../sound.js';
 import Icon from './Icon.jsx';
 import { burst, floatText, rain, COLORS } from '../particles.js';
 
@@ -67,13 +69,9 @@ export default function Pairs({ maxLesson, settings, onExit }) {
 
   async function finish() {
     setPhase('done');
-    const previous = await getMeta('pairsBest', 0);
+    const previous = await saveGameScore('pairs', scoreRef.current, localDay());
     setBest(Math.max(previous, scoreRef.current));
-    if (scoreRef.current > previous) {
-      setRecord(previous > 0);
-      if (previous > 0) rain({ colors: COLORS.gold, seconds: 2 });
-      await setMeta('pairsBest', scoreRef.current);
-    }
+    if (scoreRef.current > previous && previous > 0) { setRecord(true); rain({ colors: COLORS.gold, seconds: 2 }); sfx.fanfare(); }
     await save();
   }
 
@@ -140,12 +138,14 @@ export default function Pairs({ maxLesson, settings, onExit }) {
       setCombo(nextCombo);
       setGone(nextGone);
       setPicked(null);
+      sfx.pair(nextCombo);
       speak(card.es, settings?.tts);
       if (nextGone.size >= board.left.length) setTimeout(deal, 260);
     } else {
       statsRef.current.mistakes++;
       setCombo(0);
       navigator.vibrate?.(80);
+      sfx.wrong();
       setMiss(side === 'left' ? { left: card.id, right: picked.id } : { left: picked.id, right: card.id });
       setTimeout(() => { setMiss(null); setPicked(null); }, 380);
     }

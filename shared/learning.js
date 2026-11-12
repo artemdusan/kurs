@@ -40,11 +40,30 @@ export function aggregateDays(rows) {
   return days;
 }
 
+// Ratunek serii: jeden opuszczony dzień nie przerywa serii, o ile od poprzedniego
+// ratunku minęło co najmniej FREEZE_WINDOW dni nauki. Liczone z samej historii,
+// więc wynik jest identyczny na każdym urządzeniu i nie wymaga osobnego zapisu.
+export const FREEZE_WINDOW = 7;
+
 export function currentStreak(daily, today = localDay()) {
   const active = (day) => ((daily[day]?.correct || 0) + (daily[day]?.wrong || 0)) > 0;
+  // dzisiejszy dzień jeszcze trwa — jego brak niczego nie przerywa
   let day = active(today) ? today : shiftDay(today, -1);
   let count = 0;
-  const lastDay = active(day) ? day : '';
-  while (active(day)) { count++; day = shiftDay(day, -1); }
-  return { count, lastDay };
+  let lastDay = '';
+  let sinceFreeze = Infinity;
+  const frozen = [];
+  for (;;) {
+    if (active(day)) {
+      count++;
+      sinceFreeze++;
+      if (!lastDay) lastDay = day;
+    } else if (sinceFreeze >= FREEZE_WINDOW && active(shiftDay(day, -1))) {
+      frozen.push(day);
+      sinceFreeze = 0;
+    } else break;
+    day = shiftDay(day, -1);
+  }
+  const weekAgo = shiftDay(today, -(FREEZE_WINDOW - 1));
+  return { count, lastDay, frozen, freezeAvailable: !frozen.some((d) => d >= weekAgo) };
 }

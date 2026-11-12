@@ -11,7 +11,15 @@ import Stats from './components/Stats.jsx';
 import LessonPreview from './components/LessonPreview.jsx';
 import LessonList from './components/LessonList.jsx';
 import Pairs from './components/Pairs.jsx';
-import { loadDeck, deckGoals, cardBuckets, claimMilestones } from './engine/insights.js';
+import Sprint from './components/Sprint.jsx';
+import HardWords from './components/HardWords.jsx';
+import {
+  loadDeck, deckGoals, cardBuckets, claimMilestones, hardWords,
+  playerXp, playerLevel, dailyChallenge, challengeProgress, gamesToday, claimChallenge, challengeBonus, CHALLENGE_XP,
+} from './engine/insights.js';
+import { setSoundEnabled, sfx } from './sound.js';
+import { rain } from './particles.js';
+import { setMeta } from './db.js';
 import Icon, { FaceIcon } from './components/Icon.jsx';
 
 const SWIPE_THRESHOLD = 50; // px
@@ -28,7 +36,7 @@ function updateBadge(status) {
 
 export default function App() {
   const [startupError, setStartupError] = useState('');
-  const [view, setView] = useState('loading'); // loading | tree | session | quick | mistakes | pairs | settings | stats | lessonList
+  const [view, setView] = useState('loading'); // loading | tree | session | quick | mistakes | hard | hardList | pairs | sprint | settings | stats | lessonList
   const [mistakeCount, setMistakeCount] = useState(0);
   const [browsingLesson, setBrowsingLesson] = useState(null); // przeglądana lekcja (null = bieżąca)
   const [index, setIndex] = useState(null);
@@ -38,6 +46,8 @@ export default function App() {
   const [streak, setStreak] = useState({ count: 0 });
   const [today, setToday] = useState({ status: 'red', minutes: 0, advances: 0 });
   const [goals, setGoals] = useState({ total: 0, missing: 0, ready: 0 });
+  const [player, setPlayer] = useState({ level: 1, into: 0, need: 200, xp: 0 });
+  const [challenge, setChallenge] = useState(null); // { label, target, value, done }
   const [toast, setToast] = useState('');
 
   useEffect(() => {
@@ -52,12 +62,13 @@ export default function App() {
       for (let n = 1; n <= unlocked; n++) await ensureLessonImported(n);
       setIndex(idx);
       setSettings(s);
+      setSoundEnabled(s.sfx !== false);
       setUnlockedLesson(unlocked);
       await refreshStats(idx, unlocked);
       // skróty z ikony aplikacji i powiadomień: /?start=quick albo /?start=pairs
       const start = new URLSearchParams(window.location.search).get('start');
       if (start) window.history.replaceState(null, '', window.location.pathname);
-      setView(start === 'quick' || start === 'pairs' ? start : 'tree');
+      setView(['quick', 'pairs', 'sprint'].includes(start) ? start : 'tree');
       // synchronizacja na starcie (w tle) — po niej sprawdź odblokowania
       // (postępy z innego urządzenia mogą spełniać próg) i odśwież widok
       if (resolveSyncUrl(s) && s.syncLogin) {
@@ -112,6 +123,41 @@ export default function App() {
     setToday({ status, minutes: Math.floor((day?.seconds || 0) / 60), advances: day?.advances || 0 });
     updateBadge(status);
     setGoals(deckGoals(await loadDeck(unlocked)));
+    setPlayer(playerLevel(playerXp(daily, await challengeBonus())));
+    const ch = dailyChallenge(localDay(), s.dailyGoalMinutes || 10);
+    setChallenge({ ...ch, ...challengeProgress(ch, day, await gamesToday(localDay())) });
+  }
+
+  // Nowości do ogłoszenia: zaliczone wyzwanie dnia, nowy poziom gracza, kamienie
+  // milowe. Każda rzecz jest zapisywana jako ogłoszona, więc pojawia się raz.
+  async function collectNews(unlocked) {
+    const news = [];
+    const s = await getSettings();
+    const today = localDay();
+    let daily = await getDailyStats();
+    const ch = dailyChallenge(today, s.dailyGoalMinutes || 10);
+    if (challengeProgress(ch, daily[today], await gamesToday(today)).done && (await claimChallenge(today))) {
+      news.push(`Wyzwanie dnia: ${ch.label} (+${CHALLENGE_XP} XP)`);
+    }
+    const level = playerLevel(playerXp(daily, await challengeBonus())).level;
+    const seen = await getMeta('playerLevelSeen', null);
+    if (seen !== level) await setMeta('playerLevelSeen', level);
+    if (seen !== null && level > seen) news.push(`Poziom gracza ${level}`);
+    return [...news, ...(await collectMilestones(unlocked))];
+  }
+
+  // Po grze nie ma ekranu podsumowania sesji — nowości pokazujemy na ekranie głównym.
+  async function afterGame() {
+    await refreshStats(index, unlockedLesson);
+    setView('tree');
+    const news = await collectNews(unlockedLesson).catch(() => []);
+    if (news.length) {
+      await refreshStats(index, unlockedLesson);
+      setToast(news.join(' · '));
+      rain({ seconds: 1.5 });
+      sfx.fanfare();
+      setTimeout(() => setToast(''), 6000);
+    }
   }
 
   // Kamienie milowe do ogłoszenia w podsumowaniu sesji (każdy tylko raz).
@@ -160,7 +206,8 @@ export default function App() {
   async function handleSessionFinished() {
     const unlocked = await checkUnlocks(index);
     await refreshStats(index, unlocked);
-    const milestones = await collectMilestones(unlocked).catch(() => []);
+    const milestones = await collectNews(unlocked).catch(() => []);
+    if (milestones.length) await refreshStats(index, unlocked);
 
     // automatyczna synchronizacja po sesji, jeśli skonfigurowana; po niej
     // ponownie sprawdź odblokowania i odśwież widok (bez przeładowania strony)
@@ -187,12 +234,20 @@ export default function App() {
       <Pairs
         maxLesson={unlockedLesson}
         settings={settings}
-        onExit={async () => { await refreshStats(index, unlockedLesson); setView('tree'); }}
+        onExit={afterGame}
       />
     );
   }
 
-  if (view === 'session' || view === 'mistakes' || view === 'quick') {
+  if (view === 'sprint') {
+    return <Sprint maxLesson={unlockedLesson} onExit={afterGame} />;
+  }
+
+  if (view === 'hardList') {
+    return <HardWords maxLesson={unlockedLesson} onBack={() => setView('stats')} onStart={() => setView('hard')} />;
+  }
+
+  if (view === 'session' || view === 'mistakes' || view === 'quick' || view === 'hard') {
     return (
       <Session
         key={view}
@@ -208,7 +263,7 @@ export default function App() {
   }
 
   if (view === 'stats') {
-    return <Stats maxLesson={unlockedLesson} lessonCount={index.lekcje.length} onBack={() => setView('tree')} />;
+    return <Stats maxLesson={unlockedLesson} lessonCount={index.lekcje.length} onBack={() => setView('tree')} onHard={() => setView('hardList')} />;
   }
 
   if (view === 'settings') {
@@ -285,6 +340,13 @@ export default function App() {
         </button>
       </header>
 
+      {/* poziom gracza: punkty za odpowiedzi, awanse, sesje i wyzwania dnia */}
+      <div className="xp-bar" title={`Łącznie ${player.xp} XP`}>
+        <span className="xp-level">LV {player.level}</span>
+        <div className="xp-track"><div className="xp-fill" style={{ width: Math.min(100, (player.into / player.need) * 100) + '%' }} /></div>
+        <span className="xp-num">{player.into}/{player.need}</span>
+      </div>
+
       <div className="lesson-card" onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
         <div className="lesson-nav">
           <button
@@ -329,6 +391,15 @@ export default function App() {
         </div>
       </div>
 
+      {challenge && (
+        <div className={'challenge' + (challenge.done ? ' done' : '')}>
+          <Icon name="star" size={12} />
+          <span className="challenge-label">{challenge.label}</span>
+          <span className="challenge-num">{challenge.done ? `+${CHALLENGE_XP} XP` : `${challenge.value}/${challenge.target}`}</span>
+          <div className="challenge-fill" style={{ width: (challenge.value / challenge.target) * 100 + '%' }} />
+        </div>
+      )}
+
       <LessonPreview lesson={shownLesson} grammarNote={current?.gramatyka} />
 
       {toast && <div className="toast">{toast}</div>}
@@ -340,6 +411,9 @@ export default function App() {
           </button>
           <button className="btn quick-btn" onClick={() => setView('pairs')}>
             <Icon name="pairs" size={13} /> Pary
+          </button>
+          <button className="btn quick-btn" onClick={() => setView('sprint')}>
+            el/la
           </button>
           {mistakeCount > 0 && (
             <button className="btn quick-btn mistakes-btn" onClick={() => setView('mistakes')}>

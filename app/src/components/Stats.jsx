@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { getMeta, getSettings } from '../db.js';
 import { dayStatus, bestStreak } from '../engine/session.js';
-import { loadDeck, deckGoals, cardBuckets } from '../engine/insights.js';
+import { loadDeck, deckGoals, cardBuckets, hardWords } from '../engine/insights.js';
 import LevelBars from './LevelBars.jsx';
 import { getDailyStats } from '../activity.js';
 import { localDay, shiftDay, currentStreak } from '../../../shared/learning.js';
@@ -28,7 +28,7 @@ export function calendarDays(today = localDay()) {
   return Array.from({ length: CALENDAR_WEEKS * 7 }, (_, i) => shiftDay(start, i));
 }
 
-export default function Stats({ maxLesson, lessonCount = 100, onBack }) {
+export default function Stats({ maxLesson, lessonCount = 100, onBack, onHard }) {
   const [data, setData] = useState(null);
   const [details, setDetails] = useState(false);
 
@@ -83,7 +83,10 @@ export default function Stats({ maxLesson, lessonCount = 100, onBack }) {
           future: day > todayKey,
           today: day === todayKey,
           status: dayStatus(daily[day], goalMin),
+          frozen: streak.frozen.includes(day),
         })),
+        freezeAvailable: streak.freezeAvailable,
+        hardCount: hardWords(deck).length,
         goalMin,
         todayStatus: dayStatus(today, goalMin),
         streak: streak.count || 0,
@@ -192,11 +195,14 @@ export default function Stats({ maxLesson, lessonCount = 100, onBack }) {
           {data.calendar.map((c) => (
             <span
               key={c.day}
-              className={'cal-day' + (c.future ? ' future' : ' cal-' + c.status) + (c.today ? ' today' : '')}
-              title={c.day}
+              className={'cal-day' + (c.future ? ' future' : c.frozen ? ' cal-frozen' : ' cal-' + c.status) + (c.today ? ' today' : '')}
+              title={c.frozen ? `${c.day}: seria uratowana` : c.day}
             />
           ))}
         </div>
+        <span className="stat-label freeze-line">
+          <i className="freeze-dot" /> ratunek serii: {data.freezeAvailable ? 'gotowy — jeden opuszczony dzień nie przerwie serii' : 'użyty w tym tygodniu'}
+        </span>
       </div>
 
       <div className="stat-card">
@@ -232,9 +238,14 @@ export default function Stats({ maxLesson, lessonCount = 100, onBack }) {
         </div>
       </div>
 
-      <button className="btn details-btn" onClick={() => setDetails(true)}>
-        <Icon name="chart" size={14} /> Szczegóły
-      </button>
+      <div className="stats-actions">
+        <button className="btn details-btn" onClick={onHard}>
+          <Icon name="repeat" size={14} /> Trudne ({data.hardCount})
+        </button>
+        <button className="btn details-btn" onClick={() => setDetails(true)}>
+          <Icon name="chart" size={14} /> Szczegóły
+        </button>
+      </div>
     </div>
   );
 }
