@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { saveSettings } from '../db.js';
 import { syncNow, DEFAULT_SYNC_URL, resolveSyncUrl } from '../sync.js';
-import { getPushState, enablePush, disablePush } from '../push.js';
+import { getPushState, enablePush, disablePush, savePushPrefs } from '../push.js';
 import { CONTENT_VERSION } from '../course.js';
 import Icon from './Icon.jsx';
 
@@ -43,6 +43,18 @@ export default function Settings({ settings, index, onChange, onSynced, onBack }
     setForm(next);
     saveSettings(next);
     onChange(next);
+  }
+
+  // które przypomnienia mają przychodzić — zapis lokalnie i na serwerze
+  async function setReminder(key, value) {
+    const next = { ...form, [key]: value };
+    set(key, value);
+    setPushMsg('');
+    try {
+      await savePushPrefs(next);
+    } catch (e) {
+      setPushMsg(e.message);
+    }
   }
 
   async function doSync() {
@@ -127,8 +139,8 @@ export default function Settings({ settings, index, onChange, onSynced, onBack }
 
       <h3>Przypomnienia</h3>
       <p className="hint">
-        Powiadomienie o 19:00, jeśli danego dnia nie było jeszcze sesji.
-        Wymaga skonfigurowanej synchronizacji.
+        Powiadomienia przychodzą tylko wtedy, gdy danego dnia nie było jeszcze nauki.
+        Wymagają skonfigurowanej synchronizacji.
       </p>
       {pushState === 'unsupported' ? (
         <p className="sync-msg">Ta przeglądarka nie obsługuje powiadomień push.</p>
@@ -142,6 +154,22 @@ export default function Settings({ settings, index, onChange, onSynced, onBack }
               ? 'Wyłącz przypomnienia'
               : 'Włącz przypomnienia'}
         </button>
+      )}
+      {pushState === 'on' && (
+        <>
+          <label className="field row">
+            <input type="checkbox" checked={form.remindEvening !== false} onChange={(e) => setReminder('remindEvening', e.target.checked)} />
+            19:00 — dziś jeszcze bez nauki
+          </label>
+          <label className="field row">
+            <input type="checkbox" checked={form.remindStreak !== false} onChange={(e) => setReminder('remindStreak', e.target.checked)} />
+            21:00 — seria kończy się o północy
+          </label>
+          <label className="field row">
+            <input type="checkbox" checked={Boolean(form.remindMorning)} onChange={(e) => setReminder('remindMorning', e.target.checked)} />
+            8:00 — poranna zachęta
+          </label>
+        </>
       )}
       {pushMsg && <p className="sync-msg">{pushMsg}</p>}
 

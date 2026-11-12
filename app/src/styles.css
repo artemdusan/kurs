@@ -15,6 +15,8 @@
   --red-dark: #7f1d1d;
   --amber: #f5a623;
   --blue: #4cc2ff;
+  --gold: #ffd23f;
+  --gold-dark: #9a6a00;
   --pixel: 'Press Start 2P', monospace;
 }
 
@@ -261,22 +263,6 @@ h3 { font-size: 11px; margin: 12px 0 0; color: var(--muted); text-transform: upp
 .vocab-pron { color: var(--muted); font-weight: 400; font-size: 13px; }
 .vocab-pl { color: var(--muted); text-align: right; font-size: 14px; }
 
-/* poziom słowa w podglądzie lekcji — miniaturowe kropki przy każdym słowie */
-.preview-level { display: flex; align-items: center; gap: 2px; flex: none; margin-left: auto; }
-.preview-level-dot {
-  width: 5px;
-  height: 5px;
-  background: var(--card2);
-  box-shadow: inset 1px 1px 0 var(--edge-dark);
-}
-.preview-level-dot.on { box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.35); }
-.preview-level-dot.on.dot-1 { background: var(--red); }
-.preview-level-dot.on.dot-2 { background: #f97316; }
-.preview-level-dot.on.dot-3 { background: var(--amber); }
-.preview-level-dot.on.dot-4 { background: #84cc16; }
-.preview-level-dot.on.dot-5 { background: var(--green); }
-.preview-level-dot.on.dot-6 { background: #10b981; }
-
 /* odmiana: dwie kolumny (l.poj. / l.mn.) na czas — bez tłumaczenia formy,
    żeby wszystko mieściło się bez przewijania; forma ważniejsza niż zaimek */
 .tense-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0 14px; }
@@ -338,11 +324,11 @@ h3 { font-size: 11px; margin: 12px 0 0; color: var(--muted); text-transform: upp
 }
 .session-progress-fill { height: 100%; background: var(--green); transition: width 0.3s steps(6); }
 
-/* subtelny wskaźnik poziomu słowa (6 kropek) */
+/* wskaźnik poziomu: 5 kropek, poziomy 6–10 zapełniają je drugi raz na złoto */
 .level-dots { display: flex; gap: 4px; margin-bottom: 10px; }
 .level-dot {
-  width: 8px;
-  height: 8px;
+  width: 10px;
+  height: 10px;
   background: var(--card2);
   box-shadow: inset 1px 1px 0 var(--edge-dark);
 }
@@ -352,7 +338,13 @@ h3 { font-size: 11px; margin: 12px 0 0; color: var(--muted); text-transform: upp
 .level-dot.on.dot-3 { background: var(--amber); }
 .level-dot.on.dot-4 { background: #84cc16; }
 .level-dot.on.dot-5 { background: var(--green); }
-.level-dot.on.dot-6 { background: #10b981; }
+.level-dot.on.gold {
+  background: var(--gold);
+  box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.7), inset -1px -1px 0 var(--gold-dark), 0 0 6px rgba(255, 210, 63, 0.55);
+}
+.level-dots.small { gap: 2px; margin: 0 0 0 auto; flex: none; align-items: center; }
+.level-dots.small .level-dot { width: 5px; height: 5px; }
+.level-dots.small .level-dot.on.gold { box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.7); }
 
 /* karta zadania wyśrodkowana w dostępnej przestrzeni między paskiem góry a odpowiedzią */
 .prompt-wrap {
@@ -609,3 +601,173 @@ h3 { font-size: 11px; margin: 12px 0 0; color: var(--muted); text-transform: upp
 .progress-pair.no-data { background: repeating-linear-gradient(135deg, var(--card), var(--card) 5px, transparent 5px, transparent 7px); }
 .progress-up { flex: 1; background: var(--green); }
 .progress-down { flex: 1; background: var(--red); }
+
+/* ===== ekran główny: cel na dziś i szybkie wejścia ===== */
+.streak-chip { display: inline-flex; align-items: center; gap: 3px; color: var(--amber); }
+.goal-strip { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; flex: none; }
+.goal-cell {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  background: var(--card);
+  padding: 7px 10px;
+  min-width: 0;
+  box-shadow: inset 2px 2px 0 var(--edge-light), inset -2px -2px 0 var(--edge-dark);
+}
+.goal-num { display: flex; align-items: center; gap: 6px; font-family: var(--pixel); font-size: 12px; line-height: 1.5; color: var(--amber); }
+.goal-num.goal-up { color: var(--green); }
+.goal-label { font-size: 11px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.quick-row { display: flex; gap: 8px; }
+.home-bottom .btn.quick-btn { flex: 1; padding: 10px 6px; font-size: 10px; gap: 6px; background: var(--card); }
+.home-bottom .btn.quick-btn.mistakes-btn { flex: 0.7; color: var(--amber); }
+
+/* ===== sesja: nowe słowo, porównanie odpowiedzi, podsumowanie ===== */
+.intro-badge {
+  display: inline-block;
+  margin-bottom: 10px;
+  padding: 4px 8px;
+  font-family: var(--pixel);
+  font-size: 8px;
+  line-height: 1.6;
+  background: var(--blue);
+  color: #06283d;
+}
+.intro-es { font-size: 30px; font-weight: 800; line-height: 1.25; color: var(--green); margin: -6px 0 12px; overflow-wrap: anywhere; }
+.feedback.intro { background: #1d3550; animation: popBlock 0.2s steps(3); }
+.feedback.intro p { font-size: 15px; }
+.feedback .row.gap .intro-go { flex: 1; }
+.your-answer { font-size: 16px !important; opacity: 0.95; }
+.your-answer span { white-space: pre; }
+.diff-bad { background: rgba(0, 0, 0, 0.45); color: #ffd0d0; text-decoration: underline wavy; text-underline-offset: 4px; font-weight: 800; }
+.timer { display: inline-flex; align-items: center; gap: 6px; }
+.timer-low { color: var(--red); animation: popBlock 0.5s steps(2) infinite alternate; }
+
+.session-summary { gap: 12px; }
+.session-summary h2 { text-align: center; margin-top: 8px; }
+.summary-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.summary-grid .time-cell { padding: 10px 2px; }
+.summary-grid .time-num { display: flex; align-items: center; gap: 4px; }
+.summary-grid .num-ok { color: var(--green); }
+.summary-grid .num-bad { color: var(--red); }
+.summary-mistakes { display: flex; flex-direction: column; gap: 8px; min-height: 0; flex: 1; }
+.summary-mistakes h3 { margin: 0; }
+.summary-list {
+  overflow-y: auto;
+  min-height: 0;
+  background: var(--card);
+  padding: 6px 12px;
+  box-shadow: inset 2px 2px 0 var(--edge-light), inset -2px -2px 0 var(--edge-dark);
+}
+.summary-clean { text-align: center; color: var(--green); font-family: var(--pixel); font-size: 10px; line-height: 1.8; margin: 8px 0; }
+.milestone {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--gold);
+  color: #3b2900;
+  padding: 10px 12px;
+  font-family: var(--pixel);
+  font-size: 9px;
+  line-height: 1.7;
+  box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 0.5), inset -2px -2px 0 rgba(0, 0, 0, 0.3), 4px 4px 0 rgba(0, 0, 0, 0.4);
+  animation: popBlock 0.3s steps(4);
+}
+.screen.session-summary { height: 100dvh; overflow: hidden; }
+
+/* ===== gra „Pary na czas” ===== */
+.screen.pairs { height: 100dvh; overflow: hidden; }
+.pairs-score { font-family: var(--pixel); font-size: 14px; color: var(--gold); min-width: 44px; text-align: right; }
+.session-progress-fill.pairs-time { background: var(--blue); transition: width 1s linear; }
+.pairs-combo {
+  text-align: center;
+  font-family: var(--pixel);
+  font-size: 10px;
+  line-height: 1.6;
+  color: var(--muted);
+  min-height: 18px;
+}
+.pairs-combo.on { color: var(--gold); animation: popBlock 0.2s steps(3); }
+.pairs-board { flex: 1; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; min-height: 0; }
+.pairs-col { display: flex; flex-direction: column; justify-content: center; gap: 10px; min-height: 0; }
+.pair-tile {
+  flex: 1;
+  min-height: 0;
+  max-height: 108px;
+  border: none;
+  border-radius: 0;
+  padding: 6px 8px;
+  font-family: inherit;
+  font-size: 17px;
+  font-weight: 700;
+  line-height: 1.2;
+  color: var(--text);
+  background: var(--card2);
+  overflow: hidden;
+  overflow-wrap: anywhere;
+  cursor: pointer;
+  box-shadow: inset 2px 2px 0 var(--edge-light), inset -2px -2px 0 var(--edge-dark), 0 4px 0 #14101a;
+  animation: popBlock 0.2s steps(3);
+}
+.pair-tile.es { background: #2f4358; }
+.pair-tile.picked { background: var(--blue); color: #06283d; transform: translateY(2px); box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 0.4), inset -2px -2px 0 rgba(0, 0, 0, 0.3), 0 2px 0 #14101a; }
+.pair-tile.miss { background: var(--red); color: #fff; animation: shake 0.3s steps(6); }
+.pair-tile.gone { visibility: hidden; }
+.pairs-done { gap: 12px; }
+.pairs-final { font-family: var(--pixel); font-size: 44px; line-height: 1.2; margin: 6px 0 0; color: var(--text); animation: popBlock 0.3s steps(4); }
+.pairs-final.record { color: var(--gold); }
+.pairs-sub { display: flex; align-items: center; gap: 8px; font-family: var(--pixel); font-size: 10px; color: var(--gold); margin: 0; }
+.pairs-done .btn { width: 100%; }
+
+/* ===== statystyki na jednym ekranie ===== */
+.screen.stats-one { height: 100dvh; overflow: hidden; gap: 10px; }
+.top-spacer { width: 40px; }
+.stat-duo { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; flex: none; }
+.stat-tile, .stat-card {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  background: var(--card);
+  padding: 10px 12px;
+  min-width: 0;
+  flex: none;
+  box-shadow: inset 2px 2px 0 var(--edge-light), inset -2px -2px 0 var(--edge-dark);
+}
+.stat-big { display: flex; align-items: center; gap: 8px; font-family: var(--pixel); font-size: 18px; line-height: 1.4; color: var(--amber); }
+.stat-big small { font-size: 9px; color: var(--muted); }
+.stat-label { font-size: 11px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.stat-row { display: flex; justify-content: space-between; align-items: baseline; gap: 8px; }
+.stat-title { font-weight: 800; font-size: 15px; }
+.stat-value { font-family: var(--pixel); font-size: 10px; color: var(--amber); white-space: nowrap; }
+.goal-segments { display: flex; gap: 3px; height: 10px; }
+.goal-seg { flex: 1; background: rgba(0, 0, 0, 0.35); box-shadow: inset 1px 1px 0 var(--edge-dark); }
+.goal-seg.on.goal-green { background: var(--green); }
+.goal-seg.on.goal-yellow { background: var(--amber); }
+.goal-seg.on.goal-red { background: var(--red); }
+.cal-grid { display: grid; grid-template-columns: repeat(7, 1fr); gap: 4px; }
+.cal-head { font-family: var(--pixel); font-size: 7px; color: var(--muted); text-align: center; }
+/* kalendarz zabiera wolne miejsce ekranu — na wyższym telefonie kratki rosną */
+.stat-card.cal-card { flex: 1; min-height: 0; max-height: 300px; }
+.cal-body { flex: 1; min-height: 0; grid-auto-rows: minmax(12px, 1fr); }
+.cal-day { min-height: 12px; background: rgba(0, 0, 0, 0.35); box-shadow: inset 1px 1px 0 var(--edge-dark); }
+.cal-day.cal-green { background: var(--green); box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.35); }
+.cal-day.cal-yellow { background: var(--amber); box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.35); }
+.cal-day.future { background: transparent; box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.06); }
+.cal-day.today { outline: 2px solid var(--text); outline-offset: 1px; }
+.bucket-bar { display: flex; height: 16px; gap: 2px; }
+.bucket { display: block; min-width: 3px; }
+.bucket.fresh { background: var(--red); }
+.bucket.learning { background: var(--green); }
+.bucket.gold { background: var(--gold); }
+.bucket-legend { display: flex; justify-content: space-between; gap: 6px; font-size: 12px; color: var(--muted); }
+.bucket-legend span { display: flex; align-items: center; gap: 5px; white-space: nowrap; }
+.bucket-legend i { width: 8px; height: 8px; min-width: 8px; }
+.bucket-legend b { color: var(--text); }
+.btn.details-btn { margin-top: auto; display: flex; align-items: center; justify-content: center; gap: 8px; font-size: 10px; padding: 10px; }
+
+@media (max-height: 700px) {
+  .stat-big { font-size: 15px; }
+  .goal-strip .goal-label { display: none; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .pair-tile, .pairs-combo.on, .milestone, .timer-low, .pairs-final, .feedback.intro { animation: none; }
+}

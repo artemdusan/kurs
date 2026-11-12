@@ -34,6 +34,11 @@ export default defineConfig({
         theme_color: '#0f172a',
         background_color: '#0f172a',
         start_url: '/',
+        // przytrzymanie ikony aplikacji: szybkie wejścia bez przechodzenia przez ekran główny
+        shortcuts: [
+          { name: 'Szybka sesja 2 min', short_name: '2 min', url: '/?start=quick', icons: [{ src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' }] },
+          { name: 'Pary na czas', short_name: 'Pary', url: '/?start=pairs', icons: [{ src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' }] },
+        ],
         icons: [
           { src: 'icons/icon.svg', sizes: 'any', type: 'image/svg+xml', purpose: 'any maskable' },
           { src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' },

@@ -10,13 +10,25 @@ import Settings from './components/Settings.jsx';
 import Stats from './components/Stats.jsx';
 import LessonPreview from './components/LessonPreview.jsx';
 import LessonList from './components/LessonList.jsx';
+import Pairs from './components/Pairs.jsx';
+import { loadDeck, deckGoals, cardBuckets, claimMilestones } from './engine/insights.js';
 import Icon, { FaceIcon } from './components/Icon.jsx';
 
 const SWIPE_THRESHOLD = 50; // px
 
+// Znacznik na ikonie aplikacji: widoczny, dopóki dzienny cel nie jest zrobiony.
+function updateBadge(status) {
+  try {
+    if (status === 'green') navigator.clearAppBadge?.();
+    else navigator.setAppBadge?.(1);
+  } catch {
+    /* Badging API jest opcjonalne */
+  }
+}
+
 export default function App() {
   const [startupError, setStartupError] = useState('');
-  const [view, setView] = useState('loading'); // loading | tree | session | mistakes | settings | stats | lessonList
+  const [view, setView] = useState('loading'); // loading | tree | session | quick | mistakes | pairs | settings | stats | lessonList
   const [mistakeCount, setMistakeCount] = useState(0);
   const [browsingLesson, setBrowsingLesson] = useState(null); // przeglądana lekcja (null = bieżąca)
   const [index, setIndex] = useState(null);
@@ -25,6 +37,7 @@ export default function App() {
   const [lessonStats, setLessonStats] = useState({});
   const [streak, setStreak] = useState({ count: 0 });
   const [today, setToday] = useState({ status: 'red', minutes: 0 });
+  const [goals, setGoals] = useState({ total: 0, missing: 0, ready: 0, promotable: 0 });
   const [toast, setToast] = useState('');
 
   useEffect(() => {
@@ -41,7 +54,10 @@ export default function App() {
       setSettings(s);
       setUnlockedLesson(unlocked);
       await refreshStats(idx, unlocked);
-      setView('tree');
+      // skróty z ikony aplikacji i powiadomień: /?start=quick albo /?start=pairs
+      const start = new URLSearchParams(window.location.search).get('start');
+      if (start) window.history.replaceState(null, '', window.location.pathname);
+      setView(start === 'quick' || start === 'pairs' ? start : 'tree');
       // synchronizacja na starcie (w tle) — po niej sprawdź odblokowania
       // (postępy z innego urządzenia mogą spełniać próg) i odśwież widok
       if (resolveSyncUrl(s) && s.syncLogin) {
@@ -59,10 +75,9 @@ export default function App() {
           const s = await getSettings();
           const daily = await getDailyStats();
           const day = daily[localDay()];
-          setToday({
-            status: dayStatus(day, s.dailyGoalMinutes),
-            minutes: Math.floor((day?.seconds || 0) / 60),
-          });
+          const status = dayStatus(day, s.dailyGoalMinutes);
+          setToday({ status, minutes: Math.floor((day?.seconds || 0) / 60) });
+          updateBadge(status);
           setStreak(currentStreak(await getDailyStats()));
         })();
       }
@@ -93,9 +108,22 @@ export default function App() {
     const s = await getSettings();
     const daily = await getDailyStats();
     const day = daily[localDay()];
-    setToday({
-      status: dayStatus(day, s.dailyGoalMinutes),
-      minutes: Math.floor((day?.seconds || 0) / 60),
+    const status = dayStatus(day, s.dailyGoalMinutes);
+    setToday({ status, minutes: Math.floor((day?.seconds || 0) / 60) });
+    updateBadge(status);
+    setGoals(deckGoals(await loadDeck(unlocked)));
+  }
+
+  // Kamienie milowe do ogłoszenia w podsumowaniu sesji (każdy tylko raz).
+  async function collectMilestones(unlocked) {
+    const daily = await getDailyStats();
+    let answers = 0;
+    for (const d of Object.values(daily)) answers += d.correct || 0;
+    return claimMilestones({
+      gold: cardBuckets(await loadDeck(unlocked)).gold,
+      streak: currentStreak(daily).count || 0,
+      lesson: unlocked,
+      answers,
     });
   }
 
@@ -132,6 +160,7 @@ export default function App() {
   async function handleSessionFinished() {
     const unlocked = await checkUnlocks(index);
     await refreshStats(index, unlocked);
+    const milestones = await collectMilestones(unlocked).catch(() => []);
 
     // automatyczna synchronizacja po sesji, jeśli skonfigurowana; po niej
     // ponownie sprawdź odblokowania i odśwież widok (bez przeładowania strony)
@@ -144,6 +173,7 @@ export default function App() {
           setTimeout(() => setToast(''), 5000);
         });
     }
+    return milestones;
   }
 
   if (startupError) return <div className="screen center"><p>Nie udało się wczytać kursu: {startupError}</p><button className="btn" onClick={() => window.location.reload()}>Spróbuj ponownie</button></div>;
@@ -152,14 +182,25 @@ export default function App() {
     return <div className="screen center">Wczytywanie kursu…</div>;
   }
 
-  if (view === 'session' || view === 'mistakes') {
+  if (view === 'pairs') {
+    return (
+      <Pairs
+        maxLesson={unlockedLesson}
+        settings={settings}
+        onExit={async () => { await refreshStats(index, unlockedLesson); setView('tree'); }}
+      />
+    );
+  }
+
+  if (view === 'session' || view === 'mistakes' || view === 'quick') {
     return (
       <Session
+        key={view}
         settings={settings}
         maxLesson={unlockedLesson}
         index={index}
-        mode={view === 'mistakes' ? 'mistakes' : 'normal'}
-        onExit={() => setView('tree')}
+        mode={view === 'session' ? 'normal' : view}
+        onExit={(next) => setView(next === 'pairs' ? 'pairs' : 'tree')}
         onFinished={handleSessionFinished}
         onSettingsChange={setSettings}
       />
@@ -167,7 +208,7 @@ export default function App() {
   }
 
   if (view === 'stats') {
-    return <Stats maxLesson={unlockedLesson} onBack={() => setView('tree')} />;
+    return <Stats maxLesson={unlockedLesson} lessonCount={index.lekcje.length} onBack={() => setView('tree')} />;
   }
 
   if (view === 'settings') {
@@ -234,6 +275,7 @@ export default function App() {
           onClick={() => setView('stats')}
         >
           <FaceIcon status={today.status} size={18} />
+          {streak.count > 0 && <span className="streak-chip"><Icon name="fire" size={12} />{streak.count}</span>}
         </button>
         <button className="btn ghost lesson-select-btn" onClick={() => setView('lessonList')}>
           <Icon name="list" size={14} /> Lekcja {shownLesson}
@@ -268,16 +310,43 @@ export default function App() {
         </div>
       </div>
 
+      {/* cel na dziś: ile kart dzieli od kolejnej lekcji i ile może dziś awansować */}
+      <div className="goal-strip">
+        {unlockedLesson < (index.lekcje.length || 100) ? (
+          <div className="goal-cell" title="Kolejna lekcja otwiera się, gdy wszystkie karty mają co najmniej poziom 3">
+            <span className="goal-num">{goals.missing === 0 ? <Icon name="star" size={12} /> : <Icon name="lock" size={12} />} {goals.missing}</span>
+            <span className="goal-label">{goals.missing === 0 ? 'sesja otworzy lekcję ' + (unlockedLesson + 1) : 'kart do lekcji ' + (unlockedLesson + 1)}</span>
+          </div>
+        ) : (
+          <div className="goal-cell">
+            <span className="goal-num"><Icon name="star" size={12} /> 100</span>
+            <span className="goal-label">wszystkie lekcje otwarte</span>
+          </div>
+        )}
+        <div className="goal-cell">
+          <span className="goal-num goal-up"><Icon name="up" size={12} /> {goals.promotable}</span>
+          <span className="goal-label">kart do awansu dziś</span>
+        </div>
+      </div>
+
       <LessonPreview lesson={shownLesson} grammarNote={current?.gramatyka} />
 
       {toast && <div className="toast">{toast}</div>}
 
       <div className="home-bottom">
-        {mistakeCount > 0 && (
-          <button className="btn mistakes-btn" onClick={() => setView('mistakes')}>
-            <Icon name="repeat" size={14} /> Powtórka ({mistakeCount})
+        <div className="quick-row">
+          <button className="btn quick-btn" onClick={() => setView('quick')}>
+            <Icon name="bolt" size={13} /> 2 min
           </button>
-        )}
+          <button className="btn quick-btn" onClick={() => setView('pairs')}>
+            <Icon name="pairs" size={13} /> Pary
+          </button>
+          {mistakeCount > 0 && (
+            <button className="btn quick-btn mistakes-btn" onClick={() => setView('mistakes')}>
+              <Icon name="repeat" size={13} /> {mistakeCount}
+            </button>
+          )}
+        </div>
         <button className="btn primary big" onClick={() => setView('session')}>
           <Icon name="play" size={14} /> Rozpocznij sesję
         </button>

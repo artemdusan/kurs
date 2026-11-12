@@ -14,6 +14,29 @@ npm run build      # produkcyjny build PWA (dist/)
 
 Skrypt `scripts/copy-data.mjs` kopiuje dane kursu do `app/public/data` przed dev/build.
 
+## Co widać w aplikacji
+
+- **Ekran główny** pokazuje cel na dziś: ile kart dzieli od kolejnej lekcji
+  (karty poniżej poziomu 3) i ile kart może dziś jeszcze awansować.
+- **Szybka sesja 2 min** i **Pary na czas** są pod ręką obok pełnej sesji, a po
+  przytrzymaniu ikony aplikacji działają jako skróty (`/?start=quick`, `/?start=pairs`).
+- **Nowe słowo** najpierw się przedstawia (słowo, zdanie, lektor), dopiero potem
+  pada pytanie. Formy odmiany zaczynają od wyboru z trzech opcji, więc prezentacji nie mają.
+- **Po błędzie** widać własną odpowiedź z zaznaczonymi znakami, które nie pasują.
+  Po każdej odpowiedzi lektor czyta całe zdanie.
+- **Poziom karty** to 5 kropek: poziomy 1–5 zapełniają je kolorami, poziomy 6–10
+  zapełniają te same kropki drugi raz na złoto.
+- **Podsumowanie sesji** ma listę słów do poprawki, liczbę awansów i kamienie milowe
+  (złote karty, seria, otwarte lekcje, poprawne odpowiedzi) — każdy ogłaszany raz.
+- **Pary na czas**: 60 sekund łączenia polskich słów z hiszpańskimi, seria bezbłędnych
+  par mnoży punkty (do ×5). Gra nie zmienia poziomów kart, ale jej czas i odpowiedzi
+  liczą się do dnia nauki, więc podtrzymuje serię. Rekord jest zapisany lokalnie.
+- **Statystyki** mieszczą się na jednym ekranie telefonu: seria, dzisiejszy cel,
+  kalendarz 5 tygodni, droga do kolejnej lekcji, stan talii (nowe / utrwalane / złote),
+  skuteczność z 7 dni. Wykres awansów i pełny rozkład poziomów są pod „Szczegóły”.
+- **Znacznik na ikonie** aplikacji jest widoczny, dopóki dzienny cel nie jest zrobiony
+  (Badging API; działa w zainstalowanej PWA).
+
 ## Algorytm nauki
 
 - Każda karta (w tym osobna odmiana czasownika) ma poziom **1–10**.
@@ -100,7 +123,7 @@ cd app
 npm ci
 npm test                 # IndexedDB, migracja, daty/DST, synchronizacja w Miniflare z D1
 npm run build
-npm run test:browser     # Chromium/Playwright: aktualizacja starej PWA i tryb offline
+npm run test:browser     # Chromium/Playwright: aktualizacja starej PWA, tryb offline, gra
 node scripts/check-content.mjs b2b715a10bed0cb8f276b2427dc427f79599c946
 ```
 
@@ -114,9 +137,16 @@ Buźka w nagłówku aplikacji pokazuje status dnia: **zielona** — dzienny cel 
 osiągnięty (Ustawienia → „Dzienny cel nauki”), **żółta** — była nauka, ale krócej
 niż cel (dzień i tak liczy się do streaka), **czerwona** — dziś jeszcze nic.
 
-Worker o **19:00 czasu polskiego** (cron 17:00 i 18:00 UTC + sprawdzenie strefy
-Europe/Warsaw) wysyła powiadomienie push z przypomnieniem — tylko wtedy, gdy
-danego dnia nie było żadnej sesji. Konfiguracja:
+Worker wysyła powiadomienia push tylko wtedy, gdy danego dnia nie było jeszcze nauki
+(czas polski; cron działa w UTC dla czasu letniego i zimowego, kod sprawdza strefę
+Europe/Warsaw):
+
+- **19:00** — dziś jeszcze bez nauki,
+- **21:00** — nadal nic, a wczoraj była nauka, czyli seria wygaśnie o północy,
+- **8:00** — poranna zachęta (domyślnie wyłączona).
+
+Każde z nich włącza się osobno w Ustawieniach → Przypomnienia; wybór trafia do
+Workera (`POST /push/prefs`, tabela `meta`, bez zmian w schemacie bazy). Konfiguracja:
 
 ```bash
 cd worker
@@ -130,8 +160,13 @@ npx wrangler deploy                          # rejestruje też crony z wrangler.
 
 W aplikacji: Ustawienia → Przypomnienia → „Włącz przypomnienia” (wymaga
 skonfigurowanej synchronizacji; na iOS aplikacja musi być zainstalowana na
-ekranie głównym). Push jest bez payloadu — treść powiadomienia jest w
-service workerze (`app/public/push-sw.js`), więc nie trzeba szyfrowania.
+ekranie głównym). Push jest bez payloadu — treść powiadomienia dobiera service
+worker według godziny (`app/public/push-sw.js`), więc nie trzeba szyfrowania.
+
+Zmiana przypomnień wymaga ponownego wdrożenia Workera (`npx wrangler deploy` albo
+automatyczne wdrażanie z GitHuba: Workers & Pages → `kurs-sync` → Settings → Build,
+katalog `worker`). Aplikacja działa też ze starszym Workerem — wtedy przychodzi tylko
+przypomnienie o 19:00.
 
 ## Hosting aplikacji (Cloudflare Pages)
 
@@ -144,6 +179,8 @@ service workerze (`app/public/push-sw.js`), więc nie trzeba szyfrowania.
 
 Każda lekcja (`lekcje/*.json`): 1 czasownik (z 18 formami: present/preterite/future ×
 6 osób; czasowniki bezosobowe jak *llover* mają tylko 3), 10 rzeczowników, 2 przymiotniki.
+Hasło może się powtórzyć tylko w innym znaczeniu (inne polskie tłumaczenie); jedna rama
+zdania może wystąpić najwyżej 12 razy w całym kursie — pilnuje tego `check-content.mjs`.
 Zdania przykładowe w notacji cloze `[słowo_hiszpańskie::tłumaczenie_polskie]` + pełne
 tłumaczenie (rzeczowniki/przymiotniki po 3, formy czasowników po 1). Polskie tłumaczenia
 zawsze w formie męskiej. Słowa wieloznaczne to osobne rekordy z hintem w nawiasie.

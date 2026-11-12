@@ -42,3 +42,29 @@ export function checkAnswer(userAnswer, expected, { isNoun = false, accentTolera
   }
   return a === b;
 }
+
+/**
+ * Porównanie odpowiedzi do pokazania po błędzie: dla każdego znaku wpisanego
+ * tekstu informacja, czy pasuje do poprawnej odpowiedzi (najdłuższy wspólny
+ * podciąg, bez rozróżniania wielkości liter). Akcent to osobny znak: „e” ≠ „é”.
+ */
+export function diffAnswer(userAnswer, expected) {
+  const a = [...String(userAnswer || '')];
+  const b = [...String(expected || '')];
+  const eq = (x, y) => x.toLowerCase() === y.toLowerCase();
+  const lcs = Array.from({ length: a.length + 1 }, () => new Array(b.length + 1).fill(0));
+  for (let i = a.length - 1; i >= 0; i--) {
+    for (let j = b.length - 1; j >= 0; j--) {
+      lcs[i][j] = eq(a[i], b[j]) ? lcs[i + 1][j + 1] + 1 : Math.max(lcs[i + 1][j], lcs[i][j + 1]);
+    }
+  }
+  const out = [];
+  let i = 0;
+  let j = 0;
+  while (i < a.length) {
+    if (j < b.length && eq(a[i], b[j])) { out.push({ ch: a[i], ok: true }); i++; j++; }
+    else if (j < b.length && lcs[i][j + 1] >= lcs[i + 1][j]) j++;
+    else { out.push({ ch: a[i], ok: false }); i++; }
+  }
+  return out;
+}
