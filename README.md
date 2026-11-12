@@ -27,6 +27,8 @@ Skrypt `scripts/copy-data.mjs` kopiuje dane kursu do `app/public/data` przed dev
   Odpowiedzi zmieniają poziomy kart tak jak w zwykłej sesji.
 - **Lista lekcji** pokazuje całą ścieżkę kursu z podziałem na poziomy; zamknięte lekcje
   są widoczne, ale nieaktywne.
+- **Pikselowa mapa** (`PixelMap`, nad listą lekcji): 100 pól w kształcie półwyspu, jedno
+  na lekcję. Otwarte pola zielenieją wraz z postępem, w pełni opanowane są złote.
 - **Szybka sesja 2 min** i **Pary na czas** są pod ręką obok pełnej sesji, a po
   przytrzymaniu ikony aplikacji działają jako skróty (`/?start=quick`, `/?start=pairs`).
 - **Nowe słowo** najpierw się przedstawia (słowo, zdanie, lektor), dopiero potem

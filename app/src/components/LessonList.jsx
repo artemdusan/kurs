@@ -1,5 +1,6 @@
 import React, { useEffect, useRef } from 'react';
 import Icon from './Icon.jsx';
+import PixelMap from './PixelMap.jsx';
 
 // Ścieżka całego kursu: otwarte lekcje można przeglądać, zamknięte pokazują,
 // co jest przed nami. Lekcje są pogrupowane poziomami (A0, A1, …).
@@ -25,6 +26,8 @@ export default function LessonList({ index, unlockedLesson, lessonStats, current
         <h2>Lekcje</h2>
         <span className="lesson-list-count">{unlockedLesson}/{index.lekcje.length}</span>
       </div>
+
+      <PixelMap unlockedLesson={unlockedLesson} lessonStats={lessonStats} current={current} onSelect={onSelect} />
 
       <div className="lesson-list-items">
         {groups.map((g) => (

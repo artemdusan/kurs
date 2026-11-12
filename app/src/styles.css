@@ -1010,3 +1010,10 @@ h3, .preview-h { font-family: var(--ui); font-size: 12px; font-weight: 800; lett
 .welcome .link-btn { align-self: center; }
 
 @media (prefers-reduced-motion: reduce) { .boss-hit, .boss-attack, .boss-final.gloat { animation: none; } }
+
+/* --- pikselowa mapa kursu (lista lekcji) --- */
+.pixel-map { flex: none; width: 100%; max-height: 30dvh; background: #131a26; box-shadow: inset 2px 2px 0 var(--edge-dark), inset -2px -2px 0 var(--edge-light); }
+.map-cell.open { cursor: pointer; }
+.map-cell.current { stroke: var(--text); stroke-width: 0.12; animation: mapBlink 1s steps(2) infinite; }
+@keyframes mapBlink { 50% { stroke: var(--amber); } }
+@media (prefers-reduced-motion: reduce) { .map-cell.current { animation: none; } }
