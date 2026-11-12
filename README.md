@@ -21,12 +21,19 @@ Skrypt `scripts/copy-data.mjs` kopiuje dane kursu do `app/public/data` przed dev
   Poziom gracza jest w nagłówku, a liczby XP i awanse w Statystykach.
 - **Pierwsze uruchomienie** zaczyna się od krótkiego powitania i prowadzi prosto do
   pierwszej sesji.
-- **Boss** (`Session`, tryb `boss`): gdy wszystkie karty mają poziom 3, przycisk sesji
-  zmienia się w „Walcz z bossem”. Dobra odpowiedź zabiera bossowi 1 z 8 punktów życia,
-  błąd zabiera 1 z 3 serc. Wygrana otwiera kolejną lekcję, po przegranej jest rewanż.
-  Odpowiedzi zmieniają poziomy kart tak jak w zwykłej sesji.
+- **Boss** (`Boss.jsx`, zasady w `engine/boss.js`): gdy wszystkie karty mają poziom 3,
+  przycisk sesji zmienia się w „Walcz z bossem”. To jedyna droga do kolejnej lekcji.
+  Boss szykuje atak (pasek czasu), a pytania są szybkie i pochodzą głównie z ukończonej
+  lekcji: tłumaczenie z 4 opcji, forma czasownika, rodzajnik. Dobra odpowiedź zabiera
+  1 punkt życia, szybka (pierwsze 35% czasu) to cios krytyczny za 2. Błąd albo spóźnienie
+  kosztuje 1 z 3 serc. Ostatni punkt zabiera „cios kończący”: wpisanie słowa z lekcji.
+  Pięć rodzajów bossów zmienia się co lekcję: Strażnik, Błyskawica (mniej czasu),
+  Tarczownik (tarcza wraca po błędzie), Wampir (leczy się na błędach), Kameleon
+  (pytania w odwrotną stronę). Walka nie zmienia poziomów kart, liczy się do dnia nauki.
 - **Lista lekcji** pokazuje całą ścieżkę kursu z podziałem na poziomy; zamknięte lekcje
   są widoczne, ale nieaktywne.
+- **Pikselowa mapa** (`PixelMap`, nad listą lekcji): 100 pól w kształcie półwyspu, jedno
+  na lekcję. Otwarte pola zielenieją wraz z postępem, w pełni opanowane są złote.
 - **Szybka sesja 2 min** i **Pary na czas** są pod ręką obok pełnej sesji, a po
   przytrzymaniu ikony aplikacji działają jako skróty (`/?start=quick`, `/?start=pairs`).
 - **Nowe słowo** najpierw się przedstawia (słowo, zdanie, lektor), dopiero potem
@@ -38,7 +45,8 @@ Skrypt `scripts/copy-data.mjs` kopiuje dane kursu do `app/public/data` przed dev
 - **Podsumowanie sesji** ma listę słów do poprawki, liczbę awansów i kamienie milowe
   (złote karty, seria, otwarte lekcje, poprawne odpowiedzi) — każdy ogłaszany raz.
 - **Pary na czas**: 60 sekund łączenia polskich słów z hiszpańskimi, seria bezbłędnych
-  par mnoży punkty (do ×5). Gra nie zmienia poziomów kart, ale jej czas i odpowiedzi
+  par mnoży punkty (do ×5). Wyczyszczona plansza dolicza 3 sekundy, od drugiej planszy
+  jedno hiszpańskie słowo jest złote (para za ×3), a seria 5 par włącza „gorączkę”. Gra nie zmienia poziomów kart, ale jej czas i odpowiedzi
   liczą się do dnia nauki, więc podtrzymuje serię. Rekord jest zapisany lokalnie.
 - **Statystyki** mieszczą się na jednym ekranie telefonu: seria, dzisiejszy cel,
   kalendarz 5 tygodni, droga do kolejnej lekcji, stan talii (nowe / utrwalane / złote),
@@ -54,6 +62,9 @@ Skrypt `scripts/copy-data.mjs` kopiuje dane kursu do `app/public/data` przed dev
   czyta słowo, polska podpowiedź i zdanie są ukryte. „Nie mogę teraz słuchać” zamienia
   zadanie w zwykłe i wyłącza dyktanda do końca sesji. Wyłącznik w Ustawieniach.
 - **Sprint el/la**: 45 sekund zgadywania rodzajnika; zasady punktów jak w „Parach”.
+- **Droga** (`Road.jsx`): jazda w pseudo-3D rysowana na canvasie 2D. Lewy pas to „el”,
+  prawy „la”; wjeżdżasz w bramkę pasującą do rzeczownika. Trafienia przyspieszają jazdę,
+  trzy stłuczki kończą grę. Punkty jak w „Parach”, skrót `/?start=road`.
 - **Poziom gracza (XP)**: 10 XP za poprawną odpowiedź, 20 za awans karty, 50 za sesję,
   100 za wyzwanie dnia. Liczony z liczników dni, więc synchronizuje się razem z nimi
   (bonus za wyzwania jest zapisany tylko lokalnie).
@@ -78,7 +89,7 @@ Skrypt `scripts/copy-data.mjs` kopiuje dane kursu do `app/public/data` przed dev
   Poprawna odpowiedź na poziomie 10 też wykorzystuje zmianę na ten dzień.
 - Gdy **wszystkie karty wszystkich dotychczas odblokowanych lekcji mają poziom
   co najmniej 3**, pojawia się boss; kolejną lekcję otwiera wygrana z nim.
-  Zwykła sesja, szybka sesja i gry lekcji nie otwierają. Otwarte lekcje
+  Zwykła sesja, szybka sesja i gry lekcji nie otwierają; walka nie zmienia poziomów kart. Otwarte lekcje
   nie zamykają się po późniejszym spadku poziomu.
 - Pula liczy 25 kart: przy dostatecznej liczbie kart 12 miejsc przypada na
   poziom 1 (najdawniej widziane), 13 na powtórki. Wybór kolejnego pytania daje

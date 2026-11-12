@@ -12,6 +12,8 @@ import LessonPreview from './components/LessonPreview.jsx';
 import LessonList from './components/LessonList.jsx';
 import Pairs from './components/Pairs.jsx';
 import Sprint from './components/Sprint.jsx';
+import Road from './components/Road.jsx';
+import Boss from './components/Boss.jsx';
 import HardWords from './components/HardWords.jsx';
 import Welcome from './components/Welcome.jsx';
 import {
@@ -74,7 +76,7 @@ export default function App() {
       if (start) window.history.replaceState(null, '', window.location.pathname);
       // pierwsze uruchomienie: krótkie powitanie zamiast gęstego ekranu głównego
       const firstRun = !(await getMeta('welcomed', false)) && unlocked === 1 && Object.keys(await getDailyStats()).length === 0;
-      setView(['quick', 'pairs', 'sprint'].includes(start) ? start : firstRun ? 'welcome' : 'tree');
+      setView(['quick', 'pairs', 'sprint', 'road'].includes(start) ? start : firstRun ? 'welcome' : 'tree');
       // synchronizacja na starcie (w tle) — po niej sprawdź odblokowania
       // (postępy z innego urządzenia mogą spełniać próg) i odśwież widok
       if (resolveSyncUrl(s) && s.syncLogin) {
@@ -179,7 +181,7 @@ export default function App() {
     });
   }
 
-  // Kolejną lekcję otwiera wygrana walka z bossem (Session, tryb „boss”) albo
+  // Kolejną lekcję otwiera wyłącznie wygrana walka z bossem (Boss.jsx) albo
   // inne urządzenie przez synchronizację. Tutaj tylko dociągamy stan widoku
   // i importujemy materiał nowo otwartych lekcji. Zwraca numer najwyższej.
   async function checkUnlocks(idx, announce = true) {
@@ -238,6 +240,10 @@ export default function App() {
     return <Sprint maxLesson={unlockedLesson} onExit={afterGame} />;
   }
 
+  if (view === 'road') {
+    return <Road maxLesson={unlockedLesson} onExit={afterGame} />;
+  }
+
   if (view === 'hardList') {
     return <HardWords maxLesson={unlockedLesson} onBack={() => setView('stats')} onStart={() => setView('hard')} />;
   }
@@ -247,7 +253,26 @@ export default function App() {
     return <Welcome lesson={index.lekcje.find((l) => l.numer === 1)} onStart={() => start('session')} onSkip={() => start('tree')} />;
   }
 
-  if (view === 'session' || view === 'mistakes' || view === 'quick' || view === 'hard' || view === 'boss') {
+  if (view === 'boss') {
+    return (
+      <Boss
+        maxLesson={unlockedLesson}
+        index={index}
+        settings={settings}
+        onExit={async () => {
+          // po wygranej numer otwartej lekcji jest już zapisany — dociągnij widok
+          const unlocked = await checkUnlocks(index, false);
+          setBrowsingLesson(null);
+          await refreshStats(index, unlocked);
+          setView('tree');
+          const news = await collectNews(unlocked).catch(() => []);
+          if (news.length) { await refreshStats(index, unlocked); setToast(news.join(' · ')); setTimeout(() => setToast(''), 6000); }
+        }}
+      />
+    );
+  }
+
+  if (view === 'session' || view === 'mistakes' || view === 'quick' || view === 'hard') {
     return (
       <Session
         key={view + run}
@@ -255,7 +280,7 @@ export default function App() {
         maxLesson={unlockedLesson}
         index={index}
         mode={view === 'session' ? 'normal' : view}
-        onExit={(next) => { setBrowsingLesson(null); setRun((n) => n + 1); setView(['pairs', 'boss'].includes(next) ? next : 'tree'); }}
+        onExit={(next) => { setRun((n) => n + 1); setView(next === 'pairs' ? 'pairs' : 'tree'); }}
         onFinished={handleSessionFinished}
         onSettingsChange={setSettings}
       />
@@ -403,6 +428,9 @@ export default function App() {
           </button>
           <button className="quick-btn" onClick={() => setView('sprint')}>
             el/la
+          </button>
+          <button className="quick-btn" onClick={() => setView('road')}>
+            <Icon name="road" size={13} /> Droga
           </button>
           {mistakeCount > 0 && (
             <button className="quick-btn mistakes-btn" title="Powtórka dzisiejszych błędów" onClick={() => setView('mistakes')}>

@@ -10,8 +10,13 @@ import { burst, floatText, rain, COLORS } from '../particles.js';
 // Mini gra „Pary na czas”: 60 sekund, łącz polskie słowo z hiszpańskim.
 // Nie zmienia poziomów kart (algorytm nauki zostaje nietknięty), ale liczy się
 // do czasu nauki i odpowiedzi dnia, więc podtrzymuje serię.
+// Żeby było o co grać: wyczyszczona plansza dolicza czas, od drugiej planszy
+// jedno hiszpańskie słowo jest złote (para za ×3), a seria 5 par włącza „gorączkę”.
 
 export const PAIRS_SECONDS = 60;
+export const BOARD_BONUS_SECONDS = 3;
+export const GOLD_MULTIPLIER = 3;
+export const FEVER_COMBO = 5;
 
 function shuffle(list) {
   const a = [...list];
@@ -45,6 +50,8 @@ export default function Pairs({ maxLesson, settings, onExit }) {
   const [phase, setPhase] = useState('play'); // play | done
   const [best, setBest] = useState(0);
   const [record, setRecord] = useState(false);
+  const [goldId, setGoldId] = useState(null); // złote słowo na tej planszy
+  const boardsRef = useRef(0);
   const cardsRef = useRef([]);
   const usedRef = useRef(new Set());
   const statsRef = useRef({ pairs: 0, mistakes: 0, seconds: 0, saved: false });
@@ -55,6 +62,8 @@ export default function Pairs({ maxLesson, settings, onExit }) {
     const next = dealBoard(cardsRef.current, usedRef.current, PAIRS_PER_BOARD);
     setGone(new Set());
     setPicked(null);
+    // pierwsza plansza jest zwykła — złote słowo pojawia się od drugiej
+    setGoldId(boardsRef.current > 0 && next.length ? next[Math.floor(Math.random() * next.length)].id : null);
     setBoard({ left: shuffle(next), right: shuffle(next) });
   }
 
@@ -79,6 +88,7 @@ export default function Pairs({ maxLesson, settings, onExit }) {
     usedRef.current = new Set();
     statsRef.current = { pairs: 0, mistakes: 0, seconds: 0, saved: false };
     scoreRef.current = 0;
+    boardsRef.current = 0;
     setScore(0); setCombo(0); setRecord(false);
     setRemaining(PAIRS_SECONDS);
     endAtRef.current = Date.now() + PAIRS_SECONDS * 1000;
@@ -121,9 +131,11 @@ export default function Pairs({ maxLesson, settings, onExit }) {
     if (picked.id === card.id) {
       const nextCombo = combo + 1;
       const nextGone = new Set(gone).add(card.id);
-      scoreRef.current += pairPoints(nextCombo);
+      const golden = card.id === goldId;
+      const points = pairPoints(nextCombo) * (golden ? GOLD_MULTIPLIER : 1);
+      scoreRef.current += points;
       // wybuch z obu kafelków; im dłuższa seria, tym większy i bardziej złoty
-      const hot = nextCombo >= 3;
+      const hot = nextCombo >= 3 || golden;
       const tiles = [event?.currentTarget, document.querySelector(`.pair-tile.picked`)].filter(Boolean);
       for (const el of tiles) {
         const r = el.getBoundingClientRect();
@@ -131,16 +143,24 @@ export default function Pairs({ maxLesson, settings, onExit }) {
       }
       if (tiles[0]) {
         const r = tiles[0].getBoundingClientRect();
-        floatText({ x: r.left + r.width / 2, y: r.top + 6 }, `+${pairPoints(nextCombo)}`, { color: hot ? '#ffd23f' : '#ffffff', size: hot ? 16 : 13 });
+        floatText({ x: r.left + r.width / 2, y: r.top + 6 }, `+${points}`, { color: hot ? '#ffd23f' : '#ffffff', size: golden ? 20 : hot ? 16 : 13 });
       }
       statsRef.current.pairs++;
       setScore(scoreRef.current);
       setCombo(nextCombo);
       setGone(nextGone);
       setPicked(null);
-      sfx.pair(nextCombo);
+      if (golden) sfx.gold(); else sfx.pair(nextCombo);
       speak(card.es, settings?.tts);
-      if (nextGone.size >= board.left.length) setTimeout(deal, 260);
+      if (nextGone.size >= board.left.length) {
+        // plansza wyczyszczona: premia czasu, więc dobra gra trwa dłużej
+        boardsRef.current++;
+        endAtRef.current += BOARD_BONUS_SECONDS * 1000;
+        setRemaining((n) => n + BOARD_BONUS_SECONDS);
+        const t = document.querySelector('.pairs .timer')?.getBoundingClientRect();
+        if (t) floatText({ x: t.left + t.width / 2, y: t.bottom + 14 }, `+${BOARD_BONUS_SECONDS} s`, { color: '#4cc2ff', size: 14 });
+        setTimeout(deal, 260);
+      }
     } else {
       statsRef.current.mistakes++;
       setCombo(0);
@@ -171,7 +191,7 @@ export default function Pairs({ maxLesson, settings, onExit }) {
         <p className="pairs-sub">
           <Icon name="trophy" size={14} /> rekord: {best}
         </p>
-        <p className="hint">Pary: {s.pairs} · pomyłki: {s.mistakes}</p>
+        <p className="hint">Pary: {s.pairs} · plansze: {boardsRef.current} · pomyłki: {s.mistakes}</p>
         <button className="btn primary big" onClick={start}>Jeszcze raz</button>
         <button className="btn" onClick={() => onExit()}>Wróć do kursu</button>
       </div>
@@ -183,6 +203,7 @@ export default function Pairs({ maxLesson, settings, onExit }) {
     if (gone.has(card.id)) cls.push('gone');
     if (picked && picked.side === side && picked.id === card.id) cls.push('picked');
     if (miss && miss[side] === card.id) cls.push('miss');
+    if (side === 'right' && card.id === goldId) cls.push('golden');
     return (
       <button key={side + card.id} className={cls.join(' ')} disabled={gone.has(card.id)} onClick={(e) => tap(side, card, e)}>
         {side === 'right' ? card.es : card.pl}
@@ -191,7 +212,7 @@ export default function Pairs({ maxLesson, settings, onExit }) {
   };
 
   return (
-    <div className="screen pairs">
+    <div className={'screen pairs' + (combo >= FEVER_COMBO ? ' fever' : '')}>
       <div className="session-top">
         <button className="btn ghost" onClick={async () => { await save(); onExit(); }} aria-label="Zakończ grę">
           <Icon name="close" />
@@ -200,10 +221,10 @@ export default function Pairs({ maxLesson, settings, onExit }) {
         <span className="pairs-score" aria-label={`Wynik ${score}`}>{score}</span>
       </div>
       <div className="session-progress">
-        <div className="session-progress-fill pairs-time" style={{ width: (remaining / PAIRS_SECONDS) * 100 + '%' }} />
+        <div className="session-progress-fill pairs-time" style={{ width: Math.min(100, (remaining / PAIRS_SECONDS) * 100) + '%' }} />
       </div>
       <div className={'pairs-combo' + (combo >= 2 ? ' on' : '')} key={combo}>
-        {combo >= 2 ? `seria ×${Math.min(5, combo)}` : 'dobierz pary'}
+        {combo >= FEVER_COMBO ? 'gorączka ×5!' : combo >= 2 ? `seria ×${Math.min(5, combo)}` : goldId ? 'złote słowo: para za ×3' : 'dobierz pary'}
       </div>
       <div className="pairs-board">
         <div className="pairs-col">{board.left.map((c) => tile('left', c))}</div>
