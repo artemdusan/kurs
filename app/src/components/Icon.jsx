@@ -35,6 +35,7 @@ const PATHS = {
   up: <path d="M12 20V5M5 12l7-7 7 7" />,
   star: <path d="M12 3l2.7 5.8 6.3.7-4.7 4.3 1.3 6.2L12 16.9 6.4 20l1.3-6.2L3 9.5l6.3-.7Z" fill="currentColor" stroke="none" />,
   heart: <path d="M12 20 L4 12 V7 H7 V5 H10 V7 H12 H14 V5 H17 V7 H20 V12 Z" fill="currentColor" stroke="none" />,
+  road: <path d="M9 3 L4 21 M15 3 L20 21 M12 5v3 M12 11v3 M12 17v3" />,
   trophy: <path d="M7 4h10v5a5 5 0 0 1-10 0ZM7 6H4v1a3 3 0 0 0 3 3M17 6h3v1a3 3 0 0 1-3 3M12 14v4M8 20h8" />,
 };
 

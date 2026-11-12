@@ -3,15 +3,31 @@ import React from 'react';
 // Pikselowa mapa kursu: 100 pól w kształcie Półwyspu Iberyjskiego, jedno na lekcję.
 // Zamknięte lekcje to ciemna sylwetka, otwarte zielenieją wraz z postępem,
 // w pełni opanowane są złote. Pola idą wężykiem od północnego zachodu na południe.
-const ROWS = [[1, 9], [0, 13], [0, 14], [1, 13], [1, 12], [1, 11], [1, 10], [1, 9], [2, 6], [3, 3]]; // [przesunięcie, szerokość]
-export const MAP_CELLS = ROWS.flatMap(([off, width], y) => {
-  const xs = Array.from({ length: width }, (_, i) => off + i);
+// X = pole lekcji, o = Baleary (ozdoba, bez lekcji).
+const SHAPE = [
+  '.XXXXXXXXX......',
+  'XXXXXXXXXXXXX...',
+  'XXXXXXXXXXXXXX..',
+  '.XXXXXXXXXXX....',
+  '.XXXXXXXXXXX..o.',
+  '.XXXXXXXXXX..o..',
+  'XXXXXXXXXXX.....',
+  '.XXXXXXXX.......',
+  '.XXXXXXX........',
+  '..XXXXX.........',
+  '....X...........',
+];
+const cellsOf = (ch) => SHAPE.flatMap((row, y) => {
+  const xs = [...row].map((c, x) => (c === ch ? x : -1)).filter((x) => x >= 0);
   return (y % 2 ? xs.reverse() : xs).map((x) => ({ x, y }));
 });
+export const MAP_CELLS = cellsOf('X');
+const ISLANDS = cellsOf('o');
 
 export default function PixelMap({ unlockedLesson, lessonStats, current, onSelect }) {
   return (
-    <svg className="pixel-map" viewBox="-0.5 -0.5 15 11" shapeRendering="crispEdges" role="img" aria-label={`Mapa kursu: otwarte ${unlockedLesson} z ${MAP_CELLS.length} lekcji`}>
+    <svg className="pixel-map" viewBox="-0.5 -0.5 17 12" shapeRendering="crispEdges" role="img" aria-label={`Mapa kursu: otwarte ${unlockedLesson} z ${MAP_CELLS.length} lekcji`}>
+      {ISLANDS.map(({ x, y }) => <rect key={x + '-' + y} x={x + 0.05} y={y + 0.05} width="0.9" height="0.9" fill="var(--card)" />)}
       {MAP_CELLS.map(({ x, y }, i) => {
         const n = i + 1;
         const open = n <= unlockedLesson;

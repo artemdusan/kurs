@@ -56,6 +56,9 @@ Skrypt `scripts/copy-data.mjs` kopiuje dane kursu do `app/public/data` przed dev
   czyta słowo, polska podpowiedź i zdanie są ukryte. „Nie mogę teraz słuchać” zamienia
   zadanie w zwykłe i wyłącza dyktanda do końca sesji. Wyłącznik w Ustawieniach.
 - **Sprint el/la**: 45 sekund zgadywania rodzajnika; zasady punktów jak w „Parach”.
+- **Droga** (`Road.jsx`): jazda w pseudo-3D rysowana na canvasie 2D. Lewy pas to „el”,
+  prawy „la”; wjeżdżasz w bramkę pasującą do rzeczownika. Trafienia przyspieszają jazdę,
+  trzy stłuczki kończą grę. Punkty jak w „Parach”, skrót `/?start=road`.
 - **Poziom gracza (XP)**: 10 XP za poprawną odpowiedź, 20 za awans karty, 50 za sesję,
   100 za wyzwanie dnia. Liczony z liczników dni, więc synchronizuje się razem z nimi
   (bonus za wyzwania jest zapisany tylko lokalnie).

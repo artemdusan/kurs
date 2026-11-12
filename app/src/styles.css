@@ -1017,3 +1017,17 @@ h3, .preview-h { font-family: var(--ui); font-size: 12px; font-weight: 800; lett
 .map-cell.current { stroke: var(--text); stroke-width: 0.12; animation: mapBlink 1s steps(2) infinite; }
 @keyframes mapBlink { 50% { stroke: var(--amber); } }
 @media (prefers-reduced-motion: reduce) { .map-cell.current { animation: none; } }
+
+/* --- gra „Droga” (pseudo-3D na canvasie, patrz Road.jsx) --- */
+.quick-row { overflow-x: auto; scrollbar-width: none; }
+.quick-row::-webkit-scrollbar { display: none; }
+.quick-btn { flex: 1 0 auto; padding: 6px 10px; }
+.quick-btn.mistakes-btn { flex: 0 0 auto; }
+.road-card { display: flex; flex-direction: column; align-items: center; gap: 4px; flex: none; background: var(--card); padding: 12px; text-align: center; box-shadow: inset 2px 2px 0 var(--edge-light), inset -2px -2px 0 var(--edge-dark); }
+.road-card.bad { background: var(--red-dark); animation: shake 0.3s steps(6); }
+.road-card.ok .road-noun { color: var(--green); }
+.road-noun { font-size: 30px; font-weight: 800; line-height: 1.15; overflow-wrap: anywhere; }
+.road-canvas { flex: 1; min-height: 0; width: 100%; image-rendering: pixelated; touch-action: none; cursor: pointer; box-shadow: 0 0 0 2px var(--edge-dark); }
+.btn.road-btn { padding: 18px 8px; font-size: 18px; opacity: 0.6; touch-action: manipulation; }
+.btn.road-btn.active { opacity: 1; outline: 3px solid var(--text); outline-offset: -3px; }
+@media (prefers-reduced-motion: reduce) { .road-card.bad { animation: none; } }
