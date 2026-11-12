@@ -1,12 +1,14 @@
+import { DEFAULT_REMINDER_PREFS, reminderKind } from './reminders.js';
 import { syncV2 } from './sync-v2.js';
 
 // Cloudflare Worker: synchronizacja v2 + prosty dashboard administratora
-// + przypomnienia web push (cron 19:00 czasu polskiego).
+// + przypomnienia web push (cron 8:00, 19:00 i 21:00 czasu polskiego).
 // Endpointy:
 //   POST /sync       — Basic Auth (login:hasło); przyjmuje partie zmian i zwraca pełne postępy/liczniki
 //   GET  /push/vapid — publiczny klucz VAPID (do subskrypcji w przeglądarce)
 //   POST /push/subscribe   — Basic Auth; zapis subskrypcji push urządzenia
 //   POST /push/unsubscribe — Basic Auth; usunięcie subskrypcji
+//   POST /push/prefs       — Basic Auth; które przypomnienia mają przychodzić
 //   GET  /dashboard  — panel admina (zarządzanie użytkownikami), token w polu formularza
 //   POST /admin/users — tworzenie/usuwanie użytkowników (nagłówek X-Admin-Token)
 
@@ -142,32 +144,48 @@ async function sendPush(endpoint, env) {
   });
 }
 
-// Cron (19:00 Europe/Warsaw): przypomnienie tylko dla użytkowników, którzy
-// dziś nie mieli żadnej aktywności (dailyStats z synchronizacji). Jeśli była
-// choć jedna odpowiedź — nic nie wysyłamy.
-async function sendReminders(env) {
-  if (!env.VAPID_PUBLIC_KEY || !env.VAPID_PRIVATE_KEY) return;
-  const warsawHour = Number(
-    new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Warsaw', hour: 'numeric', hour12: false }).format(new Date())
-  );
-  if (warsawHour !== 19) return; // cron odpala 17:00 i 18:00 UTC — trafia tylko jeden z nich
+// Przypomnienia (czas Europe/Warsaw), każde można wyłączyć w Ustawieniach aplikacji:
+//   8:00  „morning” — poranna zachęta (domyślnie wyłączona),
+//   19:00 „evening” — gdy dziś nie było jeszcze żadnej odpowiedzi,
+//   21:00 „streak”  — gdy dziś nadal nic, a wczoraj była nauka (seria wygaśnie o północy).
+// Push jest bez payloadu: treść dobiera service worker aplikacji według godziny.
+function warsawParts(now) {
+  const hour = Number(new Intl.DateTimeFormat('en-GB', { timeZone: 'Europe/Warsaw', hour: 'numeric', hour12: false }).format(now));
+  const dayOf = (d) => new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Warsaw', year: 'numeric', month: '2-digit', day: '2-digit' }).format(d);
+  // 30 h wstecz od bieżącej godziny zawsze trafia we wczorajszy dzień kalendarzowy
+  // w godzinach przypomnień (8–21), także przy zmianie czasu.
+  return { hour: hour % 24, today: dayOf(now), yesterday: dayOf(new Date(now.getTime() - 30 * 3600 * 1000)) };
+}
 
-  const today = new Intl.DateTimeFormat('en-CA', { timeZone: 'Europe/Warsaw', year: 'numeric', month: '2-digit', day: '2-digit' }).format(new Date());
+async function sendReminders(env, now = new Date(), send = sendPush) {
+  if (!env.VAPID_PUBLIC_KEY || !env.VAPID_PRIVATE_KEY) return [];
+  const { hour, today, yesterday } = warsawParts(now);
+  if (![8, 19, 21].includes(hour)) return []; // cron odpala się w UTC dla czasu letniego i zimowego
+
   const rows = await env.DB.prepare(
-    `SELECT s.user_id, s.endpoint, m.data AS stats,
-       (SELECT COALESCE(SUM(c.correct + c.wrong), 0) FROM daily_counters c WHERE c.user_id = s.user_id AND c.day = ?) AS answers
+    `SELECT s.user_id, s.endpoint, m.data AS stats, p.data AS prefs,
+       (SELECT COALESCE(SUM(c.correct + c.wrong), 0) FROM daily_counters c WHERE c.user_id = s.user_id AND c.day = ?) AS answers,
+       (SELECT COALESCE(SUM(c.correct + c.wrong), 0) FROM daily_counters c WHERE c.user_id = s.user_id AND c.day = ?) AS answers_yesterday
      FROM push_subscriptions s
-     LEFT JOIN meta m ON m.user_id = s.user_id AND m.key = 'dailyStats'`
-  ).bind(today).all();
+     LEFT JOIN meta m ON m.user_id = s.user_id AND m.key = 'dailyStats'
+     LEFT JOIN meta p ON p.user_id = s.user_id AND p.key = 'reminderPrefs'`
+  ).bind(today, yesterday).all();
 
+  const sent = [];
   for (const r of rows.results) {
     let day = null;
-    try {
-      day = JSON.parse(r.stats || '{}')[today];
-    } catch {}
-    const active = r.answers > 0 || day && ((day.correct || 0) + (day.wrong || 0) > 0 || (day.seconds || 0) > 0);
-    if (active) continue;
-    const res = await sendPush(r.endpoint, env).catch(() => null);
+    let prefs = {};
+    try { day = JSON.parse(r.stats || '{}')[today]; } catch {}
+    try { prefs = JSON.parse(r.prefs || '{}') || {}; } catch {}
+    const legacyActive = day && ((day.correct || 0) + (day.wrong || 0) > 0 || (day.seconds || 0) > 0);
+    const kind = reminderKind(hour, {
+      answersToday: r.answers + (legacyActive ? 1 : 0),
+      answersYesterday: r.answers_yesterday,
+      prefs,
+    });
+    if (!kind) continue;
+    const res = await send(r.endpoint, env).catch(() => null);
+    sent.push({ user_id: r.user_id, kind });
     // 404/410 = subskrypcja wygasła (odinstalowana PWA itp.) — sprzątamy
     if (res && (res.status === 404 || res.status === 410)) {
       await env.DB.prepare('DELETE FROM push_subscriptions WHERE user_id = ? AND endpoint = ?')
@@ -175,6 +193,24 @@ async function sendReminders(env) {
         .run();
     }
   }
+  return sent;
+}
+
+// Preferencje przypomnień użytkownika (które z trzech mają przychodzić).
+async function handlePushPrefs(request, env) {
+  const userId = await authenticate(request, env);
+  if (!userId) return json({ error: 'unauthorized' }, 401);
+  let body;
+  try { body = await request.json(); } catch { return json({ error: 'invalid_json' }, 400); }
+  const prefs = {};
+  for (const key of Object.keys(DEFAULT_REMINDER_PREFS)) {
+    prefs[key] = typeof body?.[key] === 'boolean' ? body[key] : DEFAULT_REMINDER_PREFS[key];
+  }
+  await env.DB.prepare(
+    `INSERT INTO meta (user_id, key, data, updated_at) VALUES (?, 'reminderPrefs', ?, ?)
+     ON CONFLICT (user_id, key) DO UPDATE SET data = excluded.data, updated_at = excluded.updated_at`
+  ).bind(userId, JSON.stringify(prefs), Date.now()).run();
+  return json({ ok: true, prefs });
 }
 
 async function handleAdminUsers(request, env) {
@@ -309,6 +345,12 @@ export default {
     }
     if (url.pathname === '/push/unsubscribe' && request.method === 'POST') {
       return handlePushUnsubscribe(request, env);
+    }
+    if (url.pathname === '/push/prefs' && request.method === 'POST') return handlePushPrefs(request, env);
+    // Tylko do testów w Miniflare (zmienna TEST_HOOKS nie istnieje na produkcji).
+    if (env.TEST_HOOKS && url.pathname === '/__test/reminders' && request.method === 'POST') {
+      const { now } = await request.json();
+      return json(await sendReminders(env, new Date(now), async () => ({ status: 201 })));
     }
     if (url.pathname === '/admin/users' && request.method === 'POST') return handleAdminUsers(request, env);
     if (url.pathname === '/dashboard') {
