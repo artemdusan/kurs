@@ -11,7 +11,6 @@ import Stats from './components/Stats.jsx';
 import LessonPreview from './components/LessonPreview.jsx';
 import LessonList from './components/LessonList.jsx';
 import Pairs from './components/Pairs.jsx';
-import Sprint from './components/Sprint.jsx';
 import Road from './components/Road.jsx';
 import Boss from './components/Boss.jsx';
 import HardWords from './components/HardWords.jsx';
@@ -39,7 +38,7 @@ function updateBadge(status) {
 
 export default function App() {
   const [startupError, setStartupError] = useState('');
-  const [view, setView] = useState('loading'); // loading | welcome | tree | session | boss | quick | mistakes | hard | hardList | pairs | sprint | settings | stats | lessonList
+  const [view, setView] = useState('loading'); // loading | welcome | tree | session | boss | quick | mistakes | hard | hardList | pairs | road | settings | stats | lessonList
   const [mistakeCount, setMistakeCount] = useState(0);
   const [browsingLesson, setBrowsingLesson] = useState(null); // przeglądana lekcja (null = bieżąca)
   const [index, setIndex] = useState(null);
@@ -77,7 +76,9 @@ export default function App() {
       if (start) window.history.replaceState(null, '', window.location.pathname);
       // pierwsze uruchomienie: krótkie powitanie zamiast gęstego ekranu głównego
       const firstRun = !(await getMeta('welcomed', false)) && unlocked === 1 && Object.keys(await getDailyStats()).length === 0;
-      setView(['quick', 'pairs', 'sprint', 'road'].includes(start) ? start : firstRun ? 'welcome' : 'tree');
+      // stary skrót „el/la” (sprint) prowadzi teraz do „Drogi”, która go zastąpiła
+      const startView = start === 'sprint' ? 'road' : start;
+      setView(['quick', 'pairs', 'road'].includes(startView) ? startView : firstRun ? 'welcome' : 'tree');
       // synchronizacja na starcie (w tle) — po niej sprawdź odblokowania
       // (postępy z innego urządzenia mogą spełniać próg) i odśwież widok
       if (resolveSyncUrl(s) && s.syncLogin) {
@@ -233,10 +234,6 @@ export default function App() {
         onExit={afterGame}
       />
     );
-  }
-
-  if (view === 'sprint') {
-    return <Sprint maxLesson={unlockedLesson} onExit={afterGame} />;
   }
 
   if (view === 'road') {
@@ -428,9 +425,6 @@ export default function App() {
           </button>
           <button className="quick-btn" onClick={() => setView('pairs')}>
             <Icon name="pairs" size={13} /> Pary
-          </button>
-          <button className="quick-btn" onClick={() => setView('sprint')}>
-            el/la
           </button>
           <button className="quick-btn" onClick={() => setView('road')}>
             <Icon name="road" size={13} /> Droga

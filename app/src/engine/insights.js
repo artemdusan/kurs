@@ -206,7 +206,7 @@ const CHALLENGES = [
   { kind: 'correct', targets: [30, 40, 50], label: (n) => `${n} poprawnych odpowiedzi` },
   { kind: 'minutes', targets: [5, 8], label: (n) => `${n} min ponad dzienny cel` },
   { kind: 'pairs', targets: [200, 300], label: (n) => `${n} punktów w „Parach”` },
-  { kind: 'sprint', targets: [150, 250], label: (n) => `${n} punktów w „el/la”` },
+  { kind: 'road', targets: [150, 250], label: (n) => `${n} punktów w „Drodze”` },
 ];
 
 /** Jedno wyzwanie na dzień, wybierane z daty — to samo po każdym otwarciu aplikacji. */
@@ -226,7 +226,7 @@ export function challengeProgress(challenge, counters = {}, games = {}) {
     correct: counters.correct || 0,
     minutes: Math.floor((counters.seconds || 0) / 60),
     pairs: games.pairs || 0,
-    sprint: games.sprint || 0,
+    road: games.road || 0,
   }[challenge.kind] || 0;
   return { value: Math.min(value, challenge.target), done: value >= challenge.target };
 }
@@ -275,7 +275,7 @@ export function hardWords(deck, limit = 25) {
     .slice(0, limit);
 }
 
-// --- gra „Sprint el/la” ----------------------------------------------------
+// --- rzeczowniki z rodzajnikiem (gra „Droga”, pytania bossa) ----------------------------------------------------
 /** Rzeczowniki z rodzajnikiem do zgadywania: { id, article, noun, pl, plural }. */
 export function sprintDeck(deck, rng = Math.random) {
   const cards = [];
