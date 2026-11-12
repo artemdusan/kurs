@@ -5,10 +5,11 @@ const PATHS = {
   close: <path d="M5 5 L19 19 M19 5 L5 19" />,
   back: <path d="M14 5 L7 12 L14 19" />,
   play: <path d="M7 4 L19 12 L7 20 Z" fill="currentColor" stroke="none" />,
+  // suwaki — jednoznacznie „ustawienia” (koło z promieniami wyglądało jak słońce)
   gear: (
     <>
-      <circle cx="12" cy="12" r="3.2" />
-      <path d="M12 2.8v3M12 18.2v3M2.8 12h3M18.2 12h3M5.5 5.5l2.1 2.1M16.4 16.4l2.1 2.1M18.5 5.5l-2.1 2.1M7.6 16.4l-2.1 2.1" />
+      <path d="M4 7h8M18 7h2M4 17h2M12 17h8" />
+      <path d="M12 4.5h6v5h-6ZM6 14.5h6v5H6Z" />
     </>
   ),
   chart: <path d="M4 20V10M10 20V4M16 20v-8M4 20h17" />,
@@ -33,16 +34,17 @@ const PATHS = {
   lock: <path d="M6 11h12v9H6ZM8.5 11V7.5a3.5 3.5 0 0 1 7 0V11" />,
   up: <path d="M12 20V5M5 12l7-7 7 7" />,
   star: <path d="M12 3l2.7 5.8 6.3.7-4.7 4.3 1.3 6.2L12 16.9 6.4 20l1.3-6.2L3 9.5l6.3-.7Z" fill="currentColor" stroke="none" />,
+  heart: <path d="M12 20 L4 12 V7 H7 V5 H10 V7 H12 H14 V5 H17 V7 H20 V12 Z" fill="currentColor" stroke="none" />,
   trophy: <path d="M7 4h10v5a5 5 0 0 1-10 0ZM7 6H4v1a3 3 0 0 0 3 3M17 6h3v1a3 3 0 0 1-3 3M12 14v4M8 20h8" />,
 };
 
 // Buźka statusu dnia: zielona (cel minut osiągnięty), żółta (była nauka,
-// ale poniżej celu), czerwona (dziś jeszcze nic). Kolory z motywu aplikacji.
-const FACE_COLORS = { green: 'var(--green)', yellow: 'var(--amber)', red: 'var(--red)' };
+// ale poniżej celu), szara i spokojna (dziś jeszcze nic — bez karcenia).
+const FACE_COLORS = { green: 'var(--green)', yellow: 'var(--amber)', red: 'var(--muted)' };
 const FACE_MOUTHS = {
   green: <path d="M8 14c1 2.2 2.5 3.2 4 3.2s3-1 4-3.2" />,
-  yellow: <path d="M8.5 15.2h7" />,
-  red: <path d="M8 16.8c1-2.2 2.5-3.2 4-3.2s3 1 4 3.2" />,
+  yellow: <path d="M8.5 14.8c1 1 2.2 1.5 3.5 1.5s2.5-.5 3.5-1.5" />,
+  red: <path d="M8.5 15.2h7" />,
 };
 
 export function FaceIcon({ status = 'red', size = 20 }) {

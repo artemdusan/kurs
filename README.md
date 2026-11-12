@@ -16,8 +16,17 @@ Skrypt `scripts/copy-data.mjs` kopiuje dane kursu do `app/public/data` przed dev
 
 ## Co widać w aplikacji
 
-- **Ekran główny** pokazuje cel na dziś: ile kart dzieli od kolejnej lekcji
-  (karty poniżej poziomu 3) i ile kart dziś awansowało.
+- **Ekran główny** ma jedną kartę lekcji (numer, temat, postęp i ile kart dzieli od
+  kolejnej lekcji), wyzwanie dnia w jednej linijce, materiał lekcji i przycisk sesji.
+  Poziom gracza jest w nagłówku, a liczby XP i awanse w Statystykach.
+- **Pierwsze uruchomienie** zaczyna się od krótkiego powitania i prowadzi prosto do
+  pierwszej sesji.
+- **Boss** (`Session`, tryb `boss`): gdy wszystkie karty mają poziom 3, przycisk sesji
+  zmienia się w „Walcz z bossem”. Dobra odpowiedź zabiera bossowi 1 z 8 punktów życia,
+  błąd zabiera 1 z 3 serc. Wygrana otwiera kolejną lekcję, po przegranej jest rewanż.
+  Odpowiedzi zmieniają poziomy kart tak jak w zwykłej sesji.
+- **Lista lekcji** pokazuje całą ścieżkę kursu z podziałem na poziomy; zamknięte lekcje
+  są widoczne, ale nieaktywne.
 - **Szybka sesja 2 min** i **Pary na czas** są pod ręką obok pełnej sesji, a po
   przytrzymaniu ikony aplikacji działają jako skróty (`/?start=quick`, `/?start=pairs`).
 - **Nowe słowo** najpierw się przedstawia (słowo, zdanie, lektor), dopiero potem
@@ -67,8 +76,9 @@ Skrypt `scripts/copy-data.mjs` kopiuje dane kursu do `app/public/data` przed dev
 - Błąd na poziomie 2–5 obniża poziom o 1; na poziomie 6–10 obniża go do 5,
   o ile tego dnia nie wykorzystano już zmiany. Błąd na poziomie 1 blokuje awans do północy.
   Poprawna odpowiedź na poziomie 10 też wykorzystuje zmianę na ten dzień.
-- Kolejna lekcja odblokowuje się po sesji, gdy **wszystkie karty wszystkich
-  dotychczas odblokowanych lekcji mają poziom co najmniej 3**. Otwarte lekcje
+- Gdy **wszystkie karty wszystkich dotychczas odblokowanych lekcji mają poziom
+  co najmniej 3**, pojawia się boss; kolejną lekcję otwiera wygrana z nim.
+  Zwykła sesja, szybka sesja i gry lekcji nie otwierają. Otwarte lekcje
   nie zamykają się po późniejszym spadku poziomu.
 - Pula liczy 25 kart: przy dostatecznej liczbie kart 12 miejsc przypada na
   poziom 1 (najdawniej widziane), 13 na powtórki. Wybór kolejnego pytania daje

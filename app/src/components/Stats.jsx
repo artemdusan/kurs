@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { getMeta, getSettings } from '../db.js';
 import { dayStatus, bestStreak } from '../engine/session.js';
-import { loadDeck, deckGoals, cardBuckets, hardWords } from '../engine/insights.js';
+import { loadDeck, deckGoals, cardBuckets, hardWords, playerXp, playerLevel, challengeBonus } from '../engine/insights.js';
 import LevelBars from './LevelBars.jsx';
 import { getDailyStats } from '../activity.js';
 import { localDay, shiftDay, currentStreak } from '../../../shared/learning.js';
@@ -92,6 +92,8 @@ export default function Stats({ maxLesson, lessonCount = 100, onBack, onHard }) 
         streak: streak.count || 0,
         bestStreak: Math.max(bestStreak(daily), streak.count || 0),
         pairsBest: await getMeta('pairsBest', 0),
+        player: playerLevel(playerXp(daily, await challengeBonus())),
+        empty: Object.keys(daily).length === 0,
         weekAccuracy: weekCorrect + weekWrong ? Math.round((weekCorrect / (weekCorrect + weekWrong)) * 100) : null,
         time: {
           todayMin: Math.floor((today.seconds || 0) / 60),
@@ -174,6 +176,13 @@ export default function Stats({ maxLesson, lessonCount = 100, onBack, onHard }) 
     <div className="screen stats stats-one">
       {header('Statystyki', onBack)}
 
+      <div className="xp-bar" title={`Łącznie ${data.player.xp} XP`}>
+        <span className="xp-level">LV {data.player.level}</span>
+        <div className="xp-track"><div className="xp-fill" style={{ width: Math.min(100, (data.player.into / data.player.need) * 100) + '%' }} /></div>
+        <span className="xp-num">{data.player.into}/{data.player.need} XP</span>
+      </div>
+      {data.empty && <p className="stats-empty">Tu pojawi się Twoja historia. Wystarczy pierwsza sesja.</p>}
+
       <div className="stat-duo">
         <div className="stat-tile">
           <span className="stat-big"><Icon name="fire" size={18} /> {data.streak}</span>
@@ -201,7 +210,7 @@ export default function Stats({ maxLesson, lessonCount = 100, onBack, onHard }) 
           ))}
         </div>
         <span className="stat-label freeze-line">
-          <i className="freeze-dot" /> ratunek serii: {data.freezeAvailable ? 'gotowy — jeden opuszczony dzień nie przerwie serii' : 'użyty w tym tygodniu'}
+          <i className="freeze-dot" /> {data.freezeAvailable ? 'ratunek serii gotowy: jeden opuszczony dzień jej nie przerwie' : 'ratunek serii użyty w tym tygodniu'}
         </span>
       </div>
 
@@ -211,7 +220,7 @@ export default function Stats({ maxLesson, lessonCount = 100, onBack, onHard }) 
           <span className="stat-value">{allOpen ? `${lessonCount}/${lessonCount}` : goals.missing === 0 ? 'gotowe!' : `brakuje ${goals.missing}`}</span>
         </div>
         <div className="lesson-card-track"><div className="lesson-card-fill" style={{ width: (goals.ready / total) * 100 + '%' }} /></div>
-        <span className="stat-label">lekcja {maxLesson} z {lessonCount} · {goals.ready}/{goals.total} kart na poziomie 3+</span>
+        <span className="stat-label">lekcja {maxLesson} z {lessonCount} · {goals.ready}/{goals.total} kart na poziomie 3+{!allOpen && goals.missing === 0 ? ' · boss czeka' : ''}</span>
       </div>
 
       <div className="stat-card">
@@ -229,7 +238,7 @@ export default function Stats({ maxLesson, lessonCount = 100, onBack, onHard }) 
 
       <div className="stat-duo">
         <div className="stat-tile">
-          <span className="stat-big">{data.weekAccuracy === null ? '—' : data.weekAccuracy + '%'}</span>
+          <span className={'stat-big' + (data.weekAccuracy === null ? ' none' : '')}>{data.weekAccuracy === null ? '—' : data.weekAccuracy + '%'}</span>
           <span className="stat-label">skuteczność (7 dni)</span>
         </div>
         <div className="stat-tile">
@@ -239,7 +248,7 @@ export default function Stats({ maxLesson, lessonCount = 100, onBack, onHard }) 
       </div>
 
       <div className="stats-actions">
-        <button className="btn details-btn" onClick={onHard}>
+        <button className="btn details-btn" disabled={data.hardCount === 0} onClick={onHard}>
           <Icon name="repeat" size={14} /> Trudne ({data.hardCount})
         </button>
         <button className="btn details-btn" onClick={() => setDetails(true)}>
