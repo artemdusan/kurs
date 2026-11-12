@@ -5,16 +5,16 @@
     "pl_word": "literatura",
     "examples": [
       {
-        "es_form": "¿Dónde está [la literatura::literatura]?",
-        "pl_translation": "Gdzie jest literatura?"
+        "es_form": "Estudio [la literatura::literatura] española.",
+        "pl_translation": "Studiuję literaturę hiszpańską."
       },
       {
-        "es_form": "Esta es [la literatura::literatura].",
-        "pl_translation": "To jest literatura."
+        "es_form": "[La literatura::literatura] me ayuda a entender el mundo.",
+        "pl_translation": "Literatura pomaga mi rozumieć świat."
       },
       {
-        "es_form": "[La literatura::literatura] está aquí.",
-        "pl_translation": "Literatura jest tutaj."
+        "es_form": "Me interesa [la literatura::literatura] moderna.",
+        "pl_translation": "Interesuje mnie literatura współczesna."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "wiersz",
     "examples": [
       {
-        "es_form": "Este es [el poema::wiersz].",
-        "pl_translation": "To jest wiersz."
+        "es_form": "Aprendí [el poema::wiersz] de memoria.",
+        "pl_translation": "Nauczyłem się wiersza na pamięć."
       },
       {
-        "es_form": "[El poema::wiersz] está aquí.",
-        "pl_translation": "Wiersz jest tutaj."
+        "es_form": "[El poema::wiersz] habla del amor.",
+        "pl_translation": "Wiersz mówi o miłości."
       },
       {
-        "es_form": "No es [el poema::wiersz].",
-        "pl_translation": "To nie jest wiersz."
+        "es_form": "Escribí [el poema::wiersz] para mi madre.",
+        "pl_translation": "Napisałem wiersz dla mamy."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "opowiadanie",
     "examples": [
       {
-        "es_form": "Este es [el cuento::opowiadanie].",
-        "pl_translation": "To jest opowiadanie."
+        "es_form": "Leo [el cuento::opowiadanie] a mis hijos.",
+        "pl_translation": "Czytam dzieciom opowiadanie."
       },
       {
-        "es_form": "Hablamos sobre [el cuento::opowiadanie].",
-        "pl_translation": "Rozmawiamy o tym, czym jest opowiadanie."
+        "es_form": "[El cuento::opowiadanie] es corto, pero triste.",
+        "pl_translation": "Opowiadanie jest krótkie, ale smutne."
       },
       {
-        "es_form": "No es [el cuento::opowiadanie].",
-        "pl_translation": "To nie jest opowiadanie."
+        "es_form": "Escribí [el cuento::opowiadanie] para la revista.",
+        "pl_translation": "Napisałem opowiadanie do czasopisma."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "powieść",
     "examples": [
       {
-        "es_form": "Esta es [la novela::powieść].",
-        "pl_translation": "To jest powieść."
+        "es_form": "Leo [la novela::powieść] policíaca.",
+        "pl_translation": "Czytam powieść kryminalną."
       },
       {
-        "es_form": "¿Dónde está [la novela::powieść]?",
-        "pl_translation": "Gdzie jest powieść?"
+        "es_form": "[La novela::powieść] tiene quinientas páginas.",
+        "pl_translation": "Powieść ma pięćset stron."
       },
       {
-        "es_form": "No es [la novela::powieść].",
-        "pl_translation": "To nie jest powieść."
+        "es_form": "Terminé [la novela::powieść] en dos días.",
+        "pl_translation": "Skończyłem powieść w dwa dni."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "bajka",
     "examples": [
       {
-        "es_form": "Esta es [la fábula::bajka].",
-        "pl_translation": "To jest bajka."
+        "es_form": "[La fábula::bajka] enseña una lección.",
+        "pl_translation": "Bajka uczy pewnej lekcji."
       },
       {
-        "es_form": "¿Dónde está [la fábula::bajka]?",
-        "pl_translation": "Gdzie jest bajka?"
+        "es_form": "Cuento [la fábula::bajka] a los niños.",
+        "pl_translation": "Opowiadam dzieciom bajkę."
       },
       {
-        "es_form": "[La fábula::bajka] está aquí.",
-        "pl_translation": "Bajka jest tutaj."
+        "es_form": "En [la fábula::bajka] los animales hablan.",
+        "pl_translation": "W bajce zwierzęta mówią."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "bohater",
     "examples": [
       {
-        "es_form": "Este es [el héroe::bohater].",
-        "pl_translation": "To jest bohater."
+        "es_form": "[El héroe::bohater] salva a la ciudad.",
+        "pl_translation": "Bohater ratuje miasto."
       },
       {
-        "es_form": "[El héroe::bohater] trabaja aquí.",
-        "pl_translation": "Bohater tu pracuje."
+        "es_form": "Mi padre es [el héroe::bohater] de mi infancia.",
+        "pl_translation": "Mój tata jest bohaterem mojego dzieciństwa."
       },
       {
-        "es_form": "[El héroe::bohater] está aquí.",
-        "pl_translation": "Bohater jest tutaj."
+        "es_form": "[El héroe::bohater] de la novela es un niño.",
+        "pl_translation": "Bohaterem powieści jest dziecko."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "autor",
     "examples": [
       {
-        "es_form": "Este es [el autor::autor].",
-        "pl_translation": "To jest autor."
+        "es_form": "[El autor::autor] firma libros en la feria.",
+        "pl_translation": "Autor podpisuje książki na targach."
       },
       {
-        "es_form": "[El autor::autor] es mi hermano.",
-        "pl_translation": "Autor jest moim bratem."
+        "es_form": "No conozco [el autor::autor] de este poema.",
+        "pl_translation": "Nie znam autora tego wiersza."
       },
       {
-        "es_form": "[El autor::autor] trabaja aquí.",
-        "pl_translation": "Autor tu pracuje."
+        "es_form": "[El autor::autor] vive en Argentina.",
+        "pl_translation": "Autor mieszka w Argentynie."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "lektura",
     "examples": [
       {
-        "es_form": "Esta es [la lectura::lektura].",
-        "pl_translation": "To jest lektura."
+        "es_form": "[La lectura::lektura] me relaja mucho.",
+        "pl_translation": "Lektura bardzo mnie relaksuje."
       },
       {
-        "es_form": "¿Dónde está [la lectura::lektura]?",
-        "pl_translation": "Gdzie jest lektura?"
+        "es_form": "Recomiendo [la lectura::lektura] de este libro.",
+        "pl_translation": "Polecam lekturę tej książki."
       },
       {
-        "es_form": "No es [la lectura::lektura].",
-        "pl_translation": "To nie jest lektura."
+        "es_form": "Dedico una hora a [la lectura::lektura].",
+        "pl_translation": "Poświęcam godzinę na lekturę."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "rozdział",
     "examples": [
       {
-        "es_form": "Este es [el capítulo::rozdział].",
-        "pl_translation": "To jest rozdział."
+        "es_form": "Leí [el capítulo::rozdział] tres anoche.",
+        "pl_translation": "Wczoraj wieczorem przeczytałem rozdział trzeci."
       },
       {
-        "es_form": "¿Dónde está [el capítulo::rozdział]?",
-        "pl_translation": "Gdzie jest rozdział?"
+        "es_form": "[El capítulo::rozdział] final es el mejor.",
+        "pl_translation": "Ostatni rozdział jest najlepszy."
       },
       {
-        "es_form": "No es [el capítulo::rozdział].",
-        "pl_translation": "To nie jest rozdział."
+        "es_form": "Cada noche leo [un capítulo::rozdział].",
+        "pl_translation": "Co wieczór czytam jeden rozdział."
       }
     ]
   },
@@ -176,35 +176,35 @@
     "pl_word": "tytuł",
     "examples": [
       {
-        "es_form": "Este es [el título::tytuł].",
-        "pl_translation": "To jest tytuł."
+        "es_form": "No recuerdo [el título::tytuł] del libro.",
+        "pl_translation": "Nie pamiętam tytułu książki."
       },
       {
-        "es_form": "¿Dónde está [el título::tytuł]?",
-        "pl_translation": "Gdzie jest tytuł?"
+        "es_form": "[El título::tytuł] de la película es muy largo.",
+        "pl_translation": "Tytuł filmu jest bardzo długi."
       },
       {
-        "es_form": "No es [el título::tytuł].",
-        "pl_translation": "To nie jest tytuł."
+        "es_form": "Me llamó la atención [el título::tytuł].",
+        "pl_translation": "Moją uwagę zwrócił tytuł."
       }
     ]
   },
   {
     "type": "adjective",
-    "es_word": "interesante",
-    "pl_word": "ciekawy",
+    "es_word": "entretenido",
+    "pl_word": "zajmujący, wciągający",
     "examples": [
       {
-        "es_form": "Es muy [interesante::ciekawy].",
-        "pl_translation": "Jest bardzo ciekawy."
+        "es_form": "El libro es muy [entretenido::zajmujący, wciągający].",
+        "pl_translation": "Książka jest bardzo wciągająca."
       },
       {
-        "es_form": "Parece [interesante::ciekawy].",
-        "pl_translation": "Wydaje się ciekawy."
+        "es_form": "Fue un viaje largo, pero [entretenido::zajmujący, wciągający].",
+        "pl_translation": "To była długa, ale zajmująca podróż."
       },
       {
-        "es_form": "Es demasiado [interesante::ciekawy].",
-        "pl_translation": "Jest zbyt ciekawy."
+        "es_form": "Busco un juego [entretenido::zajmujący, wciągający] para los niños.",
+        "pl_translation": "Szukam zajmującej gry dla dzieci."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "wzruszający, ekscytujący",
     "examples": [
       {
-        "es_form": "No es [emocionante::wzruszający].",
-        "pl_translation": "Nie jest wzruszający."
+        "es_form": "El partido fue muy [emocionante::wzruszający, ekscytujący].",
+        "pl_translation": "Mecz był bardzo ekscytujący."
       },
       {
-        "es_form": "Parece [emocionante::wzruszający].",
-        "pl_translation": "Wydaje się wzruszający."
+        "es_form": "Leí un cuento [emocionante::wzruszający, ekscytujący].",
+        "pl_translation": "Przeczytałem wzruszające opowiadanie."
       },
       {
-        "es_form": "Es demasiado [emocionante::wzruszający].",
-        "pl_translation": "Jest zbyt wzruszający."
+        "es_form": "Es un momento [emocionante::wzruszający, ekscytujący] para todos.",
+        "pl_translation": "To ekscytująca chwila dla wszystkich."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [narré::opowiedziałem] una historia.",
-            "pl_translation": "Opowiedziałem historię."
+            "es_form": "Ayer yo [narré::opowiedziałem] una historia.",
+            "pl_translation": "Wczoraj opowiedziałem historię."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [narraste::opowiedziałeś] una historia.",
-            "pl_translation": "Opowiedziałeś historię."
+            "es_form": "La semana pasada tú [narraste::opowiedziałeś] una historia.",
+            "pl_translation": "W zeszłym tygodniu opowiedziałeś historię."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [narró::opowiedział] una historia.",
-            "pl_translation": "Opowiedział historię."
+            "es_form": "El otro día él [narró::opowiedział] una historia.",
+            "pl_translation": "Niedawno opowiedział historię."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [narramos::opowiedzieliśmy] una historia.",
-            "pl_translation": "Opowiedzieliśmy historię."
+            "es_form": "La semana pasada nosotros [narramos::opowiedzieliśmy] una historia.",
+            "pl_translation": "W zeszłym tygodniu opowiedzieliśmy historię."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [narrasteis::opowiedzieliście] una historia.",
-            "pl_translation": "Opowiedzieliście historię."
+            "es_form": "El otro día vosotros [narrasteis::opowiedzieliście] una historia.",
+            "pl_translation": "Niedawno opowiedzieliście historię."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [narraron::opowiedzieli] una historia.",
-            "pl_translation": "Opowiedzieli historię."
+            "es_form": "Ayer ellos [narraron::opowiedzieli] una historia.",
+            "pl_translation": "Wczoraj opowiedzieli historię."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [narraré::będę opowiadać] una historia.",
-            "pl_translation": "Będę opowiadać historię."
+            "es_form": "Mañana yo [narraré::będę opowiadać] una historia.",
+            "pl_translation": "Jutro będę opowiadać historię."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [narrarás::będziesz opowiadać] una historia.",
-            "pl_translation": "Będziesz opowiadać historię."
+            "es_form": "La próxima semana tú [narrarás::będziesz opowiadać] una historia.",
+            "pl_translation": "W przyszłym tygodniu będziesz opowiadać historię."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [narrará::będzie opowiadać] una historia.",
-            "pl_translation": "Będzie opowiadać historię."
+            "es_form": "Pronto él [narrará::będzie opowiadać] una historia.",
+            "pl_translation": "Wkrótce będzie opowiadać historię."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [narraremos::będziemy opowiadać] una historia.",
-            "pl_translation": "Będziemy opowiadać historię."
+            "es_form": "La próxima semana nosotros [narraremos::będziemy opowiadać] una historia.",
+            "pl_translation": "W przyszłym tygodniu będziemy opowiadać historię."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [narraréis::będziecie opowiadać] una historia.",
-            "pl_translation": "Będziecie opowiadać historię."
+            "es_form": "Pronto vosotros [narraréis::będziecie opowiadać] una historia.",
+            "pl_translation": "Wkrótce będziecie opowiadać historię."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [narrarán::będą opowiadać] una historia.",
-            "pl_translation": "Będą opowiadać historię."
+            "es_form": "Mañana ellos [narrarán::będą opowiadać] una historia.",
+            "pl_translation": "Jutro będą opowiadać historię."
           }
         ]
       }

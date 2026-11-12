@@ -5,16 +5,16 @@
     "pl_word": "garnek",
     "examples": [
       {
-        "es_form": "¿Dónde está [la olla::garnek]?",
-        "pl_translation": "Gdzie jest garnek?"
+        "es_form": "La sopa está en [la olla::garnek].",
+        "pl_translation": "Zupa jest w garnku."
       },
       {
-        "es_form": "[La olla::garnek] está aquí.",
-        "pl_translation": "Garnek jest tutaj."
+        "es_form": "Pon agua en [la olla::garnek] grande.",
+        "pl_translation": "Wlej wodę do dużego garnka."
       },
       {
-        "es_form": "Esta es [la olla::garnek].",
-        "pl_translation": "To jest garnek."
+        "es_form": "[La olla::garnek] está muy caliente, cuidado.",
+        "pl_translation": "Garnek jest bardzo gorący, uważaj."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "patelnia",
     "examples": [
       {
-        "es_form": "Necesito [la sartén::patelnia] nueva.",
-        "pl_translation": "Potrzebuję nowej patelni."
+        "es_form": "Frío los huevos en [la sartén::patelnia].",
+        "pl_translation": "Smażę jajka na patelni."
       },
       {
-        "es_form": "Esta es [la sartén::patelnia].",
-        "pl_translation": "To jest patelnia."
+        "es_form": "[La sartén::patelnia] nueva no se pega.",
+        "pl_translation": "Nowa patelnia nie przywiera."
       },
       {
-        "es_form": "No es [la sartén::patelnia].",
-        "pl_translation": "To nie jest patelnia."
+        "es_form": "Pon aceite en [la sartén::patelnia].",
+        "pl_translation": "Wlej olej na patelnię."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "talerz",
     "examples": [
       {
-        "es_form": "Este es [el plato::talerz].",
-        "pl_translation": "To jest talerz."
+        "es_form": "Pon la carne en [el plato::talerz].",
+        "pl_translation": "Połóż mięso na talerzu."
       },
       {
-        "es_form": "[El plato::talerz] está aquí.",
-        "pl_translation": "Talerz jest tutaj."
+        "es_form": "[El plato::talerz] está vacío.",
+        "pl_translation": "Talerz jest pusty."
       },
       {
-        "es_form": "No es [el plato::talerz].",
-        "pl_translation": "To nie jest talerz."
+        "es_form": "Rompí [el plato::talerz] de mi abuela.",
+        "pl_translation": "Stłukłem talerz mojej babci."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "szklanka",
     "examples": [
       {
-        "es_form": "Este es [el vaso::szklanka].",
-        "pl_translation": "To jest szklanka."
+        "es_form": "Bebo [el vaso::szklanka] de agua.",
+        "pl_translation": "Piję szklankę wody."
       },
       {
-        "es_form": "No es [el vaso::szklanka].",
-        "pl_translation": "To nie jest szklanka."
+        "es_form": "[El vaso::szklanka] está en la mesa.",
+        "pl_translation": "Szklanka stoi na stole."
       },
       {
-        "es_form": "[El vaso::szklanka] está aquí.",
-        "pl_translation": "Szklanka jest tutaj."
+        "es_form": "Llena [el vaso::szklanka] de leche, por favor.",
+        "pl_translation": "Napełnij szklankę mlekiem, proszę."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "kubek",
     "examples": [
       {
-        "es_form": "Esta es [la taza::kubek].",
-        "pl_translation": "To jest kubek."
+        "es_form": "Tomo [la taza::kubek] de café por la mañana.",
+        "pl_translation": "Rano piję kubek kawy."
       },
       {
-        "es_form": "No es [la taza::kubek].",
-        "pl_translation": "To nie jest kubek."
+        "es_form": "[La taza::kubek] roja es de mi hermana.",
+        "pl_translation": "Czerwony kubek należy do mojej siostry."
       },
       {
-        "es_form": "[La taza::kubek] está aquí.",
-        "pl_translation": "Kubek jest tutaj."
+        "es_form": "Lavé [la taza::kubek] después del desayuno.",
+        "pl_translation": "Umyłem kubek po śniadaniu."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "sztućce",
     "examples": [
       {
-        "es_form": "Estos son [los cubiertos::sztućce].",
-        "pl_translation": "To są sztućce."
+        "es_form": "Pon [los cubiertos::sztućce] en la mesa.",
+        "pl_translation": "Połóż sztućce na stole."
       },
       {
-        "es_form": "¿Dónde están [los cubiertos::sztućce]?",
-        "pl_translation": "Gdzie są sztućce?"
+        "es_form": "[Los cubiertos::sztućce] están en el cajón.",
+        "pl_translation": "Sztućce są w szufladzie."
       },
       {
-        "es_form": "No son [los cubiertos::sztućce].",
-        "pl_translation": "To nie są sztućce."
+        "es_form": "Lavo [los cubiertos::sztućce] después de comer.",
+        "pl_translation": "Myję sztućce po jedzeniu."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "nóż",
     "examples": [
       {
-        "es_form": "Este es [el cuchillo::nóż].",
-        "pl_translation": "To jest nóż."
+        "es_form": "Corto el pan con [el cuchillo::nóż].",
+        "pl_translation": "Kroję chleb nożem."
       },
       {
-        "es_form": "No es [el cuchillo::nóż].",
-        "pl_translation": "To nie jest nóż."
+        "es_form": "[El cuchillo::nóż] está muy afilado.",
+        "pl_translation": "Nóż jest bardzo ostry."
       },
       {
-        "es_form": "¿Dónde está [el cuchillo::nóż]?",
-        "pl_translation": "Gdzie jest nóż?"
+        "es_form": "Necesito [el cuchillo::nóż] para la carne.",
+        "pl_translation": "Potrzebuję noża do mięsa."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "widelec",
     "examples": [
       {
-        "es_form": "¿Dónde está [el tenedor::widelec]?",
-        "pl_translation": "Gdzie jest widelec?"
+        "es_form": "Como la pasta con [el tenedor::widelec].",
+        "pl_translation": "Jem makaron widelcem."
       },
       {
-        "es_form": "[El tenedor::widelec] está aquí.",
-        "pl_translation": "Widelec jest tutaj."
+        "es_form": "[El tenedor::widelec] está al lado del plato.",
+        "pl_translation": "Widelec leży obok talerza."
       },
       {
-        "es_form": "No es [el tenedor::widelec].",
-        "pl_translation": "To nie jest widelec."
+        "es_form": "Se cayó [el tenedor::widelec] al suelo.",
+        "pl_translation": "Widelec spadł na podłogę."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "łyżka",
     "examples": [
       {
-        "es_form": "Esta es [la cuchara::łyżka].",
-        "pl_translation": "To jest łyżka."
+        "es_form": "Como la sopa con [la cuchara::łyżka].",
+        "pl_translation": "Jem zupę łyżką."
       },
       {
-        "es_form": "[La cuchara::łyżka] está aquí.",
-        "pl_translation": "Łyżka jest tutaj."
+        "es_form": "Necesito [la cuchara::łyżka] para el postre.",
+        "pl_translation": "Potrzebuję łyżki do deseru."
       },
       {
-        "es_form": "No es [la cuchara::łyżka].",
-        "pl_translation": "To nie jest łyżka."
+        "es_form": "[La cuchara::łyżka] de madera está en la olla.",
+        "pl_translation": "Drewniana łyżka jest w garnku."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "piekarnik",
     "examples": [
       {
-        "es_form": "¿Dónde está [el horno::piekarnik]?",
-        "pl_translation": "Gdzie jest piekarnik?"
+        "es_form": "El pollo está en [el horno::piekarnik].",
+        "pl_translation": "Kurczak jest w piekarniku."
       },
       {
-        "es_form": "[El horno::piekarnik] está aquí.",
-        "pl_translation": "Piekarnik jest tutaj."
+        "es_form": "Enciende [el horno::piekarnik], por favor.",
+        "pl_translation": "Włącz piekarnik, proszę."
       },
       {
-        "es_form": "Este es [el horno::piekarnik].",
-        "pl_translation": "To jest piekarnik."
+        "es_form": "Limpio [el horno::piekarnik] después de cocinar.",
+        "pl_translation": "Czyszczę piekarnik po gotowaniu."
       }
     ]
   },
@@ -195,35 +195,35 @@
     "pl_word": "ostry",
     "examples": [
       {
-        "es_form": "Es muy [afilado::ostry].",
-        "pl_translation": "Jest bardzo ostry."
+        "es_form": "El cuchillo es muy [afilado::ostry].",
+        "pl_translation": "Nóż jest bardzo ostry."
       },
       {
-        "es_form": "No es [afilado::ostry].",
-        "pl_translation": "Nie jest ostry."
+        "es_form": "Necesito un lápiz [afilado::ostry].",
+        "pl_translation": "Potrzebuję ostrego ołówka."
       },
       {
-        "es_form": "Parece [afilado::ostry].",
-        "pl_translation": "Wydaje się ostry."
+        "es_form": "Cuidado, el borde está [afilado::ostry].",
+        "pl_translation": "Uwaga, brzeg jest ostry."
       }
     ]
   },
   {
     "type": "adjective",
-    "es_word": "caliente",
-    "pl_word": "gorący",
+    "es_word": "crudo",
+    "pl_word": "surowy",
     "examples": [
       {
-        "es_form": "Es muy [caliente::gorący].",
-        "pl_translation": "Jest bardzo gorący."
+        "es_form": "El pescado todavía está [crudo::surowy].",
+        "pl_translation": "Ryba jest jeszcze surowa."
       },
       {
-        "es_form": "Parece [caliente::gorący].",
-        "pl_translation": "Wydaje się gorący."
+        "es_form": "No como huevo [crudo::surowy].",
+        "pl_translation": "Nie jem surowego jajka."
       },
       {
-        "es_form": "Es demasiado [caliente::gorący].",
-        "pl_translation": "Jest zbyt gorący."
+        "es_form": "El pollo [crudo::surowy] no es bueno para la salud.",
+        "pl_translation": "Surowy kurczak nie jest dobry dla zdrowia."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [cociné::ugotowałem] la cena.",
-            "pl_translation": "Ugotowałem kolację."
+            "es_form": "Ayer yo [cociné::ugotowałem] la cena.",
+            "pl_translation": "Wczoraj ugotowałem kolację."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [cocinaste::ugotowałeś] la cena.",
-            "pl_translation": "Ugotowałeś kolację."
+            "es_form": "La semana pasada tú [cocinaste::ugotowałeś] la cena.",
+            "pl_translation": "W zeszłym tygodniu ugotowałeś kolację."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [cocinó::ugotował] la cena.",
-            "pl_translation": "Ugotował kolację."
+            "es_form": "El otro día él [cocinó::ugotował] la cena.",
+            "pl_translation": "Niedawno ugotował kolację."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [cocinamos::ugotowaliśmy] la cena.",
-            "pl_translation": "Ugotowaliśmy kolację."
+            "es_form": "La semana pasada nosotros [cocinamos::ugotowaliśmy] la cena.",
+            "pl_translation": "W zeszłym tygodniu ugotowaliśmy kolację."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [cocinasteis::ugotowaliście] la cena.",
-            "pl_translation": "Ugotowaliście kolację."
+            "es_form": "El otro día vosotros [cocinasteis::ugotowaliście] la cena.",
+            "pl_translation": "Niedawno ugotowaliście kolację."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [cocinaron::ugotowali] la cena.",
-            "pl_translation": "Ugotowali kolację."
+            "es_form": "Ayer ellos [cocinaron::ugotowali] la cena.",
+            "pl_translation": "Wczoraj ugotowali kolację."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [cocinaré::będę gotować] la cena.",
-            "pl_translation": "Będę gotować kolację."
+            "es_form": "Mañana yo [cocinaré::będę gotować] la cena.",
+            "pl_translation": "Jutro będę gotować kolację."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [cocinarás::będziesz gotować] la cena.",
-            "pl_translation": "Będziesz gotować kolację."
+            "es_form": "La próxima semana tú [cocinarás::będziesz gotować] la cena.",
+            "pl_translation": "W przyszłym tygodniu będziesz gotować kolację."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [cocinará::będzie gotować] la cena.",
-            "pl_translation": "Będzie gotować kolację."
+            "es_form": "Pronto él [cocinará::będzie gotować] la cena.",
+            "pl_translation": "Wkrótce będzie gotować kolację."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [cocinaremos::będziemy gotować] la cena.",
-            "pl_translation": "Będziemy gotować kolację."
+            "es_form": "La próxima semana nosotros [cocinaremos::będziemy gotować] la cena.",
+            "pl_translation": "W przyszłym tygodniu będziemy gotować kolację."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [cocinaréis::będziecie gotować] la cena.",
-            "pl_translation": "Będziecie gotować kolację."
+            "es_form": "Pronto vosotros [cocinaréis::będziecie gotować] la cena.",
+            "pl_translation": "Wkrótce będziecie gotować kolację."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [cocinarán::będą gotować] la cena.",
-            "pl_translation": "Będą gotować kolację."
+            "es_form": "Mañana ellos [cocinarán::będą gotować] la cena.",
+            "pl_translation": "Jutro będą gotować kolację."
           }
         ]
       }

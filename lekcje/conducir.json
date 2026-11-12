@@ -5,16 +5,16 @@
     "pl_word": "silnik",
     "examples": [
       {
-        "es_form": "Este es [el motor::silnik].",
-        "pl_translation": "To jest silnik."
+        "es_form": "[El motor::silnik] hace un ruido raro.",
+        "pl_translation": "Silnik wydaje dziwny dźwięk."
       },
       {
-        "es_form": "[El motor::silnik] está aquí.",
-        "pl_translation": "Silnik jest tutaj."
+        "es_form": "Arranca [el motor::silnik], por favor.",
+        "pl_translation": "Uruchom silnik, proszę."
       },
       {
-        "es_form": "No es [el motor::silnik].",
-        "pl_translation": "To nie jest silnik."
+        "es_form": "El mecánico revisa [el motor::silnik].",
+        "pl_translation": "Mechanik sprawdza silnik."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "paliwo",
     "examples": [
       {
-        "es_form": "Este es [el combustible::paliwo].",
-        "pl_translation": "To jest paliwo."
+        "es_form": "[El combustible::paliwo] sube de precio.",
+        "pl_translation": "Paliwo drożeje."
       },
       {
-        "es_form": "Guardá [el combustible::paliwo] en el garaje.",
-        "pl_translation": "Schowaj kanister z paliwem do garażu."
+        "es_form": "El coche gasta [el combustible::paliwo] muy rápido.",
+        "pl_translation": "Samochód bardzo szybko zużywa paliwo."
       },
       {
-        "es_form": "¿Dónde está [el combustible::paliwo]?",
-        "pl_translation": "Gdzie jest paliwo?"
+        "es_form": "Se acabó [el combustible::paliwo] en la autopista.",
+        "pl_translation": "Paliwo skończyło się na autostradzie."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "benzyna",
     "examples": [
       {
-        "es_form": "Esta es [la gasolina::benzyna].",
-        "pl_translation": "To jest benzyna."
+        "es_form": "Pongo [la gasolina::benzyna] antes del viaje.",
+        "pl_translation": "Tankuję benzynę przed podróżą."
       },
       {
-        "es_form": "[La gasolina::benzyna] está aquí.",
-        "pl_translation": "Benzyna jest tutaj."
+        "es_form": "[La gasolina::benzyna] está muy cara.",
+        "pl_translation": "Benzyna jest bardzo droga."
       },
       {
-        "es_form": "No es [la gasolina::benzyna].",
-        "pl_translation": "To nie jest benzyna."
+        "es_form": "Pago [la gasolina::benzyna] con tarjeta.",
+        "pl_translation": "Płacę za benzynę kartą."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "koło",
     "examples": [
       {
-        "es_form": "Esta es [la rueda::koło].",
-        "pl_translation": "To jest koło."
+        "es_form": "Cambié [la rueda::koło] en la carretera.",
+        "pl_translation": "Zmieniłem koło na drodze."
       },
       {
-        "es_form": "No es [la rueda::koło].",
-        "pl_translation": "To nie jest koło."
+        "es_form": "[La rueda::koło] de atrás no tiene aire.",
+        "pl_translation": "W tylnym kole nie ma powietrza."
       },
       {
-        "es_form": "[La rueda::koło] está aquí.",
-        "pl_translation": "Koło jest tutaj."
+        "es_form": "Llevo [la rueda::koło] de repuesto.",
+        "pl_translation": "Wożę koło zapasowe."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "kierownica",
     "examples": [
       {
-        "es_form": "No es [el volante::kierownica].",
-        "pl_translation": "To nie jest kierownica."
+        "es_form": "Pon las manos en [el volante::kierownica].",
+        "pl_translation": "Połóż ręce na kierownicy."
       },
       {
-        "es_form": "Guardá [el volante::kierownica] en el garaje.",
-        "pl_translation": "Schowaj kierownicę do garażu."
+        "es_form": "[El volante::kierownica] está a la izquierda.",
+        "pl_translation": "Kierownica jest po lewej stronie."
       },
       {
-        "es_form": "Este es [el volante::kierownica].",
-        "pl_translation": "To jest kierownica."
+        "es_form": "Gira [el volante::kierownica] despacio.",
+        "pl_translation": "Kręć kierownicą powoli."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "hamulec",
     "examples": [
       {
-        "es_form": "Este es [el freno::hamulec].",
-        "pl_translation": "To jest hamulec."
+        "es_form": "Pisa [el freno::hamulec] con cuidado.",
+        "pl_translation": "Naciśnij hamulec ostrożnie."
       },
       {
-        "es_form": "¿Dónde está [el freno::hamulec]?",
-        "pl_translation": "Gdzie jest hamulec?"
+        "es_form": "[El freno::hamulec] no responde bien.",
+        "pl_translation": "Hamulec nie reaguje dobrze."
       },
       {
-        "es_form": "No es [el freno::hamulec].",
-        "pl_translation": "To nie jest hamulec."
+        "es_form": "Revisé [el freno::hamulec] antes del viaje.",
+        "pl_translation": "Sprawdziłem hamulec przed podróżą."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "bagażnik",
     "examples": [
       {
-        "es_form": "Este es [el maletero::bagażnik].",
-        "pl_translation": "To jest bagażnik."
+        "es_form": "Pon las maletas en [el maletero::bagażnik].",
+        "pl_translation": "Włóż walizki do bagażnika."
       },
       {
-        "es_form": "No es [el maletero::bagażnik].",
-        "pl_translation": "To nie jest bagażnik."
+        "es_form": "[El maletero::bagażnik] está lleno.",
+        "pl_translation": "Bagażnik jest pełny."
       },
       {
-        "es_form": "¿Dónde está [el maletero::bagażnik]?",
-        "pl_translation": "Gdzie jest bagażnik?"
+        "es_form": "No puedo cerrar [el maletero::bagażnik].",
+        "pl_translation": "Nie mogę zamknąć bagażnika."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "przednia szyba samochodu",
     "examples": [
       {
-        "es_form": "Este es [el parabrisas::szyba].",
-        "pl_translation": "To jest szyba."
+        "es_form": "Limpio [el parabrisas::przednia szyba samochodu] antes de salir.",
+        "pl_translation": "Myję przednią szybę przed wyjazdem."
       },
       {
-        "es_form": "¿Dónde está [el parabrisas::szyba]?",
-        "pl_translation": "Gdzie jest szyba?"
+        "es_form": "[El parabrisas::przednia szyba samochodu] está roto por una piedra.",
+        "pl_translation": "Przednia szyba jest pęknięta od kamienia."
       },
       {
-        "es_form": "[El parabrisas::szyba] está aquí.",
-        "pl_translation": "Szyba jest tutaj."
+        "es_form": "La nieve cubre [el parabrisas::przednia szyba samochodu].",
+        "pl_translation": "Śnieg pokrywa przednią szybę."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "pas bezpieczeństwa",
     "examples": [
       {
-        "es_form": "Este es [el cinturón de seguridad::pas bezpieczeństwa].",
-        "pl_translation": "To jest pas bezpieczeństwa."
+        "es_form": "Ponte [el cinturón de seguridad::pas bezpieczeństwa].",
+        "pl_translation": "Zapnij pas bezpieczeństwa."
       },
       {
-        "es_form": "[El cinturón de seguridad::pas bezpieczeństwa] está aquí.",
-        "pl_translation": "Pas bezpieczeństwa jest tutaj."
+        "es_form": "[El cinturón de seguridad::pas bezpieczeństwa] salva vidas.",
+        "pl_translation": "Pas bezpieczeństwa ratuje życie."
       },
       {
-        "es_form": "No es [el cinturón de seguridad::pas bezpieczeństwa].",
-        "pl_translation": "To nie jest pas bezpieczeństwa."
+        "es_form": "El niño no quiere llevar [el cinturón de seguridad::pas bezpieczeństwa].",
+        "pl_translation": "Dziecko nie chce zapinać pasa bezpieczeństwa."
       }
     ]
   },
@@ -176,54 +176,54 @@
     "pl_word": "wypadek",
     "examples": [
       {
-        "es_form": "[El accidente::wypadek] fue grave.",
-        "pl_translation": "Wypadek był poważny."
+        "es_form": "Vi [el accidente::wypadek] desde mi ventana.",
+        "pl_translation": "Widziałem wypadek z mojego okna."
       },
       {
-        "es_form": "[El accidente::wypadek] ocurrió ayer.",
-        "pl_translation": "Wypadek wydarzył się wczoraj."
+        "es_form": "[El accidente::wypadek] cortó la carretera.",
+        "pl_translation": "Wypadek zablokował drogę."
       },
       {
-        "es_form": "Este es [el accidente::wypadek].",
-        "pl_translation": "To jest wypadek."
+        "es_form": "Nadie resultó herido en [el accidente::wypadek].",
+        "pl_translation": "Nikt nie został ranny w wypadku."
       }
     ]
   },
   {
     "type": "adjective",
-    "es_word": "rápido",
-    "pl_word": "szybki",
+    "es_word": "veloz",
+    "pl_word": "prędki, bardzo szybki",
     "examples": [
       {
-        "es_form": "Es muy [rápido::szybki].",
-        "pl_translation": "Jest bardzo szybki."
+        "es_form": "Es un coche muy [veloz::prędki, bardzo szybki].",
+        "pl_translation": "To bardzo szybki samochód."
       },
       {
-        "es_form": "No es [rápido::szybki].",
-        "pl_translation": "Nie jest szybki."
+        "es_form": "El tren más [veloz::prędki, bardzo szybki] llega en una hora.",
+        "pl_translation": "Najszybszy pociąg dojeżdża w godzinę."
       },
       {
-        "es_form": "Parece [rápido::szybki].",
-        "pl_translation": "Wydaje się szybki."
+        "es_form": "El caballo es [veloz::prędki, bardzo szybki] como el viento.",
+        "pl_translation": "Koń jest prędki jak wiatr."
       }
     ]
   },
   {
     "type": "adjective",
-    "es_word": "seguro",
-    "pl_word": "bezpieczny",
+    "es_word": "fiable",
+    "pl_word": "niezawodny",
     "examples": [
       {
-        "es_form": "No es [seguro::bezpieczny].",
-        "pl_translation": "Nie jest bezpieczny."
+        "es_form": "Es un coche muy [fiable::niezawodny].",
+        "pl_translation": "To bardzo niezawodny samochód."
       },
       {
-        "es_form": "Parece [seguro::bezpieczny].",
-        "pl_translation": "Wydaje się bezpieczny."
+        "es_form": "Busco un mecánico [fiable::niezawodny].",
+        "pl_translation": "Szukam niezawodnego mechanika."
       },
       {
-        "es_form": "Es demasiado [seguro::bezpieczny].",
-        "pl_translation": "Jest zbyt bezpieczny."
+        "es_form": "El tren es un transporte [fiable::niezawodny].",
+        "pl_translation": "Pociąg to niezawodny środek transportu."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [conduje::prowadziłem] el coche.",
-            "pl_translation": "Prowadziłem samochód."
+            "es_form": "Ayer yo [conduje::prowadziłem] el coche.",
+            "pl_translation": "Wczoraj prowadziłem samochód."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [condujiste::prowadziłeś] el coche.",
-            "pl_translation": "Prowadziłeś samochód."
+            "es_form": "La semana pasada tú [condujiste::prowadziłeś] el coche.",
+            "pl_translation": "W zeszłym tygodniu prowadziłeś samochód."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [condujo::prowadził] el coche.",
-            "pl_translation": "Prowadził samochód."
+            "es_form": "El otro día él [condujo::prowadził] el coche.",
+            "pl_translation": "Niedawno prowadził samochód."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [condujimos::prowadziliśmy] el coche.",
-            "pl_translation": "Prowadziliśmy samochód."
+            "es_form": "La semana pasada nosotros [condujimos::prowadziliśmy] el coche.",
+            "pl_translation": "W zeszłym tygodniu prowadziliśmy samochód."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [condujisteis::prowadziliście] el coche.",
-            "pl_translation": "Prowadziliście samochód."
+            "es_form": "El otro día vosotros [condujisteis::prowadziliście] el coche.",
+            "pl_translation": "Niedawno prowadziliście samochód."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [condujeron::prowadzili] el coche.",
-            "pl_translation": "Prowadzili samochód."
+            "es_form": "Ayer ellos [condujeron::prowadzili] el coche.",
+            "pl_translation": "Wczoraj prowadzili samochód."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [conduciré::będę prowadzić] el coche.",
-            "pl_translation": "Będę prowadzić samochód."
+            "es_form": "Mañana yo [conduciré::będę prowadzić] el coche.",
+            "pl_translation": "Jutro będę prowadzić samochód."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [conducirás::będziesz prowadzić] el coche.",
-            "pl_translation": "Będziesz prowadzić samochód."
+            "es_form": "La próxima semana tú [conducirás::będziesz prowadzić] el coche.",
+            "pl_translation": "W przyszłym tygodniu będziesz prowadzić samochód."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [conducirá::będzie prowadzić] el coche.",
-            "pl_translation": "Będzie prowadzić samochód."
+            "es_form": "Pronto él [conducirá::będzie prowadzić] el coche.",
+            "pl_translation": "Wkrótce będzie prowadzić samochód."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [conduciremos::będziemy prowadzić] el coche.",
-            "pl_translation": "Będziemy prowadzić samochód."
+            "es_form": "La próxima semana nosotros [conduciremos::będziemy prowadzić] el coche.",
+            "pl_translation": "W przyszłym tygodniu będziemy prowadzić samochód."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [conduciréis::będziecie prowadzić] el coche.",
-            "pl_translation": "Będziecie prowadzić samochód."
+            "es_form": "Pronto vosotros [conduciréis::będziecie prowadzić] el coche.",
+            "pl_translation": "Wkrótce będziecie prowadzić samochód."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [conducirán::będą prowadzić] el coche.",
-            "pl_translation": "Będą prowadzić samochód."
+            "es_form": "Mañana ellos [conducirán::będą prowadzić] el coche.",
+            "pl_translation": "Jutro będą prowadzić samochód."
           }
         ]
       }

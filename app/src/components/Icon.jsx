@@ -28,6 +28,12 @@ const PATHS = {
   fire: <path d="M12 3c1 3-2 4.5-2 7a2 2 0 0 0 4 .4C15.5 9 16 7.5 16 6c2 2 4 4.7 4 8a8 8 0 1 1-16 0c0-4 3-6.5 4-8 .3 1.2 1 2 2 3 .5-2-.5-4 2-6Z" />,
   book: <path d="M4 5a2 2 0 0 1 2-2h14v16H6a2 2 0 0 0-2 2V5ZM4 19a2 2 0 0 1 2-2h14M8 7h8M8 11h8" />,
   list: <path d="M4 6h16M4 12h16M4 18h16" />,
+  bolt: <path d="M13 3 L5 13 h6 l-1 8 l9-11 h-6 Z" fill="currentColor" stroke="none" />,
+  pairs: <path d="M3 5h7v7H3ZM14 5h7v7h-7ZM3 15h7v5H3ZM14 15h7v5h-7Z" />,
+  lock: <path d="M6 11h12v9H6ZM8.5 11V7.5a3.5 3.5 0 0 1 7 0V11" />,
+  up: <path d="M12 20V5M5 12l7-7 7 7" />,
+  star: <path d="M12 3l2.7 5.8 6.3.7-4.7 4.3 1.3 6.2L12 16.9 6.4 20l1.3-6.2L3 9.5l6.3-.7Z" fill="currentColor" stroke="none" />,
+  trophy: <path d="M7 4h10v5a5 5 0 0 1-10 0ZM7 6H4v1a3 3 0 0 0 3 3M17 6h3v1a3 3 0 0 1-3 3M12 14v4M8 20h8" />,
 };
 
 // Buźka statusu dnia: zielona (cel minut osiągnięty), żółta (była nauka,

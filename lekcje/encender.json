@@ -5,16 +5,16 @@
     "pl_word": "lodówka",
     "examples": [
       {
-        "es_form": "Esta es [la nevera::lodówka].",
-        "pl_translation": "To jest lodówka."
+        "es_form": "La leche está en [la nevera::lodówka].",
+        "pl_translation": "Mleko jest w lodówce."
       },
       {
-        "es_form": "¿Dónde está [la nevera::lodówka]?",
-        "pl_translation": "Gdzie jest lodówka?"
+        "es_form": "[La nevera::lodówka] está vacía.",
+        "pl_translation": "Lodówka jest pusta."
       },
       {
-        "es_form": "[La nevera::lodówka] está aquí.",
-        "pl_translation": "Lodówka jest tutaj."
+        "es_form": "Cierra [la nevera::lodówka], por favor.",
+        "pl_translation": "Zamknij lodówkę, proszę."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "pralka",
     "examples": [
       {
-        "es_form": "Esta es [la lavadora::pralka].",
-        "pl_translation": "To jest pralka."
+        "es_form": "Pongo la ropa en [la lavadora::pralka].",
+        "pl_translation": "Wkładam ubrania do pralki."
       },
       {
-        "es_form": "¿Dónde está [la lavadora::pralka]?",
-        "pl_translation": "Gdzie jest pralka?"
+        "es_form": "[La lavadora::pralka] hace mucho ruido.",
+        "pl_translation": "Pralka bardzo hałasuje."
       },
       {
-        "es_form": "[La lavadora::pralka] está aquí.",
-        "pl_translation": "Pralka jest tutaj."
+        "es_form": "Compramos [la lavadora::pralka] nueva.",
+        "pl_translation": "Kupiliśmy nową pralkę."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "zmywarka",
     "examples": [
       {
-        "es_form": "Necesito [el lavavajillas::zmywarka] nuevo.",
-        "pl_translation": "Potrzebuję nowej zmywarki."
+        "es_form": "Pon los platos en [el lavavajillas::zmywarka].",
+        "pl_translation": "Włóż talerze do zmywarki."
       },
       {
-        "es_form": "Este es [el lavavajillas::zmywarka].",
-        "pl_translation": "To jest zmywarka."
+        "es_form": "[El lavavajillas::zmywarka] ya terminó.",
+        "pl_translation": "Zmywarka już skończyła."
       },
       {
-        "es_form": "No es [el lavavajillas::zmywarka].",
-        "pl_translation": "To nie jest zmywarka."
+        "es_form": "No tenemos [el lavavajillas::zmywarka] en casa.",
+        "pl_translation": "Nie mamy w domu zmywarki."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "odkurzacz",
     "examples": [
       {
-        "es_form": "Esta es [la aspiradora::odkurzacz].",
-        "pl_translation": "To jest odkurzacz."
+        "es_form": "Paso [la aspiradora::odkurzacz] los sábados.",
+        "pl_translation": "Odkurzam w soboty."
       },
       {
-        "es_form": "[La aspiradora::odkurzacz] está aquí.",
-        "pl_translation": "Odkurzacz jest tutaj."
+        "es_form": "[La aspiradora::odkurzacz] está en el armario.",
+        "pl_translation": "Odkurzacz jest w szafie."
       },
       {
-        "es_form": "No es [la aspiradora::odkurzacz].",
-        "pl_translation": "To nie jest odkurzacz."
+        "es_form": "El gato tiene miedo de [la aspiradora::odkurzacz].",
+        "pl_translation": "Kot boi się odkurzacza."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "telewizor",
     "examples": [
       {
-        "es_form": "Necesito [el televisor::telewizor] nuevo.",
-        "pl_translation": "Potrzebuję nowego telewizora."
+        "es_form": "[El televisor::telewizor] del salón es enorme.",
+        "pl_translation": "Telewizor w salonie jest ogromny."
       },
       {
-        "es_form": "Este es [el televisor::telewizor].",
-        "pl_translation": "To jest telewizor."
+        "es_form": "Apaga [el televisor::telewizor] antes de dormir.",
+        "pl_translation": "Wyłącz telewizor przed snem."
       },
       {
-        "es_form": "[El televisor::telewizor] está aquí.",
-        "pl_translation": "Telewizor jest tutaj."
+        "es_form": "Compré [el televisor::telewizor] nuevo ayer.",
+        "pl_translation": "Kupiłem wczoraj nowy telewizor."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "ładowarka",
     "examples": [
       {
-        "es_form": "Necesito [el cargador::ładowarka] nuevo.",
-        "pl_translation": "Potrzebuję nowej ładowarki."
+        "es_form": "¿Me dejas [el cargador::ładowarka]?",
+        "pl_translation": "Pożyczysz mi ładowarkę?"
       },
       {
-        "es_form": "No es [el cargador::ładowarka].",
-        "pl_translation": "To nie jest ładowarka."
+        "es_form": "Olvidé [el cargador::ładowarka] en casa.",
+        "pl_translation": "Zapomniałem ładowarki z domu."
       },
       {
-        "es_form": "Este es [el cargador::ładowarka].",
-        "pl_translation": "To jest ładowarka."
+        "es_form": "[El cargador::ładowarka] del móvil está roto.",
+        "pl_translation": "Ładowarka do komórki jest zepsuta."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "słuchawki",
     "examples": [
       {
-        "es_form": "Estos son [los auriculares::słuchawki].",
-        "pl_translation": "To są słuchawki."
+        "es_form": "Escucho música con [los auriculares::słuchawki].",
+        "pl_translation": "Słucham muzyki przez słuchawki."
       },
       {
-        "es_form": "[Los auriculares::słuchawki] cuestan diez euros.",
-        "pl_translation": "Słuchawki kosztują dziesięć euro."
+        "es_form": "[Los auriculares::słuchawki] están en mi mochila.",
+        "pl_translation": "Słuchawki są w moim plecaku."
       },
       {
-        "es_form": "¿Dónde están [los auriculares::słuchawki]?",
-        "pl_translation": "Gdzie są słuchawki?"
+        "es_form": "Perdí [los auriculares::słuchawki] en el tren.",
+        "pl_translation": "Zgubiłem słuchawki w pociągu."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "mysz (komputerowa)",
     "examples": [
       {
-        "es_form": "Este es [el ratón::mysz].",
-        "pl_translation": "To jest mysz."
+        "es_form": "[El ratón::mysz (komputerowa)] del ordenador no funciona.",
+        "pl_translation": "Mysz do komputera nie działa."
       },
       {
-        "es_form": "¿Dónde está [el ratón::mysz]?",
-        "pl_translation": "Gdzie jest mysz?"
+        "es_form": "Muevo [el ratón::mysz (komputerowa)] con la mano derecha.",
+        "pl_translation": "Poruszam myszą prawą ręką."
       },
       {
-        "es_form": "No es [el ratón::mysz].",
-        "pl_translation": "To nie jest mysz."
+        "es_form": "Necesito [el ratón::mysz (komputerowa)] nuevo para trabajar.",
+        "pl_translation": "Potrzebuję nowej myszy do pracy."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "klawiatura",
     "examples": [
       {
-        "es_form": "¿Dónde está [el teclado::klawiatura]?",
-        "pl_translation": "Gdzie jest klawiatura?"
+        "es_form": "Escribo rápido con [el teclado::klawiatura].",
+        "pl_translation": "Piszę szybko na klawiaturze."
       },
       {
-        "es_form": "[El teclado::klawiatura] está aquí.",
-        "pl_translation": "Klawiatura jest tutaj."
+        "es_form": "[El teclado::klawiatura] tiene la letra ñ.",
+        "pl_translation": "Klawiatura ma literę ñ."
       },
       {
-        "es_form": "No es [el teclado::klawiatura].",
-        "pl_translation": "To nie jest klawiatura."
+        "es_form": "Limpio [el teclado::klawiatura] del ordenador.",
+        "pl_translation": "Czyszczę klawiaturę komputera."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "ekran",
     "examples": [
       {
-        "es_form": "Esta es [la pantalla::ekran].",
-        "pl_translation": "To jest ekran."
+        "es_form": "[La pantalla::ekran] del móvil está rota.",
+        "pl_translation": "Ekran komórki jest pęknięty."
       },
       {
-        "es_form": "Necesito [la pantalla::ekran] nueva.",
-        "pl_translation": "Potrzebuję nowego ekranu."
+        "es_form": "Miro [la pantalla::ekran] todo el día.",
+        "pl_translation": "Patrzę w ekran cały dzień."
       },
       {
-        "es_form": "¿Dónde está [la pantalla::ekran]?",
-        "pl_translation": "Gdzie jest ekran?"
+        "es_form": "[La pantalla::ekran] es demasiado pequeña.",
+        "pl_translation": "Ekran jest za mały."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "elektroniczny",
     "examples": [
       {
-        "es_form": "Es muy [electrónico::elektroniczny].",
-        "pl_translation": "Jest bardzo elektroniczny."
+        "es_form": "Leo un libro [electrónico::elektroniczny].",
+        "pl_translation": "Czytam książkę elektroniczną."
       },
       {
-        "es_form": "No es [electrónico::elektroniczny].",
-        "pl_translation": "Nie jest elektroniczny."
+        "es_form": "Uso un diccionario [electrónico::elektroniczny].",
+        "pl_translation": "Używam słownika elektronicznego."
       },
       {
-        "es_form": "Parece [electrónico::elektroniczny].",
-        "pl_translation": "Wydaje się elektroniczny."
+        "es_form": "Recibí un billete [electrónico::elektroniczny].",
+        "pl_translation": "Dostałem bilet elektroniczny."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "zepsuty",
     "examples": [
       {
-        "es_form": "Está muy [estropeado::zepsuty].",
-        "pl_translation": "Jest bardzo zepsuty."
+        "es_form": "El ascensor está [estropeado::zepsuty].",
+        "pl_translation": "Winda jest zepsuta."
       },
       {
-        "es_form": "Parece [estropeado::zepsuty].",
-        "pl_translation": "Wydaje się zepsuty."
+        "es_form": "Tengo el móvil [estropeado::zepsuty].",
+        "pl_translation": "Mam zepsutą komórkę."
       },
       {
-        "es_form": "Está demasiado [estropeado::zepsuty].",
-        "pl_translation": "Jest zbyt zepsuty."
+        "es_form": "El coche lleva una semana [estropeado::zepsuty].",
+        "pl_translation": "Samochód jest zepsuty od tygodnia."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [encendí::włączyłem] la luz.",
-            "pl_translation": "Włączyłem światło."
+            "es_form": "Ayer yo [encendí::włączyłem] la luz.",
+            "pl_translation": "Wczoraj włączyłem światło."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [encendiste::włączyłeś] la luz.",
-            "pl_translation": "Włączyłeś światło."
+            "es_form": "La semana pasada tú [encendiste::włączyłeś] la luz.",
+            "pl_translation": "W zeszłym tygodniu włączyłeś światło."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [encendió::włączył] la luz.",
-            "pl_translation": "Włączył światło."
+            "es_form": "El otro día él [encendió::włączył] la luz.",
+            "pl_translation": "Niedawno włączył światło."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [encendimos::włączyliśmy] la luz.",
-            "pl_translation": "Włączyliśmy światło."
+            "es_form": "La semana pasada nosotros [encendimos::włączyliśmy] la luz.",
+            "pl_translation": "W zeszłym tygodniu włączyliśmy światło."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [encendisteis::włączyliście] la luz.",
-            "pl_translation": "Włączyliście światło."
+            "es_form": "El otro día vosotros [encendisteis::włączyliście] la luz.",
+            "pl_translation": "Niedawno włączyliście światło."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [encendieron::włączyli] la luz.",
-            "pl_translation": "Włączyli światło."
+            "es_form": "Ayer ellos [encendieron::włączyli] la luz.",
+            "pl_translation": "Wczoraj włączyli światło."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [encenderé::będę włączać] la luz.",
-            "pl_translation": "Będę włączać światło."
+            "es_form": "Mañana yo [encenderé::będę włączać] la luz.",
+            "pl_translation": "Jutro będę włączać światło."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [encenderás::będziesz włączać] la luz.",
-            "pl_translation": "Będziesz włączać światło."
+            "es_form": "La próxima semana tú [encenderás::będziesz włączać] la luz.",
+            "pl_translation": "W przyszłym tygodniu będziesz włączać światło."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [encenderá::będzie włączać] la luz.",
-            "pl_translation": "Będzie włączać światło."
+            "es_form": "Pronto él [encenderá::będzie włączać] la luz.",
+            "pl_translation": "Wkrótce będzie włączać światło."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [encenderemos::będziemy włączać] la luz.",
-            "pl_translation": "Będziemy włączać światło."
+            "es_form": "La próxima semana nosotros [encenderemos::będziemy włączać] la luz.",
+            "pl_translation": "W przyszłym tygodniu będziemy włączać światło."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [encenderéis::będziecie włączać] la luz.",
-            "pl_translation": "Będziecie włączać światło."
+            "es_form": "Pronto vosotros [encenderéis::będziecie włączać] la luz.",
+            "pl_translation": "Wkrótce będziecie włączać światło."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [encenderán::będą włączać] la luz.",
-            "pl_translation": "Będą włączać światło."
+            "es_form": "Mañana ellos [encenderán::będą włączać] la luz.",
+            "pl_translation": "Jutro będą włączać światło."
           }
         ]
       }

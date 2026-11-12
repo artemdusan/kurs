@@ -5,16 +5,16 @@
     "pl_word": "konto",
     "examples": [
       {
-        "es_form": "Esta es [la cuenta::konto].",
-        "pl_translation": "To jest konto."
+        "es_form": "Abro [la cuenta::konto] en el banco.",
+        "pl_translation": "Otwieram konto w banku."
       },
       {
-        "es_form": "¿Dónde está [la cuenta::konto]?",
-        "pl_translation": "Gdzie jest konto?"
+        "es_form": "Tengo poco dinero en [la cuenta::konto].",
+        "pl_translation": "Mam mało pieniędzy na koncie."
       },
       {
-        "es_form": "No es [la cuenta::konto].",
-        "pl_translation": "To nie jest konto."
+        "es_form": "[La cuenta::konto] es gratuita para estudiantes.",
+        "pl_translation": "Konto jest darmowe dla studentów."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "bankomat",
     "examples": [
       {
-        "es_form": "[El cajero automático::bankomat] abre a las ocho.",
-        "pl_translation": "Bankomat otwiera się o ósmej."
+        "es_form": "Saco dinero en [el cajero automático::bankomat].",
+        "pl_translation": "Wypłacam pieniądze z bankomatu."
       },
       {
-        "es_form": "¿Dónde está [el cajero automático::bankomat]?",
-        "pl_translation": "Gdzie jest bankomat?"
+        "es_form": "[El cajero automático::bankomat] no funciona.",
+        "pl_translation": "Bankomat nie działa."
       },
       {
-        "es_form": "Estoy en [el cajero automático::bankomat].",
-        "pl_translation": "Jestem przy bankomacie."
+        "es_form": "Hay [el cajero automático::bankomat] en la esquina.",
+        "pl_translation": "Na rogu jest bankomat."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "dług",
     "examples": [
       {
-        "es_form": "No es [la deuda::dług].",
-        "pl_translation": "To nie jest dług."
+        "es_form": "Pago [la deuda::dług] poco a poco.",
+        "pl_translation": "Spłacam dług po trochu."
       },
       {
-        "es_form": "Esta es [la deuda::dług].",
-        "pl_translation": "To jest dług."
+        "es_form": "Tengo [la deuda::dług] con mi hermano.",
+        "pl_translation": "Mam dług u brata."
       },
       {
-        "es_form": "No entiendo [la deuda::dług].",
-        "pl_translation": "Nie rozumiem długu."
+        "es_form": "[La deuda::dług] crece cada mes.",
+        "pl_translation": "Dług rośnie co miesiąc."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "pożyczka",
     "examples": [
       {
-        "es_form": "Solicité [el préstamo::pożyczka] ayer.",
-        "pl_translation": "Złożyłem wniosek o pożyczkę wczoraj."
+        "es_form": "Pido [el préstamo::pożyczka] en el banco.",
+        "pl_translation": "Proszę w banku o pożyczkę."
       },
       {
-        "es_form": "Este es [el préstamo::pożyczka].",
-        "pl_translation": "To jest pożyczka."
+        "es_form": "[El préstamo::pożyczka] es para comprar un coche.",
+        "pl_translation": "Pożyczka jest na zakup samochodu."
       },
       {
-        "es_form": "Me denegaron [el préstamo::pożyczka].",
-        "pl_translation": "Odmówili mi pożyczki."
+        "es_form": "Devuelvo [el préstamo::pożyczka] en dos años.",
+        "pl_translation": "Spłacam pożyczkę w dwa lata."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "rata",
     "examples": [
       {
-        "es_form": "Pagué [el plazo::rata] a tiempo.",
-        "pl_translation": "Zapłaciłem ratę na czas."
+        "es_form": "Pago [el plazo::rata] cada mes.",
+        "pl_translation": "Płacę ratę co miesiąc."
       },
       {
-        "es_form": "Atrasé [el plazo::rata] este mes.",
-        "pl_translation": "Opóźniłem ratę w tym miesiącu."
+        "es_form": "[El plazo::rata] del coche es de cien euros.",
+        "pl_translation": "Rata za samochód wynosi sto euro."
       },
       {
-        "es_form": "Este es [el plazo::rata].",
-        "pl_translation": "To jest rata."
+        "es_form": "Queda solo [el plazo::rata] final.",
+        "pl_translation": "Została tylko ostatnia rata."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "waluta",
     "examples": [
       {
-        "es_form": "Necesito [la moneda::waluta] nueva.",
-        "pl_translation": "Potrzebuję nowej waluty."
+        "es_form": "El euro es [la moneda::waluta] de España.",
+        "pl_translation": "Euro jest walutą Hiszpanii."
       },
       {
-        "es_form": "Compré [la moneda::waluta] ayer.",
-        "pl_translation": "Kupiłem walutę wczoraj."
+        "es_form": "Cambio [la moneda::waluta] en el aeropuerto.",
+        "pl_translation": "Wymieniam walutę na lotnisku."
       },
       {
-        "es_form": "Esta es [la moneda::waluta].",
-        "pl_translation": "To jest waluta."
+        "es_form": "[La moneda::waluta] del país es muy débil.",
+        "pl_translation": "Waluta kraju jest bardzo słaba."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "reszta (pieniądze)",
     "examples": [
       {
-        "es_form": "Guarda [el cambio::reszta (pieniądze)] en la cartera.",
-        "pl_translation": "Schowaj resztę do portfela."
+        "es_form": "Quédese con [el cambio::reszta (pieniądze)].",
+        "pl_translation": "Proszę zatrzymać resztę."
       },
       {
-        "es_form": "Este es [el cambio::reszta].",
-        "pl_translation": "To jest reszta."
+        "es_form": "El camarero me trae [el cambio::reszta (pieniądze)].",
+        "pl_translation": "Kelner przynosi mi resztę."
       },
       {
-        "es_form": "[El cambio::reszta] está aquí.",
-        "pl_translation": "Reszta jest tutaj."
+        "es_form": "Cuento [el cambio::reszta (pieniądze)] antes de salir.",
+        "pl_translation": "Liczę resztę przed wyjściem."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "wydatek",
     "examples": [
       {
-        "es_form": "Este es [el gasto::wydatek].",
-        "pl_translation": "To jest wydatek."
+        "es_form": "[El gasto::wydatek] más grande es el alquiler.",
+        "pl_translation": "Największym wydatkiem jest czynsz."
       },
       {
-        "es_form": "¿Dónde está [el gasto::wydatek]?",
-        "pl_translation": "Gdzie jest wydatek?"
+        "es_form": "Apunto cada [el gasto::wydatek] en un cuaderno.",
+        "pl_translation": "Zapisuję każdy wydatek w zeszycie."
       },
       {
-        "es_form": "No es [el gasto::wydatek].",
-        "pl_translation": "To nie jest wydatek."
+        "es_form": "Es [el gasto::wydatek] necesario.",
+        "pl_translation": "To konieczny wydatek."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "budżet",
     "examples": [
       {
-        "es_form": "[El presupuesto::budżet] es muy importante.",
-        "pl_translation": "Budżet jest bardzo ważny."
+        "es_form": "Hago [el presupuesto::budżet] para el mes.",
+        "pl_translation": "Robię budżet na miesiąc."
       },
       {
-        "es_form": "Este es [el presupuesto::budżet].",
-        "pl_translation": "To jest budżet."
+        "es_form": "[El presupuesto::budżet] de la familia es pequeño.",
+        "pl_translation": "Budżet rodziny jest mały."
       },
       {
-        "es_form": "No entiendo [el presupuesto::budżet].",
-        "pl_translation": "Nie rozumiem budżetu."
+        "es_form": "El viaje no entra en [el presupuesto::budżet].",
+        "pl_translation": "Podróż nie mieści się w budżecie."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "oszczędności",
     "examples": [
       {
-        "es_form": "Este es [el ahorro::oszczędności].",
-        "pl_translation": "To są oszczędności."
+        "es_form": "Guardo [el ahorro::oszczędności] en el banco.",
+        "pl_translation": "Trzymam oszczędności w banku."
       },
       {
-        "es_form": "¿Dónde está [el ahorro::oszczędności]?",
-        "pl_translation": "Gdzie są oszczędności?"
+        "es_form": "[El ahorro::oszczędności] de agua es importante.",
+        "pl_translation": "Oszczędzanie wody jest ważne."
       },
       {
-        "es_form": "No es [el ahorro::oszczędności].",
-        "pl_translation": "To nie są oszczędności."
+        "es_form": "Compré el coche con [el ahorro::oszczędności] de diez años.",
+        "pl_translation": "Kupiłem samochód za oszczędności z dziesięciu lat."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "bogaty",
     "examples": [
       {
-        "es_form": "Es muy [rico::bogaty].",
-        "pl_translation": "Jest bardzo bogaty."
+        "es_form": "Mi tío es muy [rico::bogaty].",
+        "pl_translation": "Mój wujek jest bardzo bogaty."
       },
       {
-        "es_form": "No es [rico::bogaty].",
-        "pl_translation": "Nie jest bogaty."
+        "es_form": "Es un país [rico::bogaty].",
+        "pl_translation": "To bogaty kraj."
       },
       {
-        "es_form": "Es demasiado [rico::bogaty].",
-        "pl_translation": "Jest zbyt bogaty."
+        "es_form": "No soy [rico::bogaty], pero vivo bien.",
+        "pl_translation": "Nie jestem bogaty, ale żyję dobrze."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "biedny",
     "examples": [
       {
-        "es_form": "Es muy [pobre::biedny].",
-        "pl_translation": "Jest bardzo biedny."
+        "es_form": "Es un barrio [pobre::biedny].",
+        "pl_translation": "To biedna dzielnica."
       },
       {
-        "es_form": "No es [pobre::biedny].",
-        "pl_translation": "Nie jest biedny."
+        "es_form": "El hombre es [pobre::biedny], pero feliz.",
+        "pl_translation": "Ten człowiek jest biedny, ale szczęśliwy."
       },
       {
-        "es_form": "Es demasiado [pobre::biedny].",
-        "pl_translation": "Jest zbyt biedny."
+        "es_form": "El país es [pobre::biedny] en agua.",
+        "pl_translation": "Kraj jest ubogi w wodę."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [ahorré::zaoszczędziłem] dinero.",
-            "pl_translation": "Zaoszczędziłem pieniądze."
+            "es_form": "Ayer yo [ahorré::zaoszczędziłem] dinero.",
+            "pl_translation": "Wczoraj zaoszczędziłem pieniądze."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [ahorraste::zaoszczędziłeś] dinero.",
-            "pl_translation": "Zaoszczędziłeś pieniądze."
+            "es_form": "La semana pasada tú [ahorraste::zaoszczędziłeś] dinero.",
+            "pl_translation": "W zeszłym tygodniu zaoszczędziłeś pieniądze."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [ahorró::zaoszczędził] dinero.",
-            "pl_translation": "Zaoszczędził pieniądze."
+            "es_form": "El otro día él [ahorró::zaoszczędził] dinero.",
+            "pl_translation": "Niedawno zaoszczędził pieniądze."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [ahorramos::zaoszczędziliśmy] dinero.",
-            "pl_translation": "Zaoszczędziliśmy pieniądze."
+            "es_form": "La semana pasada nosotros [ahorramos::zaoszczędziliśmy] dinero.",
+            "pl_translation": "W zeszłym tygodniu zaoszczędziliśmy pieniądze."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [ahorrasteis::zaoszczędziliście] dinero.",
-            "pl_translation": "Zaoszczędziliście pieniądze."
+            "es_form": "El otro día vosotros [ahorrasteis::zaoszczędziliście] dinero.",
+            "pl_translation": "Niedawno zaoszczędziliście pieniądze."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [ahorraron::zaoszczędzili] dinero.",
-            "pl_translation": "Zaoszczędzili pieniądze."
+            "es_form": "Ayer ellos [ahorraron::zaoszczędzili] dinero.",
+            "pl_translation": "Wczoraj zaoszczędzili pieniądze."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [ahorraré::będę oszczędzać] dinero.",
-            "pl_translation": "Będę oszczędzać pieniądze."
+            "es_form": "Mañana yo [ahorraré::będę oszczędzać] dinero.",
+            "pl_translation": "Jutro będę oszczędzać pieniądze."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [ahorrarás::będziesz oszczędzać] dinero.",
-            "pl_translation": "Będziesz oszczędzać pieniądze."
+            "es_form": "La próxima semana tú [ahorrarás::będziesz oszczędzać] dinero.",
+            "pl_translation": "W przyszłym tygodniu będziesz oszczędzać pieniądze."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [ahorrará::będzie oszczędzać] dinero.",
-            "pl_translation": "Będzie oszczędzać pieniądze."
+            "es_form": "Pronto él [ahorrará::będzie oszczędzać] dinero.",
+            "pl_translation": "Wkrótce będzie oszczędzać pieniądze."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [ahorraremos::będziemy oszczędzać] dinero.",
-            "pl_translation": "Będziemy oszczędzać pieniądze."
+            "es_form": "La próxima semana nosotros [ahorraremos::będziemy oszczędzać] dinero.",
+            "pl_translation": "W przyszłym tygodniu będziemy oszczędzać pieniądze."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [ahorraréis::będziecie oszczędzać] dinero.",
-            "pl_translation": "Będziecie oszczędzać pieniądze."
+            "es_form": "Pronto vosotros [ahorraréis::będziecie oszczędzać] dinero.",
+            "pl_translation": "Wkrótce będziecie oszczędzać pieniądze."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [ahorrarán::będą oszczędzać] dinero.",
-            "pl_translation": "Będą oszczędzać pieniądze."
+            "es_form": "Mañana ellos [ahorrarán::będą oszczędzać] dinero.",
+            "pl_translation": "Jutro będą oszczędzać pieniądze."
           }
         ]
       }

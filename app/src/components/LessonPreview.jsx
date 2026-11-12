@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { db } from '../db.js';
 import { getProgressMap } from '../engine/session.js';
+import Dots from './LevelDots.jsx';
 
 // Karta zapoznawcza bieżącej lekcji: słownictwo, odmiana czasownika przez
 // czasy i krótka notatka gramatyczna (mini-podręcznik). Przy każdym słowie
@@ -45,18 +46,8 @@ export default function LessonPreview({ lesson, grammarNote }) {
 
   if (!words) return null;
 
-  /** Mały wskaźnik poziomu: 6 kropek, kolor gradientu czerwony→zielony. */
-  function LevelDots({ wordId }) {
-    const p = progressMap.get(wordId);
-    const level = p?.level || 1;
-    return (
-      <span className="preview-level" title={`Poziom ${level}`}>
-        {Array.from({ length: 6 }, (_, i) => (
-          <span key={i} className={'preview-level-dot' + (i < level ? ' on dot-' + (i + 1) : '')} />
-        ))}
-      </span>
-    );
-  }
+  // Mały wskaźnik poziomu przy każdym słowie (5 kropek, drugi obieg na złoto).
+  const LevelDots = ({ wordId }) => <Dots level={progressMap.get(wordId)?.level || 1} small />;
 
   const verb = words.find((w) => w.type === 'verb');
   const forms = words.filter((w) => w.type === 'verb_form');

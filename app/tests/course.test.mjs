@@ -24,3 +24,19 @@ test('all 3085 card IDs and progress survive a content refresh; every fetch bypa
   assert.deepEqual(await db.progress.toArray(), progress);
   assert.equal(await getMeta('unlockedLesson'), 50);
 });
+
+test('a slot whose headword was replaced restarts at level 1; an unchanged word keeps its level', async () => {
+  await db.words.update('L1-n0', { es: 'El duplicado', examples: [] });
+  await db.words.update('L1-n1', { es: 'un hombre' });
+  await db.progress.bulkPut([
+    { wordId: 'L1-n0', level: 7, correctTotal: 9, updated_at: 10 },
+    { wordId: 'L1-n1', level: 7, correctTotal: 9, updated_at: 10 },
+  ]);
+  await setMeta('lessonContentVersions', {});
+  await ensureLessonImported(1);
+  const replaced = await db.progress.get('L1-n0');
+  assert.equal(replaced.level, 1);
+  assert.equal(replaced.correctTotal, 9);
+  assert(replaced.updated_at > 10);
+  assert.equal((await db.progress.get('L1-n1')).level, 7);
+});

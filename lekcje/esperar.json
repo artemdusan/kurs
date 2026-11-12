@@ -5,16 +5,16 @@
     "pl_word": "tydzień",
     "examples": [
       {
-        "es_form": "[La semana::tydzień] se me hizo eterna.",
-        "pl_translation": "Tydzień mi się dłużył."
-      },
-      {
-        "es_form": "[La semana::tydzień] es oro.",
-        "pl_translation": "Tydzień jest na wagę złota."
-      },
-      {
         "es_form": "[La semana::tydzień] tiene siete días.",
         "pl_translation": "Tydzień ma siedem dni."
+      },
+      {
+        "es_form": "Trabajo toda [la semana::tydzień].",
+        "pl_translation": "Pracuję cały tydzień."
+      },
+      {
+        "es_form": "[La semana::tydzień] que viene voy a Madrid.",
+        "pl_translation": "W przyszłym tygodniu jadę do Madrytu."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "miesiąc",
     "examples": [
       {
-        "es_form": "[El mes::miesiąc] pasa muy rápido.",
-        "pl_translation": "Miesiąc mija bardzo szybko."
+        "es_form": "[El mes::miesiąc] de mayo es muy bonito.",
+        "pl_translation": "Miesiąc maj jest bardzo ładny."
       },
       {
-        "es_form": "[El mes::miesiąc] se me hizo eterno.",
-        "pl_translation": "Miesiąc mi się dłużył."
+        "es_form": "Paso [el mes::miesiąc] entero en la playa.",
+        "pl_translation": "Spędzam cały miesiąc na plaży."
       },
       {
-        "es_form": "[El mes::miesiąc] es oro.",
-        "pl_translation": "Miesiąc jest na wagę złota."
+        "es_form": "[El mes::miesiąc] que viene tengo vacaciones.",
+        "pl_translation": "W przyszłym miesiącu mam urlop."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "poniedziałek",
     "examples": [
       {
-        "es_form": "[El lunes::poniedziałek] es oro.",
-        "pl_translation": "Poniedziałek jest na wagę złota."
+        "es_form": "[El lunes::poniedziałek] empieza la semana.",
+        "pl_translation": "Poniedziałek zaczyna tydzień."
       },
       {
-        "es_form": "Este es [el lunes::poniedziałek].",
-        "pl_translation": "To jest poniedziałek."
+        "es_form": "[El lunes::poniedziałek] tengo clase de español.",
+        "pl_translation": "W poniedziałek mam lekcję hiszpańskiego."
       },
       {
-        "es_form": "[El lunes::poniedziałek] se me hizo eterno.",
-        "pl_translation": "Poniedziałek mi się dłużył."
+        "es_form": "No me gusta [el lunes::poniedziałek].",
+        "pl_translation": "Nie lubię poniedziałku."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "wtorek",
     "examples": [
       {
-        "es_form": "Este es [el martes::wtorek].",
-        "pl_translation": "To jest wtorek."
+        "es_form": "[El martes::wtorek] voy al gimnasio.",
+        "pl_translation": "We wtorek idę na siłownię."
       },
       {
-        "es_form": "¿Dónde está [el martes::wtorek]?",
-        "pl_translation": "Gdzie jest wtorek?"
+        "es_form": "[El martes::wtorek] es el segundo día de la semana.",
+        "pl_translation": "Wtorek to drugi dzień tygodnia."
       },
       {
-        "es_form": "[El martes::wtorek] se me hizo eterno.",
-        "pl_translation": "Wtorek mi się dłużył."
+        "es_form": "Te veo [el martes::wtorek] por la tarde.",
+        "pl_translation": "Widzimy się we wtorek po południu."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "środa",
     "examples": [
       {
-        "es_form": "Este es [el miércoles::środa].",
-        "pl_translation": "To jest środa."
+        "es_form": "[El miércoles::środa] tengo una reunión.",
+        "pl_translation": "W środę mam spotkanie."
       },
       {
-        "es_form": "¿Dónde está [el miércoles::środa]?",
-        "pl_translation": "Gdzie jest środa?"
+        "es_form": "[El miércoles::środa] es mi día favorito.",
+        "pl_translation": "Środa to mój ulubiony dzień."
       },
       {
-        "es_form": "[El miércoles::środa] es un buen día.",
-        "pl_translation": "Środa to dobry dzień."
+        "es_form": "El médico viene [el miércoles::środa].",
+        "pl_translation": "Lekarz przychodzi w środę."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "czwartek",
     "examples": [
       {
-        "es_form": "[El jueves::czwartek] pasa muy rápido.",
-        "pl_translation": "Czwartek mija bardzo szybko."
+        "es_form": "[El jueves::czwartek] ceno con mis padres.",
+        "pl_translation": "W czwartek jem kolację z rodzicami."
       },
       {
-        "es_form": "Este es [el jueves::czwartek].",
-        "pl_translation": "To jest czwartek."
+        "es_form": "[El jueves::czwartek] llega mi hermana.",
+        "pl_translation": "W czwartek przyjeżdża moja siostra."
       },
       {
-        "es_form": "[El jueves::czwartek] se me hizo eterno.",
-        "pl_translation": "Czwartek mi się dłużył."
+        "es_form": "El examen es [el jueves::czwartek].",
+        "pl_translation": "Egzamin jest w czwartek."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "piątek",
     "examples": [
       {
-        "es_form": "[El viernes::piątek] pasa muy rápido.",
-        "pl_translation": "Piątek mija bardzo szybko."
+        "es_form": "[El viernes::piątek] salgo con mis amigos.",
+        "pl_translation": "W piątek wychodzę z przyjaciółmi."
       },
       {
-        "es_form": "Este es [el viernes::piątek].",
-        "pl_translation": "To jest piątek."
+        "es_form": "Por fin llega [el viernes::piątek].",
+        "pl_translation": "Wreszcie nadchodzi piątek."
       },
       {
-        "es_form": "[El viernes::piątek] está aquí.",
-        "pl_translation": "Piątek jest tutaj."
+        "es_form": "[El viernes::piątek] termino pronto el trabajo.",
+        "pl_translation": "W piątek kończę pracę wcześnie."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "sobota",
     "examples": [
       {
-        "es_form": "[El sábado::sobota] es oro.",
-        "pl_translation": "Sobota jest na wagę złota."
+        "es_form": "[El sábado::sobota] hago la compra.",
+        "pl_translation": "W sobotę robię zakupy."
       },
       {
-        "es_form": "[El sábado::sobota] es mi día libre.",
-        "pl_translation": "Sobota jest moim dniem wolnym."
+        "es_form": "[El sábado::sobota] duermo hasta las diez.",
+        "pl_translation": "W sobotę śpię do dziesiątej."
       },
       {
-        "es_form": "[El sábado::sobota] pasa muy rápido.",
-        "pl_translation": "Sobota mija bardzo szybko."
+        "es_form": "La fiesta es [el sábado::sobota].",
+        "pl_translation": "Impreza jest w sobotę."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "niedziela",
     "examples": [
       {
-        "es_form": "[El domingo::niedziela] es oro.",
-        "pl_translation": "Niedziela jest na wagę złota."
+        "es_form": "[El domingo::niedziela] como con mi familia.",
+        "pl_translation": "W niedzielę jem z rodziną."
       },
       {
-        "es_form": "Este es [el domingo::niedziela].",
-        "pl_translation": "To jest niedziela."
+        "es_form": "[El domingo::niedziela] no trabajo.",
+        "pl_translation": "W niedzielę nie pracuję."
       },
       {
-        "es_form": "[El domingo::niedziela] es mi día libre.",
-        "pl_translation": "Niedziela jest moim dniem wolnym."
+        "es_form": "La tienda cierra [el domingo::niedziela].",
+        "pl_translation": "Sklep jest zamknięty w niedzielę."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "weekend",
     "examples": [
       {
-        "es_form": "Este es [el fin de semana::weekend].",
-        "pl_translation": "To jest weekend."
+        "es_form": "Paso [el fin de semana::weekend] en la montaña.",
+        "pl_translation": "Spędzam weekend w górach."
       },
       {
-        "es_form": "[El fin de semana::weekend] es oro.",
-        "pl_translation": "Weekend jest na wagę złota."
+        "es_form": "[El fin de semana::weekend] descanso en casa.",
+        "pl_translation": "W weekend odpoczywam w domu."
       },
       {
-        "es_form": "¿Dónde está [el fin de semana::weekend]?",
-        "pl_translation": "Gdzie jest weekend?"
+        "es_form": "¿Qué haces [el fin de semana::weekend]?",
+        "pl_translation": "Co robisz w weekend?"
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "wczesny",
     "examples": [
       {
-        "es_form": "Es muy [temprano::wczesny].",
-        "pl_translation": "Jest bardzo wczesny."
+        "es_form": "Tomo el tren [temprano::wczesny].",
+        "pl_translation": "Jadę wczesnym pociągiem."
       },
       {
-        "es_form": "No es [temprano::wczesny].",
-        "pl_translation": "Nie jest wczesny."
+        "es_form": "El desayuno [temprano::wczesny] es bueno para mí.",
+        "pl_translation": "Wczesne śniadanie jest dla mnie dobre."
       },
       {
-        "es_form": "Es demasiado [temprano::wczesny].",
-        "pl_translation": "Jest zbyt wczesny."
+        "es_form": "Todavía es [temprano::wczesny] para cenar.",
+        "pl_translation": "Jest jeszcze za wcześnie na kolację."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "późno",
     "examples": [
       {
-        "es_form": "Es muy [tarde::późno].",
-        "pl_translation": "Jest bardzo późno."
+        "es_form": "Llego [tarde::późno] al trabajo.",
+        "pl_translation": "Spóźniam się do pracy."
       },
       {
-        "es_form": "Parece [tarde::późno].",
-        "pl_translation": "Wydaje się późno."
+        "es_form": "Ya es [tarde::późno] para llamar.",
+        "pl_translation": "Jest już za późno, żeby dzwonić."
       },
       {
-        "es_form": "Es demasiado [tarde::późno].",
-        "pl_translation": "Jest zbyt późno."
+        "es_form": "Los sábados ceno [tarde::późno].",
+        "pl_translation": "W soboty jem kolację późno."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [esperé::czekałem] el autobús.",
-            "pl_translation": "Czekałem na autobus."
+            "es_form": "Ayer yo [esperé::czekałem] el autobús.",
+            "pl_translation": "Wczoraj czekałem na autobus."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [esperaste::czekałeś] el autobús.",
-            "pl_translation": "Czekałeś na autobus."
+            "es_form": "La semana pasada tú [esperaste::czekałeś] el autobús.",
+            "pl_translation": "W zeszłym tygodniu czekałeś na autobus."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [esperó::czekał] el autobús.",
-            "pl_translation": "Czekał na autobus."
+            "es_form": "El otro día él [esperó::czekał] el autobús.",
+            "pl_translation": "Niedawno czekał na autobus."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [esperamos::czekaliśmy] el autobús.",
-            "pl_translation": "Czekaliśmy na autobus."
+            "es_form": "La semana pasada nosotros [esperamos::czekaliśmy] el autobús.",
+            "pl_translation": "W zeszłym tygodniu czekaliśmy na autobus."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [esperasteis::czekaliście] el autobús.",
-            "pl_translation": "Czekaliście na autobus."
+            "es_form": "El otro día vosotros [esperasteis::czekaliście] el autobús.",
+            "pl_translation": "Niedawno czekaliście na autobus."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [esperaron::czekali] el autobús.",
-            "pl_translation": "Czekali na autobus."
+            "es_form": "Ayer ellos [esperaron::czekali] el autobús.",
+            "pl_translation": "Wczoraj czekali na autobus."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [esperaré::będę czekać] el autobús.",
-            "pl_translation": "Będę czekać na autobus."
+            "es_form": "Mañana yo [esperaré::będę czekać] el autobús.",
+            "pl_translation": "Jutro będę czekać na autobus."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [esperarás::będziesz czekać] el autobús.",
-            "pl_translation": "Będziesz czekać na autobus."
+            "es_form": "La próxima semana tú [esperarás::będziesz czekać] el autobús.",
+            "pl_translation": "W przyszłym tygodniu będziesz czekać na autobus."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [esperará::będzie czekać] el autobús.",
-            "pl_translation": "Będzie czekać na autobus."
+            "es_form": "Pronto él [esperará::będzie czekać] el autobús.",
+            "pl_translation": "Wkrótce będzie czekać na autobus."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [esperaremos::będziemy czekać] el autobús.",
-            "pl_translation": "Będziemy czekać na autobus."
+            "es_form": "La próxima semana nosotros [esperaremos::będziemy czekać] el autobús.",
+            "pl_translation": "W przyszłym tygodniu będziemy czekać na autobus."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [esperaréis::będziecie czekać] el autobús.",
-            "pl_translation": "Będziecie czekać na autobus."
+            "es_form": "Pronto vosotros [esperaréis::będziecie czekać] el autobús.",
+            "pl_translation": "Wkrótce będziecie czekać na autobus."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [esperarán::będą czekać] el autobús.",
-            "pl_translation": "Będą czekać na autobus."
+            "es_form": "Mañana ellos [esperarán::będą czekać] el autobús.",
+            "pl_translation": "Jutro będą czekać na autobus."
           }
         ]
       }

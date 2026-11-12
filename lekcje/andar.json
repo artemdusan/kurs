@@ -5,16 +5,16 @@
     "pl_word": "droga, ścieżka",
     "examples": [
       {
-        "es_form": "¿Dónde está [el camino::droga]?",
-        "pl_translation": "Gdzie jest droga?"
+        "es_form": "[El camino::droga, ścieżka] al pueblo pasa por el bosque.",
+        "pl_translation": "Droga do wsi prowadzi przez las."
       },
       {
-        "es_form": "[El camino::droga] está aquí.",
-        "pl_translation": "Droga jest tutaj."
+        "es_form": "Sigo [el camino::droga, ścieżka] hasta el río.",
+        "pl_translation": "Idę ścieżką aż do rzeki."
       },
       {
-        "es_form": "No es [el camino::droga].",
-        "pl_translation": "To nie jest droga."
+        "es_form": "Perdimos [el camino::droga, ścieżka] en la montaña.",
+        "pl_translation": "Zgubiliśmy drogę w górach."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "kierunek",
     "examples": [
       {
-        "es_form": "¿Dónde está [la dirección::kierunek]?",
-        "pl_translation": "Gdzie jest kierunek?"
+        "es_form": "Vamos en [la dirección::kierunek] correcta.",
+        "pl_translation": "Idziemy w dobrym kierunku."
       },
       {
-        "es_form": "Esta es [la dirección::kierunek].",
-        "pl_translation": "To jest kierunek."
+        "es_form": "El coche cambió [la dirección::kierunek] de repente.",
+        "pl_translation": "Samochód nagle zmienił kierunek."
       },
       {
-        "es_form": "Necesito [la dirección::kierunek] nueva.",
-        "pl_translation": "Potrzebuję nowego kierunku."
+        "es_form": "No sé [la dirección::kierunek] del viento.",
+        "pl_translation": "Nie znam kierunku wiatru."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "strona",
     "examples": [
       {
-        "es_form": "No es [el lado::strona].",
-        "pl_translation": "To nie jest strona."
+        "es_form": "La farmacia está en [el lado::strona] derecho de la calle.",
+        "pl_translation": "Apteka jest po prawej stronie ulicy."
       },
       {
-        "es_form": "Este es [el lado::strona].",
-        "pl_translation": "To jest strona."
+        "es_form": "Cruza [el lado::strona] otro de la plaza.",
+        "pl_translation": "Przejdź na drugą stronę placu."
       },
       {
-        "es_form": "¿Dónde está [el lado::strona]?",
-        "pl_translation": "Gdzie jest strona?"
+        "es_form": "Siempre camino por [el lado::strona] soleado.",
+        "pl_translation": "Zawsze chodzę po słonecznej stronie."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "środek, centrum",
     "examples": [
       {
-        "es_form": "Visitamos [el centro::środek, centrum] la semana pasada.",
-        "pl_translation": "Odwiedziliśmy centrum w zeszłym tygodniu."
+        "es_form": "La fuente está en [el centro::środek, centrum] de la plaza.",
+        "pl_translation": "Fontanna jest na środku placu."
       },
       {
-        "es_form": "Trabajo en [el centro::środek, centrum].",
-        "pl_translation": "Pracuję w centrum."
+        "es_form": "Pon la mesa en [el centro::środek, centrum] del salón.",
+        "pl_translation": "Postaw stół na środku salonu."
       },
       {
-        "es_form": "Estoy en [el centro::środek, centrum].",
-        "pl_translation": "Jestem w centrum."
+        "es_form": "[El centro::środek, centrum] del círculo es un punto.",
+        "pl_translation": "Środek koła to punkt."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "początek",
     "examples": [
       {
-        "es_form": "Necesito [el principio::początek] nuevo.",
-        "pl_translation": "Potrzebuję nowego początku."
+        "es_form": "[El principio::początek] del camino es fácil.",
+        "pl_translation": "Początek drogi jest łatwy."
       },
       {
-        "es_form": "¿Dónde está [el principio::początek]?",
-        "pl_translation": "Gdzie jest początek?"
+        "es_form": "Empezamos por [el principio::początek].",
+        "pl_translation": "Zaczynamy od początku."
       },
       {
-        "es_form": "Este es [el principio::początek].",
-        "pl_translation": "To jest początek."
+        "es_form": "No vi [el principio::początek] de la película.",
+        "pl_translation": "Nie widziałem początku filmu."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "koniec",
     "examples": [
       {
-        "es_form": "No es [el final::koniec].",
-        "pl_translation": "To nie jest koniec."
+        "es_form": "La tienda está en [el final::koniec] de la calle.",
+        "pl_translation": "Sklep jest na końcu ulicy."
       },
       {
-        "es_form": "Este es [el final::koniec].",
-        "pl_translation": "To jest koniec."
+        "es_form": "[El final::koniec] del viaje fue muy bonito.",
+        "pl_translation": "Koniec podróży był bardzo ładny."
       },
       {
-        "es_form": "¿Dónde está [el final::koniec]?",
-        "pl_translation": "Gdzie jest koniec?"
+        "es_form": "Espera hasta [el final::koniec] de la clase.",
+        "pl_translation": "Poczekaj do końca zajęć."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "światła (sygnalizacja)",
     "examples": [
       {
-        "es_form": "[El semáforo::światła (sygnalizacja)] está cerca de aquí.",
-        "pl_translation": "Sygnalizacja świetlna jest niedaleko stąd."
+        "es_form": "[El semáforo::światła (sygnalizacja)] está en rojo.",
+        "pl_translation": "Światła są czerwone."
       },
       {
-        "es_form": "[El semáforo::światła (sygnalizacja)] abre a las ocho.",
-        "pl_translation": "Sygnalizacja świetlna otwiera się o ósmej."
+        "es_form": "Gira a la derecha en [el semáforo::światła (sygnalizacja)].",
+        "pl_translation": "Skręć w prawo na światłach."
       },
       {
-        "es_form": "Trabajo en [el semáforo::światła (sygnalizacja)].",
-        "pl_translation": "Pracuję przy sygnalizacji świetlnej."
+        "es_form": "Espero en [el semáforo::światła (sygnalizacja)] para cruzar.",
+        "pl_translation": "Czekam na światłach, żeby przejść."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "chodnik",
     "examples": [
       {
-        "es_form": "Esta es [la acera::chodnik].",
-        "pl_translation": "To jest chodnik."
+        "es_form": "Camina por [la acera::chodnik], no por la calle.",
+        "pl_translation": "Idź chodnikiem, nie ulicą."
       },
       {
-        "es_form": "No es [la acera::chodnik].",
-        "pl_translation": "To nie jest chodnik."
+        "es_form": "[La acera::chodnik] es muy estrecha aquí.",
+        "pl_translation": "Chodnik jest tu bardzo wąski."
       },
       {
-        "es_form": "¿Dónde está [la acera::chodnik]?",
-        "pl_translation": "Gdzie jest chodnik?"
+        "es_form": "Dejé la bici en [la acera::chodnik].",
+        "pl_translation": "Zostawiłem rower na chodniku."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "róg",
     "examples": [
       {
-        "es_form": "No es [la esquina::róg].",
-        "pl_translation": "To nie jest róg."
+        "es_form": "La panadería está en [la esquina::róg].",
+        "pl_translation": "Piekarnia jest na rogu."
       },
       {
-        "es_form": "Esta es [la esquina::róg].",
-        "pl_translation": "To jest róg."
+        "es_form": "Te espero en [la esquina::róg] de mi calle.",
+        "pl_translation": "Czekam na ciebie na rogu mojej ulicy."
       },
       {
-        "es_form": "¿Dónde está [la esquina::róg]?",
-        "pl_translation": "Gdzie jest róg?"
+        "es_form": "Gira en [la esquina::róg] a la izquierda.",
+        "pl_translation": "Skręć na rogu w lewo."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "krok, przejście",
     "examples": [
       {
-        "es_form": "[El paso::przejście] está cerrado.",
-        "pl_translation": "Przejście jest zamknięte."
+        "es_form": "Di [el paso::krok, przejście] adelante.",
+        "pl_translation": "Zrobiłem krok do przodu."
       },
       {
-        "es_form": "[El paso::przejście] está abierto.",
-        "pl_translation": "Przejście jest otwarte."
+        "es_form": "Cruza por [el paso::krok, przejście] de peatones.",
+        "pl_translation": "Przejdź przez przejście dla pieszych."
       },
       {
-        "es_form": "¿Dónde está [el paso::krok]?",
-        "pl_translation": "Gdzie jest krok?"
+        "es_form": "Oigo [el paso::krok, przejście] de mi padre en la escalera.",
+        "pl_translation": "Słyszę krok mojego taty na schodach."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "prosty",
     "examples": [
       {
-        "es_form": "Es muy [recto::prosty].",
-        "pl_translation": "Jest bardzo prosty."
+        "es_form": "El camino es largo y [recto::prosty].",
+        "pl_translation": "Droga jest długa i prosta."
       },
       {
-        "es_form": "Parece [recto::prosty].",
-        "pl_translation": "Wydaje się prosty."
+        "es_form": "Sigue todo [recto::prosty] hasta el semáforo.",
+        "pl_translation": "Idź cały czas prosto aż do świateł."
       },
       {
-        "es_form": "Es demasiado [recto::prosty].",
-        "pl_translation": "Jest zbyt prosty."
+        "es_form": "Dibujo un trazo [recto::prosty] en el papel.",
+        "pl_translation": "Rysuję prostą kreskę na papierze."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "lewy",
     "examples": [
       {
-        "es_form": "Es muy [izquierdo::lewy].",
-        "pl_translation": "Jest bardzo lewy."
+        "es_form": "Me duele el pie [izquierdo::lewy].",
+        "pl_translation": "Boli mnie lewa stopa."
       },
       {
-        "es_form": "No es [izquierdo::lewy].",
-        "pl_translation": "Nie jest lewy."
+        "es_form": "El banco está en el lado [izquierdo::lewy].",
+        "pl_translation": "Bank jest po lewej stronie."
       },
       {
-        "es_form": "Parece [izquierdo::lewy].",
-        "pl_translation": "Wydaje się lewy."
+        "es_form": "Escribo con el brazo [izquierdo::lewy].",
+        "pl_translation": "Piszę lewą ręką."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [anduve::chodziłem] por el parque.",
-            "pl_translation": "Chodziłem po parku."
+            "es_form": "Ayer yo [anduve::chodziłem] por el parque.",
+            "pl_translation": "Wczoraj chodziłem po parku."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [anduviste::chodziłeś] por el parque.",
-            "pl_translation": "Chodziłeś po parku."
+            "es_form": "La semana pasada tú [anduviste::chodziłeś] por el parque.",
+            "pl_translation": "W zeszłym tygodniu chodziłeś po parku."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [anduvo::chodził] por el parque.",
-            "pl_translation": "Chodził po parku."
+            "es_form": "El otro día él [anduvo::chodził] por el parque.",
+            "pl_translation": "Niedawno chodził po parku."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [anduvimos::chodziliśmy] por el parque.",
-            "pl_translation": "Chodziliśmy po parku."
+            "es_form": "La semana pasada nosotros [anduvimos::chodziliśmy] por el parque.",
+            "pl_translation": "W zeszłym tygodniu chodziliśmy po parku."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [anduvisteis::chodziliście] por el parque.",
-            "pl_translation": "Chodziliście po parku."
+            "es_form": "El otro día vosotros [anduvisteis::chodziliście] por el parque.",
+            "pl_translation": "Niedawno chodziliście po parku."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [anduvieron::chodzili] por el parque.",
-            "pl_translation": "Chodzili po parku."
+            "es_form": "Ayer ellos [anduvieron::chodzili] por el parque.",
+            "pl_translation": "Wczoraj chodzili po parku."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [andaré::będę chodzić] por el parque.",
-            "pl_translation": "Będę chodzić po parku."
+            "es_form": "Mañana yo [andaré::będę chodzić] por el parque.",
+            "pl_translation": "Jutro będę chodzić po parku."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [andarás::będziesz chodzić] por el parque.",
-            "pl_translation": "Będziesz chodzić po parku."
+            "es_form": "La próxima semana tú [andarás::będziesz chodzić] por el parque.",
+            "pl_translation": "W przyszłym tygodniu będziesz chodzić po parku."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [andará::będzie chodzić] por el parque.",
-            "pl_translation": "Będzie chodzić po parku."
+            "es_form": "Pronto él [andará::będzie chodzić] por el parque.",
+            "pl_translation": "Wkrótce będzie chodzić po parku."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [andaremos::będziemy chodzić] por el parque.",
-            "pl_translation": "Będziemy chodzić po parku."
+            "es_form": "La próxima semana nosotros [andaremos::będziemy chodzić] por el parque.",
+            "pl_translation": "W przyszłym tygodniu będziemy chodzić po parku."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [andaréis::będziecie chodzić] por el parque.",
-            "pl_translation": "Będziecie chodzić po parku."
+            "es_form": "Pronto vosotros [andaréis::będziecie chodzić] por el parque.",
+            "pl_translation": "Wkrótce będziecie chodzić po parku."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [andarán::będą chodzić] por el parque.",
-            "pl_translation": "Będą chodzić po parku."
+            "es_form": "Mañana ellos [andarán::będą chodzić] por el parque.",
+            "pl_translation": "Jutro będą chodzić po parku."
           }
         ]
       }

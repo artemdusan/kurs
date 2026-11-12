@@ -1,20 +1,20 @@
 [
   {
     "type": "noun",
-    "es_word": "La página web",
-    "pl_word": "strona internetowa",
+    "es_word": "El enlace",
+    "pl_word": "link, odnośnik",
     "examples": [
       {
-        "es_form": "¿Has visto [la página web::strona internetowa]?",
-        "pl_translation": "Widziałeś tę stronę internetową?"
+        "es_form": "Te envío [el enlace::link, odnośnik] por correo.",
+        "pl_translation": "Wysyłam ci link mailem."
       },
       {
-        "es_form": "[La página web::strona internetowa] está en mantenimiento.",
-        "pl_translation": "Strona internetowa jest w trakcie konserwacji."
+        "es_form": "[El enlace::link, odnośnik] no funciona.",
+        "pl_translation": "Link nie działa."
       },
       {
-        "es_form": "[La página web::strona internetowa] se carga muy rápido.",
-        "pl_translation": "Strona internetowa ładuje się bardzo szybko."
+        "es_form": "Haz clic en [el enlace::link, odnośnik] azul.",
+        "pl_translation": "Kliknij niebieski link."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "aplikacja",
     "examples": [
       {
-        "es_form": "Esta es [la aplicación::aplikacja].",
-        "pl_translation": "To jest aplikacja."
+        "es_form": "Descargué [la aplicación::aplikacja] del banco.",
+        "pl_translation": "Pobrałem aplikację banku."
       },
       {
-        "es_form": "Descargué [la aplicación::aplikacja] ayer.",
-        "pl_translation": "Pobrałem aplikację wczoraj."
+        "es_form": "[La aplicación::aplikacja] es gratuita.",
+        "pl_translation": "Aplikacja jest darmowa."
       },
       {
-        "es_form": "¿Has visto [la aplicación::aplikacja] nueva?",
-        "pl_translation": "Widziałeś nową aplikację?"
+        "es_form": "Uso [la aplicación::aplikacja] para aprender español.",
+        "pl_translation": "Używam aplikacji do nauki hiszpańskiego."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "hasło",
     "examples": [
       {
-        "es_form": "Esta es [la contraseña::hasło].",
-        "pl_translation": "To jest hasło."
+        "es_form": "Olvidé [la contraseña::hasło] del correo.",
+        "pl_translation": "Zapomniałem hasła do poczty."
       },
       {
-        "es_form": "¿Dónde está [la contraseña::hasło]?",
-        "pl_translation": "Gdzie jest hasło?"
+        "es_form": "[La contraseña::hasło] debe tener ocho letras.",
+        "pl_translation": "Hasło musi mieć osiem liter."
       },
       {
-        "es_form": "[La contraseña::hasło] es muy segura.",
-        "pl_translation": "Hasło jest bardzo bezpieczne."
+        "es_form": "Cambio [la contraseña::hasło] cada mes.",
+        "pl_translation": "Zmieniam hasło co miesiąc."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "użytkownik",
     "examples": [
       {
-        "es_form": "[El usuario::użytkownik] ha iniciado sesión.",
-        "pl_translation": "Użytkownik się zalogował."
+        "es_form": "[El usuario::użytkownik] escribe su nombre.",
+        "pl_translation": "Użytkownik wpisuje swoje imię."
       },
       {
-        "es_form": "Se me bloqueó [el usuario::użytkownik].",
-        "pl_translation": "Zablokowało mi konto użytkownika."
+        "es_form": "El sistema reconoce [el usuario::użytkownik] por su nombre.",
+        "pl_translation": "System rozpoznaje użytkownika po imieniu."
       },
       {
-        "es_form": "Creé [el usuario::użytkownik] ayer.",
-        "pl_translation": "Wczoraj utworzyłem konto użytkownika."
+        "es_form": "[El usuario::użytkownik] nuevo recibe un mensaje.",
+        "pl_translation": "Nowy użytkownik otrzymuje wiadomość."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "plik",
     "examples": [
       {
-        "es_form": "Este es [el archivo::plik].",
-        "pl_translation": "To jest plik."
+        "es_form": "Guarda [el archivo::plik] en el escritorio.",
+        "pl_translation": "Zapisz plik na pulpicie."
       },
       {
-        "es_form": "[El archivo::plik] está sobre el escritorio.",
-        "pl_translation": "Plik jest na pulpicie."
+        "es_form": "[El archivo::plik] es demasiado grande.",
+        "pl_translation": "Plik jest za duży."
       },
       {
-        "es_form": "[El archivo::plik] ocupa mucho espacio.",
-        "pl_translation": "Plik zajmuje dużo miejsca."
+        "es_form": "Te mando [el archivo::plik] por correo.",
+        "pl_translation": "Wysyłam ci plik mailem."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "drukarka",
     "examples": [
       {
-        "es_form": "Esta es [la impresora::drukarka].",
-        "pl_translation": "To jest drukarka."
+        "es_form": "[La impresora::drukarka] no tiene tinta.",
+        "pl_translation": "Drukarka nie ma tuszu."
       },
       {
-        "es_form": "Compré [la impresora::drukarka] ayer.",
-        "pl_translation": "Kupiłem drukarkę wczoraj."
+        "es_form": "Conecta [la impresora::drukarka] al ordenador.",
+        "pl_translation": "Podłącz drukarkę do komputera."
       },
       {
-        "es_form": "[La impresora::drukarka] no funciona.",
-        "pl_translation": "Drukarka nie działa."
+        "es_form": "Compramos [la impresora::drukarka] para la oficina.",
+        "pl_translation": "Kupiliśmy drukarkę do biura."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "sieć",
     "examples": [
       {
-        "es_form": "Me conecté a [la red::sieć] ayer.",
-        "pl_translation": "Podłączyłem się do sieci wczoraj."
+        "es_form": "[La red::sieć] es muy lenta hoy.",
+        "pl_translation": "Sieć jest dziś bardzo wolna."
       },
       {
-        "es_form": "Necesito [la red::sieć] para trabajar.",
-        "pl_translation": "Potrzebuję sieci do pracy."
+        "es_form": "Me conecto a [la red::sieć] del hotel.",
+        "pl_translation": "Łączę się z siecią hotelu."
       },
       {
-        "es_form": "[La red::sieć] no funciona bien.",
-        "pl_translation": "Sieć nie działa dobrze."
+        "es_form": "[La red::sieć] no llega al jardín.",
+        "pl_translation": "Sieć nie sięga do ogrodu."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "wirus (komputerowy)",
     "examples": [
       {
-        "es_form": "[El virus::wirus (komputerowy)] infectó mi ordenador.",
-        "pl_translation": "Wirus zainfekował mój komputer."
+        "es_form": "[El virus::wirus (komputerowy)] borró mis fotos.",
+        "pl_translation": "Wirus skasował moje zdjęcia."
       },
       {
-        "es_form": "Este es [el virus::wirus].",
-        "pl_translation": "To jest wirus."
+        "es_form": "El ordenador tiene [el virus::wirus (komputerowy)].",
+        "pl_translation": "Komputer ma wirusa."
       },
       {
-        "es_form": "[El virus::wirus (komputerowy)] es muy peligroso.",
-        "pl_translation": "Wirus jest bardzo niebezpieczny."
+        "es_form": "Este programa detecta [el virus::wirus (komputerowy)].",
+        "pl_translation": "Ten program wykrywa wirusa."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "aktualizacja",
     "examples": [
       {
-        "es_form": "Esta es [la actualización::aktualizacja].",
-        "pl_translation": "To jest aktualizacja."
+        "es_form": "Instalo [la actualización::aktualizacja] del sistema.",
+        "pl_translation": "Instaluję aktualizację systemu."
       },
       {
-        "es_form": "[La actualización::aktualizacja] está disponible.",
-        "pl_translation": "Aktualizacja jest dostępna."
+        "es_form": "[La actualización::aktualizacja] tarda diez minutos.",
+        "pl_translation": "Aktualizacja trwa dziesięć minut."
       },
       {
-        "es_form": "Instala [la actualización::aktualizacja] ahora.",
-        "pl_translation": "Zainstaluj aktualizację teraz."
+        "es_form": "Después de [la actualización::aktualizacja] todo va mejor.",
+        "pl_translation": "Po aktualizacji wszystko działa lepiej."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "dane",
     "examples": [
       {
-        "es_form": "[Los datos::dane] están seguros.",
-        "pl_translation": "Dane są bezpieczne."
+        "es_form": "Guardo [los datos::dane] en la nube.",
+        "pl_translation": "Przechowuję dane w chmurze."
       },
       {
-        "es_form": "¿Dónde están [los datos::dane]?",
-        "pl_translation": "Gdzie są dane?"
+        "es_form": "[Los datos::dane] son privados.",
+        "pl_translation": "Dane są prywatne."
       },
       {
-        "es_form": "[Los datos::dane] están aquí.",
-        "pl_translation": "Dane są tutaj."
+        "es_form": "Perdí [los datos::dane] del móvil.",
+        "pl_translation": "Straciłem dane z komórki."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "cyfrowy",
     "examples": [
       {
-        "es_form": "Es muy [digital::cyfrowy].",
-        "pl_translation": "Jest bardzo cyfrowy."
+        "es_form": "Leo el periódico [digital::cyfrowy].",
+        "pl_translation": "Czytam gazetę cyfrową."
       },
       {
-        "es_form": "Parece [digital::cyfrowy].",
-        "pl_translation": "Wydaje się cyfrowy."
+        "es_form": "Tengo un reloj [digital::cyfrowy].",
+        "pl_translation": "Mam zegarek cyfrowy."
       },
       {
-        "es_form": "Es demasiado [digital::cyfrowy].",
-        "pl_translation": "Jest zbyt cyfrowy."
+        "es_form": "Vivimos en un mundo [digital::cyfrowy].",
+        "pl_translation": "Żyjemy w cyfrowym świecie."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "bezprzewodowy",
     "examples": [
       {
-        "es_form": "Es muy [inalámbrico::bezprzewodowy].",
-        "pl_translation": "Jest bardzo bezprzewodowy."
+        "es_form": "Uso un ratón [inalámbrico::bezprzewodowy].",
+        "pl_translation": "Używam bezprzewodowej myszy."
       },
       {
-        "es_form": "No es [inalámbrico::bezprzewodowy].",
-        "pl_translation": "Nie jest bezprzewodowy."
+        "es_form": "El teclado [inalámbrico::bezprzewodowy] es muy cómodo.",
+        "pl_translation": "Bezprzewodowa klawiatura jest bardzo wygodna."
       },
       {
-        "es_form": "Parece [inalámbrico::bezprzewodowy].",
-        "pl_translation": "Wydaje się bezprzewodowy."
+        "es_form": "Compré un cargador [inalámbrico::bezprzewodowy].",
+        "pl_translation": "Kupiłem ładowarkę bezprzewodową."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [envié::wysłałem] una carta.",
-            "pl_translation": "Wysłałem list."
+            "es_form": "Ayer yo [envié::wysłałem] una carta.",
+            "pl_translation": "Wczoraj wysłałem list."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [enviaste::wysłałeś] una carta.",
-            "pl_translation": "Wysłałeś list."
+            "es_form": "La semana pasada tú [enviaste::wysłałeś] una carta.",
+            "pl_translation": "W zeszłym tygodniu wysłałeś list."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [envió::wysłał] una carta.",
-            "pl_translation": "Wysłał list."
+            "es_form": "El otro día él [envió::wysłał] una carta.",
+            "pl_translation": "Niedawno wysłał list."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [enviamos::wysłaliśmy] una carta.",
-            "pl_translation": "Wysłaliśmy list."
+            "es_form": "La semana pasada nosotros [enviamos::wysłaliśmy] una carta.",
+            "pl_translation": "W zeszłym tygodniu wysłaliśmy list."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [enviasteis::wysłaliście] una carta.",
-            "pl_translation": "Wysłaliście list."
+            "es_form": "El otro día vosotros [enviasteis::wysłaliście] una carta.",
+            "pl_translation": "Niedawno wysłaliście list."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [enviaron::wysłali] una carta.",
-            "pl_translation": "Wysłali list."
+            "es_form": "Ayer ellos [enviaron::wysłali] una carta.",
+            "pl_translation": "Wczoraj wysłali list."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [enviaré::będę wysyłać] una carta.",
-            "pl_translation": "Będę wysyłać list."
+            "es_form": "Mañana yo [enviaré::będę wysyłać] una carta.",
+            "pl_translation": "Jutro będę wysyłać list."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [enviarás::będziesz wysyłać] una carta.",
-            "pl_translation": "Będziesz wysyłać list."
+            "es_form": "La próxima semana tú [enviarás::będziesz wysyłać] una carta.",
+            "pl_translation": "W przyszłym tygodniu będziesz wysyłać list."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [enviará::będzie wysyłać] una carta.",
-            "pl_translation": "Będzie wysyłać list."
+            "es_form": "Pronto él [enviará::będzie wysyłać] una carta.",
+            "pl_translation": "Wkrótce będzie wysyłać list."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [enviaremos::będziemy wysyłać] una carta.",
-            "pl_translation": "Będziemy wysyłać list."
+            "es_form": "La próxima semana nosotros [enviaremos::będziemy wysyłać] una carta.",
+            "pl_translation": "W przyszłym tygodniu będziemy wysyłać list."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [enviaréis::będziecie wysyłać] una carta.",
-            "pl_translation": "Będziecie wysyłać list."
+            "es_form": "Pronto vosotros [enviaréis::będziecie wysyłać] una carta.",
+            "pl_translation": "Wkrótce będziecie wysyłać list."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [enviarán::będą wysyłać] una carta.",
-            "pl_translation": "Będą wysyłać list."
+            "es_form": "Mañana ellos [enviarán::będą wysyłać] una carta.",
+            "pl_translation": "Jutro będą wysyłać list."
           }
         ]
       }

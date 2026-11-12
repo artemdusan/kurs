@@ -1,20 +1,20 @@
 [
   {
     "type": "noun",
-    "es_word": "El trabajo",
-    "pl_word": "praca",
+    "es_word": "El empleo",
+    "pl_word": "zatrudnienie, posada",
     "examples": [
       {
-        "es_form": "Este es [el trabajo::praca].",
-        "pl_translation": "To jest praca."
+        "es_form": "Busco [el empleo::zatrudnienie, posada] en una oficina.",
+        "pl_translation": "Szukam zatrudnienia w biurze."
       },
       {
-        "es_form": "¿Dónde está [el trabajo::praca]?",
-        "pl_translation": "Gdzie jest praca?"
+        "es_form": "[El empleo::zatrudnienie, posada] nuevo me gusta mucho.",
+        "pl_translation": "Nowa posada bardzo mi się podoba."
       },
       {
-        "es_form": "[El trabajo::praca] está aquí.",
-        "pl_translation": "Praca jest tutaj."
+        "es_form": "Mi hermano no tiene [el empleo::zatrudnienie, posada].",
+        "pl_translation": "Mój brat nie ma zatrudnienia."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "szef",
     "examples": [
       {
-        "es_form": "[El jefe::szef] es muy amable.",
-        "pl_translation": "Szef jest bardzo miły."
+        "es_form": "[El jefe::szef] llega a las ocho.",
+        "pl_translation": "Szef przychodzi o ósmej."
       },
       {
-        "es_form": "[El jefe::szef] vive en mi calle.",
-        "pl_translation": "Szef mieszka na mojej ulicy."
+        "es_form": "Hablo con [el jefe::szef] sobre el sueldo.",
+        "pl_translation": "Rozmawiam z szefem o pensji."
       },
       {
-        "es_form": "Este es [el jefe::szef] del que hablé.",
-        "pl_translation": "To jest szef, o którym mówiłem."
+        "es_form": "[El jefe::szef] de mi padre es muy amable.",
+        "pl_translation": "Szef mojego taty jest bardzo miły."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "firma",
     "examples": [
       {
-        "es_form": "¿Dónde está [la empresa::firma]?",
-        "pl_translation": "Gdzie jest firma?"
+        "es_form": "[La empresa::firma] tiene cien trabajadores.",
+        "pl_translation": "Firma ma stu pracowników."
       },
       {
-        "es_form": "[La empresa::firma] está aquí.",
-        "pl_translation": "Firma jest tutaj."
+        "es_form": "Trabajo en [la empresa::firma] de mi tío.",
+        "pl_translation": "Pracuję w firmie mojego wujka."
       },
       {
-        "es_form": "No es [la empresa::firma].",
-        "pl_translation": "To nie jest firma."
+        "es_form": "[La empresa::firma] vende coches.",
+        "pl_translation": "Firma sprzedaje samochody."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "biuro",
     "examples": [
       {
-        "es_form": "Esta es [la oficina::biuro].",
-        "pl_translation": "To jest biuro."
+        "es_form": "Llego a [la oficina::biuro] a las nueve.",
+        "pl_translation": "Przychodzę do biura o dziewiątej."
       },
       {
-        "es_form": "¿Dónde está [la oficina::biuro]?",
-        "pl_translation": "Gdzie jest biuro?"
+        "es_form": "[La oficina::biuro] está en el centro.",
+        "pl_translation": "Biuro jest w centrum."
       },
       {
-        "es_form": "[La oficina::biuro] está aquí.",
-        "pl_translation": "Biuro jest tutaj."
+        "es_form": "Como en [la oficina::biuro] con mis compañeros.",
+        "pl_translation": "Jem w biurze z kolegami."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "pensja",
     "examples": [
       {
-        "es_form": "Este es [el sueldo::pensja].",
-        "pl_translation": "To jest pensja."
+        "es_form": "[El sueldo::pensja] llega a fin de mes.",
+        "pl_translation": "Pensja przychodzi pod koniec miesiąca."
       },
       {
-        "es_form": "No es [el sueldo::pensja].",
-        "pl_translation": "To nie jest pensja."
+        "es_form": "No estoy contento con [el sueldo::pensja].",
+        "pl_translation": "Nie jestem zadowolony z pensji."
       },
       {
-        "es_form": "¿Dónde está [el sueldo::pensja]?",
-        "pl_translation": "Gdzie jest pensja?"
+        "es_form": "[El sueldo::pensja] es bajo, pero el trabajo es bueno.",
+        "pl_translation": "Pensja jest niska, ale praca jest dobra."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "kolega (z pracy)",
     "examples": [
       {
-        "es_form": "Este es [el compañero::kolega].",
-        "pl_translation": "To jest kolega."
+        "es_form": "Como con [el compañero::kolega (z pracy)] de la oficina.",
+        "pl_translation": "Jem z kolegą z biura."
       },
       {
-        "es_form": "[El compañero::kolega] es mi hermano.",
-        "pl_translation": "Kolega jest moim bratem."
+        "es_form": "[El compañero::kolega (z pracy)] nuevo es muy simpático.",
+        "pl_translation": "Nowy kolega jest bardzo sympatyczny."
       },
       {
-        "es_form": "¿Dónde está [el compañero::kolega]?",
-        "pl_translation": "Gdzie jest kolega?"
+        "es_form": "[El compañero::kolega (z pracy)] me ayuda con el ordenador.",
+        "pl_translation": "Kolega pomaga mi z komputerem."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "spotkanie",
     "examples": [
       {
-        "es_form": "Esta es [la reunión::spotkanie].",
-        "pl_translation": "To jest spotkanie."
+        "es_form": "[La reunión::spotkanie] empieza a las diez.",
+        "pl_translation": "Spotkanie zaczyna się o dziesiątej."
       },
       {
-        "es_form": "¿Dónde está [la reunión::spotkanie]?",
-        "pl_translation": "Gdzie jest spotkanie?"
+        "es_form": "Tengo [la reunión::spotkanie] con el jefe.",
+        "pl_translation": "Mam spotkanie z szefem."
       },
       {
-        "es_form": "No es [la reunión::spotkanie].",
-        "pl_translation": "To nie jest spotkanie."
+        "es_form": "[La reunión::spotkanie] es muy larga.",
+        "pl_translation": "Spotkanie jest bardzo długie."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "urlop",
     "examples": [
       {
-        "es_form": "Estas son [las vacaciones::urlop].",
-        "pl_translation": "To jest urlop."
+        "es_form": "Pido [las vacaciones::urlop] en agosto.",
+        "pl_translation": "Proszę o urlop w sierpniu."
       },
       {
-        "es_form": "¿Dónde están [las vacaciones::urlop]?",
-        "pl_translation": "Gdzie jest urlop?"
+        "es_form": "[Las vacaciones::urlop] empiezan el lunes.",
+        "pl_translation": "Urlop zaczyna się w poniedziałek."
       },
       {
-        "es_form": "[Las vacaciones::urlop] están aquí.",
-        "pl_translation": "Urlop jest tutaj."
+        "es_form": "Mi jefe está de [las vacaciones::urlop] esta semana.",
+        "pl_translation": "Mój szef jest w tym tygodniu na urlopie."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "zawód",
     "examples": [
       {
-        "es_form": "Esta es [la profesión::zawód].",
-        "pl_translation": "To jest zawód."
+        "es_form": "[La profesión::zawód] de médico es difícil.",
+        "pl_translation": "Zawód lekarza jest trudny."
       },
       {
-        "es_form": "[La profesión::zawód] está aquí.",
-        "pl_translation": "Zawód jest tutaj."
+        "es_form": "Me gusta [la profesión::zawód] de mi madre.",
+        "pl_translation": "Podoba mi się zawód mojej mamy."
       },
       {
-        "es_form": "No es [la profesión::zawód].",
-        "pl_translation": "To nie jest zawód."
+        "es_form": "¿Cuál es [la profesión::zawód] de tu padre?",
+        "pl_translation": "Jaki zawód ma twój tata?"
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "doświadczenie",
     "examples": [
       {
-        "es_form": "Esta es [la experiencia::doświadczenie].",
-        "pl_translation": "To jest doświadczenie."
+        "es_form": "Tengo [la experiencia::doświadczenie] en ventas.",
+        "pl_translation": "Mam doświadczenie w sprzedaży."
       },
       {
-        "es_form": "Hablamos sobre [la experiencia::doświadczenie].",
-        "pl_translation": "Rozmawiamy o tym, czym jest doświadczenie."
+        "es_form": "[La experiencia::doświadczenie] es importante en este trabajo.",
+        "pl_translation": "Doświadczenie jest ważne w tej pracy."
       },
       {
-        "es_form": "No es [la experiencia::doświadczenie].",
-        "pl_translation": "To nie jest doświadczenie."
+        "es_form": "No tiene [la experiencia::doświadczenie], pero aprende rápido.",
+        "pl_translation": "Nie ma doświadczenia, ale szybko się uczy."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "ważny",
     "examples": [
       {
-        "es_form": "Es muy [importante::ważny].",
-        "pl_translation": "Jest bardzo ważny."
+        "es_form": "Hoy tengo un examen [importante::ważny].",
+        "pl_translation": "Dziś mam ważny egzamin."
       },
       {
-        "es_form": "No es [importante::ważny].",
-        "pl_translation": "Nie jest ważny."
+        "es_form": "El trabajo es [importante::ważny] para mí.",
+        "pl_translation": "Praca jest dla mnie ważna."
       },
       {
-        "es_form": "Es demasiado [importante::ważny].",
-        "pl_translation": "Jest zbyt ważny."
+        "es_form": "Es un día [importante::ważny] para la empresa.",
+        "pl_translation": "To ważny dzień dla firmy."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "pracowity",
     "examples": [
       {
-        "es_form": "Es muy [trabajador::pracowity].",
-        "pl_translation": "Jest bardzo pracowity."
+        "es_form": "Mi compañero es muy [trabajador::pracowity].",
+        "pl_translation": "Mój kolega jest bardzo pracowity."
       },
       {
-        "es_form": "No es [trabajador::pracowity].",
-        "pl_translation": "Nie jest pracowity."
+        "es_form": "Es un alumno [trabajador::pracowity] y amable.",
+        "pl_translation": "To pracowity i miły uczeń."
       },
       {
-        "es_form": "Es demasiado [trabajador::pracowity].",
-        "pl_translation": "Jest zbyt pracowity."
+        "es_form": "El jefe busca un hombre [trabajador::pracowity].",
+        "pl_translation": "Szef szuka pracowitego mężczyzny."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [trabajé::pracowałem] en una oficina.",
-            "pl_translation": "Pracowałem w biurze."
+            "es_form": "Ayer yo [trabajé::pracowałem] en una oficina.",
+            "pl_translation": "Wczoraj pracowałem w biurze."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [trabajaste::pracowałeś] en una oficina.",
-            "pl_translation": "Pracowałeś w biurze."
+            "es_form": "La semana pasada tú [trabajaste::pracowałeś] en una oficina.",
+            "pl_translation": "W zeszłym tygodniu pracowałeś w biurze."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [trabajó::pracował] en una oficina.",
-            "pl_translation": "Pracował w biurze."
+            "es_form": "El otro día él [trabajó::pracował] en una oficina.",
+            "pl_translation": "Niedawno pracował w biurze."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [trabajamos::pracowaliśmy] en una oficina.",
-            "pl_translation": "Pracowaliśmy w biurze."
+            "es_form": "La semana pasada nosotros [trabajamos::pracowaliśmy] en una oficina.",
+            "pl_translation": "W zeszłym tygodniu pracowaliśmy w biurze."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [trabajasteis::pracowaliście] en una oficina.",
-            "pl_translation": "Pracowaliście w biurze."
+            "es_form": "El otro día vosotros [trabajasteis::pracowaliście] en una oficina.",
+            "pl_translation": "Niedawno pracowaliście w biurze."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [trabajaron::pracowali] en una oficina.",
-            "pl_translation": "Pracowali w biurze."
+            "es_form": "Ayer ellos [trabajaron::pracowali] en una oficina.",
+            "pl_translation": "Wczoraj pracowali w biurze."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [trabajaré::będę pracować] en una oficina.",
-            "pl_translation": "Będę pracować w biurze."
+            "es_form": "Mañana yo [trabajaré::będę pracować] en una oficina.",
+            "pl_translation": "Jutro będę pracować w biurze."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [trabajarás::będziesz pracować] en una oficina.",
-            "pl_translation": "Będziesz pracować w biurze."
+            "es_form": "La próxima semana tú [trabajarás::będziesz pracować] en una oficina.",
+            "pl_translation": "W przyszłym tygodniu będziesz pracować w biurze."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [trabajará::będzie pracować] en una oficina.",
-            "pl_translation": "Będzie pracować w biurze."
+            "es_form": "Pronto él [trabajará::będzie pracować] en una oficina.",
+            "pl_translation": "Wkrótce będzie pracować w biurze."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [trabajaremos::będziemy pracować] en una oficina.",
-            "pl_translation": "Będziemy pracować w biurze."
+            "es_form": "La próxima semana nosotros [trabajaremos::będziemy pracować] en una oficina.",
+            "pl_translation": "W przyszłym tygodniu będziemy pracować w biurze."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [trabajaréis::będziecie pracować] en una oficina.",
-            "pl_translation": "Będziecie pracować w biurze."
+            "es_form": "Pronto vosotros [trabajaréis::będziecie pracować] en una oficina.",
+            "pl_translation": "Wkrótce będziecie pracować w biurze."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [trabajarán::będą pracować] en una oficina.",
-            "pl_translation": "Będą pracować w biurze."
+            "es_form": "Mañana ellos [trabajarán::będą pracować] en una oficina.",
+            "pl_translation": "Jutro będą pracować w biurze."
           }
         ]
       }

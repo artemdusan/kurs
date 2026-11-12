@@ -4,12 +4,13 @@ import { buildSessionPool, buildMistakesPool, pickNext, recordAnswer, requiredSt
 import { ensureLessonImported } from '../course.js';
 import { addActivity } from '../activity.js';
 import { localDay } from '../../../shared/learning.js';
-import { checkAnswer, splitArticle } from '../engine/answer.js';
+import { checkAnswer, splitArticle, diffAnswer } from '../engine/answer.js';
 import { buildKeyboard, articleButtons } from '../engine/keyboard.js';
 import { buildMcqOptions } from '../engine/mcq.js';
 import Keyboard from './Keyboard.jsx';
 import Cloze, { parseExample } from './Cloze.jsx';
 import Icon from './Icon.jsx';
+import LevelDots from './LevelDots.jsx';
 
 function speak(text, enabled) {
   if (!enabled || !('speechSynthesis' in window)) return;
@@ -23,19 +24,29 @@ function speak(text, enabled) {
   }
 }
 
+// Tryby: 'normal' (pełna sesja na czas), 'quick' (2 minuty, niski próg wejścia),
+// 'mistakes' (powtórka dzisiejszych spadków, bez limitu czasu).
+export const QUICK_MINUTES = 2;
+
 export default function Session({ settings, maxLesson, index, mode = 'normal', onExit, onFinished, onSettingsChange }) {
+  const sessionMinutes = mode === 'quick' ? QUICK_MINUTES : settings.sessionMinutes;
   const [pool, setPool] = useState(null);
   const [tts, setTts] = useState(settings.tts);
   const [task, setTask] = useState(null);
   const [typed, setTyped] = useState('');
   const [article, setArticle] = useState('');
-  const [phase, setPhase] = useState('answer'); // 'answer' | 'feedback' | 'done'
+  const [phase, setPhase] = useState('answer'); // 'intro' | 'answer' | 'feedback' | 'done'
+  const [userAnswer, setUserAnswer] = useState('');
+  const [mistakes, setMistakes] = useState([]); // słowa z błędem w tej sesji (do podsumowania)
+  const [advances, setAdvances] = useState(0);
+  const [news, setNews] = useState([]); // kamienie milowe ogłaszane w podsumowaniu
+  const introducedRef = useRef(new Set());
   const [wasCorrect, setWasCorrect] = useState(false);
   const [counts, setCounts] = useState({ correct: 0, wrong: 0, done: 0 });
-  const [remaining, setRemaining] = useState(settings.sessionMinutes * 60);
+  const [remaining, setRemaining] = useState(sessionMinutes * 60);
   const [toast, setToast] = useState('');
   // powtórka błędów: bez limitu czasu — trwa, dopóki starczy słów w puli
-  const endAtRef = useRef(mode === 'mistakes' ? Infinity : Date.now() + settings.sessionMinutes * 60 * 1000);
+  const endAtRef = useRef(mode === 'mistakes' ? Infinity : Date.now() + sessionMinutes * 60 * 1000);
   // sekundy nauki liczone tylko, gdy karta jest widoczna — apka w tle (albo
   // ekran zablokowany) nie ma wliczać się do czasu nauki w statystykach
   const timeSaveRef = useRef(Promise.resolve());
@@ -43,6 +54,7 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
   const answerLockedRef = useRef(false);
   const [submitting, setSubmitting] = useState(false);
   const finishedRef = useRef(false);
+  const introStartRef = useRef(0);
   const prevWordRef = useRef(null);
   const poolRef = useRef(null);
   // Ukończenie sesji przypisujemy do dnia rozpoczęcia; czas i odpowiedzi
@@ -125,6 +137,25 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
     });
     setTyped('');
     setArticle('');
+    setUserAnswer('');
+    // Pierwszy kontakt ze słowem: najpierw je pokazujemy (słowo, zdanie, lektor),
+    // dopiero potem pytamy. Formy odmiany zaczynają od wyboru z trzech opcji,
+    // więc prezentacji nie potrzebują.
+    const p = entry.progress;
+    const firstContact = !p.lastSeenAt && !(p.correctTotal || 0) && !(p.wrongTotal || 0);
+    if (firstContact && entry.word.type !== 'verb_form' && !introducedRef.current.has(entry.word.id)) {
+      introducedRef.current.add(entry.word.id);
+      // prezentacja nie zużywa czasu sesji — to nauka, nie odpytywanie
+      introStartRef.current = Date.now();
+      setPhase('intro');
+      speak(expected, tts);
+    } else {
+      setPhase('answer');
+    }
+  }
+
+  function closeIntro() {
+    if (endAtRef.current !== Infinity) endAtRef.current += Date.now() - introStartRef.current;
     setPhase('answer');
   }
 
@@ -145,7 +176,15 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
       isNoun: task.isNoun,
       accentTolerance,
     });
+    const levelBefore = task.entry.progress.level;
     const updated = await recordAnswer(task.entry, correct, { clearMistake: mode === 'mistakes' });
+    setUserAnswer(userAnswer);
+    if (updated.progress.level > levelBefore) setAdvances((n) => n + 1);
+    if (!correct) {
+      setMistakes((list) => (list.some((m) => m.id === task.entry.word.id)
+        ? list
+        : [...list, { id: task.entry.word.id, es: task.expected, pl: task.entry.word.pl }]));
+    }
     const newPool = pool.map((e) => (e.word.id === updated.word.id ? updated : e));
     setPool(newPool);
     setWasCorrect(correct);
@@ -156,7 +195,8 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
     }));
     if (!correct) navigator.vibrate?.(150);
 
-    speak(task.expected, tts);
+    // po odpowiedzi lektor czyta całe zdanie — słowo słychać w kontekście
+    speak(task.parsed.before + task.expected + task.parsed.after, tts);
     setPhase('feedback');
   }
 
@@ -216,7 +256,8 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
       setTimeout(() => setToast(''), 5000);
     }
     setPhase('done');
-    onFinished?.(poolRef.current || currentPool || pool);
+    const found = await onFinished?.(poolRef.current || currentPool || pool);
+    if (Array.isArray(found)) setNews(found);
   }
 
   if (!pool || (!task && phase !== 'done')) {
@@ -224,15 +265,42 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
   }
 
   if (phase === 'done') {
+    const answered = counts.correct + counts.wrong;
+    const accuracy = answered ? Math.round((counts.correct / answered) * 100) : 0;
     return (
-      <div className="screen center session-summary">
-        <h2>Sesja zakończona 🎉</h2>
-        <p className="big-num">
-          <span className="num-ok">{counts.correct}</span> &nbsp; <span className="num-bad">{counts.wrong}</span>
-        </p>
-        <p>Zaliczone w tej sesji słowa: {counts.done}</p>
-        <button className="btn primary" onClick={onExit}>Wróć do kursu</button>
+      <div className="screen session-summary">
+        <h2>{mode === 'quick' ? 'Szybka sesja zaliczona' : 'Sesja zakończona'}</h2>
+        <div className="summary-grid">
+          <div className="time-cell"><span className="time-num num-ok">{counts.correct}</span><span className="time-label">dobrze</span></div>
+          <div className="time-cell"><span className="time-num num-bad">{counts.wrong}</span><span className="time-label">źle</span></div>
+          <div className="time-cell"><span className="time-num">{accuracy}%</span><span className="time-label">skuteczność</span></div>
+          <div className="time-cell"><span className="time-num"><Icon name="up" size={12} /> {advances}</span><span className="time-label">awansów</span></div>
+        </div>
         {toast && <div className="toast">{toast}</div>}
+        {news.map((label) => (
+          <div className="milestone" key={label}><Icon name="star" size={14} /> {label}</div>
+        ))}
+        {mistakes.length > 0 ? (
+          <div className="summary-mistakes">
+            <h3>Do poprawki ({mistakes.length})</h3>
+            <div className="summary-list">
+              {mistakes.map((m) => (
+                <div className="vocab-row" key={m.id}>
+                  <span className="vocab-es">{m.es}</span>
+                  <span className="vocab-pl">{m.pl}</span>
+                </div>
+              ))}
+            </div>
+          </div>
+        ) : (
+          answered > 0 && <p className="summary-clean">Bez ani jednego błędu!</p>
+        )}
+        <div className="home-bottom">
+          <button className="btn" onClick={() => onExit('pairs')}>
+            <Icon name="pairs" size={14} /> Runda bonusowa: Pary
+          </button>
+          <button className="btn primary big" onClick={() => onExit()}>Wróć do kursu</button>
+        </div>
       </div>
     );
   }
@@ -244,7 +312,7 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
 
   // pasek postępu pokazuje upływ czasu sesji; powtórka błędów nie ma limitu
   // czasu, więc tam pokazuje odsetek zaliczonych słów z puli
-  const totalSeconds = settings.sessionMinutes * 60;
+  const totalSeconds = sessionMinutes * 60;
   const progressPct =
     mode === 'mistakes'
       ? Math.round((counts.done / pool.length) * 100) || 0
@@ -262,6 +330,8 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
         </button>
         {mode === 'mistakes' ? (
           <span className="timer" title="Powtórka bez limitu czasu"><Icon name="repeat" size={16} /></span>
+        ) : mode === 'quick' ? (
+          <span className="timer"><Icon name="bolt" size={12} /> {mins}:{secs}</span>
         ) : (
           <span className="timer">{mins}:{secs}</span>
         )}
@@ -280,15 +350,17 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
 
       <div className="prompt-wrap">
         <div className="prompt">
-          <div className="level-dots" title={`Poziom słowa: ${task.entry.progress.level}`}>
-            {Array.from({ length: 6 }, (_, i) => (
-              <span key={i} className={'level-dot' + (i < task.entry.progress.level ? ' on dot-' + (i + 1) : '')} />
-            ))}
-          </div>
+          {phase === 'intro' ? <span className="intro-badge">Nowe słowo</span> : <LevelDots level={task.entry.progress.level} />}
           <div className="prompt-word">
             <span className="pl-word">{w.pl}</span>
           </div>
-          <Cloze parsed={task.parsed} revealed={phase === 'feedback'} userText={display} correct={wasCorrect} />
+          {phase === 'intro' && <div className="intro-es">{task.expected}</div>}
+          <Cloze
+            parsed={task.parsed}
+            revealed={phase === 'feedback' || phase === 'intro'}
+            userText={display}
+            correct={phase === 'intro' ? true : wasCorrect}
+          />
         </div>
       </div>
 
@@ -325,12 +397,32 @@ export default function Session({ settings, maxLesson, index, mode = 'normal', o
         </>
       )}
 
+      {phase === 'intro' && (
+        <div className="feedback intro">
+          <p>Przeczytaj i zapamiętaj — zaraz o nie zapytam.</p>
+          <div className="row gap">
+            <button className="btn" onClick={() => speak(task.expected, true)} aria-label="Posłuchaj jeszcze raz">
+              <Icon name="soundOn" size={16} />
+            </button>
+            <button className="btn primary intro-go" onClick={closeIntro}>Rozumiem</button>
+          </div>
+        </div>
+      )}
+
       {phase === 'feedback' && (
         <div className={'feedback ' + (wasCorrect ? 'ok' : 'bad')}>
           <p>
-            {wasCorrect ? 'Dobrze! 🎉' : 'Poprawna odpowiedź:'}{' '}
+            {wasCorrect ? 'Dobrze!' : 'Poprawna odpowiedź:'}{' '}
             <strong>{task.expected}</strong>
           </p>
+          {!wasCorrect && userAnswer && (
+            <p className="your-answer">
+              Twoja:{' '}
+              {diffAnswer(userAnswer, task.expected).map((c, i) => (
+                <span key={i} className={c.ok ? '' : 'diff-bad'}>{c.ch}</span>
+              ))}
+            </p>
+          )}
           <button className="btn primary" onClick={() => makeTask(pool)}>Dalej</button>
         </div>
       )}

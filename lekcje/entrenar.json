@@ -1,39 +1,39 @@
 [
   {
     "type": "noun",
-    "es_word": "El fútbol",
-    "pl_word": "piłka nożna",
+    "es_word": "El atletismo",
+    "pl_word": "lekkoatletyka",
     "examples": [
       {
-        "es_form": "[El fútbol::piłka nożna] es divertido.",
-        "pl_translation": "Piłka nożna jest zabawna."
+        "es_form": "Practico [el atletismo::lekkoatletyka] desde niño.",
+        "pl_translation": "Trenuję lekkoatletykę od dziecka."
       },
       {
-        "es_form": "[El fútbol::piłka nożna] es mi deporte favorito.",
-        "pl_translation": "Piłka nożna to mój ulubiony sport."
+        "es_form": "[El atletismo::lekkoatletyka] es un deporte muy antiguo.",
+        "pl_translation": "Lekkoatletyka to bardzo stary sport."
       },
       {
-        "es_form": "Me gusta [el fútbol::piłka nożna].",
-        "pl_translation": "Lubię piłkę nożną."
+        "es_form": "Veo [el atletismo::lekkoatletyka] en la televisión.",
+        "pl_translation": "Oglądam lekkoatletykę w telewizji."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El baloncesto",
-    "pl_word": "koszykówka",
+    "es_word": "El balonmano",
+    "pl_word": "piłka ręczna",
     "examples": [
       {
-        "es_form": "[El baloncesto::koszykówka] es divertido.",
-        "pl_translation": "Koszykówka jest zabawna."
+        "es_form": "Juego en un equipo que practica [el balonmano::piłka ręczna].",
+        "pl_translation": "Gram w drużynie, która trenuje piłkę ręczną."
       },
       {
-        "es_form": "Me gusta [el baloncesto::koszykówka].",
-        "pl_translation": "Lubię koszykówkę."
+        "es_form": "[El balonmano::piłka ręczna] es muy popular en mi escuela.",
+        "pl_translation": "Piłka ręczna jest bardzo popularna w mojej szkole."
       },
       {
-        "es_form": "[El baloncesto::koszykówka] es muy popular.",
-        "pl_translation": "Koszykówka jest bardzo popularna."
+        "es_form": "Prefiero [el balonmano::piłka ręczna] en lugar del tenis.",
+        "pl_translation": "Wolę piłkę ręczną zamiast tenisa."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "siatkówka",
     "examples": [
       {
+        "es_form": "Veo [el voleibol::siatkówka] en la tele.",
+        "pl_translation": "Oglądam siatkówkę w telewizji."
+      },
+      {
+        "es_form": "[El voleibol::siatkówka] es mi deporte favorito.",
+        "pl_translation": "Siatkówka to mój ulubiony sport."
+      },
+      {
         "es_form": "Practico [el voleibol::siatkówka] en la playa.",
-        "pl_translation": "Gram w siatkówkę na plaży."
-      },
-      {
-        "es_form": "Me gusta [el voleibol::siatkówka].",
-        "pl_translation": "Lubię siatkówkę."
-      },
-      {
-        "es_form": "[El voleibol::siatkówka] es un deporte de equipo.",
-        "pl_translation": "Siatkówka to sport zespołowy."
+        "pl_translation": "Trenuję siatkówkę na plaży."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "pływanie",
     "examples": [
       {
-        "es_form": "Esta es [la natación::pływanie].",
-        "pl_translation": "To jest pływanie."
+        "es_form": "[La natación::pływanie] es buena para la espalda.",
+        "pl_translation": "Pływanie jest dobre na plecy."
       },
       {
-        "es_form": "[La natación::pływanie] es un ejercicio completo.",
-        "pl_translation": "Pływanie to wszechstronne ćwiczenie."
+        "es_form": "Practico [la natación::pływanie] dos veces por semana.",
+        "pl_translation": "Trenuję pływanie dwa razy w tygodniu."
       },
       {
-        "es_form": "No es [la natación::pływanie].",
-        "pl_translation": "To nie jest pływanie."
+        "es_form": "Mi hija ama [la natación::pływanie].",
+        "pl_translation": "Moja córka kocha pływanie."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "jazda na rowerze / kolarstwo",
     "examples": [
       {
-        "es_form": "Me gusta [el ciclismo::jazda na rowerze ].",
-        "pl_translation": "Lubię jazdę na rowerze."
-      },
-      {
-        "es_form": "Me gusta [el ciclismo::jazda na rowerze].",
-        "pl_translation": "Lubię jazdę na rowerze."
-      },
-      {
-        "es_form": "[El ciclismo::jazda na rowerze ] es muy popular en España.",
+        "es_form": "[El ciclismo::jazda na rowerze / kolarstwo] es muy popular en España.",
         "pl_translation": "Kolarstwo jest bardzo popularne w Hiszpanii."
+      },
+      {
+        "es_form": "Practico [el ciclismo::jazda na rowerze / kolarstwo] los domingos.",
+        "pl_translation": "W niedziele uprawiam jazdę na rowerze."
+      },
+      {
+        "es_form": "Veo [el ciclismo::jazda na rowerze / kolarstwo] en la tele cada verano.",
+        "pl_translation": "Każdego lata oglądam kolarstwo w telewizji."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "trener",
     "examples": [
       {
-        "es_form": "[El entrenador::trener] trabaja aquí.",
-        "pl_translation": "Trener tu pracuje."
+        "es_form": "[El entrenador::trener] grita desde el banquillo.",
+        "pl_translation": "Trener krzyczy z ławki."
       },
       {
-        "es_form": "[El entrenador::trener] me ayudó mucho.",
-        "pl_translation": "Trener bardzo mi pomógł."
+        "es_form": "Hablo con [el entrenador::trener] después del partido.",
+        "pl_translation": "Rozmawiam z trenerem po meczu."
       },
       {
-        "es_form": "Este es [el entrenador::trener] del que hablé.",
-        "pl_translation": "To jest trener, o którym mówiłem."
+        "es_form": "[El entrenador::trener] nuevo es muy exigente.",
+        "pl_translation": "Nowy trener jest bardzo wymagający."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "stadion",
     "examples": [
       {
-        "es_form": "¿Dónde está [el estadio::stadion]?",
-        "pl_translation": "Gdzie jest stadion?"
+        "es_form": "[El estadio::stadion] está lleno de gente.",
+        "pl_translation": "Stadion jest pełen ludzi."
       },
       {
-        "es_form": "[El estadio::stadion] está cerca de aquí.",
-        "pl_translation": "Stadion jest niedaleko stąd."
+        "es_form": "Vemos el partido en [el estadio::stadion].",
+        "pl_translation": "Oglądamy mecz na stadionie."
       },
       {
-        "es_form": "[El estadio::stadion] está aquí.",
-        "pl_translation": "Stadion jest tutaj."
+        "es_form": "[El estadio::stadion] nuevo es enorme.",
+        "pl_translation": "Nowy stadion jest ogromny."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "wynik",
     "examples": [
       {
-        "es_form": "Este es [el resultado::wynik].",
-        "pl_translation": "To jest wynik."
+        "es_form": "[El resultado::wynik] del partido fue dos a uno.",
+        "pl_translation": "Wynik meczu to dwa do jednego."
       },
       {
-        "es_form": "No es [el resultado::wynik].",
-        "pl_translation": "To nie jest wynik."
+        "es_form": "Espero [el resultado::wynik] con nervios.",
+        "pl_translation": "Czekam na wynik z nerwami."
       },
       {
-        "es_form": "[El resultado::wynik] cambió mi vida.",
-        "pl_translation": "Wynik zmienił moje życie."
+        "es_form": "No estoy contento con [el resultado::wynik].",
+        "pl_translation": "Nie jestem zadowolony z wyniku."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "medal",
     "examples": [
       {
-        "es_form": "Esta es [la medalla::medal].",
-        "pl_translation": "To jest medal."
+        "es_form": "Ganó [la medalla::medal] de oro.",
+        "pl_translation": "Zdobył złoty medal."
       },
       {
-        "es_form": "[La medalla::medal] está aquí.",
-        "pl_translation": "Medal jest tutaj."
+        "es_form": "[La medalla::medal] está en la pared de mi cuarto.",
+        "pl_translation": "Medal wisi na ścianie w moim pokoju."
       },
       {
-        "es_form": "No es [la medalla::medal].",
-        "pl_translation": "To nie jest medal."
+        "es_form": "Entreno para [la medalla::medal].",
+        "pl_translation": "Trenuję dla medalu."
       }
     ]
   },
@@ -176,35 +176,35 @@
     "pl_word": "zawody",
     "examples": [
       {
-        "es_form": "Participé en [la competición::zawody] ayer.",
-        "pl_translation": "Wziąłem udział w zawodach wczoraj."
+        "es_form": "[La competición::zawody] empieza el sábado.",
+        "pl_translation": "Zawody zaczynają się w sobotę."
       },
       {
-        "es_form": "Esta es [la competición::zawody].",
-        "pl_translation": "To są zawody."
+        "es_form": "Entreno para [la competición::zawody] de natación.",
+        "pl_translation": "Trenuję do zawodów pływackich."
       },
       {
-        "es_form": "[La competición::zawody] fue muy dura.",
-        "pl_translation": "Zawody były bardzo trudne."
+        "es_form": "Gané [la competición::zawody] del año pasado.",
+        "pl_translation": "Wygrałem zeszłoroczne zawody."
       }
     ]
   },
   {
     "type": "adjective",
-    "es_word": "rápido",
-    "pl_word": "szybki",
+    "es_word": "ágil",
+    "pl_word": "zwinny",
     "examples": [
       {
-        "es_form": "Es muy [rápido::szybki].",
-        "pl_translation": "Jest bardzo szybki."
+        "es_form": "El gato es muy [ágil::zwinny].",
+        "pl_translation": "Kot jest bardzo zwinny."
       },
       {
-        "es_form": "No es [rápido::szybki].",
-        "pl_translation": "Nie jest szybki."
+        "es_form": "Es un jugador [ágil::zwinny] y fuerte.",
+        "pl_translation": "To zwinny i silny zawodnik."
       },
       {
-        "es_form": "Parece [rápido::szybki].",
-        "pl_translation": "Wydaje się szybki."
+        "es_form": "Mi abuelo todavía está [ágil::zwinny].",
+        "pl_translation": "Mój dziadek jest wciąż zwinny."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "sprawny / w formie",
     "examples": [
       {
-        "es_form": "Está [en forma::sprawny / w formie].",
-        "pl_translation": "Jest w formie."
+        "es_form": "Corro para estar [en forma::sprawny / w formie].",
+        "pl_translation": "Biegam, żeby być w formie."
       },
       {
-        "es_form": "No está [en forma::sprawny / w formie].",
-        "pl_translation": "Nie jest w formie."
+        "es_form": "Mi abuelo está [en forma::sprawny / w formie] para su edad.",
+        "pl_translation": "Mój dziadek jest sprawny jak na swój wiek."
       },
       {
-        "es_form": "Está [en forma::sprawny / w formie].",
-        "pl_translation": "Jest w formie."
+        "es_form": "El equipo no está [en forma::sprawny / w formie] hoy.",
+        "pl_translation": "Drużyna nie jest dziś w formie."
       }
     ]
   },

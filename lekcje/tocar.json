@@ -1,20 +1,20 @@
 [
   {
     "type": "noun",
-    "es_word": "El instrumento",
-    "pl_word": "instrument",
+    "es_word": "El altavoz",
+    "pl_word": "głośnik",
     "examples": [
       {
-        "es_form": "Este es [el instrumento::instrument].",
-        "pl_translation": "To jest instrument."
+        "es_form": "[El altavoz::głośnik] suena demasiado fuerte.",
+        "pl_translation": "Głośnik gra za głośno."
       },
       {
-        "es_form": "No es [el instrumento::instrument].",
-        "pl_translation": "To nie jest instrument."
+        "es_form": "Conecté el móvil con [el altavoz::głośnik].",
+        "pl_translation": "Połączyłem komórkę z głośnikiem."
       },
       {
-        "es_form": "¿Dónde está [el instrumento::instrument]?",
-        "pl_translation": "Gdzie jest instrument?"
+        "es_form": "Llevamos [el altavoz::głośnik] a la playa.",
+        "pl_translation": "Zabieramy głośnik na plażę."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "zespół muzyczny",
     "examples": [
       {
-        "es_form": "Esta es [la banda::zespół muzyczny].",
-        "pl_translation": "To jest zespół muzyczny."
+        "es_form": "[La banda::zespół muzyczny] toca esta noche.",
+        "pl_translation": "Zespół gra dziś wieczorem."
       },
       {
-        "es_form": "No es [la banda::zespół muzyczny].",
-        "pl_translation": "To nie jest zespół muzyczny."
+        "es_form": "Toco la guitarra en [una banda::zespół muzyczny].",
+        "pl_translation": "Gram na gitarze w zespole."
       },
       {
-        "es_form": "¿Dónde está [la banda::zespół muzyczny]?",
-        "pl_translation": "Gdzie jest zespół muzyczny?"
+        "es_form": "[La banda::zespół muzyczny] grabó un disco nuevo.",
+        "pl_translation": "Zespół nagrał nową płytę."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "piosenkarz",
     "examples": [
       {
-        "es_form": "¿Dónde está [el cantante::piosenkarz]?",
-        "pl_translation": "Gdzie jest piosenkarz?"
+        "es_form": "[El cantante::piosenkarz] tiene una voz preciosa.",
+        "pl_translation": "Piosenkarz ma przepiękny głos."
       },
       {
-        "es_form": "[El cantante::piosenkarz] está aquí.",
-        "pl_translation": "Piosenkarz jest tutaj."
+        "es_form": "Pedí un autógrafo y hablé con [el cantante::piosenkarz].",
+        "pl_translation": "Poprosiłem o autograf i rozmawiałem z piosenkarzem."
       },
       {
-        "es_form": "No es [el cantante::piosenkarz].",
-        "pl_translation": "To nie jest piosenkarz."
+        "es_form": "[El cantante::piosenkarz] canceló el concierto.",
+        "pl_translation": "Piosenkarz odwołał koncert."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "melodia",
     "examples": [
       {
-        "es_form": "Esta es [la melodía::melodia].",
-        "pl_translation": "To jest melodia."
+        "es_form": "No puedo olvidar [la melodía::melodia].",
+        "pl_translation": "Nie mogę zapomnieć tej melodii."
       },
       {
-        "es_form": "No es [la melodía::melodia].",
-        "pl_translation": "To nie jest melodia."
+        "es_form": "[La melodía::melodia] es muy sencilla.",
+        "pl_translation": "Melodia jest bardzo prosta."
       },
       {
-        "es_form": "¿Dónde está [la melodía::melodia]?",
-        "pl_translation": "Gdzie jest melodia?"
+        "es_form": "Silbo [la melodía::melodia] de la canción.",
+        "pl_translation": "Gwiżdżę melodię piosenki."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "rytm",
     "examples": [
       {
-        "es_form": "Este es [el ritmo::rytm].",
-        "pl_translation": "To jest rytm."
+        "es_form": "Bailamos con [el ritmo::rytm] de la música.",
+        "pl_translation": "Tańczymy w rytm muzyki."
       },
       {
-        "es_form": "¿Dónde está [el ritmo::rytm]?",
-        "pl_translation": "Gdzie jest rytm?"
+        "es_form": "No sigo [el ritmo::rytm].",
+        "pl_translation": "Nie nadążam za rytmem."
       },
       {
-        "es_form": "[El ritmo::rytm] está aquí.",
-        "pl_translation": "Rytm jest tutaj."
+        "es_form": "[El ritmo::rytm] de trabajo es muy alto.",
+        "pl_translation": "Tempo pracy jest bardzo wysokie."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "dźwięk",
     "examples": [
       {
-        "es_form": "Este es [el sonido::dźwięk].",
-        "pl_translation": "To jest dźwięk."
+        "es_form": "Me gusta [el sonido::dźwięk] de la lluvia.",
+        "pl_translation": "Lubię dźwięk deszczu."
       },
       {
-        "es_form": "[El sonido::dźwięk] está aquí.",
-        "pl_translation": "Dźwięk jest tutaj."
+        "es_form": "[El sonido::dźwięk] del piano llena la sala.",
+        "pl_translation": "Dźwięk fortepianu wypełnia salę."
       },
       {
-        "es_form": "No es [el sonido::dźwięk].",
-        "pl_translation": "To nie jest dźwięk."
+        "es_form": "Baja [el sonido::dźwięk], por favor.",
+        "pl_translation": "Ścisz dźwięk, proszę."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "cisza",
     "examples": [
       {
-        "es_form": "Este es [el silencio::cisza].",
-        "pl_translation": "To jest cisza."
+        "es_form": "Necesito [el silencio::cisza] para estudiar.",
+        "pl_translation": "Potrzebuję ciszy do nauki."
       },
       {
-        "es_form": "¿Dónde está [el silencio::cisza]?",
-        "pl_translation": "Gdzie jest cisza?"
+        "es_form": "[El silencio::cisza] de la noche me calma.",
+        "pl_translation": "Cisza nocy mnie uspokaja."
       },
       {
-        "es_form": "No es [el silencio::cisza].",
-        "pl_translation": "To nie jest cisza."
+        "es_form": "Rompió [el silencio::cisza] con una pregunta.",
+        "pl_translation": "Przerwał ciszę pytaniem."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "bęben",
     "examples": [
       {
-        "es_form": "Este es [el tambor::bęben].",
-        "pl_translation": "To jest bęben."
+        "es_form": "El niño toca [el tambor::bęben].",
+        "pl_translation": "Dziecko gra na bębnie."
       },
       {
-        "es_form": "[El tambor::bęben] está aquí.",
-        "pl_translation": "Bęben jest tutaj."
+        "es_form": "[El tambor::bęben] marca el ritmo.",
+        "pl_translation": "Bęben nadaje rytm."
       },
       {
-        "es_form": "No es [el tambor::bęben].",
-        "pl_translation": "To nie jest bęben."
+        "es_form": "Oigo [el tambor::bęben] desde la calle.",
+        "pl_translation": "Słyszę bęben z ulicy."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "trąbka",
     "examples": [
       {
-        "es_form": "Esta es [la trompeta::trąbka].",
-        "pl_translation": "To jest trąbka."
+        "es_form": "Mi hermano toca [la trompeta::trąbka].",
+        "pl_translation": "Mój brat gra na trąbce."
       },
       {
-        "es_form": "No es [la trompeta::trąbka].",
-        "pl_translation": "To nie jest trąbka."
+        "es_form": "[La trompeta::trąbka] suena muy fuerte.",
+        "pl_translation": "Trąbka brzmi bardzo głośno."
       },
       {
-        "es_form": "¿Dónde está [la trompeta::trąbka]?",
-        "pl_translation": "Gdzie jest trąbka?"
+        "es_form": "Compré [la trompeta::trąbka] de segunda mano.",
+        "pl_translation": "Kupiłem używaną trąbkę."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "flet",
     "examples": [
       {
-        "es_form": "¿Dónde está [la flauta::flet]?",
-        "pl_translation": "Gdzie jest flet?"
+        "es_form": "Aprendí [la flauta::flet] en la escuela.",
+        "pl_translation": "Nauczyłem się grać na flecie w szkole."
       },
       {
-        "es_form": "[La flauta::flet] está aquí.",
-        "pl_translation": "Flet jest tutaj."
+        "es_form": "[La flauta::flet] tiene un sonido dulce.",
+        "pl_translation": "Flet ma słodkie brzmienie."
       },
       {
-        "es_form": "No es [la flauta::flet].",
-        "pl_translation": "To nie jest flet."
+        "es_form": "Guardo [la flauta::flet] en su caja.",
+        "pl_translation": "Trzymam flet w futerale."
       }
     ]
   },
@@ -195,35 +195,35 @@
     "pl_word": "harmonijny",
     "examples": [
       {
-        "es_form": "Es muy [armonioso::harmonijny].",
-        "pl_translation": "Jest bardzo harmonijny."
+        "es_form": "El coro tiene un sonido [armonioso::harmonijny].",
+        "pl_translation": "Chór ma harmonijne brzmienie."
       },
       {
-        "es_form": "No es [armonioso::harmonijny].",
-        "pl_translation": "Nie jest harmonijny."
+        "es_form": "Es un edificio [armonioso::harmonijny] y elegante.",
+        "pl_translation": "To harmonijny i elegancki budynek."
       },
       {
-        "es_form": "Es demasiado [armonioso::harmonijny].",
-        "pl_translation": "Jest zbyt harmonijny."
+        "es_form": "Forman un equipo [armonioso::harmonijny].",
+        "pl_translation": "Tworzą harmonijny zespół."
       }
     ]
   },
   {
     "type": "adjective",
-    "es_word": "ruidoso",
-    "pl_word": "hałaśliwy",
+    "es_word": "desafinado",
+    "pl_word": "rozstrojony, fałszujący",
     "examples": [
       {
-        "es_form": "No es [ruidoso::hałaśliwy].",
-        "pl_translation": "Nie jest hałaśliwy."
+        "es_form": "El piano está [desafinado::rozstrojony, fałszujący].",
+        "pl_translation": "Fortepian jest rozstrojony."
       },
       {
-        "es_form": "Parece [ruidoso::hałaśliwy].",
-        "pl_translation": "Wydaje się hałaśliwy."
+        "es_form": "Canto [desafinado::rozstrojony, fałszujący], pero con ganas.",
+        "pl_translation": "Śpiewam fałszywie, ale z zapałem."
       },
       {
-        "es_form": "Es demasiado [ruidoso::hałaśliwy].",
-        "pl_translation": "Jest zbyt hałaśliwy."
+        "es_form": "El violín suena [desafinado::rozstrojony, fałszujący].",
+        "pl_translation": "Skrzypce brzmią fałszywie."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [toqué::grałem] la guitarra.",
-            "pl_translation": "Grałem na gitarze."
+            "es_form": "Ayer yo [toqué::grałem] la guitarra.",
+            "pl_translation": "Wczoraj grałem na gitarze."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [tocaste::grałeś] la guitarra.",
-            "pl_translation": "Grałeś na gitarze."
+            "es_form": "La semana pasada tú [tocaste::grałeś] la guitarra.",
+            "pl_translation": "W zeszłym tygodniu grałeś na gitarze."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [tocó::grał] la guitarra.",
-            "pl_translation": "Grał na gitarze."
+            "es_form": "El otro día él [tocó::grał] la guitarra.",
+            "pl_translation": "Niedawno grał na gitarze."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [tocamos::graliśmy] la guitarra.",
-            "pl_translation": "Graliśmy na gitarze."
+            "es_form": "La semana pasada nosotros [tocamos::graliśmy] la guitarra.",
+            "pl_translation": "W zeszłym tygodniu graliśmy na gitarze."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [tocasteis::graliście] la guitarra.",
-            "pl_translation": "Graliście na gitarze."
+            "es_form": "El otro día vosotros [tocasteis::graliście] la guitarra.",
+            "pl_translation": "Niedawno graliście na gitarze."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [tocaron::grali] la guitarra.",
-            "pl_translation": "Grali na gitarze."
+            "es_form": "Ayer ellos [tocaron::grali] la guitarra.",
+            "pl_translation": "Wczoraj grali na gitarze."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [tocaré::będę grać] la guitarra.",
-            "pl_translation": "Będę grać na gitarze."
+            "es_form": "Mañana yo [tocaré::będę grać] la guitarra.",
+            "pl_translation": "Jutro będę grać na gitarze."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [tocarás::będziesz grać] la guitarra.",
-            "pl_translation": "Będziesz grać na gitarze."
+            "es_form": "La próxima semana tú [tocarás::będziesz grać] la guitarra.",
+            "pl_translation": "W przyszłym tygodniu będziesz grać na gitarze."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [tocará::będzie grać] la guitarra.",
-            "pl_translation": "Będzie grać na gitarze."
+            "es_form": "Pronto él [tocará::będzie grać] la guitarra.",
+            "pl_translation": "Wkrótce będzie grać na gitarze."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [tocaremos::będziemy grać] la guitarra.",
-            "pl_translation": "Będziemy grać na gitarze."
+            "es_form": "La próxima semana nosotros [tocaremos::będziemy grać] la guitarra.",
+            "pl_translation": "W przyszłym tygodniu będziemy grać na gitarze."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [tocaréis::będziecie grać] la guitarra.",
-            "pl_translation": "Będziecie grać na gitarze."
+            "es_form": "Pronto vosotros [tocaréis::będziecie grać] la guitarra.",
+            "pl_translation": "Wkrótce będziecie grać na gitarze."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [tocarán::będą grać] la guitarra.",
-            "pl_translation": "Będą grać na gitarze."
+            "es_form": "Mañana ellos [tocarán::będą grać] la guitarra.",
+            "pl_translation": "Jutro będą grać na gitarze."
           }
         ]
       }

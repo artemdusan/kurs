@@ -1,8 +1,8 @@
 import { getSettings } from './db.js';
 import { resolveSyncUrl } from './sync.js';
 
-// Powiadomienia push: subskrypcja trafia do Workera (D1), który o 19:00
-// czasu polskiego wysyła przypomnienie, jeśli danego dnia nie było sesji.
+// Powiadomienia push: subskrypcja trafia do Workera (D1), który o 8:00, 19:00
+// i 21:00 czasu polskiego wysyła przypomnienie, jeśli danego dnia nie było nauki.
 // Push jest bez payloadu (nie wymaga szyfrowania RFC 8291) — treść
 // przypomnienia jest na stałe w service workerze (public/push-sw.js).
 
@@ -56,6 +56,24 @@ export async function enablePush() {
     await sub.unsubscribe().catch(() => {});
     throw new Error(`Zapis subskrypcji nieudany (${res.status})`);
   }
+  // starszy serwer nie zna preferencji — sama subskrypcja i tak działa
+  await savePushPrefs(settings).catch(() => {});
+}
+
+/** Wysyła na serwer, które przypomnienia mają przychodzić (8:00 / 19:00 / 21:00). */
+export async function savePushPrefs(settings) {
+  const url = resolveSyncUrl(settings);
+  if (!url || !settings.syncLogin) return;
+  const res = await fetch(url + '/push/prefs', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', Authorization: authHeader(settings) },
+    body: JSON.stringify({
+      morning: Boolean(settings.remindMorning),
+      evening: settings.remindEvening !== false,
+      streak: settings.remindStreak !== false,
+    }),
+  });
+  if (!res.ok) throw new Error(`Nie zapisano wyboru przypomnień (${res.status})`);
 }
 
 export async function disablePush() {

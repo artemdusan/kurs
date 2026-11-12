@@ -9,17 +9,18 @@ compatibility_date = "2025-01-01"
 # 4. npx wrangler secret put ADMIN_TOKEN
 # 5. npx wrangler deploy
 #
-# Powiadomienia push (przypomnienie o 19:00, gdy nie było dziś sesji):
+# Powiadomienia push (przypomnienia, gdy nie było dziś sesji):
 # 6. npx web-push generate-vapid-keys
 # 7. npx wrangler secret put VAPID_PUBLIC_KEY    (Public Key z kroku 6)
 #    npx wrangler secret put VAPID_PRIVATE_KEY   (Private Key z kroku 6)
 #    npx wrangler secret put VAPID_SUBJECT       (np. mailto:twoj@email.pl)
 # 8. npx wrangler deploy (crony poniżej zarejestrują się przy deployu)
 
-# 19:00 w Polsce to 17:00 UTC (lato) lub 18:00 UTC (zima) — cron odpala
-# w obu terminach, a kod sprawdza, czy w Europe/Warsaw jest godzina 19.
+# Przypomnienia o 8:00, 19:00 i 21:00 czasu polskiego. Cron działa w UTC, więc
+# odpala się dla czasu letniego i zimowego, a kod sprawdza godzinę Europe/Warsaw.
+# Jedno wyrażenie = jeden trigger (limit darmowego planu).
 [triggers]
-crons = ["0 17 * * *", "0 18 * * *"]
+crons = ["0 6,7,17,18,19,20 * * *"]
 
 [[d1_databases]]
 binding = "DB"

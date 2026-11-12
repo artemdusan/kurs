@@ -5,16 +5,16 @@
     "pl_word": "drzwi",
     "examples": [
       {
-        "es_form": "Esta es [la puerta::drzwi].",
-        "pl_translation": "To są drzwi."
+        "es_form": "Cierra [la puerta::drzwi], por favor.",
+        "pl_translation": "Zamknij drzwi, proszę."
       },
       {
-        "es_form": "¿Dónde está [la puerta::drzwi]?",
-        "pl_translation": "Gdzie są drzwi?"
+        "es_form": "Alguien llama a [la puerta::drzwi].",
+        "pl_translation": "Ktoś puka do drzwi."
       },
       {
-        "es_form": "[La puerta::drzwi] está aquí.",
-        "pl_translation": "Drzwi są tutaj."
+        "es_form": "[La puerta::drzwi] de mi casa es roja.",
+        "pl_translation": "Drzwi mojego domu są czerwone."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "okno",
     "examples": [
       {
-        "es_form": "No es [la ventana::okno].",
-        "pl_translation": "To nie jest okno."
+        "es_form": "Abro [la ventana::okno] por la mañana.",
+        "pl_translation": "Otwieram okno rano."
       },
       {
-        "es_form": "Esta es [la ventana::okno].",
-        "pl_translation": "To jest okno."
+        "es_form": "El gato duerme en [la ventana::okno].",
+        "pl_translation": "Kot śpi na oknie."
       },
       {
-        "es_form": "¿Dónde está [la ventana::okno]?",
-        "pl_translation": "Gdzie jest okno?"
+        "es_form": "[La ventana::okno] del salón es muy grande.",
+        "pl_translation": "Okno w salonie jest bardzo duże."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "stół",
     "examples": [
       {
-        "es_form": "No es [la mesa::stół].",
-        "pl_translation": "To nie jest stół."
+        "es_form": "La cena está en [la mesa::stół].",
+        "pl_translation": "Kolacja jest na stole."
       },
       {
-        "es_form": "¿Dónde está [la mesa::stół]?",
-        "pl_translation": "Gdzie jest stół?"
+        "es_form": "Comemos en [la mesa::stół] de la cocina.",
+        "pl_translation": "Jemy przy stole w kuchni."
       },
       {
-        "es_form": "Esta es [la mesa::stół].",
-        "pl_translation": "To jest stół."
+        "es_form": "[La mesa::stół] es de madera.",
+        "pl_translation": "Stół jest z drewna."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "krzesło",
     "examples": [
       {
-        "es_form": "Esta es [la silla::krzesło].",
-        "pl_translation": "To jest krzesło."
+        "es_form": "El gato duerme en [la silla::krzesło].",
+        "pl_translation": "Kot śpi na krześle."
       },
       {
-        "es_form": "[La silla::krzesło] está aquí.",
-        "pl_translation": "Krzesło jest tutaj."
+        "es_form": "[La silla::krzesło] es muy cómoda.",
+        "pl_translation": "Krzesło jest bardzo wygodne."
       },
       {
-        "es_form": "No es [la silla::krzesło].",
-        "pl_translation": "To nie jest krzesło."
+        "es_form": "Pongo la chaqueta en [la silla::krzesło].",
+        "pl_translation": "Kładę kurtkę na krześle."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "łóżko",
     "examples": [
       {
-        "es_form": "Esta es [la cama::łóżko].",
-        "pl_translation": "To jest łóżko."
+        "es_form": "El niño ya está en [la cama::łóżko].",
+        "pl_translation": "Dziecko jest już w łóżku."
       },
       {
-        "es_form": "¿Dónde está [la cama::łóżko]?",
-        "pl_translation": "Gdzie jest łóżko?"
+        "es_form": "[La cama::łóżko] de mi cuarto es grande.",
+        "pl_translation": "Łóżko w moim pokoju jest duże."
       },
       {
-        "es_form": "[La cama::łóżko] está aquí.",
-        "pl_translation": "Łóżko jest tutaj."
+        "es_form": "Leo un libro en [la cama::łóżko].",
+        "pl_translation": "Czytam książkę w łóżku."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "łazienka",
     "examples": [
       {
-        "es_form": "¿Dónde está [el baño::łazienka]?",
-        "pl_translation": "Gdzie jest łazienka?"
+        "es_form": "[El baño::łazienka] está al lado de la cocina.",
+        "pl_translation": "Łazienka jest obok kuchni."
       },
       {
-        "es_form": "Este es [el baño::łazienka].",
-        "pl_translation": "To jest łazienka."
+        "es_form": "Mi hermana está en [el baño::łazienka].",
+        "pl_translation": "Moja siostra jest w łazience."
       },
       {
-        "es_form": "¿Dónde está [el baño::łazienka]?",
-        "pl_translation": "Gdzie jest łazienka?"
+        "es_form": "Limpio [el baño::łazienka] los sábados.",
+        "pl_translation": "Sprzątam łazienkę w soboty."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "klucz",
     "examples": [
       {
-        "es_form": "No es [la llave::klucz].",
-        "pl_translation": "To nie jest klucz."
+        "es_form": "No encuentro [la llave::klucz] de casa.",
+        "pl_translation": "Nie mogę znaleźć klucza do domu."
       },
       {
-        "es_form": "Esta es [la llave::klucz].",
-        "pl_translation": "To jest klucz."
+        "es_form": "[La llave::klucz] está en mi bolso.",
+        "pl_translation": "Klucz jest w mojej torebce."
       },
       {
-        "es_form": "¿Dónde está [la llave::klucz]?",
-        "pl_translation": "Gdzie jest klucz?"
+        "es_form": "Abro la puerta con [la llave::klucz].",
+        "pl_translation": "Otwieram drzwi kluczem."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "ściana",
     "examples": [
       {
-        "es_form": "No es [la pared::ściana].",
-        "pl_translation": "To nie jest ściana."
+        "es_form": "Hay un cuadro en [la pared::ściana].",
+        "pl_translation": "Na ścianie wisi obraz."
       },
       {
-        "es_form": "Esta es [la pared::ściana].",
-        "pl_translation": "To jest ściana."
+        "es_form": "[La pared::ściana] de mi cuarto es azul.",
+        "pl_translation": "Ściana w moim pokoju jest niebieska."
       },
       {
-        "es_form": "¿Dónde está [la pared::ściana]?",
-        "pl_translation": "Gdzie jest ściana?"
+        "es_form": "Pinto [la pared::ściana] de blanco.",
+        "pl_translation": "Maluję ścianę na biało."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "dach, sufit",
     "examples": [
       {
-        "es_form": "No es [el techo::dach].",
-        "pl_translation": "To nie jest dach."
+        "es_form": "[El techo::dach, sufit] de la casa es rojo.",
+        "pl_translation": "Dach domu jest czerwony."
       },
       {
-        "es_form": "¿Dónde está [el techo::dach]?",
-        "pl_translation": "Gdzie jest dach?"
+        "es_form": "Hay un gato en [el techo::dach, sufit].",
+        "pl_translation": "Na dachu jest kot."
       },
       {
-        "es_form": "Este es [el techo::dach].",
-        "pl_translation": "To jest dach."
+        "es_form": "[El techo::dach, sufit] del salón es muy alto.",
+        "pl_translation": "Sufit w salonie jest bardzo wysoki."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "podłoga, ziemia",
     "examples": [
       {
-        "es_form": "¿Dónde está [el suelo::podłoga]?",
-        "pl_translation": "Gdzie jest podłoga?"
+        "es_form": "El perro duerme en [el suelo::podłoga, ziemia].",
+        "pl_translation": "Pies śpi na podłodze."
       },
       {
-        "es_form": "[El suelo::podłoga] está aquí.",
-        "pl_translation": "Podłoga jest tutaj."
+        "es_form": "Limpio [el suelo::podłoga, ziemia] de la cocina.",
+        "pl_translation": "Myję podłogę w kuchni."
       },
       {
-        "es_form": "No es [el suelo::podłoga].",
-        "pl_translation": "To nie jest podłoga."
+        "es_form": "[El suelo::podłoga, ziemia] está frío en invierno.",
+        "pl_translation": "Podłoga jest zimna zimą."
       }
     ]
   },
@@ -195,35 +195,35 @@
     "pl_word": "ciepły",
     "examples": [
       {
-        "es_form": "Es muy [cálido::ciepły].",
-        "pl_translation": "Jest bardzo ciepły."
+        "es_form": "Mi cuarto es [cálido::ciepły] en invierno.",
+        "pl_translation": "Mój pokój jest ciepły zimą."
       },
       {
-        "es_form": "No es [cálido::ciepły].",
-        "pl_translation": "Nie jest ciepły."
+        "es_form": "Hoy hace un día [cálido::ciepły].",
+        "pl_translation": "Dziś jest ciepły dzień."
       },
       {
-        "es_form": "Es demasiado [cálido::ciepły].",
-        "pl_translation": "Jest zbyt ciepły."
+        "es_form": "Vivo en un país [cálido::ciepły].",
+        "pl_translation": "Mieszkam w ciepłym kraju."
       }
     ]
   },
   {
     "type": "adjective",
-    "es_word": "frío",
-    "pl_word": "zimny",
+    "es_word": "luminoso",
+    "pl_word": "pełen światła, widny",
     "examples": [
       {
-        "es_form": "Es muy [frío::zimny].",
-        "pl_translation": "Jest bardzo zimny."
+        "es_form": "El salón es grande y [luminoso::pełen światła, widny].",
+        "pl_translation": "Salon jest duży i widny."
       },
       {
-        "es_form": "No es [frío::zimny].",
-        "pl_translation": "Nie jest zimny."
+        "es_form": "Busco un piso [luminoso::pełen światła, widny].",
+        "pl_translation": "Szukam widnego mieszkania."
       },
       {
-        "es_form": "Parece [frío::zimny].",
-        "pl_translation": "Wydaje się zimny."
+        "es_form": "Mi cuarto es [luminoso::pełen światła, widny] por la mañana.",
+        "pl_translation": "Mój pokój jest rano pełen światła."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [viví::mieszkałem] en Madrid.",
-            "pl_translation": "Mieszkałem w Madrycie."
+            "es_form": "Ayer yo [viví::mieszkałem] en Madrid.",
+            "pl_translation": "Wczoraj mieszkałem w Madrycie."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [viviste::mieszkałeś] en Madrid.",
-            "pl_translation": "Mieszkałeś w Madrycie."
+            "es_form": "La semana pasada tú [viviste::mieszkałeś] en Madrid.",
+            "pl_translation": "W zeszłym tygodniu mieszkałeś w Madrycie."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [vivió::mieszkał] en Madrid.",
-            "pl_translation": "Mieszkał w Madrycie."
+            "es_form": "El otro día él [vivió::mieszkał] en Madrid.",
+            "pl_translation": "Niedawno mieszkał w Madrycie."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [vivimos::mieszkaliśmy] en Madrid.",
-            "pl_translation": "Mieszkaliśmy w Madrycie."
+            "es_form": "La semana pasada nosotros [vivimos::mieszkaliśmy] en Madrid.",
+            "pl_translation": "W zeszłym tygodniu mieszkaliśmy w Madrycie."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [vivisteis::mieszkaliście] en Madrid.",
-            "pl_translation": "Mieszkaliście w Madrycie."
+            "es_form": "El otro día vosotros [vivisteis::mieszkaliście] en Madrid.",
+            "pl_translation": "Niedawno mieszkaliście w Madrycie."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [vivieron::mieszkali] en Madrid.",
-            "pl_translation": "Mieszkali w Madrycie."
+            "es_form": "Ayer ellos [vivieron::mieszkali] en Madrid.",
+            "pl_translation": "Wczoraj mieszkali w Madrycie."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [viviré::będę mieszkać] en Madrid.",
-            "pl_translation": "Będę mieszkać w Madrycie."
+            "es_form": "Mañana yo [viviré::będę mieszkać] en Madrid.",
+            "pl_translation": "Jutro będę mieszkać w Madrycie."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [vivirás::będziesz mieszkać] en Madrid.",
-            "pl_translation": "Będziesz mieszkać w Madrycie."
+            "es_form": "La próxima semana tú [vivirás::będziesz mieszkać] en Madrid.",
+            "pl_translation": "W przyszłym tygodniu będziesz mieszkać w Madrycie."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [vivirá::będzie mieszkać] en Madrid.",
-            "pl_translation": "Będzie mieszkać w Madrycie."
+            "es_form": "Pronto él [vivirá::będzie mieszkać] en Madrid.",
+            "pl_translation": "Wkrótce będzie mieszkać w Madrycie."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [viviremos::będziemy mieszkać] en Madrid.",
-            "pl_translation": "Będziemy mieszkać w Madrycie."
+            "es_form": "La próxima semana nosotros [viviremos::będziemy mieszkać] en Madrid.",
+            "pl_translation": "W przyszłym tygodniu będziemy mieszkać w Madrycie."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [viviréis::będziecie mieszkać] en Madrid.",
-            "pl_translation": "Będziecie mieszkać w Madrycie."
+            "es_form": "Pronto vosotros [viviréis::będziecie mieszkać] en Madrid.",
+            "pl_translation": "Wkrótce będziecie mieszkać w Madrycie."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [vivirán::będą mieszkać] en Madrid.",
-            "pl_translation": "Będą mieszkać w Madrycie."
+            "es_form": "Mañana ellos [vivirán::będą mieszkać] en Madrid.",
+            "pl_translation": "Jutro będą mieszkać w Madrycie."
           }
         ]
       }

@@ -5,16 +5,16 @@
     "pl_word": "nieruchomość, własność",
     "examples": [
       {
-        "es_form": "Esta es [la propiedad::nieruchomość].",
-        "pl_translation": "To jest nieruchomość."
+        "es_form": "[La propiedad::nieruchomość, własność] vale medio millón.",
+        "pl_translation": "Nieruchomość jest warta pół miliona."
       },
       {
-        "es_form": "[La propiedad::własność] es un derecho fundamental.",
-        "pl_translation": "Własność jest prawem podstawowym."
+        "es_form": "Vendió [la propiedad::nieruchomość, własność] de sus padres.",
+        "pl_translation": "Sprzedał nieruchomość swoich rodziców."
       },
       {
-        "es_form": "No es [la propiedad::nieruchomość].",
-        "pl_translation": "To nie jest nieruchomość."
+        "es_form": "Es [la propiedad::nieruchomość, własność] privada.",
+        "pl_translation": "To własność prywatna."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "czynsz",
     "examples": [
       {
-        "es_form": "No es [el alquiler::czynsz].",
-        "pl_translation": "To nie jest czynsz."
+        "es_form": "[El alquiler::czynsz] sube cada año.",
+        "pl_translation": "Czynsz rośnie co roku."
       },
       {
-        "es_form": "Este es [el alquiler::czynsz].",
-        "pl_translation": "To jest czynsz."
+        "es_form": "Pago [el alquiler::czynsz] el día uno.",
+        "pl_translation": "Płacę czynsz pierwszego dnia miesiąca."
       },
       {
-        "es_form": "¿Dónde está [el alquiler::czynsz]?",
-        "pl_translation": "Gdzie jest czynsz?"
+        "es_form": "[El alquiler::czynsz] incluye el agua.",
+        "pl_translation": "Czynsz obejmuje wodę."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "właściciel",
     "examples": [
       {
-        "es_form": "[El propietario::właściciel] trabaja aquí.",
-        "pl_translation": "Właściciel tu pracuje."
+        "es_form": "[El propietario::właściciel] vive en el primero.",
+        "pl_translation": "Właściciel mieszka na pierwszym piętrze."
       },
       {
-        "es_form": "Este es [el propietario::właściciel] del que hablé.",
-        "pl_translation": "To jest właściciel, o którym mówiłem."
+        "es_form": "Hablé con [el propietario::właściciel] sobre la reparación.",
+        "pl_translation": "Rozmawiałem z właścicielem o naprawie."
       },
       {
-        "es_form": "[El propietario::właściciel] me ayudó mucho.",
-        "pl_translation": "Właściciel bardzo mi pomógł."
+        "es_form": "[El propietario::właściciel] quiere vender el piso.",
+        "pl_translation": "Właściciel chce sprzedać mieszkanie."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "najemca",
     "examples": [
       {
-        "es_form": "Este es [el inquilino::najemca] del que hablé.",
-        "pl_translation": "To jest najemca, o którym mówiłem."
+        "es_form": "[El inquilino::najemca] paga puntualmente.",
+        "pl_translation": "Najemca płaci punktualnie."
       },
       {
-        "es_form": "Este es [el inquilino::najemca].",
-        "pl_translation": "To jest najemca."
+        "es_form": "Buscan [un inquilino::najemca] para el piso.",
+        "pl_translation": "Szukają najemcy do mieszkania."
       },
       {
-        "es_form": "¿Dónde está [el inquilino::najemca]?",
-        "pl_translation": "Gdzie jest najemca?"
+        "es_form": "[El inquilino::najemca] nuevo llega el lunes.",
+        "pl_translation": "Nowy najemca wprowadza się w poniedziałek."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "kredyt hipoteczny",
     "examples": [
       {
-        "es_form": "¿Dónde está [la hipoteca::kredyt hipoteczny]?",
-        "pl_translation": "Gdzie jest kredyt hipoteczny?"
+        "es_form": "Pagamos [la hipoteca::kredyt hipoteczny] durante treinta años.",
+        "pl_translation": "Spłacamy kredyt hipoteczny przez trzydzieści lat."
       },
       {
-        "es_form": "[La hipoteca::kredyt hipoteczny] está aquí.",
-        "pl_translation": "Kredyt hipoteczny jest tutaj."
+        "es_form": "El banco aprobó [la hipoteca::kredyt hipoteczny].",
+        "pl_translation": "Bank zatwierdził kredyt hipoteczny."
       },
       {
-        "es_form": "No es [la hipoteca::kredyt hipoteczny].",
-        "pl_translation": "To nie jest kredyt hipoteczny."
+        "es_form": "[La hipoteca::kredyt hipoteczny] tiene interés fijo.",
+        "pl_translation": "Kredyt hipoteczny ma stałe oprocentowanie."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "akt notarialny",
     "examples": [
       {
-        "es_form": "¿Dónde está [la escritura::akt notarialny]?",
-        "pl_translation": "Gdzie jest akt notarialny?"
+        "es_form": "Firmamos [la escritura::akt notarialny] ante notario.",
+        "pl_translation": "Podpisujemy akt notarialny u notariusza."
       },
       {
-        "es_form": "[La escritura::akt notarialny] está aquí.",
-        "pl_translation": "Akt notarialny jest tutaj."
+        "es_form": "[La escritura::akt notarialny] está a nombre de los dos.",
+        "pl_translation": "Akt notarialny jest na nas oboje."
       },
       {
-        "es_form": "No es [la escritura::akt notarialny].",
-        "pl_translation": "To nie jest akt notarialny."
+        "es_form": "Guardo [la escritura::akt notarialny] en el banco.",
+        "pl_translation": "Przechowuję akt notarialny w banku."
       }
     ]
   },
@@ -119,35 +119,35 @@
     "pl_word": "pośrednik nieruchomości",
     "examples": [
       {
-        "es_form": "Hablé con [el agente inmobiliario::pośrednikiem nieruchomości] ayer.",
-        "pl_translation": "Rozmawiałem wczoraj z pośrednikiem nieruchomości."
+        "es_form": "[El agente inmobiliario::pośrednik nieruchomości] nos enseñó tres pisos.",
+        "pl_translation": "Pośrednik nieruchomości pokazał nam trzy mieszkania."
       },
       {
-        "es_form": "[El agente inmobiliario::pośrednik nieruchomości] me ayudó a encontrar piso.",
-        "pl_translation": "Pośrednik nieruchomości pomógł mi znaleźć mieszkanie."
+        "es_form": "Hablé con [el agente inmobiliario::pośrednik nieruchomości] por teléfono.",
+        "pl_translation": "Rozmawiałem z pośrednikiem nieruchomości przez telefon."
       },
       {
-        "es_form": "[El agente inmobiliario::pośrednik nieruchomości] organizó la venta.",
-        "pl_translation": "Pośrednik nieruchomości zorganizował sprzedaż."
+        "es_form": "[El agente inmobiliario::pośrednik nieruchomości] cobra una comisión.",
+        "pl_translation": "Pośrednik nieruchomości pobiera prowizję."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "La calefacción",
-    "pl_word": "ogrzewanie",
+    "es_word": "El garaje",
+    "pl_word": "garaż",
     "examples": [
       {
-        "es_form": "Esta es [la calefacción::ogrzewanie].",
-        "pl_translation": "To jest ogrzewanie."
+        "es_form": "Aparco el coche en [el garaje::garaż].",
+        "pl_translation": "Parkuję samochód w garażu."
       },
       {
-        "es_form": "Hablamos sobre [la calefacción::ogrzewanie].",
-        "pl_translation": "Rozmawiamy o tym, czym jest ogrzewanie."
+        "es_form": "[El garaje::garaż] está incluido en el precio.",
+        "pl_translation": "Garaż jest wliczony w cenę."
       },
       {
-        "es_form": "No es [la calefacción::ogrzewanie].",
-        "pl_translation": "To nie jest ogrzewanie."
+        "es_form": "Alquilo [el garaje::garaż] a un vecino.",
+        "pl_translation": "Wynajmuję garaż sąsiadowi."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "media (prąd, gaz, woda)",
     "examples": [
       {
-        "es_form": "¿Dónde están [los suministros::media]?",
-        "pl_translation": "Gdzie są media?"
+        "es_form": "[Los suministros::media (prąd, gaz, woda)] no están incluidos.",
+        "pl_translation": "Media nie są wliczone."
       },
       {
-        "es_form": "[Los suministros::media] están aquí.",
-        "pl_translation": "Media są tutaj."
+        "es_form": "Pago [los suministros::media (prąd, gaz, woda)] aparte.",
+        "pl_translation": "Za media płacę osobno."
       },
       {
-        "es_form": "No son [los suministros::media].",
-        "pl_translation": "To nie są media."
+        "es_form": "[Los suministros::media (prąd, gaz, woda)] cuestan cien euros al mes.",
+        "pl_translation": "Media kosztują sto euro miesięcznie."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "wspólnota mieszkaniowa",
     "examples": [
       {
-        "es_form": "[La comunidad de vecinos::wspólnota mieszkaniowa] se reúne los lunes.",
-        "pl_translation": "Wspólnota mieszkaniowa spotyka się w poniedziałki."
+        "es_form": "[La comunidad de vecinos::wspólnota mieszkaniowa] se reúne el jueves.",
+        "pl_translation": "Wspólnota mieszkaniowa zbiera się w czwartek."
       },
       {
-        "es_form": "Pagué la cuota de [la comunidad de vecinos::wspólnota mieszkaniowa].",
-        "pl_translation": "Zapłaciłem składkę na wspólnotę mieszkaniową."
+        "es_form": "Pago una cuota a [la comunidad de vecinos::wspólnota mieszkaniowa].",
+        "pl_translation": "Płacę składkę wspólnocie mieszkaniowej."
       },
       {
-        "es_form": "¿Has hablado con [la comunidad de vecinos::wspólnota mieszkaniowa]?",
-        "pl_translation": "Rozmawiałeś ze wspólnotą mieszkaniową?"
+        "es_form": "[La comunidad de vecinos::wspólnota mieszkaniowa] decidió pintar la escalera.",
+        "pl_translation": "Wspólnota mieszkaniowa postanowiła pomalować klatkę schodową."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "luksusowy, komfortowy",
     "examples": [
       {
-        "es_form": "Es muy [lujoso::luksusowy].",
-        "pl_translation": "Jest bardzo luksusowy."
+        "es_form": "Es un hotel muy [lujoso::luksusowy, komfortowy].",
+        "pl_translation": "To bardzo luksusowy hotel."
       },
       {
-        "es_form": "Parece [lujoso::luksusowy].",
-        "pl_translation": "Wydaje się luksusowy."
+        "es_form": "Viven en un piso [lujoso::luksusowy, komfortowy].",
+        "pl_translation": "Mieszkają w luksusowym mieszkaniu."
       },
       {
-        "es_form": "Es demasiado [lujoso::luksusowy].",
-        "pl_translation": "Jest zbyt luksusowy."
+        "es_form": "El coche es [lujoso::luksusowy, komfortowy] y rápido.",
+        "pl_translation": "Samochód jest luksusowy i szybki."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "kosztowny",
     "examples": [
       {
-        "es_form": "Es muy [costoso::kosztowny].",
-        "pl_translation": "Jest bardzo kosztowny."
+        "es_form": "El arreglo del tejado es [costoso::kosztowny].",
+        "pl_translation": "Naprawa dachu jest kosztowna."
       },
       {
-        "es_form": "No es [costoso::kosztowny].",
-        "pl_translation": "Nie jest kosztowny."
+        "es_form": "Fue un error [costoso::kosztowny].",
+        "pl_translation": "To był kosztowny błąd."
       },
       {
-        "es_form": "Parece [costoso::kosztowny].",
-        "pl_translation": "Wydaje się kosztowny."
+        "es_form": "Mantener un coche es [costoso::kosztowny].",
+        "pl_translation": "Utrzymanie samochodu jest kosztowne."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [adquirí::nabyłem] una casa nueva.",
-            "pl_translation": "Nabyłem nowy dom."
+            "es_form": "Ayer yo [adquirí::nabyłem] una casa nueva.",
+            "pl_translation": "Wczoraj nabyłem nowy dom."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [adquiriste::nabyłeś] una casa nueva.",
-            "pl_translation": "Nabyłeś nowy dom."
+            "es_form": "La semana pasada tú [adquiriste::nabyłeś] una casa nueva.",
+            "pl_translation": "W zeszłym tygodniu nabyłeś nowy dom."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [adquirió::nabył] una casa nueva.",
-            "pl_translation": "Nabył nowy dom."
+            "es_form": "El otro día él [adquirió::nabył] una casa nueva.",
+            "pl_translation": "Niedawno nabył nowy dom."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [adquirimos::nabyliśmy] una casa nueva.",
-            "pl_translation": "Nabyliśmy nowy dom."
+            "es_form": "La semana pasada nosotros [adquirimos::nabyliśmy] una casa nueva.",
+            "pl_translation": "W zeszłym tygodniu nabyliśmy nowy dom."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [adquiristeis::nabyliście] una casa nueva.",
-            "pl_translation": "Nabyliście nowy dom."
+            "es_form": "El otro día vosotros [adquiristeis::nabyliście] una casa nueva.",
+            "pl_translation": "Niedawno nabyliście nowy dom."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [adquirieron::nabyli] una casa nueva.",
-            "pl_translation": "Nabyli nowy dom."
+            "es_form": "Ayer ellos [adquirieron::nabyli] una casa nueva.",
+            "pl_translation": "Wczoraj nabyli nowy dom."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [adquiriré::będę nabywać] una casa nueva.",
-            "pl_translation": "Będę nabywać nowy dom."
+            "es_form": "Mañana yo [adquiriré::będę nabywać] una casa nueva.",
+            "pl_translation": "Jutro będę nabywać nowy dom."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [adquirirás::będziesz nabywać] una casa nueva.",
-            "pl_translation": "Będziesz nabywać nowy dom."
+            "es_form": "La próxima semana tú [adquirirás::będziesz nabywać] una casa nueva.",
+            "pl_translation": "W przyszłym tygodniu będziesz nabywać nowy dom."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [adquirirá::będzie nabywać] una casa nueva.",
-            "pl_translation": "Będzie nabywać nowy dom."
+            "es_form": "Pronto él [adquirirá::będzie nabywać] una casa nueva.",
+            "pl_translation": "Wkrótce będzie nabywać nowy dom."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [adquiriremos::będziemy nabywać] una casa nueva.",
-            "pl_translation": "Będziemy nabywać nowy dom."
+            "es_form": "La próxima semana nosotros [adquiriremos::będziemy nabywać] una casa nueva.",
+            "pl_translation": "W przyszłym tygodniu będziemy nabywać nowy dom."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [adquiriréis::będziecie nabywać] una casa nueva.",
-            "pl_translation": "Będziecie nabywać nowy dom."
+            "es_form": "Pronto vosotros [adquiriréis::będziecie nabywać] una casa nueva.",
+            "pl_translation": "Wkrótce będziecie nabywać nowy dom."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [adquirirán::będą nabywać] una casa nueva.",
-            "pl_translation": "Będą nabywać nowy dom."
+            "es_form": "Mañana ellos [adquirirán::będą nabywać] una casa nueva.",
+            "pl_translation": "Jutro będą nabywać nowy dom."
           }
         ]
       }

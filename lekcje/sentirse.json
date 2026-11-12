@@ -5,16 +5,16 @@
     "pl_word": "zdrowie",
     "examples": [
       {
-        "es_form": "Esta es [la salud::zdrowie].",
-        "pl_translation": "To jest zdrowie."
+        "es_form": "[La salud::zdrowie] es lo más importante.",
+        "pl_translation": "Zdrowie jest najważniejsze."
       },
       {
-        "es_form": "¿Dónde está [la salud::zdrowie]?",
-        "pl_translation": "Gdzie jest zdrowie?"
+        "es_form": "El deporte es bueno para [la salud::zdrowie].",
+        "pl_translation": "Sport jest dobry dla zdrowia."
       },
       {
-        "es_form": "No es [la salud::zdrowie].",
-        "pl_translation": "To nie jest zdrowie."
+        "es_form": "Mi abuelo tiene [la salud::zdrowie] de hierro.",
+        "pl_translation": "Mój dziadek ma żelazne zdrowie."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "lekarz",
     "examples": [
       {
-        "es_form": "[El médico::lekarz] me ayudó mucho.",
-        "pl_translation": "Lekarz bardzo mi pomógł."
+        "es_form": "[El médico::lekarz] me mira la garganta.",
+        "pl_translation": "Lekarz ogląda mi gardło."
       },
       {
-        "es_form": "Este es [el médico::lekarz].",
-        "pl_translation": "To jest lekarz."
+        "es_form": "Tengo cita con [el médico::lekarz] a las diez.",
+        "pl_translation": "Mam wizytę u lekarza o dziesiątej."
       },
       {
-        "es_form": "[El médico::lekarz] está aquí.",
-        "pl_translation": "Lekarz jest tutaj."
+        "es_form": "[El médico::lekarz] dice que estoy sano.",
+        "pl_translation": "Lekarz mówi, że jestem zdrowy."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "szpital",
     "examples": [
       {
-        "es_form": "¿Dónde está [el hospital::szpital]?",
-        "pl_translation": "Gdzie jest szpital?"
+        "es_form": "Mi abuela está en [el hospital::szpital].",
+        "pl_translation": "Moja babcia jest w szpitalu."
       },
       {
-        "es_form": "[El hospital::szpital] está cerca de aquí.",
-        "pl_translation": "Szpital jest niedaleko stąd."
+        "es_form": "[El hospital::szpital] está cerca de mi casa.",
+        "pl_translation": "Szpital jest blisko mojego domu."
       },
       {
-        "es_form": "[El hospital::szpital] abre a las ocho.",
-        "pl_translation": "Szpital otwiera się o ósmej."
+        "es_form": "Mi madre trabaja en [el hospital::szpital].",
+        "pl_translation": "Moja mama pracuje w szpitalu."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "apteka",
     "examples": [
       {
-        "es_form": "Esta es [la farmacia::apteka].",
-        "pl_translation": "To jest apteka."
+        "es_form": "Compro aspirinas en [la farmacia::apteka].",
+        "pl_translation": "Kupuję aspirynę w aptece."
       },
       {
-        "es_form": "[La farmacia::apteka] está aquí.",
-        "pl_translation": "Apteka jest tutaj."
+        "es_form": "[La farmacia::apteka] cierra a las ocho.",
+        "pl_translation": "Apteka zamyka się o ósmej."
       },
       {
-        "es_form": "[La farmacia::apteka] abre a las ocho.",
-        "pl_translation": "Apteka otwiera się o ósmej."
+        "es_form": "Hay [la farmacia::apteka] al lado del hospital.",
+        "pl_translation": "Obok szpitala jest apteka."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "lekarstwo",
     "examples": [
       {
-        "es_form": "Esta es [la medicina::lekarstwo].",
-        "pl_translation": "To jest lekarstwo."
+        "es_form": "Tomo [la medicina::lekarstwo] después de comer.",
+        "pl_translation": "Biorę lekarstwo po jedzeniu."
       },
       {
-        "es_form": "Hablamos sobre [la medicina::lekarstwo].",
-        "pl_translation": "Rozmawiamy o tym, czym jest lekarstwo."
+        "es_form": "[La medicina::lekarstwo] es amarga, pero buena.",
+        "pl_translation": "Lekarstwo jest gorzkie, ale dobre."
       },
       {
-        "es_form": "No es [la medicina::lekarstwo].",
-        "pl_translation": "To nie jest lekarstwo."
+        "es_form": "El médico me da [la medicina::lekarstwo] para la tos.",
+        "pl_translation": "Lekarz daje mi lekarstwo na kaszel."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "ból",
     "examples": [
       {
-        "es_form": "¿Dónde está [el dolor::ból]?",
-        "pl_translation": "Gdzie jest ból?"
+        "es_form": "Tengo [el dolor::ból] de cabeza.",
+        "pl_translation": "Mam ból głowy."
       },
       {
-        "es_form": "[El dolor::ból] está aquí.",
-        "pl_translation": "Ból jest tutaj."
+        "es_form": "[El dolor::ból] es muy fuerte por la noche.",
+        "pl_translation": "Ból jest bardzo silny w nocy."
       },
       {
-        "es_form": "Este es [el dolor::ból].",
-        "pl_translation": "To jest ból."
+        "es_form": "Esta pastilla quita [el dolor::ból].",
+        "pl_translation": "Ta tabletka uśmierza ból."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "gorączka",
     "examples": [
       {
-        "es_form": "Esta es [la fiebre::gorączka].",
-        "pl_translation": "To jest gorączka."
+        "es_form": "El niño tiene [la fiebre::gorączka] alta.",
+        "pl_translation": "Dziecko ma wysoką gorączkę."
       },
       {
-        "es_form": "¿Dónde está [la fiebre::gorączka]?",
-        "pl_translation": "Gdzie jest gorączka?"
+        "es_form": "[La fiebre::gorączka] baja con esta medicina.",
+        "pl_translation": "Gorączka spada po tym lekarstwie."
       },
       {
-        "es_form": "No es [la fiebre::gorączka].",
-        "pl_translation": "To nie jest gorączka."
+        "es_form": "Con [la fiebre::gorączka] no voy al trabajo.",
+        "pl_translation": "Z gorączką nie idę do pracy."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "krew",
     "examples": [
       {
-        "es_form": "Esta es [la sangre::krew].",
-        "pl_translation": "To jest krew."
+        "es_form": "[La sangre::krew] es roja.",
+        "pl_translation": "Krew jest czerwona."
       },
       {
-        "es_form": "¿Dónde está [la sangre::krew]?",
-        "pl_translation": "Gdzie jest krew?"
+        "es_form": "Hay [la sangre::krew] en mi camisa.",
+        "pl_translation": "Na mojej koszuli jest krew."
       },
       {
-        "es_form": "[La sangre::krew] está aquí.",
-        "pl_translation": "Krew jest tutaj."
+        "es_form": "El médico mira [la sangre::krew] del paciente.",
+        "pl_translation": "Lekarz bada krew pacjenta."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "wizyta",
     "examples": [
       {
-        "es_form": "¿Dónde está [la visita::wizyta]?",
-        "pl_translation": "Gdzie jest wizyta?"
+        "es_form": "[La visita::wizyta] al médico es a las cinco.",
+        "pl_translation": "Wizyta u lekarza jest o piątej."
       },
       {
-        "es_form": "[La visita::wizyta] está aquí.",
-        "pl_translation": "Wizyta jest tutaj."
+        "es_form": "Espero [la visita::wizyta] de mi tía.",
+        "pl_translation": "Czekam na wizytę cioci."
       },
       {
-        "es_form": "Esta es [la visita::wizyta].",
-        "pl_translation": "To jest wizyta."
+        "es_form": "Gracias por [la visita::wizyta].",
+        "pl_translation": "Dziękuję za wizytę."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "recepta",
     "examples": [
       {
-        "es_form": "Esta es [la receta::recepta].",
-        "pl_translation": "To jest recepta."
+        "es_form": "El médico escribe [la receta::recepta].",
+        "pl_translation": "Lekarz wypisuje receptę."
       },
       {
-        "es_form": "¿Dónde está [la receta::recepta]?",
-        "pl_translation": "Gdzie jest recepta?"
+        "es_form": "Sin [la receta::recepta] no puedo comprar la medicina.",
+        "pl_translation": "Bez recepty nie mogę kupić lekarstwa."
       },
       {
-        "es_form": "No es [la receta::recepta].",
-        "pl_translation": "To nie jest recepta."
+        "es_form": "Llevo [la receta::recepta] a la farmacia.",
+        "pl_translation": "Zanoszę receptę do apteki."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "silny",
     "examples": [
       {
-        "es_form": "Es muy [fuerte::silny].",
-        "pl_translation": "Jest bardzo silny."
+        "es_form": "Mi hermano es alto y [fuerte::silny].",
+        "pl_translation": "Mój brat jest wysoki i silny."
       },
       {
-        "es_form": "No es [fuerte::silny].",
-        "pl_translation": "Nie jest silny."
+        "es_form": "Tengo un dolor [fuerte::silny] de cabeza.",
+        "pl_translation": "Mam silny ból głowy."
       },
       {
-        "es_form": "Es demasiado [fuerte::silny].",
-        "pl_translation": "Jest zbyt silny."
+        "es_form": "El café está muy [fuerte::silny].",
+        "pl_translation": "Kawa jest bardzo mocna."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "słaby",
     "examples": [
       {
-        "es_form": "No es [débil::słaby].",
-        "pl_translation": "Nie jest słaby."
+        "es_form": "Hoy me siento [débil::słaby].",
+        "pl_translation": "Dziś czuję się słaby."
       },
       {
-        "es_form": "Parece [débil::słaby].",
-        "pl_translation": "Wydaje się słaby."
+        "es_form": "El abuelo está [débil::słaby] después del hospital.",
+        "pl_translation": "Dziadek jest słaby po szpitalu."
       },
       {
-        "es_form": "Es demasiado [débil::słaby].",
-        "pl_translation": "Jest zbyt słaby."
+        "es_form": "El enfermo todavía está [débil::słaby].",
+        "pl_translation": "Chory jest jeszcze słaby."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [me sentí::poczułem się] bien.",
-            "pl_translation": "Poczułem się dobrze."
+            "es_form": "Ayer yo [me sentí::poczułem się] bien.",
+            "pl_translation": "Wczoraj poczułem się dobrze."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [te sentiste::poczułeś się] bien.",
-            "pl_translation": "Poczułeś się dobrze."
+            "es_form": "La semana pasada tú [te sentiste::poczułeś się] bien.",
+            "pl_translation": "W zeszłym tygodniu poczułeś się dobrze."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [se sintió::poczuł się] bien.",
-            "pl_translation": "Poczuł się dobrze."
+            "es_form": "El otro día él [se sintió::poczuł się] bien.",
+            "pl_translation": "Niedawno poczuł się dobrze."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [nos sentimos::poczuliśmy się] bien.",
-            "pl_translation": "Poczuliśmy się dobrze."
+            "es_form": "La semana pasada nosotros [nos sentimos::poczuliśmy się] bien.",
+            "pl_translation": "W zeszłym tygodniu poczuliśmy się dobrze."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [os sentisteis::poczuliście się] bien.",
-            "pl_translation": "Poczuliście się dobrze."
+            "es_form": "El otro día vosotros [os sentisteis::poczuliście się] bien.",
+            "pl_translation": "Niedawno poczuliście się dobrze."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [se sintieron::poczuli się] bien.",
-            "pl_translation": "Poczuli się dobrze."
+            "es_form": "Ayer ellos [se sintieron::poczuli się] bien.",
+            "pl_translation": "Wczoraj poczuli się dobrze."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [me sentiré::będę czuć się] bien.",
-            "pl_translation": "Będę czuć się dobrze."
+            "es_form": "Mañana yo [me sentiré::będę czuć się] bien.",
+            "pl_translation": "Jutro będę czuć się dobrze."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [te sentirás::będziesz czuć się] bien.",
-            "pl_translation": "Będziesz czuć się dobrze."
+            "es_form": "La próxima semana tú [te sentirás::będziesz czuć się] bien.",
+            "pl_translation": "W przyszłym tygodniu będziesz czuć się dobrze."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [se sentirá::będzie czuć się] bien.",
-            "pl_translation": "Będzie czuć się dobrze."
+            "es_form": "Pronto él [se sentirá::będzie czuć się] bien.",
+            "pl_translation": "Wkrótce będzie czuć się dobrze."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [nos sentiremos::będziemy czuć się] bien.",
-            "pl_translation": "Będziemy czuć się dobrze."
+            "es_form": "La próxima semana nosotros [nos sentiremos::będziemy czuć się] bien.",
+            "pl_translation": "W przyszłym tygodniu będziemy czuć się dobrze."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [os sentiréis::będziecie czuć się] bien.",
-            "pl_translation": "Będziecie czuć się dobrze."
+            "es_form": "Pronto vosotros [os sentiréis::będziecie czuć się] bien.",
+            "pl_translation": "Wkrótce będziecie czuć się dobrze."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [se sentirán::będą czuć się] bien.",
-            "pl_translation": "Będą czuć się dobrze."
+            "es_form": "Mañana ellos [se sentirán::będą czuć się] bien.",
+            "pl_translation": "Jutro będą czuć się dobrze."
           }
         ]
       }

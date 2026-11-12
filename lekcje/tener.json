@@ -5,16 +5,16 @@
     "pl_word": "czas",
     "examples": [
       {
-        "es_form": "[El tiempo::czas] pasa muy rápido.",
-        "pl_translation": "Czas mija bardzo szybko."
+        "es_form": "No tengo [el tiempo::czas] para desayunar.",
+        "pl_translation": "Nie mam czasu na śniadanie."
       },
       {
-        "es_form": "[El tiempo::czas] es oro.",
-        "pl_translation": "Czas jest na wagę złota."
+        "es_form": "[El tiempo::czas] pasa muy deprisa.",
+        "pl_translation": "Czas płynie bardzo szybko."
       },
       {
-        "es_form": "¿Dónde está [el tiempo::czas]?",
-        "pl_translation": "Gdzie jest czas?"
+        "es_form": "Necesito [el tiempo::czas] para pensar.",
+        "pl_translation": "Potrzebuję czasu, żeby pomyśleć."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "dzień",
     "examples": [
       {
-        "es_form": "Este es [el día::dzień].",
-        "pl_translation": "To jest dzień."
+        "es_form": "[El día::dzień] tiene veinticuatro horas.",
+        "pl_translation": "Dzień ma dwadzieścia cztery godziny."
       },
       {
-        "es_form": "[El día::dzień] es oro.",
-        "pl_translation": "Dzień jest na wagę złota."
+        "es_form": "Paso [el día::dzień] entero en casa.",
+        "pl_translation": "Spędzam cały dzień w domu."
       },
       {
-        "es_form": "[El día::dzień] se me hizo eterno.",
-        "pl_translation": "Dzień mi się dłużył."
+        "es_form": "Hoy es [el día::dzień] de mi cumpleaños.",
+        "pl_translation": "Dziś jest dzień moich urodzin."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "rok",
     "examples": [
       {
-        "es_form": "Este es [el año::rok].",
-        "pl_translation": "To jest rok."
+        "es_form": "[El año::rok] tiene doce meses.",
+        "pl_translation": "Rok ma dwanaście miesięcy."
       },
       {
-        "es_form": "¿Dónde está [el año::rok]?",
-        "pl_translation": "Gdzie jest rok?"
+        "es_form": "Paso [el año::rok] entero en España.",
+        "pl_translation": "Spędzam cały rok w Hiszpanii."
       },
       {
-        "es_form": "[El año::rok] está aquí.",
-        "pl_translation": "Rok jest tutaj."
+        "es_form": "[El año::rok] nuevo empieza en enero.",
+        "pl_translation": "Nowy rok zaczyna się w styczniu."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "godzina",
     "examples": [
       {
-        "es_form": "¿Dónde está [la hora::godzina]?",
-        "pl_translation": "Gdzie jest godzina?"
+        "es_form": "[La hora::godzina] tiene sesenta minutos.",
+        "pl_translation": "Godzina ma sześćdziesiąt minut."
       },
       {
-        "es_form": "Esta es [la hora::godzina].",
-        "pl_translation": "To jest godzina."
+        "es_form": "¿Sabes [la hora::godzina] de la cena?",
+        "pl_translation": "Znasz godzinę kolacji?"
       },
       {
-        "es_form": "[La hora::godzina] está aquí.",
-        "pl_translation": "Godzina jest tutaj."
+        "es_form": "No sé [la hora::godzina] del tren.",
+        "pl_translation": "Nie znam godziny odjazdu pociągu."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "wiek",
     "examples": [
       {
-        "es_form": "Esta es [la edad::wiek].",
-        "pl_translation": "To jest wiek."
+        "es_form": "No sé [la edad::wiek] de mi profesor.",
+        "pl_translation": "Nie znam wieku mojego nauczyciela."
       },
       {
-        "es_form": "[La edad::wiek] está aquí.",
-        "pl_translation": "Wiek jest tutaj."
+        "es_form": "[La edad::wiek] no es importante.",
+        "pl_translation": "Wiek nie jest ważny."
       },
       {
-        "es_form": "No es [la edad::wiek].",
-        "pl_translation": "To nie jest wiek."
+        "es_form": "Tenemos [la edad::wiek] de tu hermano.",
+        "pl_translation": "Jesteśmy w wieku twojego brata."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "głód",
     "examples": [
       {
-        "es_form": "¿Dónde está [el hambre::głód]?",
-        "pl_translation": "Gdzie jest głód?"
+        "es_form": "[El hambre::głód] no me deja dormir.",
+        "pl_translation": "Głód nie pozwala mi spać."
       },
       {
-        "es_form": "[El hambre::głód] está aquí.",
-        "pl_translation": "Głód jest tutaj."
+        "es_form": "Con [el hambre::głód] no puedo trabajar.",
+        "pl_translation": "Przez głód nie mogę pracować."
       },
       {
-        "es_form": "Esta es [el hambre::głód].",
-        "pl_translation": "To jest głód."
+        "es_form": "[El hambre::głód] es un problema en muchos países.",
+        "pl_translation": "Głód jest problemem w wielu krajach."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "pragnienie",
     "examples": [
       {
-        "es_form": "Esta es [la sed::pragnienie].",
-        "pl_translation": "To jest pragnienie."
+        "es_form": "El agua fría quita [la sed::pragnienie].",
+        "pl_translation": "Zimna woda gasi pragnienie."
       },
       {
-        "es_form": "Hablamos sobre [la sed::pragnienie].",
-        "pl_translation": "Rozmawiamy o tym, czym jest pragnienie."
+        "es_form": "[La sed::pragnienie] es peor que el hambre.",
+        "pl_translation": "Pragnienie jest gorsze niż głód."
       },
       {
-        "es_form": "No es [la sed::pragnienie].",
-        "pl_translation": "To nie jest pragnienie."
+        "es_form": "No aguanto [la sed::pragnienie] con este calor.",
+        "pl_translation": "Nie wytrzymuję pragnienia w tym upale."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "sen, senność",
     "examples": [
       {
-        "es_form": "Este es [el sueño::sen].",
-        "pl_translation": "To jest sen."
+        "es_form": "[El sueño::sen, senność] es importante para la salud.",
+        "pl_translation": "Sen jest ważny dla zdrowia."
       },
       {
-        "es_form": "¿Dónde está [el sueño::sen]?",
-        "pl_translation": "Gdzie jest sen?"
+        "es_form": "El café me quita [el sueño::sen, senność].",
+        "pl_translation": "Kawa odbiera mi senność."
       },
       {
-        "es_form": "No es [el sueño::sen].",
-        "pl_translation": "To nie jest sen."
+        "es_form": "Tengo [el sueño::sen, senność] muy ligero.",
+        "pl_translation": "Mam bardzo lekki sen."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "szczęście (fart)",
     "examples": [
       {
-        "es_form": "No es [la suerte::szczęście].",
-        "pl_translation": "To nie jest szczęście."
+        "es_form": "[La suerte::szczęście (fart)] no está de mi lado hoy.",
+        "pl_translation": "Szczęście nie jest dziś po mojej stronie."
       },
       {
-        "es_form": "Esta es [la suerte::szczęście].",
-        "pl_translation": "To jest szczęście."
+        "es_form": "Con [la suerte::szczęście (fart)] llegamos a tiempo.",
+        "pl_translation": "Przy odrobinie szczęścia dotrzemy na czas."
       },
       {
-        "es_form": "[La suerte::szczęście] está aquí.",
-        "pl_translation": "Szczęście jest tutaj."
+        "es_form": "Para ganar necesitas [la suerte::szczęście (fart)].",
+        "pl_translation": "Żeby wygrać, potrzebujesz szczęścia."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "racja, powód",
     "examples": [
       {
-        "es_form": "Esta es [la razón::racja].",
-        "pl_translation": "To jest racja."
+        "es_form": "No sé [la razón::racja, powód] de su visita.",
+        "pl_translation": "Nie znam powodu jego wizyty."
       },
       {
-        "es_form": "No es [la razón::racja].",
-        "pl_translation": "To nie jest racja."
+        "es_form": "[La razón::racja, powód] es muy simple: no tengo dinero.",
+        "pl_translation": "Powód jest bardzo prosty: nie mam pieniędzy."
       },
       {
-        "es_form": "Hablamos sobre [la razón::racja].",
-        "pl_translation": "Rozmawiamy o tym, czym jest racja."
+        "es_form": "¿Cuál es [la razón::racja, powód] de tu pregunta?",
+        "pl_translation": "Jaki jest powód twojego pytania?"
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "gorący",
     "examples": [
       {
-        "es_form": "Es muy [caliente::gorący].",
-        "pl_translation": "Jest bardzo gorący."
+        "es_form": "El café está muy [caliente::gorący].",
+        "pl_translation": "Kawa jest bardzo gorąca."
       },
       {
-        "es_form": "Parece [caliente::gorący].",
-        "pl_translation": "Wydaje się gorący."
+        "es_form": "Quiero un té [caliente::gorący].",
+        "pl_translation": "Chcę gorącą herbatę."
       },
       {
-        "es_form": "Es demasiado [caliente::gorący].",
-        "pl_translation": "Jest zbyt gorący."
+        "es_form": "Cuidado, el plato está [caliente::gorący].",
+        "pl_translation": "Uwaga, talerz jest gorący."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "zimny",
     "examples": [
       {
-        "es_form": "Es muy [frío::zimny].",
-        "pl_translation": "Jest bardzo zimny."
+        "es_form": "El zumo está muy [frío::zimny].",
+        "pl_translation": "Sok jest bardzo zimny."
       },
       {
-        "es_form": "No es [frío::zimny].",
-        "pl_translation": "Nie jest zimny."
+        "es_form": "En invierno el día es [frío::zimny].",
+        "pl_translation": "Zimą dzień jest zimny."
       },
       {
-        "es_form": "Parece [frío::zimny].",
-        "pl_translation": "Wydaje się zimny."
+        "es_form": "No me gusta el café [frío::zimny].",
+        "pl_translation": "Nie lubię zimnej kawy."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [tuve::miałem] tiempo.",
-            "pl_translation": "Miałem czas."
+            "es_form": "Ayer yo [tuve::miałem] tiempo.",
+            "pl_translation": "Wczoraj miałem czas."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [tuviste::miałeś] tiempo.",
-            "pl_translation": "Miałeś czas."
+            "es_form": "La semana pasada tú [tuviste::miałeś] tiempo.",
+            "pl_translation": "W zeszłym tygodniu miałeś czas."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [tuvo::miał] tiempo.",
-            "pl_translation": "Miał czas."
+            "es_form": "El otro día él [tuvo::miał] tiempo.",
+            "pl_translation": "Niedawno miał czas."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [tuvimos::mieliśmy] tiempo.",
-            "pl_translation": "Mieliśmy czas."
+            "es_form": "La semana pasada nosotros [tuvimos::mieliśmy] tiempo.",
+            "pl_translation": "W zeszłym tygodniu mieliśmy czas."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [tuvisteis::mieliście] tiempo.",
-            "pl_translation": "Mieliście czas."
+            "es_form": "El otro día vosotros [tuvisteis::mieliście] tiempo.",
+            "pl_translation": "Niedawno mieliście czas."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [tuvieron::mieli] tiempo.",
-            "pl_translation": "Mieli czas."
+            "es_form": "Ayer ellos [tuvieron::mieli] tiempo.",
+            "pl_translation": "Wczoraj mieli czas."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [tendré::będę mieć] tiempo.",
-            "pl_translation": "Będę mieć czas."
+            "es_form": "Mañana yo [tendré::będę mieć] tiempo.",
+            "pl_translation": "Jutro będę mieć czas."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [tendrás::będziesz mieć] tiempo.",
-            "pl_translation": "Będziesz mieć czas."
+            "es_form": "La próxima semana tú [tendrás::będziesz mieć] tiempo.",
+            "pl_translation": "W przyszłym tygodniu będziesz mieć czas."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [tendrá::będzie mieć] tiempo.",
-            "pl_translation": "Będzie mieć czas."
+            "es_form": "Pronto él [tendrá::będzie mieć] tiempo.",
+            "pl_translation": "Wkrótce będzie mieć czas."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [tendremos::będziemy mieć] tiempo.",
-            "pl_translation": "Będziemy mieć czas."
+            "es_form": "La próxima semana nosotros [tendremos::będziemy mieć] tiempo.",
+            "pl_translation": "W przyszłym tygodniu będziemy mieć czas."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [tendréis::będziecie mieć] tiempo.",
-            "pl_translation": "Będziecie mieć czas."
+            "es_form": "Pronto vosotros [tendréis::będziecie mieć] tiempo.",
+            "pl_translation": "Wkrótce będziecie mieć czas."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [tendrán::będą mieć] tiempo.",
-            "pl_translation": "Będą mieć czas."
+            "es_form": "Mañana ellos [tendrán::będą mieć] tiempo.",
+            "pl_translation": "Jutro będą mieć czas."
           }
         ]
       }

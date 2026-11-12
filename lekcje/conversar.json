@@ -5,35 +5,35 @@
     "pl_word": "dialog",
     "examples": [
       {
-        "es_form": "Este es [el diálogo::dialog].",
-        "pl_translation": "To jest dialog."
+        "es_form": "[El diálogo::dialog] entre los dos países sigue.",
+        "pl_translation": "Dialog między oboma krajami trwa."
       },
       {
-        "es_form": "Necesito [el diálogo::dialog] nuevo.",
-        "pl_translation": "Potrzebuję nowego dialogu."
+        "es_form": "Leemos [el diálogo::dialog] en voz alta.",
+        "pl_translation": "Czytamy dialog na głos."
       },
       {
-        "es_form": "[El diálogo::dialog] es importante.",
-        "pl_translation": "Dialog jest ważny."
+        "es_form": "[El diálogo::dialog] es mejor que la pelea.",
+        "pl_translation": "Dialog jest lepszy niż kłótnia."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "La discusión",
-    "pl_word": "dyskusja",
+    "es_word": "El debate",
+    "pl_word": "debata",
     "examples": [
       {
-        "es_form": "¿Dónde está [la discusión::dyskusja]?",
-        "pl_translation": "Gdzie jest dyskusja?"
+        "es_form": "[El debate::debata] duró dos horas.",
+        "pl_translation": "Debata trwała dwie godziny."
       },
       {
-        "es_form": "Necesito [la discusión::dyskusja] nueva.",
-        "pl_translation": "Potrzebuję nowej dyskusji."
+        "es_form": "Vi [el debate::debata] en la televisión.",
+        "pl_translation": "Oglądałem debatę w telewizji."
       },
       {
-        "es_form": "[La discusión::dyskusja] es necesaria.",
-        "pl_translation": "Dyskusja jest potrzebna."
+        "es_form": "Participé en [el debate::debata] de la escuela.",
+        "pl_translation": "Wziąłem udział w szkolnej debacie."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "konflikt",
     "examples": [
       {
-        "es_form": "Este es [el conflicto::konflikt].",
-        "pl_translation": "To jest konflikt."
+        "es_form": "[El conflicto::konflikt] empezó por un malentendido.",
+        "pl_translation": "Konflikt zaczął się od nieporozumienia."
       },
       {
-        "es_form": "No es [el conflicto::konflikt].",
-        "pl_translation": "To nie jest konflikt."
+        "es_form": "Resolvimos [el conflicto::konflikt] hablando.",
+        "pl_translation": "Rozwiązaliśmy konflikt rozmową."
       },
       {
-        "es_form": "¿Dónde está [el conflicto::konflikt]?",
-        "pl_translation": "Gdzie jest konflikt?"
+        "es_form": "Evito [el conflicto::konflikt] con mis vecinos.",
+        "pl_translation": "Unikam konfliktu z sąsiadami."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "zobowiązanie",
     "examples": [
       {
-        "es_form": "Este es [el compromiso::kompromis].",
-        "pl_translation": "To jest kompromis."
+        "es_form": "Tengo [un compromiso::zobowiązanie] con mi equipo.",
+        "pl_translation": "Mam zobowiązanie wobec mojego zespołu."
       },
       {
-        "es_form": "[El compromiso::kompromis] está aquí.",
-        "pl_translation": "Kompromis jest tutaj."
+        "es_form": "Cumplió [el compromiso::zobowiązanie] hasta el final.",
+        "pl_translation": "Wypełnił zobowiązanie do końca."
       },
       {
-        "es_form": "No es [el compromiso::kompromis].",
-        "pl_translation": "To nie jest kompromis."
+        "es_form": "No puedo ir, tengo [un compromiso::zobowiązanie].",
+        "pl_translation": "Nie mogę iść, mam zobowiązanie."
       }
     ]
   },
@@ -81,54 +81,54 @@
     "pl_word": "przeprosiny",
     "examples": [
       {
-        "es_form": "Esta es [la disculpa::przeprosiny].",
-        "pl_translation": "To są przeprosiny."
+        "es_form": "Acepto [la disculpa::przeprosiny] de mi amigo.",
+        "pl_translation": "Przyjmuję przeprosiny przyjaciela."
       },
       {
-        "es_form": "[La disculpa::przeprosiny] es necesaria.",
-        "pl_translation": "Przeprosiny są konieczne."
+        "es_form": "Le debo [una disculpa::przeprosiny].",
+        "pl_translation": "Jestem mu winien przeprosiny."
       },
       {
-        "es_form": "[La disculpa::przeprosiny] está aquí.",
-        "pl_translation": "Przeprosiny są tutaj."
+        "es_form": "[La disculpa::przeprosiny] llegó demasiado tarde.",
+        "pl_translation": "Przeprosiny przyszły za późno."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "La promesa",
-    "pl_word": "obietnica",
+    "es_word": "El malentendido",
+    "pl_word": "nieporozumienie",
     "examples": [
       {
-        "es_form": "¿Dónde está [la promesa::obietnica]?",
-        "pl_translation": "Gdzie jest obietnica?"
+        "es_form": "Todo fue [un malentendido::nieporozumienie].",
+        "pl_translation": "To wszystko było nieporozumienie."
       },
       {
-        "es_form": "[La promesa::obietnica] es importante.",
-        "pl_translation": "Obietnica jest ważna."
+        "es_form": "Aclaramos [el malentendido::nieporozumienie] con una llamada.",
+        "pl_translation": "Wyjaśniliśmy nieporozumienie jednym telefonem."
       },
       {
-        "es_form": "[La promesa::obietnica] no cuesta nada.",
-        "pl_translation": "Obietnica nic nie kosztuje."
+        "es_form": "[El malentendido::nieporozumienie] causó una pelea.",
+        "pl_translation": "Nieporozumienie wywołało kłótnię."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El consejo",
-    "pl_word": "rada",
+    "es_word": "La sugerencia",
+    "pl_word": "sugestia",
     "examples": [
       {
-        "es_form": "Este es [el consejo::rada].",
-        "pl_translation": "To jest rada."
+        "es_form": "Gracias por [la sugerencia::sugestia].",
+        "pl_translation": "Dziękuję za sugestię."
       },
       {
-        "es_form": "Necesito [un consejo::rady] mejor.",
-        "pl_translation": "Potrzebuję lepszej rady."
+        "es_form": "Tengo [una sugerencia::sugestia] para el menú.",
+        "pl_translation": "Mam sugestię co do menu."
       },
       {
-        "es_form": "[El consejo::rada] fue muy útil.",
-        "pl_translation": "Rada była bardzo pomocna."
+        "es_form": "El jefe aceptó [la sugerencia::sugestia].",
+        "pl_translation": "Szef przyjął sugestię."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "plotka",
     "examples": [
       {
-        "es_form": "Este es [el rumor::plotka].",
-        "pl_translation": "To jest plotka."
+        "es_form": "[El rumor::plotka] corre por toda la oficina.",
+        "pl_translation": "Plotka krąży po całym biurze."
       },
       {
-        "es_form": "No es [el rumor::plotka].",
-        "pl_translation": "To nie jest plotka."
+        "es_form": "No creo [el rumor::plotka].",
+        "pl_translation": "Nie wierzę w tę plotkę."
       },
       {
-        "es_form": "[El rumor::plotka] está aquí.",
-        "pl_translation": "Plotka jest tutaj."
+        "es_form": "Oí [un rumor::plotka] sobre el jefe.",
+        "pl_translation": "Słyszałem plotkę o szefie."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "komplement",
     "examples": [
       {
-        "es_form": "Este es [el cumplido::komplement].",
-        "pl_translation": "To jest komplement."
+        "es_form": "Gracias por [el cumplido::komplement].",
+        "pl_translation": "Dziękuję za komplement."
       },
       {
-        "es_form": "[El cumplido::komplement] fue agradable.",
-        "pl_translation": "Komplement był miły."
+        "es_form": "Le hice [un cumplido::komplement] por su vestido.",
+        "pl_translation": "Powiedziałem jej komplement o sukience."
       },
       {
-        "es_form": "¿Dónde está [el cumplido::komplement]?",
-        "pl_translation": "Gdzie jest komplement?"
+        "es_form": "[El cumplido::komplement] me alegró el día.",
+        "pl_translation": "Komplement poprawił mi dzień."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "krytyka",
     "examples": [
       {
-        "es_form": "Esta es [la crítica::krytyka].",
-        "pl_translation": "To jest krytyka."
+        "es_form": "Acepto [la crítica::krytyka] sin problema.",
+        "pl_translation": "Przyjmuję krytykę bez problemu."
       },
       {
-        "es_form": "¿Dónde está [la crítica::krytyka]?",
-        "pl_translation": "Gdzie jest krytyka?"
+        "es_form": "[La crítica::krytyka] del periódico fue dura.",
+        "pl_translation": "Krytyka w gazecie była ostra."
       },
       {
-        "es_form": "[La crítica::krytyka] está aquí.",
-        "pl_translation": "Krytyka jest tutaj."
+        "es_form": "No soporta [la crítica::krytyka].",
+        "pl_translation": "Nie znosi krytyki."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "otwarty (osoba)",
     "examples": [
       {
-        "es_form": "Es muy [abierto::otwarty].",
-        "pl_translation": "Jest bardzo otwarty."
+        "es_form": "Es un hombre [abierto::otwarty (osoba)] y amable.",
+        "pl_translation": "To otwarty i miły człowiek."
       },
       {
-        "es_form": "No es [abierto::otwarty].",
-        "pl_translation": "Nie jest otwarty."
+        "es_form": "Soy [abierto::otwarty (osoba)] a nuevas ideas.",
+        "pl_translation": "Jestem otwarty na nowe pomysły."
       },
       {
-        "es_form": "Parece [abierto::otwarty].",
-        "pl_translation": "Wydaje się otwarty."
+        "es_form": "Mi jefe es muy [abierto::otwarty (osoba)].",
+        "pl_translation": "Mój szef jest bardzo otwarty."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "zamknięty (osoba)",
     "examples": [
       {
-        "es_form": "Es muy [cerrado::zamknięty].",
-        "pl_translation": "Jest bardzo zamknięty."
+        "es_form": "De niño era muy [cerrado::zamknięty (osoba)].",
+        "pl_translation": "Jako dziecko był bardzo zamknięty w sobie."
       },
       {
-        "es_form": "No es [cerrado::zamknięty].",
-        "pl_translation": "Nie jest zamknięty."
+        "es_form": "Es un hombre [cerrado::zamknięty (osoba)] y callado.",
+        "pl_translation": "To zamknięty w sobie i małomówny człowiek."
       },
       {
-        "es_form": "Parece [cerrado::zamknięty].",
-        "pl_translation": "Wydaje się zamknięty."
+        "es_form": "Mi vecino es [cerrado::zamknięty (osoba)], casi no habla.",
+        "pl_translation": "Mój sąsiad jest zamknięty w sobie, prawie nie mówi."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [conversé::rozmawiałem] con los vecinos.",
-            "pl_translation": "Rozmawiałem z sąsiadami."
+            "es_form": "Ayer yo [conversé::rozmawiałem] con los vecinos.",
+            "pl_translation": "Wczoraj rozmawiałem z sąsiadami."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [conversaste::rozmawiałeś] con los vecinos.",
-            "pl_translation": "Rozmawiałeś z sąsiadami."
+            "es_form": "La semana pasada tú [conversaste::rozmawiałeś] con los vecinos.",
+            "pl_translation": "W zeszłym tygodniu rozmawiałeś z sąsiadami."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [conversó::rozmawiał] con los vecinos.",
-            "pl_translation": "Rozmawiał z sąsiadami."
+            "es_form": "El otro día él [conversó::rozmawiał] con los vecinos.",
+            "pl_translation": "Niedawno rozmawiał z sąsiadami."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [conversamos::rozmawialiśmy] con los vecinos.",
-            "pl_translation": "Rozmawialiśmy z sąsiadami."
+            "es_form": "La semana pasada nosotros [conversamos::rozmawialiśmy] con los vecinos.",
+            "pl_translation": "W zeszłym tygodniu rozmawialiśmy z sąsiadami."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [conversasteis::rozmawialiście] con los vecinos.",
-            "pl_translation": "Rozmawialiście z sąsiadami."
+            "es_form": "El otro día vosotros [conversasteis::rozmawialiście] con los vecinos.",
+            "pl_translation": "Niedawno rozmawialiście z sąsiadami."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [conversaron::rozmawiali] con los vecinos.",
-            "pl_translation": "Rozmawiali z sąsiadami."
+            "es_form": "Ayer ellos [conversaron::rozmawiali] con los vecinos.",
+            "pl_translation": "Wczoraj rozmawiali z sąsiadami."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [conversaré::będę rozmawiać] con los vecinos.",
-            "pl_translation": "Będę rozmawiać z sąsiadami."
+            "es_form": "Mañana yo [conversaré::będę rozmawiać] con los vecinos.",
+            "pl_translation": "Jutro będę rozmawiać z sąsiadami."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [conversarás::będziesz rozmawiać] con los vecinos.",
-            "pl_translation": "Będziesz rozmawiać z sąsiadami."
+            "es_form": "La próxima semana tú [conversarás::będziesz rozmawiać] con los vecinos.",
+            "pl_translation": "W przyszłym tygodniu będziesz rozmawiać z sąsiadami."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [conversará::będzie rozmawiać] con los vecinos.",
-            "pl_translation": "Będzie rozmawiać z sąsiadami."
+            "es_form": "Pronto él [conversará::będzie rozmawiać] con los vecinos.",
+            "pl_translation": "Wkrótce będzie rozmawiać z sąsiadami."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [conversaremos::będziemy rozmawiać] con los vecinos.",
-            "pl_translation": "Będziemy rozmawiać z sąsiadami."
+            "es_form": "La próxima semana nosotros [conversaremos::będziemy rozmawiać] con los vecinos.",
+            "pl_translation": "W przyszłym tygodniu będziemy rozmawiać z sąsiadami."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [conversaréis::będziecie rozmawiać] con los vecinos.",
-            "pl_translation": "Będziecie rozmawiać z sąsiadami."
+            "es_form": "Pronto vosotros [conversaréis::będziecie rozmawiać] con los vecinos.",
+            "pl_translation": "Wkrótce będziecie rozmawiać z sąsiadami."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [conversarán::będą rozmawiać] con los vecinos.",
-            "pl_translation": "Będą rozmawiać z sąsiadami."
+            "es_form": "Mañana ellos [conversarán::będą rozmawiać] con los vecinos.",
+            "pl_translation": "Jutro będą rozmawiać z sąsiadami."
           }
         ]
       }

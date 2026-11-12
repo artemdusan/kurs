@@ -5,16 +5,16 @@
     "pl_word": "mydło",
     "examples": [
       {
-        "es_form": "¿Dónde está [el jabón::mydło]?",
-        "pl_translation": "Gdzie jest mydło?"
+        "es_form": "Me lavo las manos con [el jabón::mydło].",
+        "pl_translation": "Myję ręce mydłem."
       },
       {
-        "es_form": "Necesito [el jabón::mydło] nuevo.",
-        "pl_translation": "Potrzebuję nowego mydła."
+        "es_form": "[El jabón::mydło] huele a flores.",
+        "pl_translation": "Mydło pachnie kwiatami."
       },
       {
-        "es_form": "[El jabón::mydło] está aquí.",
-        "pl_translation": "Mydło jest tutaj."
+        "es_form": "No queda [el jabón::mydło] en el baño.",
+        "pl_translation": "W łazience nie ma już mydła."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "szampon",
     "examples": [
       {
-        "es_form": "No es [el champú::szampon].",
-        "pl_translation": "To nie jest szampon."
+        "es_form": "Me lavo el pelo con [el champú::szampon].",
+        "pl_translation": "Myję włosy szamponem."
       },
       {
-        "es_form": "Este es [el champú::szampon].",
-        "pl_translation": "To jest szampon."
+        "es_form": "[El champú::szampon] está en la ducha.",
+        "pl_translation": "Szampon jest pod prysznicem."
       },
       {
-        "es_form": "[El champú::szampon] está aquí.",
-        "pl_translation": "Szampon jest tutaj."
+        "es_form": "Compré [el champú::szampon] para niños.",
+        "pl_translation": "Kupiłem szampon dla dzieci."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "pasta do zębów",
     "examples": [
       {
-        "es_form": "Esta es [la pasta de dientes::pasta do zębów].",
-        "pl_translation": "To jest pasta do zębów."
+        "es_form": "No queda [la pasta de dientes::pasta do zębów].",
+        "pl_translation": "Nie ma już pasty do zębów."
       },
       {
-        "es_form": "¿Dónde está [la pasta de dientes::pasta do zębów]?",
-        "pl_translation": "Gdzie jest pasta do zębów?"
+        "es_form": "[La pasta de dientes::pasta do zębów] sabe a menta.",
+        "pl_translation": "Pasta do zębów ma smak mięty."
       },
       {
-        "es_form": "[La pasta de dientes::pasta do zębów] está aquí.",
-        "pl_translation": "Pasta do zębów jest tutaj."
+        "es_form": "Compro [la pasta de dientes::pasta do zębów] en el supermercado.",
+        "pl_translation": "Kupuję pastę do zębów w supermarkecie."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "szczoteczka do zębów",
     "examples": [
       {
-        "es_form": "Este es [el cepillo de dientes::szczoteczka do zębów].",
-        "pl_translation": "To jest szczoteczka do zębów."
+        "es_form": "Cambio [el cepillo de dientes::szczoteczka do zębów] cada tres meses.",
+        "pl_translation": "Wymieniam szczoteczkę do zębów co trzy miesiące."
       },
       {
-        "es_form": "¿Dónde está [el cepillo de dientes::szczoteczka do zębów]?",
-        "pl_translation": "Gdzie jest szczoteczka do zębów?"
+        "es_form": "[El cepillo de dientes::szczoteczka do zębów] azul es mío.",
+        "pl_translation": "Niebieska szczoteczka do zębów jest moja."
       },
       {
-        "es_form": "No es [el cepillo de dientes::szczoteczka do zębów].",
-        "pl_translation": "To nie jest szczoteczka do zębów."
+        "es_form": "Olvidé [el cepillo de dientes::szczoteczka do zębów] en el hotel.",
+        "pl_translation": "Zapomniałem szczoteczki do zębów w hotelu."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "ręcznik",
     "examples": [
       {
-        "es_form": "Esta es [la toalla::ręcznik].",
-        "pl_translation": "To jest ręcznik."
+        "es_form": "Me seco con [la toalla::ręcznik].",
+        "pl_translation": "Wycieram się ręcznikiem."
       },
       {
-        "es_form": "Necesito [la toalla::ręcznik] nueva.",
-        "pl_translation": "Potrzebuję nowego ręcznika."
+        "es_form": "[La toalla::ręcznik] está mojada.",
+        "pl_translation": "Ręcznik jest mokry."
       },
       {
-        "es_form": "¿Dónde está [la toalla::ręcznik]?",
-        "pl_translation": "Gdzie jest ręcznik?"
+        "es_form": "Llevo [la toalla::ręcznik] a la playa.",
+        "pl_translation": "Zabieram ręcznik na plażę."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "grzebień",
     "examples": [
       {
-        "es_form": "No es [el peine::grzebień].",
-        "pl_translation": "To nie jest grzebień."
+        "es_form": "Me arreglo el pelo con [el peine::grzebień].",
+        "pl_translation": "Układam włosy grzebieniem."
       },
       {
-        "es_form": "Necesito [el peine::grzebień] nuevo.",
-        "pl_translation": "Potrzebuję nowego grzebienia."
+        "es_form": "[El peine::grzebień] está en el baño.",
+        "pl_translation": "Grzebień jest w łazience."
       },
       {
-        "es_form": "Este es [el peine::grzebień].",
-        "pl_translation": "To jest grzebień."
+        "es_form": "Perdí [el peine::grzebień] en el viaje.",
+        "pl_translation": "Zgubiłem grzebień w podróży."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "perfumy",
     "examples": [
       {
-        "es_form": "¿Dónde está [el perfume::perfumy]?",
-        "pl_translation": "Gdzie są perfumy?"
+        "es_form": "Me gusta [el perfume::perfumy] de mi madre.",
+        "pl_translation": "Lubię perfumy mojej mamy."
       },
       {
-        "es_form": "[El perfume::perfumy] está sobre la mesa.",
-        "pl_translation": "Perfumy są na stole."
+        "es_form": "[El perfume::perfumy] huele a rosas.",
+        "pl_translation": "Perfumy pachną różami."
       },
       {
-        "es_form": "[El perfume::perfumy] está aquí.",
-        "pl_translation": "Perfumy są tutaj."
+        "es_form": "Regalo [el perfume::perfumy] a mi mujer.",
+        "pl_translation": "Daję żonie perfumy w prezencie."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "krem",
     "examples": [
       {
-        "es_form": "No es [la crema::krem].",
-        "pl_translation": "To nie jest krem."
+        "es_form": "Uso [la crema::krem] para las manos.",
+        "pl_translation": "Używam kremu do rąk."
       },
       {
-        "es_form": "Esta es [la crema::krem].",
-        "pl_translation": "To jest krem."
+        "es_form": "[La crema::krem] protege del sol.",
+        "pl_translation": "Krem chroni przed słońcem."
       },
       {
-        "es_form": "¿Dónde está [la crema::krem]?",
-        "pl_translation": "Gdzie jest krem?"
+        "es_form": "Pongo [la crema::krem] en la cara.",
+        "pl_translation": "Nakładam krem na twarz."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "dezodorant",
     "examples": [
       {
-        "es_form": "Este es [el desodorante::dezodorant].",
-        "pl_translation": "To jest dezodorant."
+        "es_form": "Uso [el desodorante::dezodorant] después de la ducha.",
+        "pl_translation": "Używam dezodorantu po prysznicu."
       },
       {
-        "es_form": "¿Dónde está [el desodorante::dezodorant]?",
-        "pl_translation": "Gdzie jest dezodorant?"
+        "es_form": "[El desodorante::dezodorant] huele muy bien.",
+        "pl_translation": "Dezodorant pachnie bardzo ładnie."
       },
       {
-        "es_form": "Necesito [el desodorante::dezodorant] nuevo.",
-        "pl_translation": "Potrzebuję nowego dezodorantu."
+        "es_form": "Compré [el desodorante::dezodorant] sin perfume.",
+        "pl_translation": "Kupiłem dezodorant bez zapachu."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "maszynka do golenia",
     "examples": [
       {
-        "es_form": "¿Dónde está [la afeitadora::maszynka do golenia]?",
-        "pl_translation": "Gdzie jest maszynka do golenia?"
+        "es_form": "[La afeitadora::maszynka do golenia] no funciona.",
+        "pl_translation": "Maszynka do golenia nie działa."
       },
       {
-        "es_form": "[La afeitadora::maszynka do golenia] está aquí.",
-        "pl_translation": "Maszynka do golenia jest tutaj."
+        "es_form": "Mi padre usa [la afeitadora::maszynka do golenia] cada mañana.",
+        "pl_translation": "Mój tata używa maszynki do golenia każdego ranka."
       },
       {
-        "es_form": "Necesito [la afeitadora::maszynka do golenia] nueva.",
-        "pl_translation": "Potrzebuję nowej maszynki do golenia."
+        "es_form": "Cargo [la afeitadora::maszynka do golenia] por la noche.",
+        "pl_translation": "Ładuję maszynkę do golenia w nocy."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "czysty",
     "examples": [
       {
-        "es_form": "Es muy [limpio::czysty].",
-        "pl_translation": "Jest bardzo czysty."
+        "es_form": "El baño está [limpio::czysty].",
+        "pl_translation": "Łazienka jest czysta."
       },
       {
-        "es_form": "Parece [limpio::czysty].",
-        "pl_translation": "Wydaje się czysty."
+        "es_form": "Necesito un vaso [limpio::czysty].",
+        "pl_translation": "Potrzebuję czystej szklanki."
       },
       {
-        "es_form": "Es demasiado [limpio::czysty].",
-        "pl_translation": "Jest zbyt czysty."
+        "es_form": "El suelo ya está [limpio::czysty].",
+        "pl_translation": "Podłoga jest już czysta."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "brudny",
     "examples": [
       {
-        "es_form": "Es muy [sucio::brudny].",
-        "pl_translation": "Jest bardzo brudny."
+        "es_form": "El coche está muy [sucio::brudny].",
+        "pl_translation": "Samochód jest bardzo brudny."
       },
       {
-        "es_form": "Parece [sucio::brudny].",
-        "pl_translation": "Wydaje się brudny."
+        "es_form": "Tengo el pelo [sucio::brudny].",
+        "pl_translation": "Mam brudne włosy."
       },
       {
-        "es_form": "Es demasiado [sucio::brudny].",
-        "pl_translation": "Jest zbyt brudny."
+        "es_form": "El plato [sucio::brudny] está en la cocina.",
+        "pl_translation": "Brudny talerz jest w kuchni."
       }
     ]
   },

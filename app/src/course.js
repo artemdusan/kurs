@@ -1,4 +1,8 @@
 import { db, getMeta } from './db.js';
+import { splitArticle } from './engine/answer.js';
+
+// Hasło bez rodzajnika i wielkości liter — do wykrycia, że w slocie jest inne słowo.
+const headword = (es) => splitArticle(String(es || '').toLowerCase()).rest;
 
 // Ładowanie danych kursu (indeks + lekcje) i import słów do IndexedDB.
 // Id słowa jest deterministyczne (lekcja + typ + pozycja w lekcji) — identyczne
@@ -36,7 +40,7 @@ function formSlotId(lesson, verbOrdinal, grammar) {
 // Podbij, gdy zmienia się sposób budowania rekordów z plików lekcji —
 // zaimportowane lekcje zostaną wtedy zaktualizowane (bez utraty postępów,
 // bo id słowa zależy tylko od jego pozycji w lekcji, nie od treści).
-export const CONTENT_VERSION = 8;
+export const CONTENT_VERSION = 9;
 
 /** Importuje słowa lekcji do bazy (idempotentnie). Zwraca liczbę nowych słów. */
 export async function ensureLessonImported(lessonNumber) {
@@ -88,7 +92,7 @@ export async function ensureLessonImported(lessonNumber) {
   }
 
   let added = 0;
-  await db.transaction('rw', db.words, db.meta, async () => {
+  await db.transaction('rw', db.words, db.meta, db.progress, async () => {
     for (const data of rows) {
       const current = await db.words.get(data.id);
       if (current) {
@@ -99,6 +103,17 @@ export async function ensureLessonImported(lessonNumber) {
           JSON.stringify(current.examples) !== JSON.stringify(data.examples);
         if (changed) {
           await db.words.update(data.id, { es: data.es, pl: data.pl, examples: data.examples, updated_at: now });
+          // W slocie jest teraz inne słowo (usunięty duplikat hasła) — stary
+          // poziom dotyczył poprzedniego słowa, więc nauka zaczyna się od 1.
+          if (headword(current.es) !== headword(data.es)) {
+            const p = await db.progress.get(data.id);
+            if (p && !p.deleted && p.level > 1) {
+              await db.progress.put({
+                ...p, level: 1, lastLevelChangeAt: 0, lastLevelChangeDay: '', lastLevelDropAt: 0,
+                updated_at: Math.max(now, (p.updated_at || 0) + 1),
+              });
+            }
+          }
         }
         continue;
       }

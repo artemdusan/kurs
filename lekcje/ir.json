@@ -5,16 +5,16 @@
     "pl_word": "samochód",
     "examples": [
       {
-        "es_form": "Este es [el coche::samochód].",
-        "pl_translation": "To jest samochód."
+        "es_form": "Voy al trabajo en [el coche::samochód].",
+        "pl_translation": "Jadę do pracy samochodem."
       },
       {
-        "es_form": "¿Dónde está [el coche::samochód]?",
-        "pl_translation": "Gdzie jest samochód?"
+        "es_form": "[El coche::samochód] de mi padre es rojo.",
+        "pl_translation": "Samochód mojego taty jest czerwony."
       },
       {
-        "es_form": "[El coche::samochód] está aquí.",
-        "pl_translation": "Samochód jest tutaj."
+        "es_form": "Lavo [el coche::samochód] los domingos.",
+        "pl_translation": "Myję samochód w niedziele."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "autobus",
     "examples": [
       {
-        "es_form": "Este es [el autobús::autobus].",
-        "pl_translation": "To jest autobus."
+        "es_form": "Espero [el autobús::autobus] en la parada.",
+        "pl_translation": "Czekam na autobus na przystanku."
       },
       {
-        "es_form": "No es [el autobús::autobus].",
-        "pl_translation": "To nie jest autobus."
+        "es_form": "[El autobús::autobus] llega a las ocho.",
+        "pl_translation": "Autobus przyjeżdża o ósmej."
       },
       {
-        "es_form": "[El autobús::autobus] está aquí.",
-        "pl_translation": "Autobus jest tutaj."
+        "es_form": "Voy a la escuela en [el autobús::autobus].",
+        "pl_translation": "Jadę do szkoły autobusem."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "pociąg",
     "examples": [
       {
-        "es_form": "Este es [el tren::pociąg].",
-        "pl_translation": "To jest pociąg."
+        "es_form": "[El tren::pociąg] sale a las diez.",
+        "pl_translation": "Pociąg odjeżdża o dziesiątej."
       },
       {
-        "es_form": "¿Dónde está [el tren::pociąg]?",
-        "pl_translation": "Gdzie jest pociąg?"
+        "es_form": "Viajo a Madrid en [el tren::pociąg].",
+        "pl_translation": "Jadę do Madrytu pociągiem."
       },
       {
-        "es_form": "[El tren::pociąg] está aquí.",
-        "pl_translation": "Pociąg jest tutaj."
+        "es_form": "Leo un libro en [el tren::pociąg].",
+        "pl_translation": "Czytam książkę w pociągu."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "samolot",
     "examples": [
       {
-        "es_form": "Este es [el avión::samolot].",
-        "pl_translation": "To jest samolot."
+        "es_form": "[El avión::samolot] llega a Madrid a las seis.",
+        "pl_translation": "Samolot przylatuje do Madrytu o szóstej."
       },
       {
-        "es_form": "¿Dónde está [el avión::samolot]?",
-        "pl_translation": "Gdzie jest samolot?"
+        "es_form": "Viajamos a México en [el avión::samolot].",
+        "pl_translation": "Lecimy do Meksyku samolotem."
       },
       {
-        "es_form": "No es [el avión::samolot].",
-        "pl_translation": "To nie jest samolot."
+        "es_form": "Duermo en [el avión::samolot] durante el viaje.",
+        "pl_translation": "Śpię w samolocie podczas podróży."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "rower",
     "examples": [
       {
-        "es_form": "No es [la bicicleta::rower].",
-        "pl_translation": "To nie jest rower."
+        "es_form": "Voy al parque en [la bicicleta::rower].",
+        "pl_translation": "Jadę do parku rowerem."
       },
       {
-        "es_form": "Esta es [la bicicleta::rower].",
-        "pl_translation": "To jest rower."
+        "es_form": "[La bicicleta::rower] de mi hijo es azul.",
+        "pl_translation": "Rower mojego syna jest niebieski."
       },
       {
-        "es_form": "¿Dónde está [la bicicleta::rower]?",
-        "pl_translation": "Gdzie jest rower?"
+        "es_form": "Dejo [la bicicleta::rower] en el garaje.",
+        "pl_translation": "Zostawiam rower w garażu."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "bilet",
     "examples": [
       {
-        "es_form": "No es [el billete::bilet].",
-        "pl_translation": "To nie jest bilet."
+        "es_form": "Compro [el billete::bilet] en la estación.",
+        "pl_translation": "Kupuję bilet na dworcu."
       },
       {
-        "es_form": "¿Dónde está [el billete::bilet]?",
-        "pl_translation": "Gdzie jest bilet?"
+        "es_form": "[El billete::bilet] de tren es caro.",
+        "pl_translation": "Bilet na pociąg jest drogi."
       },
       {
-        "es_form": "Este es [el billete::bilet].",
-        "pl_translation": "To jest bilet."
+        "es_form": "No encuentro [el billete::bilet] de autobús.",
+        "pl_translation": "Nie mogę znaleźć biletu autobusowego."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "przystanek",
     "examples": [
       {
-        "es_form": "[La parada::przystanek] abre a las ocho.",
-        "pl_translation": "Przystanek otwiera się o ósmej."
+        "es_form": "Espero el autobús en [la parada::przystanek].",
+        "pl_translation": "Czekam na autobus na przystanku."
       },
       {
-        "es_form": "Esta es [la parada::przystanek].",
-        "pl_translation": "To jest przystanek."
+        "es_form": "[La parada::przystanek] está delante de mi casa.",
+        "pl_translation": "Przystanek jest przed moim domem."
       },
       {
-        "es_form": "¿Dónde está [la parada::przystanek]?",
-        "pl_translation": "Gdzie jest przystanek?"
+        "es_form": "Bajo en [la parada::przystanek] del parque.",
+        "pl_translation": "Wysiadam na przystanku przy parku."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "dworzec, stacja",
     "examples": [
       {
-        "es_form": "Esta es [la estación::dworzec].",
-        "pl_translation": "To jest dworzec."
+        "es_form": "El tren llega a [la estación::dworzec, stacja] a las nueve.",
+        "pl_translation": "Pociąg przyjeżdża na dworzec o dziewiątej."
       },
       {
-        "es_form": "¿Dónde está [la estación::dworzec]?",
-        "pl_translation": "Gdzie jest dworzec?"
+        "es_form": "[La estación::dworzec, stacja] está en el centro de la ciudad.",
+        "pl_translation": "Dworzec jest w centrum miasta."
       },
       {
-        "es_form": "No es [la estación::dworzec].",
-        "pl_translation": "To nie jest dworzec."
+        "es_form": "Te espero en [la estación::dworzec, stacja].",
+        "pl_translation": "Czekam na ciebie na dworcu."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "lotnisko",
     "examples": [
       {
-        "es_form": "[El aeropuerto::lotnisko] está cerca de aquí.",
-        "pl_translation": "Lotnisko jest niedaleko stąd."
+        "es_form": "Voy en taxi hasta [el aeropuerto::lotnisko].",
+        "pl_translation": "Jadę taksówką na lotnisko."
       },
       {
-        "es_form": "¿Dónde está [el aeropuerto::lotnisko]?",
-        "pl_translation": "Gdzie jest lotnisko?"
+        "es_form": "[El aeropuerto::lotnisko] está lejos de la ciudad.",
+        "pl_translation": "Lotnisko jest daleko od miasta."
       },
       {
-        "es_form": "[El aeropuerto::lotnisko] está aquí.",
-        "pl_translation": "Lotnisko jest tutaj."
+        "es_form": "Mi tío trabaja en [el aeropuerto::lotnisko].",
+        "pl_translation": "Mój wujek pracuje na lotnisku."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "droga, szosa",
     "examples": [
       {
-        "es_form": "¿Dónde está [la carretera::droga]?",
-        "pl_translation": "Gdzie jest droga?"
+        "es_form": "[La carretera::droga, szosa] está cerrada por la nieve.",
+        "pl_translation": "Droga jest zamknięta z powodu śniegu."
       },
       {
-        "es_form": "[La carretera::droga] está aquí.",
-        "pl_translation": "Droga jest tutaj."
+        "es_form": "Hay muchos coches en [la carretera::droga, szosa].",
+        "pl_translation": "Na szosie jest dużo samochodów."
       },
       {
-        "es_form": "No es [la carretera::droga].",
-        "pl_translation": "To nie jest droga."
+        "es_form": "[La carretera::droga, szosa] va hasta el mar.",
+        "pl_translation": "Droga prowadzi aż do morza."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "szybki",
     "examples": [
       {
-        "es_form": "Es muy [rápido::szybki].",
-        "pl_translation": "Jest bardzo szybki."
+        "es_form": "El tren es muy [rápido::szybki].",
+        "pl_translation": "Pociąg jest bardzo szybki."
       },
       {
-        "es_form": "No es [rápido::szybki].",
-        "pl_translation": "Nie jest szybki."
+        "es_form": "Tengo un coche [rápido::szybki].",
+        "pl_translation": "Mam szybki samochód."
       },
       {
-        "es_form": "Parece [rápido::szybki].",
-        "pl_translation": "Wydaje się szybki."
+        "es_form": "Mi perro es [rápido::szybki] como el viento.",
+        "pl_translation": "Mój pies jest szybki jak wiatr."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "wolny (powolny)",
     "examples": [
       {
-        "es_form": "Es muy [lento::wolny].",
-        "pl_translation": "Jest bardzo wolny."
+        "es_form": "El autobús es muy [lento::wolny (powolny)].",
+        "pl_translation": "Autobus jest bardzo wolny."
       },
       {
-        "es_form": "No es [lento::wolny].",
-        "pl_translation": "Nie jest wolny."
+        "es_form": "Mi ordenador es viejo y [lento::wolny (powolny)].",
+        "pl_translation": "Mój komputer jest stary i wolny."
       },
       {
-        "es_form": "Parece [lento::wolny].",
-        "pl_translation": "Wydaje się wolny."
+        "es_form": "Este tren es más [lento::wolny (powolny)] que el coche.",
+        "pl_translation": "Ten pociąg jest wolniejszy niż samochód."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [fui::poszedłem] al trabajo.",
-            "pl_translation": "Poszedłem do pracy."
+            "es_form": "Ayer yo [fui::poszedłem] al trabajo.",
+            "pl_translation": "Wczoraj poszedłem do pracy."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [fuiste::poszedłeś] al trabajo.",
-            "pl_translation": "Poszedłeś do pracy."
+            "es_form": "La semana pasada tú [fuiste::poszedłeś] al trabajo.",
+            "pl_translation": "W zeszłym tygodniu poszedłeś do pracy."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [fue::poszedł] al trabajo.",
-            "pl_translation": "Poszedł do pracy."
+            "es_form": "El otro día él [fue::poszedł] al trabajo.",
+            "pl_translation": "Niedawno poszedł do pracy."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [fuimos::poszliśmy] al trabajo.",
-            "pl_translation": "Poszliśmy do pracy."
+            "es_form": "La semana pasada nosotros [fuimos::poszliśmy] al trabajo.",
+            "pl_translation": "W zeszłym tygodniu poszliśmy do pracy."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [fuisteis::poszliście] al trabajo.",
-            "pl_translation": "Poszliście do pracy."
+            "es_form": "El otro día vosotros [fuisteis::poszliście] al trabajo.",
+            "pl_translation": "Niedawno poszliście do pracy."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [fueron::poszli] al trabajo.",
-            "pl_translation": "Poszli do pracy."
+            "es_form": "Ayer ellos [fueron::poszli] al trabajo.",
+            "pl_translation": "Wczoraj poszli do pracy."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [iré::będę iść] al trabajo.",
-            "pl_translation": "Będę iść do pracy."
+            "es_form": "Mañana yo [iré::będę iść] al trabajo.",
+            "pl_translation": "Jutro będę iść do pracy."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [irás::będziesz iść] al trabajo.",
-            "pl_translation": "Będziesz iść do pracy."
+            "es_form": "La próxima semana tú [irás::będziesz iść] al trabajo.",
+            "pl_translation": "W przyszłym tygodniu będziesz iść do pracy."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [irá::będzie iść] al trabajo.",
-            "pl_translation": "Będzie iść do pracy."
+            "es_form": "Pronto él [irá::będzie iść] al trabajo.",
+            "pl_translation": "Wkrótce będzie iść do pracy."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [iremos::będziemy iść] al trabajo.",
-            "pl_translation": "Będziemy iść do pracy."
+            "es_form": "La próxima semana nosotros [iremos::będziemy iść] al trabajo.",
+            "pl_translation": "W przyszłym tygodniu będziemy iść do pracy."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [iréis::będziecie iść] al trabajo.",
-            "pl_translation": "Będziecie iść do pracy."
+            "es_form": "Pronto vosotros [iréis::będziecie iść] al trabajo.",
+            "pl_translation": "Wkrótce będziecie iść do pracy."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [irán::będą iść] al trabajo.",
-            "pl_translation": "Będą iść do pracy."
+            "es_form": "Mañana ellos [irán::będą iść] al trabajo.",
+            "pl_translation": "Jutro będą iść do pracy."
           }
         ]
       }

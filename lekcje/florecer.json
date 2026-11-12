@@ -5,16 +5,16 @@
     "pl_word": "łąka",
     "examples": [
       {
-        "es_form": "[El prado::łąka] está cerca de aquí.",
-        "pl_translation": "Łąka jest niedaleko stąd."
-      },
-      {
-        "es_form": "[El prado::łąka] es muy bonito en primavera.",
-        "pl_translation": "Łąka jest bardzo piękna wiosną."
+        "es_form": "Las vacas comen en [el prado::łąka].",
+        "pl_translation": "Krowy pasą się na łące."
       },
       {
         "es_form": "[El prado::łąka] está lleno de flores.",
         "pl_translation": "Łąka jest pełna kwiatów."
+      },
+      {
+        "es_form": "Hicimos un pícnic en [el prado::łąka].",
+        "pl_translation": "Zrobiliśmy piknik na łące."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "pole",
     "examples": [
       {
-        "es_form": "[El campo::pole] está cerca de aquí.",
-        "pl_translation": "Pole jest niedaleko stąd."
+        "es_form": "Trabaja en [el campo::pole] todo el día.",
+        "pl_translation": "Pracuje w polu cały dzień."
       },
       {
-        "es_form": "Este es [el campo::pole].",
-        "pl_translation": "To jest pole."
+        "es_form": "[El campo::pole] de trigo es amarillo.",
+        "pl_translation": "Pole pszenicy jest żółte."
       },
       {
-        "es_form": "¿Dónde está [el campo::pole]?",
-        "pl_translation": "Gdzie jest pole?"
+        "es_form": "Paseamos por [el campo::pole].",
+        "pl_translation": "Spacerujemy przez pole."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "staw",
     "examples": [
       {
-        "es_form": "[El estanque::staw] está lleno de peces.",
-        "pl_translation": "Staw jest pełen ryb."
+        "es_form": "Hay ranas en [el estanque::staw].",
+        "pl_translation": "W stawie są żaby."
       },
       {
-        "es_form": "Nadamos en [el estanque::staw].",
-        "pl_translation": "Pływaliśmy w stawie."
+        "es_form": "[El estanque::staw] del parque tiene patos.",
+        "pl_translation": "Staw w parku ma kaczki."
       },
       {
-        "es_form": "[El estanque::staw] es un lugar muy tranquilo.",
-        "pl_translation": "Staw to bardzo spokojne miejsce."
+        "es_form": "El niño tira piedras en [el estanque::staw].",
+        "pl_translation": "Dziecko wrzuca kamienie do stawu."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "wodospad",
     "examples": [
       {
-        "es_form": "Esta es [la cascada::wodospad].",
-        "pl_translation": "To jest wodospad."
+        "es_form": "Nos bañamos bajo [la cascada::wodospad].",
+        "pl_translation": "Kąpiemy się pod wodospadem."
       },
       {
-        "es_form": "Voy a [la cascada::wodospad] cada día.",
-        "pl_translation": "Chodzę do wodospadu codziennie."
+        "es_form": "[La cascada::wodospad] tiene veinte metros.",
+        "pl_translation": "Wodospad ma dwadzieścia metrów."
       },
       {
-        "es_form": "[La cascada::wodospad] es impresionante.",
-        "pl_translation": "Wodospad jest imponujący."
+        "es_form": "Oigo [la cascada::wodospad] desde lejos.",
+        "pl_translation": "Słyszę wodospad z daleka."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "jaskinia",
     "examples": [
       {
-        "es_form": "Trabajo en [la cueva::jaskinia].",
-        "pl_translation": "Pracuję w jaskini."
+        "es_form": "Entramos en [la cueva::jaskinia] con linternas.",
+        "pl_translation": "Wchodzimy do jaskini z latarkami."
       },
       {
-        "es_form": "¿Dónde está [la cueva::jaskinia]?",
-        "pl_translation": "Gdzie jest jaskinia?"
+        "es_form": "[La cueva::jaskinia] es fría y oscura.",
+        "pl_translation": "Jaskinia jest zimna i ciemna."
       },
       {
-        "es_form": "Visitamos [la cueva::jaskinia] la semana pasada.",
-        "pl_translation": "Odwiedziliśmy jaskinię w zeszłym tygodniu."
+        "es_form": "En [la cueva::jaskinia] viven murciélagos.",
+        "pl_translation": "W jaskini żyją nietoperze."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "klif / urwisko",
     "examples": [
       {
-        "es_form": "[El acantilado::klif ] es muy alto.",
+        "es_form": "Miramos el mar desde [el acantilado::klif / urwisko].",
+        "pl_translation": "Patrzymy na morze z klifu."
+      },
+      {
+        "es_form": "[El acantilado::klif / urwisko] es muy alto.",
         "pl_translation": "Klif jest bardzo wysoki."
       },
       {
-        "es_form": "¿Has visto [el acantilado::klif ] desde el mar?",
-        "pl_translation": "Widziałeś klif od strony morza?"
-      },
-      {
-        "es_form": "Caminamos por [el acantilado::klif ].",
-        "pl_translation": "Spacerowaliśmy wzdłuż klifu."
+        "es_form": "No te acerques tanto, [el acantilado::klif / urwisko] es peligroso.",
+        "pl_translation": "Nie podchodź tak blisko, urwisko jest niebezpieczne."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "wybrzeże",
     "examples": [
       {
-        "es_form": "[La costa::wybrzeże] está cerca de aquí.",
-        "pl_translation": "Wybrzeże jest niedaleko stąd."
+        "es_form": "Vivo en [la costa::wybrzeże].",
+        "pl_translation": "Mieszkam na wybrzeżu."
       },
       {
-        "es_form": "Esta es [la costa::wybrzeże].",
-        "pl_translation": "To jest wybrzeże."
+        "es_form": "[La costa::wybrzeże] del norte es verde.",
+        "pl_translation": "Północne wybrzeże jest zielone."
       },
       {
-        "es_form": "[La costa::wybrzeże] es preciosa en verano.",
-        "pl_translation": "Wybrzeże jest przepiękne latem."
+        "es_form": "Recorrimos [la costa::wybrzeże] en coche.",
+        "pl_translation": "Przejechaliśmy wybrzeże samochodem."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "fala",
     "examples": [
       {
-        "es_form": "[La ola::fala] era muy grande.",
-        "pl_translation": "Fala była bardzo duża."
+        "es_form": "[La ola::fala] me tiró al agua.",
+        "pl_translation": "Fala wrzuciła mnie do wody."
       },
       {
-        "es_form": "[La ola::fala] rompió contra las rocas.",
-        "pl_translation": "Fala rozbiła się o skały."
+        "es_form": "El surfista espera [la ola::fala] perfecta.",
+        "pl_translation": "Surfer czeka na idealną falę."
       },
       {
-        "es_form": "Surfeamos [la ola::fala] todo el día.",
-        "pl_translation": "Serfowaliśmy na fali cały dzień."
+        "es_form": "[La ola::fala] de calor llega mañana.",
+        "pl_translation": "Fala upałów przyjdzie jutro."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "piasek",
     "examples": [
       {
+        "es_form": "Los niños juegan con [la arena::piasek].",
+        "pl_translation": "Dzieci bawią się piaskiem."
+      },
+      {
         "es_form": "[La arena::piasek] está muy caliente.",
         "pl_translation": "Piasek jest bardzo gorący."
       },
       {
-        "es_form": "Jugamos en [la arena::piasek] ayer.",
-        "pl_translation": "Bawiliśmy się w piasku wczoraj."
-      },
-      {
-        "es_form": "¿Dónde está [la arena::piasek]?",
-        "pl_translation": "Gdzie jest piasek?"
+        "es_form": "Tengo [la arena::piasek] en los zapatos.",
+        "pl_translation": "Mam piasek w butach."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "błoto",
     "examples": [
       {
-        "es_form": "Este es [el barro::błoto].",
-        "pl_translation": "To jest błoto."
+        "es_form": "El perro juega en [el barro::błoto].",
+        "pl_translation": "Pies bawi się w błocie."
       },
       {
-        "es_form": "¿Dónde está [el barro::błoto]?",
-        "pl_translation": "Gdzie jest błoto?"
+        "es_form": "[El barro::błoto] mancha los zapatos.",
+        "pl_translation": "Błoto brudzi buty."
       },
       {
-        "es_form": "[El barro::błoto] está por todas partes después de la lluvia.",
-        "pl_translation": "Błoto jest wszędzie po deszczu."
+        "es_form": "Después de la lluvia hay [el barro::błoto].",
+        "pl_translation": "Po deszczu jest błoto."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "malowniczy",
     "examples": [
       {
-        "es_form": "No es [pintoresco::malowniczy].",
-        "pl_translation": "Nie jest malowniczy."
+        "es_form": "Es un pueblo muy [pintoresco::malowniczy].",
+        "pl_translation": "To bardzo malownicze miasteczko."
       },
       {
-        "es_form": "Parece [pintoresco::malowniczy].",
-        "pl_translation": "Wydaje się malowniczy."
+        "es_form": "Seguimos un camino [pintoresco::malowniczy].",
+        "pl_translation": "Idziemy malowniczą drogą."
       },
       {
-        "es_form": "Es demasiado [pintoresco::malowniczy].",
-        "pl_translation": "Jest zbyt malowniczy."
+        "es_form": "El puerto es pequeño y [pintoresco::malowniczy].",
+        "pl_translation": "Port jest mały i malowniczy."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "dziewiczy / nietknięty",
     "examples": [
       {
-        "es_form": "No es [virgen::dziewiczy / nietknięty].",
-        "pl_translation": "Nie jest dziewiczy / nietknięty."
+        "es_form": "Es un bosque [virgen::dziewiczy / nietknięty].",
+        "pl_translation": "To dziewiczy las."
       },
       {
-        "es_form": "Parece [virgen::dziewiczy / nietknięty].",
-        "pl_translation": "Wydaje się dziewiczy / nietknięty."
+        "es_form": "Quedan pocas playas en estado [virgen::dziewiczy / nietknięty].",
+        "pl_translation": "Zostało niewiele plaż w dziewiczym stanie."
       },
       {
-        "es_form": "Es demasiado [virgen::dziewiczy / nietknięty].",
-        "pl_translation": "Jest zbyt dziewiczy / nietknięty."
+        "es_form": "Uso aceite de oliva [virgen::dziewiczy / nietknięty].",
+        "pl_translation": "Używam oliwy z pierwszego tłoczenia."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [florecí::zakwitłem] en primavera.",
-            "pl_translation": "Zakwitłem na wiosnę."
+            "es_form": "Ayer yo [florecí::zakwitłem] en primavera.",
+            "pl_translation": "Wczoraj zakwitłem na wiosnę."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [floreciste::zakwitłeś] en primavera.",
-            "pl_translation": "Zakwitłeś na wiosnę."
+            "es_form": "La semana pasada tú [floreciste::zakwitłeś] en primavera.",
+            "pl_translation": "W zeszłym tygodniu zakwitłeś na wiosnę."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [floreció::zakwitł] en primavera.",
-            "pl_translation": "Zakwitł na wiosnę."
+            "es_form": "El otro día él [floreció::zakwitł] en primavera.",
+            "pl_translation": "Niedawno zakwitł na wiosnę."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [florecimos::zakwitliśmy] en primavera.",
-            "pl_translation": "Zakwitliśmy na wiosnę."
+            "es_form": "La semana pasada nosotros [florecimos::zakwitliśmy] en primavera.",
+            "pl_translation": "W zeszłym tygodniu zakwitliśmy na wiosnę."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [florecisteis::zakwitliście] en primavera.",
-            "pl_translation": "Zakwitliście na wiosnę."
+            "es_form": "El otro día vosotros [florecisteis::zakwitliście] en primavera.",
+            "pl_translation": "Niedawno zakwitliście na wiosnę."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [florecieron::zakwitli] en primavera.",
-            "pl_translation": "Zakwitli na wiosnę."
+            "es_form": "Ayer ellos [florecieron::zakwitli] en primavera.",
+            "pl_translation": "Wczoraj zakwitli na wiosnę."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [floreceré::będę kwitnąć] en primavera.",
-            "pl_translation": "Będę kwitnąć na wiosnę."
+            "es_form": "Mañana yo [floreceré::będę kwitnąć] en primavera.",
+            "pl_translation": "Jutro będę kwitnąć na wiosnę."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [florecerás::będziesz kwitnąć] en primavera.",
-            "pl_translation": "Będziesz kwitnąć na wiosnę."
+            "es_form": "La próxima semana tú [florecerás::będziesz kwitnąć] en primavera.",
+            "pl_translation": "W przyszłym tygodniu będziesz kwitnąć na wiosnę."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [florecerá::będzie kwitnąć] en primavera.",
-            "pl_translation": "Będzie kwitnąć na wiosnę."
+            "es_form": "Pronto él [florecerá::będzie kwitnąć] en primavera.",
+            "pl_translation": "Wkrótce będzie kwitnąć na wiosnę."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [floreceremos::będziemy kwitnąć] en primavera.",
-            "pl_translation": "Będziemy kwitnąć na wiosnę."
+            "es_form": "La próxima semana nosotros [floreceremos::będziemy kwitnąć] en primavera.",
+            "pl_translation": "W przyszłym tygodniu będziemy kwitnąć na wiosnę."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [floreceréis::będziecie kwitnąć] en primavera.",
-            "pl_translation": "Będziecie kwitnąć na wiosnę."
+            "es_form": "Pronto vosotros [floreceréis::będziecie kwitnąć] en primavera.",
+            "pl_translation": "Wkrótce będziecie kwitnąć na wiosnę."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [florecerán::będą kwitnąć] en primavera.",
-            "pl_translation": "Będą kwitnąć na wiosnę."
+            "es_form": "Mañana ellos [florecerán::będą kwitnąć] en primavera.",
+            "pl_translation": "Jutro będą kwitnąć na wiosnę."
           }
         ]
       }

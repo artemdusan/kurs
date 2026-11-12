@@ -72,15 +72,22 @@ test('old installed PWA upgrades its cached lessons and DB; stats and study time
     await page.reload();
     await expect(page.getByRole('button', { name: 'Gramatyka', exact: true })).toBeVisible();
     // Even a lesson not yet imported is available in the revisioned precache.
-    assert.equal(await page.evaluate(async () => (await fetch('/data/lekcje/votar.json?v=8')).ok), true);
+    assert.equal(await page.evaluate(async () => (await fetch('/data/lekcje/votar.json?v=9')).ok), true);
     await page.locator('.stats-bar').click();
+    // Statystyki mieszczą się na jednym ekranie telefonu, bez przewijania.
+    await expect(page.locator('.stats-one')).toBeVisible();
+    assert.equal(await page.locator('.cal-day').count(), 35);
+    assert.equal(await page.evaluate(() => [...document.querySelectorAll('.stats-one > *')].every((e) => e.getBoundingClientRect().bottom <= window.innerHeight)), true);
+    await page.getByRole('button', { name: /Szczegóły/ }).click();
     await expect(page.getByText('Postęp (7 dni)', { exact: true })).toBeVisible();
     assert.equal(await page.locator('.progress-day').count(), 7);
     assert.equal(await page.locator('.no-data').count(), 6);
-    assert.equal(await page.locator('.time-cell').first().locator('.time-num').textContent(), ' 0');
     assert.equal(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth), true);
     if (process.env.SCREENSHOT_PATH) await page.screenshot({ path: process.env.SCREENSHOT_PATH, fullPage: true });
     await page.getByRole('button', { name: 'Wróć', exact: true }).click();
+    await page.getByRole('button', { name: 'Wróć', exact: true }).click();
+    // Nowe słowo najpierw się przedstawia („Rozumiem”), dopiero potem jest pytanie.
+    const skipIntro = async () => { if (await page.locator('.intro-badge').count()) await page.getByRole('button', { name: 'Rozumiem', exact: true }).click(); };
     await page.getByRole('button', { name: /Rozpocznij sesję/ }).click();
     await expect(page.locator('.prompt-word')).toBeVisible();
     // Persist time before normal session completion, then simulate a reload.
@@ -92,6 +99,7 @@ test('old installed PWA upgrades its cached lessons and DB; stats and study time
     // Submit the same DOM button twice before React can disable it.
     await page.getByRole('button', { name: /Rozpocznij sesję/ }).click();
     await expect(page.locator('.prompt-word')).toBeVisible();
+    await skipIntro();
     if (await page.locator('.mcq-option').count()) {
       await page.locator('.mcq-option').first().evaluate((button) => { button.click(); button.click(); });
     } else {
@@ -103,6 +111,18 @@ test('old installed PWA upgrades its cached lessons and DB; stats and study time
     assert.equal(currentRows.reduce((n, r) => n + r.correct + r.wrong, 0), 1);
     await page.getByRole('button', { name: 'Zakończ sesję' }).click();
     await expect(page.locator('.session-summary')).toBeVisible();
+    // Mini gra: dopasowana para daje punkty i liczy się jako odpowiedź dnia.
+    await page.getByRole('button', { name: /Runda bonusowa/ }).click();
+    await expect(page.locator('.pair-tile').first()).toBeVisible();
+    const words = await readStore('words');
+    const pl = await page.locator('.pair-tile.pl').first().textContent();
+    const es = words.find((w) => w.type !== 'verb_form' && w.pl === pl).es;
+    await page.locator('.pair-tile.pl').first().click();
+    await page.locator('.pair-tile.es').filter({ hasText: es }).first().click();
+    await expect(page.locator('.pairs-score')).toHaveText('10');
+    await page.getByRole('button', { name: 'Zakończ grę' }).click();
+    await expect(page.getByRole('button', { name: /Rozpocznij sesję/ })).toBeVisible();
+    assert.equal((await readStore('dailyCounters')).filter((r) => r.deviceId !== 'legacy').reduce((n, r) => n + r.correct + r.wrong, 0), 2);
     const finishedSeconds = (await readStore('dailyCounters')).reduce((n, r) => n + r.seconds, 0);
     await new Promise((r) => setTimeout(r, 1200));
     assert.equal((await readStore('dailyCounters')).reduce((n, r) => n + r.seconds, 0), finishedSeconds);
