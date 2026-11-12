@@ -38,6 +38,24 @@ Skrypt `scripts/copy-data.mjs` kopiuje dane kursu do `app/public/data` przed dev
   większe przy awansie (złote od poziomu 6), unoszące się punkty w „Parach”, deszcz
   konfetti przy nowej lekcji, kamieniu milowym, rekordzie i sesji bez błędu. Wyłączają
   się przy systemowym „ogranicz ruch”.
+- **Dźwięki 8-bit** (`app/src/sound.js`, Web Audio, bez plików): dobra odpowiedź, błąd,
+  awans, fanfara. Wyłącznik w Ustawieniach.
+- **Seria w sesji**: licznik poprawnych odpowiedzi z rzędu (×N) podkręca efekty i ton dźwięku.
+- **Zadania ze słuchu**: dla kart od poziomu 4 co czwarte pytanie jest dyktandem — lektor
+  czyta słowo, polska podpowiedź i zdanie są ukryte. „Nie mogę teraz słuchać” zamienia
+  zadanie w zwykłe i wyłącza dyktanda do końca sesji. Wyłącznik w Ustawieniach.
+- **Sprint el/la**: 45 sekund zgadywania rodzajnika; zasady punktów jak w „Parach”.
+- **Poziom gracza (XP)**: 10 XP za poprawną odpowiedź, 20 za awans karty, 50 za sesję,
+  100 za wyzwanie dnia. Liczony z liczników dni, więc synchronizuje się razem z nimi
+  (bonus za wyzwania jest zapisany tylko lokalnie).
+- **Wyzwanie dnia**: jedno zadanie wybierane z daty (awanse, poprawne odpowiedzi, minuty,
+  wynik w grze).
+- **Trudne słowa** (Statystyki → Trudne): karty z co najmniej dwiema pomyłkami, od
+  najwyższego odsetka błędów, z powtórką bez limitu czasu.
+- **Ratunek serii**: jeden opuszczony dzień nie przerywa serii, jeśli od poprzedniego
+  ratunku minęło 7 dni nauki. Wynika z samej historii dni, więc jest taki sam na każdym
+  urządzeniu; w kalendarzu uratowany dzień jest niebieski. Przypomnienie Workera o 21:00
+  nadal patrzy tylko na wczorajszą naukę.
 - **Znacznik na ikonie** aplikacji jest widoczny, dopóki dzienny cel nie jest zrobiony
   (Badging API; działa w zainstalowanej PWA).
 

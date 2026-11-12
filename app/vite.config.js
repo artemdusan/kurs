@@ -37,6 +37,7 @@ export default defineConfig({
         // przytrzymanie ikony aplikacji: szybkie wejścia bez przechodzenia przez ekran główny
         shortcuts: [
           { name: 'Szybka sesja 2 min', short_name: '2 min', url: '/?start=quick', icons: [{ src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' }] },
+          { name: 'Sprint el/la', short_name: 'el/la', url: '/?start=sprint', icons: [{ src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' }] },
           { name: 'Pary na czas', short_name: 'Pary', url: '/?start=pairs', icons: [{ src: 'icons/icon-192.png', sizes: '192x192', type: 'image/png' }] },
         ],
         icons: [

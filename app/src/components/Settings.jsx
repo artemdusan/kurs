@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { saveSettings } from '../db.js';
+import { setSoundEnabled, sfx } from '../sound.js';
 import { syncNow, DEFAULT_SYNC_URL, resolveSyncUrl } from '../sync.js';
 import { getPushState, enablePush, disablePush, savePushPrefs } from '../push.js';
 import { CONTENT_VERSION } from '../course.js';
@@ -95,6 +96,18 @@ export default function Settings({ settings, index, onChange, onSynced, onBack }
           type="number" min="1" max="120" value={form.dailyGoalMinutes}
           onChange={(e) => set('dailyGoalMinutes', Number(e.target.value) || 10)}
         />
+      </label>
+
+      <label className="field row">
+        <input
+          type="checkbox" checked={form.sfx !== false}
+          onChange={(e) => { setSoundEnabled(e.target.checked); set('sfx', e.target.checked); if (e.target.checked) sfx.levelUp(); }}
+        />
+        Dźwięki (efekty 8-bit)
+      </label>
+      <label className="field row">
+        <input type="checkbox" checked={form.listening !== false} onChange={(e) => set('listening', e.target.checked)} />
+        Zadania ze słuchu (karty od poziomu 4)
       </label>
 
       <h3>Synchronizacja (opcjonalna)</h3>

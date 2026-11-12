@@ -193,6 +193,20 @@ export async function clearMistake(wordId) {
   });
 }
 
+/** Pula trybu „trudne słowa”: karty z największym odsetkiem błędów (min. 2 pomyłki). */
+export async function buildHardPool(maxLesson, poolSize = SESSION_POOL_SIZE) {
+  const words = await db.words.where('lesson').belowOrEqual(maxLesson).filter((w) => !w.deleted).toArray();
+  const progressMap = await getProgressMap(words.map((w) => w.id));
+  return words
+    .map((word) => ({ word, progress: progressMap.get(word.id) || newProgress(word.id), sessionStreak: 0 }))
+    .filter((e) => (e.progress.wrongTotal || 0) >= 2)
+    .sort((a, b) => {
+      const rate = (e) => e.progress.wrongTotal / (e.progress.wrongTotal + (e.progress.correctTotal || 0));
+      return rate(b) - rate(a) || b.progress.wrongTotal - a.progress.wrongTotal;
+    })
+    .slice(0, poolSize);
+}
+
 /** Liczba słów kwalifikujących się do powtórki (dzisiejsze spadki poziomu). */
 export async function countRecentMistakes(maxLesson) {
   return (await buildMistakesPool(maxLesson, Infinity)).length;

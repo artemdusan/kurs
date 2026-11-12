@@ -100,7 +100,9 @@ test('local date and streak survive DST and expire after a missed day', () => {
   assert.equal(shiftDay('2026-10-26', -1), '2026-10-25');
   const daily = { '2026-03-28': { correct: 1 }, '2026-03-29': { correct: 1 } };
   assert.equal(currentStreak(daily, '2026-03-30').count, 2);
-  assert.equal(currentStreak(daily, '2026-03-31').count, 0);
+  // jeden opuszczony dzień ratuje „zamrożenie”, dwa z rzędu kończą serię
+  assert.deepEqual(currentStreak(daily, '2026-03-31'), { count: 2, lastDay: '2026-03-29', frozen: ['2026-03-30'], freezeAvailable: false });
+  assert.equal(currentStreak(daily, '2026-04-01').count, 0);
   assert.equal(bestStreak(daily), 2);
 });
 
@@ -132,4 +134,21 @@ test('two device counters sum, merging/retries never double-count', () => {
   const b = { day: a.day, deviceId: 'b', correct: 5, seconds: 60 };
   assert.equal(aggregateDays([mergeCounter(a, a), b])[a.day].correct, 15);
   assert.equal(mergeCounter(a, { ...a, correct: 8 }).correct, 10);
+});
+
+test('streak freeze: one missed day per seven days of study; a second gap inside that window ends the streak', () => {
+  const on = (...days) => Object.fromEntries(days.map((d) => ['2026-11-' + String(d).padStart(2, '0'), { correct: 1 }]));
+  // 1–3, [4 opuszczony], 5–12: jedna luka → seria 11
+  const one = on(1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 12);
+  const s = currentStreak(one, '2026-11-12');
+  assert.equal(s.count, 11);
+  assert.deepEqual(s.frozen, ['2026-11-04']);
+  assert.equal(s.freezeAvailable, true); // ratunek sprzed ponad tygodnia już się odnowił
+  // luki 8. i 11.: między nimi tylko 2 dni nauki → seria liczy się od 9.
+  const two = on(1, 2, 3, 4, 5, 6, 7, 9, 10, 12);
+  assert.equal(currentStreak(two, '2026-11-12').count, 3);
+  // luki 4. i 12. dzieli 7 dni nauki → obie uratowane
+  const far = on(1, 2, 3, 5, 6, 7, 8, 9, 10, 11, 13);
+  assert.equal(currentStreak(far, '2026-11-13').count, 11);
+  assert.equal(currentStreak(far, '2026-11-13').freezeAvailable, false);
 });

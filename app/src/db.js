@@ -42,6 +42,8 @@ export const DEFAULT_SETTINGS = {
   tts: true,              // zawsze włączone; przycisk TTS w sesji pozostaje
   floorLevel: FLOOR_LEVEL,          // minimalny poziom wszystkich słów wymagany do odblokowania kolejnej lekcji (ukryte w UI)
   mcqMaxLevel: 2,         // do tego poziomu odmiany czasowników są w trybie MCQ
+  sfx: true,              // efekty dźwiękowe 8-bit
+  listening: true,        // zadania ze słuchu (dyktando) dla kart od poziomu 4
   remindMorning: false,   // przypomnienia push: 8:00 / 19:00 / 21:00 (patrz worker)
   remindEvening: true,
   remindStreak: true,

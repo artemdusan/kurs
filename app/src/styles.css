@@ -774,3 +774,77 @@ h3 { font-size: 11px; margin: 12px 0 0; color: var(--muted); text-transform: upp
 
 /* cząsteczki (particles.js): nad treścią, pod scanlines, nie blokują dotyku */
 .fx-canvas { position: fixed; inset: 0; width: 100%; height: 100%; pointer-events: none; z-index: 9000; }
+
+/* ===== poziom gracza i wyzwanie dnia (ekran główny) ===== */
+.xp-bar { display: flex; align-items: center; gap: 8px; flex: none; font-family: var(--pixel); font-size: 8px; line-height: 1.4; }
+.xp-level { color: var(--gold); }
+.xp-num { color: var(--muted); }
+.xp-track { flex: 1; height: 8px; background: var(--card); box-shadow: inset 1px 1px 0 var(--edge-dark), inset -1px -1px 0 var(--edge-light); }
+.xp-fill { height: 100%; background: var(--gold); transition: width 0.4s steps(8); }
+.challenge {
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: none;
+  background: var(--card);
+  color: var(--gold);
+  padding: 7px 10px 9px;
+  overflow: hidden;
+  box-shadow: inset 2px 2px 0 var(--edge-light), inset -2px -2px 0 var(--edge-dark);
+}
+.challenge-label { flex: 1; min-width: 0; font-size: 13px; font-weight: 700; color: var(--text); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.challenge-num { font-family: var(--pixel); font-size: 9px; }
+.challenge-fill { position: absolute; left: 0; bottom: 0; height: 3px; background: var(--gold); transition: width 0.4s steps(8); }
+.challenge.done { color: var(--green); }
+.challenge.done .challenge-fill { background: var(--green); }
+.home-bottom .btn.quick-btn { white-space: nowrap; }
+
+/* ===== sesja: seria i zadania ze słuchu ===== */
+.prompt-head { display: flex; justify-content: space-between; align-items: flex-start; min-height: 20px; }
+.streak-x { font-family: var(--pixel); font-size: 11px; color: var(--amber); animation: popBlock 0.2s steps(3); }
+.streak-x.hot { color: var(--gold); font-size: 14px; text-shadow: 0 0 8px rgba(255, 210, 63, 0.6); }
+.listen { display: flex; flex-direction: column; align-items: center; gap: 12px; padding: 6px 0; }
+.btn.listen-btn { width: 96px; height: 96px; display: flex; align-items: center; justify-content: center; background: var(--blue); color: #06283d; box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 0.4), inset -2px -2px 0 rgba(0, 0, 0, 0.3), 0 4px 0 #1b5f85; }
+.listen-hint { margin: 0; font-size: 18px; font-weight: 700; }
+.listen-skip { background: none; border: none; color: var(--muted); font-size: 13px; text-decoration: underline; padding: 6px; cursor: pointer; }
+
+/* ===== gra „Sprint el/la” ===== */
+.sprint-stage { flex: 1; display: flex; align-items: center; justify-content: center; min-height: 0; }
+.sprint-card {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  background: var(--card);
+  padding: 28px 16px;
+  text-align: center;
+  box-shadow: inset 2px 2px 0 var(--edge-light), inset -2px -2px 0 var(--edge-dark), 6px 6px 0 rgba(0, 0, 0, 0.35);
+  animation: cardIn 0.15s steps(3);
+}
+.sprint-article { font-family: var(--pixel); font-size: 20px; color: var(--blue); min-height: 30px; }
+.sprint-noun { font-size: 34px; font-weight: 800; line-height: 1.15; overflow-wrap: anywhere; }
+.sprint-pl { color: var(--muted); font-size: 16px; }
+.sprint-card.ok .sprint-article { color: var(--green); }
+.sprint-card.bad { background: var(--red-dark); animation: shake 0.3s steps(6); }
+.sprint-card.bad .sprint-article { color: #fff; }
+.sprint-buttons { display: grid; grid-template-columns: 1fr 1fr; gap: 12px; }
+.btn.sprint-btn { font-size: 22px; padding: 30px 8px; }
+.btn.sprint-m { background: #2f4358; color: var(--blue); }
+.btn.sprint-f { background: #58304a; color: #ff9bd0; }
+
+/* ===== statystyki: ratunek serii, trudne słowa ===== */
+.cal-day.cal-frozen { background: var(--blue); box-shadow: inset 1px 1px 0 rgba(255, 255, 255, 0.4); }
+.freeze-line { display: flex; align-items: center; gap: 6px; }
+.freeze-dot { width: 8px; min-width: 8px; height: 8px; background: var(--blue); }
+.stats-actions { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; margin-top: auto; }
+.stats-actions .btn.details-btn { margin-top: 0; }
+.screen.hard-words { height: 100dvh; overflow: hidden; }
+.hard-list { flex: 1; }
+.hard-list .vocab-row { align-items: center; }
+.hard-list .vocab-pl { flex: 1; }
+.hard-rate { font-family: var(--pixel); font-size: 9px; color: var(--red); }
+.hard-list .level-dots.small { margin-left: 0; }
+@media (max-height: 700px) { .challenge { display: none; } }
+@media (prefers-reduced-motion: reduce) { .streak-x, .sprint-card { animation: none; } }
