@@ -5,16 +5,16 @@
     "pl_word": "dokument",
     "examples": [
       {
-        "es_form": "Necesito [el documento::dokument] nuevo.",
-        "pl_translation": "Potrzebuję nowego dokumentu."
+        "es_form": "Firmo [el documento::dokument] al final.",
+        "pl_translation": "Podpisuję dokument na końcu."
       },
       {
-        "es_form": "Este es [el documento::dokument].",
-        "pl_translation": "To jest dokument."
+        "es_form": "[El documento::dokument] tiene diez páginas.",
+        "pl_translation": "Dokument ma dziesięć stron."
       },
       {
-        "es_form": "[El documento::dokument] es importante.",
-        "pl_translation": "Dokument jest ważny."
+        "es_form": "Imprimo [el documento::dokument] para la reunión.",
+        "pl_translation": "Drukuję dokument na spotkanie."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "druk, formularz",
     "examples": [
       {
-        "es_form": "No es [el impreso::druk].",
-        "pl_translation": "To nie jest druk."
+        "es_form": "Relleno [el impreso::druk, formularz] con mis datos.",
+        "pl_translation": "Wypełniam formularz swoimi danymi."
       },
       {
-        "es_form": "[El impreso::druk] está listo.",
-        "pl_translation": "Druk jest gotowy."
+        "es_form": "[El impreso::druk, formularz] está en la mesa.",
+        "pl_translation": "Formularz leży na stole."
       },
       {
-        "es_form": "Este es [el impreso::druk].",
-        "pl_translation": "To jest druk."
+        "es_form": "Pido [el impreso::druk, formularz] en la ventanilla.",
+        "pl_translation": "Proszę o formularz w okienku."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "koperta",
     "examples": [
       {
-        "es_form": "Este es [el sobre::koperta].",
-        "pl_translation": "To jest koperta."
+        "es_form": "Meto la carta en [el sobre::koperta].",
+        "pl_translation": "Wkładam list do koperty."
       },
       {
-        "es_form": "No es [el sobre::koperta].",
-        "pl_translation": "To nie jest koperta."
+        "es_form": "[El sobre::koperta] no tiene sello.",
+        "pl_translation": "Koperta nie ma znaczka."
       },
       {
-        "es_form": "¿Dónde está [el sobre::koperta]?",
-        "pl_translation": "Gdzie jest koperta?"
+        "es_form": "Escribo la dirección en [el sobre::koperta].",
+        "pl_translation": "Piszę adres na kopercie."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "pieczątka, znaczek",
     "examples": [
       {
-        "es_form": "Este es [el sello::pieczątka].",
-        "pl_translation": "To jest pieczątka."
+        "es_form": "Pego [el sello::pieczątka, znaczek] en el sobre.",
+        "pl_translation": "Naklejam znaczek na kopertę."
       },
       {
-        "es_form": "[El sello::pieczątka] es necesario.",
-        "pl_translation": "Pieczątka jest potrzebna."
+        "es_form": "El documento necesita [el sello::pieczątka, znaczek] oficial.",
+        "pl_translation": "Dokument wymaga oficjalnej pieczątki."
       },
       {
-        "es_form": "Necesito [el sello::znaczek] nuevo.",
-        "pl_translation": "Potrzebuję nowego znaczka."
+        "es_form": "Compro [el sello::pieczątka, znaczek] en correos.",
+        "pl_translation": "Kupuję znaczek na poczcie."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "podpis",
     "examples": [
       {
-        "es_form": "Necesito [la firma::podpis] aquí.",
-        "pl_translation": "Potrzebuję podpisu tutaj."
+        "es_form": "Falta [la firma::podpis] del director.",
+        "pl_translation": "Brakuje podpisu dyrektora."
       },
       {
-        "es_form": "Esta es [la firma::podpis].",
-        "pl_translation": "To jest podpis."
+        "es_form": "Pon [la firma::podpis] aquí, por favor.",
+        "pl_translation": "Proszę złożyć tutaj podpis."
       },
       {
-        "es_form": "No es [la firma::podpis].",
-        "pl_translation": "To nie jest podpis."
+        "es_form": "[La firma::podpis] no se lee bien.",
+        "pl_translation": "Podpis jest nieczytelny."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "wniosek",
     "examples": [
       {
-        "es_form": "Necesito [la solicitud::wniosek] nueva.",
-        "pl_translation": "Potrzebuję nowego wniosku."
+        "es_form": "Presenté [la solicitud::wniosek] el lunes.",
+        "pl_translation": "Złożyłem wniosek w poniedziałek."
       },
       {
-        "es_form": "Esta es [la solicitud::wniosek].",
-        "pl_translation": "To jest wniosek."
+        "es_form": "[La solicitud::wniosek] fue aceptada.",
+        "pl_translation": "Wniosek został przyjęty."
       },
       {
-        "es_form": "[La solicitud::wniosek] está aprobada.",
-        "pl_translation": "Wniosek jest zatwierdzony."
+        "es_form": "Relleno [la solicitud::wniosek] de beca.",
+        "pl_translation": "Wypełniam wniosek o stypendium."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "zaświadczenie",
     "examples": [
       {
-        "es_form": "No es [el certificado::zaświadczenie].",
-        "pl_translation": "To nie jest zaświadczenie."
+        "es_form": "Necesito [el certificado::zaświadczenie] médico.",
+        "pl_translation": "Potrzebuję zaświadczenia lekarskiego."
       },
       {
-        "es_form": "Este es [el certificado::zaświadczenie].",
-        "pl_translation": "To jest zaświadczenie."
+        "es_form": "[El certificado::zaświadczenie] es válido tres meses.",
+        "pl_translation": "Zaświadczenie jest ważne trzy miesiące."
       },
       {
-        "es_form": "Hablamos sobre [el certificado::zaświadczenie].",
-        "pl_translation": "Rozmawiamy o tym, czym jest zaświadczenie."
+        "es_form": "Pido [el certificado::zaświadczenie] en el ayuntamiento.",
+        "pl_translation": "Proszę o zaświadczenie w urzędzie miasta."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "umowa",
     "examples": [
       {
-        "es_form": "Este es [el contrato::umowa].",
-        "pl_translation": "To jest umowa."
+        "es_form": "Firmé [el contrato::umowa] de trabajo.",
+        "pl_translation": "Podpisałem umowę o pracę."
       },
       {
-        "es_form": "Firmé [el contrato::umowę] ayer.",
-        "pl_translation": "Podpisałem umowę wczoraj."
+        "es_form": "[El contrato::umowa] dura un año.",
+        "pl_translation": "Umowa trwa rok."
       },
       {
-        "es_form": "No es [el contrato::umowa].",
-        "pl_translation": "To nie jest umowa."
+        "es_form": "Leo [el contrato::umowa] antes de firmar.",
+        "pl_translation": "Czytam umowę przed podpisaniem."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "faktura",
     "examples": [
       {
-        "es_form": "[La factura::faktura] es importante.",
-        "pl_translation": "Faktura jest ważna."
+        "es_form": "Pagué [la factura::faktura] de la luz.",
+        "pl_translation": "Zapłaciłem fakturę za prąd."
       },
       {
-        "es_form": "No entiendo [la factura::fakturę].",
-        "pl_translation": "Nie rozumiem faktury."
+        "es_form": "[La factura::faktura] llega por correo.",
+        "pl_translation": "Faktura przychodzi pocztą."
       },
       {
-        "es_form": "[La factura::faktura] está pagada.",
-        "pl_translation": "Faktura jest zapłacona."
+        "es_form": "Necesito [la factura::faktura] para la empresa.",
+        "pl_translation": "Potrzebuję faktury dla firmy."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "segregator, folder",
     "examples": [
       {
-        "es_form": "¿Dónde está [la carpeta::segregator]?",
-        "pl_translation": "Gdzie jest segregator?"
+        "es_form": "Guardo los papeles en [la carpeta::segregator, folder].",
+        "pl_translation": "Trzymam dokumenty w segregatorze."
       },
       {
-        "es_form": "Compré [la carpeta::folder] ayer.",
-        "pl_translation": "Kupiłem folder wczoraj."
+        "es_form": "[La carpeta::segregator, folder] azul es de matemáticas.",
+        "pl_translation": "Niebieski segregator jest do matematyki."
       },
       {
-        "es_form": "[La carpeta::segregator] está aquí.",
-        "pl_translation": "Segregator jest tutaj."
+        "es_form": "Crea [la carpeta::segregator, folder] nueva en el ordenador.",
+        "pl_translation": "Utwórz nowy folder na komputerze."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "oficjalny",
     "examples": [
       {
-        "es_form": "Es muy [oficial::oficjalny].",
-        "pl_translation": "Jest bardzo oficjalny."
+        "es_form": "Recibí un correo [oficial::oficjalny].",
+        "pl_translation": "Dostałem oficjalnego maila."
       },
       {
-        "es_form": "No es [oficial::oficjalny].",
-        "pl_translation": "Nie jest oficjalny."
+        "es_form": "El español es el idioma [oficial::oficjalny].",
+        "pl_translation": "Hiszpański jest językiem oficjalnym."
       },
       {
-        "es_form": "Parece [oficial::oficjalny].",
-        "pl_translation": "Wydaje się oficjalny."
+        "es_form": "Todavía no es [oficial::oficjalny].",
+        "pl_translation": "To jeszcze nie jest oficjalne."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "ważny",
     "examples": [
       {
-        "es_form": "Es muy [válido::ważny].",
-        "pl_translation": "Jest bardzo ważny."
+        "es_form": "Mi pasaporte ya no es [válido::ważny].",
+        "pl_translation": "Mój paszport nie jest już ważny."
       },
       {
-        "es_form": "No es [válido::ważny].",
-        "pl_translation": "Nie jest ważny."
+        "es_form": "El billete es [válido::ważny] hasta mañana.",
+        "pl_translation": "Bilet jest ważny do jutra."
       },
       {
-        "es_form": "Parece [válido::ważny].",
-        "pl_translation": "Wydaje się ważny."
+        "es_form": "Necesito un documento [válido::ważny].",
+        "pl_translation": "Potrzebuję ważnego dokumentu."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [imprimí::wydrukowałem] los documentos.",
-            "pl_translation": "Wydrukowałem dokumenty."
+            "es_form": "Ayer yo [imprimí::wydrukowałem] los documentos.",
+            "pl_translation": "Wczoraj wydrukowałem dokumenty."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [imprimiste::wydrukowałeś] los documentos.",
-            "pl_translation": "Wydrukowałeś dokumenty."
+            "es_form": "La semana pasada tú [imprimiste::wydrukowałeś] los documentos.",
+            "pl_translation": "W zeszłym tygodniu wydrukowałeś dokumenty."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [imprimió::wydrukował] los documentos.",
-            "pl_translation": "Wydrukował dokumenty."
+            "es_form": "El otro día él [imprimió::wydrukował] los documentos.",
+            "pl_translation": "Niedawno wydrukował dokumenty."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [imprimimos::wydrukowaliśmy] los documentos.",
-            "pl_translation": "Wydrukowaliśmy dokumenty."
+            "es_form": "La semana pasada nosotros [imprimimos::wydrukowaliśmy] los documentos.",
+            "pl_translation": "W zeszłym tygodniu wydrukowaliśmy dokumenty."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [imprimisteis::wydrukowaliście] los documentos.",
-            "pl_translation": "Wydrukowaliście dokumenty."
+            "es_form": "El otro día vosotros [imprimisteis::wydrukowaliście] los documentos.",
+            "pl_translation": "Niedawno wydrukowaliście dokumenty."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [imprimieron::wydrukowali] los documentos.",
-            "pl_translation": "Wydrukowali dokumenty."
+            "es_form": "Ayer ellos [imprimieron::wydrukowali] los documentos.",
+            "pl_translation": "Wczoraj wydrukowali dokumenty."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [imprimiré::będę drukować] los documentos.",
-            "pl_translation": "Będę drukować dokumenty."
+            "es_form": "Mañana yo [imprimiré::będę drukować] los documentos.",
+            "pl_translation": "Jutro będę drukować dokumenty."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [imprimirás::będziesz drukować] los documentos.",
-            "pl_translation": "Będziesz drukować dokumenty."
+            "es_form": "La próxima semana tú [imprimirás::będziesz drukować] los documentos.",
+            "pl_translation": "W przyszłym tygodniu będziesz drukować dokumenty."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [imprimirá::będzie drukować] los documentos.",
-            "pl_translation": "Będzie drukować dokumenty."
+            "es_form": "Pronto él [imprimirá::będzie drukować] los documentos.",
+            "pl_translation": "Wkrótce będzie drukować dokumenty."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [imprimiremos::będziemy drukować] los documentos.",
-            "pl_translation": "Będziemy drukować dokumenty."
+            "es_form": "La próxima semana nosotros [imprimiremos::będziemy drukować] los documentos.",
+            "pl_translation": "W przyszłym tygodniu będziemy drukować dokumenty."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [imprimiréis::będziecie drukować] los documentos.",
-            "pl_translation": "Będziecie drukować dokumenty."
+            "es_form": "Pronto vosotros [imprimiréis::będziecie drukować] los documentos.",
+            "pl_translation": "Wkrótce będziecie drukować dokumenty."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [imprimirán::będą drukować] los documentos.",
-            "pl_translation": "Będą drukować dokumenty."
+            "es_form": "Mañana ellos [imprimirán::będą drukować] los documentos.",
+            "pl_translation": "Jutro będą drukować dokumenty."
           }
         ]
       }

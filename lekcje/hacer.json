@@ -5,16 +5,16 @@
     "pl_word": "praca",
     "examples": [
       {
-        "es_form": "No es [el trabajo::praca].",
-        "pl_translation": "To nie jest praca."
+        "es_form": "Empiezo [el trabajo::praca] a las nueve.",
+        "pl_translation": "Zaczynam pracę o dziewiątej."
       },
       {
-        "es_form": "Este es [el trabajo::praca].",
-        "pl_translation": "To jest praca."
+        "es_form": "Tengo mucho que hacer en [el trabajo::praca].",
+        "pl_translation": "Mam dużo do zrobienia w pracy."
       },
       {
-        "es_form": "¿Dónde está [el trabajo::praca]?",
-        "pl_translation": "Gdzie jest praca?"
+        "es_form": "[El trabajo::praca] de mi padre es interesante.",
+        "pl_translation": "Praca mojego taty jest ciekawa."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "zakupy",
     "examples": [
       {
-        "es_form": "Esta es [la compra::zakupy].",
-        "pl_translation": "To są zakupy."
+        "es_form": "Hago [la compra::zakupy] los sábados.",
+        "pl_translation": "Robię zakupy w soboty."
       },
       {
-        "es_form": "No es [la compra::zakupy].",
-        "pl_translation": "To nie są zakupy."
+        "es_form": "[La compra::zakupy] de la semana está en el coche.",
+        "pl_translation": "Zakupy na cały tydzień są w samochodzie."
       },
       {
-        "es_form": "¿Dónde está [la compra::zakupy]?",
-        "pl_translation": "Gdzie są zakupy?"
+        "es_form": "Mi padre vuelve de [la compra::zakupy].",
+        "pl_translation": "Mój tata wraca z zakupów."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "sprzątanie",
     "examples": [
       {
-        "es_form": "Hablamos sobre [la limpieza::sprzątanie].",
-        "pl_translation": "Rozmawiamy o tym, czym jest sprzątanie."
+        "es_form": "Hago [la limpieza::sprzątanie] de la casa los sábados.",
+        "pl_translation": "Robię sprzątanie domu w soboty."
       },
       {
-        "es_form": "Esta es [la limpieza::sprzątanie].",
-        "pl_translation": "To jest sprzątanie."
+        "es_form": "[La limpieza::sprzątanie] del baño es rápida.",
+        "pl_translation": "Sprzątanie łazienki jest szybkie."
       },
       {
-        "es_form": "No es [la limpieza::sprzątanie].",
-        "pl_translation": "To nie jest sprzątanie."
+        "es_form": "Después de [la limpieza::sprzątanie] descanso un poco.",
+        "pl_translation": "Po sprzątaniu trochę odpoczywam."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "gotowanie",
     "examples": [
       {
-        "es_form": "Esta es [la cocina::gotowanie].",
-        "pl_translation": "To jest gotowanie."
+        "es_form": "Me gusta [la cocina::gotowanie] más que la limpieza.",
+        "pl_translation": "Lubię gotowanie bardziej niż sprzątanie."
       },
       {
-        "es_form": "Hablamos sobre [la cocina::gotowanie].",
-        "pl_translation": "Rozmawiamy o tym, czym jest gotowanie."
+        "es_form": "[La cocina::gotowanie] es mi pasión.",
+        "pl_translation": "Gotowanie to moja pasja."
       },
       {
-        "es_form": "No es [la cocina::gotowanie].",
-        "pl_translation": "To nie jest gotowanie."
+        "es_form": "Aprendo [la cocina::gotowanie] con mi abuela.",
+        "pl_translation": "Uczę się gotowania z babcią."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "odpoczynek",
     "examples": [
       {
-        "es_form": "¿Dónde está [el descanso::odpoczynek]?",
-        "pl_translation": "Gdzie jest odpoczynek?"
+        "es_form": "Necesito [el descanso::odpoczynek] después del trabajo.",
+        "pl_translation": "Potrzebuję odpoczynku po pracy."
       },
       {
-        "es_form": "Este es [el descanso::odpoczynek].",
-        "pl_translation": "To jest odpoczynek."
+        "es_form": "El domingo es para [el descanso::odpoczynek].",
+        "pl_translation": "Niedziela jest na odpoczynek."
       },
       {
-        "es_form": "[El descanso::odpoczynek] está aquí.",
-        "pl_translation": "Odpoczynek jest tutaj."
+        "es_form": "[El descanso::odpoczynek] es tan importante como el trabajo.",
+        "pl_translation": "Odpoczynek jest tak samo ważny jak praca."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "spacer",
     "examples": [
       {
-        "es_form": "Este es [el paseo::spacer].",
-        "pl_translation": "To jest spacer."
+        "es_form": "Damos [el paseo::spacer] por el parque.",
+        "pl_translation": "Idziemy na spacer po parku."
       },
       {
-        "es_form": "¿Dónde está [el paseo::spacer]?",
-        "pl_translation": "Gdzie jest spacer?"
+        "es_form": "[El paseo::spacer] con el perro es a las siete.",
+        "pl_translation": "Spacer z psem jest o siódmej."
       },
       {
-        "es_form": "[El paseo::spacer] está aquí.",
-        "pl_translation": "Spacer jest tutaj."
+        "es_form": "Vuelvo cansado tras [el paseo::spacer].",
+        "pl_translation": "Wracam zmęczony po spacerze."
       }
     ]
   },
@@ -119,35 +119,35 @@
     "pl_word": "prysznic",
     "examples": [
       {
-        "es_form": "Esta es [la ducha::prysznic].",
-        "pl_translation": "To jest prysznic."
+        "es_form": "Tomo [la ducha::prysznic] por la mañana.",
+        "pl_translation": "Biorę prysznic rano."
       },
       {
-        "es_form": "No es [la ducha::prysznic].",
-        "pl_translation": "To nie jest prysznic."
+        "es_form": "[La ducha::prysznic] está al lado de la puerta.",
+        "pl_translation": "Prysznic jest obok drzwi."
       },
       {
-        "es_form": "¿Dónde está [la ducha::prysznic]?",
-        "pl_translation": "Gdzie jest prysznic?"
+        "es_form": "Después de [la ducha::prysznic] desayuno.",
+        "pl_translation": "Po prysznicu jem śniadanie."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "La cama",
-    "pl_word": "łóżko",
+    "es_word": "La rutina",
+    "pl_word": "rutyna, stały plan dnia",
     "examples": [
       {
-        "es_form": "¿Dónde está [la cama::łóżko]?",
-        "pl_translation": "Gdzie jest łóżko?"
+        "es_form": "[La rutina::rutyna, stały plan dnia] de la mañana es siempre igual.",
+        "pl_translation": "Poranna rutyna jest zawsze taka sama."
       },
       {
-        "es_form": "Esta es [la cama::łóżko].",
-        "pl_translation": "To jest łóżko."
+        "es_form": "Me gusta [la rutina::rutyna, stały plan dnia] de los domingos.",
+        "pl_translation": "Lubię niedzielną rutynę."
       },
       {
-        "es_form": "[La cama::łóżko] está aquí.",
-        "pl_translation": "Łóżko jest tutaj."
+        "es_form": "Cambio [la rutina::rutyna, stały plan dnia] en verano.",
+        "pl_translation": "Latem zmieniam stały plan dnia."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "sport",
     "examples": [
       {
-        "es_form": "¿Dónde está [el deporte::sport]?",
-        "pl_translation": "Gdzie jest sport?"
+        "es_form": "Hago [el deporte::sport] tres veces por semana.",
+        "pl_translation": "Uprawiam sport trzy razy w tygodniu."
       },
       {
-        "es_form": "[El deporte::sport] está aquí.",
-        "pl_translation": "Sport jest tutaj."
+        "es_form": "[El deporte::sport] es bueno para la salud.",
+        "pl_translation": "Sport jest dobry dla zdrowia."
       },
       {
-        "es_form": "Este es [el deporte::sport].",
-        "pl_translation": "To jest sport."
+        "es_form": "Mi hermano vive para [el deporte::sport].",
+        "pl_translation": "Mój brat żyje dla sportu."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "ćwiczenie",
     "examples": [
       {
-        "es_form": "Hablamos sobre [el ejercicio::ćwiczenie].",
-        "pl_translation": "Rozmawiamy o tym, czym jest ćwiczenie."
+        "es_form": "Hago [el ejercicio::ćwiczenie] cada mañana.",
+        "pl_translation": "Robię ćwiczenie każdego ranka."
       },
       {
-        "es_form": "Este es [el ejercicio::ćwiczenie].",
-        "pl_translation": "To jest ćwiczenie."
+        "es_form": "[El ejercicio::ćwiczenie] de hoy es muy fácil.",
+        "pl_translation": "Dzisiejsze ćwiczenie jest bardzo łatwe."
       },
       {
-        "es_form": "No es [el ejercicio::ćwiczenie].",
-        "pl_translation": "To nie jest ćwiczenie."
+        "es_form": "No entiendo [el ejercicio::ćwiczenie] del libro.",
+        "pl_translation": "Nie rozumiem ćwiczenia z książki."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "zmęczony",
     "examples": [
       {
-        "es_form": "Está muy [cansado::zmęczony].",
-        "pl_translation": "Jest bardzo zmęczony."
+        "es_form": "Estoy [cansado::zmęczony] después del trabajo.",
+        "pl_translation": "Jestem zmęczony po pracy."
       },
       {
-        "es_form": "No está [cansado::zmęczony].",
-        "pl_translation": "Nie jest zmęczony."
+        "es_form": "Mi padre vuelve [cansado::zmęczony] a casa.",
+        "pl_translation": "Mój tata wraca zmęczony do domu."
       },
       {
-        "es_form": "Parece [cansado::zmęczony].",
-        "pl_translation": "Wydaje się zmęczony."
+        "es_form": "El niño está [cansado::zmęczony] y quiere dormir.",
+        "pl_translation": "Dziecko jest zmęczone i chce spać."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "wolny (niezajęty)",
     "examples": [
       {
-        "es_form": "Está muy [libre::wolny].",
-        "pl_translation": "Jest bardzo wolny."
+        "es_form": "Hoy tengo el día [libre::wolny (niezajęty)].",
+        "pl_translation": "Dziś mam wolny dzień."
       },
       {
-        "es_form": "Parece [libre::wolny].",
-        "pl_translation": "Wydaje się wolny."
+        "es_form": "¿Estás [libre::wolny (niezajęty)] esta tarde?",
+        "pl_translation": "Jesteś wolny dziś po południu?"
       },
       {
-        "es_form": "Está demasiado [libre::wolny].",
-        "pl_translation": "Jest zbyt wolny."
+        "es_form": "El sábado estoy [libre::wolny (niezajęty)].",
+        "pl_translation": "W sobotę jestem wolny."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [hice::zrobiłem] la tarea.",
-            "pl_translation": "Zrobiłem zadanie."
+            "es_form": "Ayer yo [hice::zrobiłem] la tarea.",
+            "pl_translation": "Wczoraj zrobiłem zadanie."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [hiciste::zrobiłeś] la tarea.",
-            "pl_translation": "Zrobiłeś zadanie."
+            "es_form": "La semana pasada tú [hiciste::zrobiłeś] la tarea.",
+            "pl_translation": "W zeszłym tygodniu zrobiłeś zadanie."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [hizo::zrobił] la tarea.",
-            "pl_translation": "Zrobił zadanie."
+            "es_form": "El otro día él [hizo::zrobił] la tarea.",
+            "pl_translation": "Niedawno zrobił zadanie."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [hicimos::zrobiliśmy] la tarea.",
-            "pl_translation": "Zrobiliśmy zadanie."
+            "es_form": "La semana pasada nosotros [hicimos::zrobiliśmy] la tarea.",
+            "pl_translation": "W zeszłym tygodniu zrobiliśmy zadanie."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [hicisteis::zrobiliście] la tarea.",
-            "pl_translation": "Zrobiliście zadanie."
+            "es_form": "El otro día vosotros [hicisteis::zrobiliście] la tarea.",
+            "pl_translation": "Niedawno zrobiliście zadanie."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [hicieron::zrobili] la tarea.",
-            "pl_translation": "Zrobili zadanie."
+            "es_form": "Ayer ellos [hicieron::zrobili] la tarea.",
+            "pl_translation": "Wczoraj zrobili zadanie."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [haré::będę robić] la tarea.",
-            "pl_translation": "Będę robić zadanie."
+            "es_form": "Mañana yo [haré::będę robić] la tarea.",
+            "pl_translation": "Jutro będę robić zadanie."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [harás::będziesz robić] la tarea.",
-            "pl_translation": "Będziesz robić zadanie."
+            "es_form": "La próxima semana tú [harás::będziesz robić] la tarea.",
+            "pl_translation": "W przyszłym tygodniu będziesz robić zadanie."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [hará::będzie robić] la tarea.",
-            "pl_translation": "Będzie robić zadanie."
+            "es_form": "Pronto él [hará::będzie robić] la tarea.",
+            "pl_translation": "Wkrótce będzie robić zadanie."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [haremos::będziemy robić] la tarea.",
-            "pl_translation": "Będziemy robić zadanie."
+            "es_form": "La próxima semana nosotros [haremos::będziemy robić] la tarea.",
+            "pl_translation": "W przyszłym tygodniu będziemy robić zadanie."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [haréis::będziecie robić] la tarea.",
-            "pl_translation": "Będziecie robić zadanie."
+            "es_form": "Pronto vosotros [haréis::będziecie robić] la tarea.",
+            "pl_translation": "Wkrótce będziecie robić zadanie."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [harán::będą robić] la tarea.",
-            "pl_translation": "Będą robić zadanie."
+            "es_form": "Mañana ellos [harán::będą robić] la tarea.",
+            "pl_translation": "Jutro będą robić zadanie."
           }
         ]
       }

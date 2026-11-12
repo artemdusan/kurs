@@ -5,16 +5,16 @@
     "pl_word": "wybór",
     "examples": [
       {
-        "es_form": "Esta es [la elección::wybór].",
-        "pl_translation": "To jest wybór."
+        "es_form": "Fue [la elección::wybór] correcta.",
+        "pl_translation": "To był właściwy wybór."
       },
       {
-        "es_form": "No entiendo [la elección::wybór].",
-        "pl_translation": "Nie rozumiem wyboru."
+        "es_form": "[La elección::wybór] es tuya.",
+        "pl_translation": "Wybór należy do ciebie."
       },
       {
-        "es_form": "[La elección::wybór] cambió mi vida.",
-        "pl_translation": "Wybór zmienił moje życie."
+        "es_form": "Respeto [la elección::wybór] de mi hijo.",
+        "pl_translation": "Szanuję wybór mojego syna."
       }
     ]
   },
@@ -24,35 +24,35 @@
     "pl_word": "jakość",
     "examples": [
       {
-        "es_form": "[La calidad::jakość] es importante.",
-        "pl_translation": "Jakość jest ważna."
+        "es_form": "[La calidad::jakość] de la tela es excelente.",
+        "pl_translation": "Jakość materiału jest znakomita."
       },
       {
-        "es_form": "Esta es [la calidad::jakość].",
-        "pl_translation": "To jest jakość."
+        "es_form": "Pago más por [la calidad::jakość].",
+        "pl_translation": "Płacę więcej za jakość."
       },
       {
-        "es_form": "No es [la calidad::jakość].",
-        "pl_translation": "To nie jest jakość."
+        "es_form": "[La calidad::jakość] importa más que el precio.",
+        "pl_translation": "Jakość liczy się bardziej niż cena."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "La garantía",
-    "pl_word": "gwarancja",
+    "es_word": "La reclamación",
+    "pl_word": "reklamacja",
     "examples": [
       {
-        "es_form": "[La garantía::gwarancja] es muy importante.",
-        "pl_translation": "Gwarancja jest bardzo ważna."
+        "es_form": "Presenté [la reclamación::reklamacja] en la tienda.",
+        "pl_translation": "Złożyłem reklamację w sklepie."
       },
       {
-        "es_form": "Tienes que aceptar [la garantía::gwarancja].",
-        "pl_translation": "Musisz zaakceptować gwarancję."
+        "es_form": "[La reclamación::reklamacja] fue aceptada.",
+        "pl_translation": "Reklamacja została przyjęta."
       },
       {
-        "es_form": "Hablamos sobre [la garantía::gwarancja].",
-        "pl_translation": "Rozmawialiśmy o gwarancji."
+        "es_form": "Escribo [la reclamación::reklamacja] por el móvil roto.",
+        "pl_translation": "Piszę reklamację w sprawie zepsutej komórki."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "zwrot towaru",
     "examples": [
       {
-        "es_form": "[La devolución::zwrot towaru] es posible en 30 días.",
-        "pl_translation": "Zwrot towaru jest możliwy w ciągu 30 dni."
+        "es_form": "[La devolución::zwrot towaru] es gratuita.",
+        "pl_translation": "Zwrot towaru jest darmowy."
       },
       {
-        "es_form": "Esta es [la devolución::zwrot towaru].",
-        "pl_translation": "To jest zwrot towaru."
+        "es_form": "Tengo treinta días para [la devolución::zwrot towaru].",
+        "pl_translation": "Mam trzydzieści dni na zwrot towaru."
       },
       {
-        "es_form": "[La devolución::zwrot towaru] fue aceptada.",
-        "pl_translation": "Zwrot towaru został przyjęty."
+        "es_form": "Pedí [la devolución::zwrot towaru] del dinero.",
+        "pl_translation": "Poprosiłem o zwrot pieniędzy."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "konsument",
     "examples": [
       {
-        "es_form": "[El consumidor::konsument] es muy amable.",
-        "pl_translation": "Konsument jest bardzo miły."
+        "es_form": "[El consumidor::konsument] tiene derechos.",
+        "pl_translation": "Konsument ma prawa."
       },
       {
-        "es_form": "Este es [el consumidor::konsument].",
-        "pl_translation": "To jest konsument."
+        "es_form": "[El consumidor::konsument] decide qué comprar.",
+        "pl_translation": "Konsument decyduje, co kupić."
       },
       {
-        "es_form": "Este es [el consumidor::konsument] del que hablé.",
-        "pl_translation": "To jest konsument, o którym mówiłem."
+        "es_form": "[El consumidor::konsument] busca buenos precios.",
+        "pl_translation": "Konsument szuka dobrych cen."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "obsługa klienta",
     "examples": [
       {
-        "es_form": "¿Dónde está [la atención al cliente::obsługa klienta]?",
-        "pl_translation": "Gdzie jest obsługa klienta?"
+        "es_form": "Llamé a [la atención al cliente::obsługa klienta].",
+        "pl_translation": "Zadzwoniłem do obsługi klienta."
       },
       {
-        "es_form": "[La atención al cliente::obsługa klienta] está aquí.",
-        "pl_translation": "Obsługa klienta jest tutaj."
+        "es_form": "[La atención al cliente::obsługa klienta] fue muy amable.",
+        "pl_translation": "Obsługa klienta była bardzo uprzejma."
       },
       {
-        "es_form": "Mejoraron [la atención al cliente::obsługa klienta] este año.",
-        "pl_translation": "Poprawili obsługę klienta w tym roku."
+        "es_form": "[La atención al cliente::obsługa klienta] abre a las nueve.",
+        "pl_translation": "Obsługa klienta zaczyna pracę o dziewiątej."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "dostawa",
     "examples": [
       {
-        "es_form": "[La entrega::dostawa] llegó a tiempo.",
-        "pl_translation": "Dostawa przyszła na czas."
+        "es_form": "[La entrega::dostawa] llega mañana.",
+        "pl_translation": "Dostawa przyjdzie jutro."
       },
       {
-        "es_form": "Espero [la entrega::dostawa] mañana.",
-        "pl_translation": "Czekam na dostawę jutro."
+        "es_form": "Pago por [la entrega::dostawa] a domicilio.",
+        "pl_translation": "Płacę za dostawę do domu."
       },
       {
-        "es_form": "[La entrega::dostawa] es gratuita.",
-        "pl_translation": "Dostawa jest darmowa."
+        "es_form": "[La entrega::dostawa] tardó una semana.",
+        "pl_translation": "Dostawa trwała tydzień."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "zamówienie",
     "examples": [
       {
-        "es_form": "Este es [el pedido::zamówienie].",
-        "pl_translation": "To jest zamówienie."
+        "es_form": "Hice [el pedido::zamówienie] por internet.",
+        "pl_translation": "Złożyłem zamówienie przez internet."
       },
       {
-        "es_form": "Hablamos sobre [el pedido::zamówienie].",
-        "pl_translation": "Rozmawiamy o tym, czym jest zamówienie."
+        "es_form": "[El pedido::zamówienie] llegó incompleto.",
+        "pl_translation": "Zamówienie przyszło niekompletne."
       },
       {
-        "es_form": "No es [el pedido::zamówienie].",
-        "pl_translation": "To nie jest zamówienie."
+        "es_form": "Cancelé [el pedido::zamówienie] ayer.",
+        "pl_translation": "Wczoraj anulowałem zamówienie."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "wózek sklepowy",
     "examples": [
       {
-        "es_form": "¿Dónde está [el carrito::wózek sklepowy]?",
-        "pl_translation": "Gdzie jest wózek sklepowy?"
+        "es_form": "Lleno [el carrito::wózek sklepowy] de fruta.",
+        "pl_translation": "Napełniam wózek owocami."
       },
       {
-        "es_form": "Este es [el carrito::wózek sklepowy].",
-        "pl_translation": "To jest wózek sklepowy."
+        "es_form": "El niño se sienta en [el carrito::wózek sklepowy].",
+        "pl_translation": "Dziecko siada w wózku."
       },
       {
-        "es_form": "[El carrito::wózek sklepowy] está vacío.",
-        "pl_translation": "Wózek sklepowy jest pusty."
+        "es_form": "Dejo [el carrito::wózek sklepowy] en la entrada.",
+        "pl_translation": "Zostawiam wózek przy wejściu."
       }
     ]
   },
@@ -176,35 +176,35 @@
     "pl_word": "półka sklepowa",
     "examples": [
       {
-        "es_form": "Los productos están en [la estantería::półka sklepowa].",
-        "pl_translation": "Produkty są na półce sklepowej."
+        "es_form": "El pan está en [la estantería::półka sklepowa] de arriba.",
+        "pl_translation": "Chleb jest na górnej półce."
       },
       {
-        "es_form": "Esta es [la estantería::półka sklepowa].",
-        "pl_translation": "To jest półka sklepowa."
+        "es_form": "[La estantería::półka sklepowa] está vacía.",
+        "pl_translation": "Półka jest pusta."
       },
       {
-        "es_form": "[La estantería::półka sklepowa] está llena.",
-        "pl_translation": "Półka sklepowa jest pełna."
+        "es_form": "Busco la leche en [la estantería::półka sklepowa].",
+        "pl_translation": "Szukam mleka na półce."
       }
     ]
   },
   {
     "type": "adjective",
-    "es_word": "cómodo",
-    "pl_word": "wygodny",
+    "es_word": "práctico",
+    "pl_word": "praktyczny",
     "examples": [
       {
-        "es_form": "No es [cómodo::wygodny].",
-        "pl_translation": "Nie jest wygodny."
+        "es_form": "Es un bolso muy [práctico::praktyczny].",
+        "pl_translation": "To bardzo praktyczna torba."
       },
       {
-        "es_form": "Parece [cómodo::wygodny].",
-        "pl_translation": "Wydaje się wygodny."
+        "es_form": "Busco un regalo [práctico::praktyczny].",
+        "pl_translation": "Szukam praktycznego prezentu."
       },
       {
-        "es_form": "Es demasiado [cómodo::wygodny].",
-        "pl_translation": "Jest zbyt wygodny."
+        "es_form": "El coche pequeño es más [práctico::praktyczny] en la ciudad.",
+        "pl_translation": "Mały samochód jest praktyczniejszy w mieście."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "przeceniony",
     "examples": [
       {
-        "es_form": "Está muy [rebajado::przeceniony].",
-        "pl_translation": "Jest bardzo przeceniony."
+        "es_form": "Compré un abrigo [rebajado::przeceniony].",
+        "pl_translation": "Kupiłem przeceniony płaszcz."
       },
       {
-        "es_form": "No está [rebajado::przeceniony].",
-        "pl_translation": "Nie jest przeceniony."
+        "es_form": "Todo está [rebajado::przeceniony] esta semana.",
+        "pl_translation": "W tym tygodniu wszystko jest przecenione."
       },
       {
-        "es_form": "Está demasiado [rebajado::przeceniony].",
-        "pl_translation": "Jest zbyt przeceniony."
+        "es_form": "El precio [rebajado::przeceniony] es de veinte euros.",
+        "pl_translation": "Przeceniona cena to dwadzieścia euro."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [elegí::wybrałem] el mejor camino.",
-            "pl_translation": "Wybrałem najlepszą drogę."
+            "es_form": "Ayer yo [elegí::wybrałem] el mejor camino.",
+            "pl_translation": "Wczoraj wybrałem najlepszą drogę."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [elegiste::wybrałeś] el mejor camino.",
-            "pl_translation": "Wybrałeś najlepszą drogę."
+            "es_form": "La semana pasada tú [elegiste::wybrałeś] el mejor camino.",
+            "pl_translation": "W zeszłym tygodniu wybrałeś najlepszą drogę."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [eligió::wybrał] el mejor camino.",
-            "pl_translation": "Wybrał najlepszą drogę."
+            "es_form": "El otro día él [eligió::wybrał] el mejor camino.",
+            "pl_translation": "Niedawno wybrał najlepszą drogę."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [elegimos::wybraliśmy] el mejor camino.",
-            "pl_translation": "Wybraliśmy najlepszą drogę."
+            "es_form": "La semana pasada nosotros [elegimos::wybraliśmy] el mejor camino.",
+            "pl_translation": "W zeszłym tygodniu wybraliśmy najlepszą drogę."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [elegisteis::wybraliście] el mejor camino.",
-            "pl_translation": "Wybraliście najlepszą drogę."
+            "es_form": "El otro día vosotros [elegisteis::wybraliście] el mejor camino.",
+            "pl_translation": "Niedawno wybraliście najlepszą drogę."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [eligieron::wybrali] el mejor camino.",
-            "pl_translation": "Wybrali najlepszą drogę."
+            "es_form": "Ayer ellos [eligieron::wybrali] el mejor camino.",
+            "pl_translation": "Wczoraj wybrali najlepszą drogę."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [elegiré::będę wybierać] el mejor camino.",
-            "pl_translation": "Będę wybierać najlepszą drogę."
+            "es_form": "Mañana yo [elegiré::będę wybierać] el mejor camino.",
+            "pl_translation": "Jutro będę wybierać najlepszą drogę."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [elegirás::będziesz wybierać] el mejor camino.",
-            "pl_translation": "Będziesz wybierać najlepszą drogę."
+            "es_form": "La próxima semana tú [elegirás::będziesz wybierać] el mejor camino.",
+            "pl_translation": "W przyszłym tygodniu będziesz wybierać najlepszą drogę."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [elegirá::będzie wybierać] el mejor camino.",
-            "pl_translation": "Będzie wybierać najlepszą drogę."
+            "es_form": "Pronto él [elegirá::będzie wybierać] el mejor camino.",
+            "pl_translation": "Wkrótce będzie wybierać najlepszą drogę."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [elegiremos::będziemy wybierać] el mejor camino.",
-            "pl_translation": "Będziemy wybierać najlepszą drogę."
+            "es_form": "La próxima semana nosotros [elegiremos::będziemy wybierać] el mejor camino.",
+            "pl_translation": "W przyszłym tygodniu będziemy wybierać najlepszą drogę."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [elegiréis::będziecie wybierać] el mejor camino.",
-            "pl_translation": "Będziecie wybierać najlepszą drogę."
+            "es_form": "Pronto vosotros [elegiréis::będziecie wybierać] el mejor camino.",
+            "pl_translation": "Wkrótce będziecie wybierać najlepszą drogę."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [elegirán::będą wybierać] el mejor camino.",
-            "pl_translation": "Będą wybierać najlepszą drogę."
+            "es_form": "Mañana ellos [elegirán::będą wybierać] el mejor camino.",
+            "pl_translation": "Jutro będą wybierać najlepszą drogę."
           }
         ]
       }

@@ -5,16 +5,16 @@
     "pl_word": "usługa",
     "examples": [
       {
-        "es_form": "No es [el servicio::usługa].",
-        "pl_translation": "To nie jest usługa."
+        "es_form": "[El servicio::usługa] del hotel es muy bueno.",
+        "pl_translation": "Obsługa w hotelu jest bardzo dobra."
       },
       {
-        "es_form": "Este es [el servicio::usługa].",
-        "pl_translation": "To jest usługa."
+        "es_form": "Pago por [el servicio::usługa] de limpieza.",
+        "pl_translation": "Płacę za usługę sprzątania."
       },
       {
-        "es_form": "¿Dónde está [el servicio::usługa]?",
-        "pl_translation": "Gdzie jest usługa?"
+        "es_form": "[El servicio::usługa] es gratuito para clientes.",
+        "pl_translation": "Usługa jest darmowa dla klientów."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "fryzjer",
     "examples": [
       {
-        "es_form": "Este es [el peluquero::fryzjer].",
-        "pl_translation": "To jest fryzjer."
+        "es_form": "[El peluquero::fryzjer] me corta el pelo.",
+        "pl_translation": "Fryzjer obcina mi włosy."
       },
       {
-        "es_form": "¿Dónde está [el peluquero::fryzjer]?",
-        "pl_translation": "Gdzie jest fryzjer?"
+        "es_form": "Tengo cita con [el peluquero::fryzjer] a las cinco.",
+        "pl_translation": "Mam wizytę u fryzjera o piątej."
       },
       {
-        "es_form": "[El peluquero::fryzjer] está aquí.",
-        "pl_translation": "Fryzjer jest tutaj."
+        "es_form": "[El peluquero::fryzjer] de mi barrio es muy bueno.",
+        "pl_translation": "Fryzjer w mojej dzielnicy jest bardzo dobry."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "mechanik",
     "examples": [
       {
-        "es_form": "No es [el mecánico::mechanik].",
-        "pl_translation": "To nie jest mechanik."
+        "es_form": "[El mecánico::mechanik] repara mi coche.",
+        "pl_translation": "Mechanik naprawia mój samochód."
       },
       {
-        "es_form": "¿Dónde está [el mecánico::mechanik]?",
-        "pl_translation": "Gdzie jest mechanik?"
+        "es_form": "Llamo por teléfono para hablar con [el mecánico::mechanik].",
+        "pl_translation": "Dzwonię, żeby porozmawiać z mechanikiem."
       },
       {
-        "es_form": "Este es [el mecánico::mechanik].",
-        "pl_translation": "To jest mechanik."
+        "es_form": "[El mecánico::mechanik] dice que es el motor.",
+        "pl_translation": "Mechanik mówi, że to silnik."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "warsztat",
     "examples": [
       {
-        "es_form": "¿Dónde está [el taller::warsztat]?",
-        "pl_translation": "Gdzie jest warsztat?"
+        "es_form": "El coche está en [el taller::warsztat].",
+        "pl_translation": "Samochód jest w warsztacie."
       },
       {
-        "es_form": "[El taller::warsztat] está cerca de aquí.",
-        "pl_translation": "Warsztat jest niedaleko stąd."
+        "es_form": "[El taller::warsztat] cierra los domingos.",
+        "pl_translation": "Warsztat jest zamknięty w niedziele."
       },
       {
-        "es_form": "[El taller::warsztat] es muy grande.",
-        "pl_translation": "Warsztat jest bardzo duży."
+        "es_form": "Mi tío tiene [el taller::warsztat] de bicis.",
+        "pl_translation": "Mój wujek ma warsztat rowerowy."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "narzędzie",
     "examples": [
       {
-        "es_form": "Esta es [la herramienta::narzędzie].",
-        "pl_translation": "To jest narzędzie."
+        "es_form": "Necesito [la herramienta::narzędzie] para abrir la caja.",
+        "pl_translation": "Potrzebuję narzędzia, żeby otworzyć skrzynkę."
       },
       {
-        "es_form": "No es [la herramienta::narzędzie].",
-        "pl_translation": "To nie jest narzędzie."
+        "es_form": "[La herramienta::narzędzie] está en el garaje.",
+        "pl_translation": "Narzędzie jest w garażu."
       },
       {
-        "es_form": "¿Dónde está [la herramienta::narzędzie]?",
-        "pl_translation": "Gdzie jest narzędzie?"
+        "es_form": "No tengo [la herramienta::narzędzie] adecuada.",
+        "pl_translation": "Nie mam odpowiedniego narzędzia."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "śrubokręt",
     "examples": [
       {
-        "es_form": "Este es [el destornillador::śrubokręt].",
-        "pl_translation": "To jest śrubokręt."
+        "es_form": "Necesito [el destornillador::śrubokręt] pequeño.",
+        "pl_translation": "Potrzebuję małego śrubokręta."
       },
       {
-        "es_form": "¿Dónde está [el destornillador::śrubokręt]?",
-        "pl_translation": "Gdzie jest śrubokręt?"
+        "es_form": "[El destornillador::śrubokręt] está en la caja roja.",
+        "pl_translation": "Śrubokręt jest w czerwonej skrzynce."
       },
       {
-        "es_form": "[El destornillador::śrubokręt] está aquí.",
-        "pl_translation": "Śrubokręt jest tutaj."
+        "es_form": "Abro el juguete con [el destornillador::śrubokręt].",
+        "pl_translation": "Otwieram zabawkę śrubokrętem."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "młotek",
     "examples": [
       {
-        "es_form": "Este es [el martillo::młotek].",
-        "pl_translation": "To jest młotek."
+        "es_form": "Cuelgo el cuadro con [el martillo::młotek].",
+        "pl_translation": "Wieszam obraz za pomocą młotka."
       },
       {
-        "es_form": "No es [el martillo::młotek].",
-        "pl_translation": "To nie jest młotek."
+        "es_form": "[El martillo::młotek] pesa mucho.",
+        "pl_translation": "Młotek dużo waży."
       },
       {
-        "es_form": "¿Dónde está [el martillo::młotek]?",
-        "pl_translation": "Gdzie jest młotek?"
+        "es_form": "¿Me pasas [el martillo::młotek]?",
+        "pl_translation": "Podasz mi młotek?"
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "usterka",
     "examples": [
       {
-        "es_form": "Esta es [la avería::usterka].",
-        "pl_translation": "To jest usterka."
+        "es_form": "El coche tiene [la avería::usterka].",
+        "pl_translation": "Samochód ma usterkę."
       },
       {
-        "es_form": "[La avería::usterka] está aquí.",
-        "pl_translation": "Usterka jest tutaj."
+        "es_form": "[La avería::usterka] es grave.",
+        "pl_translation": "Usterka jest poważna."
       },
       {
-        "es_form": "No es [la avería::usterka].",
-        "pl_translation": "To nie jest usterka."
+        "es_form": "El técnico encontró [la avería::usterka].",
+        "pl_translation": "Technik znalazł usterkę."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "część zamienna",
     "examples": [
       {
-        "es_form": "Este es [el repuesto::część zamienna].",
-        "pl_translation": "To jest część zamienna."
+        "es_form": "Espero [el repuesto::część zamienna] para el coche.",
+        "pl_translation": "Czekam na część zamienną do samochodu."
       },
       {
-        "es_form": "¿Dónde está [el repuesto::część zamienna]?",
-        "pl_translation": "Gdzie jest część zamienna?"
+        "es_form": "[El repuesto::część zamienna] llega mañana.",
+        "pl_translation": "Część zamienna przyjdzie jutro."
       },
       {
-        "es_form": "[El repuesto::część zamienna] está aquí.",
-        "pl_translation": "Część zamienna jest tutaj."
+        "es_form": "No hay [el repuesto::część zamienna] para este modelo.",
+        "pl_translation": "Nie ma części zamiennej do tego modelu."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "naprawa",
     "examples": [
       {
-        "es_form": "Este es [el arreglo::naprawa].",
-        "pl_translation": "To jest naprawa."
+        "es_form": "[El arreglo::naprawa] del coche cuesta cien euros.",
+        "pl_translation": "Naprawa samochodu kosztuje sto euro."
       },
       {
-        "es_form": "¿Dónde está [el arreglo::naprawa]?",
-        "pl_translation": "Gdzie jest naprawa?"
+        "es_form": "[El arreglo::naprawa] tarda dos días.",
+        "pl_translation": "Naprawa trwa dwa dni."
       },
       {
-        "es_form": "No es [el arreglo::naprawa].",
-        "pl_translation": "To nie jest naprawa."
+        "es_form": "Pago [el arreglo::naprawa] en efectivo.",
+        "pl_translation": "Płacę za naprawę gotówką."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "uszkodzony",
     "examples": [
       {
-        "es_form": "Está muy [dañado::uszkodzony].",
-        "pl_translation": "Jest bardzo uszkodzony."
+        "es_form": "El paquete llegó [dañado::uszkodzony].",
+        "pl_translation": "Paczka przyszła uszkodzona."
       },
       {
-        "es_form": "Parece [dañado::uszkodzony].",
-        "pl_translation": "Wydaje się uszkodzony."
+        "es_form": "El techo está [dañado::uszkodzony] por la lluvia.",
+        "pl_translation": "Dach jest uszkodzony przez deszcz."
       },
       {
-        "es_form": "Está demasiado [dañado::uszkodzony].",
-        "pl_translation": "Jest zbyt uszkodzony."
+        "es_form": "Devuelvo el móvil [dañado::uszkodzony].",
+        "pl_translation": "Zwracam uszkodzoną komórkę."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "przydatny, użyteczny",
     "examples": [
       {
-        "es_form": "Es muy [útil::przydatny].",
-        "pl_translation": "Jest bardzo przydatny."
+        "es_form": "El diccionario es muy [útil::przydatny, użyteczny].",
+        "pl_translation": "Słownik jest bardzo przydatny."
       },
       {
-        "es_form": "No es [útil::przydatny].",
-        "pl_translation": "Nie jest przydatny."
+        "es_form": "Gracias por el consejo [útil::przydatny, użyteczny].",
+        "pl_translation": "Dziękuję za przydatną radę."
       },
       {
-        "es_form": "Es demasiado [útil::przydatny].",
-        "pl_translation": "Jest zbyt przydatny."
+        "es_form": "Este martillo no es [útil::przydatny, użyteczny] para mí.",
+        "pl_translation": "Ten młotek nie jest dla mnie przydatny."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [reparé::naprawiłem] el coche.",
-            "pl_translation": "Naprawiłem samochód."
+            "es_form": "Ayer yo [reparé::naprawiłem] el coche.",
+            "pl_translation": "Wczoraj naprawiłem samochód."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [reparaste::naprawiłeś] el coche.",
-            "pl_translation": "Naprawiłeś samochód."
+            "es_form": "La semana pasada tú [reparaste::naprawiłeś] el coche.",
+            "pl_translation": "W zeszłym tygodniu naprawiłeś samochód."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [reparó::naprawił] el coche.",
-            "pl_translation": "Naprawił samochód."
+            "es_form": "El otro día él [reparó::naprawił] el coche.",
+            "pl_translation": "Niedawno naprawił samochód."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [reparamos::naprawiliśmy] el coche.",
-            "pl_translation": "Naprawiliśmy samochód."
+            "es_form": "La semana pasada nosotros [reparamos::naprawiliśmy] el coche.",
+            "pl_translation": "W zeszłym tygodniu naprawiliśmy samochód."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [reparasteis::naprawiliście] el coche.",
-            "pl_translation": "Naprawiliście samochód."
+            "es_form": "El otro día vosotros [reparasteis::naprawiliście] el coche.",
+            "pl_translation": "Niedawno naprawiliście samochód."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [repararon::naprawili] el coche.",
-            "pl_translation": "Naprawili samochód."
+            "es_form": "Ayer ellos [repararon::naprawili] el coche.",
+            "pl_translation": "Wczoraj naprawili samochód."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [repararé::będę naprawiać] el coche.",
-            "pl_translation": "Będę naprawiać samochód."
+            "es_form": "Mañana yo [repararé::będę naprawiać] el coche.",
+            "pl_translation": "Jutro będę naprawiać samochód."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [repararás::będziesz naprawiać] el coche.",
-            "pl_translation": "Będziesz naprawiać samochód."
+            "es_form": "La próxima semana tú [repararás::będziesz naprawiać] el coche.",
+            "pl_translation": "W przyszłym tygodniu będziesz naprawiać samochód."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [reparará::będzie naprawiać] el coche.",
-            "pl_translation": "Będzie naprawiać samochód."
+            "es_form": "Pronto él [reparará::będzie naprawiać] el coche.",
+            "pl_translation": "Wkrótce będzie naprawiać samochód."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [repararemos::będziemy naprawiać] el coche.",
-            "pl_translation": "Będziemy naprawiać samochód."
+            "es_form": "La próxima semana nosotros [repararemos::będziemy naprawiać] el coche.",
+            "pl_translation": "W przyszłym tygodniu będziemy naprawiać samochód."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [repararéis::będziecie naprawiać] el coche.",
-            "pl_translation": "Będziecie naprawiać samochód."
+            "es_form": "Pronto vosotros [repararéis::będziecie naprawiać] el coche.",
+            "pl_translation": "Wkrótce będziecie naprawiać samochód."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [repararán::będą naprawiać] el coche.",
-            "pl_translation": "Będą naprawiać samochód."
+            "es_form": "Mañana ellos [repararán::będą naprawiać] el coche.",
+            "pl_translation": "Jutro będą naprawiać samochód."
           }
         ]
       }

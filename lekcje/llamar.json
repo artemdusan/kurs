@@ -5,16 +5,16 @@
     "pl_word": "gazeta",
     "examples": [
       {
-        "es_form": "No es [el periódico::gazeta].",
-        "pl_translation": "To nie jest gazeta."
+        "es_form": "Leo [el periódico::gazeta] con el café.",
+        "pl_translation": "Czytam gazetę przy kawie."
       },
       {
-        "es_form": "Este es [el periódico::gazeta].",
-        "pl_translation": "To jest gazeta."
+        "es_form": "[El periódico::gazeta] de hoy está en la mesa.",
+        "pl_translation": "Dzisiejsza gazeta leży na stole."
       },
       {
-        "es_form": "[El periódico::gazeta] está aquí.",
-        "pl_translation": "Gazeta jest tutaj."
+        "es_form": "Compro [el periódico::gazeta] cada domingo.",
+        "pl_translation": "Kupuję gazetę w każdą niedzielę."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "czasopismo",
     "examples": [
       {
-        "es_form": "Esta es [la revista::czasopismo].",
-        "pl_translation": "To jest czasopismo."
+        "es_form": "Leo [la revista::czasopismo] de moda.",
+        "pl_translation": "Czytam czasopismo o modzie."
       },
       {
-        "es_form": "[La revista::czasopismo] pasa muy rápido.",
-        "pl_translation": "Czasopismo mija bardzo szybko."
+        "es_form": "[La revista::czasopismo] sale cada mes.",
+        "pl_translation": "Czasopismo wychodzi co miesiąc."
       },
       {
-        "es_form": "¿Dónde está [la revista::czasopismo]?",
-        "pl_translation": "Gdzie jest czasopismo?"
+        "es_form": "Vi tu foto en [la revista::czasopismo].",
+        "pl_translation": "Widziałem twoje zdjęcie w czasopiśmie."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "wiadomości (aktualności)",
     "examples": [
       {
-        "es_form": "Estas son [las noticias::wiadomości].",
-        "pl_translation": "To są wiadomości."
+        "es_form": "Veo [las noticias::wiadomości (aktualności)] a las nueve.",
+        "pl_translation": "Oglądam wiadomości o dziewiątej."
       },
       {
-        "es_form": "[Las noticias::wiadomości] están aquí.",
-        "pl_translation": "Wiadomości są tutaj."
+        "es_form": "[Las noticias::wiadomości (aktualności)] de hoy son malas.",
+        "pl_translation": "Dzisiejsze wiadomości są złe."
       },
       {
-        "es_form": "No son [las noticias::wiadomości].",
-        "pl_translation": "To nie są wiadomości."
+        "es_form": "Escucho [las noticias::wiadomości (aktualności)] en la radio.",
+        "pl_translation": "Słucham wiadomości w radiu."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "reklama",
     "examples": [
       {
-        "es_form": "Este es [el anuncio::reklama].",
-        "pl_translation": "To jest reklama."
+        "es_form": "Vi [el anuncio::reklama] en la televisión.",
+        "pl_translation": "Widziałem reklamę w telewizji."
       },
       {
-        "es_form": "¿Dónde está [el anuncio::reklama]?",
-        "pl_translation": "Gdzie jest reklama?"
+        "es_form": "[El anuncio::reklama] es muy divertido.",
+        "pl_translation": "Reklama jest bardzo zabawna."
       },
       {
-        "es_form": "No es [el anuncio::reklama].",
-        "pl_translation": "To nie jest reklama."
+        "es_form": "Puse [el anuncio::reklama] para vender el coche.",
+        "pl_translation": "Dałem ogłoszenie o sprzedaży samochodu."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "strona internetowa",
     "examples": [
       {
-        "es_form": "Esta es [la página web::strona internetowa].",
-        "pl_translation": "To jest strona internetowa."
+        "es_form": "Visito [la página web::strona internetowa] de la escuela.",
+        "pl_translation": "Odwiedzam stronę internetową szkoły."
       },
       {
-        "es_form": "¿Dónde está [la página web::strona internetowa]?",
-        "pl_translation": "Gdzie jest strona internetowa?"
+        "es_form": "[La página web::strona internetowa] no funciona.",
+        "pl_translation": "Strona internetowa nie działa."
       },
       {
-        "es_form": "No es [la página web::strona internetowa].",
-        "pl_translation": "To nie jest strona internetowa."
+        "es_form": "Encontré el hotel en [la página web::strona internetowa].",
+        "pl_translation": "Znalazłem hotel na stronie internetowej."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "e-mail",
     "examples": [
       {
-        "es_form": "Este es [el correo electrónico::e-mail].",
-        "pl_translation": "To jest e-mail."
+        "es_form": "Te envío [el correo electrónico::e-mail] esta tarde.",
+        "pl_translation": "Wyślę ci e-mail dziś po południu."
       },
       {
-        "es_form": "¿Dónde está [el correo electrónico::e-mail]?",
-        "pl_translation": "Gdzie jest e-mail?"
+        "es_form": "Recibí [el correo electrónico::e-mail] del jefe.",
+        "pl_translation": "Dostałem e-mail od szefa."
       },
       {
-        "es_form": "No es [el correo electrónico::e-mail].",
-        "pl_translation": "To nie jest e-mail."
+        "es_form": "No leí [el correo electrónico::e-mail] todavía.",
+        "pl_translation": "Nie przeczytałem jeszcze e-maila."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "SMS",
     "examples": [
       {
-        "es_form": "Este es [el mensaje de texto::SMS].",
-        "pl_translation": "To jest SMS."
+        "es_form": "Te mando [el mensaje de texto::SMS] cuando llegue.",
+        "pl_translation": "Wyślę ci SMS, kiedy dojadę."
       },
       {
-        "es_form": "¿Dónde está [el mensaje de texto::SMS]?",
-        "pl_translation": "Gdzie jest SMS?"
+        "es_form": "Recibí [el mensaje de texto::SMS] del banco.",
+        "pl_translation": "Dostałem SMS z banku."
       },
       {
-        "es_form": "No es [el mensaje de texto::SMS].",
-        "pl_translation": "To nie jest SMS."
+        "es_form": "[El mensaje de texto::SMS] llegó a medianoche.",
+        "pl_translation": "SMS przyszedł o północy."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "rozmowa",
     "examples": [
       {
-        "es_form": "¿Dónde está [la conversación::rozmowa]?",
-        "pl_translation": "Gdzie jest rozmowa?"
+        "es_form": "Tuvimos [la conversación::rozmowa] muy larga.",
+        "pl_translation": "Mieliśmy bardzo długą rozmowę."
       },
       {
-        "es_form": "[La conversación::rozmowa] está aquí.",
-        "pl_translation": "Rozmowa jest tutaj."
+        "es_form": "[La conversación::rozmowa] con mi madre me ayudó.",
+        "pl_translation": "Rozmowa z mamą mi pomogła."
       },
       {
-        "es_form": "No es [la conversación::rozmowa].",
-        "pl_translation": "To nie jest rozmowa."
+        "es_form": "Escucho [la conversación::rozmowa] de los vecinos.",
+        "pl_translation": "Słyszę rozmowę sąsiadów."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "dziennikarka",
     "examples": [
       {
-        "es_form": "[La periodista::dziennikarka] me ayudó mucho.",
-        "pl_translation": "Dziennikarka bardzo mi pomogła."
+        "es_form": "[La periodista::dziennikarka] escribe sobre política.",
+        "pl_translation": "Dziennikarka pisze o polityce."
       },
       {
-        "es_form": "Esta es [la periodista::dziennikarka].",
-        "pl_translation": "To jest dziennikarka."
+        "es_form": "Hablé con [la periodista::dziennikarka] del periódico.",
+        "pl_translation": "Rozmawiałem z dziennikarką z gazety."
       },
       {
-        "es_form": "[La periodista::dziennikarka] es muy amable.",
-        "pl_translation": "Dziennikarka jest bardzo miła."
+        "es_form": "[La periodista::dziennikarka] hace muchas preguntas.",
+        "pl_translation": "Dziennikarka zadaje dużo pytań."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "serwis społecznościowy",
     "examples": [
       {
-        "es_form": "Esta es [la red social::serwis społecznościowy].",
-        "pl_translation": "To jest serwis społecznościowy."
+        "es_form": "Uso [la red social::serwis społecznościowy] para hablar con amigos.",
+        "pl_translation": "Używam serwisu społecznościowego do rozmów z przyjaciółmi."
       },
       {
-        "es_form": "No es [la red social::serwis społecznościowy].",
-        "pl_translation": "To nie jest serwis społecznościowy."
+        "es_form": "Vi la foto en [la red social::serwis społecznościowy].",
+        "pl_translation": "Widziałem to zdjęcie w serwisie społecznościowym."
       },
       {
-        "es_form": "¿Dónde está [la red social::serwis społecznościowy]?",
-        "pl_translation": "Gdzie jest serwis społecznościowy?"
+        "es_form": "[La red social::serwis społecznościowy] tiene millones de usuarios.",
+        "pl_translation": "Serwis społecznościowy ma miliony użytkowników."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "społeczny",
     "examples": [
       {
-        "es_form": "Es muy [social::społeczny].",
-        "pl_translation": "Jest bardzo społeczny."
+        "es_form": "El paro es un problema [social::społeczny].",
+        "pl_translation": "Bezrobocie to problem społeczny."
       },
       {
-        "es_form": "No es [social::społeczny].",
-        "pl_translation": "Nie jest społeczny."
+        "es_form": "Trabaja como asistente [social::społeczny].",
+        "pl_translation": "Pracuje jako pracownik socjalny."
       },
       {
-        "es_form": "Es demasiado [social::społeczny].",
-        "pl_translation": "Jest zbyt społeczny."
+        "es_form": "El cambio [social::społeczny] es lento.",
+        "pl_translation": "Zmiana społeczna jest powolna."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "popularny",
     "examples": [
       {
-        "es_form": "No es [popular::popularny].",
-        "pl_translation": "Nie jest popularny."
+        "es_form": "Es un cantante muy [popular::popularny].",
+        "pl_translation": "To bardzo popularny piosenkarz."
       },
       {
-        "es_form": "Parece [popular::popularny].",
-        "pl_translation": "Wydaje się popularny."
+        "es_form": "El fútbol es [popular::popularny] en todo el mundo.",
+        "pl_translation": "Piłka nożna jest popularna na całym świecie."
       },
       {
-        "es_form": "Es demasiado [popular::popularny].",
-        "pl_translation": "Jest zbyt popularny."
+        "es_form": "Este bar es [popular::popularny] entre los jóvenes.",
+        "pl_translation": "Ten bar jest popularny wśród młodych."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [llamé::zadzwoniłem] a mi madre.",
-            "pl_translation": "Zadzwoniłem do mojej mamy."
+            "es_form": "Ayer yo [llamé::zadzwoniłem] a mi madre.",
+            "pl_translation": "Wczoraj zadzwoniłem do mojej mamy."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [llamaste::zadzwoniłeś] a mi madre.",
-            "pl_translation": "Zadzwoniłeś do mojej mamy."
+            "es_form": "La semana pasada tú [llamaste::zadzwoniłeś] a mi madre.",
+            "pl_translation": "W zeszłym tygodniu zadzwoniłeś do mojej mamy."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [llamó::zadzwonił] a mi madre.",
-            "pl_translation": "Zadzwonił do mojej mamy."
+            "es_form": "El otro día él [llamó::zadzwonił] a mi madre.",
+            "pl_translation": "Niedawno zadzwonił do mojej mamy."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [llamamos::zadzwoniliśmy] a mi madre.",
-            "pl_translation": "Zadzwoniliśmy do mojej mamy."
+            "es_form": "La semana pasada nosotros [llamamos::zadzwoniliśmy] a mi madre.",
+            "pl_translation": "W zeszłym tygodniu zadzwoniliśmy do mojej mamy."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [llamasteis::zadzwoniliście] a mi madre.",
-            "pl_translation": "Zadzwoniliście do mojej mamy."
+            "es_form": "El otro día vosotros [llamasteis::zadzwoniliście] a mi madre.",
+            "pl_translation": "Niedawno zadzwoniliście do mojej mamy."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [llamaron::zadzwonili] a mi madre.",
-            "pl_translation": "Zadzwonili do mojej mamy."
+            "es_form": "Ayer ellos [llamaron::zadzwonili] a mi madre.",
+            "pl_translation": "Wczoraj zadzwonili do mojej mamy."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [llamaré::będę dzwonić] a mi madre.",
-            "pl_translation": "Będę dzwonić do mojej mamy."
+            "es_form": "Mañana yo [llamaré::będę dzwonić] a mi madre.",
+            "pl_translation": "Jutro będę dzwonić do mojej mamy."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [llamarás::będziesz dzwonić] a mi madre.",
-            "pl_translation": "Będziesz dzwonić do mojej mamy."
+            "es_form": "La próxima semana tú [llamarás::będziesz dzwonić] a mi madre.",
+            "pl_translation": "W przyszłym tygodniu będziesz dzwonić do mojej mamy."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [llamará::będzie dzwonić] a mi madre.",
-            "pl_translation": "Będzie dzwonić do mojej mamy."
+            "es_form": "Pronto él [llamará::będzie dzwonić] a mi madre.",
+            "pl_translation": "Wkrótce będzie dzwonić do mojej mamy."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [llamaremos::będziemy dzwonić] a mi madre.",
-            "pl_translation": "Będziemy dzwonić do mojej mamy."
+            "es_form": "La próxima semana nosotros [llamaremos::będziemy dzwonić] a mi madre.",
+            "pl_translation": "W przyszłym tygodniu będziemy dzwonić do mojej mamy."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [llamaréis::będziecie dzwonić] a mi madre.",
-            "pl_translation": "Będziecie dzwonić do mojej mamy."
+            "es_form": "Pronto vosotros [llamaréis::będziecie dzwonić] a mi madre.",
+            "pl_translation": "Wkrótce będziecie dzwonić do mojej mamy."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [llamarán::będą dzwonić] a mi madre.",
-            "pl_translation": "Będą dzwonić do mojej mamy."
+            "es_form": "Mañana ellos [llamarán::będą dzwonić] a mi madre.",
+            "pl_translation": "Jutro będą dzwonić do mojej mamy."
           }
         ]
       }

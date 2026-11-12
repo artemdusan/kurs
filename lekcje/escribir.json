@@ -5,16 +5,16 @@
     "pl_word": "uniwersytet",
     "examples": [
       {
-        "es_form": "Esta es [la universidad::uniwersytet].",
-        "pl_translation": "To jest uniwersytet."
+        "es_form": "Estudio en [la universidad::uniwersytet] de Madrid.",
+        "pl_translation": "Studiuję na uniwersytecie w Madrycie."
       },
       {
-        "es_form": "[La universidad::uniwersytet] es muy grande.",
-        "pl_translation": "Uniwersytet jest bardzo duży."
+        "es_form": "[La universidad::uniwersytet] tiene una biblioteca enorme.",
+        "pl_translation": "Uniwersytet ma ogromną bibliotekę."
       },
       {
-        "es_form": "[La universidad::uniwersytet] está cerca de aquí.",
-        "pl_translation": "Uniwersytet jest niedaleko stąd."
+        "es_form": "Mi hermana entra en [la universidad::uniwersytet] este año.",
+        "pl_translation": "Moja siostra idzie w tym roku na uniwersytet."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "student",
     "examples": [
       {
-        "es_form": "[El estudiante::student] es muy amable.",
-        "pl_translation": "Student jest bardzo miły."
+        "es_form": "[El estudiante::student] lee en la biblioteca.",
+        "pl_translation": "Student czyta w bibliotece."
       },
       {
-        "es_form": "[El estudiante::student] es mi hermano.",
-        "pl_translation": "Student jest moim bratem."
+        "es_form": "El profesor habla con [el estudiante::student].",
+        "pl_translation": "Profesor rozmawia ze studentem."
       },
       {
-        "es_form": "Este es [el estudiante::student].",
-        "pl_translation": "To jest student."
+        "es_form": "[El estudiante::student] nuevo viene de Italia.",
+        "pl_translation": "Nowy student przyjechał z Włoch."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "egzamin",
     "examples": [
       {
-        "es_form": "Este es [el examen::egzamin].",
-        "pl_translation": "To jest egzamin."
+        "es_form": "[El examen::egzamin] de mañana es muy difícil.",
+        "pl_translation": "Jutrzejszy egzamin jest bardzo trudny."
       },
       {
-        "es_form": "[El examen::egzamin] está aquí.",
-        "pl_translation": "Egzamin jest tutaj."
+        "es_form": "Aprobé [el examen::egzamin] de inglés.",
+        "pl_translation": "Zdałem egzamin z angielskiego."
       },
       {
-        "es_form": "No es [el examen::egzamin].",
-        "pl_translation": "To nie jest egzamin."
+        "es_form": "Estudio para [el examen::egzamin] toda la noche.",
+        "pl_translation": "Uczę się do egzaminu całą noc."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "ocena",
     "examples": [
       {
-        "es_form": "Esta es [la nota::ocena].",
-        "pl_translation": "To jest ocena."
+        "es_form": "Saqué [la nota::ocena] muy buena.",
+        "pl_translation": "Dostałem bardzo dobrą ocenę."
       },
       {
-        "es_form": "¿Dónde está [la nota::ocena]?",
-        "pl_translation": "Gdzie jest ocena?"
+        "es_form": "[La nota::ocena] del examen llega mañana.",
+        "pl_translation": "Ocena z egzaminu przyjdzie jutro."
       },
       {
-        "es_form": "[La nota::ocena] está aquí.",
-        "pl_translation": "Ocena jest tutaj."
+        "es_form": "No estoy contento con [la nota::ocena].",
+        "pl_translation": "Nie jestem zadowolony z oceny."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "przerwa",
     "examples": [
       {
-        "es_form": "Este es [el descanso::przerwa].",
-        "pl_translation": "To jest przerwa."
+        "es_form": "En [el descanso::przerwa] tomamos un café.",
+        "pl_translation": "Na przerwie pijemy kawę."
       },
       {
-        "es_form": "¿Dónde está [el descanso::przerwa]?",
-        "pl_translation": "Gdzie jest przerwa?"
+        "es_form": "[El descanso::przerwa] dura quince minutos.",
+        "pl_translation": "Przerwa trwa piętnaście minut."
       },
       {
-        "es_form": "[El descanso::przerwa] está aquí.",
-        "pl_translation": "Przerwa jest tutaj."
+        "es_form": "Hablamos durante [el descanso::przerwa].",
+        "pl_translation": "Rozmawiamy podczas przerwy."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "zadanie",
     "examples": [
       {
-        "es_form": "Esta es [la tarea::zadanie].",
-        "pl_translation": "To jest zadanie."
+        "es_form": "Hago [la tarea::zadanie] después de cenar.",
+        "pl_translation": "Robię zadanie po kolacji."
       },
       {
-        "es_form": "No es [la tarea::zadanie].",
-        "pl_translation": "To nie jest zadanie."
+        "es_form": "[La tarea::zadanie] de matemáticas es larga.",
+        "pl_translation": "Zadanie z matematyki jest długie."
       },
       {
-        "es_form": "Hablamos sobre [la tarea::zadanie].",
-        "pl_translation": "Rozmawiamy o tym, czym jest zadanie."
+        "es_form": "Olvidé [la tarea::zadanie] en casa.",
+        "pl_translation": "Zapomniałem zadania z domu."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "błąd",
     "examples": [
       {
-        "es_form": "No es [el error::błąd].",
-        "pl_translation": "To nie jest błąd."
+        "es_form": "Hay [el error::błąd] en esta frase.",
+        "pl_translation": "W tym zdaniu jest błąd."
       },
       {
-        "es_form": "¿Dónde está [el error::błąd]?",
-        "pl_translation": "Gdzie jest błąd?"
+        "es_form": "[El error::błąd] es mío, lo siento.",
+        "pl_translation": "To mój błąd, przepraszam."
       },
       {
-        "es_form": "Este es [el error::błąd].",
-        "pl_translation": "To jest błąd."
+        "es_form": "Corrijo [el error::błąd] con el bolígrafo rojo.",
+        "pl_translation": "Poprawiam błąd czerwonym długopisem."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "gumka",
     "examples": [
       {
-        "es_form": "Esta es [la goma::gumka].",
-        "pl_translation": "To jest gumka."
+        "es_form": "Borro el dibujo con [la goma::gumka].",
+        "pl_translation": "Wymazuję rysunek gumką."
       },
       {
-        "es_form": "¿Dónde está [la goma::gumka]?",
-        "pl_translation": "Gdzie jest gumka?"
+        "es_form": "¿Me dejas [la goma::gumka]?",
+        "pl_translation": "Pożyczysz mi gumkę?"
       },
       {
-        "es_form": "No es [la goma::gumka].",
-        "pl_translation": "To nie jest gumka."
+        "es_form": "[La goma::gumka] está en mi estuche.",
+        "pl_translation": "Gumka jest w moim piórniku."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "linijka",
     "examples": [
       {
-        "es_form": "¿Dónde está [la regla::linijka]?",
-        "pl_translation": "Gdzie jest linijka?"
+        "es_form": "Dibujo la línea con [la regla::linijka].",
+        "pl_translation": "Rysuję linię przy linijce."
       },
       {
-        "es_form": "[La regla::linijka] está aquí.",
-        "pl_translation": "Linijka jest tutaj."
+        "es_form": "[La regla::linijka] mide treinta centímetros.",
+        "pl_translation": "Linijka ma trzydzieści centymetrów."
       },
       {
-        "es_form": "No es [la regla::linijka].",
-        "pl_translation": "To nie jest linijka."
+        "es_form": "Olvidé [la regla::linijka] en la clase.",
+        "pl_translation": "Zapomniałem linijki z klasy."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "słownik",
     "examples": [
       {
-        "es_form": "Este es [el diccionario::słownik].",
-        "pl_translation": "To jest słownik."
+        "es_form": "Busco la palabra en [el diccionario::słownik].",
+        "pl_translation": "Szukam słowa w słowniku."
       },
       {
-        "es_form": "¿Dónde está [el diccionario::słownik]?",
-        "pl_translation": "Gdzie jest słownik?"
+        "es_form": "[El diccionario::słownik] de español es muy útil.",
+        "pl_translation": "Słownik hiszpańskiego jest bardzo przydatny."
       },
       {
-        "es_form": "No es [el diccionario::słownik].",
-        "pl_translation": "To nie jest słownik."
+        "es_form": "Compré [el diccionario::słownik] para el viaje.",
+        "pl_translation": "Kupiłem słownik na podróż."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "łatwy",
     "examples": [
       {
-        "es_form": "No es [fácil::łatwy].",
-        "pl_translation": "Nie jest łatwy."
+        "es_form": "El examen fue muy [fácil::łatwy].",
+        "pl_translation": "Egzamin był bardzo łatwy."
       },
       {
-        "es_form": "Parece [fácil::łatwy].",
-        "pl_translation": "Wydaje się łatwy."
+        "es_form": "El español es un idioma [fácil::łatwy].",
+        "pl_translation": "Hiszpański to łatwy język."
       },
       {
-        "es_form": "Es demasiado [fácil::łatwy].",
-        "pl_translation": "Jest zbyt łatwy."
+        "es_form": "Este ejercicio no es [fácil::łatwy].",
+        "pl_translation": "To ćwiczenie nie jest łatwe."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "pilny, uważny",
     "examples": [
       {
-        "es_form": "No es [atento::pilny].",
-        "pl_translation": "Nie jest pilny."
+        "es_form": "Es un alumno muy [atento::pilny, uważny].",
+        "pl_translation": "To bardzo pilny uczeń."
       },
       {
-        "es_form": "Parece [atento::pilny].",
-        "pl_translation": "Wydaje się pilny."
+        "es_form": "El niño está [atento::pilny, uważny] en clase.",
+        "pl_translation": "Dziecko jest uważne na lekcji."
       },
       {
-        "es_form": "Es demasiado [atento::pilny].",
-        "pl_translation": "Jest zbyt pilny."
+        "es_form": "El público escucha [atento::pilny, uważny].",
+        "pl_translation": "Publiczność słucha uważnie."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [escribí::napisałem] una carta.",
-            "pl_translation": "Napisałem list."
+            "es_form": "Ayer yo [escribí::napisałem] una carta.",
+            "pl_translation": "Wczoraj napisałem list."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [escribiste::napisałeś] una carta.",
-            "pl_translation": "Napisałeś list."
+            "es_form": "La semana pasada tú [escribiste::napisałeś] una carta.",
+            "pl_translation": "W zeszłym tygodniu napisałeś list."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [escribió::napisał] una carta.",
-            "pl_translation": "Napisał list."
+            "es_form": "El otro día él [escribió::napisał] una carta.",
+            "pl_translation": "Niedawno napisał list."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [escribimos::napisaliśmy] una carta.",
-            "pl_translation": "Napisaliśmy list."
+            "es_form": "La semana pasada nosotros [escribimos::napisaliśmy] una carta.",
+            "pl_translation": "W zeszłym tygodniu napisaliśmy list."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [escribisteis::napisaliście] una carta.",
-            "pl_translation": "Napisaliście list."
+            "es_form": "El otro día vosotros [escribisteis::napisaliście] una carta.",
+            "pl_translation": "Niedawno napisaliście list."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [escribieron::napisali] una carta.",
-            "pl_translation": "Napisali list."
+            "es_form": "Ayer ellos [escribieron::napisali] una carta.",
+            "pl_translation": "Wczoraj napisali list."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [escribiré::będę pisać] una carta.",
-            "pl_translation": "Będę pisać list."
+            "es_form": "Mañana yo [escribiré::będę pisać] una carta.",
+            "pl_translation": "Jutro będę pisać list."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [escribirás::będziesz pisać] una carta.",
-            "pl_translation": "Będziesz pisać list."
+            "es_form": "La próxima semana tú [escribirás::będziesz pisać] una carta.",
+            "pl_translation": "W przyszłym tygodniu będziesz pisać list."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [escribirá::będzie pisać] una carta.",
-            "pl_translation": "Będzie pisać list."
+            "es_form": "Pronto él [escribirá::będzie pisać] una carta.",
+            "pl_translation": "Wkrótce będzie pisać list."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [escribiremos::będziemy pisać] una carta.",
-            "pl_translation": "Będziemy pisać list."
+            "es_form": "La próxima semana nosotros [escribiremos::będziemy pisać] una carta.",
+            "pl_translation": "W przyszłym tygodniu będziemy pisać list."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [escribiréis::będziecie pisać] una carta.",
-            "pl_translation": "Będziecie pisać list."
+            "es_form": "Pronto vosotros [escribiréis::będziecie pisać] una carta.",
+            "pl_translation": "Wkrótce będziecie pisać list."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [escribirán::będą pisać] una carta.",
-            "pl_translation": "Będą pisać list."
+            "es_form": "Mañana ellos [escribirán::będą pisać] una carta.",
+            "pl_translation": "Jutro będą pisać list."
           }
         ]
       }

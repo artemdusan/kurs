@@ -5,16 +5,16 @@
     "pl_word": "trening",
     "examples": [
       {
-        "es_form": "[El entrenamiento::trening] fue muy intenso.",
-        "pl_translation": "Trening był bardzo intensywny."
+        "es_form": "[El entrenamiento::trening] empieza a las siete.",
+        "pl_translation": "Trening zaczyna się o siódmej."
       },
       {
-        "es_form": "Este es [el entrenamiento::trening].",
-        "pl_translation": "To jest trening."
+        "es_form": "Hago [el entrenamiento::trening] tres veces por semana.",
+        "pl_translation": "Robię trening trzy razy w tygodniu."
       },
       {
-        "es_form": "[El entrenamiento::trening] me cansa.",
-        "pl_translation": "Trening mnie męczy."
+        "es_form": "[El entrenamiento::trening] de hoy fue muy duro.",
+        "pl_translation": "Dzisiejszy trening był bardzo ciężki."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "rozgrzewka",
     "examples": [
       {
-        "es_form": "[El calentamiento::rozgrzewka] es importante antes de correr.",
-        "pl_translation": "Rozgrzewka jest ważna przed bieganiem."
+        "es_form": "Hago [el calentamiento::rozgrzewka] antes de correr.",
+        "pl_translation": "Robię rozgrzewkę przed bieganiem."
       },
       {
-        "es_form": "Hicimos [un calentamiento::rozgrzewkę] de diez minutos.",
-        "pl_translation": "Zrobiliśmy dziesięciominutową rozgrzewkę."
+        "es_form": "[El calentamiento::rozgrzewka] dura diez minutos.",
+        "pl_translation": "Rozgrzewka trwa dziesięć minut."
       },
       {
-        "es_form": "[El calentamiento::rozgrzewka] prepara los músculos.",
-        "pl_translation": "Rozgrzewka przygotowuje mięśnie."
+        "es_form": "Sin [el calentamiento::rozgrzewka] me lesiono.",
+        "pl_translation": "Bez rozgrzewki łapię kontuzje."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "rozciąganie",
     "examples": [
       {
-        "es_form": "[El estiramiento::rozciąganie] ayuda a prevenir lesiones.",
-        "pl_translation": "Rozciąganie pomaga zapobiegać kontuzjom."
+        "es_form": "Termino con [el estiramiento::rozciąganie].",
+        "pl_translation": "Kończę rozciąganiem."
       },
       {
-        "es_form": "Este es [el estiramiento::rozciąganie].",
-        "pl_translation": "To jest rozciąganie."
+        "es_form": "[El estiramiento::rozciąganie] evita lesiones.",
+        "pl_translation": "Rozciąganie zapobiega kontuzjom."
       },
       {
-        "es_form": "[El estiramiento::rozciąganie] es parte del entrenamiento.",
-        "pl_translation": "Rozciąganie jest częścią treningu."
+        "es_form": "Dedico cinco minutos para [el estiramiento::rozciąganie].",
+        "pl_translation": "Poświęcam pięć minut na rozciąganie."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "kondycja",
     "examples": [
       {
-        "es_form": "[La condición física::kondycja] es importante para la salud.",
-        "pl_translation": "Kondycja jest ważna dla zdrowia."
+        "es_form": "Cuido [la condición física::kondycja] todo el año.",
+        "pl_translation": "Dbam o kondycję przez cały rok."
       },
       {
-        "es_form": "Esta es [la condición física::kondycja].",
-        "pl_translation": "To jest kondycja."
+        "es_form": "[La condición física::kondycja] mejora con el tiempo.",
+        "pl_translation": "Kondycja poprawia się z czasem."
       },
       {
-        "es_form": "[La condición física::kondycja] mejora con el ejercicio.",
-        "pl_translation": "Kondycja poprawia się dzięki ćwiczeniom."
+        "es_form": "Perdí [la condición física::kondycja] en invierno.",
+        "pl_translation": "Straciłem kondycję zimą."
       }
     ]
   },
@@ -81,35 +81,35 @@
     "pl_word": "wytrzymałość",
     "examples": [
       {
-        "es_form": "[La resistencia::wytrzymałość] mejora con el entrenamiento.",
-        "pl_translation": "Wytrzymałość poprawia się dzięki treningowi."
+        "es_form": "Correr mejora [la resistencia::wytrzymałość].",
+        "pl_translation": "Bieganie poprawia wytrzymałość."
       },
       {
-        "es_form": "[La resistencia::wytrzymałość] es importante para correr.",
-        "pl_translation": "Wytrzymałość jest ważna podczas biegania."
+        "es_form": "Me falta [la resistencia::wytrzymałość] para un maratón.",
+        "pl_translation": "Brakuje mi wytrzymałości na maraton."
       },
       {
-        "es_form": "Esta es [la resistencia::wytrzymałość].",
-        "pl_translation": "To jest wytrzymałość."
+        "es_form": "[La resistencia::wytrzymałość] se entrena poco a poco.",
+        "pl_translation": "Wytrzymałość trenuje się po trochu."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "La dieta",
-    "pl_word": "dieta",
+    "es_word": "La fuerza",
+    "pl_word": "siła",
     "examples": [
       {
-        "es_form": "[La dieta::dieta] es equilibrada.",
-        "pl_translation": "Dieta jest zrównoważona."
+        "es_form": "Entreno [la fuerza::siła] con pesas.",
+        "pl_translation": "Trenuję siłę z ciężarami."
       },
       {
-        "es_form": "Sigo [una dieta::dietę] saludable.",
-        "pl_translation": "Stosuję zdrową dietę."
+        "es_form": "No tengo [la fuerza::siła] para seguir.",
+        "pl_translation": "Nie mam siły, żeby kontynuować."
       },
       {
-        "es_form": "[La dieta::dieta] mediterránea es muy sana.",
-        "pl_translation": "Dieta śródziemnomorska jest bardzo zdrowa."
+        "es_form": "[La fuerza::siła] del viento rompió la rama.",
+        "pl_translation": "Siła wiatru złamała gałąź."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "kaloria",
     "examples": [
       {
-        "es_form": "No consumo ni [una caloría::jednej kalorii] más.",
-        "pl_translation": "Nie spożywam ani jednej kalorii więcej."
+        "es_form": "Cuento [la caloría::kaloria] más pequeña.",
+        "pl_translation": "Liczę najmniejszą kalorię."
       },
       {
         "es_form": "[La caloría::kaloria] es una unidad de energía.",
-        "pl_translation": "Kaloria jest jednostką energii."
+        "pl_translation": "Kaloria to jednostka energii."
       },
       {
-        "es_form": "Esta bebida no tiene ni [una caloría::jednej kalorii].",
-        "pl_translation": "Ten napój nie ma ani jednej kalorii."
+        "es_form": "No quemé ni [una caloría::kaloria] hoy.",
+        "pl_translation": "Nie spaliłem dziś ani jednej kalorii."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "białko",
     "examples": [
       {
-        "es_form": "[La proteína::białko] es esencial para los músculos.",
-        "pl_translation": "Białko jest niezbędne dla mięśni."
+        "es_form": "[La proteína::białko] ayuda a los músculos.",
+        "pl_translation": "Białko pomaga mięśniom."
       },
       {
-        "es_form": "[La proteína::białko] forma parte de mi dieta.",
-        "pl_translation": "Białko jest częścią mojej diety."
+        "es_form": "Busco [la proteína::białko] en el pescado y los huevos.",
+        "pl_translation": "Szukam białka w rybach i jajkach."
       },
       {
-        "es_form": "[La proteína::białko] ayuda a mantener los músculos.",
-        "pl_translation": "Białko pomaga utrzymać mięśnie."
+        "es_form": "Tomo [la proteína::białko] después de entrenar.",
+        "pl_translation": "Biorę białko po treningu."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "tłuszcz",
     "examples": [
       {
-        "es_form": "[La grasa::tłuszcz] aporta energía.",
-        "pl_translation": "Tłuszcz dostarcza energii."
+        "es_form": "Evito [la grasa::tłuszcz] en mi dieta.",
+        "pl_translation": "Unikam tłuszczu w diecie."
       },
       {
-        "es_form": "[La grasa::tłuszcz] está presente en muchos alimentos.",
-        "pl_translation": "Tłuszcz występuje w wielu produktach spożywczych."
+        "es_form": "[La grasa::tłuszcz] del pescado es sana.",
+        "pl_translation": "Tłuszcz z ryb jest zdrowy."
       },
       {
-        "es_form": "Evito [la grasa::tłuszczu] en mi dieta.",
-        "pl_translation": "Unikam tłuszczu w mojej diecie."
+        "es_form": "Quiero perder [la grasa::tłuszcz] de la barriga.",
+        "pl_translation": "Chcę zgubić tłuszcz z brzucha."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "nawodnienie",
     "examples": [
       {
-        "es_form": "[La hidratación::nawodnienie] es clave para el deporte.",
-        "pl_translation": "Nawodnienie jest kluczowe dla sportu."
+        "es_form": "[La hidratación::nawodnienie] es clave cuando hace calor.",
+        "pl_translation": "Nawodnienie jest kluczowe, kiedy jest gorąco."
       },
       {
-        "es_form": "Esta es [la hidratación::nawodnienie].",
-        "pl_translation": "To jest nawodnienie."
+        "es_form": "Cuido [la hidratación::nawodnienie] durante la carrera.",
+        "pl_translation": "Dbam o nawodnienie podczas biegu."
       },
       {
-        "es_form": "[La hidratación::nawodnienie] previene los calambres.",
-        "pl_translation": "Nawodnienie zapobiega skurczom."
+        "es_form": "[La hidratación::nawodnienie] mejora la piel.",
+        "pl_translation": "Nawodnienie poprawia skórę."
       }
     ]
   },
@@ -195,35 +195,35 @@
     "pl_word": "wysportowany",
     "examples": [
       {
-        "es_form": "Es muy [atlético::wysportowany].",
-        "pl_translation": "Jest bardzo wysportowany."
+        "es_form": "Tiene un cuerpo [atlético::wysportowany].",
+        "pl_translation": "Ma wysportowane ciało."
       },
       {
-        "es_form": "No es [atlético::wysportowany].",
-        "pl_translation": "Nie jest wysportowany."
+        "es_form": "Mi hermano es alto y [atlético::wysportowany].",
+        "pl_translation": "Mój brat jest wysoki i wysportowany."
       },
       {
-        "es_form": "Parece [atlético::wysportowany].",
-        "pl_translation": "Wydaje się wysportowany."
+        "es_form": "No soy muy [atlético::wysportowany], pero camino mucho.",
+        "pl_translation": "Nie jestem zbyt wysportowany, ale dużo chodzę."
       }
     ]
   },
   {
     "type": "adjective",
-    "es_word": "saludable",
-    "pl_word": "zdrowy",
+    "es_word": "musculoso",
+    "pl_word": "umięśniony",
     "examples": [
       {
-        "es_form": "No es [saludable::zdrowy].",
-        "pl_translation": "Nie jest zdrowy."
+        "es_form": "El nadador es muy [musculoso::umięśniony].",
+        "pl_translation": "Pływak jest bardzo umięśniony."
       },
       {
-        "es_form": "Parece [saludable::zdrowy].",
-        "pl_translation": "Wydaje się zdrowy."
+        "es_form": "Tiene un brazo [musculoso::umięśniony].",
+        "pl_translation": "Ma umięśnione ramię."
       },
       {
-        "es_form": "Es demasiado [saludable::zdrowy].",
-        "pl_translation": "Jest zbyt zdrowy."
+        "es_form": "Quiere estar [musculoso::umięśniony] para el verano.",
+        "pl_translation": "Chce być umięśniony na lato."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [ejercité::ćwiczyłem] el cuerpo.",
-            "pl_translation": "Ćwiczyłem ciało."
+            "es_form": "Ayer yo [ejercité::ćwiczyłem] el cuerpo.",
+            "pl_translation": "Wczoraj ćwiczyłem ciało."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [ejercitaste::ćwiczyłeś] el cuerpo.",
-            "pl_translation": "Ćwiczyłeś ciało."
+            "es_form": "La semana pasada tú [ejercitaste::ćwiczyłeś] el cuerpo.",
+            "pl_translation": "W zeszłym tygodniu ćwiczyłeś ciało."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [ejercitó::ćwiczył] el cuerpo.",
-            "pl_translation": "Ćwiczył ciało."
+            "es_form": "El otro día él [ejercitó::ćwiczył] el cuerpo.",
+            "pl_translation": "Niedawno ćwiczył ciało."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [ejercitamos::ćwiczyliśmy] el cuerpo.",
-            "pl_translation": "Ćwiczyliśmy ciało."
+            "es_form": "La semana pasada nosotros [ejercitamos::ćwiczyliśmy] el cuerpo.",
+            "pl_translation": "W zeszłym tygodniu ćwiczyliśmy ciało."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [ejercitasteis::ćwiczyliście] el cuerpo.",
-            "pl_translation": "Ćwiczyliście ciało."
+            "es_form": "El otro día vosotros [ejercitasteis::ćwiczyliście] el cuerpo.",
+            "pl_translation": "Niedawno ćwiczyliście ciało."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [ejercitaron::ćwiczyli] el cuerpo.",
-            "pl_translation": "Ćwiczyli ciało."
+            "es_form": "Ayer ellos [ejercitaron::ćwiczyli] el cuerpo.",
+            "pl_translation": "Wczoraj ćwiczyli ciało."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [ejercitaré::będę ćwiczyć] el cuerpo.",
-            "pl_translation": "Będę ćwiczyć ciało."
+            "es_form": "Mañana yo [ejercitaré::będę ćwiczyć] el cuerpo.",
+            "pl_translation": "Jutro będę ćwiczyć ciało."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [ejercitarás::będziesz ćwiczyć] el cuerpo.",
-            "pl_translation": "Będziesz ćwiczyć ciało."
+            "es_form": "La próxima semana tú [ejercitarás::będziesz ćwiczyć] el cuerpo.",
+            "pl_translation": "W przyszłym tygodniu będziesz ćwiczyć ciało."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [ejercitará::będzie ćwiczyć] el cuerpo.",
-            "pl_translation": "Będzie ćwiczyć ciało."
+            "es_form": "Pronto él [ejercitará::będzie ćwiczyć] el cuerpo.",
+            "pl_translation": "Wkrótce będzie ćwiczyć ciało."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [ejercitaremos::będziemy ćwiczyć] el cuerpo.",
-            "pl_translation": "Będziemy ćwiczyć ciało."
+            "es_form": "La próxima semana nosotros [ejercitaremos::będziemy ćwiczyć] el cuerpo.",
+            "pl_translation": "W przyszłym tygodniu będziemy ćwiczyć ciało."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [ejercitaréis::będziecie ćwiczyć] el cuerpo.",
-            "pl_translation": "Będziecie ćwiczyć ciało."
+            "es_form": "Pronto vosotros [ejercitaréis::będziecie ćwiczyć] el cuerpo.",
+            "pl_translation": "Wkrótce będziecie ćwiczyć ciało."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [ejercitarán::będą ćwiczyć] el cuerpo.",
-            "pl_translation": "Będą ćwiczyć ciało."
+            "es_form": "Mañana ellos [ejercitarán::będą ćwiczyć] el cuerpo.",
+            "pl_translation": "Jutro będą ćwiczyć ciało."
           }
         ]
       }

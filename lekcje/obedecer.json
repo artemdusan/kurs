@@ -5,16 +5,16 @@
     "pl_word": "przepis, norma",
     "examples": [
       {
-        "es_form": "Esta es [la norma::przepis].",
-        "pl_translation": "To jest przepis."
+        "es_form": "[La norma::przepis, norma] prohíbe aparcar aquí.",
+        "pl_translation": "Przepis zabrania tu parkować."
       },
       {
-        "es_form": "¿Dónde está [la norma::przepis]?",
-        "pl_translation": "Gdzie jest przepis?"
+        "es_form": "Cumplimos [la norma::przepis, norma] de seguridad.",
+        "pl_translation": "Przestrzegamy normy bezpieczeństwa."
       },
       {
-        "es_form": "No es [la norma::przepis].",
-        "pl_translation": "To nie jest przepis."
+        "es_form": "Es [una norma::przepis, norma] de la casa.",
+        "pl_translation": "To zasada tego domu."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "zasada",
     "examples": [
       {
-        "es_form": "¿Dónde está [la regla::zasada]?",
-        "pl_translation": "Gdzie jest zasada?"
+        "es_form": "[La regla::zasada] es simple: no mentir.",
+        "pl_translation": "Zasada jest prosta: nie kłamać."
       },
       {
-        "es_form": "[La regla::zasada] está aquí.",
-        "pl_translation": "Zasada jest tutaj."
+        "es_form": "Rompió [la regla::zasada] del juego.",
+        "pl_translation": "Złamał zasadę gry."
       },
       {
-        "es_form": "No es [la regla::zasada].",
-        "pl_translation": "To nie jest zasada."
+        "es_form": "Sigo [la regla::zasada] de oro.",
+        "pl_translation": "Trzymam się złotej zasady."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "zakaz",
     "examples": [
       {
-        "es_form": "Esta es [la prohibición::zakaz].",
-        "pl_translation": "To jest zakaz."
+        "es_form": "[La prohibición::zakaz] de fumar es clara.",
+        "pl_translation": "Zakaz palenia jest jasny."
       },
       {
-        "es_form": "[La prohibición::zakaz] está aquí.",
-        "pl_translation": "Zakaz jest tutaj."
+        "es_form": "Ignoró [la prohibición::zakaz] de entrar.",
+        "pl_translation": "Zignorował zakaz wstępu."
       },
       {
-        "es_form": "No es [la prohibición::zakaz].",
-        "pl_translation": "To nie jest zakaz."
+        "es_form": "Hay [una prohibición::zakaz] de nadar aquí.",
+        "pl_translation": "Obowiązuje tu zakaz pływania."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "nakaz, rozkaz",
     "examples": [
       {
-        "es_form": "No es [la orden::nakaz].",
-        "pl_translation": "To nie jest nakaz."
+        "es_form": "El soldado cumple [la orden::nakaz, rozkaz].",
+        "pl_translation": "Żołnierz wykonuje rozkaz."
       },
       {
-        "es_form": "Esta es [la orden::nakaz].",
-        "pl_translation": "To jest nakaz."
+        "es_form": "[La orden::nakaz, rozkaz] vino del jefe.",
+        "pl_translation": "Nakaz przyszedł od szefa."
       },
       {
-        "es_form": "¿Dónde está [la orden::nakaz]?",
-        "pl_translation": "Gdzie jest nakaz?"
+        "es_form": "Recibí [la orden::nakaz, rozkaz] de volver.",
+        "pl_translation": "Otrzymałem rozkaz powrotu."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "mandat, grzywna",
     "examples": [
       {
-        "es_form": "Esta es [la multa::mandat].",
-        "pl_translation": "To jest mandat."
+        "es_form": "Pagué [la multa::mandat, grzywna] por aparcar mal.",
+        "pl_translation": "Zapłaciłem mandat za złe parkowanie."
       },
       {
-        "es_form": "¿Dónde está [la multa::mandat]?",
-        "pl_translation": "Gdzie jest mandat?"
+        "es_form": "[La multa::mandat, grzywna] es de cien euros.",
+        "pl_translation": "Mandat wynosi sto euro."
       },
       {
-        "es_form": "No es [la multa::mandat].",
-        "pl_translation": "To nie jest mandat."
+        "es_form": "Me pusieron [una multa::mandat, grzywna] ayer.",
+        "pl_translation": "Wczoraj dostałem mandat."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "kara",
     "examples": [
       {
-        "es_form": "Este es [el castigo::kara].",
-        "pl_translation": "To jest kara."
+        "es_form": "[El castigo::kara] fue demasiado duro.",
+        "pl_translation": "Kara była zbyt surowa."
       },
       {
-        "es_form": "No es [el castigo::kara].",
-        "pl_translation": "To nie jest kara."
+        "es_form": "El niño acepta [el castigo::kara].",
+        "pl_translation": "Dziecko przyjmuje karę."
       },
       {
-        "es_form": "¿Dónde está [el castigo::kara]?",
-        "pl_translation": "Gdzie jest kara?"
+        "es_form": "No merece [el castigo::kara].",
+        "pl_translation": "Nie zasługuje na karę."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "sąd",
     "examples": [
       {
-        "es_form": "Este es [el tribunal::sąd].",
-        "pl_translation": "To jest sąd."
+        "es_form": "[El tribunal::sąd] decidió a su favor.",
+        "pl_translation": "Sąd zdecydował na jego korzyść."
       },
       {
-        "es_form": "¿Dónde está [el tribunal::sąd]?",
-        "pl_translation": "Gdzie jest sąd?"
+        "es_form": "Declaró ante [el tribunal::sąd].",
+        "pl_translation": "Zeznawał przed sądem."
       },
       {
-        "es_form": "No es [el tribunal::sąd].",
-        "pl_translation": "To nie jest sąd."
+        "es_form": "[El tribunal::sąd] está en el centro.",
+        "pl_translation": "Sąd jest w centrum."
       }
     ]
   },
@@ -138,35 +138,35 @@
     "pl_word": "sędzia",
     "examples": [
       {
-        "es_form": "¿Dónde está [la juez::sędzia]?",
-        "pl_translation": "Gdzie jest sędzia?"
+        "es_form": "[La juez::sędzia] escuchó a los testigos.",
+        "pl_translation": "Sędzia wysłuchała świadków."
       },
       {
-        "es_form": "[La juez::sędzia] está aquí.",
-        "pl_translation": "Sędzia jest tutaj."
+        "es_form": "[La juez::sędzia] dictó la sentencia.",
+        "pl_translation": "Sędzia ogłosiła wyrok."
       },
       {
-        "es_form": "[La juez::sędzia] vive en mi calle.",
-        "pl_translation": "Sędzia mieszka na mojej ulicy."
+        "es_form": "Hablé con [la juez::sędzia] del caso.",
+        "pl_translation": "Rozmawiałem z sędzią o sprawie."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El abogado",
-    "pl_word": "adwokat",
+    "es_word": "El fiscal",
+    "pl_word": "prokurator",
     "examples": [
       {
-        "es_form": "[El abogado::adwokat] es muy amable.",
-        "pl_translation": "Adwokat jest bardzo miły."
+        "es_form": "[El fiscal::prokurator] acusó al ladrón.",
+        "pl_translation": "Prokurator oskarżył złodzieja."
       },
       {
-        "es_form": "[El abogado::adwokat] trabaja aquí.",
-        "pl_translation": "Adwokat tu pracuje."
+        "es_form": "[El fiscal::prokurator] pidió cinco años de cárcel.",
+        "pl_translation": "Prokurator zażądał pięciu lat więzienia."
       },
       {
-        "es_form": "Este es [el abogado::adwokat] del que hablé.",
-        "pl_translation": "To jest adwokat, o którym mówiłem."
+        "es_form": "El juez escuchó primero un testigo y luego [el fiscal::prokurator] habló.",
+        "pl_translation": "Sędzia wysłuchał najpierw świadka, a potem przemówił prokurator."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "pozew",
     "examples": [
       {
-        "es_form": "Esta es [la demanda::pozew].",
-        "pl_translation": "To jest pozew."
+        "es_form": "Presentó [la demanda::pozew] contra la empresa.",
+        "pl_translation": "Złożył pozew przeciwko firmie."
       },
       {
-        "es_form": "[La demanda::pozew] está aquí.",
-        "pl_translation": "Pozew jest tutaj."
+        "es_form": "[La demanda::pozew] llegó al tribunal.",
+        "pl_translation": "Pozew trafił do sądu."
       },
       {
-        "es_form": "No es [la demanda::pozew].",
-        "pl_translation": "To nie jest pozew."
+        "es_form": "Retiró [la demanda::pozew] ayer.",
+        "pl_translation": "Wczoraj wycofał pozew."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "legalny",
     "examples": [
       {
-        "es_form": "Es muy [legal::legalny].",
-        "pl_translation": "Jest bardzo legalny."
+        "es_form": "Todo esto es [legal::legalny].",
+        "pl_translation": "To wszystko jest legalne."
       },
       {
-        "es_form": "No es [legal::legalny].",
-        "pl_translation": "Nie jest legalny."
+        "es_form": "Tengo un contrato [legal::legalny].",
+        "pl_translation": "Mam legalną umowę."
       },
       {
-        "es_form": "Es demasiado [legal::legalny].",
-        "pl_translation": "Jest zbyt legalny."
+        "es_form": "No es [legal::legalny] aparcar aquí.",
+        "pl_translation": "Parkowanie tutaj nie jest legalne."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "zabroniony",
     "examples": [
       {
-        "es_form": "Está muy [prohibido::zabroniony].",
-        "pl_translation": "Jest bardzo zabroniony."
+        "es_form": "Está [prohibido::zabroniony] fumar aquí.",
+        "pl_translation": "Palenie jest tu zabronione."
       },
       {
-        "es_form": "Parece [prohibido::zabroniony].",
-        "pl_translation": "Wydaje się zabroniony."
+        "es_form": "El paso está [prohibido::zabroniony].",
+        "pl_translation": "Przejście jest zabronione."
       },
       {
-        "es_form": "Está demasiado [prohibido::zabroniony].",
-        "pl_translation": "Jest zbyt zabroniony."
+        "es_form": "Es un producto [prohibido::zabroniony] en Europa.",
+        "pl_translation": "To produkt zabroniony w Europie."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [obedecí::przestrzegałem] las reglas.",
-            "pl_translation": "Przestrzegałem zasad."
+            "es_form": "Ayer yo [obedecí::przestrzegałem] las reglas.",
+            "pl_translation": "Wczoraj przestrzegałem zasad."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [obedeciste::przestrzegałeś] las reglas.",
-            "pl_translation": "Przestrzegałeś zasad."
+            "es_form": "La semana pasada tú [obedeciste::przestrzegałeś] las reglas.",
+            "pl_translation": "W zeszłym tygodniu przestrzegałeś zasad."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [obedeció::przestrzegał] las reglas.",
-            "pl_translation": "Przestrzegał zasad."
+            "es_form": "El otro día él [obedeció::przestrzegał] las reglas.",
+            "pl_translation": "Niedawno przestrzegał zasad."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [obedecimos::przestrzegaliśmy] las reglas.",
-            "pl_translation": "Przestrzegaliśmy zasad."
+            "es_form": "La semana pasada nosotros [obedecimos::przestrzegaliśmy] las reglas.",
+            "pl_translation": "W zeszłym tygodniu przestrzegaliśmy zasad."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [obedecisteis::przestrzegaliście] las reglas.",
-            "pl_translation": "Przestrzegaliście zasad."
+            "es_form": "El otro día vosotros [obedecisteis::przestrzegaliście] las reglas.",
+            "pl_translation": "Niedawno przestrzegaliście zasad."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [obedecieron::przestrzegali] las reglas.",
-            "pl_translation": "Przestrzegali zasad."
+            "es_form": "Ayer ellos [obedecieron::przestrzegali] las reglas.",
+            "pl_translation": "Wczoraj przestrzegali zasad."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [obedeceré::będę przestrzegać] las reglas.",
-            "pl_translation": "Będę przestrzegać zasad."
+            "es_form": "Mañana yo [obedeceré::będę przestrzegać] las reglas.",
+            "pl_translation": "Jutro będę przestrzegać zasad."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [obedecerás::będziesz przestrzegać] las reglas.",
-            "pl_translation": "Będziesz przestrzegać zasad."
+            "es_form": "La próxima semana tú [obedecerás::będziesz przestrzegać] las reglas.",
+            "pl_translation": "W przyszłym tygodniu będziesz przestrzegać zasad."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [obedecerá::będzie przestrzegać] las reglas.",
-            "pl_translation": "Będzie przestrzegać zasad."
+            "es_form": "Pronto él [obedecerá::będzie przestrzegać] las reglas.",
+            "pl_translation": "Wkrótce będzie przestrzegać zasad."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [obedeceremos::będziemy przestrzegać] las reglas.",
-            "pl_translation": "Będziemy przestrzegać zasad."
+            "es_form": "La próxima semana nosotros [obedeceremos::będziemy przestrzegać] las reglas.",
+            "pl_translation": "W przyszłym tygodniu będziemy przestrzegać zasad."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [obedeceréis::będziecie przestrzegać] las reglas.",
-            "pl_translation": "Będziecie przestrzegać zasad."
+            "es_form": "Pronto vosotros [obedeceréis::będziecie przestrzegać] las reglas.",
+            "pl_translation": "Wkrótce będziecie przestrzegać zasad."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [obedecerán::będą przestrzegać] las reglas.",
-            "pl_translation": "Będą przestrzegać zasad."
+            "es_form": "Mañana ellos [obedecerán::będą przestrzegać] las reglas.",
+            "pl_translation": "Jutro będą przestrzegać zasad."
           }
         ]
       }

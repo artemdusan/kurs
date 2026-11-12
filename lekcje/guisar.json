@@ -1,20 +1,20 @@
 [
   {
     "type": "noun",
-    "es_word": "El caldo",
-    "pl_word": "rosół, bulion",
+    "es_word": "El cocido",
+    "pl_word": "cocido (hiszpański jednogarnkowiec)",
     "examples": [
       {
-        "es_form": "Este es [el caldo::rosół].",
-        "pl_translation": "To jest rosół."
+        "es_form": "[El cocido::cocido (hiszpański jednogarnkowiec)] lleva garbanzos y carne.",
+        "pl_translation": "Cocido zawiera ciecierzycę i mięso."
       },
       {
-        "es_form": "¿Dónde está [el caldo::rosół]?",
-        "pl_translation": "Gdzie jest rosół?"
+        "es_form": "Mi abuela prepara [el cocido::cocido (hiszpański jednogarnkowiec)] los domingos.",
+        "pl_translation": "Moja babcia gotuje cocido w niedziele."
       },
       {
-        "es_form": "Compramos [el caldo::bulion] en el mercado.",
-        "pl_translation": "Kupiliśmy bulion na targu."
+        "es_form": "[El cocido::cocido (hiszpański jednogarnkowiec)] madrileño es famoso.",
+        "pl_translation": "Madryckie cocido jest sławne."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "kotlet",
     "examples": [
       {
-        "es_form": "Esta es [la chuleta::kotlet].",
-        "pl_translation": "To jest kotlet."
+        "es_form": "Pedí [la chuleta::kotlet] con patatas.",
+        "pl_translation": "Zamówiłem kotlet z ziemniakami."
       },
       {
-        "es_form": "[La chuleta::kotlet] está aquí.",
-        "pl_translation": "Kotlet jest tutaj."
+        "es_form": "[La chuleta::kotlet] está muy tierna.",
+        "pl_translation": "Kotlet jest bardzo miękki."
       },
       {
-        "es_form": "[La chuleta::kotlet] es típica de España.",
-        "pl_translation": "Kotlet jest typowy dla Hiszpanii."
+        "es_form": "Frío [la chuleta::kotlet] en la sartén.",
+        "pl_translation": "Smażę kotlet na patelni."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "gulasz, potrawka",
     "examples": [
       {
-        "es_form": "Este es [el estofado::gulasz].",
-        "pl_translation": "To jest gulasz."
+        "es_form": "[El estofado::gulasz, potrawka] lleva carne y verduras.",
+        "pl_translation": "Gulasz zawiera mięso i warzywa."
       },
       {
-        "es_form": "¿Dónde está [el estofado::gulasz]?",
-        "pl_translation": "Gdzie jest gulasz?"
+        "es_form": "Cocino [el estofado::gulasz, potrawka] a fuego lento.",
+        "pl_translation": "Gotuję gulasz na wolnym ogniu."
       },
       {
-        "es_form": "¿Dónde está [el estofado::gulasz]?",
-        "pl_translation": "Gdzie jest gulasz?"
+        "es_form": "[El estofado::gulasz, potrawka] de mi madre es el mejor.",
+        "pl_translation": "Gulasz mojej mamy jest najlepszy."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "pieróg, empanada",
     "examples": [
       {
-        "es_form": "Necesito [la empanada::empanadę] nueva.",
-        "pl_translation": "Potrzebuję nowej empanady."
+        "es_form": "Comí [la empanada::pieróg, empanada] de atún.",
+        "pl_translation": "Zjadłem empanadę z tuńczykiem."
       },
       {
-        "es_form": "[La empanada::empanada] está muy rica.",
-        "pl_translation": "Empanada jest bardzo smaczna."
+        "es_form": "[La empanada::pieróg, empanada] está recién hecha.",
+        "pl_translation": "Empanada jest świeżo zrobiona."
       },
       {
-        "es_form": "Esta es [la empanada::pieróg].",
-        "pl_translation": "To jest pieróg."
+        "es_form": "Compro [la empanada::pieróg, empanada] en la panadería.",
+        "pl_translation": "Kupuję empanadę w piekarni."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "paella",
     "examples": [
       {
-        "es_form": "Esta es [la paella::paella].",
-        "pl_translation": "To jest paella."
+        "es_form": "[La paella::paella] lleva arroz y marisco.",
+        "pl_translation": "Paella zawiera ryż i owoce morza."
       },
       {
-        "es_form": "[La paella::paella] es típica de España.",
-        "pl_translation": "Paella jest typowa dla Hiszpanii."
+        "es_form": "Comemos [la paella::paella] los domingos.",
+        "pl_translation": "W niedziele jemy paellę."
       },
       {
-        "es_form": "Compramos [la paella::paellę] en el mercado.",
-        "pl_translation": "Kupiliśmy paellę na targu."
+        "es_form": "[La paella::paella] valenciana es la original.",
+        "pl_translation": "Paella z Walencji jest tą oryginalną."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "tortilla ziemniaczana",
     "examples": [
       {
-        "es_form": "[La tortilla de patatas::tortilla ziemniaczana] está muy rica.",
-        "pl_translation": "Tortilla ziemniaczana jest bardzo smaczna."
+        "es_form": "[La tortilla de patatas::tortilla ziemniaczana] lleva huevos y cebolla.",
+        "pl_translation": "Tortilla ziemniaczana zawiera jajka i cebulę."
       },
       {
-        "es_form": "Necesito [la tortilla de patatas::tortillę ziemniaczaną] nueva.",
-        "pl_translation": "Potrzebuję nowej tortilli ziemniaczanej."
+        "es_form": "Preparo [la tortilla de patatas::tortilla ziemniaczana] para la cena.",
+        "pl_translation": "Przygotowuję tortillę ziemniaczaną na kolację."
       },
       {
-        "es_form": "Compré [la tortilla de patatas::tortillę ziemniaczaną] ayer.",
-        "pl_translation": "Kupiłem tortillę ziemniaczaną wczoraj."
+        "es_form": "[La tortilla de patatas::tortilla ziemniaczana] está mejor fría.",
+        "pl_translation": "Tortilla ziemniaczana jest lepsza na zimno."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "gazpacho (chłodnik)",
     "examples": [
       {
-        "es_form": "Este es [el gazpacho::gazpacho].",
-        "pl_translation": "To jest gazpacho."
+        "es_form": "[El gazpacho::gazpacho (chłodnik)] se toma frío.",
+        "pl_translation": "Gazpacho je się na zimno."
       },
       {
-        "es_form": "[El gazpacho::gazpacho] está muy fresco.",
-        "pl_translation": "Gazpacho jest bardzo orzeźwiające."
+        "es_form": "En verano preparo [el gazpacho::gazpacho (chłodnik)].",
+        "pl_translation": "Latem robię gazpacho."
       },
       {
-        "es_form": "No es [el gazpacho::gazpacho].",
-        "pl_translation": "To nie jest gazpacho."
+        "es_form": "[El gazpacho::gazpacho (chłodnik)] lleva tomate y pepino.",
+        "pl_translation": "Gazpacho zawiera pomidory i ogórek."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "krokiet",
     "examples": [
       {
-        "es_form": "[La croqueta::krokiet] está muy rica.",
-        "pl_translation": "Krokiet jest bardzo smaczny."
+        "es_form": "Pedí [una croqueta::krokiet] de jamón.",
+        "pl_translation": "Zamówiłem krokiet z szynką."
       },
       {
-        "es_form": "¿Dónde está [la croqueta::krokiet]?",
-        "pl_translation": "Gdzie jest krokiet?"
+        "es_form": "[La croqueta::krokiet] está muy caliente.",
+        "pl_translation": "Krokiet jest bardzo gorący."
       },
       {
-        "es_form": "[La croqueta::krokiet] está aquí.",
-        "pl_translation": "Krokiet jest tutaj."
+        "es_form": "Mi abuela hace [la croqueta::krokiet] perfecta.",
+        "pl_translation": "Moja babcia robi idealny krokiet."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "krem karmelowy",
     "examples": [
       {
-        "es_form": "Necesito [el flan::krem karmelowy] nuevo.",
-        "pl_translation": "Potrzebuję nowego kremu karmelowego."
+        "es_form": "De postre quiero [el flan::krem karmelowy].",
+        "pl_translation": "Na deser chcę krem karmelowy."
       },
       {
-        "es_form": "Este es [el flan::krem karmelowy].",
-        "pl_translation": "To jest krem karmelowy."
+        "es_form": "[El flan::krem karmelowy] casero es el mejor.",
+        "pl_translation": "Domowy krem karmelowy jest najlepszy."
       },
       {
-        "es_form": "¿Dónde está [el flan::krem karmelowy]?",
-        "pl_translation": "Gdzie jest krem karmelowy?"
+        "es_form": "Preparo [el flan::krem karmelowy] con huevos y leche.",
+        "pl_translation": "Robię krem karmelowy z jajek i mleka."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "churros (hiszp. pączki)",
     "examples": [
       {
-        "es_form": "[Los churros::churros] están muy ricos.",
-        "pl_translation": "Churros są bardzo smaczne."
+        "es_form": "Desayunamos [los churros::churros (hiszp. pączki)] con chocolate.",
+        "pl_translation": "Jemy na śniadanie churros z czekoladą."
       },
       {
-        "es_form": "[Los churros::churros] son típicos de España.",
-        "pl_translation": "Churros są typowe dla Hiszpanii."
+        "es_form": "[Los churros::churros (hiszp. pączki)] están recién hechos.",
+        "pl_translation": "Churros są świeżo zrobione."
       },
       {
-        "es_form": "¿Dónde están [los churros::churros]?",
-        "pl_translation": "Gdzie są churros?"
+        "es_form": "Compro [los churros::churros (hiszp. pączki)] los domingos.",
+        "pl_translation": "Kupuję churros w niedziele."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "domowy",
     "examples": [
       {
-        "es_form": "No es [casero::domowy].",
-        "pl_translation": "Nie jest domowy."
+        "es_form": "Me encanta el pan [casero::domowy].",
+        "pl_translation": "Uwielbiam domowy chleb."
       },
       {
-        "es_form": "Parece [casero::domowy].",
-        "pl_translation": "Wydaje się domowy."
+        "es_form": "Es un restaurante de ambiente [casero::domowy].",
+        "pl_translation": "To restauracja o domowej atmosferze."
       },
       {
-        "es_form": "Es demasiado [casero::domowy].",
-        "pl_translation": "Jest zbyt domowy."
+        "es_form": "El yogur [casero::domowy] es más sano.",
+        "pl_translation": "Domowy jogurt jest zdrowszy."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "tradycyjny",
     "examples": [
       {
-        "es_form": "Es muy [tradicional::tradycyjny].",
-        "pl_translation": "Jest bardzo tradycyjny."
+        "es_form": "Es un plato [tradicional::tradycyjny] de España.",
+        "pl_translation": "To tradycyjne danie Hiszpanii."
       },
       {
-        "es_form": "No es [tradicional::tradycyjny].",
-        "pl_translation": "Nie jest tradycyjny."
+        "es_form": "Llevan un traje [tradicional::tradycyjny].",
+        "pl_translation": "Noszą tradycyjny strój."
       },
       {
-        "es_form": "Es demasiado [tradicional::tradycyjny].",
-        "pl_translation": "Jest zbyt tradycyjny."
+        "es_form": "Celebramos una boda de estilo [tradicional::tradycyjny].",
+        "pl_translation": "Świętujemy ślub w tradycyjnym stylu."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [guisé::udusiłem] la carne.",
-            "pl_translation": "Udusiłem mięso."
+            "es_form": "Ayer yo [guisé::udusiłem] la carne.",
+            "pl_translation": "Wczoraj udusiłem mięso."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [guisaste::udusiłeś] la carne.",
-            "pl_translation": "Udusiłeś mięso."
+            "es_form": "La semana pasada tú [guisaste::udusiłeś] la carne.",
+            "pl_translation": "W zeszłym tygodniu udusiłeś mięso."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [guisó::udusił] la carne.",
-            "pl_translation": "Udusił mięso."
+            "es_form": "El otro día él [guisó::udusił] la carne.",
+            "pl_translation": "Niedawno udusił mięso."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [guisamos::udusiliśmy] la carne.",
-            "pl_translation": "Udusiliśmy mięso."
+            "es_form": "La semana pasada nosotros [guisamos::udusiliśmy] la carne.",
+            "pl_translation": "W zeszłym tygodniu udusiliśmy mięso."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [guisasteis::udusiliście] la carne.",
-            "pl_translation": "Udusiliście mięso."
+            "es_form": "El otro día vosotros [guisasteis::udusiliście] la carne.",
+            "pl_translation": "Niedawno udusiliście mięso."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [guisaron::udusili] la carne.",
-            "pl_translation": "Udusili mięso."
+            "es_form": "Ayer ellos [guisaron::udusili] la carne.",
+            "pl_translation": "Wczoraj udusili mięso."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [guisaré::będę dusić] la carne.",
-            "pl_translation": "Będę dusić mięso."
+            "es_form": "Mañana yo [guisaré::będę dusić] la carne.",
+            "pl_translation": "Jutro będę dusić mięso."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [guisarás::będziesz dusić] la carne.",
-            "pl_translation": "Będziesz dusić mięso."
+            "es_form": "La próxima semana tú [guisarás::będziesz dusić] la carne.",
+            "pl_translation": "W przyszłym tygodniu będziesz dusić mięso."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [guisará::będzie dusić] la carne.",
-            "pl_translation": "Będzie dusić mięso."
+            "es_form": "Pronto él [guisará::będzie dusić] la carne.",
+            "pl_translation": "Wkrótce będzie dusić mięso."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [guisaremos::będziemy dusić] la carne.",
-            "pl_translation": "Będziemy dusić mięso."
+            "es_form": "La próxima semana nosotros [guisaremos::będziemy dusić] la carne.",
+            "pl_translation": "W przyszłym tygodniu będziemy dusić mięso."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [guisaréis::będziecie dusić] la carne.",
-            "pl_translation": "Będziecie dusić mięso."
+            "es_form": "Pronto vosotros [guisaréis::będziecie dusić] la carne.",
+            "pl_translation": "Wkrótce będziecie dusić mięso."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [guisarán::będą dusić] la carne.",
-            "pl_translation": "Będą dusić mięso."
+            "es_form": "Mañana ellos [guisarán::będą dusić] la carne.",
+            "pl_translation": "Jutro będą dusić mięso."
           }
         ]
       }

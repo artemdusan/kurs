@@ -1,20 +1,20 @@
 [
   {
     "type": "noun",
-    "es_word": "El conocimiento",
-    "pl_word": "wiedza",
+    "es_word": "La hipótesis",
+    "pl_word": "hipoteza",
     "examples": [
       {
-        "es_form": "No entiendo [el conocimiento::wiedza].",
-        "pl_translation": "Nie rozumiem tej wiedzy."
+        "es_form": "[La hipótesis::hipoteza] resultó falsa.",
+        "pl_translation": "Hipoteza okazała się fałszywa."
       },
       {
-        "es_form": "Este es [el conocimiento::wiedza].",
-        "pl_translation": "To jest wiedza."
+        "es_form": "Comprobamos [la hipótesis::hipoteza] en el laboratorio.",
+        "pl_translation": "Sprawdzamy hipotezę w laboratorium."
       },
       {
-        "es_form": "[El conocimiento::wiedza] cambió mi vida.",
-        "pl_translation": "Wiedza zmieniła moje życie."
+        "es_form": "[La hipótesis::hipoteza] del profesor es interesante.",
+        "pl_translation": "Hipoteza profesora jest ciekawa."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "badanie naukowe",
     "examples": [
       {
-        "es_form": "Me gusta mucho [la investigación::badanie naukowe].",
-        "pl_translation": "Bardzo lubię badania naukowe."
+        "es_form": "[La investigación::badanie naukowe] duró cinco años.",
+        "pl_translation": "Badanie naukowe trwało pięć lat."
       },
       {
-        "es_form": "Esta es [la investigación::badanie naukowe].",
-        "pl_translation": "To jest badanie naukowe."
+        "es_form": "Trabajo en [la investigación::badanie naukowe] sobre el clima.",
+        "pl_translation": "Pracuję nad badaniem naukowym o klimacie."
       },
       {
-        "es_form": "[La investigación::badanie naukowe] es típica de esta universidad.",
-        "pl_translation": "Badania naukowe są typowe dla tego uniwersytetu."
+        "es_form": "La universidad financia [la investigación::badanie naukowe].",
+        "pl_translation": "Uniwersytet finansuje badanie naukowe."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "odkrycie",
     "examples": [
       {
-        "es_form": "Este es [el descubrimiento::odkrycie].",
-        "pl_translation": "To jest odkrycie."
+        "es_form": "[El descubrimiento::odkrycie] cambió la medicina.",
+        "pl_translation": "Odkrycie zmieniło medycynę."
       },
       {
-        "es_form": "[El descubrimiento::odkrycie] cambió la ciencia.",
-        "pl_translation": "Odkrycie zmieniło naukę."
+        "es_form": "Hicieron [el descubrimiento::odkrycie] muy importante.",
+        "pl_translation": "Dokonali bardzo ważnego odkrycia."
       },
       {
-        "es_form": "¿Has oído sobre [el descubrimiento::odkrycie]?",
-        "pl_translation": "Czy słyszałeś o tym odkryciu?"
+        "es_form": "Leí sobre [el descubrimiento::odkrycie] en el periódico.",
+        "pl_translation": "Czytałem o odkryciu w gazecie."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "teoria",
     "examples": [
       {
-        "es_form": "Hablamos sobre [la teoría::teoria].",
-        "pl_translation": "Rozmawialiśmy o teorii."
+        "es_form": "[La teoría::teoria] es fácil, la práctica no.",
+        "pl_translation": "Teoria jest łatwa, praktyka nie."
       },
       {
-        "es_form": "Esta es [la teoría::teoria].",
-        "pl_translation": "To jest teoria."
+        "es_form": "No entiendo [la teoría::teoria] de Einstein.",
+        "pl_translation": "Nie rozumiem teorii Einsteina."
       },
       {
-        "es_form": "No entiendo [la teoría::teoria].",
-        "pl_translation": "Nie rozumiem tej teorii."
+        "es_form": "Tengo [la teoría::teoria] sobre lo que pasó.",
+        "pl_translation": "Mam teorię na temat tego, co się stało."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "fakt",
     "examples": [
       {
-        "es_form": "No entiendo [el hecho::fakt].",
-        "pl_translation": "Nie rozumiem tego faktu."
+        "es_form": "Es [un hecho::fakt] conocido por todos.",
+        "pl_translation": "To fakt znany wszystkim."
       },
       {
-        "es_form": "[El hecho::fakt] es muy importante.",
-        "pl_translation": "Fakt jest bardzo ważny."
+        "es_form": "[El hecho::fakt] es que no tenemos tiempo.",
+        "pl_translation": "Faktem jest, że nie mamy czasu."
       },
       {
-        "es_form": "Este es [el hecho::fakt].",
-        "pl_translation": "To jest fakt."
+        "es_form": "Comprobé [el hecho::fakt] antes de escribir.",
+        "pl_translation": "Sprawdziłem fakt, zanim napisałem."
       }
     ]
   },
@@ -100,35 +100,35 @@
     "pl_word": "dowód",
     "examples": [
       {
-        "es_form": "[La prueba::dowód] es muy importante.",
-        "pl_translation": "Dowód jest bardzo ważny."
+        "es_form": "No hay [la prueba::dowód] de eso.",
+        "pl_translation": "Nie ma na to dowodu."
       },
       {
-        "es_form": "No entiendo [la prueba::dowód].",
-        "pl_translation": "Nie rozumiem tego dowodu."
+        "es_form": "[La prueba::dowód] está en el vídeo.",
+        "pl_translation": "Dowód jest na nagraniu."
       },
       {
-        "es_form": "Esta es [la prueba::dowód].",
-        "pl_translation": "To jest dowód."
+        "es_form": "El abogado presentó [la prueba::dowód].",
+        "pl_translation": "Adwokat przedstawił dowód."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "La solución",
-    "pl_word": "rozwiązanie",
+    "es_word": "La fórmula",
+    "pl_word": "wzór, formuła",
     "examples": [
       {
-        "es_form": "[La solución::rozwiązanie] cambió mi vida.",
-        "pl_translation": "Rozwiązanie zmieniło moje życie."
+        "es_form": "Aprendí [la fórmula::wzór, formuła] de memoria.",
+        "pl_translation": "Nauczyłem się wzoru na pamięć."
       },
       {
-        "es_form": "Esta es [la solución::rozwiązanie].",
-        "pl_translation": "To jest rozwiązanie."
+        "es_form": "[La fórmula::wzór, formuła] del agua es muy simple.",
+        "pl_translation": "Wzór wody jest bardzo prosty."
       },
       {
-        "es_form": "No entiendo [la solución::rozwiązanie].",
-        "pl_translation": "Nie rozumiem tego rozwiązania."
+        "es_form": "No existe [la fórmula::wzór, formuła] mágica para aprender.",
+        "pl_translation": "Nie istnieje magiczna formuła na naukę."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "cel",
     "examples": [
       {
-        "es_form": "[El objetivo::cel] es muy importante.",
-        "pl_translation": "Cel jest bardzo ważny."
+        "es_form": "[El objetivo::cel] es aprender español.",
+        "pl_translation": "Celem jest nauczyć się hiszpańskiego."
       },
       {
-        "es_form": "No entiendo [el objetivo::cel].",
-        "pl_translation": "Nie rozumiem tego celu."
+        "es_form": "Alcancé [el objetivo::cel] en un año.",
+        "pl_translation": "Osiągnąłem cel w rok."
       },
       {
-        "es_form": "Este es [el objetivo::cel].",
-        "pl_translation": "To jest cel."
+        "es_form": "No pierdas de vista [el objetivo::cel].",
+        "pl_translation": "Nie trać celu z oczu."
       }
     ]
   },
@@ -157,35 +157,35 @@
     "pl_word": "metoda",
     "examples": [
       {
-        "es_form": "[El método::metoda] cambió mi vida.",
-        "pl_translation": "Metoda zmieniła moje życie."
+        "es_form": "Uso [el método::metoda] nuevo para estudiar.",
+        "pl_translation": "Stosuję nową metodę nauki."
       },
       {
-        "es_form": "Este es [el método::metoda].",
-        "pl_translation": "To jest metoda."
+        "es_form": "[El método::metoda] funciona muy bien.",
+        "pl_translation": "Metoda działa bardzo dobrze."
       },
       {
-        "es_form": "Tienes que aceptar [el método::metoda].",
-        "pl_translation": "Musisz zaakceptować tę metodę."
+        "es_form": "Explico [el método::metoda] paso a paso.",
+        "pl_translation": "Wyjaśniam metodę krok po kroku."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El resultado",
-    "pl_word": "wynik",
+    "es_word": "La conclusión",
+    "pl_word": "wniosek",
     "examples": [
       {
-        "es_form": "[El resultado::wynik] cambió mi vida.",
-        "pl_translation": "Wynik zmienił moje życie."
+        "es_form": "Llegué a [la conclusión::wniosek] de que tienes razón.",
+        "pl_translation": "Doszedłem do wniosku, że masz rację."
       },
       {
-        "es_form": "Este es [el resultado::wynik].",
-        "pl_translation": "To jest wynik."
+        "es_form": "[La conclusión::wniosek] del estudio es clara.",
+        "pl_translation": "Wniosek z badania jest jasny."
       },
       {
-        "es_form": "No entiendo [el resultado::wynik].",
-        "pl_translation": "Nie rozumiem tego wyniku."
+        "es_form": "Escribo [la conclusión::wniosek] al final del texto.",
+        "pl_translation": "Piszę wniosek na końcu tekstu."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "mądry",
     "examples": [
       {
-        "es_form": "No es [sabio::mądry].",
-        "pl_translation": "Nie jest mądry."
+        "es_form": "Mi abuelo es un hombre [sabio::mądry].",
+        "pl_translation": "Mój dziadek to mądry człowiek."
       },
       {
-        "es_form": "Parece [sabio::mądry].",
-        "pl_translation": "Wydaje się mądry."
+        "es_form": "Fue un consejo muy [sabio::mądry].",
+        "pl_translation": "To była bardzo mądra rada."
       },
       {
-        "es_form": "Es demasiado [sabio::mądry].",
-        "pl_translation": "Jest zbyt mądry."
+        "es_form": "El profesor es [sabio::mądry] y paciente.",
+        "pl_translation": "Profesor jest mądry i cierpliwy."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "głupi",
     "examples": [
       {
-        "es_form": "No es [tonto::głupi].",
-        "pl_translation": "Nie jest głupi."
+        "es_form": "No soy [tonto::głupi], lo entiendo todo.",
+        "pl_translation": "Nie jestem głupi, wszystko rozumiem."
       },
       {
-        "es_form": "Parece [tonto::głupi].",
-        "pl_translation": "Wydaje się głupi."
+        "es_form": "Fue un error [tonto::głupi].",
+        "pl_translation": "To był głupi błąd."
       },
       {
-        "es_form": "Es demasiado [tonto::głupi].",
-        "pl_translation": "Jest zbyt głupi."
+        "es_form": "Me sentí [tonto::głupi] al preguntar.",
+        "pl_translation": "Poczułem się głupi, pytając."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [entendí::zrozumiałem] la lección.",
-            "pl_translation": "Zrozumiałem lekcję."
+            "es_form": "Ayer yo [entendí::zrozumiałem] la lección.",
+            "pl_translation": "Wczoraj zrozumiałem lekcję."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [entendiste::zrozumiałeś] la lección.",
-            "pl_translation": "Zrozumiałeś lekcję."
+            "es_form": "La semana pasada tú [entendiste::zrozumiałeś] la lección.",
+            "pl_translation": "W zeszłym tygodniu zrozumiałeś lekcję."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [entendió::zrozumiał] la lección.",
-            "pl_translation": "Zrozumiał lekcję."
+            "es_form": "El otro día él [entendió::zrozumiał] la lección.",
+            "pl_translation": "Niedawno zrozumiał lekcję."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [entendimos::zrozumieliśmy] la lección.",
-            "pl_translation": "Zrozumieliśmy lekcję."
+            "es_form": "La semana pasada nosotros [entendimos::zrozumieliśmy] la lección.",
+            "pl_translation": "W zeszłym tygodniu zrozumieliśmy lekcję."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [entendisteis::zrozumieliście] la lección.",
-            "pl_translation": "Zrozumieliście lekcję."
+            "es_form": "El otro día vosotros [entendisteis::zrozumieliście] la lección.",
+            "pl_translation": "Niedawno zrozumieliście lekcję."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [entendieron::zrozumieli] la lección.",
-            "pl_translation": "Zrozumieli lekcję."
+            "es_form": "Ayer ellos [entendieron::zrozumieli] la lección.",
+            "pl_translation": "Wczoraj zrozumieli lekcję."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [entenderé::będę rozumieć] la lección.",
-            "pl_translation": "Będę rozumieć lekcję."
+            "es_form": "Mañana yo [entenderé::będę rozumieć] la lección.",
+            "pl_translation": "Jutro będę rozumieć lekcję."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [entenderás::będziesz rozumieć] la lección.",
-            "pl_translation": "Będziesz rozumieć lekcję."
+            "es_form": "La próxima semana tú [entenderás::będziesz rozumieć] la lección.",
+            "pl_translation": "W przyszłym tygodniu będziesz rozumieć lekcję."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [entenderá::będzie rozumieć] la lección.",
-            "pl_translation": "Będzie rozumieć lekcję."
+            "es_form": "Pronto él [entenderá::będzie rozumieć] la lección.",
+            "pl_translation": "Wkrótce będzie rozumieć lekcję."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [entenderemos::będziemy rozumieć] la lección.",
-            "pl_translation": "Będziemy rozumieć lekcję."
+            "es_form": "La próxima semana nosotros [entenderemos::będziemy rozumieć] la lección.",
+            "pl_translation": "W przyszłym tygodniu będziemy rozumieć lekcję."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [entenderéis::będziecie rozumieć] la lección.",
-            "pl_translation": "Będziecie rozumieć lekcję."
+            "es_form": "Pronto vosotros [entenderéis::będziecie rozumieć] la lección.",
+            "pl_translation": "Wkrótce będziecie rozumieć lekcję."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [entenderán::będą rozumieć] la lección.",
-            "pl_translation": "Będą rozumieć lekcję."
+            "es_form": "Mañana ellos [entenderán::będą rozumieć] la lección.",
+            "pl_translation": "Jutro będą rozumieć lekcję."
           }
         ]
       }

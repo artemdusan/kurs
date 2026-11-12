@@ -5,16 +5,16 @@
     "pl_word": "język",
     "examples": [
       {
-        "es_form": "¿Dónde está [el idioma::język]?",
-        "pl_translation": "Gdzie jest język?"
+        "es_form": "[El idioma::język] de mi abuela es el polaco.",
+        "pl_translation": "Językiem mojej babci jest polski."
       },
       {
-        "es_form": "Este es [el idioma::język].",
-        "pl_translation": "To jest język."
+        "es_form": "Estudio [el idioma::język] para viajar.",
+        "pl_translation": "Uczę się języka, żeby podróżować."
       },
       {
-        "es_form": "[El idioma::język] está aquí.",
-        "pl_translation": "Język jest tutaj."
+        "es_form": "[El idioma::język] español es bonito.",
+        "pl_translation": "Język hiszpański jest ładny."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "słowo",
     "examples": [
       {
-        "es_form": "Esta es [la palabra::słowo].",
-        "pl_translation": "To jest słowo."
+        "es_form": "No conozco [la palabra::słowo] «mesa».",
+        "pl_translation": "Nie znam słowa „mesa”."
       },
       {
-        "es_form": "¿Dónde está [la palabra::słowo]?",
-        "pl_translation": "Gdzie jest słowo?"
+        "es_form": "[La palabra::słowo] es larga y difícil.",
+        "pl_translation": "Słowo jest długie i trudne."
       },
       {
-        "es_form": "[La palabra::słowo] está aquí.",
-        "pl_translation": "Słowo jest tutaj."
+        "es_form": "Busco [la palabra::słowo] en el diccionario.",
+        "pl_translation": "Szukam słowa w słowniku."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "pytanie",
     "examples": [
       {
-        "es_form": "Esta es [la pregunta::pytanie].",
-        "pl_translation": "To jest pytanie."
+        "es_form": "No entiendo [la pregunta::pytanie] del profesor.",
+        "pl_translation": "Nie rozumiem pytania nauczyciela."
       },
       {
-        "es_form": "Hablamos sobre [la pregunta::pytanie].",
-        "pl_translation": "Rozmawiamy o tym, czym jest pytanie."
+        "es_form": "[La pregunta::pytanie] es muy fácil.",
+        "pl_translation": "Pytanie jest bardzo łatwe."
       },
       {
-        "es_form": "No es [la pregunta::pytanie].",
-        "pl_translation": "To nie jest pytanie."
+        "es_form": "Repite [la pregunta::pytanie], por favor.",
+        "pl_translation": "Powtórz pytanie, proszę."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "odpowiedź",
     "examples": [
       {
-        "es_form": "Esta es [la respuesta::odpowiedź].",
-        "pl_translation": "To jest odpowiedź."
+        "es_form": "No sé [la respuesta::odpowiedź].",
+        "pl_translation": "Nie znam odpowiedzi."
       },
       {
-        "es_form": "[La respuesta::odpowiedź] está aquí.",
-        "pl_translation": "Odpowiedź jest tutaj."
+        "es_form": "[La respuesta::odpowiedź] del alumno es correcta.",
+        "pl_translation": "Odpowiedź ucznia jest poprawna."
       },
       {
-        "es_form": "No es [la respuesta::odpowiedź].",
-        "pl_translation": "To nie jest odpowiedź."
+        "es_form": "Espero [la respuesta::odpowiedź] de mi amigo.",
+        "pl_translation": "Czekam na odpowiedź przyjaciela."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "problem",
     "examples": [
       {
-        "es_form": "Este es [el problema::problem].",
-        "pl_translation": "To jest problem."
+        "es_form": "Tengo [el problema::problem] con el coche.",
+        "pl_translation": "Mam problem z samochodem."
       },
       {
-        "es_form": "¿Dónde está [el problema::problem]?",
-        "pl_translation": "Gdzie jest problem?"
+        "es_form": "[El problema::problem] es que no hablo inglés.",
+        "pl_translation": "Problem w tym, że nie mówię po angielsku."
       },
       {
-        "es_form": "[El problema::problem] es muy importante.",
-        "pl_translation": "Problem jest bardzo ważny."
+        "es_form": "Explico [el problema::problem] con calma.",
+        "pl_translation": "Tłumaczę problem spokojnie."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "pomoc",
     "examples": [
       {
-        "es_form": "[La ayuda::pomoc] es muy importante.",
-        "pl_translation": "Pomoc jest bardzo ważna."
+        "es_form": "Necesito [la ayuda::pomoc] de un médico.",
+        "pl_translation": "Potrzebuję pomocy lekarza."
       },
       {
-        "es_form": "¿Dónde está [la ayuda::pomoc]?",
-        "pl_translation": "Gdzie jest pomoc?"
+        "es_form": "Gracias por [la ayuda::pomoc].",
+        "pl_translation": "Dziękuję za pomoc."
       },
       {
-        "es_form": "[La ayuda::pomoc] está aquí.",
-        "pl_translation": "Pomoc jest tutaj."
+        "es_form": "Con [la ayuda::pomoc] de mi hermano termino pronto.",
+        "pl_translation": "Z pomocą brata skończę szybko."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "numer",
     "examples": [
       {
-        "es_form": "Este es [el número::numer].",
-        "pl_translation": "To jest numer."
+        "es_form": "¿Me das [el número::numer] de tu móvil?",
+        "pl_translation": "Podasz mi numer swojej komórki?"
       },
       {
-        "es_form": "¿Dónde está [el número::numer]?",
-        "pl_translation": "Gdzie jest numer?"
+        "es_form": "[El número::numer] de mi casa es el diez.",
+        "pl_translation": "Numer mojego domu to dziesięć."
       },
       {
-        "es_form": "[El número::numer] está aquí.",
-        "pl_translation": "Numer jest tutaj."
+        "es_form": "No recuerdo [el número::numer] del autobús.",
+        "pl_translation": "Nie pamiętam numeru autobusu."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "telefon",
     "examples": [
       {
-        "es_form": "Este es [el teléfono::telefon].",
-        "pl_translation": "To jest telefon."
+        "es_form": "[El teléfono::telefon] suena todo el día.",
+        "pl_translation": "Telefon dzwoni cały dzień."
       },
       {
-        "es_form": "No es [el teléfono::telefon].",
-        "pl_translation": "To nie jest telefon."
+        "es_form": "Hablo con mi madre por [el teléfono::telefon].",
+        "pl_translation": "Rozmawiam z mamą przez telefon."
       },
       {
-        "es_form": "¿Dónde está [el teléfono::telefon]?",
-        "pl_translation": "Gdzie jest telefon?"
+        "es_form": "No encuentro [el teléfono::telefon] en mi bolso.",
+        "pl_translation": "Nie mogę znaleźć telefonu w torebce."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "wiadomość",
     "examples": [
       {
-        "es_form": "Este es [el mensaje::wiadomość].",
-        "pl_translation": "To jest wiadomość."
+        "es_form": "Leo [el mensaje::wiadomość] de mi jefe.",
+        "pl_translation": "Czytam wiadomość od szefa."
       },
       {
-        "es_form": "No es [el mensaje::wiadomość].",
-        "pl_translation": "To nie jest wiadomość."
+        "es_form": "[El mensaje::wiadomość] es muy corto.",
+        "pl_translation": "Wiadomość jest bardzo krótka."
       },
       {
-        "es_form": "Hablamos sobre [el mensaje::wiadomość].",
-        "pl_translation": "Rozmawiamy o tym, czym jest wiadomość."
+        "es_form": "Escribo [el mensaje::wiadomość] en español.",
+        "pl_translation": "Piszę wiadomość po hiszpańsku."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "sprawa, temat",
     "examples": [
       {
-        "es_form": "Este es [el asunto::sprawa].",
-        "pl_translation": "To jest sprawa."
+        "es_form": "Hablamos sobre [el asunto::sprawa, temat] mañana.",
+        "pl_translation": "Porozmawiamy o tej sprawie jutro."
       },
       {
-        "es_form": "No es [el asunto::sprawa].",
-        "pl_translation": "To nie jest sprawa."
+        "es_form": "[El asunto::sprawa, temat] es muy serio.",
+        "pl_translation": "Sprawa jest bardzo poważna."
       },
       {
-        "es_form": "¿Dónde está [el asunto::sprawa]?",
-        "pl_translation": "Gdzie jest sprawa?"
+        "es_form": "No conozco bien [el asunto::sprawa, temat].",
+        "pl_translation": "Nie znam dobrze tej sprawy."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "hiszpański",
     "examples": [
       {
-        "es_form": "Es muy [español::hiszpański].",
-        "pl_translation": "Jest bardzo hiszpański."
+        "es_form": "Mi amigo Pablo es [español::hiszpański].",
+        "pl_translation": "Mój przyjaciel Pablo jest Hiszpanem."
       },
       {
-        "es_form": "No es [español::hiszpański].",
-        "pl_translation": "Nie jest hiszpański."
+        "es_form": "Leo un libro [español::hiszpański].",
+        "pl_translation": "Czytam hiszpańską książkę."
       },
       {
-        "es_form": "Parece [español::hiszpański].",
-        "pl_translation": "Wydaje się hiszpański."
+        "es_form": "Me gusta el queso [español::hiszpański].",
+        "pl_translation": "Lubię hiszpański ser."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "angielski",
     "examples": [
       {
-        "es_form": "Es muy [inglés::angielski].",
-        "pl_translation": "Jest bardzo angielski."
+        "es_form": "Mi profesor es [inglés::angielski].",
+        "pl_translation": "Mój nauczyciel jest Anglikiem."
       },
       {
-        "es_form": "Parece [inglés::angielski].",
-        "pl_translation": "Wydaje się angielski."
+        "es_form": "Leo un periódico [inglés::angielski].",
+        "pl_translation": "Czytam angielską gazetę."
       },
       {
-        "es_form": "Es demasiado [inglés::angielski].",
-        "pl_translation": "Jest zbyt angielski."
+        "es_form": "Tengo un amigo [inglés::angielski] en Londres.",
+        "pl_translation": "Mam angielskiego przyjaciela w Londynie."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [hablé::mówiłem] español.",
-            "pl_translation": "Mówiłem po hiszpańsku."
+            "es_form": "Ayer yo [hablé::mówiłem] español.",
+            "pl_translation": "Wczoraj mówiłem po hiszpańsku."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [hablaste::mówiłeś] español.",
-            "pl_translation": "Mówiłeś po hiszpańsku."
+            "es_form": "La semana pasada tú [hablaste::mówiłeś] español.",
+            "pl_translation": "W zeszłym tygodniu mówiłeś po hiszpańsku."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [habló::mówił] español.",
-            "pl_translation": "Mówił po hiszpańsku."
+            "es_form": "El otro día él [habló::mówił] español.",
+            "pl_translation": "Niedawno mówił po hiszpańsku."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [hablamos::mówiliśmy] español.",
-            "pl_translation": "Mówiliśmy po hiszpańsku."
+            "es_form": "La semana pasada nosotros [hablamos::mówiliśmy] español.",
+            "pl_translation": "W zeszłym tygodniu mówiliśmy po hiszpańsku."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [hablasteis::mówiliście] español.",
-            "pl_translation": "Mówiliście po hiszpańsku."
+            "es_form": "El otro día vosotros [hablasteis::mówiliście] español.",
+            "pl_translation": "Niedawno mówiliście po hiszpańsku."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [hablaron::mówili] español.",
-            "pl_translation": "Mówili po hiszpańsku."
+            "es_form": "Ayer ellos [hablaron::mówili] español.",
+            "pl_translation": "Wczoraj mówili po hiszpańsku."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [hablaré::będę mówić] español.",
-            "pl_translation": "Będę mówić po hiszpańsku."
+            "es_form": "Mañana yo [hablaré::będę mówić] español.",
+            "pl_translation": "Jutro będę mówić po hiszpańsku."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [hablarás::będziesz mówić] español.",
-            "pl_translation": "Będziesz mówić po hiszpańsku."
+            "es_form": "La próxima semana tú [hablarás::będziesz mówić] español.",
+            "pl_translation": "W przyszłym tygodniu będziesz mówić po hiszpańsku."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [hablará::będzie mówić] español.",
-            "pl_translation": "Będzie mówić po hiszpańsku."
+            "es_form": "Pronto él [hablará::będzie mówić] español.",
+            "pl_translation": "Wkrótce będzie mówić po hiszpańsku."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [hablaremos::będziemy mówić] español.",
-            "pl_translation": "Będziemy mówić po hiszpańsku."
+            "es_form": "La próxima semana nosotros [hablaremos::będziemy mówić] español.",
+            "pl_translation": "W przyszłym tygodniu będziemy mówić po hiszpańsku."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [hablaréis::będziecie mówić] español.",
-            "pl_translation": "Będziecie mówić po hiszpańsku."
+            "es_form": "Pronto vosotros [hablaréis::będziecie mówić] español.",
+            "pl_translation": "Wkrótce będziecie mówić po hiszpańsku."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [hablarán::będą mówić] español.",
-            "pl_translation": "Będą mówić po hiszpańsku."
+            "es_form": "Mañana ellos [hablarán::będą mówić] español.",
+            "pl_translation": "Jutro będą mówić po hiszpańsku."
           }
         ]
       }

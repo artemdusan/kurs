@@ -5,16 +5,16 @@
     "pl_word": "film",
     "examples": [
       {
-        "es_form": "Esta es [la película::film].",
-        "pl_translation": "To jest film."
+        "es_form": "Veo [la película::film] con mis amigos.",
+        "pl_translation": "Oglądam film z przyjaciółmi."
       },
       {
-        "es_form": "¿Dónde está [la película::film]?",
-        "pl_translation": "Gdzie jest film?"
+        "es_form": "[La película::film] empieza a las nueve.",
+        "pl_translation": "Film zaczyna się o dziewiątej."
       },
       {
-        "es_form": "No es [la película::film].",
-        "pl_translation": "To nie jest film."
+        "es_form": "[La película::film] es muy larga.",
+        "pl_translation": "Film jest bardzo długi."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "muzyka",
     "examples": [
       {
-        "es_form": "Esta es [la música::muzyka].",
-        "pl_translation": "To jest muzyka."
+        "es_form": "Escucho [la música::muzyka] en el autobús.",
+        "pl_translation": "Słucham muzyki w autobusie."
       },
       {
-        "es_form": "[La música::muzyka] está aquí.",
-        "pl_translation": "Muzyka jest tutaj."
+        "es_form": "[La música::muzyka] está muy alta.",
+        "pl_translation": "Muzyka jest bardzo głośna."
       },
       {
-        "es_form": "No es [la música::muzyka].",
-        "pl_translation": "To nie jest muzyka."
+        "es_form": "Me gusta [la música::muzyka] española.",
+        "pl_translation": "Lubię hiszpańską muzykę."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "piosenka",
     "examples": [
       {
-        "es_form": "Esta es [la canción::piosenka].",
-        "pl_translation": "To jest piosenka."
+        "es_form": "Canto [la canción::piosenka] con mi hija.",
+        "pl_translation": "Śpiewam piosenkę z córką."
       },
       {
-        "es_form": "¿Dónde está [la canción::piosenka]?",
-        "pl_translation": "Gdzie jest piosenka?"
+        "es_form": "[La canción::piosenka] es muy bonita.",
+        "pl_translation": "Piosenka jest bardzo ładna."
       },
       {
-        "es_form": "No es [la canción::piosenka].",
-        "pl_translation": "To nie jest piosenka."
+        "es_form": "No conozco [la canción::piosenka] de la radio.",
+        "pl_translation": "Nie znam piosenki z radia."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "telewizja",
     "examples": [
       {
-        "es_form": "Esta es [la televisión::telewizja].",
-        "pl_translation": "To jest telewizja."
+        "es_form": "Veo [la televisión::telewizja] por la noche.",
+        "pl_translation": "Oglądam telewizję wieczorem."
       },
       {
-        "es_form": "Hablamos sobre [la televisión::telewizja].",
-        "pl_translation": "Rozmawiamy o tym, czym jest telewizja."
+        "es_form": "[La televisión::telewizja] está en el salón.",
+        "pl_translation": "Telewizor jest w salonie."
       },
       {
-        "es_form": "No es [la televisión::telewizja].",
-        "pl_translation": "To nie jest telewizja."
+        "es_form": "Apaga [la televisión::telewizja], por favor.",
+        "pl_translation": "Wyłącz telewizor, proszę."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "radio",
     "examples": [
       {
-        "es_form": "Esta es [la radio::radio].",
-        "pl_translation": "To jest radio."
+        "es_form": "Escucho [la radio::radio] en el coche.",
+        "pl_translation": "Słucham radia w samochodzie."
       },
       {
-        "es_form": "[La radio::radio] está aquí.",
-        "pl_translation": "Radio jest tutaj."
+        "es_form": "[La radio::radio] está en la cocina.",
+        "pl_translation": "Radio jest w kuchni."
       },
       {
-        "es_form": "No es [la radio::radio].",
-        "pl_translation": "To nie jest radio."
+        "es_form": "Mi abuelo pone [la radio::radio] cada mañana.",
+        "pl_translation": "Mój dziadek włącza radio każdego ranka."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "komputer",
     "examples": [
       {
-        "es_form": "¿Dónde está [el ordenador::komputer]?",
-        "pl_translation": "Gdzie jest komputer?"
+        "es_form": "Trabajo con [el ordenador::komputer] todo el día.",
+        "pl_translation": "Pracuję przy komputerze cały dzień."
       },
       {
-        "es_form": "[El ordenador::komputer] está aquí.",
-        "pl_translation": "Komputer jest tutaj."
+        "es_form": "[El ordenador::komputer] es viejo y lento.",
+        "pl_translation": "Komputer jest stary i wolny."
       },
       {
-        "es_form": "No es [el ordenador::komputer].",
-        "pl_translation": "To nie jest komputer."
+        "es_form": "Veo películas en [el ordenador::komputer].",
+        "pl_translation": "Oglądam filmy na komputerze."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "internet",
     "examples": [
       {
-        "es_form": "¿Dónde está [el internet::internet]?",
-        "pl_translation": "Gdzie jest internet?"
+        "es_form": "Busco la dirección en [el internet::internet].",
+        "pl_translation": "Szukam adresu w internecie."
       },
       {
-        "es_form": "[El internet::internet] está aquí.",
-        "pl_translation": "Internet jest tutaj."
+        "es_form": "[El internet::internet] no funciona hoy.",
+        "pl_translation": "Internet dziś nie działa."
       },
       {
-        "es_form": "Este es [el internet::internet].",
-        "pl_translation": "To jest internet."
+        "es_form": "Leo las noticias en [el internet::internet].",
+        "pl_translation": "Czytam wiadomości w internecie."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "impreza",
     "examples": [
       {
-        "es_form": "No es [la fiesta::impreza].",
-        "pl_translation": "To nie jest impreza."
+        "es_form": "[La fiesta::impreza] empieza a las diez.",
+        "pl_translation": "Impreza zaczyna się o dziesiątej."
       },
       {
-        "es_form": "Esta es [la fiesta::impreza].",
-        "pl_translation": "To jest impreza."
+        "es_form": "Voy a [la fiesta::impreza] de mi amigo.",
+        "pl_translation": "Idę na imprezę przyjaciela."
       },
       {
-        "es_form": "[La fiesta::impreza] está aquí.",
-        "pl_translation": "Impreza jest tutaj."
+        "es_form": "Preparo [la fiesta::impreza] de cumpleaños.",
+        "pl_translation": "Przygotowuję imprezę urodzinową."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "wakacje",
     "examples": [
       {
-        "es_form": "Estas son [las vacaciones::wakacje].",
-        "pl_translation": "To są wakacje."
+        "es_form": "Paso [las vacaciones::wakacje] en la playa.",
+        "pl_translation": "Spędzam wakacje na plaży."
       },
       {
-        "es_form": "¿Dónde están [las vacaciones::wakacje]?",
-        "pl_translation": "Gdzie są wakacje?"
+        "es_form": "[Las vacaciones::wakacje] empiezan en julio.",
+        "pl_translation": "Wakacje zaczynają się w lipcu."
       },
       {
-        "es_form": "[Las vacaciones::wakacje] están aquí.",
-        "pl_translation": "Wakacje są tutaj."
+        "es_form": "Espero [las vacaciones::wakacje] de verano.",
+        "pl_translation": "Czekam na letnie wakacje."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "hobby",
     "examples": [
       {
-        "es_form": "Esta es [la afición::hobby].",
-        "pl_translation": "To jest hobby."
+        "es_form": "[La afición::hobby] de mi padre es la pesca.",
+        "pl_translation": "Hobby mojego taty to wędkarstwo."
       },
       {
-        "es_form": "[La afición::hobby] está aquí.",
-        "pl_translation": "Hobby jest tutaj."
+        "es_form": "No tengo tiempo para [la afición::hobby].",
+        "pl_translation": "Nie mam czasu na hobby."
       },
       {
-        "es_form": "No es [la afición::hobby].",
-        "pl_translation": "To nie jest hobby."
+        "es_form": "Comparto [la afición::hobby] con mi hermano.",
+        "pl_translation": "Dzielę hobby z bratem."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "ciekawy",
     "examples": [
       {
-        "es_form": "Es muy [interesante::ciekawy].",
-        "pl_translation": "Jest bardzo ciekawy."
+        "es_form": "Leo un libro muy [interesante::ciekawy].",
+        "pl_translation": "Czytam bardzo ciekawą książkę."
       },
       {
-        "es_form": "Parece [interesante::ciekawy].",
-        "pl_translation": "Wydaje się ciekawy."
+        "es_form": "El museo es [interesante::ciekawy].",
+        "pl_translation": "Muzeum jest ciekawe."
       },
       {
-        "es_form": "Es demasiado [interesante::ciekawy].",
-        "pl_translation": "Jest zbyt ciekawy."
+        "es_form": "Tienes un trabajo [interesante::ciekawy].",
+        "pl_translation": "Masz ciekawą pracę."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "nudny",
     "examples": [
       {
-        "es_form": "No es [aburrido::nudny].",
-        "pl_translation": "Nie jest nudny."
+        "es_form": "El libro es largo y [aburrido::nudny].",
+        "pl_translation": "Książka jest długa i nudna."
       },
       {
-        "es_form": "Parece [aburrido::nudny].",
-        "pl_translation": "Wydaje się nudny."
+        "es_form": "Estoy [aburrido::nudny] en casa.",
+        "pl_translation": "Nudzę się w domu."
       },
       {
-        "es_form": "Es demasiado [aburrido::nudny].",
-        "pl_translation": "Jest zbyt nudny."
+        "es_form": "El programa de hoy es [aburrido::nudny].",
+        "pl_translation": "Dzisiejszy program jest nudny."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [leí::przeczytałem] un libro.",
-            "pl_translation": "Przeczytałem książkę."
+            "es_form": "Ayer yo [leí::przeczytałem] un libro.",
+            "pl_translation": "Wczoraj przeczytałem książkę."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [leíste::przeczytałeś] un libro.",
-            "pl_translation": "Przeczytałeś książkę."
+            "es_form": "La semana pasada tú [leíste::przeczytałeś] un libro.",
+            "pl_translation": "W zeszłym tygodniu przeczytałeś książkę."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [leyó::przeczytał] un libro.",
-            "pl_translation": "Przeczytał książkę."
+            "es_form": "El otro día él [leyó::przeczytał] un libro.",
+            "pl_translation": "Niedawno przeczytał książkę."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [leímos::przeczytaliśmy] un libro.",
-            "pl_translation": "Przeczytaliśmy książkę."
+            "es_form": "La semana pasada nosotros [leímos::przeczytaliśmy] un libro.",
+            "pl_translation": "W zeszłym tygodniu przeczytaliśmy książkę."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [leísteis::przeczytaliście] un libro.",
-            "pl_translation": "Przeczytaliście książkę."
+            "es_form": "El otro día vosotros [leísteis::przeczytaliście] un libro.",
+            "pl_translation": "Niedawno przeczytaliście książkę."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [leyeron::przeczytali] un libro.",
-            "pl_translation": "Przeczytali książkę."
+            "es_form": "Ayer ellos [leyeron::przeczytali] un libro.",
+            "pl_translation": "Wczoraj przeczytali książkę."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [leeré::będę czytać] un libro.",
-            "pl_translation": "Będę czytać książkę."
+            "es_form": "Mañana yo [leeré::będę czytać] un libro.",
+            "pl_translation": "Jutro będę czytać książkę."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [leerás::będziesz czytać] un libro.",
-            "pl_translation": "Będziesz czytać książkę."
+            "es_form": "La próxima semana tú [leerás::będziesz czytać] un libro.",
+            "pl_translation": "W przyszłym tygodniu będziesz czytać książkę."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [leerá::będzie czytać] un libro.",
-            "pl_translation": "Będzie czytać książkę."
+            "es_form": "Pronto él [leerá::będzie czytać] un libro.",
+            "pl_translation": "Wkrótce będzie czytać książkę."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [leeremos::będziemy czytać] un libro.",
-            "pl_translation": "Będziemy czytać książkę."
+            "es_form": "La próxima semana nosotros [leeremos::będziemy czytać] un libro.",
+            "pl_translation": "W przyszłym tygodniu będziemy czytać książkę."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [leeréis::będziecie czytać] un libro.",
-            "pl_translation": "Będziecie czytać książkę."
+            "es_form": "Pronto vosotros [leeréis::będziecie czytać] un libro.",
+            "pl_translation": "Wkrótce będziecie czytać książkę."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [leerán::będą czytać] un libro.",
-            "pl_translation": "Będą czytać książkę."
+            "es_form": "Mañana ellos [leerán::będą czytać] un libro.",
+            "pl_translation": "Jutro będą czytać książkę."
           }
         ]
       }

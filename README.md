@@ -76,7 +76,7 @@ która chroni przed zapisami starego klienta. Zachować kopię D1 i nie usuwać 
 - Materiały kursu pochodzą z wersjonowanych plików aplikacji, nie z synchronizacji
   użytkownika; stare kopie słówek na serwerze nie nadpisują nowych treści.
 - JSON wszystkich lekcji jest objęty precache z rewizjami Workbox. Nowy zestaw
-  jest pobierany przy instalacji wersji PWA i działa offline. `?v=8` omija stary
+  jest pobierany przy instalacji wersji PWA i działa offline. `?v=9` omija stary
   cache danych podczas przejścia ze starszej wersji.
 
 Pierwsza konfiguracja Workera:

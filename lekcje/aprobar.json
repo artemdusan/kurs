@@ -5,16 +5,16 @@
     "pl_word": "przedmiot szkolny",
     "examples": [
       {
-        "es_form": "[La asignatura::przedmiot szkolny] es muy interesante.",
-        "pl_translation": "Przedmiot szkolny jest bardzo interesujący."
+        "es_form": "[La asignatura::przedmiot szkolny] que más me gusta es el arte.",
+        "pl_translation": "Przedmiot szkolny, który lubię najbardziej, to plastyka."
       },
       {
-        "es_form": "Estudio [la asignatura::przedmiot szkolny] todos los días.",
-        "pl_translation": "Uczę się tego przedmiotu szkolnego codziennie."
+        "es_form": "Suspendí [la asignatura::przedmiot szkolny] más fácil.",
+        "pl_translation": "Oblałem najłatwiejszy przedmiot szkolny."
       },
       {
-        "es_form": "[La asignatura::przedmiot szkolny] me gusta mucho.",
-        "pl_translation": "Przedmiot szkolny bardzo mi się podoba."
+        "es_form": "Elegí [la asignatura::przedmiot szkolny] optativa de música.",
+        "pl_translation": "Wybrałem muzykę jako przedmiot szkolny do wyboru."
       }
     ]
   },
@@ -24,35 +24,35 @@
     "pl_word": "matematyka",
     "examples": [
       {
-        "es_form": "Hablamos sobre [las matemáticas::matematyka].",
-        "pl_translation": "Rozmawialiśmy o matematyce."
+        "es_form": "[Las matemáticas::matematyka] son mi punto débil.",
+        "pl_translation": "Matematyka to mój słaby punkt."
       },
       {
-        "es_form": "[Las matemáticas::matematyka] cambiaron mi vida.",
-        "pl_translation": "Matematyka zmieniła moje życie."
+        "es_form": "Aprobé [las matemáticas::matematyka] con buena nota.",
+        "pl_translation": "Zdałem matematykę z dobrą oceną."
       },
       {
-        "es_form": "Tienes que estudiar [las matemáticas::matematyka].",
-        "pl_translation": "Musisz uczyć się matematyki."
+        "es_form": "Estudio [las matemáticas::matematyka] con mi padre.",
+        "pl_translation": "Uczę się matematyki z tatą."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "La historia",
-    "pl_word": "historia",
+    "es_word": "La informática",
+    "pl_word": "informatyka",
     "examples": [
       {
-        "es_form": "[La historia::historia] es muy importante.",
-        "pl_translation": "Historia jest bardzo ważna."
+        "es_form": "Estudio [la informática::informatyka] en el instituto.",
+        "pl_translation": "Uczę się informatyki w liceum."
       },
       {
-        "es_form": "No entiendo [la historia::historia].",
-        "pl_translation": "Nie rozumiem historii."
+        "es_form": "[La informática::informatyka] es útil en cualquier trabajo.",
+        "pl_translation": "Informatyka przydaje się w każdej pracy."
       },
       {
-        "es_form": "Esta es [la historia::historia].",
-        "pl_translation": "To jest historia."
+        "es_form": "Mi hermana enseña [la informática::informatyka].",
+        "pl_translation": "Moja siostra uczy informatyki."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "geografia",
     "examples": [
       {
-        "es_form": "Estudio [la geografía::geografia] por la tarde.",
-        "pl_translation": "Uczę się geografii po południu."
+        "es_form": "En [la geografía::geografia] estudiamos los ríos.",
+        "pl_translation": "Na geografii uczymy się o rzekach."
       },
       {
-        "es_form": "[La geografía::geografia] es mi asignatura favorita.",
-        "pl_translation": "Geografia jest moim ulubionym przedmiotem."
+        "es_form": "Me gusta [la geografía::geografia] porque me encantan los mapas.",
+        "pl_translation": "Lubię geografię, bo uwielbiam mapy."
       },
       {
-        "es_form": "Me gusta mucho [la geografía::geografia].",
-        "pl_translation": "Bardzo lubię geografię."
+        "es_form": "El examen sobre [la geografía::geografia] de Europa es mañana.",
+        "pl_translation": "Egzamin z geografii Europy jest jutro."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "biologia",
     "examples": [
       {
-        "es_form": "¿Has estudiado [la biología::biologia]?",
-        "pl_translation": "Uczyłeś się biologii?"
+        "es_form": "En [la biología::biologia] estudiamos las plantas.",
+        "pl_translation": "Na biologii uczymy się o roślinach."
       },
       {
-        "es_form": "[La biología::biologia] es muy interesante.",
-        "pl_translation": "Biologia jest bardzo interesująca."
+        "es_form": "Quiero estudiar [la biología::biologia] en la universidad.",
+        "pl_translation": "Chcę studiować biologię na uniwersytecie."
       },
       {
-        "es_form": "Necesito aprobar [la biología::biologia] este semestre.",
-        "pl_translation": "Muszę zdać biologię w tym semestrze."
+        "es_form": "[La biología::biologia] explica cómo funciona el cuerpo.",
+        "pl_translation": "Biologia wyjaśnia, jak działa ciało."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "chemia",
     "examples": [
       {
-        "es_form": "¿Has estudiado [la química::chemia]?",
-        "pl_translation": "Uczyłeś się chemii?"
+        "es_form": "[La química::chemia] me parece difícil.",
+        "pl_translation": "Chemia wydaje mi się trudna."
       },
       {
-        "es_form": "[La química::chemia] es difícil pero interesante.",
-        "pl_translation": "Chemia jest trudna, ale interesująca."
+        "es_form": "Hacemos experimentos en [la química::chemia].",
+        "pl_translation": "Robimy eksperymenty na chemii."
       },
       {
-        "es_form": "Me gusta [la química::chemia] desde pequeño.",
-        "pl_translation": "Lubię chemię od dziecka."
+        "es_form": "Mi profesora enseña [la química::chemia] muy bien.",
+        "pl_translation": "Moja nauczycielka bardzo dobrze uczy chemii."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "fizyka",
     "examples": [
       {
-        "es_form": "Estudio [la física::fizyka] con mi amigo.",
-        "pl_translation": "Uczę się fizyki z kolegą."
+        "es_form": "[La física::fizyka] estudia el movimiento.",
+        "pl_translation": "Fizyka bada ruch."
       },
       {
-        "es_form": "Guarda los apuntes de [la física::fizyka] en la carpeta.",
-        "pl_translation": "Schowaj notatki z fizyki do teczki."
+        "es_form": "Saqué un diez en [la física::fizyka].",
+        "pl_translation": "Dostałem dziesiątkę z fizyki."
       },
       {
-        "es_form": "Necesito un libro nuevo de [la física::fizyka].",
-        "pl_translation": "Potrzebuję nowego podręcznika do fizyki."
+        "es_form": "No entiendo [la física::fizyka] sin ejemplos.",
+        "pl_translation": "Nie rozumiem fizyki bez przykładów."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "świadectwo",
     "examples": [
       {
-        "es_form": "[El certificado::świadectwo] está en la pared.",
-        "pl_translation": "Świadectwo wisi na ścianie."
+        "es_form": "Recibí [el certificado::świadectwo] de fin de curso.",
+        "pl_translation": "Otrzymałem świadectwo na koniec roku."
       },
       {
-        "es_form": "Necesito [el certificado::świadectwo] para la universidad.",
-        "pl_translation": "Potrzebuję świadectwa na uczelnię."
+        "es_form": "[El certificado::świadectwo] tiene todas mis notas.",
+        "pl_translation": "Świadectwo zawiera wszystkie moje oceny."
       },
       {
-        "es_form": "Este es [el certificado::świadectwo].",
-        "pl_translation": "To jest świadectwo."
+        "es_form": "Enseño [el certificado::świadectwo] a mis padres.",
+        "pl_translation": "Pokazuję świadectwo rodzicom."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "stypendium",
     "examples": [
       {
-        "es_form": "[La beca::stypendium] cubre todos los gastos.",
-        "pl_translation": "Stypendium pokrywa wszystkie wydatki."
+        "es_form": "Conseguí [la beca::stypendium] para estudiar en Madrid.",
+        "pl_translation": "Dostałem stypendium na studia w Madrycie."
       },
       {
-        "es_form": "Esta es [la beca::stypendium].",
-        "pl_translation": "To jest stypendium."
+        "es_form": "[La beca::stypendium] cubre el alquiler.",
+        "pl_translation": "Stypendium pokrywa czynsz."
       },
       {
-        "es_form": "[La beca::stypendium] está aquí.",
-        "pl_translation": "Stypendium jest tutaj."
+        "es_form": "Sin [la beca::stypendium] no podría estudiar.",
+        "pl_translation": "Bez stypendium nie mógłbym studiować."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "wykład",
     "examples": [
       {
-        "es_form": "Asistí a [la conferencia::wykład] ayer.",
-        "pl_translation": "Byłem wczoraj na wykładzie."
+        "es_form": "[La conferencia::wykład] empieza a las diez.",
+        "pl_translation": "Wykład zaczyna się o dziesiątej."
       },
       {
-        "es_form": "Esta es [la conferencia::wykład].",
-        "pl_translation": "To jest wykład."
+        "es_form": "Tomé apuntes durante [la conferencia::wykład].",
+        "pl_translation": "Robiłem notatki podczas wykładu."
       },
       {
-        "es_form": "[La conferencia::wykład] duró dos horas.",
-        "pl_translation": "Wykład trwał dwie godziny."
+        "es_form": "El profesor dio [la conferencia::wykład] sobre el clima.",
+        "pl_translation": "Profesor wygłosił wykład o klimacie."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "utalentowany",
     "examples": [
       {
-        "es_form": "Es muy [talentoso::utalentowany].",
-        "pl_translation": "Jest bardzo utalentowany."
+        "es_form": "Es un músico muy [talentoso::utalentowany].",
+        "pl_translation": "To bardzo utalentowany muzyk."
       },
       {
-        "es_form": "Parece [talentoso::utalentowany].",
-        "pl_translation": "Wydaje się utalentowany."
+        "es_form": "El equipo tiene un jugador [talentoso::utalentowany].",
+        "pl_translation": "Drużyna ma utalentowanego zawodnika."
       },
       {
-        "es_form": "Es demasiado [talentoso::utalentowany].",
-        "pl_translation": "Jest zbyt utalentowany."
+        "es_form": "Mi alumno más [talentoso::utalentowany] tiene diez años.",
+        "pl_translation": "Mój najbardziej utalentowany uczeń ma dziesięć lat."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "ambitny",
     "examples": [
       {
-        "es_form": "No es [ambicioso::ambitny].",
-        "pl_translation": "Nie jest ambitny."
+        "es_form": "Es un estudiante [ambicioso::ambitny].",
+        "pl_translation": "To ambitny student."
       },
       {
-        "es_form": "Parece [ambicioso::ambitny].",
-        "pl_translation": "Wydaje się ambitny."
+        "es_form": "Tenemos un plan [ambicioso::ambitny].",
+        "pl_translation": "Mamy ambitny plan."
       },
       {
-        "es_form": "Es demasiado [ambicioso::ambitny].",
-        "pl_translation": "Jest zbyt ambitny."
+        "es_form": "Mi hermano es [ambicioso::ambitny] y trabajador.",
+        "pl_translation": "Mój brat jest ambitny i pracowity."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [aprobé::zdałem] el examen.",
-            "pl_translation": "Zdałem egzamin."
+            "es_form": "Ayer yo [aprobé::zdałem] el examen.",
+            "pl_translation": "Wczoraj zdałem egzamin."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [aprobaste::zdałeś] el examen.",
-            "pl_translation": "Zdałeś egzamin."
+            "es_form": "La semana pasada tú [aprobaste::zdałeś] el examen.",
+            "pl_translation": "W zeszłym tygodniu zdałeś egzamin."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [aprobó::zdał] el examen.",
-            "pl_translation": "Zdał egzamin."
+            "es_form": "El otro día él [aprobó::zdał] el examen.",
+            "pl_translation": "Niedawno zdał egzamin."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [aprobamos::zdaliśmy] el examen.",
-            "pl_translation": "Zdaliśmy egzamin."
+            "es_form": "La semana pasada nosotros [aprobamos::zdaliśmy] el examen.",
+            "pl_translation": "W zeszłym tygodniu zdaliśmy egzamin."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [aprobasteis::zdaliście] el examen.",
-            "pl_translation": "Zdaliście egzamin."
+            "es_form": "El otro día vosotros [aprobasteis::zdaliście] el examen.",
+            "pl_translation": "Niedawno zdaliście egzamin."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [aprobaron::zdali] el examen.",
-            "pl_translation": "Zdali egzamin."
+            "es_form": "Ayer ellos [aprobaron::zdali] el examen.",
+            "pl_translation": "Wczoraj zdali egzamin."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [aprobaré::będę zdawać] el examen.",
-            "pl_translation": "Będę zdawać egzamin."
+            "es_form": "Mañana yo [aprobaré::będę zdawać] el examen.",
+            "pl_translation": "Jutro będę zdawać egzamin."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [aprobarás::będziesz zdawać] el examen.",
-            "pl_translation": "Będziesz zdawać egzamin."
+            "es_form": "La próxima semana tú [aprobarás::będziesz zdawać] el examen.",
+            "pl_translation": "W przyszłym tygodniu będziesz zdawać egzamin."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [aprobará::będzie zdawać] el examen.",
-            "pl_translation": "Będzie zdawać egzamin."
+            "es_form": "Pronto él [aprobará::będzie zdawać] el examen.",
+            "pl_translation": "Wkrótce będzie zdawać egzamin."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [aprobaremos::będziemy zdawać] el examen.",
-            "pl_translation": "Będziemy zdawać egzamin."
+            "es_form": "La próxima semana nosotros [aprobaremos::będziemy zdawać] el examen.",
+            "pl_translation": "W przyszłym tygodniu będziemy zdawać egzamin."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [aprobaréis::będziecie zdawać] el examen.",
-            "pl_translation": "Będziecie zdawać egzamin."
+            "es_form": "Pronto vosotros [aprobaréis::będziecie zdawać] el examen.",
+            "pl_translation": "Wkrótce będziecie zdawać egzamin."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [aprobarán::będą zdawać] el examen.",
-            "pl_translation": "Będą zdawać egzamin."
+            "es_form": "Mañana ellos [aprobarán::będą zdawać] el examen.",
+            "pl_translation": "Jutro będą zdawać egzamin."
           }
         ]
       }

@@ -5,35 +5,35 @@
     "pl_word": "choroba",
     "examples": [
       {
-        "es_form": "Tienes que aceptar [la enfermedad::choroba].",
-        "pl_translation": "Musisz zaakceptować chorobę."
+        "es_form": "[La enfermedad::choroba] lo obligó a dejar el trabajo.",
+        "pl_translation": "Choroba zmusiła go do rzucenia pracy."
       },
       {
-        "es_form": "[La enfermedad::choroba] cambió mi vida.",
-        "pl_translation": "Choroba zmieniła moje życie."
+        "es_form": "Superó [la enfermedad::choroba] gracias a su familia.",
+        "pl_translation": "Pokonał chorobę dzięki rodzinie."
       },
       {
-        "es_form": "[La enfermedad::choroba] es un tema muy importante.",
-        "pl_translation": "Choroba jest bardzo ważnym tematem."
+        "es_form": "Es [una enfermedad::choroba] poco común.",
+        "pl_translation": "To rzadka choroba."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El resfriado",
-    "pl_word": "przeziębienie",
+    "es_word": "La infección",
+    "pl_word": "infekcja",
     "examples": [
       {
-        "es_form": "Este es [el resfriado::przeziębienie].",
-        "pl_translation": "To jest przeziębienie."
+        "es_form": "Tengo [una infección::infekcja] de garganta.",
+        "pl_translation": "Mam infekcję gardła."
       },
       {
-        "es_form": "No es [el resfriado::przeziębienie].",
-        "pl_translation": "To nie jest przeziębienie."
+        "es_form": "[La infección::infekcja] se cura con antibióticos.",
+        "pl_translation": "Infekcję leczy się antybiotykami."
       },
       {
-        "es_form": "[El resfriado::przeziębienie] es muy molesto.",
-        "pl_translation": "Przeziębienie jest bardzo uciążliwe."
+        "es_form": "El médico detectó [la infección::infekcja] a tiempo.",
+        "pl_translation": "Lekarz wykrył infekcję na czas."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "ból głowy",
     "examples": [
       {
-        "es_form": "Este es [el dolor de cabeza::ból głowy].",
-        "pl_translation": "To jest ból głowy."
+        "es_form": "[El dolor de cabeza::ból głowy] no me deja concentrarme.",
+        "pl_translation": "Ból głowy nie pozwala mi się skupić."
       },
       {
-        "es_form": "[El dolor de cabeza::ból głowy] no me deja trabajar.",
-        "pl_translation": "Ból głowy nie pozwala mi pracować."
+        "es_form": "Tomé una pastilla contra [el dolor de cabeza::ból głowy].",
+        "pl_translation": "Wziąłem tabletkę na ból głowy."
       },
       {
-        "es_form": "¿Dónde está [el dolor de cabeza::ból głowy]?",
-        "pl_translation": "Gdzie jest ból głowy?"
+        "es_form": "Me desperté con [un dolor de cabeza::ból głowy] terrible.",
+        "pl_translation": "Obudziłem się ze strasznym bólem głowy."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "rana",
     "examples": [
       {
-        "es_form": "Necesito curar [la herida::rana].",
-        "pl_translation": "Muszę opatrzyć ranę."
+        "es_form": "La enfermera limpió [la herida::rana].",
+        "pl_translation": "Pielęgniarka oczyściła ranę."
       },
       {
-        "es_form": "[La herida::rana] está sanando bien.",
-        "pl_translation": "Rana goi się dobrze."
+        "es_form": "[La herida::rana] tardó dos semanas en cerrarse.",
+        "pl_translation": "Rana goiła się dwa tygodnie."
       },
       {
-        "es_form": "Me hice [la herida::rana] ayer.",
-        "pl_translation": "Zrobiłem sobie ranę wczoraj."
+        "es_form": "Tengo [una herida::rana] en la mano.",
+        "pl_translation": "Mam ranę na ręce."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "operacja",
     "examples": [
       {
-        "es_form": "Necesito [la cirugía::operacja] de urgencia.",
-        "pl_translation": "Potrzebuję pilnej operacji."
+        "es_form": "[La cirugía::operacja] duró tres horas.",
+        "pl_translation": "Operacja trwała trzy godziny."
       },
       {
-        "es_form": "[La cirugía::operacja] salió muy bien.",
-        "pl_translation": "Operacja przebiegła bardzo dobrze."
+        "es_form": "Se recupera de [la cirugía::operacja] de rodilla.",
+        "pl_translation": "Dochodzi do siebie po operacji kolana."
       },
       {
-        "es_form": "Mañana tengo [la cirugía::operacja].",
-        "pl_translation": "Jutro mam operację."
+        "es_form": "Tengo miedo de [la cirugía::operacja].",
+        "pl_translation": "Boję się operacji."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "szczepionka",
     "examples": [
       {
-        "es_form": "Me puse [la vacuna::szczepionka] la semana pasada.",
-        "pl_translation": "Zaszczepiłem się w zeszłym tygodniu."
+        "es_form": "Me puse [la vacuna::szczepionka] contra la gripe.",
+        "pl_translation": "Zaszczepiłem się przeciwko grypie."
       },
       {
-        "es_form": "[La vacuna::szczepionka] protege contra la enfermedad.",
-        "pl_translation": "Szczepionka chroni przed chorobą."
+        "es_form": "[La vacuna::szczepionka] protege a los mayores.",
+        "pl_translation": "Szczepionka chroni starszych."
       },
       {
-        "es_form": "¿Ya tienes [la vacuna::szczepionka]?",
-        "pl_translation": "Czy masz już szczepionkę?"
+        "es_form": "Los niños reciben [la vacuna::szczepionka] en la escuela.",
+        "pl_translation": "Dzieci dostają szczepionkę w szkole."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "tabletka",
     "examples": [
       {
-        "es_form": "Tómate [la pastilla::tabletka] con agua.",
-        "pl_translation": "Weź tabletkę z wodą."
+        "es_form": "Tomo [una pastilla::tabletka] cada mañana.",
+        "pl_translation": "Biorę tabletkę każdego ranka."
       },
       {
-        "es_form": "Necesito [la pastilla::tabletka] para el dolor.",
-        "pl_translation": "Potrzebuję tabletki na ból."
+        "es_form": "[La pastilla::tabletka] quita el dolor en media hora.",
+        "pl_translation": "Tabletka uśmierza ból w pół godziny."
       },
       {
-        "es_form": "Compré [la pastilla::tabletka] en la farmacia ayer.",
-        "pl_translation": "Kupiłem tabletkę w aptece wczoraj."
+        "es_form": "Olvidé tomar [la pastilla::tabletka].",
+        "pl_translation": "Zapomniałem wziąć tabletkę."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "syrop",
     "examples": [
       {
-        "es_form": "Este es [el jarabe::syrop].",
-        "pl_translation": "To jest syrop."
+        "es_form": "[El jarabe::syrop] sabe a fresa.",
+        "pl_translation": "Syrop ma smak truskawkowy."
       },
       {
-        "es_form": "No es [el jarabe::syrop].",
-        "pl_translation": "To nie jest syrop."
+        "es_form": "Doy [el jarabe::syrop] al niño antes de dormir.",
+        "pl_translation": "Podaję dziecku syrop przed snem."
       },
       {
-        "es_form": "[El jarabe::syrop] está aquí.",
-        "pl_translation": "Syrop jest tutaj."
+        "es_form": "El médico recetó [el jarabe::syrop] para la tos.",
+        "pl_translation": "Lekarz przepisał syrop na kaszel."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "gips (opatrunek)",
     "examples": [
       {
-        "es_form": "¿Dónde está [el yeso::gips]?",
-        "pl_translation": "Gdzie jest gips?"
+        "es_form": "Llevo [el yeso::gips (opatrunek)] en el brazo.",
+        "pl_translation": "Mam gips na ręce."
       },
       {
-        "es_form": "[El yeso::gips (opatrunek)] es muy incómodo.",
-        "pl_translation": "Gips jest bardzo niewygodny."
+        "es_form": "Me quitan [el yeso::gips (opatrunek)] el viernes.",
+        "pl_translation": "W piątek zdejmują mi gips."
       },
       {
-        "es_form": "[El yeso::gips] está aquí.",
-        "pl_translation": "Gips jest tutaj."
+        "es_form": "Mis amigos firmaron [el yeso::gips (opatrunek)].",
+        "pl_translation": "Przyjaciele podpisali się na gipsie."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "rentgen",
     "examples": [
       {
-        "es_form": "Esta es [la radiografía::rentgen].",
-        "pl_translation": "To jest rentgen."
-      },
-      {
-        "es_form": "[La radiografía::rentgen] muestra el hueso roto.",
+        "es_form": "[La radiografía::rentgen] muestra un hueso roto.",
         "pl_translation": "Rentgen pokazuje złamaną kość."
       },
       {
-        "es_form": "¿Dónde está [la radiografía::rentgen]?",
-        "pl_translation": "Gdzie jest rentgen?"
+        "es_form": "Me hicieron [una radiografía::rentgen] del pecho.",
+        "pl_translation": "Zrobili mi rentgen klatki piersiowej."
+      },
+      {
+        "es_form": "El médico mira [la radiografía::rentgen] con atención.",
+        "pl_translation": "Lekarz uważnie ogląda rentgen."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "przewlekły",
     "examples": [
       {
-        "es_form": "Es muy [crónico::przewlekły].",
-        "pl_translation": "Jest bardzo przewlekły."
+        "es_form": "Sufre un dolor [crónico::przewlekły] de espalda.",
+        "pl_translation": "Cierpi na przewlekły ból pleców."
       },
       {
-        "es_form": "Parece [crónico::przewlekły].",
-        "pl_translation": "Wydaje się przewlekły."
+        "es_form": "El cansancio se volvió [crónico::przewlekły].",
+        "pl_translation": "Zmęczenie stało się przewlekłe."
       },
       {
-        "es_form": "Es demasiado [crónico::przewlekły].",
-        "pl_translation": "Jest zbyt przewlekły."
+        "es_form": "Es un problema [crónico::przewlekły] de la empresa.",
+        "pl_translation": "To przewlekły problem firmy."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "zakaźny",
     "examples": [
       {
-        "es_form": "Es muy [contagioso::zakaźny].",
-        "pl_translation": "Jest bardzo zakaźny."
+        "es_form": "El resfriado es muy [contagioso::zakaźny].",
+        "pl_translation": "Przeziębienie jest bardzo zaraźliwe."
       },
       {
-        "es_form": "Parece [contagioso::zakaźny].",
-        "pl_translation": "Wydaje się zakaźny."
+        "es_form": "Su entusiasmo es [contagioso::zakaźny].",
+        "pl_translation": "Jego entuzjazm jest zaraźliwy."
       },
       {
-        "es_form": "Es demasiado [contagioso::zakaźny].",
-        "pl_translation": "Jest zbyt zakaźny."
+        "es_form": "Ya no estoy [contagioso::zakaźny], puedo salir.",
+        "pl_translation": "Już nie zarażam, mogę wychodzić."
       }
     ]
   },

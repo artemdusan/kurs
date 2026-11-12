@@ -5,16 +5,16 @@
     "pl_word": "osoba",
     "examples": [
       {
-        "es_form": "[La persona::osoba] trabaja aquí.",
-        "pl_translation": "Osoba tu pracuje."
+        "es_form": "[La persona::osoba] de la foto es mi tío.",
+        "pl_translation": "Osoba na zdjęciu to mój wujek."
       },
       {
-        "es_form": "Esta es [la persona::osoba].",
-        "pl_translation": "To jest osoba."
+        "es_form": "Ana es [la persona::osoba] más amable de la clase.",
+        "pl_translation": "Ana jest najmilszą osobą w klasie."
       },
       {
-        "es_form": "¿Dónde está [la persona::osoba]?",
-        "pl_translation": "Gdzie jest osoba?"
+        "es_form": "No conozco a [la persona::osoba] de la puerta.",
+        "pl_translation": "Nie znam osoby przy drzwiach."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "mężczyzna",
     "examples": [
       {
-        "es_form": "No es [el hombre::mężczyzna].",
-        "pl_translation": "To nie jest mężczyzna."
+        "es_form": "[El hombre::mężczyzna] alto es mi padre.",
+        "pl_translation": "Wysoki mężczyzna to mój ojciec."
       },
       {
-        "es_form": "Este es [el hombre::mężczyzna].",
-        "pl_translation": "To jest mężczyzna."
+        "es_form": "Hablo con [el hombre::mężczyzna] de la tienda.",
+        "pl_translation": "Rozmawiam z mężczyzną ze sklepu."
       },
       {
-        "es_form": "[El hombre::mężczyzna] trabaja aquí.",
-        "pl_translation": "Mężczyzna tu pracuje."
+        "es_form": "[El hombre::mężczyzna] lee un libro en el parque.",
+        "pl_translation": "Mężczyzna czyta książkę w parku."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "kobieta",
     "examples": [
       {
-        "es_form": "[La mujer::kobieta] trabaja aquí.",
-        "pl_translation": "Kobieta tu pracuje."
+        "es_form": "[La mujer::kobieta] del vestido rojo es médica.",
+        "pl_translation": "Kobieta w czerwonej sukience jest lekarką."
       },
       {
-        "es_form": "Esta es [la mujer::kobieta] de la que hablé.",
-        "pl_translation": "To jest kobieta, o której mówiłem."
+        "es_form": "[La mujer::kobieta] rubia es mi profesora.",
+        "pl_translation": "Kobieta o blond włosach to moja nauczycielka."
       },
       {
-        "es_form": "Esta es [la mujer::kobieta].",
-        "pl_translation": "To jest kobieta."
+        "es_form": "Conozco a [la mujer::kobieta] de la foto.",
+        "pl_translation": "Znam kobietę ze zdjęcia."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "chłopiec, dziecko",
     "examples": [
       {
-        "es_form": "[El niño::chłopiec, dziecko] es muy amable.",
-        "pl_translation": "Chłopiec jest bardzo miły."
+        "es_form": "[El niño::chłopiec, dziecko] juega con la pelota.",
+        "pl_translation": "Chłopiec bawi się piłką."
       },
       {
-        "es_form": "[El niño::chłopiec, dziecko] trabaja aquí.",
-        "pl_translation": "Chłopiec tu pracuje."
+        "es_form": "[El niño::chłopiec, dziecko] tiene cinco años.",
+        "pl_translation": "Chłopiec ma pięć lat."
       },
       {
-        "es_form": "[El niño::chłopiec, dziecko] me ayudó mucho.",
-        "pl_translation": "Chłopiec bardzo mi pomógł."
+        "es_form": "Juego en el parque con [el niño::chłopiec, dziecko].",
+        "pl_translation": "Bawię się w parku z dzieckiem."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "dziewczynka",
     "examples": [
       {
-        "es_form": "No es [la niña::dziewczynka].",
-        "pl_translation": "To nie jest dziewczynka."
+        "es_form": "[La niña::dziewczynka] tiene una muñeca nueva.",
+        "pl_translation": "Dziewczynka ma nową lalkę."
       },
       {
-        "es_form": "Esta es [la niña::dziewczynka].",
-        "pl_translation": "To jest dziewczynka."
+        "es_form": "[La niña::dziewczynka] es la hija de Marta.",
+        "pl_translation": "Dziewczynka jest córką Marty."
       },
       {
-        "es_form": "Esta es [la niña::dziewczynka] de la que hablé.",
-        "pl_translation": "To jest dziewczynka, o której mówiłem."
+        "es_form": "Leo un cuento a [la niña::dziewczynka].",
+        "pl_translation": "Czytam dziewczynce bajkę."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "imię",
     "examples": [
       {
-        "es_form": "No es [el nombre::imię].",
-        "pl_translation": "To nie jest imię."
+        "es_form": "¿Cuál es [el nombre::imię] de tu hermano?",
+        "pl_translation": "Jakie imię ma twój brat?"
       },
       {
-        "es_form": "Este es [el nombre::imię].",
-        "pl_translation": "To jest imię."
+        "es_form": "Escribe [el nombre::imię] aquí, por favor.",
+        "pl_translation": "Napisz tutaj imię, proszę."
       },
       {
-        "es_form": "[El nombre::imię] está aquí.",
-        "pl_translation": "Imię jest tutaj."
+        "es_form": "[El nombre::imię] de mi gato es Tigre.",
+        "pl_translation": "Imię mojego kota to Tygrys."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "nazwisko",
     "examples": [
       {
-        "es_form": "No es [el apellido::nazwisko].",
-        "pl_translation": "To nie jest nazwisko."
+        "es_form": "[El apellido::nazwisko] de mi madre es García.",
+        "pl_translation": "Nazwisko mojej mamy to García."
       },
       {
-        "es_form": "Este es [el apellido::nazwisko].",
-        "pl_translation": "To jest nazwisko."
+        "es_form": "¿Cómo se escribe [el apellido::nazwisko]?",
+        "pl_translation": "Jak się pisze to nazwisko?"
       },
       {
-        "es_form": "[El apellido::nazwisko] está aquí.",
-        "pl_translation": "Nazwisko jest tutaj."
+        "es_form": "Aquí pones el nombre y [el apellido::nazwisko].",
+        "pl_translation": "Tutaj wpisujesz imię i nazwisko."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "rodzina",
     "examples": [
       {
-        "es_form": "Esta es [la familia::rodzina].",
-        "pl_translation": "To jest rodzina."
+        "es_form": "[La familia::rodzina] come junta los domingos.",
+        "pl_translation": "Rodzina je razem w niedziele."
       },
       {
-        "es_form": "¿Dónde está [la familia::rodzina]?",
-        "pl_translation": "Gdzie jest rodzina?"
+        "es_form": "Toda [la familia::rodzina] vive en Madrid.",
+        "pl_translation": "Cała rodzina mieszka w Madrycie."
       },
       {
-        "es_form": "[La familia::rodzina] está aquí.",
-        "pl_translation": "Rodzina jest tutaj."
+        "es_form": "Paso las fiestas con [la familia::rodzina].",
+        "pl_translation": "Spędzam święta z rodziną."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "przyjaciel",
     "examples": [
       {
-        "es_form": "[El amigo::przyjaciel] me ayudó mucho.",
-        "pl_translation": "Przyjaciel bardzo mi pomógł."
+        "es_form": "[El amigo::przyjaciel] de Juan es de Polonia.",
+        "pl_translation": "Przyjaciel Juana jest z Polski."
       },
       {
-        "es_form": "[El amigo::przyjaciel] vive en mi calle.",
-        "pl_translation": "Przyjaciel mieszka na mojej ulicy."
+        "es_form": "Voy al cine con [el amigo::przyjaciel].",
+        "pl_translation": "Idę do kina z przyjacielem."
       },
       {
-        "es_form": "[El amigo::przyjaciel] trabaja aquí.",
-        "pl_translation": "Przyjaciel tu pracuje."
+        "es_form": "[El amigo::przyjaciel] siempre me ayuda.",
+        "pl_translation": "Przyjaciel zawsze mi pomaga."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "przyjaciółka",
     "examples": [
       {
-        "es_form": "[La amiga::przyjaciółka] trabaja aquí.",
-        "pl_translation": "Przyjaciółka tu pracuje."
+        "es_form": "[La amiga::przyjaciółka] de mi hermana es muy simpática.",
+        "pl_translation": "Przyjaciółka mojej siostry jest bardzo sympatyczna."
       },
       {
-        "es_form": "Esta es [la amiga::przyjaciółka] de la que hablé.",
-        "pl_translation": "To jest przyjaciółka, o której mówiłem."
+        "es_form": "Hablo por teléfono con [la amiga::przyjaciółka].",
+        "pl_translation": "Rozmawiam przez telefon z przyjaciółką."
       },
       {
-        "es_form": "[La amiga::przyjaciółka] vive en mi calle.",
-        "pl_translation": "Przyjaciółka mieszka na mojej ulicy."
+        "es_form": "[La amiga::przyjaciółka] viene a casa hoy.",
+        "pl_translation": "Przyjaciółka przychodzi dziś do domu."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "dobry",
     "examples": [
       {
-        "es_form": "No es [bueno::dobry].",
-        "pl_translation": "Nie jest dobry."
+        "es_form": "Carlos es un amigo muy [bueno::dobry].",
+        "pl_translation": "Carlos jest bardzo dobrym przyjacielem."
       },
       {
-        "es_form": "Parece [bueno::dobry].",
-        "pl_translation": "Wydaje się dobry."
+        "es_form": "Este café es muy [bueno::dobry].",
+        "pl_translation": "Ta kawa jest bardzo dobra."
       },
       {
-        "es_form": "Es demasiado [bueno::dobry].",
-        "pl_translation": "Jest zbyt dobry."
+        "es_form": "El libro es [bueno::dobry], pero largo.",
+        "pl_translation": "Książka jest dobra, ale długa."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "nowy",
     "examples": [
       {
-        "es_form": "Es muy [nuevo::nowy].",
-        "pl_translation": "Jest bardzo nowy."
+        "es_form": "Tengo un teléfono [nuevo::nowy].",
+        "pl_translation": "Mam nowy telefon."
       },
       {
-        "es_form": "No es [nuevo::nowy].",
-        "pl_translation": "Nie jest nowy."
+        "es_form": "El alumno [nuevo::nowy] es de Sevilla.",
+        "pl_translation": "Nowy uczeń jest z Sewilli."
       },
       {
-        "es_form": "Parece [nuevo::nowy].",
-        "pl_translation": "Wydaje się nowy."
+        "es_form": "Mi coche no es [nuevo::nowy].",
+        "pl_translation": "Mój samochód nie jest nowy."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [fui::byłem] feliz.",
-            "pl_translation": "Byłem szczęśliwy."
+            "es_form": "Ayer yo [fui::byłem] feliz.",
+            "pl_translation": "Wczoraj byłem szczęśliwy."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [fuiste::byłeś] feliz.",
-            "pl_translation": "Byłeś szczęśliwy."
+            "es_form": "La semana pasada tú [fuiste::byłeś] feliz.",
+            "pl_translation": "W zeszłym tygodniu byłeś szczęśliwy."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [fue::był] feliz.",
-            "pl_translation": "Był szczęśliwy."
+            "es_form": "El otro día él [fue::był] feliz.",
+            "pl_translation": "Niedawno był szczęśliwy."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [fuimos::byliśmy] felices.",
-            "pl_translation": "Byliśmy szczęśliwi."
+            "es_form": "La semana pasada nosotros [fuimos::byliśmy] felices.",
+            "pl_translation": "W zeszłym tygodniu byliśmy szczęśliwi."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [fuisteis::byliście] felices.",
-            "pl_translation": "Byliście szczęśliwi."
+            "es_form": "El otro día vosotros [fuisteis::byliście] felices.",
+            "pl_translation": "Niedawno byliście szczęśliwi."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [fueron::byli] felices.",
-            "pl_translation": "Byli szczęśliwi."
+            "es_form": "Ayer ellos [fueron::byli] felices.",
+            "pl_translation": "Wczoraj byli szczęśliwi."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [seré::będę] feliz.",
-            "pl_translation": "Będę szczęśliwy."
+            "es_form": "Mañana yo [seré::będę] feliz.",
+            "pl_translation": "Jutro będę szczęśliwy."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [serás::będziesz] feliz.",
-            "pl_translation": "Będziesz szczęśliwy."
+            "es_form": "La próxima semana tú [serás::będziesz] feliz.",
+            "pl_translation": "W przyszłym tygodniu będziesz szczęśliwy."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [será::będzie] feliz.",
-            "pl_translation": "Będzie szczęśliwy."
+            "es_form": "Pronto él [será::będzie] feliz.",
+            "pl_translation": "Wkrótce będzie szczęśliwy."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [seremos::będziemy] felices.",
-            "pl_translation": "Będziemy szczęśliwi."
+            "es_form": "La próxima semana nosotros [seremos::będziemy] felices.",
+            "pl_translation": "W przyszłym tygodniu będziemy szczęśliwi."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [seréis::będziecie] felices.",
-            "pl_translation": "Będziecie szczęśliwi."
+            "es_form": "Pronto vosotros [seréis::będziecie] felices.",
+            "pl_translation": "Wkrótce będziecie szczęśliwi."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [serán::będą] felices.",
-            "pl_translation": "Będą szczęśliwi."
+            "es_form": "Mañana ellos [serán::będą] felices.",
+            "pl_translation": "Jutro będą szczęśliwi."
           }
         ]
       }

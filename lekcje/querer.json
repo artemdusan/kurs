@@ -5,16 +5,16 @@
     "pl_word": "mama, matka",
     "examples": [
       {
-        "es_form": "Esta es [la madre::mama].",
-        "pl_translation": "To jest mama."
+        "es_form": "[La madre::mama, matka] de Ana es profesora.",
+        "pl_translation": "Mama Any jest nauczycielką."
       },
       {
-        "es_form": "[La madre::mama] está aquí.",
-        "pl_translation": "Mama jest tutaj."
+        "es_form": "Quiero mucho a [la madre::mama, matka].",
+        "pl_translation": "Bardzo kocham mamę."
       },
       {
-        "es_form": "No es [la madre::mama].",
-        "pl_translation": "To nie jest mama."
+        "es_form": "Hablo con [la madre::mama, matka] cada día.",
+        "pl_translation": "Rozmawiam z mamą codziennie."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "tata, ojciec",
     "examples": [
       {
-        "es_form": "Este es [el padre::tata].",
-        "pl_translation": "To jest tata."
+        "es_form": "[El padre::tata, ojciec] de Luis trabaja en un banco.",
+        "pl_translation": "Tata Luisa pracuje w banku."
       },
       {
-        "es_form": "[El padre::tata] está aquí.",
-        "pl_translation": "Tata jest tutaj."
+        "es_form": "Voy al partido con [el padre::tata, ojciec].",
+        "pl_translation": "Idę na mecz z tatą."
       },
       {
-        "es_form": "No es [el padre::tata].",
-        "pl_translation": "To nie jest tata."
+        "es_form": "[El padre::tata, ojciec] prepara la cena hoy.",
+        "pl_translation": "Tata przygotowuje dziś kolację."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "brat",
     "examples": [
       {
-        "es_form": "Este es [el hermano::brat].",
-        "pl_translation": "To jest brat."
+        "es_form": "[El hermano::brat] de Marta vive en Roma.",
+        "pl_translation": "Brat Marty mieszka w Rzymie."
       },
       {
-        "es_form": "¿Dónde está [el hermano::brat]?",
-        "pl_translation": "Gdzie jest brat?"
+        "es_form": "Juego al fútbol con [el hermano::brat].",
+        "pl_translation": "Gram w piłkę nożną z bratem."
       },
       {
-        "es_form": "[El hermano::brat] está aquí.",
-        "pl_translation": "Brat jest tutaj."
+        "es_form": "[El hermano::brat] mayor ya trabaja.",
+        "pl_translation": "Starszy brat już pracuje."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "siostra",
     "examples": [
       {
-        "es_form": "Esta es [la hermana::siostra].",
-        "pl_translation": "To jest siostra."
+        "es_form": "[La hermana::siostra] de Pedro estudia medicina.",
+        "pl_translation": "Siostra Pedra studiuje medycynę."
       },
       {
-        "es_form": "No es [la hermana::siostra].",
-        "pl_translation": "To nie jest siostra."
+        "es_form": "Comparto el cuarto con [la hermana::siostra].",
+        "pl_translation": "Dzielę pokój z siostrą."
       },
       {
-        "es_form": "¿Dónde está [la hermana::siostra]?",
-        "pl_translation": "Gdzie jest siostra?"
+        "es_form": "[La hermana::siostra] pequeña tiene tres años.",
+        "pl_translation": "Młodsza siostra ma trzy lata."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "syn",
     "examples": [
       {
-        "es_form": "Este es [el hijo::syn].",
-        "pl_translation": "To jest syn."
+        "es_form": "[El hijo::syn] de mi vecina es médico.",
+        "pl_translation": "Syn mojej sąsiadki jest lekarzem."
       },
       {
-        "es_form": "¿Dónde está [el hijo::syn]?",
-        "pl_translation": "Gdzie jest syn?"
+        "es_form": "Voy al parque con [el hijo::syn].",
+        "pl_translation": "Idę do parku z synem."
       },
       {
-        "es_form": "[El hijo::syn] está aquí.",
-        "pl_translation": "Syn jest tutaj."
+        "es_form": "[El hijo::syn] mayor vive en Barcelona.",
+        "pl_translation": "Starszy syn mieszka w Barcelonie."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "córka",
     "examples": [
       {
-        "es_form": "¿Dónde está [la hija::córka]?",
-        "pl_translation": "Gdzie jest córka?"
+        "es_form": "[La hija::córka] de mis amigos tiene diez años.",
+        "pl_translation": "Córka moich przyjaciół ma dziesięć lat."
       },
       {
-        "es_form": "Esta es [la hija::córka].",
-        "pl_translation": "To jest córka."
+        "es_form": "Leo un cuento a [la hija::córka].",
+        "pl_translation": "Czytam córce bajkę."
       },
       {
-        "es_form": "[La hija::córka] está aquí.",
-        "pl_translation": "Córka jest tutaj."
+        "es_form": "[La hija::córka] pequeña ya va a la escuela.",
+        "pl_translation": "Młodsza córka chodzi już do szkoły."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "babcia",
     "examples": [
       {
-        "es_form": "Esta es [la abuela::babcia].",
-        "pl_translation": "To jest babcia."
+        "es_form": "[La abuela::babcia] prepara una sopa muy rica.",
+        "pl_translation": "Babcia robi bardzo smaczną zupę."
       },
       {
-        "es_form": "¿Dónde está [la abuela::babcia]?",
-        "pl_translation": "Gdzie jest babcia?"
+        "es_form": "Visito a [la abuela::babcia] los domingos.",
+        "pl_translation": "Odwiedzam babcię w niedziele."
       },
       {
-        "es_form": "[La abuela::babcia] está aquí.",
-        "pl_translation": "Babcia jest tutaj."
+        "es_form": "[La abuela::babcia] tiene ochenta años.",
+        "pl_translation": "Babcia ma osiemdziesiąt lat."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "dziadek",
     "examples": [
       {
-        "es_form": "No es [el abuelo::dziadek].",
-        "pl_translation": "To nie jest dziadek."
+        "es_form": "[El abuelo::dziadek] lee el periódico cada mañana.",
+        "pl_translation": "Dziadek czyta gazetę każdego ranka."
       },
       {
-        "es_form": "Este es [el abuelo::dziadek].",
-        "pl_translation": "To jest dziadek."
+        "es_form": "Paseo por el parque con [el abuelo::dziadek].",
+        "pl_translation": "Spaceruję po parku z dziadkiem."
       },
       {
-        "es_form": "¿Dónde está [el abuelo::dziadek]?",
-        "pl_translation": "Gdzie jest dziadek?"
+        "es_form": "[El abuelo::dziadek] cuenta historias muy bonitas.",
+        "pl_translation": "Dziadek opowiada bardzo ładne historie."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "mąż",
     "examples": [
       {
-        "es_form": "No es [el marido::mąż].",
-        "pl_translation": "To nie jest mąż."
+        "es_form": "[El marido::mąż] de Laura es español.",
+        "pl_translation": "Mąż Laury jest Hiszpanem."
       },
       {
-        "es_form": "Este es [el marido::mąż].",
-        "pl_translation": "To jest mąż."
+        "es_form": "Viaja a Italia con [el marido::mąż].",
+        "pl_translation": "Jedzie do Włoch z mężem."
       },
       {
-        "es_form": "¿Dónde está [el marido::mąż]?",
-        "pl_translation": "Gdzie jest mąż?"
+        "es_form": "[El marido::mąż] cocina muy bien.",
+        "pl_translation": "Mąż bardzo dobrze gotuje."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "żona",
     "examples": [
       {
-        "es_form": "Esta es [la mujer::żona].",
-        "pl_translation": "To jest żona."
+        "es_form": "[La mujer::żona] de Carlos es profesora.",
+        "pl_translation": "Żona Carlosa jest nauczycielką."
       },
       {
-        "es_form": "[La mujer::żona] está aquí.",
-        "pl_translation": "Żona jest tutaj."
+        "es_form": "Carlos viaja con [la mujer::żona] a Madrid.",
+        "pl_translation": "Carlos jedzie z żoną do Madrytu."
       },
       {
-        "es_form": "No es [la mujer::żona].",
-        "pl_translation": "To nie jest żona."
+        "es_form": "El señor López quiere mucho a [la mujer::żona].",
+        "pl_translation": "Pan López bardzo kocha żonę."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "stary",
     "examples": [
       {
-        "es_form": "Es muy [viejo::stary].",
-        "pl_translation": "Jest bardzo stary."
+        "es_form": "Mi abuelo es muy [viejo::stary].",
+        "pl_translation": "Mój dziadek jest bardzo stary."
       },
       {
-        "es_form": "No es [viejo::stary].",
-        "pl_translation": "Nie jest stary."
+        "es_form": "Tengo un coche [viejo::stary].",
+        "pl_translation": "Mam stary samochód."
       },
       {
-        "es_form": "Es demasiado [viejo::stary].",
-        "pl_translation": "Jest zbyt stary."
+        "es_form": "El perro ya es [viejo::stary].",
+        "pl_translation": "Pies jest już stary."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "młody",
     "examples": [
       {
-        "es_form": "Es muy [joven::młody].",
-        "pl_translation": "Jest bardzo młody."
+        "es_form": "Mi padre es muy [joven::młody].",
+        "pl_translation": "Mój tata jest bardzo młody."
       },
       {
-        "es_form": "No es [joven::młody].",
-        "pl_translation": "Nie jest młody."
+        "es_form": "El profesor nuevo es [joven::młody].",
+        "pl_translation": "Nowy nauczyciel jest młody."
       },
       {
-        "es_form": "Parece [joven::młody].",
-        "pl_translation": "Wydaje się młody."
+        "es_form": "Es un médico [joven::młody], pero muy bueno.",
+        "pl_translation": "To młody lekarz, ale bardzo dobry."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [quise::kochałem] a mi familia.",
-            "pl_translation": "Kochałem moją rodzinę."
+            "es_form": "Ayer yo [quise::kochałem] a mi familia.",
+            "pl_translation": "Wczoraj kochałem moją rodzinę."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [quisiste::kochałeś] a mi familia.",
-            "pl_translation": "Kochałeś moją rodzinę."
+            "es_form": "La semana pasada tú [quisiste::kochałeś] a mi familia.",
+            "pl_translation": "W zeszłym tygodniu kochałeś moją rodzinę."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [quiso::kochał] a mi familia.",
-            "pl_translation": "Kochał moją rodzinę."
+            "es_form": "El otro día él [quiso::kochał] a mi familia.",
+            "pl_translation": "Niedawno kochał moją rodzinę."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [quisimos::kochaliśmy] a mi familia.",
-            "pl_translation": "Kochaliśmy moją rodzinę."
+            "es_form": "La semana pasada nosotros [quisimos::kochaliśmy] a mi familia.",
+            "pl_translation": "W zeszłym tygodniu kochaliśmy moją rodzinę."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [quisisteis::kochaliście] a mi familia.",
-            "pl_translation": "Kochaliście moją rodzinę."
+            "es_form": "El otro día vosotros [quisisteis::kochaliście] a mi familia.",
+            "pl_translation": "Niedawno kochaliście moją rodzinę."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [quisieron::kochali] a mi familia.",
-            "pl_translation": "Kochali moją rodzinę."
+            "es_form": "Ayer ellos [quisieron::kochali] a mi familia.",
+            "pl_translation": "Wczoraj kochali moją rodzinę."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [querré::będę kochać] a mi familia.",
-            "pl_translation": "Będę kochać moją rodzinę."
+            "es_form": "Mañana yo [querré::będę kochać] a mi familia.",
+            "pl_translation": "Jutro będę kochać moją rodzinę."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [querrás::będziesz kochać] a mi familia.",
-            "pl_translation": "Będziesz kochać moją rodzinę."
+            "es_form": "La próxima semana tú [querrás::będziesz kochać] a mi familia.",
+            "pl_translation": "W przyszłym tygodniu będziesz kochać moją rodzinę."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [querrá::będzie kochać] a mi familia.",
-            "pl_translation": "Będzie kochać moją rodzinę."
+            "es_form": "Pronto él [querrá::będzie kochać] a mi familia.",
+            "pl_translation": "Wkrótce będzie kochać moją rodzinę."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [querremos::będziemy kochać] a mi familia.",
-            "pl_translation": "Będziemy kochać moją rodzinę."
+            "es_form": "La próxima semana nosotros [querremos::będziemy kochać] a mi familia.",
+            "pl_translation": "W przyszłym tygodniu będziemy kochać moją rodzinę."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [querréis::będziecie kochać] a mi familia.",
-            "pl_translation": "Będziecie kochać moją rodzinę."
+            "es_form": "Pronto vosotros [querréis::będziecie kochać] a mi familia.",
+            "pl_translation": "Wkrótce będziecie kochać moją rodzinę."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [querrán::będą kochać] a mi familia.",
-            "pl_translation": "Będą kochać moją rodzinę."
+            "es_form": "Mañana ellos [querrán::będą kochać] a mi familia.",
+            "pl_translation": "Jutro będą kochać moją rodzinę."
           }
         ]
       }

@@ -72,7 +72,7 @@ test('old installed PWA upgrades its cached lessons and DB; stats and study time
     await page.reload();
     await expect(page.getByRole('button', { name: 'Gramatyka', exact: true })).toBeVisible();
     // Even a lesson not yet imported is available in the revisioned precache.
-    assert.equal(await page.evaluate(async () => (await fetch('/data/lekcje/votar.json?v=8')).ok), true);
+    assert.equal(await page.evaluate(async () => (await fetch('/data/lekcje/votar.json?v=9')).ok), true);
     await page.locator('.stats-bar').click();
     await expect(page.getByText('Postęp (7 dni)', { exact: true })).toBeVisible();
     assert.equal(await page.locator('.progress-day').count(), 7);

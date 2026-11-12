@@ -5,16 +5,16 @@
     "pl_word": "kolor",
     "examples": [
       {
-        "es_form": "Este es [el color::kolor].",
-        "pl_translation": "To jest kolor."
+        "es_form": "[El color::kolor] del coche es rojo.",
+        "pl_translation": "Kolor samochodu jest czerwony."
       },
       {
-        "es_form": "No es [el color::kolor].",
-        "pl_translation": "To nie jest kolor."
+        "es_form": "Me gusta [el color::kolor] de tus ojos.",
+        "pl_translation": "Podoba mi się kolor twoich oczu."
       },
       {
-        "es_form": "[El color::kolor] está aquí.",
-        "pl_translation": "Kolor jest tutaj."
+        "es_form": "El azul es [el color::kolor] del mar.",
+        "pl_translation": "Niebieski to kolor morza."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "kształt",
     "examples": [
       {
-        "es_form": "Esta es [la forma::kształt].",
-        "pl_translation": "To jest kształt."
+        "es_form": "[La forma::kształt] de la mesa es redonda.",
+        "pl_translation": "Kształt stołu jest okrągły."
       },
       {
-        "es_form": "[La forma::kształt] está aquí.",
-        "pl_translation": "Kształt jest tutaj."
+        "es_form": "La nube tiene [la forma::kształt] de un perro.",
+        "pl_translation": "Chmura ma kształt psa."
       },
       {
-        "es_form": "No es [la forma::kształt].",
-        "pl_translation": "To nie jest kształt."
+        "es_form": "Me gusta [la forma::kształt] de esta casa.",
+        "pl_translation": "Podoba mi się kształt tego domu."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "wielkość, rozmiar",
     "examples": [
       {
-        "es_form": "Este es [el tamaño::wielkość].",
-        "pl_translation": "To jest wielkość."
+        "es_form": "[El tamaño::wielkość, rozmiar] de la camisa es perfecto.",
+        "pl_translation": "Rozmiar koszuli jest idealny."
       },
       {
-        "es_form": "No es [el tamaño::wielkość].",
-        "pl_translation": "To nie jest wielkość."
+        "es_form": "No sé [el tamaño::wielkość, rozmiar] de la habitación.",
+        "pl_translation": "Nie znam wielkości pokoju."
       },
       {
-        "es_form": "Hablamos sobre [el tamaño::wielkość].",
-        "pl_translation": "Rozmawiamy o tym, czym jest wielkość."
+        "es_form": "¿Qué importa [el tamaño::wielkość, rozmiar] del coche?",
+        "pl_translation": "Jakie znaczenie ma wielkość samochodu?"
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "zdjęcie",
     "examples": [
       {
-        "es_form": "Hablamos sobre [la foto::zdjęcie].",
-        "pl_translation": "Rozmawiamy o tym, czym jest zdjęcie."
+        "es_form": "[La foto::zdjęcie] de mi familia está en la pared.",
+        "pl_translation": "Zdjęcie mojej rodziny wisi na ścianie."
       },
       {
-        "es_form": "Esta es [la foto::zdjęcie].",
-        "pl_translation": "To jest zdjęcie."
+        "es_form": "Hago [la foto::zdjęcie] del mar.",
+        "pl_translation": "Robię zdjęcie morza."
       },
       {
-        "es_form": "No es [la foto::zdjęcie].",
-        "pl_translation": "To nie jest zdjęcie."
+        "es_form": "Te mando [la foto::zdjęcie] por teléfono.",
+        "pl_translation": "Wysyłam ci zdjęcie przez telefon."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "obraz",
     "examples": [
       {
-        "es_form": "Esta es [la imagen::obraz].",
-        "pl_translation": "To jest obraz."
+        "es_form": "[La imagen::obraz] de la tele es muy clara.",
+        "pl_translation": "Obraz w telewizorze jest bardzo wyraźny."
       },
       {
-        "es_form": "No es [la imagen::obraz].",
-        "pl_translation": "To nie jest obraz."
+        "es_form": "Veo [la imagen::obraz] de un pájaro en el libro.",
+        "pl_translation": "Widzę w książce obraz ptaka."
       },
       {
-        "es_form": "[La imagen::obraz] está aquí.",
-        "pl_translation": "Obraz jest tutaj."
+        "es_form": "[La imagen::obraz] no es de buena calidad.",
+        "pl_translation": "Obraz nie jest dobrej jakości."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "lustro",
     "examples": [
       {
-        "es_form": "Este es [el espejo::lustro].",
-        "pl_translation": "To jest lustro."
+        "es_form": "Me miro en [el espejo::lustro].",
+        "pl_translation": "Przeglądam się w lustrze."
       },
       {
-        "es_form": "No es [el espejo::lustro].",
-        "pl_translation": "To nie jest lustro."
+        "es_form": "[El espejo::lustro] del baño es grande.",
+        "pl_translation": "Lustro w łazience jest duże."
       },
       {
-        "es_form": "[El espejo::lustro] está aquí.",
-        "pl_translation": "Lustro jest tutaj."
+        "es_form": "Hay [el espejo::lustro] en la entrada.",
+        "pl_translation": "Przy wejściu jest lustro."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "światło",
     "examples": [
       {
-        "es_form": "Esta es [la luz::światło].",
-        "pl_translation": "To jest światło."
+        "es_form": "Apaga [la luz::światło], por favor.",
+        "pl_translation": "Zgaś światło, proszę."
       },
       {
-        "es_form": "[La luz::światło] abre a las ocho.",
-        "pl_translation": "Światło otwiera się o ósmej."
+        "es_form": "[La luz::światło] del sol entra por la ventana.",
+        "pl_translation": "Światło słońca wpada przez okno."
       },
       {
-        "es_form": "¿Dónde está [la luz::światło]?",
-        "pl_translation": "Gdzie jest światło?"
+        "es_form": "No puedo leer sin [la luz::światło].",
+        "pl_translation": "Nie mogę czytać bez światła."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "cień",
     "examples": [
       {
-        "es_form": "Esta es [la sombra::cień].",
-        "pl_translation": "To jest cień."
+        "es_form": "El perro duerme en [la sombra::cień].",
+        "pl_translation": "Pies śpi w cieniu."
       },
       {
-        "es_form": "[La sombra::cień] está aquí.",
-        "pl_translation": "Cień jest tutaj."
+        "es_form": "[La sombra::cień] del árbol es muy grande.",
+        "pl_translation": "Cień drzewa jest bardzo duży."
       },
       {
-        "es_form": "No es [la sombra::cień].",
-        "pl_translation": "To nie jest cień."
+        "es_form": "En verano busco [la sombra::cień].",
+        "pl_translation": "Latem szukam cienia."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "widok",
     "examples": [
       {
-        "es_form": "Esta es [la vista::widok].",
-        "pl_translation": "To jest widok."
+        "es_form": "[La vista::widok] desde la ventana es bonita.",
+        "pl_translation": "Widok z okna jest ładny."
       },
       {
-        "es_form": "¿Dónde está [la vista::widok]?",
-        "pl_translation": "Gdzie jest widok?"
+        "es_form": "El hotel tiene [la vista::widok] al mar.",
+        "pl_translation": "Hotel ma widok na morze."
       },
       {
-        "es_form": "No es [la vista::widok].",
-        "pl_translation": "To nie jest widok."
+        "es_form": "Me gusta [la vista::widok] de la montaña.",
+        "pl_translation": "Podoba mi się widok góry."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "rzeczywistość",
     "examples": [
       {
-        "es_form": "Esta es [la realidad::rzeczywistość].",
-        "pl_translation": "To jest rzeczywistość."
+        "es_form": "[La realidad::rzeczywistość] es diferente.",
+        "pl_translation": "Rzeczywistość jest inna."
       },
       {
-        "es_form": "Hablamos sobre [la realidad::rzeczywistość].",
-        "pl_translation": "Rozmawiamy o tym, czym jest rzeczywistość."
+        "es_form": "En [la realidad::rzeczywistość] no tengo mucho tiempo.",
+        "pl_translation": "W rzeczywistości nie mam dużo czasu."
       },
       {
-        "es_form": "No es [la realidad::rzeczywistość].",
-        "pl_translation": "To nie jest rzeczywistość."
+        "es_form": "La película muestra [la realidad::rzeczywistość] del país.",
+        "pl_translation": "Film pokazuje rzeczywistość kraju."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "ładny",
     "examples": [
       {
-        "es_form": "Es muy [bonito::ładny].",
-        "pl_translation": "Jest bardzo ładny."
+        "es_form": "Tienes un jardín muy [bonito::ładny].",
+        "pl_translation": "Masz bardzo ładny ogród."
       },
       {
-        "es_form": "Parece [bonito::ładny].",
-        "pl_translation": "Wydaje się ładny."
+        "es_form": "El vestido es [bonito::ładny] y barato.",
+        "pl_translation": "Sukienka jest ładna i tania."
       },
       {
-        "es_form": "Es demasiado [bonito::ładny].",
-        "pl_translation": "Jest zbyt ładny."
+        "es_form": "Es un pueblo pequeño y [bonito::ładny].",
+        "pl_translation": "To małe i ładne miasteczko."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "brzydki",
     "examples": [
       {
-        "es_form": "Es muy [feo::brzydki].",
-        "pl_translation": "Jest bardzo brzydki."
+        "es_form": "El edificio es muy [feo::brzydki].",
+        "pl_translation": "Budynek jest bardzo brzydki."
       },
       {
-        "es_form": "No es [feo::brzydki].",
-        "pl_translation": "Nie jest brzydki."
+        "es_form": "Hoy hace un día [feo::brzydki].",
+        "pl_translation": "Dziś jest brzydki dzień."
       },
       {
-        "es_form": "Parece [feo::brzydki].",
-        "pl_translation": "Wydaje się brzydki."
+        "es_form": "Tengo un abrigo viejo y [feo::brzydki].",
+        "pl_translation": "Mam stary i brzydki płaszcz."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [parecí::wyglądałem] muy bien.",
-            "pl_translation": "Wyglądałem bardzo dobrze."
+            "es_form": "Ayer yo [parecí::wyglądałem] muy bien.",
+            "pl_translation": "Wczoraj wyglądałem bardzo dobrze."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [pareciste::wyglądałeś] muy bien.",
-            "pl_translation": "Wyglądałeś bardzo dobrze."
+            "es_form": "La semana pasada tú [pareciste::wyglądałeś] muy bien.",
+            "pl_translation": "W zeszłym tygodniu wyglądałeś bardzo dobrze."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [pareció::wyglądał] muy bien.",
-            "pl_translation": "Wyglądał bardzo dobrze."
+            "es_form": "El otro día él [pareció::wyglądał] muy bien.",
+            "pl_translation": "Niedawno wyglądał bardzo dobrze."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [parecimos::wyglądaliśmy] muy bien.",
-            "pl_translation": "Wyglądaliśmy bardzo dobrze."
+            "es_form": "La semana pasada nosotros [parecimos::wyglądaliśmy] muy bien.",
+            "pl_translation": "W zeszłym tygodniu wyglądaliśmy bardzo dobrze."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [parecisteis::wyglądaliście] muy bien.",
-            "pl_translation": "Wyglądaliście bardzo dobrze."
+            "es_form": "El otro día vosotros [parecisteis::wyglądaliście] muy bien.",
+            "pl_translation": "Niedawno wyglądaliście bardzo dobrze."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [parecieron::wyglądali] muy bien.",
-            "pl_translation": "Wyglądali bardzo dobrze."
+            "es_form": "Ayer ellos [parecieron::wyglądali] muy bien.",
+            "pl_translation": "Wczoraj wyglądali bardzo dobrze."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [pareceré::będę wyglądać] muy bien.",
-            "pl_translation": "Będę wyglądać bardzo dobrze."
+            "es_form": "Mañana yo [pareceré::będę wyglądać] muy bien.",
+            "pl_translation": "Jutro będę wyglądać bardzo dobrze."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [parecerás::będziesz wyglądać] muy bien.",
-            "pl_translation": "Będziesz wyglądać bardzo dobrze."
+            "es_form": "La próxima semana tú [parecerás::będziesz wyglądać] muy bien.",
+            "pl_translation": "W przyszłym tygodniu będziesz wyglądać bardzo dobrze."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [parecerá::będzie wyglądać] muy bien.",
-            "pl_translation": "Będzie wyglądać bardzo dobrze."
+            "es_form": "Pronto él [parecerá::będzie wyglądać] muy bien.",
+            "pl_translation": "Wkrótce będzie wyglądać bardzo dobrze."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [pareceremos::będziemy wyglądać] muy bien.",
-            "pl_translation": "Będziemy wyglądać bardzo dobrze."
+            "es_form": "La próxima semana nosotros [pareceremos::będziemy wyglądać] muy bien.",
+            "pl_translation": "W przyszłym tygodniu będziemy wyglądać bardzo dobrze."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [pareceréis::będziecie wyglądać] muy bien.",
-            "pl_translation": "Będziecie wyglądać bardzo dobrze."
+            "es_form": "Pronto vosotros [pareceréis::będziecie wyglądać] muy bien.",
+            "pl_translation": "Wkrótce będziecie wyglądać bardzo dobrze."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [parecerán::będą wyglądać] muy bien.",
-            "pl_translation": "Będą wyglądać bardzo dobrze."
+            "es_form": "Mañana ellos [parecerán::będą wyglądać] muy bien.",
+            "pl_translation": "Jutro będą wyglądać bardzo dobrze."
           }
         ]
       }

@@ -5,16 +5,16 @@
     "pl_word": "gospodarka",
     "examples": [
       {
-        "es_form": "Hablamos sobre [la economía::gospodarce] ayer.",
-        "pl_translation": "Rozmawialiśmy wczoraj o gospodarce."
+        "es_form": "[La economía::gospodarka] crece poco este año.",
+        "pl_translation": "Gospodarka rośnie w tym roku powoli."
       },
       {
-        "es_form": "[La economía::gospodarka] es importante.",
-        "pl_translation": "Gospodarka jest ważna."
+        "es_form": "Estudio [la economía::gospodarka] en la universidad.",
+        "pl_translation": "Studiuję ekonomię na uniwersytecie."
       },
       {
-        "es_form": "[La economía::gospodarka] crece cada año.",
-        "pl_translation": "Gospodarka rośnie każdego roku."
+        "es_form": "El turismo ayuda a [la economía::gospodarka].",
+        "pl_translation": "Turystyka pomaga gospodarce."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "biznes",
     "examples": [
       {
-        "es_form": "Este es [el negocio::biznes].",
-        "pl_translation": "To jest biznes."
+        "es_form": "Abrí [el negocio::biznes] con mi hermano.",
+        "pl_translation": "Otworzyłem biznes z bratem."
       },
       {
-        "es_form": "Necesito [el negocio::biznes] nuevo.",
-        "pl_translation": "Potrzebuję nowego biznesu."
+        "es_form": "[El negocio::biznes] va muy bien.",
+        "pl_translation": "Biznes idzie bardzo dobrze."
       },
       {
-        "es_form": "[El negocio::biznes] es rentable.",
-        "pl_translation": "Biznes jest dochodowy."
+        "es_form": "Es [un negocio::biznes] de familia.",
+        "pl_translation": "To rodzinny biznes."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "zysk",
     "examples": [
       {
-        "es_form": "Esta es [la ganancia::zysk].",
-        "pl_translation": "To jest zysk."
+        "es_form": "[La ganancia::zysk] de este año es alta.",
+        "pl_translation": "Tegoroczny zysk jest wysoki."
       },
       {
-        "es_form": "[La ganancia::zysk] es alta.",
-        "pl_translation": "Zysk jest wysoki."
+        "es_form": "Repartimos [la ganancia::zysk] entre los socios.",
+        "pl_translation": "Dzielimy zysk między wspólników."
       },
       {
-        "es_form": "[La ganancia::zysk] está aquí.",
-        "pl_translation": "Zysk jest tutaj."
+        "es_form": "Invierto [la ganancia::zysk] en la empresa.",
+        "pl_translation": "Inwestuję zysk w firmę."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "strata",
     "examples": [
       {
-        "es_form": "Necesito calcular [la pérdida::stratę].",
-        "pl_translation": "Muszę obliczyć stratę."
+        "es_form": "[La pérdida::strata] fue de mil euros.",
+        "pl_translation": "Strata wyniosła tysiąc euro."
       },
       {
-        "es_form": "[La pérdida::strata] fue grande.",
-        "pl_translation": "Strata była duża."
+        "es_form": "La empresa sufre [la pérdida::strata] grande.",
+        "pl_translation": "Firma ponosi dużą stratę."
       },
       {
-        "es_form": "Esta es [la pérdida::strata].",
-        "pl_translation": "To jest strata."
+        "es_form": "Es [la pérdida::strata] de tiempo.",
+        "pl_translation": "To strata czasu."
       }
     ]
   },
@@ -81,35 +81,35 @@
     "pl_word": "podatek",
     "examples": [
       {
-        "es_form": "Este es [el impuesto::podatek].",
-        "pl_translation": "To jest podatek."
+        "es_form": "Pago [el impuesto::podatek] cada año.",
+        "pl_translation": "Płacę podatek co roku."
       },
       {
-        "es_form": "[El impuesto::podatek] es alto.",
-        "pl_translation": "Podatek jest wysoki."
+        "es_form": "[El impuesto::podatek] sube en enero.",
+        "pl_translation": "Podatek rośnie w styczniu."
       },
       {
-        "es_form": "[El impuesto::podatek] se paga cada año.",
-        "pl_translation": "Podatek płaci się co roku."
+        "es_form": "El precio incluye [el impuesto::podatek].",
+        "pl_translation": "Cena zawiera podatek."
       }
     ]
   },
   {
     "type": "noun",
     "es_word": "El mercado",
-    "pl_word": "rynek",
+    "pl_word": "rynek (gospodarka)",
     "examples": [
       {
-        "es_form": "[El mercado::rynek] está en crecimiento.",
-        "pl_translation": "Rynek jest w fazie wzrostu."
+        "es_form": "[El mercado::rynek (gospodarka)] cambia cada día.",
+        "pl_translation": "Rynek zmienia się każdego dnia."
       },
       {
-        "es_form": "¿Dónde está [el mercado::rynek]?",
-        "pl_translation": "Gdzie jest rynek?"
+        "es_form": "Este producto domina [el mercado::rynek (gospodarka)].",
+        "pl_translation": "Ten produkt dominuje na rynku."
       },
       {
-        "es_form": "[El mercado::rynek] es muy competitivo.",
-        "pl_translation": "Rynek jest bardzo konkurencyjny."
+        "es_form": "Estudiamos [el mercado::rynek (gospodarka)] antes de invertir.",
+        "pl_translation": "Badamy rynek przed inwestycją."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "klient",
     "examples": [
       {
-        "es_form": "¿Dónde está [el cliente::klient]?",
-        "pl_translation": "Gdzie jest klient?"
+        "es_form": "[El cliente::klient] siempre tiene razón.",
+        "pl_translation": "Klient ma zawsze rację."
       },
       {
-        "es_form": "Hablé con [el cliente::klientem] ayer.",
-        "pl_translation": "Rozmawiałem wczoraj z klientem."
+        "es_form": "Tengo una reunión con [el cliente::klient].",
+        "pl_translation": "Mam spotkanie z klientem."
       },
       {
-        "es_form": "[El cliente::klient] es mi hermano.",
-        "pl_translation": "Klient jest moim bratem."
+        "es_form": "[El cliente::klient] pidió un descuento.",
+        "pl_translation": "Klient poprosił o zniżkę."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "konkurencja",
     "examples": [
       {
-        "es_form": "[La competencia::konkurencja] es fuerte.",
-        "pl_translation": "Konkurencja jest silna."
+        "es_form": "[La competencia::konkurencja] es muy fuerte.",
+        "pl_translation": "Konkurencja jest bardzo silna."
       },
       {
-        "es_form": "[La competencia::konkurencja] crece rápido.",
-        "pl_translation": "Konkurencja szybko rośnie."
+        "es_form": "Miro los precios de [la competencia::konkurencja].",
+        "pl_translation": "Sprawdzam ceny konkurencji."
       },
       {
-        "es_form": "Esta es [la competencia::konkurencja].",
-        "pl_translation": "To jest konkurencja."
+        "es_form": "Ganamos a [la competencia::konkurencja] con calidad.",
+        "pl_translation": "Wygrywamy z konkurencją jakością."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "reklama",
     "examples": [
       {
-        "es_form": "[La publicidad::reklama] es efectiva.",
-        "pl_translation": "Reklama jest skuteczna."
+        "es_form": "Gastamos mucho en [la publicidad::reklama].",
+        "pl_translation": "Wydajemy dużo na reklamę."
       },
       {
-        "es_form": "Esta es [la publicidad::reklama].",
-        "pl_translation": "To jest reklama."
+        "es_form": "[La publicidad::reklama] atrae a los clientes.",
+        "pl_translation": "Reklama przyciąga klientów."
       },
       {
-        "es_form": "Pagamos por [la publicidad::reklamę].",
-        "pl_translation": "Zapłaciliśmy za reklamę."
+        "es_form": "Trabajo en [la publicidad::reklama].",
+        "pl_translation": "Pracuję w reklamie."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "sukces",
     "examples": [
       {
-        "es_form": "Este es [el éxito::sukces].",
-        "pl_translation": "To jest sukces."
+        "es_form": "[El éxito::sukces] llegó después de mucho trabajo.",
+        "pl_translation": "Sukces przyszedł po dużej pracy."
       },
       {
-        "es_form": "[El éxito::sukces] es muy importante.",
-        "pl_translation": "Sukces jest bardzo ważny."
+        "es_form": "Celebramos [el éxito::sukces] de la empresa.",
+        "pl_translation": "Świętujemy sukces firmy."
       },
       {
-        "es_form": "No es [el éxito::sukces].",
-        "pl_translation": "To nie jest sukces."
+        "es_form": "El libro fue [un éxito::sukces] enorme.",
+        "pl_translation": "Książka była ogromnym sukcesem."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "dochodowy",
     "examples": [
       {
-        "es_form": "Es muy [rentable::dochodowy].",
-        "pl_translation": "Jest bardzo dochodowy."
+        "es_form": "El negocio es muy [rentable::dochodowy].",
+        "pl_translation": "Biznes jest bardzo dochodowy."
       },
       {
-        "es_form": "No es [rentable::dochodowy].",
-        "pl_translation": "Nie jest dochodowy."
+        "es_form": "No es [rentable::dochodowy] abrir los domingos.",
+        "pl_translation": "Otwieranie w niedziele nie jest dochodowe."
       },
       {
-        "es_form": "Es demasiado [rentable::dochodowy].",
-        "pl_translation": "Jest zbyt dochodowy."
+        "es_form": "Buscamos un proyecto [rentable::dochodowy].",
+        "pl_translation": "Szukamy dochodowego projektu."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "konkurencyjny",
     "examples": [
       {
-        "es_form": "Es muy [competitivo::konkurencyjny].",
-        "pl_translation": "Jest bardzo konkurencyjny."
+        "es_form": "Ofrecemos un precio [competitivo::konkurencyjny].",
+        "pl_translation": "Oferujemy konkurencyjną cenę."
       },
       {
-        "es_form": "No es [competitivo::konkurencyjny].",
-        "pl_translation": "Nie jest konkurencyjny."
+        "es_form": "El mercado es muy [competitivo::konkurencyjny].",
+        "pl_translation": "Rynek jest bardzo konkurencyjny."
       },
       {
-        "es_form": "Es demasiado [competitivo::konkurencyjny].",
-        "pl_translation": "Jest zbyt konkurencyjny."
+        "es_form": "Es un sueldo [competitivo::konkurencyjny] para este puesto.",
+        "pl_translation": "To konkurencyjna pensja na tym stanowisku."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [invertí::zainwestowałem] en la bolsa.",
-            "pl_translation": "Zainwestowałem na giełdzie."
+            "es_form": "Ayer yo [invertí::zainwestowałem] en la bolsa.",
+            "pl_translation": "Wczoraj zainwestowałem na giełdzie."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [invertiste::zainwestowałeś] en la bolsa.",
-            "pl_translation": "Zainwestowałeś na giełdzie."
+            "es_form": "La semana pasada tú [invertiste::zainwestowałeś] en la bolsa.",
+            "pl_translation": "W zeszłym tygodniu zainwestowałeś na giełdzie."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [invirtió::zainwestował] en la bolsa.",
-            "pl_translation": "Zainwestował na giełdzie."
+            "es_form": "El otro día él [invirtió::zainwestował] en la bolsa.",
+            "pl_translation": "Niedawno zainwestował na giełdzie."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [invertimos::zainwestowaliśmy] en la bolsa.",
-            "pl_translation": "Zainwestowaliśmy na giełdzie."
+            "es_form": "La semana pasada nosotros [invertimos::zainwestowaliśmy] en la bolsa.",
+            "pl_translation": "W zeszłym tygodniu zainwestowaliśmy na giełdzie."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [invertisteis::zainwestowaliście] en la bolsa.",
-            "pl_translation": "Zainwestowaliście na giełdzie."
+            "es_form": "El otro día vosotros [invertisteis::zainwestowaliście] en la bolsa.",
+            "pl_translation": "Niedawno zainwestowaliście na giełdzie."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [invirtieron::zainwestowali] en la bolsa.",
-            "pl_translation": "Zainwestowali na giełdzie."
+            "es_form": "Ayer ellos [invirtieron::zainwestowali] en la bolsa.",
+            "pl_translation": "Wczoraj zainwestowali na giełdzie."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [invertiré::będę inwestować] en la bolsa.",
-            "pl_translation": "Będę inwestować na giełdzie."
+            "es_form": "Mañana yo [invertiré::będę inwestować] en la bolsa.",
+            "pl_translation": "Jutro będę inwestować na giełdzie."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [invertirás::będziesz inwestować] en la bolsa.",
-            "pl_translation": "Będziesz inwestować na giełdzie."
+            "es_form": "La próxima semana tú [invertirás::będziesz inwestować] en la bolsa.",
+            "pl_translation": "W przyszłym tygodniu będziesz inwestować na giełdzie."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [invertirá::będzie inwestować] en la bolsa.",
-            "pl_translation": "Będzie inwestować na giełdzie."
+            "es_form": "Pronto él [invertirá::będzie inwestować] en la bolsa.",
+            "pl_translation": "Wkrótce będzie inwestować na giełdzie."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [invertiremos::będziemy inwestować] en la bolsa.",
-            "pl_translation": "Będziemy inwestować na giełdzie."
+            "es_form": "La próxima semana nosotros [invertiremos::będziemy inwestować] en la bolsa.",
+            "pl_translation": "W przyszłym tygodniu będziemy inwestować na giełdzie."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [invertiréis::będziecie inwestować] en la bolsa.",
-            "pl_translation": "Będziecie inwestować na giełdzie."
+            "es_form": "Pronto vosotros [invertiréis::będziecie inwestować] en la bolsa.",
+            "pl_translation": "Wkrótce będziecie inwestować na giełdzie."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [invertirán::będą inwestować] en la bolsa.",
-            "pl_translation": "Będą inwestować na giełdzie."
+            "es_form": "Mañana ellos [invertirán::będą inwestować] en la bolsa.",
+            "pl_translation": "Jutro będą inwestować na giełdzie."
           }
         ]
       }

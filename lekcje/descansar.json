@@ -5,16 +5,16 @@
     "pl_word": "psycholog",
     "examples": [
       {
-        "es_form": "Este es [el psicólogo::psycholog].",
-        "pl_translation": "To jest psycholog."
+        "es_form": "Tengo cita con [el psicólogo::psycholog] cada semana.",
+        "pl_translation": "Mam wizytę u psychologa co tydzień."
       },
       {
-        "es_form": "No es [el psicólogo::psycholog].",
-        "pl_translation": "To nie jest psycholog."
+        "es_form": "[El psicólogo::psycholog] me ayudó mucho.",
+        "pl_translation": "Psycholog bardzo mi pomógł."
       },
       {
-        "es_form": "¿Dónde está [el psicólogo::psycholog]?",
-        "pl_translation": "Gdzie jest psycholog?"
+        "es_form": "Hablé con [el psicólogo::psycholog] de la escuela.",
+        "pl_translation": "Rozmawiałem z psychologiem szkolnym."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "terapia",
     "examples": [
       {
-        "es_form": "Esta es [la terapia::terapia].",
-        "pl_translation": "To jest terapia."
+        "es_form": "Empecé [la terapia::terapia] en enero.",
+        "pl_translation": "Zacząłem terapię w styczniu."
       },
       {
-        "es_form": "No es [la terapia::terapia].",
-        "pl_translation": "To nie jest terapia."
+        "es_form": "[La terapia::terapia] me ayudó a entenderme.",
+        "pl_translation": "Terapia pomogła mi zrozumieć siebie."
       },
       {
-        "es_form": "¿Dónde está [la terapia::terapia]?",
-        "pl_translation": "Gdzie jest terapia?"
+        "es_form": "Voy a [la terapia::terapia] los martes.",
+        "pl_translation": "Chodzę na terapię we wtorki."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "wypalenie",
     "examples": [
       {
-        "es_form": "[El agotamiento::wypalenie] es un problema serio.",
-        "pl_translation": "Wypalenie to poważny problem."
+        "es_form": "[El agotamiento::wypalenie] me obligó a parar.",
+        "pl_translation": "Wypalenie zmusiło mnie do zatrzymania się."
       },
       {
-        "es_form": "Este es [el agotamiento::wypalenie].",
-        "pl_translation": "To jest wypalenie."
+        "es_form": "Sufre [el agotamiento::wypalenie] por el trabajo.",
+        "pl_translation": "Cierpi na wypalenie z powodu pracy."
       },
       {
-        "es_form": "No es [el agotamiento::wypalenie].",
-        "pl_translation": "To nie jest wypalenie."
+        "es_form": "Reconocí [el agotamiento::wypalenie] demasiado tarde.",
+        "pl_translation": "Rozpoznałem wypalenie za późno."
       }
     ]
   },
@@ -62,35 +62,35 @@
     "pl_word": "równowaga",
     "examples": [
       {
-        "es_form": "No entiendo [el equilibrio::równowaga].",
-        "pl_translation": "Nie rozumiem równowagi."
+        "es_form": "Busco [el equilibrio::równowaga] entre trabajo y familia.",
+        "pl_translation": "Szukam równowagi między pracą a rodziną."
       },
       {
-        "es_form": "[El equilibrio::równowaga] cambió mi vida.",
-        "pl_translation": "Równowaga zmieniła moje życie."
+        "es_form": "Perdí [el equilibrio::równowaga] y me caí.",
+        "pl_translation": "Straciłem równowagę i upadłem."
       },
       {
-        "es_form": "Este es [el equilibrio::równowaga].",
-        "pl_translation": "To jest równowaga."
+        "es_form": "El yoga mejora [el equilibrio::równowaga].",
+        "pl_translation": "Joga poprawia równowagę."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El estrés",
-    "pl_word": "stres",
+    "es_word": "La meditación",
+    "pl_word": "medytacja",
     "examples": [
       {
-        "es_form": "[El estrés::stres] cambió mi vida.",
-        "pl_translation": "Stres zmienił moje życie."
+        "es_form": "Practico [la meditación::medytacja] cada mañana.",
+        "pl_translation": "Praktykuję medytację każdego ranka."
       },
       {
-        "es_form": "No entiendo [el estrés::stres].",
-        "pl_translation": "Nie rozumiem stresu."
+        "es_form": "[La meditación::medytacja] me ayuda a dormir.",
+        "pl_translation": "Medytacja pomaga mi spać."
       },
       {
-        "es_form": "Este es [el estrés::stres].",
-        "pl_translation": "To jest stres."
+        "es_form": "Aprendí [la meditación::medytacja] en un curso.",
+        "pl_translation": "Nauczyłem się medytacji na kursie."
       }
     ]
   },
@@ -100,35 +100,35 @@
     "pl_word": "relaks",
     "examples": [
       {
-        "es_form": "Esta es [la relajación::relaks].",
-        "pl_translation": "To jest relaks."
+        "es_form": "Necesito un momento para [la relajación::relaks].",
+        "pl_translation": "Potrzebuję chwili na relaks."
       },
       {
-        "es_form": "¿Dónde está [la relajación::relaks]?",
-        "pl_translation": "Gdzie jest relaks?"
+        "es_form": "[La relajación::relaks] empieza por la respiración.",
+        "pl_translation": "Relaks zaczyna się od oddechu."
       },
       {
-        "es_form": "No es [la relajación::relaks].",
-        "pl_translation": "To nie jest relaks."
+        "es_form": "La música ayuda en [la relajación::relaks].",
+        "pl_translation": "Muzyka pomaga w relaksie."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "El silencio",
-    "pl_word": "cisza",
+    "es_word": "La calma",
+    "pl_word": "spokój",
     "examples": [
       {
-        "es_form": "[El silencio::cisza] ayuda a concentrarse.",
-        "pl_translation": "Cisza pomaga się skupić."
+        "es_form": "Mantén [la calma::spokój] y respira.",
+        "pl_translation": "Zachowaj spokój i oddychaj."
       },
       {
-        "es_form": "Necesito [el silencio::ciszy] para concentrarme.",
-        "pl_translation": "Potrzebuję ciszy, żeby się skupić."
+        "es_form": "Me gusta [la calma::spokój] del campo.",
+        "pl_translation": "Lubię spokój wsi."
       },
       {
-        "es_form": "Me gusta [el silencio::cisza] por la mañana.",
-        "pl_translation": "Lubię ciszę o poranku."
+        "es_form": "Después de la tormenta llega [la calma::spokój].",
+        "pl_translation": "Po burzy przychodzi spokój."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "samotność",
     "examples": [
       {
-        "es_form": "Hablamos sobre [la soledad::samotność].",
-        "pl_translation": "Rozmawialiśmy o samotności."
+        "es_form": "[La soledad::samotność] le pesa mucho.",
+        "pl_translation": "Samotność bardzo mu ciąży."
       },
       {
-        "es_form": "No es [la soledad::samotność].",
-        "pl_translation": "To nie jest samotność."
+        "es_form": "Disfruto de [la soledad::samotność] por la mañana.",
+        "pl_translation": "Rano cieszę się samotnością."
       },
       {
-        "es_form": "Esta es [la soledad::samotność].",
-        "pl_translation": "To jest samotność."
+        "es_form": "Combate [la soledad::samotność] con un perro.",
+        "pl_translation": "Walczy z samotnością dzięki psu."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "szczęście",
     "examples": [
       {
-        "es_form": "[La felicidad::szczęście] cambió mi vida.",
-        "pl_translation": "Szczęście zmieniło moje życie."
+        "es_form": "[La felicidad::szczęście] está en las cosas pequeñas.",
+        "pl_translation": "Szczęście tkwi w małych rzeczach."
       },
       {
-        "es_form": "Esta es [la felicidad::szczęście].",
-        "pl_translation": "To jest szczęście."
+        "es_form": "Te deseo toda [la felicidad::szczęście] del mundo.",
+        "pl_translation": "Życzę ci całego szczęścia świata."
       },
       {
-        "es_form": "No entiendo [la felicidad::szczęście].",
-        "pl_translation": "Nie rozumiem szczęścia."
+        "es_form": "Lloró por [la felicidad::szczęście].",
+        "pl_translation": "Płakał ze szczęścia."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "spełnienie",
     "examples": [
       {
-        "es_form": "[La realización::spełnienie] cambió mi vida.",
-        "pl_translation": "Spełnienie zmieniło moje życie."
+        "es_form": "Busco [la realización::spełnienie] personal.",
+        "pl_translation": "Szukam osobistego spełnienia."
       },
       {
-        "es_form": "Hablamos sobre [la realización::spełnienie].",
-        "pl_translation": "Rozmawialiśmy o spełnieniu."
+        "es_form": "Su trabajo le da [la realización::spełnienie].",
+        "pl_translation": "Praca daje mu spełnienie."
       },
       {
-        "es_form": "Esta es [la realización::spełnienie].",
-        "pl_translation": "To jest spełnienie."
+        "es_form": "[La realización::spełnienie] no depende del dinero.",
+        "pl_translation": "Spełnienie nie zależy od pieniędzy."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "zrelaksowany",
     "examples": [
       {
-        "es_form": "No es [relajado::zrelaksowany].",
-        "pl_translation": "Nie jest zrelaksowany."
+        "es_form": "Estoy [relajado::zrelaksowany] después de las vacaciones.",
+        "pl_translation": "Po urlopie jestem zrelaksowany."
       },
       {
-        "es_form": "Parece [relajado::zrelaksowany].",
-        "pl_translation": "Wydaje się zrelaksowany."
+        "es_form": "El ambiente es muy [relajado::zrelaksowany].",
+        "pl_translation": "Atmosfera jest bardzo zrelaksowana."
       },
       {
-        "es_form": "Es demasiado [relajado::zrelaksowany].",
-        "pl_translation": "Jest zbyt zrelaksowany."
+        "es_form": "Parece [relajado::zrelaksowany] y contento.",
+        "pl_translation": "Wygląda na zrelaksowanego i zadowolonego."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "wypoczęty",
     "examples": [
       {
-        "es_form": "No está [descansado::wypoczęty].",
-        "pl_translation": "Nie jest wypoczęty."
+        "es_form": "Me levanté [descansado::wypoczęty].",
+        "pl_translation": "Wstałem wypoczęty."
       },
       {
-        "es_form": "Parece [descansado::wypoczęty].",
-        "pl_translation": "Wydaje się wypoczęty."
+        "es_form": "Vuelvo [descansado::wypoczęty] del fin de semana.",
+        "pl_translation": "Wracam wypoczęty po weekendzie."
       },
       {
-        "es_form": "Está demasiado [descansado::wypoczęty].",
-        "pl_translation": "Jest zbyt wypoczęty."
+        "es_form": "Con la mente [descansado::wypoczęty] trabajo mejor.",
+        "pl_translation": "Z wypoczętym umysłem pracuję lepiej."
       }
     ]
   },

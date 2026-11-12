@@ -5,16 +5,16 @@
     "pl_word": "jedzenie",
     "examples": [
       {
-        "es_form": "Esta es [la comida::jedzenie].",
-        "pl_translation": "To jest jedzenie."
+        "es_form": "[La comida::jedzenie] de mi madre es la mejor.",
+        "pl_translation": "Jedzenie mojej mamy jest najlepsze."
       },
       {
-        "es_form": "No es [la comida::jedzenie].",
-        "pl_translation": "To nie jest jedzenie."
+        "es_form": "Preparo [la comida::jedzenie] para mañana.",
+        "pl_translation": "Przygotowuję jedzenie na jutro."
       },
       {
-        "es_form": "Hablamos sobre [la comida::jedzenie].",
-        "pl_translation": "Rozmawiamy o tym, czym jest jedzenie."
+        "es_form": "[La comida::jedzenie] ya está en la mesa.",
+        "pl_translation": "Jedzenie jest już na stole."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "chleb",
     "examples": [
       {
-        "es_form": "¿Dónde está [el pan::chleb]?",
-        "pl_translation": "Gdzie jest chleb?"
+        "es_form": "Compro [el pan::chleb] cada mañana.",
+        "pl_translation": "Kupuję chleb każdego ranka."
       },
       {
-        "es_form": "[El pan::chleb] está aquí.",
-        "pl_translation": "Chleb jest tutaj."
+        "es_form": "Como [el pan::chleb] con queso.",
+        "pl_translation": "Jem chleb z serem."
       },
       {
-        "es_form": "No es [el pan::chleb].",
-        "pl_translation": "To nie jest chleb."
+        "es_form": "[El pan::chleb] está todavía caliente.",
+        "pl_translation": "Chleb jest jeszcze ciepły."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "masło",
     "examples": [
       {
-        "es_form": "¿Dónde está [la mantequilla::masło]?",
-        "pl_translation": "Gdzie jest masło?"
+        "es_form": "Pongo [la mantequilla::masło] en el pan.",
+        "pl_translation": "Smaruję chleb masłem."
       },
       {
-        "es_form": "[La mantequilla::masło] está aquí.",
-        "pl_translation": "Masło jest tutaj."
+        "es_form": "[La mantequilla::masło] está en la nevera.",
+        "pl_translation": "Masło jest w lodówce."
       },
       {
-        "es_form": "No es [la mantequilla::masło].",
-        "pl_translation": "To nie jest masło."
+        "es_form": "No como [la mantequilla::masło].",
+        "pl_translation": "Nie jem masła."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "ser",
     "examples": [
       {
-        "es_form": "Este es [el queso::ser].",
-        "pl_translation": "To jest ser."
+        "es_form": "Como pan con [el queso::ser].",
+        "pl_translation": "Jem chleb z serem."
       },
       {
-        "es_form": "¿Dónde está [el queso::ser]?",
-        "pl_translation": "Gdzie jest ser?"
+        "es_form": "[El queso::ser] de este pueblo es famoso.",
+        "pl_translation": "Ser z tej wsi jest słynny."
       },
       {
-        "es_form": "[El queso::ser] está aquí.",
-        "pl_translation": "Ser jest tutaj."
+        "es_form": "Compro [el queso::ser] en el mercado.",
+        "pl_translation": "Kupuję ser na targu."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "mleko",
     "examples": [
       {
-        "es_form": "Esta es [la leche::mleko].",
-        "pl_translation": "To jest mleko."
+        "es_form": "Bebo [la leche::mleko] con el desayuno.",
+        "pl_translation": "Piję mleko do śniadania."
       },
       {
-        "es_form": "¿Dónde está [la leche::mleko]?",
-        "pl_translation": "Gdzie jest mleko?"
+        "es_form": "[La leche::mleko] está en la nevera.",
+        "pl_translation": "Mleko jest w lodówce."
       },
       {
-        "es_form": "[La leche::mleko] está aquí.",
-        "pl_translation": "Mleko jest tutaj."
+        "es_form": "Tomo el café con [la leche::mleko].",
+        "pl_translation": "Piję kawę z mlekiem."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "jajko",
     "examples": [
       {
-        "es_form": "Este es [el huevo::jajko].",
-        "pl_translation": "To jest jajko."
+        "es_form": "Como [el huevo::jajko] con pan.",
+        "pl_translation": "Jem jajko z chlebem."
       },
       {
-        "es_form": "¿Dónde está [el huevo::jajko]?",
-        "pl_translation": "Gdzie jest jajko?"
+        "es_form": "[El huevo::jajko] está muy fresco.",
+        "pl_translation": "Jajko jest bardzo świeże."
       },
       {
-        "es_form": "[El huevo::jajko] está aquí.",
-        "pl_translation": "Jajko jest tutaj."
+        "es_form": "Preparo [el huevo::jajko] para el niño.",
+        "pl_translation": "Przygotowuję jajko dla dziecka."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "mięso",
     "examples": [
       {
-        "es_form": "Esta es [la carne::mięso].",
-        "pl_translation": "To jest mięso."
+        "es_form": "No como [la carne::mięso].",
+        "pl_translation": "Nie jem mięsa."
       },
       {
-        "es_form": "[La carne::mięso] está aquí.",
-        "pl_translation": "Mięso jest tutaj."
+        "es_form": "[La carne::mięso] con patatas está muy rica.",
+        "pl_translation": "Mięso z ziemniakami jest bardzo smaczne."
       },
       {
-        "es_form": "No es [la carne::mięso].",
-        "pl_translation": "To nie jest mięso."
+        "es_form": "Compro [la carne::mięso] para la cena.",
+        "pl_translation": "Kupuję mięso na kolację."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "ryba (jedzenie)",
     "examples": [
       {
-        "es_form": "Este es [el pescado::ryba].",
-        "pl_translation": "To jest ryba."
+        "es_form": "Los viernes comemos [el pescado::ryba (jedzenie)].",
+        "pl_translation": "W piątki jemy rybę."
       },
       {
-        "es_form": "¿Dónde está [el pescado::ryba]?",
-        "pl_translation": "Gdzie jest ryba?"
+        "es_form": "[El pescado::ryba (jedzenie)] con limón está muy rico.",
+        "pl_translation": "Ryba z cytryną jest bardzo smaczna."
       },
       {
-        "es_form": "[El pescado::ryba] está aquí.",
-        "pl_translation": "Ryba jest tutaj."
+        "es_form": "Preparo [el pescado::ryba (jedzenie)] para la cena.",
+        "pl_translation": "Przygotowuję rybę na kolację."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "woda",
     "examples": [
       {
-        "es_form": "Esta es [el agua::woda].",
-        "pl_translation": "To jest woda."
+        "es_form": "Bebo [el agua::woda] con la comida.",
+        "pl_translation": "Piję wodę do jedzenia."
       },
       {
-        "es_form": "¿Dónde está [el agua::woda]?",
-        "pl_translation": "Gdzie jest woda?"
+        "es_form": "[El agua::woda] del río está muy fría.",
+        "pl_translation": "Woda w rzece jest bardzo zimna."
       },
       {
-        "es_form": "No es [el agua::woda].",
-        "pl_translation": "To nie jest woda."
+        "es_form": "¿Me das [el agua::woda], por favor?",
+        "pl_translation": "Podasz mi wodę?"
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "sok",
     "examples": [
       {
-        "es_form": "Este es [el zumo::sok].",
-        "pl_translation": "To jest sok."
+        "es_form": "Bebo [el zumo::sok] de naranja cada mañana.",
+        "pl_translation": "Każdego ranka piję sok pomarańczowy."
       },
       {
-        "es_form": "¿Dónde está [el zumo::sok]?",
-        "pl_translation": "Gdzie jest sok?"
+        "es_form": "[El zumo::sok] está en la nevera.",
+        "pl_translation": "Sok jest w lodówce."
       },
       {
-        "es_form": "[El zumo::sok] está aquí.",
-        "pl_translation": "Sok jest tutaj."
+        "es_form": "El niño quiere [el zumo::sok] de manzana.",
+        "pl_translation": "Dziecko chce sok jabłkowy."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "smaczny",
     "examples": [
       {
-        "es_form": "Es muy [sabroso::smaczny].",
-        "pl_translation": "Jest bardzo smaczny."
+        "es_form": "El queso de aquí es muy [sabroso::smaczny].",
+        "pl_translation": "Tutejszy ser jest bardzo smaczny."
       },
       {
-        "es_form": "Parece [sabroso::smaczny].",
-        "pl_translation": "Wydaje się smaczny."
+        "es_form": "Este pan es muy [sabroso::smaczny].",
+        "pl_translation": "Ten chleb jest bardzo smaczny."
       },
       {
-        "es_form": "Es demasiado [sabroso::smaczny].",
-        "pl_translation": "Jest zbyt smaczny."
+        "es_form": "Mi madre prepara un pescado [sabroso::smaczny].",
+        "pl_translation": "Moja mama przyrządza smaczną rybę."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "głodny",
     "examples": [
       {
-        "es_form": "No está [hambriento::głodny].",
-        "pl_translation": "Nie jest głodny."
+        "es_form": "El niño está [hambriento::głodny] después del colegio.",
+        "pl_translation": "Dziecko jest głodne po szkole."
       },
       {
-        "es_form": "Parece [hambriento::głodny].",
-        "pl_translation": "Wydaje się głodny."
+        "es_form": "Llego a casa cansado y [hambriento::głodny].",
+        "pl_translation": "Wracam do domu zmęczony i głodny."
       },
       {
-        "es_form": "Está demasiado [hambriento::głodny].",
-        "pl_translation": "Jest zbyt głodny."
+        "es_form": "El perro siempre está [hambriento::głodny].",
+        "pl_translation": "Pies jest zawsze głodny."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [comí::zjadłem] pan.",
-            "pl_translation": "Zjadłem chleb."
+            "es_form": "Ayer yo [comí::zjadłem] pan.",
+            "pl_translation": "Wczoraj zjadłem chleb."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [comiste::zjadłeś] pan.",
-            "pl_translation": "Zjadłeś chleb."
+            "es_form": "La semana pasada tú [comiste::zjadłeś] pan.",
+            "pl_translation": "W zeszłym tygodniu zjadłeś chleb."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [comió::zjadł] pan.",
-            "pl_translation": "Zjadł chleb."
+            "es_form": "El otro día él [comió::zjadł] pan.",
+            "pl_translation": "Niedawno zjadł chleb."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [comimos::zjedliśmy] pan.",
-            "pl_translation": "Zjedliśmy chleb."
+            "es_form": "La semana pasada nosotros [comimos::zjedliśmy] pan.",
+            "pl_translation": "W zeszłym tygodniu zjedliśmy chleb."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [comisteis::zjedliście] pan.",
-            "pl_translation": "Zjedliście chleb."
+            "es_form": "El otro día vosotros [comisteis::zjedliście] pan.",
+            "pl_translation": "Niedawno zjedliście chleb."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [comieron::zjedli] pan.",
-            "pl_translation": "Zjedli chleb."
+            "es_form": "Ayer ellos [comieron::zjedli] pan.",
+            "pl_translation": "Wczoraj zjedli chleb."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [comeré::będę jeść] pan.",
-            "pl_translation": "Będę jeść chleb."
+            "es_form": "Mañana yo [comeré::będę jeść] pan.",
+            "pl_translation": "Jutro będę jeść chleb."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [comerás::będziesz jeść] pan.",
-            "pl_translation": "Będziesz jeść chleb."
+            "es_form": "La próxima semana tú [comerás::będziesz jeść] pan.",
+            "pl_translation": "W przyszłym tygodniu będziesz jeść chleb."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [comerá::będzie jeść] pan.",
-            "pl_translation": "Będzie jeść chleb."
+            "es_form": "Pronto él [comerá::będzie jeść] pan.",
+            "pl_translation": "Wkrótce będzie jeść chleb."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [comeremos::będziemy jeść] pan.",
-            "pl_translation": "Będziemy jeść chleb."
+            "es_form": "La próxima semana nosotros [comeremos::będziemy jeść] pan.",
+            "pl_translation": "W przyszłym tygodniu będziemy jeść chleb."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [comeréis::będziecie jeść] pan.",
-            "pl_translation": "Będziecie jeść chleb."
+            "es_form": "Pronto vosotros [comeréis::będziecie jeść] pan.",
+            "pl_translation": "Wkrótce będziecie jeść chleb."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [comerán::będą jeść] pan.",
-            "pl_translation": "Będą jeść chleb."
+            "es_form": "Mañana ellos [comerán::będą jeść] pan.",
+            "pl_translation": "Jutro będą jeść chleb."
           }
         ]
       }

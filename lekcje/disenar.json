@@ -5,16 +5,16 @@
     "pl_word": "budynek",
     "examples": [
       {
-        "es_form": "Este es [el edificio::budynek].",
-        "pl_translation": "To jest budynek."
-      },
-      {
-        "es_form": "[El edificio::budynek] es muy alto.",
-        "pl_translation": "Budynek jest bardzo wysoki."
+        "es_form": "[El edificio::budynek] tiene diez plantas.",
+        "pl_translation": "Budynek ma dziesięć pięter."
       },
       {
         "es_form": "Trabajo en [el edificio::budynek] de enfrente.",
         "pl_translation": "Pracuję w budynku naprzeciwko."
+      },
+      {
+        "es_form": "[El edificio::budynek] más alto es un banco.",
+        "pl_translation": "Najwyższy budynek to bank."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "architektura",
     "examples": [
       {
-        "es_form": "[La arquitectura::architektura] de esta catedral es gótica.",
-        "pl_translation": "Architektura tej katedry jest gotycka."
+        "es_form": "Estudio [la arquitectura::architektura] en Barcelona.",
+        "pl_translation": "Studiuję architekturę w Barcelonie."
       },
       {
-        "es_form": "Estudio [la arquitectura::architekturę] en la universidad.",
-        "pl_translation": "Studiuję architekturę na uniwersytecie."
+        "es_form": "[La arquitectura::architektura] de Gaudí es única.",
+        "pl_translation": "Architektura Gaudíego jest wyjątkowa."
       },
       {
-        "es_form": "Esta es [la arquitectura::architektura].",
-        "pl_translation": "To jest architektura."
+        "es_form": "Me fascina [la arquitectura::architektura] antigua.",
+        "pl_translation": "Fascynuje mnie dawna architektura."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "zamek (budynek)",
     "examples": [
       {
+        "es_form": "Visitamos [el castillo::zamek (budynek)] medieval.",
+        "pl_translation": "Zwiedzamy średniowieczny zamek."
+      },
+      {
         "es_form": "[El castillo::zamek (budynek)] está en la colina.",
-        "pl_translation": "Zamek jest na wzgórzu."
+        "pl_translation": "Zamek stoi na wzgórzu."
       },
       {
-        "es_form": "Este es [el castillo::zamek].",
-        "pl_translation": "To jest zamek."
-      },
-      {
-        "es_form": "[El castillo::zamek (budynek)] fue construido en el siglo XIII.",
-        "pl_translation": "Zamek został zbudowany w XIII wieku."
+        "es_form": "El rey vivía en [el castillo::zamek (budynek)].",
+        "pl_translation": "Król mieszkał w zamku."
       }
     ]
   },
@@ -62,12 +62,12 @@
     "pl_word": "pałac",
     "examples": [
       {
-        "es_form": "[El palacio::pałac] real está en el centro.",
-        "pl_translation": "Pałac królewski jest w centrum."
+        "es_form": "[El palacio::pałac] real está abierto al público.",
+        "pl_translation": "Pałac królewski jest otwarty dla zwiedzających."
       },
       {
-        "es_form": "Este es [el palacio::pałac].",
-        "pl_translation": "To jest pałac."
+        "es_form": "Los turistas visitan [el palacio::pałac].",
+        "pl_translation": "Turyści zwiedzają pałac."
       },
       {
         "es_form": "[El palacio::pałac] tiene cien habitaciones.",
@@ -81,16 +81,16 @@
     "pl_word": "wieża",
     "examples": [
       {
-        "es_form": "¿Dónde está [la torre::wieża]?",
-        "pl_translation": "Gdzie jest wieża?"
+        "es_form": "Subimos a [la torre::wieża] de la iglesia.",
+        "pl_translation": "Wchodzimy na wieżę kościoła."
       },
       {
-        "es_form": "Subimos a [la torre::wieża] para ver la ciudad.",
-        "pl_translation": "Weszliśmy na wieżę, żeby zobaczyć miasto."
+        "es_form": "[La torre::wieża] tiene un reloj antiguo.",
+        "pl_translation": "Wieża ma stary zegar."
       },
       {
-        "es_form": "[La torre::wieża] mide cien metros.",
-        "pl_translation": "Wieża ma sto metrów wysokości."
+        "es_form": "Desde [la torre::wieża] se ve toda la ciudad.",
+        "pl_translation": "Z wieży widać całe miasto."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "most",
     "examples": [
       {
-        "es_form": "[El puente::most] cruza el río.",
-        "pl_translation": "Most przecina rzekę."
+        "es_form": "Cruzamos [el puente::most] a pie.",
+        "pl_translation": "Przechodzimy przez most pieszo."
       },
       {
-        "es_form": "Este es [el puente::most].",
-        "pl_translation": "To jest most."
+        "es_form": "[El puente::most] une las dos orillas.",
+        "pl_translation": "Most łączy oba brzegi."
       },
       {
-        "es_form": "[El puente::most] es muy antiguo.",
-        "pl_translation": "Most jest bardzo stary."
+        "es_form": "[El puente::most] romano todavía se usa.",
+        "pl_translation": "Rzymski most jest wciąż używany."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "dach",
     "examples": [
       {
-        "es_form": "Necesito [el tejado::dach] nuevo.",
-        "pl_translation": "Potrzebuję nowego dachu."
+        "es_form": "[El tejado::dach] necesita una reparación.",
+        "pl_translation": "Dach wymaga naprawy."
       },
       {
-        "es_form": "[El tejado::dach] es de tejas rojas.",
-        "pl_translation": "Dach jest z czerwonych dachówek."
+        "es_form": "El gato camina por [el tejado::dach].",
+        "pl_translation": "Kot chodzi po dachu."
       },
       {
-        "es_form": "Este es [el tejado::dach].",
-        "pl_translation": "To jest dach."
+        "es_form": "La nieve cubre [el tejado::dach].",
+        "pl_translation": "Śnieg pokrywa dach."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "fundamenty",
     "examples": [
       {
-        "es_form": "[Los cimientos::fundamenty] son de hormigón.",
-        "pl_translation": "Fundamenty są z betonu."
+        "es_form": "[Los cimientos::fundamenty] de la casa son sólidos.",
+        "pl_translation": "Fundamenty domu są solidne."
       },
       {
-        "es_form": "Estos son [los cimientos::fundamenty].",
-        "pl_translation": "To są fundamenty."
+        "es_form": "Los obreros ponen [los cimientos::fundamenty].",
+        "pl_translation": "Robotnicy kładą fundamenty."
       },
       {
-        "es_form": "[Los cimientos::fundamenty] son la base del edificio.",
-        "pl_translation": "Fundamenty są podstawą budynku."
+        "es_form": "El agua dañó [los cimientos::fundamenty].",
+        "pl_translation": "Woda uszkodziła fundamenty."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "komin",
     "examples": [
       {
-        "es_form": "El humo sale por [la chimenea::komin].",
-        "pl_translation": "Dym wydobywa się z komina."
+        "es_form": "Sale humo por [la chimenea::komin].",
+        "pl_translation": "Z komina wychodzi dym."
       },
       {
-        "es_form": "¿Dónde está [la chimenea::komin]?",
-        "pl_translation": "Gdzie jest komin?"
+        "es_form": "Encendemos [la chimenea::komin] en invierno.",
+        "pl_translation": "Zimą rozpalamy w kominku."
       },
       {
-        "es_form": "Hay un nido en [la chimenea::komin].",
-        "pl_translation": "W kominie jest gniazdo."
+        "es_form": "[La chimenea::komin] de la fábrica es muy alta.",
+        "pl_translation": "Komin fabryki jest bardzo wysoki."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "ogrodzenie",
     "examples": [
       {
-        "es_form": "Esta es [la valla::ogrodzenie].",
-        "pl_translation": "To jest ogrodzenie."
+        "es_form": "El perro saltó [la valla::ogrodzenie].",
+        "pl_translation": "Pies przeskoczył ogrodzenie."
       },
       {
-        "es_form": "Hablamos sobre [la valla::ogrodzenie].",
-        "pl_translation": "Rozmawiamy o tym, czym jest ogrodzenie."
+        "es_form": "Pinté [la valla::ogrodzenie] de verde.",
+        "pl_translation": "Pomalowałem ogrodzenie na zielono."
       },
       {
-        "es_form": "No es [la valla::ogrodzenie].",
-        "pl_translation": "To nie jest ogrodzenie."
+        "es_form": "[La valla::ogrodzenie] rodea todo el jardín.",
+        "pl_translation": "Ogrodzenie otacza cały ogród."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "nowoczesny",
     "examples": [
       {
-        "es_form": "Es muy [moderno::nowoczesny].",
-        "pl_translation": "Jest bardzo nowoczesny."
+        "es_form": "Vivo en un edificio [moderno::nowoczesny].",
+        "pl_translation": "Mieszkam w nowoczesnym budynku."
       },
       {
-        "es_form": "No es [moderno::nowoczesny].",
-        "pl_translation": "Nie jest nowoczesny."
+        "es_form": "Me gusta el arte [moderno::nowoczesny].",
+        "pl_translation": "Lubię sztukę nowoczesną."
       },
       {
-        "es_form": "Es demasiado [moderno::nowoczesny].",
-        "pl_translation": "Jest zbyt nowoczesny."
+        "es_form": "El hospital es muy [moderno::nowoczesny].",
+        "pl_translation": "Szpital jest bardzo nowoczesny."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "zabytkowy",
     "examples": [
       {
-        "es_form": "Es muy [histórico::zabytkowy].",
-        "pl_translation": "Jest bardzo zabytkowy."
+        "es_form": "Paseamos por el centro [histórico::zabytkowy].",
+        "pl_translation": "Spacerujemy po zabytkowym centrum."
       },
       {
-        "es_form": "No es [histórico::zabytkowy].",
-        "pl_translation": "Nie jest zabytkowy."
+        "es_form": "El puente es [histórico::zabytkowy].",
+        "pl_translation": "Most jest zabytkowy."
       },
       {
-        "es_form": "Es demasiado [histórico::zabytkowy].",
-        "pl_translation": "Jest zbyt zabytkowy."
+        "es_form": "Dormimos en un edificio [histórico::zabytkowy].",
+        "pl_translation": "Nocujemy w zabytkowym budynku."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [diseñé::zaprojektowałem] ropa.",
-            "pl_translation": "Zaprojektowałem ubrania."
+            "es_form": "Ayer yo [diseñé::zaprojektowałem] ropa.",
+            "pl_translation": "Wczoraj zaprojektowałem ubrania."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [diseñaste::zaprojektowałeś] ropa.",
-            "pl_translation": "Zaprojektowałeś ubrania."
+            "es_form": "La semana pasada tú [diseñaste::zaprojektowałeś] ropa.",
+            "pl_translation": "W zeszłym tygodniu zaprojektowałeś ubrania."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [diseñó::zaprojektował] ropa.",
-            "pl_translation": "Zaprojektował ubrania."
+            "es_form": "El otro día él [diseñó::zaprojektował] ropa.",
+            "pl_translation": "Niedawno zaprojektował ubrania."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [diseñamos::zaprojektowaliśmy] ropa.",
-            "pl_translation": "Zaprojektowaliśmy ubrania."
+            "es_form": "La semana pasada nosotros [diseñamos::zaprojektowaliśmy] ropa.",
+            "pl_translation": "W zeszłym tygodniu zaprojektowaliśmy ubrania."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [diseñasteis::zaprojektowaliście] ropa.",
-            "pl_translation": "Zaprojektowaliście ubrania."
+            "es_form": "El otro día vosotros [diseñasteis::zaprojektowaliście] ropa.",
+            "pl_translation": "Niedawno zaprojektowaliście ubrania."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [diseñaron::zaprojektowali] ropa.",
-            "pl_translation": "Zaprojektowali ubrania."
+            "es_form": "Ayer ellos [diseñaron::zaprojektowali] ropa.",
+            "pl_translation": "Wczoraj zaprojektowali ubrania."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [diseñaré::będę projektować] ropa.",
-            "pl_translation": "Będę projektować ubrania."
+            "es_form": "Mañana yo [diseñaré::będę projektować] ropa.",
+            "pl_translation": "Jutro będę projektować ubrania."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [diseñarás::będziesz projektować] ropa.",
-            "pl_translation": "Będziesz projektować ubrania."
+            "es_form": "La próxima semana tú [diseñarás::będziesz projektować] ropa.",
+            "pl_translation": "W przyszłym tygodniu będziesz projektować ubrania."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [diseñará::będzie projektować] ropa.",
-            "pl_translation": "Będzie projektować ubrania."
+            "es_form": "Pronto él [diseñará::będzie projektować] ropa.",
+            "pl_translation": "Wkrótce będzie projektować ubrania."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [diseñaremos::będziemy projektować] ropa.",
-            "pl_translation": "Będziemy projektować ubrania."
+            "es_form": "La próxima semana nosotros [diseñaremos::będziemy projektować] ropa.",
+            "pl_translation": "W przyszłym tygodniu będziemy projektować ubrania."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [diseñaréis::będziecie projektować] ropa.",
-            "pl_translation": "Będziecie projektować ubrania."
+            "es_form": "Pronto vosotros [diseñaréis::będziecie projektować] ropa.",
+            "pl_translation": "Wkrótce będziecie projektować ubrania."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [diseñarán::będą projektować] ropa.",
-            "pl_translation": "Będą projektować ubrania."
+            "es_form": "Mañana ellos [diseñarán::będą projektować] ropa.",
+            "pl_translation": "Jutro będą projektować ubrania."
           }
         ]
       }

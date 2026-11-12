@@ -1,20 +1,20 @@
 [
   {
     "type": "noun",
-    "es_word": "El éxito",
-    "pl_word": "sukces",
+    "es_word": "El logro",
+    "pl_word": "osiągnięcie",
     "examples": [
       {
-        "es_form": "[El éxito::sukces] es muy importante.",
-        "pl_translation": "Sukces jest bardzo ważny."
+        "es_form": "Es [el logro::osiągnięcie] más grande de mi vida.",
+        "pl_translation": "To największe osiągnięcie mojego życia."
       },
       {
-        "es_form": "Este es [el éxito::sukces].",
-        "pl_translation": "To jest sukces."
+        "es_form": "Celebramos [el logro::osiągnięcie] del equipo.",
+        "pl_translation": "Świętujemy osiągnięcie zespołu."
       },
       {
-        "es_form": "Hablamos sobre [el éxito::sukces].",
-        "pl_translation": "Rozmawialiśmy o sukcesie."
+        "es_form": "Aprender un idioma es [un logro::osiągnięcie].",
+        "pl_translation": "Nauczenie się języka to osiągnięcie."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "porażka",
     "examples": [
       {
-        "es_form": "[El fracaso::porażka] se me hizo eterno.",
-        "pl_translation": "Porażka mi się dłużyła."
-      },
-      {
         "es_form": "[El fracaso::porażka] me enseñó mucho.",
         "pl_translation": "Porażka wiele mnie nauczyła."
       },
       {
-        "es_form": "¿Dónde está [el fracaso::porażka]?",
-        "pl_translation": "Gdzie jest porażka?"
+        "es_form": "Acepto [el fracaso::porażka] con calma.",
+        "pl_translation": "Przyjmuję porażkę ze spokojem."
+      },
+      {
+        "es_form": "El proyecto fue [un fracaso::porażka].",
+        "pl_translation": "Projekt okazał się porażką."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "wysiłek",
     "examples": [
       {
-        "es_form": "[El esfuerzo::wysiłek] cambió mi vida.",
-        "pl_translation": "Wysiłek zmienił moje życie."
+        "es_form": "[El esfuerzo::wysiłek] valió la pena.",
+        "pl_translation": "Wysiłek się opłacił."
       },
       {
-        "es_form": "Este es [el esfuerzo::wysiłek].",
-        "pl_translation": "To jest wysiłek."
+        "es_form": "Hice [un esfuerzo::wysiłek] enorme.",
+        "pl_translation": "Zrobiłem ogromny wysiłek."
       },
       {
-        "es_form": "No entiendo [el esfuerzo::wysiłek].",
-        "pl_translation": "Nie rozumiem wysiłku."
+        "es_form": "Sin [el esfuerzo::wysiłek] no hay resultados.",
+        "pl_translation": "Bez wysiłku nie ma wyników."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "determinacja",
     "examples": [
       {
-        "es_form": "Esta es [la determinación::determinacja].",
-        "pl_translation": "To jest determinacja."
+        "es_form": "Admiro [la determinación::determinacja] de mi hermana.",
+        "pl_translation": "Podziwiam determinację mojej siostry."
       },
       {
-        "es_form": "[La determinación::determinacja] es clave.",
-        "pl_translation": "Determinacja jest kluczowa."
+        "es_form": "Con [la determinación::determinacja] todo es posible.",
+        "pl_translation": "Z determinacją wszystko jest możliwe."
       },
       {
-        "es_form": "No es [la determinación::determinacja].",
-        "pl_translation": "To nie jest determinacja."
+        "es_form": "Le falta [la determinación::determinacja] para terminar.",
+        "pl_translation": "Brakuje mu determinacji, żeby skończyć."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "postęp",
     "examples": [
       {
-        "es_form": "Hablamos sobre [el progreso::postęp].",
-        "pl_translation": "Rozmawialiśmy o postępie."
+        "es_form": "Veo [el progreso::postęp] en tu español.",
+        "pl_translation": "Widzę postęp w twoim hiszpańskim."
       },
       {
-        "es_form": "[El progreso::postęp] cambió mi vida.",
-        "pl_translation": "Postęp zmienił moje życie."
+        "es_form": "[El progreso::postęp] es lento, pero seguro.",
+        "pl_translation": "Postęp jest powolny, ale pewny."
       },
       {
-        "es_form": "¿Dónde está [el progreso::postęp]?",
-        "pl_translation": "Gdzie jest postęp?"
+        "es_form": "Celebramos [el progreso::postęp] de cada alumno.",
+        "pl_translation": "Świętujemy postęp każdego ucznia."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "marzenie",
     "examples": [
       {
-        "es_form": "Este es [el sueño::marzenie].",
-        "pl_translation": "To jest marzenie."
+        "es_form": "Cumplí [el sueño::marzenie] de vivir en España.",
+        "pl_translation": "Spełniłem marzenie o życiu w Hiszpanii."
       },
       {
-        "es_form": "No entiendo [el sueño::marzenie].",
-        "pl_translation": "Nie rozumiem marzenia."
+        "es_form": "[El sueño::marzenie] de mi vida es viajar.",
+        "pl_translation": "Marzeniem mojego życia jest podróżować."
       },
       {
-        "es_form": "Hablamos sobre [el sueño::marzenie].",
-        "pl_translation": "Rozmawialiśmy o marzeniu."
+        "es_form": "No abandones [el sueño::marzenie].",
+        "pl_translation": "Nie porzucaj marzenia."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "sens",
     "examples": [
       {
-        "es_form": "Este es [el sentido::sens].",
-        "pl_translation": "To jest sens."
+        "es_form": "Busco [el sentido::sens] de la vida.",
+        "pl_translation": "Szukam sensu życia."
       },
       {
-        "es_form": "[El sentido::sens] es muy importante.",
-        "pl_translation": "Sens jest bardzo ważny."
+        "es_form": "No tiene [el sentido::sens] esperar más.",
+        "pl_translation": "Nie ma sensu dłużej czekać."
       },
       {
-        "es_form": "Hablamos sobre [el sentido::sens].",
-        "pl_translation": "Rozmawialiśmy o sensie."
+        "es_form": "Ahora entiendo [el sentido::sens] de sus palabras.",
+        "pl_translation": "Teraz rozumiem sens jego słów."
       }
     ]
   },
@@ -138,54 +138,54 @@
     "pl_word": "wartość",
     "examples": [
       {
-        "es_form": "[El valor::wartość] cambió mi vida.",
-        "pl_translation": "Wartość zmieniła moje życie."
+        "es_form": "[El valor::wartość] de la amistad es enorme.",
+        "pl_translation": "Wartość przyjaźni jest ogromna."
       },
       {
-        "es_form": "Hablamos sobre [el valor::wartość].",
-        "pl_translation": "Rozmawialiśmy o wartości."
+        "es_form": "Conozco [el valor::wartość] del trabajo duro.",
+        "pl_translation": "Znam wartość ciężkiej pracy."
       },
       {
-        "es_form": "[El valor::wartość] es muy importante.",
-        "pl_translation": "Wartość jest bardzo ważna."
+        "es_form": "La casa perdió [el valor::wartość].",
+        "pl_translation": "Dom stracił na wartości."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "La verdad",
-    "pl_word": "prawda",
+    "es_word": "La esperanza",
+    "pl_word": "nadzieja",
     "examples": [
       {
-        "es_form": "Esta es [la verdad::prawda].",
-        "pl_translation": "To jest prawda."
+        "es_form": "No pierdas [la esperanza::nadzieja].",
+        "pl_translation": "Nie trać nadziei."
       },
       {
-        "es_form": "[La verdad::prawda] es muy importante.",
-        "pl_translation": "Prawda jest bardzo ważna."
+        "es_form": "[La esperanza::nadzieja] es lo último que se pierde.",
+        "pl_translation": "Nadzieja umiera ostatnia."
       },
       {
-        "es_form": "No entiendo [la verdad::prawda].",
-        "pl_translation": "Nie rozumiem prawdy."
+        "es_form": "Tengo [la esperanza::nadzieja] de volver pronto.",
+        "pl_translation": "Mam nadzieję, że szybko wrócę."
       }
     ]
   },
   {
     "type": "noun",
-    "es_word": "La mentira",
-    "pl_word": "kłamstwo",
+    "es_word": "El destino",
+    "pl_word": "przeznaczenie, los",
     "examples": [
       {
-        "es_form": "[La mentira::kłamstwo] es muy importante.",
-        "pl_translation": "Kłamstwo jest bardzo ważne."
+        "es_form": "Creo en [el destino::przeznaczenie, los].",
+        "pl_translation": "Wierzę w przeznaczenie."
       },
       {
-        "es_form": "No entiendo [la mentira::kłamstwo].",
-        "pl_translation": "Nie rozumiem kłamstwa."
+        "es_form": "[El destino::przeznaczenie, los] nos unió otra vez.",
+        "pl_translation": "Los znowu nas połączył."
       },
       {
-        "es_form": "Esta es [la mentira::kłamstwo].",
-        "pl_translation": "To jest kłamstwo."
+        "es_form": "Nadie conoce [el destino::przeznaczenie, los].",
+        "pl_translation": "Nikt nie zna swojego losu."
       }
     ]
   },
@@ -195,35 +195,35 @@
     "pl_word": "prawdziwy",
     "examples": [
       {
-        "es_form": "Es muy [verdadero::prawdziwy].",
-        "pl_translation": "Jest bardzo prawdziwy."
+        "es_form": "Es un amigo [verdadero::prawdziwy].",
+        "pl_translation": "To prawdziwy przyjaciel."
       },
       {
-        "es_form": "No es [verdadero::prawdziwy].",
-        "pl_translation": "Nie jest prawdziwy."
+        "es_form": "Cuenta el motivo [verdadero::prawdziwy].",
+        "pl_translation": "Podaje prawdziwy powód."
       },
       {
-        "es_form": "Parece [verdadero::prawdziwy].",
-        "pl_translation": "Wydaje się prawdziwy."
+        "es_form": "El amor [verdadero::prawdziwy] existe.",
+        "pl_translation": "Prawdziwa miłość istnieje."
       }
     ]
   },
   {
     "type": "adjective",
-    "es_word": "falso",
-    "pl_word": "fałszywy",
+    "es_word": "posible",
+    "pl_word": "możliwy",
     "examples": [
       {
-        "es_form": "Es muy [falso::fałszywy].",
-        "pl_translation": "Jest bardzo fałszywy."
+        "es_form": "Todo es [posible::możliwy] con esfuerzo.",
+        "pl_translation": "Wszystko jest możliwe dzięki wysiłkowi."
       },
       {
-        "es_form": "No es [falso::fałszywy].",
-        "pl_translation": "Nie jest fałszywy."
+        "es_form": "No es [posible::możliwy] llegar a tiempo.",
+        "pl_translation": "Nie da się dojechać na czas."
       },
       {
-        "es_form": "Es demasiado [falso::fałszywy].",
-        "pl_translation": "Jest zbyt fałszywy."
+        "es_form": "Busco el mejor resultado [posible::możliwy].",
+        "pl_translation": "Szukam najlepszego możliwego wyniku."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [logré::osiągnąłem] mis metas.",
-            "pl_translation": "Osiągnąłem swoje cele."
+            "es_form": "Ayer yo [logré::osiągnąłem] mis metas.",
+            "pl_translation": "Wczoraj osiągnąłem swoje cele."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [lograste::osiągnąłeś] tus metas.",
-            "pl_translation": "Osiągnąłeś swoje cele."
+            "es_form": "La semana pasada tú [lograste::osiągnąłeś] tus metas.",
+            "pl_translation": "W zeszłym tygodniu osiągnąłeś swoje cele."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [logró::osiągnął] sus metas.",
-            "pl_translation": "Osiągnął swoje cele."
+            "es_form": "El otro día él [logró::osiągnął] sus metas.",
+            "pl_translation": "Niedawno osiągnął swoje cele."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [logramos::osiągnęliśmy] nuestras metas.",
-            "pl_translation": "Osiągnęliśmy swoje cele."
+            "es_form": "La semana pasada nosotros [logramos::osiągnęliśmy] nuestras metas.",
+            "pl_translation": "W zeszłym tygodniu osiągnęliśmy swoje cele."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [lograsteis::osiągnęliście] vuestras metas.",
-            "pl_translation": "Osiągnęliście swoje cele."
+            "es_form": "El otro día vosotros [lograsteis::osiągnęliście] vuestras metas.",
+            "pl_translation": "Niedawno osiągnęliście swoje cele."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [lograron::osiągnęli] sus metas.",
-            "pl_translation": "Osiągnęli swoje cele."
+            "es_form": "Ayer ellos [lograron::osiągnęli] sus metas.",
+            "pl_translation": "Wczoraj osiągnęli swoje cele."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [lograré::będę osiągać] mis metas.",
-            "pl_translation": "Będę osiągać swoje cele."
+            "es_form": "Mañana yo [lograré::będę osiągać] mis metas.",
+            "pl_translation": "Jutro będę osiągać swoje cele."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [lograrás::będziesz osiągać] tus metas.",
-            "pl_translation": "Będziesz osiągać swoje cele."
+            "es_form": "La próxima semana tú [lograrás::będziesz osiągać] tus metas.",
+            "pl_translation": "W przyszłym tygodniu będziesz osiągać swoje cele."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [logrará::będzie osiągać] sus metas.",
-            "pl_translation": "Będzie osiągać swoje cele."
+            "es_form": "Pronto él [logrará::będzie osiągać] sus metas.",
+            "pl_translation": "Wkrótce będzie osiągać swoje cele."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [lograremos::będziemy osiągać] nuestras metas.",
-            "pl_translation": "Będziemy osiągać swoje cele."
+            "es_form": "La próxima semana nosotros [lograremos::będziemy osiągać] nuestras metas.",
+            "pl_translation": "W przyszłym tygodniu będziemy osiągać swoje cele."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [lograréis::będziecie osiągać] vuestras metas.",
-            "pl_translation": "Będziecie osiągać swoje cele."
+            "es_form": "Pronto vosotros [lograréis::będziecie osiągać] vuestras metas.",
+            "pl_translation": "Wkrótce będziecie osiągać swoje cele."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [lograrán::będą osiągać] sus metas.",
-            "pl_translation": "Będą osiągać swoje cele."
+            "es_form": "Mañana ellos [lograrán::będą osiągać] sus metas.",
+            "pl_translation": "Jutro będą osiągać swoje cele."
           }
         ]
       }

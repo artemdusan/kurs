@@ -5,16 +5,16 @@
     "pl_word": "kierunek studiów",
     "examples": [
       {
-        "es_form": "[La carrera::kierunek studiów] es muy exigente.",
-        "pl_translation": "Kierunek studiów jest bardzo wymagający."
+        "es_form": "Estudio [la carrera::kierunek studiów] de medicina.",
+        "pl_translation": "Studiuję na kierunku lekarskim."
       },
       {
-        "es_form": "Esta es [la carrera::kierunek studiów].",
-        "pl_translation": "To jest kierunek studiów."
+        "es_form": "[La carrera::kierunek studiów] dura cuatro años.",
+        "pl_translation": "Kierunek studiów trwa cztery lata."
       },
       {
-        "es_form": "[La carrera::kierunek studiów] está aquí.",
-        "pl_translation": "Kierunek studiów jest tutaj."
+        "es_form": "Cambié de idea y dejé [la carrera::kierunek studiów].",
+        "pl_translation": "Zmieniłem zdanie i porzuciłem kierunek studiów."
       }
     ]
   },
@@ -24,35 +24,35 @@
     "pl_word": "wydział",
     "examples": [
       {
-        "es_form": "Estudio en [la facultad::wydział] de derecho.",
-        "pl_translation": "Studiuję na wydziale prawa."
+        "es_form": "[La facultad::wydział] de Derecho está en el centro.",
+        "pl_translation": "Wydział prawa jest w centrum."
       },
       {
-        "es_form": "[La facultad::wydział] está en el centro.",
-        "pl_translation": "Wydział jest w centrum."
+        "es_form": "Trabajo en [la facultad::wydział] de Medicina.",
+        "pl_translation": "Pracuję na wydziale medycyny."
       },
       {
-        "es_form": "[La facultad::wydział] ofrece muchas carreras.",
-        "pl_translation": "Wydział oferuje wiele kierunków."
+        "es_form": "[La facultad::wydział] organiza una conferencia.",
+        "pl_translation": "Wydział organizuje konferencję."
       }
     ]
   },
   {
     "type": "noun",
     "es_word": "El título",
-    "pl_word": "dyplom / tytuł",
+    "pl_word": "dyplom (ukończenia studiów)",
     "examples": [
       {
-        "es_form": "Este es [el título::dyplom / tytuł].",
-        "pl_translation": "To jest dyplom / tytuł."
+        "es_form": "Recibí [el título::dyplom (ukończenia studiów)] en junio.",
+        "pl_translation": "Otrzymałem dyplom w czerwcu."
       },
       {
-        "es_form": "Recibí [el título::dyplom ] la semana pasada.",
-        "pl_translation": "Odebrałem dyplom w zeszłym tygodniu."
+        "es_form": "[El título::dyplom (ukończenia studiów)] está colgado en la pared.",
+        "pl_translation": "Dyplom wisi na ścianie."
       },
       {
-        "es_form": "Compré el marco para [el título::dyplom ] ayer.",
-        "pl_translation": "Kupiłem ramkę na dyplom wczoraj."
+        "es_form": "Necesito [el título::dyplom (ukończenia studiów)] para el trabajo.",
+        "pl_translation": "Potrzebuję dyplomu do pracy."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "studia magisterskie",
     "examples": [
       {
-        "es_form": "Este es [el máster::studia magisterskie].",
-        "pl_translation": "To są studia magisterskie."
-      },
-      {
-        "es_form": "Terminé [el máster::studia magisterskie] ayer.",
-        "pl_translation": "Wczoraj ukończyłem studia magisterskie."
+        "es_form": "Hago [el máster::studia magisterskie] en Barcelona.",
+        "pl_translation": "Robię studia magisterskie w Barcelonie."
       },
       {
         "es_form": "[El máster::studia magisterskie] dura dos años.",
         "pl_translation": "Studia magisterskie trwają dwa lata."
+      },
+      {
+        "es_form": "Terminé [el máster::studia magisterskie] el año pasado.",
+        "pl_translation": "Skończyłem studia magisterskie w zeszłym roku."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "doktorat",
     "examples": [
       {
-        "es_form": "¿Dónde está [el doctorado::doktorat]?",
-        "pl_translation": "Gdzie jest doktorat?"
+        "es_form": "Empecé [el doctorado::doktorat] en física.",
+        "pl_translation": "Zacząłem doktorat z fizyki."
       },
       {
-        "es_form": "[El doctorado::doktorat] es un gran logro.",
-        "pl_translation": "Doktorat to wielkie osiągnięcie."
+        "es_form": "[El doctorado::doktorat] me llevó cinco años.",
+        "pl_translation": "Doktorat zajął mi pięć lat."
       },
       {
-        "es_form": "[El doctorado::doktorat] dura cuatro años.",
-        "pl_translation": "Doktorat trwa cztery lata."
+        "es_form": "Hace [el doctorado::doktorat] en Alemania.",
+        "pl_translation": "Robi doktorat w Niemczech."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "praca dyplomowa",
     "examples": [
       {
-        "es_form": "Estoy escribiendo [la tesis::praca dyplomowa].",
-        "pl_translation": "Piszę pracę dyplomową."
+        "es_form": "Escribo [la tesis::praca dyplomowa] sobre el clima.",
+        "pl_translation": "Piszę pracę dyplomową o klimacie."
       },
       {
-        "es_form": "Defendí [la tesis::praca dyplomowa] ayer.",
-        "pl_translation": "Obroniłem pracę dyplomową wczoraj."
+        "es_form": "Defendí [la tesis::praca dyplomowa] en julio.",
+        "pl_translation": "Obroniłem pracę dyplomową w lipcu."
       },
       {
-        "es_form": "[La tesis::praca dyplomowa] es muy extensa.",
-        "pl_translation": "Praca dyplomowa jest bardzo obszerna."
+        "es_form": "[La tesis::praca dyplomowa] tiene cien páginas.",
+        "pl_translation": "Praca dyplomowa ma sto stron."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "dokumentacja studiów",
     "examples": [
       {
-        "es_form": "Este es [el expediente::indeks / świadectwo].",
-        "pl_translation": "To jest indeks / świadectwo."
+        "es_form": "Pedí [el expediente::dokumentacja studiów] en la secretaría.",
+        "pl_translation": "Poprosiłem w sekretariacie o dokumentację studiów."
       },
       {
-        "es_form": "No es [el expediente::indeks / świadectwo].",
-        "pl_translation": "To nie jest indeks / świadectwo."
+        "es_form": "[El expediente::dokumentacja studiów] muestra todas mis notas.",
+        "pl_translation": "Dokumentacja studiów pokazuje wszystkie moje oceny."
       },
       {
-        "es_form": "¿Has visto [el expediente::indeks ]?",
-        "pl_translation": "Widziałeś mój indeks?"
+        "es_form": "Envié [el expediente::dokumentacja studiów] a la otra universidad.",
+        "pl_translation": "Wysłałem dokumentację studiów na drugi uniwersytet."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "egzaminy końcowe",
     "examples": [
       {
-        "es_form": "[Los exámenes finales::egzaminy końcowe] empiezan mañana.",
-        "pl_translation": "Egzaminy końcowe zaczynają się jutro."
+        "es_form": "[Los exámenes finales::egzaminy końcowe] empiezan en junio.",
+        "pl_translation": "Egzaminy końcowe zaczynają się w czerwcu."
       },
       {
-        "es_form": "¿Has aprobado [los exámenes finales::egzaminy końcowe]?",
-        "pl_translation": "Czy zdałeś sesję egzaminacyjną?"
-      },
-      {
-        "es_form": "Estoy estudiando para [los exámenes finales::egzaminy końcowe].",
+        "es_form": "Estudio para [los exámenes finales::egzaminy końcowe].",
         "pl_translation": "Uczę się do egzaminów końcowych."
+      },
+      {
+        "es_form": "Aprobé [los exámenes finales::egzaminy końcowe] con buena nota.",
+        "pl_translation": "Zdałem egzaminy końcowe z dobrą oceną."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "poprawka (egzamin)",
     "examples": [
       {
-        "es_form": "Tengo [la recuperación::poprawka (egzamin)] el lunes.",
-        "pl_translation": "Mam poprawkę w poniedziałek."
+        "es_form": "Tengo [la recuperación::poprawka (egzamin)] en septiembre.",
+        "pl_translation": "Mam poprawkę we wrześniu."
       },
       {
-        "es_form": "Esta es [la recuperación::poprawka].",
-        "pl_translation": "To jest poprawka."
+        "es_form": "Aprobé en [la recuperación::poprawka (egzamin)].",
+        "pl_translation": "Zdałem na poprawce."
       },
       {
-        "es_form": "Estudio mucho para [la recuperación::poprawka (egzamin)].",
-        "pl_translation": "Dużo się uczę do poprawki."
+        "es_form": "[La recuperación::poprawka (egzamin)] es mi última oportunidad.",
+        "pl_translation": "Poprawka to moja ostatnia szansa."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "wymiana studencka",
     "examples": [
       {
-        "es_form": "Participé en [el intercambio::wymiana studencka] el año pasado.",
-        "pl_translation": "Wziąłem udział w wymianie studenckiej w zeszłym roku."
+        "es_form": "Hice [el intercambio::wymiana studencka] en Italia.",
+        "pl_translation": "Byłem na wymianie studenckiej we Włoszech."
       },
       {
-        "es_form": "[El intercambio::wymiana studencka] fue una experiencia increíble.",
-        "pl_translation": "Wymiana studencka była niesamowitym doświadczeniem."
+        "es_form": "[El intercambio::wymiana studencka] dura un semestre.",
+        "pl_translation": "Wymiana studencka trwa semestr."
       },
       {
-        "es_form": "Quiero solicitar [el intercambio::wymiana studencka].",
-        "pl_translation": "Chcę ubiegać się o wymianę studencką."
+        "es_form": "Conocí a mi novia durante [el intercambio::wymiana studencka].",
+        "pl_translation": "Poznałem moją dziewczynę podczas wymiany studenckiej."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "akademicki",
     "examples": [
       {
-        "es_form": "Es muy [académico::akademicki].",
-        "pl_translation": "Jest bardzo akademicki."
+        "es_form": "El año [académico::akademicki] empieza en octubre.",
+        "pl_translation": "Rok akademicki zaczyna się w październiku."
       },
       {
-        "es_form": "Parece [académico::akademicki].",
-        "pl_translation": "Wydaje się akademicki."
+        "es_form": "Escribo un texto [académico::akademicki].",
+        "pl_translation": "Piszę tekst akademicki."
       },
       {
-        "es_form": "Es demasiado [académico::akademicki].",
-        "pl_translation": "Jest zbyt akademicki."
+        "es_form": "Tiene un título [académico::akademicki].",
+        "pl_translation": "Ma tytuł akademicki."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "wykształcony",
     "examples": [
       {
-        "es_form": "Es muy [culto::wykształcony].",
-        "pl_translation": "Jest bardzo wykształcony."
+        "es_form": "Es un hombre muy [culto::wykształcony].",
+        "pl_translation": "To bardzo wykształcony człowiek."
       },
       {
-        "es_form": "No es [culto::wykształcony].",
-        "pl_translation": "Nie jest wykształcony."
+        "es_form": "Mi abuelo era [culto::wykształcony] y curioso.",
+        "pl_translation": "Mój dziadek był wykształcony i ciekawy świata."
       },
       {
-        "es_form": "Es demasiado [culto::wykształcony].",
-        "pl_translation": "Jest zbyt wykształcony."
+        "es_form": "Busca un público [culto::wykształcony].",
+        "pl_translation": "Szuka wykształconej publiczności."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [estudié::studiowałem] medicina.",
-            "pl_translation": "Studiowałem medycynę."
+            "es_form": "Ayer yo [estudié::studiowałem] medicina.",
+            "pl_translation": "Wczoraj studiowałem medycynę."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [estudiaste::studiowałeś] medicina.",
-            "pl_translation": "Studiowałeś medycynę."
+            "es_form": "La semana pasada tú [estudiaste::studiowałeś] medicina.",
+            "pl_translation": "W zeszłym tygodniu studiowałeś medycynę."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [estudió::studiował] medicina.",
-            "pl_translation": "Studiował medycynę."
+            "es_form": "El otro día él [estudió::studiował] medicina.",
+            "pl_translation": "Niedawno studiował medycynę."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [estudiamos::studiowaliśmy] medicina.",
-            "pl_translation": "Studiowaliśmy medycynę."
+            "es_form": "La semana pasada nosotros [estudiamos::studiowaliśmy] medicina.",
+            "pl_translation": "W zeszłym tygodniu studiowaliśmy medycynę."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [estudiasteis::studiowaliście] medicina.",
-            "pl_translation": "Studiowaliście medycynę."
+            "es_form": "El otro día vosotros [estudiasteis::studiowaliście] medicina.",
+            "pl_translation": "Niedawno studiowaliście medycynę."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [estudiaron::studiowali] medicina.",
-            "pl_translation": "Studiowali medycynę."
+            "es_form": "Ayer ellos [estudiaron::studiowali] medicina.",
+            "pl_translation": "Wczoraj studiowali medycynę."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [estudiaré::będę studiować] medicina.",
-            "pl_translation": "Będę studiować medycynę."
+            "es_form": "Mañana yo [estudiaré::będę studiować] medicina.",
+            "pl_translation": "Jutro będę studiować medycynę."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [estudiarás::będziesz studiować] medicina.",
-            "pl_translation": "Będziesz studiować medycynę."
+            "es_form": "La próxima semana tú [estudiarás::będziesz studiować] medicina.",
+            "pl_translation": "W przyszłym tygodniu będziesz studiować medycynę."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [estudiará::będzie studiować] medicina.",
-            "pl_translation": "Będzie studiować medycynę."
+            "es_form": "Pronto él [estudiará::będzie studiować] medicina.",
+            "pl_translation": "Wkrótce będzie studiować medycynę."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [estudiaremos::będziemy studiować] medicina.",
-            "pl_translation": "Będziemy studiować medycynę."
+            "es_form": "La próxima semana nosotros [estudiaremos::będziemy studiować] medicina.",
+            "pl_translation": "W przyszłym tygodniu będziemy studiować medycynę."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [estudiaréis::będziecie studiować] medicina.",
-            "pl_translation": "Będziecie studiować medycynę."
+            "es_form": "Pronto vosotros [estudiaréis::będziecie studiować] medicina.",
+            "pl_translation": "Wkrótce będziecie studiować medycynę."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [estudiarán::będą studiować] medicina.",
-            "pl_translation": "Będą studiować medycynę."
+            "es_form": "Mañana ellos [estudiarán::będą studiować] medicina.",
+            "pl_translation": "Jutro będą studiować medycynę."
           }
         ]
       }

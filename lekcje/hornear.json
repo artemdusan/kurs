@@ -5,16 +5,16 @@
     "pl_word": "przepis",
     "examples": [
       {
-        "es_form": "[La receta::przepis] es típica de España.",
-        "pl_translation": "Przepis jest typowy dla Hiszpanii."
+        "es_form": "Sigo [la receta::przepis] de mi abuela.",
+        "pl_translation": "Trzymam się przepisu mojej babci."
       },
       {
-        "es_form": "Esta es [la receta::przepis].",
-        "pl_translation": "To jest przepis."
+        "es_form": "[La receta::przepis] lleva tres huevos.",
+        "pl_translation": "Przepis wymaga trzech jajek."
       },
       {
-        "es_form": "¿Dónde está [la receta::przepis]?",
-        "pl_translation": "Gdzie jest przepis?"
+        "es_form": "Encontré [la receta::przepis] en internet.",
+        "pl_translation": "Znalazłem przepis w internecie."
       }
     ]
   },
@@ -24,16 +24,16 @@
     "pl_word": "składnik",
     "examples": [
       {
-        "es_form": "Este es [el ingrediente::składnik].",
-        "pl_translation": "To jest składnik."
+        "es_form": "Falta [un ingrediente::składnik] para la tarta.",
+        "pl_translation": "Brakuje jednego składnika do tortu."
       },
       {
-        "es_form": "[El ingrediente::składnik] está aquí.",
-        "pl_translation": "Składnik jest tutaj."
+        "es_form": "[El ingrediente::składnik] secreto es la miel.",
+        "pl_translation": "Sekretnym składnikiem jest miód."
       },
       {
-        "es_form": "No es [el ingrediente::składnik].",
-        "pl_translation": "To nie jest składnik."
+        "es_form": "Añado [el ingrediente::składnik] principal al final.",
+        "pl_translation": "Dodaję główny składnik na końcu."
       }
     ]
   },
@@ -43,16 +43,16 @@
     "pl_word": "smak",
     "examples": [
       {
-        "es_form": "[El sabor::smak] es delicioso.",
-        "pl_translation": "Smak jest wyśmienity."
+        "es_form": "Me encanta [el sabor::smak] de este queso.",
+        "pl_translation": "Uwielbiam smak tego sera."
       },
       {
-        "es_form": "[El sabor::smak] es muy intenso.",
-        "pl_translation": "Smak jest bardzo intensywny."
+        "es_form": "[El sabor::smak] es un poco amargo.",
+        "pl_translation": "Smak jest trochę gorzki."
       },
       {
-        "es_form": "[El sabor::smak] a chocolate me encanta.",
-        "pl_translation": "Smak czekoladowy uwielbiam."
+        "es_form": "La sal mejora [el sabor::smak].",
+        "pl_translation": "Sól poprawia smak."
       }
     ]
   },
@@ -62,16 +62,16 @@
     "pl_word": "zapach",
     "examples": [
       {
-        "es_form": "[El olor::zapach] es muy agradable.",
-        "pl_translation": "Zapach jest bardzo przyjemny."
+        "es_form": "Me gusta [el olor::zapach] del pan recién hecho.",
+        "pl_translation": "Lubię zapach świeżo upieczonego chleba."
       },
       {
-        "es_form": "Este es [el olor::zapach].",
-        "pl_translation": "To jest zapach."
+        "es_form": "[El olor::zapach] viene de la cocina.",
+        "pl_translation": "Zapach dochodzi z kuchni."
       },
       {
-        "es_form": "[El olor::zapach] llena la cocina.",
-        "pl_translation": "Zapach wypełnia kuchnię."
+        "es_form": "No soporto [el olor::zapach] del pescado.",
+        "pl_translation": "Nie znoszę zapachu ryby."
       }
     ]
   },
@@ -81,16 +81,16 @@
     "pl_word": "przyprawa",
     "examples": [
       {
-        "es_form": "[La especia::przyprawa] se usa en la cocina.",
-        "pl_translation": "Przyprawy używa się w kuchni."
+        "es_form": "Añado [la especia::przyprawa] a la sopa.",
+        "pl_translation": "Dodaję przyprawę do zupy."
       },
       {
-        "es_form": "Compramos [la especia::przyprawę] en el mercado.",
-        "pl_translation": "Kupiliśmy przyprawę na targu."
+        "es_form": "[La especia::przyprawa] más cara es el azafrán.",
+        "pl_translation": "Najdroższą przyprawą jest szafran."
       },
       {
-        "es_form": "[La especia::przyprawa] está muy rica.",
-        "pl_translation": "Przyprawa jest bardzo smaczna."
+        "es_form": "No conozco [la especia::przyprawa] de este plato.",
+        "pl_translation": "Nie znam przyprawy w tym daniu."
       }
     ]
   },
@@ -100,16 +100,16 @@
     "pl_word": "pieprz",
     "examples": [
       {
-        "es_form": "Esta es [la pimienta::pieprz].",
-        "pl_translation": "To jest pieprz."
+        "es_form": "Añade sal y [la pimienta::pieprz].",
+        "pl_translation": "Dodaj sól i pieprz."
       },
       {
-        "es_form": "[La pimienta::pieprz] está aquí.",
-        "pl_translation": "Pieprz jest tutaj."
+        "es_form": "[La pimienta::pieprz] negra pica un poco.",
+        "pl_translation": "Czarny pieprz jest trochę ostry."
       },
       {
-        "es_form": "[La pimienta::pieprz] está muy rica.",
-        "pl_translation": "Pieprz jest bardzo dobry."
+        "es_form": "No pongo [la pimienta::pieprz] en la comida del niño.",
+        "pl_translation": "Nie dodaję pieprzu do jedzenia dziecka."
       }
     ]
   },
@@ -119,16 +119,16 @@
     "pl_word": "bulion, rosół",
     "examples": [
       {
-        "es_form": "[El caldo::rosół] es típico de Polonia.",
-        "pl_translation": "Rosół jest typowy dla Polski."
+        "es_form": "Preparo [el caldo::bulion, rosół] de pollo.",
+        "pl_translation": "Przygotowuję rosół z kurczaka."
       },
       {
-        "es_form": "Este es [el caldo::bulion].",
-        "pl_translation": "To jest bulion."
+        "es_form": "[El caldo::bulion, rosół] caliente ayuda con el resfriado.",
+        "pl_translation": "Gorący bulion pomaga na przeziębienie."
       },
       {
-        "es_form": "¿Dónde está [el caldo::bulion]?",
-        "pl_translation": "Gdzie jest bulion?"
+        "es_form": "Echo fideos en [el caldo::bulion, rosół].",
+        "pl_translation": "Wrzucam makaron do rosołu."
       }
     ]
   },
@@ -138,16 +138,16 @@
     "pl_word": "sałatka",
     "examples": [
       {
-        "es_form": "Me gusta mucho [la ensalada::sałatka].",
-        "pl_translation": "Bardzo lubię sałatkę."
+        "es_form": "Preparo [la ensalada::sałatka] de tomate.",
+        "pl_translation": "Przygotowuję sałatkę z pomidorów."
       },
       {
-        "es_form": "Esta es [la ensalada::sałatka].",
-        "pl_translation": "To jest sałatka."
+        "es_form": "[La ensalada::sałatka] lleva aceite y sal.",
+        "pl_translation": "Sałatka zawiera oliwę i sól."
       },
       {
-        "es_form": "Compramos [la ensalada::sałatkę] en el mercado.",
-        "pl_translation": "Kupiliśmy sałatkę na targu."
+        "es_form": "Como [la ensalada::sałatka] con la carne.",
+        "pl_translation": "Jem sałatkę do mięsa."
       }
     ]
   },
@@ -157,16 +157,16 @@
     "pl_word": "kanapka",
     "examples": [
       {
-        "es_form": "Me gusta mucho [el bocadillo::kanapka].",
-        "pl_translation": "Bardzo lubię kanapkę."
+        "es_form": "Como [el bocadillo::kanapka] de jamón.",
+        "pl_translation": "Jem kanapkę z szynką."
       },
       {
-        "es_form": "[El bocadillo::kanapka] se hace con pan.",
-        "pl_translation": "Kanapkę robi się z chleba."
+        "es_form": "Preparo [el bocadillo::kanapka] para la excursión.",
+        "pl_translation": "Przygotowuję kanapkę na wycieczkę."
       },
       {
-        "es_form": "Compramos [el bocadillo::kanapkę] en el mercado.",
-        "pl_translation": "Kupiliśmy kanapkę na targu."
+        "es_form": "[El bocadillo::kanapka] de queso es para ti.",
+        "pl_translation": "Kanapka z serem jest dla ciebie."
       }
     ]
   },
@@ -176,16 +176,16 @@
     "pl_word": "omlet, tortilla",
     "examples": [
       {
-        "es_form": "Esta es [la tortilla::omlet].",
-        "pl_translation": "To jest omlet."
+        "es_form": "Preparo [la tortilla::omlet, tortilla] de patatas.",
+        "pl_translation": "Przygotowuję tortillę z ziemniaków."
       },
       {
-        "es_form": "No es [la tortilla::omlet].",
-        "pl_translation": "To nie jest omlet."
+        "es_form": "[La tortilla::omlet, tortilla] española lleva huevos.",
+        "pl_translation": "Hiszpańska tortilla zawiera jajka."
       },
       {
-        "es_form": "Necesito [la tortilla::omlet] nueva.",
-        "pl_translation": "Potrzebuję nowego omletu."
+        "es_form": "Cenamos [la tortilla::omlet, tortilla] con ensalada.",
+        "pl_translation": "Jemy na kolację omlet z sałatką."
       }
     ]
   },
@@ -195,16 +195,16 @@
     "pl_word": "kwaśny",
     "examples": [
       {
-        "es_form": "Es muy [ácido::kwaśny].",
-        "pl_translation": "Jest bardzo kwaśny."
+        "es_form": "El limón es muy [ácido::kwaśny].",
+        "pl_translation": "Cytryna jest bardzo kwaśna."
       },
       {
-        "es_form": "No es [ácido::kwaśny].",
-        "pl_translation": "Nie jest kwaśny."
+        "es_form": "El yogur tiene un sabor [ácido::kwaśny].",
+        "pl_translation": "Jogurt ma kwaśny smak."
       },
       {
-        "es_form": "Parece [ácido::kwaśny].",
-        "pl_translation": "Wydaje się kwaśny."
+        "es_form": "Este vino está [ácido::kwaśny].",
+        "pl_translation": "To wino jest kwaśne."
       }
     ]
   },
@@ -214,16 +214,16 @@
     "pl_word": "gorzki",
     "examples": [
       {
-        "es_form": "Es muy [amargo::gorzki].",
-        "pl_translation": "Jest bardzo gorzki."
+        "es_form": "El café sin azúcar es [amargo::gorzki].",
+        "pl_translation": "Kawa bez cukru jest gorzka."
       },
       {
-        "es_form": "Parece [amargo::gorzki].",
-        "pl_translation": "Wydaje się gorzki."
+        "es_form": "Prefiero el chocolate [amargo::gorzki].",
+        "pl_translation": "Wolę gorzką czekoladę."
       },
       {
-        "es_form": "Es demasiado [amargo::gorzki].",
-        "pl_translation": "Jest zbyt gorzki."
+        "es_form": "El jarabe tiene un sabor [amargo::gorzki].",
+        "pl_translation": "Syrop ma gorzki smak."
       }
     ]
   },
@@ -342,8 +342,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [horneé::upiekłem] pan.",
-            "pl_translation": "Upiekłem chleb."
+            "es_form": "Ayer yo [horneé::upiekłem] pan.",
+            "pl_translation": "Wczoraj upiekłem chleb."
           }
         ]
       },
@@ -357,8 +357,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [horneaste::upiekłeś] pan.",
-            "pl_translation": "Upiekłeś chleb."
+            "es_form": "La semana pasada tú [horneaste::upiekłeś] pan.",
+            "pl_translation": "W zeszłym tygodniu upiekłeś chleb."
           }
         ]
       },
@@ -372,8 +372,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [horneó::upiekł] pan.",
-            "pl_translation": "Upiekł chleb."
+            "es_form": "El otro día él [horneó::upiekł] pan.",
+            "pl_translation": "Niedawno upiekł chleb."
           }
         ]
       },
@@ -387,8 +387,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [horneamos::upiekliśmy] pan.",
-            "pl_translation": "Upiekliśmy chleb."
+            "es_form": "La semana pasada nosotros [horneamos::upiekliśmy] pan.",
+            "pl_translation": "W zeszłym tygodniu upiekliśmy chleb."
           }
         ]
       },
@@ -402,8 +402,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [horneasteis::upiekliście] pan.",
-            "pl_translation": "Upiekliście chleb."
+            "es_form": "El otro día vosotros [horneasteis::upiekliście] pan.",
+            "pl_translation": "Niedawno upiekliście chleb."
           }
         ]
       },
@@ -417,8 +417,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [hornearon::upiekli] pan.",
-            "pl_translation": "Upiekli chleb."
+            "es_form": "Ayer ellos [hornearon::upiekli] pan.",
+            "pl_translation": "Wczoraj upiekli chleb."
           }
         ]
       },
@@ -432,8 +432,8 @@
         },
         "examples": [
           {
-            "es_form": "Yo [hornearé::będę piec] pan.",
-            "pl_translation": "Będę piec chleb."
+            "es_form": "Mañana yo [hornearé::będę piec] pan.",
+            "pl_translation": "Jutro będę piec chleb."
           }
         ]
       },
@@ -447,8 +447,8 @@
         },
         "examples": [
           {
-            "es_form": "Tú [hornearás::będziesz piec] pan.",
-            "pl_translation": "Będziesz piec chleb."
+            "es_form": "La próxima semana tú [hornearás::będziesz piec] pan.",
+            "pl_translation": "W przyszłym tygodniu będziesz piec chleb."
           }
         ]
       },
@@ -462,8 +462,8 @@
         },
         "examples": [
           {
-            "es_form": "Él [horneará::będzie piec] pan.",
-            "pl_translation": "Będzie piec chleb."
+            "es_form": "Pronto él [horneará::będzie piec] pan.",
+            "pl_translation": "Wkrótce będzie piec chleb."
           }
         ]
       },
@@ -477,8 +477,8 @@
         },
         "examples": [
           {
-            "es_form": "Nosotros [hornearemos::będziemy piec] pan.",
-            "pl_translation": "Będziemy piec chleb."
+            "es_form": "La próxima semana nosotros [hornearemos::będziemy piec] pan.",
+            "pl_translation": "W przyszłym tygodniu będziemy piec chleb."
           }
         ]
       },
@@ -492,8 +492,8 @@
         },
         "examples": [
           {
-            "es_form": "Vosotros [hornearéis::będziecie piec] pan.",
-            "pl_translation": "Będziecie piec chleb."
+            "es_form": "Pronto vosotros [hornearéis::będziecie piec] pan.",
+            "pl_translation": "Wkrótce będziecie piec chleb."
           }
         ]
       },
@@ -507,8 +507,8 @@
         },
         "examples": [
           {
-            "es_form": "Ellos [hornearán::będą piec] pan.",
-            "pl_translation": "Będą piec chleb."
+            "es_form": "Mañana ellos [hornearán::będą piec] pan.",
+            "pl_translation": "Jutro będą piec chleb."
           }
         ]
       }
