@@ -3,6 +3,8 @@ import assert from 'node:assert/strict';
 import { BOSS_TYPES, bossFor, applyHit, applyMiss, BOSS_HEARTS } from '../src/engine/boss.js';
 import { SPRITES } from '../src/engine/sprites.js';
 import { MAP_CELLS } from '../src/engine/map.js';
+import 'fake-indexeddb/auto';
+import { rankFor, levelRewards, HEART_STOCK_MAX, LEVEL_BONUS_XP } from '../src/engine/insights.js';
 
 const start = (boss) => ({ hp: boss.hp, hearts: BOSS_HEARTS, shield: Boolean(boss.shield) });
 
@@ -43,4 +45,20 @@ test('a miss costs a heart; the vampire heals up to its maximum', () => {
 
 test('the course map has one cell per lesson', () => {
   assert.equal(MAP_CELLS.length, 100);
+});
+
+test('ranks change every 5 levels and continue with stars after the last one', () => {
+  assert.equal(rankFor(1).label, 'Turista');
+  assert.equal(rankFor(5).label, 'Viajero');
+  assert.equal(rankFor(21).label, 'Hablante');
+  assert.equal(rankFor(21).toNext, 4);
+  assert.equal(rankFor(25).label, 'Nativo');
+  assert.equal(rankFor(30).label, 'Nativo ★');
+  assert.equal(rankFor(41).label, 'Nativo ★★★');
+});
+
+test('every level pays out: hearts up to the cap, bonus XP beyond it', () => {
+  assert.deepEqual(levelRewards(4, 5, 0), { hearts: 1, bonusXp: 0 });
+  assert.deepEqual(levelRewards(4, 7, 1), { hearts: 1, bonusXp: 2 * LEVEL_BONUS_XP });
+  assert.deepEqual(levelRewards(9, 10, HEART_STOCK_MAX), { hearts: 0, bonusXp: LEVEL_BONUS_XP });
 });

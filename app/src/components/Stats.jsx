@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { getMeta, getSettings } from '../db.js';
 import { dayStatus, bestStreak } from '../engine/session.js';
-import { loadDeck, deckGoals, cardBuckets, hardWords, playerXp, playerLevel, challengeBonus } from '../engine/insights.js';
+import { loadDeck, deckGoals, cardBuckets, hardWords, playerXp, playerLevel, challengeBonus, rankFor, heartStock, HEART_STOCK_MAX } from '../engine/insights.js';
 import LevelBars from './LevelBars.jsx';
 import { getDailyStats } from '../activity.js';
 import { localDay, shiftDay, currentStreak } from '../../../shared/learning.js';
@@ -94,6 +94,7 @@ export default function Stats({ maxLesson, lessonCount = 100, onBack, onHard }) 
         pairsBest: await getMeta('pairsBest', 0),
         player: playerLevel(playerXp(daily, await challengeBonus())),
         empty: Object.keys(daily).length === 0,
+        hearts: await heartStock(),
         weekAccuracy: weekCorrect + weekWrong ? Math.round((weekCorrect / (weekCorrect + weekWrong)) * 100) : null,
         time: {
           todayMin: Math.floor((today.seconds || 0) / 60),
@@ -181,6 +182,11 @@ export default function Stats({ maxLesson, lessonCount = 100, onBack, onHard }) 
         <div className="xp-track"><div className="xp-fill" style={{ width: Math.min(100, (data.player.into / data.player.need) * 100) + '%' }} /></div>
         <span className="xp-num">{data.player.into}/{data.player.need} XP</span>
       </div>
+      <p className="rank-line">
+        <b>{rankFor(data.player.level).label}</b>
+        <span>do kolejnej rangi: {rankFor(data.player.level).toNext} poz.</span>
+        <span className="rank-hearts" title="Każdy nowy poziom daje dodatkowe serce na walkę z bossem"><Icon name="heart" size={12} /> {data.hearts}/{HEART_STOCK_MAX}</span>
+      </p>
       {data.empty && <p className="stats-empty">Tu pojawi się Twoja historia. Wystarczy pierwsza sesja.</p>}
 
       <div className="stat-duo">

@@ -136,13 +136,77 @@ export function playerLevel(xp) {
   return { level, into: xp - base, need: 200 * level, xp };
 }
 
+// --- rangi i nagrody za poziom gracza --------------------------------------
+// Ranga zmienia się co RANK_STEP poziomów; po ostatniej dochodzą gwiazdki, bez końca.
+export const RANK_STEP = 5;
+export const RANKS = ['Turista', 'Viajero', 'Estudiante', 'Vecino', 'Hablante', 'Nativo'];
+
+export function rankFor(level) {
+  const tier = Math.floor(Math.max(1, level) / RANK_STEP);
+  const stars = Math.max(0, tier - (RANKS.length - 1));
+  const name = RANKS[Math.min(tier, RANKS.length - 1)];
+  const next = (tier + 1) * RANK_STEP;
+  return { tier, name, stars, label: name + (stars ? ' ' + '★'.repeat(Math.min(stars, 5)) + (stars > 5 ? `×${stars}` : '') : ''), nextAt: next, toNext: next - level };
+}
+
+// Każdy nowy poziom daje dodatkowe serce na walkę z bossem (zapas najwyżej
+// HEART_STOCK_MAX, jedno zużywa się na walkę). Gdy zapas jest pełny, poziom daje
+// zamiast tego LEVEL_BONUS_XP. Zapas i bonus są zapisane lokalnie, jak bonus za wyzwania.
+export const HEART_STOCK_MAX = 2;
+export const LEVEL_BONUS_XP = 100;
+
+/** Co dają poziomy from+1..to przy zapasie `stock`: { hearts, bonusXp } (czysta funkcja). */
+export function levelRewards(from, to, stock) {
+  const gained = Math.max(0, to - from);
+  const hearts = Math.min(gained, Math.max(0, HEART_STOCK_MAX - stock));
+  return { hearts, bonusXp: (gained - hearts) * LEVEL_BONUS_XP };
+}
+
+export async function heartStock() {
+  return Math.max(0, Math.min(HEART_STOCK_MAX, await getMeta('bossHearts', 0)));
+}
+
+/** Zużywa jedno dodatkowe serce na walkę; zwraca liczbę dodanych serc (0 albo 1). */
+export async function takeBossHeart() {
+  const stock = await heartStock();
+  if (stock <= 0) return 0;
+  await setMeta('bossHearts', stock - 1);
+  return 1;
+}
+
+/**
+ * Ogłasza zmianę poziomu (raz) i przyznaje nagrody. Zwraca teksty do pokazania.
+ * Przy pierwszym uruchomieniu tej wersji gracz powyżej poziomu 1 dostaje jedno serce na start.
+ */
+export async function claimLevelUp(level) {
+  const seen = await getMeta('playerLevelSeen', null);
+  if (seen === level) return [];
+  await setMeta('playerLevelSeen', level);
+  const stock = await heartStock();
+  if (seen === null || !(await getMeta('levelRewardsOn', false))) {
+    await setMeta('levelRewardsOn', true);
+    if (level > 1 && stock < HEART_STOCK_MAX) { await setMeta('bossHearts', stock + 1); return [`Ranga ${rankFor(level).label}: na start +1 serce na bossa`]; }
+    return [];
+  }
+  if (level < seen) return [];
+  const reward = levelRewards(seen, level, stock);
+  if (reward.hearts) await setMeta('bossHearts', stock + reward.hearts);
+  if (reward.bonusXp) await setMeta('bonusXp', (await getMeta('bonusXp', 0)) + reward.bonusXp);
+  const parts = [];
+  if (reward.hearts) parts.push(`+${reward.hearts} ${reward.hearts === 1 ? 'serce' : 'serca'} na bossa`);
+  if (reward.bonusXp) parts.push(`+${reward.bonusXp} XP`);
+  const news = [`Poziom gracza ${level}: ${parts.join(', ')}`];
+  if (rankFor(level).tier > rankFor(seen).tier) news.push(`Nowa ranga: ${rankFor(level).label}`);
+  return news;
+}
+
 // --- wyzwanie dnia ---------------------------------------------------------
 const CHALLENGES = [
   { kind: 'advances', targets: [8, 10, 12], label: (n) => `${n} awansów kart` },
   { kind: 'correct', targets: [30, 40, 50], label: (n) => `${n} poprawnych odpowiedzi` },
   { kind: 'minutes', targets: [5, 8], label: (n) => `${n} min ponad dzienny cel` },
   { kind: 'pairs', targets: [200, 300], label: (n) => `${n} punktów w „Parach”` },
-  { kind: 'sprint', targets: [150, 250], label: (n) => `${n} punktów w „el/la”` },
+  { kind: 'road', targets: [150, 250], label: (n) => `${n} punktów w „Drodze”` },
 ];
 
 /** Jedno wyzwanie na dzień, wybierane z daty — to samo po każdym otwarciu aplikacji. */
@@ -162,7 +226,7 @@ export function challengeProgress(challenge, counters = {}, games = {}) {
     correct: counters.correct || 0,
     minutes: Math.floor((counters.seconds || 0) / 60),
     pairs: games.pairs || 0,
-    sprint: games.sprint || 0,
+    road: games.road || 0,
   }[challenge.kind] || 0;
   return { value: Math.min(value, challenge.target), done: value >= challenge.target };
 }
@@ -193,7 +257,8 @@ export async function claimChallenge(day) {
 }
 
 export async function challengeBonus() {
-  return Object.keys(await getMeta('challengeDone', {})).length * CHALLENGE_XP;
+  // razem z XP przyznanym za poziomy przy pełnym zapasie serc
+  return Object.keys(await getMeta('challengeDone', {})).length * CHALLENGE_XP + (await getMeta('bonusXp', 0));
 }
 
 // --- trudne słowa ----------------------------------------------------------
@@ -210,7 +275,7 @@ export function hardWords(deck, limit = 25) {
     .slice(0, limit);
 }
 
-// --- gra „Sprint el/la” ----------------------------------------------------
+// --- rzeczowniki z rodzajnikiem (gra „Droga”, pytania bossa) ----------------------------------------------------
 /** Rzeczowniki z rodzajnikiem do zgadywania: { id, article, noun, pl, plural }. */
 export function sprintDeck(deck, rng = Math.random) {
   const cards = [];
