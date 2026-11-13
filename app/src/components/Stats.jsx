@@ -6,6 +6,7 @@ import LevelBars from './LevelBars.jsx';
 import { getDailyStats } from '../activity.js';
 import { localDay, shiftDay, currentStreak } from '../../../shared/learning.js';
 import Icon, { FaceIcon } from './Icon.jsx';
+import { POSTCARDS, postcards } from '../engine/journey.js';
 
 // Statystyki na jednym ekranie telefonu, bez przewijania: seria i dzisiejszy cel,
 // kalendarz 5 tygodni, droga do kolejnej lekcji, stan talii, skuteczność.
@@ -36,6 +37,7 @@ export default function Stats({ maxLesson, lessonCount = 100, onBack, onHard }) 
     let cancelled = false;
     const refresh = async () => {
       const deck = await loadDeck(maxLesson);
+      const album = await postcards();
       const levelsObj = {};
       let maxLevel = 1;
       for (const { level } of deck) {
@@ -92,6 +94,8 @@ export default function Stats({ maxLesson, lessonCount = 100, onBack, onHard }) 
         streak: streak.count || 0,
         bestStreak: Math.max(bestStreak(daily), streak.count || 0),
         pairsBest: await getMeta('pairsBest', 0),
+        roadBest: await getMeta('roadBest', 0),
+        postcards: POSTCARDS.filter((p) => album[p.key]).length,
         player: playerLevel(playerXp(daily, await challengeBonus())),
         empty: Object.keys(daily).length === 0,
         hearts: await heartStock(),
@@ -253,6 +257,17 @@ export default function Stats({ maxLesson, lessonCount = 100, onBack, onHard }) 
         <div className="stat-tile">
           <span className="stat-big"><Icon name="trophy" size={18} /> {data.pairsBest}</span>
           <span className="stat-label">rekord w „Parach”</span>
+        </div>
+      </div>
+
+      <div className="stat-duo">
+        <div className="stat-tile">
+          <span className="stat-big"><Icon name="road" size={18} /> {data.roadBest}</span>
+          <span className="stat-label">rekord w „Drodze”</span>
+        </div>
+        <div className="stat-tile" title="Pocztówki z podróży w „Drodze”: pierwszy wjazd do regionu (co 10 trafień bez stłuczki)">
+          <span className="stat-big"><Icon name="star" size={18} /> {data.postcards}/{POSTCARDS.length}</span>
+          <span className="stat-label">pocztówki z „Drogi”</span>
         </div>
       </div>
 

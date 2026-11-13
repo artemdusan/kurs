@@ -1,10 +1,11 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { getMeta } from '../db.js';
 import { addActivity } from '../activity.js';
-import { loadDeck, pairsDeck, dealBoard, pairPoints, saveGameScore, PAIRS_PER_BOARD } from '../engine/insights.js';
+import { loadDeck, pairsDeck, dealBoard, pairPoints, saveGameScore, countGameHits, PAIRS_PER_BOARD } from '../engine/insights.js';
 import { localDay } from '../../../shared/learning.js';
 import { sfx } from '../sound.js';
 import Icon from './Icon.jsx';
+import GameXp from './GameXp.jsx';
 import { burst, floatText, rain, COLORS } from '../particles.js';
 
 // Mini gra „Pary na czas”: 60 sekund, łącz polskie słowo z hiszpańskim.
@@ -50,6 +51,7 @@ export default function Pairs({ maxLesson, settings, onExit }) {
   const [phase, setPhase] = useState('play'); // play | done
   const [best, setBest] = useState(0);
   const [record, setRecord] = useState(false);
+  const [counted, setCounted] = useState(null); // co z gry zaliczono do XP (limit dzienny)
   const [goldId, setGoldId] = useState(null); // złote słowo na tej planszy
   const boardsRef = useRef(0);
   const cardsRef = useRef([]);
@@ -71,9 +73,10 @@ export default function Pairs({ maxLesson, settings, onExit }) {
     const s = statsRef.current;
     if (s.saved) return;
     s.saved = true;
-    if (s.pairs + s.mistakes + s.seconds > 0) {
-      await addActivity({ correct: s.pairs, wrong: s.mistakes, seconds: s.seconds }).catch(() => {});
-    }
+    if (s.pairs + s.mistakes + s.seconds === 0) return null;
+    const counted = await countGameHits(s.pairs, s.mistakes, localDay()).catch(() => ({ correct: 0, wrong: 0, limited: true }));
+    await addActivity({ correct: counted.correct, wrong: counted.wrong, seconds: s.seconds }).catch(() => {});
+    return counted;
   }
 
   async function finish() {
@@ -81,12 +84,13 @@ export default function Pairs({ maxLesson, settings, onExit }) {
     const previous = await saveGameScore('pairs', scoreRef.current, localDay());
     setBest(Math.max(previous, scoreRef.current));
     if (scoreRef.current > previous && previous > 0) { setRecord(true); rain({ colors: COLORS.gold, seconds: 2 }); sfx.fanfare(); }
-    await save();
+    setCounted(await save());
   }
 
   function start() {
     usedRef.current = new Set();
     statsRef.current = { pairs: 0, mistakes: 0, seconds: 0, saved: false };
+    setCounted(null);
     scoreRef.current = 0;
     boardsRef.current = 0;
     setScore(0); setCombo(0); setRecord(false);
@@ -192,6 +196,7 @@ export default function Pairs({ maxLesson, settings, onExit }) {
           <Icon name="trophy" size={14} /> rekord: {best}
         </p>
         <p className="hint">Pary: {s.pairs} · plansze: {boardsRef.current} · pomyłki: {s.mistakes}</p>
+        <GameXp counted={counted} />
         <button className="btn primary big" onClick={start}>Jeszcze raz</button>
         <button className="btn" onClick={() => onExit()}>Wróć do kursu</button>
       </div>
