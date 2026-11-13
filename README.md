@@ -27,7 +27,8 @@ Skrypt `scripts/copy-data.mjs` kopiuje dane kursu do `app/public/data` przed dev
   Boss szykuje atak (pasek czasu), a pytania są szybkie i pochodzą głównie z ukończonej
   lekcji: tłumaczenie z 4 opcji, forma czasownika, rodzajnik. Dobra odpowiedź zabiera
   1 punkt życia, szybka (pierwsze 35% czasu) to cios krytyczny za 2. Błąd albo spóźnienie
-  kosztuje 1 z 3 serc. Ostatni punkt zabiera „cios kończący”: wpisanie słowa z lekcji.
+  kończy walkę, chyba że masz dodatkowe serce za poziom gracza (zabiera je jeden błąd,
+  kolejny kończy walkę). Boss nie ma serc na start. Ostatni punkt zabiera „cios kończący”: wpisanie słowa z lekcji.
   Pięć rodzajów bossów zmienia się co lekcję: Strażnik, Błyskawica (mniej czasu),
   Tarczownik (tarcza wraca po błędzie), Wampir (leczy się na błędach), Kameleon
   (pytania w odwrotną stronę). Walka nie zmienia poziomów kart, liczy się do dnia nauki.
@@ -64,7 +65,7 @@ Skrypt `scripts/copy-data.mjs` kopiuje dane kursu do `app/public/data` przed dev
   zadanie w zwykłe i wyłącza dyktanda do końca sesji. Wyłącznik w Ustawieniach.
 - **Droga** (`Road.jsx`): jazda w pseudo-3D rysowana na canvasie 2D. Lewy pas to „el”,
   prawy „la”; wjeżdżasz w bramkę pasującą do rzeczownika. Trafienia przyspieszają jazdę,
-  trzy stłuczki kończą grę. Punkty jak w „Parach”, skrót `/?start=road`.
+  pierwsza stłuczka kończy grę (bez żyć). Punkty jak w „Parach”, skrót `/?start=road`.
 - **Ranga i nagrody za poziom**: co 5 poziomów nowa ranga (Turista, Viajero, Estudiante,
   Vecino, Hablante, Nativo, potem Nativo z gwiazdkami bez końca). Każdy nowy poziom daje
   dodatkowe serce na walkę z bossem (zapas do 2, jedno zużywa się na walkę); przy pełnym

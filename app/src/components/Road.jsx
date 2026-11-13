@@ -13,7 +13,6 @@ import { sfx } from '../sound.js';
 // Droga jest rysowana w pseudo-3D na zwykłym canvasie 2D, w niskiej rozdzielczości
 // powiększonej bez wygładzania — stąd pikselowy wygląd bez żadnej biblioteki.
 
-export const ROAD_LIVES = 3;
 const PIXEL = 3;          // jeden piksel gry = 3 piksele CSS
 const GATE_START = 9;     // odległość, w której pojawia się bramka (1 = przy samochodzie)
 const GATE_HIT = 1.12;    // odległość, przy której rozstrzyga się pas
@@ -93,7 +92,6 @@ export default function Road({ maxLesson, onExit }) {
   const [card, setCard] = useState(null);
   const [score, setScore] = useState(0);
   const [combo, setCombo] = useState(0);
-  const [lives, setLives] = useState(ROAD_LIVES);
   const [lane, setLane] = useState(0);
   const [flash, setFlash] = useState(null); // { ok, article }
   const [phase, setPhase] = useState('load'); // load | play | done | empty
@@ -104,7 +102,7 @@ export default function Road({ maxLesson, onExit }) {
   const posRef = useRef(0);
   const cardRef = useRef(null);
   const statsRef = useRef({ hits: 0, mistakes: 0, seconds: 0, saved: false });
-  const g = useRef({ pos: 0, gate: GATE_START, lane: 0, carX: 0.25, shake: 0, wait: 0, verdict: null, combo: 0, score: 0, lives: ROAD_LIVES }).current;
+  const g = useRef({ pos: 0, gate: GATE_START, lane: 0, carX: 0.25, shake: 0, wait: 0, verdict: null, combo: 0, score: 0, crashed: false }).current;
 
   function nextCard() {
     const deck = deckRef.current;
@@ -137,8 +135,8 @@ export default function Road({ maxLesson, onExit }) {
     statsRef.current = { hits: 0, mistakes: 0, seconds: 0, saved: false };
     deckRef.current = [...deckRef.current].sort(() => Math.random() - 0.5);
     posRef.current = 0;
-    Object.assign(g, { pos: 0, lane: 0, carX: 0.25, shake: 0, wait: 0, combo: 0, score: 0, lives: ROAD_LIVES });
-    setScore(0); setCombo(0); setLives(ROAD_LIVES); setLane(0); setRecord(false);
+    Object.assign(g, { pos: 0, lane: 0, carX: 0.25, shake: 0, wait: 0, combo: 0, score: 0, crashed: false });
+    setScore(0); setCombo(0); setLane(0); setRecord(false);
     setPhase('play');
     nextCard();
   }
@@ -167,10 +165,10 @@ export default function Road({ maxLesson, onExit }) {
       g.wait = 0.25;
     } else {
       g.combo = 0;
-      g.lives--;
+      g.crashed = true; // bez żyć: pierwsza stłuczka kończy jazdę
       g.shake = 0.5;
       statsRef.current.mistakes++;
-      setCombo(0); setLives(g.lives);
+      setCombo(0);
       navigator.vibrate?.(120);
       burst(at, { colors: COLORS.bad, power: 0.6 });
       sfx.wrong();
@@ -219,7 +217,7 @@ export default function Road({ maxLesson, onExit }) {
         g.wait -= dt;
         g.gate -= v * dt; // rozstrzygnięta bramka przejeżdża pod samochodem
         if (g.wait <= 0 && !over) {
-          if (g.lives <= 0) { over = true; finish(); } else nextCard();
+          if (g.crashed) { over = true; finish(); } else nextCard();
         }
       } else if (!over) {
         g.gate -= v * dt;
@@ -266,11 +264,7 @@ export default function Road({ maxLesson, onExit }) {
         <button className="btn ghost" onClick={async () => { await save(); onExit(); }} aria-label="Zakończ grę">
           <Icon name="close" />
         </button>
-        <span className="hearts" aria-label={`Życia: ${lives} z ${ROAD_LIVES}`}>
-          {Array.from({ length: ROAD_LIVES }, (_, i) => (
-            <span key={i} className={'heart' + (i < lives ? '' : ' lost')}><Icon name="heart" size={20} /></span>
-          ))}
-        </span>
+        <span className="top-spacer" />
         <span className="pairs-score road-score" aria-label={`Wynik ${score}, mnożnik ×${Math.min(5, Math.max(1, combo))}`}>
           {/* mnożnik punktów za serię (najwyżej ×5) — przy wyniku, nie przy słowie */}
           {combo >= 2 && <span className={'road-mult' + (combo >= 5 ? ' max' : '')} key={Math.min(5, combo)}>×{Math.min(5, combo)}</span>}
