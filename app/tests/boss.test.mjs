@@ -1,6 +1,6 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { BOSS_TYPES, bossFor, applyHit, applyMiss, BOSS_HEARTS } from '../src/engine/boss.js';
+import { BOSS_TYPES, bossFor, applyHit, applyMiss, isDefeated, BOSS_HEARTS } from '../src/engine/boss.js';
 import { SPRITES } from '../src/engine/sprites.js';
 import { MAP_CELLS } from '../src/engine/map.js';
 import 'fake-indexeddb/auto';
@@ -41,6 +41,17 @@ test('a miss costs a heart; the vampire heals up to its maximum', () => {
   assert.equal(applyMiss({ ...start(vampire), hp: 2 }, vampire).hp, 3);
   const guardian = bossFor(2);
   assert.equal(applyMiss({ ...start(guardian), hp: 2 }, guardian).hp, 2);
+});
+
+test('no base hearts: the first miss ends the fight, an extra heart buys one mistake', () => {
+  const boss = bossFor(2);
+  assert.equal(BOSS_HEARTS, 0);
+  assert.equal(isDefeated(start(boss)), false);
+  assert.equal(isDefeated(applyMiss(start(boss), boss)), true);
+  const withExtra = { ...start(boss), hearts: 1 };
+  const once = applyMiss(withExtra, boss);
+  assert.equal(isDefeated(once), false);
+  assert.equal(isDefeated(applyMiss(once, boss)), true);
 });
 
 test('the course map has one cell per lesson', () => {

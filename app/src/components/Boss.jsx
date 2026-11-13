@@ -3,7 +3,7 @@ import { setUnlockedLesson } from '../db.js';
 import { ensureLessonImported } from '../course.js';
 import { addActivity } from '../activity.js';
 import { loadDeck, heartStock, takeBossHeart } from '../engine/insights.js';
-import { bossFor, buildBossQuestions, finisherWords, applyHit, applyMiss, BOSS_HEARTS, CRIT_SHARE } from '../engine/boss.js';
+import { bossFor, buildBossQuestions, finisherWords, applyHit, applyMiss, isDefeated, BOSS_HEARTS, CRIT_SHARE } from '../engine/boss.js';
 import { checkAnswer, splitArticle } from '../engine/answer.js';
 import { buildKeyboard, articleButtons } from '../engine/keyboard.js';
 import Keyboard from './Keyboard.jsx';
@@ -148,7 +148,7 @@ export default function Boss({ maxLesson, index, settings, onExit }) {
       navigator.vibrate?.(150);
       burst(centerOf('.hearts'), { colors: COLORS.bad, power: 0.8 });
       sfx.wrong();
-      later(() => (next.hearts <= 0 ? lose() : nextQuestion()), 1500);
+      later(() => (isDefeated(next) ? lose() : nextQuestion()), 1500);
     }
   }
 
@@ -170,7 +170,7 @@ export default function Boss({ maxLesson, index, settings, onExit }) {
       animate('attack');
       navigator.vibrate?.(150);
       sfx.wrong();
-      later(() => (next.hearts <= 0 ? lose() : nextQuestion()), 2200);
+      later(() => (isDefeated(next) ? lose() : nextQuestion()), 2200);
     }
   }
 
@@ -218,7 +218,7 @@ export default function Boss({ maxLesson, index, settings, onExit }) {
           <p className="boss-trait">{boss.trait}</p>
           <ul className="boss-rules">
             <li><Icon name="bolt" size={16} /><span>Odpowiedz, zanim pasek ataku się zapełni. Szybka odpowiedź to cios krytyczny.</span></li>
-            <li><Icon name="heart" size={16} /><span>Błąd albo spóźnienie kosztuje serce. Masz {BOSS_HEARTS + (spare ? 1 : 0)}{spare ? ' (jedno dodatkowe za poziom gracza)' : ''}.</span></li>
+            <li><Icon name="heart" size={16} /><span>{spare ? 'Błąd albo spóźnienie kosztuje serce, a bez serca kończy walkę. Masz jedno dodatkowe za poziom gracza.' : 'Bez serc: pierwszy błąd albo spóźnienie kończy walkę. Serca dają dopiero poziomy gracza.'}</span></li>
             <li><Icon name="star" size={16} /><span>Na koniec cios kończący: wpisz słowo z lekcji.</span></li>
           </ul>
         </div>
@@ -240,7 +240,7 @@ export default function Boss({ maxLesson, index, settings, onExit }) {
         <p className={'boss-verdict' + (won ? ' won' : '')}>
           {won ? `Lekcja ${lesson} otwarta: ${next?.temat || ''}` : state.hp <= 1 ? 'Zabrakło ciosu kończącego.' : `Zostało mu ${state.hp} z ${boss.hp} punktów życia.`}
         </p>
-        <p className="hint">Trafienia: {s.hits} · błędy: {s.mistakes}{won && state.hearts === maxHearts ? ' · bez straty serca!' : ''}</p>
+        <p className="hint">Trafienia: {s.hits} · błędy: {s.mistakes}{won && state.hearts === maxHearts ? ' · bezbłędnie!' : ''}</p>
         {won ? (
           <button className="btn primary big" onClick={() => onExit()}>Otwórz lekcję {lesson}</button>
         ) : (
@@ -262,7 +262,7 @@ export default function Boss({ maxLesson, index, settings, onExit }) {
         <button className="btn ghost" onClick={async () => { await save(); onExit(); }} aria-label="Zakończ walkę">
           <Icon name="close" />
         </button>
-        <span className="hearts" aria-label={`Życia: ${state.hearts} z ${maxHearts}`}>
+        <span className="hearts" aria-label={`Dodatkowe serca: ${Math.max(0, state.hearts)} z ${maxHearts}`}>
           {Array.from({ length: maxHearts }, (_, i) => (
             <span key={i} className={'heart' + (i < state.hearts ? '' : ' lost')}><Icon name="heart" size={20} /></span>
           ))}

@@ -6,7 +6,8 @@ import { sprintDeck } from './insights.js';
 // trafienie, szybka — cios krytyczny. Ostatni punkt życia zabiera dopiero „cios
 // kończący”: wpisanie słowa z lekcji z klawiatury.
 
-export const BOSS_HEARTS = 3;
+// Bez serc na start: pierwszy błąd kończy walkę. Serca to tylko dodatki za poziomy gracza.
+export const BOSS_HEARTS = 0;
 export const CRIT_SHARE = 0.35; // odpowiedź w pierwszych 35% czasu = cios krytyczny
 
 /** Rodzaje bossów — każdy zmienia jedną zasadę walki. */
@@ -29,6 +30,9 @@ export function applyHit(state, boss, fast) {
   const damage = Math.min(state.hp, fast ? 2 : 1);
   return { ...state, hp: state.hp - damage, damage, crit: fast && damage === 2 };
 }
+
+/** Walka przegrana: błąd przy zerze serc zabiera ostatnie, więc `hearts` spada poniżej zera. */
+export const isDefeated = (state) => state.hearts < 0;
 
 /** Stan po błędzie albo po upływie czasu. */
 export function applyMiss(state, boss) {
