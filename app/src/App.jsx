@@ -406,22 +406,22 @@ export default function App() {
         <div className="lesson-card-track">
           <div className="lesson-card-fill" style={{ width: pct + '%' }} />
         </div>
-        {/* cel: ile kart dzieli od kolejnej lekcji (wszystkie muszą mieć poziom 3) */}
-        <span className={'lesson-card-goal' + (bossReady ? ' ready' : '')} title="Kolejną lekcję otwiera boss; pojawia się, gdy wszystkie karty mają co najmniej poziom 3">
-          {!hasNext ? <><Icon name="star" size={11} /> wszystkie lekcje otwarte</>
-            : bossReady ? <><Icon name="star" size={11} /> boss czeka — wygraj, by otworzyć lekcję {unlockedLesson + 1}</>
-              : <><Icon name="lock" size={11} /> jeszcze {goals.missing} {cards(goals.missing)} do lekcji {unlockedLesson + 1}</>}
-        </span>
-      </div>
-
-      {challenge && (
-        <div className={'challenge' + (challenge.done ? ' done' : '')}>
-          <Icon name="star" size={11} />
-          <span className="challenge-label">{challenge.label}</span>
-          <span className="challenge-num">{challenge.done ? `+${CHALLENGE_XP} XP` : `${challenge.value}/${challenge.target}`}</span>
-          <div className="challenge-fill" style={{ width: Math.min(100, (challenge.value / challenge.target) * 100) + '%' }} />
+        {/* dwa wiersze „co — ile”: droga do kolejnej lekcji i wyzwanie dnia */}
+        <div className="card-rows">
+          <div className={'card-row' + (bossReady ? ' ready' : '')} title="Kolejną lekcję otwiera boss; pojawia się, gdy wszystkie karty mają co najmniej poziom 3">
+            <Icon name={hasNext && !bossReady ? 'lock' : 'star'} size={12} />
+            <span className="card-row-label">{!hasNext ? 'Wszystkie lekcje otwarte' : bossReady ? `Boss strzeże lekcji ${unlockedLesson + 1}` : `Do lekcji ${unlockedLesson + 1}`}</span>
+            <span className="card-row-value">{!hasNext ? lessonTotal : bossReady ? 'czeka' : `${goals.missing} ${cards(goals.missing)}`}</span>
+          </div>
+          {challenge && (
+            <div className={'card-row challenge' + (challenge.done ? ' done' : '')} title="Wyzwanie dnia: +100 XP">
+              <Icon name="bolt" size={12} />
+              <span className="card-row-label">{challenge.label}</span>
+              <span className="card-row-value">{challenge.done ? `+${CHALLENGE_XP} XP` : `${challenge.value}/${challenge.target}`}</span>
+            </div>
+          )}
         </div>
-      )}
+      </div>
 
       <LessonPreview lesson={shownLesson} grammarNote={current?.gramatyka} />
 

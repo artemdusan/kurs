@@ -17,7 +17,7 @@ Skrypt `scripts/copy-data.mjs` kopiuje dane kursu do `app/public/data` przed dev
 ## Co widać w aplikacji
 
 - **Ekran główny** ma jedną kartę lekcji (numer, temat, postęp i ile kart dzieli od
-  kolejnej lekcji), wyzwanie dnia w jednej linijce, materiał lekcji i przycisk sesji.
+  kolejnej lekcji, a pod spodem wyzwanie dnia), materiał lekcji i przycisk sesji.
   Nagłówek to jeden pasek stanu: seria, minuty dziś względem celu i poziom gracza
   z zapasem serc na bossa; dotknięcie otwiera Statystyki (tam ranga i liczby XP).
 - **Pierwsze uruchomienie** zaczyna się od krótkiego powitania i prowadzi prosto do
