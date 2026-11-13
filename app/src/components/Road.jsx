@@ -8,7 +8,7 @@ import { sfx } from '../sound.js';
 
 // Mini gra „Droga”: jedziesz w głąb ekranu, nadjeżdża bramka z dwoma pasami —
 // lewy to „el”, prawy to „la”. Wjedź w pas pasujący do rzeczownika. Każde trafienie
-// przyspiesza jazdę, trzy stłuczki kończą grę. Jak „Pary”: nie zmienia poziomów kart,
+// przyspiesza jazdę, pierwsza stłuczka kończy grę. Jak „Pary”: nie zmienia poziomów kart,
 // ale liczy się do dnia nauki.
 // Droga jest rysowana w pseudo-3D na zwykłym canvasie 2D, w niskiej rozdzielczości
 // powiększonej bez wygładzania — stąd pikselowy wygląd bez żadnej biblioteki.
@@ -18,9 +18,22 @@ const GATE_START = 9;     // odległość, w której pojawia się bramka (1 = pr
 const GATE_HIT = 1.12;    // odległość, przy której rozstrzyga się pas
 export const roadSpeed = (hits) => Math.min(6, 2.4 + hits * 0.12); // jednostek odległości na sekundę
 
+// Lakier auta zmienia się z rangą gracza (nagroda za rangę, bez wyboru w ustawieniach).
+// { body, trim, roof, lights } — od Turisty po Nativo, dalej chrom.
+export const CAR_PAINTS = [
+  { name: 'żółty', body: '#ffd23f', trim: '#9a6a00', roof: '#f5a623', lights: '#ef4444' },
+  { name: 'niebieski', body: '#4cc2ff', trim: '#0b5a86', roof: '#2b8fd6', lights: '#ef4444' },
+  { name: 'zielony', body: '#3fb950', trim: '#1a5c26', roof: '#2c8a3c', lights: '#ef4444' },
+  { name: 'różowy', body: '#ff9bd0', trim: '#8a2f63', roof: '#e46aa9', lights: '#ef4444' },
+  { name: 'fioletowy', body: '#b28dff', trim: '#4b2a8a', roof: '#8a5cf0', lights: '#ef4444' },
+  { name: 'czerwony', body: '#ef4444', trim: '#7a1414', roof: '#c62828', lights: '#ffd23f' },
+  { name: 'chromowany', body: '#e2e8f0', trim: '#64748b', roof: '#94a3b8', lights: '#ef4444' },
+];
+export const carPaint = (tier) => CAR_PAINTS[Math.max(0, Math.min(CAR_PAINTS.length - 1, tier || 0))];
+
 const SKY = ['#1b1035', '#2b1648', '#4a1d5c', '#7a2a5e', '#b8455a', '#e8804f'];
 
-function draw(ctx, W, H, g, labels) {
+function draw(ctx, W, H, g, labels, paint) {
   const y0 = Math.round(H * 0.36);
   const ground = H - y0;
   const cx = W / 2;
@@ -81,14 +94,15 @@ function draw(ctx, W, H, g, labels) {
   const r = (c, x, y, w, h) => { ctx.fillStyle = c; ctx.fillRect(carX + x * u, by + y * u, w * u, h * u); };
   r('rgba(0,0,0,0.35)', -6, 0, 12, 1);
   r('#14101a', -6, -3, 2, 3); r('#14101a', 4, -3, 2, 3);
-  r('#ffd23f', -5, -6, 10, 5);
-  r('#9a6a00', -5, -2, 10, 1);
-  r('#f5a623', -4, -9, 8, 3);
+  r(paint.body, -5, -6, 10, 5);
+  r(paint.trim, -5, -2, 10, 1);
+  r(paint.roof, -4, -9, 8, 3);
   r('#17131c', -3, -8, 6, 2);
-  r('#ef4444', -5, -5, 2, 1); r('#ef4444', 3, -5, 2, 1);
+  r(paint.lights, -5, -5, 2, 1); r(paint.lights, 3, -5, 2, 1);
 }
 
-export default function Road({ maxLesson, onExit }) {
+export default function Road({ maxLesson, rankTier = 0, onExit }) {
+  const paint = carPaint(rankTier);
   const [card, setCard] = useState(null);
   const [score, setScore] = useState(0);
   const [combo, setCombo] = useState(0);
@@ -224,7 +238,7 @@ export default function Road({ maxLesson, onExit }) {
         if (g.gate <= GATE_HIT) resolve();
       }
       const c = cardRef.current;
-      draw(ctx, canvas.width, canvas.height, g, c && c.plural ? ['los', 'las'] : ['el', 'la']);
+      draw(ctx, canvas.width, canvas.height, g, c && c.plural ? ['los', 'las'] : ['el', 'la'], paint);
       raf = requestAnimationFrame(frame);
     };
     raf = requestAnimationFrame(frame);

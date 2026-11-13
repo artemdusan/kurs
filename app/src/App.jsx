@@ -17,7 +17,7 @@ import HardWords from './components/HardWords.jsx';
 import Welcome from './components/Welcome.jsx';
 import {
   loadDeck, deckGoals, cardBuckets, claimMilestones, hardWords,
-  playerXp, playerLevel, dailyChallenge, challengeProgress, gamesToday, claimChallenge, challengeBonus, CHALLENGE_XP, claimLevelUp, rankFor, heartStock,
+  playerXp, playerLevel, dailyChallenge, challengeProgress, gamesToday, claimChallenge, challengeBonus, CHALLENGE_XP, claimLevelUp, rankFor, heartStock, jokerStock,
 } from './engine/insights.js';
 import { setSoundEnabled, sfx } from './sound.js';
 import { rain } from './particles.js';
@@ -51,6 +51,7 @@ export default function App() {
   const [goals, setGoals] = useState({ total: 0, missing: 0, ready: 0 });
   const [player, setPlayer] = useState({ level: 1, into: 0, need: 200, xp: 0 });
   const [hearts, setHearts] = useState(0); // zapas dodatkowych serc na bossa
+  const [jokers, setJokers] = useState(0); // zapas jokerów 50/50 na bossa
   const [challenge, setChallenge] = useState(null); // { label, target, value, done }
   const [toast, setToast] = useState('');
   const [run, setRun] = useState(0); // kolejne podejście do tej samej sesji (np. rewanż z bossem)
@@ -135,6 +136,7 @@ export default function App() {
     setGoals(deckGoals(await loadDeck(unlocked)));
     setPlayer(playerLevel(playerXp(daily, await challengeBonus())));
     setHearts(await heartStock());
+    setJokers(await jokerStock());
     const ch = dailyChallenge(localDay(), s.dailyGoalMinutes || 10);
     setChallenge({ ...ch, ...challengeProgress(ch, day, await gamesToday(localDay())) });
   }
@@ -237,7 +239,7 @@ export default function App() {
   }
 
   if (view === 'road') {
-    return <Road maxLesson={unlockedLesson} onExit={afterGame} />;
+    return <Road maxLesson={unlockedLesson} rankTier={rankFor(player.level).tier} onExit={afterGame} />;
   }
 
   if (view === 'hardList') {
@@ -365,11 +367,17 @@ export default function App() {
             <span className={'status-num goal-' + today.status}><FaceIcon status={today.status} size={15} />{today.minutes}<small>/{settings.dailyGoalMinutes || 10}</small></span>
             <span className="status-label">minut dziś</span>
           </span>
-          <span className="status-cell" aria-label={`Poziom ${player.level}, dodatkowe serca na bossa: ${hearts}`}>
+          <span className="status-cell" aria-label={`Poziom ${player.level}, na bossa: serca ${hearts}, jokery 50/50 ${jokers}`}>
             <span className="status-num level">LV {player.level}</span>
             <span className="status-label">
-              {hearts > 0
-                ? <span className="rank-hearts">{Array.from({ length: hearts }, (_, i) => <Icon key={i} name="heart" size={11} />)} na bossa</span>
+              {hearts + jokers > 0
+                ? (
+                  <span className="rank-hearts">
+                    {Array.from({ length: hearts }, (_, i) => <Icon key={'h' + i} name="heart" size={11} />)}
+                    {Array.from({ length: jokers }, (_, i) => <span key={'j' + i} className="rank-joker"><Icon name="joker" size={11} /></span>)}
+                    {' '}na bossa
+                  </span>
+                )
                 : `${player.need - player.into} XP do ${player.level + 1}`}
             </span>
           </span>

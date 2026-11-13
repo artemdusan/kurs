@@ -19,7 +19,7 @@ Skrypt `scripts/copy-data.mjs` kopiuje dane kursu do `app/public/data` przed dev
 - **Ekran główny** ma jedną kartę lekcji (numer, temat, postęp i ile kart dzieli od
   kolejnej lekcji, a pod spodem wyzwanie dnia), materiał lekcji i przycisk sesji.
   Nagłówek to jeden pasek stanu: seria, minuty dziś względem celu i poziom gracza
-  z zapasem serc na bossa; dotknięcie otwiera Statystyki (tam ranga i liczby XP).
+  z zapasem serc i jokerów na bossa; dotknięcie otwiera Statystyki (tam ranga i liczby XP).
 - **Pierwsze uruchomienie** zaczyna się od krótkiego powitania i prowadzi prosto do
   pierwszej sesji.
 - **Boss** (`Boss.jsx`, zasady w `engine/boss.js`): gdy wszystkie karty mają poziom 3,
@@ -27,8 +27,8 @@ Skrypt `scripts/copy-data.mjs` kopiuje dane kursu do `app/public/data` przed dev
   Boss szykuje atak (pasek czasu), a pytania są szybkie i pochodzą głównie z ukończonej
   lekcji: tłumaczenie z 4 opcji, forma czasownika, rodzajnik. Dobra odpowiedź zabiera
   1 punkt życia, szybka (pierwsze 35% czasu) to cios krytyczny za 2. Błąd albo spóźnienie
-  kończy walkę, chyba że masz dodatkowe serce za poziom gracza (zabiera je jeden błąd,
-  kolejny kończy walkę). Boss nie ma serc na start. Ostatni punkt zabiera „cios kończący”: wpisanie słowa z lekcji.
+  kończy walkę, chyba że masz serce za rangę (ratuje przed jednym błędem i dopiero wtedy
+  się zużywa). Boss nie ma serc na start; joker 50/50 za poziom usuwa złe odpowiedzi. Ostatni punkt zabiera „cios kończący”: wpisanie słowa z lekcji.
   Pięć rodzajów bossów zmienia się co lekcję: Strażnik, Błyskawica (mniej czasu),
   Tarczownik (tarcza wraca po błędzie), Wampir (leczy się na błędach), Kameleon
   (pytania w odwrotną stronę). Walka nie zmienia poziomów kart, liczy się do dnia nauki.
@@ -67,9 +67,10 @@ Skrypt `scripts/copy-data.mjs` kopiuje dane kursu do `app/public/data` przed dev
   prawy „la”; wjeżdżasz w bramkę pasującą do rzeczownika. Trafienia przyspieszają jazdę,
   pierwsza stłuczka kończy grę (bez żyć). Punkty jak w „Parach”, skrót `/?start=road`.
 - **Ranga i nagrody za poziom**: co 5 poziomów nowa ranga (Turista, Viajero, Estudiante,
-  Vecino, Hablante, Nativo, potem Nativo z gwiazdkami bez końca). Każdy nowy poziom daje
-  dodatkowe serce na walkę z bossem (zapas do 2, jedno zużywa się na walkę); przy pełnym
-  zapasie poziom daje 100 XP. Zapas jest zapisany lokalnie.
+  Vecino, Hablante, Nativo, potem Nativo z gwiazdkami bez końca). Każdy poziom daje jokera
+  50/50 na bossa (zapas do 2, raz na walkę: zostają dobra i jedna zła odpowiedź). Nowa ranga
+  daje dodatkowo serce na bossa (zapas 1, zużywa się dopiero, gdy uratuje walkę) i nowy lakier
+  auta w „Drodze”. Przy pełnym zapasie nagroda zamienia się w 100 XP. Zapasy są zapisane lokalnie.
 - **Poziom gracza (XP)**: 10 XP za poprawną odpowiedź, 20 za awans karty, 50 za sesję,
   100 za wyzwanie dnia. Liczony z liczników dni, więc synchronizuje się razem z nimi
   (bonus za wyzwania jest zapisany tylko lokalnie).

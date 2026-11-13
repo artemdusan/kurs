@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { getMeta, getSettings } from '../db.js';
 import { dayStatus, bestStreak } from '../engine/session.js';
-import { loadDeck, deckGoals, cardBuckets, hardWords, playerXp, playerLevel, challengeBonus, rankFor, heartStock, HEART_STOCK_MAX } from '../engine/insights.js';
+import { loadDeck, deckGoals, cardBuckets, hardWords, playerXp, playerLevel, challengeBonus, rankFor, heartStock, jokerStock, HEART_STOCK_MAX, JOKER_MAX } from '../engine/insights.js';
 import LevelBars from './LevelBars.jsx';
 import { getDailyStats } from '../activity.js';
 import { localDay, shiftDay, currentStreak } from '../../../shared/learning.js';
@@ -95,6 +95,7 @@ export default function Stats({ maxLesson, lessonCount = 100, onBack, onHard }) 
         player: playerLevel(playerXp(daily, await challengeBonus())),
         empty: Object.keys(daily).length === 0,
         hearts: await heartStock(),
+        jokers: await jokerStock(),
         weekAccuracy: weekCorrect + weekWrong ? Math.round((weekCorrect / (weekCorrect + weekWrong)) * 100) : null,
         time: {
           todayMin: Math.floor((today.seconds || 0) / 60),
@@ -185,8 +186,10 @@ export default function Stats({ maxLesson, lessonCount = 100, onBack, onHard }) 
       <p className="rank-line">
         <b>{rankFor(data.player.level).label}</b>
         <span>do kolejnej rangi: {rankFor(data.player.level).toNext} poz.</span>
-        <span className="rank-hearts" title="Każdy nowy poziom daje dodatkowe serce na walkę z bossem"><Icon name="heart" size={12} /> {data.hearts}/{HEART_STOCK_MAX}</span>
+        <span className="rank-hearts" title="Każda nowa ranga daje serce na bossa; zużywa się dopiero, gdy uratuje walkę"><Icon name="heart" size={12} /> {data.hearts}/{HEART_STOCK_MAX}</span>
+        <span className="rank-hearts rank-joker" title="Każdy poziom daje jokera 50/50 na bossa (raz na walkę)"><Icon name="joker" size={12} /> {data.jokers}/{JOKER_MAX}</span>
       </p>
+      <p className="rank-rewards">Każdy poziom: joker 50/50 · nowa ranga: serce na bossa i nowy lakier auta w „Drodze” · przy pełnym zapasie +100 XP</p>
       {data.empty && <p className="stats-empty">Tu pojawi się Twoja historia. Wystarczy pierwsza sesja.</p>}
 
       <div className="stat-duo">

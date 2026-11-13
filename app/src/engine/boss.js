@@ -31,6 +31,15 @@ export function applyHit(state, boss, fast) {
   return { ...state, hp: state.hp - damage, damage, crit: fast && damage === 2 };
 }
 
+/**
+ * Joker 50/50: które złe odpowiedzi zniknąć, żeby zostały dwie (dobra i jedna zła).
+ * Przy dwóch opcjach (rodzajnik) nie ma czego usuwać — zwraca pustą listę.
+ */
+export function fiftyFifty(options, answer, rng = Math.random) {
+  const wrong = shuffle(options.filter((o) => o !== answer), rng);
+  return wrong.slice(0, Math.max(0, options.length - 2));
+}
+
 /** Walka przegrana: błąd przy zerze serc zabiera ostatnie, więc `hearts` spada poniżej zera. */
 export const isDefeated = (state) => state.hearts < 0;
 

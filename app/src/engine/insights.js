@@ -149,54 +149,81 @@ export function rankFor(level) {
   return { tier, name, stars, label: name + (stars ? ' ' + '★'.repeat(Math.min(stars, 5)) + (stars > 5 ? `×${stars}` : '') : ''), nextAt: next, toNext: next - level };
 }
 
-// Każdy nowy poziom daje dodatkowe serce na walkę z bossem (zapas najwyżej
-// HEART_STOCK_MAX, jedno zużywa się na walkę). Gdy zapas jest pełny, poziom daje
-// zamiast tego LEVEL_BONUS_XP. Zapas i bonus są zapisane lokalnie, jak bonus za wyzwania.
-export const HEART_STOCK_MAX = 2;
+// Nagrody za poziom gracza:
+// - każdy poziom: joker 50/50 na bossa (zapas najwyżej JOKER_MAX, raz na walkę),
+// - każda nowa ranga (co RANK_STEP poziomów): dodatkowo serce na bossa (zapas
+//   najwyżej HEART_STOCK_MAX) i nowy lakier auta w „Drodze” (wynika z rangi).
+// Gdy zapas jest pełny, nagroda zamienia się w LEVEL_BONUS_XP. Serce i joker
+// zużywają się dopiero wtedy, gdy zadziałają. Zapasy i bonus są zapisane lokalnie.
+export const HEART_STOCK_MAX = 1;
+export const JOKER_MAX = 2;
 export const LEVEL_BONUS_XP = 100;
 
-/** Co dają poziomy from+1..to przy zapasie `stock`: { hearts, bonusXp } (czysta funkcja). */
-export function levelRewards(from, to, stock) {
-  const gained = Math.max(0, to - from);
-  const hearts = Math.min(gained, Math.max(0, HEART_STOCK_MAX - stock));
-  return { hearts, bonusXp: (gained - hearts) * LEVEL_BONUS_XP };
+/** Co dają poziomy from+1..to przy zapasach { hearts, jokers } (czysta funkcja). */
+export function levelRewards(from, to, stock = {}) {
+  let hearts = stock.hearts || 0;
+  let jokers = stock.jokers || 0;
+  const out = { hearts: 0, jokers: 0, bonusXp: 0, ranks: 0 };
+  for (let level = from + 1; level <= to; level++) {
+    if (jokers < JOKER_MAX) { jokers++; out.jokers++; } else out.bonusXp += LEVEL_BONUS_XP;
+    if (level % RANK_STEP === 0) {
+      out.ranks++;
+      if (hearts < HEART_STOCK_MAX) { hearts++; out.hearts++; } else out.bonusXp += LEVEL_BONUS_XP;
+    }
+  }
+  return out;
 }
 
-export async function heartStock() {
-  return Math.max(0, Math.min(HEART_STOCK_MAX, await getMeta('bossHearts', 0)));
-}
+const stockOf = async (key, max) => Math.max(0, Math.min(max, await getMeta(key, 0)));
+export const heartStock = () => stockOf('bossHearts', HEART_STOCK_MAX);
+export const jokerStock = () => stockOf('bossJokers', JOKER_MAX);
 
-/** Zużywa jedno dodatkowe serce na walkę; zwraca liczbę dodanych serc (0 albo 1). */
-export async function takeBossHeart() {
-  const stock = await heartStock();
-  if (stock <= 0) return 0;
-  await setMeta('bossHearts', stock - 1);
-  return 1;
+async function take(key, max) {
+  const stock = await stockOf(key, max);
+  if (stock <= 0) return false;
+  await setMeta(key, stock - 1);
+  return true;
 }
+/** Zużywa serce, które właśnie uratowało walkę. */
+export const takeBossHeart = () => take('bossHearts', HEART_STOCK_MAX);
+/** Zużywa jokera 50/50. */
+export const takeJoker = () => take('bossJokers', JOKER_MAX);
+
+const plural = (n, one, few, many) => (n === 1 ? one : n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 10 || n % 100 >= 20) ? few : many);
 
 /**
  * Ogłasza zmianę poziomu (raz) i przyznaje nagrody. Zwraca teksty do pokazania.
  * Przy pierwszym uruchomieniu tej wersji gracz powyżej poziomu 1 dostaje jedno serce na start.
  */
 export async function claimLevelUp(level) {
+  const news = [];
+  const hearts = await heartStock();
+  const jokers = await jokerStock();
+  // jokery doszły w nowszej wersji: gracz powyżej poziomu 1 dostaje jednego na start
+  if (!(await getMeta('jokersOn', false))) {
+    await setMeta('jokersOn', true);
+    if (level > 1 && jokers < JOKER_MAX) { await setMeta('bossJokers', jokers + 1); news.push('Nowość: joker 50/50 na bossa (+1)'); }
+    return news; // poziom ogłaszamy przy następnej okazji, ze świeżym zapasem
+  }
   const seen = await getMeta('playerLevelSeen', null);
-  if (seen === level) return [];
+  if (seen === level) return news;
   await setMeta('playerLevelSeen', level);
-  const stock = await heartStock();
   if (seen === null || !(await getMeta('levelRewardsOn', false))) {
     await setMeta('levelRewardsOn', true);
-    if (level > 1 && stock < HEART_STOCK_MAX) { await setMeta('bossHearts', stock + 1); return [`Ranga ${rankFor(level).label}: na start +1 serce na bossa`]; }
-    return [];
+    if (rankFor(level).tier > 0 && hearts < HEART_STOCK_MAX) { await setMeta('bossHearts', hearts + 1); news.push(`Ranga ${rankFor(level).label}: na start +1 serce na bossa`); }
+    return news;
   }
-  if (level < seen) return [];
-  const reward = levelRewards(seen, level, stock);
-  if (reward.hearts) await setMeta('bossHearts', stock + reward.hearts);
+  if (level < seen) return news;
+  const reward = levelRewards(seen, level, { hearts, jokers });
+  if (reward.hearts) await setMeta('bossHearts', hearts + reward.hearts);
+  if (reward.jokers) await setMeta('bossJokers', jokers + reward.jokers);
   if (reward.bonusXp) await setMeta('bonusXp', (await getMeta('bonusXp', 0)) + reward.bonusXp);
   const parts = [];
-  if (reward.hearts) parts.push(`+${reward.hearts} ${reward.hearts === 1 ? 'serce' : 'serca'} na bossa`);
+  if (reward.jokers) parts.push(`+${reward.jokers} ${plural(reward.jokers, 'joker', 'jokery', 'jokerów')} 50/50`);
+  if (reward.hearts) parts.push('+1 serce na bossa');
   if (reward.bonusXp) parts.push(`+${reward.bonusXp} XP`);
-  const news = [`Poziom gracza ${level}: ${parts.join(', ')}`];
-  if (rankFor(level).tier > rankFor(seen).tier) news.push(`Nowa ranga: ${rankFor(level).label}`);
+  news.push(`Poziom gracza ${level}: ${parts.join(', ')}`);
+  if (reward.ranks) news.push(`Nowa ranga: ${rankFor(level).label} i nowy lakier auta w „Drodze”`);
   return news;
 }
 
@@ -257,7 +284,7 @@ export async function claimChallenge(day) {
 }
 
 export async function challengeBonus() {
-  // razem z XP przyznanym za poziomy przy pełnym zapasie serc
+  // razem z XP przyznanym za poziomy przy pełnym zapasie serc i jokerów
   return Object.keys(await getMeta('challengeDone', {})).length * CHALLENGE_XP + (await getMeta('bonusXp', 0));
 }
 

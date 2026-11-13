@@ -1,10 +1,10 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
-import { BOSS_TYPES, bossFor, applyHit, applyMiss, isDefeated, BOSS_HEARTS } from '../src/engine/boss.js';
+import { BOSS_TYPES, bossFor, applyHit, applyMiss, isDefeated, fiftyFifty, BOSS_HEARTS } from '../src/engine/boss.js';
 import { SPRITES } from '../src/engine/sprites.js';
 import { MAP_CELLS } from '../src/engine/map.js';
 import 'fake-indexeddb/auto';
-import { rankFor, levelRewards, HEART_STOCK_MAX, LEVEL_BONUS_XP } from '../src/engine/insights.js';
+import { rankFor, levelRewards, HEART_STOCK_MAX, JOKER_MAX, LEVEL_BONUS_XP } from '../src/engine/insights.js';
 
 const start = (boss) => ({ hp: boss.hp, hearts: BOSS_HEARTS, shield: Boolean(boss.shield) });
 
@@ -68,8 +68,22 @@ test('ranks change every 5 levels and continue with stars after the last one', (
   assert.equal(rankFor(41).label, 'Nativo ★★★');
 });
 
-test('every level pays out: hearts up to the cap, bonus XP beyond it', () => {
-  assert.deepEqual(levelRewards(4, 5, 0), { hearts: 1, bonusXp: 0 });
-  assert.deepEqual(levelRewards(4, 7, 1), { hearts: 1, bonusXp: 2 * LEVEL_BONUS_XP });
-  assert.deepEqual(levelRewards(9, 10, HEART_STOCK_MAX), { hearts: 0, bonusXp: LEVEL_BONUS_XP });
+test('every level gives a 50/50 joker, a new rank also a heart; full stock pays XP', () => {
+  assert.deepEqual(levelRewards(1, 2, {}), { hearts: 0, jokers: 1, bonusXp: 0, ranks: 0 });
+  assert.deepEqual(levelRewards(4, 5, { hearts: 0, jokers: 0 }), { hearts: 1, jokers: 1, bonusXp: 0, ranks: 1 });
+  // trzy poziomy przy jednym jokerze: dwa jokery do pełna, trzeci poziom to XP
+  assert.deepEqual(levelRewards(6, 9, { hearts: 0, jokers: 1 }), { hearts: 0, jokers: 1, bonusXp: 2 * LEVEL_BONUS_XP, ranks: 0 });
+  assert.deepEqual(
+    levelRewards(9, 10, { hearts: HEART_STOCK_MAX, jokers: JOKER_MAX }),
+    { hearts: 0, jokers: 0, bonusXp: 2 * LEVEL_BONUS_XP, ranks: 1 },
+  );
+});
+
+test('the 50/50 joker leaves the answer and exactly one wrong option', () => {
+  for (const options of [['a', 'b', 'c', 'd'], ['a', 'b', 'c']]) {
+    const gone = fiftyFifty(options, 'c');
+    assert.equal(options.length - gone.length, 2);
+    assert.ok(!gone.includes('c'));
+  }
+  assert.deepEqual(fiftyFifty(['el', 'la'], 'la'), []);
 });
