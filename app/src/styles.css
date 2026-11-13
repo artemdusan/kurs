@@ -1126,3 +1126,9 @@ h3, .preview-h { font-family: var(--ui); font-size: 12px; font-weight: 800; lett
 .card-row.challenge::after { content: none; }
 .card-row.challenge svg { color: var(--gold); }
 .card-row.challenge.done, .card-row.challenge.done svg, .card-row.challenge.done .card-row-value { color: var(--green); }
+
+/* „Droga”: mnożnik serii stoi przy wyniku */
+.road-score { display: inline-flex; align-items: center; justify-content: flex-end; gap: 8px; min-width: 96px; }
+.road-mult { font-size: 10px; padding: 3px 5px; background: var(--card2); color: var(--amber); animation: popBlock 0.2s steps(3); }
+.road-mult.max { background: var(--gold); color: #3b2900; }
+.road .session-top > .btn.ghost { min-width: 96px; text-align: left; }

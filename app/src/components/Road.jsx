@@ -271,11 +271,15 @@ export default function Road({ maxLesson, onExit }) {
             <span key={i} className={'heart' + (i < lives ? '' : ' lost')}><Icon name="heart" size={20} /></span>
           ))}
         </span>
-        <span className="pairs-score" aria-label={`Wynik ${score}`}>{score}</span>
+        <span className="pairs-score road-score" aria-label={`Wynik ${score}, mnożnik ×${Math.min(5, Math.max(1, combo))}`}>
+          {/* mnożnik punktów za serię (najwyżej ×5) — przy wyniku, nie przy słowie */}
+          {combo >= 2 && <span className={'road-mult' + (combo >= 5 ? ' max' : '')} key={Math.min(5, combo)}>×{Math.min(5, combo)}</span>}
+          {score}
+        </span>
       </div>
       <div className={'road-card' + (flash ? (flash.ok ? ' ok' : ' bad') : '')}>
         <span className="road-noun">{flash ? flash.article + ' ' : ''}{card.noun}</span>
-        <span className="sprint-pl">{combo >= 2 ? `seria ×${Math.min(5, combo)} · ` : ''}{card.pl}</span>
+        <span className="sprint-pl">{card.pl}</span>
       </div>
       <canvas
         ref={canvasRef}
