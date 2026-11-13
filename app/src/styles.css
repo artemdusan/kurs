@@ -1064,7 +1064,30 @@ h3, .preview-h { font-family: var(--ui); font-size: 12px; font-weight: 800; lett
 .road-card.bad { background: var(--red-dark); animation: shake 0.3s steps(6); }
 .road-card.ok .road-noun { color: var(--green); }
 .road-noun { font-size: 30px; font-weight: 800; line-height: 1.15; overflow-wrap: anywhere; }
-.road-canvas { flex: 1; min-height: 0; width: 100%; image-rendering: pixelated; touch-action: none; cursor: pointer; box-shadow: 0 0 0 2px var(--edge-dark); }
+.road-view { position: relative; flex: 1; min-height: 0; box-shadow: 0 0 0 2px var(--edge-dark); }
+.road-canvas { position: absolute; inset: 0; width: 100%; height: 100%; image-rendering: pixelated; touch-action: none; cursor: pointer; }
+
+/* „Droga”: podróż przez Hiszpanię — region na pasku, baner powitalny, pocztówki */
+.road-region { display: flex; flex-direction: column; align-items: center; gap: 4px; min-width: 0; }
+.road-region-name { font-family: var(--pixel); font-size: 10px; color: var(--gold); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
+.road-region-bar { display: flex; gap: 2px; }
+.road-region-bar i { width: 5px; height: 4px; background: var(--card2); }
+.road-region-bar i.on { background: var(--gold); }
+.road-banner { position: absolute; left: 50%; top: 14%; transform: translateX(-50%); display: flex; flex-direction: column; align-items: center; gap: 4px; padding: 10px 16px; background: rgba(13, 10, 20, 0.82); box-shadow: inset 2px 2px 0 var(--edge-light), inset -2px -2px 0 var(--edge-dark); text-align: center; pointer-events: none; white-space: nowrap; animation: popBlock 0.25s steps(3); }
+.road-banner b { font-family: var(--pixel); font-weight: 400; font-size: 16px; color: var(--gold); }
+.road-banner span { font-size: 12px; color: var(--muted); }
+.road-banner .road-banner-hi { font-size: 11px; color: #fff; }
+.road-banner .road-banner-card { color: var(--green); font-weight: 700; }
+.postcards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; width: 100%; }
+.postcard { margin: 0; display: flex; flex-direction: column; gap: 4px; padding: 4px; background: var(--card); box-shadow: inset 2px 2px 0 var(--edge-light), inset -2px -2px 0 var(--edge-dark); }
+.postcard canvas, .postcard-lock { width: 100%; aspect-ratio: 3 / 2; image-rendering: pixelated; }
+.postcard-lock { display: flex; align-items: center; justify-content: center; background: var(--card2); color: var(--muted); }
+.postcard figcaption { font-size: 11px; text-align: center; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.postcard.locked figcaption { color: var(--muted); }
+.postcard.fresh { box-shadow: 0 0 0 2px var(--gold); }
+.road-fresh { margin: 0; color: var(--green); font-weight: 700; }
+.game-xp { margin: 0; font-family: var(--pixel); font-size: 10px; color: var(--gold); text-align: center; }
+.game-xp.limited { font-family: inherit; font-size: 12px; color: var(--muted); }
 .btn.road-btn { padding: 18px 8px; font-size: 18px; opacity: 0.6; touch-action: manipulation; }
 .btn.road-btn.active { opacity: 1; outline: 3px solid var(--text); outline-offset: -3px; }
 @media (prefers-reduced-motion: reduce) { .road-card.bad { animation: none; } }

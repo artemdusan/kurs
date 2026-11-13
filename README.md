@@ -66,6 +66,13 @@ Skrypt `scripts/copy-data.mjs` kopiuje dane kursu do `app/public/data` przed dev
 - **Droga** (`Road.jsx`): jazda w pseudo-3D rysowana na canvasie 2D. Lewy pas to „el”,
   prawy „la”; wjeżdżasz w bramkę pasującą do rzeczownika. Trafienia przyspieszają jazdę,
   pierwsza stłuczka kończy grę (bez żyć). Punkty jak w „Parach”, skrót `/?start=road`.
+  Jazda to podróż przez Hiszpanię (`engine/journey.js`): co 10 trafień bez stłuczki auto
+  wjeżdża do kolejnego regionu (Madrid, La Mancha, Andalucía, Pirineos, Costa Brava,
+  Barcelona nocą) i krajobraz się zmienia. Pierwszy wjazd do regionu daje pocztówkę
+  do kolekcji (5 do zebrania, widać je na końcu jazdy i w Statystykach). Pocztówki nie dają XP.
+- **Limit XP z gier**: „Droga” i „Pary” liczą się do XP (i liczników dnia) najwyżej do
+  30 trafień dziennie, łącznie z obu gier. Ponad limit gra się o rekord i pocztówki, a czas
+  gry dalej liczy się do dziennego celu minut. Licznik jest lokalny, synchronizacja bez zmian.
 - **Ranga i nagrody za poziom**: co 5 poziomów nowa ranga (Turista, Viajero, Estudiante,
   Vecino, Hablante, Nativo, potem Nativo z gwiazdkami bez końca). Każdy poziom daje jokera
   50/50 na bossa (zapas do 2, raz na walkę: zostają dobra i jedna zła odpowiedź). Nowa ranga

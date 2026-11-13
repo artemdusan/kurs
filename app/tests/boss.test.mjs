@@ -2,9 +2,10 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { BOSS_TYPES, bossFor, applyHit, applyMiss, isDefeated, fiftyFifty, BOSS_HEARTS } from '../src/engine/boss.js';
 import { SPRITES } from '../src/engine/sprites.js';
+import { REGIONS, POSTCARDS, regionAt } from '../src/engine/journey.js';
 import { MAP_CELLS } from '../src/engine/map.js';
 import 'fake-indexeddb/auto';
-import { rankFor, levelRewards, HEART_STOCK_MAX, JOKER_MAX, LEVEL_BONUS_XP } from '../src/engine/insights.js';
+import { rankFor, levelRewards, gameCounters, HEART_STOCK_MAX, JOKER_MAX, LEVEL_BONUS_XP, GAME_XP_HITS } from '../src/engine/insights.js';
 
 const start = (boss) => ({ hp: boss.hp, hearts: BOSS_HEARTS, shield: Boolean(boss.shield) });
 
@@ -52,6 +53,25 @@ test('no base hearts: the first miss ends the fight, an extra heart buys one mis
   const once = applyMiss(withExtra, boss);
   assert.equal(isDefeated(once), false);
   assert.equal(isDefeated(applyMiss(once, boss)), true);
+});
+
+test('games count toward XP only up to the daily hit limit', () => {
+  assert.equal(GAME_XP_HITS, 30);
+  assert.deepEqual(gameCounters(12, 1, 0), { correct: 12, wrong: 1, limited: false });
+  // 25 już zaliczonych: z 20 trafień zmieści się 5, błędy proporcjonalnie (4 * 5/20 = 1)
+  assert.deepEqual(gameCounters(20, 4, 25), { correct: 5, wrong: 1, limited: true });
+  assert.deepEqual(gameCounters(10, 1, 30), { correct: 0, wrong: 0, limited: true });
+  assert.deepEqual(gameCounters(0, 1, 30), { correct: 0, wrong: 1, limited: false });
+});
+
+test('the road trip changes region every 10 hits and stops at the last one', () => {
+  assert.equal(regionAt(0), 0);
+  assert.equal(regionAt(9), 0);
+  assert.equal(regionAt(10), 1);
+  assert.equal(REGIONS[regionAt(25)].key, 'andalucia');
+  assert.equal(regionAt(500), REGIONS.length - 1);
+  assert.equal(POSTCARDS.length, REGIONS.length - 1);
+  assert.ok(!POSTCARDS.some((p) => p.key === 'madrid'));
 });
 
 test('the course map has one cell per lesson', () => {

@@ -260,14 +260,43 @@ export function challengeProgress(challenge, counters = {}, games = {}) {
 
 /** Najlepszy dzisiejszy wynik gry (do wyzwania dnia); zwraca rekord wszech czasów sprzed zapisu. */
 export async function saveGameScore(game, score, today) {
-  const row = await getMeta('gameToday', null);
-  const games = row && row.day === today ? row : { day: today };
-  games[game] = Math.max(games[game] || 0, score);
-  await setMeta('gameToday', games);
-  const key = game + 'Best';
-  const previous = await getMeta(key, 0);
-  if (score > previous) await setMeta(key, score);
-  return previous;
+  return db.transaction('rw', db.meta, async () => {
+    const row = await getMeta('gameToday', null);
+    const games = row && row.day === today ? row : { day: today };
+    games[game] = Math.max(games[game] || 0, score);
+    await setMeta('gameToday', games);
+    const key = game + 'Best';
+    const previous = await getMeta(key, 0);
+    if (score > previous) await setMeta(key, score);
+    return previous;
+  });
+}
+
+// --- limit XP z gier ---------------------------------------------------------
+// Gry („Droga”, „Pary”) są dodatkiem do nauki: do XP (i liczników dnia) liczy się
+// najwyżej GAME_XP_HITS trafień dziennie, łącznie z obu gier. Ponad limit gra się
+// o rekord i pocztówki; czas gry dalej liczy się do dziennego celu minut.
+// Licznik jest lokalny (meta „gameToday”), więc synchronizacja się nie zmienia.
+export const GAME_XP_HITS = 30;
+
+/** Co z gry trafi do liczników dnia (czysta funkcja): trafienia do limitu, błędy proporcjonalnie.
+ * `limited` = część trafień nie zmieściła się w limicie. */
+export function gameCounters(hits, mistakes, counted) {
+  const correct = Math.min(Math.max(0, hits), Math.max(0, GAME_XP_HITS - (counted || 0)));
+  const wrong = correct >= hits ? mistakes : Math.round((mistakes * correct) / Math.max(1, hits));
+  return { correct, wrong, limited: correct < hits };
+}
+
+/** Zalicza trafienia z gry do dzisiejszego limitu; zwraca { correct, wrong } do zapisania w liczniku dnia. */
+export async function countGameHits(hits, mistakes, today) {
+  return db.transaction('rw', db.meta, async () => {
+    const row = await getMeta('gameToday', null);
+    const games = row && row.day === today ? row : { day: today };
+    const out = gameCounters(hits, mistakes, games.counted);
+    games.counted = (games.counted || 0) + out.correct;
+    await setMeta('gameToday', games);
+    return out;
+  });
 }
 
 export async function gamesToday(today) {

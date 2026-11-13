@@ -1,14 +1,18 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { addActivity } from '../activity.js';
-import { loadDeck, sprintDeck, pairPoints, saveGameScore } from '../engine/insights.js';
+import { loadDeck, sprintDeck, pairPoints, saveGameScore, countGameHits } from '../engine/insights.js';
+import { REGIONS, REGION_HITS, POSTCARDS, regionAt, drawScenery, postcards, collectPostcard, farthestRegion, saveFarthest } from '../engine/journey.js';
 import { localDay } from '../../../shared/learning.js';
 import Icon from './Icon.jsx';
+import GameXp from './GameXp.jsx';
+import Postcard from './Postcard.jsx';
 import { burst, floatText, rain, centerOf, COLORS } from '../particles.js';
 import { sfx } from '../sound.js';
 
 // Mini gra „Droga”: jedziesz w głąb ekranu, nadjeżdża bramka z dwoma pasami —
 // lewy to „el”, prawy to „la”. Wjedź w pas pasujący do rzeczownika. Każde trafienie
-// przyspiesza jazdę, pierwsza stłuczka kończy grę. Jak „Pary”: nie zmienia poziomów kart,
+// przyspiesza jazdę, pierwsza stłuczka kończy grę. Co 10 trafień auto wjeżdża
+// do kolejnego regionu Hiszpanii (engine/journey.js) — pierwszy wjazd daje pocztówkę. Jak „Pary”: nie zmienia poziomów kart,
 // ale liczy się do dnia nauki.
 // Droga jest rysowana w pseudo-3D na zwykłym canvasie 2D, w niskiej rozdzielczości
 // powiększonej bez wygładzania — stąd pikselowy wygląd bez żadnej biblioteki.
@@ -31,38 +35,8 @@ export const CAR_PAINTS = [
 ];
 export const carPaint = (tier) => CAR_PAINTS[Math.max(0, Math.min(CAR_PAINTS.length - 1, tier || 0))];
 
-const SKY = ['#1b1035', '#2b1648', '#4a1d5c', '#7a2a5e', '#b8455a', '#e8804f'];
-
 function draw(ctx, W, H, g, labels, paint) {
-  const y0 = Math.round(H * 0.36);
-  const ground = H - y0;
-  const cx = W / 2;
-  const roadW = W * 0.5; // połowa szerokości drogi przy dolnej krawędzi
-  // niebo o zachodzie słońca, słońce i góry
-  const band = Math.ceil(y0 / SKY.length);
-  SKY.forEach((c, i) => { ctx.fillStyle = c; ctx.fillRect(0, i * band, W, band); });
-  ctx.fillStyle = '#ffd23f';
-  const sunR = Math.round(W * 0.09);
-  for (let y = -sunR; y <= 0; y++) { const half = Math.round(Math.sqrt(sunR * sunR - y * y)); if ((y & 3) !== 3) ctx.fillRect(Math.round(cx - half), y0 + y, half * 2, 1); }
-  ctx.fillStyle = '#2a1a3e';
-  for (let x = 0; x < W; x++) {
-    const h = Math.abs(((x * 7 + 13) % 46) - 23) * 0.35 + Math.abs(((x * 3) % 90) - 45) * 0.22;
-    ctx.fillRect(x, Math.round(y0 - h), 1, Math.ceil(h));
-  }
-  // ziemia i droga: linia po linii, im bliżej horyzontu, tym większa odległość
-  for (let y = y0; y < H; y++) {
-    const k = (y - y0 + 1) / ground;      // 0 przy horyzoncie, 1 przy dole
-    const d = 1 / k;
-    const stripe = Math.floor((d + g.pos) * 1.4) & 1;
-    const half = roadW * k;
-    ctx.fillStyle = stripe ? '#3b6b2f' : '#44792f';
-    ctx.fillRect(0, y, W, 1);
-    ctx.fillStyle = stripe ? '#f1f5f9' : '#ef4444';
-    ctx.fillRect(Math.round(cx - half * 1.12), y, Math.ceil(half * 2.24), 1);
-    ctx.fillStyle = stripe ? '#3a3145' : '#40374c';
-    ctx.fillRect(Math.round(cx - half), y, Math.ceil(half * 2), 1);
-    if (stripe) { ctx.fillStyle = '#f1f5f9'; ctx.fillRect(Math.round(cx - Math.max(0.5, half * 0.03)), y, Math.max(1, Math.round(half * 0.06)), 1); }
-  }
+  const { y0, ground, cx, roadW } = drawScenery(ctx, W, H, REGIONS[g.region], g.pos);
   // bramka: dwa pola nad pasami, rosną wraz z przybliżaniem
   if (g.gate > 0) {
     const k = 1 / g.gate;
@@ -111,12 +85,18 @@ export default function Road({ maxLesson, rankTier = 0, onExit }) {
   const [phase, setPhase] = useState('load'); // load | play | done | empty
   const [best, setBest] = useState(0);
   const [record, setRecord] = useState(false);
+  const [region, setRegion] = useState(0); // indeks w REGIONS
+  const [banner, setBanner] = useState(null); // { es, pl, fresh } po wjeździe do regionu
+  const [counted, setCounted] = useState(null); // co z jazdy zaliczono do XP (limit dzienny)
+  const [album, setAlbum] = useState({}); // zebrane pocztówki
+  const [farthest, setFarthest] = useState(0);
+  const freshRef = useRef([]); // pocztówki zdobyte w tej jeździe
   const canvasRef = useRef(null);
   const deckRef = useRef([]);
   const posRef = useRef(0);
   const cardRef = useRef(null);
   const statsRef = useRef({ hits: 0, mistakes: 0, seconds: 0, saved: false });
-  const g = useRef({ pos: 0, gate: GATE_START, lane: 0, carX: 0.25, shake: 0, wait: 0, verdict: null, combo: 0, score: 0, crashed: false }).current;
+  const g = useRef({ pos: 0, gate: GATE_START, lane: 0, carX: 0.25, shake: 0, wait: 0, verdict: null, combo: 0, score: 0, crashed: false, region: 0 }).current;
 
   function nextCard() {
     const deck = deckRef.current;
@@ -130,11 +110,12 @@ export default function Road({ maxLesson, rankTier = 0, onExit }) {
 
   async function save() {
     const s = statsRef.current;
-    if (s.saved) return;
+    if (s.saved) return null;
     s.saved = true;
-    if (s.hits + s.mistakes + s.seconds > 0) {
-      await addActivity({ correct: s.hits, wrong: s.mistakes, seconds: s.seconds }).catch(() => {});
-    }
+    if (s.hits + s.mistakes + s.seconds === 0) return null;
+    const counted = await countGameHits(s.hits, s.mistakes, localDay()).catch(() => ({ correct: 0, wrong: 0, limited: true }));
+    await addActivity({ correct: counted.correct, wrong: counted.wrong, seconds: s.seconds }).catch(() => {});
+    return counted;
   }
 
   async function finish() {
@@ -142,15 +123,20 @@ export default function Road({ maxLesson, rankTier = 0, onExit }) {
     const previous = await saveGameScore('road', g.score, localDay());
     setBest(Math.max(previous, g.score));
     if (g.score > previous && previous > 0) { setRecord(true); rain({ colors: COLORS.gold, seconds: 2 }); sfx.fanfare(); }
-    await save();
+    await saveFarthest(g.region);
+    setFarthest(await farthestRegion());
+    setAlbum(await postcards());
+    setCounted(await save());
   }
 
   function start() {
     statsRef.current = { hits: 0, mistakes: 0, seconds: 0, saved: false };
     deckRef.current = [...deckRef.current].sort(() => Math.random() - 0.5);
     posRef.current = 0;
-    Object.assign(g, { pos: 0, lane: 0, carX: 0.25, shake: 0, wait: 0, combo: 0, score: 0, crashed: false });
+    Object.assign(g, { pos: 0, lane: 0, carX: 0.25, shake: 0, wait: 0, combo: 0, score: 0, crashed: false, region: 0 });
     setScore(0); setCombo(0); setLane(0); setRecord(false);
+    setRegion(0); setBanner(null); setCounted(null);
+    freshRef.current = [];
     setPhase('play');
     nextCard();
   }
@@ -158,6 +144,22 @@ export default function Road({ maxLesson, rankTier = 0, onExit }) {
   function steer(n) {
     g.lane = n;
     setLane(n);
+  }
+
+  // kolejny region podróży: baner powitalny, a przy pierwszym wjeździe pocztówka
+  async function enterRegion(next) {
+    if (next <= g.region) return;
+    g.region = next;
+    setRegion(next);
+    const place = REGIONS[next];
+    setBanner({ es: place.es, pl: place.pl, fresh: false });
+    rain({ seconds: 1.2 });
+    const fresh = await collectPostcard(place.key, localDay());
+    if (fresh) {
+      freshRef.current.push(place.key);
+      setBanner((b) => (b && b.es === place.es ? { ...b, fresh: true } : b));
+    }
+    setTimeout(() => setBanner((b) => (b && b.es === place.es ? null : b)), 2400);
   }
 
   // bramka dojechała do samochodu: pas rozstrzyga odpowiedź
@@ -177,6 +179,7 @@ export default function Road({ maxLesson, rankTier = 0, onExit }) {
       floatText({ x: at.x, y: at.y - 40 }, `+${points}`, { color: g.combo >= 3 ? '#ffd23f' : '#ffffff' });
       sfx.pair(g.combo);
       g.wait = 0.25;
+      enterRegion(regionAt(statsRef.current.hits));
     } else {
       g.combo = 0;
       g.crashed = true; // bez żyć: pierwsza stłuczka kończy jazdę
@@ -264,7 +267,14 @@ export default function Road({ maxLesson, rankTier = 0, onExit }) {
         <h2>{record ? 'Nowy rekord!' : 'Koniec jazdy!'}</h2>
         <p className={'pairs-final' + (record ? ' record' : '')}>{score}</p>
         <p className="pairs-sub"><Icon name="trophy" size={14} /> rekord: {best}</p>
-        <p className="hint">Trafione: {s.hits} · stłuczki: {s.mistakes}</p>
+        <p className="hint">Trafione: {s.hits} · region: <b>{REGIONS[region].es}</b>{farthest > region ? ` · najdalej: ${REGIONS[farthest].es}` : ''}</p>
+        <GameXp counted={counted} />
+        {freshRef.current.length > 0 && (
+          <p className="road-fresh">Nowa pocztówka: {freshRef.current.map((k) => REGIONS.find((r) => r.key === k).es).join(', ')}!</p>
+        )}
+        <div className="postcards" aria-label={`Pocztówki: ${POSTCARDS.filter((p) => album[p.key]).length} z ${POSTCARDS.length}`}>
+          {POSTCARDS.map((p) => <Postcard key={p.key} region={p} owned={Boolean(album[p.key])} fresh={freshRef.current.includes(p.key)} />)}
+        </div>
         <button className="btn primary big" onClick={start}>Jeszcze raz</button>
         <button className="btn" onClick={() => onExit()}>Wróć do kursu</button>
       </div>
@@ -278,7 +288,14 @@ export default function Road({ maxLesson, rankTier = 0, onExit }) {
         <button className="btn ghost" onClick={async () => { await save(); onExit(); }} aria-label="Zakończ grę">
           <Icon name="close" />
         </button>
-        <span className="top-spacer" />
+        <span className="road-region" aria-label={`Region: ${REGIONS[region].es}`}>
+          <span className="road-region-name">{REGIONS[region].es}</span>
+          {region < REGIONS.length - 1 && (
+            <span className="road-region-bar" aria-hidden="true">
+              {Array.from({ length: REGION_HITS }, (_, i) => <i key={i} className={i < statsRef.current.hits - region * REGION_HITS ? 'on' : ''} />)}
+            </span>
+          )}
+        </span>
         <span className="pairs-score road-score" aria-label={`Wynik ${score}, mnożnik ×${Math.min(5, Math.max(1, combo))}`}>
           {/* mnożnik punktów za serię (najwyżej ×5) — przy wyniku, nie przy słowie */}
           {combo >= 2 && <span className={'road-mult' + (combo >= 5 ? ' max' : '')} key={Math.min(5, combo)}>×{Math.min(5, combo)}</span>}
@@ -289,11 +306,21 @@ export default function Road({ maxLesson, rankTier = 0, onExit }) {
         <span className="road-noun">{flash ? flash.article + ' ' : ''}{card.noun}</span>
         <span className="sprint-pl">{card.pl}</span>
       </div>
-      <canvas
-        ref={canvasRef}
-        className="road-canvas"
-        onPointerDown={(e) => { const r = e.currentTarget.getBoundingClientRect(); steer(e.clientX - r.left < r.width / 2 ? 0 : 1); }}
-      />
+      <div className="road-view">
+        <canvas
+          ref={canvasRef}
+          className="road-canvas"
+          onPointerDown={(e) => { const r = e.currentTarget.getBoundingClientRect(); steer(e.clientX - r.left < r.width / 2 ? 0 : 1); }}
+        />
+        {banner && (
+          <div className="road-banner" key={banner.es} role="status">
+            <span className="road-banner-hi">Bienvenidos a</span>
+            <b>{banner.es}</b>
+            <span>{banner.pl}</span>
+            {banner.fresh && <span className="road-banner-card">nowa pocztówka!</span>}
+          </div>
+        )}
+      </div>
       <div className="sprint-buttons">
         {options.map((a, i) => (
           <button
