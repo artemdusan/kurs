@@ -18,7 +18,8 @@ Skrypt `scripts/copy-data.mjs` kopiuje dane kursu do `app/public/data` przed dev
 
 - **Ekran główny** ma jedną kartę lekcji (numer, temat, postęp i ile kart dzieli od
   kolejnej lekcji), wyzwanie dnia w jednej linijce, materiał lekcji i przycisk sesji.
-  Poziom gracza jest w nagłówku, a liczby XP i awanse w Statystykach.
+  Nagłówek to jeden pasek stanu: seria, minuty dziś względem celu i poziom gracza
+  z zapasem serc na bossa; dotknięcie otwiera Statystyki (tam ranga i liczby XP).
 - **Pierwsze uruchomienie** zaczyna się od krótkiego powitania i prowadzi prosto do
   pierwszej sesji.
 - **Boss** (`Boss.jsx`, zasady w `engine/boss.js`): gdy wszystkie karty mają poziom 3,
