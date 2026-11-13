@@ -1111,3 +1111,18 @@ h3, .preview-h { font-family: var(--ui); font-size: 12px; font-weight: 800; lett
 .stats-bar .xp-line { position: absolute; left: calc(66.67% + 8px); right: 10px; bottom: 3px; width: auto; height: 3px; background: rgba(0, 0, 0, 0.35); }
 .stats-bar .xp-line .xp-fill { display: block; }
 .btn.settings-btn { align-self: stretch; padding: 8px 12px; }
+
+/* --- karta lekcji: wiersze „co — ile” (droga do lekcji, wyzwanie dnia) --- */
+.lesson-card { height: auto; min-height: 0; padding: 10px 12px 8px; }
+.card-rows { display: flex; flex-direction: column; }
+.card-row { display: flex; align-items: center; gap: 8px; padding: 5px 0; font-size: 13px; color: var(--muted); }
+.card-row + .card-row { border-top: 1px solid rgba(255, 255, 255, 0.07); }
+.card-row svg { flex: none; }
+.card-row-label { flex: 1; min-width: 0; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+.card-row-value { flex: none; font-family: var(--pixel); font-size: 9px; color: var(--amber); }
+.card-row.ready { color: var(--gold); font-weight: 700; }
+.card-row.ready .card-row-value { color: var(--gold); }
+.card-row.challenge { position: static; background: none; box-shadow: none; overflow: visible; }
+.card-row.challenge::after { content: none; }
+.card-row.challenge svg { color: var(--gold); }
+.card-row.challenge.done, .card-row.challenge.done svg, .card-row.challenge.done .card-row-value { color: var(--green); }
