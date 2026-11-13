@@ -351,24 +351,33 @@ export default function App() {
   return (
     <div className="screen home">
       <header className="home-header">
+        {/* jeden pasek stanu: seria, dzisiejszy cel minut, poziom gracza — całość otwiera Statystyki */}
         <button
-          className="btn ghost stats-bar"
-          title={`Statystyki — dziś ${today.minutes} min (cel ${settings.dailyGoalMinutes || 10}), seria ${streak.count || 0} dni, łącznie ${player.xp} XP`}
+          className="stats-bar"
+          title={`Statystyki — ranga ${rankFor(player.level).label}, łącznie ${player.xp} XP`}
           onClick={() => setView('stats')}
         >
-          <FaceIcon status={today.status} size={18} />
-          {streak.count > 0 && <span className="streak-chip"><Icon name="fire" size={12} />{streak.count}</span>}
-          <span className="xp-level">LV {player.level}</span>
+          <span className="status-cell" aria-label={`Seria: ${streak.count || 0} dni`}>
+            <span className={'status-num' + (streak.count > 0 ? ' hot' : '')}><Icon name="fire" size={13} />{streak.count || 0}</span>
+            <span className="status-label">{streak.count === 1 ? 'dzień serii' : 'dni serii'}</span>
+          </span>
+          <span className="status-cell" aria-label={`Dziś ${today.minutes} z ${settings.dailyGoalMinutes || 10} minut`}>
+            <span className={'status-num goal-' + today.status}><FaceIcon status={today.status} size={15} />{today.minutes}<small>/{settings.dailyGoalMinutes || 10}</small></span>
+            <span className="status-label">minut dziś</span>
+          </span>
+          <span className="status-cell" aria-label={`Poziom ${player.level}, dodatkowe serca na bossa: ${hearts}`}>
+            <span className="status-num level">LV {player.level}</span>
+            <span className="status-label">
+              {hearts > 0
+                ? <span className="rank-hearts">{Array.from({ length: hearts }, (_, i) => <Icon key={i} name="heart" size={11} />)} na bossa</span>
+                : `${player.need - player.into} XP do ${player.level + 1}`}
+            </span>
+          </span>
+          <span className="xp-line" aria-hidden="true"><span className="xp-fill" style={{ width: Math.min(100, (player.into / player.need) * 100) + '%' }} /></span>
         </button>
-        <span className="rank-chip" title={`Ranga ${rankFor(player.level).label} — kolejna na poziomie ${rankFor(player.level).nextAt}. Dodatkowe serca na bossa: ${hearts}`}>
-          {rankFor(player.level).label}
-          {hearts > 0 && <span className="rank-hearts">{Array.from({ length: hearts }, (_, i) => <Icon key={i} name="heart" size={12} />)}</span>}
-        </span>
         <button className="btn ghost settings-btn" title="Ustawienia" aria-label="Ustawienia" onClick={() => setView('settings')}>
           <Icon name="gear" size={16} />
         </button>
-        {/* poziom gracza: cienka linia pod nagłówkiem, liczby są w Statystykach */}
-        <div className="xp-line" aria-hidden="true"><div className="xp-fill" style={{ width: Math.min(100, (player.into / player.need) * 100) + '%' }} /></div>
       </header>
 
       <div className="lesson-card" onTouchStart={onTouchStart} onTouchEnd={onTouchEnd}>
