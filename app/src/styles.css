@@ -946,6 +946,10 @@ h3, .preview-h { font-family: var(--ui); font-size: 12px; font-weight: 800; lett
 .btn.boss-option.right { background: var(--green); color: #06230c; }
 .btn.boss-option.wrong { background: var(--red); color: #fff; }
 .btn.boss-option.dim { opacity: 0.35; }
+.btn.boss-option.gone { opacity: 0.15; }
+.btn.ghost.boss-joker { min-width: 40px; padding: 6px 8px; font-family: var(--pixel); font-size: 10px; color: var(--gold); display: inline-flex; align-items: baseline; gap: 3px; }
+.btn.ghost.boss-joker small { font-size: 8px; color: var(--muted); }
+.btn.ghost.boss-joker:disabled { opacity: 0.4; }
 .boss-idle { animation: bossIdle 1.2s steps(2) infinite alternate; }
 .boss-hit { animation: bossHit 0.4s steps(6); }
 .boss-attack { animation: bossAttack 0.45s steps(6); }
@@ -1107,6 +1111,8 @@ h3, .preview-h { font-family: var(--ui); font-size: 12px; font-weight: 800; lett
 .status-label { display: flex; align-items: center; justify-content: center; font-size: 11px; color: var(--muted); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 100%; }
 .status-label .rank-hearts { gap: 3px; color: var(--muted); }
 .status-label .rank-hearts svg { color: var(--red); }
+.rank-hearts.rank-joker, .rank-joker, .status-label .rank-joker svg { color: var(--gold); }
+.rank-rewards { margin: -4px 0 0; font-size: 11px; color: var(--muted); text-align: center; }
 /* pasek XP należy do poziomu, więc leży tylko pod trzecią kolumną */
 .stats-bar .xp-line { position: absolute; left: calc(66.67% + 8px); right: 10px; bottom: 3px; width: auto; height: 3px; background: rgba(0, 0, 0, 0.35); }
 .stats-bar .xp-line .xp-fill { display: block; }

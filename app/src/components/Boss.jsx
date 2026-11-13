@@ -2,8 +2,8 @@ import React, { useEffect, useRef, useState } from 'react';
 import { setUnlockedLesson } from '../db.js';
 import { ensureLessonImported } from '../course.js';
 import { addActivity } from '../activity.js';
-import { loadDeck, heartStock, takeBossHeart } from '../engine/insights.js';
-import { bossFor, buildBossQuestions, finisherWords, applyHit, applyMiss, isDefeated, BOSS_HEARTS, CRIT_SHARE } from '../engine/boss.js';
+import { loadDeck, heartStock, takeBossHeart, jokerStock, takeJoker } from '../engine/insights.js';
+import { bossFor, buildBossQuestions, finisherWords, applyHit, applyMiss, isDefeated, fiftyFifty, BOSS_HEARTS, CRIT_SHARE } from '../engine/boss.js';
 import { checkAnswer, splitArticle } from '../engine/answer.js';
 import { buildKeyboard, articleButtons } from '../engine/keyboard.js';
 import Keyboard from './Keyboard.jsx';
@@ -43,6 +43,9 @@ export default function Boss({ maxLesson, index, settings, onExit }) {
   const [finWrong, setFinWrong] = useState(false);
   const [maxHearts, setMaxHearts] = useState(BOSS_HEARTS); // z dodatkowym sercem za poziom gracza
   const [spare, setSpare] = useState(0); // zapas dodatkowych serc
+  const [jokers, setJokers] = useState(0); // zapas jokerów 50/50
+  const [jokerUsed, setJokerUsed] = useState(false); // joker działa raz na walkę
+  const [removed, setRemoved] = useState([]); // opcje zdjęte jokerem w bieżącym pytaniu
   const ref = useRef({ state, questions: [], pos: 0, finishers: [], finPos: 0, startedAt: 0, timer: 0, locked: false, alive: true });
   const statsRef = useRef({ hits: 0, mistakes: 0, seconds: 0, saved: false });
   const r = ref.current;
@@ -65,7 +68,7 @@ export default function Boss({ maxLesson, index, settings, onExit }) {
     r.questions = await buildBossQuestions(deck, maxLesson, boss);
     r.finishers = finisherWords(deck, maxLesson);
     r.pos = 0; r.finPos = 0;
-    if (r.alive) setSpare(await heartStock());
+    if (r.alive) { setSpare(await heartStock()); setJokers(await jokerStock()); }
     return r.questions.length >= 4 && r.finishers.length > 0;
   }
 
@@ -84,7 +87,7 @@ export default function Boss({ maxLesson, index, settings, onExit }) {
     r.pos++;
     r.locked = false;
     r.startedAt = Date.now();
-    setQ(next); setPicked(null); setNote('');
+    setQ(next); setPicked(null); setNote(''); setRemoved([]);
     setPhase('fight');
     clearTimeout(r.timer);
     r.timer = later(() => answer(''), boss.time * 1000);
@@ -92,11 +95,28 @@ export default function Boss({ maxLesson, index, settings, onExit }) {
 
   async function startFight() {
     statsRef.current = { hits: 0, mistakes: 0, seconds: 0, saved: false };
-    const total = BOSS_HEARTS + (await takeBossHeart()); // dodatkowe serce zużywa się na tę walkę
+    // dodatkowe serce czeka w zapasie i zużywa się dopiero wtedy, gdy uratuje walkę
+    const total = BOSS_HEARTS + ((await heartStock()) > 0 ? 1 : 0);
     setMaxHearts(total);
+    setJokerUsed(false);
     put({ hp: boss.hp, hearts: total, shield: Boolean(boss.shield) });
     setFx('');
     nextQuestion();
+  }
+
+  // serc bazowych nie ma, więc każdy przeżyty błąd zużył serce za poziom gracza
+  function spendHeart(next) {
+    if (!isDefeated(next)) takeBossHeart().then(() => heartStock()).then((n) => { if (r.alive) setSpare(n); });
+  }
+
+  async function useJoker() {
+    if (r.locked || jokerUsed || jokers <= 0 || !q) return;
+    const gone = fiftyFifty(q.options, q.answer);
+    if (!gone.length) return;
+    setJokerUsed(true);
+    setRemoved(gone);
+    sfx.levelUp();
+    if (await takeJoker()) setJokers((n) => Math.max(0, n - 1));
   }
 
   async function rematch() {
@@ -148,6 +168,7 @@ export default function Boss({ maxLesson, index, settings, onExit }) {
       navigator.vibrate?.(150);
       burst(centerOf('.hearts'), { colors: COLORS.bad, power: 0.8 });
       sfx.wrong();
+      spendHeart(next);
       later(() => (isDefeated(next) ? lose() : nextQuestion()), 1500);
     }
   }
@@ -170,6 +191,7 @@ export default function Boss({ maxLesson, index, settings, onExit }) {
       animate('attack');
       navigator.vibrate?.(150);
       sfx.wrong();
+      spendHeart(next);
       later(() => (isDefeated(next) ? lose() : nextQuestion()), 2200);
     }
   }
@@ -218,7 +240,8 @@ export default function Boss({ maxLesson, index, settings, onExit }) {
           <p className="boss-trait">{boss.trait}</p>
           <ul className="boss-rules">
             <li><Icon name="bolt" size={16} /><span>Odpowiedz, zanim pasek ataku się zapełni. Szybka odpowiedź to cios krytyczny.</span></li>
-            <li><Icon name="heart" size={16} /><span>{spare ? 'Błąd albo spóźnienie kosztuje serce, a bez serca kończy walkę. Masz jedno dodatkowe za poziom gracza.' : 'Bez serc: pierwszy błąd albo spóźnienie kończy walkę. Serca dają dopiero poziomy gracza.'}</span></li>
+            <li><Icon name="heart" size={16} /><span>{spare ? 'Masz serce za rangę: uratuje cię przy pierwszym błędzie i dopiero wtedy się zużyje. Kolejny błąd kończy walkę.' : 'Bez serc: pierwszy błąd albo spóźnienie kończy walkę. Serce daje każda nowa ranga.'}</span></li>
+            <li><Icon name="joker" size={16} /><span>{jokers ? `Joker 50/50: raz na walkę usuwa złe odpowiedzi, zostają dwie. Masz ${jokers}.` : 'Jokery 50/50 dają kolejne poziomy gracza.'}</span></li>
             <li><Icon name="star" size={16} /><span>Na koniec cios kończący: wpisz słowo z lekcji.</span></li>
           </ul>
         </div>
@@ -267,7 +290,17 @@ export default function Boss({ maxLesson, index, settings, onExit }) {
             <span key={i} className={'heart' + (i < state.hearts ? '' : ' lost')}><Icon name="heart" size={20} /></span>
           ))}
         </span>
-        <span className="top-spacer" />
+        {!finisher && jokers > 0 && !jokerUsed ? (
+          <button
+            className="btn ghost boss-joker"
+            onClick={useJoker}
+            disabled={phase !== 'fight' || !q || q.options.length <= 2}
+            aria-label={`Joker 50/50, zapas ${jokers}`}
+            title="Joker 50/50: usuwa złe odpowiedzi, zostają dwie"
+          >
+            50:50<small>×{jokers}</small>
+          </button>
+        ) : <span className="top-spacer" />}
       </div>
 
       <div className="boss-stage">
@@ -295,9 +328,10 @@ export default function Boss({ maxLesson, index, settings, onExit }) {
           </div>
           <div className={'boss-options kind-' + q.kind + (q.options.length === 3 ? ' three' : '')}>
             {q.options.map((opt) => {
-              const cls = phase === 'reveal' ? (opt === q.answer ? ' right' : opt === picked ? ' wrong' : ' dim') : '';
+              const gone = removed.includes(opt);
+              const cls = phase === 'reveal' ? (opt === q.answer ? ' right' : opt === picked ? ' wrong' : ' dim') : gone ? ' gone' : '';
               return (
-                <button key={opt} className={'btn boss-option' + cls} disabled={phase !== 'fight'} onClick={() => answer(opt)}>{opt}</button>
+                <button key={opt} className={'btn boss-option' + cls} disabled={phase !== 'fight' || gone} onClick={() => answer(opt)}>{opt}</button>
               );
             })}
           </div>
