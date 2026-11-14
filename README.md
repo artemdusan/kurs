@@ -36,8 +36,21 @@ Skrypt `scripts/copy-data.mjs` kopiuje dane kursu do `app/public/data` przed dev
   są widoczne, ale nieaktywne.
 - **Pikselowa mapa** (`PixelMap`, nad listą lekcji): 100 pól w kształcie półwyspu, jedno
   na lekcję. Otwarte pola zielenieją wraz z postępem, w pełni opanowane są złote.
-- **Szybka sesja 2 min** i **Pary na czas** są pod ręką obok pełnej sesji, a po
-  przytrzymaniu ikony aplikacji działają jako skróty (`/?start=quick`, `/?start=pairs`).
+- **Szybka sesja 2 min**, **Gry** (salon gier) i ostatnio grana gra są pod ręką obok pełnej
+  sesji. Skróty: `/?start=quick`, `/?start=arcade` i `/?start=<gra>` (`pairs`, `road`, `lluvia`, `luka`, `eco`).
+- **Salon gier** (`Arcade.jsx`, lista gier w `engine/games.js`): wszystkie gry w jednej siatce
+  z tym, czego uczą, i rekordami. Na górze widać dzienny limit XP z gier, pod nim **gra dnia**
+  (wybierana z daty spośród otwartych gier; pierwsza ukończona rozgrywka daje +50 XP raz dziennie).
+  Gra otwarta z salonu wraca do salonu, a z ekranu głównego wraca na ekran główny. Część gier otwiera się
+  z kursem (Lluvia od lekcji 2, Eco od lekcji 3 i tylko z lektorem w przeglądarce).
+- **Lluvia** (`Lluvia.jsx`): z góry spada forma czasownika, a ty dotykasz osoby (yo… ellos).
+  Każde trafienie przyspiesza deszcz; błąd albo forma, która spadnie, kończy grę i pokazuje
+  poprawną odpowiedź.
+- **Luka** (`Luka.jsx`): 60 sekund zdań z przykładów lekcji z luką i czterema opcjami
+  (formy tego samego czasownika albo słowa tej samej części mowy). Polskie zdanie jest widoczne,
+  żeby wybór zależał od znaczenia. Błąd zabiera 3 sekundy i serię.
+- **Eco** (`Eco.jsx`): lektor czyta słowo, a ty wybierasz tłumaczenie z czterech; przycisk powtarza
+  słowo wolniej. Zasady czasu i serii jak w „Luce” (wspólny `TimedQuiz.jsx`).
 - **Nowe słowo** najpierw się przedstawia (słowo, zdanie, lektor), dopiero potem
   pada pytanie. Formy odmiany zaczynają od wyboru z trzech opcji, więc prezentacji nie mają.
 - **Po błędzie** widać własną odpowiedź z zaznaczonymi znakami, które nie pasują.
@@ -70,8 +83,8 @@ Skrypt `scripts/copy-data.mjs` kopiuje dane kursu do `app/public/data` przed dev
   wjeżdża do kolejnego regionu (Madrid, La Mancha, Andalucía, Pirineos, Costa Brava,
   Barcelona nocą) i krajobraz się zmienia. Pierwszy wjazd do regionu daje pocztówkę
   do kolekcji (5 do zebrania, widać je na końcu jazdy i w Statystykach). Pocztówki nie dają XP.
-- **Limit XP z gier**: „Droga” i „Pary” liczą się do XP (i liczników dnia) najwyżej do
-  30 trafień dziennie, łącznie z obu gier. Ponad limit gra się o rekord i pocztówki, a czas
+- **Limit XP z gier**: wszystkie gry liczą się do XP (i liczników dnia) najwyżej do
+  30 trafień dziennie, łącznie. Ponad limit gra się o rekord i pocztówki, a czas
   gry dalej liczy się do dziennego celu minut. Licznik jest lokalny, synchronizacja bez zmian.
 - **Ranga i nagrody za poziom**: co 5 poziomów nowa ranga (Turista, Viajero, Estudiante,
   Vecino, Hablante, Nativo, potem Nativo z gwiazdkami bez końca). Każdy poziom daje jokera
