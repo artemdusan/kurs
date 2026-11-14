@@ -273,8 +273,8 @@ export async function saveGameScore(game, score, today) {
 }
 
 // --- limit XP z gier ---------------------------------------------------------
-// Gry („Droga”, „Pary”) są dodatkiem do nauki: do XP (i liczników dnia) liczy się
-// najwyżej GAME_XP_HITS trafień dziennie, łącznie z obu gier. Ponad limit gra się
+// Gry z salonu są dodatkiem do nauki: do XP (i liczników dnia) liczy się
+// najwyżej GAME_XP_HITS trafień dziennie, łącznie ze wszystkich gier. Ponad limit gra się
 // o rekord i pocztówki; czas gry dalej liczy się do dziennego celu minut.
 // Licznik jest lokalny (meta „gameToday”), więc synchronizacja się nie zmienia.
 export const GAME_XP_HITS = 30;

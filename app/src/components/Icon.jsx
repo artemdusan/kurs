@@ -38,6 +38,14 @@ const PATHS = {
   joker: <path d="M6 3h12v18H6ZM6 21 18 3M9 7h2M13 17h2" />,
   heart: <path d="M12 20 L4 12 V7 H7 V5 H10 V7 H12 H14 V5 H17 V7 H20 V12 Z" fill="currentColor" stroke="none" />,
   road: <path d="M9 3 L4 21 M15 3 L20 21 M12 5v3 M12 11v3 M12 17v3" />,
+  // pad do gier: salon gier
+  games: <path d="M3 9h18v9H3ZM7 11.5v4M5 13.5h4M15 12.5h1M18 14.5h1M9 9V6h6v3" />,
+  // „Lluvia”: chmura i krople
+  rain: <path d="M6 12a4 4 0 0 1 1-7.9A5 5 0 0 1 16.5 5 3.5 3.5 0 0 1 18 12ZM8 15l-1 3M12 15l-1 3M16 15l-1 3" />,
+  // „Luka”: zdanie z dziurą
+  gap: <path d="M3 8h5M16 8h5M3 16h18M9.5 5.5h5v5h-5Z" />,
+  // „Eco”: ucho
+  ear: <path d="M7 10a5 5 0 0 1 10 0c0 3-3 4-3 7a3 3 0 0 1-5 2M10 10a2 2 0 0 1 4 0" />,
   trophy: <path d="M7 4h10v5a5 5 0 0 1-10 0ZM7 6H4v1a3 3 0 0 0 3 3M17 6h3v1a3 3 0 0 1-3 3M12 14v4M8 20h8" />,
 };
 

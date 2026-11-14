@@ -7,6 +7,7 @@ import { getDailyStats } from '../activity.js';
 import { localDay, shiftDay, currentStreak } from '../../../shared/learning.js';
 import Icon, { FaceIcon } from './Icon.jsx';
 import { POSTCARDS, postcards } from '../engine/journey.js';
+import { GAMES } from '../engine/games.js';
 
 // Statystyki na jednym ekranie telefonu, bez przewijania: seria i dzisiejszy cel,
 // kalendarz 5 tygodni, droga do kolejnej lekcji, stan talii, skuteczność.
@@ -93,8 +94,7 @@ export default function Stats({ maxLesson, lessonCount = 100, onBack, onHard }) 
         todayStatus: dayStatus(today, goalMin),
         streak: streak.count || 0,
         bestStreak: Math.max(bestStreak(daily), streak.count || 0),
-        pairsBest: await getMeta('pairsBest', 0),
-        roadBest: await getMeta('roadBest', 0),
+        records: await Promise.all(GAMES.map(async (g) => ({ ...g, best: await getMeta(g.id + 'Best', 0) }))),
         postcards: POSTCARDS.filter((p) => album[p.key]).length,
         player: playerLevel(playerXp(daily, await challengeBonus())),
         empty: Object.keys(daily).length === 0,
@@ -254,20 +254,20 @@ export default function Stats({ maxLesson, lessonCount = 100, onBack, onHard }) 
           <span className={'stat-big' + (data.weekAccuracy === null ? ' none' : '')}>{data.weekAccuracy === null ? '—' : data.weekAccuracy + '%'}</span>
           <span className="stat-label">skuteczność (7 dni)</span>
         </div>
-        <div className="stat-tile">
-          <span className="stat-big"><Icon name="trophy" size={18} /> {data.pairsBest}</span>
-          <span className="stat-label">rekord w „Parach”</span>
-        </div>
-      </div>
-
-      <div className="stat-duo">
-        <div className="stat-tile">
-          <span className="stat-big"><Icon name="road" size={18} /> {data.roadBest}</span>
-          <span className="stat-label">rekord w „Drodze”</span>
-        </div>
         <div className="stat-tile" title="Pocztówki z podróży w „Drodze”: pierwszy wjazd do regionu (co 10 trafień bez stłuczki)">
           <span className="stat-big"><Icon name="star" size={18} /> {data.postcards}/{POSTCARDS.length}</span>
           <span className="stat-label">pocztówki z „Drogi”</span>
+        </div>
+      </div>
+
+      <div className="stat-tile game-records" aria-label="Rekordy w grach">
+        <span className="stat-label">rekordy w grach</span>
+        <div className="game-records-row">
+          {data.records.map((g) => (
+            <span key={g.id} className={'game-record' + (g.best ? '' : ' none')} title={`${g.name}: ${g.teaches}`}>
+              <Icon name={g.icon} size={13} /> <b>{g.best || '—'}</b>
+            </span>
+          ))}
         </div>
       </div>
 

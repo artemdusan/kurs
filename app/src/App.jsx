@@ -12,6 +12,12 @@ import LessonPreview from './components/LessonPreview.jsx';
 import LessonList from './components/LessonList.jsx';
 import Pairs from './components/Pairs.jsx';
 import Road from './components/Road.jsx';
+import Lluvia from './components/Lluvia.jsx';
+import Luka from './components/Luka.jsx';
+import Eco from './components/Eco.jsx';
+import Arcade from './components/Arcade.jsx';
+import { hasVoice } from './components/useGameRun.js';
+import { GAMES, GAME_IDS, gameById, gameLock, featuredGame, claimFeatured, DEFAULT_LAST_GAME, FEATURED_XP } from './engine/games.js';
 import Boss from './components/Boss.jsx';
 import HardWords from './components/HardWords.jsx';
 import Welcome from './components/Welcome.jsx';
@@ -38,7 +44,7 @@ function updateBadge(status) {
 
 export default function App() {
   const [startupError, setStartupError] = useState('');
-  const [view, setView] = useState('loading'); // loading | welcome | tree | session | boss | quick | mistakes | hard | hardList | pairs | road | settings | stats | lessonList
+  const [view, setView] = useState('loading'); // loading | welcome | tree | session | boss | quick | mistakes | hard | hardList | arcade | pairs | road | lluvia | luka | eco | settings | stats | lessonList
   const [mistakeCount, setMistakeCount] = useState(0);
   const [browsingLesson, setBrowsingLesson] = useState(null); // przeglądana lekcja (null = bieżąca)
   const [index, setIndex] = useState(null);
@@ -55,6 +61,8 @@ export default function App() {
   const [challenge, setChallenge] = useState(null); // { label, target, value, done }
   const [toast, setToast] = useState('');
   const [run, setRun] = useState(0); // kolejne podejście do tej samej sesji (np. rewanż z bossem)
+  const [lastGame, setLastGame] = useState(DEFAULT_LAST_GAME); // gra pod ręką na ekranie głównym
+  const [gameReturn, setGameReturn] = useState('tree'); // dokąd wraca gra: salon albo ekran główny
 
   useEffect(() => {
     (async () => {
@@ -71,15 +79,17 @@ export default function App() {
       setSoundEnabled(s.sfx !== false);
       setUnlockedLesson(unlocked);
       knownUnlockedRef.current = unlocked;
+      const last = await getMeta('lastGame', DEFAULT_LAST_GAME);
+      setLastGame(gameById(last) ? last : DEFAULT_LAST_GAME);
       await refreshStats(idx, unlocked);
-      // skróty z ikony aplikacji i powiadomień: /?start=quick albo /?start=pairs
+      // skróty z ikony aplikacji i powiadomień: /?start=quick, /?start=arcade albo /?start=<gra>
       const start = new URLSearchParams(window.location.search).get('start');
       if (start) window.history.replaceState(null, '', window.location.pathname);
       // pierwsze uruchomienie: krótkie powitanie zamiast gęstego ekranu głównego
       const firstRun = !(await getMeta('welcomed', false)) && unlocked === 1 && Object.keys(await getDailyStats()).length === 0;
       // stary skrót „el/la” (sprint) prowadzi teraz do „Drogi”, która go zastąpiła
       const startView = start === 'sprint' ? 'road' : start;
-      setView(['quick', 'pairs', 'road'].includes(startView) ? startView : firstRun ? 'welcome' : 'tree');
+      setView(['quick', 'arcade', ...GAME_IDS].includes(startView) ? startView : firstRun ? 'welcome' : 'tree');
       // synchronizacja na starcie (w tle) — po niej sprawdź odblokowania
       // (postępy z innego urządzenia mogą spełniać próg) i odśwież widok
       if (resolveSyncUrl(s) && s.syncLogin) {
@@ -152,14 +162,29 @@ export default function App() {
     if (challengeProgress(ch, daily[today], await gamesToday(today)).done && (await claimChallenge(today))) {
       news.push(`Wyzwanie dnia: ${ch.label} (+${CHALLENGE_XP} XP)`);
     }
+    // gra dnia z salonu: bonus za pierwszą rozgrywkę (wynik zapisany dziś)
+    const open = GAMES.filter((g) => !gameLock(g, unlocked, hasVoice()));
+    const featured = featuredGame(today, open);
+    if (featured && (await claimFeatured(today, featured.id, await gamesToday(today)))) {
+      news.push(`Gra dnia: ${featured.name} (+${FEATURED_XP} XP)`);
+    }
     news.push(...(await claimLevelUp(playerLevel(playerXp(daily, await challengeBonus())).level)));
     return [...news, ...(await collectMilestones(unlocked))];
   }
 
-  // Po grze nie ma ekranu podsumowania sesji — nowości pokazujemy na ekranie głównym.
+  // Gra z salonu wraca do salonu, gra z ekranu głównego — na ekran główny.
+  function playGame(id, from = 'tree') {
+    setLastGame(id);
+    setMeta('lastGame', id).catch(() => {});
+    setGameReturn(from);
+    setView(id);
+  }
+
+  // Po grze nie ma ekranu podsumowania sesji — nowości pokazujemy jako toast.
   async function afterGame() {
     await refreshStats(index, unlockedLesson);
-    setView('tree');
+    setView(gameReturn);
+    setGameReturn('tree');
     const news = await collectNews(unlockedLesson).catch(() => []);
     if (news.length) {
       await refreshStats(index, unlockedLesson);
@@ -240,6 +265,19 @@ export default function App() {
 
   if (view === 'road') {
     return <Road maxLesson={unlockedLesson} rankTier={rankFor(player.level).tier} onExit={afterGame} />;
+  }
+
+  if (view === 'lluvia') return <Lluvia maxLesson={unlockedLesson} settings={settings} onExit={afterGame} />;
+  if (view === 'luka') return <Luka maxLesson={unlockedLesson} settings={settings} onExit={afterGame} />;
+  if (view === 'eco') return <Eco maxLesson={unlockedLesson} onExit={afterGame} />;
+
+  if (view === 'arcade') {
+    return (
+      <>
+        <Arcade unlockedLesson={unlockedLesson} onPlay={(id) => playGame(id, 'arcade')} onBack={() => setView('tree')} />
+        {toast && <div className="toast">{toast}</div>}
+      </>
+    );
   }
 
   if (view === 'hardList') {
@@ -440,12 +478,19 @@ export default function App() {
           <button className="quick-btn" onClick={() => setView('quick')}>
             <Icon name="bolt" size={13} /> 2 min
           </button>
-          <button className="quick-btn" onClick={() => setView('pairs')}>
-            <Icon name="pairs" size={13} /> Pary
+          <button className="quick-btn games-btn" onClick={() => setView('arcade')}>
+            <Icon name="games" size={14} /> Gry
           </button>
-          <button className="quick-btn" onClick={() => setView('road')}>
-            <Icon name="road" size={13} /> Droga
-          </button>
+          {(() => {
+            // ostatnio grana gra jednym dotknięciem (zamknięta — wtedy Droga)
+            const g = gameById(lastGame);
+            const game = g && !gameLock(g, unlockedLesson, hasVoice()) ? g : gameById(DEFAULT_LAST_GAME);
+            return (
+              <button className="quick-btn" title={`Zagraj: ${game.name}`} onClick={() => playGame(game.id)}>
+                <Icon name={game.icon} size={13} /> {game.name}
+              </button>
+            );
+          })()}
           {mistakeCount > 0 && (
             <button className="quick-btn mistakes-btn" title="Powtórka dzisiejszych błędów" onClick={() => setView('mistakes')}>
               <Icon name="repeat" size={13} /> {mistakeCount}

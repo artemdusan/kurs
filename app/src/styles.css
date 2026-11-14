@@ -1161,3 +1161,111 @@ h3, .preview-h { font-family: var(--ui); font-size: 12px; font-weight: 800; lett
 .road-mult { font-size: 10px; padding: 3px 5px; background: var(--card2); color: var(--amber); animation: popBlock 0.2s steps(3); }
 .road-mult.max { background: var(--gold); color: #3b2900; }
 .road .session-top > .btn.ghost { min-width: 96px; text-align: left; }
+
+/* ===== salon gier (Arcade.jsx) ===== */
+.screen.arcade { gap: 12px; }
+.arcade-top { display: flex; align-items: center; gap: 10px; }
+.arcade-top h2 { margin: 0; flex: 1; font-family: var(--pixel); font-size: 14px; }
+.arcade-xp { display: flex; flex-direction: column; align-items: flex-end; gap: 4px; min-width: 120px; font-family: var(--pixel); font-size: 8px; color: var(--gold); }
+.arcade-xp .xp-line { height: 4px; background: var(--card); box-shadow: 0 0 0 1px var(--edge-dark); }
+.arcade-featured {
+  display: flex; align-items: center; gap: 8px; width: 100%;
+  border: none; border-radius: 0; padding: 10px 12px; cursor: pointer;
+  font: inherit; font-size: 13px; color: #3b2900; text-align: left;
+  background: var(--gold);
+  box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 0.5), inset -2px -2px 0 rgba(0, 0, 0, 0.3), 0 4px 0 var(--gold-dark);
+}
+.arcade-featured:active { transform: translateY(2px); box-shadow: inset 2px 2px 0 rgba(255, 255, 255, 0.5), inset -2px -2px 0 rgba(0, 0, 0, 0.3), 0 2px 0 var(--gold-dark); }
+.arcade-featured.done { background: var(--card); color: var(--muted); box-shadow: inset 2px 2px 0 var(--edge-light), inset -2px -2px 0 var(--edge-dark); }
+.arcade-featured-label { flex: 1; min-width: 0; }
+.arcade-featured-value { font-family: var(--pixel); font-size: 9px; white-space: nowrap; }
+.arcade-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+.arcade-card {
+  display: flex; flex-direction: column; align-items: flex-start; gap: 5px; min-width: 0;
+  border: none; border-radius: 0; padding: 12px; cursor: pointer; text-align: left;
+  font: inherit; color: var(--text); background: var(--card);
+  box-shadow: inset 2px 2px 0 var(--edge-light), inset -2px -2px 0 var(--edge-dark), 0 4px 0 #14101a;
+  animation: popBlock 0.2s steps(3);
+}
+.arcade-card:active:not(:disabled) { transform: translateY(2px); box-shadow: inset 2px 2px 0 var(--edge-light), inset -2px -2px 0 var(--edge-dark), 0 2px 0 #14101a; }
+.arcade-card.featured { box-shadow: inset 2px 2px 0 var(--gold), inset -2px -2px 0 var(--gold-dark), 0 4px 0 #14101a; }
+.arcade-card.locked { opacity: 0.55; cursor: default; animation: none; }
+.arcade-card-head { display: flex; align-items: center; gap: 8px; color: var(--amber); }
+.arcade-card-name { font-family: var(--pixel); font-size: 11px; color: var(--text); }
+.arcade-card-teaches { font-family: var(--pixel); font-size: 8px; color: var(--blue); text-transform: uppercase; }
+.arcade-card-blurb { font-size: 12px; line-height: 1.35; color: var(--muted); }
+.arcade-card-foot { display: flex; align-items: center; flex-wrap: wrap; gap: 4px; margin-top: auto; padding-top: 4px; font-family: var(--pixel); font-size: 8px; color: var(--gold); }
+.arcade-card.locked .arcade-card-foot { color: var(--muted); }
+.arcade-card-extra { color: var(--muted); }
+.arcade-note { margin: 0; text-align: center; }
+.games-btn { color: var(--amber); }
+
+/* rekordy wszystkich gier w Statystykach */
+.game-records-row { display: flex; justify-content: space-between; gap: 6px; flex-wrap: wrap; }
+.game-record { display: inline-flex; align-items: center; gap: 5px; color: var(--amber); }
+.game-record b { font-family: var(--pixel); font-size: 10px; font-weight: normal; }
+.game-record.none { color: var(--muted); }
+
+/* wspólne dla gier z salonu */
+.screen.game { height: 100dvh; overflow: hidden; }
+.game-tag { display: inline-flex; align-items: center; gap: 6px; font-family: var(--pixel); font-size: 12px; color: var(--blue); }
+.game-answer { margin: 0; font-size: 16px; text-align: center; line-height: 1.5; }
+.game-answer b { color: var(--gold); }
+.game-answer small { display: block; color: var(--muted); font-size: 12px; }
+
+/* „Lluvia” */
+.lluvia-field { position: relative; flex: 1; min-height: 0; background: rgba(76, 194, 255, 0.05); box-shadow: inset 0 0 0 2px var(--edge-dark); overflow: hidden; }
+.lluvia-field::after { content: ''; position: absolute; left: 0; right: 0; bottom: 0; height: 6px; background: #2f4358; }
+.lluvia-drop {
+  position: absolute; left: 50%; top: 0; transform: translate(-50%, 0);
+  display: flex; flex-direction: column; align-items: center; gap: 2px;
+  padding: 10px 16px; max-width: 90%; background: #2f4358; will-change: transform;
+  box-shadow: inset 2px 2px 0 var(--edge-light), inset -2px -2px 0 var(--edge-dark), 0 4px 0 #14101a;
+}
+.lluvia-drop.low { background: #5a3a2c; }
+.lluvia-drop.ok { background: var(--green-dark); }
+.lluvia-drop.bad { background: var(--red-dark); animation: shake 0.3s steps(6); }
+.lluvia-form { font-size: 26px; font-weight: 800; line-height: 1.15; overflow-wrap: anywhere; text-align: center; }
+.lluvia-meta { font-size: 11px; color: var(--muted); }
+.lluvia-persons { display: grid; grid-template-columns: repeat(3, 1fr); gap: 8px; flex: none; }
+.lluvia-person {
+  min-height: 52px; border: none; border-radius: 0; cursor: pointer;
+  font: inherit; font-size: 15px; font-weight: 700; color: var(--text); background: var(--card2);
+  box-shadow: inset 2px 2px 0 var(--edge-light), inset -2px -2px 0 var(--edge-dark), 0 4px 0 #14101a;
+}
+.lluvia-person:active { transform: translateY(2px); }
+.lluvia-person.ok { background: var(--green); color: #06280f; }
+.lluvia-person.bad { background: var(--red); color: #fff; animation: shake 0.3s steps(6); }
+.lluvia-person.right { box-shadow: inset 0 0 0 3px var(--green), 0 4px 0 #14101a; }
+.lluvia.fever .lluvia-field { background: rgba(255, 210, 63, 0.06); }
+
+/* „Luka” i „Eco” */
+.quiz-prompt { flex: 1; min-height: 0; display: flex; flex-direction: column; justify-content: center; }
+.quiz-prompt .cloze-es { font-size: 21px; }
+.quiz-prompt .cloze-pl { font-size: 14px; }
+.quiz-options { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; flex: none; }
+.quiz-option {
+  min-height: 60px; padding: 8px; border: none; border-radius: 0; cursor: pointer;
+  font: inherit; font-size: 16px; font-weight: 700; line-height: 1.2; color: var(--text); background: var(--card2);
+  overflow-wrap: anywhere;
+  box-shadow: inset 2px 2px 0 var(--edge-light), inset -2px -2px 0 var(--edge-dark), 0 4px 0 #14101a;
+  animation: popBlock 0.2s steps(3);
+}
+.quiz-option:disabled { cursor: default; }
+.quiz-option.ok { background: var(--green); color: #06280f; }
+.quiz-option.bad { background: var(--red); color: #fff; animation: shake 0.3s steps(6); }
+.quiz.fever .pairs-combo { color: var(--gold); text-shadow: 0 0 8px rgba(255, 210, 63, 0.7); }
+.quiz.fever .session-progress-fill.pairs-time { background: var(--gold); }
+.eco-prompt { display: flex; flex-direction: column; align-items: center; gap: 14px; }
+.eco-play {
+  width: 96px; height: 96px; border: none; border-radius: 0; cursor: pointer; color: #06283d; background: var(--blue);
+  display: flex; align-items: center; justify-content: center;
+  box-shadow: inset 3px 3px 0 rgba(255, 255, 255, 0.4), inset -3px -3px 0 rgba(0, 0, 0, 0.3), 0 5px 0 #14101a;
+}
+.eco-play:active { transform: translateY(3px); box-shadow: inset 3px 3px 0 rgba(255, 255, 255, 0.4), inset -3px -3px 0 rgba(0, 0, 0, 0.3), 0 2px 0 #14101a; }
+.eco-word { margin: 0; min-height: 1.4em; font-size: 13px; color: var(--muted); text-align: center; }
+.eco-word.shown { font-size: 26px; font-weight: 800; color: var(--text); animation: popBlock 0.2s steps(3); }
+
+@media (prefers-reduced-motion: reduce) {
+  .arcade-card, .quiz-option, .quiz-option.bad, .lluvia-drop.bad, .lluvia-person.bad, .eco-word.shown { animation: none; }
+}
