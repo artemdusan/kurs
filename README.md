@@ -79,10 +79,14 @@ Skrypt `scripts/copy-data.mjs` kopiuje dane kursu do `app/public/data` przed dev
 - **Droga** (`Road.jsx`): jazda w pseudo-3D rysowana na canvasie 2D. Lewy pas to „el”,
   prawy „la”; wjeżdżasz w bramkę pasującą do rzeczownika. Trafienia przyspieszają jazdę,
   pierwsza stłuczka kończy grę (bez żyć). Punkty jak w „Parach”, skrót `/?start=road`.
-  Jazda to podróż przez Hiszpanię (`engine/journey.js`): co 10 trafień bez stłuczki auto
-  wjeżdża do kolejnego regionu (Madrid, La Mancha, Andalucía, Pirineos, Costa Brava,
-  Barcelona nocą) i krajobraz się zmienia. Pierwszy wjazd do regionu daje pocztówkę
-  do kolekcji (5 do zebrania, widać je na końcu jazdy i w Statystykach). Pocztówki nie dają XP.
+  Jazda to podróż (`engine/journey.js`): co 10 trafień bez stłuczki auto wjeżdża do
+  kolejnego regionu i krajobraz się zmienia. Są cztery trasy po 6 regionów:
+  **España** (Madrid, La Mancha, Andalucía, Pirineos, Costa Brava, Barcelona nocą),
+  **México** (Ciudad de México, Teotihuacán, Desierto de Sonora, Guanajuato, Cancún, Oaxaca w Día de Muertos),
+  **Caribe** (La Habana, Viñales, San Juan, Volcán Arenal, Canal de Panamá, Tikal) i
+  **Sudamérica** (Bogotá, Machu Picchu, Salar de Uyuni, Valparaíso, Buenos Aires, Patagonia).
+  Pierwszy wjazd do regionu daje pocztówkę (20 do zebrania, bez XP). Kolejna trasa otwiera się
+  po 3 pocztówkach z poprzedniej; trasę wybiera się na ekranie końca jazdy i jest zapamiętana.
 - **Limit XP z gier**: wszystkie gry liczą się do XP (i liczników dnia) najwyżej do
   30 trafień dziennie, łącznie. Ponad limit gra się o rekord i pocztówki, a czas
   gry dalej liczy się do dziennego celu minut. Licznik jest lokalny, synchronizacja bez zmian.

@@ -1269,3 +1269,18 @@ h3, .preview-h { font-family: var(--ui); font-size: 12px; font-weight: 800; lett
 @media (prefers-reduced-motion: reduce) {
   .arcade-card, .quiz-option, .quiz-option.bad, .lluvia-drop.bad, .lluvia-person.bad, .eco-word.shown { animation: none; }
 }
+
+/* „Droga”: wybór trasy (Hiszpania, Meksyk, Karaiby, Ameryka Południowa) */
+.road-trips { display: grid; grid-template-columns: repeat(4, 1fr); gap: 6px; width: 100%; }
+.road-trip {
+  display: flex; flex-direction: column; align-items: center; gap: 3px; min-width: 0;
+  padding: 7px 2px; border: none; border-radius: 0; cursor: pointer;
+  font-family: var(--pixel); font-size: 7px; line-height: 1.3; color: var(--text); background: var(--card);
+  box-shadow: inset 2px 2px 0 var(--edge-light), inset -2px -2px 0 var(--edge-dark);
+  overflow-wrap: anywhere;
+}
+.road-trip small { font-family: var(--ui, inherit); font-size: 10px; color: var(--muted); }
+.road-trip.on { background: var(--gold); color: #3b2900; }
+.road-trip.on small { color: #5c4400; }
+.road-trip.locked { opacity: 0.55; cursor: default; }
+.road-region-name.long { font-size: 7px; }

@@ -254,7 +254,7 @@ export default function Stats({ maxLesson, lessonCount = 100, onBack, onHard }) 
           <span className={'stat-big' + (data.weekAccuracy === null ? ' none' : '')}>{data.weekAccuracy === null ? '—' : data.weekAccuracy + '%'}</span>
           <span className="stat-label">skuteczność (7 dni)</span>
         </div>
-        <div className="stat-tile" title="Pocztówki z podróży w „Drodze”: pierwszy wjazd do regionu (co 10 trafień bez stłuczki)">
+        <div className="stat-tile" title="Pocztówki z podróży w „Drodze”: pierwszy wjazd do regionu (co 10 trafień bez stłuczki); 3 pocztówki z trasy otwierają kolejny kraj">
           <span className="stat-big"><Icon name="star" size={18} /> {data.postcards}/{POSTCARDS.length}</span>
           <span className="stat-label">pocztówki z „Drogi”</span>
         </div>

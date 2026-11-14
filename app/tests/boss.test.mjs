@@ -2,7 +2,7 @@ import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { BOSS_TYPES, bossFor, applyHit, applyMiss, isDefeated, fiftyFifty, BOSS_HEARTS } from '../src/engine/boss.js';
 import { SPRITES } from '../src/engine/sprites.js';
-import { REGIONS, POSTCARDS, regionAt } from '../src/engine/journey.js';
+import { REGIONS, POSTCARDS, TRIPS, regionAt, openTrips, tripByKey } from '../src/engine/journey.js';
 import { MAP_CELLS } from '../src/engine/map.js';
 import 'fake-indexeddb/auto';
 import { rankFor, levelRewards, gameCounters, HEART_STOCK_MAX, JOKER_MAX, LEVEL_BONUS_XP, GAME_XP_HITS } from '../src/engine/insights.js';
@@ -70,8 +70,28 @@ test('the road trip changes region every 10 hits and stops at the last one', () 
   assert.equal(regionAt(10), 1);
   assert.equal(REGIONS[regionAt(25)].key, 'andalucia');
   assert.equal(regionAt(500), REGIONS.length - 1);
-  assert.equal(POSTCARDS.length, REGIONS.length - 1);
+  assert.equal(regionAt(500, 4), 3);
   assert.ok(!POSTCARDS.some((p) => p.key === 'madrid'));
+});
+
+test('road trips: every trip has 6 regions with unique keys, the next one opens after 3 postcards', () => {
+  assert.equal(TRIPS[0].key, 'espana');
+  const keys = TRIPS.flatMap((t) => t.regions.map((r) => r.key));
+  assert.equal(new Set(keys).size, keys.length);
+  for (const t of TRIPS) {
+    assert.equal(t.regions.length, 6, t.key);
+    for (const r of t.regions) {
+      assert.ok(r.es && r.pl && r.country && r.far, r.key);
+      assert.equal(r.sky.length, 6, r.key);
+      assert.equal(r.ground.length, 2, r.key);
+    }
+  }
+  assert.equal(POSTCARDS.length, TRIPS.length * 5);
+  assert.deepEqual(openTrips({}), ['espana']);
+  assert.deepEqual(openTrips({ mancha: 1, andalucia: 1 }), ['espana']);
+  assert.deepEqual(openTrips({ mancha: 1, andalucia: 1, costa: 1 }), ['espana', 'mexico']);
+  assert.deepEqual(openTrips({ mancha: 1, andalucia: 1, costa: 1, teotihuacan: 1, sonora: 1, cancun: 1 }), ['espana', 'mexico', 'caribe']);
+  assert.equal(tripByKey('nope').key, 'espana');
 });
 
 test('the course map has one cell per lesson', () => {

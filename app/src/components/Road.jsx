@@ -1,7 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { addActivity } from '../activity.js';
 import { loadDeck, sprintDeck, pairPoints, saveGameScore, countGameHits } from '../engine/insights.js';
-import { REGIONS, REGION_HITS, POSTCARDS, regionAt, drawScenery, postcards, collectPostcard, farthestRegion, saveFarthest } from '../engine/journey.js';
+import { getMeta, setMeta } from '../db.js';
+import { TRIPS, REGION_HITS, TRIP_UNLOCK, tripByKey, tripPostcards, openTrips, regionAt, drawScenery, postcards, collectPostcard, farthestRegion, saveFarthest } from '../engine/journey.js';
 import { localDay } from '../../../shared/learning.js';
 import Icon from './Icon.jsx';
 import GameXp from './GameXp.jsx';
@@ -12,7 +13,8 @@ import { sfx } from '../sound.js';
 // Mini gra „Droga”: jedziesz w głąb ekranu, nadjeżdża bramka z dwoma pasami —
 // lewy to „el”, prawy to „la”. Wjedź w pas pasujący do rzeczownika. Każde trafienie
 // przyspiesza jazdę, pierwsza stłuczka kończy grę. Co 10 trafień auto wjeżdża
-// do kolejnego regionu Hiszpanii (engine/journey.js) — pierwszy wjazd daje pocztówkę. Jak „Pary”: nie zmienia poziomów kart,
+// do kolejnego regionu trasy (Hiszpania, Meksyk, Karaiby, Ameryka Południowa — engine/journey.js);
+// pierwszy wjazd daje pocztówkę, a 3 pocztówki z trasy otwierają następną. Jak „Pary”: nie zmienia poziomów kart,
 // ale liczy się do dnia nauki.
 // Droga jest rysowana w pseudo-3D na zwykłym canvasie 2D, w niskiej rozdzielczości
 // powiększonej bez wygładzania — stąd pikselowy wygląd bez żadnej biblioteki.
@@ -36,7 +38,7 @@ export const CAR_PAINTS = [
 export const carPaint = (tier) => CAR_PAINTS[Math.max(0, Math.min(CAR_PAINTS.length - 1, tier || 0))];
 
 function draw(ctx, W, H, g, labels, paint) {
-  const { y0, ground, cx, roadW } = drawScenery(ctx, W, H, REGIONS[g.region], g.pos);
+  const { y0, ground, cx, roadW } = drawScenery(ctx, W, H, g.trip.regions[g.region], g.pos);
   // bramka: dwa pola nad pasami, rosną wraz z przybliżaniem
   if (g.gate > 0) {
     const k = 1 / g.gate;
@@ -85,7 +87,11 @@ export default function Road({ maxLesson, rankTier = 0, onExit }) {
   const [phase, setPhase] = useState('load'); // load | play | done | empty
   const [best, setBest] = useState(0);
   const [record, setRecord] = useState(false);
-  const [region, setRegion] = useState(0); // indeks w REGIONS
+  const [region, setRegion] = useState(0); // indeks w regionach trasy
+  const [tripKey, setTripKey] = useState('espana'); // wybrana trasa (zapamiętana w meta „roadTrip”)
+  const [opened, setOpened] = useState(['espana']); // otwarte trasy
+  const [newTrip, setNewTrip] = useState(null); // trasa otwarta w tej jeździe
+  const openedRef = useRef(['espana']);
   const [banner, setBanner] = useState(null); // { es, pl, fresh } po wjeździe do regionu
   const [counted, setCounted] = useState(null); // co z jazdy zaliczono do XP (limit dzienny)
   const [album, setAlbum] = useState({}); // zebrane pocztówki
@@ -96,7 +102,7 @@ export default function Road({ maxLesson, rankTier = 0, onExit }) {
   const posRef = useRef(0);
   const cardRef = useRef(null);
   const statsRef = useRef({ hits: 0, mistakes: 0, seconds: 0, saved: false });
-  const g = useRef({ pos: 0, gate: GATE_START, lane: 0, carX: 0.25, shake: 0, wait: 0, verdict: null, combo: 0, score: 0, crashed: false, region: 0 }).current;
+  const g = useRef({ pos: 0, gate: GATE_START, lane: 0, carX: 0.25, shake: 0, wait: 0, verdict: null, combo: 0, score: 0, crashed: false, region: 0, trip: TRIPS[0] }).current;
 
   function nextCard() {
     const deck = deckRef.current;
@@ -123,19 +129,35 @@ export default function Road({ maxLesson, rankTier = 0, onExit }) {
     const previous = await saveGameScore('road', g.score, localDay());
     setBest(Math.max(previous, g.score));
     if (g.score > previous && previous > 0) { setRecord(true); rain({ colors: COLORS.gold, seconds: 2 }); sfx.fanfare(); }
-    await saveFarthest(g.region);
-    setFarthest(await farthestRegion());
-    setAlbum(await postcards());
+    await saveFarthest(g.region, g.trip.key);
+    setFarthest(await farthestRegion(g.trip.key));
+    const album = await postcards();
+    setAlbum(album);
+    const open = openTrips(album);
+    // porównanie z ref, bo pętla klatek trzyma starsze domknięcie stanu
+    const fresh = open.find((k) => !openedRef.current.includes(k));
+    setNewTrip(fresh ? tripByKey(fresh) : null);
+    openedRef.current = open;
+    setOpened(open);
     setCounted(await save());
   }
 
-  function start() {
+  function chooseTrip(key) {
+    setTripKey(key);
+    setMeta('roadTrip', key).catch(() => {});
+  }
+
+  function start(key = tripKey) {
+    g.trip = tripByKey(key);
     statsRef.current = { hits: 0, mistakes: 0, seconds: 0, saved: false };
     deckRef.current = [...deckRef.current].sort(() => Math.random() - 0.5);
     posRef.current = 0;
     Object.assign(g, { pos: 0, lane: 0, carX: 0.25, shake: 0, wait: 0, combo: 0, score: 0, crashed: false, region: 0 });
     setScore(0); setCombo(0); setLane(0); setRecord(false);
-    setRegion(0); setBanner(null); setCounted(null);
+    setRegion(0); setCounted(null); setNewTrip(null);
+    const first = g.trip.regions[0];
+    setBanner({ es: first.es, pl: first.country, fresh: false });
+    setTimeout(() => setBanner((b) => (b && b.es === first.es ? null : b)), 1800);
     freshRef.current = [];
     setPhase('play');
     nextCard();
@@ -151,8 +173,8 @@ export default function Road({ maxLesson, rankTier = 0, onExit }) {
     if (next <= g.region) return;
     g.region = next;
     setRegion(next);
-    const place = REGIONS[next];
-    setBanner({ es: place.es, pl: place.pl, fresh: false });
+    const place = g.trip.regions[next];
+    setBanner({ es: place.es, pl: `${place.country} · ${place.pl}`, fresh: false });
     rain({ seconds: 1.2 });
     const fresh = await collectPostcard(place.key, localDay());
     if (fresh) {
@@ -179,7 +201,7 @@ export default function Road({ maxLesson, rankTier = 0, onExit }) {
       floatText({ x: at.x, y: at.y - 40 }, `+${points}`, { color: g.combo >= 3 ? '#ffd23f' : '#ffffff' });
       sfx.pair(g.combo);
       g.wait = 0.25;
-      enterRegion(regionAt(statsRef.current.hits));
+      enterRegion(regionAt(statsRef.current.hits, g.trip.regions.length));
     } else {
       g.combo = 0;
       g.crashed = true; // bez żyć: pierwsza stłuczka kończy jazdę
@@ -201,7 +223,15 @@ export default function Road({ maxLesson, rankTier = 0, onExit }) {
       if (cancelled) return;
       deckRef.current = deck;
       if (deck.length < 4) { setPhase('empty'); return; }
-      start();
+      // ostatnio wybrana trasa, o ile jest otwarta
+      const open = openTrips(await postcards());
+      const saved = await getMeta('roadTrip', 'espana');
+      const key = open.includes(saved) ? saved : 'espana';
+      if (cancelled) return;
+      openedRef.current = open;
+      setOpened(open);
+      setTripKey(key);
+      start(key);
     })();
     return () => { cancelled = true; save(); };
     // eslint-disable-next-line react-hooks/exhaustive-deps
@@ -267,15 +297,36 @@ export default function Road({ maxLesson, rankTier = 0, onExit }) {
         <h2>{record ? 'Nowy rekord!' : 'Koniec jazdy!'}</h2>
         <p className={'pairs-final' + (record ? ' record' : '')}>{score}</p>
         <p className="pairs-sub"><Icon name="trophy" size={14} /> rekord: {best}</p>
-        <p className="hint">Trafione: {s.hits} · region: <b>{REGIONS[region].es}</b>{farthest > region ? ` · najdalej: ${REGIONS[farthest].es}` : ''}</p>
+        <p className="hint">Trafione: {s.hits} · region: <b>{g.trip.regions[region].es}</b>{farthest > region ? ` · najdalej: ${g.trip.regions[farthest].es}` : ''}</p>
         <GameXp counted={counted} />
         {freshRef.current.length > 0 && (
-          <p className="road-fresh">Nowa pocztówka: {freshRef.current.map((k) => REGIONS.find((r) => r.key === k).es).join(', ')}!</p>
+          <p className="road-fresh">Nowa pocztówka: {freshRef.current.map((k) => g.trip.regions.find((r) => r.key === k).es).join(', ')}!</p>
         )}
-        <div className="postcards" aria-label={`Pocztówki: ${POSTCARDS.filter((p) => album[p.key]).length} z ${POSTCARDS.length}`}>
-          {POSTCARDS.map((p) => <Postcard key={p.key} region={p} owned={Boolean(album[p.key])} fresh={freshRef.current.includes(p.key)} />)}
+        {newTrip && <p className="road-fresh">Nowa trasa otwarta: {newTrip.es} ({newTrip.pl})!</p>}
+        <div className="road-trips" role="radiogroup" aria-label="Trasa">
+          {TRIPS.map((t, i) => {
+            const open = opened.includes(t.key);
+            const have = tripPostcards(t).filter((p) => album[p.key]).length;
+            return (
+              <button
+                key={t.key}
+                role="radio"
+                aria-checked={tripKey === t.key}
+                className={'road-trip' + (tripKey === t.key ? ' on' : '') + (open ? '' : ' locked')}
+                disabled={!open}
+                title={open ? `${t.pl}: ${have}/${tripPostcards(t).length} pocztówek` : `Otwiera się po ${TRIP_UNLOCK} pocztówkach z trasy ${TRIPS[i - 1].es}`}
+                onClick={() => chooseTrip(t.key)}
+              >
+                {open ? t.es : <><Icon name="lock" size={10} /> {t.es}</>}
+                <small>{open ? `${have}/${tripPostcards(t).length}` : `${TRIP_UNLOCK} z ${TRIPS[i - 1].es}`}</small>
+              </button>
+            );
+          })}
         </div>
-        <button className="btn primary big" onClick={start}>Jeszcze raz</button>
+        <div className="postcards" aria-label={`Pocztówki trasy ${tripByKey(tripKey).es}`}>
+          {tripPostcards(tripByKey(tripKey)).map((p) => <Postcard key={p.key} region={p} owned={Boolean(album[p.key])} fresh={freshRef.current.includes(p.key)} />)}
+        </div>
+        <button className="btn primary big" onClick={() => start()}>{tripKey === g.trip.key ? 'Jeszcze raz' : `Jedź: ${tripByKey(tripKey).es}`}</button>
         <button className="btn" onClick={() => onExit()}>Wróć do kursu</button>
       </div>
     );
@@ -288,9 +339,9 @@ export default function Road({ maxLesson, rankTier = 0, onExit }) {
         <button className="btn ghost" onClick={async () => { await save(); onExit(); }} aria-label="Zakończ grę">
           <Icon name="close" />
         </button>
-        <span className="road-region" aria-label={`Region: ${REGIONS[region].es}`}>
-          <span className="road-region-name">{REGIONS[region].es}</span>
-          {region < REGIONS.length - 1 && (
+        <span className="road-region" aria-label={`Region: ${g.trip.regions[region].es}`}>
+          <span className={'road-region-name' + (g.trip.regions[region].es.length > 12 ? ' long' : '')}>{g.trip.regions[region].es}</span>
+          {region < g.trip.regions.length - 1 && (
             <span className="road-region-bar" aria-hidden="true">
               {Array.from({ length: REGION_HITS }, (_, i) => <i key={i} className={i < statsRef.current.hits - region * REGION_HITS ? 'on' : ''} />)}
             </span>
